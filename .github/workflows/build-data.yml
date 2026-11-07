@@ -35,8 +35,7 @@ jobs:
         with:
           name: reports
           path: data/*.md
-
-            - name: Commit generated data
+        - name: Commit generated data
         if: always()
         run: | 
           git config user.name "github-actions[bot]"
