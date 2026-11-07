@@ -58,6 +58,28 @@ def parse(text: str):
     return sections
 
 
+def write_debug(text, sections, missing):
+    """Write data/parse_debug.md: shows the raw text around problem spots so the heading pattern can be fixed."""
+    out = ["# Parse debug", "", f"- Act text length: {len(text)} characters"]
+    if sections:
+        last = sections[-1]
+        out.append(f"- Last section found: {last['section']} ({last['title']})")
+    out += ["", "## Last 500 characters of the Act text", "```", repr(text[-500:]), "```", ""]
+    probes = [n for n in missing if n.isdigit()]
+    chosen = [n for n in probes if int(n) < 253][:3] + [n for n in probes if int(n) >= 253][:3]
+    for n in chosen:
+        pat = re.compile(r"(?m)^[ \t]*%s[A-Z]?[ \t]*[.\-]|(?<!\d)%s\.[ \t]+[A-Z]" % (n, n))
+        hits = list(pat.finditer(text))[:3]
+        out.append(f"## Section {n}: {len(hits)} possible heading(s) shown")
+        for m in hits:
+            a, b = max(0, m.start() - 60), min(len(text), m.end() + 200)
+            out += ["```", repr(text[a:b]), "```"]
+        if not hits:
+            out.append("(nothing that looks like a heading for this number)")
+        out.append("")
+    Path("data/parse_debug.md").write_text("\n".join(out) + "\n", encoding="utf-8")
+
+
 def main():
     files = sorted(Path("data/raw/act").rglob("*.txt"))
     if not files:
@@ -82,6 +104,7 @@ def main():
         "",
         "Omitted sections (for example 'Omitted.' or 'Repealed.') may show up as missing or empty. That is expected.",
     ]
+    write_debug(text, sections, missing)
     Path("data/parse_report.md").write_text("\n".join(report) + "\n", encoding="utf-8")
     print("\n".join(report))
 
