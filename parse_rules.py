@@ -23,7 +23,7 @@ NOISE_RE = re.compile(r"^[ \t]*\d{1,3}[ \t]*$", re.MULTILINE)
 # after the last rule, forms and annexures begin
 ENDMARK_RE = re.compile(r"^[ \t]*(?:FORM[ \t]+NO\b|ANNEXURE\b|APPENDIX\b|SCHEDULE\b|THE[ \t]+(?:FIRST|SECOND)[ \t]+SCHEDULE)", re.MULTILINE)
 CALLED_RE = re.compile(
-    r"may\s+be\s+called\s+(?:the\s+)?(.{5,200}?(?:Rules|Regulations|Scheme|Order|Directions)[\s,]*(?:19|20)\d{2})",
+    r"may\s+be\s+(?:called|cited)\s+(?:as\s+)?(?:the\s+)?(.{5,200}?(?:Rules|Regulations|Scheme|Order|Directions)[\s,]*(?:19|20)\d{2})",
     re.DOTALL,
 )
 # "section 164", "sections 149, 150 and 152", "section 164(1)(a)"
@@ -61,7 +61,11 @@ def longest_increasing(cands):
     return [cands[i][1] for i in reversed(chain)]
 
 
+NAMELY_RE = re.compile(r"(namely\s*[:\-—–]*)[ \t]*(?=(?:\d{0,2}\[)?1\.[ \t]*[A-Z\[])")
+
+
 def split_rules(text):
+    text = NAMELY_RE.sub(r"\1\n", text)
     cands = []
     for m in RULE_RE.finditer(text):
         key = sort_key(m.group("num"))
@@ -78,13 +82,16 @@ def split_rules(text):
         body = re.sub(r"\n{3,}", "\n\n", NOISE_RE.sub("", text[m.end("end"):end])).strip()
         rules.append({"rule": m.group("num"), "title": re.sub(r"\s+", " ", m.group("title")).strip(), "text": body})
     preamble = text[:kept[0].start()] if kept else ""
-    return rules, preamble
+    return rules, preamble, text
 
 
 def rule_set_name(text, stem):
     m = CALLED_RE.search(text[:40000])
     if m:
-        return re.sub(r"\s+", " ", m.group(1)).strip(" ,")
+        name = re.sub(r"\s+", " ", m.group(1))
+        name = re.sub(r"\d{1,2}\[|\]", "", name)                       # footnote markers such as 1[...]
+        name = re.sub(r"^(?:(?:as|of)\s+)?(?:the\s+)?", "", name, flags=re.IGNORECASE)
+        return name.strip(" ,")
     return stem.replace("-", " ").title()
 
 
@@ -112,32 +119,79 @@ def cited_sections(text, valid):
     return found
 
 
+RANK = {"high": 0, "medium": 1, "low": 2}
+
+
+def missing_numbers(rules):
+    if not rules:
+        return []
+    found = {r["rule"] for r in rules}
+    last = max(sort_key(r["rule"])[0] for r in rules)
+    return [str(n) for n in range(1, last + 1) if str(n) not in found]
+
+
+def context_for(text, n):
+    pat = re.compile(r"(?m)^[ \t]*(?:\d{0,2}\[)?%s[A-Z]?[ \t]*[.\-]|(?<!\d)%s\.[ \t]*[A-Z]" % (n, n))
+    for m in list(pat.finditer(text))[:2]:
+        a, b = max(0, m.start() - 60), min(len(text), m.end() + 200)
+        yield repr(text[a:b])
+
+
 def main():
     Path("data").mkdir(exist_ok=True)
     sp = Path("data/sections.json")
     valid = {s["section"] for s in json.loads(sp.read_text(encoding="utf-8"))} if sp.exists() else set()
     files = sorted(Path("data/raw/rules").rglob("*.txt"))
 
-    rule_sets, all_rules, debug, rows = [], [], ["# Rules debug", ""], []
+    docs = []
     for f in files:
         text = f.read_text(encoding="utf-8").replace("\r", "")
-        stem = f.stem
-        rules, preamble = split_rules(text)
-        name = rule_set_name(text, stem)
-        enabling = sorted(cited_sections(preamble[-3000:], valid), key=sort_key)
+        rules, preamble, text = split_rules(text)
+        docs.append({"stem": f.stem, "file": f.name, "text": text, "rules": rules, "preamble": preamble,
+                     "name": rule_set_name(text, f.stem)})
+
+    # The same Rules uploaded twice: keep the copy with most rules (latest file name on a tie)
+    best = {}
+    for d in docs:
+        k = re.sub(r"\W+", " ", d["name"]).lower().strip()
+        if k not in best or (len(d["rules"]), d["stem"]) > (len(best[k]["rules"]), best[k]["stem"]):
+            best[k] = d
+    kept_ids = {id(d) for d in best.values()}
+    skipped = [d for d in docs if id(d) not in kept_ids]
+    docs = [d for d in docs if id(d) in kept_ids]
+
+    rule_sets, all_rules, rows, probs = [], [], [], []
+    for d in docs:
+        stem, name, rules = d["stem"], d["name"], d["rules"]
+        enabling = sorted(cited_sections(d["preamble"][-3000:], valid), key=sort_key)
+        fallback = [s for s in enabling if s != "469"]
         for r in rules:
             cites = cited_sections(r["title"] + "\n" + r["text"], valid)
-            all_rules.append({
-                "id": f"{stem}#{r['rule']}", "rule_set_id": stem, "rule_set": name,
-                "rule": r["rule"], "title": r["title"], "text": r["text"],
-                "cites": [{"section": s, **cites[s]} for s in sorted(cites, key=sort_key)],
-            })
-        rule_sets.append({"id": stem, "name": name, "file": f.name, "rule_count": len(rules), "enabling_sections": enabling})
+            cl = [{"section": s, **cites[s]} for s in sorted(cites, key=sort_key)]
+            if not cl:  # no explicit citation: use the section(s) the Rules were made under
+                cl = [{"section": s, "mentions": 0, "confidence": "low"} for s in fallback]
+            all_rules.append({"id": f"{stem}#{r['rule']}", "rule_set_id": stem, "rule_set": name,
+                              "rule": r["rule"], "title": r["title"], "text": r["text"], "cites": cl})
+        rule_sets.append({"id": stem, "name": name, "file": d["file"], "rule_count": len(rules), "enabling_sections": enabling})
+        miss = missing_numbers(rules)
         first_last = f"{rules[0]['rule']} to {rules[-1]['rule']}" if rules else "-"
-        linked = sum(1 for r in all_rules if r["rule_set_id"] == stem and r["cites"])
-        rows.append(f"| {stem[:45]} | {name[:60]} | {len(rules)} | {first_last} | {linked} |")
-        if len(rules) < 3:
-            debug += [f"## {stem}: only {len(rules)} rule(s) found", "```", repr(text[:900]), "```", ""]
+        explicit = sum(1 for r in all_rules if r["rule_set_id"] == stem and any(c["confidence"] != "low" for c in r["cites"]))
+        shown = ", ".join(miss[:6]) + (" ..." if len(miss) > 6 else "")
+        rows.append(f"| {stem[:45]} | {name[:60]} | {len(rules)} | {first_last} | {len(miss)}: {shown} | {explicit} |")
+        if len(rules) < 3 or len(miss) >= 3:
+            probs.append((len(miss) if rules else 999, d, miss))
+
+    debug = ["# Rules debug", ""]
+    for _, d, miss in sorted(probs, key=lambda x: -x[0])[:10]:
+        if not d["rules"]:
+            debug += [f"## {d['stem']}: NO rules found", "```", repr(d["text"][:900]), "```", ""]
+            continue
+        debug.append(f"## {d['stem']}: {len(d['rules'])} found, {len(miss)} numbers missing")
+        for n in miss[:3]:
+            debug.append(f"Rule {n}:")
+            hits = list(context_for(d["text"], n))
+            debug += (["```", *hits, "```"] if hits else ["(nothing that looks like a heading)"])
+        debug.append("")
 
     by_section = {}
     for r in all_rules:
@@ -147,23 +201,26 @@ def main():
                 "mentions": c["mentions"], "confidence": c["confidence"],
             })
     for lst in by_section.values():
-        lst.sort(key=lambda x: (x["rule_set"], sort_key(x["rule"])))
+        lst.sort(key=lambda x: (RANK[x["confidence"]], x["rule_set"], sort_key(x["rule"])))
     ordered = {k: by_section[k] for k in sorted(by_section, key=sort_key)}
 
     Path("data/rules.json").write_text(json.dumps({"rule_sets": rule_sets, "rules": all_rules}, ensure_ascii=False, indent=1), encoding="utf-8")
     Path("data/links.json").write_text(json.dumps({"by_section": ordered}, ensure_ascii=False, indent=1), encoding="utf-8")
 
-    unlinked = sum(1 for r in all_rules if not r["cites"])
+    no_link = sum(1 for r in all_rules if not r["cites"])
+    low_only = sum(1 for r in all_rules if r["cites"] and all(c["confidence"] == "low" for c in r["cites"]))
     report = [
         "# Rules report", "",
-        f"- Rules documents read: {len(files)}",
+        f"- Rules documents read: {len(files)} (duplicates skipped: {len(skipped)})",
         f"- Individual rules found: {len(all_rules)}",
         f"- Sections of the Act that have at least one linked rule: {len(ordered)}",
-        f"- Rules that cite no section of the Act: {unlinked}",
-        "",
-        "| File | Rule set | Rules | Numbers | Rules citing a section |",
-        "|---|---|---|---|---|",
-    ] + rows
+        f"- Rules linked only through their rule set's enabling section (low confidence): {low_only}",
+        f"- Rules with no link at all: {no_link}",
+    ]
+    if skipped:
+        report += ["- Skipped duplicates: " + "; ".join(d["stem"][:50] for d in skipped)]
+    report += ["", "| File | Rule set | Rules | Numbers | Missing numbers | Rules citing a section |",
+               "|---|---|---|---|---|---|"] + rows
     Path("data/rules_report.md").write_text("\n".join(report) + "\n", encoding="utf-8")
     Path("data/rules_debug.md").write_text("\n".join(debug) + "\n", encoding="utf-8")
     print("\n".join(report))
