@@ -18,17 +18,25 @@ NOTNUM = r"(?![ \t]*" + PREFIX + r"\d{1,3}[A-Z]{0,2}\.)"
 
 # Heading with a dash: "6. Title.-", "6. Title.─", "6. Title:-", "13. Title- text", title may wrap over lines
 DASH_RE = re.compile(
-    START + r"\n?[ \t]*(?:\(\d{1,2}\)[ \t]*)?"
+    START + r"(?P<nl>\n?)[ \t]*(?:\(\d{1,2}\)[ \t]*)?"
     r"(?P<title>[A-Z\[“‘][^\n]{1,200}?(?:\n(?:[ \t]*\n)*" + NOTNUM + r"[^\n]{1,120}?){0,10}?)"
     r"(?:(?P<t1>[ \t]*\.\]?[ \t]*" + D + r"+|[ \t]*" + D + r"+\.\]?(?=[ \t]*\n))"
     r"|(?P<t2>[ \t]*:[ \t]*" + D + r"+)"
-    r"|(?P<t3>[ \t]*" + D + r"(?=[ \t\n])))"
+    r"|(?P<t3>[ \t]*" + D + r"(?=[ \t]+\S)))"
     r"(?P<end>))",
     re.MULTILINE,
 )
 # Heading with no dash: "2. Definitions." alone on a line
-PLAIN_RE = re.compile(START + r"(?P<title>[A-Z\[“‘][^\n]{1,100}?)\.\]?[ \t]*\n(?P<end>))", re.MULTILINE)
-STOP = re.compile(r"\b(?:shall|may|must|should|will|is|are|was|were|has|have|can|if|unless|where|whose|that|being|not)\b")
+PLAIN_RE = re.compile(
+    START + r"(?P<title>[A-Z\[“‘][^\n]{1,100}?(?:\n" + NOTNUM + r"[^\n]{1,100}?){0,2}?)\.\]?[ \t]*\n(?P<end>))",
+    re.MULTILINE,
+)
+# a rule that has no heading, or whose heading is followed by its text on the same line
+BARE_RE = re.compile(r"^[ \t]*" + PREFIX + r"[ \t]*(?P<num>\d{1,3}[A-Z]{0,2})\.[ \t]+(?P<body>[A-Z(\[“‘][^\n]*)", re.MULTILINE)
+OLD_TEXT = re.compile(r"stood as under|Prior to (?:omission|substitution)|for the (?:rule|rules|sub-rule|words|proviso|clause)", re.IGNORECASE)
+# vocabulary of footnotes such as "Substituted by ... vide Notification No. G.S.R. 42(E) ... w.e.f."
+FOOT_RE = re.compile(r"\bvide\b|\bNotification No\b|w\.e\.f|G\.S\.R|(?:Substituted|Inserted|Omitted|Amended) by\b")
+STOP = re.compile(r"\b(?:shall|may|must|should|will|is|are|was|were|has|have|can|if|unless|where|whose|that|being)\b")
 OMIT1 = re.compile(r"^[ \t]*" + PREFIX + r"[ \t]*(?P<num>\d{1,3}[A-Z]{0,2})\.[^\n]{0,80}\n?[ \t]*(?:\[\d{1,3}\])?\[\*{3}\]", re.MULTILINE)
 OMIT_AFTER = re.compile(r"[ \t]*\n?[ \t]*(?:\[\d{1,3}\])?\[\*{3}\]")
 OMIT2 = re.compile(r"\[Rule[ \t]+(?P<num>\d{1,3}[A-Z]{0,2})[ \t]+omitted\]", re.IGNORECASE)
@@ -91,15 +99,53 @@ def trim_chain(chain):
 
 
 def title_ok(title, kind):
+    t = title.strip()
+    if FOOT_RE.search(t):
+        return False
     if kind in ("t1", "t2"):
         return True
-    t = title.strip()
+    if kind == "plain":
+        return len(t) <= 170 and ". " not in t and not STOP.search(t)
     return len(t) <= 100 and "\n" not in t and ". " not in t and not STOP.search(t)
 
 
 def clean(text):
     text = FURNITURE_RE.sub("", text.replace("\r", ""))
     return NAMELY_RE.sub(r"\1\n", text)
+
+
+def derive_title(body_line):
+    """For '12. Application for incorporation. An application for ...' return (title, characters used)."""
+    sentence = body_line.split(". ")[0] if ". " in body_line else ""
+    if sentence and len(sentence) <= 100 and not STOP.search(sentence) and not FOOT_RE.search(sentence):
+        return sentence.strip(" ."), len(sentence) + 2
+    return "", 0
+
+
+def fill_gaps(text, items, omitted_nums):
+    """Rules with no recognisable heading: look for a bare '10. Where the articles ...' line between neighbours."""
+    out = []
+    for idx, a in enumerate(items):
+        out.append(a)
+        if idx + 1 >= len(items):
+            break
+        b = items[idx + 1]
+        na, nb = sort_key(a["num"])[0], sort_key(b["num"])[0]
+        pos = a["body"]
+        for n in range(na + 1, nb):
+            ns = str(n)
+            if ns in omitted_nums:
+                continue
+            for m in BARE_RE.finditer(text, pos, b["start"]):
+                if m.group("num") != ns:
+                    continue
+                if OLD_TEXT.search(text[max(0, m.start() - 350):m.start()]) or FOOT_RE.search(m.group("body")):
+                    continue
+                title, used = derive_title(m.group("body"))
+                out.append({"num": ns, "title": title, "start": m.start(), "body": m.start("body") + used, "untitled": not title})
+                pos = m.end()
+                break
+    return out
 
 
 def split_rules(text):
@@ -111,32 +157,36 @@ def split_rules(text):
             if not 1 <= key[0] <= RULE_MAX:
                 continue
             kind = "plain" if plain else ("t1" if m.group("t1") else "t2" if m.group("t2") else "t3")
+            if kind == "t3" and m.group("nl"):
+                continue                      # "31.\nOmitted by ..." is a footnote, not a heading
             if OMIT_AFTER.match(text, m.end("end")):
                 continue                      # "5. Penalty. [13][***]" is an omitted rule, not a live one
             if title_ok(m.group("title"), kind) and m.start() not in cands:
                 cands[m.start()] = (key, m)
     kept = trim_chain(longest_increasing([cands[p] for p in sorted(cands)]))
+    items = [{"num": m.group("num"), "title": re.sub(r"\s+", " ", m.group("title")).strip(),
+              "start": m.start(), "body": m.end("end"), "untitled": False} for m in kept]
 
-    rules = []
-    for i, m in enumerate(kept):
-        end = kept[i + 1].start() if i + 1 < len(kept) else len(text)
-        if i + 1 == len(kept):
-            cm = ENDMARK_RE.search(text, m.end("end"))
-            if cm:
-                end = cm.start()
-        body = re.sub(r"\n{3,}", "\n\n", NOISE_RE.sub("", text[m.end("end"):end])).strip()
-        rules.append({"rule": m.group("num"), "title": re.sub(r"\s+", " ", m.group("title")).strip(),
-                      "status": "in force", "text": body})
-
-    found = {r["rule"] for r in rules}
-    top = max((sort_key(r["rule"])[0] for r in rules), default=0)
+    top = max((sort_key(i["num"])[0] for i in items), default=0)
+    found = {i["num"] for i in items}
     omitted = {}
     for rx in (OMIT1, OMIT2):
         for m in rx.finditer(text):
             n = m.group("num")
             if n not in found and n not in omitted and 1 <= sort_key(n)[0] <= top:
                 omitted[n] = {"rule": n, "title": "Omitted", "status": "omitted", "text": "This rule has been omitted."}
-    preamble = text[:kept[0].start()] if kept else ""
+    items = fill_gaps(text, items, set(omitted))
+
+    rules = []
+    for i, it in enumerate(items):
+        end = items[i + 1]["start"] if i + 1 < len(items) else len(text)
+        if i + 1 == len(items):
+            cm = ENDMARK_RE.search(text, it["body"])
+            if cm:
+                end = cm.start()
+        body = re.sub(r"\n{3,}", "\n\n", NOISE_RE.sub("", text[it["body"]:end])).strip()
+        rules.append({"rule": it["num"], "title": it["title"], "untitled": it["untitled"], "status": "in force", "text": body})
+    preamble = text[:items[0]["start"]] if items else ""
     return rules, list(omitted.values()), preamble, text
 
 
@@ -226,7 +276,7 @@ def main():
             if not cl:  # no explicit citation: use the section(s) the Rules were made under
                 cl = [{"section": s, "mentions": 0, "confidence": "low"} for s in fallback]
             all_rules.append({"id": f"{stem}#{r['rule']}", "rule_set_id": stem, "rule_set": name,
-                              "rule": r["rule"], "title": r["title"], "status": "in force", "text": r["text"], "cites": cl})
+                              "rule": r["rule"], "title": r["title"], "untitled": r["untitled"], "status": "in force", "text": r["text"], "cites": cl})
         for r in d["omitted"]:
             all_rules.append({"id": f"{stem}#{r['rule']}", "rule_set_id": stem, "rule_set": name, "rule": r["rule"],
                               "title": r["title"], "status": "omitted", "text": r["text"], "cites": []})
@@ -240,7 +290,7 @@ def main():
         om = len(d["omitted"])
         shown = ", ".join(miss[:6]) + (" ..." if len(miss) > 6 else "")
         rows.append(f"| {stem[:45]} | {name[:60]} | {len(rules)} (+{om} omitted) | {first_last} | {len(miss)}: {shown} | {explicit} |")
-        if len(rules) < 3 or len(miss) >= 3:
+        if not rules or len(miss) >= 3:
             probs.append((len(miss) if rules else 999, d, miss))
 
     debug = ["# Rules debug", ""]
