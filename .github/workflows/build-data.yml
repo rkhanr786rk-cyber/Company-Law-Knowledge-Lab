@@ -35,9 +35,10 @@ jobs:
         with:
           name: reports
           path: data/*.md
-        - name: Commit generated data
+
+      - name: Commit generated data
         if: always()
-        run: | 
+        run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/sections.json data/*.md
