@@ -14,10 +14,13 @@ from pathlib import Path
 EXPECTED_MAX = 470       # the Act has section numbers 1 to 470 (plus inserted ones like 10A)
 MAX_UNEXPLAINED = 15     # fail the build if more sections than this are unaccounted for
 
-# A heading: optional footnote marker like "3[", number, full stop, optional space, title, then ".—"
+# A heading: optional footnote marker like "3[", number, full stop, optional space or line break,
+# a title that may be spread over several lines (but never runs into another numbered line), then ".—".
+# It is written as a lookahead so that one match never swallows the headings that follow it.
 SECTION_RE = re.compile(
-    r"^[ \t]*(?:\d{0,2}\[)?(?P<num>\d{1,3}[A-Z]{0,2})\.[ \t]*"
-    r"(?P<title>[A-Z\[“‘][^\n]{2,200}?(?:\n[^\n]{1,120}?)?)\.\]?[ \t]*[—–-]",
+    r"^(?=[ \t]*(?:\d{0,2}\[)?(?P<num>\d{1,3}[A-Z]{0,2})\.[ \t]*\n?[ \t]*"
+    r"(?P<title>[A-Z\[“‘][^\n]{1,200}?(?:\n(?![ \t]*\d{1,3}[A-Z]{0,2}\.)[^\n]{1,120}?){0,10})"
+    r"\.\]?[ \t]*[—–-](?P<end>))",
     re.MULTILINE,
 )
 CHAPTER_RE = re.compile(r"^[ \t]*CHAPTER[ \t]+([IVXLC]+[A-Z]?)\b[ \t]*\n?[ \t]*([^\n]*)", re.MULTILINE)
@@ -83,10 +86,10 @@ def parse(text: str):
     for i, m in enumerate(kept):
         end = kept[i + 1].start() if i + 1 < len(kept) else len(text)
         if i + 1 == len(kept):  # last section: stop where the Schedules begin
-            sm = SCHEDULE_RE.search(text, m.end())
+            sm = SCHEDULE_RE.search(text, m.end("end"))
             if sm:
                 end = sm.start()
-        body = NOISE_RE.sub("", text[m.end():end])
+        body = NOISE_RE.sub("", text[m.end("end"):end])
         body = re.sub(r"\n{3,}", "\n\n", body).strip()
         chapter = chapter_at(chapters, m.start())
         sections.append({
