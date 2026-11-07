@@ -128,7 +128,7 @@
     "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
     "rule": "25",
     "title": "A valuer or his/its relative shall not accept gifts or hospitality which undermines or affects his independence as a valuer. Explanation",
-    "mentions": 1,
+    "mentions": 3,
     "confidence": "high"
    },
    {
@@ -148,10 +148,10 @@
     "confidence": "high"
    },
    {
-    "rule_id": "the-companies-registration-of-foreign-companies-rules-2014-20261107-081638#1",
+    "rule_id": "the-companies-registration-of-foreign-companies-rules-2014-20261107-081638#2",
     "rule_set": "Companies (Registration of Foreign Companies) Rules, 2014",
-    "rule": "1",
-    "title": "Short title and commencement",
+    "rule": "2",
+    "title": "Definitions",
     "mentions": 2,
     "confidence": "high"
    },
@@ -236,14 +236,6 @@
     "confidence": "high"
    },
    {
-    "rule_id": "the-iepf-accounting-audit-transfer-and-refund-rules-2016-20261106-142648#12",
-    "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
-    "rule": "12",
-    "title": "Repeal and savings",
-    "mentions": 2,
-    "confidence": "high"
-   },
-   {
     "rule_id": "iepfa-appointment-of-chairperson-and-members-holding-of-meetings-and-provision-for-offices-and-officers-rules-2016-20261106-142658#2",
     "rule_set": "Investor Education and Protection Fund Authority (Appointment of Chairperson and Members, holding of meetings and provision for offices and officers) Rules, 2016",
     "rule": "2",
@@ -312,7 +304,15 @@
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "40",
     "title": "Application under sub-section (41) of section 2 for change in financial year",
-    "mentions": 4,
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#41",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "41",
+    "title": "Application under section 14 for conversion of public company into private company. (1) An application under the second proviso to sub- section (1) of section 14 for the conversion of a public company into a private company, shall, within sixty days from the date of passing of special resolution, be filed with Regional Director in e-Form No. RD-1 along with the fee as provided in the Companies (Registration Offices and Fees) Rules, 2014 and shall be accompanied by the following documents, namely",
+    "mentions": 2,
     "confidence": "medium"
    },
    {
@@ -470,10 +470,10 @@
     "confidence": "medium"
    },
    {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#40",
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#41",
     "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "40",
-    "title": "Application under sub-section (41) of section 2 for change in financial year",
+    "rule": "41",
+    "title": "Application under section 14 for conversion of public company into private company. (1) An application under the second proviso to sub- section (1) of section 14 for the conversion of a public company into a private company, shall, within sixty days from the date of passing of special resolution, be filed with Regional Director in e-Form No. RD-1 along with the fee as provided in the Companies (Registration Offices and Fees) Rules, 2014 and shall be accompanied by the following documents, namely",
     "mentions": 1,
     "confidence": "medium"
    },
@@ -590,6 +590,22 @@
     "confidence": "low"
    },
    {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#10",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "10",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#11",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "11",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#13",
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "13",
@@ -602,6 +618,14 @@
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "17",
     "title": "Particulars of first directors of the company and their consent to act as such",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#18",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "18",
+    "title": "",
     "mentions": 0,
     "confidence": "low"
    },
@@ -638,6 +662,14 @@
     "confidence": "low"
    },
    {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#31",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "31",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#32",
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "32",
@@ -666,22 +698,6 @@
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "38A",
     "title": "Application for registration of the Goods and Service Tax Identification Number (GSTIN), Employees’ State Insurance Corporation (ESIC) registration [114][, Employees’ Provident Fund Organisation (EPFO) Registration and Profession Tax Registration [115][,Opening of Bank Account and Shops and Establishment Registration]]",
-    "mentions": 0,
-    "confidence": "low"
-   },
-   {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#43",
-    "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "43",
-    "title": "Notification No. G.S.R.70 (E) dated 25th January, 2017, w.e.f. 30.01.2017, for the Rule: \"18. Certificate of incorporation",
-    "mentions": 0,
-    "confidence": "low"
-   },
-   {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#67",
-    "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "67",
-    "title": "Notification No. G.S.R. 442(E) dated 29th May, 2015, 29.05.2015, for the Rule-24: \"24. Declaration at the time of commencement of business",
     "mentions": 0,
     "confidence": "low"
    },
@@ -776,10 +792,10 @@
     "confidence": "high"
    },
    {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#92",
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#41",
     "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "92",
-    "title": "Notification No. G.S.R. 1184(E) dated 29th December, 2016, w.e.f. 01.01.2017, the rule: \"36. Integrated Process for Incorporation",
+    "rule": "41",
+    "title": "Application under section 14 for conversion of public company into private company. (1) An application under the second proviso to sub- section (1) of section 14 for the conversion of a public company into a private company, shall, within sixty days from the date of passing of special resolution, be filed with Regional Director in e-Form No. RD-1 along with the fee as provided in the Companies (Registration Offices and Fees) Rules, 2014 and shall be accompanied by the following documents, namely",
     "mentions": 1,
     "confidence": "high"
    },
@@ -856,6 +872,22 @@
     "confidence": "low"
    },
    {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#10",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "10",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#11",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "11",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#13",
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "13",
@@ -868,6 +900,14 @@
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "17",
     "title": "Particulars of first directors of the company and their consent to act as such",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#18",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "18",
+    "title": "",
     "mentions": 0,
     "confidence": "low"
    },
@@ -904,6 +944,14 @@
     "confidence": "low"
    },
    {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#31",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "31",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#32",
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "32",
@@ -932,22 +980,6 @@
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "38A",
     "title": "Application for registration of the Goods and Service Tax Identification Number (GSTIN), Employees’ State Insurance Corporation (ESIC) registration [114][, Employees’ Provident Fund Organisation (EPFO) Registration and Profession Tax Registration [115][,Opening of Bank Account and Shops and Establishment Registration]]",
-    "mentions": 0,
-    "confidence": "low"
-   },
-   {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#43",
-    "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "43",
-    "title": "Notification No. G.S.R.70 (E) dated 25th January, 2017, w.e.f. 30.01.2017, for the Rule: \"18. Certificate of incorporation",
-    "mentions": 0,
-    "confidence": "low"
-   },
-   {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#67",
-    "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "67",
-    "title": "Notification No. G.S.R. 442(E) dated 29th May, 2015, 29.05.2015, for the Rule-24: \"24. Declaration at the time of commencement of business",
     "mentions": 0,
     "confidence": "low"
    }
@@ -1002,6 +1034,22 @@
     "confidence": "low"
    },
    {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#10",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "10",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#11",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "11",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#13",
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "13",
@@ -1014,6 +1062,14 @@
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "17",
     "title": "Particulars of first directors of the company and their consent to act as such",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#18",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "18",
+    "title": "",
     "mentions": 0,
     "confidence": "low"
    },
@@ -1050,6 +1106,14 @@
     "confidence": "low"
    },
    {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#31",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "31",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#32",
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "32",
@@ -1078,22 +1142,6 @@
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "38A",
     "title": "Application for registration of the Goods and Service Tax Identification Number (GSTIN), Employees’ State Insurance Corporation (ESIC) registration [114][, Employees’ Provident Fund Organisation (EPFO) Registration and Profession Tax Registration [115][,Opening of Bank Account and Shops and Establishment Registration]]",
-    "mentions": 0,
-    "confidence": "low"
-   },
-   {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#43",
-    "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "43",
-    "title": "Notification No. G.S.R.70 (E) dated 25th January, 2017, w.e.f. 30.01.2017, for the Rule: \"18. Certificate of incorporation",
-    "mentions": 0,
-    "confidence": "low"
-   },
-   {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#67",
-    "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "67",
-    "title": "Notification No. G.S.R. 442(E) dated 29th May, 2015, 29.05.2015, for the Rule-24: \"24. Declaration at the time of commencement of business",
     "mentions": 0,
     "confidence": "low"
    }
@@ -1156,6 +1204,22 @@
     "confidence": "low"
    },
    {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#10",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "10",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#11",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "11",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#13",
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "13",
@@ -1168,6 +1232,14 @@
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "17",
     "title": "Particulars of first directors of the company and their consent to act as such",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#18",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "18",
+    "title": "",
     "mentions": 0,
     "confidence": "low"
    },
@@ -1204,6 +1276,14 @@
     "confidence": "low"
    },
    {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#31",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "31",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#32",
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "32",
@@ -1232,22 +1312,6 @@
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "38A",
     "title": "Application for registration of the Goods and Service Tax Identification Number (GSTIN), Employees’ State Insurance Corporation (ESIC) registration [114][, Employees’ Provident Fund Organisation (EPFO) Registration and Profession Tax Registration [115][,Opening of Bank Account and Shops and Establishment Registration]]",
-    "mentions": 0,
-    "confidence": "low"
-   },
-   {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#43",
-    "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "43",
-    "title": "Notification No. G.S.R.70 (E) dated 25th January, 2017, w.e.f. 30.01.2017, for the Rule: \"18. Certificate of incorporation",
-    "mentions": 0,
-    "confidence": "low"
-   },
-   {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#67",
-    "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "67",
-    "title": "Notification No. G.S.R. 442(E) dated 29th May, 2015, 29.05.2015, for the Rule-24: \"24. Declaration at the time of commencement of business",
     "mentions": 0,
     "confidence": "low"
    }
@@ -1286,10 +1350,10 @@
     "confidence": "medium"
    },
    {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#40",
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#41",
     "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "40",
-    "title": "Application under sub-section (41) of section 2 for change in financial year",
+    "rule": "41",
+    "title": "Application under section 14 for conversion of public company into private company. (1) An application under the second proviso to sub- section (1) of section 14 for the conversion of a public company into a private company, shall, within sixty days from the date of passing of special resolution, be filed with Regional Director in e-Form No. RD-1 along with the fee as provided in the Companies (Registration Offices and Fees) Rules, 2014 and shall be accompanied by the following documents, namely",
     "mentions": 1,
     "confidence": "medium"
    },
@@ -1350,6 +1414,22 @@
     "confidence": "low"
    },
    {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#10",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "10",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#11",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "11",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#13",
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "13",
@@ -1362,6 +1442,14 @@
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "17",
     "title": "Particulars of first directors of the company and their consent to act as such",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#18",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "18",
+    "title": "",
     "mentions": 0,
     "confidence": "low"
    },
@@ -1398,6 +1486,14 @@
     "confidence": "low"
    },
    {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#31",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "31",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#32",
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "32",
@@ -1426,22 +1522,6 @@
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "38A",
     "title": "Application for registration of the Goods and Service Tax Identification Number (GSTIN), Employees’ State Insurance Corporation (ESIC) registration [114][, Employees’ Provident Fund Organisation (EPFO) Registration and Profession Tax Registration [115][,Opening of Bank Account and Shops and Establishment Registration]]",
-    "mentions": 0,
-    "confidence": "low"
-   },
-   {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#43",
-    "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "43",
-    "title": "Notification No. G.S.R.70 (E) dated 25th January, 2017, w.e.f. 30.01.2017, for the Rule: \"18. Certificate of incorporation",
-    "mentions": 0,
-    "confidence": "low"
-   },
-   {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#67",
-    "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "67",
-    "title": "Notification No. G.S.R. 442(E) dated 29th May, 2015, 29.05.2015, for the Rule-24: \"24. Declaration at the time of commencement of business",
     "mentions": 0,
     "confidence": "low"
    }
@@ -1584,19 +1664,11 @@
     "confidence": "high"
    },
    {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#40",
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#41",
     "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "40",
-    "title": "Application under sub-section (41) of section 2 for change in financial year",
-    "mentions": 4,
-    "confidence": "high"
-   },
-   {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#50",
-    "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "50",
-    "title": "Notification No. G.S.R. 42(E) dated 19th January, 2023, w.e.f. 23.01.2023, for the sub-rule: \"(2) The application under sub-rule (1), shall be accompanied by the following documents, namely",
-    "mentions": 3,
+    "rule": "41",
+    "title": "Application under section 14 for conversion of public company into private company. (1) An application under the second proviso to sub- section (1) of section 14 for the conversion of a public company into a private company, shall, within sixty days from the date of passing of special resolution, be filed with Regional Director in e-Form No. RD-1 along with the fee as provided in the Companies (Registration Offices and Fees) Rules, 2014 and shall be accompanied by the following documents, namely",
+    "mentions": 7,
     "confidence": "high"
    },
    {
@@ -1621,6 +1693,14 @@
     "rule": "14",
     "title": "Conditions of Recognition",
     "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#25",
+    "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
+    "rule": "25",
+    "title": "A valuer or his/its relative shall not accept gifts or hospitality which undermines or affects his independence as a valuer. Explanation",
+    "mentions": 3,
     "confidence": "high"
    },
    {
@@ -1736,6 +1816,22 @@
     "confidence": "low"
    },
    {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#10",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "10",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#11",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "11",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#13",
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "13",
@@ -1748,6 +1844,14 @@
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "17",
     "title": "Particulars of first directors of the company and their consent to act as such",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#18",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "18",
+    "title": "",
     "mentions": 0,
     "confidence": "low"
    },
@@ -1784,6 +1888,14 @@
     "confidence": "low"
    },
    {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#31",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "31",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#32",
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "32",
@@ -1812,22 +1924,6 @@
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "38A",
     "title": "Application for registration of the Goods and Service Tax Identification Number (GSTIN), Employees’ State Insurance Corporation (ESIC) registration [114][, Employees’ Provident Fund Organisation (EPFO) Registration and Profession Tax Registration [115][,Opening of Bank Account and Shops and Establishment Registration]]",
-    "mentions": 0,
-    "confidence": "low"
-   },
-   {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#43",
-    "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "43",
-    "title": "Notification No. G.S.R.70 (E) dated 25th January, 2017, w.e.f. 30.01.2017, for the Rule: \"18. Certificate of incorporation",
-    "mentions": 0,
-    "confidence": "low"
-   },
-   {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#67",
-    "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "67",
-    "title": "Notification No. G.S.R. 442(E) dated 29th May, 2015, 29.05.2015, for the Rule-24: \"24. Declaration at the time of commencement of business",
     "mentions": 0,
     "confidence": "low"
    }
@@ -1920,6 +2016,22 @@
     "confidence": "low"
    },
    {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#10",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "10",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#11",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "11",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#13",
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "13",
@@ -1932,6 +2044,14 @@
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "17",
     "title": "Particulars of first directors of the company and their consent to act as such",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#18",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "18",
+    "title": "",
     "mentions": 0,
     "confidence": "low"
    },
@@ -1968,6 +2088,14 @@
     "confidence": "low"
    },
    {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#31",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "31",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#32",
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "32",
@@ -1998,22 +2126,6 @@
     "title": "Application for registration of the Goods and Service Tax Identification Number (GSTIN), Employees’ State Insurance Corporation (ESIC) registration [114][, Employees’ Provident Fund Organisation (EPFO) Registration and Profession Tax Registration [115][,Opening of Bank Account and Shops and Establishment Registration]]",
     "mentions": 0,
     "confidence": "low"
-   },
-   {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#43",
-    "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "43",
-    "title": "Notification No. G.S.R.70 (E) dated 25th January, 2017, w.e.f. 30.01.2017, for the Rule: \"18. Certificate of incorporation",
-    "mentions": 0,
-    "confidence": "low"
-   },
-   {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#67",
-    "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "67",
-    "title": "Notification No. G.S.R. 442(E) dated 29th May, 2015, 29.05.2015, for the Rule-24: \"24. Declaration at the time of commencement of business",
-    "mentions": 0,
-    "confidence": "low"
    }
   ],
   "12": [
@@ -2042,10 +2154,10 @@
     "confidence": "high"
    },
    {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#92",
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#41",
     "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "92",
-    "title": "Notification No. G.S.R. 1184(E) dated 29th December, 2016, w.e.f. 01.01.2017, the rule: \"36. Integrated Process for Incorporation",
+    "rule": "41",
+    "title": "Application under section 14 for conversion of public company into private company. (1) An application under the second proviso to sub- section (1) of section 14 for the conversion of a public company into a private company, shall, within sixty days from the date of passing of special resolution, be filed with Regional Director in e-Form No. RD-1 along with the fee as provided in the Companies (Registration Offices and Fees) Rules, 2014 and shall be accompanied by the following documents, namely",
     "mentions": 1,
     "confidence": "high"
    },
@@ -2114,6 +2226,22 @@
     "confidence": "low"
    },
    {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#10",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "10",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#11",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "11",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#13",
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "13",
@@ -2126,6 +2254,14 @@
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "17",
     "title": "Particulars of first directors of the company and their consent to act as such",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#18",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "18",
+    "title": "",
     "mentions": 0,
     "confidence": "low"
    },
@@ -2162,6 +2298,14 @@
     "confidence": "low"
    },
    {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#31",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "31",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#32",
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "32",
@@ -2192,22 +2336,6 @@
     "title": "Application for registration of the Goods and Service Tax Identification Number (GSTIN), Employees’ State Insurance Corporation (ESIC) registration [114][, Employees’ Provident Fund Organisation (EPFO) Registration and Profession Tax Registration [115][,Opening of Bank Account and Shops and Establishment Registration]]",
     "mentions": 0,
     "confidence": "low"
-   },
-   {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#43",
-    "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "43",
-    "title": "Notification No. G.S.R.70 (E) dated 25th January, 2017, w.e.f. 30.01.2017, for the Rule: \"18. Certificate of incorporation",
-    "mentions": 0,
-    "confidence": "low"
-   },
-   {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#67",
-    "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "67",
-    "title": "Notification No. G.S.R. 442(E) dated 29th May, 2015, 29.05.2015, for the Rule-24: \"24. Declaration at the time of commencement of business",
-    "mentions": 0,
-    "confidence": "low"
    }
   ],
   "13": [
@@ -2236,10 +2364,10 @@
     "confidence": "medium"
    },
    {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#74",
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#41",
     "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "74",
-    "title": "Notification No. G.S.R. 743(E) dated 27th July, 2016, w.e.f. 27.07.2016, for the rule: \"26. Publication of name by company",
+    "rule": "41",
+    "title": "Application under section 14 for conversion of public company into private company. (1) An application under the second proviso to sub- section (1) of section 14 for the conversion of a public company into a private company, shall, within sixty days from the date of passing of special resolution, be filed with Regional Director in e-Form No. RD-1 along with the fee as provided in the Companies (Registration Offices and Fees) Rules, 2014 and shall be accompanied by the following documents, namely",
     "mentions": 1,
     "confidence": "medium"
    },
@@ -2292,6 +2420,22 @@
     "confidence": "low"
    },
    {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#10",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "10",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#11",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "11",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#13",
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "13",
@@ -2304,6 +2448,14 @@
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "17",
     "title": "Particulars of first directors of the company and their consent to act as such",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#18",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "18",
+    "title": "",
     "mentions": 0,
     "confidence": "low"
    },
@@ -2340,6 +2492,14 @@
     "confidence": "low"
    },
    {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#31",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "31",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#32",
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "32",
@@ -2370,22 +2530,6 @@
     "title": "Application for registration of the Goods and Service Tax Identification Number (GSTIN), Employees’ State Insurance Corporation (ESIC) registration [114][, Employees’ Provident Fund Organisation (EPFO) Registration and Profession Tax Registration [115][,Opening of Bank Account and Shops and Establishment Registration]]",
     "mentions": 0,
     "confidence": "low"
-   },
-   {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#43",
-    "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "43",
-    "title": "Notification No. G.S.R.70 (E) dated 25th January, 2017, w.e.f. 30.01.2017, for the Rule: \"18. Certificate of incorporation",
-    "mentions": 0,
-    "confidence": "low"
-   },
-   {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#67",
-    "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "67",
-    "title": "Notification No. G.S.R. 442(E) dated 29th May, 2015, 29.05.2015, for the Rule-24: \"24. Declaration at the time of commencement of business",
-    "mentions": 0,
-    "confidence": "low"
    }
   ],
   "14": [
@@ -2406,10 +2550,10 @@
     "confidence": "high"
    },
    {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#40",
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#41",
     "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "40",
-    "title": "Application under sub-section (41) of section 2 for change in financial year",
+    "rule": "41",
+    "title": "Application under section 14 for conversion of public company into private company. (1) An application under the second proviso to sub- section (1) of section 14 for the conversion of a public company into a private company, shall, within sixty days from the date of passing of special resolution, be filed with Regional Director in e-Form No. RD-1 along with the fee as provided in the Companies (Registration Offices and Fees) Rules, 2014 and shall be accompanied by the following documents, namely",
     "mentions": 2,
     "confidence": "medium"
    },
@@ -2454,6 +2598,22 @@
     "confidence": "low"
    },
    {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#10",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "10",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#11",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "11",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#13",
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "13",
@@ -2466,6 +2626,14 @@
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "17",
     "title": "Particulars of first directors of the company and their consent to act as such",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#18",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "18",
+    "title": "",
     "mentions": 0,
     "confidence": "low"
    },
@@ -2502,6 +2670,14 @@
     "confidence": "low"
    },
    {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#31",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "31",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#32",
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "32",
@@ -2530,22 +2706,6 @@
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "38A",
     "title": "Application for registration of the Goods and Service Tax Identification Number (GSTIN), Employees’ State Insurance Corporation (ESIC) registration [114][, Employees’ Provident Fund Organisation (EPFO) Registration and Profession Tax Registration [115][,Opening of Bank Account and Shops and Establishment Registration]]",
-    "mentions": 0,
-    "confidence": "low"
-   },
-   {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#43",
-    "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "43",
-    "title": "Notification No. G.S.R.70 (E) dated 25th January, 2017, w.e.f. 30.01.2017, for the Rule: \"18. Certificate of incorporation",
-    "mentions": 0,
-    "confidence": "low"
-   },
-   {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#67",
-    "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "67",
-    "title": "Notification No. G.S.R. 442(E) dated 29th May, 2015, 29.05.2015, for the Rule-24: \"24. Declaration at the time of commencement of business",
     "mentions": 0,
     "confidence": "low"
    }
@@ -2602,6 +2762,22 @@
     "confidence": "low"
    },
    {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#10",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "10",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#11",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "11",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#13",
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "13",
@@ -2614,6 +2790,14 @@
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "17",
     "title": "Particulars of first directors of the company and their consent to act as such",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#18",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "18",
+    "title": "",
     "mentions": 0,
     "confidence": "low"
    },
@@ -2650,6 +2834,14 @@
     "confidence": "low"
    },
    {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#31",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "31",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#32",
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "32",
@@ -2680,22 +2872,6 @@
     "title": "Application for registration of the Goods and Service Tax Identification Number (GSTIN), Employees’ State Insurance Corporation (ESIC) registration [114][, Employees’ Provident Fund Organisation (EPFO) Registration and Profession Tax Registration [115][,Opening of Bank Account and Shops and Establishment Registration]]",
     "mentions": 0,
     "confidence": "low"
-   },
-   {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#43",
-    "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "43",
-    "title": "Notification No. G.S.R.70 (E) dated 25th January, 2017, w.e.f. 30.01.2017, for the Rule: \"18. Certificate of incorporation",
-    "mentions": 0,
-    "confidence": "low"
-   },
-   {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#67",
-    "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "67",
-    "title": "Notification No. G.S.R. 442(E) dated 29th May, 2015, 29.05.2015, for the Rule-24: \"24. Declaration at the time of commencement of business",
-    "mentions": 0,
-    "confidence": "low"
    }
   ],
   "18": [
@@ -2708,10 +2884,10 @@
     "confidence": "high"
    },
    {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#40",
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#41",
     "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "40",
-    "title": "Application under sub-section (41) of section 2 for change in financial year",
+    "rule": "41",
+    "title": "Application under section 14 for conversion of public company into private company. (1) An application under the second proviso to sub- section (1) of section 14 for the conversion of a public company into a private company, shall, within sixty days from the date of passing of special resolution, be filed with Regional Director in e-Form No. RD-1 along with the fee as provided in the Companies (Registration Offices and Fees) Rules, 2014 and shall be accompanied by the following documents, namely",
     "mentions": 2,
     "confidence": "high"
    },
@@ -2854,6 +3030,22 @@
     "confidence": "low"
    },
    {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#10",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "10",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#11",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "11",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#13",
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "13",
@@ -2866,6 +3058,14 @@
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "17",
     "title": "Particulars of first directors of the company and their consent to act as such",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#18",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "18",
+    "title": "",
     "mentions": 0,
     "confidence": "low"
    },
@@ -2902,6 +3102,14 @@
     "confidence": "low"
    },
    {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#31",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "31",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#32",
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "32",
@@ -2930,22 +3138,6 @@
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "38A",
     "title": "Application for registration of the Goods and Service Tax Identification Number (GSTIN), Employees’ State Insurance Corporation (ESIC) registration [114][, Employees’ Provident Fund Organisation (EPFO) Registration and Profession Tax Registration [115][,Opening of Bank Account and Shops and Establishment Registration]]",
-    "mentions": 0,
-    "confidence": "low"
-   },
-   {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#43",
-    "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "43",
-    "title": "Notification No. G.S.R.70 (E) dated 25th January, 2017, w.e.f. 30.01.2017, for the Rule: \"18. Certificate of incorporation",
-    "mentions": 0,
-    "confidence": "low"
-   },
-   {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#67",
-    "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "67",
-    "title": "Notification No. G.S.R. 442(E) dated 29th May, 2015, 29.05.2015, for the Rule-24: \"24. Declaration at the time of commencement of business",
     "mentions": 0,
     "confidence": "low"
    }
@@ -3502,6 +3694,14 @@
     "confidence": "low"
    },
    {
+    "rule_id": "the-companies-issue-of-global-depository-receipts-rules-2014-20261106-142451#2",
+    "rule_set": "Companies (Issue of Global Depository Receipts) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "the-companies-issue-of-global-depository-receipts-rules-2014-20261106-142451#3",
     "rule_set": "Companies (Issue of Global Depository Receipts) Rules, 2014",
     "rule": "3",
@@ -4014,10 +4214,10 @@
     "confidence": "medium"
    },
    {
-    "rule_id": "nclt-rules-2016-20261107-081709#70",
+    "rule_id": "nclt-rules-2016-20261107-081709#71",
     "rule_set": "National Company Law Tribunal Rules, 2016",
-    "rule": "70",
-    "title": "Appeal under sections 58 and 59",
+    "rule": "71",
+    "title": "",
     "mentions": 1,
     "confidence": "medium"
    }
@@ -4318,10 +4518,10 @@
     "confidence": "medium"
    },
    {
-    "rule_id": "nclt-procedure-for-reduction-of-share-capital-of-company-rules-2016-20261107-081729#3",
+    "rule_id": "nclt-procedure-for-reduction-of-share-capital-of-company-rules-2016-20261107-081729#4",
     "rule_set": "National Company Law Tribunal (Procedure for reduction of share capital of Company) Rules, 2016",
-    "rule": "3",
-    "title": "Issue of notice and directions by the National Company Law Tribunal",
+    "rule": "4",
+    "title": "Representation by Central Government, Registrar etc. under sub- section (2) of section 66",
     "mentions": 2,
     "confidence": "medium"
    },
@@ -4338,6 +4538,14 @@
     "rule_set": "National Company Law Tribunal (Procedure for reduction of share capital of Company) Rules, 2016",
     "rule": "1",
     "title": "Short title and Commencement",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "nclt-procedure-for-reduction-of-share-capital-of-company-rules-2016-20261107-081729#3",
+    "rule_set": "National Company Law Tribunal (Procedure for reduction of share capital of Company) Rules, 2016",
+    "rule": "3",
+    "title": "Issue of notice and directions by the National Company Law Tribunal",
     "mentions": 0,
     "confidence": "low"
    },
@@ -4704,10 +4912,10 @@
     "confidence": "high"
    },
    {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#40",
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#41",
     "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "40",
-    "title": "Application under sub-section (41) of section 2 for change in financial year",
+    "rule": "41",
+    "title": "Application under section 14 for conversion of public company into private company. (1) An application under the second proviso to sub- section (1) of section 14 for the conversion of a public company into a private company, shall, within sixty days from the date of passing of special resolution, be filed with Regional Director in e-Form No. RD-1 along with the fee as provided in the Companies (Registration Offices and Fees) Rules, 2014 and shall be accompanied by the following documents, namely",
     "mentions": 1,
     "confidence": "high"
    },
@@ -4780,15 +4988,7 @@
     "rule_set": "Companies (Acceptance of Deposits) Rules, 2014",
     "rule": "21",
     "title": "Punishment for contravention",
-    "mentions": 1,
-    "confidence": "medium"
-   },
-   {
-    "rule_id": "the-companies-acceptance-of-deposits-rules-2014-20261106-142547#31",
-    "rule_set": "Companies (Acceptance of Deposits) Rules, 2014",
-    "rule": "31",
-    "title": "Notification No. G.S.R. 612(E). dated 5th July, 2018, w.e.f. 15.08.2018, the Rule-5: \"5. Manner and extent of deposit insurance",
-    "mentions": 1,
+    "mentions": 2,
     "confidence": "medium"
    },
    {
@@ -5040,20 +5240,20 @@
   ],
   "76A": [
    {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#40",
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#41",
     "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "40",
-    "title": "Application under sub-section (41) of section 2 for change in financial year",
+    "rule": "41",
+    "title": "Application under section 14 for conversion of public company into private company. (1) An application under the second proviso to sub- section (1) of section 14 for the conversion of a public company into a private company, shall, within sixty days from the date of passing of special resolution, be filed with Regional Director in e-Form No. RD-1 along with the fee as provided in the Companies (Registration Offices and Fees) Rules, 2014 and shall be accompanied by the following documents, namely",
     "mentions": 1,
     "confidence": "high"
    }
   ],
   "77": [
    {
-    "rule_id": "the-companies-registration-of-charges-rules-2014-20261106-142604#2",
+    "rule_id": "the-companies-registration-of-charges-rules-2014-20261106-142604#3",
     "rule_set": "Companies (Registration of Charges) Rules, 2014",
-    "rule": "2",
-    "title": "Definitions",
+    "rule": "3",
+    "title": "Registration of creation or modification of charge",
     "mentions": 4,
     "confidence": "medium"
    },
@@ -5078,6 +5278,14 @@
     "rule_set": "Companies (Registration of Charges) Rules, 2014",
     "rule": "1",
     "title": "Short title and commencement",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-registration-of-charges-rules-2014-20261106-142604#2",
+    "rule_set": "Companies (Registration of Charges) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
     "mentions": 0,
     "confidence": "low"
    },
@@ -5108,10 +5316,10 @@
   ],
   "78": [
    {
-    "rule_id": "the-companies-registration-of-charges-rules-2014-20261106-142604#2",
+    "rule_id": "the-companies-registration-of-charges-rules-2014-20261106-142604#3",
     "rule_set": "Companies (Registration of Charges) Rules, 2014",
-    "rule": "2",
-    "title": "Definitions",
+    "rule": "3",
+    "title": "Registration of creation or modification of charge",
     "mentions": 2,
     "confidence": "medium"
    },
@@ -5128,6 +5336,14 @@
     "rule_set": "Companies (Registration of Charges) Rules, 2014",
     "rule": "1",
     "title": "Short title and commencement",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-registration-of-charges-rules-2014-20261106-142604#2",
+    "rule_set": "Companies (Registration of Charges) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
     "mentions": 0,
     "confidence": "low"
    },
@@ -5166,10 +5382,10 @@
     "confidence": "high"
    },
    {
-    "rule_id": "the-companies-registration-of-charges-rules-2014-20261106-142604#2",
+    "rule_id": "the-companies-registration-of-charges-rules-2014-20261106-142604#3",
     "rule_set": "Companies (Registration of Charges) Rules, 2014",
-    "rule": "2",
-    "title": "Definitions",
+    "rule": "3",
+    "title": "Registration of creation or modification of charge",
     "mentions": 2,
     "confidence": "medium"
    },
@@ -5186,6 +5402,14 @@
     "rule_set": "Companies (Registration of Charges) Rules, 2014",
     "rule": "1",
     "title": "Short title and commencement",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-registration-of-charges-rules-2014-20261106-142604#2",
+    "rule_set": "Companies (Registration of Charges) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
     "mentions": 0,
     "confidence": "low"
    },
@@ -5228,6 +5452,14 @@
     "rule_set": "Companies (Registration of Charges) Rules, 2014",
     "rule": "1",
     "title": "Short title and commencement",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-registration-of-charges-rules-2014-20261106-142604#2",
+    "rule_set": "Companies (Registration of Charges) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
     "mentions": 0,
     "confidence": "low"
    },
@@ -5282,6 +5514,14 @@
     "confidence": "low"
    },
    {
+    "rule_id": "the-companies-registration-of-charges-rules-2014-20261106-142604#2",
+    "rule_set": "Companies (Registration of Charges) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "the-companies-registration-of-charges-rules-2014-20261106-142604#9",
     "rule_set": "Companies (Registration of Charges) Rules, 2014",
     "rule": "9",
@@ -5332,6 +5572,14 @@
     "confidence": "low"
    },
    {
+    "rule_id": "the-companies-registration-of-charges-rules-2014-20261106-142604#2",
+    "rule_set": "Companies (Registration of Charges) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "the-companies-registration-of-charges-rules-2014-20261106-142604#9",
     "rule_set": "Companies (Registration of Charges) Rules, 2014",
     "rule": "9",
@@ -5366,6 +5614,14 @@
     "confidence": "low"
    },
    {
+    "rule_id": "the-companies-registration-of-charges-rules-2014-20261106-142604#2",
+    "rule_set": "Companies (Registration of Charges) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "the-companies-registration-of-charges-rules-2014-20261106-142604#9",
     "rule_set": "Companies (Registration of Charges) Rules, 2014",
     "rule": "9",
@@ -5396,6 +5652,14 @@
     "rule_set": "Companies (Registration of Charges) Rules, 2014",
     "rule": "1",
     "title": "Short title and commencement",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-registration-of-charges-rules-2014-20261106-142604#2",
+    "rule_set": "Companies (Registration of Charges) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
     "mentions": 0,
     "confidence": "low"
    },
@@ -5446,6 +5710,14 @@
     "rule_set": "Companies (Registration of Charges) Rules, 2014",
     "rule": "1",
     "title": "Short title and commencement",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-registration-of-charges-rules-2014-20261106-142604#2",
+    "rule_set": "Companies (Registration of Charges) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
     "mentions": 0,
     "confidence": "low"
    },
@@ -5666,6 +5938,14 @@
     "title": "Inspection and copies of records maintained in electronic form",
     "mentions": 0,
     "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#30",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "30",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
    }
   ],
   "89": [
@@ -5794,6 +6074,14 @@
     "rule_set": "Companies (Management and Administration) Rules, 2014",
     "rule": "29",
     "title": "Inspection and copies of records maintained in electronic form",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#30",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "30",
+    "title": "",
     "mentions": 0,
     "confidence": "low"
    }
@@ -5992,6 +6280,14 @@
     "title": "Inspection and copies of records maintained in electronic form",
     "mentions": 0,
     "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#30",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "30",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
    }
   ],
   "92": [
@@ -6048,7 +6344,15 @@
     "rule_set": "Companies (Management and Administration) Rules, 2014",
     "rule": "14",
     "title": "Inspection of registers, returns etc",
-    "mentions": 2,
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#15",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "15",
+    "title": "Preservation of register of members etc",
+    "mentions": 1,
     "confidence": "medium"
    },
    {
@@ -6170,6 +6474,14 @@
     "title": "Inspection and copies of records maintained in electronic form",
     "mentions": 0,
     "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#30",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "30",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
    }
   ],
   "93": [
@@ -6282,6 +6594,14 @@
     "rule_set": "Companies (Management and Administration) Rules, 2014",
     "rule": "29",
     "title": "Inspection and copies of records maintained in electronic form",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#30",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "30",
+    "title": "",
     "mentions": 0,
     "confidence": "low"
    }
@@ -6406,6 +6726,14 @@
     "title": "Inspection and copies of records maintained in electronic form",
     "mentions": 0,
     "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#30",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "30",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
    }
   ],
   "96": [
@@ -6423,14 +6751,6 @@
     "rule": "5",
     "title": "Statement to be furnished to the Fund",
     "mentions": 1,
-    "confidence": "high"
-   },
-   {
-    "rule_id": "the-iepf-accounting-audit-transfer-and-refund-rules-2016-20261106-142648#12",
-    "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
-    "rule": "12",
-    "title": "Repeal and savings",
-    "mentions": 2,
     "confidence": "high"
    }
   ],
@@ -6566,6 +6886,14 @@
     "title": "Inspection and copies of records maintained in electronic form",
     "mentions": 0,
     "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#30",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "30",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
    }
   ],
   "101": [
@@ -6678,6 +7006,14 @@
     "rule_set": "Companies (Management and Administration) Rules, 2014",
     "rule": "29",
     "title": "Inspection and copies of records maintained in electronic form",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#30",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "30",
+    "title": "",
     "mentions": 0,
     "confidence": "low"
    }
@@ -6850,6 +7186,14 @@
     "title": "Inspection and copies of records maintained in electronic form",
     "mentions": 0,
     "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#30",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "30",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
    }
   ],
   "105": [
@@ -6962,6 +7306,14 @@
     "rule_set": "Companies (Management and Administration) Rules, 2014",
     "rule": "29",
     "title": "Inspection and copies of records maintained in electronic form",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#30",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "30",
+    "title": "",
     "mentions": 0,
     "confidence": "low"
    }
@@ -7086,6 +7438,14 @@
     "title": "Inspection and copies of records maintained in electronic form",
     "mentions": 0,
     "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#30",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "30",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
    }
   ],
   "109": [
@@ -7190,6 +7550,14 @@
     "rule_set": "Companies (Management and Administration) Rules, 2014",
     "rule": "29",
     "title": "Inspection and copies of records maintained in electronic form",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#30",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "30",
+    "title": "",
     "mentions": 0,
     "confidence": "low"
    }
@@ -7314,6 +7682,14 @@
     "title": "Inspection and copies of records maintained in electronic form",
     "mentions": 0,
     "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#30",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "30",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
    }
   ],
   "112": [
@@ -7426,6 +7802,14 @@
     "rule_set": "Companies (Management and Administration) Rules, 2014",
     "rule": "29",
     "title": "Inspection and copies of records maintained in electronic form",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#30",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "30",
+    "title": "",
     "mentions": 0,
     "confidence": "low"
    }
@@ -7550,6 +7934,14 @@
     "title": "Inspection and copies of records maintained in electronic form",
     "mentions": 0,
     "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#30",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "30",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
    }
   ],
   "114": [
@@ -7672,6 +8064,14 @@
     "title": "Inspection and copies of records maintained in electronic form",
     "mentions": 0,
     "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#30",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "30",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
    }
   ],
   "115": [
@@ -7776,6 +8176,14 @@
     "rule_set": "Companies (Management and Administration) Rules, 2014",
     "rule": "29",
     "title": "Inspection and copies of records maintained in electronic form",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#30",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "30",
+    "title": "",
     "mentions": 0,
     "confidence": "low"
    }
@@ -7900,6 +8308,14 @@
     "title": "Inspection and copies of records maintained in electronic form",
     "mentions": 0,
     "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#30",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "30",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
    }
   ],
   "118": [
@@ -8014,6 +8430,14 @@
     "title": "Inspection and copies of records maintained in electronic form",
     "mentions": 0,
     "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#30",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "30",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
    }
   ],
   "119": [
@@ -8118,6 +8542,14 @@
     "rule_set": "Companies (Management and Administration) Rules, 2014",
     "rule": "29",
     "title": "Inspection and copies of records maintained in electronic form",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#30",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "30",
+    "title": "",
     "mentions": 0,
     "confidence": "low"
    }
@@ -8234,6 +8666,14 @@
     "title": "Inspection and copies of records maintained in electronic form",
     "mentions": 0,
     "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#30",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "30",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
    }
   ],
   "121": [
@@ -8348,6 +8788,14 @@
     "title": "Inspection and copies of records maintained in electronic form",
     "mentions": 0,
     "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#30",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "30",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
    }
   ],
   "122": [
@@ -8360,10 +8808,10 @@
     "confidence": "high"
    },
    {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#40",
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#41",
     "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "40",
-    "title": "Application under sub-section (41) of section 2 for change in financial year",
+    "rule": "41",
+    "title": "Application under section 14 for conversion of public company into private company. (1) An application under the second proviso to sub- section (1) of section 14 for the conversion of a public company into a private company, shall, within sixty days from the date of passing of special resolution, be filed with Regional Director in e-Form No. RD-1 along with the fee as provided in the Companies (Registration Offices and Fees) Rules, 2014 and shall be accompanied by the following documents, namely",
     "mentions": 1,
     "confidence": "high"
    }
@@ -8436,22 +8884,6 @@
     "confidence": "medium"
    },
    {
-    "rule_id": "the-iepf-accounting-audit-transfer-and-refund-rules-2016-20261106-142648#12",
-    "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
-    "rule": "12",
-    "title": "Repeal and savings",
-    "mentions": 1,
-    "confidence": "medium"
-   },
-   {
-    "rule_id": "the-iepf-accounting-audit-transfer-and-refund-rules-2016-20261106-142648#17",
-    "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
-    "rule": "17",
-    "title": "Audit, Transfer and Refund) Amendment Rules, 2017 vide Notification No. G.S.R. 178(E) dated 28th February, 2017, w.e.f. 28.02.2017, for the Rule: \"6. Manner of transfer of shares under sub-section (6) of section 124 to the Fund",
-    "mentions": 4,
-    "confidence": "medium"
-   },
-   {
     "rule_id": "the-iepf-accounting-audit-transfer-and-refund-rules-2016-20261106-142648#1",
     "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
     "rule": "1",
@@ -8496,6 +8928,14 @@
     "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
     "rule": "11",
     "title": "Protection of action taken in good faith",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-iepf-accounting-audit-transfer-and-refund-rules-2016-20261106-142648#12",
+    "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
+    "rule": "12",
+    "title": "Repeal and savings",
     "mentions": 0,
     "confidence": "low"
    }
@@ -8542,14 +8982,6 @@
     "confidence": "high"
    },
    {
-    "rule_id": "the-iepf-accounting-audit-transfer-and-refund-rules-2016-20261106-142648#12",
-    "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
-    "rule": "12",
-    "title": "Repeal and savings",
-    "mentions": 2,
-    "confidence": "high"
-   },
-   {
     "rule_id": "iepfa-appointment-of-chairperson-and-members-holding-of-meetings-and-provision-for-offices-and-officers-rules-2016-20261106-142658#2",
     "rule_set": "Investor Education and Protection Fund Authority (Appointment of Chairperson and Members, holding of meetings and provision for offices and officers) Rules, 2016",
     "rule": "2",
@@ -8570,14 +9002,6 @@
     "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
     "rule": "7",
     "title": "Refund to claimants from Fund",
-    "mentions": 2,
-    "confidence": "medium"
-   },
-   {
-    "rule_id": "the-iepf-accounting-audit-transfer-and-refund-rules-2016-20261106-142648#17",
-    "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
-    "rule": "17",
-    "title": "Audit, Transfer and Refund) Amendment Rules, 2017 vide Notification No. G.S.R. 178(E) dated 28th February, 2017, w.e.f. 28.02.2017, for the Rule: \"6. Manner of transfer of shares under sub-section (6) of section 124 to the Fund",
     "mentions": 2,
     "confidence": "medium"
    },
@@ -8626,6 +9050,14 @@
     "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
     "rule": "11",
     "title": "Protection of action taken in good faith",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-iepf-accounting-audit-transfer-and-refund-rules-2016-20261106-142648#12",
+    "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
+    "rule": "12",
+    "title": "Repeal and savings",
     "mentions": 0,
     "confidence": "low"
    },
@@ -9676,22 +10108,6 @@
     "title": "Display of CSR activities on its website",
     "mentions": 0,
     "confidence": "low"
-   },
-   {
-    "rule_id": "the-companies-corporate-social-responsibility-policy-rules-2014-csr-rules-20261106-142812#13",
-    "rule_set": "Companies (Corporate Social Responsibility Policy) Rules, 2014",
-    "rule": "13",
-    "title": "Amendment Rules, 2021 vide Notification No. G.S.R. 40(E) dated 22nd January, 2021, w.e.f. 22.01.2021. Prior to substitution, the sub-rule stood as under: \"7. CSR Expenditure",
-    "mentions": 0,
-    "confidence": "low"
-   },
-   {
-    "rule_id": "the-companies-corporate-social-responsibility-policy-rules-2014-csr-rules-20261106-142812#17",
-    "rule_set": "Companies (Corporate Social Responsibility Policy) Rules, 2014",
-    "rule": "17",
-    "title": "Amendment Rules, 2021 vide Notification No. G.S.R. 40(E) dated 22nd January, 2021, w.e.f. 22.01.2021. Prior to substitution, the sub-rule stood as under: \"9. Display of CSR activities on its website",
-    "mentions": 0,
-    "confidence": "low"
    }
   ],
   "136": [
@@ -10652,14 +11068,6 @@
     "title": "Records of Physical Verification",
     "mentions": 0,
     "confidence": "low"
-   },
-   {
-    "rule_id": "the-companies-cost-records-and-audit-rules-2014-20261106-142928#35",
-    "rule_set": "Companies (Cost Records and Audit) Rules, 2014",
-    "rule": "35",
-    "title": "Notification No. G.S.R. 792(E) dated 15th October, 2019, w.e.f. 01.04.2018, the the paragraph 8: \"8. Administrative Overheads",
-    "mentions": 0,
-    "confidence": "low"
    }
   ],
   "149": [
@@ -10684,6 +11092,14 @@
     "rule_set": "Companies (Corporate Social Responsibility Policy) Rules, 2014",
     "rule": "5",
     "title": "CSR Committees",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#25",
+    "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
+    "rule": "25",
+    "title": "A valuer or his/its relative shall not accept gifts or hospitality which undermines or affects his independence as a valuer. Explanation",
     "mentions": 1,
     "confidence": "high"
    },
@@ -11626,6 +12042,14 @@
     "title": "Active Company Tagging Identities and Verification (ACTIVE)",
     "mentions": 1,
     "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-authorised-to-register-rules-2014-20261107-081607#1",
+    "rule_set": "Companies (Authorised to Registered) Rules, 2014",
+    "rule": "1",
+    "title": "Short title and commencement [2][(1) Companies (Authorised to Register) Rules, 2014",
+    "mentions": 0,
+    "confidence": "low"
    }
   ],
   "167": [
@@ -12002,10 +12426,10 @@
     "confidence": "high"
    },
    {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#40",
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#41",
     "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "40",
-    "title": "Application under sub-section (41) of section 2 for change in financial year",
+    "rule": "41",
+    "title": "Application under section 14 for conversion of public company into private company. (1) An application under the second proviso to sub- section (1) of section 14 for the conversion of a public company into a private company, shall, within sixty days from the date of passing of special resolution, be filed with Regional Director in e-Form No. RD-1 along with the fee as provided in the Companies (Registration Offices and Fees) Rules, 2014 and shall be accompanied by the following documents, namely",
     "mentions": 1,
     "confidence": "high"
    },
@@ -12092,10 +12516,10 @@
   ],
   "178": [
    {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#40",
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#41",
     "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "40",
-    "title": "Application under sub-section (41) of section 2 for change in financial year",
+    "rule": "41",
+    "title": "Application under section 14 for conversion of public company into private company. (1) An application under the second proviso to sub- section (1) of section 14 for the conversion of a public company into a private company, shall, within sixty days from the date of passing of special resolution, be filed with Regional Director in e-Form No. RD-1 along with the fee as provided in the Companies (Registration Offices and Fees) Rules, 2014 and shall be accompanied by the following documents, namely",
     "mentions": 1,
     "confidence": "high"
    },
@@ -12182,10 +12606,10 @@
     "confidence": "high"
    },
    {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#40",
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#41",
     "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "40",
-    "title": "Application under sub-section (41) of section 2 for change in financial year",
+    "rule": "41",
+    "title": "Application under section 14 for conversion of public company into private company. (1) An application under the second proviso to sub- section (1) of section 14 for the conversion of a public company into a private company, shall, within sixty days from the date of passing of special resolution, be filed with Regional Director in e-Form No. RD-1 along with the fee as provided in the Companies (Registration Offices and Fees) Rules, 2014 and shall be accompanied by the following documents, namely",
     "mentions": 1,
     "confidence": "medium"
    },
@@ -12398,10 +12822,10 @@
     "confidence": "high"
    },
    {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#40",
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#41",
     "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "40",
-    "title": "Application under sub-section (41) of section 2 for change in financial year",
+    "rule": "41",
+    "title": "Application under section 14 for conversion of public company into private company. (1) An application under the second proviso to sub- section (1) of section 14 for the conversion of a public company into a private company, shall, within sixty days from the date of passing of special resolution, be filed with Regional Director in e-Form No. RD-1 along with the fee as provided in the Companies (Registration Offices and Fees) Rules, 2014 and shall be accompanied by the following documents, namely",
     "mentions": 1,
     "confidence": "high"
    },
@@ -12496,10 +12920,10 @@
     "confidence": "high"
    },
    {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#40",
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#41",
     "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "40",
-    "title": "Application under sub-section (41) of section 2 for change in financial year",
+    "rule": "41",
+    "title": "Application under section 14 for conversion of public company into private company. (1) An application under the second proviso to sub- section (1) of section 14 for the conversion of a public company into a private company, shall, within sixty days from the date of passing of special resolution, be filed with Regional Director in e-Form No. RD-1 along with the fee as provided in the Companies (Registration Offices and Fees) Rules, 2014 and shall be accompanied by the following documents, namely",
     "mentions": 1,
     "confidence": "high"
    },
@@ -12656,6 +13080,14 @@
     "confidence": "low"
    },
    {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#30",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "30",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "the-companies-meetings-of-board-and-its-powers-rules-2014-20261106-143059#1",
     "rule_set": "Companies (Meetings of Board and its Powers) Rules, 2014",
     "rule": "1",
@@ -12804,10 +13236,10 @@
     "confidence": "high"
    },
    {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#40",
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#41",
     "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "40",
-    "title": "Application under sub-section (41) of section 2 for change in financial year",
+    "rule": "41",
+    "title": "Application under section 14 for conversion of public company into private company. (1) An application under the second proviso to sub- section (1) of section 14 for the conversion of a public company into a private company, shall, within sixty days from the date of passing of special resolution, be filed with Regional Director in e-Form No. RD-1 along with the fee as provided in the Companies (Registration Offices and Fees) Rules, 2014 and shall be accompanied by the following documents, namely",
     "mentions": 1,
     "confidence": "high"
    },
@@ -13154,14 +13586,6 @@
     "title": "Appointment of Key Managerial Personnel",
     "mentions": 0,
     "confidence": "low"
-   },
-   {
-    "rule_id": "the-companies-appointment-and-remuneration-of-managerial-personnel-rules-2014-20261106-143106#12",
-    "rule_set": "Companies (Appointment and Remuneration of Managerial Personnel) Rules, 2014",
-    "rule": "12",
-    "title": "Personnel) Amendment Rules, 2020 vide Notification No. G.S.R. 13(E) dated 3rd January, 2020, w.e.f. 01.04.2020, for the Rule: \"8A. Appointment of Company Secretaries in companies not covered under rule 8",
-    "mentions": 0,
-    "confidence": "low"
    }
   ],
   "197": [
@@ -13242,14 +13666,6 @@
     "rule_set": "Companies (Appointment and Remuneration of Managerial Personnel) Rules, 2014",
     "rule": "8",
     "title": "Appointment of Key Managerial Personnel",
-    "mentions": 0,
-    "confidence": "low"
-   },
-   {
-    "rule_id": "the-companies-appointment-and-remuneration-of-managerial-personnel-rules-2014-20261106-143106#12",
-    "rule_set": "Companies (Appointment and Remuneration of Managerial Personnel) Rules, 2014",
-    "rule": "12",
-    "title": "Personnel) Amendment Rules, 2020 vide Notification No. G.S.R. 13(E) dated 3rd January, 2020, w.e.f. 01.04.2020, for the Rule: \"8A. Appointment of Company Secretaries in companies not covered under rule 8",
     "mentions": 0,
     "confidence": "low"
    }
@@ -13350,14 +13766,6 @@
     "title": "Appointment of Key Managerial Personnel",
     "mentions": 0,
     "confidence": "low"
-   },
-   {
-    "rule_id": "the-companies-appointment-and-remuneration-of-managerial-personnel-rules-2014-20261106-143106#12",
-    "rule_set": "Companies (Appointment and Remuneration of Managerial Personnel) Rules, 2014",
-    "rule": "12",
-    "title": "Personnel) Amendment Rules, 2020 vide Notification No. G.S.R. 13(E) dated 3rd January, 2020, w.e.f. 01.04.2020, for the Rule: \"8A. Appointment of Company Secretaries in companies not covered under rule 8",
-    "mentions": 0,
-    "confidence": "low"
    }
   ],
   "200": [
@@ -13422,14 +13830,6 @@
     "rule_set": "Companies (Appointment and Remuneration of Managerial Personnel) Rules, 2014",
     "rule": "8",
     "title": "Appointment of Key Managerial Personnel",
-    "mentions": 0,
-    "confidence": "low"
-   },
-   {
-    "rule_id": "the-companies-appointment-and-remuneration-of-managerial-personnel-rules-2014-20261106-143106#12",
-    "rule_set": "Companies (Appointment and Remuneration of Managerial Personnel) Rules, 2014",
-    "rule": "12",
-    "title": "Personnel) Amendment Rules, 2020 vide Notification No. G.S.R. 13(E) dated 3rd January, 2020, w.e.f. 01.04.2020, for the Rule: \"8A. Appointment of Company Secretaries in companies not covered under rule 8",
     "mentions": 0,
     "confidence": "low"
    }
@@ -13506,14 +13906,6 @@
     "rule_set": "Companies (Appointment and Remuneration of Managerial Personnel) Rules, 2014",
     "rule": "8",
     "title": "Appointment of Key Managerial Personnel",
-    "mentions": 0,
-    "confidence": "low"
-   },
-   {
-    "rule_id": "the-companies-appointment-and-remuneration-of-managerial-personnel-rules-2014-20261106-143106#12",
-    "rule_set": "Companies (Appointment and Remuneration of Managerial Personnel) Rules, 2014",
-    "rule": "12",
-    "title": "Personnel) Amendment Rules, 2020 vide Notification No. G.S.R. 13(E) dated 3rd January, 2020, w.e.f. 01.04.2020, for the Rule: \"8A. Appointment of Company Secretaries in companies not covered under rule 8",
     "mentions": 0,
     "confidence": "low"
    }
@@ -13614,14 +14006,6 @@
     "title": "Appointment of Key Managerial Personnel",
     "mentions": 0,
     "confidence": "low"
-   },
-   {
-    "rule_id": "the-companies-appointment-and-remuneration-of-managerial-personnel-rules-2014-20261106-143106#12",
-    "rule_set": "Companies (Appointment and Remuneration of Managerial Personnel) Rules, 2014",
-    "rule": "12",
-    "title": "Personnel) Amendment Rules, 2020 vide Notification No. G.S.R. 13(E) dated 3rd January, 2020, w.e.f. 01.04.2020, for the Rule: \"8A. Appointment of Company Secretaries in companies not covered under rule 8",
-    "mentions": 0,
-    "confidence": "low"
    }
   ],
   "205": [
@@ -13686,14 +14070,6 @@
     "rule_set": "Companies (Appointment and Remuneration of Managerial Personnel) Rules, 2014",
     "rule": "8",
     "title": "Appointment of Key Managerial Personnel",
-    "mentions": 0,
-    "confidence": "low"
-   },
-   {
-    "rule_id": "the-companies-appointment-and-remuneration-of-managerial-personnel-rules-2014-20261106-143106#12",
-    "rule_set": "Companies (Appointment and Remuneration of Managerial Personnel) Rules, 2014",
-    "rule": "12",
-    "title": "Personnel) Amendment Rules, 2020 vide Notification No. G.S.R. 13(E) dated 3rd January, 2020, w.e.f. 01.04.2020, for the Rule: \"8A. Appointment of Company Secretaries in companies not covered under rule 8",
     "mentions": 0,
     "confidence": "low"
    }
@@ -14684,6 +15060,14 @@
     "confidence": "high"
    },
    {
+    "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#25",
+    "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
+    "rule": "25",
+    "title": "A valuer or his/its relative shall not accept gifts or hospitality which undermines or affects his independence as a valuer. Explanation",
+    "mentions": 3,
+    "confidence": "high"
+   },
+   {
     "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#1",
     "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
     "rule": "1",
@@ -14695,7 +15079,7 @@
     "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#3",
     "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
     "rule": "3",
-    "title": "Eligibility for registered valuers",
+    "title": "Eligibility for registered valuers. (1) A person shall be eligible to be a registered valuer if he- (a) is a valuer member of a registered valuers organisation; Explanation",
     "mentions": 0,
     "confidence": "low"
    },
@@ -14780,6 +15164,30 @@
     "confidence": "low"
    },
    {
+    "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#15",
+    "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
+    "rule": "15",
+    "title": "Cancellation or suspension of certificate of registration or recognition",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#16",
+    "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
+    "rule": "16",
+    "title": "Complaint against a registered valuer or registered valuers organisation",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#17",
+    "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
+    "rule": "17",
+    "title": "Procedure to be followed for cancellation or suspension of registration or recognition certificate",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#18",
     "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
     "rule": "18",
@@ -14792,6 +15200,38 @@
     "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
     "rule": "19",
     "title": "Committee to advise on valuation matters",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#22",
+    "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
+    "rule": "22",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#23",
+    "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
+    "rule": "23",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#24",
+    "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
+    "rule": "24",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#26",
+    "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
+    "rule": "26",
+    "title": "A member shall make an application for temporary surrender of his membership of the Organisation at least thirty days before he- (a) becomes a person not resident in India; (b) takes up employment; or [24][Explanation",
     "mentions": 0,
     "confidence": "low"
    }
@@ -14814,10 +15254,10 @@
     "confidence": "high"
    },
    {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#40",
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#41",
     "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "40",
-    "title": "Application under sub-section (41) of section 2 for change in financial year",
+    "rule": "41",
+    "title": "Application under section 14 for conversion of public company into private company. (1) An application under the second proviso to sub- section (1) of section 14 for the conversion of a public company into a private company, shall, within sixty days from the date of passing of special resolution, be filed with Regional Director in e-Form No. RD-1 along with the fee as provided in the Companies (Registration Offices and Fees) Rules, 2014 and shall be accompanied by the following documents, namely",
     "mentions": 1,
     "confidence": "high"
    },
@@ -14898,6 +15338,14 @@
     "rule_set": "Companies (Removal of Names of Companies from the Register of Companies) Rules, 2016",
     "rule": "6",
     "title": "Form to be certified",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-removal-of-names-of-companies-from-the-register-of-companies-rules-2016-20261107-081550#8",
+    "rule_set": "Companies (Removal of Names of Companies from the Register of Companies) Rules, 2016",
+    "rule": "8",
+    "title": "Manner of notarisation, appostilisation or consularisation of indemnity bond and declaration in case of foreign nationals or non- resident Indians",
     "mentions": 0,
     "confidence": "low"
    }
@@ -15462,6 +15910,14 @@
     "title": "Other obligations of companies seeking registration",
     "mentions": 3,
     "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-authorised-to-register-rules-2014-20261107-081607#1",
+    "rule_set": "Companies (Authorised to Registered) Rules, 2014",
+    "rule": "1",
+    "title": "Short title and commencement [2][(1) Companies (Authorised to Register) Rules, 2014",
+    "mentions": 0,
+    "confidence": "low"
    }
   ],
   "374": [
@@ -15480,6 +15936,14 @@
     "title": "Other obligations of companies seeking registration",
     "mentions": 1,
     "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-authorised-to-register-rules-2014-20261107-081607#1",
+    "rule_set": "Companies (Authorised to Registered) Rules, 2014",
+    "rule": "1",
+    "title": "Short title and commencement [2][(1) Companies (Authorised to Register) Rules, 2014",
+    "mentions": 0,
+    "confidence": "low"
    }
   ],
   "378A": [
@@ -15562,6 +16026,14 @@
     "confidence": "high"
    },
    {
+    "rule_id": "the-companies-registration-of-foreign-companies-rules-2014-20261107-081638#1",
+    "rule_set": "Companies (Registration of Foreign Companies) Rules, 2014",
+    "rule": "1",
+    "title": "Short title and commencement",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "the-companies-registration-of-foreign-companies-rules-2014-20261107-081638#6",
     "rule_set": "Companies (Registration of Foreign Companies) Rules, 2014",
     "rule": "6",
@@ -15624,16 +16096,8 @@
     "rule_set": "Companies (Corporate Social Responsibility Policy) Rules, 2014",
     "rule": "10",
     "title": "Transfer of unspent CSR amount",
-    "mentions": 1,
+    "mentions": 2,
     "confidence": "high"
-   },
-   {
-    "rule_id": "the-companies-corporate-social-responsibility-policy-rules-2014-csr-rules-20261106-142812#14",
-    "rule_set": "Companies (Corporate Social Responsibility Policy) Rules, 2014",
-    "rule": "14",
-    "title": "Amendment Rules, 2021 vide Notification No. G.S.R. 40(E) dated 22nd January, 2021, w.e.f. 22.01.2021. Prior to substitution, the sub-rule stood as under: \"8. CSR Reporting",
-    "mentions": 1,
-    "confidence": "medium"
    },
    {
     "rule_id": "the-companies-registration-of-foreign-companies-rules-2014-20261107-081638#5",
@@ -15642,6 +16106,14 @@
     "title": "Audit of accounts of foreign company",
     "mentions": 1,
     "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-registration-of-foreign-companies-rules-2014-20261107-081638#1",
+    "rule_set": "Companies (Registration of Foreign Companies) Rules, 2014",
+    "rule": "1",
+    "title": "Short title and commencement",
+    "mentions": 0,
+    "confidence": "low"
    },
    {
     "rule_id": "the-companies-registration-of-foreign-companies-rules-2014-20261107-081638#6",
@@ -15686,6 +16158,14 @@
     "confidence": "high"
    },
    {
+    "rule_id": "the-companies-registration-of-foreign-companies-rules-2014-20261107-081638#1",
+    "rule_set": "Companies (Registration of Foreign Companies) Rules, 2014",
+    "rule": "1",
+    "title": "Short title and commencement",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "the-companies-registration-of-foreign-companies-rules-2014-20261107-081638#6",
     "rule_set": "Companies (Registration of Foreign Companies) Rules, 2014",
     "rule": "6",
@@ -15720,6 +16200,14 @@
   ],
   "386": [
    {
+    "rule_id": "the-companies-registration-of-foreign-companies-rules-2014-20261107-081638#1",
+    "rule_set": "Companies (Registration of Foreign Companies) Rules, 2014",
+    "rule": "1",
+    "title": "Short title and commencement",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "the-companies-registration-of-foreign-companies-rules-2014-20261107-081638#6",
     "rule_set": "Companies (Registration of Foreign Companies) Rules, 2014",
     "rule": "6",
@@ -15753,6 +16241,14 @@
    }
   ],
   "389": [
+   {
+    "rule_id": "the-companies-registration-of-foreign-companies-rules-2014-20261107-081638#1",
+    "rule_set": "Companies (Registration of Foreign Companies) Rules, 2014",
+    "rule": "1",
+    "title": "Short title and commencement",
+    "mentions": 0,
+    "confidence": "low"
+   },
    {
     "rule_id": "the-companies-registration-of-foreign-companies-rules-2014-20261107-081638#6",
     "rule_set": "Companies (Registration of Foreign Companies) Rules, 2014",
@@ -15794,6 +16290,14 @@
     "title": "Issue of Indian Depository Receipts (IDRs)",
     "mentions": 1,
     "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-registration-of-foreign-companies-rules-2014-20261107-081638#1",
+    "rule_set": "Companies (Registration of Foreign Companies) Rules, 2014",
+    "rule": "1",
+    "title": "Short title and commencement",
+    "mentions": 0,
+    "confidence": "low"
    },
    {
     "rule_id": "the-companies-registration-of-foreign-companies-rules-2014-20261107-081638#6",
@@ -16352,10 +16856,10 @@
     "confidence": "high"
    },
    {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#9A",
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#12",
     "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "9A",
-    "title": "Extension of reservation of name in certain cases",
+    "rule": "12",
+    "title": "Application for incorporation of companies",
     "mentions": 1,
     "confidence": "high"
    },
@@ -16492,6 +16996,14 @@
     "rule_set": "Nidhi Rules, 2014",
     "rule": "16",
     "title": "Rate of interest",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "nidhi-rules-2014-20261107-081648#18",
+    "rule_set": "Nidhi Rules, 2014",
+    "rule": "18",
+    "title": "Dividend",
     "mentions": 0,
     "confidence": "low"
    },
@@ -17370,6 +17882,14 @@
     "confidence": "low"
    },
    {
+    "rule_id": "the-companies-mediation-and-conciliation-rules-2016-20261107-081856#6",
+    "rule_set": "Companies (Mediation and Conciliation) Rules, 2016",
+    "rule": "6",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "the-companies-mediation-and-conciliation-rules-2016-20261107-081856#7",
     "rule_set": "Companies (Mediation and Conciliation) Rules, 2016",
     "rule": "7",
@@ -17636,6 +18156,14 @@
     "confidence": "low"
    },
    {
+    "rule_id": "the-companies-adjudication-of-penalties-rules-2014-20261107-081905#2",
+    "rule_set": "Companies (Adjudication of Penalties) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "the-companies-adjudication-of-penalties-rules-2014-20261107-081905#3A",
     "rule_set": "Companies (Adjudication of Penalties) Rules, 2014",
     "rule": "3A",
@@ -17718,6 +18246,14 @@
     "confidence": "low"
    },
    {
+    "rule_id": "the-companies-miscellaneous-rules-2014-20261107-081911#2",
+    "rule_set": "Companies (Miscellaneous) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "the-companies-miscellaneous-rules-2014-20261107-081911#4",
     "rule_set": "Companies (Miscellaneous) Rules, 2014",
     "rule": "4",
@@ -17787,7 +18323,7 @@
     "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#3",
     "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
     "rule": "3",
-    "title": "Eligibility for registered valuers",
+    "title": "Eligibility for registered valuers. (1) A person shall be eligible to be a registered valuer if he- (a) is a valuer member of a registered valuers organisation; Explanation",
     "mentions": 0,
     "confidence": "low"
    },
@@ -17872,6 +18408,30 @@
     "confidence": "low"
    },
    {
+    "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#15",
+    "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
+    "rule": "15",
+    "title": "Cancellation or suspension of certificate of registration or recognition",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#16",
+    "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
+    "rule": "16",
+    "title": "Complaint against a registered valuer or registered valuers organisation",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#17",
+    "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
+    "rule": "17",
+    "title": "Procedure to be followed for cancellation or suspension of registration or recognition certificate",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#18",
     "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
     "rule": "18",
@@ -17884,6 +18444,38 @@
     "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
     "rule": "19",
     "title": "Committee to advise on valuation matters",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#22",
+    "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
+    "rule": "22",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#23",
+    "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
+    "rule": "23",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#24",
+    "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
+    "rule": "24",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#26",
+    "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
+    "rule": "26",
+    "title": "A member shall make an application for temporary surrender of his membership of the Organisation at least thirty days before he- (a) becomes a person not resident in India; (b) takes up employment; or [24][Explanation",
     "mentions": 0,
     "confidence": "low"
    }
@@ -17910,6 +18502,14 @@
     "rule_set": "Companies (Miscellaneous) Rules, 2014",
     "rule": "1",
     "title": "Short title and commencement",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-miscellaneous-rules-2014-20261107-081911#2",
+    "rule_set": "Companies (Miscellaneous) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
     "mentions": 0,
     "confidence": "low"
    },
@@ -17973,7 +18573,7 @@
     "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#3",
     "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
     "rule": "3",
-    "title": "Eligibility for registered valuers",
+    "title": "Eligibility for registered valuers. (1) A person shall be eligible to be a registered valuer if he- (a) is a valuer member of a registered valuers organisation; Explanation",
     "mentions": 0,
     "confidence": "low"
    },
@@ -18058,6 +18658,30 @@
     "confidence": "low"
    },
    {
+    "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#15",
+    "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
+    "rule": "15",
+    "title": "Cancellation or suspension of certificate of registration or recognition",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#16",
+    "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
+    "rule": "16",
+    "title": "Complaint against a registered valuer or registered valuers organisation",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#17",
+    "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
+    "rule": "17",
+    "title": "Procedure to be followed for cancellation or suspension of registration or recognition certificate",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
     "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#18",
     "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
     "rule": "18",
@@ -18072,6 +18696,38 @@
     "title": "Committee to advise on valuation matters",
     "mentions": 0,
     "confidence": "low"
+   },
+   {
+    "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#22",
+    "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
+    "rule": "22",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#23",
+    "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
+    "rule": "23",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#24",
+    "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
+    "rule": "24",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#26",
+    "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
+    "rule": "26",
+    "title": "A member shall make an application for temporary surrender of his membership of the Organisation at least thirty days before he- (a) becomes a person not resident in India; (b) takes up employment; or [24][Explanation",
+    "mentions": 0,
+    "confidence": "low"
    }
   ],
   "464": [
@@ -18080,6 +18736,14 @@
     "rule_set": "Companies (Miscellaneous) Rules, 2014",
     "rule": "1",
     "title": "Short title and commencement",
+    "mentions": 0,
+    "confidence": "low"
+   },
+   {
+    "rule_id": "the-companies-miscellaneous-rules-2014-20261107-081911#2",
+    "rule_set": "Companies (Miscellaneous) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
     "mentions": 0,
     "confidence": "low"
    },
@@ -18143,6 +18807,14 @@
    }
   ],
   "466": [
+   {
+    "rule_id": "the-companies-authorised-to-register-rules-2014-20261107-081607#1",
+    "rule_set": "Companies (Authorised to Registered) Rules, 2014",
+    "rule": "1",
+    "title": "Short title and commencement [2][(1) Companies (Authorised to Register) Rules, 2014",
+    "mentions": 0,
+    "confidence": "low"
+   },
    {
     "rule_id": "nclat-recruitment-salary-and-other-terms-and-conditions-of-service-of-officers-and-other-employees-rules-2020-20261107-081755#1",
     "rule_set": "National Company Law Appellate Tribunal (Recruitment, Salary and other Terms and Conditions of Service of Officers and other Employees) Rules, 2020",
