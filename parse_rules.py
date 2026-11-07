@@ -11,14 +11,34 @@ import re
 from pathlib import Path
 
 RULE_MAX = 400
+D = r"[—–─‒−\-]"                                  # every kind of dash seen in the PDFs
+PREFIX = r"(?:\[\d{1,3}\]|\d{1,3}\[|\[)*"            # footnote markers such as [13][ or 3[
+START = r"^(?=[ \t]*" + PREFIX + r"[ \t]*(?P<num>\d{1,3}[A-Z]{0,2})\.[ \t]*"
+NOTNUM = r"(?![ \t]*" + PREFIX + r"\d{1,3}[A-Z]{0,2}\.)"
 
-# A rule heading: optional footnote marker, number, full stop, title (may wrap over lines), then ".—"
-RULE_RE = re.compile(
-    r"^(?=[ \t]*(?:\d{0,2}\[)?(?P<num>\d{1,3}[A-Z]{0,2})\.[ \t]*\n?[ \t]*"
-    r"(?P<title>[A-Z\[“‘][^\n]{1,200}?(?:\n(?![ \t]*\d{1,3}[A-Z]{0,2}\.)[^\n]{1,120}?){0,10})"
-    r"\.\]?[ \t]*[—–-](?P<end>))",
+# Heading with a dash: "6. Title.-", "6. Title.─", "6. Title:-", "13. Title- text", title may wrap over lines
+DASH_RE = re.compile(
+    START + r"\n?[ \t]*(?:\(\d{1,2}\)[ \t]*)?"
+    r"(?P<title>[A-Z\[“‘][^\n]{1,200}?(?:\n(?:[ \t]*\n)*" + NOTNUM + r"[^\n]{1,120}?){0,10}?)"
+    r"(?:(?P<t1>[ \t]*\.\]?[ \t]*" + D + r"+|[ \t]*" + D + r"+\.\]?(?=[ \t]*\n))"
+    r"|(?P<t2>[ \t]*:[ \t]*" + D + r"+)"
+    r"|(?P<t3>[ \t]*" + D + r"(?=[ \t\n])))"
+    r"(?P<end>))",
     re.MULTILINE,
 )
+# Heading with no dash: "2. Definitions." alone on a line
+PLAIN_RE = re.compile(START + r"(?P<title>[A-Z\[“‘][^\n]{1,100}?)\.\]?[ \t]*\n(?P<end>))", re.MULTILINE)
+STOP = re.compile(r"\b(?:shall|may|must|should|will|is|are|was|were|has|have|can|if|unless|where|whose|that|being|not)\b")
+OMIT1 = re.compile(r"^[ \t]*" + PREFIX + r"[ \t]*(?P<num>\d{1,3}[A-Z]{0,2})\.[^\n]{0,80}\n?[ \t]*(?:\[\d{1,3}\])?\[\*{3}\]", re.MULTILINE)
+OMIT_AFTER = re.compile(r"[ \t]*\n?[ \t]*(?:\[\d{1,3}\])?\[\*{3}\]")
+OMIT2 = re.compile(r"\[Rule[ \t]+(?P<num>\d{1,3}[A-Z]{0,2})[ \t]+omitted\]", re.IGNORECASE)
+
+FURNITURE_RE = re.compile(
+    r"^[ \t]*(?:IBC Laws|®|www\.ibclaw\.in|Printed on [^\n]{0,60}|Page \d+ of \d+|Download Mobile App|"
+    r"Subscribe Daily Email Newsletter|Last amendment on[^\n]{0,30}|No amendment|Amended upto date)[ \t]*$\n?",
+    re.MULTILINE,
+)
+NAMELY_RE = re.compile(r"(namely\s*[:\-—–─]*)[ \t]*(?=(?:\d{0,2}\[)?1\.[ \t]*[A-Z\[(])")
 NOISE_RE = re.compile(r"^[ \t]*\d{1,3}[ \t]*$", re.MULTILINE)
 # after the last rule, forms and annexures begin
 ENDMARK_RE = re.compile(r"^[ \t]*(?:FORM[ \t]+NO\b|ANNEXURE\b|APPENDIX\b|SCHEDULE\b|THE[ \t]+(?:FIRST|SECOND)[ \t]+SCHEDULE)", re.MULTILINE)
@@ -61,17 +81,42 @@ def longest_increasing(cands):
     return [cands[i][1] for i in reversed(chain)]
 
 
-NAMELY_RE = re.compile(r"(namely\s*[:\-—–]*)[ \t]*(?=(?:\d{0,2}\[)?1\.[ \t]*[A-Z\[])")
+def trim_chain(chain):
+    """Drop a short tail that sits far beyond the real rules (for example item 92 of a form)."""
+    nums = [sort_key(m.group("num"))[0] for m in chain]
+    for i in range(1, len(nums)):
+        if nums[i] - nums[i - 1] > 20 and len(nums) - i < 6:
+            return chain[:i]
+    return chain
+
+
+def title_ok(title, kind):
+    if kind in ("t1", "t2"):
+        return True
+    t = title.strip()
+    return len(t) <= 100 and "\n" not in t and ". " not in t and not STOP.search(t)
+
+
+def clean(text):
+    text = FURNITURE_RE.sub("", text.replace("\r", ""))
+    return NAMELY_RE.sub(r"\1\n", text)
 
 
 def split_rules(text):
-    text = NAMELY_RE.sub(r"\1\n", text)
-    cands = []
-    for m in RULE_RE.finditer(text):
-        key = sort_key(m.group("num"))
-        if 1 <= key[0] <= RULE_MAX:
-            cands.append((key, m))
-    kept = longest_increasing(cands)
+    text = clean(text)
+    cands = {}
+    for rx, plain in ((DASH_RE, False), (PLAIN_RE, True)):
+        for m in rx.finditer(text):
+            key = sort_key(m.group("num"))
+            if not 1 <= key[0] <= RULE_MAX:
+                continue
+            kind = "plain" if plain else ("t1" if m.group("t1") else "t2" if m.group("t2") else "t3")
+            if OMIT_AFTER.match(text, m.end("end")):
+                continue                      # "5. Penalty. [13][***]" is an omitted rule, not a live one
+            if title_ok(m.group("title"), kind) and m.start() not in cands:
+                cands[m.start()] = (key, m)
+    kept = trim_chain(longest_increasing([cands[p] for p in sorted(cands)]))
+
     rules = []
     for i, m in enumerate(kept):
         end = kept[i + 1].start() if i + 1 < len(kept) else len(text)
@@ -80,9 +125,19 @@ def split_rules(text):
             if cm:
                 end = cm.start()
         body = re.sub(r"\n{3,}", "\n\n", NOISE_RE.sub("", text[m.end("end"):end])).strip()
-        rules.append({"rule": m.group("num"), "title": re.sub(r"\s+", " ", m.group("title")).strip(), "text": body})
+        rules.append({"rule": m.group("num"), "title": re.sub(r"\s+", " ", m.group("title")).strip(),
+                      "status": "in force", "text": body})
+
+    found = {r["rule"] for r in rules}
+    top = max((sort_key(r["rule"])[0] for r in rules), default=0)
+    omitted = {}
+    for rx in (OMIT1, OMIT2):
+        for m in rx.finditer(text):
+            n = m.group("num")
+            if n not in found and n not in omitted and 1 <= sort_key(n)[0] <= top:
+                omitted[n] = {"rule": n, "title": "Omitted", "status": "omitted", "text": "This rule has been omitted."}
     preamble = text[:kept[0].start()] if kept else ""
-    return rules, preamble, text
+    return rules, list(omitted.values()), preamble, text
 
 
 def rule_set_name(text, stem):
@@ -146,9 +201,9 @@ def main():
     docs = []
     for f in files:
         text = f.read_text(encoding="utf-8").replace("\r", "")
-        rules, preamble, text = split_rules(text)
-        docs.append({"stem": f.stem, "file": f.name, "text": text, "rules": rules, "preamble": preamble,
-                     "name": rule_set_name(text, f.stem)})
+        rules, omitted, preamble, text = split_rules(text)
+        docs.append({"stem": f.stem, "file": f.name, "text": text, "rules": rules, "omitted": omitted,
+                     "preamble": preamble, "name": rule_set_name(text, f.stem)})
 
     # The same Rules uploaded twice: keep the copy with most rules (latest file name on a tie)
     best = {}
@@ -171,13 +226,20 @@ def main():
             if not cl:  # no explicit citation: use the section(s) the Rules were made under
                 cl = [{"section": s, "mentions": 0, "confidence": "low"} for s in fallback]
             all_rules.append({"id": f"{stem}#{r['rule']}", "rule_set_id": stem, "rule_set": name,
-                              "rule": r["rule"], "title": r["title"], "text": r["text"], "cites": cl})
-        rule_sets.append({"id": stem, "name": name, "file": d["file"], "rule_count": len(rules), "enabling_sections": enabling})
-        miss = missing_numbers(rules)
+                              "rule": r["rule"], "title": r["title"], "status": "in force", "text": r["text"], "cites": cl})
+        for r in d["omitted"]:
+            all_rules.append({"id": f"{stem}#{r['rule']}", "rule_set_id": stem, "rule_set": name, "rule": r["rule"],
+                              "title": r["title"], "status": "omitted", "text": r["text"], "cites": []})
+        mine = sorted((r for r in all_rules if r["rule_set_id"] == stem), key=lambda r: sort_key(r["rule"]))
+        all_rules[:] = [r for r in all_rules if r["rule_set_id"] != stem] + mine
+        rule_sets.append({"id": stem, "name": name, "file": d["file"], "rule_count": len(rules),
+                          "omitted_count": len(d["omitted"]), "enabling_sections": enabling})
+        miss = missing_numbers(rules + d["omitted"])
         first_last = f"{rules[0]['rule']} to {rules[-1]['rule']}" if rules else "-"
         explicit = sum(1 for r in all_rules if r["rule_set_id"] == stem and any(c["confidence"] != "low" for c in r["cites"]))
+        om = len(d["omitted"])
         shown = ", ".join(miss[:6]) + (" ..." if len(miss) > 6 else "")
-        rows.append(f"| {stem[:45]} | {name[:60]} | {len(rules)} | {first_last} | {len(miss)}: {shown} | {explicit} |")
+        rows.append(f"| {stem[:45]} | {name[:60]} | {len(rules)} (+{om} omitted) | {first_last} | {len(miss)}: {shown} | {explicit} |")
         if len(rules) < 3 or len(miss) >= 3:
             probs.append((len(miss) if rules else 999, d, miss))
 
@@ -207,12 +269,13 @@ def main():
     Path("data/rules.json").write_text(json.dumps({"rule_sets": rule_sets, "rules": all_rules}, ensure_ascii=False, indent=1), encoding="utf-8")
     Path("data/links.json").write_text(json.dumps({"by_section": ordered}, ensure_ascii=False, indent=1), encoding="utf-8")
 
-    no_link = sum(1 for r in all_rules if not r["cites"])
-    low_only = sum(1 for r in all_rules if r["cites"] and all(c["confidence"] == "low" for c in r["cites"]))
+    live = [r for r in all_rules if r["status"] == "in force"]
+    no_link = sum(1 for r in live if not r["cites"])
+    low_only = sum(1 for r in live if r["cites"] and all(c["confidence"] == "low" for c in r["cites"]))
     report = [
         "# Rules report", "",
         f"- Rules documents read: {len(files)} (duplicates skipped: {len(skipped)})",
-        f"- Individual rules found: {len(all_rules)}",
+        f"- Individual rules found: {len(live)} (plus {len(all_rules) - len(live)} omitted rules recorded)",
         f"- Sections of the Act that have at least one linked rule: {len(ordered)}",
         f"- Rules linked only through their rule set's enabling section (low confidence): {low_only}",
         f"- Rules with no link at all: {no_link}",
