@@ -1,0 +1,5534 @@
+{
+ "by_section": {
+  "1": [
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#14",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "14",
+    "title": "Declaration by professionals",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-national-financial-reporting-authority-rules-2018-nfra-rules-20261106-142823#3",
+    "rule_set": "National Financial Reporting Authority Rules, 2018",
+    "rule": "3",
+    "title": "Classes of companies and bodies corporate governed by the Authority",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "2": [
+   {
+    "rule_id": "the-companies-accounting-standards-rules-2021-20261106-142734#2",
+    "rule_set": "Companies (Accounting Standards) Rules, 2021",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-appointment-and-qualification-of-directors-rules-2014-20261106-143017#2",
+    "rule_set": "Companies (Appointment and Qualification of Directors) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-appointment-and-qualification-of-directors-rules-2014-20261106-143017#14",
+    "rule_set": "Companies (Appointment and Qualification of Directors) Rules, 2014",
+    "rule": "14",
+    "title": "Disqualification of directors under sub-section (2) of section 164",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-auditors-report-order-2015-caro-2015-wef-01-04-2014-20261106-142952#1",
+    "rule_set": "Companies (Auditor's Report) Order, 2015",
+    "rule": "1",
+    "title": "Short title, application and commencement",
+    "mentions": 3,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-auditors-report-order-2016-caro-2016-wef-01-04-2015-20261106-142946#1",
+    "rule_set": "Companies (Auditor's Report) Order, 2016",
+    "rule": "1",
+    "title": "Short title, application and commencement",
+    "mentions": 3,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-auditors-report-order-2020-caro-2020-wef-01-04-2021-20261106-142940#1",
+    "rule_set": "Companies (Auditor's Report) Order, 2020",
+    "rule": "1",
+    "title": "Short title, application and commencement",
+    "mentions": 3,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-auditors-report-order-2020-caro-2020-wef-01-04-2021-20261106-142940#3",
+    "rule_set": "Companies (Auditor's Report) Order, 2020",
+    "rule": "3",
+    "title": "Matters to be included in auditor's report",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-compromises-arrangements-and-amalgamations-rules-2016-20261106-143131#25",
+    "rule_set": "Companies (Compromises, Arrangements and Amalgamations) Rules, 2016",
+    "rule": "25",
+    "title": "Merger or Amalgamation of certain companies",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-corporate-social-responsibility-policy-rules-2014-csr-rules-20261106-142812#1",
+    "rule_set": "Companies (Corporate Social Responsibility Policy) Rules, 2014",
+    "rule": "1",
+    "title": "Short title and commencement",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-corporate-social-responsibility-policy-rules-2014-csr-rules-20261106-142812#3",
+    "rule_set": "Companies (Corporate Social Responsibility Policy) Rules, 2014",
+    "rule": "3",
+    "title": "Corporate Social Responsibility",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-cost-records-and-audit-rules-2014-20261106-142928#1",
+    "rule_set": "Companies (Cost Records and Audit) Rules, 2014",
+    "rule": "1",
+    "title": "Short title and commencement",
+    "mentions": 3,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-cost-records-and-audit-rules-2014-20261106-142928#24",
+    "rule_set": "Companies (Cost Records and Audit) Rules, 2014",
+    "rule": "24",
+    "title": "Related Party Transactions",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-cost-records-and-audit-rules-2014-20261106-142928#30",
+    "rule_set": "Companies (Cost Records and Audit) Rules, 2014",
+    "rule": "30",
+    "title": "Records of Physical Verification",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#14",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "14",
+    "title": "Declaration by professionals",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#35",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "35",
+    "title": "Service of documents",
+    "mentions": 4,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-indian-accounting-standards-rules-2015-20261106-142802#2",
+    "rule_set": "Companies (Indian Accounting Standards) Rules, 2015",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 3,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "companies-listing-of-equity-shares-in-permissible-jurisdictions-rules-2024-20261106-142516#4",
+    "rule_set": "Companies (Listing of equity 1[instruments] in permissible jurisdictions) Rules, 2024",
+    "rule": "4",
+    "title": "Listing on permitted stock exchanges in permissible jurisdictions",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-listing-of-equity-shares-in-permissible-jurisdictions-rules-2024-20261106-142516#5",
+    "rule_set": "Companies (Listing of equity 1[instruments] in permissible jurisdictions) Rules, 2024",
+    "rule": "5",
+    "title": "Certain companies not eligible",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#22",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "22",
+    "title": "Procedure to be followed for conducting business through postal ballot",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-registration-of-foreign-companies-rules-2014-20261107-081638#1",
+    "rule_set": "Companies (Registration of Foreign Companies) Rules, 2014",
+    "rule": "1",
+    "title": "Short title and commencement",
+    "mentions": 2,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-registration-of-foreign-companies-rules-2014-20261107-081638#4",
+    "rule_set": "Companies (Registration of Foreign Companies) Rules, 2014",
+    "rule": "4",
+    "title": "Financial Statement of foreign company",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-restriction-on-number-of-layers-rules-2017-20261106-142350#2",
+    "rule_set": "Companies (Restriction on number of layers) Rules, 2017",
+    "rule": "2",
+    "title": "Restriction on number of layers for certain classes of holding companies",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-restriction-on-number-of-layers-rules-2017-20261107-081901#2",
+    "rule_set": "Companies (Restriction on number of layers) Rules, 2017",
+    "rule": "2",
+    "title": "Restriction on number of layers for certain classes of holding companies",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-share-capital-and-debentures-rules-2014-20261106-142528#18",
+    "rule_set": "Companies (Share Capital and Debentures) Rules, 2014",
+    "rule": "18",
+    "title": "Debentures",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-share-capital-and-debentures-rules-2014-20261106-142528#19",
+    "rule_set": "Companies (Share Capital and Debentures) Rules, 2014",
+    "rule": "19",
+    "title": "Nomination by securities holders",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-significant-beneficial-owners-rules-2018-20261106-142626#2",
+    "rule_set": "Companies (Significant Beneficial Owners) Rules, 2018",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 2,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-specification-of-definitions-details-rules-2014-20261106-142346#2",
+    "rule_set": "Companies (Specification of definitions details) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 7,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-specification-of-definitions-details-rules-2014-20261106-142346#3",
+    "rule_set": "Companies (Specification of definitions details) Rules, 2014",
+    "rule": "3",
+    "title": "Related party",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-specification-of-definitions-details-rules-2014-20261106-142346#4",
+    "rule_set": "Companies (Specification of definitions details) Rules, 2014",
+    "rule": "4",
+    "title": "List of relatives in terms of clause (77) of section 2",
+    "mentions": 4,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-iepf-accounting-audit-transfer-and-refund-rules-2016-20261106-142648#2",
+    "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-iepf-accounting-audit-transfer-and-refund-rules-2016-20261106-142648#12",
+    "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
+    "rule": "12",
+    "title": "Repeal and savings",
+    "mentions": 2,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "iepfa-appointment-of-chairperson-and-members-holding-of-meetings-and-provision-for-offices-and-officers-rules-2016-20261106-142658#2",
+    "rule_set": "Investor Education and Protection Fund Authority (Appointment of Chairperson and Members, holding of meetings and provision for offices and officers) Rules, 2016",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#67",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "67",
+    "title": "Petition under sub-section (41) of section 2",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-national-financial-reporting-authority-rules-2018-nfra-rules-20261106-142823#2",
+    "rule_set": "National Financial Reporting Authority Rules, 2018",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 2,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-national-financial-reporting-authority-rules-2018-nfra-rules-20261106-142823#3",
+    "rule_set": "National Financial Reporting Authority Rules, 2018",
+    "rule": "3",
+    "title": "Classes of companies and bodies corporate governed by the Authority",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "nidhi-rules-2014-20261107-081648#6",
+    "rule_set": "Nidhi Rules, 2014",
+    "rule": "6",
+    "title": "General restrictions or prohibitions",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-producer-companies-rules-2021-20261107-081633#5",
+    "rule_set": "Producer Companies Rules, 2021",
+    "rule": "5",
+    "title": "Investment of general reserves",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "nfra-manner-of-appointment-and-other-terms-and-conditions-of-service-of-chairperson-and-members-rules-2018-20261106-142846#18",
+    "rule_set": "The National Financial Reporting Authority (Manner of Appointment and other Terms and Conditions of Service of Chairperson and Members) Rules, 2018",
+    "rule": "18",
+    "title": "Other conditions of service",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#2",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#12",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "12",
+    "title": "Fees",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#15",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "15",
+    "title": "Inspection of documents",
+    "mentions": 3,
+    "confidence": "high"
+   }
+  ],
+  "3": [
+   {
+    "rule_id": "the-companies-acceptance-of-deposits-rules-2014-20261106-142547#2",
+    "rule_set": "Companies (Acceptance of Deposits) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#4",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "4",
+    "title": "Nomination by the subscriber or member of One Person Company",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#8A",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "8A",
+    "title": "Undesirable names",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#35",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "35",
+    "title": "Service of documents",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-registration-of-foreign-companies-rules-2014-20261107-081638#9",
+    "rule_set": "Companies (Registration of Foreign Companies) Rules, 2014",
+    "rule": "9",
+    "title": "Certification",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-registration-of-foreign-companies-rules-2014-20261107-081638#10",
+    "rule_set": "Companies (Registration of Foreign Companies) Rules, 2014",
+    "rule": "10",
+    "title": "Authentication of translated documents",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "4": [
+   {
+    "rule_id": "the-companies-authorised-to-register-rules-2014-20261107-081607#2",
+    "rule_set": "Companies (Authorised to Registered) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-authorised-to-register-rules-2014-20261107-081607#5",
+    "rule_set": "Companies (Authorised to Registered) Rules, 2014",
+    "rule": "5",
+    "title": "Other obligations of companies seeking registration",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#8A",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "8A",
+    "title": "Undesirable names",
+    "mentions": 2,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#35",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "35",
+    "title": "Service of documents",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#92",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "92",
+    "title": "Notification No. G.S.R. 1184(E) dated 29th December, 2016, w.e.f. 01.01.2017, the rule: \"36. Integrated Process for Incorporation",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "companies-listing-of-equity-shares-in-permissible-jurisdictions-rules-2024-20261106-142516#2",
+    "rule_set": "Companies (Listing of equity 1[instruments] in permissible jurisdictions) Rules, 2024",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#15",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "15",
+    "title": "Inspection of documents",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "5": [
+   {
+    "rule_id": "the-iepf-accounting-audit-transfer-and-refund-rules-2016-20261106-142648#5",
+    "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
+    "rule": "5",
+    "title": "Statement to be furnished to the Fund",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "6": [
+   {
+    "rule_id": "the-companies-cost-records-and-audit-rules-2014-20261106-142928#1",
+    "rule_set": "Companies (Cost Records and Audit) Rules, 2014",
+    "rule": "1",
+    "title": "Short title and commencement",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#2",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "7": [
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#14",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "14",
+    "title": "Declaration by professionals",
+    "mentions": 3,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#38",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "38",
+    "title": "Notification No. G.S.R. 708(E) dated 27th July, 2018, w.e.f. 27.07.2018, for the Rule: \"15. Affidavit from subscribers and first directors",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-transfer-of-pending-proceedings-rules-2016-20261107-081601#5",
+    "rule_set": "Companies (Transfer of Pending Proceedings) Rules, 2016",
+    "rule": "5",
+    "title": "[3][Transfer of pending proceedings of Winding up on the ground of inability to pay debts",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-transfer-of-pending-proceedings-rules-2016-20261107-081722#5",
+    "rule_set": "Companies (Transfer of Pending Proceedings) Rules, 2016",
+    "rule": "5",
+    "title": "[3][Transfer of pending proceedings of Winding up on the ground of inability to pay debts",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-transfer-of-pending-proceedings-rules-2016-20261107-081601#8",
+    "rule_set": "Companies (Transfer of Pending Proceedings) Rules, 2016",
+    "rule": "8",
+    "title": "Fees not to be paid",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-transfer-of-pending-proceedings-rules-2016-20261107-081722#8",
+    "rule_set": "Companies (Transfer of Pending Proceedings) Rules, 2016",
+    "rule": "8",
+    "title": "Fees not to be paid",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#66",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "66",
+    "title": "Application under sub- section (7) of section 7",
+    "mentions": 3,
+    "confidence": "high"
+   }
+  ],
+  "8": [
+   {
+    "rule_id": "the-companies-auditors-report-order-2015-caro-2015-wef-01-04-2014-20261106-142952#1",
+    "rule_set": "Companies (Auditor's Report) Order, 2015",
+    "rule": "1",
+    "title": "Short title, application and commencement",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-auditors-report-order-2016-caro-2016-wef-01-04-2015-20261106-142946#1",
+    "rule_set": "Companies (Auditor's Report) Order, 2016",
+    "rule": "1",
+    "title": "Short title, application and commencement",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-auditors-report-order-2020-caro-2020-wef-01-04-2021-20261106-142940#1",
+    "rule_set": "Companies (Auditor's Report) Order, 2020",
+    "rule": "1",
+    "title": "Short title, application and commencement",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-authorised-to-register-rules-2014-20261107-081607#2",
+    "rule_set": "Companies (Authorised to Registered) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 4,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-authorised-to-register-rules-2014-20261107-081607#5",
+    "rule_set": "Companies (Authorised to Registered) Rules, 2014",
+    "rule": "5",
+    "title": "Other obligations of companies seeking registration",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-compromises-arrangements-and-amalgamations-rules-2016-20261106-143131#25",
+    "rule_set": "Companies (Compromises, Arrangements and Amalgamations) Rules, 2016",
+    "rule": "25",
+    "title": "Merger or Amalgamation of certain companies",
+    "mentions": 2,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-corporate-social-responsibility-policy-rules-2014-csr-rules-20261106-142812#3",
+    "rule_set": "Companies (Corporate Social Responsibility Policy) Rules, 2014",
+    "rule": "3",
+    "title": "Corporate Social Responsibility",
+    "mentions": 3,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-corporate-social-responsibility-policy-rules-2014-csr-rules-20261106-142812#5",
+    "rule_set": "Companies (Corporate Social Responsibility Policy) Rules, 2014",
+    "rule": "5",
+    "title": "CSR Committees",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-corporate-social-responsibility-policy-rules-2014-csr-rules-20261106-142812#7",
+    "rule_set": "Companies (Corporate Social Responsibility Policy) Rules, 2014",
+    "rule": "7",
+    "title": "Amendment Rules, 2021 vide Notification No. G.S.R. 40(E) dated 22nd January, 2021, w.e.f. 22.01.2021. Prior to substitution, the sub-rule stood as under: \"4. CSR Activities",
+    "mentions": 8,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#3",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "3",
+    "title": "One Person Company",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#5",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "5",
+    "title": "Penalty. [13][***] [14][6. Conversion of One Person Company into a Public company or a Private company",
+    "mentions": 2,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#7",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "7",
+    "title": "Conversion of private company into One Person Company",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#8A",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "8A",
+    "title": "Undesirable names",
+    "mentions": 2,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#19",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "19",
+    "title": "License under section 8 for new companies with charitable objects etc",
+    "mentions": 5,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#20",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "20",
+    "title": "License for existing companies",
+    "mentions": 8,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#22",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "22",
+    "title": "Other conditions to be complied with by companies registered under section 8 seeking conversion into any other kind",
+    "mentions": 6,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#35",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "35",
+    "title": "Service of documents",
+    "mentions": 7,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#43",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "43",
+    "title": "Notification No. G.S.R.70 (E) dated 25th January, 2017, w.e.f. 30.01.2017, for the Rule: \"18. Certificate of incorporation",
+    "mentions": 3,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "companies-listing-of-equity-shares-in-permissible-jurisdictions-rules-2024-20261106-142516#5",
+    "rule_set": "Companies (Listing of equity 1[instruments] in permissible jurisdictions) Rules, 2024",
+    "rule": "5",
+    "title": "Certain companies not eligible",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#19",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "19",
+    "title": "Proxies",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#7A",
+    "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
+    "rule": "7A",
+    "title": "Intimation of changes in personal details etc., by registered valuer to authority. [11][7A. Intimation of changes in personal details etc., by registered valuer to authority",
+    "mentions": 3,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-removal-of-names-of-companies-from-the-register-of-companies-rules-2016-20261107-081550#3",
+    "rule_set": "Companies (Removal of Names of Companies from the Register of Companies) Rules, 2016",
+    "rule": "3",
+    "title": "Removal of name of company from the Register on suo-motu basis",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "companies-transfer-of-pending-proceedings-rules-2016-20261107-081601#5",
+    "rule_set": "Companies (Transfer of Pending Proceedings) Rules, 2016",
+    "rule": "5",
+    "title": "[3][Transfer of pending proceedings of Winding up on the ground of inability to pay debts",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-transfer-of-pending-proceedings-rules-2016-20261107-081722#5",
+    "rule_set": "Companies (Transfer of Pending Proceedings) Rules, 2016",
+    "rule": "5",
+    "title": "[3][Transfer of pending proceedings of Winding up on the ground of inability to pay debts",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-transfer-of-pending-proceedings-rules-2016-20261107-081601#8",
+    "rule_set": "Companies (Transfer of Pending Proceedings) Rules, 2016",
+    "rule": "8",
+    "title": "Fees not to be paid",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-transfer-of-pending-proceedings-rules-2016-20261107-081722#8",
+    "rule_set": "Companies (Transfer of Pending Proceedings) Rules, 2016",
+    "rule": "8",
+    "title": "Fees not to be paid",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#68",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "68",
+    "title": "Petition under section 14",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#10",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "10",
+    "title": "Procedure on receipt of any application or form or document electronically",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#15",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "15",
+    "title": "Inspection of documents",
+    "mentions": 2,
+    "confidence": "high"
+   }
+  ],
+  "9": [
+   {
+    "rule_id": "companies-transfer-of-pending-proceedings-rules-2016-20261107-081601#5",
+    "rule_set": "Companies (Transfer of Pending Proceedings) Rules, 2016",
+    "rule": "5",
+    "title": "[3][Transfer of pending proceedings of Winding up on the ground of inability to pay debts",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-transfer-of-pending-proceedings-rules-2016-20261107-081722#5",
+    "rule_set": "Companies (Transfer of Pending Proceedings) Rules, 2016",
+    "rule": "5",
+    "title": "[3][Transfer of pending proceedings of Winding up on the ground of inability to pay debts",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-transfer-of-pending-proceedings-rules-2016-20261107-081601#8",
+    "rule_set": "Companies (Transfer of Pending Proceedings) Rules, 2016",
+    "rule": "8",
+    "title": "Fees not to be paid",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-transfer-of-pending-proceedings-rules-2016-20261107-081722#8",
+    "rule_set": "Companies (Transfer of Pending Proceedings) Rules, 2016",
+    "rule": "8",
+    "title": "Fees not to be paid",
+    "mentions": 2,
+    "confidence": "medium"
+   }
+  ],
+  "10": [
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#10",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "10",
+    "title": "Procedure on receipt of any application or form or document electronically",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "10A": [
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#22",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "22",
+    "title": "Other conditions to be complied with by companies registered under section 8 seeking conversion into any other kind",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "nidhi-rules-2014-20261107-081648#3",
+    "rule_set": "Nidhi Rules, 2014",
+    "rule": "3",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "12": [
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#25",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "25",
+    "title": "Verification of registered office",
+    "mentions": 2,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#27",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "27",
+    "title": "Notice and verification of change of situation of the registered office",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#33",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "33",
+    "title": "Alteration of articles",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#35",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "35",
+    "title": "Service of documents",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#92",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "92",
+    "title": "Notification No. G.S.R. 1184(E) dated 29th December, 2016, w.e.f. 01.01.2017, the rule: \"36. Integrated Process for Incorporation",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#22",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "22",
+    "title": "Procedure to be followed for conducting business through postal ballot",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "13": [
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#29",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "29",
+    "title": "Alteration of Memorandum by change of name",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#33",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "33",
+    "title": "Alteration of articles",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#74",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "74",
+    "title": "Notification No. G.S.R. 743(E) dated 27th July, 2016, w.e.f. 27.07.2016, for the rule: \"26. Publication of name by company",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#22",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "22",
+    "title": "Procedure to be followed for conducting business through postal ballot",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#10",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "10",
+    "title": "Procedure on receipt of any application or form or document electronically",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "14": [
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#35",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "35",
+    "title": "Service of documents",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#68",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "68",
+    "title": "Petition under section 14",
+    "mentions": 2,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#10",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "10",
+    "title": "Procedure on receipt of any application or form or document electronically",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "16": [
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#33",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "33",
+    "title": "Alteration of articles",
+    "mentions": 3,
+    "confidence": "high"
+   }
+  ],
+  "18": [
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#5",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "5",
+    "title": "Penalty. [13][***] [14][6. Conversion of One Person Company into a Public company or a Private company",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#35",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "35",
+    "title": "Service of documents",
+    "mentions": 2,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#10",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "10",
+    "title": "Procedure on receipt of any application or form or document electronically",
+    "mentions": 2,
+    "confidence": "high"
+   }
+  ],
+  "20": [
+   {
+    "rule_id": "the-companies-accounts-rules-2014-20261106-142730#11",
+    "rule_set": "Companies (Accounts) Rules, 2014",
+    "rule": "11",
+    "title": "Manner of circulation of financial statements in certain cases",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-adjudication-of-penalties-rules-2014-20261107-081905#1",
+    "rule_set": "Companies (Adjudication of Penalties) Rules, 2014",
+    "rule": "1",
+    "title": "Short title and commencement",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#35",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "35",
+    "title": "Service of documents",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-transfer-of-pending-proceedings-rules-2016-20261107-081601#8",
+    "rule_set": "Companies (Transfer of Pending Proceedings) Rules, 2016",
+    "rule": "8",
+    "title": "Fees not to be paid",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-transfer-of-pending-proceedings-rules-2016-20261107-081722#8",
+    "rule_set": "Companies (Transfer of Pending Proceedings) Rules, 2016",
+    "rule": "8",
+    "title": "Fees not to be paid",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#17",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "17",
+    "title": "Order to be sent to liquidator and form of order",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#29",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "29",
+    "title": "Notice to be given of date of settlement",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#100",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "100",
+    "title": "Notice for proving debts",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#102",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "102",
+    "title": "Mode of proof and verification thereof",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#115",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "115",
+    "title": "Acceptance or rejection of proof to be communicated",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#141",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "141",
+    "title": "Service of summons",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-producer-companies-rules-2021-20261107-081633#5",
+    "rule_set": "Producer Companies Rules, 2021",
+    "rule": "5",
+    "title": "Investment of general reserves",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "23": [
+   {
+    "rule_id": "the-companies-specification-of-definitions-details-rules-2014-20261106-142346#2",
+    "rule_set": "Companies (Specification of definitions details) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "24": [
+   {
+    "rule_id": "the-companies-specification-of-definitions-details-rules-2014-20261106-142346#2",
+    "rule_set": "Companies (Specification of definitions details) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "25": [
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#35",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "35",
+    "title": "Service of documents",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#7A",
+    "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
+    "rule": "7A",
+    "title": "Intimation of changes in personal details etc., by registered valuer to authority. [11][7A. Intimation of changes in personal details etc., by registered valuer to authority",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-removal-of-names-of-companies-from-the-register-of-companies-rules-2016-20261107-081550#3",
+    "rule_set": "Companies (Removal of Names of Companies from the Register of Companies) Rules, 2016",
+    "rule": "3",
+    "title": "Removal of name of company from the Register on suo-motu basis",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "28": [
+   {
+    "rule_id": "the-companies-prospectus-and-allotment-of-securities-rules-2014-20261106-142445#8",
+    "rule_set": "Companies (Prospectus and Allotment of Securities) Rules, 2014",
+    "rule": "8",
+    "title": "Offer of Sale by Members",
+    "mentions": 2,
+    "confidence": "medium"
+   }
+  ],
+  "37": [
+   {
+    "rule_id": "iepfa-appointment-of-chairperson-and-members-holding-of-meetings-and-provision-for-offices-and-officers-rules-2016-20261106-142658#14",
+    "rule_set": "Investor Education and Protection Fund Authority (Appointment of Chairperson and Members, holding of meetings and provision for offices and officers) Rules, 2016",
+    "rule": "14",
+    "title": "Protection of action taken in good faith",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "41": [
+   {
+    "rule_id": "the-companies-issue-of-global-depository-receipts-rules-2014-20261106-142451#4",
+    "rule_set": "Companies (Issue of Global Depository Receipts) Rules, 2014",
+    "rule": "4",
+    "title": "Conditions for issue of depository receipts",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "42": [
+   {
+    "rule_id": "the-companies-auditors-report-order-2016-caro-2016-wef-01-04-2015-20261106-142946#3",
+    "rule_set": "Companies (Auditor's Report) Order, 2016",
+    "rule": "3",
+    "title": "Matters to be included in the auditor's report",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-auditors-report-order-2020-caro-2020-wef-01-04-2021-20261106-142940#3",
+    "rule_set": "Companies (Auditor's Report) Order, 2020",
+    "rule": "3",
+    "title": "Matters to be included in auditor's report",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-prospectus-and-allotment-of-securities-rules-2014-20261106-142445#13",
+    "rule_set": "Companies (Prospectus and Allotment of Securities) Rules, 2014",
+    "rule": "13",
+    "title": "Payment of commission",
+    "mentions": 8,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-share-capital-and-debentures-rules-2014-20261106-142528#13",
+    "rule_set": "Companies (Share Capital and Debentures) Rules, 2014",
+    "rule": "13",
+    "title": "Issue of shares on preferential basis",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "43": [
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#22",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "22",
+    "title": "Procedure to be followed for conducting business through postal ballot",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "45": [
+   {
+    "rule_id": "the-companies-share-capital-and-debentures-rules-2014-20261106-142528#19",
+    "rule_set": "Companies (Share Capital and Debentures) Rules, 2014",
+    "rule": "19",
+    "title": "Nomination by securities holders",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "48": [
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#22",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "22",
+    "title": "Procedure to be followed for conducting business through postal ballot",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-share-capital-and-debentures-rules-2014-20261106-142528#9",
+    "rule_set": "Companies (Share Capital and Debentures) Rules, 2014",
+    "rule": "9",
+    "title": "Issue and redemption of preference shares",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#68",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "68",
+    "title": "Petition under section 14",
+    "mentions": 2,
+    "confidence": "medium"
+   }
+  ],
+  "51": [
+   {
+    "rule_id": "the-companies-acceptance-of-deposits-rules-2014-20261106-142547#2",
+    "rule_set": "Companies (Acceptance of Deposits) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "54": [
+   {
+    "rule_id": "the-companies-share-capital-and-debentures-rules-2014-20261106-142528#8",
+    "rule_set": "Companies (Share Capital and Debentures) Rules, 2014",
+    "rule": "8",
+    "title": "Issue of sweat equity shares",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "55": [
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#69",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "69",
+    "title": "Petition under sub-section (3) of section 55",
+    "mentions": 2,
+    "confidence": "high"
+   }
+  ],
+  "57": [
+   {
+    "rule_id": "the-iepf-accounting-audit-transfer-and-refund-rules-2016-20261106-142648#5",
+    "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
+    "rule": "5",
+    "title": "Statement to be furnished to the Fund",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "58": [
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#70",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "70",
+    "title": "Appeal under sections 58 and 59",
+    "mentions": 3,
+    "confidence": "medium"
+   }
+  ],
+  "59": [
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#70",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "70",
+    "title": "Appeal under sections 58 and 59",
+    "mentions": 4,
+    "confidence": "medium"
+   }
+  ],
+  "61": [
+   {
+    "rule_id": "the-companies-share-capital-and-debentures-rules-2014-20261106-142528#15",
+    "rule_set": "Companies (Share Capital and Debentures) Rules, 2014",
+    "rule": "15",
+    "title": "Notice to Registrar for alteration of share capital",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#70",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "70",
+    "title": "Appeal under sections 58 and 59",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "62": [
+   {
+    "rule_id": "the-companies-auditors-report-order-2020-caro-2020-wef-01-04-2021-20261106-142940#3",
+    "rule_set": "Companies (Auditor's Report) Order, 2020",
+    "rule": "3",
+    "title": "Matters to be included in auditor's report",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-issue-of-global-depository-receipts-rules-2014-20261106-142451#4",
+    "rule_set": "Companies (Issue of Global Depository Receipts) Rules, 2014",
+    "rule": "4",
+    "title": "Conditions for issue of depository receipts",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-prospectus-and-allotment-of-securities-rules-2014-20261106-142445#12",
+    "rule_set": "Companies (Prospectus and Allotment of Securities) Rules, 2014",
+    "rule": "12",
+    "title": "Return of Allotment",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-prospectus-and-allotment-of-securities-rules-2014-20261106-142445#13",
+    "rule_set": "Companies (Prospectus and Allotment of Securities) Rules, 2014",
+    "rule": "13",
+    "title": "Payment of commission",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-share-capital-and-debentures-rules-2014-20261106-142528#12",
+    "rule_set": "Companies (Share Capital and Debentures) Rules, 2014",
+    "rule": "12",
+    "title": "Issue of employee stock options",
+    "mentions": 4,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-share-capital-and-debentures-rules-2014-20261106-142528#13",
+    "rule_set": "Companies (Share Capital and Debentures) Rules, 2014",
+    "rule": "13",
+    "title": "Issue of shares on preferential basis",
+    "mentions": 2,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-share-capital-and-debentures-rules-2014-20261106-142528#15",
+    "rule_set": "Companies (Share Capital and Debentures) Rules, 2014",
+    "rule": "15",
+    "title": "Notice to Registrar for alteration of share capital",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-share-capital-and-debentures-rules-2014-20261106-142528#19",
+    "rule_set": "Companies (Share Capital and Debentures) Rules, 2014",
+    "rule": "19",
+    "title": "Nomination by securities holders",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#72",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "72",
+    "title": "Appeal against the order of the Government under Section 62(4)",
+    "mentions": 2,
+    "confidence": "medium"
+   }
+  ],
+  "64": [
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#10",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "10",
+    "title": "Procedure on receipt of any application or form or document electronically",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "66": [
+   {
+    "rule_id": "nclt-procedure-for-reduction-of-share-capital-of-company-rules-2016-20261106-142538#2",
+    "rule_set": "National Company Law Tribunal (Procedure for reduction of share capital of Company) Rules, 2016",
+    "rule": "2",
+    "title": "Form of application or petition for Reduction of share capital under section 66",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "nclt-procedure-for-reduction-of-share-capital-of-company-rules-2016-20261107-081729#2",
+    "rule_set": "National Company Law Tribunal (Procedure for reduction of share capital of Company) Rules, 2016",
+    "rule": "2",
+    "title": "Form of application or petition for Reduction of share capital under section 66",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "nclt-procedure-for-reduction-of-share-capital-of-company-rules-2016-20261106-142538#4",
+    "rule_set": "National Company Law Tribunal (Procedure for reduction of share capital of Company) Rules, 2016",
+    "rule": "4",
+    "title": "Representation by Central Government, Registrar etc. under sub- section (2) of section 66",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "nclt-procedure-for-reduction-of-share-capital-of-company-rules-2016-20261107-081729#4",
+    "rule_set": "National Company Law Tribunal (Procedure for reduction of share capital of Company) Rules, 2016",
+    "rule": "4",
+    "title": "Representation by Central Government, Registrar etc. under sub- section (2) of section 66",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "nclt-procedure-for-reduction-of-share-capital-of-company-rules-2016-20261106-142538#6",
+    "rule_set": "National Company Law Tribunal (Procedure for reduction of share capital of Company) Rules, 2016",
+    "rule": "6",
+    "title": "Order on application and Minute thereof",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "nclt-procedure-for-reduction-of-share-capital-of-company-rules-2016-20261107-081729#6",
+    "rule_set": "National Company Law Tribunal (Procedure for reduction of share capital of Company) Rules, 2016",
+    "rule": "6",
+    "title": "Order on application and Minute thereof",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "68": [
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#22",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "22",
+    "title": "Procedure to be followed for conducting business through postal ballot",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#10",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "10",
+    "title": "Procedure on receipt of any application or form or document electronically",
+    "mentions": 3,
+    "confidence": "high"
+   }
+  ],
+  "71": [
+   {
+    "rule_id": "the-companies-share-capital-and-debentures-rules-2014-20261106-142528#18",
+    "rule_set": "Companies (Share Capital and Debentures) Rules, 2014",
+    "rule": "18",
+    "title": "Debentures",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#73",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "73",
+    "title": "Application under sections 71(9), 71(10), section 73(4) or section 74(2) and 76(2)",
+    "mentions": 3,
+    "confidence": "high"
+   }
+  ],
+  "72": [
+   {
+    "rule_id": "the-companies-acceptance-of-deposits-rules-2014-20261106-142547#11",
+    "rule_set": "Companies (Acceptance of Deposits) Rules, 2014",
+    "rule": "11",
+    "title": "Power to nominate",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "73": [
+   {
+    "rule_id": "the-companies-acceptance-of-deposits-rules-2014-20261106-142547#1",
+    "rule_set": "Companies (Acceptance of Deposits) Rules, 2014",
+    "rule": "1",
+    "title": "Short title, commencement and application",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-acceptance-of-deposits-rules-2014-20261106-142547#2",
+    "rule_set": "Companies (Acceptance of Deposits) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-acceptance-of-deposits-rules-2014-20261106-142547#3",
+    "rule_set": "Companies (Acceptance of Deposits) Rules, 2014",
+    "rule": "3",
+    "title": "Terms and conditions of acceptance of deposits by companies",
+    "mentions": 4,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-acceptance-of-deposits-rules-2014-20261106-142547#4",
+    "rule_set": "Companies (Acceptance of Deposits) Rules, 2014",
+    "rule": "4",
+    "title": "Form and particulars of advertisements or circulars",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-acceptance-of-deposits-rules-2014-20261106-142547#6",
+    "rule_set": "Companies (Acceptance of Deposits) Rules, 2014",
+    "rule": "6",
+    "title": "Creation of security",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-acceptance-of-deposits-rules-2014-20261106-142547#7",
+    "rule_set": "Companies (Acceptance of Deposits) Rules, 2014",
+    "rule": "7",
+    "title": "Appointment of trustee for depositors",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-acceptance-of-deposits-rules-2014-20261106-142547#13",
+    "rule_set": "Companies (Acceptance of Deposits) Rules, 2014",
+    "rule": "13",
+    "title": "Maintenance of liquid assets and creation of deposit repayment reserve account",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-acceptance-of-deposits-rules-2014-20261106-142547#15",
+    "rule_set": "Companies (Acceptance of Deposits) Rules, 2014",
+    "rule": "15",
+    "title": "General provisions regarding premature repayment of deposits",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-acceptance-of-deposits-rules-2014-20261106-142547#19",
+    "rule_set": "Companies (Acceptance of Deposits) Rules, 2014",
+    "rule": "19",
+    "title": "Applicability of sections 73 and 74 to eligible companies",
+    "mentions": 2,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-acceptance-of-deposits-rules-2014-20261106-142547#21",
+    "rule_set": "Companies (Acceptance of Deposits) Rules, 2014",
+    "rule": "21",
+    "title": "Punishment for contravention",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-acceptance-of-deposits-rules-2014-20261106-142547#31",
+    "rule_set": "Companies (Acceptance of Deposits) Rules, 2014",
+    "rule": "31",
+    "title": "Notification No. G.S.R. 612(E). dated 5th July, 2018, w.e.f. 15.08.2018, the Rule-5: \"5. Manner and extent of deposit insurance",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-auditors-report-order-2015-caro-2015-wef-01-04-2014-20261106-142952#3",
+    "rule_set": "Companies (Auditor's Report) Order, 2015",
+    "rule": "3",
+    "title": "Matters to be included in the auditor's report",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-auditors-report-order-2016-caro-2016-wef-01-04-2015-20261106-142946#3",
+    "rule_set": "Companies (Auditor's Report) Order, 2016",
+    "rule": "3",
+    "title": "Matters to be included in the auditor's report",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-auditors-report-order-2020-caro-2020-wef-01-04-2021-20261106-142940#3",
+    "rule_set": "Companies (Auditor's Report) Order, 2020",
+    "rule": "3",
+    "title": "Matters to be included in auditor's report",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#35",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "35",
+    "title": "Service of documents",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#73",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "73",
+    "title": "Application under sections 71(9), 71(10), section 73(4) or section 74(2) and 76(2)",
+    "mentions": 2,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#10",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "10",
+    "title": "Procedure on receipt of any application or form or document electronically",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "74": [
+   {
+    "rule_id": "the-companies-acceptance-of-deposits-rules-2014-20261106-142547#19",
+    "rule_set": "Companies (Acceptance of Deposits) Rules, 2014",
+    "rule": "19",
+    "title": "Applicability of sections 73 and 74 to eligible companies",
+    "mentions": 3,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-acceptance-of-deposits-rules-2014-20261106-142547#20",
+    "rule_set": "Companies (Acceptance of Deposits) Rules, 2014",
+    "rule": "20",
+    "title": "Statement regarding deposits existing as on the date of commencement of the Act",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#73",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "73",
+    "title": "Application under sections 71(9), 71(10), section 73(4) or section 74(2) and 76(2)",
+    "mentions": 4,
+    "confidence": "medium"
+   }
+  ],
+  "75": [
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#88",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "88",
+    "title": "Reference to the Tribunal",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "76": [
+   {
+    "rule_id": "the-companies-acceptance-of-deposits-rules-2014-20261106-142547#2",
+    "rule_set": "Companies (Acceptance of Deposits) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 2,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-acceptance-of-deposits-rules-2014-20261106-142547#3",
+    "rule_set": "Companies (Acceptance of Deposits) Rules, 2014",
+    "rule": "3",
+    "title": "Terms and conditions of acceptance of deposits by companies",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-acceptance-of-deposits-rules-2014-20261106-142547#19",
+    "rule_set": "Companies (Acceptance of Deposits) Rules, 2014",
+    "rule": "19",
+    "title": "Applicability of sections 73 and 74 to eligible companies",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-auditors-report-order-2015-caro-2015-wef-01-04-2014-20261106-142952#3",
+    "rule_set": "Companies (Auditor's Report) Order, 2015",
+    "rule": "3",
+    "title": "Matters to be included in the auditor's report",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-auditors-report-order-2016-caro-2016-wef-01-04-2015-20261106-142946#3",
+    "rule_set": "Companies (Auditor's Report) Order, 2016",
+    "rule": "3",
+    "title": "Matters to be included in the auditor's report",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-auditors-report-order-2020-caro-2020-wef-01-04-2021-20261106-142940#3",
+    "rule_set": "Companies (Auditor's Report) Order, 2020",
+    "rule": "3",
+    "title": "Matters to be included in auditor's report",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#73",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "73",
+    "title": "Application under sections 71(9), 71(10), section 73(4) or section 74(2) and 76(2)",
+    "mentions": 3,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#10",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "10",
+    "title": "Procedure on receipt of any application or form or document electronically",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "76A": [
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#35",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "35",
+    "title": "Service of documents",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "77": [
+   {
+    "rule_id": "the-companies-registration-of-charges-rules-2014-20261106-142604#2",
+    "rule_set": "Companies (Registration of Charges) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 5,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-registration-of-charges-rules-2014-20261106-142604#6",
+    "rule_set": "Companies (Registration of Charges) Rules, 2014",
+    "rule": "6",
+    "title": "Certificate of registration",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "78": [
+   {
+    "rule_id": "the-companies-registration-of-charges-rules-2014-20261106-142604#2",
+    "rule_set": "Companies (Registration of Charges) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-registration-of-charges-rules-2014-20261106-142604#6",
+    "rule_set": "Companies (Registration of Charges) Rules, 2014",
+    "rule": "6",
+    "title": "Certificate of registration",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "79": [
+   {
+    "rule_id": "the-companies-registration-of-charges-rules-2014-20261106-142604#2",
+    "rule_set": "Companies (Registration of Charges) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-registration-of-charges-rules-2014-20261106-142604#5",
+    "rule_set": "Companies (Registration of Charges) Rules, 2014",
+    "rule": "5",
+    "title": "Application of rules in certain matters",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-registration-of-charges-rules-2014-20261106-142604#6",
+    "rule_set": "Companies (Registration of Charges) Rules, 2014",
+    "rule": "6",
+    "title": "Certificate of registration",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "81": [
+   {
+    "rule_id": "the-companies-registration-of-charges-rules-2014-20261106-142604#7",
+    "rule_set": "Companies (Registration of Charges) Rules, 2014",
+    "rule": "7",
+    "title": "Register of charges to be kept by the Registrar",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "82": [
+   {
+    "rule_id": "the-companies-registration-of-charges-rules-2014-20261106-142604#8",
+    "rule_set": "Companies (Registration of Charges) Rules, 2014",
+    "rule": "8",
+    "title": "Satisfaction of charge",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-registration-of-charges-rules-2014-20261106-142604#11",
+    "rule_set": "Companies (Registration of Charges) Rules, 2014",
+    "rule": "11",
+    "title": "Register open for inspection",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "83": [
+   {
+    "rule_id": "the-companies-registration-of-charges-rules-2014-20261106-142604#8",
+    "rule_set": "Companies (Registration of Charges) Rules, 2014",
+    "rule": "8",
+    "title": "Satisfaction of charge",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-registration-of-charges-rules-2014-20261106-142604#11",
+    "rule_set": "Companies (Registration of Charges) Rules, 2014",
+    "rule": "11",
+    "title": "Register open for inspection",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "87": [
+   {
+    "rule_id": "the-companies-registration-of-charges-rules-2014-20261106-142604#11",
+    "rule_set": "Companies (Registration of Charges) Rules, 2014",
+    "rule": "11",
+    "title": "Register open for inspection",
+    "mentions": 3,
+    "confidence": "high"
+   }
+  ],
+  "88": [
+   {
+    "rule_id": "the-companies-issue-of-global-depository-receipts-rules-2014-20261106-142451#9",
+    "rule_set": "Companies (Issue of Global Depository Receipts) Rules, 2014",
+    "rule": "9",
+    "title": "Non applicability of certain provisions of the Act",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#5",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "5",
+    "title": "Maintenance of the Register of members etc. under section 88",
+    "mentions": 4,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#6",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "6",
+    "title": "Index of names to be included in Register",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#7",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "7",
+    "title": "Foreign register of members, debenture holders, other security holders or beneficial owners residing outside India",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#8",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "8",
+    "title": "Authentication",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#14",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "14",
+    "title": "Inspection of registers, returns etc",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#16",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "16",
+    "title": "Copies of the registers and annual return",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-share-capital-and-debentures-rules-2014-20261106-142528#4",
+    "rule_set": "Companies (Share Capital and Debentures) Rules, 2014",
+    "rule": "4",
+    "title": "Equity shares with differential rights",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-share-capital-and-debentures-rules-2014-20261106-142528#5",
+    "rule_set": "Companies (Share Capital and Debentures) Rules, 2014",
+    "rule": "5",
+    "title": "Certificate of shares (where shares are not in demat form)",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-share-capital-and-debentures-rules-2014-20261106-142528#9",
+    "rule_set": "Companies (Share Capital and Debentures) Rules, 2014",
+    "rule": "9",
+    "title": "Issue and redemption of preference shares",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-share-capital-and-debentures-rules-2014-20261106-142528#19",
+    "rule_set": "Companies (Share Capital and Debentures) Rules, 2014",
+    "rule": "19",
+    "title": "Nomination by securities holders",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "89": [
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#9",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "9",
+    "title": "Declaration in respect of beneficial interest in any shares",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-significant-beneficial-owners-rules-2018-20261106-142626#2",
+    "rule_set": "Companies (Significant Beneficial Owners) Rules, 2018",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-significant-beneficial-owners-rules-2018-20261106-142626#8",
+    "rule_set": "Companies (Significant Beneficial Owners) Rules, 2018",
+    "rule": "8",
+    "title": "Non-Applicability",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "90": [
+   {
+    "rule_id": "the-companies-significant-beneficial-owners-rules-2018-20261106-142626#2",
+    "rule_set": "Companies (Significant Beneficial Owners) Rules, 2018",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 3,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-significant-beneficial-owners-rules-2018-20261106-142626#3",
+    "rule_set": "Companies (Significant Beneficial Owners) Rules, 2018",
+    "rule": "3",
+    "title": "Declaration of significant beneficial ownership under section 90",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-significant-beneficial-owners-rules-2018-20261106-142626#6",
+    "rule_set": "Companies (Significant Beneficial Owners) Rules, 2018",
+    "rule": "6",
+    "title": "Notice seeking information about significant beneficial owners",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-significant-beneficial-owners-rules-2018-20261106-142626#8",
+    "rule_set": "Companies (Significant Beneficial Owners) Rules, 2018",
+    "rule": "8",
+    "title": "Non-Applicability",
+    "mentions": 3,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-iepf-accounting-audit-transfer-and-refund-rules-2016-20261106-142648#3",
+    "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
+    "rule": "3",
+    "title": "Fund",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-iepf-accounting-audit-transfer-and-refund-rules-2016-20261106-142648#5",
+    "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
+    "rule": "5",
+    "title": "Statement to be furnished to the Fund",
+    "mentions": 4,
+    "confidence": "high"
+   }
+  ],
+  "92": [
+   {
+    "rule_id": "the-companies-accounts-rules-2014-20261106-142730#8",
+    "rule_set": "Companies (Accounts) Rules, 2014",
+    "rule": "8",
+    "title": "Matters to be included in Board’s report",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-authorised-to-register-rules-2014-20261107-081607#5",
+    "rule_set": "Companies (Authorised to Registered) Rules, 2014",
+    "rule": "5",
+    "title": "Other obligations of companies seeking registration",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#25",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "25",
+    "title": "Verification of registered office",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-listing-of-equity-shares-in-permissible-jurisdictions-rules-2024-20261106-142516#5",
+    "rule_set": "Companies (Listing of equity 1[instruments] in permissible jurisdictions) Rules, 2024",
+    "rule": "5",
+    "title": "Certain companies not eligible",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#14",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "14",
+    "title": "Inspection of registers, returns etc",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#16",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "16",
+    "title": "Copies of the registers and annual return",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#31",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "31",
+    "title": "Report on Annual General Meeting",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-removal-of-names-of-companies-from-the-register-of-companies-rules-2016-20261107-081550#4",
+    "rule_set": "Companies (Removal of Names of Companies from the Register of Companies) Rules, 2016",
+    "rule": "4",
+    "title": "Application for removal of name of company",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#15",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "15",
+    "title": "Inspection of documents",
+    "mentions": 5,
+    "confidence": "high"
+   }
+  ],
+  "93": [
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#15",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "15",
+    "title": "Inspection of documents",
+    "mentions": 2,
+    "confidence": "medium"
+   }
+  ],
+  "94": [
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#14",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "14",
+    "title": "Inspection of registers, returns etc",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#31",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "31",
+    "title": "Report on Annual General Meeting",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "96": [
+   {
+    "rule_id": "the-companies-cost-records-and-audit-rules-2014-20261106-142928#1",
+    "rule_set": "Companies (Cost Records and Audit) Rules, 2014",
+    "rule": "1",
+    "title": "Short title and commencement",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-iepf-accounting-audit-transfer-and-refund-rules-2016-20261106-142648#5",
+    "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
+    "rule": "5",
+    "title": "Statement to be furnished to the Fund",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-iepf-accounting-audit-transfer-and-refund-rules-2016-20261106-142648#12",
+    "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
+    "rule": "12",
+    "title": "Repeal and savings",
+    "mentions": 2,
+    "confidence": "high"
+   }
+  ],
+  "97": [
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#74",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "74",
+    "title": "Application for calling or obtaining a direction to call annual general meeting",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "98": [
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#75",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "75",
+    "title": "Application for obtaining an order for calling of general meeting (other than Annual General Meeting)",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "100": [
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#17",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "17",
+    "title": "Calling of Extraordinary general meeting by requistionists",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "101": [
+   {
+    "rule_id": "the-companies-meetings-of-board-and-its-powers-rules-2014-20261106-143059#15",
+    "rule_set": "Companies (Meetings of Board and its Powers) Rules, 2014",
+    "rule": "15",
+    "title": "Contract or arrangement with a related party",
+    "mentions": 2,
+    "confidence": "medium"
+   }
+  ],
+  "102": [
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#17",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "17",
+    "title": "Calling of Extraordinary general meeting by requistionists",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#24",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "24",
+    "title": "Resolutions and agreements to be filed",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-share-capital-and-debentures-rules-2014-20261106-142528#4",
+    "rule_set": "Companies (Share Capital and Debentures) Rules, 2014",
+    "rule": "4",
+    "title": "Equity shares with differential rights",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-share-capital-and-debentures-rules-2014-20261106-142528#8",
+    "rule_set": "Companies (Share Capital and Debentures) Rules, 2014",
+    "rule": "8",
+    "title": "Issue of sweat equity shares",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-share-capital-and-debentures-rules-2014-20261106-142528#9",
+    "rule_set": "Companies (Share Capital and Debentures) Rules, 2014",
+    "rule": "9",
+    "title": "Issue and redemption of preference shares",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-share-capital-and-debentures-rules-2014-20261106-142528#13",
+    "rule_set": "Companies (Share Capital and Debentures) Rules, 2014",
+    "rule": "13",
+    "title": "Issue of shares on preferential basis",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-share-capital-and-debentures-rules-2014-20261106-142528#16",
+    "rule_set": "Companies (Share Capital and Debentures) Rules, 2014",
+    "rule": "16",
+    "title": "Provision of money by company for purchase of its own shares by employees or by trustees for the benefit of employees",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-share-capital-and-debentures-rules-2014-20261106-142528#17",
+    "rule_set": "Companies (Share Capital and Debentures) Rules, 2014",
+    "rule": "17",
+    "title": "Buy-back of shares or other securities",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "105": [
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#21",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "21",
+    "title": "Manner in which the Chairman of meeting shall get the poll process scrutinised and report thereon",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "108": [
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#21",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "21",
+    "title": "Manner in which the Chairman of meeting shall get the poll process scrutinised and report thereon",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#22",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "22",
+    "title": "Procedure to be followed for conducting business through postal ballot",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "110": [
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#22",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "22",
+    "title": "Procedure to be followed for conducting business through postal ballot",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-share-capital-and-debentures-rules-2014-20261106-142528#4",
+    "rule_set": "Companies (Share Capital and Debentures) Rules, 2014",
+    "rule": "4",
+    "title": "Equity shares with differential rights",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "112": [
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#21",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "21",
+    "title": "Manner in which the Chairman of meeting shall get the poll process scrutinised and report thereon",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "113": [
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#21",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "21",
+    "title": "Manner in which the Chairman of meeting shall get the poll process scrutinised and report thereon",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#66",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "66",
+    "title": "Voting by proxies",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "114": [
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#17",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "17",
+    "title": "Calling of Extraordinary general meeting by requistionists",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#19",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "19",
+    "title": "Proxies",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "117": [
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#34",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "34",
+    "title": "Copies of memorandum and articles, etc. to be given to members on request being made by them",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#10",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "10",
+    "title": "Procedure on receipt of any application or form or document electronically",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "118": [
+   {
+    "rule_id": "the-companies-meetings-of-board-and-its-powers-rules-2014-20261106-143059#2",
+    "rule_set": "Companies (Meetings of Board and its Powers) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "120": [
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#27",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "27",
+    "title": "Maintenance and inspection of document in electronic form",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "121": [
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#31",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "31",
+    "title": "Report on Annual General Meeting",
+    "mentions": 2,
+    "confidence": "medium"
+   }
+  ],
+  "122": [
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#5",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "5",
+    "title": "Penalty. [13][***] [14][6. Conversion of One Person Company into a Public company or a Private company",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#35",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "35",
+    "title": "Service of documents",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "123": [
+   {
+    "rule_id": "the-companies-registration-of-foreign-companies-rules-2014-20261107-081638#13",
+    "rule_set": "Companies (Registration of Foreign Companies) Rules, 2014",
+    "rule": "13",
+    "title": "Issue of Indian Depository Receipts (IDRs)",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-audit-and-auditors-rules-2014-20261106-142921#11",
+    "rule_set": "as the Companies (Audit and Auditors) Rules, 2014",
+    "rule": "11",
+    "title": "Other matters to be included in auditors report",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "124": [
+   {
+    "rule_id": "the-iepf-accounting-audit-transfer-and-refund-rules-2016-20261106-142648#3",
+    "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
+    "rule": "3",
+    "title": "Fund",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-iepf-accounting-audit-transfer-and-refund-rules-2016-20261106-142648#5",
+    "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
+    "rule": "5",
+    "title": "Statement to be furnished to the Fund",
+    "mentions": 4,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-iepf-accounting-audit-transfer-and-refund-rules-2016-20261106-142648#12",
+    "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
+    "rule": "12",
+    "title": "Repeal and savings",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-iepf-accounting-audit-transfer-and-refund-rules-2016-20261106-142648#17",
+    "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
+    "rule": "17",
+    "title": "Audit, Transfer and Refund) Amendment Rules, 2017 vide Notification No. G.S.R. 178(E) dated 28th February, 2017, w.e.f. 28.02.2017, for the Rule: \"6. Manner of transfer of shares under sub-section (6) of section 124 to the Fund",
+    "mentions": 3,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-iepf-accounting-audit-transfer-and-refund-rules-2016-20261106-142648#42",
+    "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
+    "rule": "42",
+    "title": "Audit, Transfer and Refund) Amendment Rules, 2017 vide Notification No. G.S.R. 178(E) dated 28th February, 2017, w.e.f. 28.02.2017, for the Rule: \"7. Refunds to claimants from Fund",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "125": [
+   {
+    "rule_id": "the-companies-prospectus-and-allotment-of-securities-rules-2014-20261106-142445#9",
+    "rule_set": "Companies (Prospectus and Allotment of Securities) Rules, 2014",
+    "rule": "9",
+    "title": "Dematerialisation of securities",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-significant-beneficial-owners-rules-2018-20261106-142626#8",
+    "rule_set": "Companies (Significant Beneficial Owners) Rules, 2018",
+    "rule": "8",
+    "title": "Non-Applicability",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-iepf-accounting-audit-transfer-and-refund-rules-2016-20261106-142648#2",
+    "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 4,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-iepf-accounting-audit-transfer-and-refund-rules-2016-20261106-142648#3",
+    "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
+    "rule": "3",
+    "title": "Fund",
+    "mentions": 3,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-iepf-accounting-audit-transfer-and-refund-rules-2016-20261106-142648#5",
+    "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
+    "rule": "5",
+    "title": "Statement to be furnished to the Fund",
+    "mentions": 5,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-iepf-accounting-audit-transfer-and-refund-rules-2016-20261106-142648#12",
+    "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
+    "rule": "12",
+    "title": "Repeal and savings",
+    "mentions": 2,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-iepf-accounting-audit-transfer-and-refund-rules-2016-20261106-142648#42",
+    "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
+    "rule": "42",
+    "title": "Audit, Transfer and Refund) Amendment Rules, 2017 vide Notification No. G.S.R. 178(E) dated 28th February, 2017, w.e.f. 28.02.2017, for the Rule: \"7. Refunds to claimants from Fund",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "iepfa-appointment-of-chairperson-and-members-holding-of-meetings-and-provision-for-offices-and-officers-rules-2016-20261106-142658#2",
+    "rule_set": "Investor Education and Protection Fund Authority (Appointment of Chairperson and Members, holding of meetings and provision for offices and officers) Rules, 2016",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 3,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "iepfa-appointment-of-chairperson-and-members-holding-of-meetings-and-provision-for-offices-and-officers-rules-2016-20261106-142658#14",
+    "rule_set": "Investor Education and Protection Fund Authority (Appointment of Chairperson and Members, holding of meetings and provision for offices and officers) Rules, 2016",
+    "rule": "14",
+    "title": "Protection of action taken in good faith",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "128": [
+   {
+    "rule_id": "the-companies-accounts-rules-2014-20261106-142730#2",
+    "rule_set": "Companies (Accounts) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "129": [
+   {
+    "rule_id": "the-companies-accounts-rules-2014-20261106-142730#5",
+    "rule_set": "Companies (Accounts) Rules, 2014",
+    "rule": "5",
+    "title": "Form of Statement containing salient features of financial statements of subsidiaries",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-accounts-rules-2014-20261106-142730#6",
+    "rule_set": "Companies (Accounts) Rules, 2014",
+    "rule": "6",
+    "title": "Manner of consolidation of accounts",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#77",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "77",
+    "title": "Application under section 131",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "130": [
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#76",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "76",
+    "title": "Inspection of minute-books of general meeting",
+    "mentions": 2,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#15",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "15",
+    "title": "Inspection of documents",
+    "mentions": 4,
+    "confidence": "high"
+   }
+  ],
+  "131": [
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#77",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "77",
+    "title": "Application under section 131",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#15",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "15",
+    "title": "Inspection of documents",
+    "mentions": 4,
+    "confidence": "high"
+   }
+  ],
+  "132": [
+   {
+    "rule_id": "the-companies-accounts-rules-2014-20261106-142730#7",
+    "rule_set": "Companies (Accounts) Rules, 2014",
+    "rule": "7",
+    "title": "Transitional provisions with respect to Accounting Standards",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "nfra-meeting-for-transaction-of-business-rules-2019-20261106-142840#2",
+    "rule_set": "National Financial Reporting Authority (Meeting for Transaction of Business) Rules, 2019",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 6,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-national-financial-reporting-authority-rules-2018-nfra-rules-20261106-142823#2",
+    "rule_set": "National Financial Reporting Authority Rules, 2018",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 2,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-national-financial-reporting-authority-rules-2018-nfra-rules-20261106-142823#3",
+    "rule_set": "National Financial Reporting Authority Rules, 2018",
+    "rule": "3",
+    "title": "Classes of companies and bodies corporate governed by the Authority",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-national-financial-reporting-authority-rules-2018-nfra-rules-20261106-142823#10",
+    "rule_set": "National Financial Reporting Authority Rules, 2018",
+    "rule": "10",
+    "title": "Power to investigate",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-national-financial-reporting-authority-rules-2018-nfra-rules-20261106-142823#11",
+    "rule_set": "National Financial Reporting Authority Rules, 2018",
+    "rule": "11",
+    "title": "Disciplinary proceedings",
+    "mentions": 3,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "nfra-manner-of-appointment-and-other-terms-and-conditions-of-service-of-chairperson-and-members-rules-2018-20261106-142846#2",
+    "rule_set": "The National Financial Reporting Authority (Manner of Appointment and other Terms and Conditions of Service of Chairperson and Members) Rules, 2018",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "133": [
+   {
+    "rule_id": "the-companies-accounts-rules-2014-20261106-142730#7",
+    "rule_set": "Companies (Accounts) Rules, 2014",
+    "rule": "7",
+    "title": "Transitional provisions with respect to Accounting Standards",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-compromises-arrangements-and-amalgamations-rules-2016-20261106-143131#6",
+    "rule_set": "Companies (Compromises, Arrangements and Amalgamations) Rules, 2016",
+    "rule": "6",
+    "title": "Notice of meeting",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "nclt-procedure-for-reduction-of-share-capital-of-company-rules-2016-20261106-142538#2",
+    "rule_set": "National Company Law Tribunal (Procedure for reduction of share capital of Company) Rules, 2016",
+    "rule": "2",
+    "title": "Form of application or petition for Reduction of share capital under section 66",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "nclt-procedure-for-reduction-of-share-capital-of-company-rules-2016-20261107-081729#2",
+    "rule_set": "National Company Law Tribunal (Procedure for reduction of share capital of Company) Rules, 2016",
+    "rule": "2",
+    "title": "Form of application or petition for Reduction of share capital under section 66",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "134": [
+   {
+    "rule_id": "the-companies-accounts-rules-2014-20261106-142730#8",
+    "rule_set": "Companies (Accounts) Rules, 2014",
+    "rule": "8",
+    "title": "Matters to be included in Board’s report",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-accounts-rules-2014-20261106-142730#12",
+    "rule_set": "Companies (Accounts) Rules, 2014",
+    "rule": "12",
+    "title": "Filing of financial statements and fees to be paid thereon",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-meetings-of-board-and-its-powers-rules-2014-20261106-143059#17",
+    "rule_set": "Companies (Meetings of Board and its Powers) Rules, 2014",
+    "rule": "17",
+    "title": "Payment to director for loss of office, etc. in connection with transfer of undertaking, property or shares",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#77",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "77",
+    "title": "Application under section 131",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "135": [
+   {
+    "rule_id": "the-companies-accounts-rules-2014-20261106-142730#12",
+    "rule_set": "Companies (Accounts) Rules, 2014",
+    "rule": "12",
+    "title": "Filing of financial statements and fees to be paid thereon",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-auditors-report-order-2020-caro-2020-wef-01-04-2021-20261106-142940#3",
+    "rule_set": "Companies (Auditor's Report) Order, 2020",
+    "rule": "3",
+    "title": "Matters to be included in auditor's report",
+    "mentions": 3,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-corporate-social-responsibility-policy-rules-2014-csr-rules-20261106-142812#1",
+    "rule_set": "Companies (Corporate Social Responsibility Policy) Rules, 2014",
+    "rule": "1",
+    "title": "Short title and commencement",
+    "mentions": 3,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-corporate-social-responsibility-policy-rules-2014-csr-rules-20261106-142812#3",
+    "rule_set": "Companies (Corporate Social Responsibility Policy) Rules, 2014",
+    "rule": "3",
+    "title": "Corporate Social Responsibility",
+    "mentions": 3,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-corporate-social-responsibility-policy-rules-2014-csr-rules-20261106-142812#5",
+    "rule_set": "Companies (Corporate Social Responsibility Policy) Rules, 2014",
+    "rule": "5",
+    "title": "CSR Committees",
+    "mentions": 9,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-corporate-social-responsibility-policy-rules-2014-csr-rules-20261106-142812#7",
+    "rule_set": "Companies (Corporate Social Responsibility Policy) Rules, 2014",
+    "rule": "7",
+    "title": "Amendment Rules, 2021 vide Notification No. G.S.R. 40(E) dated 22nd January, 2021, w.e.f. 22.01.2021. Prior to substitution, the sub-rule stood as under: \"4. CSR Activities",
+    "mentions": 2,
+    "confidence": "high"
+   }
+  ],
+  "136": [
+   {
+    "rule_id": "the-companies-accounts-rules-2014-20261106-142730#10",
+    "rule_set": "Companies (Accounts) Rules, 2014",
+    "rule": "10",
+    "title": "Statement containing salient features of financial statements",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "137": [
+   {
+    "rule_id": "the-companies-accounts-rules-2014-20261106-142730#12",
+    "rule_set": "Companies (Accounts) Rules, 2014",
+    "rule": "12",
+    "title": "Filing of financial statements and fees to be paid thereon",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-cost-records-and-audit-rules-2014-20261106-142928#1",
+    "rule_set": "Companies (Cost Records and Audit) Rules, 2014",
+    "rule": "1",
+    "title": "Short title and commencement",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#25",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "25",
+    "title": "Verification of registered office",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-listing-of-equity-shares-in-permissible-jurisdictions-rules-2024-20261106-142516#5",
+    "rule_set": "Companies (Listing of equity 1[instruments] in permissible jurisdictions) Rules, 2024",
+    "rule": "5",
+    "title": "Certain companies not eligible",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-removal-of-names-of-companies-from-the-register-of-companies-rules-2016-20261107-081550#4",
+    "rule_set": "Companies (Removal of Names of Companies from the Register of Companies) Rules, 2016",
+    "rule": "4",
+    "title": "Application for removal of name of company",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-iepf-accounting-audit-transfer-and-refund-rules-2016-20261106-142648#5",
+    "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
+    "rule": "5",
+    "title": "Statement to be furnished to the Fund",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#15",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "15",
+    "title": "Inspection of documents",
+    "mentions": 3,
+    "confidence": "high"
+   }
+  ],
+  "138": [
+   {
+    "rule_id": "the-companies-accounts-rules-2014-20261106-142730#13",
+    "rule_set": "Companies (Accounts) Rules, 2014",
+    "rule": "13",
+    "title": "Companies required to appoint internal auditor",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "139": [
+   {
+    "rule_id": "the-national-financial-reporting-authority-rules-2018-nfra-rules-20261106-142823#2",
+    "rule_set": "National Financial Reporting Authority Rules, 2018",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-national-financial-reporting-authority-rules-2018-nfra-rules-20261106-142823#3",
+    "rule_set": "National Financial Reporting Authority Rules, 2018",
+    "rule": "3",
+    "title": "Classes of companies and bodies corporate governed by the Authority",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-national-financial-reporting-authority-rules-2018-nfra-rules-20261106-142823#11",
+    "rule_set": "National Financial Reporting Authority Rules, 2018",
+    "rule": "11",
+    "title": "Disciplinary proceedings",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-audit-and-auditors-rules-2014-20261106-142921#4",
+    "rule_set": "as the Companies (Audit and Auditors) Rules, 2014",
+    "rule": "4",
+    "title": "Conditions for appointment and notice to Registrar",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-audit-and-auditors-rules-2014-20261106-142921#5",
+    "rule_set": "as the Companies (Audit and Auditors) Rules, 2014",
+    "rule": "5",
+    "title": "Class of Companies",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-audit-and-auditors-rules-2014-20261106-142921#6",
+    "rule_set": "as the Companies (Audit and Auditors) Rules, 2014",
+    "rule": "6",
+    "title": "Manner of rotation of auditors by the companies on expiry of their term",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#15",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "15",
+    "title": "Inspection of documents",
+    "mentions": 6,
+    "confidence": "medium"
+   }
+  ],
+  "140": [
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#78",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "78",
+    "title": "Application under Section 140",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#88",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "88",
+    "title": "Reference to the Tribunal",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "141": [
+   {
+    "rule_id": "the-companies-cost-records-and-audit-rules-2014-20261106-142928#1",
+    "rule_set": "Companies (Cost Records and Audit) Rules, 2014",
+    "rule": "1",
+    "title": "Short title and commencement",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-audit-and-auditors-rules-2014-20261106-142921#10",
+    "rule_set": "as the Companies (Audit and Auditors) Rules, 2014",
+    "rule": "10",
+    "title": "Disqualifications of auditor",
+    "mentions": 4,
+    "confidence": "medium"
+   }
+  ],
+  "143": [
+   {
+    "rule_id": "the-companies-accounts-rules-2014-20261106-142730#8",
+    "rule_set": "Companies (Accounts) Rules, 2014",
+    "rule": "8",
+    "title": "Matters to be included in Board’s report",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-auditors-report-order-2015-caro-2015-wef-01-04-2014-20261106-142952#2",
+    "rule_set": "Companies (Auditor's Report) Order, 2015",
+    "rule": "2",
+    "title": "Auditor's report to contain matters specified in paragraphs 3 and 4",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-auditors-report-order-2016-caro-2016-wef-01-04-2015-20261106-142946#2",
+    "rule_set": "Companies (Auditor's Report) Order, 2016",
+    "rule": "2",
+    "title": "Auditor's report to contain matters specified in paragraphs 3 and 4",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-auditors-report-order-2020-caro-2020-wef-01-04-2021-20261106-142940#2",
+    "rule_set": "Companies (Auditor's Report) Order, 2020",
+    "rule": "2",
+    "title": "Auditor's report to contain matters specified in paragraphs 3 and 4",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-auditors-report-order-2020-caro-2020-wef-01-04-2021-20261106-142940#3",
+    "rule_set": "Companies (Auditor's Report) Order, 2020",
+    "rule": "3",
+    "title": "Matters to be included in auditor's report",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-cost-records-and-audit-rules-2014-20261106-142928#1",
+    "rule_set": "Companies (Cost Records and Audit) Rules, 2014",
+    "rule": "1",
+    "title": "Short title and commencement",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-audit-and-auditors-rules-2014-20261106-142921#10",
+    "rule_set": "as the Companies (Audit and Auditors) Rules, 2014",
+    "rule": "10",
+    "title": "Disqualifications of auditor",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-audit-and-auditors-rules-2014-20261106-142921#12",
+    "rule_set": "as the Companies (Audit and Auditors) Rules, 2014",
+    "rule": "12",
+    "title": "Duties and powers of the company’s auditor with reference to the audit of the branch and the branch auditor",
+    "mentions": 3,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-audit-and-auditors-rules-2014-20261106-142921#14",
+    "rule_set": "as the Companies (Audit and Auditors) Rules, 2014",
+    "rule": "14",
+    "title": "Remuneration of the Cost Auditor",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "148": [
+   {
+    "rule_id": "the-companies-accounts-rules-2014-20261106-142730#8",
+    "rule_set": "Companies (Accounts) Rules, 2014",
+    "rule": "8",
+    "title": "Matters to be included in Board’s report",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-auditors-report-order-2015-caro-2015-wef-01-04-2014-20261106-142952#3",
+    "rule_set": "Companies (Auditor's Report) Order, 2015",
+    "rule": "3",
+    "title": "Matters to be included in the auditor's report",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-auditors-report-order-2016-caro-2016-wef-01-04-2015-20261106-142946#3",
+    "rule_set": "Companies (Auditor's Report) Order, 2016",
+    "rule": "3",
+    "title": "Matters to be included in the auditor's report",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-auditors-report-order-2020-caro-2020-wef-01-04-2021-20261106-142940#3",
+    "rule_set": "Companies (Auditor's Report) Order, 2020",
+    "rule": "3",
+    "title": "Matters to be included in auditor's report",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-cost-records-and-audit-rules-2014-20261106-142928#1",
+    "rule_set": "Companies (Cost Records and Audit) Rules, 2014",
+    "rule": "1",
+    "title": "Short title and commencement",
+    "mentions": 3,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-cost-records-and-audit-rules-2014-20261106-142928#30",
+    "rule_set": "Companies (Cost Records and Audit) Rules, 2014",
+    "rule": "30",
+    "title": "Records of Physical Verification",
+    "mentions": 3,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-audit-and-auditors-rules-2014-20261106-142921#12",
+    "rule_set": "as the Companies (Audit and Auditors) Rules, 2014",
+    "rule": "12",
+    "title": "Duties and powers of the company’s auditor with reference to the audit of the branch and the branch auditor",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-audit-and-auditors-rules-2014-20261106-142921#14",
+    "rule_set": "as the Companies (Audit and Auditors) Rules, 2014",
+    "rule": "14",
+    "title": "Remuneration of the Cost Auditor",
+    "mentions": 2,
+    "confidence": "medium"
+   }
+  ],
+  "149": [
+   {
+    "rule_id": "the-companies-appointment-and-qualification-of-directors-rules-2014-20261106-143017#3",
+    "rule_set": "Companies (Appointment and Qualification of Directors) Rules, 2014",
+    "rule": "3",
+    "title": "Woman director on the Board",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-appointment-and-qualification-of-directors-rules-2014-20261106-143017#5",
+    "rule_set": "Companies (Appointment and Qualification of Directors) Rules, 2014",
+    "rule": "5",
+    "title": "Qualifications of independent director",
+    "mentions": 2,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-appointment-and-qualification-of-directors-rules-2014-20261106-143017#7",
+    "rule_set": "Companies (Appointment and Qualification of Directors) Rules, 2014",
+    "rule": "7",
+    "title": "Small shareholders' director",
+    "mentions": 3,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-corporate-social-responsibility-policy-rules-2014-csr-rules-20261106-142812#5",
+    "rule_set": "Companies (Corporate Social Responsibility Policy) Rules, 2014",
+    "rule": "5",
+    "title": "CSR Committees",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#25",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "25",
+    "title": "Verification of registered office",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "150": [
+   {
+    "rule_id": "the-companies-accounts-rules-2014-20261106-142730#8",
+    "rule_set": "Companies (Accounts) Rules, 2014",
+    "rule": "8",
+    "title": "Matters to be included in Board’s report",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-appointment-and-qualification-of-directors-rules-2014-20261106-143017#5",
+    "rule_set": "Companies (Appointment and Qualification of Directors) Rules, 2014",
+    "rule": "5",
+    "title": "Qualifications of independent director",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-creation-and-maintenance-of-databank-of-independent-directors-rules-2019-20261106-143025#2",
+    "rule_set": "Companies (Creation and Maintenance of databank of Independent Directors) Rules, 2019",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "151": [
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#22",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "22",
+    "title": "Procedure to be followed for conducting business through postal ballot",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "152": [
+   {
+    "rule_id": "the-companies-appointment-and-qualification-of-directors-rules-2014-20261106-143017#7",
+    "rule_set": "Companies (Appointment and Qualification of Directors) Rules, 2014",
+    "rule": "7",
+    "title": "Small shareholders' director",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "nidhi-rules-2014-20261107-081648#17",
+    "rule_set": "Nidhi Rules, 2014",
+    "rule": "17",
+    "title": "Rules relating to Directors",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "153": [
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#15",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "15",
+    "title": "Inspection of documents",
+    "mentions": 2,
+    "confidence": "high"
+   }
+  ],
+  "154": [
+   {
+    "rule_id": "nidhi-rules-2014-20261107-081648#3",
+    "rule_set": "Nidhi Rules, 2014",
+    "rule": "3",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "156": [
+   {
+    "rule_id": "the-companies-appointment-and-qualification-of-directors-rules-2014-20261106-143017#10",
+    "rule_set": "Companies (Appointment and Qualification of Directors) Rules, 2014",
+    "rule": "10",
+    "title": "Allotment of DIN",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "157": [
+   {
+    "rule_id": "the-companies-appointment-and-qualification-of-directors-rules-2014-20261106-143017#10",
+    "rule_set": "Companies (Appointment and Qualification of Directors) Rules, 2014",
+    "rule": "10",
+    "title": "Allotment of DIN",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#15",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "15",
+    "title": "Inspection of documents",
+    "mentions": 6,
+    "confidence": "medium"
+   }
+  ],
+  "159": [
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#15",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "15",
+    "title": "Inspection of documents",
+    "mentions": 2,
+    "confidence": "high"
+   }
+  ],
+  "164": [
+   {
+    "rule_id": "the-companies-appointment-and-qualification-of-directors-rules-2014-20261106-143017#2",
+    "rule_set": "Companies (Appointment and Qualification of Directors) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-appointment-and-qualification-of-directors-rules-2014-20261106-143017#7",
+    "rule_set": "Companies (Appointment and Qualification of Directors) Rules, 2014",
+    "rule": "7",
+    "title": "Small shareholders' director",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-appointment-and-qualification-of-directors-rules-2014-20261106-143017#14",
+    "rule_set": "Companies (Appointment and Qualification of Directors) Rules, 2014",
+    "rule": "14",
+    "title": "Disqualification of directors under sub-section (2) of section 164",
+    "mentions": 4,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-authorised-to-register-rules-2014-20261107-081607#5",
+    "rule_set": "Companies (Authorised to Registered) Rules, 2014",
+    "rule": "5",
+    "title": "Other obligations of companies seeking registration",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-creation-and-maintenance-of-databank-of-independent-directors-rules-2019-20261106-143025#3",
+    "rule_set": "Companies (Creation and Maintenance of databank of Independent Directors) Rules, 2019",
+    "rule": "3",
+    "title": "Creation and maintenance of data bank",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#25",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "25",
+    "title": "Verification of registered office",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-specification-of-definitions-details-rules-2014-20261106-142346#2",
+    "rule_set": "Companies (Specification of definitions details) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "nidhi-rules-2014-20261107-081648#17",
+    "rule_set": "Nidhi Rules, 2014",
+    "rule": "17",
+    "title": "Rules relating to Directors",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "167": [
+   {
+    "rule_id": "the-companies-appointment-and-qualification-of-directors-rules-2014-20261106-143017#2",
+    "rule_set": "Companies (Appointment and Qualification of Directors) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-appointment-and-qualification-of-directors-rules-2014-20261106-143017#7",
+    "rule_set": "Companies (Appointment and Qualification of Directors) Rules, 2014",
+    "rule": "7",
+    "title": "Small shareholders' director",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-specification-of-definitions-details-rules-2014-20261106-142346#2",
+    "rule_set": "Companies (Specification of definitions details) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "169": [
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#79",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "79",
+    "title": "Application under section 169",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "173": [
+   {
+    "rule_id": "the-companies-meetings-of-board-and-its-powers-rules-2014-20261106-143059#2",
+    "rule_set": "Companies (Meetings of Board and its Powers) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "177": [
+   {
+    "rule_id": "the-companies-auditors-report-order-2016-caro-2016-wef-01-04-2015-20261106-142946#3",
+    "rule_set": "Companies (Auditor's Report) Order, 2016",
+    "rule": "3",
+    "title": "Matters to be included in the auditor's report",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-auditors-report-order-2020-caro-2020-wef-01-04-2021-20261106-142940#3",
+    "rule_set": "Companies (Auditor's Report) Order, 2020",
+    "rule": "3",
+    "title": "Matters to be included in auditor's report",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#35",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "35",
+    "title": "Service of documents",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-audit-and-auditors-rules-2014-20261106-142921#3",
+    "rule_set": "as the Companies (Audit and Auditors) Rules, 2014",
+    "rule": "3",
+    "title": "Manner and procedure of selection and appointment of auditors",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-audit-and-auditors-rules-2014-20261106-142921#12",
+    "rule_set": "as the Companies (Audit and Auditors) Rules, 2014",
+    "rule": "12",
+    "title": "Duties and powers of the company’s auditor with reference to the audit of the branch and the branch auditor",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "178": [
+   {
+    "rule_id": "the-companies-appointment-and-remuneration-of-managerial-personnel-rules-2014-20261106-143106#10",
+    "rule_set": "Companies (Appointment and Remuneration of Managerial Personnel) Rules, 2014",
+    "rule": "10",
+    "title": "Duties of Company Secretary",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#35",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "35",
+    "title": "Service of documents",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "179": [
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#35",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "35",
+    "title": "Service of documents",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-meetings-of-board-and-its-powers-rules-2014-20261106-143059#8",
+    "rule_set": "Companies (Meetings of Board and its Powers) Rules, 2014",
+    "rule": "8",
+    "title": "Powers of Board",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-prospectus-and-allotment-of-securities-rules-2014-20261106-142445#13",
+    "rule_set": "Companies (Prospectus and Allotment of Securities) Rules, 2014",
+    "rule": "13",
+    "title": "Payment of commission",
+    "mentions": 2,
+    "confidence": "medium"
+   }
+  ],
+  "180": [
+   {
+    "rule_id": "the-companies-acceptance-of-deposits-rules-2014-20261106-142547#2",
+    "rule_set": "Companies (Acceptance of Deposits) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#22",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "22",
+    "title": "Procedure to be followed for conducting business through postal ballot",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-prospectus-and-allotment-of-securities-rules-2014-20261106-142445#13",
+    "rule_set": "Companies (Prospectus and Allotment of Securities) Rules, 2014",
+    "rule": "13",
+    "title": "Payment of commission",
+    "mentions": 2,
+    "confidence": "medium"
+   }
+  ],
+  "182": [
+   {
+    "rule_id": "the-companies-corporate-social-responsibility-policy-rules-2014-csr-rules-20261106-142812#1",
+    "rule_set": "Companies (Corporate Social Responsibility Policy) Rules, 2014",
+    "rule": "1",
+    "title": "Short title and commencement",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-corporate-social-responsibility-policy-rules-2014-csr-rules-20261106-142812#7",
+    "rule_set": "Companies (Corporate Social Responsibility Policy) Rules, 2014",
+    "rule": "7",
+    "title": "Amendment Rules, 2021 vide Notification No. G.S.R. 40(E) dated 22nd January, 2021, w.e.f. 22.01.2021. Prior to substitution, the sub-rule stood as under: \"4. CSR Activities",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "184": [
+   {
+    "rule_id": "the-companies-meetings-of-board-and-its-powers-rules-2014-20261106-143059#16",
+    "rule_set": "Companies (Meetings of Board and its Powers) Rules, 2014",
+    "rule": "16",
+    "title": "Register of contracts or arrangements in which directors are interested",
+    "mentions": 2,
+    "confidence": "medium"
+   }
+  ],
+  "185": [
+   {
+    "rule_id": "the-companies-auditors-report-order-2016-caro-2016-wef-01-04-2015-20261106-142946#3",
+    "rule_set": "Companies (Auditor's Report) Order, 2016",
+    "rule": "3",
+    "title": "Matters to be included in the auditor's report",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-auditors-report-order-2020-caro-2020-wef-01-04-2021-20261106-142940#3",
+    "rule_set": "Companies (Auditor's Report) Order, 2020",
+    "rule": "3",
+    "title": "Matters to be included in auditor's report",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#35",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "35",
+    "title": "Service of documents",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-meetings-of-board-and-its-powers-rules-2014-20261106-143059#17",
+    "rule_set": "Companies (Meetings of Board and its Powers) Rules, 2014",
+    "rule": "17",
+    "title": "Payment to director for loss of office, etc. in connection with transfer of undertaking, property or shares",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "186": [
+   {
+    "rule_id": "the-companies-auditors-report-order-2016-caro-2016-wef-01-04-2015-20261106-142946#3",
+    "rule_set": "Companies (Auditor's Report) Order, 2016",
+    "rule": "3",
+    "title": "Matters to be included in the auditor's report",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-auditors-report-order-2020-caro-2020-wef-01-04-2021-20261106-142940#3",
+    "rule_set": "Companies (Auditor's Report) Order, 2020",
+    "rule": "3",
+    "title": "Matters to be included in auditor's report",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#35",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "35",
+    "title": "Service of documents",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#22",
+    "rule_set": "Companies (Management and Administration) Rules, 2014",
+    "rule": "22",
+    "title": "Procedure to be followed for conducting business through postal ballot",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-meetings-of-board-and-its-powers-rules-2014-20261106-143059#11",
+    "rule_set": "Companies (Meetings of Board and its Powers) Rules, 2014",
+    "rule": "11",
+    "title": "Loan and investment by a company under section 186 of the Act",
+    "mentions": 4,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-meetings-of-board-and-its-powers-rules-2014-20261106-143059#12",
+    "rule_set": "Companies (Meetings of Board and its Powers) Rules, 2014",
+    "rule": "12",
+    "title": "Register",
+    "mentions": 4,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-meetings-of-board-and-its-powers-rules-2014-20261106-143059#17",
+    "rule_set": "Companies (Meetings of Board and its Powers) Rules, 2014",
+    "rule": "17",
+    "title": "Payment to director for loss of office, etc. in connection with transfer of undertaking, property or shares",
+    "mentions": 5,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-restriction-on-number-of-layers-rules-2017-20261106-142350#2",
+    "rule_set": "Companies (Restriction on number of layers) Rules, 2017",
+    "rule": "2",
+    "title": "Restriction on number of layers for certain classes of holding companies",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-restriction-on-number-of-layers-rules-2017-20261107-081901#2",
+    "rule_set": "Companies (Restriction on number of layers) Rules, 2017",
+    "rule": "2",
+    "title": "Restriction on number of layers for certain classes of holding companies",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "188": [
+   {
+    "rule_id": "the-companies-accounts-rules-2014-20261106-142730#8",
+    "rule_set": "Companies (Accounts) Rules, 2014",
+    "rule": "8",
+    "title": "Matters to be included in Board’s report",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-auditors-report-order-2016-caro-2016-wef-01-04-2015-20261106-142946#3",
+    "rule_set": "Companies (Auditor's Report) Order, 2016",
+    "rule": "3",
+    "title": "Matters to be included in the auditor's report",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-auditors-report-order-2020-caro-2020-wef-01-04-2021-20261106-142940#3",
+    "rule_set": "Companies (Auditor's Report) Order, 2020",
+    "rule": "3",
+    "title": "Matters to be included in auditor's report",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#35",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "35",
+    "title": "Service of documents",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-meetings-of-board-and-its-powers-rules-2014-20261106-143059#15",
+    "rule_set": "Companies (Meetings of Board and its Powers) Rules, 2014",
+    "rule": "15",
+    "title": "Contract or arrangement with a related party",
+    "mentions": 8,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-meetings-of-board-and-its-powers-rules-2014-20261106-143059#16",
+    "rule_set": "Companies (Meetings of Board and its Powers) Rules, 2014",
+    "rule": "16",
+    "title": "Register of contracts or arrangements in which directors are interested",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-meetings-of-board-and-its-powers-rules-2014-20261106-143059#17",
+    "rule_set": "Companies (Meetings of Board and its Powers) Rules, 2014",
+    "rule": "17",
+    "title": "Payment to director for loss of office, etc. in connection with transfer of undertaking, property or shares",
+    "mentions": 8,
+    "confidence": "medium"
+   }
+  ],
+  "189": [
+   {
+    "rule_id": "the-companies-auditors-report-order-2015-caro-2015-wef-01-04-2014-20261106-142952#3",
+    "rule_set": "Companies (Auditor's Report) Order, 2015",
+    "rule": "3",
+    "title": "Matters to be included in the auditor's report",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-auditors-report-order-2016-caro-2016-wef-01-04-2015-20261106-142946#3",
+    "rule_set": "Companies (Auditor's Report) Order, 2016",
+    "rule": "3",
+    "title": "Matters to be included in the auditor's report",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "191": [
+   {
+    "rule_id": "the-companies-meetings-of-board-and-its-powers-rules-2014-20261106-143059#17",
+    "rule_set": "Companies (Meetings of Board and its Powers) Rules, 2014",
+    "rule": "17",
+    "title": "Payment to director for loss of office, etc. in connection with transfer of undertaking, property or shares",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "192": [
+   {
+    "rule_id": "the-companies-auditors-report-order-2016-caro-2016-wef-01-04-2015-20261106-142946#3",
+    "rule_set": "Companies (Auditor's Report) Order, 2016",
+    "rule": "3",
+    "title": "Matters to be included in the auditor's report",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-auditors-report-order-2020-caro-2020-wef-01-04-2021-20261106-142940#3",
+    "rule_set": "Companies (Auditor's Report) Order, 2020",
+    "rule": "3",
+    "title": "Matters to be included in auditor's report",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "197": [
+   {
+    "rule_id": "the-companies-auditors-report-order-2016-caro-2016-wef-01-04-2015-20261106-142946#3",
+    "rule_set": "Companies (Auditor's Report) Order, 2016",
+    "rule": "3",
+    "title": "Matters to be included in the auditor's report",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-share-capital-and-debentures-rules-2014-20261106-142528#8",
+    "rule_set": "Companies (Share Capital and Debentures) Rules, 2014",
+    "rule": "8",
+    "title": "Issue of sweat equity shares",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "198": [
+   {
+    "rule_id": "the-companies-corporate-social-responsibility-policy-rules-2014-csr-rules-20261106-142812#1",
+    "rule_set": "Companies (Corporate Social Responsibility Policy) Rules, 2014",
+    "rule": "1",
+    "title": "Short title and commencement",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-corporate-social-responsibility-policy-rules-2014-csr-rules-20261106-142812#3",
+    "rule_set": "Companies (Corporate Social Responsibility Policy) Rules, 2014",
+    "rule": "3",
+    "title": "Corporate Social Responsibility",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-corporate-social-responsibility-policy-rules-2014-csr-rules-20261106-142812#5",
+    "rule_set": "Companies (Corporate Social Responsibility Policy) Rules, 2014",
+    "rule": "5",
+    "title": "CSR Committees",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-share-capital-and-debentures-rules-2014-20261106-142528#8",
+    "rule_set": "Companies (Share Capital and Debentures) Rules, 2014",
+    "rule": "8",
+    "title": "Issue of sweat equity shares",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "202": [
+   {
+    "rule_id": "the-companies-meetings-of-board-and-its-powers-rules-2014-20261106-143059#17",
+    "rule_set": "Companies (Meetings of Board and its Powers) Rules, 2014",
+    "rule": "17",
+    "title": "Payment to director for loss of office, etc. in connection with transfer of undertaking, property or shares",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "204": [
+   {
+    "rule_id": "the-companies-appointment-and-remuneration-of-managerial-personnel-rules-2014-20261106-143106#9",
+    "rule_set": "Companies (Appointment and Remuneration of Managerial Personnel) Rules, 2014",
+    "rule": "9",
+    "title": "Secretarial Audit Report",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-audit-and-auditors-rules-2014-20261106-142921#12",
+    "rule_set": "as the Companies (Audit and Auditors) Rules, 2014",
+    "rule": "12",
+    "title": "Duties and powers of the company’s auditor with reference to the audit of the branch and the branch auditor",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-audit-and-auditors-rules-2014-20261106-142921#14",
+    "rule_set": "as the Companies (Audit and Auditors) Rules, 2014",
+    "rule": "14",
+    "title": "Remuneration of the Cost Auditor",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#15",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "15",
+    "title": "Inspection of documents",
+    "mentions": 2,
+    "confidence": "high"
+   }
+  ],
+  "206": [
+   {
+    "rule_id": "the-companies-miscellaneous-rules-2014-20261107-081911#8",
+    "rule_set": "Companies (Miscellaneous) Rules, 2014",
+    "rule": "8",
+    "title": "Application for seeking status of an active company",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-removal-of-names-of-companies-from-the-register-of-companies-rules-2016-20261107-081550#3",
+    "rule_set": "Companies (Removal of Names of Companies from the Register of Companies) Rules, 2016",
+    "rule": "3",
+    "title": "Removal of name of company from the Register on suo-motu basis",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#10",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "10",
+    "title": "Procedure on receipt of any application or form or document electronically",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "207": [
+   {
+    "rule_id": "the-companies-removal-of-names-of-companies-from-the-register-of-companies-rules-2016-20261107-081550#3",
+    "rule_set": "Companies (Removal of Names of Companies from the Register of Companies) Rules, 2016",
+    "rule": "3",
+    "title": "Removal of name of company from the Register on suo-motu basis",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "208": [
+   {
+    "rule_id": "the-companies-removal-of-names-of-companies-from-the-register-of-companies-rules-2016-20261107-081550#3",
+    "rule_set": "Companies (Removal of Names of Companies from the Register of Companies) Rules, 2016",
+    "rule": "3",
+    "title": "Removal of name of company from the Register on suo-motu basis",
+    "mentions": 2,
+    "confidence": "medium"
+   }
+  ],
+  "210": [
+   {
+    "rule_id": "the-companies-inspection-investigation-and-inquiry-rules-2014-20261106-143111#5",
+    "rule_set": "Companies (Inspection, Investigation and Inquiry) Rules, 2014",
+    "rule": "5",
+    "title": "Security",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-registration-of-foreign-companies-rules-2014-20261107-081638#12",
+    "rule_set": "Companies (Registration of Foreign Companies) Rules, 2014",
+    "rule": "12",
+    "title": "Action for improper use or description as foreign company",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "211": [
+   {
+    "rule_id": "the-companies-inspection-investigation-and-inquiry-rules-2014-20261106-143111#4",
+    "rule_set": "Companies (Inspection, Investigation and Inquiry) Rules, 2014",
+    "rule": "4",
+    "title": "Terms and Condition of service",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "212": [
+   {
+    "rule_id": "the-companies-arrests-in-connection-with-investigation-by-serious-fraud-investigation-office-rules-2017-20261106-143118#1",
+    "rule_set": "Companies (Arrests in connection with Investigation by Serious Fraud Investigation Office) Rules, 2017",
+    "rule": "1",
+    "title": "Short title and commencement",
+    "mentions": 2,
+    "confidence": "high"
+   }
+  ],
+  "213": [
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#80",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "80",
+    "title": "Application under section 213 for investigation",
+    "mentions": 2,
+    "confidence": "medium"
+   }
+  ],
+  "217": [
+   {
+    "rule_id": "the-companies-inspection-investigation-and-inquiry-rules-2014-20261106-143111#6",
+    "rule_set": "Companies (Inspection, Investigation and Inquiry) Rules, 2014",
+    "rule": "6",
+    "title": "Letter of Request, as per Section 217",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "221": [
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#88",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "88",
+    "title": "Reference to the Tribunal",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "222": [
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#88",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "88",
+    "title": "Reference to the Tribunal",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "224": [
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#88",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "88",
+    "title": "Reference to the Tribunal",
+    "mentions": 2,
+    "confidence": "high"
+   }
+  ],
+  "230": [
+   {
+    "rule_id": "the-companies-compromises-arrangements-and-amalgamations-rules-2016-20261106-143131#3",
+    "rule_set": "Companies (Compromises, Arrangements and Amalgamations) Rules, 2016",
+    "rule": "3",
+    "title": "Application for order of a meeting",
+    "mentions": 3,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-compromises-arrangements-and-amalgamations-rules-2016-20261106-143131#4",
+    "rule_set": "Companies (Compromises, Arrangements and Amalgamations) Rules, 2016",
+    "rule": "4",
+    "title": "Disclosures in application made to the Tribunal for compromise or arrangement",
+    "mentions": 2,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-compromises-arrangements-and-amalgamations-rules-2016-20261106-143131#5",
+    "rule_set": "Companies (Compromises, Arrangements and Amalgamations) Rules, 2016",
+    "rule": "5",
+    "title": "Directions at hearing of the application",
+    "mentions": 3,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-compromises-arrangements-and-amalgamations-rules-2016-20261106-143131#6",
+    "rule_set": "Companies (Compromises, Arrangements and Amalgamations) Rules, 2016",
+    "rule": "6",
+    "title": "Notice of meeting",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-compromises-arrangements-and-amalgamations-rules-2016-20261106-143131#7",
+    "rule_set": "Companies (Compromises, Arrangements and Amalgamations) Rules, 2016",
+    "rule": "7",
+    "title": "Advertisement of the notice of the meeting",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-compromises-arrangements-and-amalgamations-rules-2016-20261106-143131#8",
+    "rule_set": "Companies (Compromises, Arrangements and Amalgamations) Rules, 2016",
+    "rule": "8",
+    "title": "Notice to statutory authorities",
+    "mentions": 2,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-compromises-arrangements-and-amalgamations-rules-2016-20261106-143131#11",
+    "rule_set": "Companies (Compromises, Arrangements and Amalgamations) Rules, 2016",
+    "rule": "11",
+    "title": "Copy of compromise or arrangement to be furnished by the company",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-compromises-arrangements-and-amalgamations-rules-2016-20261106-143131#15",
+    "rule_set": "Companies (Compromises, Arrangements and Amalgamations) Rules, 2016",
+    "rule": "15",
+    "title": "Petition for confirming compromise or arrangement",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-compromises-arrangements-and-amalgamations-rules-2016-20261106-143131#16",
+    "rule_set": "Companies (Compromises, Arrangements and Amalgamations) Rules, 2016",
+    "rule": "16",
+    "title": "Date and notice of hearing",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-compromises-arrangements-and-amalgamations-rules-2016-20261106-143131#20",
+    "rule_set": "Companies (Compromises, Arrangements and Amalgamations) Rules, 2016",
+    "rule": "20",
+    "title": "Order under section 232 of the Act",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-compromises-arrangements-and-amalgamations-rules-2016-20261106-143131#25",
+    "rule_set": "Companies (Compromises, Arrangements and Amalgamations) Rules, 2016",
+    "rule": "25",
+    "title": "Merger or Amalgamation of certain companies",
+    "mentions": 6,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#80",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "80",
+    "title": "Application under section 213 for investigation",
+    "mentions": 2,
+    "confidence": "medium"
+   }
+  ],
+  "232": [
+   {
+    "rule_id": "the-companies-compromises-arrangements-and-amalgamations-rules-2016-20261106-143131#15",
+    "rule_set": "Companies (Compromises, Arrangements and Amalgamations) Rules, 2016",
+    "rule": "15",
+    "title": "Petition for confirming compromise or arrangement",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-compromises-arrangements-and-amalgamations-rules-2016-20261106-143131#18",
+    "rule_set": "Companies (Compromises, Arrangements and Amalgamations) Rules, 2016",
+    "rule": "18",
+    "title": "Application for directions under section 232 of the Act",
+    "mentions": 2,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-compromises-arrangements-and-amalgamations-rules-2016-20261106-143131#20",
+    "rule_set": "Companies (Compromises, Arrangements and Amalgamations) Rules, 2016",
+    "rule": "20",
+    "title": "Order under section 232 of the Act",
+    "mentions": 2,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-compromises-arrangements-and-amalgamations-rules-2016-20261106-143131#21",
+    "rule_set": "Companies (Compromises, Arrangements and Amalgamations) Rules, 2016",
+    "rule": "21",
+    "title": "Statement of compliance in mergers and amalgamations",
+    "mentions": 2,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-compromises-arrangements-and-amalgamations-rules-2016-20261106-143131#25",
+    "rule_set": "Companies (Compromises, Arrangements and Amalgamations) Rules, 2016",
+    "rule": "25",
+    "title": "Merger or Amalgamation of certain companies",
+    "mentions": 7,
+    "confidence": "high"
+   }
+  ],
+  "233": [
+   {
+    "rule_id": "the-companies-compromises-arrangements-and-amalgamations-rules-2016-20261106-143131#25",
+    "rule_set": "Companies (Compromises, Arrangements and Amalgamations) Rules, 2016",
+    "rule": "25",
+    "title": "Merger or Amalgamation of certain companies",
+    "mentions": 20,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#15",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "15",
+    "title": "Inspection of documents",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "234": [
+   {
+    "rule_id": "the-companies-removal-of-names-of-companies-from-the-register-of-companies-rules-2016-20261107-081550#3",
+    "rule_set": "Companies (Removal of Names of Companies from the Register of Companies) Rules, 2016",
+    "rule": "3",
+    "title": "Removal of name of company from the Register on suo-motu basis",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "235": [
+   {
+    "rule_id": "the-companies-compromises-arrangements-and-amalgamations-rules-2016-20261106-143131#26",
+    "rule_set": "Companies (Compromises, Arrangements and Amalgamations) Rules, 2016",
+    "rule": "26",
+    "title": "Notice to dissenting shareholders for acquiring the shares",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "236": [
+   {
+    "rule_id": "the-companies-compromises-arrangements-and-amalgamations-rules-2016-20261106-143131#26",
+    "rule_set": "Companies (Compromises, Arrangements and Amalgamations) Rules, 2016",
+    "rule": "26",
+    "title": "Notice to dissenting shareholders for acquiring the shares",
+    "mentions": 2,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-compromises-arrangements-and-amalgamations-rules-2016-20261106-143131#27",
+    "rule_set": "Companies (Compromises, Arrangements and Amalgamations) Rules, 2016",
+    "rule": "27",
+    "title": "Determination of price for purchase of minority shareholding",
+    "mentions": 2,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-iepf-accounting-audit-transfer-and-refund-rules-2016-20261106-142648#5",
+    "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
+    "rule": "5",
+    "title": "Statement to be furnished to the Fund",
+    "mentions": 4,
+    "confidence": "medium"
+   }
+  ],
+  "238": [
+   {
+    "rule_id": "the-companies-compromises-arrangements-and-amalgamations-rules-2016-20261106-143131#28",
+    "rule_set": "Companies (Compromises, Arrangements and Amalgamations) Rules, 2016",
+    "rule": "28",
+    "title": "Circular containing scheme of amalgamation or merger",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-compromises-arrangements-and-amalgamations-rules-2016-20261106-143131#29",
+    "rule_set": "Companies (Compromises, Arrangements and Amalgamations) Rules, 2016",
+    "rule": "29",
+    "title": "Appeal under sub-section (2) of section 238 of the Act",
+    "mentions": 2,
+    "confidence": "high"
+   }
+  ],
+  "241": [
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#81",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "81",
+    "title": "Application under section 241",
+    "mentions": 3,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#82",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "82",
+    "title": "Withdrawal of Application filed under section 241",
+    "mentions": 2,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#88",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "88",
+    "title": "Reference to the Tribunal",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "243": [
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#83",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "83",
+    "title": "Application under section 243",
+    "mentions": 3,
+    "confidence": "high"
+   }
+  ],
+  "244": [
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#83",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "83",
+    "title": "Application under section 243",
+    "mentions": 2,
+    "confidence": "high"
+   }
+  ],
+  "245": [
+   {
+    "rule_id": "iepfa-appointment-of-chairperson-and-members-holding-of-meetings-and-provision-for-offices-and-officers-rules-2016-20261106-142658#14",
+    "rule_set": "Investor Education and Protection Fund Authority (Appointment of Chairperson and Members, holding of meetings and provision for offices and officers) Rules, 2016",
+    "rule": "14",
+    "title": "Protection of action taken in good faith",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#84",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "84",
+    "title": "Right to apply under section 245",
+    "mentions": 5,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#85",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "85",
+    "title": "Conducting a class action suit",
+    "mentions": 2,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#86",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "86",
+    "title": "Rule of opt-out",
+    "mentions": 2,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#87",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "87",
+    "title": "Publication of notice",
+    "mentions": 3,
+    "confidence": "high"
+   }
+  ],
+  "247": [
+   {
+    "rule_id": "the-companies-acceptance-of-deposits-rules-2014-20261106-142547#6",
+    "rule_set": "Companies (Acceptance of Deposits) Rules, 2014",
+    "rule": "6",
+    "title": "Creation of security",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-compromises-arrangements-and-amalgamations-rules-2016-20261106-143131#6",
+    "rule_set": "Companies (Compromises, Arrangements and Amalgamations) Rules, 2016",
+    "rule": "6",
+    "title": "Notice of meeting",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-meetings-of-board-and-its-powers-rules-2014-20261106-143059#17",
+    "rule_set": "Companies (Meetings of Board and its Powers) Rules, 2014",
+    "rule": "17",
+    "title": "Payment to director for loss of office, etc. in connection with transfer of undertaking, property or shares",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-prospectus-and-allotment-of-securities-rules-2014-20261106-142445#12",
+    "rule_set": "Companies (Prospectus and Allotment of Securities) Rules, 2014",
+    "rule": "12",
+    "title": "Return of Allotment",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "248": [
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#8A",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "8A",
+    "title": "Undesirable names",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#25",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "25",
+    "title": "Verification of registered office",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#35",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "35",
+    "title": "Service of documents",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-removal-of-names-of-companies-from-the-register-of-companies-rules-2016-20261107-081550#3",
+    "rule_set": "Companies (Removal of Names of Companies from the Register of Companies) Rules, 2016",
+    "rule": "3",
+    "title": "Removal of name of company from the Register on suo-motu basis",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-removal-of-names-of-companies-from-the-register-of-companies-rules-2016-20261107-081550#4",
+    "rule_set": "Companies (Removal of Names of Companies from the Register of Companies) Rules, 2016",
+    "rule": "4",
+    "title": "Application for removal of name of company",
+    "mentions": 5,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-removal-of-names-of-companies-from-the-register-of-companies-rules-2016-20261107-081550#6",
+    "rule_set": "Companies (Removal of Names of Companies from the Register of Companies) Rules, 2016",
+    "rule": "6",
+    "title": "Form to be certified",
+    "mentions": 3,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-removal-of-names-of-companies-from-the-register-of-companies-rules-2016-20261107-081550#9",
+    "rule_set": "Companies (Removal of Names of Companies from the Register of Companies) Rules, 2016",
+    "rule": "9",
+    "title": "Notice of striking off and dissolution of company",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-removal-of-names-of-companies-from-the-register-of-companies-rules-2016-20261107-081550#10",
+    "rule_set": "Companies (Removal of Names of Companies from the Register of Companies) Rules, 2016",
+    "rule": "10",
+    "title": "Applications or forms pending before Central Government",
+    "mentions": 3,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#15",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "15",
+    "title": "Inspection of documents",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "252": [
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#87",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "87",
+    "title": "Publication of notice",
+    "mentions": 3,
+    "confidence": "medium"
+   }
+  ],
+  "272": [
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#3",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "3",
+    "title": "Petition for winding up",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#4",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "4",
+    "title": "Statement of affairs",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#11",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "11",
+    "title": "Affidavit-in-objection",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#26",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "26",
+    "title": "Inspection of statement of affairs and report",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "273": [
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#14",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "14",
+    "title": "Appointment of provisional liquidator or Company Liquidator",
+    "mentions": 2,
+    "confidence": "medium"
+   }
+  ],
+  "274": [
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#4",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "4",
+    "title": "Statement of affairs",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#26",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "26",
+    "title": "Inspection of statement of affairs and report",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "275": [
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#14",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "14",
+    "title": "Appointment of provisional liquidator or Company Liquidator",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#21",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "21",
+    "title": "Declaration by Company Liquidator",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "277": [
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#14",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "14",
+    "title": "Appointment of provisional liquidator or Company Liquidator",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#17",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "17",
+    "title": "Order to be sent to liquidator and form of order",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "279": [
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#24",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "24",
+    "title": "Application for leave to commence or continue suit or proceeding",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "281": [
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#24",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "24",
+    "title": "Application for leave to commence or continue suit or proceeding",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#25",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "25",
+    "title": "Report by Company Liquidator",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#27",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "27",
+    "title": "Consideration of report by Tribunal",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#28",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "28",
+    "title": "Provisional list of contributories",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "285": [
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#30",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "30",
+    "title": "Settlement of list",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "287": [
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#36",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "36",
+    "title": "Meeting of creditors and contributories",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#37",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "37",
+    "title": "Company Liquidator to report result of meeting",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#44",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "44",
+    "title": "Application of rules to meetings",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#51",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "51",
+    "title": "Resolution at creditors' meeting",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#58",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "58",
+    "title": "When creditor can vote",
+    "mentions": 2,
+    "confidence": "medium"
+   }
+  ],
+  "288": [
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#76",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "76",
+    "title": "Submission of periodical reports to the tribunal",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "290": [
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#128",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "128",
+    "title": "Powers of Company Liquidator",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#129",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "129",
+    "title": "Company Liquidator to be in position of receiver",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "291": [
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#78",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "78",
+    "title": "Declaration by professional",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "292": [
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#44",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "44",
+    "title": "Application of rules to meetings",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "294": [
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#91",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "91",
+    "title": "Half-yearly accounts to be filed",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#94",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "94",
+    "title": "Registry to send copy of account to auditor",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "296": [
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#131",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "131",
+    "title": "Calls by Company Liquidator",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "299": [
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#138",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "138",
+    "title": "Other moneys due by contributories",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#139",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "139",
+    "title": "Application for examination under section 299",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#142",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "142",
+    "title": "Conduct of examination",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#143",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "143",
+    "title": "Notes of deposition",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "300": [
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#144",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "144",
+    "title": "Order for examination under section 300",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#148",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "148",
+    "title": "Notes of examination",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#149",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "149",
+    "title": "Application under sub-section (5) of section 300",
+    "mentions": 2,
+    "confidence": "medium"
+   }
+  ],
+  "301": [
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#150",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "150",
+    "title": "Warrant of arrest of contributory",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#151",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "151",
+    "title": "Prison to which contributory arrested on warrant is to be taken",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "302": [
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#177",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "177",
+    "title": "Conclusion of winding up",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "326": [
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#100",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "100",
+    "title": "Notice for proving debts",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "327": [
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#100",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "100",
+    "title": "Notice for proving debts",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#101",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "101",
+    "title": "Proof of debt",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "333": [
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#156",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "156",
+    "title": "Application for disclaimer",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#162",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "162",
+    "title": "Vesting of disclaimed property",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "339": [
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#153",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "153",
+    "title": "Application under section 339 or section 340",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#185",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "185",
+    "title": "Fees in misfeasance proceeding",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "340": [
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#153",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "153",
+    "title": "Application under section 339 or section 340",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#185",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "185",
+    "title": "Fees in misfeasance proceeding",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "343": [
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#164",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "164",
+    "title": "Application for sanction of compromise",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "349": [
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#190",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "190",
+    "title": "Powers and functions of Official Liquidator",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "352": [
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#84",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "84",
+    "title": "Company Liquidator's Dividend Account",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#177",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "177",
+    "title": "Conclusion of winding up",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#179",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "179",
+    "title": "Statement to accompany payment",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#181",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "181",
+    "title": "Application by person for payment of money paid into the Company Liquidation Dividend and Undistributed Assets Account",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "361": [
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#190",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "190",
+    "title": "Powers and functions of Official Liquidator",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "363": [
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#190",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "190",
+    "title": "Powers and functions of Official Liquidator",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "366": [
+   {
+    "rule_id": "the-companies-authorised-to-register-rules-2014-20261107-081607#2",
+    "rule_set": "Companies (Authorised to Registered) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 2,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-authorised-to-register-rules-2014-20261107-081607#5",
+    "rule_set": "Companies (Authorised to Registered) Rules, 2014",
+    "rule": "5",
+    "title": "Other obligations of companies seeking registration",
+    "mentions": 2,
+    "confidence": "high"
+   }
+  ],
+  "367": [
+   {
+    "rule_id": "the-companies-authorised-to-register-rules-2014-20261107-081607#5",
+    "rule_set": "Companies (Authorised to Registered) Rules, 2014",
+    "rule": "5",
+    "title": "Other obligations of companies seeking registration",
+    "mentions": 3,
+    "confidence": "high"
+   }
+  ],
+  "374": [
+   {
+    "rule_id": "the-companies-authorised-to-register-rules-2014-20261107-081607#4",
+    "rule_set": "Companies (Authorised to Registered) Rules, 2014",
+    "rule": "4",
+    "title": "Obligation of companies seeking registration to make publication",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-authorised-to-register-rules-2014-20261107-081607#5",
+    "rule_set": "Companies (Authorised to Registered) Rules, 2014",
+    "rule": "5",
+    "title": "Other obligations of companies seeking registration",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "378A": [
+   {
+    "rule_id": "the-producer-companies-rules-2021-20261107-081633#2",
+    "rule_set": "Producer Companies Rules, 2021",
+    "rule": "2",
+    "title": "Applicability",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "380": [
+   {
+    "rule_id": "the-companies-corporate-social-responsibility-policy-rules-2014-csr-rules-20261106-142812#5",
+    "rule_set": "Companies (Corporate Social Responsibility Policy) Rules, 2014",
+    "rule": "5",
+    "title": "CSR Committees",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-registration-of-foreign-companies-rules-2014-20261107-081638#3",
+    "rule_set": "Companies (Registration of Foreign Companies) Rules, 2014",
+    "rule": "3",
+    "title": "Particulars relating to directors and Secretary to be furnished to the Registrar by foreign Companies",
+    "mentions": 3,
+    "confidence": "high"
+   }
+  ],
+  "381": [
+   {
+    "rule_id": "the-companies-corporate-social-responsibility-policy-rules-2014-csr-rules-20261106-142812#1",
+    "rule_set": "Companies (Corporate Social Responsibility Policy) Rules, 2014",
+    "rule": "1",
+    "title": "Short title and commencement",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-corporate-social-responsibility-policy-rules-2014-csr-rules-20261106-142812#3",
+    "rule_set": "Companies (Corporate Social Responsibility Policy) Rules, 2014",
+    "rule": "3",
+    "title": "Corporate Social Responsibility",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-corporate-social-responsibility-policy-rules-2014-csr-rules-20261106-142812#5",
+    "rule_set": "Companies (Corporate Social Responsibility Policy) Rules, 2014",
+    "rule": "5",
+    "title": "CSR Committees",
+    "mentions": 2,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-corporate-social-responsibility-policy-rules-2014-csr-rules-20261106-142812#14",
+    "rule_set": "Companies (Corporate Social Responsibility Policy) Rules, 2014",
+    "rule": "14",
+    "title": "Amendment Rules, 2021 vide Notification No. G.S.R. 40(E) dated 22nd January, 2021, w.e.f. 22.01.2021. Prior to substitution, the sub-rule stood as under: \"8. CSR Reporting",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-registration-of-foreign-companies-rules-2014-20261107-081638#5",
+    "rule_set": "Companies (Registration of Foreign Companies) Rules, 2014",
+    "rule": "5",
+    "title": "Audit of accounts of foreign company",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "385": [
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#15",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "15",
+    "title": "Inspection of documents",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "390": [
+   {
+    "rule_id": "the-companies-registration-of-foreign-companies-rules-2014-20261107-081638#13",
+    "rule_set": "Companies (Registration of Foreign Companies) Rules, 2014",
+    "rule": "13",
+    "title": "Issue of Indian Depository Receipts (IDRs)",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "396": [
+   {
+    "rule_id": "the-companies-removal-of-names-of-companies-from-the-register-of-companies-rules-2016-20261107-081550#4",
+    "rule_set": "Companies (Removal of Names of Companies from the Register of Companies) Rules, 2016",
+    "rule": "4",
+    "title": "Application for removal of name of company",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#10",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "10",
+    "title": "Procedure on receipt of any application or form or document electronically",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "398": [
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#2",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "399": [
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#10",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "10",
+    "title": "Procedure on receipt of any application or form or document electronically",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#15",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "15",
+    "title": "Inspection of documents",
+    "mentions": 4,
+    "confidence": "high"
+   }
+  ],
+  "403": [
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#15",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "15",
+    "title": "Inspection of documents",
+    "mentions": 2,
+    "confidence": "high"
+   }
+  ],
+  "406": [
+   {
+    "rule_id": "the-companies-acceptance-of-deposits-rules-2014-20261106-142547#2",
+    "rule_set": "Companies (Acceptance of Deposits) Rules, 2014",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#8A",
+    "rule_set": "Companies (Incorporation) Rules, 2014",
+    "rule": "8A",
+    "title": "Undesirable names",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "companies-listing-of-equity-shares-in-permissible-jurisdictions-rules-2024-20261106-142516#5",
+    "rule_set": "Companies (Listing of equity 1[instruments] in permissible jurisdictions) Rules, 2024",
+    "rule": "5",
+    "title": "Certain companies not eligible",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "nidhi-rules-2014-20261107-081648#2",
+    "rule_set": "Nidhi Rules, 2014",
+    "rule": "2",
+    "title": "Application",
+    "mentions": 2,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "nidhi-rules-2014-20261107-081648#4",
+    "rule_set": "Nidhi Rules, 2014",
+    "rule": "4",
+    "title": "Incorporation and incidental matters",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "nidhi-rules-2014-20261107-081648#5",
+    "rule_set": "Nidhi Rules, 2014",
+    "rule": "5",
+    "title": "Requirements for minimum number of members, net owned fund etc",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "408": [
+   {
+    "rule_id": "companies-transfer-of-pending-proceedings-rules-2016-20261107-081601#2",
+    "rule_set": "Companies (Transfer of Pending Proceedings) Rules, 2016",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "companies-transfer-of-pending-proceedings-rules-2016-20261107-081722#2",
+    "rule_set": "Companies (Transfer of Pending Proceedings) Rules, 2016",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "nclt-recruitment-salary-and-other-terms-and-conditions-of-service-of-officers-and-other-employees-rules-2020-20261107-081742#2",
+    "rule_set": "National Company Law Tribunal (Recruitment, Salary and other Terms and Conditions of Service of Officers and other Employees) Rules, 2020",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "nclt-salaries-allowances-and-other-terms-and-conditions-of-service-of-president-and-other-members-rules-2015-20261107-081736#2",
+    "rule_set": "National Company Law Tribunal (Salary, Allowances and other Terms and Conditions of Service of President and other Members) Rules, 2015",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "410": [
+   {
+    "rule_id": "nclat-recruitment-salary-and-other-terms-and-conditions-of-service-of-officers-and-other-employees-rules-2020-20261107-081755#2",
+    "rule_set": "National Company Law Appellate Tribunal (Recruitment, Salary and other Terms and Conditions of Service of Officers and other Employees) Rules, 2020",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "412": [
+   {
+    "rule_id": "nclt-salaries-allowances-and-other-terms-and-conditions-of-service-of-president-and-other-members-rules-2015-20261107-081736#15",
+    "rule_set": "National Company Law Tribunal (Salary, Allowances and other Terms and Conditions of Service of President and other Members) Rules, 2015",
+    "rule": "15",
+    "title": "Conditions of service of Judicial Member",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "419": [
+   {
+    "rule_id": "companies-transfer-of-pending-proceedings-rules-2016-20261107-081601#5",
+    "rule_set": "Companies (Transfer of Pending Proceedings) Rules, 2016",
+    "rule": "5",
+    "title": "[3][Transfer of pending proceedings of Winding up on the ground of inability to pay debts",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "companies-transfer-of-pending-proceedings-rules-2016-20261107-081722#5",
+    "rule_set": "Companies (Transfer of Pending Proceedings) Rules, 2016",
+    "rule": "5",
+    "title": "[3][Transfer of pending proceedings of Winding up on the ground of inability to pay debts",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "companies-transfer-of-pending-proceedings-rules-2016-20261107-081601#8",
+    "rule_set": "Companies (Transfer of Pending Proceedings) Rules, 2016",
+    "rule": "8",
+    "title": "Fees not to be paid",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "companies-transfer-of-pending-proceedings-rules-2016-20261107-081722#8",
+    "rule_set": "Companies (Transfer of Pending Proceedings) Rules, 2016",
+    "rule": "8",
+    "title": "Fees not to be paid",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#2",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#60",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "60",
+    "title": "Matters relating to the Judgments or Orders of the Tribunal",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "421": [
+   {
+    "rule_id": "nclat-rules-2016-20261107-081714#2",
+    "rule_set": "National Company Law Appellate Tribunal Rules, 2016",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "424": [
+   {
+    "rule_id": "nclat-rules-2016-20261107-081714#77",
+    "rule_set": "National Company Law Appellate Tribunal Rules, 2016",
+    "rule": "77",
+    "title": "Procedure for examination of witnesses, issue of Commissions",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "432": [
+   {
+    "rule_id": "nclat-rules-2016-20261107-081714#2",
+    "rule_set": "National Company Law Appellate Tribunal Rules, 2016",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "nclat-rules-2016-20261107-081714#62",
+    "rule_set": "National Company Law Appellate Tribunal Rules, 2016",
+    "rule": "62",
+    "title": "Maintenance of register of inspection",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#2",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "433": [
+   {
+    "rule_id": "companies-transfer-of-pending-proceedings-rules-2016-20261107-081601#5",
+    "rule_set": "Companies (Transfer of Pending Proceedings) Rules, 2016",
+    "rule": "5",
+    "title": "[3][Transfer of pending proceedings of Winding up on the ground of inability to pay debts",
+    "mentions": 2,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "companies-transfer-of-pending-proceedings-rules-2016-20261107-081722#5",
+    "rule_set": "Companies (Transfer of Pending Proceedings) Rules, 2016",
+    "rule": "5",
+    "title": "[3][Transfer of pending proceedings of Winding up on the ground of inability to pay debts",
+    "mentions": 2,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "companies-transfer-of-pending-proceedings-rules-2016-20261107-081601#6",
+    "rule_set": "Companies (Transfer of Pending Proceedings) Rules, 2016",
+    "rule": "6",
+    "title": "Transfer of pending proceedings of Winding up matters on the grounds other than inability to pay debts",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "companies-transfer-of-pending-proceedings-rules-2016-20261107-081722#6",
+    "rule_set": "Companies (Transfer of Pending Proceedings) Rules, 2016",
+    "rule": "6",
+    "title": "Transfer of pending proceedings of Winding up matters on the grounds other than inability to pay debts",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "companies-transfer-of-pending-proceedings-rules-2016-20261107-081601#8",
+    "rule_set": "Companies (Transfer of Pending Proceedings) Rules, 2016",
+    "rule": "8",
+    "title": "Fees not to be paid",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "companies-transfer-of-pending-proceedings-rules-2016-20261107-081722#8",
+    "rule_set": "Companies (Transfer of Pending Proceedings) Rules, 2016",
+    "rule": "8",
+    "title": "Fees not to be paid",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "434": [
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#2",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "2",
+    "title": "Definitions",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#64",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "64",
+    "title": "Matter earlier dealt by Company Law Board",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "441": [
+   {
+    "rule_id": "nclt-rules-2016-20261107-081709#88",
+    "rule_set": "National Company Law Tribunal Rules, 2016",
+    "rule": "88",
+    "title": "Reference to the Tribunal",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "447": [
+   {
+    "rule_id": "the-iepf-accounting-audit-transfer-and-refund-rules-2016-20261106-142648#5",
+    "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
+    "rule": "5",
+    "title": "Statement to be furnished to the Fund",
+    "mentions": 2,
+    "confidence": "high"
+   }
+  ],
+  "448": [
+   {
+    "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#7A",
+    "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
+    "rule": "7A",
+    "title": "Intimation of changes in personal details etc., by registered valuer to authority. [11][7A. Intimation of changes in personal details etc., by registered valuer to authority",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-iepf-accounting-audit-transfer-and-refund-rules-2016-20261106-142648#5",
+    "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
+    "rule": "5",
+    "title": "Statement to be furnished to the Fund",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#8",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "8",
+    "title": "Authentication of documents",
+    "mentions": 2,
+    "confidence": "high"
+   }
+  ],
+  "449": [
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#8",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "8",
+    "title": "Authentication of documents",
+    "mentions": 2,
+    "confidence": "high"
+   }
+  ],
+  "450": [
+   {
+    "rule_id": "the-national-financial-reporting-authority-rules-2018-nfra-rules-20261106-142823#19",
+    "rule_set": "National Financial Reporting Authority Rules, 2018",
+    "rule": "19",
+    "title": "International associations and international assistance",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "455": [
+   {
+    "rule_id": "the-companies-appointment-and-qualification-of-directors-rules-2014-20261106-143017#4",
+    "rule_set": "Companies (Appointment and Qualification of Directors) Rules, 2014",
+    "rule": "4",
+    "title": "Number of Independent directors",
+    "mentions": 1,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-miscellaneous-rules-2014-20261107-081911#3",
+    "rule_set": "Companies (Miscellaneous) Rules, 2014",
+    "rule": "3",
+    "title": "Application for obtaining status of dormant company",
+    "mentions": 2,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-miscellaneous-rules-2014-20261107-081911#8",
+    "rule_set": "Companies (Miscellaneous) Rules, 2014",
+    "rule": "8",
+    "title": "Application for seeking status of an active company",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#10",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "10",
+    "title": "Procedure on receipt of any application or form or document electronically",
+    "mentions": 2,
+    "confidence": "high"
+   },
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#15",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "15",
+    "title": "Inspection of documents",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "458": [
+   {
+    "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#1",
+    "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
+    "rule": "1",
+    "title": "[2][Short title, commencement and application].─ (1) These rules may be called the Companies (Registered Valuers and Valuation) Rules, 2017. (2) They shall come into force on the date of their publication in the Official Gazette. [3][(3) These rules shall apply for valuation in respect of any property, stocks, shares, debentures, securities or goodwill or any other assets or net worth of a company or its liabilities under the provision of the Act or these rules. Explanation",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ],
+  "459": [
+   {
+    "rule_id": "the-companies-miscellaneous-rules-2014-20261107-081911#9",
+    "rule_set": "Companies (Miscellaneous) Rules, 2014",
+    "rule": "9",
+    "title": "Fees for application to Central Government",
+    "mentions": 1,
+    "confidence": "medium"
+   },
+   {
+    "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#15",
+    "rule_set": "of the Companies (Registration Offices and Fees) Rules, 2014",
+    "rule": "15",
+    "title": "Inspection of documents",
+    "mentions": 2,
+    "confidence": "high"
+   }
+  ],
+  "465": [
+   {
+    "rule_id": "companies-winding-up-rules-2020-20261107-081555#131",
+    "rule_set": "Companies (Winding Up) Rules, 2020",
+    "rule": "131",
+    "title": "Calls by Company Liquidator",
+    "mentions": 1,
+    "confidence": "medium"
+   }
+  ],
+  "469": [
+   {
+    "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#7A",
+    "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
+    "rule": "7A",
+    "title": "Intimation of changes in personal details etc., by registered valuer to authority. [11][7A. Intimation of changes in personal details etc., by registered valuer to authority",
+    "mentions": 1,
+    "confidence": "high"
+   }
+  ]
+ }
+}
