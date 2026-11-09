@@ -3651,35 +3651,6 @@
     "subs": []
    }
   ],
-  "25": [
-   {
-    "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#39",
-    "rule_set": "Companies (Incorporation) Rules, 2014",
-    "rule": "39",
-    "title": "Conversion of a company limited by guarantee into a company limited by shares",
-    "mentions": 1,
-    "confidence": "high",
-    "subs": []
-   },
-   {
-    "rule_id": "companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544#12",
-    "rule_set": "Companies (Registered Valuers and Valuation) Rules, 2017",
-    "rule": "12",
-    "title": "Eligibility for registered valuers organisations",
-    "mentions": 1,
-    "confidence": "high",
-    "subs": []
-   },
-   {
-    "rule_id": "the-companies-removal-of-names-of-companies-from-the-register-of-companies-rules-2016-20261107-081550#3",
-    "rule_set": "Companies (Removal of Names of Companies from the Register of Companies) Rules, 2016",
-    "rule": "3",
-    "title": "Removal of name of company from the Register on suo-motu basis",
-    "mentions": 1,
-    "confidence": "high",
-    "subs": []
-   }
-  ],
   "26": [
    {
     "rule_id": "the-companies-prospectus-and-allotment-of-securities-rules-2014-20261106-142445#1",
@@ -16960,17 +16931,6 @@
     "subs": []
    }
   ],
-  "234": [
-   {
-    "rule_id": "the-companies-removal-of-names-of-companies-from-the-register-of-companies-rules-2016-20261107-081550#3",
-    "rule_set": "Companies (Removal of Names of Companies from the Register of Companies) Rules, 2016",
-    "rule": "3",
-    "title": "Removal of name of company from the Register on suo-motu basis",
-    "mentions": 1,
-    "confidence": "high",
-    "subs": []
-   }
-  ],
   "235": [
    {
     "rule_id": "the-companies-compromises-arrangements-and-amalgamations-rules-2016-20261106-143131#26",
@@ -20586,15 +20546,6 @@
     "subs": []
    },
    {
-    "rule_id": "companies-transfer-of-pending-proceedings-rules-2016-20261107-081722#6",
-    "rule_set": "Companies (Transfer of Pending Proceedings) Rules, 2016",
-    "rule": "6",
-    "title": "Transfer of pending proceedings of Winding up matters on the grounds other than inability to pay debts",
-    "mentions": 1,
-    "confidence": "high",
-    "subs": []
-   },
-   {
     "rule_id": "companies-transfer-of-pending-proceedings-rules-2016-20261107-081722#8",
     "rule_set": "Companies (Transfer of Pending Proceedings) Rules, 2016",
     "rule": "8",
@@ -20648,6 +20599,15 @@
     "rule_set": "Companies (Transfer of Pending Proceedings) Rules, 2016",
     "rule": "4",
     "title": "[2][Pending proceeding relating to voluntary winding up",
+    "mentions": 0,
+    "confidence": "low",
+    "subs": []
+   },
+   {
+    "rule_id": "companies-transfer-of-pending-proceedings-rules-2016-20261107-081722#6",
+    "rule_set": "Companies (Transfer of Pending Proceedings) Rules, 2016",
+    "rule": "6",
+    "title": "Transfer of pending proceedings of Winding up matters on the grounds other than inability to pay debts",
     "mentions": 0,
     "confidence": "low",
     "subs": []

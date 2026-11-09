@@ -1143,12 +1143,6 @@
      "mentions": 2,
      "confidence": "high",
      "subs": []
-    },
-    {
-     "section": "25",
-     "mentions": 1,
-     "confidence": "high",
-     "subs": []
     }
    ]
   },
@@ -1640,10 +1634,9 @@
    "text": "All petitions filed under\nclauses (a) and (f) of section 433 of the Companies Act, 1956 pending before\na High Court and where the petition has not been served on the respondent\nas required under rule 26 of the Companies (Court) Rules, 1959 shall be\ntransferred to the Bench of the Tribunal exercising territorial jurisdiction\nand such petitions shall be treated as petitions under the provisions of the\nCompanies Act, 2013 (18 of 2013).",
    "cites": [
     {
-     "section": "433",
-     "mentions": 1,
-     "confidence": "high",
-     "subs": []
+     "section": "434",
+     "mentions": 0,
+     "confidence": "low"
     }
    ]
   },
@@ -18853,12 +18846,6 @@
      "mentions": 1,
      "confidence": "high",
      "subs": []
-    },
-    {
-     "section": "25",
-     "mentions": 1,
-     "confidence": "high",
-     "subs": []
     }
    ]
   },
@@ -25429,12 +25416,6 @@
      "subs": []
     },
     {
-     "section": "25",
-     "mentions": 1,
-     "confidence": "high",
-     "subs": []
-    },
-    {
      "section": "206",
      "mentions": 1,
      "confidence": "high",
@@ -25450,12 +25431,6 @@
      "section": "208",
      "mentions": 2,
      "confidence": "medium",
-     "subs": []
-    },
-    {
-     "section": "234",
-     "mentions": 1,
-     "confidence": "high",
      "subs": []
     },
     {

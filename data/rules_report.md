@@ -2,8 +2,8 @@
 
 - Rules documents read: 57 (duplicates skipped: 3)
 - Individual rules found: 1139 (plus 10 omitted rules recorded)
-- Sections of the Act that have at least one linked rule: 250
-- Rules linked only through their rule set's enabling section (low confidence): 562
+- Sections of the Act that have at least one linked rule: 248
+- Rules linked only through their rule set's enabling section (low confidence): 563
 - Rules with no link at all: 243
 - Skipped duplicates: companies-transfer-of-pending-proceedings-rules-20; nclt-procedure-for-reduction-of-share-capital-of-c; the-companies-restriction-on-number-of-layers-rule
 
@@ -11,7 +11,7 @@
 |---|---|---|---|---|---|
 | companies-listing-of-equity-shares-in-permiss | Companies (Listing of equity instruments in permissible juri | 4 (+0 omitted) | 2 to 5 | 1: 1 | 3 |
 | companies-registered-valuers-and-valuation-ru | Companies (Registered Valuers and Valuation) Rules, 2017 | 27 (+0 omitted) | 1 to 26 | 0:  | 6 |
-| companies-transfer-of-pending-proceedings-rul | Companies (Transfer of Pending Proceedings) Rules, 2016 | 8 (+0 omitted) | 1 to 8 | 0:  | 4 |
+| companies-transfer-of-pending-proceedings-rul | Companies (Transfer of Pending Proceedings) Rules, 2016 | 8 (+0 omitted) | 1 to 8 | 0:  | 3 |
 | companies-winding-up-rules-2020-20261107-0815 | Companies (Winding Up) Rules, 2020 | 190 (+0 omitted) | 1 to 191 | 1: 57 | 51 |
 | iepfa-appointment-of-chairperson-and-members- | Investor Education and Protection Fund Authority (Appointmen | 14 (+0 omitted) | 1 to 14 | 0:  | 2 |
 | nclat-recruitment-salary-and-other-terms-and- | National Company Law Appellate Tribunal (Recruitment, Salary | 17 (+0 omitted) | 1 to 17 | 0:  | 1 |
