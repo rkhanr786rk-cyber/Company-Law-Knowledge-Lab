@@ -153,7 +153,11 @@ OF_RE = re.compile(
 
 def cites_companies_act(tail):
     m = OF_RE.search(tail[:110])
-    return not m or bool(re.match(r"(?:Companies\s+)?Act\b", m.group(1)))
+    if not m:
+        return True
+    if not re.match(r"(?:Companies\s+)?Act\b", m.group(1)):
+        return False
+    return not re.match(r"\s*,?\s*19\d\d", tail[m.end(1):m.end(1) + 10])   # the old Companies Act, 1956
 
 
 def para_refs(text):
@@ -233,9 +237,25 @@ def main():
             if cur is None or rank[item["confidence"]] < rank[cur[1]]:
                 best_for_rule[item["rule_id"]] = (n, item["confidence"])
 
+    # which sections of the Act does each section refer to (and so which refer back to it)
+    parsed, outs, valid = {}, {}, set(order)
+    for s in sections:
+        paras, notes = to_paragraphs(strip_trailing_headings(s["text"]))
+        parsed[s["section"]] = (paras, notes)
+        found = set()
+        if s["status"] == "in force":
+            for p in paras:
+                found |= set(para_refs(p["x"]))
+        found.discard(s["section"])
+        outs[s["section"]] = sorted(found & valid, key=sort_key)
+    ins = {}
+    for a, lst in outs.items():
+        for b in lst:
+            ins.setdefault(b, []).append(a)
+
     for i, s in enumerate(sections):
         n = s["section"]
-        paras, notes = to_paragraphs(strip_trailing_headings(s["text"]))
+        paras, notes = parsed[n]
         if n == "2":
             defs = extract_definitions(paras)
         linked = []
@@ -257,6 +277,7 @@ def main():
         dump(OUT / "data" / "s" / f"{n}.json", {
             "n": n, "t": s["title"], "c": s["chapter"], "ct": s["chapter_title"], "s": s["status"],
             "paras": paras, "notes": notes, "rules": linked,
+            "out": outs[n], "in": sorted(ins.get(n, []), key=sort_key),
             "prev": [prev_n, title_of[prev_n]] if prev_n else None,
             "next": [next_n, title_of[next_n]] if next_n else None,
         })
