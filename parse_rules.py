@@ -205,7 +205,9 @@ def classify(tail):
     m = OF_RE.search(tail[:110])
     if not m:
         return "medium"
-    return "high" if re.match(r"(?:Companies\s+)?Act\b", m.group(1)) else None
+    if not re.match(r"(?:Companies\s+)?Act\b", m.group(1)):
+        return None
+    return None if re.match(r"\s*,?\s*19\d\d", tail[m.end(1):m.end(1) + 10]) else "high"   # not the old Act of 1956
 
 
 TOKEN_RE = re.compile(r"(\d{1,3}[A-Z]{0,2})((?:\s*\([^)]{1,8}\))*)")
