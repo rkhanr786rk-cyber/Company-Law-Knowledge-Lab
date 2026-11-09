@@ -217,7 +217,7 @@ button{font:inherit;color:inherit}
 .web .nd:hover circle,.web .nd:hover rect,.web .nd:focus-visible circle,.web .nd:focus-visible rect{fill:var(--mark);stroke-width:3}
 .web .mr circle{fill:none;stroke:var(--muted);stroke-dasharray:3 3}.web .mr .lt{fill:var(--muted)}
 .web .ctr{fill:var(--tape)}.web .ct{fill:var(--page);text-anchor:middle;dominant-baseline:central;font-family:var(--serif);font-weight:600}
-.webcap b{display:block;margin-bottom:.2rem}.webcap{min-height:6.5em;margin:.4rem auto 0;max-width:46rem;font:400 .95rem/1.5 var(--sans);text-align:center}
+.webcap b{display:block;margin-bottom:.2rem}.webcap .q{display:block;margin-top:.35rem;color:var(--muted);font-size:.86rem;font-style:italic}.sum{margin:.2rem 0 .5rem;font:400 1.12rem/1.55 var(--serif)}.webcap{min-height:9em;margin:.4rem auto 0;max-width:46rem;font:400 .95rem/1.5 var(--sans);text-align:center}
 .legend{max-width:46rem;margin:.2rem auto 0;font:400 .88rem/1.5 var(--sans);color:var(--muted);text-align:center}
 .legend .k{display:inline-block;width:.8rem;height:.8rem;margin:0 .3rem 0 .4rem;vertical-align:-.1em;border:1.5px solid}
 .legend .k.s{border-radius:50%;border-color:var(--link)}.legend .k.r{border-radius:2px;border-color:var(--tape)}
@@ -228,6 +228,7 @@ button{font:inherit;color:inherit}
 .wlist ul{margin:0;padding:0;list-style:none;columns:2 15rem;column-gap:1.5rem}
 .wlist li{break-inside:avoid;padding:.12rem 0;font:400 .9rem/1.35 var(--sans)}
 .wlist .why{display:block;margin:.1rem 0 .5rem;color:var(--muted);font-size:.84rem;line-height:1.4}
+.wlist .why.q{font-style:italic;margin-top:-.35rem}
 .wlist .lnk{background:none;border:0;padding:0;text-align:left;cursor:pointer;color:var(--link);text-decoration:underline;text-underline-offset:.15em}
 .side h3.cases{margin-top:2.4rem;padding-top:1rem;border-top:1px solid var(--rule)}
 @media print{.bar,.side,.mtabs,.tapewrap,.pn,.foot{display:none!important}.reader{display:block}body{background:#fff}}
@@ -554,24 +555,55 @@ document.addEventListener("toggle", async e => {
    their members are the second ring. A later group for another law (SEBI LODR) is one more entry in webGroups(). */
 const shortSet = n => { const t = n.replace(/^Companies\s+/i, "").replace(/[()]/g, "").replace(/,?\s*(?:19|20)\d\d$/, "").replace(/\s+Rules?$/i, "").trim(); return t.length > 22 ? t.slice(0, 21).trim() + "…" : t; };
 const plural = (n, w) => `${n} ${w}${n === 1 ? "" : "s"}`;
+/* A one-sentence explanation of a link, chosen from the wording around the citation. */
+const REL = [["def", /meaning (?:assigned|given)|defined (?:in|under)|as defined|same meanings?/i], ["not", /notwithstanding/i], ["sub", /subject to/i],
+  ["cmp", /compl(?:y|ies|ied|iance)|in accordance with|requirements? of|conditions? (?:of|specified)/i], ["pen", /punish|penalt|\bfine\b|imprison|liable|offence/i],
+  ["pro", /\b(?:under|pursuant to|in exercise|powers? conferred|made under|in terms of|referred to in|specified in|provided in|as per)\b/i]];
+const relOf = x => (REL.find(([, re]) => re.test(x || "")) || ["ref"])[0];
+const ttl = n => { const r = S.idx.sections[S.map[n]]; return r ? nice(r[1]) : ""; };
+const OUT_SAY = { def: m => `Uses a term whose meaning is given in section ${m}, “${ttl(m)}”.`, not: m => `Applies even where section ${m}, “${ttl(m)}”, says otherwise.`,
+  sub: m => `Is made subject to section ${m}, “${ttl(m)}”.`, cmp: m => `Requires compliance with section ${m}, “${ttl(m)}”.`,
+  pen: m => `Ties into the offence, penalty or liability dealt with in section ${m}, “${ttl(m)}”.`, pro: m => `Draws on the power or procedure in section ${m}, “${ttl(m)}”.`,
+  ref: m => `Refers to section ${m}, “${ttl(m)}”, which deals with a related matter.` };
+const IN_SAY = { def: m => `Section ${m}, “${ttl(m)}”, uses a term that this section defines.`, not: m => `Section ${m}, “${ttl(m)}”, applies even where this section says otherwise.`,
+  sub: m => `Section ${m}, “${ttl(m)}”, is made subject to this section.`, cmp: m => `Section ${m}, “${ttl(m)}”, requires compliance with this section.`,
+  pen: m => `Section ${m}, “${ttl(m)}”, ties into the offence, penalty or liability dealt with here.`, pro: m => `Section ${m}, “${ttl(m)}”, draws on the power or procedure in this section.`,
+  ref: m => `Section ${m}, “${ttl(m)}”, refers to this section for a related matter.` };
 function webGroups(d) {
   const sub = l => l ? ` in sub-section (${l})` : "";
-  const sec = (n, why, extra) => ({ k: "s", id: n, label: n, why, tip: `Section ${n}. ${S.idx.sections[S.map[n]][1]}`, href: `#/s/${n}`, ...extra });
+  const sec = (n, why, q, extra) => ({ k: "s", id: n, label: n, why, q: q || "", tip: `Section ${n}. ${S.idx.sections[S.map[n]][1]}`, href: `#/s/${n}`, ...extra });
   const g = [];
   if (d.out && d.out.length) g.push({ kind: "out", label: `Cites ${plural(d.out.length, "section")}`, items: d.out.map(n => { const w = (d.wo || {})[n];
-    return sec(n, w ? `This section refers to section ${n}${sub(w.l)}: “${w.x}”` : `This section refers to section ${n}.`); }) });
+    return sec(n, OUT_SAY[relOf(w && w.x)](n), w ? `${w.l ? "Sub-section (" + w.l + "): " : ""}${w.x}` : ""); }) });
   if (d.in && d.in.length) g.push({ kind: "in", label: `Cited by ${plural(d.in.length, "section")}`, items: d.in.map(n => { const w = (d.wi || {})[n];
-    return sec(n, w ? `Section ${n} refers to this section${sub(w.l)}: “${w.x}”` : `Section ${n} refers to this section.`); }) });
+    return sec(n, IN_SAY[relOf(w && w.x)](n), w ? `Section ${n}${sub(w.l)}: ${w.x}` : ""); }) });
   if (d.co && d.co.length) g.push({ kind: "co", label: `Related through rules (${d.co.length})`, items: d.co.map(c => {
-    const r0 = c.r[0], first = `Rule ${r0[1]} of ${S.idx.sets[r0[0]].name}`, more = c.c > 1 ? ` and ${plural(c.c - 1, "other rule")}` : "";
-    return sec(c.m, `${first}${more} refer${c.c > 1 ? "" : "s"} to both section ${d.n} and section ${c.m}, so they are linked by subject.`, { co: true }); }) });
+    const r0 = c.r[0], rt = ((S.rt || {})[r0[0] + ":" + r0[1]] || ""), more = c.c > 1 ? ` and ${plural(c.c - 1, "other rule")}` : "";
+    return sec(c.m, `Rule ${r0[1]}${rt ? ", “" + rt + "”," : ""} of ${shortSet(S.idx.sets[r0[0]].name)}${more} deal${c.c > 1 ? "" : "s"} with this section and with section ${c.m}, “${ttl(c.m)}”, together. The two are linked through the same subject in the Rules.`, "", { co: true }); }) });
   const by = new Map();
   d.rules.filter(r => S.webLow || r.conf !== "low").forEach(r => { if (!by.has(r.set)) by.set(r.set, []); by.get(r.set).push(r); });
+  const ruleSay = (r, rel) => {
+    const base = `Rule ${r.rule}${r.t ? ", “" + r.t + "”," : ""} ${r.conf === "medium" ? "appears to work" : "works"} out in detail how section ${d.n}${r.sb && r.sb.length ? "(" + r.sb[0] + ")" : ""} applies`;
+    const form = /\bForm\b|e-?form|\bfil(?:e|ed|ing)\b/i.test(r.w || "") ? ", including what to file and in which form" : rel === "pen" ? ", including the consequences of default" : "";
+    return base + form + ".";
+  };
   [...by].forEach(([k, arr]) => g.push({ kind: "rule", label: `${shortSet(S.idx.sets[k].name)} (${arr.length})`, items: arr.map(r => ({ k: "r", id: r.rule, label: "R" + r.rule, set: k, low: r.conf === "low", t: r.t,
     tip: `Rule ${r.rule} of ${S.idx.sets[k].name}${r.t ? ". " + r.t : ""}`,
-    why: r.conf === "low" ? `Not cited by the rule itself. The opening words of these Rules name section ${d.n} as a section they are made under.`
-       : r.w ? `${r.conf === "medium" ? "This rule mentions the section without naming the Act" : "This rule says"}: “${r.w}”` : "This rule names the section in its heading." })) }));
+    q: r.conf === "low" ? "" : (r.w || ""),
+    why: r.conf === "low" ? `These Rules say in their opening words that they are made under section ${d.n}, so each rule is part of putting that section into effect.` : ruleSay(r, relOf(r.w)) })) }));
   return g;
+}
+function webSummary(d) {
+  const nOut = (d.out || []).length, nIn = (d.in || []).length, direct = d.rules.filter(r => r.conf !== "low"), low = d.rules.length - direct.length;
+  const list = a => { const s = a.slice(0, 4).join(", "); return a.length > 4 ? s + " and others" : s; };
+  const sets = new Set(direct.map(r => r.set)), parts = [];
+  if (nOut) parts.push(`leans on ${plural(nOut, "other section")} (${list(d.out)})`);
+  if (nIn) parts.push(`is relied on by ${plural(nIn, "section")} (${list(d.in)})`);
+  if (direct.length) parts.push(`is put into practice by ${plural(direct.length, "rule")} in ${plural(sets.size, "set")} of Rules`);
+  let t = parts.length ? `Section ${d.n}, “${nice(d.t)}”, ${parts.join(", ").replace(/, ([^,]*)$/, parts.length > 1 ? ", and $1" : ", $1")}.` : "";
+  if (!parts.length && low) t = `No rule or section names section ${d.n}, but ${plural(low, "rule")} are made under it.`;
+  if (parts.length && d.co && d.co.length) t += ` ${plural(d.co.length, "further section")} share rules with it.`;
+  return t;
 }
 function webSVG(d, W) {
   const narrow = W < 560;
@@ -599,8 +631,8 @@ function webSVG(d, W) {
       const x = rr * Math.cos(ang), y = rr * Math.sin(ang), it = shown[i];
       threads += thread(hx, hy, x, y, `sub ${g.kind}${it && it.low ? " low" : ""}`);
       if (!it) leaves += `<g class="mr"><title>${more} more, listed below the web</title><circle cx="${f(x)}" cy="${f(y)}" r="${P.leaf}"/><text class="lt" x="${f(x)}" y="${f(y)}" font-size="${P.fz - 1}">+${more}</text></g>`;
-      else if (it.k === "s") leaves += `<a class="nd sec${it.co ? " co" : ""}" href="${it.href}" aria-label="${esc(it.tip)}" data-tip="${esc(it.tip)}" data-why="${esc(it.why || "")}"><circle cx="${f(x)}" cy="${f(y)}" r="${P.leaf}"/><text class="lt" x="${f(x)}" y="${f(y)}" font-size="${P.fz - (it.label.length > 3 ? 1.5 : 0)}">${esc(it.label)}</text></a>`;
-      else leaves += `<g class="nd ru${it.low ? " low" : ""}" role="button" tabindex="0" aria-label="${esc(it.tip)}" data-tip="${esc(it.tip)}" data-why="${esc(it.why || "")}" data-set="${it.set}" data-rule="${esc(it.id)}"><rect x="${f(x - P.rw / 2)}" y="${f(y - P.rh / 2)}" width="${P.rw}" height="${P.rh}" rx="4"/><text class="lt" x="${f(x)}" y="${f(y)}" font-size="${P.fz - 1.5}">${esc(it.label)}</text></g>`;
+      else if (it.k === "s") leaves += `<a class="nd sec${it.co ? " co" : ""}" href="${it.href}" aria-label="${esc(it.tip)}" data-tip="${esc(it.tip)}" data-why="${esc(it.why || "")}" data-q="${esc(it.q || "")}"><circle cx="${f(x)}" cy="${f(y)}" r="${P.leaf}"/><text class="lt" x="${f(x)}" y="${f(y)}" font-size="${P.fz - (it.label.length > 3 ? 1.5 : 0)}">${esc(it.label)}</text></a>`;
+      else leaves += `<g class="nd ru${it.low ? " low" : ""}" role="button" tabindex="0" aria-label="${esc(it.tip)}" data-tip="${esc(it.tip)}" data-why="${esc(it.why || "")}" data-q="${esc(it.q || "")}" data-set="${it.set}" data-rule="${esc(it.id)}"><rect x="${f(x - P.rw / 2)}" y="${f(y - P.rh / 2)}" width="${P.rw}" height="${P.rh}" rx="4"/><text class="lt" x="${f(x)}" y="${f(y)}" font-size="${P.fz - 1.5}">${esc(it.label)}</text></g>`;
     }
   });
   return `<svg class="web" viewBox="${-half} ${-half} ${2 * half} ${2 * half}" role="group" aria-label="Connections of section ${esc(d.n)}">${net}${threads}${hubs}${leaves}
@@ -622,9 +654,11 @@ function buildWeb(force) {
   panel.dataset.key = key;
   const groups = webGroups(d), low = d.rules.filter(r => r.conf === "low").length;
   const lists = groups.map(g => `<h4>${esc(g.label)}</h4><ul>${g.items.map(it => it.k === "s"
-    ? `<li><a href="${it.href}"><b>${esc(it.id)}</b> ${esc(it.tip.replace(/^Section \S+\.\s*/, ""))}</a><span class="why">${esc(it.why)}</span></li>`
-    : `<li><button class="lnk" data-set="${it.set}" data-rule="${esc(it.id)}"><b>Rule ${esc(it.id)}</b> ${esc(it.t || "")}</button><span class="why">${esc(it.why)}</span></li>`).join("")}</ul>`).join("");
+    ? `<li><a href="${it.href}"><b>${esc(it.id)}</b> ${esc(it.tip.replace(/^Section \S+\.\s*/, ""))}</a><span class="why">${esc(it.why)}</span>${it.q ? `<span class="why q">From the text: “${esc(it.q)}”</span>` : ""}</li>`
+    : `<li><button class="lnk" data-set="${it.set}" data-rule="${esc(it.id)}"><b>Rule ${esc(it.id)}</b> ${esc(it.t || "")}</button><span class="why">${esc(it.why)}</span>${it.q ? `<span class="why q">From the text: “${esc(it.q)}”</span>` : ""}</li>`).join("")}</ul>`).join("");
+  const sum = webSummary(d);
   panel.innerHTML = `<h3>How section ${esc(d.n)} connects</h3>
+    ${sum ? `<p class="sum">${esc(sum)}</p><p class="small">The explanations are written automatically from the wording of the provisions. The quoted text under each one is the evidence.</p>` : ""}
     ${groups.length ? `<p class="small">Click a circle to read that section. Click a square to read that rule.</p>
     <div class="webbox">${webSVG(d, W)}</div><p class="webcap" id="webcap" aria-live="polite">Hover or focus a circle or square to see what it is and why it is linked.</p>
     <p class="legend"><span class="k s"></span>Section <span class="k r"></span>Rule. Blue threads go to sections this one cites, grey to sections that cite it, red to rules, dotted to sections that share a rule with this one.</p>`
@@ -635,7 +669,7 @@ function buildWeb(force) {
     <p class="small">Decisions that interpret section ${esc(d.n)} (Supreme Court, High Courts, NCLT and NCLAT) will be added here. Not built yet.</p>`;
 }
 (() => {
-  const cap = (e, on) => { const n = e.target.closest && e.target.closest(".web .nd"), c = $("#webcap"); if (c && (n || !on)) { if (n && on) c.innerHTML = `<b>${esc(n.dataset.tip)}</b>${esc(n.dataset.why || "")}`; else c.textContent = "Hover or focus a circle or square to see what it is and why it is linked."; } };
+  const cap = (e, on) => { const n = e.target.closest && e.target.closest(".web .nd"), c = $("#webcap"); if (c && (n || !on)) { if (n && on) c.innerHTML = `<b>${esc(n.dataset.tip)}</b>${esc(n.dataset.why || "")}${n.dataset.q ? `<span class="q">From the text: “${esc(n.dataset.q)}”</span>` : ""}`; else c.textContent = "Hover or focus a circle or square to see what it is and why it is linked."; } };
   document.addEventListener("mouseover", e => cap(e, true)); document.addEventListener("mouseout", e => cap(e, false));
   document.addEventListener("focusin", e => cap(e, true)); document.addEventListener("focusout", e => cap(e, false));
   document.addEventListener("click", e => { const n = e.target.closest(".web .nd.ru, .wlist .lnk"); if (n) openRule(n.dataset.set, n.dataset.rule); });
@@ -700,6 +734,7 @@ async function init() {
   try { S.idx = await getJSON("data/index.json"); }
   catch (e) { return showMessage(`<p>Could not load the Act. If you opened this file from your computer, open the website link instead. Otherwise check your connection and reload.</p>`); }
   S.idx.sections.forEach((r, i) => { S.map[r[0]] = i; S.order.push(r[0]); });
+  S.rt = {}; S.idx.rules.forEach(r => { S.rt[r[0] + ":" + r[1]] = r[2]; });
   renderHome(); route();
   (window.requestIdleCallback || setTimeout)(() => { getJSON("data/fulltext.json").then(f => { S.ft = f; S.ftKeys = Object.keys(f); }).catch(() => {}); });
 }
