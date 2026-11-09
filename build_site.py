@@ -160,12 +160,26 @@ def cites_companies_act(tail):
     return not re.match(r"\s*,?\s*19\d\d", tail[m.end(1):m.end(1) + 10])   # the old Companies Act, 1956
 
 
-def para_refs(text):
-    """{section number: set of first-level sub-section labels ('' = the section as a whole)}"""
+def snippet(text, start, width=200):
+    """A short quotation around a citation, cut at word boundaries."""
+    a, b = max(0, start - 70), min(len(text), start + width - 70)
+    if a:
+        k = text.find(" ", a)
+        a = k + 1 if 0 <= k < a + 25 else a
+    if b < len(text):
+        k = text.rfind(" ", a, b)
+        b = k if k > a else b
+    return ("\u2026" if a else "") + text[a:b].strip() + ("\u2026" if b < len(text) else "")
+
+
+def para_refs(text, pos=None):
+    """{section number: set of first-level sub-section labels ('' = the section as a whole)}; pos gets where each first appears"""
     out, spans = {}, []
     for m in SUBOF_RE.finditer(text):
         if cites_companies_act(text[m.end():m.end() + 110]):
             out.setdefault(m.group(2), set()).add(m.group(1))
+            if pos is not None:
+                pos.setdefault(m.group(2), m.start())
         spans.append((m.start(), m.end()))
     for m in SEC_RE.finditer(text):
         if any(a <= m.start() < b for a, b in spans) or not cites_companies_act(text[m.end():m.end() + 110]):
@@ -173,6 +187,8 @@ def para_refs(text):
         for it in re.finditer(r"(\d{1,3}[A-Z]{0,2})((?:\s*\([^)]{1,8}\))*)", m.group(1)):
             subs = re.findall(r"\(([^)]{1,8})\)", it.group(2))
             out.setdefault(it.group(1), set()).add(subs[0] if subs else "")
+            if pos is not None:
+                pos.setdefault(it.group(1), m.start())
     return out
 
 
@@ -238,20 +254,32 @@ def main():
                 best_for_rule[item["rule_id"]] = (n, item["confidence"])
 
     # which sections of the Act does each section refer to (and so which refer back to it)
-    parsed, outs, valid = {}, {}, set(order)
+    parsed, outs, why_out, valid = {}, {}, {}, set(order)
     for s in sections:
         paras, notes = to_paragraphs(strip_trailing_headings(s["text"]))
         parsed[s["section"]] = (paras, notes)
-        found = set()
+        why, cur = {}, ""
         if s["status"] == "in force":
             for p in paras:
-                found |= set(para_refs(p["x"]))
-        found.discard(s["section"])
-        outs[s["section"]] = sorted(found & valid, key=sort_key)
+                if p["k"] == "sub":
+                    cur = p["l"].strip("()")
+                pos = {}
+                for num in para_refs(p["x"], pos):
+                    if num in valid and num != s["section"] and num not in why:
+                        why[num] = {"l": cur, "x": snippet(p["x"], pos[num])}
+        why_out[s["section"]] = why
+        outs[s["section"]] = sorted(why, key=sort_key)
     ins = {}
     for a, lst in outs.items():
         for b in lst:
             ins.setdefault(b, []).append(a)
+
+    # sections that share a rule with this one (the rule cites both), apart from the direct rules themselves
+    rule_secs = {}
+    for n, lst in links.items():
+        for item in lst:
+            if item["confidence"] != "low":
+                rule_secs.setdefault(item["rule_id"], set()).add(n)
 
     for i, s in enumerate(sections):
         n = s["section"]
@@ -263,21 +291,37 @@ def main():
             r = by_id.get(item["rule_id"])
             if not r or r["status"] != "in force":
                 continue
-            ps = []
+            ps, w = [], ""
             if item["confidence"] != "low":
                 for pi, p in enumerate(rule_paras.get(r["id"], [])):
-                    for sb in sorted(para_refs(p["x"]).get(n, ())):
+                    pos = {}
+                    refs = para_refs(p["x"], pos)
+                    for sb in sorted(refs.get(n, ())):
                         ps.append([pi, sb])
+                    if n in refs and not w:
+                        w = snippet(p["x"], pos[n])
             linked.append({"set": set_pos[r["rule_set_id"]], "rule": r["rule"], "t": r["title"],
                            "conf": item["confidence"], "m": item["mentions"],
-                           "sb": item.get("subs", []), "ps": ps})
+                           "sb": item.get("subs", []), "ps": ps, "w": w})
         direct = sum(1 for x in linked if x["conf"] != "low")
+        co = {}
+        for item in links.get(n, []):
+            if item["confidence"] == "low" or item["rule_id"] not in by_id:
+                continue
+            for m_ in rule_secs.get(item["rule_id"], ()):
+                if m_ not in (n, "2") and m_ not in outs[n] and n not in outs.get(m_, ()):
+                    co.setdefault(m_, []).append(item["rule_id"])
+        co_list = []
+        for m_, rids in sorted(co.items(), key=lambda kv: (-len(kv[1]), sort_key(kv[0])))[:40]:
+            co_list.append({"m": m_, "c": len(rids),
+                            "r": [[set_pos[by_id[x]["rule_set_id"]], by_id[x]["rule"]] for x in rids[:3]]})
         prev_n = order[i - 1] if i else None
         next_n = order[i + 1] if i + 1 < len(order) else None
         dump(OUT / "data" / "s" / f"{n}.json", {
             "n": n, "t": s["title"], "c": s["chapter"], "ct": s["chapter_title"], "s": s["status"],
             "paras": paras, "notes": notes, "rules": linked,
             "out": outs[n], "in": sorted(ins.get(n, []), key=sort_key),
+            "wo": why_out[n], "wi": {b: why_out[b][n] for b in ins.get(n, [])}, "co": co_list,
             "prev": [prev_n, title_of[prev_n]] if prev_n else None,
             "next": [next_n, title_of[next_n]] if next_n else None,
         })
