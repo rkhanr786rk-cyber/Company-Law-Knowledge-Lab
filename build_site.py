@@ -138,6 +138,40 @@ def extract_definitions(paras):
     return out
 
 
+
+# ---------- which paragraph of a rule refers to which sub-section of a section ----------
+SEC_RE = re.compile(
+    r"\b(?i:sections?)\s+(\d{1,3}[A-Z]{0,2}(?:\s*\([^)]{1,8}\))*"
+    r"(?:\s*(?:,|and|or|to|&)\s*\d{1,3}[A-Z]{0,2}(?:\s*\([^)]{1,8}\))*)*)")
+SUBOF_RE = re.compile(
+    r"\b(?i:sub-sections?)\s*\(\s*(\d{1,3}[A-Z]?)\s*\)(?:\s*\([a-zA-Z0-9]{1,4}\))*"
+    r"(?:\s*(?:,|and|or|to)\s*\(\s*\d{1,3}[A-Z]?\s*\))*"
+    r"(?:[^()]{0,45}?)?\s*(?i:of|to|in)\s+(?i:the\s+)?(?i:section)\s+(\d{1,3}[A-Z]{0,2})")
+OF_RE = re.compile(
+    r"\bof\s+(?:the\s+)?((?:Companies\s+)?Act\b|[A-Z][A-Za-z’'()\- ,]{2,80}?\b(?:Act|Code|Regulations|Rules)\b)")
+
+
+def cites_companies_act(tail):
+    m = OF_RE.search(tail[:110])
+    return not m or bool(re.match(r"(?:Companies\s+)?Act\b", m.group(1)))
+
+
+def para_refs(text):
+    """{section number: set of first-level sub-section labels ('' = the section as a whole)}"""
+    out, spans = {}, []
+    for m in SUBOF_RE.finditer(text):
+        if cites_companies_act(text[m.end():m.end() + 110]):
+            out.setdefault(m.group(2), set()).add(m.group(1))
+        spans.append((m.start(), m.end()))
+    for m in SEC_RE.finditer(text):
+        if any(a <= m.start() < b for a, b in spans) or not cites_companies_act(text[m.end():m.end() + 110]):
+            continue
+        for it in re.finditer(r"(\d{1,3}[A-Z]{0,2})((?:\s*\([^)]{1,8}\))*)", m.group(1)):
+            subs = re.findall(r"\(([^)]{1,8})\)", it.group(2))
+            out.setdefault(it.group(1), set()).add(subs[0] if subs else "")
+    return out
+
+
 STOP = set("the and for are was were that this with from have has had not but any all may shall such under which their its "
            "his her they them than then thereof therein thereto into onto upon also been being per who whom whose where when "
            "what other more most some each every either neither within without".split())
@@ -166,7 +200,7 @@ def main():
         path.write_text(json.dumps(obj, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
     # ----- rule sets: one file per set with the reflowed text of every rule -----
-    set_index, set_pos = [], {}
+    set_index, set_pos, rule_paras = [], {}, {}
     by_id = {}
     for r in rules_doc["rules"]:
         by_id[r["id"]] = r
@@ -176,8 +210,14 @@ def main():
         for r in rules_doc["rules"]:
             if r["rule_set_id"] != rs["id"]:
                 continue
-            paras, notes = to_paragraphs(r["text"], rule=True) if r["status"] == "in force" else ([], [])
-            body[r["rule"]] = {"t": r["title"], "st": r["status"], "paras": paras, "notes": notes}
+            title, text = r["title"], r["text"]
+            cut = re.search(r"\.\s+(?=\(1\)\s)", title)          # a heading that swallowed the first paragraph
+            if cut and len(title) > 90:
+                title, text = title[:cut.start()], title[cut.end():] + "\n" + text
+            r["title"] = title
+            paras, notes = to_paragraphs(text, rule=True) if r["status"] == "in force" else ([], [])
+            rule_paras[r["id"]] = paras
+            body[r["rule"]] = {"t": title, "st": r["status"], "paras": paras, "notes": notes}
         dump(OUT / "data" / "r" / f"{k}.json", {"name": rs["name"], "rules": body})
         set_index.append({"k": k, "name": rs["name"], "n": rs["rule_count"]})
 
@@ -203,8 +243,14 @@ def main():
             r = by_id.get(item["rule_id"])
             if not r or r["status"] != "in force":
                 continue
+            ps = []
+            if item["confidence"] != "low":
+                for pi, p in enumerate(rule_paras.get(r["id"], [])):
+                    for sb in sorted(para_refs(p["x"]).get(n, ())):
+                        ps.append([pi, sb])
             linked.append({"set": set_pos[r["rule_set_id"]], "rule": r["rule"], "t": r["title"],
-                           "conf": item["confidence"], "m": item["mentions"]})
+                           "conf": item["confidence"], "m": item["mentions"],
+                           "sb": item.get("subs", []), "ps": ps})
         direct = sum(1 for x in linked if x["conf"] != "low")
         prev_n = order[i - 1] if i else None
         next_n = order[i + 1] if i + 1 < len(order) else None
