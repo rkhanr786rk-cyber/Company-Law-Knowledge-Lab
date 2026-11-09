@@ -196,6 +196,39 @@ button{font:inherit;color:inherit}
 .reader:not([data-tab=deep]) .panel[data-p=deep]{display:none}
 .reader[data-tab=deep] .panel[data-p=rules]{display:none}
 @media (prefers-reduced-motion:reduce){.flash{animation:none;background:var(--mark)}#tip{transition:none}}
+
+/* the web */
+.reader[data-tab=deep]{grid-template-columns:11rem minmax(0,52rem)}
+.reader[data-tab=deep] .text{display:none}
+.reader[data-tab=deep] .side{grid-column:2;position:static;max-height:none;border-left:0;padding-left:0}
+@media (max-width:1180px){.reader[data-tab=deep]{grid-template-columns:minmax(0,52rem);grid-template-areas:"margin" "side"}}
+.webbox{max-width:46rem;margin:.4rem auto 0}
+.web{display:block;width:100%;height:auto}
+.web .ring,.web .spoke{fill:none;stroke:var(--rule);stroke-width:1}
+.web .th{fill:none;stroke-width:1.6;opacity:.8}.web .th.sub{stroke-width:1;opacity:.65}
+.web .th.out{stroke:var(--link)}.web .th.in{stroke:var(--muted)}.web .th.rule{stroke:var(--tape)}.web .th.low{stroke-dasharray:3 4}
+.web text{font-family:var(--sans)}
+.web .hl{fill:var(--ink);text-anchor:middle;paint-order:stroke;stroke:var(--paper);stroke-width:4px;stroke-linejoin:round;font-weight:500}
+.web .hub{fill:var(--paper);stroke-width:2}.web .hub.out{stroke:var(--link)}.web .hub.in{stroke:var(--muted)}.web .hub.rule{stroke:var(--tape)}
+.web .lt{text-anchor:middle;dominant-baseline:central;font-weight:600;pointer-events:none}
+.web .nd{cursor:pointer;outline:0}
+.web .sec circle{fill:var(--page);stroke:var(--link);stroke-width:1.6}.web .sec .lt{fill:var(--link)}
+.web .ru rect{fill:var(--page);stroke:var(--tape);stroke-width:1.6}.web .ru .lt{fill:var(--tape)}.web .ru.low rect{stroke-dasharray:3 2}
+.web .nd:hover circle,.web .nd:hover rect,.web .nd:focus-visible circle,.web .nd:focus-visible rect{fill:var(--mark);stroke-width:3}
+.web .mr circle{fill:none;stroke:var(--muted);stroke-dasharray:3 3}.web .mr .lt{fill:var(--muted)}
+.web .ctr{fill:var(--tape)}.web .ct{fill:var(--page);text-anchor:middle;dominant-baseline:central;font-family:var(--serif);font-weight:600}
+.webcap{min-height:3em;margin:.4rem auto 0;max-width:46rem;font:400 .95rem/1.5 var(--sans);text-align:center}
+.legend{max-width:46rem;margin:.2rem auto 0;font:400 .88rem/1.5 var(--sans);color:var(--muted);text-align:center}
+.legend .k{display:inline-block;width:.8rem;height:.8rem;margin:0 .3rem 0 .4rem;vertical-align:-.1em;border:1.5px solid}
+.legend .k.s{border-radius:50%;border-color:var(--link)}.legend .k.r{border-radius:2px;border-color:var(--tape)}
+.lowtoggle{display:block;margin:1.1rem auto 0;max-width:46rem;font:400 .92rem/1.4 var(--sans)}
+.wlist{max-width:46rem;margin:1.2rem auto 0;border-top:1px solid var(--rule);padding-top:.7rem}
+.wlist summary{cursor:pointer;font-weight:500}
+.wlist h4{margin:1rem 0 .2rem;font:600 .95rem var(--serif)}
+.wlist ul{margin:0;padding:0;list-style:none;columns:2 15rem;column-gap:1.5rem}
+.wlist li{break-inside:avoid;padding:.12rem 0;font:400 .9rem/1.35 var(--sans)}
+.wlist .lnk{background:none;border:0;padding:0;text-align:left;cursor:pointer;color:var(--link);text-decoration:underline;text-underline-offset:.15em}
+.side h3.cases{margin-top:2.4rem;padding-top:1rem;border-top:1px solid var(--rule)}
 @media print{.bar,.side,.mtabs,.tapewrap,.pn,.foot{display:none!important}.reader{display:block}body{background:#fff}}
 </style>
 </head>
@@ -470,10 +503,7 @@ async function showSection(n, q) {
     <aside class="side" aria-label="Rules and cases">
       <div class="tabs" role="tablist"><button role="tab" data-tab="rules">Rules<span class="count">${direct}</span></button><button role="tab" data-tab="deep">Deep Dive</button></div>
       <div class="panel" data-p="rules">${rulesPanel(d, "")}</div>
-      <div class="panel" data-p="deep"><h3>Cases and judgments</h3>
-        <p class="small">Decisions that interpret section ${esc(d.n)} will be collected here.</p>
-        <ul class="soon"><li>Supreme Court judgments</li><li>High Court decisions</li><li>NCLT and NCLAT orders</li></ul>
-        <p class="small">Not built yet. This tab keeps its place in the layout until the case data is added.</p></div>
+      <div class="panel" data-p="deep"></div>
     </aside></article>`);
   document.title = `${d.n}. ${d.t} | Companies Act, 2013`;
   const rd = $(".reader");
@@ -490,6 +520,7 @@ function setTab(t) {
   S.tab = t; const rd = $(".reader"); if (!rd) return;
   rd.dataset.tab = t;
   $$("[role=tab]", rd).forEach(b => b.setAttribute("aria-selected", String(b.dataset.tab === t || (t === "section" && b.dataset.tab === "rules" && b.closest(".tabs")))));
+  if (t === "deep") buildWeb();
 }
 document.addEventListener("click", e => { const b = e.target.closest("[role=tab][data-tab]"); if (b) { setTab(b.dataset.tab); if (b.closest(".mtabs")) window.scrollTo(0, 0); } });
 /* show only the paragraphs of a rule that refer to this section (and the chosen sub-section) */
@@ -515,6 +546,94 @@ document.addEventListener("toggle", async e => {
     body.dataset.done = "1"; ruleView(d);
   } catch (err) { body.innerHTML = `<p class="small">Could not load this rule. Check your connection and open it again.</p>`; }
 }, true);
+
+
+/* ---------- the web: how a section connects to other sections and to rules ----------
+   Groups are the first ring (sections it cites, sections that cite it, one per set of Rules);
+   their members are the second ring. A later group for another law (SEBI LODR) is one more entry in webGroups(). */
+const shortSet = n => { const t = n.replace(/^Companies\s+/i, "").replace(/[()]/g, "").replace(/,?\s*(?:19|20)\d\d$/, "").replace(/\s+Rules?$/i, "").trim(); return t.length > 22 ? t.slice(0, 21).trim() + "…" : t; };
+const plural = (n, w) => `${n} ${w}${n === 1 ? "" : "s"}`;
+function webGroups(d) {
+  const sec = n => ({ k: "s", id: n, label: n, tip: `Section ${n}. ${S.idx.sections[S.map[n]][1]}`, href: `#/s/${n}` });
+  const g = [];
+  if (d.out && d.out.length) g.push({ kind: "out", label: `Cites ${plural(d.out.length, "section")}`, items: d.out.map(sec) });
+  if (d.in && d.in.length) g.push({ kind: "in", label: `Cited by ${plural(d.in.length, "section")}`, items: d.in.map(sec) });
+  const by = new Map();
+  d.rules.filter(r => S.webLow || r.conf !== "low").forEach(r => { if (!by.has(r.set)) by.set(r.set, []); by.get(r.set).push(r); });
+  [...by].forEach(([k, arr]) => g.push({ kind: "rule", label: `${shortSet(S.idx.sets[k].name)} (${arr.length})`, items: arr.map(r => ({ k: "r", id: r.rule, label: "R" + r.rule, set: k, low: r.conf === "low", t: r.t,
+    tip: `Rule ${r.rule} of ${S.idx.sets[k].name}${r.t ? ". " + r.t : ""}` })) }));
+  return g;
+}
+function webSVG(d, W) {
+  const narrow = W < 560;
+  const P = narrow ? { r0: 28, r1: 86, r2: 160, leaf: 12.5, cap: 9, fz: 10.5, rw: 30, rh: 21 } : { r0: 36, r1: 140, r2: 266, leaf: 15, cap: 16, fz: 12, rw: 38, rh: 25 };
+  const groups = webGroups(d), half = P.r2 + P.leaf * 3.3 + 6, f = x => x.toFixed(1);
+  const R = [P.r1 * .5, P.r1, (P.r1 + P.r2) / 2, P.r2 + P.leaf * 1.3, half - 4];
+  let net = "", threads = "", hubs = "", leaves = "", tn = 0;
+  for (let i = 0; i < 12; i++) { const a = i * Math.PI / 6; net += `<line class="spoke" x1="0" y1="0" x2="${f(R[4] * Math.cos(a))}" y2="${f(R[4] * Math.sin(a))}"/>`; }
+  R.forEach(r => { net += `<polygon class="ring" points="${Array.from({ length: 12 }, (_, i) => f(r * Math.cos(i * Math.PI / 6)) + "," + f(r * Math.sin(i * Math.PI / 6))).join(" ")}"/>`; });
+  const thread = (x0, y0, x1, y1, cls) => { const s = (tn++ % 2 ? 1 : -1) * .05, mx = (x0 + x1) / 2, my = (y0 + y1) / 2, dx = x1 - x0, dy = y1 - y0;
+    return `<path class="th ${cls}" d="M${f(x0)} ${f(y0)}Q${f(mx - dy * s)} ${f(my + dx * s)} ${f(x1)} ${f(y1)}"/>`; };
+  const weight = g => Math.min(g.items.length, P.cap) + (g.items.length > P.cap ? 1 : 0) + 1.5;
+  const total = groups.reduce((a, g) => a + weight(g), 0);
+  let a0 = -Math.PI / 2;
+  groups.forEach(g => {
+    const shown = g.items.slice(0, P.cap), more = g.items.length - shown.length, n = shown.length + (more ? 1 : 0);
+    const sector = 2 * Math.PI * weight(g) / total, mid = a0 + sector / 2; a0 += sector;
+    const hx = P.r1 * Math.cos(mid), hy = P.r1 * Math.sin(mid);
+    threads += thread(0, 0, hx, hy, g.kind);
+    const lim = narrow ? 24 : 32, lab = g.label.length > lim ? g.label.slice(0, lim - 1) + "…" : g.label;
+    hubs += `<circle class="hub ${g.kind}" cx="${f(hx)}" cy="${f(hy)}" r="5"/><text class="hl" x="${f(hx)}" y="${f(hy + (hy < 0 ? -11 : 19))}" font-size="${P.fz}">${esc(lab)}</text>`;
+    const span = n > 1 ? sector * .86 : 0, spacing = n > 1 ? P.r2 * span / (n - 1) : 99, stagger = spacing < P.leaf * 2 + (narrow ? 8 : 14);
+    for (let i = 0; i < n; i++) {
+      const ang = n > 1 ? mid - span / 2 + span * i / (n - 1) : mid, rr = P.r2 + (stagger && i % 2 ? P.leaf * 2.2 : 0);
+      const x = rr * Math.cos(ang), y = rr * Math.sin(ang), it = shown[i];
+      threads += thread(hx, hy, x, y, `sub ${g.kind}${it && it.low ? " low" : ""}`);
+      if (!it) leaves += `<g class="mr"><title>${more} more, listed below the web</title><circle cx="${f(x)}" cy="${f(y)}" r="${P.leaf}"/><text class="lt" x="${f(x)}" y="${f(y)}" font-size="${P.fz - 1}">+${more}</text></g>`;
+      else if (it.k === "s") leaves += `<a class="nd sec" href="${it.href}" aria-label="${esc(it.tip)}" data-tip="${esc(it.tip)}"><circle cx="${f(x)}" cy="${f(y)}" r="${P.leaf}"/><text class="lt" x="${f(x)}" y="${f(y)}" font-size="${P.fz - (it.label.length > 3 ? 1.5 : 0)}">${esc(it.label)}</text></a>`;
+      else leaves += `<g class="nd ru${it.low ? " low" : ""}" role="button" tabindex="0" aria-label="${esc(it.tip)}" data-tip="${esc(it.tip)}" data-set="${it.set}" data-rule="${esc(it.id)}"><rect x="${f(x - P.rw / 2)}" y="${f(y - P.rh / 2)}" width="${P.rw}" height="${P.rh}" rx="4"/><text class="lt" x="${f(x)}" y="${f(y)}" font-size="${P.fz - 1.5}">${esc(it.label)}</text></g>`;
+    }
+  });
+  return `<svg class="web" viewBox="${-half} ${-half} ${2 * half} ${2 * half}" role="group" aria-label="Connections of section ${esc(d.n)}">${net}${threads}${hubs}${leaves}
+    <circle class="ctr" r="${P.r0}"/><text class="ct" font-size="${narrow ? 19 : 23}">${esc(d.n)}</text></svg>`;
+}
+function openRule(k, r) {
+  const rd = $(".reader"); if (!rd) return;
+  if (S.sub) setSub("");
+  setTab("rules");
+  const det = $$("details[data-set]", rd).find(x => x.dataset.set === String(k) && x.dataset.rule === String(r));
+  if (!det) return;
+  const lg = det.closest(".lowgroup"); if (lg) lg.open = true;
+  det.open = true; setTimeout(() => det.scrollIntoView({ block: "center" }), 60);
+}
+function buildWeb(force) {
+  const d = S.d, panel = $('.panel[data-p="deep"]'); if (!d || !panel) return;
+  const W = panel.clientWidth || 600, key = `${d.n}|${W < 560 ? "n" : "w"}|${S.webLow ? 1 : 0}`;
+  if (!force && panel.dataset.key === key) return;
+  panel.dataset.key = key;
+  const groups = webGroups(d), low = d.rules.filter(r => r.conf === "low").length;
+  const lists = groups.map(g => `<h4>${esc(g.label)}</h4><ul>${g.items.map(it => it.k === "s"
+    ? `<li><a href="${it.href}"><b>${esc(it.id)}</b> ${esc(it.tip.replace(/^Section \S+\.\s*/, ""))}</a></li>`
+    : `<li><button class="lnk" data-set="${it.set}" data-rule="${esc(it.id)}"><b>Rule ${esc(it.id)}</b> ${esc(it.t || "")}</button></li>`).join("")}</ul>`).join("");
+  panel.innerHTML = `<h3>How section ${esc(d.n)} connects</h3>
+    ${groups.length ? `<p class="small">Click a circle to read that section. Click a square to read that rule.</p>
+    <div class="webbox">${webSVG(d, W)}</div><p class="webcap" id="webcap" aria-live="polite">Hover or focus a circle or square to see what it is.</p>
+    <p class="legend"><span class="k s"></span>Section <span class="k r"></span>Rule. Blue threads go to sections this one cites, grey to sections that cite it, red to rules.</p>`
+      : `<p class="empty">No other section or rule refers to section ${esc(d.n)}, and it refers to none.</p>`}
+    ${low ? `<label class="lowtoggle"><input type="checkbox" id="weblow"${S.webLow ? " checked" : ""}> Also show the ${plural(low, "rule")} made under this section without naming it</label>` : ""}
+    ${groups.length ? `<details class="wlist"><summary>All connections as a list</summary>${lists}</details>` : ""}
+    <h3 class="cases">Cases and judgments</h3>
+    <p class="small">Decisions that interpret section ${esc(d.n)} (Supreme Court, High Courts, NCLT and NCLAT) will be added here. Not built yet.</p>`;
+}
+(() => {
+  const cap = (e, on) => { const n = e.target.closest && e.target.closest(".web .nd"), c = $("#webcap"); if (c && (n || !on)) c.textContent = n && on ? n.dataset.tip : "Hover or focus a circle or square to see what it is."; };
+  document.addEventListener("mouseover", e => cap(e, true)); document.addEventListener("mouseout", e => cap(e, false));
+  document.addEventListener("focusin", e => cap(e, true)); document.addEventListener("focusout", e => cap(e, false));
+  document.addEventListener("click", e => { const n = e.target.closest(".web .nd.ru, .wlist .lnk"); if (n) openRule(n.dataset.set, n.dataset.rule); });
+  document.addEventListener("keydown", e => { if ((e.key === "Enter" || e.key === " ") && e.target.matches && e.target.matches(".web .nd.ru")) { e.preventDefault(); openRule(e.target.dataset.set, e.target.dataset.rule); } });
+  document.addEventListener("change", e => { if (e.target.id === "weblow") { S.webLow = e.target.checked; buildWeb(true); const c = $("#weblow"); if (c) c.focus(); } });
+  let t = 0; window.addEventListener("resize", () => { clearTimeout(t); t = setTimeout(() => { if (S.tab === "deep") buildWeb(); }, 150); });
+})();
 
 /* ---------- definitions tooltip ---------- */
 const tip = $("#tip");
