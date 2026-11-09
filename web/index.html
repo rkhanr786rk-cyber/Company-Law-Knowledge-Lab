@@ -108,6 +108,16 @@ button{font:inherit;color:inherit}
 .body a{text-decoration-color:color-mix(in srgb,var(--link) 45%,transparent);text-underline-offset:.16em}
 .def{border-bottom:1px dotted var(--muted);cursor:help}
 .flash{animation:flash 2.6s ease-out}
+.p.sel{background:color-mix(in srgb,var(--mark) 55%,transparent);box-shadow:-.6em 0 0 color-mix(in srgb,var(--mark) 55%,transparent),.6em 0 0 color-mix(in srgb,var(--mark) 55%,transparent)}
+.p.sub .lbl{cursor:pointer}
+.rb{float:right;margin:.3em 0 0 .8em;text-indent:0;padding:0 .5rem;height:1.5rem;border:1px solid color-mix(in srgb,var(--tape) 55%,transparent);border-radius:99px;background:var(--page);color:var(--tape);font:600 .78rem/1 var(--sans);cursor:pointer}
+.rb:hover,.rb[aria-pressed=true]{background:var(--tape);color:var(--page)}
+.chips{display:flex;flex-wrap:wrap;gap:.4rem;margin:.3rem 0 .6rem}
+.chips button{border:1px solid var(--rule);border-radius:99px;background:var(--page);padding:.18rem .7rem;font:500 .85rem var(--sans);cursor:pointer;color:var(--ink)}
+.chips button:hover{border-color:var(--muted)}
+.chips button[aria-pressed=true]{background:var(--ink);color:var(--page);border-color:var(--ink)}
+.chips span{color:var(--muted);margin-left:.3rem;font-weight:400}
+.chips button[aria-pressed=true] span{color:inherit;opacity:.75}
 @keyframes flash{from{background:var(--mark)}to{background:transparent}}
 .omitted{font:400 1rem/1.6 var(--sans);color:var(--muted)}
 .notes{margin-top:2rem;border-top:1px solid var(--rule);padding-top:.9rem;font:400 .9rem/1.55 var(--sans);color:var(--muted)}
@@ -141,6 +151,9 @@ button{font:inherit;color:inherit}
 .rbody{padding:.1rem 0 1.1rem 1.45rem;font:400 1rem/1.6 var(--serif)}
 .rbody .p{margin-bottom:.6em}
 .rbody .small{font-family:var(--sans)}
+.rbody .hit{border-left:3px solid var(--tape);padding-left:.7rem}
+.more{display:block;margin:0 0 .7rem;padding:.2rem .7rem;border:1px solid var(--rule);border-radius:99px;background:var(--page);font:500 .82rem var(--sans);color:var(--ink);cursor:pointer}
+.more:hover{border-color:var(--muted)}
 .lowgroup{margin-top:1.6rem;padding-top:.7rem}
 .soon{margin:.8rem 0 1rem;padding-left:1.1rem;color:var(--muted)}
 .empty{margin:.4rem 0;font:400 1rem/1.55 var(--serif);color:var(--muted)}
@@ -350,7 +363,13 @@ function para(p, ctx) {
   let h = linkRefs(esc(p.x));
   if (ctx.seen) h = markDefs(h, ctx.seen);
   const lab = p.l ? `<span class="lbl">${esc(p.l)}</span>` : "";
-  return `<p class="p ${p.k}"${p.l ? ` data-l="${esc(p.l)}"` : ""}>${lab}${h}</p>`;
+  let badge = "";
+  if (ctx.counts) {
+    if (p.k === "sub") ctx.cur = p.l.replace(/[()]/g, ""); else if (p.k === "p") ctx.cur = "";
+    const c = p.k === "sub" ? ctx.counts[ctx.cur] : 0;
+    if (c) badge = `<button class="rb" data-sub="${esc(ctx.cur)}" aria-pressed="false" title="Rules that cite sub-section ${esc(p.l)}">${c} ${c === 1 ? "rule" : "rules"}</button>`;
+  }
+  return `<p class="p ${p.k}"${p.l ? ` data-l="${esc(p.l)}"` : ""}${ctx.counts ? ` data-sub="${esc(ctx.cur || "")}"` : ""}>${badge}${lab}${h}</p>`;
 }
 
 /* ---------- views ---------- */
@@ -383,25 +402,58 @@ function showMessage(html) {
 }
 
 const KEEP = { sub: 1 };
-function rulesPanel(d) {
-  const direct = d.rules.filter(r => r.conf !== "low"), low = d.rules.filter(r => r.conf === "low");
-  const item = r => `<li><details data-set="${r.set}" data-rule="${esc(r.rule)}"><summary><span class="rn">Rule ${esc(r.rule)}</span><span class="rt">${esc(r.t || "No heading")}</span>${r.conf === "medium" ? `<span class="flag" title="This rule mentions the section but does not say which Act. Read it to confirm.">verify</span>` : ""}</summary><div class="rbody"></div></details></li>`;
+function subCounts(d) {
+  const c = {};
+  d.rules.filter(r => r.conf !== "low").forEach(r => (r.sb || []).forEach(x => { c[x] = (c[x] || 0) + 1; }));
+  return c;
+}
+function rulesPanel(d, sub) {
+  const all = d.rules, direct = all.filter(r => r.conf !== "low"), low = all.filter(r => r.conf === "low");
+  const item = r => `<li><details data-set="${r.set}" data-rule="${esc(r.rule)}" data-ps='${JSON.stringify(r.ps || [])}'><summary><span class="rn">Rule ${esc(r.rule)}</span><span class="rt">${esc(r.t || "No heading")}</span>${r.conf === "medium" ? `<span class="flag" title="This rule mentions the section but does not say which Act. Read it to confirm.">verify</span>` : ""}</summary><div class="rbody"></div></details></li>`;
   const sets = list => { const m = new Map(); list.forEach(r => { if (!m.has(r.set)) m.set(r.set, []); m.get(r.set).push(r); });
     return [...m].map(([k, arr]) => `<section class="set"><h3>${esc(S.idx.sets[k].name)}</h3><ul class="rl">${arr.map(item).join("")}</ul></section>`).join(""); };
+  const counts = subCounts(d), keys = Object.keys(counts).sort((x, y) => parseInt(x) - parseInt(y) || x.localeCompare(y));
+  const whole = direct.filter(r => !(r.sb || []).length);
   let h = "";
-  if (direct.length) h += `<p class="small">${direct.length} ${direct.length === 1 ? "rule refers" : "rules refer"} to section ${esc(d.n)}.</p>` + sets(direct);
+  if (keys.length) h += `<div class="chips" role="group" aria-label="Narrow the rules to a sub-section"><button data-sub="" aria-pressed="${!sub}">All (${direct.length})</button>${keys.map(k => `<button data-sub="${esc(k)}" aria-pressed="${sub === k}">(${esc(k)})<span>${counts[k]}</span></button>`).join("")}</div>`;
+  if (sub) {
+    const spec = direct.filter(r => (r.sb || []).includes(sub));
+    h += spec.length ? `<p class="small">${spec.length} ${spec.length === 1 ? "rule cites" : "rules cite"} sub-section (${esc(sub)}) of section ${esc(d.n)}.</p>${sets(spec)}`
+                     : `<p class="small">No rule names sub-section (${esc(sub)}). The rules below cite the section as a whole.</p>`;
+    if (whole.length) h += `<details class="lowgroup"${spec.length ? "" : " open"}><summary>Rules that cite the whole section (${whole.length})</summary>${sets(whole)}</details>`;
+  } else if (direct.length) {
+    h += `<p class="small">${direct.length} ${direct.length === 1 ? "rule refers" : "rules refer"} to section ${esc(d.n)}.${keys.length ? " Pick a sub-section above to narrow them." : ""}</p>` + sets(direct);
+  }
   if (low.length) h += `<details class="lowgroup"${direct.length ? "" : " open"}><summary>Other rules made under this section (${low.length})</summary><p class="small">These rules do not name the section. Their rule set says it was made under section ${esc(d.n)}.</p>${sets(low)}</details>`;
   if (!h) h = `<p class="empty">No rules are linked to section ${esc(d.n)}. Many sections have none.</p>`;
   return h;
 }
+function setSub(sub, scroll) {
+  const d = S.d, rd = $(".reader"); if (!d || !rd) return;
+  S.sub = sub || "";
+  $('.panel[data-p="rules"]', rd).innerHTML = rulesPanel(d, S.sub);
+  $$(".p[data-sub]", rd).forEach(p => p.classList.toggle("sel", !!S.sub && p.dataset.sub === S.sub));
+  $$(".rb", rd).forEach(b => b.setAttribute("aria-pressed", String(b.dataset.sub === S.sub)));
+  history.replaceState(null, "", `#/s/${d.n}${S.sub ? "?sub=" + encodeURIComponent(S.sub) : ""}`);
+  if (scroll) { const el = $(`.p.sub[data-sub="${CSS.escape(S.sub)}"]`, rd); if (el) { el.scrollIntoView({ block: "center" }); el.classList.add("flash"); } }
+}
+document.addEventListener("click", e => {
+  const c = e.target.closest(".chips button, .rb"), l = e.target.closest(".p.sub .lbl");
+  if (!c && !l) return;
+  let sub = c ? c.dataset.sub : l.closest(".p").dataset.sub;
+  if ((c && c.classList.contains("rb") || l) && sub === S.sub) sub = "";
+  setSub(sub, !!(c && c.closest(".chips")));
+  if (matchMedia("(max-width:820px)").matches && !(c && c.closest(".chips"))) { setTab("rules"); window.scrollTo(0, 0); }
+  else if (!c || !c.closest(".chips")) setTab("rules");
+});
 async function showSection(n, q) {
   const my = ++S.token;
   let d;
   try { [d] = await Promise.all([getJSON(`data/s/${n}.json`), S.defs ? 0 : getJSON("data/defs.json").then(x => { S.defs = x; const terms = Object.keys(x).filter(t => t.length >= 4).sort((a, b) => b.length - a.length); S.defRe = terms.length ? new RegExp("\\b(" + terms.map(escRe).join("|") + ")\\b", "gi") : null; }).catch(() => { S.defs = {}; })]); }
   catch (e) { return showMessage(`<p>Could not load section ${esc(n)}. If you opened this file from your computer, open the website link instead. Otherwise check your connection and reload.</p>`); }
   if (my !== S.token) return;
-  S.cur = n; setChrome(false);
-  const ctx = { seen: n === "2" ? null : new Set() };
+  S.cur = n; S.d = d; S.sub = ""; setChrome(false);
+  const ctx = { seen: n === "2" ? null : new Set(), counts: subCounts(d), cur: "" };
   const direct = d.rules.filter(r => r.conf !== "low").length;
   const body = d.s === "omitted"
     ? `<p class="omitted">${esc(d.paras.map(p => p.x).join(" ") || "This section has been omitted.")}</p>`
@@ -417,7 +469,7 @@ async function showSection(n, q) {
       <div class="body">${body}</div>${notes}${nav}</div>
     <aside class="side" aria-label="Rules and cases">
       <div class="tabs" role="tablist"><button role="tab" data-tab="rules">Rules<span class="count">${direct}</span></button><button role="tab" data-tab="deep">Deep Dive</button></div>
-      <div class="panel" data-p="rules">${rulesPanel(d)}</div>
+      <div class="panel" data-p="rules">${rulesPanel(d, "")}</div>
       <div class="panel" data-p="deep"><h3>Cases and judgments</h3>
         <p class="small">Decisions that interpret section ${esc(d.n)} will be collected here.</p>
         <ul class="soon"><li>Supreme Court judgments</li><li>High Court decisions</li><li>NCLT and NCLAT orders</li></ul>
@@ -429,7 +481,7 @@ async function showSection(n, q) {
   mountSearch($("#q2"), $("#res2"));
   window.scrollTo(0, 0); $("h1", rd).focus({ preventScroll: true });
   const sub = q.get("sub");
-  if (sub) { const el = $$(".p[data-l]", rd).find(p => p.dataset.l === `(${sub})`); if (el) { el.scrollIntoView({ block: "center" }); el.classList.add("flash"); } }
+  if (sub) { const sel = $(`.p.sub[data-sub="${CSS.escape(sub)}"]`, rd); if (sel) setSub(sub, true); else { const el = $$(".p[data-l]", rd).find(p => p.dataset.l === `(${sub})`); if (el) { el.scrollIntoView({ block: "center" }); el.classList.add("flash"); } } }
   const rule = q.get("rule");
   if (rule) { const [k, r] = rule.split(":"); const det = $$("details[data-set]", rd).find(x => x.dataset.set === k && x.dataset.rule === decodeURIComponent(r || "")); if (det) { const lg = det.closest(".lowgroup"); if (lg) lg.open = true; det.open = true; setTab("rules"); setTimeout(() => det.scrollIntoView({ block: "center" }), 60); } }
   progress();
@@ -440,6 +492,17 @@ function setTab(t) {
   $$("[role=tab]", rd).forEach(b => b.setAttribute("aria-selected", String(b.dataset.tab === t || (t === "section" && b.dataset.tab === "rules" && b.closest(".tabs")))));
 }
 document.addEventListener("click", e => { const b = e.target.closest("[role=tab][data-tab]"); if (b) { setTab(b.dataset.tab); if (b.closest(".mtabs")) window.scrollTo(0, 0); } });
+/* show only the paragraphs of a rule that refer to this section (and the chosen sub-section) */
+function ruleView(det) {
+  const body = $(".rbody", det), btn = $(".more", body); if (!btn) return;
+  let ps = []; try { ps = JSON.parse(det.dataset.ps || "[]"); } catch (e) {}
+  const want = new Set(ps.filter(x => !S.sub || x[1] === S.sub).map(x => x[0]));
+  const paras = $$(".p[data-i]", body), full = det.dataset.full === "1", other = paras.length - want.size;
+  paras.forEach(el => { const hit = want.has(+el.dataset.i); el.classList.toggle("hit", want.size > 0 && hit); el.hidden = want.size > 0 && !full && !hit; });
+  btn.hidden = !(want.size > 0 && other > 0);
+  btn.textContent = full ? "Show only the part that cites this section" : `Show the whole rule (${other} more ${other === 1 ? "paragraph" : "paragraphs"})`;
+}
+document.addEventListener("click", e => { const b = e.target.closest(".more"); if (!b) return; const det = b.closest("details[data-set]"); det.dataset.full = det.dataset.full === "1" ? "" : "1"; ruleView(det); });
 document.addEventListener("toggle", async e => {
   const d = e.target; if (!d.open || !d.dataset || d.dataset.set === undefined) return;
   const body = $(".rbody", d); if (body.dataset.done) return;
@@ -447,9 +510,9 @@ document.addEventListener("toggle", async e => {
   try {
     const set = await getJSON(`data/r/${d.dataset.set}.json`); const r = set.rules[d.dataset.rule];
     const ctx = {};
-    body.innerHTML = (r.paras.map(p => para(p, ctx)).join("") || `<p class="small">No text was found for this rule.</p>`)
+    body.innerHTML = `<button class="more" hidden></button>` + (r.paras.map((p, i) => para(p, ctx).replace("<p ", `<p data-i="${i}" `)).join("") || `<p class="small">No text was found for this rule.</p>`)
       + (r.notes.length ? `<details class="notes"><summary>Amendment notes (${r.notes.length})</summary><ol>${r.notes.map(x => `<li>${esc(x)}</li>`).join("")}</ol></details>` : "");
-    body.dataset.done = "1";
+    body.dataset.done = "1"; ruleView(d);
   } catch (err) { body.innerHTML = `<p class="small">Could not load this rule. Check your connection and open it again.</p>`; }
 }, true);
 
