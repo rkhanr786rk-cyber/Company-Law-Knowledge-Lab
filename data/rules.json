@@ -731,7 +731,8 @@
     {
      "section": "4",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -765,7 +766,8 @@
     {
      "section": "2",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -782,27 +784,32 @@
     {
      "section": "2",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "8",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "92",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "137",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "406",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -846,7 +853,8 @@
     {
      "section": "458",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -1133,12 +1141,14 @@
     {
      "section": "8",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "25",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -1182,7 +1192,8 @@
     {
      "section": "8",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -1334,7 +1345,10 @@
     {
      "section": "469",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "3"
+     ]
     }
    ]
   },
@@ -1351,7 +1365,8 @@
     {
      "section": "448",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -1449,22 +1464,28 @@
     {
      "section": "2",
      "mentions": 3,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "8",
      "mentions": 3,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "149",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "6"
+     ]
     },
     {
      "section": "247",
      "mentions": 3,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -1525,7 +1546,8 @@
     {
      "section": "408",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -1576,27 +1598,34 @@
     {
      "section": "7",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "8",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "9",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "419",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "4"
+     ]
     },
     {
      "section": "433",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -1613,7 +1642,8 @@
     {
      "section": "433",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -1647,32 +1677,40 @@
     {
      "section": "7",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "8",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "9",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "20",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "419",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "4"
+     ]
     },
     {
      "section": "433",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -1723,7 +1761,10 @@
     {
      "section": "272",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -1740,12 +1781,18 @@
     {
      "section": "272",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "4"
+     ]
     },
     {
      "section": "274",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -1864,7 +1911,10 @@
     {
      "section": "272",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -1915,17 +1965,26 @@
     {
      "section": "273",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "275",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "3"
+     ]
     },
     {
      "section": "277",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -1976,12 +2035,16 @@
     {
      "section": "20",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "277",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -2049,7 +2112,10 @@
     {
      "section": "275",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "6"
+     ]
     }
    ]
   },
@@ -2100,12 +2166,16 @@
     {
      "section": "279",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "281",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -2122,7 +2192,10 @@
     {
      "section": "281",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -2139,12 +2212,18 @@
     {
      "section": "272",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "4"
+     ]
     },
     {
      "section": "274",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -2161,7 +2240,8 @@
     {
      "section": "281",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -2178,7 +2258,10 @@
     {
      "section": "281",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -2195,7 +2278,8 @@
     {
      "section": "20",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -2212,7 +2296,8 @@
     {
      "section": "285",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -2314,7 +2399,10 @@
     {
      "section": "287",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "3"
+     ]
     }
    ]
   },
@@ -2331,7 +2419,10 @@
     {
      "section": "287",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "2"
+     ]
     }
    ]
   },
@@ -2450,12 +2541,18 @@
     {
      "section": "287",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "3"
+     ]
     },
     {
      "section": "292",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "3"
+     ]
     }
    ]
   },
@@ -2574,7 +2671,8 @@
     {
      "section": "287",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -2676,7 +2774,8 @@
     {
      "section": "287",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -2812,7 +2911,8 @@
     {
      "section": "113",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -2982,7 +3082,10 @@
     {
      "section": "288",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -3016,7 +3119,8 @@
     {
      "section": "291",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -3118,7 +3222,10 @@
     {
      "section": "352",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -3237,7 +3344,11 @@
     {
      "section": "294",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "2",
+      "3"
+     ]
     }
    ]
   },
@@ -3288,7 +3399,10 @@
     {
      "section": "294",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "3"
+     ]
     }
    ]
   },
@@ -3390,17 +3504,20 @@
     {
      "section": "20",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "326",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "327",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -3417,7 +3534,10 @@
     {
      "section": "327",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -3434,7 +3554,8 @@
     {
      "section": "20",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -3655,7 +3776,8 @@
     {
      "section": "20",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -3876,7 +3998,10 @@
     {
      "section": "290",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -3893,7 +4018,10 @@
     {
      "section": "290",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -3927,12 +4055,16 @@
     {
      "section": "296",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "465",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "2"
+     ]
     }
    ]
   },
@@ -4051,7 +4183,8 @@
     {
      "section": "299",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -4068,7 +4201,10 @@
     {
      "section": "299",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -4102,7 +4238,8 @@
     {
      "section": "20",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -4119,7 +4256,8 @@
     {
      "section": "299",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -4136,7 +4274,8 @@
     {
      "section": "299",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -4153,7 +4292,10 @@
     {
      "section": "300",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -4221,7 +4363,10 @@
     {
      "section": "300",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "7"
+     ]
     }
    ]
   },
@@ -4238,7 +4383,10 @@
     {
      "section": "300",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "5"
+     ]
     }
    ]
   },
@@ -4255,7 +4403,8 @@
     {
      "section": "301",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -4272,7 +4421,8 @@
     {
      "section": "301",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -4306,12 +4456,18 @@
     {
      "section": "339",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "340",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -4362,7 +4518,10 @@
     {
      "section": "333",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -4464,7 +4623,10 @@
     {
      "section": "333",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "6"
+     ]
     }
    ]
   },
@@ -4498,7 +4660,10 @@
     {
      "section": "343",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -4719,12 +4884,14 @@
     {
      "section": "302",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "352",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -4741,7 +4908,8 @@
     {
      "section": "356",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -4758,7 +4926,10 @@
     {
      "section": "352",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "7"
+     ]
     }
    ]
   },
@@ -4792,7 +4963,10 @@
     {
      "section": "352",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "6"
+     ]
     }
    ]
   },
@@ -4860,12 +5034,14 @@
     {
      "section": "339",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "340",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -4950,17 +5126,22 @@
     {
      "section": "349",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "361",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "363",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -5011,12 +5192,19 @@
     {
      "section": "2",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "20"
+     ]
     },
     {
      "section": "125",
      "mentions": 3,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "5",
+      "6"
+     ]
     }
    ]
   },
@@ -5220,17 +5408,22 @@
     {
      "section": "37",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "125",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "3"
+     ]
     },
     {
      "section": "245",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -5269,7 +5462,8 @@
     {
      "section": "410",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -5627,12 +5821,16 @@
     {
      "section": "421",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "432",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -6309,7 +6507,8 @@
     {
      "section": "432",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -6469,7 +6668,8 @@
     {
      "section": "424",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -6800,7 +7000,10 @@
     {
      "section": "412",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -7123,12 +7326,16 @@
     {
      "section": "66",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "133",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -7162,7 +7369,10 @@
     {
      "section": "66",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "2"
+     ]
     }
    ]
   },
@@ -7196,7 +7406,10 @@
     {
      "section": "66",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "5"
+     ]
     }
    ]
   },
@@ -7235,7 +7448,8 @@
     {
      "section": "408",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -7593,27 +7807,34 @@
     {
      "section": "6",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "398",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "419",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "432",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "434",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -8279,7 +8500,10 @@
     {
      "section": "419",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "5"
+     ]
     }
    ]
   },
@@ -8329,7 +8553,8 @@
     {
      "section": "434",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -8357,7 +8582,10 @@
     {
      "section": "7",
      "mentions": 3,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "7"
+     ]
     }
    ]
   },
@@ -8374,7 +8602,10 @@
     {
      "section": "2",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "41"
+     ]
     }
    ]
   },
@@ -8391,12 +8622,16 @@
     {
      "section": "8",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "14",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -8413,7 +8648,11 @@
     {
      "section": "48",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1",
+      "2"
+     ]
     }
    ]
   },
@@ -8430,7 +8669,11 @@
     {
      "section": "55",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1",
+      "3"
+     ]
     }
    ]
   },
@@ -8447,12 +8690,16 @@
     {
      "section": "58",
      "mentions": 3,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "59",
      "mentions": 4,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -8469,7 +8716,10 @@
     {
      "section": "61",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -8486,7 +8736,10 @@
     {
      "section": "62",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "4"
+     ]
     }
    ]
   },
@@ -8503,22 +8756,35 @@
     {
      "section": "71",
      "mentions": 3,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "9",
+      "10"
+     ]
     },
     {
      "section": "73",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "4"
+     ]
     },
     {
      "section": "74",
      "mentions": 4,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "2"
+     ]
     },
     {
      "section": "76",
      "mentions": 3,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "2"
+     ]
     }
    ]
   },
@@ -8535,7 +8801,8 @@
     {
      "section": "97",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -8552,7 +8819,8 @@
     {
      "section": "98",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -8580,7 +8848,8 @@
     {
      "section": "130",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -8597,17 +8866,22 @@
     {
      "section": "129",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "131",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "134",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -8624,7 +8898,10 @@
     {
      "section": "140",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -8641,7 +8918,8 @@
     {
      "section": "169",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -8658,7 +8936,8 @@
     {
      "section": "213",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -8675,7 +8954,10 @@
     {
      "section": "230",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "12"
+     ]
     }
    ]
   },
@@ -8692,7 +8974,10 @@
     {
      "section": "241",
      "mentions": 3,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -8709,7 +8994,10 @@
     {
      "section": "241",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -8726,7 +9014,10 @@
     {
      "section": "243",
      "mentions": 3,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -8743,7 +9034,10 @@
     {
      "section": "244",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -8760,7 +9054,11 @@
     {
      "section": "245",
      "mentions": 5,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1",
+      "3"
+     ]
     }
    ]
   },
@@ -8777,7 +9075,10 @@
     {
      "section": "245",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "4"
+     ]
     }
    ]
   },
@@ -8794,7 +9095,10 @@
     {
      "section": "245",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "5"
+     ]
     }
    ]
   },
@@ -8811,7 +9115,12 @@
     {
      "section": "245",
      "mentions": 3,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "5",
+      "1",
+      "4"
+     ]
     }
    ]
   },
@@ -8828,7 +9137,11 @@
     {
      "section": "252",
      "mentions": 3,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1",
+      "3"
+     ]
     }
    ]
   },
@@ -8845,37 +9158,53 @@
     {
      "section": "75",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "2"
+     ]
     },
     {
      "section": "140",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "221",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "222",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "224",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "2",
+      "5"
+     ]
     },
     {
      "section": "241",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "2"
+     ]
     },
     {
      "section": "441",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -9756,7 +10085,8 @@
     {
      "section": "408",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -9994,7 +10324,8 @@
     {
      "section": "412",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -10130,7 +10461,10 @@
     {
      "section": "132",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -10402,7 +10736,8 @@
     {
      "section": "2",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -10504,7 +10839,12 @@
     {
      "section": "132",
      "mentions": 6,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1",
+      "3",
+      "11"
+     ]
     }
    ]
   },
@@ -10589,7 +10929,10 @@
     {
      "section": "406",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -10640,12 +10983,14 @@
     {
      "section": "10A",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "154",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -10662,7 +11007,10 @@
     {
      "section": "406",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -10679,7 +11027,10 @@
     {
      "section": "406",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -10696,7 +11047,8 @@
     {
      "section": "2",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -10883,12 +11235,16 @@
     {
      "section": "152",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "4"
+     ]
     },
     {
      "section": "164",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -11058,7 +11414,10 @@
     {
      "section": "73",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -11075,32 +11434,44 @@
     {
      "section": "3",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "51",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "73",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "2"
+     ]
     },
     {
      "section": "76",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "180",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "406",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -11117,12 +11488,16 @@
     {
      "section": "73",
      "mentions": 4,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "2"
+     ]
     },
     {
      "section": "76",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -11139,7 +11514,10 @@
     {
      "section": "73",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "2"
+     ]
     }
    ]
   },
@@ -11166,12 +11544,18 @@
     {
      "section": "73",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "2"
+     ]
     },
     {
      "section": "247",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -11188,7 +11572,10 @@
     {
      "section": "73",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "2"
+     ]
     }
    ]
   },
@@ -11286,7 +11673,8 @@
     {
      "section": "72",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -11330,7 +11718,10 @@
     {
      "section": "73",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "2"
+     ]
     }
    ]
   },
@@ -11374,7 +11765,10 @@
     {
      "section": "73",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "2"
+     ]
     }
    ]
   },
@@ -11499,17 +11893,24 @@
     {
      "section": "73",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "74",
      "mentions": 3,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "76",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "2"
+     ]
     }
    ]
   },
@@ -11526,7 +11927,10 @@
     {
      "section": "74",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -11543,7 +11947,10 @@
     {
      "section": "73",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "2"
+     ]
     }
    ]
   },
@@ -11587,7 +11994,8 @@
     {
      "section": "2",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -11789,7 +12197,10 @@
     {
      "section": "128",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -11962,7 +12373,10 @@
     {
      "section": "129",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "3"
+     ]
     }
    ]
   },
@@ -11979,7 +12393,10 @@
     {
      "section": "129",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "3"
+     ]
     }
    ]
   },
@@ -11996,12 +12413,14 @@
     {
      "section": "132",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "133",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -12018,17 +12437,26 @@
     {
      "section": "148",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "150",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "188",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -12045,22 +12473,34 @@
     {
      "section": "92",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "3"
+     ]
     },
     {
      "section": "134",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "5"
+     ]
     },
     {
      "section": "143",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "12"
+     ]
     },
     {
      "section": "188",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -12129,7 +12569,10 @@
     {
      "section": "136",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -12146,7 +12589,8 @@
     {
      "section": "20",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -12163,17 +12607,22 @@
     {
      "section": "134",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "135",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "137",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -12190,7 +12639,8 @@
     {
      "section": "138",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -12241,7 +12691,8 @@
     {
      "section": "20",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -12388,17 +12839,26 @@
     {
      "section": "2",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "164",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "167",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -12415,7 +12875,10 @@
     {
      "section": "149",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -12432,7 +12895,8 @@
     {
      "section": "455",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -12449,7 +12913,10 @@
     {
      "section": "149",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "6"
+     ]
     }
    ]
   },
@@ -12466,12 +12933,18 @@
     {
      "section": "149",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "7"
+     ]
     },
     {
      "section": "150",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -12488,22 +12961,29 @@
     {
      "section": "149",
      "mentions": 3,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "6",
+      "7"
+     ]
     },
     {
      "section": "152",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "164",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "167",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -12644,12 +13124,14 @@
     {
      "section": "156",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "157",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -12976,12 +13458,17 @@
     {
      "section": "2",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "164",
      "mentions": 4,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1",
+      "2"
+     ]
     }
    ]
   },
@@ -13560,7 +14047,10 @@
     {
      "section": "204",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -13577,7 +14067,10 @@
     {
      "section": "178",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -13594,7 +14087,10 @@
     {
      "section": "212",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "8"
+     ]
     }
    ]
   },
@@ -13685,7 +14181,8 @@
     {
      "section": "177",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -13702,7 +14199,10 @@
     {
      "section": "139",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -13719,7 +14219,10 @@
     {
      "section": "139",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "2"
+     ]
     }
    ]
   },
@@ -13736,7 +14239,10 @@
     {
      "section": "139",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "2"
+     ]
     }
    ]
   },
@@ -13790,7 +14296,10 @@
     {
      "section": "140",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "2"
+     ]
     }
    ]
   },
@@ -13817,12 +14326,18 @@
     {
      "section": "141",
      "mentions": 4,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "3"
+     ]
     },
     {
      "section": "143",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "3"
+     ]
     }
    ]
   },
@@ -13839,7 +14354,8 @@
     {
      "section": "123",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -13856,7 +14372,11 @@
     {
      "section": "143",
      "mentions": 3,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "8",
+      "12"
+     ]
     }
    ]
   },
@@ -13873,17 +14393,20 @@
     {
      "section": "148",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "177",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "204",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -13900,17 +14423,24 @@
     {
      "section": "143",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "12"
+     ]
     },
     {
      "section": "148",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "3"
+     ]
     },
     {
      "section": "204",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -13927,12 +14457,14 @@
     {
      "section": "2",
      "mentions": 3,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "8",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -13949,7 +14481,8 @@
     {
      "section": "143",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -13966,22 +14499,28 @@
     {
      "section": "73",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "76",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "148",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "189",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -14020,12 +14559,14 @@
     {
      "section": "2",
      "mentions": 3,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "8",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -14042,7 +14583,8 @@
     {
      "section": "143",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -14059,57 +14601,70 @@
     {
      "section": "42",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "73",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "76",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "148",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "177",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "185",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "186",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "188",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "189",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "192",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "197",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -14148,12 +14703,14 @@
     {
      "section": "2",
      "mentions": 3,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "8",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -14170,7 +14727,8 @@
     {
      "section": "143",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -14187,67 +14745,87 @@
     {
      "section": "2",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "42",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "62",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "73",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "76",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "135",
      "mentions": 3,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "5",
+      "6"
+     ]
     },
     {
      "section": "143",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "12"
+     ]
     },
     {
      "section": "148",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "177",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "185",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "186",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "188",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "192",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -14323,7 +14901,8 @@
     {
      "section": "4",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -14340,12 +14919,18 @@
     {
      "section": "8",
      "mentions": 4,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "366",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "2"
+     ]
     }
    ]
   },
@@ -14362,7 +14947,8 @@
     {
      "section": "374",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -14379,37 +14965,50 @@
     {
      "section": "4",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "8",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "92",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "164",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "366",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "2"
+     ]
     },
     {
      "section": "367",
      "mentions": 3,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "374",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -14490,7 +15089,12 @@
     {
      "section": "230",
      "mentions": 3,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1",
+      "2",
+      "11"
+     ]
     }
    ]
   },
@@ -14507,7 +15111,10 @@
     {
      "section": "230",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "2"
+     ]
     }
    ]
   },
@@ -14524,7 +15131,12 @@
     {
      "section": "230",
      "mentions": 3,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1",
+      "9",
+      "5"
+     ]
     }
    ]
   },
@@ -14541,17 +15153,22 @@
     {
      "section": "133",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "230",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "3"
+     ]
     },
     {
      "section": "247",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -14568,7 +15185,10 @@
     {
      "section": "230",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "3"
+     ]
     }
    ]
   },
@@ -14585,7 +15205,10 @@
     {
      "section": "230",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "5"
+     ]
     }
    ]
   },
@@ -14666,7 +15289,8 @@
     {
      "section": "230",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -14779,12 +15403,14 @@
     {
      "section": "230",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "232",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -14801,7 +15427,10 @@
     {
      "section": "230",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "4"
+     ]
     }
    ]
   },
@@ -14850,7 +15479,8 @@
     {
      "section": "232",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -14899,12 +15529,14 @@
     {
      "section": "230",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "232",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -14921,7 +15553,11 @@
     {
      "section": "232",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "7",
+      "3"
+     ]
     }
    ]
   },
@@ -15034,22 +15670,35 @@
     {
      "section": "8",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "230",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "3"
+     ]
     },
     {
      "section": "232",
      "mentions": 4,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1",
+      "3"
+     ]
     },
     {
      "section": "233",
      "mentions": 17,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1",
+      "2",
+      "7"
+     ]
     }
    ]
   },
@@ -15066,22 +15715,26 @@
     {
      "section": "2",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "230",
      "mentions": 4,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "232",
      "mentions": 3,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "233",
      "mentions": 3,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -15098,7 +15751,10 @@
     {
      "section": "235",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -15115,7 +15771,8 @@
     {
      "section": "236",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -15132,7 +15789,11 @@
     {
      "section": "236",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "2",
+      "1"
+     ]
     }
    ]
   },
@@ -15149,7 +15810,10 @@
     {
      "section": "238",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -15166,7 +15830,10 @@
     {
      "section": "238",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "2"
+     ]
     }
    ]
   },
@@ -15200,27 +15867,34 @@
     {
      "section": "2",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "135",
      "mentions": 3,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "182",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "198",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "381",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -15237,22 +15911,31 @@
     {
      "section": "2",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "135",
      "mentions": 3,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1",
+      "6"
+     ]
     },
     {
      "section": "198",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "381",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -15269,7 +15952,8 @@
     {
      "section": "8",
      "mentions": 3,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -15303,17 +15987,26 @@
     {
      "section": "135",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "149",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "4"
+     ]
     },
     {
      "section": "380",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -15340,12 +16033,16 @@
     {
      "section": "8",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "135",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "5"
+     ]
     }
    ]
   },
@@ -15362,12 +16059,18 @@
     {
      "section": "135",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "5"
+     ]
     },
     {
      "section": "381",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -15401,27 +16104,37 @@
     {
      "section": "8",
      "mentions": 8,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "135",
      "mentions": 7,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "5",
+      "1"
+     ]
     },
     {
      "section": "182",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "198",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "381",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -15438,37 +16151,55 @@
     {
      "section": "2",
      "mentions": 3,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1",
+      "2"
+     ]
     },
     {
      "section": "6",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "96",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "137",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "141",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "143",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "12"
+     ]
     },
     {
      "section": "148",
      "mentions": 3,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -15852,7 +16583,8 @@
     {
      "section": "2",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -15971,12 +16703,19 @@
     {
      "section": "2",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "42"
+     ]
     },
     {
      "section": "148",
      "mentions": 3,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "3",
+      "1"
+     ]
     }
    ]
   },
@@ -16010,7 +16749,10 @@
     {
      "section": "150",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -16027,7 +16769,10 @@
     {
      "section": "164",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -16290,7 +17035,8 @@
     {
      "section": "8",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -16307,7 +17053,10 @@
     {
      "section": "3",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -16334,17 +17083,22 @@
     {
      "section": "8",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "18",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "122",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "3"
+     ]
     }
    ]
   },
@@ -16361,7 +17115,8 @@
     {
      "section": "8",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -16522,17 +17277,20 @@
     {
      "section": "3",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "8",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "248",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -16549,7 +17307,10 @@
     {
      "section": "4",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "3"
+     ]
     }
    ]
   },
@@ -16638,7 +17399,10 @@
     {
      "section": "4",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "5"
+     ]
     }
    ]
   },
@@ -16799,7 +17563,8 @@
     {
      "section": "406",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -16888,17 +17653,22 @@
     {
      "section": "1",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "2",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "7",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -16915,7 +17685,10 @@
     {
      "section": "7",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -16932,7 +17705,10 @@
     {
      "section": "7",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -17093,7 +17869,10 @@
     {
      "section": "8",
      "mentions": 5,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -17110,7 +17889,11 @@
     {
      "section": "8",
      "mentions": 5,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1",
+      "5"
+     ]
     }
    ]
   },
@@ -17127,7 +17910,8 @@
     {
      "section": "8",
      "mentions": 3,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -17144,7 +17928,8 @@
     {
      "section": "8",
      "mentions": 6,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -17161,7 +17946,8 @@
     {
      "section": "10A",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -17260,27 +18046,36 @@
     {
      "section": "12",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "9"
+     ]
     },
     {
      "section": "92",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "137",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "149",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "164",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -17297,12 +18092,16 @@
     {
      "section": "12",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "9"
+     ]
     },
     {
      "section": "248",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -17391,7 +18190,10 @@
     {
      "section": "12",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "2"
+     ]
     }
    ]
   },
@@ -17552,7 +18354,10 @@
     {
      "section": "13",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "4"
+     ]
     }
    ]
   },
@@ -17785,17 +18590,23 @@
     {
      "section": "12",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "13",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "16",
      "mentions": 3,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "3",
+      "1"
+     ]
     }
    ]
   },
@@ -17812,7 +18623,10 @@
     {
      "section": "117",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -17829,7 +18643,10 @@
     {
      "section": "20",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -17928,17 +18745,24 @@
     {
      "section": "4",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "5"
+     ]
     },
     {
      "section": "8",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "12",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "2"
+     ]
     }
    ]
   },
@@ -18027,12 +18851,14 @@
     {
      "section": "8",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "25",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -18049,7 +18875,10 @@
     {
      "section": "2",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "41"
+     ]
     }
    ]
   },
@@ -18066,97 +18895,132 @@
     {
      "section": "2",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "68"
+     ]
     },
     {
      "section": "3",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "4",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "5"
+     ]
     },
     {
      "section": "7",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "8",
      "mentions": 7,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "12",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "2"
+     ]
     },
     {
      "section": "13",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "4"
+     ]
     },
     {
      "section": "14",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "18",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "73",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "76A",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "122",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "3"
+     ]
     },
     {
      "section": "177",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "178",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "179",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "3"
+     ]
     },
     {
      "section": "185",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "186",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "188",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "248",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -18190,7 +19054,8 @@
     {
      "section": "2",
      "mentions": 3,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -18354,7 +19219,10 @@
     {
      "section": "211",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "5"
+     ]
     }
    ]
   },
@@ -18371,7 +19239,10 @@
     {
      "section": "210",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "3"
+     ]
     }
    ]
   },
@@ -18388,7 +19259,8 @@
     {
      "section": "217",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -18456,12 +19328,14 @@
     {
      "section": "41",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "62",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -18546,7 +19420,8 @@
     {
      "section": "88",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -19071,7 +19946,10 @@
     {
      "section": "88",
      "mentions": 4,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -19088,7 +19966,10 @@
     {
      "section": "88",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -19105,7 +19986,10 @@
     {
      "section": "88",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "4"
+     ]
     }
    ]
   },
@@ -19122,7 +20006,8 @@
     {
      "section": "88",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -19139,7 +20024,8 @@
     {
      "section": "89",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -19547,17 +20433,22 @@
     {
      "section": "88",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "92",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "94",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "3"
+     ]
     }
    ]
   },
@@ -19574,7 +20465,8 @@
     {
      "section": "92",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -19591,12 +20483,14 @@
     {
      "section": "88",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "92",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -19613,17 +20507,24 @@
     {
      "section": "100",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "4"
+     ]
     },
     {
      "section": "102",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "114",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "2"
+     ]
     }
    ]
   },
@@ -19767,7 +20668,8 @@
     {
      "section": "8",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -19784,7 +20686,8 @@
     {
      "section": "114",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -19801,22 +20704,26 @@
     {
      "section": "105",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "108",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "112",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "113",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -19833,57 +20740,82 @@
     {
      "section": "2",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "68"
+     ]
     },
     {
      "section": "12",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "5"
+     ]
     },
     {
      "section": "13",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "8"
+     ]
     },
     {
      "section": "43",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "48",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "68",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "108",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "110",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "151",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "180",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "186",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "3"
+     ]
     }
    ]
   },
@@ -20027,7 +20959,8 @@
     {
      "section": "102",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -20298,7 +21231,8 @@
     {
      "section": "120",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -20696,17 +21630,26 @@
     {
      "section": "92",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "3"
+     ]
     },
     {
      "section": "94",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "121",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -21377,12 +22320,16 @@
     {
      "section": "118",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "173",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "3"
+     ]
     }
    ]
   },
@@ -21697,7 +22644,10 @@
     {
      "section": "179",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "3"
+     ]
     }
    ]
   },
@@ -21796,7 +22746,12 @@
     {
      "section": "186",
      "mentions": 4,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "3",
+      "4",
+      "11"
+     ]
     }
    ]
   },
@@ -21813,7 +22768,10 @@
     {
      "section": "186",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "9"
+     ]
     }
    ]
   },
@@ -21830,7 +22788,12 @@
     {
      "section": "186",
      "mentions": 3,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "3",
+      "2",
+      "4"
+     ]
     }
    ]
   },
@@ -21919,12 +22882,16 @@
     {
      "section": "101",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "188",
      "mentions": 8,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -21941,12 +22908,17 @@
     {
      "section": "184",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1",
+      "2"
+     ]
     },
     {
      "section": "188",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -21963,37 +22935,57 @@
     {
      "section": "134",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "185",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "186",
      "mentions": 5,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "11",
+      "3",
+      "2",
+      "4"
+     ]
     },
     {
      "section": "188",
      "mentions": 8,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "191",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "202",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "247",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -22064,7 +23056,10 @@
     {
      "section": "455",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -22189,12 +23184,16 @@
     {
      "section": "206",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "455",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "5"
+     ]
     }
    ]
   },
@@ -22211,7 +23210,10 @@
     {
      "section": "459",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "2"
+     ]
     }
    ]
   },
@@ -22438,7 +23440,8 @@
     {
      "section": "28",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -22455,7 +23458,8 @@
     {
      "section": "125",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -22680,12 +23684,18 @@
     {
      "section": "62",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "247",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -22754,22 +23764,37 @@
     {
      "section": "42",
      "mentions": 8,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "3",
+      "2",
+      "1",
+      "7"
+     ]
     },
     {
      "section": "62",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "179",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "3"
+     ]
     },
     {
      "section": "180",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -22900,17 +23925,22 @@
     {
      "section": "77",
      "mentions": 4,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "78",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "79",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -22927,7 +23957,10 @@
     {
      "section": "77",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -22944,7 +23977,8 @@
     {
      "section": "79",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -22961,17 +23995,22 @@
     {
      "section": "77",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "78",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "79",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -22988,7 +24027,8 @@
     {
      "section": "81",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -23005,12 +24045,14 @@
     {
      "section": "82",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "83",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -23198,17 +24240,20 @@
     {
      "section": "82",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "83",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "87",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -23225,7 +24270,10 @@
     {
      "section": "87",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -23284,7 +24332,8 @@
     {
      "section": "2",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -23301,7 +24350,10 @@
     {
      "section": "380",
      "mentions": 3,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -23318,7 +24370,8 @@
     {
      "section": "2",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -23335,7 +24388,10 @@
     {
      "section": "381",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -23478,7 +24534,8 @@
     {
      "section": "3",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -23495,7 +24552,8 @@
     {
      "section": "3",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -23554,7 +24612,8 @@
     {
      "section": "210",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -23571,12 +24630,14 @@
     {
      "section": "123",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "390",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -23630,7 +24691,10 @@
     {
      "section": "2",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -23832,12 +24896,14 @@
     {
      "section": "448",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "449",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -23928,7 +24994,8 @@
     {
      "section": "206",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -23945,67 +25012,87 @@
     {
      "section": "8",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "10",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "13",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "14",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "18",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "64",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "68",
      "mentions": 3,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "6"
+     ]
     },
     {
      "section": "73",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "76",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "117",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "396",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "399",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "455",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1",
+      "5"
+     ]
     }
    ]
   },
@@ -24059,7 +25146,8 @@
     {
      "section": "2",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -24150,102 +25238,143 @@
     {
      "section": "2",
      "mentions": 3,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "85",
+      "62"
+     ]
     },
     {
      "section": "4",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "4"
+     ]
     },
     {
      "section": "8",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "92",
      "mentions": 5,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "4"
+     ]
     },
     {
      "section": "93",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "130",
      "mentions": 4,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "131",
      "mentions": 4,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "137",
      "mentions": 3,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "139",
      "mentions": 6,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "153",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "157",
      "mentions": 6,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "159",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "204",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "233",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "11"
+     ]
     },
     {
      "section": "248",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "2"
+     ]
     },
     {
      "section": "385",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "399",
      "mentions": 4,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "403",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "455",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "5"
+     ]
     },
     {
      "section": "459",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "2"
+     ]
     }
    ]
   },
@@ -24296,37 +25425,46 @@
     {
      "section": "8",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "25",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "206",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "207",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "208",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "234",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "248",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -24343,22 +25481,32 @@
     {
      "section": "92",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "137",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "248",
      "mentions": 5,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "2",
+      "1",
+      "5"
+     ]
     },
     {
      "section": "396",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -24409,7 +25557,11 @@
     {
      "section": "248",
      "mentions": 3,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "2",
+      "1"
+     ]
     }
    ]
   },
@@ -24443,7 +25595,10 @@
     {
      "section": "248",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "5"
+     ]
     }
    ]
   },
@@ -24460,7 +25615,11 @@
     {
      "section": "248",
      "mentions": 3,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "2",
+      "1"
+     ]
     }
    ]
   },
@@ -24499,12 +25658,16 @@
     {
      "section": "2",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "186",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -24737,17 +25900,20 @@
     {
      "section": "88",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "102",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "110",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -24764,7 +25930,8 @@
     {
      "section": "88",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -24925,22 +26092,26 @@
     {
      "section": "54",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "102",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "197",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "198",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -24957,17 +26128,20 @@
     {
      "section": "48",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "88",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "102",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -25128,7 +26302,10 @@
     {
      "section": "62",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -25145,7 +26322,10 @@
     {
      "section": "62",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -25162,17 +26342,22 @@
     {
      "section": "42",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "62",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "102",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -25261,12 +26446,18 @@
     {
      "section": "61",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "62",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "6"
+     ]
     }
    ]
   },
@@ -25283,7 +26474,8 @@
     {
      "section": "102",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -25300,7 +26492,8 @@
     {
      "section": "102",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -25317,12 +26510,17 @@
     {
      "section": "2",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "71",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "5",
+      "13"
+     ]
     }
    ]
   },
@@ -25339,22 +26537,26 @@
     {
      "section": "2",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "45",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "62",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "88",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -25388,17 +26590,24 @@
     {
      "section": "2",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "89",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "2"
+     ]
     },
     {
      "section": "90",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -25415,7 +26624,10 @@
     {
      "section": "90",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "5"
+     ]
     }
    ]
   },
@@ -25432,7 +26644,10 @@
     {
      "section": "90",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -25483,7 +26698,10 @@
     {
      "section": "90",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "5"
+     ]
     }
    ]
   },
@@ -25500,7 +26718,10 @@
     {
      "section": "90",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "7"
+     ]
     }
    ]
   },
@@ -25517,17 +26738,27 @@
     {
      "section": "89",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "10"
+     ]
     },
     {
      "section": "90",
      "mentions": 3,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1",
+      "7"
+     ]
     },
     {
      "section": "125",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "5"
+     ]
     }
    ]
   },
@@ -25561,22 +26792,32 @@
     {
      "section": "2",
      "mentions": 6,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "24",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "164",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     },
     {
      "section": "167",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -25593,12 +26834,16 @@
     {
      "section": "2",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "23",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "3"
+     ]
     }
    ]
   },
@@ -25615,7 +26860,8 @@
     {
      "section": "2",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -25632,7 +26878,8 @@
     {
      "section": "2",
      "mentions": 4,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -25683,12 +26930,14 @@
     {
      "section": "134",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "137",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -25705,12 +26954,16 @@
     {
      "section": "137",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "148",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "6"
+     ]
     }
    ]
   },
@@ -25749,12 +27002,19 @@
     {
      "section": "2",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "20"
+     ]
     },
     {
      "section": "125",
      "mentions": 4,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "5",
+      "6"
+     ]
     }
    ]
   },
@@ -25771,17 +27031,27 @@
     {
      "section": "90",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "9"
+     ]
     },
     {
      "section": "124",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "6"
+     ]
     },
     {
      "section": "125",
      "mentions": 3,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "2",
+      "3"
+     ]
     }
    ]
   },
@@ -25820,17 +27090,24 @@
     {
      "section": "96",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "125",
      "mentions": 3,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "2"
+     ]
     },
     {
      "section": "137",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -25847,17 +27124,25 @@
     {
      "section": "5",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "124",
      "mentions": 3,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "6",
+      "5"
+     ]
     },
     {
      "section": "236",
      "mentions": 4,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "2"
+     ]
     }
    ]
   },
@@ -25874,7 +27159,11 @@
     {
      "section": "90",
      "mentions": 4,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "9",
+      "8"
+     ]
     }
    ]
   },
@@ -25891,27 +27180,36 @@
     {
      "section": "57",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "124",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "6"
+     ]
     },
     {
      "section": "125",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "3"
+     ]
     },
     {
      "section": "447",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "448",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -26060,17 +27358,23 @@
     {
      "section": "2",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "132",
      "mentions": 2,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "1",
+      "3"
+     ]
     },
     {
      "section": "139",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -26087,22 +27391,32 @@
     {
      "section": "1",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "4"
+     ]
     },
     {
      "section": "2",
      "mentions": 2,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     },
     {
      "section": "132",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "2"
+     ]
     },
     {
      "section": "139",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "1"
+     ]
     }
    ]
   },
@@ -26251,7 +27565,10 @@
     {
      "section": "132",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": [
+      "4"
+     ]
     }
    ]
   },
@@ -26268,12 +27585,18 @@
     {
      "section": "132",
      "mentions": 3,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "4"
+     ]
     },
     {
      "section": "139",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": [
+      "5"
+     ]
     }
    ]
   },
@@ -26444,7 +27767,8 @@
     {
      "section": "450",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     }
    ]
   },
@@ -26483,7 +27807,8 @@
     {
      "section": "378A",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   },
@@ -26544,12 +27869,14 @@
     {
      "section": "2",
      "mentions": 1,
-     "confidence": "high"
+     "confidence": "high",
+     "subs": []
     },
     {
      "section": "20",
      "mentions": 1,
-     "confidence": "medium"
+     "confidence": "medium",
+     "subs": []
     }
    ]
   }
