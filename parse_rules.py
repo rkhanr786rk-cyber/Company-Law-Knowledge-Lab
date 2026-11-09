@@ -208,19 +208,30 @@ def classify(tail):
     return "high" if re.match(r"(?:Companies\s+)?Act\b", m.group(1)) else None
 
 
+TOKEN_RE = re.compile(r"(\d{1,3}[A-Z]{0,2})((?:\s*\([^)]{1,8}\))*)")
+SUBBEFORE_RE = re.compile(r"sub-?\s?sections?\s*\(\s*([0-9]{1,2}[A-Z]{0,2})\s*\)\s*(?:\([^)]{1,8}\)\s*)*(?:and|or|,|\s)*(?:\(\s*[0-9]{1,2}[A-Z]{0,2}\s*\)\s*)*(?:of|in|under)?\s*$", re.I)
+
+
 def cited_sections(text, valid):
+    """{section: {mentions, confidence, subs}} where subs lists the sub-sections cited, e.g. ["1", "2"]."""
     found = {}
     for m in SEC_RE.finditer(text):
         conf = classify(text[m.end():m.end() + 110])
         if conf is None:
             continue
-        plain = re.sub(r"\([^)]{1,8}\)", "", m.group(1))
-        for num in re.findall(r"\d{1,3}[A-Z]{0,2}", plain):
-            if num in valid:
-                d = found.setdefault(num, {"mentions": 0, "confidence": "medium"})
-                d["mentions"] += 1
-                if conf == "high":
-                    d["confidence"] = "high"
+        toks = TOKEN_RE.findall(m.group(1))
+        before = SUBBEFORE_RE.search(text[max(0, m.start() - 40):m.start()])
+        for num, parens in toks:
+            if num not in valid:
+                continue
+            d = found.setdefault(num, {"mentions": 0, "confidence": "medium", "subs": []})
+            d["mentions"] += 1
+            if conf == "high":
+                d["confidence"] = "high"
+            p = re.match(r"\s*\(\s*([0-9]{1,2}[A-Z]{0,2})\s*\)", parens)
+            sub = p.group(1) if p else (before.group(1) if before and len(toks) == 1 else None)
+            if sub and sub not in d["subs"]:
+                d["subs"].append(sub)
     return found
 
 
@@ -310,7 +321,7 @@ def main():
         for c in r["cites"]:
             by_section.setdefault(c["section"], []).append({
                 "rule_id": r["id"], "rule_set": r["rule_set"], "rule": r["rule"], "title": r["title"],
-                "mentions": c["mentions"], "confidence": c["confidence"],
+                "mentions": c["mentions"], "confidence": c["confidence"], "subs": c.get("subs", []),
             })
     for lst in by_section.values():
         lst.sort(key=lambda x: (RANK[x["confidence"]], x["rule_set"], sort_key(x["rule"])))
