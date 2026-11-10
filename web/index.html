@@ -84,7 +84,7 @@ button{font:inherit;color:inherit}
 .foot p{margin:.2rem 0}
 
 /* reader */
-.reader{max-width:1240px;margin:0 auto;padding:2.4rem 1.5rem 4rem;display:grid;grid-template-columns:11rem minmax(0,40rem) minmax(17rem,21rem);gap:2.8rem;justify-content:center}
+.reader{max-width:1400px;margin:0 auto;padding:2.4rem 1.5rem 4rem;display:grid;grid-template-columns:11rem minmax(0,38rem) minmax(22rem,32rem);gap:2.8rem;justify-content:center}
 .margin{position:sticky;top:5.4rem;align-self:start}
 .secnum{font:300 clamp(3.6rem,6vw,5.4rem)/.9 var(--serif);letter-spacing:-.035em;font-variant-numeric:lining-nums}
 .chap{margin-top:1.1rem;font:500 .92rem/1.35 var(--sans);color:var(--ink)}
@@ -142,16 +142,16 @@ button{font:inherit;color:inherit}
 .set{margin:1.3rem 0 0}
 .rl{list-style:none;margin:0;padding:0}
 .rl details,.lowgroup{border-top:1px solid var(--rule)}
-.rl summary{display:flex;gap:.65rem;align-items:baseline;padding:.6rem 0;cursor:pointer;list-style:none;font:400 .93rem/1.35 var(--sans)}
+.rl summary{display:flex;gap:.65rem;align-items:baseline;padding:.6rem 0;cursor:pointer;list-style:none;font:400 .98rem/1.38 var(--sans)}
 .rl summary::-webkit-details-marker,.lowgroup>summary::-webkit-details-marker,.notes summary::-webkit-details-marker{display:none}
 .rl summary::before{content:"+";flex:0 0 .8rem;color:var(--muted);font-weight:600}
 .rl details[open]>summary::before{content:"–"}
 .rn{font-weight:600;white-space:nowrap}
 .flag{margin-left:auto;font:500 .74rem var(--sans);color:var(--tape);border:1px solid color-mix(in srgb,var(--tape) 50%,transparent);padding:0 .35rem;border-radius:2px;white-space:nowrap}
-.rbody{padding:.1rem 0 1.1rem 1.45rem;font:400 1rem/1.6 var(--serif)}
+.rbody{padding:.1rem 0 1.2rem 1.45rem;font-family:var(--serif);font-size:calc(1.08rem*var(--fs));line-height:1.68}
 .rbody .p{margin-bottom:.6em}
 .rbody .small{font-family:var(--sans)}
-.rbody .hit{border-left:3px solid var(--tape);padding-left:.7rem}
+.rbody .hit{box-shadow:-9px 0 0 -6px var(--tape)}
 .more{display:block;margin:0 0 .7rem;padding:.2rem .7rem;border:1px solid var(--rule);border-radius:99px;background:var(--page);font:500 .82rem var(--sans);color:var(--ink);cursor:pointer}
 .more:hover{border-color:var(--muted)}
 .lowgroup{margin-top:1.6rem;padding-top:.7rem}
@@ -166,7 +166,7 @@ button{font:inherit;color:inherit}
 .msg .find{margin-top:1.4rem;max-width:none}
 
 @media (max-width:1180px){
-  .reader{grid-template-columns:minmax(0,40rem) minmax(17rem,20rem);grid-template-areas:"margin margin" "text side";gap:1.6rem 2.4rem}
+  .reader{grid-template-columns:minmax(0,34rem) minmax(20rem,1fr);grid-template-areas:"margin margin" "text side";gap:1.6rem 2.4rem}
   .margin{grid-area:margin;position:static;display:flex;align-items:baseline;flex-wrap:wrap;gap:.3rem 1.3rem}
   .secnum{font-size:3.4rem}
   .chap{margin:0}.chapt{margin:0}
@@ -231,6 +231,35 @@ button{font:inherit;color:inherit}
 .wlist .why.q{font-style:italic;margin-top:-.35rem}
 .wlist .lnk{background:none;border:0;padding:0;text-align:left;cursor:pointer;color:var(--link);text-decoration:underline;text-underline-offset:.15em}
 .side h3.cases{margin-top:2.4rem;padding-top:1rem;border-top:1px solid var(--rule)}
+
+/* wider reading area for the Rules, and the AI explanation */
+.tabs .wide{margin-left:auto;border:1px solid var(--rule);border-radius:99px;padding:.15rem .8rem;margin-bottom:.35rem;font:500 .84rem var(--sans);color:var(--ink)}
+.tabs .wide:hover{border-color:var(--muted)}
+.reader[data-tab=deep] .tabs .wide{display:none}
+@media (min-width:821px){
+  .reader[data-wide="1"]:not([data-tab=deep]){grid-template-columns:11rem minmax(0,56rem)}
+  .reader[data-wide="1"]:not([data-tab=deep]) .text{display:none}
+  .reader[data-wide="1"]:not([data-tab=deep]) .side{grid-column:2;position:static;max-height:none;border-left:0;padding-left:0}
+  .reader[data-wide="1"] .rbody{font-size:calc(1.2rem*var(--fs));line-height:1.75;max-width:46rem}
+  .reader[data-wide="1"] .rl summary{font-size:1.04rem}
+}
+@media (min-width:821px) and (max-width:1180px){.reader[data-wide="1"]:not([data-tab=deep]){grid-template-columns:minmax(0,56rem);grid-template-areas:"margin" "side"}}
+@media (max-width:820px){.tabs .wide{display:none}}
+.ai{margin:0 0 1.8rem;padding-bottom:1.5rem;border-bottom:1px solid var(--rule);max-width:46rem}
+.ai h3{margin:0 0 .5rem}
+.ai h4{margin:1.2rem 0 .35rem;font:600 .98rem var(--serif)}
+.aisum{margin:0;font:400 1.15rem/1.6 var(--serif)}
+.aipts{margin:.7rem 0 0;padding-left:1.2rem;font:400 1.03rem/1.55 var(--serif)}
+.aipts li{margin:.15rem 0}
+.aiex{margin:0;padding:.75rem 1rem;border-left:3px solid var(--link);background:color-mix(in srgb,var(--link) 7%,transparent);font:400 1.05rem/1.62 var(--serif)}
+.aiwatch{margin:.9rem 0 0;font:400 .98rem/1.5 var(--serif)}
+.aiterms{margin:0;display:grid;grid-template-columns:max-content 1fr;gap:.25rem 1rem;font:400 .95rem/1.45 var(--sans)}
+.aiterms dt{font-weight:600}.aiterms dd{margin:0}
+.ainote{margin-top:1rem}
+.aibox{margin:0 0 1rem;border:1px solid var(--rule);border-radius:3px;padding:.1rem .9rem .8rem;background:var(--page)}
+.aibox:not([open]){padding-bottom:.1rem}
+.aibox summary{cursor:pointer;padding:.5rem 0;font:600 .92rem var(--sans);color:var(--link)}
+.aibox .aisum{font-size:1.05rem}.aibox .aiex{font-size:1rem}.aibox .aipts{font-size:.98rem}
 @media print{.bar,.side,.mtabs,.tapewrap,.pn,.foot{display:none!important}.reader{display:block}body{background:#fff}}
 </style>
 </head>
@@ -495,7 +524,7 @@ async function showSection(n, q) {
     : d.paras.map(p => para(p, ctx)).join("");
   const notes = d.notes.length ? `<details class="notes"><summary>Amendment notes (${d.notes.length})</summary><ol>${d.notes.map(x => `<li>${esc(x.replace(/^\d{1,3}\.\s*/, ""))}</li>`).join("")}</ol></details>` : "";
   const nav = `<nav class="pn" aria-label="Neighbouring sections">${d.prev ? `<a href="#/s/${esc(d.prev[0])}" rel="prev"><span>Previous section</span><b>${esc(d.prev[0])}</b>${esc(d.prev[1])}</a>` : "<span></span>"}${d.next ? `<a class="nx" href="#/s/${esc(d.next[0])}" rel="next"><span>Next section</span><b>${esc(d.next[0])}</b>${esc(d.next[1])}</a>` : ""}</nav>`;
-  show(`<article class="reader" data-tab="${S.tab}">
+  show(`<article class="reader" data-tab="${S.tab}" data-wide="${S.wide ? 1 : 0}">
     <div class="mtabs" role="tablist"><button role="tab" data-tab="section">Section</button><button role="tab" data-tab="rules">Rules<span class="count">${direct}</span></button><button role="tab" data-tab="deep">Deep Dive</button></div>
     <aside class="margin"><div class="secnum" aria-label="Section ${esc(d.n)}">${esc(d.n)}</div>
       ${d.c ? `<div class="chap">Chapter ${esc(d.c)}</div><div class="chapt">${esc(nice(d.ct))}</div>` : ""}</aside>
@@ -503,12 +532,13 @@ async function showSection(n, q) {
       <h1 tabindex="-1">${esc(d.t)}</h1>${d.s === "omitted" ? `<span class="badge">Omitted</span>` : ""}
       <div class="body">${body}</div>${notes}${nav}</div>
     <aside class="side" aria-label="Rules and cases">
-      <div class="tabs" role="tablist"><button role="tab" data-tab="rules">Rules<span class="count">${direct}</span></button><button role="tab" data-tab="deep">Deep Dive</button></div>
+      <div class="tabs" role="tablist"><button role="tab" data-tab="rules">Rules<span class="count">${direct}</span></button><button role="tab" data-tab="deep">Deep Dive</button><button class="wide" type="button" aria-pressed="false">Widen</button></div>
       <div class="panel" data-p="rules">${rulesPanel(d, "")}</div>
       <div class="panel" data-p="deep"></div>
     </aside></article>`);
   document.title = `${d.n}. ${d.t} | Companies Act, 2013`;
   const rd = $(".reader");
+  syncWide();
   const tab = q.get("tab") || S.tab; setTab(tab);
   mountSearch($("#q2"), $("#res2"));
   window.scrollTo(0, 0); $("h1", rd).focus({ preventScroll: true });
@@ -546,6 +576,8 @@ document.addEventListener("toggle", async e => {
     body.innerHTML = `<button class="more" hidden></button>` + (r.paras.map((p, i) => para(p, ctx).replace("<p ", `<p data-i="${i}" `)).join("") || `<p class="small">No text was found for this rule.</p>`)
       + (r.notes.length ? `<details class="notes"><summary>Amendment notes (${r.notes.length})</summary><ol>${r.notes.map(x => `<li>${esc(x)}</li>`).join("")}</ol></details>` : "");
     body.dataset.done = "1"; ruleView(d);
+    if (S.idx.sets[d.dataset.set].ai) getJSON(`data/ai/r/${d.dataset.set}.json`).then(ai => { const e = ai[d.dataset.rule];
+      if (e && !$(".aibox", body)) body.insertAdjacentHTML("afterbegin", `<details class="aibox"><summary>Explain this rule in simple words</summary>${aiHTML(e, "rule")}</details>`); }).catch(() => {});
   } catch (err) { body.innerHTML = `<p class="small">Could not load this rule. Check your connection and open it again.</p>`; }
 }, true);
 
@@ -647,6 +679,29 @@ function openRule(k, r) {
   const lg = det.closest(".lowgroup"); if (lg) lg.open = true;
   det.open = true; setTimeout(() => det.scrollIntoView({ block: "center" }), 60);
 }
+
+function syncWide() {
+  const rd = $(".reader"), b = $(".tabs .wide"); if (!rd || !b) return;
+  rd.dataset.wide = S.wide ? "1" : "0"; b.setAttribute("aria-pressed", String(!!S.wide));
+  b.textContent = S.wide ? "Back to the section text" : "Widen";
+  b.title = S.wide ? "Show the section text beside the Rules again" : "Use the whole width for the Rules";
+}
+document.addEventListener("click", e => { if (e.target.closest(".tabs .wide")) { S.wide = !S.wide; syncWide(); } });
+
+/* the plain-language explanation written by the AI step */
+function aiHTML(e, what) {
+  const pts = e.points && e.points.length ? `<ul class="aipts">${e.points.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : "";
+  const terms = e.terms && e.terms.length ? `<h4>Hard words</h4><dl class="aiterms">${e.terms.map(t => `<dt>${esc(t.term)}</dt><dd>${esc(t.meaning)}</dd>`).join("")}</dl>` : "";
+  return `<p class="aisum">${esc(e.summary)}</p>${pts}<h4>Example</h4><p class="aiex">${esc(e.example)}</p>
+    ${e.watch ? `<p class="aiwatch"><b>Easy to mix up.</b> ${esc(e.watch)}</p>` : ""}${terms}
+    <p class="small ainote">Written by an AI from the text of this ${what}. The example is invented to illustrate it. It can contain mistakes. For study only: check the wording of the ${what} itself.</p>`;
+}
+async function fillAI(panel, d, key) {
+  const box = $("#aibox", panel); if (!box) return;
+  if (!(S.idx.ai_s || []).includes(d.n)) { box.innerHTML = `<h3>In simple words</h3><p class="small">An explanation of this section in simple words is not ready yet. They are written automatically in the background, so please check back later.</p>`; return; }
+  try { const e = await getJSON(`data/ai/s/${d.n}.json`); if (panel.dataset.key === key) box.innerHTML = `<h3>In simple words</h3>` + aiHTML(e, "section"); }
+  catch (err) { box.innerHTML = ""; }
+}
 function buildWeb(force) {
   const d = S.d, panel = $('.panel[data-p="deep"]'); if (!d || !panel) return;
   const W = panel.clientWidth || 600, key = `${d.n}|${W < 560 ? "n" : "w"}|${S.webLow ? 1 : 0}`;
@@ -657,7 +712,7 @@ function buildWeb(force) {
     ? `<li><a href="${it.href}"><b>${esc(it.id)}</b> ${esc(it.tip.replace(/^Section \S+\.\s*/, ""))}</a><span class="why">${esc(it.why)}</span>${it.q ? `<span class="why q">From the text: “${esc(it.q)}”</span>` : ""}</li>`
     : `<li><button class="lnk" data-set="${it.set}" data-rule="${esc(it.id)}"><b>Rule ${esc(it.id)}</b> ${esc(it.t || "")}</button><span class="why">${esc(it.why)}</span>${it.q ? `<span class="why q">From the text: “${esc(it.q)}”</span>` : ""}</li>`).join("")}</ul>`).join("");
   const sum = webSummary(d);
-  panel.innerHTML = `<h3>How section ${esc(d.n)} connects</h3>
+  panel.innerHTML = `${(S.idx.ai_s || []).length ? `<div class="ai" id="aibox"></div>` : ""}<h3>How section ${esc(d.n)} connects</h3>
     ${sum ? `<p class="sum">${esc(sum)}</p><p class="small">The explanations are written automatically from the wording of the provisions. The quoted text under each one is the evidence.</p>` : ""}
     ${groups.length ? `<p class="small">Click a circle to read that section. Click a square to read that rule.</p>
     <div class="webbox">${webSVG(d, W)}</div><p class="webcap" id="webcap" aria-live="polite">Hover or focus a circle or square to see what it is and why it is linked.</p>
@@ -667,6 +722,7 @@ function buildWeb(force) {
     ${groups.length ? `<details class="wlist"><summary>All connections as a list</summary>${lists}</details>` : ""}
     <h3 class="cases">Cases and judgments</h3>
     <p class="small">Decisions that interpret section ${esc(d.n)} (Supreme Court, High Courts, NCLT and NCLAT) will be added here. Not built yet.</p>`;
+  fillAI(panel, d, key);
 }
 (() => {
   const cap = (e, on) => { const n = e.target.closest && e.target.closest(".web .nd"), c = $("#webcap"); if (c && (n || !on)) { if (n && on) c.innerHTML = `<b>${esc(n.dataset.tip)}</b>${esc(n.dataset.why || "")}${n.dataset.q ? `<span class="q">From the text: “${esc(n.dataset.q)}”</span>` : ""}`; else c.textContent = "Hover or focus a circle or square to see what it is and why it is linked."; } };
