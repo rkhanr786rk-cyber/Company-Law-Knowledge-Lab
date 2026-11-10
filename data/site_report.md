@@ -7,4 +7,4 @@
 - Search words indexed: 3545
 - Sections with a plain-language explanation: 0
 - Rule sets with plain-language explanations: 0
-- Total site size: 4.0 MB
+- Total site size: 4.1 MB
