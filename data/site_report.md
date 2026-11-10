@@ -5,6 +5,6 @@
 - Rules searchable by title: 886
 - Defined terms found in section 2: 101
 - Search words indexed: 3545
-- Sections with a plain-language explanation: 0
+- Sections with a plain-language explanation: 450
 - Rule sets with plain-language explanations: 0
-- Total site size: 4.1 MB
+- Total site size: 5.0 MB
