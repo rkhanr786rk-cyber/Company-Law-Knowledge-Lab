@@ -160,6 +160,11 @@ def cites_companies_act(tail):
     return not re.match(r"\s*,?\s*19\d\d", tail[m.end(1):m.end(1) + 10])   # the old Companies Act, 1956
 
 
+def keep_ai(e):
+    """Only the parts of an AI explanation the page shows."""
+    return {k: e[k] for k in ("summary", "points", "example", "terms", "watch", "m", "d") if k in e}
+
+
 def snippet(text, start, width=200):
     """A short quotation around a citation, cut at word boundaries."""
     a, b = max(0, start - 70), min(len(text), start + width - 70)
@@ -239,7 +244,15 @@ def main():
             rule_paras[r["id"]] = paras
             body[r["rule"]] = {"t": title, "st": r["status"], "paras": paras, "notes": notes}
         dump(OUT / "data" / "r" / f"{k}.json", {"name": rs["name"], "rules": body})
-        set_index.append({"k": k, "name": rs["name"], "n": rs["rule_count"]})
+        ai_file = DATA / "ai" / "r" / f"{rs['id']}.json"
+        has_ai = False
+        if ai_file.exists():
+            ai_rules = {rn: keep_ai(e) for rn, e in json.loads(ai_file.read_text(encoding="utf-8")).items()}
+            if ai_rules:
+                (OUT / "data" / "ai" / "r").mkdir(parents=True, exist_ok=True)
+                dump(OUT / "data" / "ai" / "r" / f"{k}.json", ai_rules)
+                has_ai = True
+        set_index.append({"k": k, "name": rs["name"], "n": rs["rule_count"], "ai": has_ai})
 
     # ----- sections -----
     order = [s["section"] for s in sections]
@@ -346,9 +359,16 @@ def main():
         if chapters and s["chapter"] == chapters[-1]["c"]:
             chapters[-1]["last"] = s["section"]
 
+    ai_sections = []
+    for f in sorted((DATA / "ai" / "s").glob("*.json"), key=lambda f: sort_key(f.stem)) if (DATA / "ai" / "s").exists() else []:
+        if f.stem in valid:
+            (OUT / "data" / "ai" / "s").mkdir(parents=True, exist_ok=True)
+            dump(OUT / "data" / "ai" / "s" / f.name, keep_ai(json.loads(f.read_text(encoding="utf-8"))))
+            ai_sections.append(f.stem)
+
     dump(OUT / "data" / "index.json", {
         "act": ACT_NAME, "built": datetime.date.today().isoformat(),
-        "sections": rows, "chapters": chapters, "sets": set_index, "rules": rule_rows,
+        "sections": rows, "chapters": chapters, "sets": set_index, "rules": rule_rows, "ai_s": ai_sections,
     })
     dump(OUT / "data" / "fulltext.json", ft)
     dump(OUT / "data" / "defs.json", defs)
@@ -361,6 +381,8 @@ def main():
         f"- Rules searchable by title: {len(rule_rows)}",
         f"- Defined terms found in section 2: {len(defs)}",
         f"- Search words indexed: {len(ft)}",
+        f"- Sections with a plain-language explanation: {len(ai_sections)}",
+        f"- Rule sets with plain-language explanations: {sum(1 for x in set_index if x['ai'])}",
         f"- Total site size: {size / 1e6:.1f} MB",
     ]
     (DATA / "site_report.md").write_text("\n".join(report) + "\n", encoding="utf-8")
