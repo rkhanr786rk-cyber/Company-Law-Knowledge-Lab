@@ -1,0 +1,30 @@
+{
+ "summary": "This section generally stops companies from selling their shares at a price lower than their face value. Any shares sold this way are treated as legally invalid. However, an exception is allowed when converting debt into shares under certain official financial restructuring plans.",
+ "points": [
+  "Companies cannot issue shares at a discount except as allowed under section 54.",
+  "Any shares issued at a discount are completely void.",
+  "Companies may issue shares at a discount to creditors when converting debt under an official resolution plan or debt restructuring scheme by the Reserve Bank of India.",
+  "If a company breaks these rules, the company and any responsible officer face a penalty.",
+  "The penalty can be the amount raised through the discounted shares or five lakh rupees, whichever is less.",
+  "The company must also refund all money received with twelve percent interest per year from the issue date."
+ ],
+ "example": "Meera Textiles Private Limited faced severe financial trouble and could not pay the money it owed to its bank. To clear this debt, the company and the bank followed an approved Reserve Bank of India debt restructuring scheme. Under this official plan, Meera Textiles issued new shares to the bank at a discount to convert the unpaid debt into equity. Because this transaction strictly followed the statutory resolution plan guidelines permitted by the law, the discount was legally allowed and valid, unlike normal share issuances where discounts are strictly forbidden.",
+ "terms": [
+  {
+   "term": "void",
+   "meaning": "Not legally valid or binding."
+  },
+  {
+   "term": "creditors",
+   "meaning": "People or organizations to whom money is owed."
+  },
+  {
+   "term": "statutory resolution plan",
+   "meaning": "An official plan created according to the law to solve financial problems."
+  }
+ ],
+ "watch": "People often confuse general share sales with debt-to-equity conversions, but discounts are only allowed for specific official debt restructuring plans.",
+ "h": "1aad5c5a5305",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

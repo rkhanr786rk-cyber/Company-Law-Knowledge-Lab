@@ -1,0 +1,33 @@
+{
+ "summary": "This section explains how the Central Government can assign company investigations to the Serious Fraud Investigation Office. It details how other agencies must stop investigating once this happens, how the Serious Fraud Investigation Office conducts its probe, and the rules for arrest and bail regarding certain offenses. Finally, it outlines the reporting process and how reports are submitted to the Central Government.",
+ "points": [
+  "The Central Government can order the Serious Fraud Investigation Office to investigate a company based on a Registrar's report, a special resolution, public interest, or a government request.",
+  "Once a case is assigned to the Serious Fraud Investigation Office, any other investigating agency must stop its own investigation and transfer all relevant documents.",
+  "Current and past officers and employees of the company must provide all required information, documents, and assistance to the Investigating Officer.",
+  "Authorized officers of the Serious Fraud Investigation Office have the power to arrest persons based on written reasons.",
+  "The Serious Fraud Investigation Office must submit an investigation report to the Central Government upon completion."
+ ],
+ "example": "The Central Government decided that the affairs of Meera Textiles Private Limited needed a serious probe based on public interest. It issued an order assigning the investigation to the Serious Fraud Investigation Office. As soon as this happened, another state agency that had already started looking into the company had to stop its work and hand over all records to the Serious Fraud Investigation Office. An authorized officer from the Serious Fraud Investigation Office was designated to handle the probe. The employees and managers of Meera Textiles Private Limited were legally required to give all necessary documents, answers, and help to the officer. After completing the inquiry, the Serious Fraud Investigation Office submitted its final investigation report directly to the Central Government.",
+ "terms": [
+  {
+   "term": "Cognizable",
+   "meaning": "An offense for which a police officer or authorized officer can arrest a person without a warrant."
+  },
+  {
+   "term": "Bail",
+   "meaning": "The temporary release of an accused person awaiting trial, sometimes on payment of a deposit."
+  },
+  {
+   "term": "Interim report",
+   "meaning": "A preliminary report submitted before the final investigation is fully completed."
+  },
+  {
+   "term": "Disgorgement",
+   "meaning": "Giving up ill-gotten gains or undue advantages such as property, assets, or cash acquired through fraud."
+  }
+ ],
+ "watch": "Note that once the Serious Fraud Investigation Office takes over a case, other agencies must immediately stop their investigations and transfer their files.",
+ "h": "87102e099b44",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

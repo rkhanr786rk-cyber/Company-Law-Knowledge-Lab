@@ -1,0 +1,27 @@
+{
+ "summary": "This section protects existing court orders made for winding up a company right before the new law started. It ensures that these older orders continue to apply and operate normally. Any appeal against such an order must go to the same authority that handled appeals before the new law began.",
+ "points": [
+  "Existing winding up court orders made right before the new law started are not affected by this chapter.",
+  "The operation and enforcement of those prior court orders continue as before.",
+  "Appeals against those prior orders must be filed before the authority that was competent to hear them before the commencement of the Act."
+ ],
+ "example": "A court issued an official winding up order for Meera Textiles Private Limited immediately before the new Companies Act commenced. Following this order, one of the company's stakeholders wanted to challenge the decision. Because the order was made right before the Act started, the stakeholder filed the appeal before the exact same authority that had the power to hear such appeals before the commencement, rather than looking for a new forum.",
+ "terms": [
+  {
+   "term": "winding up",
+   "meaning": "The legal process of closing down a company and settling its affairs."
+  },
+  {
+   "term": "appeal",
+   "meaning": "A formal request to a higher authority to change a previous decision made by a court."
+  },
+  {
+   "term": "commencement",
+   "meaning": "The time when a new law or act starts to apply."
+  }
+ ],
+ "watch": "Note that many sections following this one have been omitted, but this section specifically preserves older court orders and their appeals.",
+ "h": "0b43477ea830",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,28 @@
+{
+ "summary": "Section 423 of the Companies Act, 2013 allows a person who is unhappy with an order from the Appellate Tribunal to appeal to the Supreme Court. This appeal must be based on a question of law and filed within sixty days of receiving the order. The Supreme Court can allow another sixty days if there is a good reason for the delay.",
+ "points": [
+  "Allows any person aggrieved by an Appellate Tribunal order to appeal to the Supreme Court.",
+  "Requires the appeal to be filed within sixty days from the date the order is received.",
+  "Limits the appeal strictly to questions of law arising out of the order.",
+  "Allows the Supreme Court to extend the time by up to another sixty days if there is sufficient cause for the delay."
+ ],
+ "example": "Aarav received an unfavorable order from the Appellate Tribunal regarding a dispute involving his company, Vertex Solutions Private Limited. Feeling that the Tribunal made a legal error in its decision, Aarav decided to take the matter further. He filed an appeal with the Supreme Court. Although the standard sixty-day window to file the appeal had already passed due to an unexpected medical emergency, the Supreme Court was satisfied that Aarav had sufficient cause for the delay. Consequently, the Court permitted him to file the appeal within the additional permissible time frame provided by the law.",
+ "terms": [
+  {
+   "term": "Appellate Tribunal",
+   "meaning": "A higher body that reviews decisions made by lower authorities."
+  },
+  {
+   "term": "Question of law",
+   "meaning": "An issue that involves how a law should be interpreted or applied, rather than a dispute over the basic facts."
+  },
+  {
+   "term": "Sufficient cause",
+   "meaning": "A good and acceptable reason for a delay."
+  }
+ ],
+ "watch": "Do not assume appeals can be filed for factual disagreements, as the law strictly requires a question of law.",
+ "h": "ee540433e640",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

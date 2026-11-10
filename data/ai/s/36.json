@@ -1,0 +1,30 @@
+{
+ "summary": "This section punishes anyone who tricks another person into financial deals using false promises or by hiding important facts. It applies when people are tricked into buying, selling, or underwriting securities, making a profit from securities, or getting bank credit. Anyone who does this faces serious legal action.",
+ "points": [
+  "It forbids making false, deceptive, or misleading statements, promises, or forecasts.",
+  "It forbids knowingly or recklessly misleading others.",
+  "It forbids deliberately hiding important facts to trick someone.",
+  "It applies to agreements involving acquiring, disposing of, subscribing for, or underwriting securities.",
+  "It applies to agreements made to secure a profit from the yield or value fluctuations of securities.",
+  "It applies to agreements made to obtain credit facilities from banks or financial institutions."
+ ],
+ "example": "Rohan is the director of Apex Industries Private Limited. He wants to secure a large business loan from a local bank and attract new investors to buy company shares. To make the company look much more successful than it really is, Rohan knowingly includes false financial forecasts in the documents and deliberately hides major debts that the company owes. Relying on these false papers, a group of investors agrees to subscribe for shares, and the bank approves a credit facility. Because Rohan used false statements and hidden facts to trick them into these agreements, he is legally liable for his fraudulent actions under the law.",
+ "terms": [
+  {
+   "term": "Securities",
+   "meaning": "Financial instruments like shares and bonds issued by a company."
+  },
+  {
+   "term": "Underwriting",
+   "meaning": "An agreement to take up any securities that are not bought by the public."
+  },
+  {
+   "term": "Recklessly",
+   "meaning": "Acting carelessly without caring whether the statement is true or false."
+  }
+ ],
+ "watch": "This section does not just apply to buying shares, it also covers tricking people into getting bank loans or making profits from securities.",
+ "h": "2386a98ce61c",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

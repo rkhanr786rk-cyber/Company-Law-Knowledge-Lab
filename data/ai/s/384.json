@@ -1,0 +1,29 @@
+{
+ "summary": "This section applies several Indian company law rules to foreign companies doing business in India. It covers topics like issuing debentures, keeping annual returns, maintaining books of accounts, registering property charges, and inspecting records. Certain rules apply directly, while others are modified by official rules.",
+ "points": [
+  "Applies debenture rules to foreign companies.",
+  "Applies annual return and corporate social responsibility rules subject to official modifications.",
+  "Requires foreign companies to keep books of account at their principal place of business in India.",
+  "Applies rules on charges to properties created or acquired by foreign companies.",
+  "Applies inspection rules to the Indian business of foreign companies."
+ ],
+ "example": "Global Tech Corp, a business incorporated outside India, opens an office in Mumbai called its principal place of business in India. To follow Section 384 of the Companies Act, Global Tech Corp must keep its books of account at this Mumbai office for all monies received and spent, sales and purchases made, and assets and liabilities related to its Indian business. When the company acquires a new property in India, it must also follow the standard registration rules for charges on that property. Additionally, the company must issue debentures, file annual returns, and permit inspection of its Indian business records according to the rules set for companies incorporated in India.",
+ "terms": [
+  {
+   "term": "debentures",
+   "meaning": "A type of debt instrument that a company issues to raise money."
+  },
+  {
+   "term": "charges",
+   "meaning": "A security or lien created on a company's property or assets as security for a loan."
+  },
+  {
+   "term": "books of account",
+   "meaning": "Financial records that show all money received and spent, sales, purchases, assets, and liabilities."
+  }
+ ],
+ "watch": "Do not assume all domestic company rules apply automatically, as some rules are modified by specific government regulations for foreign companies.",
+ "h": "f368410685e1",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

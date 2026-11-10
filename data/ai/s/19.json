@@ -1,0 +1,29 @@
+{
+ "summary": "This section generally stops a subsidiary company from holding shares in its holding company. It also forbids the holding company from allotting or transferring shares to its subsidiary, making any such transfer void. However, there are a few specific exceptions for when the subsidiary already held the shares or holds them in a special capacity.",
+ "points": [
+  "A company cannot hold shares in its holding company by itself or through nominees.",
+  "A holding company cannot allot or transfer its shares to its subsidiary company.",
+  "Any allotment or transfer of a holding company shares to its subsidiary is void.",
+  "Exceptions apply if the subsidiary holds shares as a legal representative, as a trustee, or if it was a shareholder before becoming a subsidiary.",
+  "The subsidiary can only vote at holding company meetings for shares held as a legal representative or trustee."
+ ],
+ "example": "Meera Textiles Private Limited is the holding company of Alpha Enterprises Private Limited. Alpha wants to buy some fresh shares issued by Meera Textiles. According to the law, Meera Textiles cannot allot or transfer any of its shares to Alpha Enterprises, and any such transfer is completely void. However, if Alpha Enterprises already owned a few shares in Meera Textiles before Alpha became a subsidiary, Alpha is allowed to keep those existing shares. If Alpha holds shares only as a trustee for someone else, it is also permitted to vote using those specific shares during Meera's meetings.",
+ "terms": [
+  {
+   "term": "Holding company",
+   "meaning": "A company that controls another company."
+  },
+  {
+   "term": "Subsidiary company",
+   "meaning": "A company that is controlled by another company."
+  },
+  {
+   "term": "Void",
+   "meaning": "Not legally valid or binding."
+  }
+ ],
+ "watch": "People often think a subsidiary can freely buy shares of its holding company, but the law strictly forbids it except in a few exact situations.",
+ "h": "83c939af9935",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

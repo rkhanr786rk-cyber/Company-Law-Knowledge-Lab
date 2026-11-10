@@ -1,0 +1,30 @@
+{
+ "summary": "This section explains how voting rights work in a Producer Company based on who its members are. It also allows companies to set rules for keeping membership and lets them limit voting to active members. Additionally, it bans anyone with a conflicting business interest from joining or staying as a member.",
+ "points": [
+  "If all members are individuals, every member gets one single vote regardless of shares or business patronage.",
+  "If members are only Producer Institutions, voting rights depend on their business participation last year, or their shareholding in the first year.",
+  "If members are a mix of individuals and Producer Institutions, voting rights are based on a single vote for every member.",
+  "The articles can restrict voting rights at meetings to active members only.",
+  "People with a business interest in conflict with the company cannot become members.",
+  "Members who later get a conflicting business interest must stop being members and be removed."
+ ],
+ "example": "Aarav Agro Producer Company Limited consists only of individual farmers. According to the company rules, each farmer holds a different number of shares. During the annual general meeting, a vote is held on buying a new tractor. Even though Farmer Rohan owns more shares than Farmer Priya, both Rohan and Priya get only one vote each. Later, Farmer Amit starts a rival grain business that competes directly with Aarav Agro Producer Company Limited. Because this creates a business conflict, Amit must lose his membership and is removed from the company as per the company articles.",
+ "terms": [
+  {
+   "term": "Producer Institutions",
+   "meaning": "Other producer companies or active groups of producers that are members of the company."
+  },
+  {
+   "term": "Articles",
+   "meaning": "The rulebook of a company that sets out internal management and member rights."
+  },
+  {
+   "term": "Patronage",
+   "meaning": "The use of the company's services or business participation by its members."
+  }
+ ],
+ "watch": "People often confuse shareholding with voting power, but individuals always get only one single vote regardless of how many shares they own.",
+ "h": "97b487ad454a",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

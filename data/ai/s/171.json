@@ -1,0 +1,29 @@
+{
+ "summary": "This section gives company members the right to view and copy the register of directors and key managers. The company must keep this register open during business hours and at every annual general meeting. If the company refuses access or fails to provide requested copies on time, the Registrar can step in and order them to do so immediately.",
+ "points": [
+  "Members can inspect the register of directors during normal business hours.",
+  "Members have the right to take notes or extracts from the register.",
+  "Members can ask for copies of the register, and the company must provide them free of cost within thirty days.",
+  "The register must be kept open for inspection during every annual general meeting for anyone attending.",
+  "If inspection is refused or copies are delayed past thirty days, the Registrar can order the company to provide them right away."
+ ],
+ "example": "Rohan is a member of Sharma Enterprises Private Limited. He visits the company office during business hours to look at the register of directors. The office staff lets him check the register and take notes. Rohan also asks for a free copy of the register. Weeks pass, but the company fails to send the copy within thirty days. Frustrated, Rohan applies to the Registrar. The Registrar reviews the situation and issues an order requiring Sharma Enterprises to supply the copies to Rohan immediately.",
+ "terms": [
+  {
+   "term": "register",
+   "meaning": "An official written record containing details about the directors and key managers of the company."
+  },
+  {
+   "term": "annual general meeting",
+   "meaning": "A yearly gathering of the company members to discuss business."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "An official government authority who handles company matters."
+  }
+ ],
+ "watch": "Make sure to note that copies must be given free of cost within thirty days only upon a member's request.",
+ "h": "05234d23fedd",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

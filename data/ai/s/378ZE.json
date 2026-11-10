@@ -1,0 +1,34 @@
+{
+ "summary": "This section requires every Producer Company to maintain proper books of account at its registered office. These records must cover money received and spent, goods bought and sold, debts, assets, liabilities, and production costs if applicable. It also requires the company to prepare its balance sheet and profit and loss accounts following specific legal rules.",
+ "points": [
+  "Every Producer Company must keep proper books of account at its registered office.",
+  "The books must record all money received and spent along with the reasons for them.",
+  "The books must record all sales and purchases of goods.",
+  "The books must record all instruments of liability, assets, and liabilities.",
+  "Companies involved in production or manufacturing must track the use of materials, labour, and other costs.",
+  "The balance sheet and profit and loss accounts must be prepared following section 129."
+ ],
+ "example": "Meera Textiles Producer Company Limited operates a small factory making cotton garments. To follow the law, the managers keep all their financial records at their official registered office. They carefully write down every sum of money they receive from selling shirts and every amount they spend on buying raw cotton. They also record their debts, what equipment they own, and the exact amount of labor and materials used in their manufacturing process. At the end of the year, they prepare their balance sheet and profit and loss accounts following the required rules.",
+ "terms": [
+  {
+   "term": "Producer Company",
+   "meaning": "A type of company formed by people engaged in agricultural or related activities, registered under the Act."
+  },
+  {
+   "term": "Books of account",
+   "meaning": "The official financial records where a company writes down all its money matters."
+  },
+  {
+   "term": "Registered office",
+   "meaning": "The official main address of the company."
+  },
+  {
+   "term": "Instruments of liability",
+   "meaning": "Official documents that show the company owes money or has financial obligations."
+  }
+ ],
+ "watch": "Do not forget that these records must be kept specifically at the registered office of the company.",
+ "h": "958024706338",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

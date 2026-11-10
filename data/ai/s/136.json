@@ -1,0 +1,33 @@
+{
+ "summary": "This section requires a company to send copies of its financial statements and auditor's report to its members and debenture trustees at least twenty-one days before a general meeting. If sent later, specific majority approvals from members can validate the sending. Listed companies have special rules allowing them to make documents available for inspection and send salient features instead, and they must also publish these documents on their website.",
+ "points": [
+  "The company must send financial statements, auditor reports, and attached documents to every member and debenture trustee at least twenty-one days before the general meeting.",
+  "Documents sent less than twenty-one days before the meeting are still considered duly sent if agreed by the required majority of voting members.",
+  "Listed companies can satisfy requirements by keeping documents open for inspection at their registered office and sending a statement of salient features instead, unless full statements are requested.",
+  "Listed companies must place their financial statements and separate audited accounts of each subsidiary on their website.",
+  "Every company must let members and debenture trustees inspect these documents at its registered office during business hours."
+ ],
+ "example": "Meera Textiles Private Limited is preparing for its upcoming annual general meeting where financial statements will be presented. The company is required to send copies of the financial statements and the auditor's report to every member and debenture trustee at least twenty-one days before the date of the meeting. Rohan, a member of the company, requests to inspect these documents beforehand. Meera Textiles must allow Rohan to inspect the required documents at its registered office during business hours. If the company fails to follow these rules, it faces a penalty of twenty-five thousand rupees, and every officer in default faces a penalty of five thousand rupees.",
+ "terms": [
+  {
+   "term": "General meeting",
+   "meaning": "A formal gathering of a company's shareholders or members to discuss and vote on business matters."
+  },
+  {
+   "term": "Debenture-holder",
+   "meaning": "A person or entity that holds a type of debt security issued by a company, acting as a lender to the company."
+  },
+  {
+   "term": "Registered office",
+   "meaning": "The official official address of a company where legal documents and notices can be sent and inspected."
+  },
+  {
+   "term": "Subsidiary",
+   "meaning": "A company that is controlled by another company, known as the holding company."
+  }
+ ],
+ "watch": "People often confuse the twenty-one-day advance sending rule with the rule allowing a shorter time if a specific high majority of members agree.",
+ "h": "3550b205c9fa",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

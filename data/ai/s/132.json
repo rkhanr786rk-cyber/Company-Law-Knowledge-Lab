@@ -1,0 +1,29 @@
+{
+ "summary": "This section allows the Central Government to set up the National Financial Reporting Authority to oversee accounting and auditing standards. The Authority can recommend rules, monitor compliance, and investigate chartered accountants for misconduct. If misconduct is proved, the Authority has the power to punish individuals and firms with penalties and debarment.",
+ "points": [
+  "The Central Government may set up a National Financial Reporting Authority by notification.",
+  "The Authority recommends accounting and auditing policies to the Central Government.",
+  "The Authority can investigate chartered accountants or firms for professional misconduct.",
+  "The Authority has the same powers as a civil court to inspect documents and summon people.",
+  "The Authority can impose fines and debar members or firms if misconduct is proved."
+ ],
+ "example": "The Central Government sets up the National Financial Reporting Authority. Later, the Authority receives a complaint regarding an audit done by Mehta Accountants for Alpha Textiles Private Limited. The Authority uses its civil court powers to order the firm to produce its account books and examine witnesses. After looking into the matter, the Authority finds the firm guilty of professional misconduct. It imposes a financial penalty and bars Mehta Accountants from taking up any company audits for a specified period.",
+ "terms": [
+  {
+   "term": "Suo motu",
+   "meaning": "Acting on one's own accord or initiative without any outside prompt or reference."
+  },
+  {
+   "term": "Debarring",
+   "meaning": "Officially stopping or forbidding someone from doing a particular job or task."
+  },
+  {
+   "term": "Civil court",
+   "meaning": "A court that deals with non-criminal cases and disputes, having powers to summon witnesses and demand documents."
+  }
+ ],
+ "watch": "People often confuse the Authority's power to investigate misconduct with the powers of other institutes, but no other body can continue proceedings once the Authority starts its investigation.",
+ "h": "455c39f3dab2",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

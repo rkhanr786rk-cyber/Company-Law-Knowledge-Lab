@@ -1,0 +1,29 @@
+{
+ "summary": "If a company applies to remove its name just to escape its debts or cheat people, the managers remain responsible even after the company is closed. They must pay for any loss caused by the closure and can be punished for fraud. Additionally, the Registrar can recommend prosecuting the people who filed the application.",
+ "points": [
+  "Applies when a company requests name removal to evade liabilities or deceive creditors and others.",
+  "Managers in charge remain responsible even after the company is officially dissolved.",
+  "Responsible persons are jointly and severally liable to anyone who suffers loss from the dissolution.",
+  "Violators are punishable for fraud under section 447.",
+  "The Registrar may recommend the prosecution of the persons who filed the application."
+ ],
+ "example": "Aarav Industries Private Limited had many unpaid bills to suppliers and banks. To escape paying these debts, the managers filed an application to remove the company name from the register. Later, the suppliers suffered heavy financial losses because the company was dissolved without paying them. Under this law, the managers who ran Aarav Industries are jointly and severally liable to pay back those suppliers. They are also punishable for fraud, and the Registrar can recommend their prosecution for filing that fraudulent application.",
+ "terms": [
+  {
+   "term": "dissolved",
+   "meaning": "Officially closed or ended as a company."
+  },
+  {
+   "term": "jointly and severally liable",
+   "meaning": "A legal rule meaning the people responsible can be sued together or individually for the full amount of the loss."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "The government official who keeps records of companies."
+  }
+ ],
+ "watch": "People often think that closing a company ends all personal liability for its debts, but fraud makes managers fully responsible.",
+ "h": "f963977c35c1",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

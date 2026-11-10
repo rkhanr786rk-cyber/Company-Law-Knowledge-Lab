@@ -1,0 +1,24 @@
+{
+ "summary": "This section protects certain private information from being forced out during company investigations. Legal advisors do not have to share confidential talks with their clients, except for the client's name and address. Bankers also do not have to share details about other people's accounts who are not the specific company or person being investigated.",
+ "points": [
+  "Legal advisors do not have to disclose privileged communications made to them in their professional capacity.",
+  "Legal advisors must still disclose the name and address of their client if asked.",
+  "Bankers do not have to disclose information about the affairs of their customers.",
+  "Bankers must disclose information about the specific company, body corporate, or person under investigation."
+ ],
+ "example": "Inspector Rao was investigating Metro Retail Private Limited under the Companies Act. During the inquiry, the inspector asked Metro's lawyer, Mr. Sen, to hand over all private notes taken during confidential legal consultations. Mr. Sen refused, stating the law protected those secret discussions, though he did provide the client's name and address. Next, the inspector visited Apex Bank and demanded the private bank statements of an unrelated local store, Sunshine Bakery, which banked at the same branch. The bank manager refused to share Sunshine Bakery's details, explaining that the law only allowed the inspector to see information relating directly to Metro Retail Private Limited and no other customers.",
+ "terms": [
+  {
+   "term": "Privileged communication",
+   "meaning": "A private conversation or document between a lawyer and a client that is kept secret by law."
+  },
+  {
+   "term": "Body corporate",
+   "meaning": "A legal term for a corporation or company."
+  }
+ ],
+ "watch": "Remember that while general customer and client details are protected, banks and lawyers must still hand over information about the specific subject of the investigation.",
+ "h": "308c04625e16",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

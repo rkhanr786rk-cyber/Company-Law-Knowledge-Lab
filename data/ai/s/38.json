@@ -1,0 +1,34 @@
+{
+ "summary": "This section forbids applying for company shares or bonds using a fake name, making multiple applications with different name variations, or tricking a company into giving securities to a fake name. Anyone who does this faces serious legal action. The warning must also be printed on every share application form and prospectus.",
+ "points": [
+  "Applies to anyone who makes or helps make an application in a fake name to get securities.",
+  "Bans making multiple applications in different names or name combinations for securities.",
+  "Forbids tricking a company directly or indirectly to allot or transfer securities to a fake name.",
+  "Requires companies to print the rules of this section clearly on every prospectus and application form.",
+  "Allows the Court to order the surrender of any illegal gains and the seizure and disposal of the securities upon conviction.",
+  "Requires all money collected from surrendered gains or sold securities to go to the Investor Education and Protection Fund."
+ ],
+ "example": "Aarav wanted to buy many shares in Sunrise Tech Private Limited during their public offering. To increase his chances, he filled out one application form using his own name, and another application form using a completely fake name, Raj Kumar. He also helped his friend use a combination of different surnames on multiple forms. Sunrise Tech Private Limited had printed the warning about fake applications on all their forms as required by law. When the company discovered these fake and multiple applications, Aarav became liable for serious legal punishment under the law, and a court could order him to give up any illegal profits he made.",
+ "terms": [
+  {
+   "term": "Securities",
+   "meaning": "Financial instruments like shares or bonds issued by a company."
+  },
+  {
+   "term": "Fictitious name",
+   "meaning": "A fake, untrue, or made-up name."
+  },
+  {
+   "term": "Abets",
+   "meaning": "Helps, encourages, or assists someone in doing something."
+  },
+  {
+   "term": "Disgorgement",
+   "meaning": "Giving up illegally obtained profits or gains."
+  }
+ ],
+ "watch": "Note that this section applies to anyone who uses fake names or multiple applications, not just company directors.",
+ "h": "25568302ecdd",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

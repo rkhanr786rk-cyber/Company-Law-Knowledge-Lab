@@ -1,0 +1,32 @@
+{
+ "summary": "Section 126 of the Companies Act, 2013, deals with situations where share transfer papers are given to a company, but the transfer is not yet officially registered. In such cases, the company must hold back certain benefits linked to those shares. This protects both parties until the legal registration is complete.",
+ "points": [
+  "The company must move any dividend for the shares into a special Unpaid Dividend Account.",
+  "The company can pay the dividend to the buyer only if the registered owner gives a written authorization.",
+  "The company must keep any offer of rights shares on hold.",
+  "The company must also keep any fully paid-up bonus shares on hold."
+ ],
+ "example": "Meera Textiles Private Limited received a transfer deed from Rahul, who bought shares from Priya, but the company has not yet registered the transfer in its books. Meanwhile, Meera Textiles declares a dividend and issues bonus shares. Because the transfer is still pending, the company cannot immediately hand over the bonus shares to Rahul, nor can it pay him the dividend unless Priya gives a written note allowing the company to pay Rahul directly. Instead, the company must safely transfer that dividend amount into its Unpaid Dividend Account and keep the bonus shares on hold until the registration process is fully completed.",
+ "terms": [
+  {
+   "term": "held in abeyance",
+   "meaning": "Temporarily kept on hold or paused."
+  },
+  {
+   "term": "instrument of transfer",
+   "meaning": "The written document or form used to transfer shares from one person to another."
+  },
+  {
+   "term": "rights shares",
+   "meaning": "New shares offered to existing shareholders at a special price."
+  },
+  {
+   "term": "bonus shares",
+   "meaning": "Extra free shares given by a company to its current shareholders."
+  }
+ ],
+ "watch": "Do not assume the buyer automatically gets the dividend or bonus shares before the company officially registers the transfer.",
+ "h": "c8dda2d6765b",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,23 @@
+{
+ "summary": "This section explains how many members must be present at a general meeting to make the meeting valid. At least one-fourth of all members must attend, unless the company articles demand a bigger number. If this minimum number is not present, official business cannot be conducted.",
+ "points": [
+  "One-fourth of the total membership forms the quorum for a general meeting.",
+  "The articles of the company can require a larger number of members for a quorum.",
+  "The rule applies unless the articles specify a higher requirement."
+ ],
+ "example": "Meera Textiles Private Limited has a total membership of one hundred members. The company is planning to hold a general meeting to discuss important business matters. According to the rules in this section, at least one-fourth of the total membership, which means twenty-five members, must be present to form a quorum and start the meeting. However, if the company articles state that a larger number such as forty members are needed, then forty members must attend instead. Without this required minimum number of members present, the general meeting cannot legally proceed with its decisions.",
+ "terms": [
+  {
+   "term": "Quorum",
+   "meaning": "The minimum number of members who must be present to lawfully conduct a meeting."
+  },
+  {
+   "term": "Articles",
+   "meaning": "The internal rules and regulations that govern how a company is managed."
+  }
+ ],
+ "watch": "A common confusion is thinking a company can choose a smaller quorum than one-fourth, but the law only allows a larger number.",
+ "h": "8f660669feb9",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

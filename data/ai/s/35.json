@@ -1,0 +1,29 @@
+{
+ "summary": "This section explains that if someone suffers a loss because they relied on a misleading prospectus, the company and certain responsible people must pay compensation. These responsible people include directors, promoters, and experts. However, a person can avoid liability if they prove they withdrew their consent, did not know about the issue and gave public notice, or relied correctly on an expert's true statement.",
+ "points": [
+  "Requires the company and responsible individuals to pay compensation for losses caused by misleading statements or omissions in a prospectus.",
+  "Applies liability to current directors, people named or agreeing to be directors, promoters, those who authorized the prospectus, and listed experts.",
+  "Allows a person to escape liability if they prove they withdrew consent before the prospectus was issued.",
+  "Allows a person to escape liability if the prospectus was issued without their knowledge and they promptly gave public notice upon finding out.",
+  "Holds individuals personally and fully responsible without liability limits if the prospectus was issued with the intent to defraud."
+ ],
+ "example": "Aarav decided to buy shares in a new company named Meera Textiles Private Limited because the official prospectus stated that the company owned a large factory in the city center. Aarav relied on this statement and bought the shares. Later, he discovered that the company never owned that factory and the statement was completely misleading, causing him to suffer a financial loss. Under this law, Aarav can claim compensation for his loss from the company, its directors, and its promoters. However, if a director proves they formally withdrew their name and consent before the prospectus was ever issued, that specific director will not have to pay Aarav any compensation for the loss.",
+ "terms": [
+  {
+   "term": "Prospectus",
+   "meaning": "An official document inviting the public to buy securities or shares in a company."
+  },
+  {
+   "term": "Promoter",
+   "meaning": "A person who helps start, form, or set up the company and its business."
+  },
+  {
+   "term": "Expert",
+   "meaning": "A professional whose opinion or report is included in the prospectus, such as an engineer or valuer."
+  }
+ ],
+ "watch": "People often think all directors are automatically punished, but the law allows certain defenses if they lacked knowledge or withdrew consent.",
+ "h": "1a4ea978264a",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

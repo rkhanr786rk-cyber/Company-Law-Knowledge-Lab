@@ -1,0 +1,29 @@
+{
+ "summary": "This section explains how a company's winding up process finally comes to an end. Once the Official Liquidator is sure the company is completely wound up, a final report is sent to the Central Government or the Tribunal. After receiving this report, an order is made to dissolve the company, and its name is removed from the official register.",
+ "points": [
+  "The Official Liquidator must submit a final report when satisfied that the company is finally wound up.",
+  "The report goes to the Central Government if no reference was made to the Tribunal under section 364.",
+  "The report goes to both the Central Government and the Tribunal in all other cases.",
+  "The Central Government or the Tribunal must order the company to be dissolved after receiving the final report.",
+  "The Registrar must remove the company's name from the official register and publish a notification once the dissolution order is made."
+ ],
+ "example": "Meera Textiles Private Limited went through a winding up process handled by an Official Liquidator. Once the liquidator was fully satisfied that the winding up was complete, he prepared a final report. Since the case involved the Tribunal, the liquidator submitted this final report to both the Central Government and the Tribunal. Upon receiving the report, the authorities made an order stating that Meera Textiles Private Limited is dissolved. Following this order, the Registrar removed the company name from the register of companies and published a notification to let everyone know.",
+ "terms": [
+  {
+   "term": "Official Liquidator",
+   "meaning": "An officer appointed to manage the winding up of a company."
+  },
+  {
+   "term": "Dissolved",
+   "meaning": "Officially closed down or brought to an end."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "The official in charge of keeping the records of companies."
+  }
+ ],
+ "watch": "Make sure to note whether the report goes only to the Central Government or to both the Central Government and the Tribunal, depending on the case.",
+ "h": "71b186adaa48",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

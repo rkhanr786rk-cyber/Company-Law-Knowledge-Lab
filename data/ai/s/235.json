@@ -1,0 +1,33 @@
+{
+ "summary": "When a company offers to buy shares in another company and a large majority of shareholders agree, the buying company can force the remaining shareholders who said no to sell their shares too. The buying company must send a formal notice to these objecting shareholders within a specific time limit. The objecting shareholders can ask the Tribunal to stop this, but if they do not, the buying company proceeds to acquire the shares and pays for them.",
+ "points": [
+  "Allows a transferee company to acquire shares of dissenting shareholders if a scheme is approved by holders of at least nine-tenths in value of the involved shares within four months of the offer.",
+  "Requires the transferee company to give notice to dissenting shareholders within two months after the expiry of the initial four-month period.",
+  "Gives dissenting shareholders one month from the notice date to apply to the Tribunal to order otherwise.",
+  "Requires the transferor company to register the transferee company as the share holder and inform the dissenting shareholders within one month of registration.",
+  "Mandates that any money received for the shares must be put in a separate bank account, held in trust, and paid out to entitled shareholders within sixty days."
+ ],
+ "example": "Sunrise Pharma Limited wants to buy all shares of Mehta Diagnostics Private Limited. Sunrise Pharma makes an offer, and within four months, holders of ninety-five percent of the shares agree to the deal. However, Mr. Verma, a shareholder holding a small portion, refuses to sell. Within two months, Sunrise Pharma sends a formal notice to Mr. Verma stating its desire to acquire his shares. Mr. Verma does not apply to the Tribunal within one month. Consequently, Sunrise Pharma completes the process, and Mehta Diagnostics registers Sunrise Pharma as the holder of Mr. Verma's shares, holding the payment in trust to disburse to Mr. Verma later.",
+ "terms": [
+  {
+   "term": "transferee company",
+   "meaning": "The company that is buying or receiving the shares."
+  },
+  {
+   "term": "transferor company",
+   "meaning": "The company whose shares are being transferred or bought."
+  },
+  {
+   "term": "dissenting shareholder",
+   "meaning": "A shareholder who has not agreed to the scheme or contract, or has failed or refused to transfer their shares."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "The judicial body specified under the law to handle company disputes."
+  }
+ ],
+ "watch": "Watch out for the strict deadlines: the notice must be given within the allowed two-month window after the four-month offer period expires.",
+ "h": "45a0e32e223b",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

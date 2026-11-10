@@ -1,0 +1,29 @@
+{
+ "summary": "This section explains how courts can pause or stop legal actions against a company that is in the process of winding up. When a creditor asks, this protection also applies to legal actions against any contributory of the company. It applies specifically to companies registered under this part of the Act.",
+ "points": [
+  "Applies rules for stopping suits and legal proceedings against a company after a winding up petition is presented.",
+  "Applies before a final winding up order is actually made.",
+  "Applies to companies registered under this specific part of the law.",
+  "Takes effect when a creditor makes an application to stay or restrain proceedings.",
+  "Extends protection against legal actions to any contributory of the company."
+ ],
+ "example": "Meera Textiles Private Limited was going through the process of winding up. Before the final winding up order was made, a creditor of the company filed a new lawsuit against Rohan, who was a contributory of Meera Textiles Private Limited. Because the rules on staying legal proceedings extend to contributories when requested by a creditor, the court used its power under this section to pause the lawsuit against Rohan while the company's winding up process continued.",
+ "terms": [
+  {
+   "term": "Winding up",
+   "meaning": "The legal process of closing down a company and settling its affairs."
+  },
+  {
+   "term": "Creditor",
+   "meaning": "A person or business that the company owes money to."
+  },
+  {
+   "term": "Contributory",
+   "meaning": "A person liable to contribute to the assets of a company in the event of its being wound up."
+  }
+ ],
+ "watch": "Do not assume this protection applies automatically without a creditor making an application to the court.",
+ "h": "9f3c97d276b6",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

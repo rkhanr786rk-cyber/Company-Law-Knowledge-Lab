@@ -1,0 +1,29 @@
+{
+ "summary": "This section allows a foreign company that stopped doing business in India to be wound up under Indian law. It applies even if the company has already been dissolved or ended in its home country. This winding up happens just like an unregistered company.",
+ "points": [
+  "Applies to bodies corporate incorporated outside India.",
+  "Requires that the company previously carried on business in India.",
+  "Applies when the company ceases to carry on business in India.",
+  "Permits winding up as an unregistered company under this Part.",
+  "Applies even if the company was dissolved or ceased to exist under foreign laws."
+ ],
+ "example": "Alpha Logistics Corp is a shipping business incorporated in Singapore that operated a branch office in Mumbai, India. Last month, Alpha Logistics officially shut down its operations and ceased all business activities in India. Shortly after, the company also went through formal legal dissolution under Singaporean law, effectively ending its existence there. Despite Alpha Logistics being completely dissolved in Singapore, Indian authorities can still initiate winding-up proceedings against it in India as an unregistered company because it previously carried on business here.",
+ "terms": [
+  {
+   "term": "body corporate",
+   "meaning": "A legal term for an organization or company that has a legal existence separate from its owners."
+  },
+  {
+   "term": "wound up",
+   "meaning": "The process of closing down a company, paying off its debts, and distributing any remaining assets."
+  },
+  {
+   "term": "dissolved",
+   "meaning": "Officially closed or legally terminated as a company."
+  }
+ ],
+ "watch": "People often think that closing or dissolving a foreign company in its home country stops India from winding it up, but this section allows the winding up to happen anyway.",
+ "h": "a0e5023af205",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,30 @@
+{
+ "summary": "This section restricts companies from buying their own shares unless the reduction follows the proper legal process. It also stops public companies from giving financial help to anyone buying shares in the company or its holding company. However, certain exceptions exist for banks, employee share schemes, and loans to regular workers.",
+ "points": [
+  "Companies cannot buy their own shares unless reducing share capital under the Act.",
+  "Public companies cannot give direct or indirect financial assistance to buy or subscribe for their shares or their holding company shares.",
+  "Banking companies can lend money in their ordinary course of business.",
+  "Companies can provide money for approved employee share schemes if backed by a special resolution.",
+  "Companies can give loans to non-director and non-key employees up to six months of salary to buy fully paid-up shares.",
+  "Companies retain the right to redeem preference shares."
+ ],
+ "example": "Meera Textiles Public Limited wanted to help Rahul, an ordinary worker in the factory, buy shares in the company. The management decided to give Rahul a loan equal to four months of his salary so he could purchase fully paid-up shares to hold as the beneficial owner. Because Rahul is a regular employee and not a director or key managerial personnel, and the loan amount is within the six-month salary limit allowed by the law, this financial assistance is permitted under the rules.",
+ "terms": [
+  {
+   "term": "Holding company",
+   "meaning": "A company that controls another company, known as its subsidiary."
+  },
+  {
+   "term": "Special resolution",
+   "meaning": "A formal decision passed by a high majority of shareholders."
+  },
+  {
+   "term": "Redeem",
+   "meaning": "To buy back or repay preference shares as per the terms of issue."
+  }
+ ],
+ "watch": "Note that the ban on financial assistance applies specifically to public companies, while employee loan exceptions have strict limits.",
+ "h": "45e876aa6b5e",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

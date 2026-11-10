@@ -1,0 +1,28 @@
+{
+ "summary": "This section ensures that when an inter-State co-operative society transforms into a Producer Company, all of its existing government benefits and privileges automatically transfer to the new company. From the exact date of transformation, any licenses, tax reliefs, or exemptions the society previously held will apply to the Producer Company as if they were granted directly to it. This makes the transition smooth without needing to reapply for official permissions.",
+ "points": [
+  "Transformation of an inter-State co-operative society into a Producer Company triggers this rule.",
+  "All fiscal concessions, licenses, benefits, privileges, and exemptions are transferred.",
+  "The transferred benefits must have been granted in connection with the affairs and business of the society.",
+  "The benefits are treated as if they were originally granted to the resulting Producer Company."
+ ],
+ "example": "Greenfields Inter-State Co-operative Society decided to change its legal form and registered as Greenfields Producer Company Limited to expand its agricultural business. Before the transformation, the co-operative society held a special tax exemption and a state trade license for running its supply chain under existing laws. Under this section, the transformation means Greenfields Producer Company Limited does not lose these advantages. Instead, the tax exemption and trade license are legally deemed to have been granted directly to Greenfields Producer Company Limited from the exact date of its transformation, allowing the business to continue operating smoothly without interruption.",
+ "terms": [
+  {
+   "term": "Transformation",
+   "meaning": "The process of changing from one legal form, like a co-operative society, into another, like a company."
+  },
+  {
+   "term": "Fiscal concessions",
+   "meaning": "Financial benefits or tax reliefs given by the government."
+  },
+  {
+   "term": "Deemed",
+   "meaning": "Treated by law as if something is true, even if it happened differently."
+  }
+ ],
+ "watch": "Do not assume this means new benefits are created; it only transfers existing ones from the old society to the new company.",
+ "h": "287d29789e20",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

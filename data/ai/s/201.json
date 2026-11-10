@@ -1,0 +1,25 @@
+{
+ "summary": "Section 201 of the Companies Act, 2013 explains the rules for asking the Central Government for approval regarding managerial appointments. A company must use a specific form and inform its members by publishing a notice in local newspapers before sending the application. Finally, the company must attach copies of these notices and a publication certificate to the government application.",
+ "points": [
+  "Applications to the Central Government under section 196 must be made in a prescribed form.",
+  "The company must issue a general notice to its members indicating the nature of the proposed application.",
+  "The notice must be published at least once in a local language newspaper circulating in the district of the registered office.",
+  "The notice must also be published at least once in an English newspaper circulating in that district.",
+  "Copies of the published notices and a certificate confirming due publication must be attached to the application."
+ ],
+ "example": "Meera Textiles Private Limited wanted to apply to the Central Government under section 196 regarding managerial personnel. Before sending the application, the company issued a general notice to all its members to inform them about the plan. They published this notice once in a regional language newspaper and once in an English newspaper, both circulating in the district where their registered office was located. When they finally submitted the official application form to the Central Government, they carefully attached copies of the published notices along with a certificate confirming that the notices were properly published.",
+ "terms": [
+  {
+   "term": "Central Government",
+   "meaning": "The national government of the country."
+  },
+  {
+   "term": "Registered office",
+   "meaning": "The official main address of the company."
+  }
+ ],
+ "watch": "Make sure to publish the notice in both the local language newspaper and the English newspaper.",
+ "h": "dacb3f71e150",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

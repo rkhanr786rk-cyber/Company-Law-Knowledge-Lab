@@ -1,0 +1,33 @@
+{
+ "summary": "This section allows a member of a company or the Central Government to apply to the Tribunal for relief when company affairs are run unfairly or harmfully. A member must meet certain legal rights to apply. The Central Government can also ask the Tribunal to check if a manager or director is fit for office due to fraud or bad practices.",
+ "points": [
+  "A member of a company may apply to the Tribunal if company affairs harm the public, the company, or any member.",
+  "A member may apply if a major change in management or control is likely to harm the company or its members.",
+  "The Central Government can apply to the Tribunal if company affairs harm the public interest.",
+  "The Central Government can refer a case to the Tribunal if a person managing the company is guilty of fraud, negligence, or breach of trust.",
+  "Applications by the Central Government must include a short statement of facts and be signed properly."
+ ],
+ "example": "Aarav runs Aarav Plastics Private Limited with several other members. Aarav notices that the majority owners are changing the management and control in a way that is likely to harm the company and its members. Because Aarav has the right to apply under the law, Aarav files an application to the Tribunal to get relief. At the same time, the Central Government feels that the business is being run with intent to defraud creditors and refers the case to the Tribunal to decide if the manager is fit to hold office.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A special official body or court that handles company law cases."
+  },
+  {
+   "term": "Oppressive",
+   "meaning": "Unfair, harsh, or burdensome treatment of members."
+  },
+  {
+   "term": "Misfeasance",
+   "meaning": "Doing a lawful act in an unlawful or wrongful way."
+  },
+  {
+   "term": "Respondent",
+   "meaning": "The person who has to answer a legal claim or application."
+  }
+ ],
+ "watch": "Note that members must have the proper right to apply under section 244 before making an application.",
+ "h": "43b1491bfb87",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

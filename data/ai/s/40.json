@@ -1,0 +1,30 @@
+{
+ "summary": "This section requires companies offering shares to the public to first get permission from a recognized stock exchange. It also mandates keeping public subscription money in a separate bank account and using it only for specific purposes like share allotment or refunds. Any agreement asking applicants to give up these rights is completely invalid, and breaking these rules leads to heavy fines for both the company and responsible officers.",
+ "points": [
+  "A company making a public offer must apply to a recognized stock exchange for permission to trade its securities before making the offer.",
+  "The prospectus must name the specific stock exchanges where the securities will be traded if an application was made.",
+  "All application money received from the public must be stored in a separate bank account with a scheduled bank.",
+  "Public subscription money can only be used to adjust against allotted securities or to repay applicants if the company cannot allot securities.",
+  "Any condition that forces an applicant to waive compliance with this section's rules is void.",
+  "Failing to follow these provisions results in fines for the company and officers in default, and the company may pay commission for subscriptions under prescribed conditions."
+ ],
+ "example": "Meera Textiles Private Limited planned to launch a public offer to raise funds for its new factory. Before issuing the offer, the company applied to the National Stock Exchange to get permission for its shares to be traded there, and it clearly named the exchange in its prospectus. When the public sent in application money, Meera Textiles safely deposited all these funds into a separate account at a scheduled bank, rather than mixing them with its daily business earnings. Since the share allotment was successful, the company used the application money for the allotment, strictly following the legal requirements without breaking any rules.",
+ "terms": [
+  {
+   "term": "Prospectus",
+   "meaning": "An official document inviting the public to buy shares or securities in a company."
+  },
+  {
+   "term": "Scheduled bank",
+   "meaning": "A bank listed in the second schedule of the Reserve Bank of India Act, 1934."
+  },
+  {
+   "term": "Void",
+   "meaning": "Having no legal force or effect, meaning it is completely invalid."
+  }
+ ],
+ "watch": "Watch out for the rule that public subscription money cannot be mixed with regular company funds and must be kept in a separate scheduled bank account.",
+ "h": "df8eb190d470",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

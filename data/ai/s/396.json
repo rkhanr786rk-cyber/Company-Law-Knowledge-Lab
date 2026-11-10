@@ -1,0 +1,29 @@
+{
+ "summary": "The Central Government can set up registration offices in different places to register companies and handle other duties under the Act. It can also appoint officers like Registrars to manage these offices and perform assigned tasks. Additionally, the government decides their salaries and service rules, and can create official seals for company documents.",
+ "points": [
+  "The Central Government sets up registration offices at places it chooses by using a notification.",
+  "The government specifies the jurisdiction or area of authority for each registration office.",
+  "The government appoints Registrars, Additional, Joint, Deputy, and Assistant Registrars as needed.",
+  "The powers, duties, salaries, and service conditions of these officers are decided as prescribed.",
+  "The government can order the creation of official seals to authenticate company registration documents."
+ ],
+ "example": "The Central Government decided to set up a new registration office for a growing region and issued a notification specifying its area of authority. To run this office smoothly, the government appointed Mr. Sharma as the Registrar and Ms. Verma as the Deputy Registrar to handle company registrations and related tasks. The government also ensured that official seals were made for authenticating all important registration documents. Meanwhile, the service conditions and salaries for Mr. Sharma and Ms. Verma were decided according to the prescribed rules. This setup allowed businesses in the region, such as Meera Textiles Private Limited, to easily complete their official registration process with the newly appointed officers.",
+ "terms": [
+  {
+   "term": "Jurisdiction",
+   "meaning": "The official area or country where a court or government office has the legal authority to act."
+  },
+  {
+   "term": "Prescribed",
+   "meaning": "Ordered or laid down as a rule or law."
+  },
+  {
+   "term": "Authentication",
+   "meaning": "The process of proving that a document is genuine and official."
+  }
+ ],
+ "watch": "People often confuse the power to set up offices with the power to run private companies, but this section is only about government offices and officers.",
+ "h": "a485e6f9f79e",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,34 @@
+{
+ "summary": "When a company is closing down, the person in charge called a liquidator must move any unclaimed money, like unpaid dividends or leftover assets, into a special bank account. This law tells the liquidator exactly how to deposit this money, report it to the Registrar, and handle any later claims from rightful owners. If the liquidator keeps money they should have deposited, they face interest, penalties, and other serious actions.",
+ "points": [
+  "The liquidator must deposit money into a special bank account if dividends remain unpaid for six months after declaration or assets remain undistributed for six months after becoming refundable.",
+  "Any money still in the liquidator's hands when the company is dissolved must also be paid into this special account.",
+  "When making payments into the account, the liquidator must give the Registrar a statement with details of the amounts and the people entitled to them.",
+  "People who claim they are entitled to this money can apply to the Registrar to receive it.",
+  "If money remains unclaimed in this special account for fifteen years, it gets transferred to the general revenue account of the Central Government.",
+  "A liquidator who unlawfully holds onto money meant for this account must pay interest, penalties, and cover any resulting expenses."
+ ],
+ "example": "Meera Textiles Private Limited was going through a winding up process. The liquidator, Mr. Sharma, found that some dividends owed to creditors had remained unpaid for six months after being declared. According to the rules, Mr. Sharma had to put this money into a special bank account called the Company Liquidation Dividend and Undistributed Assets Account. He also had to send a proper statement to the Registrar giving the names and last known addresses of the creditors. Later, a creditor named Mr. Verma applied to the Registrar to collect his share of the money. Since Mr. Verma proved he was entitled to it, the Registrar processed his claim and arranged for the payment to be released.",
+ "terms": [
+  {
+   "term": "liquidator",
+   "meaning": "A person appointed to take control of a company and wind it up."
+  },
+  {
+   "term": "dividend",
+   "meaning": "A sum of money paid regularly by a company to its shareholders or creditors."
+  },
+  {
+   "term": "contributory",
+   "meaning": "A person liable to contribute to the assets of a company in the event of its being wound up."
+  },
+  {
+   "term": "winding up",
+   "meaning": "The process of bringing a company to an end and dissolving it."
+  }
+ ],
+ "watch": "People often confuse the special company liquidation account with the company's regular operational bank accounts.",
+ "h": "49a834f7cfda",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

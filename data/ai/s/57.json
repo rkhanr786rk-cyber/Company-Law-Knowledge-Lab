@@ -1,0 +1,29 @@
+{
+ "summary": "This section punishes anyone who pretends to be the real owner of company shares or securities to steal them or take money meant for the owner. Doing this is a serious crime with strict jail time and fines. The law protects investors from identity fraud and illegal takeover of their investments.",
+ "points": [
+  "Forbids pretending to be the owner of a company security, interest, share warrant, or coupon.",
+  "Forbids trying to obtain any security, interest, share warrant, or coupon through this deceit.",
+  "Forbids receiving or trying to receive money due to the real owner through this trick.",
+  "Requires a prison term of one to three years for the offender.",
+  "Requires a fine of one lakh to five lakh rupees for the offender."
+ ],
+ "example": "Rohan visited Zenith Infotech Private Limited and pretended to be Mr. Sharma, who owned a large number of shares in the company. Rohan showed forged identity papers and tried to claim the dividend money that was rightfully owed to Mr. Sharma. He also attempted to transfer those shares into his own name. Because Rohan deceitfully acted as the real owner to obtain securities and money, he committed an offense under this section. As a result, he faces imprisonment ranging from one to three years and a fine between one lakh and five lakh rupees.",
+ "terms": [
+  {
+   "term": "Personates",
+   "meaning": "Pretending to be another person in order to deceive others."
+  },
+  {
+   "term": "Security",
+   "meaning": "A financial instrument like a share or debenture issued by a company."
+  },
+  {
+   "term": "Share warrant",
+   "meaning": "A document issued by a company stating that the bearer is entitled to the shares specified therein."
+  }
+ ],
+ "watch": "This section applies only when someone deceitfully pretends to be an owner to take securities or money, not for other types of fraud.",
+ "h": "708ac1cef747",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

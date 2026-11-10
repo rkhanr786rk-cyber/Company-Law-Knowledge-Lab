@@ -1,0 +1,29 @@
+{
+ "summary": "This section explains what must happen when someone is appointed to manage or take charge of a company's property. The person who makes the appointment must inform both the company and the Registrar within thirty days. Similarly, when that person's job ends, they must notify the company and the Registrar.",
+ "points": [
+  "A person who gets an order to appoint a receiver or manager for a company property, or makes such an appointment under an instrument, must give notice.",
+  "This notice must be sent to the company and the Registrar within thirty days of the order or appointment.",
+  "A copy of the court order or the instrument must be included with the notice.",
+  "The Registrar will register the details of the receiver, person, or instrument upon receiving the required fees.",
+  "When the appointed person stops holding the position, they must notify both the company and the Registrar."
+ ],
+ "example": "Meera Textiles Private Limited borrowed money from a bank and pledged its factory as security. When the company struggled to pay back, the bank used a power in their loan agreement to appoint Mr. Sharma as a receiver to manage the factory property. Within thirty days of making this appointment, the bank gave formal notice and a copy of the agreement to Meera Textiles Private Limited and the Registrar. The Registrar then recorded these details in the register of charges. Months later, once the matter was resolved and Mr. Sharma stopped holding his appointment, he promptly informed both the company and the Registrar that he was no longer the receiver.",
+ "terms": [
+  {
+   "term": "Receiver",
+   "meaning": "A person appointed to take charge of and manage a property."
+  },
+  {
+   "term": "Charge",
+   "meaning": "An interest or right created on the property of a company as security."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "An official who maintains records of companies."
+  }
+ ],
+ "watch": "Remember that both the starting and the ending of the receiver's appointment must be officially reported.",
+ "h": "716b6a24bc1e",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

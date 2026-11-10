@@ -1,0 +1,30 @@
+{
+ "summary": "This section requires companies to maintain a special register of certain business contracts and arrangements in which directors have an interest. Directors and key staff must disclose their other business interests within thirty days of taking or leaving office. The register must be kept at the company office, shown at meetings, and made available for members to check.",
+ "points": [
+  "Every company must keep one or more registers for specific interested contracts or arrangements.",
+  "The register must be placed before the next Board meeting and signed by all directors present.",
+  "Directors and key managerial personnel must disclose their concern or interest within thirty days of appointment or leaving office.",
+  "The register must be kept at the registered office and be open for inspection during business hours.",
+  "The register must be produced at the start of every annual general meeting and remain accessible.",
+  "Failure to comply with these rules makes a director liable to a penalty of twenty-five thousand rupees."
+ ],
+ "example": "Aarav Textiles Private Limited enters into a business arrangement where a company director has a personal interest. The management must record the details of this arrangement in a special register. Shortly after, the company holds a Board meeting. The completed register is placed before this meeting and signed by every director who is present. Later, when an annual general meeting takes place, the register is brought out and kept accessible to anyone who has the right to attend the meeting. A shareholder named Meera visits the registered office during normal business hours to inspect the register and asks for copies, which the company must provide according to the prescribed rules.",
+ "terms": [
+  {
+   "term": "Key managerial personnel",
+   "meaning": "Top corporate officers such as the chief executive officer or managing director who run the daily affairs of the company."
+  },
+  {
+   "term": "Registered office",
+   "meaning": "The official main address of the company where legal documents and registers must be kept."
+  },
+  {
+   "term": "Annual general meeting",
+   "meaning": "A yearly gathering of the company members to discuss business matters."
+  }
+ ],
+ "watch": "Note that small transactions for goods or services under five lakh rupees in a year, and certain banking collections, are exempt from being entered in this register.",
+ "h": "0836ec2af476",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,29 @@
+{
+ "summary": "This section allows the Central Government to ask for money as security before starting certain company investigations. The applicant who asked for the investigation must pay this security to cover the costs and expenses. If the investigation leads to a prosecution, the government will refund this money to the applicant.",
+ "points": [
+  "Applies when an investigation is ordered by the Central Government under section 210 or by the Tribunal under section 213.",
+  "The Central Government can ask the applicant for security before appointing an inspector.",
+  "The maximum limit for this security is twenty-five thousand rupees.",
+  "The security is meant to pay for the costs and expenses of the investigation.",
+  "The security must be refunded to the applicant if the investigation results in prosecution."
+ ],
+ "example": "Aseem believed that Apex Enterprises Private Limited was hiding important financial records from its shareholders. He filed a formal request with the Tribunal for an investigation under section 213. The Tribunal agreed and ordered an investigation. Before the Central Government appointed an inspector, it asked Aseem to give a security amount of twenty thousand rupees to cover the potential costs and expenses of the investigation. Aseem paid the amount. Later, the investigation found serious fraud and resulted in a prosecution against the company. Because the investigation resulted in prosecution, the Central Government refunded Aseem's twenty thousand rupees security.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized legal body that handles certain company law cases."
+  },
+  {
+   "term": "Security",
+   "meaning": "Money or property given as a pledge to ensure payment of costs."
+  },
+  {
+   "term": "Prosecution",
+   "meaning": "Legal proceedings in court against a person or company for a crime."
+  }
+ ],
+ "watch": "Remember that the security money is only refunded if the investigation actually results in prosecution.",
+ "h": "186f3b25dbb9",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,33 @@
+{
+ "summary": "This section requires that any official document showing a company's name must clearly state that the company is currently being wound up. This rule applies whether the winding up is done by the Tribunal or voluntarily. Anyone responsible who knowingly breaks this rule can be punished with a fine.",
+ "points": [
+  "Every invoice, order for goods, or business letter must state that the company is being wound up if the company name appears on it.",
+  "This requirement applies when a company is wound up by the Tribunal or voluntarily.",
+  "The rule applies to documents issued by the company, its Company Liquidator, or a receiver or manager.",
+  "If the rule is broken, the company and any responsible officer, liquidator, receiver, or manager face a fine.",
+  "The fine ranges from fifty thousand rupees up to three lakh rupees for wilful non-compliance."
+ ],
+ "example": "Meera Textiles Private Limited was undergoing a voluntary winding up process. During this time, the company manager, Rohan, asked an employee to print new business letters and order forms for purchasing raw materials. Rohan forgot to include the mandatory statement that Meera Textiles Private Limited was being wound up on these documents, even though the company name was printed on them. Because Rohan knowingly permitted this non-compliance, both the company and Rohan became punishable with a fine ranging from fifty thousand rupees to three lakh rupees under Section 344 of the Companies Act.",
+ "terms": [
+  {
+   "term": "Winding up",
+   "meaning": "The process of closing down a company and settling its affairs."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A legal body set up to deal with specific disputes and legal cases, such as company matters."
+  },
+  {
+   "term": "Company Liquidator",
+   "meaning": "The person appointed to run the winding up process and manage the company assets."
+  },
+  {
+   "term": "Contravenes",
+   "meaning": "Breaks or acts against a law or rule."
+  }
+ ],
+ "watch": "People often confuse this rule as applying only to court-ordered closures, but it applies equally to voluntary windings up.",
+ "h": "a508f4c00be0",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,29 @@
+{
+ "summary": "This section sets the punishments when a company breaks the rules for taking deposits or fails to repay deposits and interest on time. Both the company and responsible officers face heavy fines and potential jail time. If an officer acts knowingly to deceive people, they face stricter fraud actions.",
+ "points": [
+  "Applies when a company breaks rules for accepting deposits under section 73 or 76.",
+  "Applies when a company fails to repay deposits or interest on time.",
+  "The company must pay back the deposit and interest, plus a fine between one crore rupees (or twice the deposit amount, whichever is lower) up to ten crore rupees.",
+  "Responsible officers face imprisonment up to seven years and a fine from twenty-five lakh to two crore rupees.",
+  "Officers who act knowingly and willfully to deceive face further action under section 447."
+ ],
+ "example": "Meera Textiles Private Limited invited deposits from the public but failed to follow the proper legal conditions set under the rules. Furthermore, the company missed the deadline to repay the depositors their principal amount and the promised interest. Because of this legal breach, the company was ordered to return all the money and interest, and it faced a heavy cash penalty. Meanwhile, the managing director, Mr. Sharma, who knowingly planned the illegal deposit scheme to trick the investors and creditors, was also held personally responsible and faced a long prison sentence along with a severe fine.",
+ "terms": [
+  {
+   "term": "contravention",
+   "meaning": "An act that breaks a law or rule."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A legal body established to handle specific types of disputes or cases."
+  },
+  {
+   "term": "officer who is in default",
+   "meaning": "A company officer responsible for the legal violation."
+  }
+ ],
+ "watch": "Note that penalties apply both to the company as a whole and individually to responsible officers.",
+ "h": "0304d4b7ffce",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

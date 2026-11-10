@@ -1,0 +1,34 @@
+{
+ "summary": "When the Tribunal orders a company to wind up, it must appoint an Official Liquidator or a person from a special panel as the Company Liquidator. This liquidator must be an insolvency professional registered under the Insolvency and Bankruptcy Code, 2016. The Tribunal decides the liquidator's fees and terms based on their experience and the company size, and the liquidator must declare any conflict of interest within seven days.",
+ "points": [
+  "The Tribunal appoints an Official Liquidator or a liquidator from a panel when passing a winding up order.",
+  "Company Liquidators and provisional liquidators must be chosen from insolvency professionals registered under the Insolvency and Bankruptcy Code, 2016.",
+  "The Tribunal may limit the powers of a provisional liquidator through its orders.",
+  "The Tribunal sets the terms, conditions, and fees for the liquidator based on their qualifications, experience, the required tasks, and the size of the company.",
+  "The liquidator must file a declaration disclosing any conflict of interest or lack of independence within seven days of appointment, and this duty continues throughout their term.",
+  "The Tribunal may appoint an existing provisional liquidator as the Company Liquidator when passing the winding up order."
+ ],
+ "example": "Meera Textiles Private Limited faced financial trouble and went through a winding up process ordered by the Tribunal. At the time of passing the winding up order, the Tribunal appointed Mr. Rohan, an insolvency professional registered under the Insolvency and Bankruptcy Code, 2016, as the Company Liquidator. The Tribunal decided his fees based on his qualifications, experience, and the size of Meera Textiles Private Limited. Within seven days of his appointment, Mr. Rohan filed a formal declaration with the Tribunal to state that he had no conflict of interest and remained completely independent regarding his new role.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A judicial body that handles legal cases and disputes related to companies."
+  },
+  {
+   "term": "Winding up",
+   "meaning": "The legal process of closing down a company and settling its affairs."
+  },
+  {
+   "term": "Provisional liquidator",
+   "meaning": "A temporary liquidator appointed by the Tribunal before the final winding up order is passed."
+  },
+  {
+   "term": "Conflict of interest",
+   "meaning": "A situation where a person's personal interests might interfere with their professional duties."
+  }
+ ],
+ "watch": "People often get confused between a provisional liquidator and a permanent Company Liquidator, but the Tribunal can choose to make the provisional liquidator the permanent liquidator for the proceedings.",
+ "h": "ca2828f66350",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,32 @@
+{
+ "summary": "This section deals with what happens to a company's property when the Tribunal is winding it up. If someone tries to seize the company's property or sell it without the Tribunal's permission after the winding up starts, that action is invalid. However, these rules do not apply to government actions for recovering taxes, imposts, or other dues.",
+ "points": [
+  "Applies when the Tribunal is winding up a company.",
+  "Any attachment, distress, or execution against the company's estate or effects is void if done without the Tribunal's permission after winding up starts.",
+  "Any sale of the company's properties or effects without the Tribunal's permission after winding up starts is void.",
+  "Government proceedings to recover taxes, imposts, or dues are exempt from this rule."
+ ],
+ "example": "Meera Textiles Private Limited is currently undergoing a winding up process by the Tribunal. A creditor named Rohan wants to recover money owed by the company and tries to seize some of the company's machinery through an execution process without asking the Tribunal for permission. Because the winding up has already started and Rohan did not get the Tribunal's leave, this seizure is completely void. Meanwhile, the government initiates proceedings to recover unpaid taxes from Meera Textiles Private Limited, which is allowed because tax recovery proceedings are exempt from these restrictions.",
+ "terms": [
+  {
+   "term": "Attachment",
+   "meaning": "A legal process of seizing property to satisfy a debt."
+  },
+  {
+   "term": "Distress",
+   "meaning": "The seizing of personal property to obtain payment."
+  },
+  {
+   "term": "Execution",
+   "meaning": "The enforcement of a court judgment or order to seize property."
+  },
+  {
+   "term": "Void",
+   "meaning": "Having no legal force or effect; invalid."
+  }
+ ],
+ "watch": "People often confuse government tax recovery with normal creditor claims, but tax recovery is fully allowed without the Tribunal's permission.",
+ "h": "847b0d113bfd",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

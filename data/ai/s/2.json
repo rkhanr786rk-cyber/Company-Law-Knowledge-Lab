@@ -1,0 +1,33 @@
+{
+ "summary": "This section of the Act provides clear definitions for various terms used throughout the legislation. It explains key concepts such as types of companies, financial terms, and corporate roles. These definitions help ensure that everyone understands the legal meaning of words used in the law.",
+ "points": [
+  "Defines specific legal words and terms used across the Act to ensure clarity.",
+  "Explains that an abridged prospectus contains salient features specified by the Securities and Exchange Board.",
+  "Describes an associate company as one having significant influence or being a joint venture, but not a subsidiary.",
+  "Sets out that authorised capital is the maximum amount of share capital allowed by a company's memorandum.",
+  "Clarifies that books of account include records of money, sales, purchases, assets, liabilities, and cost items."
+ ],
+ "example": "Meera Textiles Private Limited wanted to understand the legal meaning of terms mentioned in the law before issuing shares. The directors checked the definitions section of the Act to see what authorised capital and books of account meant. They learned that authorised capital is the maximum share capital allowed by their memorandum. They also confirmed that their records of money received and spent, as well as sales and purchases, formed part of their books of account.",
+ "terms": [
+  {
+   "term": "abridged prospectus",
+   "meaning": "a short memorandum containing salient features of a prospectus"
+  },
+  {
+   "term": "authorised capital",
+   "meaning": "the maximum amount of share capital a company is allowed to have by its memorandum"
+  },
+  {
+   "term": "charge",
+   "meaning": "an interest or lien created on the property or assets of a company as security"
+  },
+  {
+   "term": "body corporate",
+   "meaning": "includes a company incorporated outside India with certain exclusions"
+  }
+ ],
+ "watch": "Do not assume these definitions apply outside the context of this Act unless specified.",
+ "h": "3113274ed5d7",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

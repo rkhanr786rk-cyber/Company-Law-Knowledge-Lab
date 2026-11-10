@@ -1,0 +1,29 @@
+{
+ "summary": "This section deals with a situation where a company plans to sell its shares or other securities to the public through another party. Any document used to make this public offer is officially treated as a prospectus. This means the document must follow the legal rules and carry the same responsibilities as a normal public offer.",
+ "points": [
+  "Treats any document used to offer a company's allotted securities for sale to the public as a prospectus issued by the company.",
+  "Applies all legal rules regarding prospectus contents and mis-statements to these public offer documents.",
+  "Considers an allotment to be made with a view to public sale if the public offer happens within six months or if the company has not yet received full payment.",
+  "Requires the document to state the net amount of consideration received by the company and where the allotment contract can be inspected.",
+  "Allows a document offered by a company or firm to be signed by two directors or at least half of the partners."
+ ],
+ "example": "Alpha Plastics Limited allotted securities to an investment firm with the plan that the firm would soon sell them to the public. Within two months, the investment firm issued a document offering these securities to the general public. Under the law, this document is treated as a prospectus issued by Alpha Plastics Limited. Therefore, all standard legal rules regarding prospectus contents and responsibilities for any mis-statements apply to this document, just as if the company had offered the shares directly to the public.",
+ "terms": [
+  {
+   "term": "Securities",
+   "meaning": "Financial instruments like shares or debentures issued by a company."
+  },
+  {
+   "term": "Prospectus",
+   "meaning": "An official document inviting the public to buy securities of a company."
+  },
+  {
+   "term": "Consideration",
+   "meaning": "Payment or value received in exchange for securities."
+  }
+ ],
+ "watch": "Do not confuse this with a direct public issue, as this rule applies when securities are first allotted to an intermediary and then offered to the public.",
+ "h": "409935a953cb",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

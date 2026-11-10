@@ -1,0 +1,30 @@
+{
+ "summary": "An official inspector who is already investigating a company can also look into related companies, leaders, or employees if needed. To do this, the inspector must first get permission from the Central Government. The investigation of these extra groups or people is only allowed if it helps the main company investigation.",
+ "points": [
+  "An inspector appointed under section 210, 212, or 213 can investigate related entities if necessary for their current job.",
+  "Related bodies corporate include past or present subsidiary or holding companies, and related subsidiary companies.",
+  "Related bodies corporate include companies managed by the same person who manages or managed the main company.",
+  "Related bodies corporate include companies whose board acts on instructions from the main company or its directors.",
+  "The inspector can also investigate any person who is or was a managing director, manager, or employee of the main company.",
+  "The inspector must obtain prior approval from the Central Government before investigating these other entities or persons."
+ ],
+ "example": "An inspector named Mr. Roy is investigating a firm called Meera Textiles Private Limited. During his work, Mr. Roy finds that Meera Textiles shares the same managing director with another company named Apex Garments Private Limited, and that Apex Garments might hold key information related to the case. Mr. Roy believes looking into Apex Garments is necessary for his main investigation. Before he can proceed, Mr. Roy must apply for and receive prior approval from the Central Government. Once the Central Government approves his request, Mr. Roy is officially allowed to investigate and report on the affairs of Apex Garments to complete his work on Meera Textiles Private Limited.",
+ "terms": [
+  {
+   "term": "Body corporate",
+   "meaning": "A legal term for a company, corporation, or other organized body."
+  },
+  {
+   "term": "Holding company",
+   "meaning": "A company that controls another company, known as its subsidiary."
+  },
+  {
+   "term": "Subsidiary company",
+   "meaning": "A company that is controlled by another company, known as its holding company."
+  }
+ ],
+ "watch": "An inspector cannot investigate related companies or persons without first getting approval from the Central Government.",
+ "h": "88535d017e1d",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

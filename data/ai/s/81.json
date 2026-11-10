@@ -1,0 +1,29 @@
+{
+ "summary": "This section requires the Registrar to keep a register of charges for every company. Anyone can inspect this register by paying a set fee. The details and format are decided by the prescribed rules.",
+ "points": [
+  "The Registrar must keep a register of charges for every company.",
+  "The register contains particulars of the charges registered under Chapter VI.",
+  "The form and manner of the register are to be prescribed.",
+  "Any person is allowed to inspect the register.",
+  "Inspection requires the payment of a prescribed fee."
+ ],
+ "example": "Meera Textiles Private Limited recently took a loan and created a charge on its property, which was duly registered. Rohan, a curious business student, wanted to check these details to understand how company finances work. He approached the office of the Registrar to view the official records. By paying the required inspection fee, Rohan was allowed to view the register of charges kept by the Registrar for Meera Textiles Private Limited.",
+ "terms": [
+  {
+   "term": "Registrar",
+   "meaning": "The government official who keeps records of companies."
+  },
+  {
+   "term": "Charge",
+   "meaning": "A right or interest created on the assets of a company as security for a loan."
+  },
+  {
+   "term": "Inspection",
+   "meaning": "The act of looking at or examining an official document or register."
+  }
+ ],
+ "watch": "People often confuse the company's own internal register of charges with the public register kept by the Registrar.",
+ "h": "2e8f6f5f0de5",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

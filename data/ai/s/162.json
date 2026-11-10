@@ -1,0 +1,29 @@
+{
+ "summary": "Section 162 of the Companies Act, 2013 requires that companies must vote on the appointment of directors one by one, rather than in a single group. A group vote is only allowed if everyone at the meeting agrees to it beforehand without a single opposing vote. Any group vote done without this prior agreement is completely invalid, even if no one objected at the time.",
+ "points": [
+  "A single resolution to appoint two or more directors at once cannot be moved at a general meeting.",
+  "A group resolution is only permitted if the meeting agrees to it first without any votes cast against it.",
+  "Any resolution moved against these rules is considered void automatically.",
+  "The rule applies whether or not someone raised an objection when the wrong resolution was moved.",
+  "Any motion to approve or nominate a person for appointment counts as a motion for their appointment."
+ ],
+ "example": "At the annual general meeting of Meera Textiles Private Limited, the chairperson wanted to save time. They proposed a single resolution to appoint both Mr. Sharma and Ms. Gupta as new directors at the same time. Before voting started, a shareholder raised a hand to object, meaning the proposal was not agreed to without any opposition. Despite this objection, the company went ahead and passed the single resolution anyway. Because the members did not agree to a group vote beforehand, this appointment resolution is completely void, and the company must hold separate individual votes for each person instead.",
+ "terms": [
+  {
+   "term": "general meeting",
+   "meaning": "A formal gathering of a company's shareholders to discuss and decide on business matters."
+  },
+  {
+   "term": "resolution",
+   "meaning": "A formal motion or decision voted on by the members of a company."
+  },
+  {
+   "term": "void",
+   "meaning": "Having no legal force or effect, as if it never happened."
+  }
+ ],
+ "watch": "Do not assume that staying silent means a group vote is approved; everyone must explicitly agree with no opposing votes.",
+ "h": "f94f0cc670ba",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

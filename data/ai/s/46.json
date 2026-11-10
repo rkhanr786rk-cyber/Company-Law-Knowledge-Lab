@@ -1,0 +1,30 @@
+{
+ "summary": "This section explains that a share certificate acts as proof of who owns shares in a company. It also details the rules for issuing duplicate certificates when the original is lost, damaged, or destroyed. Additionally, it states penalties if a company issues a duplicate share certificate with the intent to cheat.",
+ "points": [
+  "A share certificate must have the company seal or be signed by two directors, or one director and the Company Secretary.",
+  "The share certificate is primary proof that the named person owns those shares.",
+  "A duplicate share certificate can be issued if the original is lost, destroyed, or surrendered because it is damaged.",
+  "Rules regarding the form, manner of issue, and register entries must be followed regardless of the company articles.",
+  "If shares are held in a depository, the depository record serves as proof of ownership.",
+  "Issuing a duplicate share certificate with intent to defraud carries heavy fines and legal action for officers in default."
+ ],
+ "example": "Aarav held physical share certificates for his investment in Mehta Industries Limited. Unfortunately, a sudden fire at his home completely destroyed the original certificates. Aarav immediately informed Mehta Industries Limited and proved that his share certificate was destroyed. Following the legal provisions, the company agreed to issue a duplicate share certificate to Aarav. Meanwhile, Rohan held shares in another firm, Apex Agro Private Limited, in a depository form. For Rohan, the electronic record of the depository served as the primary proof of his share ownership.",
+ "terms": [
+  {
+   "term": "Prima facie evidence",
+   "meaning": "Evidence that is accepted as true unless proven otherwise."
+  },
+  {
+   "term": "Depository",
+   "meaning": "An organization that holds shares in electronic form."
+  },
+  {
+   "term": "Defaced",
+   "meaning": "Damaged or marked so that details are hard to read."
+  }
+ ],
+ "watch": "Do not confuse physical share certificates with electronic depository records, as both serve as proof of ownership depending on how the shares are held.",
+ "h": "294e1ee3691f",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

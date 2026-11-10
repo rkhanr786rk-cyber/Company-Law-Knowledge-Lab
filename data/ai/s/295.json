@@ -1,0 +1,29 @@
+{
+ "summary": "This section allows the Tribunal to order people on the list of contributories to pay money they owe to a company that is being wound up. It also explains when these persons can use money the company owes them to reduce what they have to pay. Special rules apply depending on whether the company is limited or unlimited.",
+ "points": [
+  "The Tribunal can order any contributory to pay money due to the company after a winding up order is passed.",
+  "This payment order excludes money owed by virtue of a call made under the Act.",
+  "In an unlimited company, the Tribunal may allow a set-off for money due from independent dealings or contracts.",
+  "In a limited company, set-offs are allowed for directors or managers whose liability is unlimited.",
+  "Once all creditors are paid in full, any company debt to a contributory can be set off against later calls."
+ ],
+ "example": "Meera Textiles Private Limited is undergoing a winding up process ordered by the Tribunal. Rohan, a person on the list of contributories, owes money to the company from an old contract. The Tribunal issues an order requiring Rohan to pay that due money to the company. Because Rohan is dealing with an unlimited company and had an independent business contract with it, the Tribunal allows a set-off for money the company separately owes to him, excluding any unpaid dividends or profits due to him as a member.",
+ "terms": [
+  {
+   "term": "Contributory",
+   "meaning": "A person liable to contribute to the assets of a company in the event of its being wound up."
+  },
+  {
+   "term": "Set-off",
+   "meaning": "A balancing of debts where what one person owes is reduced by what is owed to them."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "The judicial body handling the winding up matters under the law."
+  }
+ ],
+ "watch": "Do not confuse money owed from independent contracts with money due to a member as a dividend or profit.",
+ "h": "3edab4dc8b45",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

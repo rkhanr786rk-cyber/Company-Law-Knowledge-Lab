@@ -1,0 +1,25 @@
+{
+ "summary": "This section explains how the Central Government can declare certain companies as Nidhis or Mutual Benefit Societies. It also allows the government to change how company laws apply to these specific groups, subject to approval by Parliament. Parliament reviews the proposed changes for a set period before they become final.",
+ "points": [
+  "The Central Government can declare a company to be a Nidhi or Mutual Benefit Society through an official notification.",
+  "The government can order that certain company laws do not apply to Nidhis, or apply with changes.",
+  "Proposed notifications must be shown in draft to both Houses of Parliament for thirty days.",
+  "Parliament can agree to disapprove or modify the proposed notification.",
+  "Final notifications must be placed before both Houses of Parliament after being issued."
+ ],
+ "example": "A company named Apex Mutual Benefit Private Limited wants to operate as a Nidhi. First, the Central Government issues an official notification in the Official Gazette to declare Apex as a Nidhi company. Next, the government decides to exempt Apex from certain standard company rules so it can run its mutual benefit activities smoothly. Before making this exemption final, the government submits a draft notification to both Houses of Parliament to sit for thirty days. Since neither House disapproves or changes the draft during this time, the government officially issues the final notification and then presents the copies to both Houses of Parliament.",
+ "terms": [
+  {
+   "term": "Official Gazette",
+   "meaning": "An official government publication used to announce public notices and laws."
+  },
+  {
+   "term": "Prorogued",
+   "meaning": "Discontinued a session of Parliament without dissolving it."
+  }
+ ],
+ "watch": "Do not assume that all companies automatically qualify as Nidhis without an official government declaration.",
+ "h": "31e31749ef95",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,26 @@
+{
+ "summary": "This section explains the role of the Tribunal during the winding up of a company. The Tribunal must balance and adjust the rights of contributories among each other. Finally, it must distribute any remaining surplus to the people who have the right to receive it.",
+ "points": [
+  "The Tribunal adjusts the rights of the contributories among themselves.",
+  "The Tribunal distributes any surplus assets to the persons entitled to them."
+ ],
+ "example": "Meera Textiles Private Limited is going through a winding up process. After paying off all the debts and liabilities of the company, some money is left over as a surplus. The Tribunal steps in to examine the situation. It adjusts the rights of the contributories among themselves to ensure fairness. Once the adjustments are complete, the Tribunal distributes the remaining surplus money to the persons who are entitled to receive it, according to their legal rights in the company.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "The judicial body responsible for handling legal matters such as the winding up of companies."
+  },
+  {
+   "term": "Contributories",
+   "meaning": "Persons liable to contribute to the assets of a company in the event of its being wound up."
+  },
+  {
+   "term": "Surplus",
+   "meaning": "An amount that remains left over after all obligations and debts are fully met."
+  }
+ ],
+ "watch": "Do not assume any specific time periods or amounts for the distribution, as the text does not state them.",
+ "h": "62e4638e553c",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

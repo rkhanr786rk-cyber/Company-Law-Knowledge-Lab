@@ -1,0 +1,23 @@
+{
+ "summary": "Section 155 of the Companies Act, 2013, stops a person from having more than one official identification number as a director. If you already have this number, you cannot apply for a new one, get another one, or keep a second one. This rule ensures every director has only a single official identification number.",
+ "points": [
+  "Forbids any individual who already has a Director Identification Number from applying for another one.",
+  "Forbids individuals from obtaining a second Director Identification Number.",
+  "Forbids individuals from possessing more than one Director Identification Number at the same time."
+ ],
+ "example": "Aarav is a businessman in Mumbai who currently serves on the board of Solar Power Solutions Private Limited. He already has a valid Director Identification Number assigned to him under section 154. Later, Aarav forgets his number and thinks he needs a fresh one to join another company, Green Earth Foods Private Limited. He fills out a new application to get a second number. According to section 155, Aarav is not allowed to apply for, obtain, or possess another Director Identification Number because he already has one.",
+ "terms": [
+  {
+   "term": "Director Identification Number",
+   "meaning": "A unique identification number given to an individual who is a director of a company."
+  },
+  {
+   "term": "Possess",
+   "meaning": "To have or hold something."
+  }
+ ],
+ "watch": "People sometimes mistakenly think they need a new number for every new company they join, but you can only ever have one.",
+ "h": "90c3fc3ecea6",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

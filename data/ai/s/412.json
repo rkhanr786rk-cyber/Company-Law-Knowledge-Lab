@@ -1,0 +1,34 @@
+{
+ "summary": "This section explains how different members of the Tribunal and Appellate Tribunal are appointed under the law. It involves consultation with the Chief Justice of India for certain leaders, and recommendations from a specific Selection Committee for other members. An appointment remains valid even if there is a vacancy or a flaw in how the Selection Committee was formed.",
+ "points": [
+  "The President of the Tribunal and the chairperson and Judicial Members of the Appellate Tribunal are appointed after consulting the Chief Justice of India.",
+  "Other Members of the Tribunal and Technical Members of the Appellate Tribunal are appointed based on recommendations from a specific Selection Committee.",
+  "The Selection Committee includes the Chief Justice of India or their nominee, a senior Supreme Court or High Court judge, the Secretary in the Ministry of Corporate Affairs, and the Secretary in the Ministry of Law and Justice.",
+  "The Chairperson of the Selection Committee has a casting vote if committee votes are tied.",
+  "The Secretary of the Ministry of Corporate Affairs acts as the Convener for the Selection Committee and the committee decides its own procedures.",
+  "An appointment cannot be challenged just because there was a vacancy or a defect in the formation of the Selection Committee."
+ ],
+ "example": "A dispute arose at Zenith Technologies Private Limited, which needed to be resolved by the Tribunal. When appointing new members to the Tribunal, the government consulted the Chief Justice of India for the President of the Tribunal, and used the Selection Committee, which included the Ministry secretaries and a senior judge, to recommend other members. Later, someone noticed that one member's seat on the Selection Committee was briefly vacant during the process. However, the law states that this defect or vacancy does not make the final appointments invalid, so the newly appointed members continued their work without any legal disruption.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized legal body set up to handle specific types of disputes."
+  },
+  {
+   "term": "Appellate Tribunal",
+   "meaning": "A higher body that reviews decisions made by the Tribunal."
+  },
+  {
+   "term": "Casting vote",
+   "meaning": "An extra vote given to the chairperson to break a tie."
+  },
+  {
+   "term": "Convener",
+   "meaning": "The person responsible for calling meetings and organizing the work of a committee."
+  }
+ ],
+ "watch": "People often assume an appointment is invalid if the committee had a vacant seat, but the law clearly states it remains valid.",
+ "h": "ff9a91d551ef",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

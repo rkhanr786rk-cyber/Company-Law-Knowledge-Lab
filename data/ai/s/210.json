@@ -1,0 +1,29 @@
+{
+ "summary": "This section explains how the Central Government can order an investigation into a company's affairs. It can do this on its own based on certain reports, special requests from the company, or public interest. It must also order an investigation if a court or the Tribunal directs it to do so.",
+ "points": [
+  "The Central Government can order an investigation into a company if it gets a report from the Registrar or an inspector.",
+  "The Central Government can order an investigation if the company passes a special resolution asking for one.",
+  "The Central Government can order an investigation when it is in the public interest.",
+  "The Central Government must order an investigation if a court or the Tribunal passes an order for it.",
+  "The Central Government appoints one or more persons as inspectors to carry out the investigation and report back."
+ ],
+ "example": "Meera Textiles Private Limited received troubling news when the public interest raised serious questions about its business operations. At the same time, the company decided to hold a meeting and passed a special resolution stating that its affairs ought to be investigated. Soon after, the Central Government reviewed the situation and decided it was necessary to look into the company. To do this, the Central Government appointed a qualified person as an inspector to examine the business affairs of Meera Textiles Private Limited and report back in the directed manner.",
+ "terms": [
+  {
+   "term": "Special resolution",
+   "meaning": "A formal decision passed by shareholders with a high majority vote."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A special legal body set up to deal with specific types of cases."
+  },
+  {
+   "term": "Inspector",
+   "meaning": "A person appointed to look into and check the facts about the company."
+  }
+ ],
+ "watch": "Note that while the Central Government has the choice to investigate in some cases, it must investigate if a court or Tribunal tells it to.",
+ "h": "0dbd2a567d57",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

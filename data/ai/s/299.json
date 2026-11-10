@@ -1,0 +1,33 @@
+{
+ "summary": "Section 299 allows the Tribunal to summon certain people, such as officers or anyone suspected of holding company property, books, or money, after a winding up order or provisional liquidator appointment. The Tribunal can question them, inspect documents, and order them to return company property or pay debts. If someone fails to appear without a good reason, the Tribunal can impose a cost.",
+ "points": [
+  "The Tribunal can summon company officers, people suspected of having company property, books, or papers, people who owe money to the company, or anyone who can give information about the company.",
+  "The Tribunal can examine summoned persons on oath by word of mouth, written questions, or affidavit, and can require them to sign written answers.",
+  "The Tribunal can order summoned persons to produce company books and papers in their custody.",
+  "The Tribunal can order a person found to be indebted to the company to pay the liquidator, and can order someone holding company property to deliver it back.",
+  "If a summoned person fails to appear without a reasonable cause, the Tribunal may impose an appropriate cost."
+ ],
+ "example": "Meera Textiles Private Limited went into winding up, and a provisional liquidator was appointed. The Tribunal decided to use its powers under Section 299 to find missing company assets. It summoned Rohan, a former manager, because he was suspected of holding company account books and owing money to Meera Textiles. Rohan appeared before the Tribunal and brought the books he held. During the questioning, the Tribunal examined him and confirmed he owed funds to the company. The Tribunal then ordered Rohan to pay the due amount to the provisional liquidator and hand over all company books he possessed. Rohan followed the order, which lawfully released him from further liability for that debt.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "The judicial body responsible for handling company law matters like winding up."
+  },
+  {
+   "term": "Provisional liquidator",
+   "meaning": "A person appointed temporarily to manage and protect the company's assets during winding up."
+  },
+  {
+   "term": "Oath",
+   "meaning": "A formal promise or swearing to tell the truth."
+  },
+  {
+   "term": "Lien",
+   "meaning": "A legal right to keep possession of someone else's property until a debt is paid."
+  }
+ ],
+ "watch": "People often confuse the Tribunal's power to summon and question individuals with a regular criminal trial, but this is a specific civil process during company winding up.",
+ "h": "65f4bf6a0af0",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,30 @@
+{
+ "summary": "This section requires individuals who hold significant beneficial interests or control in a company to declare their interest to the company. The company must keep a register of these declarations, allow members to inspect it, file returns, and actively identify such owners. If someone fails to provide requested information, the company can apply to the Tribunal for restrictions on the shares.",
+ "points": [
+  "Individuals with beneficial interests of at least twenty-five per cent or significant influence must declare their interest to the company.",
+  "Companies must maintain a register of these declared interests and keep it open for inspection by any member.",
+  "Companies must file a return of significant beneficial owners with the Registrar and take steps to identify them.",
+  "Companies must send notices to persons known or believed to be significant beneficial owners to get information.",
+  "If a person fails to respond to a notice within thirty days or gives unsatisfactory information, the company must apply to the Tribunal.",
+  "Failing to declare or maintain records carries specific monetary penalties as stated in the law."
+ ],
+ "example": "Aarav holds a large hidden interest in Meera Textiles Private Limited through a trust, giving him significant influence over the company. Under the law, Aarav must submit a declaration to Meera Textiles Private Limited detailing his interest. Meanwhile, the company must take steps to identify Aarav and maintain a register of his declared interest. If Meera Textiles Private Limited sends Aarav a notice for details and he fails to reply within thirty days, the company will apply to the Tribunal for restrictions on the shares tied to his interest.",
+ "terms": [
+  {
+   "term": "Significant beneficial owner",
+   "meaning": "An individual who holds a beneficial interest of a certain percentage or exercises significant influence or control over a company."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized judicial body that handles legal disputes and applications under company law."
+  },
+  {
+   "term": "Register",
+   "meaning": "An official list or record kept by the company containing specific details."
+  }
+ ],
+ "watch": "Note that notices sent by the company to potential beneficial owners must be answered within a period not exceeding thirty days.",
+ "h": "305695f3cf06",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

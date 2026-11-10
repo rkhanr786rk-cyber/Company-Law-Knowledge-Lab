@@ -1,0 +1,33 @@
+{
+ "summary": "Certain eligible public companies may accept deposits from the general public by following specific rules and consulting the Reserve Bank of India. These companies must meet prescribed financial standards and follow the same general deposit rules as other companies. They are also required to get safety ratings and secure their deposits with company assets.",
+ "points": [
+  "A public company with the prescribed net worth or turnover may accept deposits from people who are not its members.",
+  "The company must follow the requirements of sub-section (2) of section 73 and rules made by the Central Government with the Reserve Bank of India.",
+  "The company must get a rating from a recognized credit rating agency every year during the deposit period to show its safety.",
+  "The company must share this rating with the public when inviting deposits.",
+  "If the company accepts secured deposits, it must create a charge on its assets within thirty days of acceptance for an amount not less than the deposits."
+ ],
+ "example": "Star Power Public Limited wants to invite deposits from the general public to fund a new project. Before asking the public for money, Star Power contacts a recognized credit rating agency to evaluate its net worth, liquidity, and ability to repay. The agency gives the company a safety rating, which Star Power proudly shares in its public invitation. The company also decides to accept secured deposits, so within thirty days of taking the money from the public, Star Power creates a charge on its company assets equal to the total deposit amount to protect the deposit holders, strictly following the rules.",
+ "terms": [
+  {
+   "term": "net worth",
+   "meaning": "The total value of a company's assets minus its liabilities."
+  },
+  {
+   "term": "turnover",
+   "meaning": "The total volume of business done by a company over a period of time."
+  },
+  {
+   "term": "credit rating agency",
+   "meaning": "An organization that assesses the financial strength of a company and its ability to pay debts."
+  },
+  {
+   "term": "charge",
+   "meaning": "A security or right created over the assets of a company in favor of a lender or deposit holder."
+  }
+ ],
+ "watch": "Do not confuse these public deposits with deposits taken only from a company's own members under other sections.",
+ "h": "7e518ab2e98b",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

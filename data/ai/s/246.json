@@ -1,0 +1,24 @@
+{
+ "summary": "This section states that certain rules meant for company winding up also apply when people go to the Tribunal for cases of oppression, mismanagement, or class actions. Specifically, sections 337 to 341 will apply in the same way with necessary changes. It ensures consistency in how people are handled during these special legal proceedings.",
+ "points": [
+  "Makes sections 337 to 341 applicable to proceedings under section 241.",
+  "Makes sections 337 to 341 applicable to proceedings under section 245.",
+  "Applies these provisions mutatis mutandis, meaning with necessary changes made for the context.",
+  "Applies to applications made to the Tribunal."
+ ],
+ "example": "Aarav and other small shareholders of Rohan Motors Private Limited believe the majority owners are mismanaging the company and acting against shareholder interests. They file an application to the Tribunal under section 241 for relief against oppression and mismanagement. Because of section 246, the Tribunal applies specific rules found in sections 337 to 341 to these proceedings, making sure the process accounts for necessary changes. Aarav and the company follow these extended provisions as the case moves forward in the Tribunal.",
+ "terms": [
+  {
+   "term": "Mutatis mutandis",
+   "meaning": "With necessary changes having been made, meaning things are applied similarly while adjusting for details."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A special official body that settles disputes under this law."
+  }
+ ],
+ "watch": "Do not assume this section explains what sections 337 to 341 actually contain.",
+ "h": "636bb8bdf6a8",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

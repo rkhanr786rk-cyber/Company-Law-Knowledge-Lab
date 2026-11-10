@@ -1,0 +1,25 @@
+{
+ "summary": "This section explains what happens when a company's member count drops below the legal minimum. If a public company has fewer than seven members, or a private company has fewer than two, and it keeps doing business for more than six months, certain members can become personally responsible for the company debts. Specifically, members who know about this low count and still continue the business will have to pay those debts themselves.",
+ "points": [
+  "A public company must maintain at least seven members.",
+  "A private company must maintain at least two members.",
+  "The law allows a grace period of up to six months to fix the low member count while doing business.",
+  "If the business continues past six months with too few members, informed members become personally liable for debts.",
+  "Liable members can be sued individually for the full amount of the debts contracted after those six months."
+ ],
+ "example": "Meera Textiles Private Limited is a private company that normally has five members. Due to sudden resignations, the number of members drops to just one. The remaining member, Priya, continues to run the business operations as usual. Months pass, and the company crosses the six-month mark with only one member, while Priya is fully aware of this shortage. During the seventh month, the company buys raw materials on credit but fails to pay. Because Priya kept the business running past six months knowing the member count was below two, she is now personally responsible for paying this entire debt and can be sued for it directly.",
+ "terms": [
+  {
+   "term": "severally liable",
+   "meaning": "Responsible as an individual to pay off a debt or face a claim all by yourself."
+  },
+  {
+   "term": "cognisant",
+   "meaning": "Having knowledge or being aware of a specific fact."
+  }
+ ],
+ "watch": "People often think liability applies immediately, but the law allows a six-month grace period before personal responsibility begins.",
+ "h": "e6fcd293d970",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

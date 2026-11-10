@@ -1,0 +1,33 @@
+{
+ "summary": "When a winding up order is made or a Company Liquidator is appointed, the liquidator must submit a detailed report to the Tribunal within sixty days. This report covers the company assets, debts, liabilities, contracts, and other key details. Creditors and contributories are allowed to inspect and copy this report.",
+ "points": [
+  "The Company Liquidator must submit a report to the Tribunal within sixty days from the winding up order or appointment.",
+  "The report must include asset details, capital amounts, liabilities, debts due, guarantees, and intellectual property.",
+  "Asset values must be obtained from registered valuers.",
+  "The report must cover the company promotion, possible fraud, business viability, and steps to maximize asset value.",
+  "Creditors and contributories can inspect and take copies of the report at reasonable times by paying the prescribed fees."
+ ],
+ "example": "Anushree Textiles Private Limited is ordered to be wound up by the Tribunal, and Mr. Rohan is appointed as the Company Liquidator. Within sixty days, Mr. Rohan prepares a report for the Tribunal. He lists the company assets, gets their valuation from registered valuers, and notes the paid-up capital and debts. He also includes details about ongoing legal cases and whether any fraud was committed during the company's formation. Meanwhile, Ms. Priya, a creditor of the company, requests to inspect the report and take copies of it by paying the required fees.",
+ "terms": [
+  {
+   "term": "Company Liquidator",
+   "meaning": "A person appointed to wind up the affairs of a company and distribute its assets."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "The judicial authority dealing with company law matters."
+  },
+  {
+   "term": "Contributories",
+   "meaning": "Persons liable to contribute to the assets of a company in the event of its being wound up."
+  },
+  {
+   "term": "Contingent liabilities",
+   "meaning": "Potential liabilities that may occur depending on the outcome of a future event."
+  }
+ ],
+ "watch": "Make sure to note that asset valuations must come specifically from registered valuers.",
+ "h": "a9c837d0bf9d",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,33 @@
+{
+ "summary": "The Central Government must establish an Investor Education and Protection Fund to help protect investors and spread awareness. The Fund collects money from various sources like unpaid dividends, unclaimed deposits, and government grants. A special authority is set up by the government to manage this Fund and use it for refunds and investor education.",
+ "points": [
+  "The Central Government shall establish the Investor Education and Protection Fund.",
+  "The Fund receives money from grants, donations, unpaid dividends, unclaimed deposits, and other specified sources remaining unpaid for seven years.",
+  "The Fund is used to refund unclaimed amounts, promote investor education, distribute disgorged amounts, and reimburse legal expenses for class action suits.",
+  "The Central Government shall appoint an authority consisting of a chairperson, up to seven members, and a chief executive officer to administer the Fund.",
+  "The Comptroller and Auditor-General of India shall audit the accounts of the Fund annually."
+ ],
+ "example": "Aarav invested in debentures with Meera Textiles Private Limited many years ago. The debentures matured, but Aarav never claimed his money and forgot about it for over seven years. According to the law, the unclaimed matured debenture amount is transferred to the Investor Education and Protection Fund. Later, Aarav remembers his investment and realizes he is entitled to claim it. He can apply to the authority appointed by the Central Government to get his refund out of the Fund.",
+ "terms": [
+  {
+   "term": "Debentures",
+   "meaning": "A type of debt instrument issued by a company that acknowledges a loan from the public."
+  },
+  {
+   "term": "Disgorgement",
+   "meaning": "The forced giving up of ill-gotten gains or profits obtained through illegal or wrong actions."
+  },
+  {
+   "term": "Class action suits",
+   "meaning": "A lawsuit where a group of people collectively file a claim representing a larger group with similar interests."
+  },
+  {
+   "term": "Comptroller and Auditor-General of India",
+   "meaning": "An authority established by the Constitution of India to audit all receipts and expenditures of the government."
+  }
+ ],
+ "watch": "Note that certain funds like application money, deposits, and debentures only enter the Fund after remaining unpaid and unclaimed for a period of seven years.",
+ "h": "bf13938b36bb",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

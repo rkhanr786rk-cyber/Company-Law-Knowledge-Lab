@@ -1,0 +1,34 @@
+{
+ "summary": "This section requires that any application form to buy company securities must come with an abridged prospectus. However, this rule does not apply if the form is sent for an underwriting agreement or for securities not offered to the public. If anyone asks for a full prospectus before the offer closes, the company must provide it.",
+ "points": [
+  "Application forms for company securities cannot be issued without an abridged prospectus.",
+  "Forms issued for underwriting agreements do not need an abridged prospectus.",
+  "Forms issued for securities not offered to the public do not need an abridged prospectus.",
+  "Anyone can request a full prospectus before the subscription list and offer close.",
+  "The company must provide the full prospectus when requested.",
+  "Failing to follow these rules results in a penalty for each default."
+ ],
+ "example": "Meera Textiles Private Limited planned to issue new shares to the public. Rahul wanted to apply for the shares and asked the company for an application form. The team at Meera Textiles Private Limited remembered the rules and made sure that every application form they handed out was attached to an abridged prospectus. Later, Priya asked to see a full copy of the prospectus before the offer closed. The company promptly gave her a copy as requested. By following these steps, Meera Textiles Private Limited avoided any penalties.",
+ "terms": [
+  {
+   "term": "Securities",
+   "meaning": "Investments like shares or bonds issued by a company."
+  },
+  {
+   "term": "Abridged prospectus",
+   "meaning": "A short version of the main prospectus containing key details."
+  },
+  {
+   "term": "Underwriting agreement",
+   "meaning": "A contract where a person promises to buy any leftover securities if the public does not buy them all."
+  },
+  {
+   "term": "Default",
+   "meaning": "A failure to follow the rules of the law."
+  }
+ ],
+ "watch": "Do not confuse the abridged prospectus, which must accompany every application form, with the full prospectus, which is only given upon request.",
+ "h": "d65e992f8329",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

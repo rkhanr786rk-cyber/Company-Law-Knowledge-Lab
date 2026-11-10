@@ -1,0 +1,32 @@
+{
+ "summary": "This section explains what happens to a company's property when it registers under the Companies Act, 2013. All movable and immovable property that belonged to the company before registration automatically transfers to the newly registered company. This transfer gives the company full rights over the property.",
+ "points": [
+  "Applies to all property belonging to or vested in a company before its registration.",
+  "Includes movable property, immovable property, and actionable claims.",
+  "Property passes and vests in the company upon its registration under this Act.",
+  "Transfers the property for all the estate and interest the company held in it."
+ ],
+ "example": "Aarav Builders operated as an unregistered entity and owned several plots of land and movable equipment. When Aarav Builders officially completed its registration under the Companies Act, 2013, all its property automatically transferred to the newly incorporated company. Because of Section 368, the company now legally holds all the estate and interest in those plots of land and equipment without needing separate transfer deeds for each item.",
+ "terms": [
+  {
+   "term": "Movable property",
+   "meaning": "Physical things that can be moved, such as equipment or vehicles."
+  },
+  {
+   "term": "Immovable property",
+   "meaning": "Property that cannot be moved, such as land or buildings."
+  },
+  {
+   "term": "Actionable claims",
+   "meaning": "A claim to a debt or any other beneficial interest that a person can recover through a legal suit."
+  },
+  {
+   "term": "Vest",
+   "meaning": "To give someone legal ownership or rights to property."
+  }
+ ],
+ "watch": "Do not assume this section requires a separate legal deed to transfer property when a company registers.",
+ "h": "5b98be9a5009",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

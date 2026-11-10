@@ -1,0 +1,29 @@
+{
+ "summary": "This section protects company employees from unfair actions while an official investigation or proceeding is taking place. If a company wants to fire, suspend, punish, or negatively change the job terms of an employee during this time, it must first ask the Tribunal for approval. The company can only go ahead with its plan if the Tribunal does not object or if it does not reply within thirty days.",
+ "points": [
+  "Applies when an investigation or a proceeding under specific chapters is currently happening.",
+  "Requires the company to get approval from the Tribunal before discharging, suspending, or punishing an employee.",
+  "Applies if the company wants to change the terms of employment to the disadvantage of the employee.",
+  "Allows the company to take the proposed action if it receives no approval response from the Tribunal within thirty days of applying.",
+  "Allows the company to appeal to the Appellate Tribunal within thirty days if it is unhappy with the Tribunal's objection."
+ ],
+ "example": "Aahana worked as a senior manager at Sunshine Electronics Private Limited. While the government was conducting an official investigation into the company under section 210, Sunshine Electronics decided to demote Aahana and reduce her salary. Because an investigation was actively underway, the company was not allowed to take this action immediately on its own. Instead, Sunshine Electronics had to submit an application to the Tribunal to get approval for the demotion. If the Tribunal sent an objection notice, the company could appeal to the Appellate Tribunal. If the Tribunal did not send any response or approval within thirty days from the date of the application, the company could then proceed with Aahana's demotion.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized legal body set up to handle company law disputes and matters."
+  },
+  {
+   "term": "Discharge",
+   "meaning": "To release or dismiss an employee from their job."
+  },
+  {
+   "term": "Appellate Tribunal",
+   "meaning": "A higher legal body that hears appeals against the decisions of the Tribunal."
+  }
+ ],
+ "watch": "People often assume the company must wait for a formal approval letter, but the law states the company can proceed if it simply does not receive an approval reply within thirty days.",
+ "h": "fd416dfcbf65",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

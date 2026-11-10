@@ -1,0 +1,33 @@
+{
+ "summary": "This section requires the person winding up a company, called the Company Liquidator, to keep proper books for recording meeting minutes and other prescribed matters. Creditors and contributories have the right to inspect these books, either by themselves or through an agent, subject to the control of the Tribunal.",
+ "points": [
+  "The Company Liquidator must keep proper books in the prescribed manner.",
+  "The liquidator must record entries or minutes of proceedings at meetings in these books.",
+  "The liquidator must record other prescribed matters in these books.",
+  "Any creditor or contributory may inspect these books personally or through an agent.",
+  "The inspection of books by creditors or contributories is subject to the control of the Tribunal."
+ ],
+ "example": "Aarav Industries Private Limited is going through a winding up process. Mr. Sharma is appointed as the Company Liquidator to manage this process, and he maintains proper books to record all meeting minutes as required. Mrs. Gupta, a creditor who is owed money by Aarav Industries Private Limited, wants to see how the winding up is proceeding. She visits Mr. Sharma's office along with her legal agent to inspect the books. Since the law allows creditors to inspect these books either personally or through an agent subject to the control of the Tribunal, Mr. Sharma permits them to check the records.",
+ "terms": [
+  {
+   "term": "Company Liquidator",
+   "meaning": "The person appointed to manage the winding up and closing down of a company."
+  },
+  {
+   "term": "Creditor",
+   "meaning": "A person or business to whom the company owes money."
+  },
+  {
+   "term": "Contributory",
+   "meaning": "A person who is liable to contribute to the assets of the company in the event of its winding up."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "The judicial authority overseeing the company matters, specifically the National Company Law Tribunal."
+  }
+ ],
+ "watch": "Do not assume creditors have unlimited access, as their inspection is subject to the control of the Tribunal.",
+ "h": "8f5f12b2a23e",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,24 @@
+{
+ "summary": "Section 401 of the Companies Act, 2013 lets the Central Government offer extra electronic services. It also allows the government to charge a fee for these services. The exact services and fees are decided by rules made later.",
+ "points": [
+  "The Central Government is allowed to provide value added services.",
+  "These services must be provided through electronic form.",
+  "The government may charge a fee on these electronic services.",
+  "The exact details of the services and fees are prescribed by rules."
+ ],
+ "example": "Aarav Tech Solutions Private Limited wants to use a new online portal launched by the Central Government to access extra digital filings and records quickly. Because Section 401 of the Companies Act, 2013 allows the government to provide such value added services through the electronic form, Aarav Tech Solutions Private Limited can use this digital platform. The company also learns that it must pay a fee to use these electronic services, as the law permits the government to levy fees on them as may be prescribed.",
+ "terms": [
+  {
+   "term": "value added services",
+   "meaning": "Extra or special services provided beyond the basic requirements."
+  },
+  {
+   "term": "prescribed",
+   "meaning": "Decided or laid down by rules made under the law."
+  }
+ ],
+ "watch": "Do not assume any specific fee amount or list of services, as this section does not mention them.",
+ "h": "183f38f57a86",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,29 @@
+{
+ "summary": "This section explains how company law offences are handled by courts. It states that most offences are non-cognizable and sets strict rules on who can file a complaint to start a court case. It also exempts certain officials from needing to appear in court personally every time.",
+ "points": [
+  "Every offence under this Act, except those under section 212(6), is treated as non-cognizable.",
+  "Courts can only take up an offence if there is a written complaint from the Registrar, a shareholder, a member, or a person authorised by the Central Government.",
+  "A person authorised by the Securities and Exchange Board of India can file written complaints for offences related to issuing and transferring securities and unpaid dividends.",
+  "A company prosecuting its own officer does not need a complaint from the Registrar or Central Government.",
+  "When the Registrar or a Central Government person is the complainant, they do not need to be personally present in court unless the judge specifically asks them to attend."
+ ],
+ "example": "Meera Textiles Private Limited noticed that a dividend payment was missed. A person authorised by the Securities and Exchange Board of India filed a written complaint regarding this non-payment of dividend. Meanwhile, Rohan, a shareholder of the company, filed a written complaint about another minor rule violation by an officer. The court accepted these written complaints to begin examining the matters. Later, because the Central Government had authorised a specific officer to file a complaint, that officer did not have to attend every single court hearing in person, as the judge did not demand their personal attendance.",
+ "terms": [
+  {
+   "term": "non-cognizable",
+   "meaning": "An offence where police cannot usually arrest a person without a warrant or start an investigation without court permission."
+  },
+  {
+   "term": "cognizance",
+   "meaning": "The action taken by a court of law to officially notice and hear a criminal case."
+  },
+  {
+   "term": "liquidator",
+   "meaning": "A person appointed to wind up and close down the affairs of a company."
+  }
+ ],
+ "watch": "People often confuse who is allowed to file a complaint in court, but the law strictly lists specific authorities and individuals who can do so.",
+ "h": "60eaab188c0a",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

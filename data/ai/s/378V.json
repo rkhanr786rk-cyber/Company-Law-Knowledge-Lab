@@ -1,0 +1,34 @@
+{
+ "summary": "This section sets the rules for board meetings and quorums for certain companies. It states how often meetings must happen, how to send notices, and how many directors must be present. It also covers rules for paying meeting fees to directors.",
+ "points": [
+  "The board of directors must meet at least once every three months.",
+  "At least four board meetings must be held in every year.",
+  "Written notice must be sent to every director in India and to every other director's usual address in India.",
+  "The Chief Executive must send the notice at least seven days before the meeting, or face a penalty of five thousand rupees.",
+  "The quorum, or minimum number of directors needed to hold a meeting, is one-third of the total directors, with a minimum of three.",
+  "Members in a general meeting decide the fees and allowances paid to directors for attending board meetings, unless the articles say otherwise."
+ ],
+ "example": "At Meera Textiles Private Limited, the Chief Executive plans to hold a board meeting. To follow the rules, the Chief Executive sends a written notice to all directors at least seven days before the meeting date. The company has a total of nine directors. On the day of the meeting, four directors show up. Since this number is one-third of the total strength and also more than the minimum requirement of three directors, the quorum is complete and the meeting can legally start. Later, the members in a general meeting decide to pay the directors a small fee for attending this meeting, as the company articles do not forbid it.",
+ "terms": [
+  {
+   "term": "Board",
+   "meaning": "The group of directors who manage the company."
+  },
+  {
+   "term": "Quorum",
+   "meaning": "The minimum number of directors who must be present to start a legal meeting."
+  },
+  {
+   "term": "Chief Executive",
+   "meaning": "The main officer responsible for running the daily business."
+  },
+  {
+   "term": "Articles",
+   "meaning": "The rulebook that governs how the company is run."
+  }
+ ],
+ "watch": "Note that board meetings can still be called at a shorter notice if the board writes down the reasons for doing so.",
+ "h": "c8bc1ed1891d",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

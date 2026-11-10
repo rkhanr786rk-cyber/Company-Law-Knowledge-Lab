@@ -1,0 +1,29 @@
+{
+ "summary": "Section 399 of the Companies Act, 2013 allows anyone to inspect company documents kept by the Registrar electronically and request certified copies by paying the required fees. Courts or tribunals need special permission to demand the production of these documents. Also, any copy certified as a true copy by the Registrar can be used directly as valid evidence in legal proceedings.",
+ "points": [
+  "Anyone can inspect electronic documents kept by the Registrar by paying the prescribed fees.",
+  "People can request a certificate of incorporation or certified copies of other documents by paying fees in advance.",
+  "Documents delivered with a specific prospectus have strict time limits for access unless the Central Government gives permission.",
+  "Courts or Tribunals need special leave to issue any process forcing the production of documents kept by the Registrar.",
+  "A certified true copy of a document by the Registrar is accepted as valid evidence in all legal proceedings without proving their official position."
+ ],
+ "example": "Aarav wanted to check some official records of Mehta Industries Private Limited to understand their registered details. He visited the official portal and used the electronic inspection facility, paying the required fee to view the documents kept by the Registrar. Later, Aarav needed a certified copy of the company's certificate of incorporation for a legal matter. He requested this from the Registrar and paid the prescribed fee in advance. When the dispute reached the court, Aarav submitted the certified copy provided by the Registrar. The court accepted it as valid evidence of equal weight to the original document without questioning the Registrar's official position.",
+ "terms": [
+  {
+   "term": "Registrar",
+   "meaning": "The official appointed to keep and manage company records and registrations."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized legal body set up to handle company law disputes."
+  },
+  {
+   "term": "Admissible in evidence",
+   "meaning": "Allowed to be used in a court of law to prove facts."
+  }
+ ],
+ "watch": "People often forget that special rules and time limits apply to documents delivered along with a prospectus.",
+ "h": "3343674b75c1",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,25 @@
+{
+ "summary": "Section 404 of the Companies Act, 2013 explains where money collected under the Act must go. Any fees, charges, or other sums received by government registration officers must be deposited directly into the public account of India. This money is kept in the Reserve Bank of India.",
+ "points": [
+  "Applies to all fees, charges, and other sums received.",
+  "Applies to amounts received by Registrars, Additional, Joint, Deputy, or Assistant Registrars.",
+  "Applies to any other officer of the Central Government acting under the Act.",
+  "Requires all such money to be paid into the public account of India.",
+  "Specifies that the payment must be made in the Reserve Bank of India."
+ ],
+ "example": "Aarav is an Assistant Registrar under the Companies Act, 2013, working at a government registration office for Meera Textiles Private Limited. While processing various official documents for the company, Aarav collects statutory fees and other permitted charges from the representatives of Meera Textiles Private Limited. According to Section 404, Aarav cannot keep this money or deposit it into a local commercial bank account. Instead, Aarav is legally required to take all the fees and charges he received and pay them directly into the public account of India located in the Reserve Bank of India.",
+ "terms": [
+  {
+   "term": "Registrar",
+   "meaning": "A government officer appointed to handle the registration and official records of companies."
+  },
+  {
+   "term": "Public account of India",
+   "meaning": "The official government account where specific public funds and receipts are held."
+  }
+ ],
+ "watch": "Do not confuse this with private bank accounts, as all collected fees must go specifically to the Reserve Bank of India.",
+ "h": "42581d4d00db",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

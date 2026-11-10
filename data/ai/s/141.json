@@ -1,0 +1,34 @@
+{
+ "summary": "This section explains who can and cannot be appointed as a company auditor. An auditor must be a chartered accountant, and certain persons like company employees or people connected to the company are not allowed to take the job. If an auditor gets disqualified after being appointed, they must leave their office.",
+ "points": [
+  "Only a chartered accountant or a firm where the majority of partners in India are qualified can be appointed as an auditor.",
+  "For a firm or limited liability partnership appointed as an auditor, only partners who are chartered accountants can sign on behalf of the firm.",
+  "Companies cannot appoint corporate bodies as auditors, except for registered limited liability partnerships.",
+  "Officers, employees, and people holding security or interest in the company or its related companies are disqualified from being auditors.",
+  "An auditor cannot be someone who is convicted of fraud by a court unless ten years have passed since the conviction.",
+  "An auditor who gets any of the disqualifications after appointment must vacate the office."
+ ],
+ "example": "Aarav is a chartered accountant who wants to become the auditor for Meera Textiles Private Limited. However, Aarav’s sister is currently working as a director at Meera Textiles. Because of this family connection, Aarav is not eligible for appointment as an auditor for the company under the rules. Meanwhile, a firm called Rahul and Associates is appointed as the auditor, but only the partners who are chartered accountants are allowed to sign documents for the company.",
+ "terms": [
+  {
+   "term": "Chartered accountant",
+   "meaning": "A certified professional accountant who has completed required training and exams."
+  },
+  {
+   "term": "Body corporate",
+   "meaning": "A legal corporation or company, separate from its individual members."
+  },
+  {
+   "term": "Security",
+   "meaning": "Financial instruments like shares or stocks in a company."
+  },
+  {
+   "term": "Indebted",
+   "meaning": "Owing money to someone."
+  }
+ ],
+ "watch": "People often confuse relatives holding minor securities with outright bans, but a relative is allowed to hold security up to one thousand rupees or the prescribed sum.",
+ "h": "38c610dbabd6",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

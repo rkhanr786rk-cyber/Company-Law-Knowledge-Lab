@@ -1,0 +1,28 @@
+{
+ "summary": "Section 392 of the Companies Act, 2013, sets the punishment when a foreign company breaks the rules of this Chapter. Both the foreign company itself and any responsible officer can face fines. If the violation continues over multiple days, extra daily fines apply to the company.",
+ "points": [
+  "Applies if a foreign company breaks the rules of this Chapter.",
+  "The foreign company faces a fine between one lakh and three lakh rupees.",
+  "For a continuing offence, the company faces an extra fine up to fifty thousand rupees for every day after the first.",
+  "Every officer of the foreign company who is in default faces a fine between twenty-five thousand and five lakh rupees."
+ ],
+ "example": "Alpha Global Inc., a foreign company operating in India, broke the rules written in this Chapter of the Companies Act. Because of this violation, the regulatory authority penalized Alpha Global Inc. with a fine. At the same time, Mr. Roy, who is the officer of the company responsible for this failure, was also held accountable under the law. Mr. Roy received a separate fine for his default. Both the company and the officer must now pay their respective fines as determined within the limits set by the law.",
+ "terms": [
+  {
+   "term": "foreign company",
+   "meaning": "A company or body corporate incorporated outside India which has a place of business in India."
+  },
+  {
+   "term": "contravenes",
+   "meaning": "Breaks, violates, or goes against a law or rule."
+  },
+  {
+   "term": "officer who is in default",
+   "meaning": "Any officer of a company who is responsible for the violation or failure to follow the law."
+  }
+ ],
+ "watch": "Note that both the company and the responsible officer are punished separately under this section.",
+ "h": "c69a502a643e",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

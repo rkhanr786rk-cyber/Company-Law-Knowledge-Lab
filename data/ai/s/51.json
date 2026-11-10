@@ -1,0 +1,27 @@
+{
+ "summary": "This section explains how a company can pay dividends to its shareholders. It allows a company to pay these profits in proportion to the amount actually paid-up on each share, but only if its articles allow it. Without this specific permission in the rules, this method cannot be used.",
+ "points": [
+  "A company is allowed to pay dividends based on the amount paid-up on shares.",
+  "The company must have authorization in its articles to use this method.",
+  "Dividends are distributed in proportion to what has been paid on each share rather than the face value."
+ ],
+ "example": "Meera Textiles Private Limited has shares with a face value of one hundred rupees each, but shareholders have only paid fifty rupees per share so far. The company decides to share its profits with the owners. Because the internal rules of Meera Textiles Private Limited permit it, the company calculates the dividend based on the fifty rupees actually paid-up on each share rather than the full one hundred rupees. Therefore, a shareholder with ten shares receives a dividend proportional to the five hundred rupees paid-up, rather than one thousand rupees. This ensures that payouts match the exact money contributed by each shareholder so far.",
+ "terms": [
+  {
+   "term": "Articles",
+   "meaning": "The rulebook that contains the internal regulations for managing a company."
+  },
+  {
+   "term": "Paid-up",
+   "meaning": "The actual amount of money that shareholders have paid to the company for their shares."
+  },
+  {
+   "term": "Dividend",
+   "meaning": "A portion of company profits paid out to its shareholders."
+  }
+ ],
+ "watch": "Do not assume a company can always pay dividends this way; its articles must specifically authorize it.",
+ "h": "1d16ce6b5c71",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

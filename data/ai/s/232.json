@@ -1,0 +1,34 @@
+{
+ "summary": "Section 232 of the Companies Act, 2013, deals with how companies can merge, amalgamate, or divide through a legal scheme approved by the Tribunal. It sets out the rules for holding meetings, circulating necessary documents like valuation reports, and obtaining the Tribunal's final sanction for the transfer of property, liabilities, and employees. The section also covers special requirements for listed and unlisted companies, auditor certificates, and filing the final order.",
+ "points": [
+  "The Tribunal may order meetings of creditors or members when a merger, amalgamation, or division scheme is proposed.",
+  "Merging companies must circulate draft schemes, director reports, expert valuation reports, and specific accounting statements for the meeting.",
+  "The Tribunal can sanction the scheme and provide for the transfer of property, liabilities, and employees to the transferee company.",
+  "A transferee company is forbidden from holding shares in its own name or through a trust for itself or its subsidiaries.",
+  "Companies involved must file a certified copy of the Tribunal's order with the Registrar for registration.",
+  "Every company must file an annual compliance statement certified by a professional until the scheme is complete."
+ ],
+ "example": "Meera Textiles Private Limited planned to merge with Sunrise Fabrics Limited under a court-approved scheme. The directors of Meera Textiles drew up a draft scheme and filed a copy with the Registrar. They prepared a report explaining how the merger would affect their shareholders and key managers, along with a valuation report from an expert. Before the meeting, they circulated these required documents to their members. After reviewing everything and confirming that an auditor certified the accounting standards, the Tribunal issued an order to approve the merger, transferring Meera Textiles' property and liabilities to Sunrise Fabrics Limited.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "The judicial body (National Company Law Tribunal) that handles company law disputes and approvals."
+  },
+  {
+   "term": "Transferor company",
+   "meaning": "The original company whose undertaking, property, or liabilities are being transferred to another company."
+  },
+  {
+   "term": "Transferee company",
+   "meaning": "The company that receives the undertaking, property, or liabilities from the transferor company."
+  },
+  {
+   "term": "Winding-up",
+   "meaning": "The legal process of closing down a company and settling its affairs."
+  }
+ ],
+ "watch": "People often confuse the transferor company with the transferee company; remember the transferor gives up its assets, while the transferee receives them.",
+ "h": "3c9b146a9460",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

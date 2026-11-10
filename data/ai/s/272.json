@@ -1,0 +1,29 @@
+{
+ "summary": "This section explains who has the legal right to ask the Tribunal to close down a company. It sets out the rules for different people like the company itself, shareholders, and government officials to file a winding up petition. It also outlines specific conditions they must follow, such as giving notices or submitting required statements.",
+ "points": [
+  "The company, any contributory, the Registrar, or an authorised person can present a petition to wind up a company.",
+  "A contributory can file a petition even if they hold fully paid-up shares or if the company has no assets left.",
+  "The Registrar needs previous permission from the Central Government before filing a petition.",
+  "A company must include a statement of affairs when it presents a winding up petition.",
+  "A copy of the petition must be filed with the Registrar, who will submit views to the Tribunal."
+ ],
+ "example": "Meera Textiles Private Limited was facing heavy debts and could no longer continue its business operations. Rohan, a shareholder who held fully paid-up shares registered in his name for over six months, decided to take action. Even though the company had no assets left to distribute, Rohan had the legal right to present a petition to the Tribunal for winding up the company. Meanwhile, the company also prepared its petition along with a statement of affairs. A copy of this petition was duly filed with the Registrar so that the Registrar could submit official views to the Tribunal within the given time.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A special judicial body that handles company law cases."
+  },
+  {
+   "term": "contributory",
+   "meaning": "A person liable to contribute to the assets of a company in the event of its being wound up, which includes shareholders."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "A government authority appointed to keep company records and handle administrative duties under the Act."
+  }
+ ],
+ "watch": "People often confuse whether a shareholder with fully paid-up shares can file for winding up, but the law clearly allows it under specific conditions.",
+ "h": "171333433b1d",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

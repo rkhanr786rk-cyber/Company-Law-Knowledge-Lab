@@ -1,0 +1,34 @@
+{
+ "summary": "This section forbids a company director from taking payments for losing or retiring from their office during the transfer of company property, business, or shares. They can only receive such payments if full details are disclosed to the members and the company approves it in a general meeting. If a director breaks this rule or takes the money before approval, they must hold that money in trust for the company and face a penalty.",
+ "points": [
+  "Directors cannot receive compensation for loss or retirement from office during the transfer of company undertakings, property, or shares unless specific rules are met.",
+  "Full details and the amount of the proposed payment must be disclosed to the members of the company.",
+  "The proposal for payment must be approved by the company in a general meeting.",
+  "If a meeting lacks a quorum, the proposal is not considered approved.",
+  "Any money received in violation of these rules is deemed to be held by the director in trust for the company.",
+  "A defaulting director is liable to a penalty of one lakh rupees."
+ ],
+ "example": "Meera Textiles Private Limited decided to transfer a major part of its business undertaking to another firm. During this transfer, Mr. Sharma, a director of Meera Textiles, was set to receive a special payment as compensation for stepping down from his office. Before accepting any money, the company ensured that all details and the exact amount of the proposed payment were fully disclosed to the members. The proposal was then put before the shareholders and approved by the company in a general meeting. Because the proper steps of disclosure and general meeting approval were carefully followed, Mr. Sharma legally received the payment without violating the rules.",
+ "terms": [
+  {
+   "term": "undertaking",
+   "meaning": "A business, enterprise, or major part of a company's operations or property."
+  },
+  {
+   "term": "subsidiary company",
+   "meaning": "A company that is controlled by another company, known as the holding company."
+  },
+  {
+   "term": "quorum",
+   "meaning": "The minimum number of members required to be present to legally conduct a meeting."
+  },
+  {
+   "term": "in trust",
+   "meaning": "Holding property or money legally for the benefit of someone else, in this case, the company."
+  }
+ ],
+ "watch": "Even if the payment comes from an outside person or the transferee rather than the company itself, the members must still approve it.",
+ "h": "b0f5c83f2b75",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

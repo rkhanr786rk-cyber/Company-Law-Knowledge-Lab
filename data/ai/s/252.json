@@ -1,0 +1,29 @@
+{
+ "summary": "This section allows an aggrieved person or the Registrar to appeal to the Tribunal within three years to restore a dissolved company's name to the register. Alternatively, the company, a member, a creditor, or a workman can apply within twenty years if the company was active or if restoration is just. Once the Tribunal orders restoration, the company must file a copy with the Registrar within thirty days.",
+ "points": [
+  "An aggrieved person may file an appeal to the Tribunal within three years from the date of the Registrar's order.",
+  "The Tribunal must give a reasonable opportunity of being heard to the Registrar, the company, and all concerned persons before making an order.",
+  "The Registrar may file an application before the Tribunal within three years if a name was struck off by mistake or based on incorrect information.",
+  "A company, member, creditor, or workman can apply to the Tribunal within twenty years from the official notice if the company was carrying on business or if it is just to restore it.",
+  "The company must file a copy of the Tribunal's restoration order with the Registrar within thirty days."
+ ],
+ "example": "Meera Textiles Private Limited found out that its name was removed from the register of companies by the Registrar. Rahul, a creditor of the company, felt unhappy with this removal because the company was still active and carrying on business at that time. Within the allowed twenty years from the official notice, Rahul decided to make an application to the Tribunal to restore the company name. The Tribunal heard all concerned parties and agreed that the removal was not justified. It ordered the restoration of the company's name. Following this, the company filed a copy of the Tribunal order with the Registrar within thirty days, and the Registrar issued a fresh certificate of incorporation.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A legal body appointed to deal with specific disputes and appeals under the law."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "The official authority responsible for maintaining the register of companies."
+  },
+  {
+   "term": "Creditor",
+   "meaning": "A person or company to whom money is owed by the business."
+  }
+ ],
+ "watch": "Note that there are different time limits depending on who is filing and the specific reason for the appeal.",
+ "h": "cfc854a0a7a0",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,28 @@
+{
+ "summary": "This section sets the punishment if a company fails to hold its required meetings or disobeys orders from the Tribunal. Both the company and the responsible officers must pay a fine for breaking these rules. If the default keeps going every day, an extra daily fine is charged.",
+ "points": [
+  "Applies if the company fails to hold a meeting under sections 96, 97, or 98.",
+  "Applies if the company fails to follow any directions given by the Tribunal.",
+  "The company and every officer in default face a fine up to one lakh rupees.",
+  "For a continuing default, an extra fine up to five thousand rupees is charged for every day the default goes on."
+ ],
+ "example": "At Sunrise Garments Private Limited, the directors failed to hold their annual general meeting on time as required by section 96, and they also ignored clear orders given by the Tribunal regarding the meeting. Because of this failure, the company and the responsible officer, Mr. Sharma, were taken to task under Section 99. The court ordered them to pay a fine that could extend up to one lakh rupees. Furthermore, because they delayed fixing the problem for several more days, they had to pay an additional fine of up to five thousand rupees for each day the default continued.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A special official body or court that makes legal decisions."
+  },
+  {
+   "term": "Officer who is in default",
+   "meaning": "An officer of the company who is responsible for the rule being broken."
+  },
+  {
+   "term": "Continuing default",
+   "meaning": "A violation that keeps happening day after day without being fixed."
+  }
+ ],
+ "watch": "Note that both the company and the responsible officer can be punished at the same time.",
+ "h": "86f0a5edee64",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

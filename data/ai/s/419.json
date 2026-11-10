@@ -1,0 +1,33 @@
+{
+ "summary": "This section explains how the National Company Law Tribunal is divided into different benches to carry out its work. The Central Government decides the number of benches, while the main bench sits in New Delhi under the President. Usually, a bench has two members, but special rules apply for single members, split decisions, and insolvency cases.",
+ "points": [
+  "The Central Government sets up benches of the Tribunal through official notifications.",
+  "The Principal Bench is located in New Delhi and is headed by the President of the Tribunal.",
+  "Normally, a bench consists of two members: one Judicial Member and one Technical Member.",
+  "The President can sometimes authorize a single Judicial Member to handle certain classes of cases.",
+  "If two members on a bench disagree, the matter is referred to other members so the majority opinion decides the point."
+ ],
+ "example": "Meera Textiles Private Limited faced a dispute and approached the Tribunal. The case was assigned to a bench with two members, Mr. Sharma who was a Judicial Member and Ms. Gupta who was a Technical Member. During the hearing, Mr. Sharma and Ms. Gupta disagreed strongly on a key point in the dispute. Because they were equally divided, they wrote down the exact point on which they differed. They referred the matter to the President of the Tribunal. The President then sent the case for hearing on that specific point to one or more other members. Finally, the point was decided based on the majority opinion of all the members who heard it, including the original two.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized official body set up to handle legal disputes and cases under the law."
+  },
+  {
+   "term": "Judicial Member",
+   "meaning": "A member of the Tribunal who has a legal background."
+  },
+  {
+   "term": "Technical Member",
+   "meaning": "A member of the Tribunal who has expertise in technical or specialized fields like finance or corporate matters."
+  },
+  {
+   "term": "Notification",
+   "meaning": "A formal public announcement made by the government."
+  }
+ ],
+ "watch": "A common confusion is assuming every bench has only one judge, whereas the law normally requires two members of different backgrounds.",
+ "h": "bc9ba111a9eb",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

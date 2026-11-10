@@ -1,0 +1,34 @@
+{
+ "summary": "Every company must prepare and sign written records of all meetings and postal ballot resolutions within thirty days. These records must contain a fair summary of the proceedings and details of any appointments made. The Chairman has the final say on excluding irrelevant, defamatory, or harmful matters from these records.",
+ "points": [
+  "Every company must prepare and sign minutes of shareholder meetings, creditor meetings, board meetings, committee meetings, and postal ballots within thirty days.",
+  "Minutes must be kept in books with consecutively numbered pages and must give a fair and correct summary of proceedings.",
+  "Board meeting minutes must list the names of directors present and anyone who disagrees with a resolution.",
+  "The Chairman can decide to exclude defamatory, irrelevant, or harmful matters from the minutes.",
+  "Companies must follow secretarial standards set by the Institute of Company Secretaries of India and approved by the Central Government.",
+  "Tampering with minutes can lead to imprisonment and fines, while default in complying brings monetary penalties."
+ ],
+ "example": "At Meera Textiles Private Limited, the board of directors recently held a meeting to discuss a new branch. Rahul, the company secretary, prepared the meeting minutes within thirty days and put them in a dedicated book with numbered pages. The minutes included a fair summary of the discussion, the names of all attending directors, and noted that director Priya dissented from the main resolution. When a draft report of the meeting was prepared, the Chairman removed a comment that was irrelevant and potentially harmful to the company. These properly maintained minutes will now serve as legal evidence that the meeting was duly held and that all recorded proceedings and appointments took place correctly.",
+ "terms": [
+  {
+   "term": "Minutes",
+   "meaning": "The official written record of what happened during a meeting."
+  },
+  {
+   "term": "Postal ballot",
+   "meaning": "A method of voting by mail or electronic means instead of voting in person at a meeting."
+  },
+  {
+   "term": "Dissenting",
+   "meaning": "Expressing disagreement with an official decision or resolution."
+  },
+  {
+   "term": "Defamatory",
+   "meaning": "Damaging to a person's good reputation."
+  }
+ ],
+ "watch": "People often confuse the flexible role of the Chairman in excluding harmful content with the strict requirement that every meeting must still have its proper proceedings and appointments recorded.",
+ "h": "b923c2158286",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

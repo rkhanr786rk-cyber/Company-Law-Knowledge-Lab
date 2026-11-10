@@ -1,0 +1,23 @@
+{
+ "summary": "This section states that the rules of the Limitation Act, 1963 will apply to cases and appeals brought before the Tribunal or the Appellate Tribunal. This means time limits for taking legal action are generally applicable here. The text is very short and does not give specific time limits itself.",
+ "points": [
+  "The Limitation Act, 1963 applies to proceedings before the Tribunal.",
+  "The Limitation Act, 1963 applies to appeals before the Appellate Tribunal.",
+  "This application applies as far as possible."
+ ],
+ "example": "Meera Textiles Private Limited wanted to file an appeal against an order made by the Tribunal. Before accepting the case, the Appellate Tribunal checked if the appeal was filed within the time allowed by the Limitation Act, 1963. Because the law says the Limitation Act applies to these appeals, the officials had to make sure the time limits were followed by Meera Textiles Private Limited. This ensures that cases and appeals are brought forward in a timely manner according to established legal rules.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized official body that hears and decides legal cases."
+  },
+  {
+   "term": "Appellate Tribunal",
+   "meaning": "A higher body that reviews decisions made by the Tribunal."
+  }
+ ],
+ "watch": "Do not assume specific time limits are written here; this section only points to another separate law for time limits.",
+ "h": "cc3f4e55b54b",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

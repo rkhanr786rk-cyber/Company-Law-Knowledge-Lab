@@ -1,0 +1,29 @@
+{
+ "summary": "This section explains how to officially deliver documents to a foreign company in India. A document is considered properly delivered if it is sent to the person and address previously registered with the Registrar. You can send it by post, leave it at that address, or use electronic means.",
+ "points": [
+  "Allows documents to be served to a foreign company.",
+  "Requires the document to be addressed to a person whose name and address were given to the Registrar under section 380.",
+  "Permits leaving the document at the delivered address.",
+  "Permits sending the document by post to the delivered address.",
+  "Permits sending the document by electronic mode."
+ ],
+ "example": "Global Logistics Inc. is a foreign company doing business in India. To comply with the law, they previously gave the name and address of their representative, Mr. Sharma, to the Registrar under section 380. Later, the regulatory authority needed to send an official notice to Global Logistics Inc. Instead of searching for their main international office, the authority simply sent the notice by post to Mr. Sharma at the exact address registered with the Registrar. According to the law, this act is considered valid and sufficient service of the document on the foreign company.",
+ "terms": [
+  {
+   "term": "foreign company",
+   "meaning": "A company or body corporate incorporated outside India which has a place of business in India."
+  },
+  {
+   "term": "served",
+   "meaning": "Delivered officially in a legal manner."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "The official government authority who keeps records of companies."
+  }
+ ],
+ "watch": "Make sure to send the document to the specific person and address registered under section 380.",
+ "h": "695e3a792c84",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,23 @@
+{
+ "summary": "This section allows certain companies to have a special director chosen by small shareholders. A small shareholder is someone holding shares up to a certain small value. The rules for how this director is elected and their terms must follow official guidelines.",
+ "points": [
+  "A listed company is permitted to have one director elected by small shareholders.",
+  "The election and terms of this director must follow prescribed rules.",
+  "Small shareholders are defined as those holding shares of a nominal value up to twenty thousand rupees or another prescribed sum."
+ ],
+ "example": "Meera Textiles Private Limited is a listed company with many individual investors holding small amounts of shares. One of these investors, Ramesh, holds shares with a nominal value of fifteen thousand rupees. Because the company is allowed under the law to have a director chosen by small shareholders, Ramesh and other investors like him join together to elect a representative to the board. This director will voice the concerns of small investors during company meetings, following all the official rules and conditions set down for such appointments.",
+ "terms": [
+  {
+   "term": "Listed company",
+   "meaning": "A company that has its shares traded on a recognized stock exchange."
+  },
+  {
+   "term": "Nominal value",
+   "meaning": "The face value of the shares as stated in the company documents."
+  }
+ ],
+ "watch": "Do not assume every company must have this director, as the text says a listed company may have one.",
+ "h": "6185bf1ed200",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

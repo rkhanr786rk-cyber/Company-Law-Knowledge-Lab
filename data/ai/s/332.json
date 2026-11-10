@@ -1,0 +1,33 @@
+{
+ "summary": "When a company is winding up, any floating charge created in the twelve months before winding up starts is usually invalid. It can only survive if the company was solvent right after making the charge, or for new cash paid to the company plus five percent interest. This rule helps protect the company's assets for all creditors.",
+ "points": [
+  "Applies when a company is being wound up.",
+  "Affects floating charges created within the twelve months right before winding up begins.",
+  "Declares such charges invalid unless the company was solvent immediately after creation.",
+  "Allows the charge to remain valid for any cash paid to the company at or after the creation time.",
+  "Allows five percent interest per annum or another notified rate on that cash amount."
+ ],
+ "example": "Meera Textiles Private Limited gave a floating charge over its general assets to a lender eleven months before the company started its winding up process. During the winding up, the liquidator checked the company's financial records to see if this charge was valid. Because the company was not solvent immediately after giving the charge and no new cash was given by the lender at that time, the floating charge was treated as invalid under the law. If the lender had actually given fresh cash to Meera Textiles Private Limited right when the charge was made, that specific cash amount plus five percent yearly interest would have been protected.",
+ "terms": [
+  {
+   "term": "Floating charge",
+   "meaning": "A security interest over a changing group of company assets, like inventory or stock."
+  },
+  {
+   "term": "Winding up",
+   "meaning": "The legal process of ending a company and closing down its business."
+  },
+  {
+   "term": "Solvent",
+   "meaning": "Able to pay debts when they are due."
+  },
+  {
+   "term": "Invalid",
+   "meaning": "Not legally valid or having no legal effect."
+  }
+ ],
+ "watch": "People often confuse floating charges with fixed charges, but this rule only applies to floating charges.",
+ "h": "df2a9ef9157d",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

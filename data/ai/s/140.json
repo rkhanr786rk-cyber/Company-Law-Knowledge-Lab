@@ -1,0 +1,33 @@
+{
+ "summary": "This section of the law explains how a company can remove or replace its auditor, and how an auditor can resign. It sets rules for giving special notice when bringing in a new auditor or not re-appointing an old one. It also gives the Tribunal the power to change an auditor if fraud is involved.",
+ "points": [
+  "A company can remove an auditor before their term ends only by passing a special resolution and getting prior approval from the Central Government.",
+  "The auditor must be given a fair chance to be heard before any removal action is taken.",
+  "An auditor who resigns must file a statement with the company, the Registrar, and sometimes the Comptroller and Auditor-General of India within thirty days.",
+  "Special notice is needed to appoint a new auditor instead of the retiring one, or to state that the retiring auditor will not be re-appointed.",
+  "The Tribunal can order a company to change its auditor if the auditor acts in a fraudulent manner."
+ ],
+ "example": "Meera Textiles Private Limited wanted to remove its auditor, Mr. Sharma, before his term ended. The company first obtained approval from the Central Government and ensured Mr. Sharma received a fair chance to speak. Later, when a new auditor was proposed, the company gave special notice to its members. The retiring auditor, Mr. Sharma, made a written representation which the company shared with the members. Meanwhile, another auditor, Apex Audit Firm, resigned and filed their resignation statement within thirty days. Later, the Tribunal found Apex Audit Firm involved in a fraud and ordered the company to change its auditor, prohibiting the firm from being appointed as an auditor anywhere for five years.",
+ "terms": [
+  {
+   "term": "Special resolution",
+   "meaning": "A decision taken by a company where the required majority is not less than seventy-five per cent."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A legal body set up to deal with specific types of disputes and cases under the law."
+  },
+  {
+   "term": "Abetted",
+   "meaning": "Helped or encouraged someone to do something wrong."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "An official who keeps records of companies."
+  }
+ ],
+ "watch": "People often confuse the resignation rules for regular companies with those for government-related companies that also require filing with the Comptroller and Auditor-General of India.",
+ "h": "66f9e2621404",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

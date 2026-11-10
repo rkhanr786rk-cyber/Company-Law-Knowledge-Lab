@@ -1,0 +1,28 @@
+{
+ "summary": "When a company is winding up, certain people connected to the company must fully cooperate with the person in charge of closing it down, called the Company Liquidator. If anyone refuses or fails to help, the Liquidator can ask the Tribunal for help. The Tribunal will then order that person to follow the Liquidator's instructions and cooperate.",
+ "points": [
+  "Promoters, directors, officers, and current or past employees must fully cooperate with the Company Liquidator.",
+  "The cooperation must support the Liquidator in carrying out their functions and duties.",
+  "If a required person does not cooperate, the Company Liquidator can apply to the Tribunal for directions.",
+  "Upon receiving the application, the Tribunal must order the person to cooperate and follow the Liquidator's instructions."
+ ],
+ "example": "Meera Textiles Private Limited was going through a winding up process. Mr. Sharma, a former director of the company, refused to hand over important financial records when the Company Liquidator asked for them. Because Mr. Sharma did not cooperate, the Company Liquidator made a formal application to the Tribunal. After reviewing the application, the Tribunal issued an order directing Mr. Sharma to comply with the Liquidator's instructions and give full cooperation.",
+ "terms": [
+  {
+   "term": "Company Liquidator",
+   "meaning": "The person appointed to manage the winding up and closing down of a company."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized legal authority or body set up to handle specific disputes and cases."
+  },
+  {
+   "term": "Promoters",
+   "meaning": "People who help start and form a company."
+  }
+ ],
+ "watch": "Do not assume there is a direct penalty mentioned in this section for failing to cooperate; the text only states that the Liquidator can seek a Tribunal order.",
+ "h": "0267672e141c",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

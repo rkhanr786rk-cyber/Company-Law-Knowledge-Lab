@@ -1,0 +1,33 @@
+{
+ "summary": "During a company's winding up by the Tribunal, if it seems that an officer or member has committed an offence, the Tribunal can order the liquidator to prosecute them or refer the matter to the Registrar. When a prosecution happens, current and past officers, agents, and the liquidator must help with it as much as they reasonably can. This rule ensures that wrongdoers can be held accountable while the company is being closed down.",
+ "points": [
+  "The Tribunal can act on its own or upon request from an interested person during winding up.",
+  "The Tribunal may direct the liquidator to prosecute an offending officer or member.",
+  "The Tribunal may direct the matter to be referred to the Registrar.",
+  "The liquidator, officers, and agents must give all reasonable assistance for the prosecution.",
+  "Agents include the company's bankers, legal advisers, and auditors."
+ ],
+ "example": "During the official winding up of Meera Textiles Private Limited by the Tribunal, evidence comes to light showing that a former director may have broken the law regarding company funds. The Tribunal decides to act on its own and orders the liquidator to refer the matter to the Registrar. Following this action, the law requires the company's former auditor and its banker to provide all reasonable help and information needed for the case. Everyone involved must cooperate fully with the investigation to ensure the legal process moves forward properly.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "The judicial body that handles company law matters and winding up cases."
+  },
+  {
+   "term": "Winding up",
+   "meaning": "The legal process of closing down a company and settling its affairs."
+  },
+  {
+   "term": "Liquidator",
+   "meaning": "The person appointed to manage the closing down and sale of a company's assets."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "An official who maintains company records under the law."
+  }
+ ],
+ "watch": "People often confuse who must help with the prosecution, but the rule applies to the liquidator and all current or past officers and agents, including bankers and auditors.",
+ "h": "b532632acf0c",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,30 @@
+{
+ "summary": "This section explains the rules for sharing a prospectus in India for a company based outside the country. Before anyone can hand out or circulate this prospectus, a properly signed copy must be registered with the Registrar. The document must also clearly state on its front that this registration copy has been delivered.",
+ "points": [
+  "Applies to companies incorporated or to be incorporated outside India.",
+  "Forbids issuing, circulating, or distributing a prospectus in India unless specific steps are met.",
+  "Requires a copy of the prospectus to be certified by the chairperson and two other directors.",
+  "Requires the managing body to approve the prospectus by a resolution.",
+  "Requires the prospectus to state on its face that a copy has been delivered to the Registrar.",
+  "Requires any necessary consents and prescribed documents to be attached or endorsed."
+ ],
+ "example": "Zenith Global Corp, a company incorporated outside India, wants to invite the public in India to subscribe to its securities. Before Meera, an agent, can distribute any copies of the prospectus in India, the document must be approved by Zenith Global Corp's managing body. A copy of this prospectus must be certified by the chairperson and two other directors of the company. They must deliver this certified copy to the Registrar for registration. Furthermore, the front of the prospectus must state that this copy has been delivered, along with attaching any required consents and prescribed documents. Only after completing these steps can the prospectus be legally circulated in India.",
+ "terms": [
+  {
+   "term": "Prospectus",
+   "meaning": "An official document that invites the public to buy securities in a company."
+  },
+  {
+   "term": "Securities",
+   "meaning": "Financial instruments like shares or bonds issued by a company."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "The official government authority responsible for registering company documents."
+  }
+ ],
+ "watch": "Do not forget that the prospectus must explicitly state on its face that a copy was delivered to the Registrar.",
+ "h": "87fc375eb198",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,33 @@
+{
+ "summary": "This section allows the Central Government to give a special licence to a company formed for charitable, educational, religious, or other similar purposes. Such a company can register without using the words 'Limited' or 'Private Limited' in its name and must use all profits for its stated objects instead of paying dividends. If the company breaks the rules, the government can revoke the licence, order a name change, direct the company to wind up, or merge it with another similar company.",
+ "points": [
+  "The Central Government may allow a company formed for charitable, sports, educational, or similar objects to register as a limited company without the words 'Limited' or 'Private Limited' in its name.",
+  "Such a company must use its profits or income only to promote its objects and must not pay any dividends to its members.",
+  "A partnership firm is allowed to be a member of a company registered under this section.",
+  "The company cannot change its memorandum or articles of association without the previous approval of the Central Government.",
+  "The Central Government can revoke the licence if the company breaks the rules, acts fraudulently, or goes against public interest, and can also impose heavy fines for defaults."
+ ],
+ "example": "A group of social workers in Delhi plans to start a non-profit organization to promote environmental protection and education. They apply to the Central Government under Section 8 of the Companies Act to register as Meera Green Education Foundation without using the word 'Limited' in their title. They promise to use all income purely for environmental education and never to distribute dividends to the members. The Central Government grants a licence, and the Registrar registers the organization. Later, the foundation wishes to alter its articles of association, so it properly seeks and obtains the previous approval of the Central Government before making any changes.",
+ "terms": [
+  {
+   "term": "Memorandum",
+   "meaning": "The fundamental document that sets out the constitution and objects of a company."
+  },
+  {
+   "term": "Articles",
+   "meaning": "The document containing the internal rules and regulations for managing a company's business."
+  },
+  {
+   "term": "Dividend",
+   "meaning": "A portion of a company's profit paid out to its shareholders or members."
+  },
+  {
+   "term": "Amalgamated",
+   "meaning": "Combined or merged together to form a single entity."
+  }
+ ],
+ "watch": "Watch out for the assumption that a charitable company can change its name or rules freely, as it always requires Central Government approval or a valid licence.",
+ "h": "01aa5214f2e4",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

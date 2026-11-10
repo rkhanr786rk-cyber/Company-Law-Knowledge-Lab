@@ -1,0 +1,33 @@
+{
+ "summary": "This section explains how certain companies, like small companies or a holding company and its wholly-owned subsidiary, can merge or combine. It sets out the rules for notifying officials, getting approval from members and creditors, and filing the scheme with the government. If approved and registered, the merging company dissolves without a formal winding-up process, and its properties and debts transfer to the main company.",
+ "points": [
+  "Companies must give a notice inviting objections or suggestions within thirty days to the Registrar, Official Liquidators, and affected persons.",
+  "The scheme must be approved by members at a general meeting holding at least ninety per cent of the total number of shares.",
+  "Each company must file a declaration of solvency with the Registrar.",
+  "The scheme requires approval by a majority representing nine-tenths in value of the creditors in a meeting or in writing.",
+  "The transferee company must file a copy of the approved scheme with the Central Government, Registrar, and Official Liquidator."
+ ],
+ "example": "Alpha Small Company Limited and Beta Small Company Limited decided to merge under Section 233. They sent notices to the Registrar and Official Liquidator, inviting objections within thirty days. Next, they held general meetings where members holding ninety per cent of the total shares approved the merger scheme. Both companies filed their declarations of solvency with the local Registrar. They also called a meeting of their creditors, securing approval from the required nine-tenths majority in value. Finally, they filed the approved scheme with the Central Government, the Registrar, and the Official Liquidator so it could be reviewed and registered.",
+ "terms": [
+  {
+   "term": "merger or amalgamation",
+   "meaning": "When two or more companies combine into a single company."
+  },
+  {
+   "term": "transferor company",
+   "meaning": "The company that merges into another company and dissolves."
+  },
+  {
+   "term": "transferee company",
+   "meaning": "The company that receives the merging company and continues to exist."
+  },
+  {
+   "term": "declaration of solvency",
+   "meaning": "A formal statement declaring that the company is able to pay its debts."
+  }
+ ],
+ "watch": "Watch out for the rule that the merging company dissolves automatically upon registration of the scheme without needing a separate winding-up process.",
+ "h": "c08de7ffc746",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

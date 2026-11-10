@@ -1,0 +1,29 @@
+{
+ "summary": "This section explains the powers and procedures of an inspector during a company investigation. Current and former company officers must preserve books, produce papers, and give all necessary assistance to the inspector. Inspectors have civil court powers and can examine people on oath, while failure to cooperate can lead to punishment.",
+ "points": [
+  "Current and former officers and employees must preserve and produce all books and papers related to the company under investigation.",
+  "Inspectors can ask any other body corporate to furnish relevant information or produce necessary books and papers.",
+  "An inspector cannot keep produced books and papers for more than one hundred and eighty days without a written order for a further period.",
+  "Government officers, police, and statutory authorities must provide assistance to the inspector if required with prior Central Government approval.",
+  "Disobeying directions or refusing to cooperate with the inspector carries specific penalties including fines and imprisonment."
+ ],
+ "example": "An inspector was appointed to investigate Meera Textiles Private Limited. The inspector asked Mr. Sharma, a former manager of the company, to produce certain financial registers and appear before him in person for questioning. Mr. Sharma refused to show the books and ignored the personal appearance notice without any reasonable cause. Because the law requires all current and former employees to fully cooperate and produce requested documents, Mr. Sharma faced legal penalties for his refusal.",
+ "terms": [
+  {
+   "term": "Inspector",
+   "meaning": "An official appointed to conduct an inspection, inquiry, or investigation into a company."
+  },
+  {
+   "term": "Oath",
+   "meaning": "A formal promise or swearing to tell the truth, often made before answering questions."
+  },
+  {
+   "term": "Civil court",
+   "meaning": "A court that deals with non-criminal disputes and has specific legal powers to summon people and inspect documents."
+  }
+ ],
+ "watch": "People often confuse the initial time limit for keeping documents with the total time, but an inspector can keep them for a further period if an order in writing is made.",
+ "h": "c6ed8a865db0",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

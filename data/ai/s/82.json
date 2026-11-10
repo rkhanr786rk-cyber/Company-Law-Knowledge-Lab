@@ -1,0 +1,29 @@
+{
+ "summary": "When a company fully pays off a registered loan or charge, it must inform the Registrar within thirty days. If the company misses this deadline, the Registrar can still allow the notice to be sent within three hundred days upon payment of extra fees. The Registrar then checks with the lender before updating the official records to show the loan is fully paid.",
+ "points": [
+  "The company must report the full payment or satisfaction of a charge to the Registrar within thirty days.",
+  "The Registrar may allow this report up to three hundred days if an application is made and additional fees are paid.",
+  "The Registrar sends a notice to the lender asking them to show cause within a specified time of up to fourteen days if they disagree.",
+  "No notice to the lender is needed if the report form is signed directly by the holder of the charge.",
+  "If the lender shows cause, the Registrar records a note about it in the register and informs the company."
+ ],
+ "example": "Meera Textiles Private Limited recently paid back a large loan it had taken from a bank, which was registered as a charge. To follow the law, Meera Textiles must notify the Registrar in the prescribed form within thirty days of making this final payment. Suppose the company delays and misses this initial thirty-day window. In that case, it can still apply to the Registrar to submit the notice within three hundred days by paying extra fees. Upon receiving this notice, the Registrar will contact the bank to confirm the payment. If the bank agrees or does not object within the allowed time, the Registrar will officially update the register to show that the charge has been fully satisfied.",
+ "terms": [
+  {
+   "term": "charge",
+   "meaning": "An interest or lien created on the property or assets of a company as security for a loan."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "An official appointed by the government to handle company registrations and records."
+  },
+  {
+   "term": "satisfaction",
+   "meaning": "The complete payment or fulfillment of a debt or loan obligation."
+  }
+ ],
+ "watch": "Do not confuse the normal thirty-day deadline with the extended period of up to three hundred days, which requires a special application and extra fees.",
+ "h": "21ded4a68af0",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

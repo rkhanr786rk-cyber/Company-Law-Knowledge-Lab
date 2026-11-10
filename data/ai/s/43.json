@@ -1,0 +1,29 @@
+{
+ "summary": "This section explains that a company limited by shares can have two kinds of share capital: equity and preference. Equity shares can have normal voting rights or differential rights. Preference shares carry special rights regarding dividends and the repayment of capital during a winding up.",
+ "points": [
+  "A company limited by shares can have equity share capital and preference share capital.",
+  "Equity share capital can come with voting rights or with differential rights regarding dividends, voting, or other matters.",
+  "Preference share capital carries a preferential right to the payment of dividends at a fixed amount or rate.",
+  "Preference share capital also carries a preferential right to the repayment of paid-up capital during a winding up.",
+  "Certain extra rights to participate in additional profits or surplus capital do not stop capital from being preference capital."
+ ],
+ "example": "Rohan wanted to invest his savings in Meera Textiles Private Limited, a company limited by shares. He learned from the company documents that the firm could issue two kinds of share capital. First, equity share capital, which would give him voting power or differential rights. Second, preference share capital, which would give him a special, earlier right to receive fixed dividend payments and to get his paid-up capital back first if the company ever wound up. Rohan decided to buy preference shares because he wanted the security of those fixed preferential rights over ordinary equity shareholders.",
+ "terms": [
+  {
+   "term": "dividend",
+   "meaning": "a portion of a company's profit paid to its shareholders"
+  },
+  {
+   "term": "winding up",
+   "meaning": "the process of closing down a company and settling its affairs"
+  },
+  {
+   "term": "memorandum",
+   "meaning": "the foundational document that sets up a company and defines its powers"
+  }
+ ],
+ "watch": "Do not assume all equity shares have the exact same rights, as some may carry differential voting or dividend rights.",
+ "h": "ae89078f3c89",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

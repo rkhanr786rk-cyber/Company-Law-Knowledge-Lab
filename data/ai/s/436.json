@@ -1,0 +1,34 @@
+{
+ "summary": "This section explains how Special Courts handle certain offences under the Companies Act. It states that these offences must be tried only by the designated Special Court for the company's area. It also sets rules for how Magistrates can hold an accused person in custody before sending them to the Special Court.",
+ "points": [
+  "Certain offences must be tried only by the Special Court for the area where the company has its registered office.",
+  "A Judicial Magistrate can keep an accused person in custody for up to fifteen days total before sending them to the Special Court.",
+  "An Executive Magistrate can keep an accused person in custody for up to seven days total before sending them to the Special Court.",
+  "A Special Court can take notice of an offence based on a police report or complaint without needing a prior commitment for trial.",
+  "The Special Court can also try other related offences at the same trial alongside the company law offence.",
+  "The Special Court can choose to try certain offences in a quick summary way if the punishment does not exceed three years."
+ ],
+ "example": "A dispute arose involving Alpha Logistics Private Limited, whose registered office is in Mumbai. The police suspected the company of a specific offence covered under the Act and forwarded the accused person to a local Magistrate. The Magistrate authorized custody for a few days before sending the accused directly to the designated Special Court. Upon receiving the police report, the Special Court took direct notice of the offence without waiting for any prior commitment for trial. During the proceedings, the Special Court decided to try another related charge at the same time, following the rules allowed under the law.",
+ "terms": [
+  {
+   "term": "Special Court",
+   "meaning": "A designated court set up to handle specific legal cases."
+  },
+  {
+   "term": "Magistrate",
+   "meaning": "A civil officer who administers the law and handles early stages of legal cases."
+  },
+  {
+   "term": "Cognizance",
+   "meaning": "When a court takes notice of an offence to begin legal proceedings."
+  },
+  {
+   "term": "Summary way",
+   "meaning": "A faster and simpler trial process for certain less severe offences."
+  }
+ ],
+ "watch": "Watch out: this section only applies to specific offences mentioned in the Act and does not give timelines or amounts not written in the text.",
+ "h": "2499d3b80782",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

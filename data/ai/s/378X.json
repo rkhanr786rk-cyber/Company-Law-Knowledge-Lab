@@ -1,0 +1,28 @@
+{
+ "summary": "Certain Producer Companies must hire a full-time secretary based on their turnover for three straight years. This person must be a member of a specific professional institute. If the company fails to do this, it and the responsible officers must pay a daily penalty, unless they made every effort to comply or could not afford it.",
+ "points": [
+  "A Producer Company must have a whole-time secretary if its average annual turnover exceeds five crore rupees for three consecutive financial years.",
+  "The appointed person must be a member of the Institute of Company Secretaries of India.",
+  "Failing to hire a whole-time secretary results in a daily penalty of one hundred rupees up to a maximum of one lakh rupees for the company and defaulting officers.",
+  "No penalty is imposed if the company proves it made all reasonable efforts to comply or was financially unable to afford a whole-time secretary."
+ ],
+ "example": "Greenfields Producer Company Limited had an average annual turnover of six crore rupees for the financial years 2021, 2022, and 2023. According to the rules, the company is required to hire a whole-time secretary who holds membership in the Institute of Company Secretaries of India. The board of directors decided to appoint Mr. Kumar, a qualified member of the institute, to fill this position. By doing this, Greenfields Producer Company Limited successfully met the legal requirements and avoided any daily penalties or legal trouble regarding company management.",
+ "terms": [
+  {
+   "term": "turnover",
+   "meaning": "The total amount of money a company takes in from its business activities."
+  },
+  {
+   "term": "whole-time secretary",
+   "meaning": "A full-time professional officer responsible for company administrative duties."
+  },
+  {
+   "term": "penalty",
+   "meaning": "A fine or punishment for breaking a rule or law."
+  }
+ ],
+ "watch": "Do not forget that the turnover rule applies only when the limit is crossed for three consecutive financial years.",
+ "h": "efd4b29be3d3",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

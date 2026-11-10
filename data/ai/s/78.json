@@ -1,0 +1,29 @@
+{
+ "summary": "If a company fails to register a charge on time, the person who got the charge can apply to the Registrar themselves. The Registrar will give notice to the company and can allow the registration after fourteen days if the company does not object or register it first. The person who pays the fees for this registration is legally allowed to get that money back from the company.",
+ "points": [
+  "Allows the person in whose favour the charge is created to apply for registration if the company fails to do so within thirty days.",
+  "Requires the applicant to submit the application along with the instrument created for the charge.",
+  "Requires the Registrar to give notice to the company and wait a period of fourteen days before allowing the registration.",
+  "Allows the Registrar to permit registration unless the company shows sufficient cause why it should not be registered.",
+  "Entitles the applicant to recover any fees or additional fees paid to the Registrar from the company."
+ ],
+ "example": "Meera Textiles Private Limited borrowed money from Star Bank and created a charge on its machinery as security. The company missed the thirty-day deadline to register this charge with the Registrar. Since Star Bank wanted its security properly recorded, the bank applied directly to the Registrar for registration using the loan agreement instrument. The Registrar sent a notice to Meera Textiles Private Limited giving them fourteen days to respond. The company did not register the charge or give any valid reason against it. Therefore, the Registrar allowed the registration after the company paid the required fees. Because Star Bank paid those registration fees to the Registrar, the bank was legally entitled to recover that exact amount back from Meera Textiles Private Limited.",
+ "terms": [
+  {
+   "term": "Charge",
+   "meaning": "An interest or lien created on the property or assets of a company as security for borrowing."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "An official appointed under the Act to keep company records and handle company registrations."
+  },
+  {
+   "term": "Instrument",
+   "meaning": "A formal legal document that creates or records the charge, such as a loan agreement."
+  }
+ ],
+ "watch": "People often confuse this by thinking the company is the only one allowed to register a charge, but this section allows the lender to do it if the company fails.",
+ "h": "c6e550821c91",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

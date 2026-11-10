@@ -1,0 +1,23 @@
+{
+ "summary": "This section states that the rules for registering charges, or loans secured by company property, also apply in specific new situations. It covers situations where a company buys property that already has a charge on it. It also covers when the details or terms of an already registered charge are changed.",
+ "points": [
+  "Section 77 rules apply when a company gets property that is already subject to a charge.",
+  "Section 77 rules apply when there is any modification in the terms or conditions of a registered charge.",
+  "Section 77 rules apply when the extent or operation of a registered charge is changed."
+ ],
+ "example": "Aarav Builders Private Limited decided to purchase a commercial warehouse from another business. When the deal was finalized, the warehouse came with an existing mortgage loan attached to it, which is a charge under the law. Because Aarav Builders Private Limited acquired property subject to a charge, the rules for registering charges under Section 77 apply to this new situation. Later, the bank and Aarav Builders Private Limited agreed to change some terms of this registered charge. Since there was a modification in the terms of a registered charge, the same registration rules applied again to update the records properly.",
+ "terms": [
+  {
+   "term": "Charge",
+   "meaning": "An interest or lien created on the property or assets of a company as security for a loan."
+  },
+  {
+   "term": "Modification",
+   "meaning": "Any change in the terms, conditions, extent, or operation of an already registered charge."
+  }
+ ],
+ "watch": "A common confusion is assuming these rules only apply when a company creates a new loan, when they also apply to buying burdened property or changing existing loans.",
+ "h": "72aa9516b688",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

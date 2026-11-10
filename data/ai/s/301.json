@@ -1,0 +1,34 @@
+{
+ "summary": "The Tribunal can stop certain people connected to a company from running away or hiding company items during a winding up process. This rule applies if the person tries to leave India, hide, or conceal property to avoid paying money or being questioned. When this happens, the Tribunal can order their detention and the seizure of their belongings.",
+ "points": [
+  "Applies both before and after a winding up order is passed.",
+  "Affects contributories, or anyone holding property, accounts, or papers of the company.",
+  "Applies if the person is about to leave India, abscond, or hide property.",
+  "Applies if the purpose is to evade paying calls or avoid examination of company affairs.",
+  "Allows the Tribunal to detain the contributory for a set time.",
+  "Allows the Tribunal to seize and safely keep their books, papers, and movable property."
+ ],
+ "example": "Sunrise Trading Private Limited was going through a winding up process. Rohit, a contributory who owed money to the company, decided to pack his bags and secretly leave India. He also planned to hide his movable property and company account books so he would not have to pay his calls or face questioning by the Tribunal. Once the Tribunal became satisfied that Rohit was trying to abscond and conceal property to evade payment, it used its powers under Section 301. The Tribunal ordered Rohit to be detained and directed that his books, papers, and movable property be seized and safely kept until further orders.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "The judicial body handling company law matters."
+  },
+  {
+   "term": "Contributory",
+   "meaning": "A person liable to contribute to the assets of a company in the event of its being wound up."
+  },
+  {
+   "term": "Abscond",
+   "meaning": "To run away secretly in order to escape the law."
+  },
+  {
+   "term": "Calls",
+   "meaning": "A demand made by a company on its shareholders to pay the remaining unpaid amount on their shares."
+  }
+ ],
+ "watch": "Do not assume any specific time limits or penalty amounts because the text does not mention them.",
+ "h": "364ca6073d3d",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

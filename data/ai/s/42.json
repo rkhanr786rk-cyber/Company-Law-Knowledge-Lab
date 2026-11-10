@@ -1,0 +1,29 @@
+{
+ "summary": "This section explains how a company can issue securities to a select group of people through a private placement instead of a public offer. It sets strict rules on who can be offered shares, how money must be paid, and when shares must be allotted. If a company offers shares to too many people, the offer is treated as a public offer.",
+ "points": [
+  "A company can make a private placement of securities only to a select group of identified persons whose number generally shall not exceed fifty in a financial year.",
+  "The private placement offer and application cannot carry any right of renunciation.",
+  "Subscribers must pay the subscription money using a banking channel like a cheque or demand draft, and not in cash.",
+  "A company must keep application money in a separate bank account and cannot use it until allotment and the return of allotment are filed.",
+  "Securities must be allotted within sixty days from the date of receiving the application money."
+ ],
+ "example": "Meera Textiles Private Limited decided to raise funds by issuing shares through a private placement. The Board of Directors prepared a list of ten identified persons and sent them a private placement offer-cum-application. Mr. Roy, one of the identified persons, wanted to invest and paid his subscription money using a demand draft. Meera Textiles kept this money in a separate scheduled bank account. Within the required time, the company allotted the shares and filed a return of allotment with the Registrar, containing a complete list of all allottees.",
+ "terms": [
+  {
+   "term": "private placement",
+   "meaning": "An offer or invitation to subscribe to securities given to a select group of persons rather than the general public."
+  },
+  {
+   "term": "renunciation",
+   "meaning": "The right to give up or pass on an offer to someone else."
+  },
+  {
+   "term": "allotment",
+   "meaning": "The process of giving or distributing shares or securities to applicants."
+  }
+ ],
+ "watch": "Exceeding the permitted number of persons makes the private placement legally treated as an offer to the public.",
+ "h": "23c4e9325798",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,30 @@
+{
+ "summary": "This law explains how people can start a company for any lawful purpose. It requires different numbers of founders depending on whether it is a public company, a private company, or a One Person Company. Furthermore, these companies can be limited by shares, limited by guarantee, or unlimited.",
+ "points": [
+  "A public company needs seven or more persons to form it.",
+  "A private company needs two or more persons to form it.",
+  "A One Person Company needs only one person and is a type of private company.",
+  "Founders must sign their names to a memorandum and meet registration rules.",
+  "A One Person Company must name another person with written consent who takes over if the member dies or cannot contract.",
+  "Companies can be limited by shares, limited by guarantee, or unlimited."
+ ],
+ "example": "Asha wants to start her own handmade craft business called Asha Crafts Private Limited. Since she is the only founder and the law allows a One Person Company, she decides to set it up alone. Asha fills out the paperwork and writes down her brother Rohan's name with his prior written consent to take over the company if she passes away or becomes unable to make contracts. She submits this written consent along with the memorandum and articles to the Registrar when starting the company. Her business is formed as a company limited by shares, perfectly following all the rules laid down in the section.",
+ "terms": [
+  {
+   "term": "memorandum",
+   "meaning": "A foundational document that sets up a company and states its basic details."
+  },
+  {
+   "term": "incapacity to contract",
+   "meaning": "A legal state where a person is unable to legally enter into contracts."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "An official who handles company registrations under the Act."
+  }
+ ],
+ "watch": "People often confuse the different rules for the number of founders needed for public, private, and One Person Companies.",
+ "h": "e37a3993ebba",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

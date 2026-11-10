@@ -1,0 +1,33 @@
+{
+ "summary": "This section sets limits on what the board of directors can do without asking the shareholders first. The board needs a special resolution from the company to sell major business parts, invest certain merger money in trust securities, borrow past a specific capital limit, or give a director extra time to pay a debt. Without this special permission, some of these actions may not be valid.",
+ "points": [
+  "The board must get a special resolution to sell, lease, or dispose of the whole or substantially the whole of an undertaking.",
+  "The board needs a special resolution to invest compensation from a merger into trust securities.",
+  "A special resolution is required to borrow money that exceeds the company paid-up share capital, free reserves, and securities premium.",
+  "The board needs a special resolution to forgive or give extra time to repay a debt owed by a director.",
+  "A special resolution for borrowing must state the total amount of money the board is allowed to borrow."
+ ],
+ "example": "Meera Textiles Private Limited wanted to sell a major factory unit that generated a large share of the company total income. Because this factory counted as a substantial part of the company undertaking, the board of directors could not simply decide to sell it on their own. Instead, the board had to call a meeting and ask the shareholders to pass a special resolution giving their consent. Only after the shareholders agreed through this special vote could Meera Textiles Private Limited move forward with selling the factory unit to the buyer.",
+ "terms": [
+  {
+   "term": "Special resolution",
+   "meaning": "A formal decision made by shareholders with a high required majority vote."
+  },
+  {
+   "term": "Undertaking",
+   "meaning": "A business unit or part of a company defined by specific investment or income thresholds."
+  },
+  {
+   "term": "Free reserves",
+   "meaning": "Reserves that are available for distribution as dividends based on the audited balance sheet."
+  },
+  {
+   "term": "Temporary loans",
+   "meaning": "Loans repayable on demand or within a short period, such as cash credits or seasonal short-term loans."
+  }
+ ],
+ "watch": "Temporary loans obtained in the ordinary course of business from the company bankers do not count towards the general borrowing limit.",
+ "h": "89eccfd0139b",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

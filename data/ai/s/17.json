@@ -1,0 +1,29 @@
+{
+ "summary": "This section requires a company to provide certain important documents to its members upon request. The member must pay a prescribed fee, and the company must send the documents within seven days. If the company fails to follow these rules, it faces a financial penalty for each day the default continues.",
+ "points": [
+  "A member can request copies of specific documents from the company.",
+  "The company must send the documents within seven days of receiving the request.",
+  "The member must pay any prescribed fees to get the documents.",
+  "The documents include the memorandum, the articles, and certain agreements and resolutions.",
+  "Failsafe penalties apply to the company and officers who break this rule."
+ ],
+ "example": "Aarav is a shareholder in Meera Textiles Private Limited. He wants to read the company rules and writes a formal request asking for a copy of the memorandum and articles. He also includes the required fee as set by the rules. The company receives Aarav's letter and must mail or hand over these documents to him within seven days. If the company delays and takes ten days without a valid reason, both the company and the responsible officers will face penalties for every day the delay continues.",
+ "terms": [
+  {
+   "term": "memorandum",
+   "meaning": "The main document that sets up a company and defines its relationship with shareholders."
+  },
+  {
+   "term": "articles",
+   "meaning": "The document containing the internal rules and bylaws for managing the company."
+  },
+  {
+   "term": "default",
+   "meaning": "Failure to do something required by law."
+  }
+ ],
+ "watch": "Remember that the penalty has an upper limit of one lakh rupees, whichever is less compared to the daily accumulation.",
+ "h": "0068b117fbb0",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

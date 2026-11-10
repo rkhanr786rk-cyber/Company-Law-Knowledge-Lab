@@ -1,0 +1,24 @@
+{
+ "summary": "This section explains what must happen to the old records of a company when it joins with another company or when its shares are bought. Such records cannot be thrown away or destroyed without first getting permission from the Central Government. Before giving this permission, the Government may check the records to see if there is any proof of wrongdoing.",
+ "points": [
+  "Applies to companies that have amalgamated with another company or whose shares have been acquired.",
+  "Forbids disposing of the books and papers of such companies without prior permission from the Central Government.",
+  "Allows the Central Government to appoint a person to examine the books and papers before granting permission.",
+  "Authorizes the examination to check for evidence of offences related to company formation, management, amalgamation, or share acquisition."
+ ],
+ "example": "Meera Textiles Private Limited recently amalgamated with Apex Garments Limited under the provisions of Chapter XV. The management of Apex Garments Limited wants to clear out old storage rooms and decides to destroy the old accounting books and papers of Meera Textiles Private Limited. Under this law, Apex Garments Limited cannot dispose of these records without first obtaining the prior permission of the Central Government. Furthermore, the Central Government has the right to appoint an inspector to examine these books and papers to check for any evidence of past offences before deciding whether to grant permission for their disposal.",
+ "terms": [
+  {
+   "term": "Amalgamated",
+   "meaning": "Combined or merged with another company."
+  },
+  {
+   "term": "Transferor company",
+   "meaning": "The original company whose business or shares are taken over by another company."
+  }
+ ],
+ "watch": "Do not assume that these records can be destroyed after a certain number of years, as this section specifies no time limits.",
+ "h": "77a743adcaa0",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

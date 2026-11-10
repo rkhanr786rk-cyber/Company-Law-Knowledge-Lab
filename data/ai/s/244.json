@@ -1,0 +1,34 @@
+{
+ "summary": "This section explains which members of a company have the right to ask the Tribunal for help regarding oppression and mismanagement. It sets specific rules based on whether the company has a share capital or not. However, the Tribunal has the power to waive these rules if needed.",
+ "points": [
+  "Companies with share capital need at least one hundred members, at least one-tenth of total members, or members holding at least one-tenth of issued share capital to apply.",
+  "Members applying based on share capital must have paid all calls and sums due on their shares.",
+  "Companies without share capital need at least one-fifth of their total members to apply.",
+  "The Tribunal can choose to waive any of these specific membership requirements to let members apply.",
+  "Shares held jointly by two or more people are counted as belonging to just one member.",
+  "One or more qualified members can apply on behalf of all eligible members if they get written consent from the rest."
+ ],
+ "example": "Meera Textiles Private Limited has a share capital and a total of five hundred members. A group of forty members wants to complain about mismanagement. Normally, they might fall short of the standard member count, but they hold one-tenth of the issued share capital and have paid all calls due on their shares. Therefore, they have the right to apply under section 241. Alternatively, if they did not meet these criteria, they could ask the Tribunal to waive the requirements. Once they obtain written consent from other interested members, one of them can submit the application on behalf of everyone.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A legal body or official authority set up to deal with specific types of disputes."
+  },
+  {
+   "term": "Share capital",
+   "meaning": "The money a company raises by issuing shares to its owners."
+  },
+  {
+   "term": "Calls",
+   "meaning": "A request made by a company to its shareholders to pay money still due on their shares."
+  },
+  {
+   "term": "Waive",
+   "meaning": "To choose to give up or not enforce a rule or requirement."
+  }
+ ],
+ "watch": "People often forget that joint holders of shares are counted as a single member, not multiple.",
+ "h": "b806eaa41101",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

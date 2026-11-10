@@ -1,0 +1,28 @@
+{
+ "summary": "This section explains how criminal procedure rules apply to Special Courts under the Companies Act. Unless the Act says otherwise, the general criminal procedure law of 1973 must be followed during these court cases. It also gives the Special Court the status of a regular criminal court and treats the person handling the prosecution as a public prosecutor.",
+ "points": [
+  "The general rules of the Code of Criminal Procedure, 1973 apply to proceedings before a Special Court.",
+  "This rule applies unless the Companies Act states otherwise.",
+  "A Special Court is treated as a Court of Session, a Metropolitan Magistrate court, or a Judicial Magistrate of the First Class.",
+  "The person who conducts a prosecution before a Special Court is treated as a Public Prosecutor."
+ ],
+ "example": "A case involving Zeta Foods Private Limited is brought before a Special Court under the Companies Act. During the legal proceedings, the court follows the rules laid down in the Code of Criminal Procedure, 1973, because the Act does not provide any other rule for this situation. The Special Court functions with the status of a Court of Session or Magistrate court depending on the case. Meanwhile, the lawyer who presents the evidence and argues the case against the company on behalf of the state is officially regarded as a Public Prosecutor, ensuring that standard criminal trial processes are properly followed.",
+ "terms": [
+  {
+   "term": "Special Court",
+   "meaning": "A designated court set up to handle specific types of legal cases."
+  },
+  {
+   "term": "Prosecution",
+   "meaning": "The act of conducting legal proceedings against someone in a criminal trial."
+  },
+  {
+   "term": "Public Prosecutor",
+   "meaning": "A lawyer who conducts criminal cases on behalf of the government."
+  }
+ ],
+ "watch": "Do not assume the Special Court uses completely unique rules, as it follows the standard Code of Criminal Procedure unless the Act states otherwise.",
+ "h": "b659ca7d4beb",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,28 @@
+{
+ "summary": "This section explains the penalties when a company breaks the rules about registering charges or loans. If the company fails to follow these rules, both the company and responsible officers must pay money fines. Anyone who intentionally gives false details or hides important information also faces serious legal action.",
+ "points": [
+  "The company must pay a penalty of five lakh rupees if it defaults on any provision of this chapter.",
+  "Every officer of the company who is in default must pay a penalty of fifty thousand rupees.",
+  "Any person who willfully provides false or incorrect information faces action under section 447.",
+  "Knowingly suppressing material information required under section 77 also triggers action under section 447."
+ ],
+ "example": "Meera Textiles Private Limited recently took a large loan and created a charge on its factory building. During the registration process, the finance manager, Mr. Roy, knowingly hid important details about an older claim on the same property to speed up the approval. Because Mr. Roy intentionally suppressed material information required under section 77, he faces legal action under section 447. Meanwhile, because the company failed to comply properly with the chapter provisions, Meera Textiles Private Limited is liable to a penalty of five lakh rupees, and Mr. Roy as the officer in default is liable to a penalty of fifty thousand rupees.",
+ "terms": [
+  {
+   "term": "default",
+   "meaning": "failure to follow a law or rule"
+  },
+  {
+   "term": "penalty",
+   "meaning": "a punishment in the form of a money fine"
+  },
+  {
+   "term": "suppresses",
+   "meaning": "hides or keeps back information on purpose"
+  }
+ ],
+ "watch": "Note that penalties apply both to the company as a whole and individually to the officers who are at fault.",
+ "h": "9eb1fc7d12ff",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,34 @@
+{
+ "summary": "A director can resign by giving written notice to the company and the Board. The company must note this resignation, inform the Registrar, and mention it in the upcoming directors' report. The resignation takes effect on the day the company receives the notice or the date specified by the director, whichever is later.",
+ "points": [
+  "A director may resign by giving a notice in writing to the company.",
+  "The Board must take note of the resignation upon receiving the notice.",
+  "The company must intimate the Registrar and place the fact of resignation in the next directors' report.",
+  "A director may also send a copy of the resignation with detailed reasons to the Registrar within thirty days.",
+  "A resigned director remains responsible for offences that happened during their tenure.",
+  "If all directors resign or leave, the promoter or the Central Government appoints temporary directors."
+ ],
+ "example": "Aarav decided to step down as a director of Meera Textiles Private Limited. He sent a written notice of resignation to the company stating that his resignation would take effect two weeks later. Upon receiving the notice, the Board of Meera Textiles took note of it. The company was then required to inform the Registrar and include the resignation in the report presented at the next general meeting. Even after leaving, Aarav remained liable for any offences that occurred while he was still a director. If all the directors of Meera Textiles had resigned at the same time, the promoter would have had to step in to appoint the required number of new temporary directors.",
+ "terms": [
+  {
+   "term": "Registrar",
+   "meaning": "A government official who keeps records of companies."
+  },
+  {
+   "term": "General meeting",
+   "meaning": "A meeting of the company's members or shareholders."
+  },
+  {
+   "term": "Tenure",
+   "meaning": "The period of time a person holds a job or office."
+  },
+  {
+   "term": "Promoter",
+   "meaning": "A person who helps start or set up a company."
+  }
+ ],
+ "watch": "A common confusion is thinking a resignation takes effect immediately, but it only takes effect when received or on the date specified by the director, whichever is later.",
+ "h": "986494b8eac9",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

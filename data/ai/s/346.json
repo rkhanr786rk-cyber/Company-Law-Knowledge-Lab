@@ -1,0 +1,32 @@
+{
+ "summary": "This section allows creditors and contributories to inspect a company's books and papers after the Tribunal orders a winding up, but only following specific rules. It also clarifies that these rules do not limit any inspection rights that governments, their officers, or authorized persons already have under other laws. This ensures that official authorities keep their full inspection powers during the winding up process.",
+ "points": [
+  "Applies only after the Tribunal makes an order to wind up the company.",
+  "Creditors and contributories may inspect company books and papers based on prescribed rules.",
+  "Does not restrict or take away any inspection rights given to the Central Government or a State Government by other laws.",
+  "Does not restrict rights given to any government authority, officer, or person acting under their authority."
+ ],
+ "example": "A court orders the winding up of a company named Meera Textiles Private Limited due to financial troubles. Rahul, a supplier who is owed money by the company, wants to check the company's financial records to understand what happened. Under this section, Rahul can inspect the books and papers, but he must follow the specific official rules set for this purpose. At the same time, an officer from the State Government also wants to check the company records for a tax review. The officer can do this freely because the section protects all existing inspection rights of government authorities.",
+ "terms": [
+  {
+   "term": "Winding up",
+   "meaning": "The legal process of closing down a company and settling its affairs."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized legal body that handles specific disputes, in this case, company law matters."
+  },
+  {
+   "term": "Creditor",
+   "meaning": "A person or business to whom the company owes money."
+  },
+  {
+   "term": "Contributory",
+   "meaning": "A person who is liable to contribute to the assets of a company in the event of its being wound up."
+  }
+ ],
+ "watch": "People often confuse these rules as limiting government inspections, but the law explicitly preserves all government inspection rights.",
+ "h": "b2a90c3d5a0a",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,33 @@
+{
+ "summary": "This section punishes company officers when their company is ordered to be wound up by the Tribunal and they have committed specific fraudulent acts. These acts include tricking people into giving credit, hiding or transferring company property to cheat creditors, or removing property after a money judgment. Guilty officers face both jail time and a fine.",
+ "points": [
+  "Applies to any person who is an officer of a company ordered to be wound up by the Tribunal.",
+  "Forbids tricking any person into giving credit to the company by using false pretences or fraud.",
+  "Forbids making gifts, transfers, charges, or allowing legal execution against company property with intent to defraud creditors.",
+  "Forbids concealing or removing company property with intent to defraud creditors after a money judgment or within two months before it.",
+  "Requires punishment of imprisonment between one and three years, plus a fine between one lakh and three lakh rupees."
+ ],
+ "example": "Meera Textiles Private Limited faced severe financial trouble and was eventually ordered to be wound up by the Tribunal. Shortly before this, Rohan, an officer of the company, learned that a court had passed an unsatisfied money order against them. With the clear intent to cheat their creditors, Rohan secretly removed valuable machinery and stock from the company premises. Because Rohan committed this fraudulent removal of property around the time of the money judgment while being an officer of a company slated for winding up, he became liable for imprisonment and a fine under Section 337.",
+ "terms": [
+  {
+   "term": "Officer",
+   "meaning": "A person in a position of authority or management within the company."
+  },
+  {
+   "term": "Wound up",
+   "meaning": "The formal process of ending a company's existence and closing it down."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "The judicial authority designated under the Act to handle company matters."
+  },
+  {
+   "term": "Execution",
+   "meaning": "A legal process to enforce a court judgment, often involving the seizure of property."
+  }
+ ],
+ "watch": "Make sure to note that these penalties apply only if the company is subsequently ordered to be wound up by the Tribunal.",
+ "h": "6a528902b59b",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

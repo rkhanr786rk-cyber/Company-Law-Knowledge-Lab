@@ -1,0 +1,28 @@
+{
+ "summary": "Every Producer Company must check its financial accounts through an internal audit. The company's articles decide how often this happens and how it is done. A qualified chartered accountant must carry out this audit.",
+ "points": [
+  "Every Producer Company must have an internal audit of its accounts.",
+  "The articles of the company decide the interval for the audit.",
+  "The articles also decide the manner in which the audit is done.",
+  "A chartered accountant must perform the internal audit."
+ ],
+ "example": "Greenfields Farmers Producer Company Limited wants to make sure its financial records are in order. The members check their company articles to see the rules for examining their accounts. The articles state how often the check must happen and the exact way to do it. Following these rules, the company hires Mr. Sharma, who is a qualified chartered accountant, to perform the internal audit of their accounts.",
+ "terms": [
+  {
+   "term": "Producer Company",
+   "meaning": "A body corporate registered under this Act relating to producer companies."
+  },
+  {
+   "term": "internal audit",
+   "meaning": "An official examination of a company's financial accounts and records."
+  },
+  {
+   "term": "chartered accountant",
+   "meaning": "A professional accountant certified under the Chartered Accountants Act, 1949."
+  }
+ ],
+ "watch": "Do not assume fixed deadlines or intervals, as the company articles decide them.",
+ "h": "7c0e58294143",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

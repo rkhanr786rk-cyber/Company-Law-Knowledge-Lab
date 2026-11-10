@@ -1,0 +1,30 @@
+{
+ "summary": "This section allows the Tribunal to ask local authorities for help during company winding up or insolvency proceedings. The Tribunal can request the Chief Metropolitan Magistrate, Chief Judicial Magistrate, or District Collector to take control of a company's property and documents. Once asked, these officers must take possession and hand them over to the Tribunal.",
+ "points": [
+  "The Tribunal can ask certain local officers in writing to take control of property and documents.",
+  "This applies during company winding up or insolvency proceedings.",
+  "The officers who can be asked are the Chief Metropolitan Magistrate, Chief Judicial Magistrate, or District Collector.",
+  "These officers must take possession of the items and give them to the Tribunal or its authorized person.",
+  "The officers are allowed to use necessary force to carry out this duty.",
+  "The actions taken by these officers cannot be questioned in any court or before any authority."
+ ],
+ "example": "Meera Textiles Private Limited went through insolvency proceedings under the law. During these proceedings, the Tribunal needed to secure the company's factory property and account books located in a specific district. To do this, the Tribunal sent a written request to the District Collector of that area. Following the request, the District Collector took possession of the factory and documents and entrusted them safely to the Tribunal as required by the law.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "The National Company Law Tribunal handling company disputes and proceedings."
+  },
+  {
+   "term": "Winding up",
+   "meaning": "The legal process of closing down a company and settling its affairs."
+  },
+  {
+   "term": "District Collector",
+   "meaning": "A chief administrative officer of a district."
+  }
+ ],
+ "watch": "Note that this power applies specifically during winding up or insolvency proceedings, not every general company dispute.",
+ "h": "7d623a5d2042",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,29 @@
+{
+ "summary": "Every company must have a registered office within thirty days of starting and at all times to receive mail and notices. The company must display its name and office details clearly on its buildings, seals, business papers, and official documents. If the company changes its office location or name, it must follow specific rules and notify the proper authorities.",
+ "points": [
+  "A company must have a registered office within thirty days of its incorporation and keep it always to receive communications.",
+  "The company must tell the Registrar about its registered office within thirty days of incorporation.",
+  "The company name and office address must be painted or fixed clearly on the outside of every place where it does business.",
+  "The company must print its name, address, Corporate Identity Number, contact details, and website on all business letters, notices, and official papers.",
+  "If a company changes its registered office address, it must notify the Registrar within thirty days of the change."
+ ],
+ "example": "Meera Textiles Private Limited was recently started by Meera and her partners. Within thirty days of its incorporation, the company set up a registered office capable of receiving notices. They painted the company name and office address in clear letters on the outside wall of their main workplace. They also printed the company name, address, and Corporate Identity Number on all their official billheads and business letters. Later, when they decided to change their office location to a new building across town, they made sure to give notice of this change to the Registrar within thirty days.",
+ "terms": [
+  {
+   "term": "Registrar",
+   "meaning": "An official government authority who keeps records of companies."
+  },
+  {
+   "term": "Corporate Identity Number",
+   "meaning": "A unique identification number given to a company by the government."
+  },
+  {
+   "term": "Incorporation",
+   "meaning": "The legal process of forming a new company."
+  }
+ ],
+ "watch": "People often confuse the thirty-day deadline for setting up the registered office with the separate rules for changing office locations.",
+ "h": "a988976eefca",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

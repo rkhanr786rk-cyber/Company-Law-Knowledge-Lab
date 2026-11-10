@@ -1,0 +1,29 @@
+{
+ "summary": "This section allows the Tribunal to place temporary restrictions on company shares and other securities during an investigation to uncover important facts. If anyone breaks these restriction orders, the company and responsible officers will face heavy fines and potential jail time. These rules help ensure that facts about company shares can be properly examined.",
+ "points": [
+  "The Tribunal can impose restrictions on company securities during an investigation or on a complaint.",
+  "Restrictions are placed only if the Tribunal believes it is necessary to find out relevant facts about the securities.",
+  "Any restrictions ordered by the Tribunal cannot last for more than three years.",
+  "If securities are issued, transferred, or acted upon against the Tribunal's order, the company faces a fine.",
+  "Officers of the company who break this order can be punished with imprisonment, a fine, or both."
+ ],
+ "example": "Meera Textiles Private Limited was facing an investigation by the Tribunal to uncover facts about its newly issued shares. To properly examine the situation, the Tribunal issued an order placing temporary restrictions on those shares for a period of two years. A month later, the director of Meera Textiles Private Limited knowingly transferred some of these restricted shares to a buyer in direct violation of the Tribunal order. Because of this action, Meera Textiles Private Limited faced a heavy monetary fine, and the director faced both a fine and a prison sentence of up to six months for being an officer in default.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized legal body or authority that handles specific kinds of disputes and legal matters."
+  },
+  {
+   "term": "Securities",
+   "meaning": "Financial instruments like shares or debentures issued by a company."
+  },
+  {
+   "term": "Officer who is in default",
+   "meaning": "A company officer who is responsible for the violation of the law or court order."
+  }
+ ],
+ "watch": "People often confuse the maximum time limit of the restrictions, which is three years, with the different penalty amounts for the company and its officers.",
+ "h": "d31699adde67",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

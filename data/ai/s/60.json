@@ -1,0 +1,29 @@
+{
+ "summary": "This section explains how a company must display its share capital when it publishes official papers or advertisements. If a company mentions its total authorised capital, it must also clearly show how much of that capital is subscribed and paid-up. Failing to follow this rule leads to a fine for both the company and the responsible officer.",
+ "points": [
+  "If a company states its authorised capital in any official publication, letter, billhead, or letter paper, it must also state the subscribed capital.",
+  "The same notice must also state the amount of paid-up capital.",
+  "The subscribed and paid-up amounts must appear in a position just as prominent as the authorised capital.",
+  "The letters and numbers for these amounts must be just as noticeable and clear.",
+  "If a company breaks this rule, the company and any officer at fault must pay a penalty for each default."
+ ],
+ "example": "Meera Textiles Private Limited printed new letter paper for its business correspondence. At the top of the letter paper, the company proudly stated its authorised capital of one crore rupees to impress potential suppliers. However, the managers forgot to include the amounts for the subscribed capital and the paid-up capital on the paper. Because the company published its official business letter with only the authorised capital and left out the other required capital amounts in equally prominent characters, the company and the responsible officer broke the law and now face penalties.",
+ "terms": [
+  {
+   "term": "Authorised capital",
+   "meaning": "The maximum amount of capital that a company is allowed by its constitutional documents to raise by issuing shares."
+  },
+  {
+   "term": "Subscribed capital",
+   "meaning": "The part of the authorised capital that has been taken up and agreed to be bought by investors."
+  },
+  {
+   "term": "Paid-up capital",
+   "meaning": "The total amount of money that shareholders have actually paid to the company for their shares."
+  }
+ ],
+ "watch": "Do not forget that mentioning authorised capital requires you to show subscribed and paid-up capital with equal prominence.",
+ "h": "7a33af19f993",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

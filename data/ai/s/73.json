@@ -1,0 +1,34 @@
+{
+ "summary": "This section generally stops companies from taking deposits from the public, but allows them to take deposits from their own members if they follow specific rules. Companies must pass a resolution, send a circular to members, file it with the Registrar, and keep aside a separate sum in a bank for future repayments. If a company fails to repay a deposit, the depositor can ask the Tribunal for help.",
+ "points": [
+  "Companies cannot invite, accept, or renew public deposits except as allowed under this law.",
+  "Banking companies, non-banking financial companies, and specific other notified companies are exempt from the public deposit ban.",
+  "A company can accept deposits from its members after passing a resolution in a general meeting and fulfilling strict conditions.",
+  "The company must issue and file a circular with the financial position and details of previous deposits before taking member deposits.",
+  "The company must deposit at least twenty percent of its maturing deposits into a special bank account every year.",
+  "Depositors can apply to the Tribunal for payment orders if the company fails to repay their deposits or interest."
+ ],
+ "example": "Meera Textiles Private Limited wanted to collect funds from the general public. However, the law prohibits companies from taking public deposits. Therefore, the directors decided to accept deposits only from their own members instead. They held a general meeting and passed a resolution. They also prepared a circular showing the company's financial position and filed a copy with the Registrar thirty days before issuing it. Furthermore, they set aside a specific sum in a scheduled bank account as required by the law to ensure they could repay their members on time.",
+ "terms": [
+  {
+   "term": "Deposits",
+   "meaning": "Money given to a company by people, which the company has to return later with or without interest."
+  },
+  {
+   "term": "Resolution",
+   "meaning": "A formal decision made by members of a company during a meeting."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "An official government authority who keeps company records."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A special legal body or court set up to handle company disputes and issues."
+  }
+ ],
+ "watch": "People often confuse public deposits with deposits taken from a company's own members, which have different rules.",
+ "h": "f3e1bf03f40c",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

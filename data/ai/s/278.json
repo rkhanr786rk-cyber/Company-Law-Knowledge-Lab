@@ -1,0 +1,27 @@
+{
+ "summary": "Section 278 of the Companies Act, 2013 explains the effect of a winding up order for a company. It states that this order works to help all creditors and contributories equally. Therefore, the order is treated as if everyone asked for it together.",
+ "points": [
+  "The winding up order helps all creditors of the company.",
+  "The winding up order helps all contributories of the company.",
+  "The order operates as if it was made on a joint petition by both creditors and contributories."
+ ],
+ "example": "Meera Textiles Private Limited faced severe financial trouble and a court issued an order to close down the company. Because of Section 278, this official closure order applies to benefit every single person the company owes money to, known as creditors, as well as every person who needs to pay money to the company, known as contributories. It does not matter who originally asked the court for the closure. The law treats the final court order as if all the creditors and contributories filed the request together as a group, ensuring that the legal process works fairly for everyone involved in the company's closure.",
+ "terms": [
+  {
+   "term": "winding up",
+   "meaning": "The legal process of closing down a company and settling its affairs."
+  },
+  {
+   "term": "creditor",
+   "meaning": "A person or business to whom the company owes money."
+  },
+  {
+   "term": "contributory",
+   "meaning": "A person liable to contribute to the assets of the company in the event of its being wound up."
+  }
+ ],
+ "watch": "This section does not mean creditors and contributories must actually file a joint petition to start the process.",
+ "h": "2815c6a0c5fb",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

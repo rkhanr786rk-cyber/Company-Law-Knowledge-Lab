@@ -1,0 +1,24 @@
+{
+ "summary": "This section lets the Central Government challenge a court's decision to clear someone of charges under the Companies Act. It can tell a company prosecutor or another chosen person to file an appeal against the not-guilty order. Such an appeal is treated as fully valid by the higher court, overriding normal criminal procedure rules.",
+ "points": [
+  "Applies to cases arising under the Companies Act, 2013.",
+  "Allows the Central Government to order an appeal against an acquittal.",
+  "Permits the government to authorize a company prosecutor or another person by name or office to file the appeal.",
+  "Ensures that an appeal presented by the authorized person is legally treated as validly presented."
+ ],
+ "example": "In a recent case under the Companies Act, 2013, Rohan Traders Private Limited faced serious charges brought before a local court. After the trial, the court passed an order of acquittal, meaning Rohan Traders Private Limited was cleared of the charges. Unhappy with this decision, the Central Government decided to challenge the outcome. Using its powers, the government authorized a designated company prosecutor to present an appeal against the acquittal order in the higher court. Because the prosecutor was properly authorized, the appeal was officially deemed validly presented to the appellate court, allowing the legal process to continue without procedural obstacles regarding who filed it.",
+ "terms": [
+  {
+   "term": "acquittal",
+   "meaning": "A court decision that a person or company is not guilty of the charges."
+  },
+  {
+   "term": "appellate court",
+   "meaning": "A higher court that has the power to review and change the decision of a lower court."
+  }
+ ],
+ "watch": "Note that this section only applies to orders passed by courts other than a High Court.",
+ "h": "f8f16b5ff25c",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

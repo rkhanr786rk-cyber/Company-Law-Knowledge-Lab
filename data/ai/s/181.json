@@ -1,0 +1,27 @@
+{
+ "summary": "This section allows the Board of Directors of a company to give money to genuine charitable funds and other funds. However, if the total amount given in a single financial year goes above a certain limit, the company must first get permission from its shareholders in a general meeting. This rule ensures that large charitable gifts are approved by the owners of the company.",
+ "points": [
+  "The Board of Directors is allowed to contribute to genuine charitable and other funds.",
+  "Shareholder permission is needed if total contributions in a financial year exceed five percent of the company's average net profits from the previous three financial years.",
+  "The permission must be given by the company in a general meeting before making the contribution."
+ ],
+ "example": "Aarav Steel Private Limited wants to donate money to several local charities throughout the year. The Board of Directors plans the donations carefully. They calculate that the total amount will cross five percent of the company's average net profits from the last three financial years. Because of this high amount, the directors cannot just decide on their own. They call a meeting of all the shareholders to discuss the plan. The shareholders vote and give their permission during the general meeting. Only after this approval does Aarav Steel Private Limited make the charitable contributions.",
+ "terms": [
+  {
+   "term": "Board of Directors",
+   "meaning": "The group of people chosen to manage the affairs of a company."
+  },
+  {
+   "term": "General meeting",
+   "meaning": "A formal meeting of the company's shareholders."
+  },
+  {
+   "term": "Financial year",
+   "meaning": "A one-year period that companies use for keeping financial records and reporting accounts."
+  }
+ ],
+ "watch": "Remember that shareholder permission is only required if the total contributions exceed the specific profit percentage mentioned in the text.",
+ "h": "988513711728",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

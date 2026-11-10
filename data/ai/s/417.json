@@ -1,0 +1,30 @@
+{
+ "summary": "This section explains the rules for removing the top leaders of the tribunal, such as the President, Chairperson, or Members. The Central Government can remove them for specific reasons like bankruptcy, criminal acts, or bad behavior. Before removal on most grounds, the person must be given a fair chance to speak.",
+ "points": [
+  "The Central Government may remove the President, Chairperson, or a Member after consulting the Chief Justice of India.",
+  "Removal can happen if the person is declared insolvent, convicted of a crime involving moral turpitude, or becomes physically or mentally incapable.",
+  "Removal is also allowed if the person gains financial interests that harm their duties or abuses their position against public interest.",
+  "A fair hearing must be given before removal on grounds of crime, incapacity, harmful interests, or abuse of power.",
+  "A Supreme Court Judge nominated by the Chief Justice of India must first inquire into charges of proved misbehaviour or incapacity before removal.",
+  "The Central Government may suspend the person while the Supreme Court inquiry is ongoing, with the agreement of the Chief Justice of India."
+ ],
+ "example": "Ahmad serves as a Member of the tribunal for a fictional body called Apex Tribunal Services. The Central Government receives a complaint that Ahmad has been convicted of an offence involving moral turpitude. Before taking any action to remove him, the Central Government gives Ahmad a reasonable opportunity of being heard to present his side of the story. Later, if a formal inquiry regarding misbehaviour is referred to a Supreme Court Judge, the Central Government, with the concurrence of the Chief Justice of India, may suspend Ahmad from office until the inquiry report is received and final orders are passed.",
+ "terms": [
+  {
+   "term": "Insolvent",
+   "meaning": "Declared legally unable to pay debts."
+  },
+  {
+   "term": "Moral turpitude",
+   "meaning": "An act or behaviour that gravely violates community standards or honesty."
+  },
+  {
+   "term": "Concurrence",
+   "meaning": "Agreement or approval."
+  }
+ ],
+ "watch": "People often confuse regular removal grounds with formal misbehaviour inquiries, which require a Supreme Court Judge to investigate first.",
+ "h": "59822dc2b1a8",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

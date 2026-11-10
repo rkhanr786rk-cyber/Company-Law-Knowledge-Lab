@@ -1,0 +1,24 @@
+{
+ "summary": "Section 400 of the Companies Act, 2013 lets the Central Government decide how companies submit documents. The government can choose to accept digital forms only, or accept them alongside or instead of paper forms. This rule applies to specific rules made under sections 398 and 399.",
+ "points": [
+  "The Central Government can make rules about electronic forms.",
+  "Electronic forms can be made the only way to submit documents.",
+  "Electronic forms can be an alternative to physical paper forms.",
+  "Electronic forms can be used in addition to physical paper forms."
+ ],
+ "example": "Meera Textiles Private Limited wanted to submit certain official documents to the government. The company checked the rules made by the Central Government under sections 398 and 399 of the Companies Act. They found that the government had decided to make the electronic form the exclusive method for this submission. Because of this, Meera Textiles Private Limited could not submit paper documents. Instead, they had to use the official electronic form provided by the government to complete their filing successfully.",
+ "terms": [
+  {
+   "term": "Central Government",
+   "meaning": "The national government of the country."
+  },
+  {
+   "term": "Physical form",
+   "meaning": "Traditional paper documents."
+  }
+ ],
+ "watch": "Do not assume electronic forms are always mandatory, as the government can choose to make them optional or extra instead.",
+ "h": "5574435bac5d",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

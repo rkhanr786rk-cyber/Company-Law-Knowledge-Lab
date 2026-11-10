@@ -1,0 +1,34 @@
+{
+ "summary": "This section explains how a company is finally ended and closed down by an official body called the Tribunal. Once all company business is wrapped up, the person in charge asks the Tribunal to dissolve it. The Tribunal then officially orders the closure and tells the Registrar to update the official records.",
+ "points": [
+  "The Company Liquidator must apply to the Tribunal for company dissolution after winding up is complete.",
+  "The Tribunal can order dissolution upon application or if it is just and reasonable in the circumstances.",
+  "The company is officially dissolved starting from the date of the Tribunal's order.",
+  "The Tribunal must forward a copy of the order to the Registrar within thirty days.",
+  "The Tribunal must also direct the Company Liquidator to send a copy of the order to the Registrar.",
+  "The Registrar must record a minute of the dissolution in the company's register."
+ ],
+ "example": "All the business affairs of Meera Textiles Private Limited were completely wound up after settling its debts and selling its assets. Following this process, the appointed Company Liquidator made a formal application to the Tribunal asking for the final dissolution of the company. Agreeing that the winding up was complete, the Tribunal issued an official order stating that Meera Textiles Private Limited was dissolved from that exact date. Within thirty days of making this order, the Tribunal sent a copy to the Registrar and also directed the Company Liquidator to send a copy, ensuring that the Registrar properly recorded the minute of dissolution in the company register.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "An official legal body that handles specific cases, in this context related to company disputes and winding up."
+  },
+  {
+   "term": "Company Liquidator",
+   "meaning": "The person responsible for winding up the affairs of a company."
+  },
+  {
+   "term": "Dissolution",
+   "meaning": "The official formal ending or closing of a company."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "An official who keeps the government records of companies."
+  }
+ ],
+ "watch": "Remember that the thirty-day deadline applies to the Tribunal sending the order to the Registrar, not to the Liquidator filing the initial request.",
+ "h": "5bcc74fd3a57",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

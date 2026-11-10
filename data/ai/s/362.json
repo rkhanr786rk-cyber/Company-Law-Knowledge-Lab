@@ -1,0 +1,25 @@
+{
+ "summary": "This section explains how the Official Liquidator must quickly sell the company property and collect money owed by debtors. The liquidator has strict time limits to sell assets, ask for payments, and deposit the collected money properly. If a debtor fails to pay, the Central Government can pass orders on the matter.",
+ "points": [
+  "The Official Liquidator must sell all movable and immovable assets within sixty days of being appointed.",
+  "The liquidator must send a notice to debtors or contributories within thirty days of appointment.",
+  "Debtors must deposit the amount they owe within thirty days of receiving the notice.",
+  "If a debtor does not pay, the Central Government may pass orders upon request by the liquidator.",
+  "All recovered money must be deposited following the rules in section 349."
+ ],
+ "example": "Meera Textiles Private Limited went into winding up, and Mr. Roy was appointed as the Official Liquidator. Within sixty days, Mr. Roy expeditiously sold all the factory machinery and office land belonging to Meera Textiles. He also served a formal notice within thirty days to Mr. Sharma, a debtor, asking him to deposit his unpaid dues within thirty days. Mr. Sharma failed to deposit the amount within the given time. Because of this failure, Mr. Roy applied to the Central Government, which then passed an appropriate order regarding the uncollected debt.",
+ "terms": [
+  {
+   "term": "Official Liquidator",
+   "meaning": "An officer appointed to run the winding up process and handle a company's assets."
+  },
+  {
+   "term": "Contributories",
+   "meaning": "People who are liable to contribute to the assets of a company during its winding up."
+  }
+ ],
+ "watch": "Do not confuse the sixty-day deadline for selling assets with the thirty-day deadline for sending notices to debtors.",
+ "h": "7fd5c37351b8",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

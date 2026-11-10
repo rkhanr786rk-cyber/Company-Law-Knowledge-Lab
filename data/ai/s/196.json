@@ -1,0 +1,34 @@
+{
+ "summary": "This section sets the rules for appointing top leaders in a company, like a managing director, whole-time director, or manager. It places limits on their age, past legal troubles, and how long they can serve at one time. It also explains how the Board and shareholders must approve these appointments and file the paperwork.",
+ "points": [
+  "A company cannot appoint both a managing director and a manager at the same time.",
+  "No top leader can be appointed for a term longer than five years at a time.",
+  "A person cannot be appointed if they are under twenty-one years old or have reached seventy years old, unless special rules or approvals are met.",
+  "People who are insolvents, have suspended payments to creditors, or have been convicted of certain crimes for more than six months cannot be appointed.",
+  "The Board of Directors must approve the appointment and pay, and the shareholders must approve it at the next general meeting.",
+  "A return must be filed with the Registrar within sixty days of the appointment."
+ ],
+ "example": "At Meera Textiles Private Limited, the board wanted to appoint Mr. Sharma as a whole-time director for a term of four years. Mr. Sharma was fifty years old and had a clean record with no history of insolvency or criminal convictions. The Board of Directors met and approved his appointment along with his pay terms. They sent out a notice for the upcoming general meeting that clearly included his pay and appointment terms so the shareholders could vote on it. After the meeting, the company filed the required return with the Registrar within the sixty-day window. Even before the shareholders officially voted, any official acts Mr. Sharma did for the company remained completely valid.",
+ "terms": [
+  {
+   "term": "Managing director",
+   "meaning": "A director who is given substantial powers of management of the affairs of the company."
+  },
+  {
+   "term": "Whole-time director",
+   "meaning": "A director in the whole-time employment of the company."
+  },
+  {
+   "term": "Undischarged insolvent",
+   "meaning": "A person who has been declared legally bankrupt by a court and whose debts have not yet been settled."
+  },
+  {
+   "term": "Special resolution",
+   "meaning": "A decision by shareholders that requires a higher majority vote as specified by the law."
+  }
+ ],
+ "watch": "People often confuse the age limit rule, forgetting that those over seventy can still be appointed if special voting or government approval conditions are met.",
+ "h": "0a5cbd5ec375",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

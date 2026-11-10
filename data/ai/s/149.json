@@ -1,0 +1,34 @@
+{
+ "summary": "This section sets the rules for how companies must form their Board of Directors. It explains the minimum and maximum number of directors, the need for resident and independent directors, and the rules for appointing them. It also details the qualifications and responsibilities of independent directors.",
+ "points": [
+  "Every company must have a Board of Directors made up of individuals.",
+  "A public company must have at least three directors, a private company at least two, and a One Person Company at least one.",
+  "The maximum number of directors is fifteen, unless the company passes a special resolution to appoint more.",
+  "Every company must have at least one director who stays in India for not less than 182 days during the financial year.",
+  "Listed public companies must have at least one-third of their total directors as independent directors.",
+  "Independent directors must meet specific rules to prove they have no unfair ties to the company and must give a declaration of their independence."
+ ],
+ "example": "Meera Textiles Private Limited is a private company and is setting up its leadership team. According to the rules, it must have at least two directors on its Board since it is a private company. The company decides to appoint two directors, Mr. Sharma and Ms. Patel. To meet the residential requirement, Mr. Sharma stays in India for 200 days during the financial year. This fulfills the basic board and residency structure required for their private company under the law.",
+ "terms": [
+  {
+   "term": "Special resolution",
+   "meaning": "A formal decision made by shareholders that requires a higher percentage of votes to pass."
+  },
+  {
+   "term": "Independent director",
+   "meaning": "A director who does not have any material or pecuniary relationship with the company, helping ensure unbiased oversight."
+  },
+  {
+   "term": "Pecuniary relationship",
+   "meaning": "A relationship involving money or financial transactions."
+  },
+  {
+   "term": "Nominee director",
+   "meaning": "A director appointed by a financial institution, government, or other person to represent their specific interests."
+  }
+ ],
+ "watch": "People often confuse the relaxed rules for private companies with the stricter independent director requirements that apply to listed public companies.",
+ "h": "235fd190eefd",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

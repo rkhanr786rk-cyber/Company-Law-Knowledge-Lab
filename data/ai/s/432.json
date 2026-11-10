@@ -1,0 +1,24 @@
+{
+ "summary": "This section explains who can present a case before the Tribunal or Appellate Tribunal. A party involved in a proceeding can either choose to appear by themselves or appoint authorized professionals to represent them. These authorized persons can include chartered accountants, company secretaries, cost accountants, legal practitioners, or anyone else chosen by the party.",
+ "points": [
+  "A party may appear in person before the Tribunal or the Appellate Tribunal.",
+  "A party may authorize one or more persons to present their case.",
+  "Authorized persons can be chartered accountants, company secretaries, or cost accountants.",
+  "Authorized persons can also be legal practitioners or any other person."
+ ],
+ "example": "Aarav runs a technology startup called Zenith Innovations Private Limited. The company gets involved in a dispute pending before the National Company Law Tribunal. Instead of attending all the hearings by himself, Aarav decides to appoint a professional to present the case on behalf of the company. Based on the rules, Aarav can legally authorize a chartered accountant, a company secretary, a cost accountant, a legal practitioner, or any other person of his choice to appear and present the case before the Tribunal.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "An official body set up to deal with specific legal disputes."
+  },
+  {
+   "term": "Legal practitioner",
+   "meaning": "A person who is qualified and authorized to practice law, such as an advocate or lawyer."
+  }
+ ],
+ "watch": "People often assume only lawyers can represent a party, but the law also allows other specified professionals and individuals to do so.",
+ "h": "b8e3e381bd37",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

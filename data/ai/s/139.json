@@ -1,0 +1,34 @@
+{
+ "summary": "Every company must appoint an auditor at its first annual general meeting to hold office until the sixth annual general meeting. Before appointment, the company must obtain the auditor's written consent and a certificate confirming they meet the required criteria. Specific rules govern auditor rotation for listed and other prescribed companies, as well as separate appointment procedures for government companies and casual vacancies.",
+ "points": [
+  "Every company must appoint an individual or a firm as an auditor at the first annual general meeting to hold office until the conclusion of the sixth annual general meeting.",
+  "Before making an appointment, the company must obtain the auditor's written consent and a certificate showing they meet the conditions and criteria.",
+  "The company must inform the auditor of their appointment and file a notice with the Registrar within fifteen days of the meeting.",
+  "Listed companies and other prescribed classes of companies are restricted from appointing an individual auditor for more than one term of five consecutive years or an audit firm for more than two terms of five consecutive years.",
+  "For government companies, the Comptroller and Auditor-General of India appoints the auditor for the financial year within one hundred and eighty days from the commencement of the financial year.",
+  "If no auditor is appointed or re-appointed at an annual general meeting, the existing auditor shall continue as the auditor of the company."
+ ],
+ "example": "Meera Textiles Private Limited held its first annual general meeting to appoint an auditor for the company. Before making the appointment, the directors obtained the written consent of an individual auditor along with a certificate stating that the appointment complied with the required criteria. After the members finalized the appointment at the meeting, the company informed the auditor and filed a notice of the appointment with the Registrar within fifteen days.",
+ "terms": [
+  {
+   "term": "annual general meeting",
+   "meaning": "A yearly meeting of the members or shareholders of a company."
+  },
+  {
+   "term": "casual vacancy",
+   "meaning": "An unexpected vacancy in the office of an auditor arising during their term due to reasons such as resignation or death."
+  },
+  {
+   "term": "listed company",
+   "meaning": "A company that has any of its securities listed on any recognized stock exchange."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "A government authority designated under the Act to handle company registrations and filings."
+  }
+ ],
+ "watch": "Note that the rules for auditor appointment, rotation, and filling of casual vacancies differ significantly between normal companies and government-controlled companies.",
+ "h": "a592d7cfbe31",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

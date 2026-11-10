@@ -1,0 +1,29 @@
+{
+ "summary": "If a creditor is unhappy with a decision made by the Official Liquidator, they can appeal to the Central Government within thirty days. The Central Government will review the case using a report from the Official Liquidator and can either dismiss the appeal or change the decision. The Official Liquidator must then pay the creditors whose claims were accepted, but the Central Government may also send the matter to the Tribunal for orders if needed.",
+ "points": [
+  "A creditor unhappy with the Official Liquidator's decision under section 363 may appeal to the Central Government.",
+  "The appeal must be filed within thirty days of the decision.",
+  "The Central Government asks for a report from the Official Liquidator before deciding to dismiss the appeal or modify the decision.",
+  "The Official Liquidator must pay the creditors whose claims are accepted.",
+  "The Central Government can refer the matter to the Tribunal for orders at any stage during the settlement of claims if it is considered necessary."
+ ],
+ "example": "Apex Traders Limited is a company going through winding up. The Official Liquidator makes a decision regarding claims, but Rahul, a creditor, feels aggrieved by this choice. Within thirty days, Rahul files an appeal before the Central Government against the decision. The Central Government calls for a report from the Official Liquidator to review the situation. After looking at the report, the Central Government decides to modify the Official Liquidator's decision. Following this, the Official Liquidator makes payment to the creditors whose claims have been accepted. Later, considering it necessary during the settlement of claims, the Central Government refers the matter to the Tribunal for necessary orders.",
+ "terms": [
+  {
+   "term": "Creditor",
+   "meaning": "A person or business to whom money is owed."
+  },
+  {
+   "term": "Official Liquidator",
+   "meaning": "An officer appointed to run the winding up process of a company."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A special legal body set up to handle specific disputes."
+  }
+ ],
+ "watch": "Note that the appeal goes to the Central Government, not directly to the court or Tribunal, though the Central Government can refer the matter to the Tribunal later.",
+ "h": "9baa89718cea",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

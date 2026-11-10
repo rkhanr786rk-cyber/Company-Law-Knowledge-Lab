@@ -1,0 +1,29 @@
+{
+ "summary": "A company is allowed to temporarily close its register of members or security holders, provided it gives proper prior notice. There are strict limits on how long the register can remain closed each year and at one time. If a company breaks these rules regarding notice periods or closure duration, it and its responsible officers will face monetary penalties.",
+ "points": [
+  "A company can close its register of members, debenture-holders, or other security holders.",
+  "The total closure time cannot exceed forty-five days in a single year.",
+  "A single closure period cannot be longer than thirty days.",
+  "The company must give at least seven days of prior notice before closing the register, unless a shorter period is specified for listed companies.",
+  "Failing to give the required notice, giving short notice, or exceeding the time limits results in a penalty for the company and any officer in default."
+ ],
+ "example": "Meera Textiles Private Limited wanted to update its official records and prepare for its upcoming annual meeting. The management decided to close its register of members for thirty consecutive days. Before doing so, the company properly published a notice to inform everyone at least seven days in advance. Because Meera Textiles Private Limited followed the rule of giving timely notice and stayed within the maximum allowed time limit of thirty days at one time and forty-five days in total for the year, the company acted lawfully and avoided any penalty under the Act.",
+ "terms": [
+  {
+   "term": "register of members",
+   "meaning": "An official book kept by a company that lists the names and details of its shareholders."
+  },
+  {
+   "term": "debenture-holders",
+   "meaning": "People or entities that have lent money to a company and hold a certificate of debt issued by it."
+  },
+  {
+   "term": "officer in default",
+   "meaning": "A company officer who is responsible for a rule violation or failure to comply with the law."
+  }
+ ],
+ "watch": "Do not confuse the thirty-day limit for a single closure with the forty-five-day total limit allowed across the entire year.",
+ "h": "c670e3cf35d1",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,32 @@
+{
+ "summary": "This section explains special words used in Chapter XXI of the Companies Act, 2013, which is about Producer Companies. It defines key terms like active Member, primary produce, and producer so everyone understands their exact meaning in this chapter. It does not create any new duties or penalties on its own.",
+ "points": [
+  "Defines an active Member as someone who meets the specific amount and time of patronage required by the articles.",
+  "Explains primary produce to include farming, animal husbandry, handlooms, handicrafts, and related activities.",
+  "Describes a Producer Company as a body corporate registered under the Act with objects specified in section 378B.",
+  "States that an officer includes directors, the Chief Executive, the Secretary, or anyone giving directions for running the business."
+ ],
+ "example": "Greenfields Agro Producers Limited is a company registered under the Companies Act. Ravi is a farmer who supplies milk to Greenfields, which falls under primary produce. Because Ravi regularly uses the services offered by the company, he participates in its business activities, fulfilling the definition of patronage. Since he meets the rules set by the company's articles, he is considered an active Member. When Greenfields gives an extra payment from its surplus income to Ravi based on how much milk he supplied, that payment is known as a patronage bonus.",
+ "terms": [
+  {
+   "term": "Patronage",
+   "meaning": "The use of services offered by the Producer Company to its Members by participating in its business activities."
+  },
+  {
+   "term": "Primary produce",
+   "meaning": "Goods arising from agriculture, animal husbandry, handicrafts, or related activities and by-products."
+  },
+  {
+   "term": "Patronage bonus",
+   "meaning": "Payments made by a Producer Company out of its surplus income to the Members in proportion to their respective patronage."
+  },
+  {
+   "term": "Withheld price",
+   "meaning": "Part of the price due for goods supplied by a Member that the company keeps to pay later."
+  }
+ ],
+ "watch": "These definitions only apply to this specific chapter on Producer Companies.",
+ "h": "8c3942d79e0b",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

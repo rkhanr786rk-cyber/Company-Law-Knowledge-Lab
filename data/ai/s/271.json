@@ -1,0 +1,33 @@
+{
+ "summary": "This section explains the specific situations where the Tribunal can order a company to be wound up, meaning it can be officially closed down. A formal petition must be filed to start this process. The reasons range from a special decision by the company itself to serious issues like fraud, illegal actions, or failing to file reports.",
+ "points": [
+  "The company can resolve by special resolution to be wound up by the Tribunal.",
+  "Winding up can happen if the company acts against the sovereignty and integrity of India, security of the State, friendly relations with foreign States, public order, decency, or morality.",
+  "The Tribunal may order winding up if the company was formed for fraudulent purposes or if its affairs are conducted fraudulently.",
+  "Winding up is allowed if the company fails to file its financial statements or annual returns with the Registrar for five consecutive financial years.",
+  "The Tribunal can order winding up if it believes it is just and equitable to do so."
+ ],
+ "example": "Meera Textiles Private Limited had not filed its financial statements and annual returns with the Registrar for five financial years in a row. Because of this default in filing, a petition was brought under section 272. The Tribunal reviewed the case and found that the company missed its filings for the immediately preceding five consecutive financial years. Consequently, the Tribunal had the power to order that Meera Textiles Private Limited be wound up.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A judicial body appointed to handle disputes and legal matters related to companies."
+  },
+  {
+   "term": "Special resolution",
+   "meaning": "A formal decision made by the shareholders of a company requiring a specific high majority vote."
+  },
+  {
+   "term": "Misfeasance",
+   "meaning": "A wrongdoing or dishonest act committed during the management of the company."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "The government official responsible for maintaining records of companies."
+  }
+ ],
+ "watch": "A company cannot be wound up under this section without a proper petition being filed first.",
+ "h": "10480caa2eea",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

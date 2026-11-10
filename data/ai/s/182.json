@@ -1,0 +1,30 @@
+{
+ "summary": "Certain companies can give money to political parties if they follow specific rules. The board of directors must first pass a resolution to allow the gift. Also, the company must show the total amount given in its financial accounts.",
+ "points": [
+  "Government companies and companies in existence for less than three financial years cannot make political contributions.",
+  "A company must pass a board resolution to authorize any political contribution.",
+  "Indirect payments to people or activities that affect public support for a political party count as political contributions.",
+  "Money spent on advertisements in souvenirs, brochures, or pamphlets for or benefiting a political party is treated as a political contribution.",
+  "Companies must disclose the total amount contributed in their profit and loss account.",
+  "Contributions must be made using specific banking channels like an account payee cheque, bank draft, electronic clearing system, or notified schemes, and breaking these rules leads to fines and imprisonment."
+ ],
+ "example": "Meera Textiles Private Limited has been in business for four years. The board of directors holds a meeting and passes a resolution to give funds to a registered political party. To ensure compliance with the law, Meera Textiles makes the contribution using an account payee cheque drawn on its bank account. The company then clearly discloses this total contribution amount in its profit and loss account for the financial year. By following these rules, the company avoids any penalties, fines, or officer imprisonment, keeping its political donations fully transparent and legally authorized under the act.",
+ "terms": [
+  {
+   "term": "Board of Directors",
+   "meaning": "The group of people chosen to manage the affairs of a company."
+  },
+  {
+   "term": "Political Party",
+   "meaning": "A political party registered under section 29A of the Representation of the People Act, 1951."
+  },
+  {
+   "term": "Account Payee Cheque",
+   "meaning": "A cheque that can only be paid directly into the bank account of the named person or entity."
+  }
+ ],
+ "watch": "People often confuse indirect payments, like ads in party brochures or payments to related activities, as non-political, but the law treats them as political contributions.",
+ "h": "060730a9dbec",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

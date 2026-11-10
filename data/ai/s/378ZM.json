@@ -1,0 +1,29 @@
+{
+ "summary": "This section sets punishments for using the name Producer Company Limited without proper registration. It also punishes directors or officers who refuse to share company information with members or who fail to hand over company records and property. Additionally, it punishes those who fail to call required company meetings.",
+ "points": [
+  "Using the name Producer Company Limited without being registered as one leads to a fine of up to ten thousand rupees for every day of use.",
+  "A director or officer who wilfully refuses to provide required company information to a member faces up to six months in prison and a fine equal to five percent of the previous year's turnover.",
+  "Failing to hand over company books, documents, or property to the company results in a fine of up to one lakh rupees.",
+  "Failing to hold annual general meetings or other general meetings also results in a fine of up to one lakh rupees.",
+  "Continuing defaults on handing over property or holding meetings add a fine of up to ten thousand rupees for each day the failure continues."
+ ],
+ "example": "Aman decided to open a small farming business and named it Sunrise Producer Company Limited, even though he never registered it under the law. He used this name on his signboard every day for twenty days. Meanwhile, Rohan, a director at an actual registered firm called Green Fields Producer Company Limited, refused to hand over the official account books to the company after his term ended. Rohan also failed to call the yearly general meeting on time. Because of these actions, Aman faced daily fines for using the protected name illegally, and Rohan faced penalties for failing to return company property and failing to hold the required meetings.",
+ "terms": [
+  {
+   "term": "Contravention",
+   "meaning": "An act that goes against a law or rule."
+  },
+  {
+   "term": "Turnover",
+   "meaning": "The total sales or revenue of a company during a specific time period."
+  },
+  {
+   "term": "Annual general meeting",
+   "meaning": "A yearly meeting where company members gather to discuss business matters."
+  }
+ ],
+ "watch": "Watch out for the difference between using a protected name illegally and failing to hold company meetings, as each carries its own specific type of fine.",
+ "h": "1b27be46537a",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

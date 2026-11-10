@@ -1,0 +1,24 @@
+{
+ "summary": "This section explains who has the authority to sign documents, proceedings, and contracts for a company. Unless the law says otherwise, a company can authorize specific individuals to do this. These authorized people can be a key managerial personnel, an officer, or an employee.",
+ "points": [
+  "Documents or proceedings that need a company's authentication may be signed by an authorized person.",
+  "Contracts made by or for a company may be signed by an authorized person.",
+  "The Board of the company must duly authorize the person in this behalf.",
+  "The authorized person can be a key managerial personnel, an officer, or an employee of the company."
+ ],
+ "example": "Meera Textiles Private Limited wants to sign a new business contract with a supplier. The Board of Directors of Meera Textiles Private Limited decides to give official authorization to Rajesh, who is an employee of the company. Because the Board has duly authorized him, Rajesh can now legally sign the contract on behalf of Meera Textiles Private Limited, making the agreement valid according to the law.",
+ "terms": [
+  {
+   "term": "Authentication",
+   "meaning": "Proving that a document or act is real, official, and legally valid by signing it."
+  },
+  {
+   "term": "Board",
+   "meaning": "The board of directors of a company who make major management decisions."
+  }
+ ],
+ "watch": "Do not assume any employee can sign; the person must be specifically authorized by the Board.",
+ "h": "83fa317a5f73",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,33 @@
+{
+ "summary": "Section 107 of the Companies Act, 2013 explains how voting happens at a general meeting. Unless members demand a formal poll or vote electronically, decisions are made by a show of hands. The Chairman's declaration and the written minutes in the company books serve as final proof of the vote result.",
+ "points": [
+  "General meeting votes are decided by a show of hands as the default method.",
+  "Voting by show of hands does not apply if a poll is demanded under section 109.",
+  "Voting by show of hands does not apply if voting is done electronically.",
+  "The Chairman must declare whether the resolution is passed or not on a show of hands.",
+  "An entry in the company minute books confirming the Chairman's declaration is conclusive evidence of the result."
+ ],
+ "example": "At the annual general meeting of Sunrise Electronics Private Limited, the members gather to vote on appointing a new auditor. The Chairman asks everyone in favor to raise their hands, followed by those against. After counting the visible hands, the Chairman announces that the resolution has passed. The company secretary immediately writes this declaration into the official minute books of Sunrise Electronics Private Limited. Under the law, this written entry and the Chairman's announcement act as final proof that the resolution was successfully passed by a show of hands, since no one demanded a formal poll or electronic voting.",
+ "terms": [
+  {
+   "term": "general meeting",
+   "meaning": "a formal gathering of company members to discuss and decide on company matters"
+  },
+  {
+   "term": "resolution",
+   "meaning": "a formal proposal or decision that is put to a vote"
+  },
+  {
+   "term": "minutes",
+   "meaning": "the official written record of what happened during a meeting"
+  },
+  {
+   "term": "conclusive evidence",
+   "meaning": "proof that is considered final and cannot be argued against"
+  }
+ ],
+ "watch": "Remember that a show of hands is only the default method and will not be used if electronic voting or a formal poll takes place instead.",
+ "h": "2f9460593e47",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

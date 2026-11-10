@@ -1,0 +1,23 @@
+{
+ "summary": "Section 369 of the Companies Act, 2013 ensures that registering an existing company under this part does not change its past debts or duties. Any money owed or contracts made before registration remain fully valid. This protects the rights and responsibilities of the company as they were before the change.",
+ "points": [
+  "Registration under this part does not affect the rights of the company.",
+  "Registration does not affect the liabilities of the company regarding any debt or obligation.",
+  "Any contract entered into before registration by, to, with, or on behalf of the company remains unchanged."
+ ],
+ "example": "Meera Textiles Private Limited had entered into a contract to buy raw materials from a local supplier before registering under the new part of the Companies Act, 2013. After the registration process was complete, the supplier worried that the old contract might no longer be valid. However, Section 369 of the Act protects existing agreements. This means that Meera Textiles Private Limited must still pay for and accept the raw materials just as agreed in the original contract, and neither party can use the new registration to cancel their past responsibilities or debts.",
+ "terms": [
+  {
+   "term": "Liabilities",
+   "meaning": "Legal debts or responsibilities that a person or company owes."
+  },
+  {
+   "term": "Obligation",
+   "meaning": "A duty or legal commitment to do something."
+  }
+ ],
+ "watch": "People often confuse registration as a way to wipe out old debts, but this section explicitly keeps all prior liabilities active.",
+ "h": "18a3e4342a67",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

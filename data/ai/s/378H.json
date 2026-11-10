@@ -1,0 +1,28 @@
+{
+ "summary": "This section explains how a Producer Company can change its memorandum, which is its founding document. It allows changes to company objects through a special vote and sets rules for filing papers with the Registrar. Moving the registered office from one State to another also needs approval from the Central Government.",
+ "points": [
+  "A Producer Company can only change its memorandum when the law expressly allows it.",
+  "The company may change its objects by passing a special resolution that does not conflict with section 378B.",
+  "A certified copy of the changed memorandum and the special resolution must be filed with the Registrar within thirty days.",
+  "Moving the office between States requires approval from the Central Government to take effect."
+ ],
+ "example": "Green Fields Producer Company Limited wanted to change the main business objects stated in its memorandum. The members gathered for a meeting and approved the new objects by passing a special resolution. Following the rule, two directors signed and certified copies of the new memorandum along with the special resolution. Within thirty days of adopting the resolution, they submitted these documents to the Registrar. Because they followed every step strictly as written in the law, the official records were updated without any hassle, allowing the company to start its new activities smoothly.",
+ "terms": [
+  {
+   "term": "memorandum",
+   "meaning": "The main founding document of a company that sets out its basic powers and objects."
+  },
+  {
+   "term": "special resolution",
+   "meaning": "A formal decision passed by a high majority vote of the members."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "The government official who keeps records of companies."
+  }
+ ],
+ "watch": "Do not confuse changing local office addresses with moving the office from one State to another, which requires Central Government approval.",
+ "h": "0b6c373eca8c",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

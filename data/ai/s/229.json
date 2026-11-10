@@ -1,0 +1,30 @@
+{
+ "summary": "This section punishes people who try to hide the truth during a company investigation. If someone ruins, changes, or hides company documents, or tells lies, they face serious punishment. The law treats these dishonest acts as fraud.",
+ "points": [
+  "Applies to anyone giving an explanation or statement during an inspection, inquiry, or investigation.",
+  "Applies to officers and employees of companies that are being investigated.",
+  "Forbids destroying, damaging, falsifying, hiding, tampering with, or removing company documents.",
+  "Forbids making false entries in any document related to the company.",
+  "Forbids giving an explanation that is false or known to be false.",
+  "Makes the person punishable for fraud under section 447."
+ ],
+ "example": "Aashim worked as an accountant at Meera Textiles Private Limited while the company was undergoing a formal government investigation. During the inquiry, an inspector asked Aashim to provide key financial ledgers regarding the company assets. Knowing that the ledgers showed illegal activities, Aashim deliberately tore out several pages and hid them behind a filing cabinet. He also gave the inspector a completely false explanation about where the missing financial records went. Because Aashim tampered with company documents and lied during an active investigation, the law considers his actions to be fraud, and he is punishable under section 447 of the Act.",
+ "terms": [
+  {
+   "term": "Mutilate",
+   "meaning": "To damage, cut up, or ruin a document so that it is incomplete or unreadable."
+  },
+  {
+   "term": "Falsify",
+   "meaning": "To change a document or record to make it untrue or misleading."
+  },
+  {
+   "term": "Tamper",
+   "meaning": "To interfere with something improperly or without permission."
+  }
+ ],
+ "watch": "Do not assume this section only applies to directors, as it also applies to any regular employee involved in the investigation.",
+ "h": "64febf199a4a",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

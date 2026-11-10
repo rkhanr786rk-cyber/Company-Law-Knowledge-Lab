@@ -1,0 +1,30 @@
+{
+ "summary": "Every company except a One Person Company must hold a yearly meeting called an annual general meeting. The law sets clear rules on when and where this meeting must take place, such as time gaps between meetings and the allowed hours. The Registrar can also extend this time for special reasons.",
+ "points": [
+  "Every company other than a One Person Company must hold an annual general meeting every year and label it as such in the notice.",
+  "Not more than fifteen months can pass between one annual general meeting and the next.",
+  "The first annual general meeting must be held within nine months from the end of the company's first financial year.",
+  "Later annual general meetings must be held within six months from the end of the financial year.",
+  "Meetings must be held during business hours between 9 a.m. and 6 p.m. on a day that is not a National Holiday.",
+  "Meetings must take place at the registered office or another place in the same city, town, or village."
+ ],
+ "example": "Meera Textiles Private Limited closed its financial year on March 31. According to the rules, the company must hold its annual general meeting within six months from that date. The directors sent a notice to all members stating that the meeting will take place at 11 a.m. on a regular Tuesday at the company's registered office in the city, clearly labeling it as the annual general meeting. Because the meeting happens during business hours on a non-holiday and within the allowed time gap, the company meets the legal requirements for holding its yearly gathering properly.",
+ "terms": [
+  {
+   "term": "Annual general meeting",
+   "meaning": "A yearly gathering of a company's members to discuss business matters."
+  },
+  {
+   "term": "Registered office",
+   "meaning": "The official main address of the company."
+  },
+  {
+   "term": "National Holiday",
+   "meaning": "A day declared as a national holiday by the Central Government."
+  }
+ ],
+ "watch": "A company does not need to hold an annual general meeting in the very year it is incorporated if it holds its first meeting within the allowed nine-month period.",
+ "h": "735985e758f8",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

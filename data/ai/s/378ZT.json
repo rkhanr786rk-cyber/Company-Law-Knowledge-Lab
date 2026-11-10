@@ -1,0 +1,29 @@
+{
+ "summary": "This section allows the Central Government to change how certain parts of the Companies Act apply to Producer Companies. The Government can completely exempt these companies from certain rules or apply those rules with changes. However, any proposed change must first be shown to both Houses of Parliament for approval.",
+ "points": [
+  "The Central Government can issue a notification to exempt Producer Companies from certain provisions of the Act.",
+  "The Government can apply provisions to Producer Companies with specific exceptions or adaptations.",
+  "Draft copies of the notification must be placed before each House of Parliament for a total period of thirty days while in session.",
+  "If both Houses disapprove of the notification, it cannot be issued.",
+  "If both Houses agree to modify the notification, it can only be issued in that modified form."
+ ],
+ "example": "The Central Government wants to change how certain reporting rules apply to farming businesses registered as Producer Companies, such as Green Fields Producer Limited. Instead of issuing a final order right away, the Government prepares a draft notification. This draft is presented to both the Lok Sabha and the Rajya Sabha while Parliament is in session for a total period of thirty days. Members of Parliament review the document. If both Houses agree to change the notification, the Government can only issue the final rule with those agreed modifications. If both Houses reject it entirely, Green Fields Producer Limited will not be affected by the proposed change.",
+ "terms": [
+  {
+   "term": "Notification",
+   "meaning": "A formal official public announcement or notice."
+  },
+  {
+   "term": "Adaptation",
+   "meaning": "A change made to a rule so it fits a specific situation."
+  },
+  {
+   "term": "Houses of Parliament",
+   "meaning": "The two legislative chambers, Lok Sabha and Rajya Sabha, in India."
+  }
+ ],
+ "watch": "Do not confuse this power with the ability to change Chapter XXI itself, as the section only applies to provisions outside this Chapter.",
+ "h": "3c756091d1a2",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

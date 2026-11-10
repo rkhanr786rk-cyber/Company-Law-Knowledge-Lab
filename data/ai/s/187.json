@@ -1,0 +1,34 @@
+{
+ "summary": "Section 187 of the Companies Act, 2013 requires a company to make and hold all its investments in its own name. However, it allows certain exceptions, such as using nominees for subsidiary shares, depositing shares with banks for collection or transfer, pledging securities for loans, or holding securities in a depository. If a company fails to follow these rules, it and its default officers face monetary penalties.",
+ "points": [
+  "A company must make and hold all investments in property, securities, or other assets in its own name.",
+  "A company may use a nominee to hold shares in its subsidiary company only to meet the minimum member requirement.",
+  "A company can deposit shares with its bank to collect dividends or interest, or to make transfers easier.",
+  "A company may transfer or deposit shares with any person as security for a loan or to perform an obligation.",
+  "A company can hold securities in a depository if it is the beneficial owner.",
+  "Failing to follow these rules results in penalties for both the company and responsible officers."
+ ],
+ "example": "Meera Textiles Private Limited purchased several company shares and must normally keep them in its own name. However, to meet the legal minimum number of members for its new subsidiary company, Meera Textiles Private Limited placed a few shares in the name of a nominee. Later, the company took a bank loan and deposited some other securities with the State Bank of India as security for repayment. Because the bank did not transfer those securities within six months, Meera Textiles Private Limited made sure the shares were re-transferred back into the company name as required by the law. Every action followed the exact exceptions permitted under the rules.",
+ "terms": [
+  {
+   "term": "Subsidiary company",
+   "meaning": "A company that is controlled by another company."
+  },
+  {
+   "term": "Nominee",
+   "meaning": "A person chosen to hold something on behalf of someone else."
+  },
+  {
+   "term": "Scheduled bank",
+   "meaning": "A bank listed in the second schedule of the Reserve Bank of India Act, 1934."
+  },
+  {
+   "term": "Depository",
+   "meaning": "An organization that holds securities in electronic form."
+  }
+ ],
+ "watch": "People often confuse the general rule that investments must be in the company name with the specific, allowed exceptions like using bank deposits or nominees.",
+ "h": "922dc78a4a06",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,29 @@
+{
+ "summary": "When a company is ordered to wind up or gets a provisional liquidator, all lawsuits and legal actions against the company or its members regarding company debts must stop. No new legal proceedings can be started either. The only exception is if the Tribunal gives permission and sets specific conditions.",
+ "points": [
+  "Applies when a winding up order is made or a provisional liquidator is appointed.",
+  "Stops all ongoing suits and legal proceedings against the company or any contributory.",
+  "Bans the start of any new legal proceedings concerning company debts.",
+  "Allows legal action only if the Tribunal grants permission.",
+  "Empowers the Tribunal to impose terms when granting permission."
+ ],
+ "example": "Meera Textiles Private Limited was undergoing a winding up process and a provisional liquidator was appointed. A local supplier named Rohan wanted to file a lawsuit against the company to recover an unpaid debt for raw materials. Because of the winding up order, Rohan could not start this legal proceeding on his own. To proceed with any legal action regarding the debt, Rohan had to first apply for and obtain permission from the Tribunal, which could also set specific conditions for the case.",
+ "terms": [
+  {
+   "term": "winding up",
+   "meaning": "The legal process of closing down a company and settling its affairs."
+  },
+  {
+   "term": "provisional liquidator",
+   "meaning": "A temporary officer appointed to protect and manage a company's assets during winding up."
+  },
+  {
+   "term": "contributory",
+   "meaning": "A person liable to contribute to the assets of a company in the event of its being wound up."
+  }
+ ],
+ "watch": "Do not assume that all legal actions are permanently banned, because the Tribunal can permit them under its own terms.",
+ "h": "d2855ea16b7f",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

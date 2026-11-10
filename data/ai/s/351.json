@@ -1,0 +1,27 @@
+{
+ "summary": "This section forbids the liquidator of a company from putting company money into a personal bank account. It applies to both the Official Liquidator and the Company Liquidator. Any money they receive while doing their job must stay out of their private accounts.",
+ "points": [
+  "Applies to the Official Liquidator of a company.",
+  "Applies to the Company Liquidator of a company.",
+  "Forbids depositing any money received in their official capacity into a private banking account."
+ ],
+ "example": "Aarav is appointed as the Company Liquidator for Zen Motors Private Limited to handle its winding up process. During the procedure, he collects funds belonging to Zen Motors. Instead of keeping the company funds separate, Aarav is tempted to temporarily deposit a large sum of cash into his own personal savings account at City Bank to manage his daily errands easily. Under this section, Aarav is strictly forbidden from doing this, as he must never deposit money received in his official capacity into any private banking account.",
+ "terms": [
+  {
+   "term": "Liquidator",
+   "meaning": "A person appointed to wind up a company and manage its assets."
+  },
+  {
+   "term": "Official Liquidator",
+   "meaning": "A liquidator attached to a court or tribunal to handle company winding up."
+  },
+  {
+   "term": "Company Liquidator",
+   "meaning": "A person appointed by the tribunal or company to conduct the winding up of a company."
+  }
+ ],
+ "watch": "Note that this section only talks about liquidators and private bank accounts, not general company directors.",
+ "h": "6b1fb3630d6d",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

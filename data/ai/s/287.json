@@ -1,0 +1,34 @@
+{
+ "summary": "When a company is being wound up, the Tribunal can order the creation of an advisory committee. This committee helps the Company Liquidator and reports to the Tribunal. The Company Liquidator must call a meeting of creditors and contributories within thirty days to help set up this committee.",
+ "points": [
+  "The Tribunal may direct the formation of an advisory committee when ordering a company to wind up.",
+  "The advisory committee must have no more than twelve members.",
+  "Members are chosen from creditors, contributories, or other persons as directed by the Tribunal.",
+  "The Company Liquidator must call a meeting of creditors and contributories within thirty days of the winding up order.",
+  "The committee has the right to inspect the books, documents, assets, and properties of the company at a reasonable time.",
+  "The Company Liquidator will act as the chairperson of the advisory committee meetings."
+ ],
+ "example": "Meera Textiles Private Limited is ordered to be wound up by the Tribunal. The Tribunal decides that an advisory committee should be formed to help the Company Liquidator. Within thirty days of the winding up order, the Company Liquidator calls a meeting of the company's creditors and contributories based on the company books. During this process, Raj, a member of the newly formed advisory committee, exercises his right to inspect the company properties and books of account at a reasonable time. The meetings of this committee are chaired by the Company Liquidator to discuss the matters directed by the Tribunal.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A judicial body or court that handles company law cases."
+  },
+  {
+   "term": "Winding up",
+   "meaning": "The process of closing down a company and settling its affairs."
+  },
+  {
+   "term": "Creditors",
+   "meaning": "People or businesses to whom the company owes money."
+  },
+  {
+   "term": "Contributories",
+   "meaning": "Persons liable to contribute to the assets of the company in the event of its being wound up."
+  }
+ ],
+ "watch": "Remember that the advisory committee has a strict limit of not more than twelve members.",
+ "h": "6c72374f20f0",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

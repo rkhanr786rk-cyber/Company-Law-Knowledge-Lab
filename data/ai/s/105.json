@@ -1,0 +1,34 @@
+{
+ "summary": "This section explains how a member of a company can appoint another person as a proxy to attend and vote at a meeting on their behalf. It details the rules for notices, proxy forms, and how long before a meeting a proxy paper must be deposited. It also sets out penalties if the company fails to state proxy rights in meeting notices or improperly sends out paid proxy invitations.",
+ "points": [
+  "A member who can attend and vote can appoint a proxy, but the proxy cannot speak and can only vote on a poll.",
+  "Every meeting notice must clearly state that members can appoint a proxy who does not need to be a member.",
+  "Any company rule requiring more than forty-eight hours to deposit proxy papers will be treated as requiring only forty-eight hours.",
+  "A company must not issue paid invitations to members to appoint specific people as proxies.",
+  "A proxy form must be in writing and signed by the member or their authorised officer.",
+  "Members can inspect deposited proxies during business hours by giving proper written notice."
+ ],
+ "example": "Meera Textiles Private Limited is holding a general meeting for its shareholders. Rohit, a shareholder, cannot attend the meeting in person. He decides to appoint his friend Anita to attend and vote on his behalf by filling out a written proxy form. The company sends out its meeting notice, which clearly states that members can appoint a proxy. Rohit deposits his signed proxy paper with the company forty-eight hours before the meeting starts, making his appointment valid under the rules.",
+ "terms": [
+  {
+   "term": "Proxy",
+   "meaning": "A person appointed by a member to attend and vote at a meeting on their behalf."
+  },
+  {
+   "term": "Poll",
+   "meaning": "A method of voting at a meeting, often involving a count of votes by shares."
+  },
+  {
+   "term": "Instrument",
+   "meaning": "A formal written document."
+  },
+  {
+   "term": "Body corporate",
+   "meaning": "A legal entity or corporation, such as a company."
+  }
+ ],
+ "watch": "A proxy is allowed to vote on a poll but generally does not have the right to speak at the meeting.",
+ "h": "3af506db51fe",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

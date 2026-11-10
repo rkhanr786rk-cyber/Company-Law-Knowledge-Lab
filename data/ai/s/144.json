@@ -1,0 +1,30 @@
+{
+ "summary": "This section explains that a company auditor is only allowed to provide extra services if the Board of Directors or audit committee approves them. However, the law strictly bans the auditor from offering specific services like bookkeeping, internal audit, and investment banking. These banned services also cannot be provided indirectly through related persons, entities, or brand names.",
+ "points": [
+  "Auditors may only provide other services approved by the Board of Directors or the audit committee.",
+  "Auditors are strictly forbidden from doing accounting and book keeping services for the company, holding company, or subsidiary.",
+  "Internal audit and design of financial information systems are banned services.",
+  "Actuarial, investment advisory, and investment banking services are not allowed.",
+  "Outsourced financial services and management services are prohibited.",
+  "The ban applies whether services are rendered directly or indirectly through relatives, partners, or associated entities."
+ ],
+ "example": "Alpha Motors Private Limited wants to hire its official auditor, Mr. Roy, to also handle its daily bookkeeping and internal audit work. Mr. Roy agrees to take on the bookkeeping task through a separate firm where he holds significant influence, using his own brand name. According to the law, this is not allowed because an auditor cannot provide accounting and bookkeeping services directly or indirectly to the company, its holding company, or its subsidiary company. The Board of Directors or the audit committee cannot approve these forbidden services, even if they approve other non-audit tasks.",
+ "terms": [
+  {
+   "term": "Holding company",
+   "meaning": "A company that controls another company, known as its subsidiary."
+  },
+  {
+   "term": "Subsidiary company",
+   "meaning": "A company that is controlled by another company, known as its holding company."
+  },
+  {
+   "term": "Actuarial services",
+   "meaning": "Services that calculate financial risks and probabilities, often for insurance and pensions."
+  }
+ ],
+ "watch": "People often confuse allowed extra services with the specifically banned list of services that an auditor can never provide.",
+ "h": "385c657c1777",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

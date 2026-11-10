@@ -1,0 +1,34 @@
+{
+ "summary": "Section 339 of the Companies Act, 2013 deals with the liability for fraudulent conduct of business during a company's winding up. If the company's business was run to cheat creditors or for fraud, the Tribunal can order responsible directors, managers, officers, or other involved parties to pay the company's debts without any limit on their personal liability. The Tribunal can also make further orders to enforce this liability and take action under section 447.",
+ "points": [
+  "Applies when a company is in the course of winding up.",
+  "Tribunal can declare specific persons personally and fully responsible for company debts if business was carried on with intent to defraud.",
+  "Applications can be made by the Official Liquidator, Company Liquidator, any creditor, or any contributory.",
+  "Liquidators may give evidence or call witnesses during the hearing.",
+  "Tribunal may give further directions to make the liability a charge on debts or assets due to that person.",
+  "People knowingly party to such business are also liable for action under section 447."
+ ],
+ "example": "During the winding up of Meera Textiles Private Limited, it comes to light that the business was deliberately run to cheat several creditors. The Company Liquidator files an application before the Tribunal. After reviewing the case, the Tribunal finds that Rohan, a director, and Karan, a manager, knowingly participated in this fraudulent conduct. The Tribunal declares Rohan and Karan personally responsible, without any limit on their liability, for the unpaid debts of Meera Textiles Private Limited. Furthermore, the Tribunal issues a direction to make this personal liability a charge on certain assets of the company held by Rohan.",
+ "terms": [
+  {
+   "term": "winding up",
+   "meaning": "The process of closing down a company and settling its affairs."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "The legal authority designated to handle company law disputes and cases."
+  },
+  {
+   "term": "creditor",
+   "meaning": "A person or entity to whom the company owes money."
+  },
+  {
+   "term": "contributory",
+   "meaning": "A person liable to contribute to the assets of the company in the event of its winding up."
+  }
+ ],
+ "watch": "Note that personal liability under this section applies without any limitation of liability for the debts directed by the Tribunal.",
+ "h": "ca27f681ed02",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

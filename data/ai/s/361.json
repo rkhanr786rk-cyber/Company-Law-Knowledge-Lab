@@ -1,0 +1,29 @@
+{
+ "summary": "This section sets out a faster, summary procedure for winding up certain companies. The Central Government can order this if the company's assets do not exceed one crore rupees and it belongs to a prescribed class. Under this process, the Official Liquidator takes charge of the company and submits a report on potential fraud.",
+ "points": [
+  "The Central Government may order a summary winding up if company assets have a book value of not more than one crore rupees and it belongs to a prescribed class of companies.",
+  "The Central Government must appoint the Official Liquidator as the liquidator when this order is made.",
+  "The Official Liquidator must immediately take custody or control of all assets, effects, and actionable claims of the company.",
+  "Within thirty days of being appointed, the Official Liquidator must submit a report to the Central Government, including whether fraud was committed.",
+  "If fraud is suspected, the Central Government may direct a further investigation and later decide whether to proceed with winding up under the summary part or Part I."
+ ],
+ "example": "Meera Textiles Private Limited is facing closure, and its total assets have a book value of fifty lakh rupees. Because its assets are under one crore rupees and it falls within the prescribed class of companies, the Central Government orders that it be wound up using the summary procedure. The government appoints the Official Liquidator to manage the case. Immediately, the Official Liquidator takes control of all company assets and claims. Within thirty days, the liquidator submits a report to the Central Government stating whether any fraud happened during the formation or management of Meera Textiles Private Limited.",
+ "terms": [
+  {
+   "term": "Official Liquidator",
+   "meaning": "An officer appointed to manage the winding up and closing down of a company."
+  },
+  {
+   "term": "Actionable claims",
+   "meaning": "Claims to a debt or other beneficial interest that can be legally enforced."
+  },
+  {
+   "term": "Book value",
+   "meaning": "The value of an asset as recorded on the company's account books."
+  }
+ ],
+ "watch": "Note that this summary procedure applies only to companies meeting specific asset value limits and prescribed classes.",
+ "h": "233b8b3c4db3",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

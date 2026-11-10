@@ -1,0 +1,30 @@
+{
+ "summary": "This section explains what happens the moment a company is officially registered. From that start date, the people who signed up and all future members form a single legal body. This new body can do business, own property, sign contracts, and go to court under its registered name.",
+ "points": [
+  "The company officially comes into existence on the date shown in its incorporation certificate.",
+  "The founders and all future members become a single legal body corporate.",
+  "The company can exercise all functions of a registered company under the law.",
+  "The company has perpetual succession, meaning it continues to exist even if its members change.",
+  "The company has the power to acquire, hold, and dispose of movable, immovable, tangible, and intangible property.",
+  "The company can enter into contracts, and it can sue or be sued in its own name."
+ ],
+ "example": "Aarav and Diya wanted to start a business to sell handmade pottery. They completed all the paperwork and received a certificate of incorporation for their new business, called ClayArt Crafts Private Limited, with a specific date written on it. From that exact date, Aarav, Diya, and any future people who join the business become part of a single body corporate. ClayArt Crafts Private Limited can now buy a delivery van, rent a workshop, sign deals with craft shops, and even sue someone who breaks a contract, all using its official company name.",
+ "terms": [
+  {
+   "term": "body corporate",
+   "meaning": "A legal group or entity that is treated by the law as if it were a single person, separate from its individual owners."
+  },
+  {
+   "term": "perpetual succession",
+   "meaning": "The continuous life of a company that remains unaffected by the death, retirement, or change of its members."
+  },
+  {
+   "term": "tangible and intangible property",
+   "meaning": "Tangible property is physical things you can touch like buildings, while intangible property is non-physical assets like brand rights."
+  }
+ ],
+ "watch": "People often confuse the date the company applies with the date printed on the certificate, but the company only comes into effect from the date mentioned in the certificate of incorporation.",
+ "h": "d5d2541ccce6",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,28 @@
+{
+ "summary": "Section 110 of the Companies Act, 2013 allows companies to pass resolutions through a postal ballot instead of a meeting. The Central Government can declare certain business items that must be handled only through this method. If enough shareholders agree by postal ballot, the decision is treated as if it was passed at a regular meeting.",
+ "points": [
+  "The Central Government can list specific business items that must be transacted only by postal ballot.",
+  "A company may choose to use a postal ballot for any business item, except for ordinary business or items where directors and auditors have a right to be heard.",
+  "Items that must use a postal ballot can instead be transacted at a general meeting if the company provides electronic voting facilities under section 108.",
+  "A resolution approved by the required majority through a postal ballot is considered validly passed just like at a general meeting."
+ ],
+ "example": "Sunrise Retail Private Limited wants to change a key policy that the Central Government has not restricted. Instead of calling all members to a physical gathering, the management decides to send out postal ballot papers to every shareholder so they can register their votes from home. Many shareholders send back their forms agreeing to the change. Because the required majority of shareholders assent through this postal ballot process, the law treats the resolution as if it was successfully passed at a properly called general meeting of the company.",
+ "terms": [
+  {
+   "term": "Postal ballot",
+   "meaning": "A method of voting by mail or electronic means without needing to attend a physical meeting."
+  },
+  {
+   "term": "Ordinary business",
+   "meaning": "Standard routine matters typically handled at an annual general meeting, such as adopting financial statements or declaring dividends."
+  },
+  {
+   "term": "General meeting",
+   "meaning": "An official gathering of a company's shareholders to discuss and vote on business matters."
+  }
+ ],
+ "watch": "Do not assume that all company matters can use a postal ballot, as ordinary business and certain items with director or auditor rights have specific rules.",
+ "h": "319edd697e73",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

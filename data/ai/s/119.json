@@ -1,0 +1,34 @@
+{
+ "summary": "This section explains how company members can inspect and get copies of meeting minute-books. It requires the company to keep these books at its registered office and make them available for inspection during business hours. If the company fails to allow inspection or provide copies on time, it faces penalties.",
+ "points": [
+  "Minute-books of general meetings and postal ballots must be kept at the company's registered office.",
+  "Any member can inspect these books for free during business hours, for at least two hours each business day.",
+  "Members can set reasonable restrictions on inspection through articles or general meetings.",
+  "Members can request a copy of the minutes by paying a fee, and the company must provide it within seven working days.",
+  "Refusing inspection or failing to provide copies on time leads to monetary penalties for both the company and responsible officers.",
+  "The Tribunal can order immediate inspection or delivery of the requested copy in case of a refusal or default."
+ ],
+ "example": "Aarav is a shareholder in Meera Textiles Private Limited. He wants to check the records of a recent general meeting and visits the company's registered office during business hours. The company allows him to inspect the minute-books for free, as required by law. Later, Aarav requests a written copy of those minutes and pays the required fee. Meera Textiles Private Limited must give him the copy within seven working days. If the company refuses to let him read the books or fails to give him the copy in time, the company and its responsible officers will face penalties, and the Tribunal can step in to order immediate inspection or delivery.",
+ "terms": [
+  {
+   "term": "General meeting",
+   "meaning": "A formal meeting of a company's shareholders or members."
+  },
+  {
+   "term": "Postal ballot",
+   "meaning": "A method of voting by mail or electronic means instead of attending a meeting."
+  },
+  {
+   "term": "Registered office",
+   "meaning": "The official main address of a company."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A legal body or authority set up to handle disputes under the law."
+  }
+ ],
+ "watch": "Note that members can inspect the books for free, but they must pay a fee to get a written copy.",
+ "h": "145bec5d27b5",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

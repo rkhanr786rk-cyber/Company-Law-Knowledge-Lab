@@ -1,0 +1,27 @@
+{
+ "summary": "This section explains what happens to the members of a cooperative society when it turns into a Producer Company. From the date of the change, every existing shareholder automatically becomes a shareholder of the new Producer Company. Their new share value will be equal to the face value of the shares they held before.",
+ "points": [
+  "Every shareholder of the old inter-State co-operative society becomes a shareholder of the new Producer Company.",
+  "This change happens automatically on the date of registration, known as the date of transformation.",
+  "The value of the new shares equals the face value of the shares held immediately before registration."
+ ],
+ "example": "Meera Textiles Private Limited used to be an inter-State co-operative society before it registered as a Producer Company under the law. Prior to the transformation, Rajesh held shares worth a specific face value in the co-operative society. On the exact date of transformation, Rajesh does not need to apply for new shares or pay any extra money. Instead, the law automatically treats Rajesh as a registered shareholder of the new Producer Company. His holding in the company is recognized based on the face value of the shares he already owned in the society right before the change.",
+ "terms": [
+  {
+   "term": "inter-State co-operative society",
+   "meaning": "An organization that works across multiple states to help its members cooperate for economic benefit."
+  },
+  {
+   "term": "face value",
+   "meaning": "The original stated value of a share when it was issued."
+  },
+  {
+   "term": "deemed",
+   "meaning": "Treated by law as being the case, even if no separate action was taken."
+  }
+ ],
+ "watch": "Do not assume shareholders have to buy new shares or register separately when the company changes its form.",
+ "h": "dfc64c4a8c93",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,33 @@
+{
+ "summary": "This section requires the person winding up a company to file yearly progress statements if the process takes more than one year. These audited statements must be given to the Tribunal, the Registrar, and sometimes specific governments. Creditors and contributories have the right to inspect and copy these statements.",
+ "points": [
+  "The Company Liquidator must file a statement if winding up takes more than one year.",
+  "Statements must be audited unless a specific exemption applies.",
+  "Copies must be filed with the Tribunal, the Registrar, and relevant government bodies for Government companies.",
+  "Creditors and contributories can inspect or get copies of the statement upon paying a fee.",
+  "Lying about being a creditor or contributory to see the statement is a punishable offence."
+ ],
+ "example": "Meera Textiles Private Limited entered winding up, but the process continued past one year. The appointed Company Liquidator prepared a detailed statement about the liquidation proceedings. This statement was duly audited by a qualified auditor and filed with the Tribunal within the required time. At the same time, a copy was sent to the Registrar to keep with the company records. Meanwhile, a local supplier named Aarav, who was a creditor of the company, paid the prescribed fee and asked to inspect the statement to check the status of the winding up.",
+ "terms": [
+  {
+   "term": "Winding up",
+   "meaning": "The process of closing down a company and settling its affairs."
+  },
+  {
+   "term": "Company Liquidator",
+   "meaning": "The person responsible for conducting the winding up proceedings of a company."
+  },
+  {
+   "term": "Creditor",
+   "meaning": "A person or entity to whom the company owes money."
+  },
+  {
+   "term": "Contributory",
+   "meaning": "A person liable to contribute to the assets of the company in the event of its being wound up."
+  }
+ ],
+ "watch": "Watch out for the rule that not all liquidations require an audit if certain specific sections apply.",
+ "h": "c961a40ed218",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

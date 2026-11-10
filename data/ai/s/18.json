@@ -1,0 +1,29 @@
+{
+ "summary": "This section allows an already registered company to change into a different class of company by changing its foundational documents. The Registrar of Companies must check that all rules are followed before closing the old registration and issuing a new incorporation certificate. Importantly, changing the company class does not cancel any existing debts, contracts, or duties.",
+ "points": [
+  "Allows a company to convert into a different class by altering its memorandum and articles.",
+  "Requires the company to make an application to the Registrar for conversion.",
+  "Requires the Registrar to verify that all applicable registration rules of the chapter are met.",
+  "Directs the Registrar to close the old registration, register the new documents, and issue a fresh certificate of incorporation.",
+  "Ensures that existing debts, liabilities, obligations, and contracts remain fully enforceable after conversion."
+ ],
+ "example": "Meera Textiles Private Limited is a registered company that wants to change its company class under the Act. The directors apply to the Registrar and submit the altered memorandum and articles. The Registrar checks that all legal requirements for registration are met. Once satisfied, the Registrar closes the old registration and issues a new certificate of incorporation for the changed class. Meanwhile, Meera Textiles Private Limited had previously bought raw materials on credit from a supplier named Apex Fabrics. Even though the company has now converted to a new class, that debt to Apex Fabrics remains completely valid and can be enforced against the company just as before the conversion took place.",
+ "terms": [
+  {
+   "term": "memorandum",
+   "meaning": "The main document that sets up a company and defines its relationship with shareholders."
+  },
+  {
+   "term": "articles",
+   "meaning": "The rules and bylaws that govern the internal management of a company."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "The government official appointed to handle company registrations and records."
+  }
+ ],
+ "watch": "Converting a company does not wipe out past debts, so old contracts and liabilities remain fully active.",
+ "h": "f21a4babc64c",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

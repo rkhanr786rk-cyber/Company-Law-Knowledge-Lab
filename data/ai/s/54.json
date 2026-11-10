@@ -1,0 +1,34 @@
+{
+ "summary": "Section 54 of the Companies Act allows a company to issue sweat equity shares to certain directors or employees. This type of share must be of a class that the company has already issued. The company must fulfill specific conditions, such as passing a special resolution and following applicable rules.",
+ "points": [
+  "A company can issue sweat equity shares of a class of shares already issued.",
+  "The issue must be authorized by a special resolution passed by the company.",
+  "The resolution must state the number of shares, current market price, consideration, and the class of directors or employees receiving them.",
+  "If the shares are listed on a recognized stock exchange, they must follow Securities and Exchange Board regulations.",
+  "If the shares are not listed, they must follow prescribed rules.",
+  "Holders of sweat equity shares have the same rights and restrictions as other equity shareholders and rank equally with them."
+ ],
+ "example": "Meera Textiles Private Limited wants to reward its hardworking directors for their technical know-how. The company decides to issue sweat equity shares to them. First, the company calls a meeting and passes a special resolution. This resolution clearly states the exact number of shares, the current market price, the consideration, and the specific class of directors getting the shares. Since Meera Textiles Private Limited is not listed on a stock exchange, it issues these shares in accordance with the prescribed rules. Once issued, these directors hold the same rights and restrictions as other equity shareholders and rank equally with them.",
+ "terms": [
+  {
+   "term": "Sweat equity shares",
+   "meaning": "Equity shares issued by a company to its directors or employees at a discount or for consideration other than cash, for providing know-how or making available rights in the nature of intellectual property rights or value additions."
+  },
+  {
+   "term": "Special resolution",
+   "meaning": "A decision approved by a high majority of votes required by law in a company meeting."
+  },
+  {
+   "term": "Consideration",
+   "meaning": "Payment or something of value given in exchange for something else."
+  },
+  {
+   "term": "Rank pari passu",
+   "meaning": "To rank equally and without any preference or priority compared to others."
+  }
+ ],
+ "watch": "Do not assume sweat equity shares have different rights, as they carry the same rights and restrictions as normal equity shares.",
+ "h": "117864475584",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

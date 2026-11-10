@@ -1,0 +1,23 @@
+{
+ "summary": "Section 95 of the Companies Act, 2013 says that certain company records can be used as initial proof in legal matters. This applies to the registers, indices, and copies of annual returns kept under sections 88 and 94. It means these documents are accepted as truth unless someone proves otherwise.",
+ "points": [
+  "Applies to company registers, their indices, and copies of annual returns",
+  "Applies to documents maintained under sections 88 and 94",
+  "Serves as prima facie evidence of matters directed or authorized by the Act"
+ ],
+ "example": "A dispute arose between Sharma Electronics Private Limited and a former shareholder regarding share ownership. The company produced its register of members maintained under section 88 to show the current ownership details. Because of Section 95 of the Companies Act, 2013, the court accepted this register as prima facie evidence of the facts written inside it. The shareholder was then given the chance to present other proof if they wanted to challenge those details, but the register stood as the starting point of truth for the court.",
+ "terms": [
+  {
+   "term": "prima facie evidence",
+   "meaning": "Evidence that is accepted as correct until proven otherwise."
+  },
+  {
+   "term": "indices",
+   "meaning": "Lists or guides used to help find information inside a register."
+  }
+ ],
+ "watch": "Do not assume these documents are absolute proof, as they only serve as initial evidence that can be challenged.",
+ "h": "ad04448bd574",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,29 @@
+{
+ "summary": "This section explains the rules for declaring and paying company dividends. Dividends must come from profits after depreciation, government grants, or specific reserves. Companies must also follow strict rules regarding bank deposits, cash payments, and setting off past losses.",
+ "points": [
+  "Dividends can be paid from current or past profits after accounting for depreciation.",
+  "Unrealized or notional gains must be excluded when calculating profits.",
+  "Companies can declare an interim dividend during the year or before the annual meeting under specific conditions.",
+  "Dividend amounts must be deposited in a separate scheduled bank account within five days of being declared.",
+  "Dividends must be paid in cash to the registered shareholder, their order, or their banker, which includes payment by cheque or electronic mode."
+ ],
+ "example": "Meera Textiles Private Limited made a good profit in the current financial year after properly accounting for depreciation. The board of directors decided to declare a dividend for its shareholders. Within five days from the date of this declaration, the company deposited the total dividend amount into a separate account in a scheduled bank. When it came time to pay the shareholders, Meera Textiles sent the payments directly through an electronic mode to the registered shareholders. The company made sure not to count any unrealized asset gains as part of the profits used for this payout.",
+ "terms": [
+  {
+   "term": "Depreciation",
+   "meaning": "The reduction in the value of an asset over time."
+  },
+  {
+   "term": "Interim dividend",
+   "meaning": "A dividend declared and paid before the company's annual financial statements are finalized."
+  },
+  {
+   "term": "Scheduled bank",
+   "meaning": "A bank listed under the second schedule of the Reserve Bank of India Act, 1934."
+  }
+ ],
+ "watch": "Make sure not to confuse general reserves with free reserves when declaring dividends from past accumulated profits.",
+ "h": "d47611588753",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

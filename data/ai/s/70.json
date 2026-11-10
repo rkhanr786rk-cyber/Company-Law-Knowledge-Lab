@@ -1,0 +1,30 @@
+{
+ "summary": "This section prevents companies from buying back their own shares or specified securities through certain entities or when they have unpaid debts or failed to follow specific legal rules. A company cannot use its subsidiaries or investment companies to buy back its shares. It is also barred if it has defaults on deposits, debentures, preference shares, dividends, or term loans, unless three years have passed since fixing the default.",
+ "points": [
+  "A company cannot buy back its shares through any subsidiary company.",
+  "A company cannot buy back its shares through any investment company or group of investment companies.",
+  "A company cannot buy back its shares if it has defaulted on repaying deposits or interest.",
+  "A company cannot buy back its shares if it has defaulted on redeeming debentures or preference shares, or paying dividends.",
+  "A company cannot buy back its shares if it has defaulted on repaying term loans or interest to banks or financial institutions.",
+  "A company cannot buy back its shares if it has not complied with sections 92, 123, 127, and 129."
+ ],
+ "example": "Meera Textiles Private Limited wanted to buy back its shares from the public. However, the company had previously failed to pay the yearly dividend declared to its shareholders and also had an unresolved default on a term loan taken from a nationalized bank. Because of these pending defaults and non-compliance with the required sections of the law, the company is strictly prohibited by law from proceeding with any direct or indirect purchase of its own shares through its subsidiaries or investment companies until all conditions are fully satisfied.",
+ "terms": [
+  {
+   "term": "buy-back",
+   "meaning": "A process where a company buys its own shares back from its existing shareholders."
+  },
+  {
+   "term": "subsidiary company",
+   "meaning": "A company that is controlled by another company."
+  },
+  {
+   "term": "debentures",
+   "meaning": "A type of debt instrument issued by a company that is not secured by physical assets."
+  }
+ ],
+ "watch": "A company can only do a buy-back after a three-year waiting period has passed since fixing any past default.",
+ "h": "912c265476dd",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

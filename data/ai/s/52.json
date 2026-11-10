@@ -1,0 +1,34 @@
+{
+ "summary": "When a company issues shares for more than their face value, the extra money collected is called a premium. This section requires the company to put all such extra money into a special account called the securities premium account. The law treats this account like paid-up share capital, meaning strict rules apply if it is ever reduced. However, the company can use this money for specific approved purposes like issuing bonus shares or writing off certain expenses.",
+ "points": [
+  "Transfer all share premium money received into a securities premium account.",
+  "Treat the securities premium account like paid-up share capital for reduction rules.",
+  "Use the account to issue fully paid bonus shares to existing members.",
+  "Use the account to write off preliminary expenses or share/debenture issue costs.",
+  "Use the account to provide for the premium payable on redeeming certain shares or debentures.",
+  "Use the account to buy back the company's own shares or securities under section 68."
+ ],
+ "example": "Meera Textiles Private Limited decided to issue new shares to the public at a price higher than their face value, collecting an extra amount known as a premium. Following the law, the company transferred all of this extra money into a special account called the securities premium account. Later, the directors of Meera Textiles Private Limited wanted to use some of this collected money to pay for the preliminary expenses they incurred when starting the business. Because the rules allow the securities premium account to be used for writing off preliminary expenses, the company successfully used the funds for this purpose without breaking any regulations.",
+ "terms": [
+  {
+   "term": "Share premium",
+   "meaning": "The extra money collected by a company when it sells shares for more than their nominal or face value."
+  },
+  {
+   "term": "Securities premium account",
+   "meaning": "A special account where a company must keep all the extra money collected from issuing shares at a premium."
+  },
+  {
+   "term": "Bonus shares",
+   "meaning": "Free additional shares given to existing members or shareholders of the company."
+  },
+  {
+   "term": "Debentures",
+   "meaning": "A type of debt instrument or certificate issued by a company that acknowledges a loan."
+  }
+ ],
+ "watch": "People often confuse the securities premium account with regular profit, but the law strictly restricts its use to only the specific purposes listed in the section.",
+ "h": "58c989c39381",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

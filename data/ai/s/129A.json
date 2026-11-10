@@ -1,0 +1,29 @@
+{
+ "summary": "Section 129A gives the Central Government the power to ask certain unlisted companies to prepare regular financial results. These companies must get approval from their Board of Directors and complete an audit or review. Finally, they must file a copy of these results with the Registrar within thirty days along with the required fees.",
+ "points": [
+  "The Central Government can require specific unlisted companies to prepare periodical financial results in a prescribed form.",
+  "Companies must get the approval of their Board of Directors for these periodical financial results.",
+  "Companies must complete an audit or limited review of these financial results in the prescribed manner.",
+  "Companies must file a copy of the results with the Registrar within thirty days of the relevant period ending.",
+  "Companies must pay the prescribed fees when filing the copy with the Registrar."
+ ],
+ "example": "The Central Government issues a new rule requiring certain large unlisted companies to report their accounts more often. Alpha Engineering Private Limited, an unlisted company falling under this new rule, prepares its financial results for the first quarter of the year. The directors of Alpha Engineering Private Limited meet to approve these results, and the company completes a limited review as required. Exactly twenty days after the quarter ends, the company files a copy of the reviewed results with the Registrar along with the necessary fees, successfully following the process set by the law.",
+ "terms": [
+  {
+   "term": "Unlisted companies",
+   "meaning": "Companies whose shares are not traded on a recognized stock exchange."
+  },
+  {
+   "term": "Board of Directors",
+   "meaning": "The group of people chosen to manage and direct the company."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "An official appointed to keep company records and documents."
+  }
+ ],
+ "watch": "People often confuse unlisted companies with all companies, but this rule applies only to the specific classes of unlisted companies chosen by the Central Government.",
+ "h": "7c2463977f4c",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,29 @@
+{
+ "summary": "This section deals with what happens when a company fails to repay deposits and it is proven that the money was taken with fraudulent intent. In such cases, responsible company officers face personal and unlimited financial liability for the losses suffered by depositors. Any affected person, group, or association can take legal action to recover their losses.",
+ "points": [
+  "Applies when a company fails to repay deposits or interest within the time specified or allowed by the Tribunal.",
+  "Requires proof that the deposits were accepted with an intent to defraud or for a fraudulent purpose.",
+  "Makes responsible company officers personally and unlimitedly liable for any losses or damages incurred by depositors.",
+  "Operates alongside other existing liabilities and does not replace them.",
+  "Allows any person, group of persons, or association of persons who suffered a loss to take legal action."
+ ],
+ "example": "Meera Textiles Private Limited accepted deposits from the public but failed to repay them on time. It was later proven in court that the company's director, Mr. Sharma, had knowingly accepted these deposits with the intent to cheat people. Because of this fraud, the depositors lost their hard-earned money. Under the law, Mr. Sharma is now personally responsible for all the losses without any limit on his liability. As a result, a group of affected depositors can file a legal suit directly against Mr. Sharma to recover the money they lost.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A special official body or court that handles specific legal disputes."
+  },
+  {
+   "term": "Defraud",
+   "meaning": "To illegally trick or cheat someone to gain money or property."
+  },
+  {
+   "term": "Unlimited liability",
+   "meaning": "A legal condition where a person is fully responsible for all debts and losses with no cap on the amount."
+  }
+ ],
+ "watch": "This section specifically requires proof of fraudulent intent, meaning not every delayed repayment automatically triggers unlimited personal liability for officers.",
+ "h": "adb72870af0a",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

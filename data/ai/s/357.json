@@ -1,0 +1,26 @@
+{
+ "summary": "This section decides the exact moment when a company's winding up process officially begins under the Tribunal. It states that the winding up is considered to start right when the petition is presented. This helps determine the timeline for official actions involving the company.",
+ "points": [
+  "The winding up of a company by the Tribunal is deemed to commence at the time of the presentation of the petition for winding up.",
+  "The official start date of the closure process relates back to the moment the petition is first presented."
+ ],
+ "example": "Meera Textiles Private Limited faced severe financial troubles and was unable to pay its debts. A petition to wind up the company was officially presented to the Tribunal by a group of creditors on a Tuesday morning. According to the law, the winding up of Meera Textiles Private Limited is deemed to have commenced right at that moment when the petition was presented on Tuesday, rather than waiting for the Tribunal to issue its final order days later. This helps the liquidator and the Tribunal understand the exact timeline for handling the company's assets and claims.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized official body or court that handles legal disputes and cases related to companies."
+  },
+  {
+   "term": "Petition",
+   "meaning": "A formal written request presented to an authority or court asking for legal action."
+  },
+  {
+   "term": "Winding up",
+   "meaning": "The formal process of closing down a company and settling its affairs."
+  }
+ ],
+ "watch": "People often confuse the date of the final winding up order with the actual start date of the process.",
+ "h": "a19c8c8a7adb",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

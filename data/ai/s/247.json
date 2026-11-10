@@ -1,0 +1,34 @@
+{
+ "summary": "This section explains that whenever the law requires a valuation of a company's assets, stocks, or liabilities, it must be done by a registered valuer. The valuer must be properly qualified, appointed by the company's audit committee or board of directors, and remain completely impartial. If the valuer breaks the rules or tries to cheat, they face fines or imprisonment.",
+ "points": [
+  "Assets, shares, and liabilities required to be valued under the Act must be valued by a registered valuer.",
+  "The valuer must be appointed by the audit committee or the Board of Directors.",
+  "The valuer must make a true, fair, and impartial valuation with due diligence.",
+  "A valuer must not value assets in which they have a direct or indirect interest for a specific prior or future period.",
+  "Breaking these rules can lead to fines, and cheating can lead to imprisonment.",
+  "A convicted valuer must refund their fee and pay damages for any losses caused by misleading statements."
+ ],
+ "example": "Meera Textiles Private Limited needed a proper valuation of its shares and goodwill under the Companies Act, 2013. The audit committee appointed Mr. Rohan, a qualified professional who was registered as a valuer and belonged to a recognized organization. Mr. Rohan made sure he had no direct or indirect interest in those assets. He exercised due diligence and prepared a true, fair, and impartial valuation report in accordance with the prescribed rules. Because he followed all requirements and avoided any conflict of interest, he completed the valuation legally without facing any penalties.",
+ "terms": [
+  {
+   "term": "Valuer",
+   "meaning": "A qualified person registered to assess the financial value of company assets or liabilities."
+  },
+  {
+   "term": "Due diligence",
+   "meaning": "Careful and thorough work that a person is expected to do."
+  },
+  {
+   "term": "Remuneration",
+   "meaning": "Money paid for work or a service."
+  },
+  {
+   "term": "Contravenes",
+   "meaning": "Breaks or acts against a law or rule."
+  }
+ ],
+ "watch": "People often confuse who can appoint the valuer, but the law states it must be the audit committee or, if there is none, the Board of Directors.",
+ "h": "8839f703f69f",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

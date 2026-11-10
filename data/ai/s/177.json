@@ -1,0 +1,33 @@
+{
+ "summary": "This section requires certain companies to set up an Audit Committee made up of directors with specific qualifications. The committee must follow rules for reviewing financial matters, approving related transactions, and monitoring auditors. It also gives the committee powers to investigate issues, get outside advice, and manage a reporting system for employee concerns.",
+ "points": [
+  "Every listed public company and other prescribed classes of companies must form an Audit Committee with at least three directors, where independent directors form the majority.",
+  "A majority of the committee members, including the Chairperson, must be able to read and understand financial statements.",
+  "The committee must follow written terms given by the Board, which include recommending auditor appointments, reviewing financial statements, and approving related party transactions.",
+  "The committee has the authority to investigate matters, look at company records, and get professional advice from outside sources.",
+  "Listed companies must also set up a vigil mechanism for employees and directors to report genuine concerns safely with direct access to the Audit Committee chairperson."
+ ],
+ "example": "Meera Textiles Private Limited is required to set up an Audit Committee. The Board appoints three directors to form this committee, and two of them are independent directors, satisfying the majority rule. The Chairperson and another member can read and understand financial statements easily. When Meera Textiles plans a transaction with a related party, the Audit Committee reviews and approves it beforehand. Later, the committee notices an unusual inter-corporate loan and uses its power to examine company records and consult an outside expert to investigate the loan thoroughly. The details of their committee are then properly included in the annual Board report.",
+ "terms": [
+  {
+   "term": "Independent director",
+   "meaning": "A director who does not have any material or pecuniary relationship with the company, helping ensure unbiased decisions."
+  },
+  {
+   "term": "Related party",
+   "meaning": "Persons or other entities connected to the company, such as directors or their relatives, who engage in business transactions with the company."
+  },
+  {
+   "term": "Vigil mechanism",
+   "meaning": "A reporting system allowing directors and employees to report genuine concerns safely without facing unfair treatment."
+  },
+  {
+   "term": "Ratified",
+   "meaning": "Approved officially after the fact to make a past action valid."
+  }
+ ],
+ "watch": "People often confuse the rule requiring independent directors to form a majority with the rule that only a majority must be able to read financial statements.",
+ "h": "ddace5828447",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

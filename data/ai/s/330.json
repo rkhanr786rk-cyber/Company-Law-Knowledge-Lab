@@ -1,0 +1,28 @@
+{
+ "summary": "This section deals with winding up a company under the Companies Act, 2013. It states that if a company transfers or assigns all of its properties or assets to trustees so that all creditors can benefit, that transfer is completely void. This means the law will treat the transfer as if it never happened.",
+ "points": [
+  "Applies to a company in the process of winding up.",
+  "Forbids the transfer or assignment of all properties or assets by the company.",
+  "Applies when the transfer is made to trustees.",
+  "Applies when the transfer is meant for the benefit of all creditors."
+ ],
+ "example": "Meera Textiles Private Limited is going through a winding up process. To handle its debts, the company decides to transfer all its factory buildings, machinery, and warehouse assets to a group of trustees. The plan is for these trustees to manage and use the assets for the benefit of all the company creditors. According to Section 330 of the Companies Act, 2013, this transfer of all properties and assets to trustees is void. The law does not allow this specific type of blanket transfer, so it has no legal effect.",
+ "terms": [
+  {
+   "term": "Assignment",
+   "meaning": "Giving or transferring rights, property, or responsibilities to someone else."
+  },
+  {
+   "term": "Trustees",
+   "meaning": "People who are given control or powers over property to manage it for the benefit of others."
+  },
+  {
+   "term": "Void",
+   "meaning": "Having no legal force or effect, so that it is as though it never happened."
+  }
+ ],
+ "watch": "People often confuse void transfers with permitted normal business sales, but this section strictly voids the transfer of all assets to trustees for all creditors.",
+ "h": "96e42c88c0ac",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

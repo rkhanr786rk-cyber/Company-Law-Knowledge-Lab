@@ -1,0 +1,25 @@
+{
+ "summary": "This section explains what happens with annual reports for certain Government companies where the Central Government is not a member. Instead, the State Government or Governments that are members must prepare and present the report. These rules also apply to Government companies that are currently in liquidation.",
+ "points": [
+  "Applies to Government companies where the Central Government is not a member.",
+  "State Governments that are members must prepare an annual report on the company's working and affairs.",
+  "The report must be prepared within the time specified in section 394.",
+  "The report, along with the audit report and comments, must be laid before the State Legislature as soon as possible after preparation.",
+  "These rules and section 394 also apply to Government companies in liquidation."
+ ],
+ "example": "Meera Textiles Private Limited is a Government company where the Central Government holds no shares, but the State Government of State A is a member. According to the law, the State Government of State A must ensure that an annual report on the working and affairs of Meera Textiles Private Limited is prepared within the time specified in section 394. Once prepared, the State Government must lay this annual report, along with the audit report and related comments, before the State Legislature as soon as may be. Later, even if Meera Textiles Private Limited goes into liquidation, these exact reporting rules will continue to apply to it just like any other Government company.",
+ "terms": [
+  {
+   "term": "Liquidation",
+   "meaning": "The process of bringing a company to an end and distributing its assets."
+  },
+  {
+   "term": "Audit report",
+   "meaning": "An official report on the financial records and accounts of the company."
+  }
+ ],
+ "watch": "Note that this section only applies when the Central Government is not a member of the Government company.",
+ "h": "c7d94c58f3e2",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

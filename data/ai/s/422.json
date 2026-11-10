@@ -1,0 +1,28 @@
+{
+ "summary": "This section requires the Tribunal and Appellate Tribunal to handle and finish every case as quickly as possible. They must try their best to complete the process within three months from when the case was filed. If a case takes longer, reasons must be recorded in writing so the President or Chairperson can extend the time by up to ninety days.",
+ "points": [
+  "The Tribunal and Appellate Tribunal must deal with and dispose of every case as expeditiously as possible.",
+  "Every effort must be made to finish the application, petition, or appeal within three months from its presentation or filing date.",
+  "If a case is not finished within the three-month period, the Tribunal or Appellate Tribunal must record the reasons for the delay.",
+  "The President or Chairperson may extend the time limit by a period of up to ninety days after reviewing those recorded reasons."
+ ],
+ "example": "Meera Textiles Private Limited filed an appeal before the Appellate Tribunal to resolve a company dispute. According to the law, the Tribunal should try its best to dispose of this appeal within three months from the date it was filed. Unfortunately, due to complex issues raised in the hearing, the Tribunal could not finish the case within that three-month period. To comply with the law, the Tribunal recorded the specific reasons for the delay in writing. Afterward, the Chairperson reviewed these recorded reasons and granted an extension of time, not exceeding ninety days, so the Tribunal could properly finish handling the appeal of Meera Textiles Private Limited.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "The National Company Law Tribunal, a judicial body that handles company law cases."
+  },
+  {
+   "term": "Appellate Tribunal",
+   "meaning": "The higher body that hears appeals against the decisions of the Tribunal."
+  },
+  {
+   "term": "Application or petition",
+   "meaning": "A formal request presented to the Tribunal to start a legal proceeding."
+  }
+ ],
+ "watch": "Do not assume cases are automatically dismissed if they cross the three-month mark, as the President or Chairperson can extend the time.",
+ "h": "b201047b9a45",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

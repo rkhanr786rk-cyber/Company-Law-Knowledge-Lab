@@ -1,0 +1,29 @@
+{
+ "summary": "This section allows the Tribunal to freeze a company's assets, funds, or property to prevent harmful transfers during an inquiry or investigation. It can act based on requests from the Central Government, certain members, creditors, or other persons with valid reasons. If anyone breaks this freeze order, heavy fines and imprisonment apply to the company and responsible officers.",
+ "points": [
+  "The Tribunal can issue an order to stop the removal, transfer, or disposal of a company's funds, assets, or properties.",
+  "This action can happen during an inquiry, investigation, or upon a reference or complaint by authorized government bodies, members, creditors, or concerned persons.",
+  "The freeze order can last for a maximum period of three years or be subject to specific conditions.",
+  "If the company transfers or disposes of assets against the Tribunal's order, it faces a fine ranging from one lakh to twenty-five lakh rupees.",
+  "Officers at fault can face imprisonment for up to three years, a fine between fifty thousand and five lakh rupees, or both."
+ ],
+ "example": "Meera Textiles Private Limited was facing an investigation regarding its financial affairs. A creditor having one lakh amount outstanding against the company suspected that the directors were secretly transferring company property overseas to harm creditors. The creditor approached the Tribunal with these concerns. Finding reasonable grounds, the Tribunal issued an order stating that no company assets could be transferred or disposed of for the next two years without its permission. Later, the directors ignored the order and sold a factory building. Because they violated the Tribunal's freeze order, the company faced a heavy fine, and the responsible officers faced imprisonment and fines.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized judicial body set up to handle company law disputes."
+  },
+  {
+   "term": "Prejudicial",
+   "meaning": "Harmful or damaging to the interests of someone."
+  },
+  {
+   "term": "Contravention",
+   "meaning": "Doing something that a law or official order forbids."
+  }
+ ],
+ "watch": "People often confuse this section as applying to all members, whereas complaints can only be made by the specific number of members stated under section 244.",
+ "h": "e0d251198124",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

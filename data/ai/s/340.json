@@ -1,0 +1,30 @@
+{
+ "summary": "This section allows the Tribunal to check the conduct of certain people, like directors and managers, when a company is closing down. If they misused company money or property, or broke their trust, the Tribunal can order them to return it or pay compensation. An application for this must be made within a specific time limit.",
+ "points": [
+  "Applies during the winding up of a company to promoters, directors, managers, Company Liquidators, and officers.",
+  "Covers misapplying, retaining, or becoming accountable for company money or property.",
+  "Covers guilt of any misfeasance or breach of trust in relation to the company.",
+  "The Tribunal can inquire into conduct and order repayment, restoration, or contribution to assets with interest.",
+  "Applications must be made within five years from the specified starting dates, whichever is longer.",
+  "Applies even if the person may also be criminally liable for the matter."
+ ],
+ "example": "During the winding up of Meera Textiles Private Limited, the Official Liquidator discovered that a former director had wrongfully kept company funds for personal use. The Official Liquidator filed an application under this section to the Tribunal. After looking into the conduct of the director, the Tribunal ordered the director to repay the money with interest and contribute a fair sum as compensation to the assets of Meera Textiles Private Limited.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "The judicial authority that handles company law matters."
+  },
+  {
+   "term": "Misfeasance",
+   "meaning": "Doing a lawful act in a wrongful or improper manner that causes harm."
+  },
+  {
+   "term": "Contributory",
+   "meaning": "A person liable to contribute to the assets of a company in the event of its winding up."
+  }
+ ],
+ "watch": "People might think this rule only applies if there is no criminal case, but it applies even if the person is criminally liable.",
+ "h": "ea11db6accf2",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

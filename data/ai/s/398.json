@@ -1,0 +1,30 @@
+{
+ "summary": "This section allows the Central Government to make rules requiring company documents, notices, and payments to be handled in electronic form. It also allows the Registrar to maintain, register, and inspect these electronic records. The rules made under this section cannot create new fines, penalties, or fees.",
+ "points": [
+  "The Central Government can make rules to require filing and delivering documents like balance sheets and prospectuses electronically.",
+  "Notices and communications can be required to be served or delivered in electronic form.",
+  "Registrars must maintain and register company documents and records electronically.",
+  "People can inspect company documents maintained in electronic form through electronic means.",
+  "Fees, charges, and other sums payable under the Act must be paid through electronic forms.",
+  "Registrars can perform official duties like issuing certificates of incorporation and registering document changes electronically."
+ ],
+ "example": "Meera Textiles Private Limited needed to file its annual balance sheet and register a change in its registered office. Because the Central Government made rules under this law for electronic filing, Meera Textiles submitted its documents and paid the required fees online. The Registrar received the documents, recorded the change of office, and issued certificates in electronic form. Later, a curious citizen wanted to check the company's memorandum and articles, which were stored digitally. Following the prescribed rules, the citizen was able to inspect these documents directly through the electronic system without needing to visit a physical office.",
+ "terms": [
+  {
+   "term": "Prospectus",
+   "meaning": "A formal document that invites the public to buy shares or debentures of a company."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "An official appointed by the government to handle company registrations and records."
+  },
+  {
+   "term": "Authentication",
+   "meaning": "A way to verify or prove that a document or signature is genuine."
+  }
+ ],
+ "watch": "Note that rules made under this specific section cannot be used to create new fines, penalties, or fee amounts.",
+ "h": "5a3de4d55bff",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

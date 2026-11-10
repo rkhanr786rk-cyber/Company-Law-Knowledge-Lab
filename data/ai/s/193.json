@@ -1,0 +1,29 @@
+{
+ "summary": "This section explains the rules for contracts made between a One Person Company and its sole member who is also a director. If the contract is not in writing and is outside regular business, the company must record it in a memorandum or board meeting minutes. The company must also inform the Registrar about this recorded contract within fifteen days.",
+ "points": [
+  "Applies to a One Person Company limited by shares or guarantee.",
+  "Covers contracts made with the sole member who is also a director.",
+  "Requires contracts to be in writing, or their terms put in a memorandum or recorded in the first board meeting minutes after the contract.",
+  "Exempts contracts entered into in the ordinary course of business.",
+  "Requires the company to inform the Registrar about recorded contracts within fifteen days of board approval."
+ ],
+ "example": "Aarav is the sole member and director of Aarav Media Private Limited. The company wants to buy a specialized office building directly from Aarav outside its regular business activities. Since this special contract is not made in writing beforehand, Aarav ensures the terms are recorded in the minutes of the very next meeting of the Board of Directors of the company. Once the Board approves these minutes, Aarav Media Private Limited informs the Registrar about this contract within a period of fifteen days from the date of that board approval, strictly following the legal requirement for such deals.",
+ "terms": [
+  {
+   "term": "One Person Company",
+   "meaning": "A company that has only one person as a member."
+  },
+  {
+   "term": "Memorandum",
+   "meaning": "A written document containing details or terms of an agreement."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "An official who maintains company records under the law."
+  }
+ ],
+ "watch": "Remember that contracts made in the ordinary course of business do not need to follow these specific recording and reporting rules.",
+ "h": "a158b56da8c0",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

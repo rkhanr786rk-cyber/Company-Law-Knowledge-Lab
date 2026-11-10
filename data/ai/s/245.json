@@ -1,0 +1,34 @@
+{
+ "summary": "This section allows a group of members or depositors to file a class action application before the Tribunal if company management acts against their interests. The Tribunal can stop illegal acts, declare fraudulent resolutions void, or award damages against the company, auditors, and experts. It also sets rules for who can apply, how applications are handled, and penalizes companies or officers for ignoring Tribunal orders.",
+ "points": [
+  "Members or depositors can apply to the Tribunal if company management hurts their interests.",
+  "Applicants can ask to stop illegal acts, cancel bad resolutions, or claim damages from the company, directors, auditors, or experts.",
+  "Share capital companies need at least one hundred members or a prescribed percentage, having paid all share calls, or members holding a prescribed share percentage.",
+  "Companies without share capital need at least one-fifth of their total members to apply.",
+  "Tribunal orders bind the company, members, depositors, auditors, and advisors.",
+  "Failing to follow a Tribunal order brings fines and imprisonment for responsible officers, while banking companies are exempt."
+ ],
+ "example": "A group of investors in Meera Textiles Private Limited noticed that the company management was acting against company rules and harming investor interests. One hundred members who had paid all their share money decided to act together. They filed a class action application before the Tribunal to stop the company from doing illegal acts and to claim compensation for wrongful actions. The Tribunal reviewed the application, ensured it was made in good faith, and ordered a public notice to be given to all members of that class. The final order passed by the Tribunal became binding on the company, its members, and the officers involved.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized legal body set up to handle specific types of disputes, such as company law matters."
+  },
+  {
+   "term": "Ultra vires",
+   "meaning": "Acting beyond the legal powers or authority granted by a company's rules."
+  },
+  {
+   "term": "Depositor",
+   "meaning": "A person who has deposited money with a company."
+  },
+  {
+   "term": "Ratified",
+   "meaning": "Approved or confirmed after an act has already happened."
+  }
+ ],
+ "watch": "Banking companies are completely exempt from these class action rules.",
+ "h": "bc4e70b39f20",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

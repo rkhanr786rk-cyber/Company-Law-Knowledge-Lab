@@ -1,0 +1,30 @@
+{
+ "summary": "When a company declares a dividend that remains unpaid or unclaimed for thirty days, it must be moved to a special bank account within seven days. The company also has to publish details of these unpaid amounts online and pay interest if it fails to transfer the money on time. Any money and certain long-untouched shares left in this account for seven years must be transferred to a specific government fund.",
+ "points": [
+  "Unpaid or unclaimed dividends must be moved to a special bank account called the Unpaid Dividend Account within thirty-seven days of declaration.",
+  "A statement of names, addresses, and unpaid amounts must be placed on the company website and any approved website within ninety days of the transfer.",
+  "If the company fails to transfer the money on time, it must pay interest at the rate of twelve per cent per annum to the unpaid members.",
+  "Any person who is entitled to the money can apply to the company to claim it.",
+  "Money and shares left unpaid or unclaimed for seven consecutive years must be transferred to the Investor Education and Protection Fund.",
+  "Failing to follow these rules results in heavy fines for both the company and responsible officers."
+ ],
+ "example": "Meera Textiles Private Limited declared a dividend for its shareholders, but the payment to shareholder Mr. Sharma was not claimed within thirty days. After the thirty days ended, Meera Textiles had another seven days to transfer this unpaid money into a special account in a scheduled bank named the Unpaid Dividend Account. Within ninety days of making this transfer, the company prepared a statement with Mr. Sharma's last known address and the unpaid amount, and placed it on its website. Since Mr. Sharma did not claim his money for seven years, the company eventually transferred the money along with any interest to the Fund established under section 125.",
+ "terms": [
+  {
+   "term": "Dividend",
+   "meaning": "A portion of company profits paid out to its shareholders."
+  },
+  {
+   "term": "Scheduled bank",
+   "meaning": "A bank listed in the second schedule of the Reserve Bank of India Act."
+  },
+  {
+   "term": "Default",
+   "meaning": "A failure to fulfill an obligation or rule under the law."
+  }
+ ],
+ "watch": "Watch out for the rule that shares are not transferred to the government fund if any dividend was paid or claimed during the seven-year period.",
+ "h": "cd5776e9ffb8",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

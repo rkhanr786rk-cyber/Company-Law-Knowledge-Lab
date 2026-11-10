@@ -1,0 +1,29 @@
+{
+ "summary": "This section deals with situations where a company gives an unfair advantage to certain creditors or guarantors before closing down. If the company makes such a preferential transfer within six months of applying for winding up, the Tribunal can cancel it. The goal is to undo the unfair act and restore things to how they should have been.",
+ "points": [
+  "Applies when a company gives preference to a creditor, surety, or guarantor.",
+  "Applies if the action puts that person in a better position during liquidation than they would have been otherwise.",
+  "The act must happen within six months before making a winding up application.",
+  "The Tribunal can decide the transaction is a fraudulent preference.",
+  "The Tribunal may order to restore the position or declare the transfer invalid."
+ ],
+ "example": "Alpha Logistics Private Limited owed money to several suppliers, including Mr. Sharma, who was also a guarantor for a bank loan. Two months before filing an application to wind up the company, Alpha Logistics transferred a valuable company vehicle directly to Mr. Sharma to settle his personal guarantee risk. When the company went into liquidation, the other creditors complained about this unfair advantage. The Tribunal reviewed the transfer made within the six-month window before the winding up application. Finding it to be a fraudulent preference, the Tribunal declared the transfer invalid and ordered that the vehicle be brought back into the company assets to restore fairness among all creditors.",
+ "terms": [
+  {
+   "term": "Surety",
+   "meaning": "A person who takes responsibility for paying another person's debt."
+  },
+  {
+   "term": "Liquidation",
+   "meaning": "The process of bringing a business to an end and distributing its assets."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A legal authority appointed to judge and deal with specific disputes."
+  }
+ ],
+ "watch": "People often confuse any payment made to a creditor as illegal, but the law specifically targets those done within six months before a winding up application to unfairly favor someone.",
+ "h": "ae826cdfd76e",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

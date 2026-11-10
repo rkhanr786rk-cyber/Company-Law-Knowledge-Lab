@@ -1,0 +1,24 @@
+{
+ "summary": "This section deals with companies from outside India that fail to follow the rules of Chapter XXII. Even if they break the rules, their contracts and business deals remain completely valid. However, the company cannot file any lawsuits or legal claims until it follows all the required rules.",
+ "points": [
+  "Failing to follow the rules of this chapter does not make the company's contracts or deals invalid.",
+  "The company can still be sued by other people in court for these contracts or deals.",
+  "The company is forbidden from filing any lawsuits or legal claims based on these contracts until it follows the rules.",
+  "The company cannot claim a set-off or make a counter-claim in legal proceedings until it complies with the law."
+ ],
+ "example": "Global Widgets Inc., a company incorporated outside India, entered into a contract with Star Logistics Private Limited to supply machinery. Global Widgets failed to comply with certain registration provisions under Chapter XXII of the Companies Act. Later, a dispute arose over a delayed shipment. Star Logistics sued Global Widgets in an Indian court for breach of contract, which is legally permitted because the company's liability to be sued remains valid. However, when Global Widgets wanted to file a counter-claim against Star Logistics for unpaid dues related to the same contract, the court stopped them. Global Widgets cannot bring any legal claim or suit until they fully comply with the required provisions of the Act.",
+ "terms": [
+  {
+   "term": "set-off",
+   "meaning": "A legal demand by a defendant to reduce the amount they owe by an amount the plaintiff owes them."
+  },
+  {
+   "term": "counter-claim",
+   "meaning": "A claim made by a defendant against a plaintiff in a legal lawsuit."
+  }
+ ],
+ "watch": "People often think that breaking the registration rules makes a foreign company's contracts void, but the contracts remain fully valid.",
+ "h": "722c6026469c",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

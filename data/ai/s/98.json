@@ -1,0 +1,34 @@
+{
+ "summary": "Sometimes it is too difficult or impossible to hold a company meeting in the usual ways. When this happens, the Tribunal can step in and order a meeting to take place under special rules. The Tribunal can even decide that just one person attending the meeting counts as a valid meeting.",
+ "points": [
+  "Applies when it is impractical to call or conduct any company meeting except an annual general meeting.",
+  "The Tribunal can act on its own or when a director or voting member asks it to.",
+  "The Tribunal can order a meeting to be called, held, and conducted in any way it thinks fit.",
+  "The Tribunal can give extra directions, which can even change the Act's normal rules for meetings.",
+  "The Tribunal can direct that a single member present in person or by proxy counts as a full meeting.",
+  "Any meeting held following the Tribunal's orders is legally considered a properly conducted company meeting."
+ ],
+ "example": "Meera Textiles Private Limited faced a severe internal dispute, and the directors refused to cooperate, making it impossible to hold a general meeting through the normal company procedures. Rahul, a concerned member of the company who had the right to vote, decided to approach the Tribunal for help. The Tribunal reviewed the situation and used its power to order a special meeting. It gave specific directions on how the meeting should be conducted and even ordered that Rahul alone, being present in person, would be deemed to constitute a valid meeting. Because this meeting followed the Tribunal's exact instructions, it was legally recognized as a proper company meeting for all purposes.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A special judicial body set up to handle legal disputes and matters related to companies."
+  },
+  {
+   "term": "impracticable",
+   "meaning": "Too difficult or impossible to do in a practical way."
+  },
+  {
+   "term": "suo motu",
+   "meaning": "Acting on its own initiative without anyone asking it to."
+  },
+  {
+   "term": "proxy",
+   "meaning": "A person authorized to represent and vote for a member at a meeting."
+  }
+ ],
+ "watch": "Remember that this power does not apply to annual general meetings.",
+ "h": "c2ae7f7c9581",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

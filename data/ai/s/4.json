@@ -1,0 +1,34 @@
+{
+ "summary": "The memorandum of a company is a foundational document that sets out essential details like the company name, its registered office state, its objects, and member liabilities. It also regulates how company names are chosen, ensuring they are not identical to existing names or misleading. Furthermore, the text outlines rules for reserving names and details what happens if incorrect information is provided during that process.",
+ "points": [
+  "The memorandum must state the name of the company, ending with Limited or Private Limited unless registered under section 8.",
+  "It must state the State where the registered office is located and the objects for which the company is incorporated.",
+  "It must state whether the liability of members is limited or unlimited, including specific details for shares or guarantees.",
+  "The chosen company name must not be identical or too similar to an existing company name, or be undesirable.",
+  "A person may apply to the Registrar to reserve a proposed name or a name change.",
+  "Providing wrong information to reserve a name can lead to cancellation of the name, penalties, or action to wind up the company."
+ ],
+ "example": "Aarav decided to start a new business and wanted to name his company Aarav Technologies Private Limited. He submitted an application to the Registrar to reserve this name. The Registrar reviewed the application based on the information provided and reserved the name for the specified period. Meanwhile, Aarav prepared his company memorandum to state the State where the registered office would be situated, the business objects, and that the members' liability is limited to the amount unpaid on their shares. By following these rules, Aarav ensured his company's memorandum included all required details under the law.",
+ "terms": [
+  {
+   "term": "memorandum",
+   "meaning": "The foundational document that sets up a company and states its core objects and rules."
+  },
+  {
+   "term": "objects",
+   "meaning": "The purposes and activities for which a company is proposed to be incorporated."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "The official authority responsible for registering companies and maintaining records."
+  },
+  {
+   "term": "wind up",
+   "meaning": "The legal process of closing down a company and settling its affairs."
+  }
+ ],
+ "watch": "Ensure you check that the company name does not resemble an existing name or suggest government patronage without approval.",
+ "h": "cafb3c74fba2",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

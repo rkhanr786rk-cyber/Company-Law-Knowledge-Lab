@@ -1,0 +1,34 @@
+{
+ "summary": "This section explains the rules for issuing and buying back preference shares. Companies cannot issue shares that cannot be paid back, and any redeemable shares must follow specific profit and payment rules. If a company struggles to redeem shares, it has a legal process to issue new ones with proper consent and approval.",
+ "points": [
+  "Companies limited by shares cannot issue preference shares that are irredeemable.",
+  "Companies can issue preference shares that must be redeemed within twenty years, or longer for infrastructure projects if allowed by their articles.",
+  "Preference shares can only be redeemed out of company profits available for dividends or from the proceeds of a fresh share issue.",
+  "Shares must be fully paid before they can be redeemed.",
+  "If a company cannot redeem shares or pay dividends, it can issue new redeemable preference shares with three-fourths holder consent and Tribunal approval.",
+  "The capital redemption reserve account can be used to issue fully paid bonus shares to members."
+ ],
+ "example": "Meera Textiles Private Limited wants to issue preference shares. The rules state that the company cannot issue preference shares that are impossible to redeem. If Meera Textiles issues redeemable preference shares, they must be paid back within twenty years. Later, if the company cannot redeem these shares or pay the dividends due on them, it may ask the holders for consent. With the approval of three-fourths in value of those preference shareholders and the approval of the Tribunal, Meera Textiles can issue new redeemable preference shares equal to the amount due. This clears the old unredeemed shares as if they were already paid back.",
+ "terms": [
+  {
+   "term": "preference shares",
+   "meaning": "A special type of share that gives shareholders priority over ordinary shareholders when receiving dividends and getting their money back."
+  },
+  {
+   "term": "redeemed",
+   "meaning": "Bought back or paid off by the company so that the share is cancelled."
+  },
+  {
+   "term": "articles",
+   "meaning": "The rulebook of a company that sets out its internal management and operations."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A judicial body set up to handle legal disputes and approvals under company law."
+  }
+ ],
+ "watch": "Watch out for the rule that preference shares must be fully paid before a company is allowed to redeem them.",
+ "h": "b3921c9541cf",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

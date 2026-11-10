@@ -1,0 +1,29 @@
+{
+ "summary": "This section deals with criminal liability for giving false or misleading information in a company prospectus. Anyone who approves the issue of a prospectus with untrue statements or misleading omissions can face punishment for fraud. However, a person can escape this liability by proving that the matter was not important or that they honestly believed it was true and necessary.",
+ "points": [
+  "Applies when a prospectus includes an untrue or misleading statement.",
+  "Applies when the inclusion or omission of any matter is likely to mislead readers.",
+  "Holds every person who authorises the issue of such a prospectus liable under section 447.",
+  "Allows a person to avoid liability if they prove the statement or omission was immaterial.",
+  "Allows a person to avoid liability if they prove they had reasonable grounds to believe the statement was true and necessary up to the time of issue."
+ ],
+ "example": "Meera Textiles Private Limited planned to issue a prospectus to the public to raise funds. Rohan, a director, authorized the release of this document, which accidentally contained a misleading description about the company's factory size due to a genuine typing error. When questioned, Rohan proved that this small error was completely immaterial to investors and that he had good reasons to believe the details were correct when the prospectus was issued. Because he met these conditions, the law protects him from criminal liability under this section.",
+ "terms": [
+  {
+   "term": "Prospectus",
+   "meaning": "An official document issued by a company inviting the public to buy its shares or securities."
+  },
+  {
+   "term": "Omission",
+   "meaning": "Leaving out important information or details."
+  },
+  {
+   "term": "Immaterial",
+   "meaning": "Not important or irrelevant to the situation."
+  }
+ ],
+ "watch": "Do not assume a person is automatically guilty; they can escape liability by proving the error was unimportant or that they honestly believed it was true.",
+ "h": "f95a1e0855df",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

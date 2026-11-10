@@ -1,0 +1,27 @@
+{
+ "summary": "This section states that any member's shares, debentures, or other interests in a company are treated as movable property. They can be transferred from one person to another, but this must be done according to the rules written in the company's own articles. In simple terms, these investments are like personal property that can be passed on following the company's specific guidelines.",
+ "points": [
+  "Shares, debentures, and other interests of a member are treated as movable property.",
+  "These interests can be transferred from one person to another.",
+  "The transfer must be done in the manner provided by the articles of the company."
+ ],
+ "example": "Aarav owns shares in Sunshine Robotics Private Limited. He decides to give some of his shares to his friend Diya as a gift. To make this transfer legal, Aarav and Diya must follow the exact rules and steps written in the articles of association of Sunshine Robotics Private Limited. If they follow those internal rules, the transfer of the movable property is successful.",
+ "terms": [
+  {
+   "term": "debentures",
+   "meaning": "A type of debt instrument or certificate issued by a company that acknowledges a loan from the holder."
+  },
+  {
+   "term": "articles",
+   "meaning": "The rulebook of a company that sets out how it must be run and managed internally."
+  },
+  {
+   "term": "movable property",
+   "meaning": "Property that can be moved from one place to another, rather than land or buildings."
+  }
+ ],
+ "watch": "Do not assume that shares can be transferred freely without checking the company's articles first.",
+ "h": "84cd2510467e",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

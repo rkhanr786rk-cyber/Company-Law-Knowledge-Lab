@@ -1,0 +1,33 @@
+{
+ "summary": "Section 390 of the Companies Act, 2013 lets the Central Government make rules for offering Indian Depository Receipts by foreign companies. This applies whether or not the foreign company has a place of business in India. These rules cover prospectuses, safe keeping, selling, and transferring the receipts.",
+ "points": [
+  "The Central Government can make rules for offering Indian Depository Receipts.",
+  "Rules can set disclosure requirements for prospectuses or letters of offer.",
+  "Rules can control how receipts are handled by depositories, custodians, and underwriters.",
+  "Rules can dictate how receipts are sold, transferred, or transmitted.",
+  "These rules apply to companies incorporated outside India, regardless of whether they have a business place in India."
+ ],
+ "example": "Aarav Tech Limited is a software company formed under the laws of a foreign country and has no offices in India. To raise money from Indian investors, the company wants to issue Indian Depository Receipts. According to Section 390, the Central Government has the power to make specific rules regarding how Aarav Tech Limited must make this offer, what disclosures must be in its prospectus, and how the receipts will be handled by custodians and underwriters. Aarav Tech Limited must follow these government rules when issuing its receipts, even though it does not have any physical place of business set up in India.",
+ "terms": [
+  {
+   "term": "Indian Depository Receipts",
+   "meaning": "Financial certificates issued by a company outside India to raise capital from Indian investors."
+  },
+  {
+   "term": "Prospectus",
+   "meaning": "A formal document describing a company and the financial securities being offered to the public."
+  },
+  {
+   "term": "Custodian",
+   "meaning": "A financial institution responsible for safely holding assets and securities."
+  },
+  {
+   "term": "Underwriters",
+   "meaning": "Persons or institutions that help sell securities and take on the financial risk of public offerings."
+  }
+ ],
+ "watch": "Note that this section only grants rule-making powers to the Central Government and does not set the specific rules itself.",
+ "h": "ff0ed8c1461e",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

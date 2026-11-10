@@ -1,0 +1,29 @@
+{
+ "summary": "Every Producer Company must appoint a full-time Chief Executive who is not a member of the company. The Board chooses this person, who also sits on the Board automatically with special status. The Chief Executive handles day-to-day management and other tasks given by the Board under its general control.",
+ "points": [
+  "The Board must appoint a full-time Chief Executive from people who are not members.",
+  "The Chief Executive is automatically a director on the Board and does not retire by rotation.",
+  "The Board decides the qualifications, experience, and service terms, unless the articles say otherwise.",
+  "The Chief Executive manages day-to-day affairs, bank accounts, cash custody, books of account, and staff appointments as empowered by the Board.",
+  "The Chief Executive works under the general superintendence, direction, and control of the Board."
+ ],
+ "example": "Greenfields Producer Company Limited needs a new head to manage its daily operations. The Board meets and decides to appoint Mr. Kumar, an outsider who is not a member of the company, as the full-time Chief Executive. Mr. Kumar becomes an automatic director on the Board without retiring by rotation. The Board gives him powers to operate bank accounts, maintain books of account, and make routine staff appointments. Mr. Kumar runs the day-to-day business under the general direction and control of the Board, while helping them plan long-term goals for Greenfields Producer Company Limited.",
+ "terms": [
+  {
+   "term": "Ex officio",
+   "meaning": "Holding a position automatically because of another office or position held."
+  },
+  {
+   "term": "Retire by rotation",
+   "meaning": "A rule where certain directors must step down after a set time, which does not apply to this Chief Executive."
+  },
+  {
+   "term": "Articles",
+   "meaning": "The rulebook of a company that sets out its internal management and operations."
+  }
+ ],
+ "watch": "Do not confuse the Chief Executive with a regular company member, as the law explicitly requires the Chief Executive to be a person other than a member.",
+ "h": "1f613eb47132",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

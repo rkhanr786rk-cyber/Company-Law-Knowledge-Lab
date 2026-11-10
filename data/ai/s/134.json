@@ -1,0 +1,34 @@
+{
+ "summary": "This section explains how a company's financial statements and Board's report must be approved, signed, and presented. It requires the Board of Directors to prepare a detailed report covering various matters like company affairs, board meetings, and auditor remarks. Finally, the signed financial statements must include the auditor's report and the Board's report when shared.",
+ "points": [
+  "Financial statements must be approved by the Board of Directors before being signed and sent to the auditor.",
+  "Financial statements must be signed by specific authorized officers such as the chairperson, managing director, CEO, CFO, or company secretary, or by a single director in a One Person Company.",
+  "The Board of Directors must attach a comprehensive report to the statements laid before the general meeting, including details on board meetings, fraud reports, policies, and financial status.",
+  "A Directors' Responsibility Statement must be included to confirm proper accounting standards, records, and internal controls.",
+  "A signed copy of the financial statement must circulate along with the auditor's report and the Board's report.",
+  "Penalties apply to the company and officers if they fail to comply with these provisions."
+ ],
+ "example": "Meera Textiles Private Limited prepared its financial statements for the year. Before sharing them with the auditor, the Board of Directors approved the statements. They were then signed by the chairperson and the managing director as authorized. Along with these financial statements, the Board attached their official Board's report, which included the number of board meetings held, details of the company's financial affairs, and the mandatory Directors' Responsibility Statement confirming proper accounting records were maintained. Finally, the company circulated the financial statements together with the auditor's report and the Board's report to the necessary parties.",
+ "terms": [
+  {
+   "term": "Financial statement",
+   "meaning": "A formal record of the financial activities and position of a business."
+  },
+  {
+   "term": "Auditor's report",
+   "meaning": "A formal written opinion by an independent auditor on a company's financial statements."
+  },
+  {
+   "term": "Dividend",
+   "meaning": "A sum of money paid regularly by a company to its shareholders out of its profits."
+  },
+  {
+   "term": "Going concern",
+   "meaning": "An accounting term for a company that has the resources to continue operating without the threat of liquidation."
+  }
+ ],
+ "watch": "People often confuse who is authorized to sign the financial statements and Board reports with ordinary employees, when the law specifically requires designated directors and key officials.",
+ "h": "9740c857fda7",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

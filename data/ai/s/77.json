@@ -1,0 +1,34 @@
+{
+ "summary": "Section 77 of the Companies Act, 2013, requires every company to register any charge it creates on its property or assets with the Registrar within a set time. Both the company and the charge-holder must sign the particulars. If the company misses the normal deadline, the Registrar may allow late registration under certain conditions upon payment of additional fees.",
+ "points": [
+  "Every company must register any charge created on its property, assets, or undertakings, whether inside or outside India.",
+  "The particulars of the charge and the creating instruments must be signed by both the company and the charge-holder.",
+  "Registration must be submitted to the Registrar within thirty days of the creation of the charge.",
+  "The Registrar can allow late registration within specified extended periods and upon payment of additional or ad valorem fees.",
+  "Liquidators and creditors will not take an unregistered charge into account.",
+  "The Registrar will issue a certificate of registration once the charge is successfully registered."
+ ],
+ "example": "Meera Textiles Private Limited decides to take a loan from a bank and pledges its factory building as security. This creates a charge on the company property. Under the law, Meera Textiles Private Limited and the bank must sign the particulars of this charge. The company has a duty to submit these details and the creating instruments to the Registrar within thirty days of creating the charge. If they fail to register it within this time, the Registrar may still allow registration later upon application and payment of additional fees. Once registered, the Registrar issues a certificate of registration to the company and the bank, ensuring the charge is properly recorded.",
+ "terms": [
+  {
+   "term": "charge",
+   "meaning": "An interest or lien created on the property or assets of a company as security for a loan or debt."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "The government official appointed to handle the registration of companies and company documents."
+  },
+  {
+   "term": "liquidator",
+   "meaning": "A person appointed to wind up the affairs and distribute the assets of a company."
+  },
+  {
+   "term": "ad valorem fees",
+   "meaning": "Fees charged in proportion to the value of the transaction or property."
+  }
+ ],
+ "watch": "A late registration of a charge does not harm any rights acquired in the property before the actual registration takes place.",
+ "h": "b4e48f8bdfec",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

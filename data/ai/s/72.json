@@ -1,0 +1,33 @@
+{
+ "summary": "This section allows people who hold company shares or other securities to name someone to receive those items if they die. If multiple people own the securities together, they can make a joint nomination. The chosen nominee gets full rights to the securities after the death of the owner, beating out other claims unless the nomination is changed.",
+ "points": [
+  "A holder of securities may at any time nominate a person to receive the securities upon death.",
+  "Joint holders of securities can together nominate a person to receive all rights upon the death of all joint holders.",
+  "A valid nomination gives the nominee exclusive rights to the securities upon the holder's death, overriding other dispositions.",
+  "A nomination remains valid unless it is varied or cancelled in the prescribed manner.",
+  "If the nominee is a minor, the holder can appoint another person to get the securities if the minor nominee dies during minority."
+ ],
+ "example": "Aarav holds shares in Meera Textiles Private Limited. He decides to fill out the proper forms to nominate his sister, Priya, to receive his shares if he passes away. Later, Aarav passes away. Because he made this nomination and never changed or cancelled it, Priya becomes entitled to all the rights in those shares. Her right is to the exclusion of all other persons, meaning other family members cannot claim the shares based on a different type of will or legal rule, as the nomination takes priority.",
+ "terms": [
+  {
+   "term": "Securities",
+   "meaning": "Financial instruments like shares or debentures issued by a company."
+  },
+  {
+   "term": "Nominate",
+   "meaning": "To formally choose someone to receive your securities when you die."
+  },
+  {
+   "term": "Vect",
+   "meaning": "To pass ownership or rights to someone."
+  },
+  {
+   "term": "Testamentary",
+   "meaning": "Done by a will."
+  }
+ ],
+ "watch": "Remember that a nomination overrides other dispositions, but it can still be changed or cancelled by the holder.",
+ "h": "f10c1dd120a0",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

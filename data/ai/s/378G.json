@@ -1,0 +1,34 @@
+{
+ "summary": "This section explains what must be included when registering a Producer Company. The founders must submit the memorandum and signed articles to the Registrar of the State. The articles must include specific mutual assistance principles and detailed rules about membership, the board of directors, finances, and meetings.",
+ "points": [
+  "The memorandum and signed articles must be presented for registration to the State Registrar.",
+  "The articles must include mutual assistance principles like voluntary membership and a single vote per member.",
+  "The articles must state how surplus funds are distributed and how members and employees are educated.",
+  "The articles must detail rules for membership qualifications, share transfers, and voting rights.",
+  "The articles must cover how the board of directors is formed, run, and managed.",
+  "The articles must include rules on funds, reserves, loans to members, and what happens if the company closes down."
+ ],
+ "example": "A group of farmers decides to set up Meera Producer Company Limited. When registering the company, they must present their memorandum and signed articles to the State Registrar. Their articles must follow the mutual assistance principles stated in the law. For example, the articles must state that every member has only a single vote regardless of how many shares they hold. The articles must also explain how the board of directors will be chosen, how surplus money will be shared among members, and the rules for giving loans to members. Finally, the company must lay its memorandum and articles before a special general meeting held within ninety days of its registration.",
+ "terms": [
+  {
+   "term": "Articles",
+   "meaning": "The rulebook of a company that sets out how it will be run internally."
+  },
+  {
+   "term": "Memorandum",
+   "meaning": "A founding document that states the main objectives and details of a company."
+  },
+  {
+   "term": "Surplus",
+   "meaning": "The extra money or profit left over after business operations."
+  },
+  {
+   "term": "Dissolution",
+   "meaning": "The official closing down or ending of a company."
+  }
+ ],
+ "watch": "Make sure to include all mandatory mutual assistance principles and internal rules in the articles as required by this section.",
+ "h": "d5d3f26e1456",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

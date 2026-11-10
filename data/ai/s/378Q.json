@@ -1,0 +1,29 @@
+{
+ "summary": "This section explains the specific situations that cause a director of a Producer Company to lose their position. If a director or the company breaks certain rules about loans, meetings, accounts, or elections, the director must leave office. These rules also apply to directors of a Producer Institution that belongs to a Producer Company.",
+ "points": [
+  "A director's office becomes vacant if they are convicted of a crime involving moral turpitude and sentenced to at least six months in prison.",
+  "The office becomes vacant if the Producer Company fails to repay loans or advances for ninety days.",
+  "A director must leave office if they personally fail to repay loans taken from their own Producer Company.",
+  "Vacation of office happens if the company fails to file annual accounts and returns for three continuous financial years, or fails to pay deposits, bonuses, or dividends on time for a year or more.",
+  "The office becomes vacant if the company fails to hold director elections or fails to call general meetings as required by the law."
+ ],
+ "example": "Aarav is a director at Meera Farmers Producer Company Limited. Recently, the company took a loan from a bank and failed to repay it. This default has now continued for ninety days. Because of this missed payment period by the company, Aarav's office as a director automatically becomes vacant according to the rules. Similarly, if Aarav had personally borrowed money from Meera Farmers Producer Company Limited and failed to repay it, he would also lose his position as a director. The law ensures that directors step down when the company or the individual director fails to meet these important financial and operational duties.",
+ "terms": [
+  {
+   "term": "Moral turpitude",
+   "meaning": "An act or behavior that gravely violates community standards of honesty and good morals."
+  },
+  {
+   "term": "Producer Company",
+   "meaning": "A body corporate registered under the Act relating to the production, harvesting, and handling of primary produce."
+  },
+  {
+   "term": "Patronage bonus",
+   "meaning": "Extra money given to members based on the business they do with the company."
+  }
+ ],
+ "watch": "Note that a general meeting delay is excused only if caused by a natural calamity or similar reason.",
+ "h": "534afa26035b",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

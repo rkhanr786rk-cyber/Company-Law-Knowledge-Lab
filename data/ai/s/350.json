@@ -1,0 +1,34 @@
+{
+ "summary": "This section explains how a Company Liquidator must handle the money they receive. They must put the money into a special account in a scheduled bank, following specific rules for time and manner. If they keep too much money for too long without a good reason, they face penalties and may lose their pay or job.",
+ "points": [
+  "The Company Liquidator must deposit all received money into a scheduled bank in a special bank account.",
+  "The Tribunal can allow the account to be opened in another bank if it helps the creditors, contributories, or the company.",
+  "The Liquidator must not keep more than five thousand rupees for more than ten days unless the Tribunal allows a different amount.",
+  "If the Liquidator keeps excess money without a good reason, they must pay twelve percent yearly interest and a penalty.",
+  "The Liquidator must pay for any extra costs caused by their delay.",
+  "The Tribunal may reduce or cancel the Liquidator's pay or even remove them from office for this default."
+ ],
+ "example": "Mr. Roy is appointed as the Company Liquidator for Apex Technologies Limited during its winding up. As he collects money from selling company assets, he is required to deposit these funds into a special account in a scheduled bank. Instead of doing this promptly, Mr. Roy holds a cash sum of eight thousand rupees in his office drawer for twelve days without permission from the Tribunal. Because he kept more than five thousand rupees for over ten days, the Tribunal orders him to pay twelve percent yearly interest on the excess amount, pay a fine, cover any expenses caused by his delay, and face a possible reduction in his pay or removal from his role.",
+ "terms": [
+  {
+   "term": "Company Liquidator",
+   "meaning": "The person in charge of winding up a company and handling its assets."
+  },
+  {
+   "term": "Scheduled bank",
+   "meaning": "A bank listed in the second schedule of the Reserve Bank of India Act, 1934."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "The legal authority or court body handling the winding up matters."
+  },
+  {
+   "term": "Contributories",
+   "meaning": "Persons liable to contribute to the assets of a company in the event of its winding up."
+  }
+ ],
+ "watch": "Watch out for the strict limit: keeping more than five thousand rupees for over ten days without permission can lead to heavy penalties and loss of pay.",
+ "h": "d097f847f792",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

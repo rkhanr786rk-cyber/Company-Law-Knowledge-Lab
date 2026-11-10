@@ -1,0 +1,33 @@
+{
+ "summary": "This section allows a Registrar or inspector to search for and seize a company's books and papers if they might be destroyed or hidden. They must first get an order from the Special Court. Any seized documents must generally be returned within one hundred and eighty days.",
+ "points": [
+  "The Registrar or inspector must have reasonable grounds to believe documents are likely to be destroyed, altered, or hidden.",
+  "An order from the Special Court is required before seizing any books and papers.",
+  "The officer can enter and search the place where the documents are kept.",
+  "The company is allowed to take copies or extracts of the seized documents at its own cost.",
+  "Seized documents must be returned within one hundred and eighty days, though this can be extended in writing."
+ ],
+ "example": "At Meera Textiles Private Limited, an inspector received a tip that the company's key records were about to be secretly destroyed by an employee to hide fraud. The inspector applied for and obtained an official order from the Special Court. Armed with this order, the inspector entered the office with necessary assistance and searched the premises. The inspector seized the essential accounting books and papers. Before taking them away, the company was given full permission to make copies of the documents at its own expense. The inspector must return these records to Meera Textiles within one hundred and eighty days, unless a written order is issued to keep them for a further period.",
+ "terms": [
+  {
+   "term": "Registrar",
+   "meaning": "A government official appointed to maintain company records and oversee compliance."
+  },
+  {
+   "term": "Inspector",
+   "meaning": "An official appointed to investigate company affairs."
+  },
+  {
+   "term": "Special Court",
+   "meaning": "A specific court designated to handle certain legal cases."
+  },
+  {
+   "term": "Secreted",
+   "meaning": "Hidden away or concealed."
+  }
+ ],
+ "watch": "Do not assume documents can be kept forever, as they must normally be returned within one hundred and eighty days unless a written order extends the time.",
+ "h": "4922e0503fbb",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

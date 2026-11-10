@@ -1,0 +1,29 @@
+{
+ "summary": "This section protects certain officials and authorized persons from being sued or prosecuted. It applies if they cause loss or damage while doing their official duties. The key condition is that their actions must be done in good faith under this Act.",
+ "points": [
+  "No legal suit or prosecution can be filed against the Tribunal or the Appellate Tribunal.",
+  "Protection covers the President, Chairperson, Members, officers, and employees.",
+  "Protection also extends to liquidators and any other authorized persons.",
+  "The act that caused loss or damage must be done or intended in good faith.",
+  "The action must be in pursuance of this Act."
+ ],
+ "example": "Anand works as an officer for the Tribunal. While doing his official duties under the Companies Act, 2013, he orders the inspection of documents at Apex Traders Private Limited. During the lawful inspection, some office equipment is accidentally damaged. Apex Traders Private Limited threatens to sue Anand for the loss. Because Anand acted honestly and in good faith while carrying out his official duties, this section protects him from any suit, prosecution, or legal proceeding for the damage caused.",
+ "terms": [
+  {
+   "term": "Suit",
+   "meaning": "A civil legal action started in a court by one person or group against another."
+  },
+  {
+   "term": "Prosecution",
+   "meaning": "The institution and conducting of legal proceedings against someone in respect of a criminal charge."
+  },
+  {
+   "term": "In good faith",
+   "meaning": "Acting honestly, with good intentions, and without any fraudulent purpose."
+  }
+ ],
+ "watch": "This section does not protect people if their actions are dishonest or done with bad intentions.",
+ "h": "2437f7330c90",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

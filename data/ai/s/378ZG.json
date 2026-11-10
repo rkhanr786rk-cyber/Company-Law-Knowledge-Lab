@@ -1,0 +1,30 @@
+{
+ "summary": "This section sets out extra reporting duties for an auditor of a Producer Company. The auditor must report on specific financial matters like debts, cash, assets, loans to directors, and donations alongside normal duties. These rules help ensure clear and honest record-keeping for the company members.",
+ "points": [
+  "The auditor must report the amount of debts due and give particulars of any bad debts.",
+  "The auditor must verify the cash balance and securities held by the company.",
+  "The auditor must provide details of all assets and liabilities.",
+  "The auditor must report any transactions that go against the rules of this Chapter.",
+  "The auditor must report any loans given by the company to its directors.",
+  "The auditor must report on donations or subscriptions given by the company, plus any other matter the auditor finds necessary."
+ ],
+ "example": "Meera Textiles Producer Company Limited appointed Mr. Sharma as its auditor to review the yearly accounts. While checking the records, Mr. Sharma found that the company had given a large loan to one of its directors, and also made several donations to local clubs. Under Section 378ZG, Mr. Sharma must include these specific details about the director loans and donations in his audit report, along with checking the cash balance, verifying the debts due, and listing all company assets and liabilities. This ensures that the members of Meera Textiles Producer Company Limited are fully aware of these financial dealings.",
+ "terms": [
+  {
+   "term": "Producer Company",
+   "meaning": "A body corporate registered under the Act relating to certain types of primary production."
+  },
+  {
+   "term": "Securities",
+   "meaning": "Financial instruments like stocks, bonds, or other forms of investments held by the company."
+  },
+  {
+   "term": "Liabilities",
+   "meaning": "The debts and financial obligations that a company owes to others."
+  }
+ ],
+ "watch": "Do not assume these duties replace standard audits, as they apply in addition to regular auditor duties.",
+ "h": "676db9421c52",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

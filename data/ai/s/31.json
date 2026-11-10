@@ -1,0 +1,30 @@
+{
+ "summary": "Certain companies can file a single prospectus called a shelf prospectus when they first offer securities. This prospectus remains valid for up to one year for later offers, meaning no new prospectus is needed for those subsequent issues. When making later offers, the company must file an information memorandum detailing recent financial changes and new charges.",
+ "points": [
+  "Eligible companies can file a shelf prospectus with the Registrar at the time of their first offer of securities.",
+  "The shelf prospectus stays valid for a period not exceeding one year starting from the date the first offer opens.",
+  "Companies do not need to issue a new prospectus for second or subsequent offers made during the validity period.",
+  "A company making a later offer must file an information memorandum with the Registrar beforehand.",
+  "If applicants want to withdraw after being notified of changes, the company must refund their advance money within fifteen days.",
+  "The shelf prospectus together with the information memorandum is deemed to be a prospectus."
+ ],
+ "example": "Meera Textiles Private Limited decides to issue shares to the public and files a shelf prospectus with the Registrar, stating it is valid for one year. Six months later, the company wants to issue more shares under the same prospectus. Before doing so, Meera Textiles files an information memorandum detailing recent changes in its financial position. Meanwhile, Investor Rohan has already paid an advance for the new shares, but upon learning about the recent changes, he wishes to withdraw his application. Meera Textiles promptly refunds all the money received from Rohan within fifteen days of his request.",
+ "terms": [
+  {
+   "term": "Shelf prospectus",
+   "meaning": "A prospectus used to issue securities in one or more issues over a certain period without needing a further prospectus."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "The official authority where company documents must be filed."
+  },
+  {
+   "term": "Information memorandum",
+   "meaning": "A document containing material facts about new charges and financial changes that a company must file before making a subsequent offer."
+  }
+ ],
+ "watch": "Remember that a shelf prospectus is valid for a maximum of one year, and companies must still file an information memorandum before every later offer.",
+ "h": "4d20b11c248d",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

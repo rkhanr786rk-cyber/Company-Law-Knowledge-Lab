@@ -1,0 +1,33 @@
+{
+ "summary": "This section explains how a Company Liquidator must update the Tribunal on how the winding up of a company is going. The liquidator has to give these progress reports regularly, and at least once every quarter. The Tribunal can also review and change its own earlier orders if the liquidator asks it to.",
+ "points": [
+  "The Company Liquidator must make periodical reports to the Tribunal about the progress of winding up.",
+  "A progress report must be made at least at the end of every quarter.",
+  "The reports must be in the form and manner that are prescribed.",
+  "The Company Liquidator can apply to the Tribunal to review its previous orders.",
+  "The Tribunal is allowed to make modifications to its orders after a review."
+ ],
+ "example": "In NewTech Solutions Private Limited, the winding up process is currently ongoing. Mr. Sharma, the Company Liquidator appointed for the case, is preparing his paperwork. He must submit a progress report to the Tribunal since the end of the quarter has arrived. Later, Mr. Sharma realizes that a previous order made by the Tribunal needs a slight change to help speed up the process. Therefore, he files an official application asking the Tribunal to review and modify that specific order, which the Tribunal has the power to do under this law.",
+ "terms": [
+  {
+   "term": "Company Liquidator",
+   "meaning": "The person appointed to run the winding up process of a company."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "The judicial body handling company law matters, specifically the National Company Law Tribunal."
+  },
+  {
+   "term": "Quarter",
+   "meaning": "A three-month period in the year."
+  },
+  {
+   "term": "Review",
+   "meaning": "To look at an order again to see if it should be changed."
+  }
+ ],
+ "watch": "Note that section 289 has been omitted and is no longer part of the active law.",
+ "h": "60cd53ed5d81",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

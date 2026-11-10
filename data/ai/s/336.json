@@ -1,0 +1,34 @@
+{
+ "summary": "This section sets out the offences committed by current or past officers of a company that is being wound up by the Tribunal. It requires such officers to honestly disclose property, hand over assets and books, and prohibits fraud, concealment, or false entries. If an officer proves they had no intent to defraud or hide the truth, it is a good defence.",
+ "points": [
+  "Must fully and truly disclose all movable and immovable property of the company to the Company Liquidator.",
+  "Must deliver up all company property, books, and papers that are in their custody or control.",
+  "Must not conceal, fraudulently remove, destroy, or falsify company property, books, or papers.",
+  "Must not obtain property on credit through false representation or pretend the company is carrying on business to get unpaid credit.",
+  "Must inform the Company Liquidator within one month if they know a false debt has been proved.",
+  "Must not account for company property using fictitious losses or expenses."
+ ],
+ "example": "Mr. Sharma was an officer of Meera Textiles Private Limited, which was ordered to be wound up by the Tribunal. During the winding up process, the Company Liquidator asked Mr. Sharma to hand over all company books and papers. Mr. Sharma purposely hid several financial ledgers in his garage to cover up company losses. He also failed to tell the liquidator about a fake debt that someone claimed from the company, even though he knew it was false. Because Mr. Sharma hid these records and ignored the false debt, he faced punishment under the law.",
+ "terms": [
+  {
+   "term": "winding up",
+   "meaning": "The process of closing down a company and settling its affairs."
+  },
+  {
+   "term": "Company Liquidator",
+   "meaning": "The person appointed to run the winding up process and take control of the company assets."
+  },
+  {
+   "term": "mutilates",
+   "meaning": "To damage, destroy, or ruin a part of a document or book."
+  },
+  {
+   "term": "fictitious",
+   "meaning": "Fake, false, or not real."
+  }
+ ],
+ "watch": "It is a good defence if the accused proves they had no intent to defraud or conceal the true state of affairs.",
+ "h": "c712ead903d9",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

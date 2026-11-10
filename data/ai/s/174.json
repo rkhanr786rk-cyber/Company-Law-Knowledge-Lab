@@ -1,0 +1,33 @@
+{
+ "summary": "This section explains the quorum, or minimum number of directors needed, for a board meeting. It details what happens if directors are attending through video, if seats are vacant, or if many directors are interested parties. If a meeting lacks a quorum, it automatically postpones to the following week.",
+ "points": [
+  "The quorum for a board meeting is one-third of the total strength or two directors, whichever is higher.",
+  "Directors attending via video conferencing or audio visual means count toward the quorum.",
+  "If the number of directors drops below the quorum, remaining directors can only act to add more directors or call a general meeting.",
+  "If most directors are interested parties, the quorum is at least two disinterested directors present at the meeting.",
+  "If a meeting fails due to no quorum, it automatically adjourns to the same day, time, and place in the next week, unless company rules say otherwise."
+ ],
+ "example": "Meera Textiles Private Limited has a board with a total strength of six directors. For their regular board meeting, two directors attend in person and one director joins through video conferencing, making a total of three participants. Since one-third of six is two, and two is lower than three, the quorum requirement of at least two directors is met, and the meeting can lawfully proceed. Any fraction when calculating total strength is rounded off as one, and vacant seats are not counted in the total strength.",
+ "terms": [
+  {
+   "term": "Quorum",
+   "meaning": "The minimum number of members who must be present to make the proceedings of a meeting valid."
+  },
+  {
+   "term": "Video conferencing",
+   "meaning": "Participating in a meeting through live video and audio technology from a different location."
+  },
+  {
+   "term": "Interested director",
+   "meaning": "A director who has a personal or financial interest in the matter being discussed, as defined by the law."
+  },
+  {
+   "term": "National holiday",
+   "meaning": "A public holiday recognized nationwide, which affects when an adjourned meeting can take place."
+  }
+ ],
+ "watch": "Remember that fractional numbers in the total strength calculation are always rounded off as one.",
+ "h": "9f3f5145cfb4",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

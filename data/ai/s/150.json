@@ -1,0 +1,33 @@
+{
+ "summary": "This section explains how companies can find and choose independent directors using a special list or data bank. The Central Government can notify an expert body to maintain this list on a website with details of eligible people. However, the company itself must carefully check and confirm the person is suitable before choosing them.",
+ "points": [
+  "Independent directors may be chosen from a notified data bank that contains names, addresses, and qualifications.",
+  "The data bank is maintained on a website by a body, institute, or association notified by the Central Government.",
+  "The company making the appointment is fully responsible for exercising due diligence before selecting someone from the data bank.",
+  "The appointment must be approved by the company in a general meeting.",
+  "The notice for the general meeting must include an explanatory statement showing the justification for choosing that person."
+ ],
+ "example": "Alpha Motors Private Limited wants to appoint a new independent director to its board. The management visits the official website maintained by a government-notified institute and browses the data bank of eligible professionals. After finding a qualified candidate named Mr. Sharma, the directors of Alpha Motors carefully check his background to ensure he meets all requirements. Once satisfied, the company calls a general meeting of shareholders. In the notice sent for this meeting, the company includes an explanatory statement that gives the clear justification for choosing Mr. Sharma. Finally, the shareholders vote and approve his appointment during the general meeting.",
+ "terms": [
+  {
+   "term": "Independent director",
+   "meaning": "A board director who helps bring an outside, unbiased view to the company and does not have a close material relationship with it."
+  },
+  {
+   "term": "Due diligence",
+   "meaning": "Careful investigation and checking done by a company before making a decision or entering into an agreement."
+  },
+  {
+   "term": "General meeting",
+   "meaning": "A formal gathering of a company's shareholders to discuss and vote on important matters."
+  },
+  {
+   "term": "Explanatory statement",
+   "meaning": "An added explanation attached to a meeting notice that gives extra details about the business to be discussed."
+  }
+ ],
+ "watch": "People often think the government chooses the independent director for the company, but the text makes it clear that the company must select the person and do its own due diligence.",
+ "h": "cfe5231b91c5",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

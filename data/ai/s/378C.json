@@ -1,0 +1,30 @@
+{
+ "summary": "This section explains how to form and register a Producer Company under the Act. It states who can start one, how the Registrar approves it, and sets rules for member liability and company status. A Producer Company operates like a private limited company but has no member limit and can never become a public limited company.",
+ "points": [
+  "Ten or more individuals who are producers, two or more Producer Institutions, or a mix can form a Producer Company.",
+  "The company must have objects specified in section 378B and follow registration rules.",
+  "The Registrar must register the documents and issue a certificate of incorporation within thirty days if requirements are met.",
+  "Members have limited liability based on the unpaid amount on their shares.",
+  "The company can repay promoters for direct costs of promotion and registration if approved at the first general meeting.",
+  "The company becomes a body corporate like a private limited company with no member limit and can never become a public limited company."
+ ],
+ "example": "A group of twelve apple farmers, along with one farming cooperative known as Agro Producers Institution, decided to form a Producer Company named Himachal Apple Growers Producer Company Limited. They prepared their memorandum and articles and submitted them to the Registrar. After checking all documents, the Registrar registered them and issued a certificate of incorporation within thirty days. During their first general meeting, the members voted to approve the repayment of legal fees and printing costs to the promoters. The new company was established as a body corporate functioning like a private limited company with unlimited member capacity, and it could never become a public limited company.",
+ "terms": [
+  {
+   "term": "Producer Institution",
+   "meaning": "Another producer company or any institution having objects similar to a Producer Company."
+  },
+  {
+   "term": "Certificate of Incorporation",
+   "meaning": "An official document issued by the Registrar that creates the company as a legal body."
+  },
+  {
+   "term": "Body corporate",
+   "meaning": "A legal term meaning the company has a separate legal identity from its members."
+  }
+ ],
+ "watch": "Even though a Producer Company acts like a private limited company, it never becomes a public limited company and has no limit on its number of members.",
+ "h": "31be3bcc2bc8",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

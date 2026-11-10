@@ -1,0 +1,29 @@
+{
+ "summary": "Certain companies must appoint an internal auditor to check their functions and activities. This person can be a chartered accountant, a cost accountant, or another professional chosen by the Board. The Central Government sets the rules for how often this audit happens and how it is reported.",
+ "points": [
+  "Certain classes of companies must appoint an internal auditor.",
+  "The internal auditor can be a chartered accountant, a cost accountant, or another professional decided by the Board.",
+  "The auditor conducts an internal audit of the company's functions and activities.",
+  "The Central Government may make rules about how and when the audit is done.",
+  "The internal audit must be reported to the Board according to government rules."
+ ],
+ "example": "Meera Textiles Private Limited falls under the class of companies required by the rules to have an internal audit. The Board of Directors meets to choose a qualified professional for the job. They decide to appoint Mr. Sharma, who is a chartered accountant, to act as the internal auditor. Mr. Sharma reviews the various functions and activities of Meera Textiles Private Limited to ensure proper internal checks. Once his work is complete, he prepares a report and submits it to the Board of Directors following the intervals and manner prescribed by the Central Government.",
+ "terms": [
+  {
+   "term": "Chartered accountant",
+   "meaning": "An accounting professional who has official training and certification in financial matters."
+  },
+  {
+   "term": "Cost accountant",
+   "meaning": "An accounting professional specialized in analyzing and managing business costs."
+  },
+  {
+   "term": "Board",
+   "meaning": "The group of directors chosen to manage the affairs of a company."
+  }
+ ],
+ "watch": "Do not assume all companies need an internal auditor, as the law applies only to prescribed classes of companies.",
+ "h": "97c0623a1a37",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

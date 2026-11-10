@@ -1,0 +1,34 @@
+{
+ "summary": "This section explains the minimum number of members required to be present at a company meeting, which is called a quorum. It tells us what happens if this minimum number is not present on time. It also covers the rules for delaying a meeting and what to do if the quorum is still missing at the next meeting.",
+ "points": [
+  "A public company needs five, fifteen, or thirty members personally present depending on its total member count, unless its articles require a larger number.",
+  "A private company needs two members personally present, unless its articles require a larger number.",
+  "If the quorum is missing within half an hour, the meeting is postponed to the same day next week or to a date decided by the Board.",
+  "If a meeting called by requisitionists lacks a quorum, it is cancelled instead of being postponed.",
+  "The company must give at least three days notice for an adjourned meeting by individual notice or newspaper advertisements.",
+  "If the quorum is still absent at the adjourned meeting after half an hour, the members who are present will form the valid quorum."
+ ],
+ "example": "Aarav Industries Public Limited has eight hundred members on the date of its annual general meeting. According to the rules, a minimum of five members must be personally present to form a quorum and start the meeting. On the day of the event, only three members arrive on time. The meeting cannot begin. Because the required quorum is not present within half an hour from the scheduled time, the meeting stands adjourned to the same day in the next week at the same time and place. The company must then give not less than three days notice to the members individually or through local English and vernacular newspapers.",
+ "terms": [
+  {
+   "term": "Quorum",
+   "meaning": "The minimum number of members who must be present to lawfully conduct a meeting."
+  },
+  {
+   "term": "Articles",
+   "meaning": "The document containing the internal rules and regulations of a company."
+  },
+  {
+   "term": "Adjourned",
+   "meaning": "Put off or delayed to a later time or date."
+  },
+  {
+   "term": "Requisitionists",
+   "meaning": "Members who officially request or demand that a meeting be called."
+  }
+ ],
+ "watch": "Note that meetings called by requisitionists are cancelled if quorum is missing, unlike other meetings which are simply adjourned.",
+ "h": "2f219c73a3a3",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,28 @@
+{
+ "summary": "When a company is officially dissolved by the Registrar, it stops working as a company from the date given in the notice. Its Certificate of Incorporation is treated as cancelled. However, it can still collect money owed to it and pay off its debts and obligations.",
+ "points": [
+  "The company stops functioning as a company on the date stated in the dissolution notice.",
+  "The Certificate of Incorporation is considered cancelled from that date.",
+  "The company remains active solely to collect money due to it.",
+  "The company remains active to pay or clear its debts and obligations."
+ ],
+ "example": "Alpha Logistics Private Limited was officially dissolved and its name was removed from the register of companies, with the notice stating a specific date for closure. Rahul, a former director, checked the status and realized the company could no longer run its normal transport business or sign new contracts from that date onwards. However, a client still owed money to Alpha Logistics for services provided before the closure. Rahul correctly understood that the company was legally allowed to collect this pending payment. Furthermore, the company used these recovered funds to clear the remaining unpaid bills owed to its suppliers, as settling liabilities is permitted even after dissolution.",
+ "terms": [
+  {
+   "term": "dissolved",
+   "meaning": "Officially closed or ended."
+  },
+  {
+   "term": "Certificate of Incorporation",
+   "meaning": "The official document that proves a company has been legally created."
+  },
+  {
+   "term": "liabilities",
+   "meaning": "Debts or money owed to others."
+  }
+ ],
+ "watch": "Do not confuse the total closure of normal business operations with the limited power to collect money and pay off debts.",
+ "h": "2699adcd5fce",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

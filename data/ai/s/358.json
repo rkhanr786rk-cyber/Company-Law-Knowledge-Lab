@@ -1,0 +1,28 @@
+{
+ "summary": "This section explains how to calculate the time limit for filing lawsuits or applications for a company that is being closed down by the Tribunal. It allows certain time to be ignored, or excluded, so the company does not lose its right to take legal action. This rule applies even if other laws say differently.",
+ "points": [
+  "Applies to companies being wound up by the Tribunal.",
+  "Affects the time period allowed for any suit or application in the name of the company.",
+  "Excludes a specific time period when calculating the time limit.",
+  "The excluded time runs from the start of the winding up until one year after the winding up order."
+ ],
+ "example": "Meera Textiles Private Limited is undergoing a winding up process ordered by the Tribunal. Before the winding up started, the company had a pending legal dispute to recover money from a customer. When calculating the time limit to file this lawsuit, the company does not have to count the time that passed between the start of the winding up and the one-year mark following the winding up order. This gives the company extra time to protect its legal rights despite standard time limits in other laws.",
+ "terms": [
+  {
+   "term": "Limitation Act, 1963",
+   "meaning": "A law that sets time limits for filing legal cases."
+  },
+  {
+   "term": "Winding up",
+   "meaning": "The legal process of closing down a company and settling its affairs."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A legal body appointed to handle specific cases, such as company closures."
+  }
+ ],
+ "watch": "People often confuse the start of the winding up with the date of the winding up order, but the rule includes time up to one full year after the order.",
+ "h": "6b534d261182",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

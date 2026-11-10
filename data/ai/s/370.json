@@ -1,0 +1,27 @@
+{
+ "summary": "This section explains what happens to ongoing court cases when a company registers under this part of the Act. Such pending lawsuits can continue normally as if the registration never happened. However, individual members are protected from personal seizure of property, and instead, the company may be wound up if its property cannot pay the debt.",
+ "points": [
+  "Allows ongoing lawsuits by or against the company, public officer, or member to continue normally after registration.",
+  "Forbids execution against the property or person of any individual member based on a decree or order from these suits.",
+  "Requires the company to be wound up if its property is not enough to satisfy a decree or order."
+ ],
+ "example": "Meera Textiles Private Limited was involved in a pending court case with a supplier before it decided to register under this new part of the Companies Act, 2013. According to the law, this lawsuit can simply continue just as it did before the registration took place. Later, the court issued an order requiring the company to pay a certain amount. The company property was not enough to pay this amount, but the court could not seize the personal property of Rohit, who is an individual member of Meera Textiles. Instead, because the company property was insufficient, an order was obtained to wind up the company.",
+ "terms": [
+  {
+   "term": "Suit",
+   "meaning": "A legal case brought to a court."
+  },
+  {
+   "term": "Execution",
+   "meaning": "The enforcement of a court judgment or order."
+  },
+  {
+   "term": "Winding up",
+   "meaning": "The process of closing down a company and settling its affairs."
+  }
+ ],
+ "watch": "Do not confuse the continuation of a lawsuit with personal liability, as individual members are protected from having their personal property seized.",
+ "h": "0cbe720cd2de",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

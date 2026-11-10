@@ -1,0 +1,30 @@
+{
+ "summary": "Certain members of a company can offer their shares to the public with the help of the Board of Directors. The document used for this public offer is officially treated as a prospectus issued by the company. The members must authorize the company to handle all actions for the offer and pay back any expenses the company spends on it.",
+ "points": [
+  "Certain members may offer all or part of their shares to the public in consultation with the Board of Directors.",
+  "The offer must follow the procedure prescribed by law.",
+  "The document used to make the offer of sale is legally considered a prospectus issued by the company.",
+  "All laws and rules about prospectus contents and liabilities for misstatements or omissions apply to this offer document.",
+  "Members whose shares are offered must collectively authorize the company to act on their behalf for the offer.",
+  "Members must reimburse the company for all expenses the company incurs regarding the offer."
+ ],
+ "example": "Meera Textiles Private Limited had a few shareholders who wanted to sell some of their shares to the general public. These members consulted the Board of Directors to plan the offer. They used an official document to make the public offer. Because of the law, this document was treated just like a prospectus issued directly by Meera Textiles Private Limited. The rules regarding prospectus contents and liabilities applied to it. To make things smooth, the shareholders collectively gave authorization to Meera Textiles Private Limited to handle all necessary actions for the sale on their behalf. Later, the company billed the shareholders, and the shareholders reimbursed the company for all the expenses it incurred for this matter.",
+ "terms": [
+  {
+   "term": "Board of Directors",
+   "meaning": "The group of people chosen to manage the business affairs of a company."
+  },
+  {
+   "term": "Prospectus",
+   "meaning": "An official document used to invite the public to buy shares."
+  },
+  {
+   "term": "Body corporate",
+   "meaning": "A legal term for a corporation or company."
+  }
+ ],
+ "watch": "Even though the shares belong to individual members, the document used to sell them is legally treated as if the company itself issued a prospectus.",
+ "h": "2ccbcf57e6e4",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

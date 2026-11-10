@@ -1,0 +1,29 @@
+{
+ "summary": "This section requires foreign companies that set up a place of business in India to register several official documents and details with the Registrar within thirty days. It also requires them to update the Registrar within thirty days if any of those documents change. Existing foreign companies from older laws must still fulfill their previous obligations.",
+ "points": [
+  "A foreign company must deliver specific documents and details to the Registrar within thirty days of setting up a place of business in India.",
+  "Required documents include a certified copy of its constitution, its office addresses, lists of directors and secretary, and details of an authorized person in India.",
+  "The company must also provide a declaration that its directors and authorized representatives have never been convicted or debarred from forming or managing companies.",
+  "Older foreign companies that missed submitting documents under the old 1956 Act must still follow that older law's obligations.",
+  "If any changes happen to the submitted documents, the foreign company must report the alterations to the Registrar within thirty days."
+ ],
+ "example": "Global Widget Corp, a business incorporated outside India, recently set up its first place of business in Mumbai, India. Within thirty days of opening this office, the company must deliver several items to the Registrar for registration. These include a certified English copy of its constitution, the full address of its principal office, a list of its directors, and the name of a person living in India who is authorized to accept official notices. Additionally, Global Widget Corp must submit a declaration stating that none of its directors have ever been convicted or debarred from managing companies. If the company moves its principal Indian office later, it must report this change within thirty days.",
+ "terms": [
+  {
+   "term": "foreign company",
+   "meaning": "A company or body corporate incorporated outside India which has a place of business in India."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "An authority appointed by the government to handle company registrations and documents."
+  },
+  {
+   "term": "service of process",
+   "meaning": "The formal delivery of legal documents, such as summons or notices, to a person or company."
+  }
+ ],
+ "watch": "Make sure to note that both initial registration and later changes have a strict thirty-day deadline.",
+ "h": "a0004023bf41",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

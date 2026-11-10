@@ -1,0 +1,23 @@
+{
+ "summary": "This section explains that companies must pay a fee to the Registrar when they register documents. The exact amount of this fee is decided by the prescribed rules. It applies to documents that this specific chapter of the law requires to be registered.",
+ "points": [
+  "A fee must be paid to the Registrar for registering documents.",
+  "This rule applies only to documents required to be registered under this specific chapter.",
+  "The fee amount is not set in this section and is decided by prescribed rules."
+ ],
+ "example": "Global Trade Corporation Limited, a business incorporated outside India, needs to submit certain official documents to the Registrar as required by the law. Before the Registrar accepts and registers these papers, the company must pay the required registration fee. Rohan, the manager, checks the prescribed rules to find out how much money the company needs to pay. Once the correct fee is calculated and paid to the Registrar, the documents are officially registered. The company does not need to guess the amount because the prescribed rules state the exact fee required for the process.",
+ "terms": [
+  {
+   "term": "Registrar",
+   "meaning": "An official who keeps the records of companies."
+  },
+  {
+   "term": "Prescribed",
+   "meaning": "Decided by the rules made under the law."
+  }
+ ],
+ "watch": "Do not assume the fee amount is written in this section, as it is left to be decided by prescribed rules.",
+ "h": "b2e1aa40176b",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

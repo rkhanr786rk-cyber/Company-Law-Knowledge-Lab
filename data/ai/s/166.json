@@ -1,0 +1,34 @@
+{
+ "summary": "Section 166 of the Companies Act, 2013 outlines the legal duties of a company director. A director must follow the company rules, act honestly for the benefit of everyone involved, and use careful judgment. A director is also forbidden from having conflicting interests, making unfair personal gains, or transferring their position to someone else.",
+ "points": [
+  "A director must act according to the articles of the company.",
+  "A director must act in good faith to promote the company objects for members, employees, shareholders, community, and the environment.",
+  "A director must use reasonable care, skill, diligence, and independent judgment.",
+  "A director must avoid situations where their personal interests conflict with the company interests.",
+  "A director must not achieve undue gain for themselves, relatives, partners, or associates, and must pay back any such gain.",
+  "A director cannot assign their office to another person, and any such assignment is void."
+ ],
+ "example": "Aman is a director at Meera Textiles Private Limited. The company rulebook requires directors to approve all fabric purchases jointly. Aman decides to buy cheaper fabric from a factory owned by his brother without telling the board, aiming to secure a secret bonus for himself. This situation creates a direct conflict of interest and an unfair advantage. Under the law, Aman must not make such undue gains, his actions violate his duties, and he must return any improper gain he received to Meera Textiles Private Limited.",
+ "terms": [
+  {
+   "term": "Articles",
+   "meaning": "The rulebook or document that sets out the internal management rules of a company."
+  },
+  {
+   "term": "Good faith",
+   "meaning": "Acting honestly and with sincere intention without trying to cheat anyone."
+  },
+  {
+   "term": "Diligence",
+   "meaning": "Careful and persistent work or effort."
+  },
+  {
+   "term": "Void",
+   "meaning": "Completely empty, invalid, and having no legal effect."
+  }
+ ],
+ "watch": "A director cannot transfer their official position to another person under any circumstance.",
+ "h": "02af191b6ea2",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

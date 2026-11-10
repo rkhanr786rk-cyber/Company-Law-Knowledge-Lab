@@ -1,0 +1,33 @@
+{
+ "summary": "This section of the law explains how a company's Board of Directors can appoint special types of directors. These include additional directors, alternate directors for members who are away, nominee directors representing governments or institutions, and directors to fill sudden casual vacancies. Each type of appointment follows specific rules based on the company rules and the Act.",
+ "points": [
+  "The Board may appoint an additional director if permitted by the company articles, provided that person did not fail to get appointed at a general meeting.",
+  "An alternate director can be appointed to temporarily take the place of a director who is absent from India for a certain period.",
+  "A person can be appointed as a nominee director by an institution, agreement, or government based on shareholding.",
+  "The Board can fill a casual vacancy when a director leaves office early, subject to later approval by members.",
+  "An additional director holds office only until the date of the next annual general meeting or the last date it should have been held, whichever is earlier."
+ ],
+ "example": "Meera Textiles Private Limited wanted to bring in extra help on their Board. Since their company rules allowed it, the Board appointed Mr. Sharma as an additional director. He could only stay in office until the next annual general meeting. Meanwhile, one of their main directors, Ms. Patel, had to travel outside India for a long absence of not less than three months. To handle her duties while she was away, the Board used their authority to appoint Mr. Khan as an alternate director for her. However, the moment Ms. Patel returned to India, Mr. Khan had to vacate his office. Later, when another regular director left office early, the Board filled that casual vacancy at a meeting, subject to approval by members at the next general meeting.",
+ "terms": [
+  {
+   "term": "articles",
+   "meaning": "The rulebook of a company that sets out its internal management and regulations."
+  },
+  {
+   "term": "alternate director",
+   "meaning": "A person appointed to act temporarily for a regular director during their absence."
+  },
+  {
+   "term": "nominee director",
+   "meaning": "A director put in place by an institution, agreement, or government."
+  },
+  {
+   "term": "casual vacancy",
+   "meaning": "An empty seat on the Board created when a director's office is vacated before their normal term ends."
+  }
+ ],
+ "watch": "An alternate director must automatically leave office as soon as the original director returns to India.",
+ "h": "9a627a431491",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

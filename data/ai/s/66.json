@@ -1,0 +1,30 @@
+{
+ "summary": "This section explains how a company can reduce its share capital by passing a special resolution and getting confirmation from the Tribunal. It allows a company to cancel unpaid liability on shares, wipe out lost capital, or pay back extra money to shareholders. The company must follow strict rules regarding creditors, government notice, and accounting standards.",
+ "points": [
+  "A company can reduce its share capital by passing a special resolution and getting Tribunal confirmation.",
+  "Reduction is forbidden if the company is behind on repaying deposits or interest.",
+  "The Tribunal gives notice to the Central Government, Registrar, SEBI for listed companies, and creditors, who have three months to respond.",
+  "The company must provide an auditor certificate showing the accounting treatment follows the required standards.",
+  "The company must file the Tribunal order and a special minute with the Registrar within thirty days.",
+  "Buy-backs under section 68 are not covered by these rules."
+ ],
+ "example": "Meera Textiles Private Limited wanted to reduce its share capital because it had paid-up share capital that was much more than the company needed. First, the company passed a special resolution to approve the reduction. Next, they applied to the Tribunal for confirmation. The Tribunal sent notices to the Central Government, the Registrar, and the company's creditors to check for any objections. After getting a certificate from the company's auditor confirming that the accounting treatment was correct, and ensuring all debts were addressed, the Tribunal approved the plan. Finally, Meera Textiles delivered a certified copy of the Tribunal order and an approved minute to the Registrar within the required time.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "The official legal body that handles company law cases and gives approvals."
+  },
+  {
+   "term": "Special resolution",
+   "meaning": "A formal decision passed by a special, high majority of shareholders."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "The government official who keeps records of companies."
+  }
+ ],
+ "watch": "Check carefully that the company is not behind on any deposit repayments before starting the reduction process.",
+ "h": "398cc21b6bf9",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,30 @@
+{
+ "summary": "This section explains what happens if a company is registered with a name that is too similar to an existing company name or a registered trade mark. The Central Government can direct the company to change its name within a specific time limit. If the company fails to follow the direction or the rules, fines will apply.",
+ "points": [
+  "The Central Government can direct a company to change its name if it is identical to or too nearly resembles an existing company name.",
+  "A company must change its name within three months of the Central Government's direction after passing an ordinary resolution.",
+  "A registered trade mark owner can apply to the Central Government within three years of a company's registration if the company name is identical or too nearly resembles their trade mark.",
+  "If directed based on a trade mark, the company must change its name within six months after passing an ordinary resolution.",
+  "The company must notify the Registrar within fifteen days of the name change along with the government order.",
+  "Fines apply if the company fails to comply with the direction to change its name."
+ ],
+ "example": "Meera Textiles Private Limited was recently registered with a new name. Soon after, the Central Government realized that this name is almost identical to the name of another company that was already in existence. Therefore, the Central Government directed Meera Textiles Private Limited to change its name. To follow this order, the company must adopt an ordinary resolution and change its name within a period of three months from the issue of the direction. Once the name is changed, the company must give notice of this change to the Registrar within fifteen days along with the government order, so the necessary changes can be made in the certificate of incorporation and the memorandum.",
+ "terms": [
+  {
+   "term": "Ordinary resolution",
+   "meaning": "A decision passed by a simple majority of members in a meeting."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "The government official who keeps records of companies."
+  },
+  {
+   "term": "Memorandum",
+   "meaning": "The foundational document that sets up a company and states its objects."
+  }
+ ],
+ "watch": "Keep in mind that the time period to change a name is three months for similar company names, but six months if the direction is based on a trade mark.",
+ "h": "7190cf764a39",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

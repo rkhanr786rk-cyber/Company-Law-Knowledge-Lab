@@ -1,0 +1,34 @@
+{
+ "summary": "This section allows people who are unhappy with a decision made by the Tribunal to file an appeal with the Appellate Tribunal. However, you cannot appeal an order that all parties agreed to in the first place. Appeals must usually be filed within forty-five days, though a short extension is possible if there is a good reason.",
+ "points": [
+  "Any person who is unhappy with a Tribunal order can appeal to the Appellate Tribunal.",
+  "Appeals are not allowed against orders made with the consent of all parties.",
+  "An appeal must be filed within forty-five days of receiving the Tribunal order copy, using the required form and fees.",
+  "The Appellate Tribunal can allow a delayed appeal up to an additional forty-five days if a good reason is proven.",
+  "The Appellate Tribunal must hear the parties before confirming, changing, or canceling the original order.",
+  "A copy of the Appellate Tribunal order must be sent to the Tribunal and the parties involved."
+ ],
+ "example": "Aarav Patel disagreed with a final decision made by the Tribunal regarding Rohan Textiles Private Limited. Because he was unhappy with the outcome and had not agreed to it, Aarav decided to challenge the decision. Within the forty-five-day time limit, he filed an appeal in the proper form along with the required fees to the Appellate Tribunal. The Appellate Tribunal gave both sides a fair chance to speak. Afterward, the Appellate Tribunal decided to modify the original order and sent official copies of its new decision to both Aarav and the Tribunal.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "The National Company Law Tribunal, which makes official decisions on company disputes."
+  },
+  {
+   "term": "Appellate Tribunal",
+   "meaning": "A higher body that has the power to review and change decisions made by the Tribunal."
+  },
+  {
+   "term": "Aggrieved",
+   "meaning": "Feeling hurt, harmed, or unfairly treated by an official decision."
+  },
+  {
+   "term": "Sufficient cause",
+   "meaning": "A good, valid reason that explains why something could not be done on time."
+  }
+ ],
+ "watch": "People often confuse the initial forty-five-day deadline with the maximum possible extension period.",
+ "h": "3016adc42e82",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

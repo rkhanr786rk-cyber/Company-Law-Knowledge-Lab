@@ -1,0 +1,27 @@
+{
+ "summary": "This section makes sure that company officers cannot escape punishment for past crimes just because their company merges or is bought by another. Even after a merger, amalgamation, or acquisition, the officers who broke the rules remain responsible for those offences. This rule applies despite any other laws currently in force.",
+ "points": [
+  "Applies to officers in default of the transferor company.",
+  "Covers offences committed under the Companies Act prior to a merger, amalgamation, or acquisition.",
+  "Ensures that liability for past offences continues even after the corporate structure changes."
+ ],
+ "example": "Sunrise Logistics Private Limited was facing an investigation for violating certain rules under the Companies Act due to the actions of its director, Mr. Sharma. Before the investigation concluded, Sunrise Logistics merged with a larger firm, Apex Transport Limited. Mr. Sharma assumed that the merger would wipe the slate clean and that he would no longer be held responsible for the past violations. However, under this law, Mr. Sharma's liability for the offences he committed before the merger continues unchanged, and he remains fully accountable for his actions despite the company no longer existing in its original form.",
+ "terms": [
+  {
+   "term": "Officer in default",
+   "meaning": "An officer of a company who is legally responsible for a violation or offence."
+  },
+  {
+   "term": "Transferor company",
+   "meaning": "The original company that merges into, is amalgamated with, or is acquired by another company."
+  },
+  {
+   "term": "Amalgamation",
+   "meaning": "The combining of two or more companies into a single new entity."
+  }
+ ],
+ "watch": "Do not confuse the ongoing liability of individual officers for crimes with the transfer of company business assets and debts.",
+ "h": "155fd52e4c39",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

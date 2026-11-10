@@ -1,0 +1,29 @@
+{
+ "summary": "This section explains how the Appellate Tribunal forms groups called Benches to do its work. The Chairperson creates these Benches, and each Bench must include at least one Judicial Member and one Technical Member. The Central Government decides where these Benches sit and can set up special Benches to hear certain appeals.",
+ "points": [
+  "The Chairperson of the Appellate Tribunal constitutes the Benches.",
+  "Every Bench must have at least one Judicial Member and one Technical Member.",
+  "Benches normally sit in New Delhi or at other places notified by the Central Government.",
+  "The Central Government can establish additional Benches after consulting the Chairperson.",
+  "Special Benches may be set up to hear appeals under specific laws like the Competition Act and the Insolvency and Bankruptcy Code."
+ ],
+ "example": "A dispute arose involving Verma Logistics Private Limited, leading to an appeal under the Insolvency and Bankruptcy Code. To handle this case, the Chairperson of the Appellate Tribunal formed a new Bench. Following the legal requirement, this specific Bench was carefully put together to include both a Judicial Member and a Technical Member. Because the Central Government had issued a proper notification after consulting the Chairperson, the newly formed Bench was able to sit and hear the appeal outside of New Delhi at a designated location, ensuring the case moved forward smoothly according to the rules.",
+ "terms": [
+  {
+   "term": "Appellate Tribunal",
+   "meaning": "A higher body that reviews decisions and hears appeals."
+  },
+  {
+   "term": "Judicial Member",
+   "meaning": "A member of the tribunal with a legal background."
+  },
+  {
+   "term": "Technical Member",
+   "meaning": "A member of the tribunal with expert knowledge in a specific technical field."
+  }
+ ],
+ "watch": "Do not assume Benches can sit anywhere without a notification, as locations outside New Delhi must be notified by the Central Government.",
+ "h": "5217f1b83162",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

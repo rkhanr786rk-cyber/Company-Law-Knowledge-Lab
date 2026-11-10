@@ -1,0 +1,28 @@
+{
+ "summary": "This section requires a company to update every copy of its memorandum or articles whenever any changes are made to them. If a company fails to do this, it and the responsible officers must pay a specific money penalty for each unchanged copy they issue. This ensures that anyone reading these foundational documents always sees the most current rules.",
+ "points": [
+  "Every change made to the memorandum or articles must be written in every copy.",
+  "The rule applies to every single copy of the memorandum or articles issued by the company.",
+  "If the company fails to include the changes in a copy, it is considered a default under the law.",
+  "Both the company and any officer responsible for the mistake face a penalty for each faulty copy issued."
+ ],
+ "example": "Meera Textiles Private Limited recently updated its articles of association to change its main business rules. Rahul, an officer at the company, printed a batch of new booklet copies to hand out to new shareholders. However, Rahul forgot to include the recent changes in this new batch and distributed the old version. Because Meera Textiles Private Limited issued copies without noting the official alterations, the company and Rahul are liable to a penalty of one thousand rupees for every single copy issued in that incorrect batch.",
+ "terms": [
+  {
+   "term": "memorandum",
+   "meaning": "The main document that sets up a company and defines its powers and relationship with the outside world."
+  },
+  {
+   "term": "articles",
+   "meaning": "The document that contains the internal rules for running the company's daily business."
+  },
+  {
+   "term": "officer who is in default",
+   "meaning": "A company officer who is responsible for the legal violation or failure."
+  }
+ ],
+ "watch": "Remember that the penalty applies separately to every single copy issued without the update, not just as a single fine for the whole batch.",
+ "h": "7cbc770f78ef",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,23 @@
+{
+ "summary": "This section explains how higher courts handle appeals and revisions related to cases decided by Special Courts. It states that a High Court has the same powers under the Code of Criminal Procedure over a Special Court as it does over a regular Court of Session. In short, it connects the special company law courts to the usual criminal appeal system.",
+ "points": [
+  "Allows the High Court to use specific powers from the Code of Criminal Procedure.",
+  "Treats a Special Court like a regular Court of Session for appeal and revision purposes.",
+  "Applies these powers within the local limits of the High Court's jurisdiction."
+ ],
+ "example": "A Special Court found Rohan guilty of an offense related to his company, Apex Electronics Private Limited. Feeling that the judgment was incorrect, Rohan decided to challenge the decision. He filed an appeal with the High Court. Because of Section 437, the High Court has the power to hear his appeal. The High Court treats the Special Court just like it would treat a standard Court of Session when reviewing the case, using the rules found in the Code of Criminal Procedure, 1973.",
+ "terms": [
+  {
+   "term": "High Court",
+   "meaning": "The main court of law at the state level in India."
+  },
+  {
+   "term": "Court of Session",
+   "meaning": "A standard criminal court operating at the district level."
+  }
+ ],
+ "watch": "Do not assume this section creates new trial rules; it only deals with appeal and revision powers.",
+ "h": "3682b8a180c0",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

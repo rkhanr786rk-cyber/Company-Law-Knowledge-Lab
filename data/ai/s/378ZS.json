@@ -1,0 +1,34 @@
+{
+ "summary": "This section explains how a Producer Company that used to be an inter-State co-operative society can change back into one. It requires a special vote by members or a request from creditors, followed by approval from the Tribunal. The company must also disclose all important facts and file the final orders properly.",
+ "points": [
+  "A Producer Company that was once an inter-State co-operative society can apply to the Tribunal to change back.",
+  "The application needs either a two-thirds majority vote of members present and voting, or a request from creditors holding three-fourths of the total debt value.",
+  "The Tribunal will direct a meeting of members or creditors, and if a majority representing three-fourths in value agree, it can be binding.",
+  "The Tribunal must be fully satisfied that all material facts, like financial position and audit reports, have been disclosed before giving approval.",
+  "A certified copy of the Tribunal order must be filed with the Registrar and attached to future copies of the company constitution.",
+  "The company must apply for registration under the relevant co-operative laws within six months of the Tribunal sanction and report it."
+ ],
+ "example": "Aarohi Producer Company Limited started as an inter-State co-operative society years ago. Now, the members and creditors want to change it back. They hold a general meeting where at least two-thirds of the members present and voting pass a resolution to apply to the Tribunal. Alternatively, creditors representing three-fourths of the total value of creditors make a request. The Tribunal directs a meeting where three-fourths in value of the voters agree to the re-conversion. After the Tribunal checks their latest financial position and grants approval, Aarohi files the order with the Registrar and applies for registration under the Multi-State Co-operative Societies Act within six months.",
+ "terms": [
+  {
+   "term": "Producer Company",
+   "meaning": "A type of company formed by primary producers with the goal of improving their income and living standards."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A legal body set up to handle and decide specific disputes and applications under company law."
+  },
+  {
+   "term": "Affidavit",
+   "meaning": "A written statement confirmed by oath or affirmation, used as evidence in court."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "An official who maintains records of companies and handles official filings."
+  }
+ ],
+ "watch": "Watch out for the requirement that the re-conversion order only takes effect after a certified copy is filed with the Registrar.",
+ "h": "f8d756e5273d",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

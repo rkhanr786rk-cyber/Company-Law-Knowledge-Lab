@@ -1,0 +1,29 @@
+{
+ "summary": "This section sets the rules for issuing a prospectus in India for a company formed outside India. The prospectus must be dated, signed, and include specific details about the company's rules, incorporation, and addresses. Any rule trying to force an applicant to waive these requirements is void.",
+ "points": [
+  "No one shall issue, circulate, or distribute in India a prospectus for an outside company unless it is dated and signed.",
+  "The prospectus must contain specific particulars such as the company constitution, incorporation details, and addresses in India.",
+  "Any condition that forces an applicant to waive compliance with these requirements is void.",
+  "No application form for securities can be issued in India unless it comes with a compliant prospectus.",
+  "Certain exceptions apply for existing members, debenture holders, or uniform securities on a recognized stock exchange."
+ ],
+ "example": "Global Tech Ventures Limited, a company incorporated outside India, wanted to offer its shares to the public in India. Rahul received a prospectus offering these shares. The prospectus was properly dated and signed, and it clearly stated the address in India where Rahul could inspect the company constitution and its English translation. It also detailed the country and date of incorporation, along with other required matters. Rahul noticed a condition in the document asking him to waive his right to these specific disclosures, but the law states that such a waiver condition is void, protecting Rahul's right to full and proper information before applying for the securities.",
+ "terms": [
+  {
+   "term": "Prospectus",
+   "meaning": "A document inviting people to buy securities of a company."
+  },
+  {
+   "term": "Securities",
+   "meaning": "Financial instruments like shares or debentures issued by a company."
+  },
+  {
+   "term": "Void",
+   "meaning": "Having no legal force or effect, so it is completely invalid."
+  }
+ ],
+ "watch": "People often confuse whether these rules apply to existing members or debentures, but the section explicitly exempts them in certain cases.",
+ "h": "8cc864850e08",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,28 @@
+{
+ "summary": "This section explains how companies must issue and hold their shares or securities. It states that companies making a public offer must issue their securities in digital or dematerialised form. Other companies can also choose to use digital forms or stick to physical paper forms.",
+ "points": [
+  "Companies making a public offer must issue securities only in dematerialised form.",
+  "Certain prescribed classes of companies must also issue securities only in dematerialised form.",
+  "Certain prescribed unlisted companies must hold or transfer their securities only in dematerialised form.",
+  "Other companies not covered by the mandatory rules can choose to use dematerialised form or physical form."
+ ],
+ "example": "Meera Textiles Private Limited wants to offer its shares to the general public. Because the company is making a public offer, it cannot print paper share certificates. Instead, it must follow the rules of the Depositories Act, 1996, and issue all its securities in dematerialised, or digital, form. Meanwhile, Rohan Trading Limited, which is not making a public offer and is not part of the special prescribed classes, decides it wants to keep using physical paper certificates for its shares. Under the law, Rohan Trading Limited is allowed to issue its securities in physical form.",
+ "terms": [
+  {
+   "term": "dematerialised form",
+   "meaning": "Holding shares or securities in a digital or electronic account rather than as physical paper certificates."
+  },
+  {
+   "term": "public offer",
+   "meaning": "An invitation by a company to the general public to buy its shares or securities."
+  },
+  {
+   "term": "unlisted companies",
+   "meaning": "Companies whose shares are not traded on a recognised stock exchange."
+  }
+ ],
+ "watch": "Do not assume all companies must go digital; companies not making a public offer still have the choice to use physical forms.",
+ "h": "874e79b47b7c",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

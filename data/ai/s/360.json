@@ -1,0 +1,28 @@
+{
+ "summary": "This section explains the role and powers of the Official Liquidator under the law. The Official Liquidator must do the duties and use the powers given by the Central Government. They can also use the powers of a normal Company Liquidator and investigate matters related to winding up if ordered by the Tribunal or Central Government.",
+ "points": [
+  "The Official Liquidator must exercise powers and perform duties set by the Central Government.",
+  "The Official Liquidator has the power to use all or any powers given to a Company Liquidator.",
+  "The Official Liquidator can conduct inquiries or investigations when directed by the Tribunal.",
+  "The Official Liquidator can conduct inquiries or investigations when directed by the Central Government in respect of winding up matters."
+ ],
+ "example": "Zenith Ventures Limited is going through winding up proceedings. The Central Government directs the Official Liquidator to look into specific matters arising from these proceedings. Following the order, the Official Liquidator begins an inquiry. At the same time, the Official Liquidator uses the regular powers of a Company Liquidator to manage tasks during the winding up process, while also following all the duties prescribed by the Central Government.",
+ "terms": [
+  {
+   "term": "Official Liquidator",
+   "meaning": "An officer appointed to handle the winding up of a company."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A legal body or court set up to deal with specific cases, like company disputes."
+  },
+  {
+   "term": "Winding up",
+   "meaning": "The process of closing down a company and settling its affairs."
+  }
+ ],
+ "watch": "Note that the Official Liquidator gets investigation powers only when directed by the Tribunal or Central Government, not on their own.",
+ "h": "66de99defbb7",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,29 @@
+{
+ "summary": "If a company fails to hold its yearly meeting on time, any member can ask the Tribunal to step in. The Tribunal has the power to call this meeting itself or order someone to call it. It can also give special instructions, such as allowing just one member to count as a full meeting.",
+ "points": [
+  "Applies if a company fails to hold its annual general meeting under section 96.",
+  "Any member of the company can apply to the Tribunal.",
+  "The Tribunal may call the meeting or direct that it be called.",
+  "The Tribunal can give extra instructions it thinks are necessary, including that a single member present in person or by proxy makes a valid meeting.",
+  "A meeting held this way is officially treated as an annual general meeting."
+ ],
+ "example": "Meera Textiles Private Limited failed to hold its annual general meeting on time as required by the law. Rahul, a worried shareholder of the company, decided to take action. He filed an application with the Tribunal to get the meeting scheduled. The Tribunal accepted Rahul's application and ordered that a meeting be called. Because of unusual circumstances where other members could not attend, the Tribunal gave a special direction that Rahul alone, present in person, would be deemed to constitute the annual general meeting. Once held under these orders, this meeting was officially recognized as the company's valid annual general meeting under the Act.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized official body or court that handles specific legal disputes and matters."
+  },
+  {
+   "term": "Proxy",
+   "meaning": "A person authorized to represent and vote on behalf of a member at a meeting."
+  },
+  {
+   "term": "Ancillary",
+   "meaning": "Extra or supporting directions that help carry out the main order."
+  }
+ ],
+ "watch": "A common confusion is thinking that any member can call the meeting directly without the Tribunal, but the law requires the Tribunal to call it or order it.",
+ "h": "9b0a4158b5a4",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

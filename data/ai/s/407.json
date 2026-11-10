@@ -1,0 +1,33 @@
+{
+ "summary": "This section defines key words used in Chapter XXVII of the Companies Act, 2013. It explains who the leaders and members of the Tribunal and the Appellate Tribunal are. These definitions help make the rules in this chapter clear and easy to understand.",
+ "points": [
+  "Defines Chairperson as the head of the Appellate Tribunal.",
+  "Defines Judicial Member as a member appointed for legal tasks, including the President or Chairperson.",
+  "Defines Member as any Judicial or Technical member of the Tribunal or Appellate Tribunal, including the President or Chairperson.",
+  "Defines President as the head of the Tribunal.",
+  "Defines Technical Member as a member appointed for expert technical tasks."
+ ],
+ "example": "Aarav Patel wanted to know more about the people running the dispute resolution bodies under the Companies Act. He read Chapter XXVII and learned about the different roles. He saw that Meera Patel, who was appointed for her legal background, is considered a Judicial Member. Meanwhile, Rohan Sharma, who has expert knowledge in another field, is considered a Technical Member. Aarav also noted that the head of the main Tribunal is called the President, while the head of the higher Appellate Tribunal is called the Chairperson. Understanding these basic terms helped Aarav clearly see who holds each specific position in these bodies.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized official body set up to deal with specific types of legal disputes."
+  },
+  {
+   "term": "Appellate Tribunal",
+   "meaning": "A higher body that reviews decisions made by the Tribunal."
+  },
+  {
+   "term": "Judicial Member",
+   "meaning": "A member of the Tribunal or Appellate Tribunal appointed for legal expertise."
+  },
+  {
+   "term": "Technical Member",
+   "meaning": "A member of the Tribunal or Appellate Tribunal appointed for expert non-legal knowledge."
+  }
+ ],
+ "watch": "Remember that a 'Member' is a broad term that includes both Judicial and Technical members, as well as the President and the Chairperson.",
+ "h": "51dc089532cb",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

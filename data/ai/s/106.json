@@ -1,0 +1,33 @@
+{
+ "summary": "Section 106 of the Companies Act, 2013, allows a company's articles to block members from voting if they owe money on their shares or if the company holds a lien on those shares. A company cannot stop a member from voting for any other reason. Additionally, when a vote is taken by poll, a person with multiple votes does not have to use all their votes or cast them all in the same way.",
+ "points": [
+  "A company's articles can stop a member from voting if they have not paid calls or other sums due on their shares.",
+  "A company's articles can stop a member from voting if the company has exercised a right of lien on their shares.",
+  "A company is forbidden from stopping a member from voting on any grounds other than unpaid sums or lien.",
+  "During a poll at a meeting, a member with multiple votes, their proxy, or another person voting for them does not have to use all available votes.",
+  "When voting on a poll, a voter is not required to cast all the used votes in the same way."
+ ],
+ "example": "At Meera Textiles Private Limited, an annual general meeting is held and a poll is conducted on a resolution. Rohan holds fifty shares in the company. He has failed to pay a call amount that is currently due on twenty of those shares. According to the company's articles, Rohan cannot vote on those twenty shares. However, Rohan is fully allowed to vote on his remaining thirty shares where no payments are pending. During the poll, Rohan decides to use only ten of his valid thirty votes to support the resolution and keeps the other twenty votes unused, which is legally permitted under the Act.",
+ "terms": [
+  {
+   "term": "articles",
+   "meaning": "The rulebook of a company that sets out its internal management and regulations."
+  },
+  {
+   "term": "lien",
+   "meaning": "A legal right of the company to keep hold of a member's property or shares until a debt is paid."
+  },
+  {
+   "term": "poll",
+   "meaning": "A method of voting at a meeting based on the number of shares held by each member rather than a show of hands."
+  },
+  {
+   "term": "proxy",
+   "meaning": "A person appointed by a member to attend and vote at a meeting on their behalf."
+  }
+ ],
+ "watch": "People often mistakenly think a company can block a member from voting for reasons other than unpaid money or a lien, but the law forbids this.",
+ "h": "ca8d1777fe2a",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

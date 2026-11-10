@@ -1,0 +1,30 @@
+{
+ "summary": "This section requires a company to inform the official Registrar whenever it changes its share capital, increases its capital by government order, or pays back redeemable preference shares. The company must send this notice and an updated memorandum within thirty days. If the company fails to do this, it and the responsible officers must pay a daily fine until the default is fixed, up to a maximum limit.",
+ "points": [
+  "A company must file a notice with the Registrar when it alters its share capital under section 61.",
+  "A notice is required if a government order increases the company's authorised capital.",
+  "A notice must be filed when redeemable preference shares are redeemed.",
+  "The notice must be sent in a prescribed form within thirty days of the event.",
+  "An altered memorandum must be included with the notice.",
+  "Failing to comply results in a daily penalty up to a maximum amount for the company and officers."
+ ],
+ "example": "Meera Textiles Private Limited recently decided to alter its share capital and also redeemed some redeemable preference shares. According to the law, the company is required to inform the Registrar about these changes. The directors prepared the notice in the prescribed form along with an altered memorandum. They submitted these documents to the Registrar within the required period of thirty days. Because they filed the notice on time, they successfully complied with the law and avoided any daily penalties or fines for the company and its officers.",
+ "terms": [
+  {
+   "term": "Registrar",
+   "meaning": "The official government authority who keeps records of companies."
+  },
+  {
+   "term": "Memorandum",
+   "meaning": "A foundational document of a company that states its rules and powers."
+  },
+  {
+   "term": "Redeem",
+   "meaning": "To buy back or pay off shares."
+  }
+ ],
+ "watch": "Do not forget to include the altered memorandum along with the notice when filing.",
+ "h": "8cc3e35941f4",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

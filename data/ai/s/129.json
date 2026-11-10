@@ -1,0 +1,33 @@
+{
+ "summary": "This section requires companies to prepare financial statements that give a true and fair view of their state of affairs and follow official accounting standards. The Board of Directors must present these statements at every annual general meeting. Special rules also apply if the company has subsidiaries, and certain companies like banks or insurance firms follow their own specific laws.",
+ "points": [
+  "Financial statements must give a true and fair view of the company and follow notified accounting standards.",
+  "The Board of Directors must lay the financial statements before every annual general meeting.",
+  "Companies with subsidiaries or associate companies must also prepare and present a consolidated financial statement.",
+  "If financial statements do not follow accounting standards, the company must disclose the deviation, its reasons, and its financial effects.",
+  "The Central Government may exempt certain classes of companies from these requirements in the public interest."
+ ],
+ "example": "Meera Textiles Private Limited has one subsidiary company named Star Garments Private Limited. At the end of the financial year, the Board of Directors of Meera Textiles prepares its own financial statements along with a consolidated financial statement covering both Meera Textiles and Star Garments. During the annual general meeting, the Board presents these financial statements to the members. Additionally, because they departed from a specific accounting standard on inventory valuation, they clearly disclose the deviation, the reasons for it, and the financial effects in their statements.",
+ "terms": [
+  {
+   "term": "Financial statement",
+   "meaning": "A formal record of the financial activities and position of a company, including any notes giving required information."
+  },
+  {
+   "term": "Accounting standards",
+   "meaning": "Official rules and guidelines for how companies must report their financial information."
+  },
+  {
+   "term": "Subsidiary",
+   "meaning": "A company that is controlled by another company."
+  },
+  {
+   "term": "Consolidated financial statement",
+   "meaning": "A single set of financial statements combining the accounts of a parent company and all its subsidiaries or associate companies."
+  }
+ ],
+ "watch": "Note that insurance, banking, and electricity companies follow their own specific governing acts rather than the general rules for other companies.",
+ "h": "788d2c4e05de",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

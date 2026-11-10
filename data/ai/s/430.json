@@ -1,0 +1,27 @@
+{
+ "summary": "This section prevents regular civil courts from handling company law matters. Instead, only the Tribunal or the Appellate Tribunal can decide these cases. Other courts and authorities also cannot stop actions taken by these special tribunals through an injunction.",
+ "points": [
+  "Civil courts cannot accept any suit or proceeding on matters that the Tribunal or Appellate Tribunal can decide.",
+  "No court or authority can grant an injunction against actions taken or planned by the Tribunal or Appellate Tribunal.",
+  "The rules apply to powers given under this Act or any other current law."
+ ],
+ "example": "Meera Textiles Private Limited faced a serious dispute regarding company management. One of the directors wanted to stop the National Company Law Tribunal from taking a specific action by filing a case in a local civil court. However, under the law, the local civil court cannot accept this suit or interfere with the matter. Furthermore, the director cannot obtain an injunction from any other authority to block the Tribunal from exercising its official powers. The dispute must be handled entirely within the system of the Tribunal and the Appellate Tribunal, leaving regular civil courts completely without jurisdiction to intervene in these company affairs.",
+ "terms": [
+  {
+   "term": "civil court",
+   "meaning": "A regular court that handles non-criminal disputes between people or businesses."
+  },
+  {
+   "term": "jurisdiction",
+   "meaning": "The official legal power and authority to hear a case and make a decision."
+  },
+  {
+   "term": "injunction",
+   "meaning": "An official order from a court that stops someone from doing something."
+  }
+ ],
+ "watch": "People often mistakenly think they can approach a local civil court if they disagree with a company matter, but only the Tribunal has the power to handle it.",
+ "h": "0412987ca4ac",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

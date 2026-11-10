@@ -1,0 +1,34 @@
+{
+ "summary": "The Central Government can order two or more companies to merge into a single company if it believes it is necessary for the public good. This order decides the new company's property, rights, and duties, and ensures that original members and creditors receive equal rights or fair compensation. The government must share the draft order with the companies and review their feedback before finalizing it.",
+ "points": [
+  "The Central Government may order the merger of two or more companies if it is essential in the public interest.",
+  "The final order can include provisions for ongoing legal cases and other necessary steps to complete the merger.",
+  "Members and creditors must receive similar rights in the new company, or get compensation if their rights are reduced.",
+  "Affected persons can appeal the compensation assessment to the Tribunal within thirty days of its publication.",
+  "The government must send a draft order to the companies and consider their suggestions and objections before making the final order.",
+  "Every final order made under this section must be laid before each House of Parliament."
+ ],
+ "example": "The Central Government decided that it was essential in the public interest for Nova Pharma Private Limited and Zenith Drugs Private Limited to merge into a single company. The government sent a draft order to both companies for their review and invited their feedback. After considering the suggestions received, the government issued the final order in the Official Gazette, detailing the new company's properties and liabilities. Rahul, a creditor of Nova Pharma Private Limited, found that his rights against the new company were less than before. He was assessed for compensation, and because he was unhappy with that assessment, he filed an appeal to the Tribunal within thirty days of its publication.",
+ "terms": [
+  {
+   "term": "amalgamate",
+   "meaning": "To combine two or more companies into a single company."
+  },
+  {
+   "term": "transferor company",
+   "meaning": "An original company that is merging into another company."
+  },
+  {
+   "term": "transferee company",
+   "meaning": "The single company that takes over the merging companies."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A judicial body that handles legal disputes under company law."
+  }
+ ],
+ "watch": "Note that the final amalgamation order cannot be made until the companies have been given at least two months to respond to the draft order.",
+ "h": "f62a7a1c1cd8",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

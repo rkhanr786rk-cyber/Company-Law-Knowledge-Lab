@@ -1,0 +1,32 @@
+{
+ "summary": "This section states that the rules in the Companies Act generally override any other company rules. If a company document, agreement, or resolution goes against the Act, that specific conflicting part becomes invalid. This applies whether the conflicting rule was made before or after this law started.",
+ "points": [
+  "The provisions of the Act apply even if a company memorandum or articles say something different.",
+  "Company agreements and resolutions cannot go against the rules of the Act.",
+  "This override power applies regardless of whether the conflicting rule was created before or after the Act.",
+  "Any company rule that contradicts the Act becomes void to the extent of that contradiction."
+ ],
+ "example": "Meera Textiles Private Limited passed a board resolution last week allowing their directors to approve loans to themselves without notifying shareholders. However, the Companies Act requires strict rules and approvals for such actions. Because the company resolution goes against the Act, that specific resolution is void and cannot be used. The company must follow the Act instead, ensuring that all legal steps and shareholder notifications are properly handled, regardless of what their own internal resolution tried to permit.",
+ "terms": [
+  {
+   "term": "memorandum",
+   "meaning": "The main foundational document that sets up a company and defines its powers."
+  },
+  {
+   "term": "articles",
+   "meaning": "The rulebook that governs a company's internal management and day-to-day operations."
+  },
+  {
+   "term": "repugnant",
+   "meaning": "Going against or conflicting with something else."
+  },
+  {
+   "term": "void",
+   "meaning": "Invalid and of no legal effect."
+  }
+ ],
+ "watch": "People often think older company rules override the law, but the Act applies to both old and new rules.",
+ "h": "eb4b409c00c7",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

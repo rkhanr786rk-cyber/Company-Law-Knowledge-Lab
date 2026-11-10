@@ -1,0 +1,29 @@
+{
+ "summary": "This section makes copies of company documents stored by the Registrar fully acceptable as evidence in legal proceedings. These copies can come from paper files, electronic forms, or computers, as long as they are properly authenticated. You do not need to show the original paper or file to prove what is inside it.",
+ "points": [
+  "Applies to documents and returns that a company has filed with the Registrar.",
+  "Includes records stored on paper, in electronic form, or on any computer media.",
+  "Requires the document to be authenticated by the Registrar or another empowered officer.",
+  "Treats these copies as valid documents for the purposes of the Act and its rules.",
+  "Allows these copies to be used directly as evidence in proceedings without needing the original."
+ ],
+ "example": "Meera Textiles Private Limited filed its annual financial returns with the Registrar in electronic form. Later, a legal dispute arose regarding the company, and the court needed to check those returns. Instead of requesting the original filing, the Registrar provided a printed copy of the electronic file, which was duly authenticated by an officer empowered by the Central Government. Under this section, the court accepted this authenticated copy directly as evidence of the facts stated within it, without requiring Meera Textiles to produce the original document.",
+ "terms": [
+  {
+   "term": "Registrar",
+   "meaning": "The government official who keeps records of companies."
+  },
+  {
+   "term": "Authenticated",
+   "meaning": "Officially certified as genuine or correct by an authorized person."
+  },
+  {
+   "term": "Admissible",
+   "meaning": "Accepted by a court or authority to be used as evidence."
+  }
+ ],
+ "watch": "Do not assume that uncertified printouts from a computer can be used; the document must be properly authenticated by the authorized officer to be accepted.",
+ "h": "0c3e80dcdbc4",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

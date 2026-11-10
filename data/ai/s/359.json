@@ -1,0 +1,28 @@
+{
+ "summary": "This section allows the Central Government to appoint Official Liquidators and other supporting liquidators to handle the winding up of companies by the Tribunal. These appointed liquidators must work as whole-time officers for the government. Furthermore, the Central Government is responsible for paying their salaries and allowances.",
+ "points": [
+  "The Central Government can appoint as many Official Liquidators, Joint, Deputy, or Assistant Official Liquidators as needed.",
+  "These liquidators are appointed specifically for matters relating to the winding up of companies by the Tribunal.",
+  "All liquidators appointed under this section must work as whole-time officers of the Central Government.",
+  "The Central Government pays the salary and other allowances for all these liquidator roles."
+ ],
+ "example": "The Central Government decides that Alpha Textiles Private Limited and several other companies need to be wound up through the Tribunal. To handle this heavy workload properly, the government appoints Mr. Sharma as a Joint Official Liquidator and Ms. Verma as an Assistant Official Liquidator. Because they hold these official positions, Mr. Sharma and Ms. Verma serve as whole-time officers of the Central Government. The Central Government directly pays their monthly salaries and all other eligible allowances for doing their work.",
+ "terms": [
+  {
+   "term": "Winding up",
+   "meaning": "The legal process of closing down a company and settling its affairs."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized legal body that handles specific cases, such as company disputes and closures."
+  },
+  {
+   "term": "Whole-time officers",
+   "meaning": "Employees who give their full working time to their official job and do not take other outside employment."
+  }
+ ],
+ "watch": "Do not assume that companies pay the salaries of these liquidators, as the text clearly states the Central Government pays them.",
+ "h": "f9d1fe635fae",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

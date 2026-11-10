@@ -1,0 +1,33 @@
+{
+ "summary": "An official investigation into a company can start and continue even if the company is going through other legal processes like winding up or applying for relief against oppression. The investigation does not stop just because the company wants to close down voluntarily. Winding up the company also does not free directors or employees from facing the investigator or any liabilities found.",
+ "points": [
+  "An investigation under this chapter can be started even if other proceedings are ongoing.",
+  "Passing a special resolution for voluntary winding up does not stop or suspend the investigation.",
+  "Pending winding up proceedings before the Tribunal do not stop the investigation.",
+  "If the Tribunal orders a winding up, the inspector must inform the Tribunal about the ongoing investigation.",
+  "A winding up order does not excuse any director or employee from taking part in the investigation or from liabilities found."
+ ],
+ "example": "Aarav Electronics Private Limited was facing a serious government inspection regarding its financial accounts. Meanwhile, the owners decided to close down the business and passed a special resolution for voluntary winding up. The owners assumed the investigation would automatically stop once the winding up process began. However, under the law, the ongoing investigation does not stop or suspend just because the company chose to wind up voluntarily. Later, the Tribunal also issued a winding up order for the firm. Despite this order, the inspector continued the inquiry, and the company directors were legally required to keep participating and answering questions without any exemption.",
+ "terms": [
+  {
+   "term": "winding up",
+   "meaning": "The process of dissolving and closing down a company."
+  },
+  {
+   "term": "special resolution",
+   "meaning": "A formal decision passed by shareholders with a required high majority vote."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A legal body or authority appointed to handle specific disputes and company law cases."
+  },
+  {
+   "term": "absolve",
+   "meaning": "To set free from blame, duty, or liability."
+  }
+ ],
+ "watch": "Do not assume that closing down a company or a winding up order can cancel an ongoing investigation or free officers from liability.",
+ "h": "be168a11e326",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

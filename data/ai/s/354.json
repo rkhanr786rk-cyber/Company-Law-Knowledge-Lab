@@ -1,0 +1,34 @@
+{
+ "summary": "When a company is closing down, the Tribunal can listen to what the creditors and contributories want. The Tribunal can hold special meetings to find out these wishes and appoint a chairperson to run them. The Tribunal also decides how much weight to give each person based on their debt value or voting power.",
+ "points": [
+  "The Tribunal may consider the wishes of creditors or contributories based on sufficient evidence.",
+  "The Tribunal can order meetings of creditors or contributories to be called and held in a specific way.",
+  "The Tribunal can appoint a person to act as the chairman of these meetings.",
+  "The chairman must report the meeting results back to the Tribunal.",
+  "The Tribunal must look at the value of each debt when checking the wishes of creditors.",
+  "The Tribunal must look at the number of votes each person has when checking the wishes of contributories."
+ ],
+ "example": "Meera Textiles Private Limited is going through a winding up process. The Tribunal needs to know what the people owed money think about the closure. To figure this out, the Tribunal orders a special meeting for all the creditors. It appoints Mr. Sharma to act as the chairman of this meeting. During the meeting, the Tribunal makes sure to look closely at the exact value of each debt owed to every creditor. After the meeting ends, Mr. Sharma writes down the results and reports them directly back to the Tribunal so it can decide the next steps.",
+ "terms": [
+  {
+   "term": "winding up",
+   "meaning": "The legal process of closing down a company and settling its affairs."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A legal authority or court body that handles company law cases."
+  },
+  {
+   "term": "creditors",
+   "meaning": "People or businesses to whom the company owes money."
+  },
+  {
+   "term": "contributories",
+   "meaning": "People who are required to contribute to the assets of the company during a winding up."
+  }
+ ],
+ "watch": "People often think meetings are mandatory, but the Tribunal only directs them if it thinks fit.",
+ "h": "1db1ca29bc12",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

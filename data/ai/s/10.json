@@ -1,0 +1,28 @@
+{
+ "summary": "Once a company's main documents are officially registered, they create a legal bond between the company and its members. Both sides must follow every rule written inside these documents as if they personally signed them. Also, any money a member owes to the company under these rules is treated as a legal debt.",
+ "points": [
+  "The registered memorandum and articles bind both the company and its members.",
+  "The documents act as if they were signed by the company and every individual member.",
+  "The company and members promise to observe all provisions in the documents.",
+  "Any money payable by a member under the memorandum or articles is a debt due to the company."
+ ],
+ "example": "Meera Textiles Private Limited is officially registered with the government, bringing its memorandum and articles into legal effect. Rahul, one of the members, fails to pay the money he owes for his shares as required by these documents. Because of the rules, this unpaid amount is automatically treated as a legal debt owed by Rahul to Meera Textiles Private Limited. The company can now rely on this statutory provision to handle the unpaid money just like any other legal debt due from a member.",
+ "terms": [
+  {
+   "term": "memorandum and articles",
+   "meaning": "The fundamental legal documents that set up a company and state its internal rules."
+  },
+  {
+   "term": "covenants",
+   "meaning": "Formal promises or agreements to do or not do certain things."
+  },
+  {
+   "term": "debt due",
+   "meaning": "An amount of money that is officially owed and can be legally collected."
+  }
+ ],
+ "watch": "Do not assume these documents only apply to the company; they equally bind every single member.",
+ "h": "2704308c1057",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,30 @@
+{
+ "summary": "This section explains what happens to the directors, officers, and other employees when an inter-State co-operative society becomes a Producer Company. It allows existing directors to stay in office for one year, transfers regular employees on the same terms, and protects past retirement benefits and welfare funds. It also forbids certain top managers and transferred employees from claiming compensation for job loss or transfer.",
+ "points": [
+  "All directors of the inter-State co-operative society continue in office for one year from the date of transformation.",
+  "Every regular officer or employee becomes an officer or employee of the new Producer Company with the exact same pay, terms, and benefits.",
+  "If an officer or employee chooses not to work for the Producer Company, they are treated as having resigned.",
+  "Transferred employees are not entitled to any compensation for the transfer of their services.",
+  "Employees who retired before transformation continue to receive their entitled benefits and rights from the Producer Company.",
+  "Top managers and directors cannot claim compensation for the loss of their office or the ending of their management contracts."
+ ],
+ "example": "Kisan Co-operative Society transforms into Kisan Producers Private Limited. Mr. Rao, a director, gets to keep his position for one year. Ms. Priya, a regular staff member, automatically becomes an employee of Kisan Producers Private Limited with the same salary and leave benefits she had before. Mr. Sharma, a retired worker, will still receive his usual retirement benefits from the new company. However, the Managing Director, Mr. Verma, loses his management contract early and is not allowed to claim any compensation for losing his job.",
+ "terms": [
+  {
+   "term": "Transformation",
+   "meaning": "The process of changing the inter-State co-operative society into a Producer Company."
+  },
+  {
+   "term": "Compensation",
+   "meaning": "Money given to make up for a loss, such as losing a job."
+  },
+  {
+   "term": "Gratuity",
+   "meaning": "A sum of money given to an employee at the end of their employment."
+  }
+ ],
+ "watch": "Note that regular employees and top managers have different rules regarding job loss compensation and options.",
+ "h": "783198ea7a25",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

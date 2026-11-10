@@ -1,0 +1,34 @@
+{
+ "summary": "A company is normally not allowed to change its past account books or financial statements. However, a court or the Tribunal can order this change if certain authorities or interested persons apply for it. The court or Tribunal must first find that the old accounts were made fraudulently or that company mismanagement makes the financial statements doubtful.",
+ "points": [
+  "A company cannot re-open its books of account or recast financial statements by itself.",
+  "The Central Government, Income-tax authorities, Securities and Exchange Board, other statutory bodies, or concerned persons can apply to change the accounts.",
+  "A court or the Tribunal must issue an order for the re-opening based on fraud or mismanagement.",
+  "The court or Tribunal must give notice and listen to representations from relevant authorities and persons before passing the order.",
+  "Once accounts are revised or re-cast under an order, they are final.",
+  "Orders cannot be made to re-open accounts older than eight financial years preceding the current year, unless a longer period was directed under section 128."
+ ],
+ "example": "At Meera Textiles Private Limited, the directors suspect that the financial statements from three years ago were prepared in a fraudulent manner by a former manager. The Income-tax authorities decide to file an application before the Tribunal requesting a re-opening of the accounts. Before making any order, the Tribunal sends a notice to the Central Government and the Securities and Exchange Board to hear their views. After considering these representations, the Tribunal orders Meera Textiles Private Limited to recast its financial statements. Once these accounts are revised according to the Tribunal order, they become final.",
+ "terms": [
+  {
+   "term": "recast",
+   "meaning": "To calculate or prepare financial statements again in a new way."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A special official body set up to handle legal disputes relating to companies."
+  },
+  {
+   "term": "fraudulent",
+   "meaning": "Done using dishonest or illegal trickery."
+  },
+  {
+   "term": "representations",
+   "meaning": "Statements or arguments made to authorities to express a view."
+  }
+ ],
+ "watch": "Do not assume a company can decide on its own to fix past accounting mistakes without an official order from a court or the Tribunal.",
+ "h": "cf799d45afd2",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

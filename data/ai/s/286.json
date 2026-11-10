@@ -1,0 +1,28 @@
+{
+ "summary": "This section explains that directors or managers of certain limited companies can have unlimited liability to pay extra money when the company is being closed down. They must pay this additional amount just like members of an unlimited company, but only under specific rules. This rule helps ensure that the company can pay off its remaining debts and expenses.",
+ "points": [
+  "Directors or managers whose liability is unlimited must make a further contribution when the company starts winding up, just like members of an unlimited company.",
+  "A former director or manager is completely free from this extra contribution if they left office one year or more before the winding up began.",
+  "A former director or manager does not have to pay this extra contribution for any company debts made after they stopped holding office.",
+  "Unless the company articles say otherwise, a director or manager only has to pay if the Tribunal decides it is necessary to cover debts, liabilities, and winding up costs."
+ ],
+ "example": "Aarav served as a manager for Zenith Creative Private Limited, a company where managers had unlimited liability. The company decided to close down and began the winding up process. Aarav had resigned from his position six months earlier. The Tribunal reviewed the company's finances and found that extra funds were needed to pay off the remaining debts and the costs of closing down. Because Aarav left less than a year ago, and the debts were made while he was still working there, the Tribunal asked him to make a further contribution to help clear these unpaid dues.",
+ "terms": [
+  {
+   "term": "Winding up",
+   "meaning": "The official process of closing down a company and settling its affairs."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A legal body appointed to handle and decide specific disputes and cases."
+  },
+  {
+   "term": "Articles",
+   "meaning": "The rulebook of a company that sets out its internal management and rules."
+  }
+ ],
+ "watch": "Do not confuse this with ordinary member liability, as this rule creates a special extra payment obligation for certain directors and managers.",
+ "h": "b71e06243a51",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

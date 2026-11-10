@@ -1,0 +1,28 @@
+{
+ "summary": "This section allows a Company Liquidator to hire professionals like chartered accountants or lawyers to help with their duties. To do this, the liquidator must get permission from the Tribunal. Anyone appointed must immediately report any conflict of interest or lack of independence to the Tribunal.",
+ "points": [
+  "The Company Liquidator may appoint professionals such as chartered accountants, company secretaries, cost accountants, or legal practitioners.",
+  "The appointment requires the sanction of the Tribunal.",
+  "Professionals are appointed on terms and conditions necessary to assist the liquidator in their duties and functions under the Act.",
+  "Any appointed person must immediately disclose any conflict of interest or lack of independence to the Tribunal in the prescribed form."
+ ],
+ "example": "Aarav is the Company Liquidator for Apex Steel Private Limited during its winding up process. To handle complex tax matters, he wants to hire a chartered accountant named Priya. Aarav applies to the Tribunal and receives its formal sanction to appoint Priya. Upon her appointment, Priya discovers that her firm also audits a major competitor of Apex Steel Private Limited. Following the law, Priya immediately discloses this potential conflict of interest to the Tribunal in the prescribed form.",
+ "terms": [
+  {
+   "term": "Company Liquidator",
+   "meaning": "An official appointed to run the winding up process of a company."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "The judicial body that handles company law disputes and approvals, specifically the National Company Law Tribunal."
+  },
+  {
+   "term": "Conflict of interest",
+   "meaning": "A situation where a person's personal interests or other business ties could improperly influence their professional duties."
+  }
+ ],
+ "watch": "Do not forget that hiring any professional for assistance always requires prior approval from the Tribunal.",
+ "h": "17ba79b0404b",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

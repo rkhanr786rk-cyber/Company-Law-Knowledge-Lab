@@ -1,0 +1,28 @@
+{
+ "summary": "This section explains how liability can spread during the winding up of a business. When the Tribunal makes a declaration or order for fraudulent or wrongful conduct against a firm or company, it also gets the power to make the same against its partners or directors. This applies to people who were partners or directors at the relevant time.",
+ "points": [
+  "Applies when a declaration under section 339 or an order under section 340 is made against a firm or body corporate.",
+  "Grants the Tribunal the power to make a similar declaration or order against individuals.",
+  "Covers any person who was a partner in the firm at the relevant time.",
+  "Covers any person who was a director of the body corporate at the relevant time."
+ ],
+ "example": "Meera Textiles Private Limited is undergoing winding up because of serious fraud. The Tribunal finds the company liable under section 339 for conducting business with the intent to defraud creditors. Because of this section, the Tribunal also has the power to issue a similar declaration against Mr. Sharma, who was a director of Meera Textiles Private Limited at the relevant time, holding him personally responsible for the company's wrongful actions during that period.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized official body or court that has the authority to judge legal disputes."
+  },
+  {
+   "term": "Body corporate",
+   "meaning": "A legal term for a company or corporation, meaning it has a legal status separate from its owners."
+  },
+  {
+   "term": "Winding up",
+   "meaning": "The official process of closing down a company and settling its affairs."
+  }
+ ],
+ "watch": "Do not assume this section applies to anyone who joins the company after the relevant time.",
+ "h": "23d866b67774",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

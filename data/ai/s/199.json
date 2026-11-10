@@ -1,0 +1,28 @@
+{
+ "summary": "This section requires a company to take back certain extra pay given to top bosses if the company has to rewrite its financial statements because of fraud or rule-breaking. This recovery applies to leaders who were in charge during the period being rewritten. It is done in addition to any other legal trouble they might face.",
+ "points": [
+  "Applies when a company must re-state its financial statements due to fraud or non-compliance.",
+  "Applies to past or present managing directors, whole-time directors, managers, or CEOs.",
+  "Requires the company to recover remuneration and stock options received in excess of the restated amount.",
+  "Works without prejudice to any other liability under this Act or any other law."
+ ],
+ "example": "Meera Textiles Private Limited found out that its financial statements for the previous year had serious non-compliance issues and had to re-state them. During that specific year, the company had given a high salary and stock options to its Chief Executive Officer, Mr. Sharma. Because the new re-stated financial statements showed the company made less profit, Mr. Sharma had received more money than he should have under the correct figures. Following this section, Meera Textiles Private Limited is required to recover that extra remuneration and stock option value from Mr. Sharma, even though he might also face other legal penalties for the rules broken.",
+ "terms": [
+  {
+   "term": "Re-state",
+   "meaning": "To rewrite or correct financial statements because the original ones were wrong."
+  },
+  {
+   "term": "Remuneration",
+   "meaning": "Payment or compensation given for work, including salary and stock options."
+  },
+  {
+   "term": "Without prejudice",
+   "meaning": "Without hurting or stopping other legal actions or punishments that may also apply."
+  }
+ ],
+ "watch": "People often confuse this with general pay cuts, but it specifically applies only when financial statements are re-stated due to fraud or non-compliance.",
+ "h": "4faf04e3fda5",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

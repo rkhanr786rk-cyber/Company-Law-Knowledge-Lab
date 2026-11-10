@@ -1,0 +1,34 @@
+{
+ "summary": "This section sets the official rules for who can become the President, a Judicial Member, or a Technical Member of the Tribunal. Each role requires specific types of work experience or professional background, such as being a judge, an advocate, or a chartered accountant. These rules ensure that only qualified individuals hold these important positions.",
+ "points": [
+  "The President must be a current or former High Court Judge for five years.",
+  "A Judicial Member must be a High Court judge, a District Judge for five years, or an advocate for ten years.",
+  "Time spent in judicial office, tribunal membership, or certain government legal posts counts towards an advocate's total years.",
+  "A Technical Member can be from the Indian Corporate Law Service or Indian Legal Service with specific high ranks for fifteen years.",
+  "A Technical Member can also be a chartered accountant, cost accountant, or company secretary in practice for fifteen years.",
+  "Other qualified technical members include persons with fifteen years of experience in areas like industrial finance, or former presiding officers of specific labor courts for five years."
+ ],
+ "example": "Aarav Textiles Private Limited was involved in a corporate dispute that reached the Tribunal. The Tribunal was headed by a President who had previously served as a High Court Judge for five years. One of the appointed Judicial Members was a person who had practiced as an advocate in court for ten full years. For the technical matters regarding company accounts, the Tribunal included a Technical Member who had been in practice as a chartered accountant for fifteen years. All these officials met the strict background and experience rules required by the law to serve on the Tribunal, ensuring the case was handled by properly qualified professionals.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized official body set up to deal with specific legal disputes."
+  },
+  {
+   "term": "Judicial Member",
+   "meaning": "A member of the Tribunal who has a background as a judge or advocate."
+  },
+  {
+   "term": "Technical Member",
+   "meaning": "A member of the Tribunal with specialized professional experience in fields like law, accounting, or finance."
+  },
+  {
+   "term": "District Judge",
+   "meaning": "A principal civil court judge in a district."
+  }
+ ],
+ "watch": "Make sure not to confuse the different experience time periods required for Judicial Members versus Technical Members.",
+ "h": "a20b535f137d",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

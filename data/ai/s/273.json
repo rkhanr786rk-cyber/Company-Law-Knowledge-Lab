@@ -1,0 +1,30 @@
+{
+ "summary": "When the Tribunal receives a request to close down a company, it has the power to dismiss the request, make temporary orders, appoint a temporary liquidator, or order the closure of the company. The Tribunal must generally make its decision within ninety days and usually gives the company a chance to speak before appointing a temporary liquidator. Additionally, the Tribunal cannot refuse to close a company just because the company has no assets or its assets are fully mortgaged.",
+ "points": [
+  "The Tribunal may dismiss the winding up petition with or without costs.",
+  "The Tribunal may make any interim order or any other order as it thinks fit.",
+  "The Tribunal may appoint a provisional liquidator before making a final winding up order.",
+  "The Tribunal may order the winding up of the company with or without costs.",
+  "The Tribunal must normally give the company notice and a chance to speak before appointing a provisional liquidator.",
+  "The Tribunal can refuse a winding up order if another remedy is available and the petitioners are acting unreasonably."
+ ],
+ "example": "A petition was filed by a group of shareholders to wind up Radiant Electronics Private Limited. The Tribunal reviewed the case and decided to appoint a provisional liquidator to manage the company's affairs temporarily until a final closure order could be made. Before doing so, the Tribunal gave Radiant Electronics Private Limited a fair chance to present its side of the story. Later, some creditors objected because the company's assets were fully mortgaged to a bank. However, the Tribunal clarified that it cannot refuse to wind up the company solely on the ground that the assets are mortgaged or that no assets remain.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized legal body or official authority set up to handle specific types of disputes or cases under the law."
+  },
+  {
+   "term": "Provisional liquidator",
+   "meaning": "A temporary person appointed to take charge of a company's assets before a final winding up order is issued."
+  },
+  {
+   "term": "Mortgaged",
+   "meaning": "Pledged as security for a loan or debt."
+  }
+ ],
+ "watch": "The Tribunal cannot refuse to wind up a company just because the company lacks assets or has its assets fully mortgaged.",
+ "h": "285473f90153",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

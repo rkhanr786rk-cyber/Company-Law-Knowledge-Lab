@@ -1,0 +1,23 @@
+{
+ "summary": "Section 158 of the Companies Act, 2013 requires any person or company to include a special identifying number whenever they submit paperwork that mentions a director. This rule applies to all returns, information, or particulars required under the Act. It ensures that any official document connected to a director is properly marked with their unique number.",
+ "points": [
+  "Applies to every person or company filing documents under the Act.",
+  "Mandates mentioning the Director Identification Number in returns, information, or particulars.",
+  "Applies specifically when the submitted documents relate to a director or mention any director."
+ ],
+ "example": "Meera Textiles Private Limited is preparing a formal information return for the corporate registry. The document contains specific details about Mr. Sharma, who serves as a director on their board. Because the information directly relates to a director and mentions him by name, the company must include Mr. Sharma's official Director Identification Number in the paperwork before submitting it. If they leave this number out, they will fail to meet the requirements set by the Act for filing documents that reference company directors.",
+ "terms": [
+  {
+   "term": "Director Identification Number",
+   "meaning": "A unique identifying number given to a person who is a director of a company."
+  },
+  {
+   "term": "Particulars",
+   "meaning": "Details or specific facts about something."
+  }
+ ],
+ "watch": "",
+ "h": "c76afea24393",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

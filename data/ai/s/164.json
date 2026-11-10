@@ -1,0 +1,34 @@
+{
+ "summary": "This section sets out the rules for who cannot become or remain a company director. It lists personal disqualifications like being of unsound mind, being bankrupt, or having certain criminal convictions. It also stops people from being appointed as directors if they are involved with companies that failed to file financial reports or pay back deposits and dividends.",
+ "points": [
+  "Forbids a person of unsound mind declared by a court from being appointed as a director.",
+  "Forbids an undischarged insolvent or someone with a pending insolvency application from being appointed.",
+  "Forbids appointment if a person was convicted of an offence and jailed for six months or more, unless five years have passed since the sentence ended.",
+  "Forbids appointment if a person failed to pay share calls and six months have passed since the due date.",
+  "Blocks directors of companies that failed to file financial statements for three continuous years from being appointed in other companies for five years.",
+  "Allows private companies to add extra disqualifications through their articles."
+ ],
+ "example": "Aarav wanted to join the board of Meera Textiles Private Limited as a director. However, a court had declared him to be of unsound mind. Because of this rule, Aarav is not eligible for appointment as a director. In another case, Rohan was a director of a company that failed to repay deposits and interest on time, and that failure continued for a year. Rohan cannot be appointed as a director in any other company for a period of five years from the date of that failure. Even if Rohan files an appeal against certain court convictions or disqualification orders, the disqualification continues to apply.",
+ "terms": [
+  {
+   "term": "undischarged insolvent",
+   "meaning": "A person who has been declared legally bankrupt by a court and whose legal proceedings to clear debts are not yet finished."
+  },
+  {
+   "term": "moral turpitude",
+   "meaning": "An act or behavior that gravely violates community standards of honesty, morality, or right."
+  },
+  {
+   "term": "debentures",
+   "meaning": "A type of debt instrument or bond issued by a company that acknowledges a loan."
+  },
+  {
+   "term": "articles",
+   "meaning": "The rulebook of a private company that guides its internal management."
+  }
+ ],
+ "watch": "Note that filing an appeal against certain convictions or disqualification orders does not remove the disqualification.",
+ "h": "18adb5fb955f",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

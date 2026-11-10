@@ -1,0 +1,24 @@
+{
+ "summary": "Section 112 allows the President of India or a State Governor to appoint someone to represent them at company meetings if they are a member of that company. The chosen representative has the same rights and powers as the President or Governor, including voting rights. This makes it easy for them to participate in company matters without attending in person.",
+ "points": [
+  "The President of India or a State Governor may appoint a representative for company meetings if they hold membership in that company.",
+  "The representative can attend any meeting of the company or any meeting of a specific class of members.",
+  "The appointed person is treated as a member of the company under the law.",
+  "The representative has all the rights and powers of the President or Governor, including the right to vote."
+ ],
+ "example": "The Governor of a State is a member of ABC Infrastructure Private Limited. Because the Governor is too busy with official state duties to attend the upcoming annual general meeting, the Governor decides to appoint a trusted official named Mr. Sharma to act as the official representative. At the meeting, Mr. Sharma is treated as a member of ABC Infrastructure Private Limited. He can fully participate in discussions and exercise the right to vote on behalf of the Governor, exactly as the Governor would have been able to do if present.",
+ "terms": [
+  {
+   "term": "Representative",
+   "meaning": "A person chosen to act and speak on behalf of someone else."
+  },
+  {
+   "term": "Deemed",
+   "meaning": "Treated by law as being something, even if not strictly in the usual way."
+  }
+ ],
+ "watch": "A common confusion is whether the representative loses voting rights, but the law clearly gives them all the same powers as the member they represent.",
+ "h": "9151fabc20c0",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,28 @@
+{
+ "summary": "A Producer Company can give free bonus shares to its members based on the shares they already own. The board of directors must first recommend this idea, and the members must approve it by passing a resolution in a general meeting. These bonus shares are funded by turning the company's general reserves into share capital.",
+ "points": [
+  "The board of directors must recommend issuing bonus shares.",
+  "Members must pass a resolution in a general meeting to approve the bonus shares.",
+  "Bonus shares are funded by capitalising amounts from the company's general reserves.",
+  "Bonus shares must be given in proportion to the shares each member currently holds."
+ ],
+ "example": "Meera Textiles Producer Limited has built up a strong general reserve fund over time. The board of directors decides it is a good time to reward the members and recommends issuing bonus shares. They call a general meeting where the members vote and pass a resolution to approve the plan. Aarav, who owns a large number of shares in Meera Textiles Producer Limited, receives additional bonus shares. These new shares are given in exact proportion to the shares he already holds, and they are paid for using money from the company's general reserves rather than requiring members to pay cash.",
+ "terms": [
+  {
+   "term": "Bonus shares",
+   "meaning": "Extra shares given for free to existing shareholders in proportion to what they already own."
+  },
+  {
+   "term": "General reserves",
+   "meaning": "A pool of accumulated funds set aside by a company from its profits."
+  },
+  {
+   "term": "Capitalisation",
+   "meaning": "Converting a company's reserves or profits into share capital."
+  }
+ ],
+ "watch": "Make sure to remember that bonus shares can only be issued if the board recommends it and members approve it by a resolution.",
+ "h": "0dca95310f42",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,32 @@
+{
+ "summary": "Section 190 of the Companies Act, 2013 requires companies to keep a copy of the employment contract or a written memorandum of its terms for a managing or whole-time director at the registered office. Any company member can inspect these documents without paying any fee. However, these specific rules do not apply to private companies.",
+ "points": [
+  "Every company must keep a written employment contract or a written memorandum of terms for a managing or whole-time director at its registered office.",
+  "Any member of the company can inspect these contract copies or memoranda without paying a fee.",
+  "Failing to keep the documents or denying inspection results in penalties for both the company and responsible officers.",
+  "Private companies are completely exempt from the rules in this section."
+ ],
+ "example": "Aarav Industries Limited is a public company that hired a new managing director named Rohan under a written employment contract. As required by law, the company keeps a copy of Rohan's employment contract safely at its registered office. Priya, a shareholder of Aarav Industries Limited, visits the registered office to check the details of the contract. The company allows her to inspect the document without charging her any fee. If the company had failed to keep this contract or refused Priya's request to inspect it, the company and its defaulting officers would face financial penalties under the law.",
+ "terms": [
+  {
+   "term": "registered office",
+   "meaning": "The official main address of a company where important documents are kept."
+  },
+  {
+   "term": "managing or whole-time director",
+   "meaning": "A top director who manages the daily business affairs of the company."
+  },
+  {
+   "term": "memorandum",
+   "meaning": "A written note or record setting out the terms of an agreement."
+  },
+  {
+   "term": "inspection",
+   "meaning": "The act of looking at or examining a document."
+  }
+ ],
+ "watch": "Remember that private companies do not have to follow these rules, unlike public companies.",
+ "h": "153543061c93",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

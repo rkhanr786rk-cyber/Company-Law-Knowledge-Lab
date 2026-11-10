@@ -1,0 +1,29 @@
+{
+ "summary": "When a company is winding up, the official liquidator must ask creditors to prove their claims within thirty days of being appointed. Creditors then have thirty days from receiving that call to prove their claims. Finally, the liquidator must make a list of these claims and tell each creditor in writing whether their claim was accepted or rejected, along with the reasons.",
+ "points": [
+  "The Official Liquidator must ask the company's creditors to prove their claims within thirty days of being appointed.",
+  "Creditors must prove their claims within thirty days of receiving the call from the Official Liquidator.",
+  "The Official Liquidator must prepare a list of the creditors' claims as prescribed.",
+  "The Official Liquidator must communicate with each creditor regarding whether their claim is accepted or rejected.",
+  "Written reasons must be recorded for every claim that is accepted or rejected."
+ ],
+ "example": "Meera Textiles Private Limited entered the winding up process, and Mr. Roy was appointed as the Official Liquidator. Within thirty days of taking office, Mr. Roy sent a notice to all company creditors asking them to prove their claims. Creditor Sharma received the notice and submitted proof of his unpaid dues within the thirty-day deadline. After reviewing the submissions, Mr. Roy prepared a formal list of claims. He then sent a written letter to Creditor Sharma explaining that his claim was accepted, along with the written reasons for this decision. Meanwhile, Creditor Patel received a written notice stating his claim was rejected, complete with the specific reasons recorded by Mr. Roy.",
+ "terms": [
+  {
+   "term": "Official Liquidator",
+   "meaning": "An officer appointed to manage the winding up and closing down of a company."
+  },
+  {
+   "term": "Creditors",
+   "meaning": "People or businesses to whom the company owes money."
+  },
+  {
+   "term": "Winding up",
+   "meaning": "The legal process of closing down a company and settling its affairs."
+  }
+ ],
+ "watch": "Do not forget that there are two separate thirty-day periods: one for the liquidator to call the creditors, and another for the creditors to respond.",
+ "h": "7e6dde4451d7",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,28 @@
+{
+ "summary": "This section deals with the trial of company law offences before a Special Court is set up. It allows regular courts like the Court of Session or certain magistrates to handle these cases in the meantime. It also keeps the High Court's power to transfer these cases untouched.",
+ "points": [
+  "Offences under the Act that belong in a Special Court are temporarily tried by ordinary courts until a Special Court is established.",
+  "The temporary trial courts can be a Court of Session, a Metropolitan Magistrate, or a Judicial Magistrate of the First Class.",
+  "These rules apply regardless of anything else written in the Code of Criminal Procedure, 1973.",
+  "The High Court keeps its power to transfer any case or group of cases handled by these temporary courts."
+ ],
+ "example": "An offence was allegedly committed by Alpha Beta Gamma Private Limited under the Companies Act, 2013, in a district where no Special Court has been established yet. Because of this transitional rule, the local Judicial Magistrate of the First Class takes up the trial for the case. Later, the High Court decides to use its powers to transfer this case to a different court. The trial proceeds in the designated court according to the law without any issues about which court has the authority to hear it.",
+ "terms": [
+  {
+   "term": "Special Court",
+   "meaning": "A specific court set up to handle certain types of legal cases quickly."
+  },
+  {
+   "term": "Code of Criminal Procedure, 1973",
+   "meaning": "The main law that sets out the rules for handling criminal trials and court procedures in India."
+  },
+  {
+   "term": "High Court",
+   "meaning": "The main civil and criminal court of a state or region in India."
+  }
+ ],
+ "watch": "Do not assume that regular courts take over permanently; they only handle these cases until a Special Court is established.",
+ "h": "302a86f3c017",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

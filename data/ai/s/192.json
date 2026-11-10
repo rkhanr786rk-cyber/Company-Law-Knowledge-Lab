@@ -1,0 +1,33 @@
+{
+ "summary": "This section restricts companies from making non-cash deals with their directors or connected persons without getting prior approval from shareholders in a general meeting. If the director belongs to a holding company, that holding company's shareholders must also approve the arrangement. The meeting notice must include the arrangement details and the asset value calculated by a registered valuer.",
+ "points": [
+  "A company cannot trade assets for non-cash consideration with its director or connected persons without prior approval.",
+  "Approval must come from a resolution passed by the company in a general meeting.",
+  "If the director is connected to a holding company, the holding company must also pass a resolution.",
+  "The meeting notice must include particulars of the arrangement and the asset value from a registered valuer.",
+  "Deals done in violation of this section are voidable by the company, subject to certain exceptions."
+ ],
+ "example": "Meera Textiles Private Limited wants to acquire a piece of land from one of its directors in exchange for company shares instead of cash. Before finalizing this non-cash transaction, the company must first get prior approval by passing a resolution at a general meeting. Since this director is also a director of the company's holding company, Sky Holding Private Limited, the holding company must also pass a resolution in its own general meeting. The notice for these meetings must clearly state the details of the land exchange along with its value calculated by a registered valuer.",
+ "terms": [
+  {
+   "term": "holding company",
+   "meaning": "A company that controls another company."
+  },
+  {
+   "term": "subsidiary",
+   "meaning": "A company controlled by another company."
+  },
+  {
+   "term": "associate company",
+   "meaning": "A company in which another company has significant influence."
+  },
+  {
+   "term": "voidable",
+   "meaning": "Valid unless cancelled or set aside by the company."
+  }
+ ],
+ "watch": "People often confuse non-cash arrangements with regular cash sales, but this rule specifically applies when assets are traded for anything other than cash.",
+ "h": "3c9c49073138",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

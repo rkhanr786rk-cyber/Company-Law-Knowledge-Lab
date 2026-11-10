@@ -1,0 +1,33 @@
+{
+ "summary": "This section explains how company directors are appointed, how they give consent, and how directors retire by rotation in public companies. It covers first directors, identity numbers, declarations, and rules for filling vacant seats. Anyone wanting to be a director must follow these rules before acting in the role.",
+ "points": [
+  "If company rules do not name first directors, individual founders who signed the memorandum act as the first directors until proper appointments are made.",
+  "Every director must have a Director Identification Number before being appointed.",
+  "A person proposed as a director must provide their identification number and a declaration stating they are not disqualified.",
+  "A new director must give written consent to hold office, which must be filed with the Registrar within thirty days.",
+  "Public companies must have at least two-thirds of their total directors subject to retirement by rotation, with one-third retiring at every annual general meeting."
+ ],
+ "example": "Aarav and Vivaan started Meera Textiles Private Limited. Because their company articles did not name any first directors, Aarav and Vivaan, as individual subscribers to the memorandum, automatically became the first directors. Later, they wanted to appoint Rohan as a new director. Before his appointment, Rohan had to obtain a Director Identification Number and give a signed declaration that he was not disqualified. After the company in a general meeting appointed Rohan, he gave his written consent to hold office. Meera Textiles then filed this consent with the Registrar within thirty days so Rohan could legally act as a director.",
+ "terms": [
+  {
+   "term": "articles",
+   "meaning": "The rulebook of a company that sets out internal management guidelines."
+  },
+  {
+   "term": "memorandum",
+   "meaning": "The foundational document that sets up a company and defines its scope."
+  },
+  {
+   "term": "Director Identification Number",
+   "meaning": "A unique identification number given to a person who wants to be a director."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "An official government authority who maintains company records."
+  }
+ ],
+ "watch": "Remember that independent directors are not counted when calculating the total number of directors for retirement by rotation.",
+ "h": "7b75b36d8e3f",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

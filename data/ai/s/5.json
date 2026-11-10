@@ -1,0 +1,34 @@
+{
+ "summary": "Section 5 of the Companies Act, 2013 explains that a company's articles must contain management rules and other prescribed matters. It allows companies to include extra management rules and special restrictive rules called entrenchment provisions. It also sets out how these articles relate to model forms and previous laws.",
+ "points": [
+  "The articles must contain regulations for managing the company and any prescribed matters.",
+  "A company can include additional matters in its articles for its management.",
+  "Articles can include entrenchment provisions that make specific rules harder to change than a normal special resolution.",
+  "Entrenchment provisions can be added when forming the company or later by an amendment agreed to by all private company members or by a special resolution in a public company.",
+  "Companies must notify the Registrar if their articles contain entrenchment provisions.",
+  "Companies can adopt model articles from Schedule I if they apply to them."
+ ],
+ "example": "Asha and Rohan decide to start a new private company named Apex Software Private Limited. While drafting their articles of association, they want to ensure that a key rule regarding director appointments is very difficult to change in the future. To achieve this, they include an entrenchment provision in their articles right at the time of formation. Because this is a private company, all members agree to this provision from the start. They then give proper notice of these entrenchment provisions to the Registrar in the prescribed manner. This fictional setup shows how founders can use special rules to protect specific management procedures from easy alteration.",
+ "terms": [
+  {
+   "term": "Articles",
+   "meaning": "The document containing the internal rules and regulations for managing a company."
+  },
+  {
+   "term": "Entrenchment",
+   "meaning": "Making specific provisions in the articles much harder to alter than through normal procedures."
+  },
+  {
+   "term": "Special resolution",
+   "meaning": "A formal decision passed by a company with a required high majority of votes."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "The government authority responsible for keeping records of companies."
+  }
+ ],
+ "watch": "Do not confuse regular company rules with entrenchment provisions, which require much stricter conditions to be changed.",
+ "h": "337825505bae",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

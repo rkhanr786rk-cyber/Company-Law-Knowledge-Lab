@@ -1,0 +1,28 @@
+{
+ "summary": "This section gives the Tribunal the power to decide how costs are paid when a company is closing down. If a company does not have enough money to pay all its debts, the Tribunal can order that winding up expenses be paid out of the remaining assets. The Tribunal decides the order of priority for these payments as it sees fit.",
+ "points": [
+  "Applies when the company assets cannot fully cover its liabilities.",
+  "Allows the Tribunal to make an order for paying costs, charges, and expenses of the winding up.",
+  "Payments are made directly out of the company assets.",
+  "The Tribunal decides the order of priority among these costs."
+ ],
+ "example": "Meera Textiles Private Limited is going through a winding up process, but the company's assets are insufficient to satisfy all of its liabilities. The liquidator is unsure about which expenses should be paid first from the remaining funds. The case goes to the Tribunal, which uses its authority under Section 298 to issue an order specifying the exact order of priority for paying the various costs, charges, and expenses incurred during the winding up of Meera Textiles Private Limited.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "The judicial body that handles company law cases and disputes in India."
+  },
+  {
+   "term": "Liabilities",
+   "meaning": "The debts and financial obligations that a company owes to others."
+  },
+  {
+   "term": "Winding up",
+   "meaning": "The legal process of closing down a company."
+  }
+ ],
+ "watch": "People often confuse this with general debt repayment, but this section specifically deals with the priority of winding up costs.",
+ "h": "5bf93377609d",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

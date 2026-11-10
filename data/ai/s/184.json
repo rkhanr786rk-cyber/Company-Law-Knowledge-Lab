@@ -1,0 +1,29 @@
+{
+ "summary": "Directors must tell the board about any business interests they have in other companies, firms, or groups. They also need to share details if they have a connection to a contract the company is making. If they do not follow these rules, the deal can be cancelled by the company, and the director may face a penalty.",
+ "points": [
+  "A director must disclose their interest in other companies or firms at the first board meeting they attend.",
+  "Directors must update their disclosures at the first board meeting of every financial year or whenever details change.",
+  "A director must disclose their interest in any contract or arrangement at the meeting where it is discussed.",
+  "A director who is interested in a contract must not take part in that board meeting.",
+  "If a contract is made without the required disclosure or with the help of an interested director, the company can choose to make it voidable."
+ ],
+ "example": "Aarav is a director at Surya Builders Private Limited. The board starts discussing a new contract with Apex Trading Firm, where Aarav is a partner. Because Aarav has a personal interest in Apex Trading Firm, the rules say he must tell the other directors about this connection right away during the meeting. Furthermore, Aarav must not take part in that specific board discussion. If Aarav stays quiet and helps pass the deal, Surya Builders Private Limited has the legal option to treat the contract as voidable. Later, if Aarav fails to follow these disclosure rules, he will be liable to pay a penalty of one lakh rupees.",
+ "terms": [
+  {
+   "term": "Board",
+   "meaning": "The group of directors chosen to run a company."
+  },
+  {
+   "term": "Voidable",
+   "meaning": "Valid unless the company decides to cancel it."
+  },
+  {
+   "term": "Penalty",
+   "meaning": "A punishment or fine for breaking a rule."
+  }
+ ],
+ "watch": "People often confuse making a deal voidable with it being automatically cancelled, but the text states it is only voidable at the option of the company.",
+ "h": "2de0d09f3c46",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

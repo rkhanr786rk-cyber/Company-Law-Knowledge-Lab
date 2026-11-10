@@ -1,0 +1,32 @@
+{
+ "summary": "This section explains that the rules for closing down unregistered companies are extra rules. They do not cancel out other rules in the Act about closing down normal companies. The Tribunal and Official Liquidator have the same powers for unregistered companies as they do for regular companies.",
+ "points": [
+  "The rules in this part for unregistered companies are added on top of other winding up rules in the Act.",
+  "These rules do not take away or reduce any other powers regarding the winding up of companies.",
+  "The Tribunal and Official Liquidator can use their normal powers and acts for unregistered companies just like they do for registered ones.",
+  "An unregistered company is not considered a company under this Act unless it is being wound up."
+ ],
+ "example": "Meera Textiles Private Limited operated informally as an unregistered company for several years without official registration under the Companies Act. When the business ran into severe financial trouble, creditors petitioned for its closure. During the legal proceedings, the Tribunal and the Official Liquidator stepped in to oversee the closure process. They used the same statutory powers that they normally apply when winding up fully registered companies. Even though Meera Textiles was never formally registered before this point, the law allowed authorities to treat it as a company strictly for the purpose of winding it up and settling its affairs fairly.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A special judicial body set up to handle company law cases."
+  },
+  {
+   "term": "Official Liquidator",
+   "meaning": "An officer appointed to run the winding up process of a company."
+  },
+  {
+   "term": "Winding up",
+   "meaning": "The legal process of closing down a company and settling its debts."
+  },
+  {
+   "term": "Unregistered company",
+   "meaning": "A company that is not formed and registered under this specific Act."
+  }
+ ],
+ "watch": "Do not assume an unregistered company is treated as a regular company for all purposes; it is only treated as such during its winding up.",
+ "h": "a8c8a2684162",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

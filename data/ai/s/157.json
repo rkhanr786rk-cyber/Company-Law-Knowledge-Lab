@@ -1,0 +1,29 @@
+{
+ "summary": "This section requires every company to tell the Registrar the Director Identification Number of all its directors within fifteen days of getting notice under section 156. If a company fails to do this, both the company and any responsible officer will face money penalties. The intimation must be sent in the required form and manner along with the prescribed fees.",
+ "points": [
+  "Companies must give the Director Identification Number of all directors to the Registrar.",
+  "This must be done within fifteen days of receiving notice under section 156.",
+  "The information must be sent in a specific form and manner with prescribed fees.",
+  "Failing to submit this results in a penalty of twenty-five thousand rupees for the company and the officer in default.",
+  "Continuing failures add a further penalty of one hundred rupees for each day, up to a maximum of one lakh rupees for both."
+ ],
+ "example": "Meera Textiles Private Limited recently received a notice under section 156 containing the Director Identification Number of its directors. As required by the law, the company must now furnish this Director Identification Number to the Registrar within fifteen days, using the correct form and paying the prescribed fees. If Meera Textiles Private Limited delays and fails to furnish this number on time, the company will face a penalty of twenty-five thousand rupees. Furthermore, any officer of the company who is in default will also face a penalty of twenty-five thousand rupees, with extra daily penalties for every day the failure continues.",
+ "terms": [
+  {
+   "term": "Director Identification Number",
+   "meaning": "A unique identification number given to a person who is a director of a company."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "A government authority that keeps records of companies."
+  },
+  {
+   "term": "Officer who is in default",
+   "meaning": "Any company officer who is responsible for the failure to follow the law."
+  }
+ ],
+ "watch": "Remember that penalties apply to both the company itself and the responsible officers separately.",
+ "h": "7a3720c826bb",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

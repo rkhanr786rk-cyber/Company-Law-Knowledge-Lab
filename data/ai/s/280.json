@@ -1,0 +1,29 @@
+{
+ "summary": "This section gives a special court called the Tribunal the power to handle all legal cases and claims involving a company that is being wound up. It applies to suits, claims by or against branches, certain special applications, and any other legal questions about the company. This power applies regardless of any other laws currently in force.",
+ "points": [
+  "The Tribunal has jurisdiction to entertain or dispose of any suit or proceeding by or against the company.",
+  "It covers claims made by or against the company, including claims involving any of its branches in India.",
+  "It includes any application made under section 233.",
+  "It covers any question of law or fact, including those relating to assets, business, rights, and duties arising from the winding up.",
+  "It applies whether these matters started or arose before or after the winding up order is made."
+ ],
+ "example": "Meera Textiles Private Limited is going through a winding up process. Before the winding up order was made, a supplier filed a legal claim against one of the company branches in India for unpaid goods. Another legal question arose regarding the company business assets and rights. Under this section, the Tribunal has the jurisdiction to entertain and dispose of both the supplier claim and the questions relating to the company assets, ensuring all related matters are handled in one place during the winding up process.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A special court or official body set up to deal with specific legal disputes."
+  },
+  {
+   "term": "Winding up",
+   "meaning": "The legal process of closing down a company and settling its affairs."
+  },
+  {
+   "term": "Jurisdiction",
+   "meaning": "The official power and legal authority to make decisions and handle cases."
+  }
+ ],
+ "watch": "People often confuse this with regular civil courts, but this section gives special powers specifically to the Tribunal for companies being wound up.",
+ "h": "effa45de40f9",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

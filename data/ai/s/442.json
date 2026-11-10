@@ -1,0 +1,30 @@
+{
+ "summary": "The Central Government maintains a panel of experts called the Mediation and Conciliation Panel to help resolve disputes. Parties involved in legal proceedings or the authorities themselves can refer a matter to this panel. The panel must finish its work within three months and send its recommendations back.",
+ "points": [
+  "The Central Government maintains a panel of experts called the Mediation and Conciliation Panel.",
+  "Parties in a legal proceeding can apply to refer their matter to the panel by paying a fee.",
+  "The Central Government, Tribunal, or Appellate Tribunal can also send a matter to the panel on their own.",
+  "The panel must dispose of the referred matter within a period of three months.",
+  "The panel forwards its final recommendations to the authority before which the proceeding is pending.",
+  "Any party that is unhappy with the recommendation can file objections."
+ ],
+ "example": "A dispute arose between two groups of shareholders in Aarav Enterprises Private Limited during a proceeding before the Tribunal. Instead of continuing a long fight, both groups decided to apply to the Tribunal to send their matter to the Mediation and Conciliation Panel. The Tribunal agreed and appointed an expert from the panel to help them talk through their issues. Within three months, the expert successfully helped them reach an agreement and sent the recommendations back to the Tribunal. One group had minor concerns about the final report, so they filed objections before the Tribunal as allowed by the law.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized official body set up to deal with specific legal cases."
+  },
+  {
+   "term": "Suo motu",
+   "meaning": "A Latin term meaning an authority takes action on its own accord without anyone asking."
+  },
+  {
+   "term": "Aggrieved",
+   "meaning": "Feeling wronged or harmed by a decision or recommendation."
+  }
+ ],
+ "watch": "Note that either the parties can request mediation, or the authority can send the matter on its own.",
+ "h": "6cd00ee01c1e",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,28 @@
+{
+ "summary": "This section explains how a chairman is chosen for a company meeting. By default, members present at the meeting must elect one of themselves to lead it by a show of hands. If someone demands a vote by counting votes, that vote happens immediately.",
+ "points": [
+  "Members personally present at the meeting elect one of themselves as Chairman on a show of hands, unless the company articles say otherwise.",
+  "A poll can be demanded on the election of the Chairman.",
+  "If a poll is demanded, it must be taken right away.",
+  "The first Chairman chosen by a show of hands stays in charge until a new Chairman is elected through the poll."
+ ],
+ "example": "At an annual gathering of members of Meera Textiles Private Limited, the people present need to choose a leader for the meeting. Since the company rulebook does not have a different rule, the members raise their hands and choose Mr. Sharma to be the Chairman. Soon after, a member demands a poll on this election. The poll is conducted immediately right then and there. During this poll, Ms. Gupta is chosen as the new leader. From that moment on, Mr. Sharma steps down and Ms. Gupta acts as the Chairman for the rest of the meeting, following the exact rules set out in the law for company meetings.",
+ "terms": [
+  {
+   "term": "articles",
+   "meaning": "The rulebook of a company that sets out its internal management."
+  },
+  {
+   "term": "poll",
+   "meaning": "A formal vote where votes are counted, often by shares or paper."
+  },
+  {
+   "term": "forthwith",
+   "meaning": "Immediately or without delay."
+  }
+ ],
+ "watch": "Note that the first Chairman chosen by a show of hands keeps running the meeting until the poll results pick someone else.",
+ "h": "78e1690e7eaa",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

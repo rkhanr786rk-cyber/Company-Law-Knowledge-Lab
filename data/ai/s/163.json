@@ -1,0 +1,29 @@
+{
+ "summary": "This section allows a company to choose a special system to elect a large part of its directors. Instead of the usual voting method, the company can use proportional representation to choose at least two-thirds of its directors. These elections happen once every three years, and any sudden vacancies are filled according to another section of the law.",
+ "points": [
+  "The articles of a company can decide to use proportional representation for director appointments.",
+  "This special voting method must apply to at least two-thirds of the total number of directors.",
+  "Voting can be done through a single transferable vote, cumulative voting, or another similar method.",
+  "Elections using this method must take place once every three years.",
+  "Sudden vacancies for these directors must be filled as stated in sub-section (4) of section 161."
+ ],
+ "example": "Alpha Logistics Private Limited wants to change how it selects its board members to ensure minority shareholders have a fair voice. The founders check the company articles to see if they can use a new voting system. According to the rules, the company can decide that at least two-thirds of its total directors are appointed using the principle of proportional representation. Alpha Logistics sets up this system through cumulative voting. The company holds these special director elections once every three years. Later, when one of these directors leaves suddenly before the three years are up, the company fills that sudden vacancy by following the exact rules given in sub-section (4) of section 161 of the Act.",
+ "terms": [
+  {
+   "term": "articles",
+   "meaning": "The rulebook of a company that sets out internal management guidelines."
+  },
+  {
+   "term": "proportional representation",
+   "meaning": "A voting system where different groups get seats in proportion to the number of votes they receive."
+  },
+  {
+   "term": "casual vacancies",
+   "meaning": "Sudden or unexpected empty spots left by a director who leaves office before their term ends."
+  }
+ ],
+ "watch": "Do not confuse this special voting rule with standard director appointments, as it only applies if the company articles specifically choose it for at least two-thirds of the directors.",
+ "h": "4672d258be0d",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

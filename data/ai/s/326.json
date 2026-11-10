@@ -1,0 +1,33 @@
+{
+ "summary": "When a company is closing down through winding up, certain debts must be paid before all other debts. These priority debts mainly include money owed to workers and specific unpaid amounts linked to secured creditors. If the company assets are not enough to pay these in full, they will be reduced in equal proportions.",
+ "points": [
+  "Workers' dues must be paid in priority to all other debts during winding up.",
+  "Unpaid debts of a secured creditor from a realised asset or the workmen's portion shall be paid pari passu with workmen's dues.",
+  "Certain sums payable for a specific period before winding up must be paid within thirty days of sale of assets.",
+  "Debts payable under the proviso must be paid in full before paying secured creditors.",
+  "If assets are insufficient, the debts shall abate in equal proportions."
+ ],
+ "example": "Alpha Textiles Private Limited goes into winding up. The company owes money to its workers for unpaid wages and also has a loan from a secured creditor named Bank of Commerce, which holds a security. When the company assets are sold, the law requires that workmen's dues and certain related amounts must be paid out in priority to other debts. If the money raised from the sale is not enough to cover these priority amounts fully, the payments will abate in equal proportions between the claims.",
+ "terms": [
+  {
+   "term": "Winding up",
+   "meaning": "The legal process of closing down a company and settling its affairs."
+  },
+  {
+   "term": "Secured creditor",
+   "meaning": "A lender who holds a security or charge over company assets for a loan."
+  },
+  {
+   "term": "Pari passu",
+   "meaning": "At an equal pace or on an equal footing without preference."
+  },
+  {
+   "term": "Abate",
+   "meaning": "To reduce proportionally when there is not enough money to pay in full."
+  }
+ ],
+ "watch": "People often confuse regular company debts with these special priority debts that must be settled first.",
+ "h": "566f4b881979",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

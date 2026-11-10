@@ -1,0 +1,33 @@
+{
+ "summary": "This section explains what happens when a company is winding up and the liquidator reports that fraud may have occurred. The Tribunal can order the person accused to appear and be examined under oath about their actions. The person has the right to get a copy of the report, hire professionals to help them, and ask for costs if cleared of charges.",
+ "points": [
+  "The Tribunal can order promoters, directors, or officers to attend and be examined if the liquidator reports possible fraud.",
+  "The person being examined must speak under oath and answer all questions allowed by the Tribunal.",
+  "The person must pay for their own copy of the liquidator report and can bring legal or financial professionals at their own cost.",
+  "Notes of the examination are written down, signed, supplied to the person, and can be used as evidence against them.",
+  "Creditors and contributories can inspect the notes of the examination at all reasonable times."
+ ],
+ "example": "A Tribunal ordered the winding up of Nova Electronics Private Limited. The Company Liquidator submitted a report stating that a fraud had likely occurred during the formation of the company by director Rohan. After reviewing the report, the Tribunal directed Rohan to attend an examination. Rohan paid for a copy of the liquidator report beforehand and hired a legal practitioner to help him during the session. During the examination, Rohan was placed under oath and answered questions put by the Tribunal. Notes of his examination were taken down in writing, signed by Rohan, and made available for creditors to inspect.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "The judicial body or authority handling company law cases."
+  },
+  {
+   "term": "Company Liquidator",
+   "meaning": "The official appointed to wind up the affairs of the company."
+  },
+  {
+   "term": "Oath",
+   "meaning": "A formal promise or swearing to tell the truth."
+  },
+  {
+   "term": "Exculpated",
+   "meaning": "Cleared from blame or charges made against someone."
+  }
+ ],
+ "watch": "Note that being examined does not automatically mean a person is guilty, but their answers can later be used as evidence against them.",
+ "h": "0a0849e029c1",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

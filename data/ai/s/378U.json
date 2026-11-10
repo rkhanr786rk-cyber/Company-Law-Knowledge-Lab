@@ -1,0 +1,34 @@
+{
+ "summary": "This section allows the Board of directors to form committees to help them do their work efficiently. However, the Board cannot give away its own powers or the powers of the Chief Executive to these committees. The committees must work under the control of the Board, and their meeting notes must be shown to the Board.",
+ "points": [
+  "The Board can create committees to help it discharge its functions efficiently.",
+  "The Board cannot delegate its own powers or the Chief Executive's powers to any committee.",
+  "Committees can add more members with the approval of the Board.",
+  "Every committee must include either a director or the Chief Executive.",
+  "Committees must follow the direction and control of the Board at all times.",
+  "Meeting minutes of the committee must be presented at the next Board meeting."
+ ],
+ "example": "The Board of Meera Textiles Private Limited decides to form a committee to help review daily operations. The Board appoints Ramesh, a company director, to be a member of this committee to ensure proper oversight. The committee wants to add an outside expert as a member, so they seek and obtain approval from the Board first. During their meetings, the committee discusses various operational details and records everything in meeting notes. As required by law, these meeting notes are placed before the Board at its very next meeting for review.",
+ "terms": [
+  {
+   "term": "Board",
+   "meaning": "The group of directors chosen to manage the company."
+  },
+  {
+   "term": "Delegate",
+   "meaning": "To give tasks, duties, or powers to someone else."
+  },
+  {
+   "term": "Co-opt",
+   "meaning": "To bring in and add new members to a group or committee."
+  },
+  {
+   "term": "Minutes",
+   "meaning": "The written official record of what was discussed and decided at a meeting."
+  }
+ ],
+ "watch": "A committee can never take over the core powers of the Board or the Chief Executive.",
+ "h": "5eab5cd686df",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

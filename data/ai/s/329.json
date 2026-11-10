@@ -1,0 +1,29 @@
+{
+ "summary": "This section deals with asset transfers made by a company before it goes into winding up. It states that certain transfers and deliveries made within one year before a winding up petition is filed can be declared void against the Company Liquidator. However, normal business operations and good faith transactions for fair value are protected.",
+ "points": [
+  "Applies to any transfer of movable or immovable property or delivery of goods by a company.",
+  "Applies to transfers made within a period of one year before a winding up petition is presented to the Tribunal.",
+  "Declares such transfers void against the Company Liquidator.",
+  "Excludes transfers made in the ordinary course of the company's business.",
+  "Excludes transfers made in favour of a purchaser or encumbrancer in good faith and for valuable consideration."
+ ],
+ "example": "Meera Textiles Private Limited was facing severe financial distress and knew that a winding up petition would soon be filed against it. Six months before the petition was presented to the Tribunal, the company transferred its main factory building to a relative of the director for a nominal price, far below its actual value, and not as part of its normal daily business. When the winding up process began, the Company Liquidator examined this transaction. Because the transfer was not done in the ordinary course of business and lacked good faith and valuable consideration within the one-year timeframe, the transfer was treated as void against the Company Liquidator.",
+ "terms": [
+  {
+   "term": "Encumbrancer",
+   "meaning": "A person who holds a legal claim or liability against a property."
+  },
+  {
+   "term": "Valuable consideration",
+   "meaning": "A fair and adequate price or return given in exchange for something."
+  },
+  {
+   "term": "Void",
+   "meaning": "Not legally valid or binding."
+  }
+ ],
+ "watch": "Do not assume all transfers made within the one-year period are automatically cancelled, as normal business deals and honest buyers giving fair value are protected.",
+ "h": "85e4bb8e0465",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

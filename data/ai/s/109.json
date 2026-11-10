@@ -1,0 +1,34 @@
+{
+ "summary": "This section explains how a poll can be demanded during a company meeting instead of just raising hands. The chairman can order a poll on their own or must do so if requested by members who hold enough voting power or paid-up shares. Once demanded, a poll can also be withdrawn by the people who asked for it.",
+ "points": [
+  "The chairman can order a poll on their own before or when declaring the result of a show of hands.",
+  "The chairman must order a poll if demanded by members present in person or by proxy who meet the voting power or paid-up share limits.",
+  "People who demanded a poll can withdraw their demand at any time.",
+  "A poll for adjourning the meeting or choosing a chairman must be taken immediately.",
+  "A poll on other questions must happen within forty-eight hours at a time chosen by the chairman.",
+  "The chairman appoints helpers to check the votes and decides how the poll is conducted."
+ ],
+ "example": "At an annual general meeting of Meera Textiles Private Limited, members are voting on a major business resolution by a show of hands. Before the chairman declares the result, a group of shareholders holding more than one-tenth of the total voting power demand a poll. The chairman accepts their demand and orders a poll to be taken. Later, those same shareholders change their minds and decide to withdraw their demand for the poll. The chairman allows the withdrawal. Because the poll was not about choosing a chairman or adjourning the meeting, the chairman sets a time within forty-eight hours to hold the poll, appoints people to scrutinize the votes, and announces the final result which becomes the decision of the meeting.",
+ "terms": [
+  {
+   "term": "poll",
+   "meaning": "A formal count of votes where members write down their choices instead of just raising hands."
+  },
+  {
+   "term": "proxy",
+   "meaning": "A person authorized by a member to attend and vote at the meeting on their behalf."
+  },
+  {
+   "term": "paid-up",
+   "meaning": "The actual amount of money paid by shareholders to the company for their shares."
+  },
+  {
+   "term": "scrutinise",
+   "meaning": "To carefully examine and check the votes and the voting process."
+  }
+ ],
+ "watch": "A poll demanded for adjournment or appointing a chairman must happen immediately, while other polls have a delay of up to forty-eight hours.",
+ "h": "92d738dcc0af",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

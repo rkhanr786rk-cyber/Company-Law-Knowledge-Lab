@@ -1,0 +1,30 @@
+{
+ "summary": "This section sets rules for companies giving loans, guarantees, or security to their directors, relatives, partner firms, and certain related entities. It generally forbids these transactions unless specific conditions are met, such as passing a special resolution and using the money for principal business activities. There are also clear exceptions for regular business operations, holding companies helping subsidiaries, and specific service conditions.",
+ "points": [
+  "Companies must not directly or indirectly give loans, guarantees, or security to their directors, holding company directors, relatives, partners, or partner firms.",
+  "Companies can give loans, guarantees, or security to a person or body corporate in whom a director is interested, provided a special resolution is passed.",
+  "The meeting notice for the special resolution must fully disclose loan particulars, purpose, and other relevant facts.",
+  "The borrowing company must use the loans for its principal business activities.",
+  "Exceptions apply to loans given as standard service conditions to managing directors, loans by companies in their ordinary course of business at set interest rates, and certain transactions between holding and subsidiary companies.",
+  "Violations result in heavy fines and possible imprisonment for the company, officers in default, and the recipient."
+ ],
+ "example": "Meera Textiles Private Limited wanted to advance a loan to a private company where one of its directors is also a member. To do this legally, Meera Textiles Private Limited called a general meeting and passed a special resolution. The meeting notice included full details of the loan and its intended purpose. The borrowing company promised to use the funds strictly for its principal business activities. Later, the company made sure the loan followed all rules to avoid any fines or legal trouble.",
+ "terms": [
+  {
+   "term": "Special resolution",
+   "meaning": "A decision approved by a special majority of members in a general meeting as required by the law."
+  },
+  {
+   "term": "Book debt",
+   "meaning": "A debt due to a business that is recorded in its account books."
+  },
+  {
+   "term": "Wholly owned subsidiary company",
+   "meaning": "A company whose entire share capital is owned by another company."
+  }
+ ],
+ "watch": "People often confuse general loan prohibitions with the special exceptions allowed for holding and wholly owned subsidiary companies.",
+ "h": "a5575d35d0d0",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

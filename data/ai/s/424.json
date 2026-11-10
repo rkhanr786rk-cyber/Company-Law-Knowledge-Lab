@@ -1,0 +1,33 @@
+{
+ "summary": "This section explains how the Tribunal and the Appellate Tribunal handle their proceedings. They do not have to follow the usual Code of Civil Procedure, but must follow fairness rules and can set their own rules. They also have specific powers like a civil court to call people, check documents, and enforce their final orders.",
+ "points": [
+  "The Tribunal and Appellate Tribunal are guided by principles of natural justice and can regulate their own procedure.",
+  "They have the same powers as a civil court to summon people, examine them on oath, and order document production.",
+  "They can receive evidence on affidavits and ask for public records from any office.",
+  "They can dismiss a representation for default or decide it ex parte, and set those orders aside later.",
+  "Their final orders can be enforced just like a court decree by sending them to the local court where the company office or person is located."
+ ],
+ "example": "Meera Textiles Private Limited was involved in a dispute before the Tribunal. During the case, the Tribunal needed to examine a key witness and check some company documents to be fair. Using its powers similar to a civil court, the Tribunal summoned the witness and ordered the production of the required documents. After hearing the matter, the Tribunal passed an order against Meera Textiles Private Limited. Because the company failed to follow the order, the Tribunal sent the order for execution to the local court within whose jurisdiction the registered office of Meera Textiles Private Limited is situated, allowing that court to enforce it like a regular court decree.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A special body set up to handle legal disputes under the Act."
+  },
+  {
+   "term": "Natural justice",
+   "meaning": "Fair legal procedures and the right to a fair hearing."
+  },
+  {
+   "term": "Ex parte",
+   "meaning": "Deciding a case or motion without the other party present."
+  },
+  {
+   "term": "Affidavit",
+   "meaning": "A written statement confirmed by oath or affirmation for use as evidence."
+  }
+ ],
+ "watch": "Even though they do not have to follow the general Code of Civil Procedure for their overall rules, they still hold specific civil court powers for summoning people and handling evidence.",
+ "h": "bd236fdd0e69",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

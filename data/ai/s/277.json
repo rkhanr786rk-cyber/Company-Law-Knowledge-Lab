@@ -1,0 +1,34 @@
+{
+ "summary": "This section explains what happens after the Tribunal orders a company to wind up or appoints a provisional liquidator. It sets strict timelines to inform authorities, updates public and stock exchange records, and triggers notices of discharge for workers unless business continues. It also requires the creation of a special committee to help and monitor the liquidation process until the company is fully dissolved.",
+ "points": [
+  "The Tribunal must send notice of a winding up or provisional liquidator order to the Company Liquidator, provisional liquidator, and Registrar within seven days.",
+  "The Registrar must update company records, publish the order in the Official Gazette, and inform the stock exchanges if the company is listed.",
+  "A winding up order acts as a notice of discharge for officers, employees, and workmen, unless the company continues its business.",
+  "Within three weeks of the winding up order, the Company Liquidator must apply to the Tribunal to form a winding up committee.",
+  "The winding up committee includes the Official Liquidator, a nominee of secured creditors, and a professional nominated by the Tribunal.",
+  "The Company Liquidator must submit monthly reports and minutes, prepare a draft final report, and ultimately present the committee-approved final report to the Tribunal for dissolution."
+ ],
+ "example": "Aarav Tech Private Limited faced severe financial distress, and the Tribunal finally made an order for the winding up of the company. Within seven days, the Tribunal sent notice of this order to the Company Liquidator and the Registrar. The Registrar quickly made an endorsement in the company records and published the order in the Official Gazette. Since Aarav Tech was not continuing its business, the winding up order acted as a notice of discharge for all its employees. Within three weeks, the Company Liquidator applied to the Tribunal to form a winding up committee to assist and monitor the liquidation progress, including the sale of assets and finalisation of creditors.",
+ "terms": [
+  {
+   "term": "Provisional liquidator",
+   "meaning": "A temporary person appointed by the Tribunal to take charge of a company before a final winding up order is made."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "An official who maintains company records and registers under the law."
+  },
+  {
+   "term": "Official Gazette",
+   "meaning": "An official public journal used by the government to publish legal notices and announcements."
+  },
+  {
+   "term": "Notice of discharge",
+   "meaning": "An official notice ending the employment of the company's officers, employees, and workers."
+  }
+ ],
+ "watch": "People often confuse the initial seven-day deadline to notify authorities with the three-week deadline for the liquidator to apply for a winding up committee.",
+ "h": "26a5ab8c180b",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

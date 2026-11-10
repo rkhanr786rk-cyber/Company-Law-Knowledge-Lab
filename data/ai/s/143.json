@@ -1,0 +1,29 @@
+{
+ "summary": "This section outlines the rights and duties of a company's auditor. The auditor has the power to access books of account, seek explanations from officers, and inspect specific financial matters like loans and asset sales. The auditor must then prepare a report for the members stating whether the financial statements give a true and fair view of the company's affairs.",
+ "points": [
+  "The auditor has the right of access at all times to the books of account and vouchers of the company.",
+  "The auditor can ask company officers for any information and explanations needed to do their job.",
+  "The auditor must specifically check certain matters, such as whether loans and advances are properly secured and whether personal expenses are charged to revenue.",
+  "The auditor must make a report to the members on the accounts examined and state if the financial statements give a true and fair view.",
+  "The auditor must follow the auditing standards."
+ ],
+ "example": "At Sunrise Pharma Private Limited, the company appointed an auditor named Mr. Sharma. Mr. Sharma asked the company officers for access to the books of account kept at the registered office and demanded explanations regarding certain loans and advances made on the basis of security. He also checked whether any personal expenses were charged to the revenue account. After examining the accounts and financial statements, Mr. Sharma prepared a report for the members of Sunrise Pharma Private Limited stating his opinion on whether the financial statements give a true and fair view of the company's affairs.",
+ "terms": [
+  {
+   "term": "Vouchers",
+   "meaning": "Documents that show the details of financial transactions and support entries in the books of account."
+  },
+  {
+   "term": "Holding company",
+   "meaning": "A company that controls one or more other companies known as subsidiaries."
+  },
+  {
+   "term": "Financial statements",
+   "meaning": "Formal records of the financial activities and position of a company."
+  }
+ ],
+ "watch": "An auditor must always report to the members of the company and not just to the directors.",
+ "h": "0c942097e364",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

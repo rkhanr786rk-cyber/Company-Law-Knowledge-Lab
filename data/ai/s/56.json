@@ -1,0 +1,33 @@
+{
+ "summary": "This section explains how shares and other securities are transferred or passed on in a company. It sets rules for delivering proper transfer papers, share certificates, and timelines for delivering these certificates to the owners. It also specifies penalties for breaking these rules.",
+ "points": [
+  "A company cannot register a share transfer unless a proper, stamped, and dated transfer paper is delivered to the company within sixty days.",
+  "The transfer paper must be signed by both the person giving and the person receiving the shares, and must include the receiver's name, address, and occupation.",
+  "If the transfer paper is lost or delayed, the company may still register the transfer if the Board asks for security against loss, called an indemnity.",
+  "For partly paid shares where only the giver applies, the company must notify the receiver and wait two weeks for any objections before registering.",
+  "Companies must deliver certificates for allotted, transferred, or transmitted securities within specific time limits set by the law."
+ ],
+ "example": "Aarav wanted to sell some of his shares in Meera Textiles Private Limited to his friend Rohan. They filled out and signed a proper transfer paper and handed it over to Meera Textiles Private Limited along with the share certificate within the allowed sixty-day period. Because all the paperwork was correct, signed by both Aarav and Rohan, and delivered on time, the company accepted the papers and registered the transfer of shares smoothly without any trouble.",
+ "terms": [
+  {
+   "term": "Transferor",
+   "meaning": "The person who is giving or selling their securities to someone else."
+  },
+  {
+   "term": "Transferee",
+   "meaning": "The person who is receiving or buying the securities."
+  },
+  {
+   "term": "Transmission",
+   "meaning": "The passing of securities by operation of law, such as when a security holder passes away and the right goes to their legal representative."
+  },
+  {
+   "term": "Indemnity",
+   "meaning": "Terms or a security arrangement set by the Board to protect the company from loss when a transfer paper is lost or delayed."
+  }
+ ],
+ "watch": "People often confuse share transfer with share transmission, but transfer is done voluntarily by the parties while transmission happens automatically by operation of law.",
+ "h": "b86f4824154b",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

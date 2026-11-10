@@ -1,0 +1,29 @@
+{
+ "summary": "This section sets a rule for when a company publishes an advertisement about its prospectus. The advertisement must include specific details from the company memorandum and capital structure. It ensures that people reading the advertisement can easily see key facts about the company.",
+ "points": [
+  "Applies whenever an advertisement of any company prospectus is published in any manner.",
+  "Requires the advertisement to state the contents of the memorandum regarding company objects.",
+  "Requires the advertisement to state the liability of members.",
+  "Requires the advertisement to state the amount of share capital and the capital structure.",
+  "Requires the advertisement to list the names of the signatories to the memorandum and their subscribed shares."
+ ],
+ "example": "Meera Textiles Private Limited decides to publish an advertisement for its upcoming prospectus in a leading daily newspaper. According to the law, the company must include specific details in this advertisement. It has to clearly mention its business objects, the liability of its members, and the total amount of share capital. Additionally, the advertisement must show the company capital structure, list the names of the people who signed the memorandum, and state how many shares each of those signatories has subscribed for. Failing to include any of these required details in the published advertisement would violate the rules set out in this section.",
+ "terms": [
+  {
+   "term": "Prospectus",
+   "meaning": "A formal document that invites the public to buy shares or securities in a company."
+  },
+  {
+   "term": "Memorandum",
+   "meaning": "The foundational document that sets out the constitution and objects of a company."
+  },
+  {
+   "term": "Signatories",
+   "meaning": "The persons who sign the memorandum of association to form the company."
+  }
+ ],
+ "watch": "Make sure not to confuse the full prospectus document with an advertisement of the prospectus, as this rule specifically applies to the advertisement.",
+ "h": "81f567e100bf",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

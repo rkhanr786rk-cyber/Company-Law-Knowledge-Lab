@@ -1,0 +1,34 @@
+{
+ "summary": "A limited company with share capital can change its share capital in a general meeting if its articles allow it. It can increase, consolidate, divide, convert to stock, sub-divide, or cancel unissued shares. However, changes that affect voting percentages need approval from the Tribunal.",
+ "points": [
+  "The company must have authorization in its articles to alter its share capital.",
+  "The alteration must be approved in a general meeting.",
+  "The company can increase its share capital, consolidate shares into larger amounts, or sub-divide them into smaller amounts.",
+  "Consolidation and division that change voting percentages need approval from the Tribunal.",
+  "Fully paid-up shares can be converted into stock and reconverted back into shares.",
+  "Unissued shares can be cancelled, which is not considered a reduction of share capital."
+ ],
+ "example": "Meera Textiles Private Limited wanted to change its share structure to attract new investors. Their rulebook, called the articles, clearly allowed them to alter their share capital. In a general meeting, the shareholders voted to increase the authorized share capital and to sub-divide their existing shares into smaller amounts. They also decided to cancel some shares that no one had bought or agreed to buy yet. Because none of these specific changes altered the voting percentage of any shareholder, they did not need to apply to the Tribunal for this part. The cancellation of those unissued shares was treated as just a cancellation, not a reduction of the company's share capital.",
+ "terms": [
+  {
+   "term": "articles",
+   "meaning": "The rulebook of a company that governs its internal management."
+  },
+  {
+   "term": "memorandum",
+   "meaning": "The foundational document that sets out the constitution of a company."
+  },
+  {
+   "term": "consolidate",
+   "meaning": "To combine multiple items into a single, larger one."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A judicial body appointed to handle specific legal disputes and approvals."
+  }
+ ],
+ "watch": "Cancelling unissued shares is not the same thing as a legal reduction of share capital.",
+ "h": "32a65e010171",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,33 @@
+{
+ "summary": "This section explains the voting rights of members who hold shares in a company limited by shares. It covers both equity shareholders and preference shareholders, setting rules for when they can vote. Special rules apply if dividends on preference shares are not paid for a certain time.",
+ "points": [
+  "Equity shareholders have the right to vote on every resolution placed before the company.",
+  "Voting rights on a poll for equity shareholders are proportional to their share in the paid-up equity share capital.",
+  "Preference shareholders usually can only vote on resolutions affecting their specific rights, winding up, or capital repayment and reduction.",
+  "Voting rights on a poll for preference shareholders are proportional to their share in the paid-up preference share capital.",
+  "If dividends for a class of preference shares are not paid for two years or more, those preference shareholders can vote on all resolutions."
+ ],
+ "example": "Aarav holds equity shares in Meera Textiles Private Limited and gets to vote on every single resolution the company discusses. Meanwhile, Priya holds preference shares in the same company. Normally, Priya can only vote on matters that directly change her preference share rights, company winding up, or capital reduction. However, Meera Textiles Private Limited fails to pay dividends on Priya's class of preference shares for a period of two full years. Because of this missed payment, Priya and the other shareholders in her class suddenly gain the right to vote on all resolutions placed before the company, just like the equity shareholders do.",
+ "terms": [
+  {
+   "term": "Equity share capital",
+   "meaning": "Ordinary shares in a company that carry voting rights and a claim on residual profits."
+  },
+  {
+   "term": "Preference share capital",
+   "meaning": "Shares that receive a fixed dividend ahead of ordinary shares but usually have limited voting rights."
+  },
+  {
+   "term": "Poll",
+   "meaning": "A method of voting based on the proportion of shares held by each member."
+  },
+  {
+   "term": "Resolution",
+   "meaning": "A formal decision or proposal voted on by the members of a company."
+  }
+ ],
+ "watch": "Do not assume preference shareholders can never vote on general matters, because they gain full voting rights if their dividends are unpaid for two years or more.",
+ "h": "b1787f244a94",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

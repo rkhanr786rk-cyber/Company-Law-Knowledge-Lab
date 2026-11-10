@@ -1,0 +1,33 @@
+{
+ "summary": "This section gives the Tribunal and the Appellate Tribunal the exact same powers to punish for contempt as a High Court. They use the rules from the Contempt of Courts Act, 1971, with a few small changes. References to a High Court now include these tribunals, and references to an Advocate-General mean the Law Officers chosen by the Central Government.",
+ "points": [
+  "The Tribunal has the same power to punish for contempt as a High Court.",
+  "The Appellate Tribunal has the same power to punish for contempt as a High Court.",
+  "They apply the rules written in the Contempt of Courts Act, 1971.",
+  "Mentions of a High Court in that Act apply to the Tribunal and Appellate Tribunal.",
+  "Mentions of an Advocate-General are read as Law Officers specified by the Central Government."
+ ],
+ "example": "Aarav filed a case at Apex NCLT Private Limited involving a dispute with Rohan. During the court hearing, Rohan openly insulted the judges and refused to follow their direct orders inside the courtroom. Because of this disruptive behavior, the Tribunal decided to take action against him for contempt. Using its powers under this section, the Tribunal applied the rules of the Contempt of Courts Act, 1971, treating itself like a High Court, and started proceedings to punish Rohan for showing disrespect to the judicial body.",
+ "terms": [
+  {
+   "term": "Contempt",
+   "meaning": "Disobedience to or disrespect of a court or tribunal and its orders."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A special body set up to deal with specific legal cases and disputes."
+  },
+  {
+   "term": "High Court",
+   "meaning": "A high-level state court in India."
+  },
+  {
+   "term": "Advocate-General",
+   "meaning": "A senior legal officer representing the government, replaced here by specific Law Officers chosen by the Central Government."
+  }
+ ],
+ "watch": "Do not confuse the Tribunal's power to punish for contempt with ordinary criminal penalties not mentioned in this text.",
+ "h": "1f5750ac0329",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

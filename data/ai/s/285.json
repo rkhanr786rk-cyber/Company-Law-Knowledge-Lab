@@ -1,0 +1,29 @@
+{
+ "summary": "After a winding up order is passed, the Tribunal must create a list of contributories, fix the register of members, and use company assets to pay off debts. The Tribunal can skip making this list if it is not necessary to call on contributories or adjust their rights. Past members have specific protections and are only liable under certain strict conditions.",
+ "points": [
+  "The Tribunal must settle a list of contributories and cause rectification of the register of members as soon as possible after a winding up order.",
+  "The Tribunal must cause the assets of the company to be applied to pay off its liabilities.",
+  "The Tribunal may skip settling the list of contributories if it does not need to make calls on them or adjust their rights.",
+  "The Tribunal must separate contributories who act in their own right from those who represent or are liable for the debts of others.",
+  "Past members are not liable to contribute if they stopped being members for one year or more before the winding up started, or for debts contracted after they left."
+ ],
+ "example": "Meera Textiles Private Limited went into winding up. The Tribunal started the process of settling a list of contributories to help pay off debts and winding up costs. Rohan was a past member who had left the company two years before the winding up began. Because he had ceased to be a member for more than the preceding one year, he was not liable to contribute to the company assets. Meanwhile, Priya was a current member holding shares with unpaid amounts. She was required to contribute, but only up to the unpaid amount on her shares.",
+ "terms": [
+  {
+   "term": "Contributories",
+   "meaning": "Persons liable to contribute to the assets of a company in the event of its being wound up."
+  },
+  {
+   "term": "Rectification",
+   "meaning": "The correction or updating of an official register or document."
+  },
+  {
+   "term": "Winding up",
+   "meaning": "The legal process of closing down a company and settling its affairs."
+  }
+ ],
+ "watch": "People often confuse past members with current members, but past members are completely safe from contributing if they left a year or more before the winding up started.",
+ "h": "f9285d5e06d3",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

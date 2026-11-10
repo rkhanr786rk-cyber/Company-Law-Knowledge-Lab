@@ -1,0 +1,24 @@
+{
+ "summary": "This section allows companies to keep their official documents, records, and registers in an electronic format. It also applies to documents that people are allowed to inspect or get copies of under the Act. Everything must be done in the specific form and manner set by the rules.",
+ "points": [
+  "A company may keep any required document, record, register, or minutes in electronic form.",
+  "A company may allow inspection of documents in electronic form.",
+  "A company may provide copies of documents in electronic form.",
+  "The electronic maintenance must follow the prescribed form and manner."
+ ],
+ "example": "Meera Textiles Private Limited wants to update how it stores company records. Instead of keeping physical paper books for all registers and minutes, the directors decide to use a secure computer system. Because Section 120 allows this, the company keeps its required records in electronic form. Later, when a shareholder asks to inspect the registers, the company shows the digital files on a screen and provides copies in the prescribed electronic manner. Both the digital storage and the way copies are given strictly follow the official rules.",
+ "terms": [
+  {
+   "term": "Electronic form",
+   "meaning": "Using computers, digital storage, or electronic devices instead of paper."
+  },
+  {
+   "term": "Minutes",
+   "meaning": "The official written record of what was discussed and decided at a meeting."
+  }
+ ],
+ "watch": "Do not assume this rule removes other legal requirements for keeping company records.",
+ "h": "020e422de27e",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,30 @@
+{
+ "summary": "This section explains the rules for allotting securities to the public. A company cannot allot securities unless enough people subscribe and pay the application money stated in the prospectus. If the minimum amount is not collected in time, the company must return the money.",
+ "points": [
+  "Public securities cannot be allotted unless the minimum amount stated in the prospectus is subscribed.",
+  "Application money must be paid and received by cheque or other instrument.",
+  "Application money must be at least five percent of the security's nominal amount or another specified percentage.",
+  "If the minimum amount and application money are not received within thirty days, the money must be returned.",
+  "Companies with share capital must file a return of allotment with the Registrar.",
+  "Defaults in returning money or filing the return lead to penalties for the company and responsible officers."
+ ],
+ "example": "Meera Textiles Private Limited offered its shares to the public through a prospectus, stating that a minimum subscription amount of ten lakh rupees was required within thirty days. Investors applied and paid their application money, which was at least five percent of the nominal value of each share. The company successfully collected the required minimum amount within the specified time period. After receiving the funds, Meera Textiles Private Limited proceeded to allot the shares to the investors. Finally, the company filed the required return of allotment with the Registrar to officially record the distribution of shares.",
+ "terms": [
+  {
+   "term": "Allotment",
+   "meaning": "The act of giving or issuing shares or other securities to applicants."
+  },
+  {
+   "term": "Prospectus",
+   "meaning": "A formal document inviting the public to buy securities in a company."
+  },
+  {
+   "term": "Nominal amount",
+   "meaning": "The face value of a security."
+  }
+ ],
+ "watch": "Do not confuse the minimum subscription amount required for allotment with the minimum application percentage rule.",
+ "h": "c6fb55a7450b",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,29 @@
+{
+ "summary": "This section allows the Tribunal and the Appellate Tribunal to ask officers, employees, or other authorized persons to look into matters connected with a proceeding or appeal. They can give this direction through a general or special order and can set specific conditions. The person investigating must then report back to the Tribunal in the way specified in the order.",
+ "points": [
+  "The Tribunal or Appellate Tribunal may direct officers, employees, or other authorized persons to inquire into matters.",
+  "The inquiry must be connected to a proceeding or appeal currently before the Tribunal.",
+  "Directions can be given through a general order or a special order.",
+  "The Tribunal can attach specific conditions to the order.",
+  "The assigned person must report back to the Tribunal in the manner specified."
+ ],
+ "example": "An appeal is pending before the Appellate Tribunal involving Apex Traders Private Limited. To properly understand the complex financial transactions mentioned in the case, the Appellate Tribunal decides to use its powers under Section 426. By a special order, it authorizes a qualified chartered accountant to inquire into the accounts of Apex Traders Private Limited. The order includes specific conditions on how the review should be conducted. Finally, the accountant must submit a detailed report back to the Appellate Tribunal following the exact manner specified in the order.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized official body set up to deal with specific legal cases or disputes."
+  },
+  {
+   "term": "Proceeding",
+   "meaning": "A legal action or court process."
+  },
+  {
+   "term": "Special order",
+   "meaning": "An order made for a specific, individual case or situation."
+  }
+ ],
+ "watch": "Note that this section only allows the delegation of an inquiry and report, not the final decision-making power of the Tribunal.",
+ "h": "182221307793",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

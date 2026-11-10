@@ -1,0 +1,27 @@
+{
+ "summary": "This section explains who can witness and accept sworn written statements, called affidavits, during the process of winding up a company. It states that these documents can be signed before authorized officials in India or in foreign countries. Indian judicial authorities must automatically recognize the official seals, stamps, or signatures on these documents without extra proof.",
+ "points": [
+  "Affidavits required during winding up can be sworn in India before any court, tribunal, judge, or authorized person.",
+  "Affidavits can be sworn in a foreign country before any court, judge, authorized person, or an Indian diplomatic or consular officer.",
+  "All judges, tribunals, and judicial officers in India must accept the official seal, stamp, or signature on these documents without needing extra verification."
+ ],
+ "example": "Meera Textiles Private Limited was going through a winding up process. As part of the paperwork, the director needed to submit a sworn written statement called an affidavit. Since the director was currently traveling abroad for business, they went to an Indian diplomatic officer in that country to sign and swear the affidavit. When the document reached India, the tribunal accepted it right away. The judge took judicial notice of the diplomatic officer's official seal and signature on the paper without demanding any extra proof that the seal was real, exactly as the law allows.",
+ "terms": [
+  {
+   "term": "Affidavit",
+   "meaning": "A written statement confirmed by oath or affirmation for use as evidence."
+  },
+  {
+   "term": "Judicial notice",
+   "meaning": "A rule in law where a court accepts a fact as true without needing formal proof."
+  },
+  {
+   "term": "Diplomatic or consular officer",
+   "meaning": "An official representing an Indian government mission in a foreign country."
+  }
+ ],
+ "watch": "Do not assume any specific officer outside India is allowed unless they are lawfully authorized in that country or are an Indian diplomatic or consular officer.",
+ "h": "24bd2e8d008e",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

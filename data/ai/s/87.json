@@ -1,0 +1,29 @@
+{
+ "summary": "Section 87 allows the Central Government to fix mistakes or delays related to company charges when someone makes a request. This can happen if a company accidentally forgets to report that a loan or charge has been paid off. It also applies if details about a charge were missed or written incorrectly by mistake.",
+ "points": [
+  "The Central Government can extend the time to report the payment or satisfaction of a charge.",
+  "The Central Government can fix omissions or wrong details in previous charge filings.",
+  "The mistake must be accidental, due to inadvertence, or have a sufficient cause.",
+  "The mistake must not harm the position of the company's creditors or shareholders.",
+  "The company or any interested person can apply for this correction on terms the government deems just."
+ ],
+ "example": "Meera Textiles Private Limited recently paid off a major loan secured against its factory. Unfortunately, the office clerk accidentally forgot to inform the Registrar about this payment within the required time. Realizing the mistake later, the company decided to take action to clear its official records. Since the delay was purely accidental and did not harm any creditors or shareholders, Meera Textiles Private Limited submitted an application to the Central Government under Section 87. The Central Government reviewed the situation and directed that the time for giving intimation of the payment be extended so the company could update its register properly.",
+ "terms": [
+  {
+   "term": "Charge",
+   "meaning": "An interest or lien created on the property or assets of a company as security for a loan."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "An official who maintains records of companies under the law."
+  },
+  {
+   "term": "Satisfaction",
+   "meaning": "The full payment or fulfillment of a debt or charge."
+  }
+ ],
+ "watch": "Do not assume the Central Government grants this automatically; an application must be made by the company or an interested person.",
+ "h": "c8fec186e6b2",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,34 @@
+{
+ "summary": "This section explains how a company can change the rights attached to a specific group of shares. It requires written consent from a large majority of those shareholders or a special vote at their separate meeting. It also allows minority shareholders who disagree to ask the Tribunal to cancel the change under certain conditions.",
+ "points": [
+  "Allows changing rights of a share class with written consent of at least three-fourths of that class.",
+  "Allows changing rights through a special resolution passed at a separate meeting of that share class.",
+  "Requires the company memorandum, articles, or terms of issue to allow or not prohibit the variation.",
+  "Requires consent from three-fourths of any other class of shareholders whose rights are also affected.",
+  "Permits holders of at least ten per cent of the class shares who did not agree to apply to the Tribunal to cancel the change.",
+  "Requires the company to file a copy of the Tribunal order with the Registrar within thirty days."
+ ],
+ "example": "Meera Textiles Private Limited has two different classes of shares. The company wants to change the voting rights attached to the Class A shares. To do this legally, the company obtains the written consent of the holders of at least three-fourths of the issued Class A shares. Alternatively, they pass a special resolution at a separate meeting of Class A shareholders. Because this change also affects the rights of the Class B shareholders, the company must also obtain the consent of three-fourths of the Class B shareholders. A group holding twelve percent of Class A shares disagrees and applies to the Tribunal within twenty-one days to cancel the variation, so the change waits for Tribunal confirmation.",
+ "terms": [
+  {
+   "term": "Special resolution",
+   "meaning": "A formal decision passed by a high majority of votes as required by the law."
+  },
+  {
+   "term": "Memorandum",
+   "meaning": "The foundational document that sets out the constitution of a company."
+  },
+  {
+   "term": "Articles",
+   "meaning": "The document containing the internal rules and regulations for managing the company."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A judicial body appointed to handle company law disputes."
+  }
+ ],
+ "watch": "Make sure to check if other classes of shareholders are affected, as their consent is also needed.",
+ "h": "435c05f1e672",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

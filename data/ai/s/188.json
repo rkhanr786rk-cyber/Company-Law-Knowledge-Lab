@@ -1,0 +1,34 @@
+{
+ "summary": "This section sets rules for how a company can do business deals with related parties, such as directors or their close connections. It requires proper board and shareholder approvals for specific types of deals unless they happen in the ordinary course of business on normal commercial terms. If rules are broken, deals may be cancelled, and people responsible face penalties or must pay back losses.",
+ "points": [
+  "Companies must get consent from a meeting of the Board of Directors before entering into certain deals with a related party.",
+  "Certain large deals or companies meeting specific criteria need prior approval from members by a resolution.",
+  "Members who are related parties cannot vote on the resolution to approve the deal, except in companies where ninety percent or more members are relatives of promoters or related parties.",
+  "Transactions done in the ordinary course of business that are on an arm's length basis are exempt from these rules.",
+  "Details of every related party contract must be included in the Board's report to shareholders along with the justification.",
+  "Deals entered into without proper consent can become voidable if not ratified within three months, and violators face monetary penalties."
+ ],
+ "example": "Meera Textiles Private Limited wanted to lease a warehouse owned by Rohan, a director of the company. Because this is a deal with a related party involving property leasing, the company needed to follow Section 188. The Board of Directors had to pass a resolution at a board meeting to approve the lease. Additionally, Rohan could not vote on this matter if a member resolution was required. Meera Textiles also had to include the justification for this lease in the Board's report to the shareholders. If the lease had been made without proper board approval and was not approved by shareholders within three months, the Board could choose to cancel it.",
+ "terms": [
+  {
+   "term": "Related party",
+   "meaning": "A person or entity closely connected to the company, such as a director or their relative."
+  },
+  {
+   "term": "Arm's length transaction",
+   "meaning": "A business deal between two related parties conducted as if they were completely unrelated, with no conflict of interest."
+  },
+  {
+   "term": "Office or place of profit",
+   "meaning": "A position held by a director or other entity where they receive extra pay or perks beyond their normal remuneration."
+  },
+  {
+   "term": "Voidable",
+   "meaning": "Capable of being cancelled or made legally invalid by the company."
+  }
+ ],
+ "watch": "People often confuse regular business deals made at normal market prices with special related party deals that require strict approvals.",
+ "h": "7a1e2d40f044",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,30 @@
+{
+ "summary": "This section allows the Registrar to ask a company for more information, documents, or explanations based on documents filed or information received. If the reply is missing, inadequate, or shows an unsatisfactory state of affairs, the Registrar can demand books of account and papers for inspection after recording reasons. The Registrar can also inquire if business is carried on for unlawful purposes or if investor grievances are not addressed, and the Central Government may direct inspections or inquiries.",
+ "points": [
+  "The Registrar can require a company in writing to furnish information, explanations, or documents within a reasonable time.",
+  "The company and its officers must provide the requested information and documents to the best of their knowledge.",
+  "Past employees must also furnish information for past periods if served with a written notice.",
+  "If the response is missing, inadequate, or shows an unsatisfactory state of affairs, the Registrar can demand books of account and papers for inspection after recording reasons in writing.",
+  "The Registrar can call for information and carry out an inquiry if business is carried on for fraudulent or unlawful purposes, non-compliance with the Act, or unaddressed investor grievances.",
+  "The Central Government may direct an inspector to carry out an inquiry or inspection of books and papers, or authorize any statutory authority to do so."
+ ],
+ "example": "Meera Textiles Private Limited filed its annual documents with the Registrar. Upon checking these documents, the Registrar felt that further explanations and records were necessary. The Registrar sent a written notice requiring Meera Textiles to submit the required information within a reasonable time. The directors of Meera Textiles had a duty to provide this information to the best of their knowledge. Later, because the information provided was inadequate and showed an unsatisfactory state of affairs, the Registrar recorded reasons in writing and issued another notice asking the company to produce its books of account and papers for inspection at a specified time and place.",
+ "terms": [
+  {
+   "term": "Registrar",
+   "meaning": "An officer appointed by the Central Government to keep company records and handle administrative duties under the Act."
+  },
+  {
+   "term": "Scrutiny",
+   "meaning": "A careful and thorough examination or inspection of documents."
+  },
+  {
+   "term": "Books of account",
+   "meaning": "Financial records kept by a company showing its financial transactions and position."
+  }
+ ],
+ "watch": "Note that past employees can also be asked to provide information for past periods if they receive a written notice.",
+ "h": "6a79733dd496",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

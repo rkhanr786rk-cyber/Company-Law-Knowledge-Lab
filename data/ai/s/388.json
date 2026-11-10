@@ -1,0 +1,29 @@
+{
+ "summary": "This section sets strict rules for sharing a prospectus in India for a company based outside India. It forbids sharing such a document if an expert has not given written consent for their statement or if the rules on applications and securities are not met. The law also explains that any statement in a report or reference counts as being part of the document.",
+ "points": [
+  "Forbids issuing, circulating, or distributing a prospectus in India for a foreign company unless specific rules are met.",
+  "Requires that any expert who makes a statement in the prospectus must give written consent before registration.",
+  "Requires that the expert must not have withdrawn their written consent before the prospectus is delivered for registration.",
+  "Requires the prospectus to state clearly that the expert has given and not withdrawn their consent.",
+  "Requires that any application made under the prospectus must make all concerned parties bound by sections 33 and 40."
+ ],
+ "example": "Meera Textiles Private Limited, a company incorporated outside India, wants to offer its securities to the public in India. They prepare a prospectus that includes a special evaluation report written by an industry expert, Mr. Sharma. Before delivering the prospectus for registration, Mr. Sharma gives his formal written consent to include his report in the exact form and context presented. Furthermore, the prospectus explicitly states that Mr. Sharma has given and not withdrawn his consent. The company also ensures that the document binds all concerned persons to the relevant provisions of sections 33 and 40. Because all these conditions are fulfilled, they can lawfully circulate the prospectus in India.",
+ "terms": [
+  {
+   "term": "Prospectus",
+   "meaning": "An official document inviting the public to buy securities in a company."
+  },
+  {
+   "term": "Expert",
+   "meaning": "A professional person whose statement or report is included in the prospectus."
+  },
+  {
+   "term": "Securities",
+   "meaning": "Financial instruments like shares or bonds issued by a company."
+  }
+ ],
+ "watch": "Do not forget that an expert's consent must be in writing and must not be withdrawn before the prospectus is registered.",
+ "h": "9c142e53a31a",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

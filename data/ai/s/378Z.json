@@ -1,0 +1,30 @@
+{
+ "summary": "The provided text explains the rules for voting rights and annual general meetings for a Producer Company. Every member generally gets one vote, and meetings must follow specific rules on timing, notices, and documents. The text also covers how extraordinary meetings can be called and how meeting records must be filed.",
+ "points": [
+  "Every member has one vote, and the chairman gets a casting vote if votes are equal, except during the chairman's election.",
+  "Every Producer Company must hold an annual general meeting each year, with not more than fifteen months between meetings.",
+  "The first annual general meeting must be held within ninety days from incorporation.",
+  "The meeting notice must include specific documents like the agenda, previous minutes, and audited financial statements.",
+  "Meetings must be held during business hours on a non-public holiday at the registered office or within the same city, town, or village.",
+  "One-fourth of the total members form the quorum unless the articles state a larger number."
+ ],
+ "example": "Meera Textiles Producer Company Limited was recently formed, and it must hold its very first annual general meeting within ninety days from the date it was incorporated. When sending out the meeting notice to every member and auditor, the company ensures it gives at least fourteen days of prior notice in writing. Along with the notice, the company attaches the agenda, audited balance-sheet, and profit and loss accounts. On the meeting day, which is scheduled during business hours on a normal working day at their registered office, one-fourth of the total members attend to form the proper quorum and adopt the articles.",
+ "terms": [
+  {
+   "term": "Casting vote",
+   "meaning": "An extra vote given to the person in charge to break a tie when votes are equal."
+  },
+  {
+   "term": "Quorum",
+   "meaning": "The minimum number of members required to be present to make the meeting valid."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "The government official who handles company registrations and filings."
+  }
+ ],
+ "watch": "Watch out for the difference between the timeline for the first annual general meeting and the regular annual general meetings.",
+ "h": "1a74c25ae027",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,33 @@
+{
+ "summary": "Section 274 explains what happens when someone other than the company asks the Tribunal to wind it up. If the Tribunal sees a good reason to start, it tells the company to file its objections and a statement of affairs within thirty days. The Tribunal can also punish directors or officers who fail to follow these rules.",
+ "points": [
+  "The Tribunal can order a company to file its objections and a statement of affairs within thirty days if an outsider files to wind up the company.",
+  "The Tribunal may give an extra thirty days in special circumstances.",
+  "The Tribunal can ask the person filing the petition to deposit security for costs first.",
+  "A company that fails to file the statement loses its right to oppose the winding-up petition.",
+  "Directors and officers must submit completed and audited books of account within thirty days of a winding-up order."
+ ],
+ "example": "A creditor filed a petition to wind up Star Logistics Private Limited with the Tribunal. The Tribunal found a good case and ordered Star Logistics to file its statement of affairs within thirty days. The directors of Star Logistics ignored the order and failed to submit the documents on time. Because of this failure, the company lost its right to oppose the winding-up petition in court. Furthermore, the responsible officers faced punishment because they did not comply with the lawful directions given by the Tribunal regarding the statement of affairs.",
+ "terms": [
+  {
+   "term": "winding up",
+   "meaning": "the legal process of closing down a company and settling its affairs"
+  },
+  {
+   "term": "statement of affairs",
+   "meaning": "a formal document detailing a company's assets, debts, and overall financial position"
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "a judicial body set up to handle specific legal disputes and cases"
+  },
+  {
+   "term": "liquidator",
+   "meaning": "a person appointed to oversee the closing down and sale of a company's assets"
+  }
+ ],
+ "watch": "Do not confuse the normal thirty-day deadline for filing with the extra thirty-day extension that the Tribunal can grant in special circumstances.",
+ "h": "d3a3bcc01aa9",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

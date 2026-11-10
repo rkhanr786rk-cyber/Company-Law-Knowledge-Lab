@@ -1,0 +1,30 @@
+{
+ "summary": "This section explains how a person who is not already a retiring director can still run for the office of a director at a company meeting. Such a person, or a member proposing them, must give written notice and deposit a specified amount at the company office before the meeting. The deposit is refunded under certain conditions, such as if the person gets elected or receives enough votes.",
+ "points": [
+  "A non-retiring person can be eligible for directorship at any general meeting.",
+  "A written notice of candidature or proposal must be left at the registered office at least fourteen days before the meeting.",
+  "A deposit of one lakh rupees or a higher prescribed amount must be given along with the notice.",
+  "The deposit is refunded if the candidate gets elected or receives more than twenty-five percent of total valid votes.",
+  "The deposit requirement does not apply to independent directors or certain board-recommended directors.",
+  "The company must inform its members about the candidate's candidature."
+ ],
+ "example": "Aarav is an outsider who wants to become a director at Meera Textiles Private Limited. Since he is not a retiring director, he and his friend Rohan, a member of the company, decide to follow the proper steps. Rohan submits a signed written notice of his intention to propose Aarav as a director at the registered office of Meera Textiles Private Limited. They also deposit the required amount of one lakh rupees along with the notice well before the fourteen-day deadline. Because Aarav receives more than twenty-five per cent of the total valid votes during the meeting, the company refunds the one lakh rupees deposit to them.",
+ "terms": [
+  {
+   "term": "General meeting",
+   "meaning": "A meeting of the members or shareholders of a company."
+  },
+  {
+   "term": "Retiring director",
+   "meaning": "A current director who is stepping down or retiring according to the rules in section 152."
+  },
+  {
+   "term": "Independent director",
+   "meaning": "A director who is not a promoter or management insider and has no material relationship with the company."
+  }
+ ],
+ "watch": "People often get confused about whether the deposit is always lost, but the law clearly states it is refunded if the candidate wins election or gets enough votes.",
+ "h": "7c67b034c4bc",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

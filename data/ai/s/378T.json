@@ -1,0 +1,28 @@
+{
+ "summary": "Directors of a Producer Company must pay for any loss or damage if they vote for or approve actions that break the law or the company rules. The company can also take back any profit a director made from such rule-breaking actions. This liability is extra and does not cancel out any other legal punishments they might face.",
+ "points": [
+  "Directors are jointly and severally liable for losses if they approve actions that break laws or company articles.",
+  "The Producer Company has the right to recover any profit made by a director from such rule-breaking actions.",
+  "The company can also recover an amount equal to the loss or damage caused by the director.",
+  "This liability is in addition to any other liabilities under this Act or other laws."
+ ],
+ "example": "At Meera Textiles Private Limited, the board of directors held a meeting and voted to approve a business deal that directly violated the rules in their company articles. Because of this unlawful deal, the company suffered a major financial loss, while Director Rohan personally received a cash profit from the transaction. Under the law, Rohan and the other directors are jointly and responsible for making good the loss suffered by Meera Textiles Private Limited. Furthermore, the company has the legal right to take back the exact profit that Rohan made from the deal, and this penalty is extra on top of any other legal troubles they might face.",
+ "terms": [
+  {
+   "term": "jointly and severally liable",
+   "meaning": "A legal phrase meaning that all directors can be held responsible together as a group, or each director can be held responsible individually for the full amount."
+  },
+  {
+   "term": "contravention",
+   "meaning": "An act that breaks a law, rule, or agreement."
+  },
+  {
+   "term": "articles",
+   "meaning": "The internal rules and regulations that govern how a company is run."
+  }
+ ],
+ "watch": "People often think directors are only responsible if they personally gain money, but they are also liable just for voting for an unlawful act even if they made no profit.",
+ "h": "0905b955217e",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

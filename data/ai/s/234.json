@@ -1,0 +1,28 @@
+{
+ "summary": "This section allows companies registered in India to merge or amalgamate with foreign companies located in notified countries. The Central Government can make rules for these mergers after talking with the Reserve Bank of India. A foreign company must also get prior approval from the Reserve Bank of India before merging.",
+ "points": [
+  "Merger rules under this chapter apply to Indian companies and foreign companies from notified countries.",
+  "The Central Government can make rules for these mergers in consultation with the Reserve Bank of India.",
+  "A foreign company needs prior approval from the Reserve Bank of India to merge with an Indian company or vice versa.",
+  "Shareholders of the merging company can be paid in cash, Depository Receipts, or both."
+ ],
+ "example": "Meera Textiles Private Limited, a company registered in India, wants to merge with Global Fabrics Inc., a company incorporated in a foreign country notified by the Central Government. Before they can proceed with the merger scheme, Global Fabrics Inc. must obtain the prior approval of the Reserve Bank of India. The approved merger scheme allows the shareholders of the merging company to receive their payment partly in cash and partly in Depository Receipts, as planned in their agreement.",
+ "terms": [
+  {
+   "term": "Amalgamation",
+   "meaning": "The combining of two or more companies into a single company."
+  },
+  {
+   "term": "Foreign company",
+   "meaning": "Any company or body corporate incorporated outside India."
+  },
+  {
+   "term": "Depository Receipts",
+   "meaning": "A financial instrument that represents shares of a company."
+  }
+ ],
+ "watch": "People often forget that a foreign company must get approval from the Reserve Bank of India before merging.",
+ "h": "7a64b2663542",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

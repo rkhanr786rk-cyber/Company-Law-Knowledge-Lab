@@ -1,0 +1,33 @@
+{
+ "summary": "When a company is winding up, the Company Liquidator can give up certain difficult or unprofitable properties and contracts with the permission of the Tribunal. This action cuts off the company's rights and liabilities concerning that property. Other people involved can apply to the Tribunal regarding contracts, notices, or the transfer of the property.",
+ "points": [
+  "The Company Liquidator may disclaim burdened land, shares, hard-to-sell property, or unprofitable contracts.",
+  "The liquidator needs the leave of the Tribunal and must act in writing within twelve months or an allowed extension.",
+  "If the liquidator does not discover the property within one month, the twelve months start after discovery.",
+  "The disclaimer ends the company's rights and liabilities in the property from the date of the disclaimer.",
+  "If an interested person asks the liquidator in writing to decide, the liquidator must give notice within twenty-eight days or the contract is deemed adopted."
+ ],
+ "example": "Meera Textiles Private Limited went into winding up. The company owned a factory plot burdened with very heavy and expensive maintenance covenants that made it hard to sell. The Company Liquidator decided to give up this difficult property. He applied for the leave of the Tribunal in writing within the allowed time. The Tribunal reviewed the request, ensured proper notices were given to interested parties, and granted permission. From the date of the disclaimer, the company was released from its liabilities regarding the factory land. A person affected by this decision was then treated as a creditor and could claim compensation as a debt in the winding up.",
+ "terms": [
+  {
+   "term": "Company Liquidator",
+   "meaning": "The person appointed to run the winding up process of a company."
+  },
+  {
+   "term": "Onerous property",
+   "meaning": "Property that brings heavy burdens, duties, or costs instead of benefits."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "The judicial body that handles company law cases like winding up."
+  },
+  {
+   "term": "Disclaimer",
+   "meaning": "The act of formally giving up rights, claims, or property."
+  }
+ ],
+ "watch": "A common confusion is thinking the liquidator can disclaim property at any time without permission, whereas the law requires the leave of the Tribunal and strict time limits.",
+ "h": "c9ef9383beec",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

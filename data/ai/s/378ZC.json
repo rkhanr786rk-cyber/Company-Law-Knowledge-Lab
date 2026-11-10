@@ -1,0 +1,24 @@
+{
+ "summary": "Section 378ZC of the Companies Act, 2013 allows active members of a Producer Company to have special rights over their produce, if the company's rules permit. The company can give special instruments to these members to show these rights. These instruments can be transferred to other active members after getting approval from the Board.",
+ "points": [
+  "Active members may have special rights if the articles of the company provide for them.",
+  "The Producer Company can issue appropriate instruments for these special rights.",
+  "Instruments issued for special rights require Board approval before they can be transferred.",
+  "Transfers of these instruments can only be made to other active members of the same Producer Company."
+ ],
+ "example": "Meera Textiles Private Limited, operating as a Producer Company, has articles that permit special rights for its members. Ramesh is an active member who supplies cotton and holds a special right instrument relating to the supply of additional produce. Ramesh wishes to transfer his instrument to Suresh, who is also an active member of Meera Textiles Private Limited. Before Ramesh can transfer the instrument to Suresh, he must obtain the approval of the Board of Directors of the company.",
+ "terms": [
+  {
+   "term": "Articles",
+   "meaning": "The rulebook of a company that sets out its internal regulations and management."
+  },
+  {
+   "term": "Board",
+   "meaning": "The group of directors responsible for managing the affairs of the company."
+  }
+ ],
+ "watch": "A common confusion is whether these instruments can be transferred to outsiders, but the law clearly restricts transfers only to other active members.",
+ "h": "9203be5b7584",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

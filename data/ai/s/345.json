@@ -1,0 +1,32 @@
+{
+ "summary": "When a company is being wound up, its books and papers are treated as proof of the facts written in them. This rule applies only in disputes between the members or people who must contribute to the company. It helps simplify matters by assuming the records are correct unless someone proves otherwise.",
+ "points": [
+  "Applies when a company is in the process of winding up.",
+  "Covers all books and papers belonging to the company and the Company Liquidator.",
+  "Serves as prima facie evidence of the truth of all recorded matters.",
+  "Applies specifically as between the contributories of the company."
+ ],
+ "example": "Meera Textiles Private Limited is currently being wound up. A dispute arises between two contributories, Rohan and Priya, regarding how much money the company owes them. The Company Liquidator presents the official company account books to settle the disagreement. Because the company is winding up, the court treats these books and papers as prima facie evidence of the truth of all matters recorded inside them. Rohan and Priya can look at these records to understand the financial history without needing immediate extra proof for every single entry, unless one of them challenges the records with strong evidence.",
+ "terms": [
+  {
+   "term": "Winding up",
+   "meaning": "The process of closing down a company and settling its affairs."
+  },
+  {
+   "term": "Company Liquidator",
+   "meaning": "The person appointed to run the winding up process and manage the company's assets."
+  },
+  {
+   "term": "Prima facie evidence",
+   "meaning": "Evidence accepted as correct at first glance unless proven otherwise."
+  },
+  {
+   "term": "Contributories",
+   "meaning": "People who are liable to contribute to the assets of the company in the event of its being wound up."
+  }
+ ],
+ "watch": "Do not assume these records are the final absolute truth, as they are only treated as true at first glance and can be challenged.",
+ "h": "646890ff63b4",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

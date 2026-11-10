@@ -1,0 +1,27 @@
+{
+ "summary": "This section requires that when a company asks for more money on shares of a specific type, it must treat all shares in that exact same group equally. It also clarifies that shares with the same face value are not considered the same group if different amounts have already been paid on them. This rule ensures fairness among shareholders of the same category.",
+ "points": [
+  "Requires any calls for more share capital to be uniform.",
+  "Applies this uniform rule to all shares falling under the same class.",
+  "Excludes shares with different paid-up amounts from being in the same class, even if they have the same nominal value."
+ ],
+ "example": "Meera Textiles Private Limited decides to ask its shareholders for more money on their equity shares. The company has two groups of equity shares. Group A has shares where ten rupees are already paid up. Group B has shares where five rupees are paid up, even though both groups started with the same nominal value. According to the law, Meera Textiles Private Limited does not have to make the new call on a uniform basis across both groups, because the different amounts already paid-up mean they are not in the same class.",
+ "terms": [
+  {
+   "term": "calls",
+   "meaning": "A demand made by a company asking shareholders to pay the remaining unpaid money on their shares."
+  },
+  {
+   "term": "nominal value",
+   "meaning": "The face value of a share when it is first issued."
+  },
+  {
+   "term": "paid-up",
+   "meaning": "The amount of money that shareholders have already given to the company for their shares."
+  }
+ ],
+ "watch": "People often think shares with the same face value are always in the same class, but different paid-up amounts make them separate classes.",
+ "h": "d08c972543e7",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,34 @@
+{
+ "summary": "This section allows a company to give free bonus shares to its members using specific reserves or accounts. The company must follow strict rules, such as getting approval from its articles and general meeting, and having no unpaid debts or employee dues. Bonus shares cannot be given instead of a cash dividend.",
+ "points": [
+  "A company can issue fully paid-up bonus shares using free reserves, securities premium account, or capital redemption reserve account.",
+  "Bonus shares cannot be made by using reserves created by revaluing assets.",
+  "The company must be allowed by its articles and approved by the members in a general meeting after the Board recommends it.",
+  "The company must not have defaulted on paying interest or principal on fixed deposits or debt securities.",
+  "The company must not have defaulted on paying employee statutory dues like provident fund, gratuity, and bonus.",
+  "Any partly paid-up shares must be made fully paid-up before bonus shares are issued, and bonus shares cannot replace a dividend."
+ ],
+ "example": "Meera Textiles Private Limited wants to reward its shareholders by issuing bonus shares. First, the Board of Directors recommends the plan, and the company confirms that its articles allow it. The company checks its accounts to use money only from its free reserves, avoiding any revalued asset reserves. They ensure all employees have received their provident fund and gratuity dues, and that no fixed deposit interest is unpaid. Next, Meera Textiles holds a general meeting where the members approve the issue. Finally, they make sure any existing partly paid-up shares are made fully paid-up, and they successfully issue the fully paid-up bonus shares to their members without replacing any dividends.",
+ "terms": [
+  {
+   "term": "bonus shares",
+   "meaning": "Additional shares given free of cost to current shareholders in proportion to their existing holdings."
+  },
+  {
+   "term": "free reserves",
+   "meaning": "A company's accumulated profits that are freely available for distribution as dividends."
+  },
+  {
+   "term": "articles",
+   "meaning": "The rulebook of a company that governs its internal management and operations."
+  },
+  {
+   "term": "statutory dues",
+   "meaning": "Mandatory payments required by law to be paid, such as employee provident fund contributions."
+  }
+ ],
+ "watch": "Do not confuse bonus shares with dividends, as the law strictly forbids issuing bonus shares in place of a dividend.",
+ "h": "019435c9f4cf",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

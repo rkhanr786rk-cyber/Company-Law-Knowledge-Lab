@@ -1,0 +1,33 @@
+{
+ "summary": "This section allows the Registrar to remove a company name from the official register under certain conditions like not starting business in time or not carrying on operations. The Registrar must send a notice giving time for a reply before taking action. A company can also apply to remove its own name after clearing its debts and getting proper member consent.",
+ "points": [
+  "The Registrar can start removal if a company fails to begin business within one year of incorporation.",
+  "Removal can happen if a company does no business or operations for two immediately preceding financial years without applying to be dormant.",
+  "Removal applies if subscribers fail to pay their promised share subscription and do not file a declaration within the set timeframe.",
+  "The Registrar must send a notice to the company and directors, allowing a period to send representations and documents.",
+  "A company can voluntarily apply to remove its name after clearing all liabilities and getting seventy-five per cent member consent."
+ ],
+ "example": "Meera Textiles Private Limited was incorporated by Aarti and Rohan, but they failed to commence any business within one year of its incorporation. The Registrar had reasonable cause to believe the company was inactive and sent a notice to the company and all its directors. The notice stated the intention to remove the company name and requested representations and documents within thirty days. Meera Textiles Private Limited did not show cause to the contrary within the time given. Consequently, the Registrar struck off the name of the company from the register of companies and published a notice in the Official Gazette, causing the company to stand dissolved.",
+ "terms": [
+  {
+   "term": "Registrar",
+   "meaning": "The government authority responsible for keeping a register of companies."
+  },
+  {
+   "term": "Dormant company",
+   "meaning": "A company registered for a future project or holding asset/intellectual property without significant accounting transaction."
+  },
+  {
+   "term": "Special resolution",
+   "meaning": "A decision by members passed with a high majority vote."
+  },
+  {
+   "term": "Dissolved",
+   "meaning": "Closed down or legally brought to an end."
+  }
+ ],
+ "watch": "Even after a company is dissolved by having its name removed, the liabilities of its directors, managers, and members continue as if it had not been dissolved.",
+ "h": "b9690e101a1a",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

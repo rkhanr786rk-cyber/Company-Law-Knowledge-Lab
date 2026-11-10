@@ -1,0 +1,33 @@
+{
+ "summary": "This section explains how a company can sign financial documents like promissory notes and official deeds. It states that an authorized person can handle financial notes for the company. It also sets the rules for appointing an attorney to sign deeds using the company seal or specific signatures.",
+ "points": [
+  "A bill of exchange, hundi or promissory note is valid for a company if made, accepted, drawn or endorsed by anyone acting with the company's express or implied authority.",
+  "A company may authorize an attorney in writing to execute other deeds on its behalf, either generally or for specific matters.",
+  "If the company has a common seal, the written authorization to the attorney is made under that seal.",
+  "If the company does not have a common seal, the authorization must be made by two directors or by a director and the Company Secretary.",
+  "A deed signed by an authorized attorney on behalf of the company and under the attorney's seal will legally bind the company."
+ ],
+ "example": "Meera Textiles Private Limited decided to authorize an agent to sign formal deeds on its behalf in another city. Since Meera Textiles Private Limited did not possess a common seal, the company followed the rules strictly. Two directors of the company signed the written authorization letter naming Mr. Sharma as their attorney to execute the required deeds. Later, Mr. Sharma signed a legal deed on behalf of Meera Textiles Private Limited using his own seal. Because Mr. Sharma was properly authorized by the two directors, his signed deed legally bound Meera Textiles Private Limited.",
+ "terms": [
+  {
+   "term": "bill of exchange",
+   "meaning": "A written order used in business to bind one party to pay a specific sum of money to another."
+  },
+  {
+   "term": "promissory note",
+   "meaning": "A signed document containing a written promise to pay a stated sum to a specific person."
+  },
+  {
+   "term": "common seal",
+   "meaning": "An official official stamp or signature device used by a company to show its formal approval."
+  },
+  {
+   "term": "attorney",
+   "meaning": "A person given legal power and authority to act on behalf of another person or company."
+  }
+ ],
+ "watch": "People often get confused between signing regular financial notes and signing formal deeds, which have different rules for authorization.",
+ "h": "4b1a90205a32",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

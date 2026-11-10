@@ -1,0 +1,34 @@
+{
+ "summary": "A company can remove a director before their term ends by passing an ordinary resolution, provided the director gets a fair chance to speak. Special rules apply to certain independent directors, and the director can share written statements with members. A new director can be chosen at the same meeting to fill the empty spot.",
+ "points": [
+  "A company may remove a director before their term ends by ordinary resolution after giving them a chance to be heard.",
+  "An independent director re-appointed for a second term must be removed only by a special resolution.",
+  "A special notice is required for any resolution to remove a director or to appoint someone in their place.",
+  "The director concerned has the right to be heard at the meeting and can make written representations to the company.",
+  "The vacancy caused by the removal can be filled at the same meeting if special notice was given, but the removed director cannot be re-appointed by the Board.",
+  "Removal does not take away a person's right to claim compensation or damages if allowed by their contract."
+ ],
+ "example": "Meera Textiles Private Limited wanted to remove Mr. Sharma from his position as director before his term expired. The company issued a special notice about the resolution to remove him and to appoint Mr. Verma in his place. The company promptly sent a copy of this notice to Mr. Sharma. During the meeting, Mr. Sharma was given a reasonable opportunity to be heard and speak on the matter. The members passed an ordinary resolution to remove him. Because proper special notice was given, the company filled the vacancy by appointing Mr. Verma at the exact same meeting, and Mr. Verma was set to hold office only until Mr. Sharma's original term would have ended.",
+ "terms": [
+  {
+   "term": "Ordinary resolution",
+   "meaning": "A decision passed by a simple majority of votes."
+  },
+  {
+   "term": "Special resolution",
+   "meaning": "A decision passed by a higher majority of votes, usually at least three-fourths."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized judicial body that handles specific legal disputes."
+  },
+  {
+   "term": "Casual vacancy",
+   "meaning": "An empty spot left on the board when a director's office falls vacant before their term ends."
+  }
+ ],
+ "watch": "Watch out for the rule that a removed director cannot be re-appointed by the Board of Directors if the vacancy is not filled at the meeting.",
+ "h": "609054c7c55f",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,34 @@
+{
+ "summary": "Every company must prepare an annual return showing its details as they stood at the end of the financial year. This return must include information about its office, shares, members, directors, meetings, and penalties. The company must file a copy of this return with the Registrar, and failure to do so results in penalties for the company and officers in default.",
+ "points": [
+  "Every company must prepare an annual return in the prescribed form with particulars as of the close of the financial year.",
+  "The return must cover details such as registered office, shares, debentures, members, promoters, directors, meetings, remuneration, and penalties.",
+  "The annual return must be signed by a director and a company secretary, or by a company secretary in practice if there is no company secretary.",
+  "Certain companies like One Person Companies and small companies have specific signing rules and may use an abridged form.",
+  "Every company must file a copy of the annual return with the Registrar within sixty days of the annual general meeting or the day it should have been held.",
+  "Failing to file the annual return on time leads to penalties for the company and every officer in default."
+ ],
+ "example": "Meera Textiles Private Limited finished its financial year and needed to prepare its annual return. The document included details about its registered office, shareholding pattern, list of directors, and recent board meetings. Once ready, the return was signed by a director and a company secretary. Within sixty days from the date of its annual general meeting, Meera Textiles filed a copy of this annual return with the Registrar. Because they filed it on time, they avoided any penalty for late filing.",
+ "terms": [
+  {
+   "term": "annual return",
+   "meaning": "A yearly report containing specific information about a company's structure, management, and activities."
+  },
+  {
+   "term": "debentures",
+   "meaning": "A type of debt instrument issued by a company that acknowledges a loan."
+  },
+  {
+   "term": "key managerial personnel",
+   "meaning": "Top-level executives of a company, such as the Chief Executive Officer or Managing Director."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "An official government authority appointed to register companies and maintain their records."
+  }
+ ],
+ "watch": "Watch out for the difference between preparing and filing the annual return, as filing must happen within a strict sixty-day window after the annual general meeting.",
+ "h": "b6f5141d0b59",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

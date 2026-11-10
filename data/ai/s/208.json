@@ -1,0 +1,29 @@
+{
+ "summary": "After inspecting a company's books and papers, the Registrar or inspector must write a report to the Central Government. This report can include any relevant documents collected during the check. It may also suggest that the government look even deeper into the company if there is a good reason.",
+ "points": [
+  "The Registrar or inspector must write a report after inspecting a company's books and papers.",
+  "The written report must be submitted to the Central Government.",
+  "The report can include related documents found during the inspection.",
+  "The report may recommend further investigation into the company's affairs if needed.",
+  "Any recommendation for further investigation must include supporting reasons."
+ ],
+ "example": "An inspector named Mr. Sharma finishes checking the books of account and other papers of Meera Textiles Private Limited. Following the rules, he writes down his findings in a report. Because he notices some unclear records, he includes a clear recommendation that the Central Government should order a further investigation into the company, along with his reasons and the collected documents. He then submits this complete report directly to the Central Government.",
+ "terms": [
+  {
+   "term": "Registrar",
+   "meaning": "A government official who keeps records of companies."
+  },
+  {
+   "term": "Inspector",
+   "meaning": "An official appointed to examine a company's papers."
+  },
+  {
+   "term": "Central Government",
+   "meaning": "The national government authority."
+  }
+ ],
+ "watch": "This report goes to the Central Government, not directly to the court or the company's shareholders.",
+ "h": "13471578be9f",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,32 @@
+{
+ "summary": "This section sets the official name, geographic reach, and starting rules for the law. It states that the law is called the Companies Act, 2013, and applies across the whole country. While this specific section starts right away, the other parts of the Act begin on dates chosen by the Central Government.",
+ "points": [
+  "The Act is officially named the Companies Act, 2013.",
+  "The rules of this Act apply to the whole of India.",
+  "This introductory section comes into force immediately.",
+  "The remaining parts of the Act come into force on dates appointed by the Central Government through an official publication."
+ ],
+ "example": "Meera Textiles Private Limited wants to know when a new rule from the Companies Act, 2013 becomes active. The founders check Section 1 and learn that while the name and reach of the law apply everywhere at once, the Central Government decides the specific dates when different parts of the Act officially start by issuing a notification in the Official Gazette.",
+ "terms": [
+  {
+   "term": "extends",
+   "meaning": "The geographic area where the law applies."
+  },
+  {
+   "term": "commencement",
+   "meaning": "The time when a law or a part of a law officially starts to apply."
+  },
+  {
+   "term": "notification",
+   "meaning": "An official public announcement."
+  },
+  {
+   "term": "Official Gazette",
+   "meaning": "An official government publication used to give public notice of laws and rules."
+  }
+ ],
+ "watch": "People often confuse the immediate start of this introductory section with the start dates of the rest of the Act, which depend on government notifications.",
+ "h": "4fe1d5e217ab",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

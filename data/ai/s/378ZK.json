@@ -1,0 +1,28 @@
+{
+ "summary": "This section explains how a Producer Company can provide money help to its members. The board of directors can give credit, loans, or advances if the company rules allow it. However, giving a loan to a director or their family member needs approval from the members in a general meeting.",
+ "points": [
+  "The board may provide financial assistance to members if the articles allow it.",
+  "Credit facilities for business purposes are limited to a maximum of six months.",
+  "Loans and advances against security can be given for a period between three months and seven years.",
+  "Any loan or advance to a director or their relative requires approval from members in a general meeting."
+ ],
+ "example": "Meera Textiles Private Limited is a Producer Company whose articles allow financial help to members. Farmer Rajesh, a member, needs money for his business and gets a short-term credit facility for four months. Another member, Farmer Suresh, applies for a secured loan for five years, which the board grants. Later, Director Ramesh asks for a loan for himself. Because Ramesh is a director, the board cannot approve it directly. The company must first hold a general meeting where the members vote and approve the loan to Ramesh before any money can be given.",
+ "terms": [
+  {
+   "term": "Articles",
+   "meaning": "The rulebook of a company that sets out how it must be run."
+  },
+  {
+   "term": "General meeting",
+   "meaning": "A formal meeting of all the company members."
+  },
+  {
+   "term": "Credit facility",
+   "meaning": "An arrangement allowing a member to borrow money or get goods on credit."
+  }
+ ],
+ "watch": "Do not confuse loans to regular members with loans to directors, as directors need special approval from the members.",
+ "h": "b49069deaad3",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

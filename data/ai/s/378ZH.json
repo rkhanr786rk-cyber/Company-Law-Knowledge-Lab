@@ -1,0 +1,28 @@
+{
+ "summary": "A Producer Company can give donations or subscriptions for social welfare and mutual help if its members pass a special resolution. However, the total amount given in a year cannot be more than three percent of the company's net profit from the previous year. Furthermore, the company is completely forbidden from giving any money, resources, or staff to political parties or for political purposes.",
+ "points": [
+  "A Producer Company may make donations or subscriptions using a special resolution.",
+  "Donations must be for promoting the welfare of members, producers, or the general public, or for mutual assistance principles.",
+  "Total donations in a financial year are capped at three per cent of the net profit from the immediately preceding financial year.",
+  "Contributions, subscriptions, or facilities such as personnel or material cannot be given directly or indirectly to any political party or for any political purpose."
+ ],
+ "example": "Green Fields Producer Company Limited wanted to support a local public health program and help promote mutual assistance among its members. The directors called a meeting, and the members passed a special resolution to make a donation. The total amount they wished to give was well within three per cent of their net profit from the previous financial year. Later, a local political party asked the company for the use of its office vehicles for a rally. The managers correctly refused, knowing that the law strictly forbids giving any money, materials, or personnel to any political party or for any political purpose whatsoever.",
+ "terms": [
+  {
+   "term": "Special resolution",
+   "meaning": "A formal decision made by company members that requires a higher level of voting agreement than a normal decision."
+  },
+  {
+   "term": "Net profit",
+   "meaning": "The actual money a company earns as profit after all expenses and costs have been subtracted."
+  },
+  {
+   "term": "Financial year",
+   "meaning": "The twelve-month period that a company uses for accounting and tax purposes."
+  }
+ ],
+ "watch": "Remember that the three per cent limit is calculated using the net profit from the previous financial year, not the current one.",
+ "h": "b0ca58d5dd77",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

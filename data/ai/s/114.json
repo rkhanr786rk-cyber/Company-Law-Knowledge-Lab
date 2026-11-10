@@ -1,0 +1,32 @@
+{
+ "summary": "This section explains how a company passes ordinary and special resolutions. An ordinary resolution needs more votes in favour than against it. A special resolution needs votes in favour to be at least three times the number of votes cast against it.",
+ "points": [
+  "An ordinary resolution requires proper notice to be given.",
+  "An ordinary resolution passes when votes in favour are more than votes against.",
+  "A special resolution requires the notice to specifically state the intention to propose it as a special resolution.",
+  "A special resolution requires votes in favour to be at least three times the votes cast against."
+ ],
+ "example": "At Meera Textiles Private Limited, members gather for a general meeting after receiving proper notice. For a routine matter, 60 members vote in favour and 40 vote against, so the ordinary resolution passes because the yes votes exceed the no votes. Later, for a major change, the notice clearly states it is a special resolution. Here, 90 members vote in favour and 25 vote against. Because 90 is at least three times 25, the special resolution also passes successfully.",
+ "terms": [
+  {
+   "term": "Resolution",
+   "meaning": "A formal decision or proposal agreed upon by members of a company."
+  },
+  {
+   "term": "Proxy",
+   "meaning": "A person authorized by a member to attend and vote at a meeting on their behalf."
+  },
+  {
+   "term": "Postal ballot",
+   "meaning": "Voting by post or electronic means rather than attending the meeting in person."
+  },
+  {
+   "term": "Poll",
+   "meaning": "A method of voting where votes are counted based on shares held rather than a simple show of hands."
+  }
+ ],
+ "watch": "Remember that a special resolution requires three times the votes cast against it, not three times the total number of members.",
+ "h": "2f41515840d7",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

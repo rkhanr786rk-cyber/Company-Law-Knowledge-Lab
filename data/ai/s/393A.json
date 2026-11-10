@@ -1,0 +1,25 @@
+{
+ "summary": "This section allows the Central Government to free certain groups of foreign companies from the rules of this chapter. It does this by publishing an official notice called a notification. A copy of this notice must also be shown to both Houses of Parliament.",
+ "points": [
+  "The Central Government can exempt classes of foreign companies from Chapter rules.",
+  "This applies to companies already incorporated or to be incorporated outside India.",
+  "It applies regardless of whether the company has or will have a place of business in India.",
+  "The exemption must be done through an official notification specifying the details.",
+  "A copy of the notification must be placed before both Houses of Parliament."
+ ],
+ "example": "Global Tech Corp is a business incorporated outside India that plans to open a local office in India. The Central Government issues an official notification stating that a specific group of foreign companies, which includes businesses like Global Tech Corp, does not need to follow certain rules found in this chapter. To ensure transparency, the government places a copy of this notification before both Houses of Parliament shortly after it is made.",
+ "terms": [
+  {
+   "term": "Foreign companies",
+   "meaning": "Companies or bodies corporate incorporated outside India."
+  },
+  {
+   "term": "Notification",
+   "meaning": "An official public announcement or notice issued by the government."
+  }
+ ],
+ "watch": "Do not assume all foreign companies are automatically freed from the rules, as an official government notification is required.",
+ "h": "1906e31d79a4",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

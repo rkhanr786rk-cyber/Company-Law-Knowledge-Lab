@@ -1,0 +1,29 @@
+{
+ "summary": "Section 279 stops new lawsuits and legal proceedings against a company once a winding up order is passed or a provisional liquidator is appointed. Ongoing lawsuits are also paused unless the Tribunal gives permission with specific conditions. However, this rule does not apply to appeals that are already pending before a High Court or the Supreme Court.",
+ "points": [
+  "New lawsuits or legal proceedings cannot be started against the company after a winding up order or appointment of a provisional liquidator.",
+  "Any pending legal proceedings against the company are paused once the winding up order is passed.",
+  "Legal proceedings can only be started or continued if the Tribunal grants leave and sets terms.",
+  "The Tribunal must decide on any application seeking leave within sixty days.",
+  "Appeals pending before a High Court or the Supreme Court are completely exempt from this rule."
+ ],
+ "example": "Meera Textiles Private Limited is facing closure, and the Tribunal has officially appointed a provisional liquidator for the company. Shortly after, a local supplier wants to file a new lawsuit against Meera Textiles Private Limited to recover unpaid money for fabrics. Because of the winding up order, the supplier cannot simply start this lawsuit. Instead, the supplier must first ask the Tribunal for permission. If the Tribunal grants this leave, the supplier may proceed under the conditions set by the Tribunal. Meanwhile, an older employment appeal filed by the company in the High Court can continue without needing any special permission.",
+ "terms": [
+  {
+   "term": "winding up order",
+   "meaning": "an official legal order to close down a company and settle its affairs"
+  },
+  {
+   "term": "provisional liquidator",
+   "meaning": "a temporary person appointed to take charge of the company's assets before the final closure"
+  },
+  {
+   "term": "leave",
+   "meaning": "formal permission given by the Tribunal"
+  }
+ ],
+ "watch": "People often confuse this rule by thinking it stops all legal actions everywhere, but appeals in High Courts and the Supreme Court are allowed to continue.",
+ "h": "4dca9c1647af",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,29 @@
+{
+ "summary": "Section 27 of the Companies Act, 2013 stops a company from changing the contract terms or goals mentioned in its prospectus unless shareholders approve it through a special resolution. The company must also publish details of the notice in local newspapers and is strictly forbidden from using prospectus money to buy or trade equity shares of other listed companies. Furthermore, shareholders who disagree with these changes must receive an exit offer from the promoters or controlling shareholders.",
+ "points": [
+  "A company must not vary the terms of a contract or the objects in its prospectus without approval by a special resolution in a general meeting.",
+  "Details of the meeting notice and the justification for the variation must be published in one English and one vernacular newspaper in the city of the registered office.",
+  "A company is forbidden from using any amount raised through the prospectus to buy, trade, or deal in equity shares of any other listed company.",
+  "Dissenting shareholders who do not agree with the proposed changes must be given an exit offer.",
+  "The exit offer must be provided by the promoters or controlling shareholders following rules specified by the Securities and Exchange Board."
+ ],
+ "example": "Meera Textiles Private Limited issued a prospectus to raise funds for setting up a new manufacturing plant. Later, the management decided to change this goal to a completely different business project. To do this, the company called a general meeting and passed a special resolution, while also publishing the required notice in an English and a local vernacular newspaper in the city where its registered office is located. However, some shareholders named Aarav and Priya disagreed with this change. Because they voted against the proposal, the promoters of Meera Textiles Private Limited had to provide them with an exit offer so they could leave the company under rules set by the Securities and Exchange Board.",
+ "terms": [
+  {
+   "term": "Prospectus",
+   "meaning": "An official document issued by a company inviting the public to buy its securities."
+  },
+  {
+   "term": "Special resolution",
+   "meaning": "A decision made by shareholders at a meeting that requires a specific high majority of votes to pass."
+  },
+  {
+   "term": "Dissenting shareholders",
+   "meaning": "Shareholders who do not agree with a specific proposal put forward by the company."
+  }
+ ],
+ "watch": "Do not confuse general company funds with money raised specifically through a prospectus, which has strict rules against trading in shares of other listed companies.",
+ "h": "5ffbcce243c8",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

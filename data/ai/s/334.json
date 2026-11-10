@@ -1,0 +1,33 @@
+{
+ "summary": "When the Tribunal starts the winding up process for a company, certain actions are automatically cancelled. Any transfer of company property, shares, or member status done after this start date is considered void. However, the Tribunal has the power to make a different order if it chooses.",
+ "points": [
+  "Applies to a winding up ordered by the Tribunal.",
+  "Makes any disposition of the company property void after winding up starts.",
+  "Includes actionable claims and transfer of shares.",
+  "Includes alteration in the status of company members.",
+  "Allows the Tribunal to order otherwise."
+ ],
+ "example": "Meera Textiles Private Limited is undergoing a winding up process ordered by the Tribunal. After the official start of this winding up, a shareholder named Rohan decides to transfer some of his company shares to his friend Priya. Because this transfer happens after the winding up has already commenced, the action is considered void under the law, unless the Tribunal explicitly decides to allow it through a special order. This rule helps protect the company assets during the closure process so they can be handled fairly.",
+ "terms": [
+  {
+   "term": "Winding up",
+   "meaning": "The process of closing down a company and settling its affairs."
+  },
+  {
+   "term": "Disposition",
+   "meaning": "The giving away, selling, or transferring of property to someone else."
+  },
+  {
+   "term": "Actionable claims",
+   "meaning": "A claim to a debt or other beneficial interest that can be enforced through a legal court."
+  },
+  {
+   "term": "Void",
+   "meaning": "Having no legal force or effect, as if it never happened."
+  }
+ ],
+ "watch": "People often think these transfers are automatically final, but the Tribunal holds the power to order otherwise.",
+ "h": "e628748d672e",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

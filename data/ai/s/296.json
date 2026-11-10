@@ -1,0 +1,34 @@
+{
+ "summary": "This section gives the Tribunal the power to make calls for money after a winding up order is passed. It can do this before or after checking if the company has enough assets. The money collected is used to pay debts, expenses of winding up, and to balance the rights of contributors.",
+ "points": [
+  "The Tribunal can make calls on contributories listed on the contributory list.",
+  "Calls can be made up to the limit of the contributories' liability.",
+  "Money can be called to pay the debts and liabilities of the company.",
+  "Money can be called to cover the costs, charges, and expenses of winding up.",
+  "Money can be called to adjust the rights of the contributories among themselves.",
+  "The Tribunal can make a specific order requiring the payment of these calls."
+ ],
+ "example": "After a winding up order was issued for Meera Textiles Private Limited, the Tribunal needed to raise funds to pay off the remaining debts and the expenses of winding up. The Tribunal reviewed the list of contributories and decided to make calls on them for payment, up to the exact limit of their liability. Rahul, a contributory on the list, received an official order from the Tribunal requiring him to pay his share. This money would be used alongside other collected funds to satisfy the company's liabilities and properly adjust the rights of all contributories among themselves.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "The judicial authority handling company law matters."
+  },
+  {
+   "term": "Winding up",
+   "meaning": "The process of closing down a company."
+  },
+  {
+   "term": "Contributories",
+   "meaning": "People who are liable to contribute to the assets of a company upon its winding up."
+  },
+  {
+   "term": "Calls",
+   "meaning": "A demand for payment of money owed."
+  }
+ ],
+ "watch": "People often confuse whether the Tribunal can only make calls after checking company assets, but the text allows it to do so either before or after.",
+ "h": "884ea5275af6",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

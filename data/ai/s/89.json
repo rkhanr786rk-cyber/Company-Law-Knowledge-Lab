@@ -1,0 +1,30 @@
+{
+ "summary": "This section requires people whose names are in a company's register of members, but who do not actually own the shares, to declare the real owner to the company. Similarly, the real owner must also declare their interest to the company, and both must report any changes within thirty days. If these rules are broken, penalties apply, and the real owner cannot enforce any rights related to those shares.",
+ "points": [
+  "A registered shareholder who does not hold the beneficial interest must declare the real owner to the company.",
+  "A person who holds or acquires a beneficial interest must declare their interest and details to the company.",
+  "If a change occurs in the beneficial interest, both parties must declare it to the company within thirty days.",
+  "Failing to make the required declarations results in a penalty of fifty thousand rupees, plus extra daily fines for continuing failures up to five lakh rupees.",
+  "The company must note the declaration in its register and file a return with the Registrar within thirty days of receiving it.",
+  "The beneficial owner cannot enforce any rights concerning the shares if they fail to make the required declaration."
+ ],
+ "example": "Aarav agreed to hold shares in Meera Textiles Private Limited on behalf of his friend, Riya. Even though Aarav's name is written in the company register as the owner, Riya holds the beneficial interest because she is entitled to receive the dividends and exercise the rights attached to the shares. Under this section, Aarav must declare to Meera Textiles that Riya is the true owner. At the same time, Riya must also declare her beneficial interest to the company. If Riya later transfers her interest to someone else, both Aarav and Riya must inform the company about this change within thirty days.",
+ "terms": [
+  {
+   "term": "beneficial interest",
+   "meaning": "The real right to enjoy the benefits of ownership, such as receiving dividends or exercising share rights, even if another person's name is on the register."
+  },
+  {
+   "term": "register of members",
+   "meaning": "The official book kept by a company that lists the names and details of its share holders."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "The government official who maintains company records under the law."
+  }
+ ],
+ "watch": "People often confuse being the registered holder on paper with being the true owner who enjoys the financial benefits.",
+ "h": "bd41172e824e",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

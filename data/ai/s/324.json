@@ -1,0 +1,33 @@
+{
+ "summary": "This section explains what kinds of debts and claims can be submitted when a company is being wound up or closed down. Almost all claims, whether they are certain or uncertain, present or future, are allowed to be proved against the company. A fair estimate must be made for any claims that do not have a fixed value.",
+ "points": [
+  "Applies to every winding up of a company.",
+  "Allows all debts payable on a contingency to be admitted to proof.",
+  "Allows all present or future claims, whether certain or contingent, to be admitted.",
+  "Allows claims that sound only in damages to be admitted.",
+  "Requires a just estimate to be made for debts or claims that do not have a certain value."
+ ],
+ "example": "Meera Textiles Private Limited is going through a winding up process. Rohit has a claim against the company for future damages due to a broken contract, and Anita has a claim that depends on a future uncertain event happening. Under this section, both Rohit and Anita can submit their claims to be proved against the company. The liquidator will then make a fair estimate of the value of these uncertain claims so they can be considered fairly alongside the fixed debts of the company during the closure.",
+ "terms": [
+  {
+   "term": "Winding up",
+   "meaning": "The legal process of closing down a company and settling its affairs."
+  },
+  {
+   "term": "Contingency",
+   "meaning": "An event that may or may not happen in the future."
+  },
+  {
+   "term": "Proof",
+   "meaning": "The formal submission and verification of a debt or claim."
+  },
+  {
+   "term": "Damages",
+   "meaning": "Money claimed by a person as compensation for a loss or injury."
+  }
+ ],
+ "watch": "People often confuse uncertain future claims with completely invalid claims, but this section ensures even uncertain claims are allowed by estimating their value.",
+ "h": "94f1fa714ed4",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

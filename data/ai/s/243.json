@@ -1,0 +1,30 @@
+{
+ "summary": "This section deals with the consequences when the Tribunal cancels or changes a company agreement to stop oppression or mismanagement. It stops affected managers from claiming damages, bans them from holding key roles for five years without permission, and punishes rule-breakers with a fine.",
+ "points": [
+  "Cancelling an agreement through a Tribunal order does not give anyone the right to claim damages or compensation from the company.",
+  "A managing director or manager whose agreement is ended cannot be reappointed or act as a director or manager for five years without the Tribunal's permission.",
+  "The Tribunal cannot give this permission unless the Central Government gets a notice and a chance to be heard.",
+  "A person declared not fit and proper cannot hold a management office in any company for five years, unless allowed by the Central Government with the Tribunal's leave.",
+  "Anyone removed from office is not entitled to any compensation for losing that office.",
+  "Knowingly breaking these rules leads to a fine of up to five lakh rupees for the offender and any supporting director."
+ ],
+ "example": "At Meera Textiles Private Limited, the Tribunal issued an order that terminated the managing director agreement of Mr. Verma to stop ongoing mismanagement in the firm. Following this order, Mr. Verma demanded a large sum of money as compensation for losing his position and attempted to return to his management role the very next month without permission. Under the law, Mr. Verma cannot claim any compensation for his lost job. Furthermore, because he acted as a manager again without the Tribunal's permission and without notifying the Central Government, both Mr. Verma and any other director who knowingly supported him can face a fine of up to five lakh rupees.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized legal body set up to handle company law disputes."
+  },
+  {
+   "term": "Contravention",
+   "meaning": "An action that breaks a law or rule."
+  },
+  {
+   "term": "Damages",
+   "meaning": "Money claimed by a person as compensation for a loss or injury."
+  }
+ ],
+ "watch": "People often assume a removed manager can claim severance pay, but this law clearly forbids any compensation for such job loss.",
+ "h": "c40eb753829e",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

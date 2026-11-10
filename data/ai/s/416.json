@@ -1,0 +1,25 @@
+{
+ "summary": "This section explains how top leaders like the President, Chairperson, or Members of the Tribunal can step down from their roles. They must write a resignation letter and give it to the Central Government. However, they cannot leave immediately and must wait until a specific condition is met.",
+ "points": [
+  "The President, Chairperson, or any Member can resign by writing a notice to the Central Government.",
+  "The notice must be signed by the person resigning.",
+  "They must continue working until three months pass after the Central Government receives the notice.",
+  "They must also continue working if a new successor takes charge earlier than the three-month period.",
+  "They must stop working if their original term of office ends before the other conditions happen."
+ ],
+ "example": "Mr. Sharma serves as a Member of the Tribunal at Apex Tribunal Private Limited. Wishing to retire, he writes and signs a resignation notice, delivering it to the Central Government on January 1st. According to the law, Mr. Sharma cannot walk away from his duties right away. He must continue holding his office until April 1st, which marks the end of the three-month period from when the government received his notice. Alternatively, if the government appoints a successor who officially enters the office on February 1st, Mr. Sharma's duty ends on that earlier date. He must patiently wait for one of these specific events to happen before his resignation becomes fully effective.",
+ "terms": [
+  {
+   "term": "Central Government",
+   "meaning": "The main national government authority that receives the resignation notice."
+  },
+  {
+   "term": "Successor",
+   "meaning": "A new person duly appointed to take over the office after someone leaves."
+  }
+ ],
+ "watch": "Do not assume a member can leave the job the exact day they send their resignation letter.",
+ "h": "687f348f9734",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

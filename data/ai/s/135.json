@@ -1,0 +1,34 @@
+{
+ "summary": "This section requires certain large companies to set up a Corporate Social Responsibility Committee and spend a portion of their profits on social welfare activities. Companies must plan these activities, report on them publicly, and follow strict rules for handling any unspent money. If a company fails to spend or transfer the required amounts, it faces specific financial penalties.",
+ "points": [
+  "Companies meeting specific net worth, turnover, or net profit thresholds must form a Corporate Social Responsibility Committee.",
+  "The committee must design a policy for social activities, suggest spending amounts, and monitor the policy.",
+  "The company's Board must approve the policy, share it in reports and on its website, and ensure the planned activities happen.",
+  "Companies must spend at least two percent of their average net profits from the past three financial years on these activities, giving preference to local areas where they operate.",
+  "Unspent money must either be transferred to specific funds or special bank accounts depending on whether the project is ongoing.",
+  "Companies and default officers face clear financial penalties if they fail to comply with spending or transfer rules."
+ ],
+ "example": "Meera Textiles Private Limited reached a net profit of rupees six crore during the immediately preceding financial year. Because its profit crossed the five crore threshold, the company had to form a Corporate Social Responsibility Committee. The committee designed a policy to help local schools and recommended a specific spending amount. The Board approved this policy and placed it on the company website. However, at the end of the year, a portion of the required two percent average net profit remained unspent on an ongoing project. Meera Textiles Private Limited properly transferred this unspent amount to a special bank account called the Unspent Corporate Social Responsibility Account within the required thirty days from the end of the financial year.",
+ "terms": [
+  {
+   "term": "net worth",
+   "meaning": "The total value of assets minus total outside liabilities of a company."
+  },
+  {
+   "term": "turnover",
+   "meaning": "The total volume of business done by a company, usually measured by total sales."
+  },
+  {
+   "term": "independent director",
+   "meaning": "A board member who does not have any material or pecuniary relationship with the company, helping ensure unbiased oversight."
+  },
+  {
+   "term": "scheduled bank",
+   "meaning": "A bank listed in the second schedule of the Reserve Bank of India Act, 1934."
+  }
+ ],
+ "watch": "Make sure to distinguish between standard unspent funds that go to a Schedule VII Fund and unspent funds tied to ongoing projects that go to a special bank account.",
+ "h": "bd3c18b0a388",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

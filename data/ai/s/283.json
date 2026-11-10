@@ -1,0 +1,32 @@
+{
+ "summary": "This section explains how a company's property is handled when the company is being shut down. Once the Tribunal orders a winding up or appoints a provisional liquidator, the liquidator must take control of and protect the company's assets. Legally, all company property is considered to be in the custody of the Tribunal starting from the winding up order date.",
+ "points": [
+  "The liquidator must take custody or control of all property, effects, and actionable claims of the company upon the Tribunal's order.",
+  "The liquidator must take necessary steps to protect and preserve the company's properties.",
+  "All property and effects of the company are deemed to be in the custody of the Tribunal from the date of the winding up order.",
+  "The Tribunal can order contributories, trustees, receivers, bankers, agents, officers, or employees to hand over company money, property, books, and papers to the liquidator."
+ ],
+ "example": "A winding up order was recently made against Meera Textiles Private Limited by the Tribunal. Following this order, the appointed Company Liquidator requested the Tribunal for assistance. Acting on this, the Tribunal directed Mr. Sharma, an officer of the company, to forthwith surrender all company books and papers that were under his control to the Company Liquidator. Mr. Sharma complied with the direction, ensuring the company's records were safely placed in the custody of the liquidator for the winding up process.",
+ "terms": [
+  {
+   "term": "Winding up",
+   "meaning": "The legal process of dissolving or shutting down a company."
+  },
+  {
+   "term": "Company Liquidator",
+   "meaning": "The person appointed to manage the shutting down of the company and handle its assets."
+  },
+  {
+   "term": "Actionable claims",
+   "meaning": "Claims to a debt or other beneficial interest that can be enforced through a legal action."
+  },
+  {
+   "term": "Contributory",
+   "meaning": "A person who is liable to contribute to the assets of the company in the event of its being wound up."
+  }
+ ],
+ "watch": "People often confuse the physical possession of the assets by the liquidator with the legal custody, which actually rests with the Tribunal from the date of the winding up order.",
+ "h": "26b6b3465f57",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

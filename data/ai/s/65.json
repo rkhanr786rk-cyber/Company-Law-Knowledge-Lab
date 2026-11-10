@@ -1,0 +1,27 @@
+{
+ "summary": "When an unlimited company with share capital decides to become a limited company, it can set aside a special reserve of capital. This reserve can only be asked for if the company closes down. It helps protect people who are owed money by the company.",
+ "points": [
+  "An unlimited company with share capital can pass a resolution to register as a limited company.",
+  "It can increase the face value of its shares on the condition that this extra amount is only called up if the company winds up.",
+  "It can decide that a specific part of its uncalled share capital cannot be called up until the company winds up."
+ ],
+ "example": "Anisha Textiles Limited, an unlimited company with a share capital, decided to convert into a limited company. During the process, the members passed a resolution to increase the nominal value of each share. They added a strict condition stating that this increased portion of the share capital cannot be asked from the shareholders during normal business operations. The company can only collect this specific money if the company is being wound up, providing extra security to anyone the company owes money to.",
+ "terms": [
+  {
+   "term": "unlimited company",
+   "meaning": "A company where the liability of its members is not legally limited."
+  },
+  {
+   "term": "wound up",
+   "meaning": "The process of ending or closing down a company's business."
+  },
+  {
+   "term": "uncalled share capital",
+   "meaning": "The part of the share capital that the company has not yet asked shareholders to pay."
+  }
+ ],
+ "watch": "Remember that the special reserve capital cannot be used for everyday business needs and can only be called upon when the company is winding up.",
+ "h": "f015aa4300a2",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

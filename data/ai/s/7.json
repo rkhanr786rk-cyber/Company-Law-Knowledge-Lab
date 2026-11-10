@@ -1,0 +1,34 @@
+{
+ "summary": "This section explains how to register a new company by filing specific documents and information with the Registrar. It details what papers are needed, how the Registrar issues a certificate and identity number, and the strict punishments for giving false information. If a company is formed through fraud or false facts, the law allows authorities to take serious actions including changing management, removing the company name, or winding it up.",
+ "points": [
+  "You must file the memorandum and articles signed by all subscribers with the proper Registrar.",
+  "You need a declaration from specified professionals and a first director stating that all legal rules for registration are met.",
+  "Subscribers and first directors must declare they have no recent fraud or company law convictions and that all filed documents are true.",
+  "You must provide a correspondence address, personal details of subscribers and first directors, and director interest details.",
+  "The Registrar registers the documents, issues a certificate of incorporation, and allots a corporate identity number.",
+  "The company must keep copies of all original filing documents at its registered office until it is dissolved."
+ ],
+ "example": "Aarav and Meera wanted to start a new business called Meera Textiles Private Limited. They prepared their memorandum and articles and signed them as subscribers. They gathered proof of identity and personal details for themselves and their appointed first directors, along with the required declarations from a chartered accountant and a director stating that all legal rules were followed and no one had any recent fraud convictions. They also provided a correspondence address for the firm. They submitted all these documents to the local Registrar. After checking the papers, the Registrar registered the company, issued a certificate of incorporation, and gave them a unique corporate identity number. Aarav and Meera safely stored copies of all these documents at their new registered office.",
+ "terms": [
+  {
+   "term": "Registrar",
+   "meaning": "The government official who handles company registrations."
+  },
+  {
+   "term": "Memorandum",
+   "meaning": "A foundational document that sets out a company's constitution and objectives."
+  },
+  {
+   "term": "Articles",
+   "meaning": "The document containing the internal rules and regulations for running a company."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A judicial body set up to handle legal disputes and matters under the Act."
+  }
+ ],
+ "watch": "People often confuse the initial filing of correct documents with the later severe legal consequences of submitting false or suppressed information.",
+ "h": "490fcf9d0bc0",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,23 @@
+{
+ "summary": "This section protects past actions taken by a person acting as a director, even if it is later found out that their appointment was invalid or ended. It means the company's decisions are not automatically cancelled just because of a mistake in how the director was chosen. However, this protection stops as soon as the company notices that the appointment was invalid or had ended.",
+ "points": [
+  "An act done by a person as a director is valid even if their appointment is later found to be defective.",
+  "This rule applies even if the person was disqualified or their term had already ended under the law or company rules.",
+  "The protection does not apply to any actions done after the company notices the appointment is invalid or has ended."
+ ],
+ "example": "Asha Textiles Private Limited held a board meeting where Mr. Sharma voted to approve a new vendor contract. At the time, everyone believed Mr. Sharma was a properly appointed director. Three months later, the company discovered that Mr. Sharma had a disqualification which meant his appointment was actually invalid from the very beginning. Because of this section, the vendor contract that Mr. Sharma approved before this discovery remains completely valid. However, if Mr. Sharma tries to vote on another contract after the company discovered his disqualification, that later action is not protected and will not be valid.",
+ "terms": [
+  {
+   "term": "disqualification",
+   "meaning": "a legal reason that makes someone ineligible to hold a position like a director"
+  },
+  {
+   "term": "articles of the company",
+   "meaning": "the rulebook that sets out how the company must be managed"
+  }
+ ],
+ "watch": "Remember that this section does not protect actions taken after the company actually knows about the invalid appointment.",
+ "h": "91af30fc81db",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,30 @@
+{
+ "summary": "This section explains how the Registrar can remove or strike off the name of a Producer Company from the official register if it fails to start business, stop doing business, or stop following its core rules. Before taking this action, the Registrar must give notice and a chance for the company to explain. Members of the company also have the right to appeal this decision to the Tribunal within a specific timeframe.",
+ "points": [
+  "The Registrar must strike off a Producer Company if it fails to start business within one year of registration.",
+  "The Registrar must strike off the company if it stops doing business with its members or stops carrying out its stated objects.",
+  "The Registrar must give a show-cause notice and a reasonable opportunity to be heard to the company and its directors before striking off.",
+  "The Registrar can use section 248 rules to strike off the company if it does not follow mutual assistance principles.",
+  "Aggrieved members can appeal the strike-off order to the Tribunal within sixty days.",
+  "The strike-off order stays on hold until the Tribunal disposes of any filed appeal."
+ ],
+ "example": "Meera Producer Company Limited was registered last year but failed to start any business operations within the first twelve months. The Registrar noticed this failure and issued a formal notice to the company and all its directors, asking them to show cause why the company name should not be removed. The directors were given a reasonable opportunity to present their case. After reviewing the situation, the Registrar made an order to strike off the company name. One of the members, Aarav, felt aggrieved by this decision and filed an appeal before the Tribunal within sixty days. Because the appeal was filed, the strike-off order did not take effect while the Tribunal reviewed the case.",
+ "terms": [
+  {
+   "term": "Registrar",
+   "meaning": "An official appointed to keep the registry of companies."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A special judicial body set up to handle legal disputes under company law."
+  },
+  {
+   "term": "Aggrieved",
+   "meaning": "Feeling wronged or harmed by an official decision and having a legal right to complain."
+  }
+ ],
+ "watch": "Remember that the strike-off order is paused while an appeal is pending at the Tribunal.",
+ "h": "e0a3d80c81fb",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

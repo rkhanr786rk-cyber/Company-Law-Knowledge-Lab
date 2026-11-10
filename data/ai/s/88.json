@@ -1,0 +1,30 @@
+{
+ "summary": "This section requires every company to keep and maintain specific registers for its members, debenture-holders, and other security holders. It also requires the company to include an index of names in these registers. If a company fails to maintain these registers properly, both the company and the responsible officers must pay a penalty.",
+ "points": [
+  "Companies must maintain a register of members, separated by equity and preference classes, for members living in or outside India.",
+  "Companies must maintain a register of debenture-holders and other security holders.",
+  "Every register must include an index of the names it contains.",
+  "Registers kept by a depository under the Depositories Act are considered the official corresponding registers.",
+  "A company may keep a foreign register outside India for members or security holders living abroad, if its articles allow it.",
+  "Failing to maintain these registers results in a penalty of three lakh rupees for the company and fifty thousand rupees for the officer in default."
+ ],
+ "example": "Aarav Steel Private Limited operates a manufacturing plant and issues both equity and preference shares to investors living in India and abroad. According to the law, Aarav Steel must keep and maintain a register of members that lists these share classes separately for every member, along with a proper index of all their names. Because the company has several investors living overseas, it checks its internal rules, known as articles, to see if it can keep a foreign register outside India. If Aarav Steel forgets to maintain these registers altogether, the company will face a penalty of three lakh rupees, and any officer responsible for the mistake will face a penalty of fifty thousand rupees.",
+ "terms": [
+  {
+   "term": "debenture-holders",
+   "meaning": "People or entities that lend money to a company and hold a certificate acknowledging the debt."
+  },
+  {
+   "term": "depository",
+   "meaning": "An organization that holds securities in electronic form for investors."
+  },
+  {
+   "term": "articles",
+   "meaning": "The internal rules and regulations that govern how a company is managed."
+  }
+ ],
+ "watch": "People often confuse regular company registers with electronic depository records, but the law treats the depository's records as the official corresponding register.",
+ "h": "2f8257839b0b",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

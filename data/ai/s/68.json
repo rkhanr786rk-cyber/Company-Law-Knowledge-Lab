@@ -1,0 +1,33 @@
+{
+ "summary": "This section allows a company to buy back its own shares or specified securities using specific funds like free reserves, subject to rules regarding limits, approvals, and debt ratios. The company must completely destroy the bought-back shares and maintain a proper register of the transaction. Strict timelines and penalties apply if the company fails to follow these rules.",
+ "points": [
+  "A company may buy back its shares using free reserves, the securities premium account, or the proceeds of a new issue of shares, but not from the proceeds of the same kind of earlier issue.",
+  "The buy-back must be allowed by the company's articles and authorised by a special resolution at a general meeting, or by a Board resolution if the buy-back is ten percent or less.",
+  "All shares chosen for a buy-back must be fully paid-up.",
+  "The company must physically destroy the bought-back shares within seven days of finishing the buy-back.",
+  "The company must file a declaration of solvency signed by at least two directors before making the buy-back."
+ ],
+ "example": "Meera Textiles Private Limited wants to buy back some of its equity shares from its shareholders using its free reserves. The company checks its articles of association, which allows a buy-back. Since the planned buy-back is twenty percent of its total paid-up equity capital, the board calls a general meeting where the shareholders pass a special resolution. Before starting, two directors sign a declaration of solvency stating the company can pay its debts. Meera Textiles successfully completes the buy-back within the allowed time limit, and then physically destroys the bought-back shares within seven days.",
+ "terms": [
+  {
+   "term": "Buy-back",
+   "meaning": "A company purchasing its own shares or other specified securities back from its holders."
+  },
+  {
+   "term": "Free reserves",
+   "meaning": "Reserves that are available for distribution as dividends based on the latest audited financial statement."
+  },
+  {
+   "term": "Special resolution",
+   "meaning": "A resolution passed by a required majority of at least seventy-five percent of votes at a general meeting."
+  },
+  {
+   "term": "Solvency",
+   "meaning": "The ability of a company to pay its debts as they become due."
+  }
+ ],
+ "watch": "A company cannot use the money from a new issue of shares to buy back the exact same kind of shares from an earlier issue.",
+ "h": "10117779e5dd",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

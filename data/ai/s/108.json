@@ -1,0 +1,23 @@
+{
+ "summary": "Section 108 of the Companies Act, 2013 gives the Central Government the power to make rules. These rules decide which companies must allow members to vote electronically. They also explain the exact way members can use this electronic voting right.",
+ "points": [
+  "The Central Government is allowed to prescribe specific classes of companies.",
+  "The Central Government can decide the manner in which a member may exercise their right to vote.",
+  "Voting can be done through electronic means as permitted by the prescribed rules."
+ ],
+ "example": "Aarav Industries Private Limited wants to know if its shareholders can vote on company matters using computers or mobile phones. The directors check the rules to see what the government requires. The Central Government has the power to specify the class of companies that must use electronic voting and the way members must do it. Aarav Industries Private Limited must follow these prescribed rules to make sure its shareholders can cast their votes online correctly and legally.",
+ "terms": [
+  {
+   "term": "Prescribe",
+   "meaning": "To lay down rules or orders authoritatively."
+  },
+  {
+   "term": "Electronic means",
+   "meaning": "Using computers, the internet, or digital tools for voting instead of paper."
+  }
+ ],
+ "watch": "Do not assume all companies must offer electronic voting until the Central Government prescribes the specific classes.",
+ "h": "b7924561326e",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

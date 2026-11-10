@@ -1,0 +1,25 @@
+{
+ "summary": "This section explains how members of a Producer Company receive benefits and payments for their products and shares. Members first get an initial value for the goods they supply, with the rest paid later as decided by the Board. They also receive a limited return on their share capital and a share of any leftover surplus based on their business participation.",
+ "points": [
+  "Members initially receive the value determined by the Board for their pooled and supplied produce.",
+  "The withheld price for produce can be given later in cash, in kind, or as equity shares based on how much was supplied.",
+  "Members receive a limited return on the share capital they contributed.",
+  "Members may receive bonus shares according to the law.",
+  "Any leftover surplus, after paying the limited return and setting aside reserves, can be given as a patronage bonus."
+ ],
+ "example": "Meera Textiles Private Limited is a Producer Company. Farmer Aarav supplies cotton to the company. The Board decides to pay Aarav an initial amount for his cotton, while holding back a portion of the price to be paid later in cash. Aarav also holds share capital in the company, on which he receives a limited return. At the end of the year, after setting aside money for reserves and the limited return, the company has extra surplus. During a general meeting, the members decide to distribute this surplus as a patronage bonus to Aarav and other members in proportion to how much business they did with the company.",
+ "terms": [
+  {
+   "term": "Board",
+   "meaning": "The group of directors chosen to manage the company."
+  },
+  {
+   "term": "Patronage bonus",
+   "meaning": "Extra money shared with members based on how much business they did with the company."
+  }
+ ],
+ "watch": "Do not assume members are automatically owed the full price of their produce upfront, as the Board decides the initial payment and can withhold the rest for later.",
+ "h": "a9bf5cab12ec",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

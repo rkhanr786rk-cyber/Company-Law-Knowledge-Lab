@@ -1,0 +1,33 @@
+{
+ "summary": "This section explains how unregistered companies, such as certain partnerships or large associations, can be closed down under this Act. It lists the specific reasons for closing them down and states that they cannot choose to close down voluntarily. It also sets clear rules for when such a company is officially considered unable to pay its debts.",
+ "points": [
+  "Unregistered companies can be wound up under this Act following special rules.",
+  "Voluntary winding up of an unregistered company is strictly forbidden.",
+  "A company can be wound up if it has stopped business, cannot pay its debts, or if the Tribunal finds it just and equitable.",
+  "A company is deemed unable to pay debts if it ignores a valid written demand for more than one lakh rupees for three weeks.",
+  "Certain entities like railway companies or companies already registered under this Act are excluded from being treated as unregistered companies."
+ ],
+ "example": "Meera Textiles Private Limited is not the entity involved, but rather Rohan and five other partners run an unregistered business group called Star Association, which has ten members in total. Creditor Kabir is owed a sum exceeding one lakh rupees by Star Association. Kabir delivers a formal demand for payment to a principal officer at their main place of business. Star Association neglects to pay, secure, or compound this sum for three weeks after the service of the demand. Because of this delay, Star Association is deemed unable to pay its debts under the law, and proceedings to wind up the unregistered company can be brought before the Tribunal.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "The judicial authority appointed under the law to handle company disputes and cases."
+  },
+  {
+   "term": "Winding up",
+   "meaning": "The legal process of closing down a company and settling its affairs."
+  },
+  {
+   "term": "Unregistered company",
+   "meaning": "An entity like a partnership firm, society, or association with more than seven members that is not registered under the main companies legislation."
+  },
+  {
+   "term": "Compounded",
+   "meaning": "To settle a debt by reaching a compromise or agreement with the creditor for a different arrangement."
+  }
+ ],
+ "watch": "Note that an unregistered company is never allowed to undergo a voluntary winding up process.",
+ "h": "55cfcf54be92",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

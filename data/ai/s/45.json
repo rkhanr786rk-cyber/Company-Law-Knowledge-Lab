@@ -1,0 +1,27 @@
+{
+ "summary": "This section requires every share in a company with a share capital to have its own unique number so it can be easily identified. However, this rule does not apply to shares when a person holds the beneficial interest and their name is recorded in a depository. In short, physical shares need numbers, but dematerialized shares tracked by a depository do not.",
+ "points": [
+  "Every share in a company that has share capital must have a distinctive number to identify it.",
+  "This rule applies to traditional or physical shares.",
+  "Shares held through a depository where a person is listed as the holder of a beneficial interest are exempt from this numbering rule."
+ ],
+ "example": "Meera Textiles Private Limited issues physical shares to its early investors. According to the law, each of these physical share certificates must display a unique distinctive number so the company can track who owns every specific share. Later, investor Rohan decides to hold his shares electronically through a depository, where his name is entered as the holder of the beneficial interest in those shares. Because his shares are held in this depository system, the requirement for a physical distinctive number on those specific shares does not apply to them, making share tracking much easier in the digital format.",
+ "terms": [
+  {
+   "term": "Share capital",
+   "meaning": "The money a company raises by issuing shares to investors."
+  },
+  {
+   "term": "Beneficial interest",
+   "meaning": "The right to enjoy the benefits of ownership of property or shares, even if another person or entity is the official registered owner."
+  },
+  {
+   "term": "Depository",
+   "meaning": "An organization that holds securities in electronic form so they can be easily traded."
+  }
+ ],
+ "watch": "A common confusion is assuming that all shares, including electronic ones in a depository, need distinctive numbers.",
+ "h": "2b750aa70088",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

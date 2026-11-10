@@ -1,0 +1,29 @@
+{
+ "summary": "Every company must keep a register at its main office with specific details about its directors and key managers, including any shares they hold in the company or its related companies. The company also needs to send a return with these details to the Registrar within thirty days of any new appointment or change. This helps keep proper records of who runs the company and what shares they own.",
+ "points": [
+  "Every company must keep a register at its registered office.",
+  "The register must contain particulars of directors and key managerial personnel.",
+  "The register must include details of securities held by them in the company, its holding, subsidiary, subsidiary of holding, or associate companies.",
+  "A return with particulars and documents of directors and key managerial personnel must be filed with the Registrar.",
+  "The filing must be done within thirty days from the appointment or within thirty days of any change."
+ ],
+ "example": "Meera Textiles Private Limited recently appointed a new director named Mr. Sharma and a key managerial personnel named Ms. Das. According to the rules, the company must keep a register at its registered office containing their prescribed particulars and the details of any securities they hold in the company or its related companies. Furthermore, Meera Textiles Private Limited is required to file a return containing these particulars and documents with the Registrar within thirty days from the date of their appointment, and must do the same within thirty days if any future change takes place regarding them.",
+ "terms": [
+  {
+   "term": "key managerial personnel",
+   "meaning": "Important officers who manage the daily operations of the company."
+  },
+  {
+   "term": "securities",
+   "meaning": "Financial instruments like shares held in a company."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "The government official who handles company records."
+  }
+ ],
+ "watch": "Make sure to file the return within thirty days of both new appointments and any subsequent changes.",
+ "h": "a337fc69c675",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

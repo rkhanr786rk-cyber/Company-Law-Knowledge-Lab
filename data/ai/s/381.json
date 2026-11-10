@@ -1,0 +1,29 @@
+{
+ "summary": "This section requires every foreign company to prepare financial statements every calendar year and deliver them to the Registrar. If these documents are not in English, a certified English translation must be attached. The company must also send a list of all its places of business in India along with these documents.",
+ "points": [
+  "Every foreign company must make out a balance sheet and profit and loss account every calendar year.",
+  "The financial documents must follow the prescribed form, particulars, and attached documents.",
+  "A copy of these financial documents must be delivered to the Registrar.",
+  "If the documents are not in English, a certified translation in English must be attached.",
+  "A copy of a list of all places of business established in India must be sent to the Registrar along with the financial documents."
+ ],
+ "example": "Global Trade Inc., a company incorporated outside India, operates a business. In every calendar year, Global Trade Inc. must prepare its balance sheet and profit and loss account in the prescribed form and deliver a copy to the Registrar. Because some of its original financial records are in another language, the company attaches a certified translation in the English language to them. Along with these financial documents, Global Trade Inc. also sends a list of all places of business it has established in India as of the date of the balance sheet to the Registrar. Meanwhile, the Central Government has not issued any notification changing these rules for this company.",
+ "terms": [
+  {
+   "term": "Foreign company",
+   "meaning": "A company or body corporate incorporated outside India which has a place of business in India."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "An office designated under the law to handle company registrations and filings."
+  },
+  {
+   "term": "Certified translation",
+   "meaning": "A translated document that is officially verified as a true and accurate translation of the original."
+  }
+ ],
+ "watch": "Remember that the list of places of business must be sent along with the financial documents every single calendar year.",
+ "h": "71cf8a615658",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

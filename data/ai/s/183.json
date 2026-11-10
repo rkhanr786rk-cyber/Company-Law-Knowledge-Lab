@@ -1,0 +1,32 @@
+{
+ "summary": "This section allows a company's Board of Directors or members in a general meeting to give money to the National Defence Fund or other approved funds for national defence. This power overrides other rules or company documents that might normally restrict such spending. The company must also clearly show the total amount given in its profit and loss account for that year.",
+ "points": [
+  "Allows the Board of Directors or company in general meeting to contribute any amount to the National Defence Fund.",
+  "Applies to any Fund approved by the Central Government for national defence.",
+  "Overrides restrictions found in other sections of the Act, company memorandum, or articles.",
+  "Requires every company to disclose the total contributions made in its profit and loss account."
+ ],
+ "example": "Meera Textiles Private Limited wanted to support the country and decided to give funds to the National Defence Fund. Some members wondered if the company rules or certain other sections of the Companies Act stopped them from making this donation. The directors checked Section 183 and found they had the power to make this contribution regardless of other rules. After donating the money, the company clearly wrote down the total contributed amount in its profit and loss account for that financial year so that everyone could see it.",
+ "terms": [
+  {
+   "term": "Board of Directors",
+   "meaning": "The group of people chosen to manage the business and affairs of a company."
+  },
+  {
+   "term": "Memorandum",
+   "meaning": "A foundational document that sets out a company's constitution and its powers with respect to the outside world."
+  },
+  {
+   "term": "Articles",
+   "meaning": "The rules and regulations created by a company for its internal management."
+  },
+  {
+   "term": "Profit and loss account",
+   "meaning": "A financial statement showing a company's revenues and expenses during a particular period."
+  }
+ ],
+ "watch": "Even though companies can freely give to national defence funds, they must still remember to report the total amount in their profit and loss account.",
+ "h": "40bc2bc3a212",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

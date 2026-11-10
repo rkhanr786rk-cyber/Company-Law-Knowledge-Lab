@@ -1,0 +1,33 @@
+{
+ "summary": "Every company must keep a register of charges at its registered office to record all property and asset charges. A copy of the instrument creating the charge must also be kept there. Members and creditors can inspect these documents for free, while other people may have to pay a fee.",
+ "points": [
+  "Companies must keep a register of charges at their registered office.",
+  "The register must include all charges and floating charges affecting any company property, assets, or undertakings.",
+  "A copy of the instrument creating the charge must be kept with the register.",
+  "Any member or creditor can inspect the register and instrument during business hours without paying any fees.",
+  "Any other person can also inspect them during business hours upon paying the required fees, subject to reasonable company rules."
+ ],
+ "example": "Meera Textiles Private Limited recently took a bank loan and pledged its factory machinery as security. To follow the law, Meera Textiles Private Limited must now maintain a register of charges at its registered office, along with a copy of the document that created this charge. Rahul, a curious shareholder, visits the office during business hours and asks to see the register. The company must let Rahul inspect the register and document for free because he is a member. Later, a local business owner named Amit, who is neither a member nor a creditor, wants to look at the register. The company can allow Amit to inspect it during business hours, provided he pays the required fee and follows reasonable rules.",
+ "terms": [
+  {
+   "term": "Charge",
+   "meaning": "An interest or lien created on the property or assets of a company as security for a loan or debt."
+  },
+  {
+   "term": "Floating charge",
+   "meaning": "A type of charge on property or assets that changes from time to time in the ordinary course of business."
+  },
+  {
+   "term": "Instrument",
+   "meaning": "A formal legal document that creates or affects rights, such as the document creating a charge."
+  },
+  {
+   "term": "Registered office",
+   "meaning": "The official main address of a company where official records must be kept."
+  }
+ ],
+ "watch": "People often confuse members and creditors, who get free inspection, with the general public, who may have to pay a fee.",
+ "h": "b7b64f866dbb",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

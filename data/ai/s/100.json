@@ -1,0 +1,34 @@
+{
+ "summary": "This section explains how a company calls an extraordinary general meeting, which is a special meeting outside of the normal yearly schedule. The Board of Directors can call this meeting whenever they choose, or they must call it if enough members demand it. If the Board fails to act in time, the members who made the request have the right to call the meeting themselves.",
+ "points": [
+  "The Board of Directors may call an extraordinary general meeting whenever they think it is necessary.",
+  "Meetings, except for those of wholly owned subsidiaries of companies incorporated outside India, must take place at a location within India.",
+  "The Board must call a meeting if requested by members holding at least one-tenth of the paid-up share capital with voting rights, or one-tenth of the total voting power for companies without share capital.",
+  "The members' request must state the matters to be discussed, be signed by them, and be sent to the company's registered office.",
+  "If the Board does not call the meeting within the given time limits, the members may call and hold the meeting themselves within three months.",
+  "The company must reimburse reasonable expenses to the members for holding such a meeting, and deduct that sum from the fees or remuneration of the directors who were at fault."
+ ],
+ "example": "At Meera Textiles Private Limited, several members holding twelve percent of the voting share capital felt an urgent business matter needed immediate discussion. They signed a formal request detailing the matter and sent it to the company's registered office. The Board of Directors received the valid request but failed to take steps to call a meeting within twenty-one days, nor did they set a meeting date within forty-five days. Because the Board did not act, the members decided to call and hold the extraordinary general meeting themselves within three months. The company later had to reimburse these members for their reasonable expenses, and this money was deducted from the fees payable to the directors who failed to call the meeting.",
+ "terms": [
+  {
+   "term": "extraordinary general meeting",
+   "meaning": "A special meeting of company members held outside of the usual annual meeting."
+  },
+  {
+   "term": "requisition",
+   "meaning": "A formal written request made by members to the company."
+  },
+  {
+   "term": "paid-up share capital",
+   "meaning": "The total amount of money paid by shareholders to the company in exchange for shares."
+  },
+  {
+   "term": "reimburse",
+   "meaning": "To pay back money to someone that they spent on behalf of the company."
+  }
+ ],
+ "watch": "Meetings generally must be held within India, except for wholly owned subsidiaries of companies incorporated outside India.",
+ "h": "ccd9c4e9a1b4",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

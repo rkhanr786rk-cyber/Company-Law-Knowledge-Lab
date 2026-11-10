@@ -1,0 +1,33 @@
+{
+ "summary": "This section explains what happens if a company makes a mistake in its list of members, such as adding or removing someone wrongly. The affected person, a member, or the company can appeal to the Tribunal to fix the error. The Tribunal can order the company to register a transfer, fix the records, and even pay damages to the injured party.",
+ "points": [
+  "An appeal can be made to the Tribunal if a person's name is wrongly entered, wrongly omitted, or delayed in the register.",
+  "The affected person, any company member, or the company itself can file the appeal.",
+  "The Tribunal can dismiss the appeal or order the company to register a transfer within ten days of getting the order.",
+  "The Tribunal can also order the correction of records and direct the company to pay damages to the aggrieved party.",
+  "Securities holders retain their right to transfer securities, and new buyers get voting rights unless the Tribunal suspends them."
+ ],
+ "example": "Aarav bought shares in Rohan Enterprises Private Limited, but the company delayed entering his name in the register of members without any good reason. Because of this unnecessary delay, Aarav could not vote or claim his rights as a shareholder. Frustrated by the company's inaction, Aarav decided to take legal steps. He approached the Tribunal to ask for a correction of the register so that his name would be properly added as a member. After hearing both Aarav and the company, the Tribunal ordered Rohan Enterprises Private Limited to rectify its register and register the transfer within ten days of receiving the order.",
+ "terms": [
+  {
+   "term": "register of members",
+   "meaning": "The official book that a company keeps to record the names and details of its shareholders."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized legal body set up to handle specific types of disputes, in this case, company law matters."
+  },
+  {
+   "term": "rectification",
+   "meaning": "The act of correcting an error or mistake in official records."
+  },
+  {
+   "term": "transmission",
+   "meaning": "The transfer of shares by operation of law, such as through death, insolvency, or inheritance."
+  }
+ ],
+ "watch": "Make sure not to confuse ordinary share transfers with cases where the transfer breaks other specific laws, which the Tribunal can also fix.",
+ "h": "fa5299933d66",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

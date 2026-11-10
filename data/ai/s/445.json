@@ -1,0 +1,24 @@
+{
+ "summary": "This section borrows a rule from criminal procedure to handle false accusations in special courts. If someone accuses another person without a good reason, the court can order them to pay compensation. It applies to cases handled by a Special Court or a Court of Session under the Companies Act.",
+ "points": [
+  "Applies section 250 of the Code of Criminal Procedure, 1973 to certain company law courts.",
+  "Applies when an accusation is made without a reasonable cause.",
+  "Allows the Special Court or Court of Session to order compensation.",
+  "Protects people from baseless charges."
+ ],
+ "example": "Rohan filed a serious complaint against Verma Industries Private Limited in the Special Court, claiming the company committed severe fraud. During the hearings, it became very clear that Rohan had no evidence at all and filed the case just to harass the business owners. Because Rohan brought this accusation without any reasonable cause, the Special Court decided to use the rule from Section 445. The court ordered Rohan to pay compensation to Verma Industries Private Limited for putting them through a false and baseless legal process.",
+ "terms": [
+  {
+   "term": "Mutatis mutandis",
+   "meaning": "With necessary changes having been made"
+  },
+  {
+   "term": "Special Court",
+   "meaning": "A court set up specifically to handle certain types of cases quickly"
+  }
+ ],
+ "watch": "Do not assume this section creates a new rule; it simply borrows an existing criminal procedure rule for company law courts.",
+ "h": "46a19ea5ab81",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

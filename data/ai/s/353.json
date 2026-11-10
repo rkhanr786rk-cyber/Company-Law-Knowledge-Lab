@@ -1,0 +1,30 @@
+{
+ "summary": "This section deals with what happens when a liquidator fails to submit required documents or notices on time. If they do not fix the problem within fourteen days of getting a notice, the Tribunal can order them to fix it within a set time. The liquidator may also be made to pay all the costs for this order.",
+ "points": [
+  "Applies when a Company Liquidator fails to file, deliver, or make required returns, accounts, documents, or notices.",
+  "If the default is not fixed within fourteen days after a notice is served, an application can be made to the Tribunal.",
+  "Applications to the Tribunal can be made by a contributory, a creditor of the company, or the Registrar.",
+  "The Tribunal can order the Company Liquidator to fix the default within a specified time.",
+  "The Tribunal's order may require the Company Liquidator to pay all the costs related to the application.",
+  "Other laws that impose penalties for such defaults still apply."
+ ],
+ "example": "Aarav is the Company Liquidator for Apex Retail Private Limited. He forgets to file a mandatory account document on time. A creditor of the company notices this delay and serves a notice to Aarav requiring him to file it. Fourteen days pass and Aarav still has not made good the default. The creditor then makes an application to the Tribunal. The Tribunal reviews the request and makes an order directing Aarav to file the account document within a specific time. Furthermore, the Tribunal orders that all the costs of the application must be borne by Aarav personally.",
+ "terms": [
+  {
+   "term": "Company Liquidator",
+   "meaning": "The person responsible for winding up a company and managing its assets."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized legal body that handles company law disputes and cases."
+  },
+  {
+   "term": "Contributory",
+   "meaning": "A person who is liable to contribute to the assets of a company during a winding up."
+  }
+ ],
+ "watch": "This section allows the Tribunal to order the liquidator to pay the costs of the application, but it does not replace other penalties that may exist under different laws.",
+ "h": "288d868e256a",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

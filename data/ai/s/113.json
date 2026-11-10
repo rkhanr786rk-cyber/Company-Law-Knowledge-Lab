@@ -1,0 +1,28 @@
+{
+ "summary": "This law explains how a body corporate, such as a company or organization, can send a representative to attend company or creditor meetings. The governing body of the corporate must pass a resolution to choose this person. Once authorized, the representative has the same rights and powers as an individual member or creditor would have.",
+ "points": [
+  "A body corporate that is a member of a company can authorize a person to act as its representative at any meeting of the company or its class of members by a board resolution.",
+  "A body corporate that is a creditor or debenture holder can authorize a person to act as its representative at creditor meetings by a board resolution.",
+  "The representative is chosen through a resolution of the board of directors or other governing body of the corporate.",
+  "The authorized representative can exercise the same rights and powers that the body corporate itself could exercise if it were an individual, including voting by proxy and postal ballot."
+ ],
+ "example": "Meera Textiles Private Limited holds shares in Sunshine Agro Limited. To participate in an upcoming meeting of Sunshine Agro Limited, the board of directors of Meera Textiles Private Limited passes a formal resolution. Through this resolution, they authorize Mr. Rajesh to act as their official representative at the meeting. Because of this authorization, Mr. Rajesh gets the right to exercise all powers on behalf of Meera Textiles Private Limited, just as if the company itself were an individual attending and voting at the meeting.",
+ "terms": [
+  {
+   "term": "Body corporate",
+   "meaning": "A legal term for a company, corporation, or other organized group with legal identity."
+  },
+  {
+   "term": "Resolution",
+   "meaning": "A formal decision or vote passed by a board of directors or governing body."
+  },
+  {
+   "term": "Creditor",
+   "meaning": "A person or entity to whom money is owed."
+  }
+ ],
+ "watch": "People often confuse an authorized representative with a proxy, but this section gives the representative the full independent powers of the corporate body itself.",
+ "h": "e5ae91c24374",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

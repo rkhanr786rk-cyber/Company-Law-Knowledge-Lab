@@ -1,0 +1,33 @@
+{
+ "summary": "This section sets a strict limit on how many company boards a person can sit on as a director at the same time. A person cannot be a director in more than twenty companies overall, with a maximum of ten of those being public companies. If someone already held too many directorships when the law started, they had to choose which ones to keep, resign from the rest, and inform the companies and the Registrar within a set time.",
+ "points": [
+  "A person cannot hold office as a director in more than twenty companies at the same time, including alternate directorships.",
+  "The maximum number of public companies in which a person can be appointed as a director cannot exceed ten.",
+  "Private companies that are holding or subsidiary companies of a public company are counted toward the limit of public companies.",
+  "Directorships in dormant companies are not counted when calculating the overall limit of twenty companies.",
+  "Company members can use a special resolution to set an even lower limit on the number of companies where their directors can serve."
+ ],
+ "example": "Aarav is an experienced business professional appointed to the boards of many organizations. He currently serves as a director across twelve public companies and eight private companies, making twenty companies in total. Upon reviewing his positions to ensure compliance with the law, Aarav realizes he exceeds the maximum limit of ten public companies. To follow the rules, he decides to resign from three of his public company directorships immediately. He sends his resignation letters to those companies and informs the local Registrar. After sending these resignations, Aarav ensures he never acts as a director in more than the permitted number of companies at any given time.",
+ "terms": [
+  {
+   "term": "alternate directorship",
+   "meaning": "A position where a person is appointed to act for a director during their absence."
+  },
+  {
+   "term": "public company",
+   "meaning": "A company that is not a private company under the law."
+  },
+  {
+   "term": "holding or subsidiary company",
+   "meaning": "Companies related through ownership where one controls the other."
+  },
+  {
+   "term": "dormant company",
+   "meaning": "A company formed for a future project or holding an asset that has no significant accounting transaction."
+  }
+ ],
+ "watch": "Remember that private companies which are connected as holding or subsidiary companies to a public company count toward your public company limit.",
+ "h": "2f293d73d415",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

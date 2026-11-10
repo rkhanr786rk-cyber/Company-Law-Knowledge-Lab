@@ -1,0 +1,29 @@
+{
+ "summary": "When a company is being wound up, certain specific debts must be paid out before all other debts. These priority payments include government taxes, employee wages and holiday pay, fund contributions, and investigation expenses. All these prioritized debts share equally among themselves unless the company assets are not enough.",
+ "points": [
+  "Requires that certain government taxes, cesses, and rates due within twelve months before the relevant date are paid in priority.",
+  "Requires that employee wages, salaries, and accrued holiday remuneration for a limited period are paid first.",
+  "Includes unpaid employer contributions to employee insurance, compensation for employee death or disablement, and welfare funds.",
+  "States that all these priority debts rank equally among themselves and must be paid in full or reduced in equal proportions if assets are insufficient.",
+  "Grants priority to these debts over claims of debenture holders under any floating charge when general assets are not enough."
+ ],
+ "example": "Meera Textiles Private Limited went into winding up. Before paying its general business debts, the company needed to clear specific priority dues. It owed twelve months of local taxes to the local authority, four months of unpaid wages to its employees, and money due to the employee provident fund. Because the company assets were limited, these specific debts were paid first in full and ranked equally among themselves. The money advanced by a helpful person to pay worker wages also received the same priority. The claims of general creditors and debenture holders under a floating charge were held off until these preferential payments were fully handled.",
+ "terms": [
+  {
+   "term": "Winding up",
+   "meaning": "The legal process of closing down a company and settling its affairs."
+  },
+  {
+   "term": "Floating charge",
+   "meaning": "A security interest over a changing pool of company assets rather than specific fixed property."
+  },
+  {
+   "term": "Cesses",
+   "meaning": "A type of tax or levy collected for a special purpose."
+  }
+ ],
+ "watch": "These priority rules do not apply if the liquidation happens under the Insolvency and Bankruptcy Code, 2016.",
+ "h": "6e2d9ca013b1",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

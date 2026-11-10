@@ -1,0 +1,33 @@
+{
+ "summary": "This section deals with the legal rights and duties of someone who receives a fraudulent preference while a company is being wound up. If a transaction is invalid as a fraudulent preference regarding a mortgaged property, that person faces specific liabilities as if they were a surety. The Tribunal also has the power to decide questions and grant relief regarding such payments or transactions involving sureties.",
+ "points": [
+  "A person preferred unlawfully gets the same liabilities and rights as a personal surety for the company debt, up to the value of the mortgage or their interest.",
+  "The value of the person's interest is decided as of the date of the transaction, ignoring extra encumbrances.",
+  "The Tribunal can decide questions and give relief regarding payments that unfairly preferred a surety or guarantor.",
+  "The Tribunal may allow a surety or guarantor to be brought in as a third party.",
+  "These Tribunal rules for money payments apply equally to transactions that do not involve money."
+ ],
+ "example": "Meera Textiles Private Limited is going through a winding up process. Before this, the company gave an unfair advantage to a creditor, Rahul, who held an interest in a property mortgaged for the company's debt. Because this action is treated as a fraudulent preference under the law, Rahul is now held to the same liabilities and rights as if he had personally promised to stand as a surety for that debt, up to the value of his interest in the property. The Tribunal can step in to solve disputes between the parties and decide on the proper relief regarding this transaction, ensuring the process is handled fairly according to the rules.",
+ "terms": [
+  {
+   "term": "Fraudulent preference",
+   "meaning": "An unfair transfer of property or payment made by a company to favor one person over others before winding up."
+  },
+  {
+   "term": "Surety",
+   "meaning": "A person who takes on responsibility for the debt of another person or company."
+  },
+  {
+   "term": "Encumbrances",
+   "meaning": "Claims, charges, or liabilities attached to a property."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized official body set up to deal with specific legal disputes and cases."
+  }
+ ],
+ "watch": "Note that a preferred person is only liable up to the value of the mortgage, charge, or their interest, whichever is less.",
+ "h": "d74dce7004b6",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

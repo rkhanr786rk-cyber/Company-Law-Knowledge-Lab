@@ -1,0 +1,32 @@
+{
+ "summary": "The Tribunal has the power to cancel the closure of a company and declare it open again within two years of its shutdown. This can happen if the Company Liquidator or an interested person asks the Tribunal to do so. Once this order is made, official work and legal actions can continue as if the company was never shut down.",
+ "points": [
+  "The Tribunal can declare a company's dissolution void within two years of the dissolution date.",
+  "An application for this must be made by the Company Liquidator or any person who appears interested to the Tribunal.",
+  "The Tribunal sends a copy of the order to the Registrar within thirty days to be recorded.",
+  "The Company Liquidator or the applicant must file a certified copy of the order with the Registrar within thirty days or within the extra time allowed by the Tribunal."
+ ],
+ "example": "Asha Chemicals Private Limited was officially dissolved last year after completing its winding up process. Recently, the Company Liquidator discovered that the company still owned a valuable piece of land in another state that was not included during the winding up. Within the two-year time limit, the Liquidator filed an application requesting the Tribunal to declare the dissolution void so the hidden property could be properly managed and sold. The Tribunal agreed and issued the order. The Liquidator then filed a certified copy of this order with the Registrar within thirty days, and the company's proceedings resumed as though it had never been closed.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A legal body or authority appointed to handle specific types of disputes and cases, in this context the National Company Law Tribunal."
+  },
+  {
+   "term": "Dissolution",
+   "meaning": "The official ending or closing down of a company."
+  },
+  {
+   "term": "Company Liquidator",
+   "meaning": "The person appointed to wind up and close down a company's affairs."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "The official government officer who maintains records of companies."
+  }
+ ],
+ "watch": "Note that this power applies only within two years from the date of the original dissolution.",
+ "h": "9817ef7f678f",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

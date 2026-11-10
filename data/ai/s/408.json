@@ -1,0 +1,29 @@
+{
+ "summary": "The Central Government will set up a special group called the National Company Law Tribunal. This group will have a President and members who are experts in law or technical subjects. They are chosen by the Central Government to handle various duties given to them by company laws.",
+ "points": [
+  "The Central Government must issue an official notice to create the Tribunal.",
+  "The Tribunal will include a President and both Judicial and Technical members.",
+  "The Central Government decides how many members are needed.",
+  "The members are appointed by the Central Government through an official notice.",
+  "The Tribunal carries out powers and functions given by company laws."
+ ],
+ "example": "The Central Government decides it is time to set up the National Company Law Tribunal to handle business disputes. It issues an official notice stating the exact date the Tribunal will begin its work. To make sure the Tribunal can handle both legal arguments and complex business facts, the government appoints a President, along with several Judicial members and Technical members. Rakesh Textiles Private Limited gets involved in a corporate dispute and must take its case to this newly formed Tribunal, where the appointed President and members will review the matter using the powers granted to them by law.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A special official group set up to solve legal disputes."
+  },
+  {
+   "term": "Judicial member",
+   "meaning": "A member of the Tribunal who has a background in law."
+  },
+  {
+   "term": "Technical member",
+   "meaning": "A member of the Tribunal who has expert knowledge in technical subjects."
+  }
+ ],
+ "watch": "Do not confuse the Tribunal with regular civil courts, as it is a special body created specifically for company law matters.",
+ "h": "b16eb10e1680",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

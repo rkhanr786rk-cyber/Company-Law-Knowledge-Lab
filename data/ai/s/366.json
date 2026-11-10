@@ -1,0 +1,30 @@
+{
+ "summary": "This section explains which existing business entities can register as companies under the Act. It allows firms, societies, and other lawfully formed bodies with two or more members to register as unlimited, limited by shares, or limited by guarantee. Certain restrictions and approval rules apply depending on the type of entity and how it wants to register.",
+ "points": [
+  "Includes partnership firms, limited liability partnerships, cooperative societies, and other business entities under the definition of company for registration.",
+  "Allows entities consisting of two or more members to register as unlimited, limited by shares, or limited by guarantee.",
+  "Forbids companies already registered under older company laws from registering under this section.",
+  "Requires the assent of a majority of members present at a general meeting before registering.",
+  "Requires a three-fourths majority assent if an unlimited company is about to register as a limited company.",
+  "Requires any company with less than seven members to register specifically as a private company."
+ ],
+ "example": "A cooperative society named Green Leaf Cooperative Society had four members and was formed under a different law. The members wanted to register under the Companies Act, 2013 as a private company limited by shares. They called a general meeting to discuss the change. During the meeting, a majority of the members who were present gave their assent to register under the new Act. Because the society had fewer than seven members, it correctly registered as a private company. The registration was valid even though they planned to wind up the entity later.",
+ "terms": [
+  {
+   "term": "Limited by shares",
+   "meaning": "A company where the liability of members is limited to the unpaid amount on the shares they hold."
+  },
+  {
+   "term": "Limited by guarantee",
+   "meaning": "A company where members promise to pay a fixed amount towards company debts if the company closes down."
+  },
+  {
+   "term": "Proxy",
+   "meaning": "A person authorized by a member to attend and vote on their behalf at a meeting."
+  }
+ ],
+ "watch": "Registration under this section is not invalid simply because it happens with the intention of winding up the company.",
+ "h": "db7c1a012f3c",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,34 @@
+{
+ "summary": "Section 179 of the Companies Act explains the powers of a company's Board of Directors. The Board can do anything the company is allowed to do, as long as it follows the law and company rules. Certain important powers must be exercised by passing resolutions at Board meetings.",
+ "points": [
+  "The Board of Directors can exercise all powers and do all acts that the company is authorized to do.",
+  "The Board must follow the Act, the memorandum, articles, and any rules made by the company.",
+  "The Board cannot do anything that is required to be done by the company in a general meeting.",
+  "Specific major actions, such as borrowing money, issuing securities, and investing funds, must be done through resolutions passed at Board meetings.",
+  "The Board can delegate specific borrowing and loan powers to a committee, managing director, manager, or principal officer.",
+  "A general meeting of the company can place restrictions and conditions on the Board's powers."
+ ],
+ "example": "At Meera Textiles Private Limited, the Board of Directors wanted to borrow money to expand their factory. According to the rules, the Board held a proper meeting and passed a resolution to borrow the needed funds from a bank. Later, the shareholders held a general meeting and decided to add new conditions on how the Board could handle future investments. Meanwhile, any past action taken by the Board remained valid even after the shareholders added their new rules.",
+ "terms": [
+  {
+   "term": "Board of Directors",
+   "meaning": "The group of people chosen to manage the affairs of a company."
+  },
+  {
+   "term": "General Meeting",
+   "meaning": "A meeting of the shareholders of the company."
+  },
+  {
+   "term": "Memorandum",
+   "meaning": "The foundational document that sets out the constitution of a company."
+  },
+  {
+   "term": "Articles",
+   "meaning": "The rules and regulations framed for the internal management of a company."
+  }
+ ],
+ "watch": "New rules made by shareholders in a general meeting do not cancel or make invalid any past valid actions already taken by the Board.",
+ "h": "465cd9460881",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

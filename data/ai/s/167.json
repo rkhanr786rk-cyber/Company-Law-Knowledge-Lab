@@ -1,0 +1,33 @@
+{
+ "summary": "Section 167 of the Companies Act, 2013 explains the specific situations in which a director must lose their seat on the board. It lists rules such as missing board meetings, breaking conflict-of-interest laws, or facing legal disqualifications and criminal convictions. If every director loses their office at the same time, the promoter or Central Government steps in to appoint new directors.",
+ "points": [
+  "A director's office becomes vacant if they suffer disqualifications under section 164.",
+  "A director must leave office if they miss all board meetings for a period of twelve months.",
+  "Breaking or failing to disclose interest in contracts under section 184 causes the office to become vacant.",
+  "A director's office becomes vacant if they are removed under the Act, or if they lose the holding company job that qualified them.",
+  "If all directors vacate their offices, the promoter or Central Government will appoint new directors."
+ ],
+ "example": "Rahul is a director at Meera Textiles Private Limited. Over a period of twelve consecutive months, Rahul fails to attend any of the board meetings held by the company, and he does not ask the board for leave of absence either. Because he has missed every single meeting during this twelve-month period, the law states that his office as a director shall become vacant. Rahul can no longer act as a director for Meera Textiles Private Limited under this rule. If Rahul still functions as a director even though he knows his office has become vacant due to this reason, he faces a fine.",
+ "terms": [
+  {
+   "term": "Vacant",
+   "meaning": "Empty or free; in this context, it means losing the position or seat of being a director."
+  },
+  {
+   "term": "Disqualification",
+   "meaning": "A condition or rule that makes someone unfit or legally barred from holding a particular office."
+  },
+  {
+   "term": "Contravention",
+   "meaning": "Breaking a law, rule, or regulation."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized official body set up to deal with specific legal disputes."
+  }
+ ],
+ "watch": "Courts and tribunals give a temporary grace period for disqualifications and convictions if appeals are filed on time.",
+ "h": "2b2e0a5a2ad0",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

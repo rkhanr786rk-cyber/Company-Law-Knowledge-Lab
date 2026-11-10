@@ -1,0 +1,30 @@
+{
+ "summary": "This section explains what happens when a company refuses to register a share transfer. A private company must give reasons for refusal within thirty days. A public company's shares are freely transferable, and appeals can be made to the Tribunal if registration is refused.",
+ "points": [
+  "A private company refusing a share transfer must send a notice with reasons within thirty days of delivery.",
+  "Securities or other interests of any member in a public company are freely transferable.",
+  "A transferee can appeal to the Tribunal against a private company's refusal within thirty days of receiving notice or sixty days of delivery.",
+  "A transferee can appeal to the Tribunal against a public company's wrongful refusal within specific time limits.",
+  "The Tribunal can dismiss the appeal, order the company to register the transfer, or order rectification and damages.",
+  "Contravening the Tribunal's order carries punishment of imprisonment and a fine."
+ ],
+ "example": "Rahul wanted to transfer his shares in Sharma Enterprises Private Limited to his friend Amit. They submitted the transfer papers to the company. After waiting for a while, the company refused the transfer but failed to send any notice or reasons within the thirty-day limit. Because the company did not send a notice, Amit decided to appeal to the Tribunal within sixty days from the date the transfer papers were originally delivered to the company, asking the Tribunal to order the company to register the transfer and fix the company register accordingly.",
+ "terms": [
+  {
+   "term": "transmission",
+   "meaning": "The passing of property or rights by operation of law, such as through death or bankruptcy."
+  },
+  {
+   "term": "transferee",
+   "meaning": "The person to whom shares or securities are transferred."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized official body set up to handle legal disputes under company law."
+  }
+ ],
+ "watch": "Note the different time limits for appealing depending on whether the company sent a notice of refusal or stayed silent.",
+ "h": "7c8576c5205e",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

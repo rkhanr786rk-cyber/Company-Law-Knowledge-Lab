@@ -1,0 +1,29 @@
+{
+ "summary": "This section allows the Tribunal to remove a company liquidator for valid reasons like fraud, misconduct, or lack of independence. If a liquidator dies, resigns, or is removed, the Tribunal can hand over their work to another liquidator. The Tribunal can also make the liquidator pay for any loss or damage they caused through their fault.",
+ "points": [
+  "The Tribunal can remove a liquidator for misconduct, fraud, misfeasance, incompetence, inability to act, or conflict of interest.",
+  "The Tribunal must show reasonable cause and record its reasons in writing before removing a liquidator.",
+  "If a liquidator dies, resigns, or is removed, the Tribunal can transfer the work to another liquidator.",
+  "The Tribunal can recover money from a liquidator for any loss or damage caused by their fraud, misfeasance, or carelessness.",
+  "The Tribunal must give the liquidator a reasonable chance to be heard before passing any order against them."
+ ],
+ "example": "Meera Textiles Private Limited was going through winding up, and Mr. Sharma was appointed as the Company Liquidator. During the process, the Tribunal found that Mr. Sharma had a serious conflict of interest and failed to act with proper care. Because of his carelessness, the company suffered financial loss. Before taking any action, the Tribunal gave Mr. Sharma a reasonable chance to speak. Afterward, the Tribunal removed him from his post, recorded its reasons in writing, transferred the remaining work to another liquidator, and ordered Mr. Sharma to pay for the loss he caused.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A legal body or official panel set up to deal with specific legal disputes and cases."
+  },
+  {
+   "term": "Misfeasance",
+   "meaning": "Doing a lawful act in an illegal or harmful way."
+  },
+  {
+   "term": "Company Liquidator",
+   "meaning": "A person appointed to wind up a company and manage its assets."
+  }
+ ],
+ "watch": "A liquidator cannot be removed without first being given a reasonable opportunity to be heard.",
+ "h": "01dce82494ad",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

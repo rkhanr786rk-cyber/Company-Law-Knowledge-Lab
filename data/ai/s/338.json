@@ -1,0 +1,25 @@
+{
+ "summary": "This law applies when a company is being closed down, known as winding up. It punishes company officers if the company failed to keep proper financial records for the two years right before closing, or since it started, whichever time is shorter. An officer can escape punishment only by proving they acted honestly and that the failure was excusable under the circumstances.",
+ "points": [
+  "Requires proper books of account to be kept throughout the two years before winding up or since incorporation, whichever is shorter.",
+  "Forbids failing to keep records that show transactions, financial position, and daily cash receipts and payments.",
+  "Forbids failing to keep annual stock statements and detailed records of goods bought and sold, including buyer and seller identities, for businesses dealing in goods.",
+  "Punishes every officer in default with imprisonment from one to three years and a fine from one lakh to three lakh rupees.",
+  "Allows an officer to avoid punishment if they prove they acted honestly and the default was excusable."
+ ],
+ "example": "Meera Textiles Private Limited went into winding up after operating for only one year. During the winding up process, investigators discovered that the company never maintained daily cash books or proper records of its business transactions. The directors claimed the business was too small and busy to bother with paperwork. Under the law, the company is deemed not to have kept proper books of account. Unless the responsible officers can prove they acted honestly and that the failure was excusable, they face imprisonment ranging from one to three years and fines between one lakh and three lakh rupees.",
+ "terms": [
+  {
+   "term": "Winding up",
+   "meaning": "The process of closing down a company and settling its affairs."
+  },
+  {
+   "term": "Officer who is in default",
+   "meaning": "A company officer responsible for the failure to follow the law."
+  }
+ ],
+ "watch": "People often confuse an officer's automatic guilt with the chance to prove that the failure was honest and excusable.",
+ "h": "2a43ac6358d4",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

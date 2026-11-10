@@ -1,0 +1,30 @@
+{
+ "summary": "This section allows company directors to voluntarily revise financial statements or the Board report for any of the three preceding financial years if they do not comply with the law. To do this, the company must apply for and obtain approval from the Tribunal. The Tribunal must notify and consider representations from the Central Government and Income-tax authorities before making an order.",
+ "points": [
+  "Directors may prepare a revised financial statement or revised Board report if previous ones do not comply with section 129 or section 134.",
+  "Revision can be done for any of the three preceding financial years.",
+  "The company must obtain approval from the Tribunal on an application made in the prescribed form and manner.",
+  "A copy of the Tribunal order must be filed with the Registrar.",
+  "The revision must not be prepared or filed more than once in a financial year.",
+  "Detailed reasons for the revision must be disclosed in the Board report for the relevant financial year."
+ ],
+ "example": "Meera Textiles Private Limited realized that its financial statement for the previous year did not comply with the required legal provisions. The directors decided to fix the mistake. They applied to the Tribunal in the proper form to get approval for a voluntary revision. Before passing an order, the Tribunal gave notice to the Central Government and the Income-tax authorities to consider their views. Once the Tribunal approved the request, the company filed a copy of the order with the Registrar and prepared the revised statement limited strictly to the required corrections.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A judicial body appointed to handle company law disputes and approvals."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "An authority appointed to maintain company records and documents."
+  },
+  {
+   "term": "Financial statement",
+   "meaning": "A formal record of the financial activities and position of a company."
+  }
+ ],
+ "watch": "A company cannot prepare or file a revised statement or report more than once in a single financial year.",
+ "h": "f07162f3e3fc",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

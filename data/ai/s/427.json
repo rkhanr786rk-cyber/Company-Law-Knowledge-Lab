@@ -1,0 +1,28 @@
+{
+ "summary": "This section states that people who work for the Tribunal and the Appellate Tribunal are treated as public servants. This includes the leaders, members, and all other workers and officers. Because of this rule, they are viewed under the law the same way as other government public servants.",
+ "points": [
+  "Treats the President and Members of the Tribunal as public servants.",
+  "Treats officers and other employees of the Tribunal as public servants.",
+  "Treats the Chairperson and Members of the Appellate Tribunal as public servants.",
+  "Treats officers and other employees of the Appellate Tribunal as public servants."
+ ],
+ "example": "Aman works as an officer at the National Company Law Tribunal, handling company dispute files for cases involving ABC Enterprises Private Limited and XYZ Holdings Private Limited. Because of his official role at the Tribunal, the law treats Aman as a public servant under section 21 of the Indian Penal Code, just like other government servants. This status applies directly to his position as a Tribunal employee, ensuring that the rules meant for public servants apply to him while he performs his daily duties at the office.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A special official body set up to deal with and decide legal disputes."
+  },
+  {
+   "term": "Appellate Tribunal",
+   "meaning": "A higher body that reviews decisions made by a lower tribunal."
+  },
+  {
+   "term": "Public servants",
+   "meaning": "People who hold a public office or perform a public duty, treated specially under criminal law."
+  }
+ ],
+ "watch": "This section does not turn these workers into general government employees for all purposes, but only treats them as public servants under a specific law.",
+ "h": "4092d09f74f7",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,27 @@
+{
+ "summary": "This section explains three specific terms used in the chapter about companies incorporated outside India. It defines how documents must be certified as true or translated correctly. It also clarifies who counts as a director and what is considered a place of business.",
+ "points": [
+  "Certified means verified in the prescribed manner as a true copy or correct translation.",
+  "Director includes any person whose directions or instructions the company's Board is accustomed to follow.",
+  "Place of business includes a share transfer or registration office."
+ ],
+ "example": "Nova Overseas Corporation, a business based abroad, set up an office in Mumbai called Nova Textiles Private Limited to handle share transfers and registrations. When submitting documents to Indian authorities, the company provided copies verified in the prescribed manner as true copies. The Indian regulators checked who truly controlled the company's board decisions. They found that Mr. Roy, living abroad, gave instructions that the board always followed without question. Under the law, Mr. Roy is considered a director of the foreign company, the Mumbai office counts as a place of business, and the verified documents meet the legal standard for being certified.",
+ "terms": [
+  {
+   "term": "certified",
+   "meaning": "Verified in the prescribed manner to be a true copy or a correct translation."
+  },
+  {
+   "term": "director",
+   "meaning": "In relation to a foreign company, includes any person whose instructions the board is accustomed to follow."
+  },
+  {
+   "term": "place of business",
+   "meaning": "Includes a share transfer or registration office."
+  }
+ ],
+ "watch": "Note that a person does not need an official title to be considered a director if the board routinely follows their instructions.",
+ "h": "4cf7fbf1d718",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

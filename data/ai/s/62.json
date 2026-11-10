@@ -1,0 +1,34 @@
+{
+ "summary": "When a company with share capital wants to issue new shares, it must first offer them to existing equity shareholders in proportion to their current holdings. The company can also offer shares to employees through a stock option scheme or to any other person if approved by a special resolution and a valuation report. Additionally, the government has special powers to direct the conversion of certain government loans or debentures into shares in the public interest.",
+ "points": [
+  "New shares must generally be offered first to existing equity shareholders based on their current paid-up share capital.",
+  "The offer notice must give shareholders between fifteen and thirty days to accept, or the offer is considered declined.",
+  "Shareholders have the right to renounce their offered shares in favour of someone else unless the company's articles say otherwise.",
+  "Shares can be offered to employees through a stock option scheme if a special resolution is passed.",
+  "Shares can be offered to any person if authorized by a special resolution and supported by a registered valuer's report.",
+  "The government may order the conversion of government loans or debentures into shares if it is in the public interest."
+ ],
+ "example": "Meera Textiles Private Limited decides to increase its share capital by issuing new shares. According to the law, the company sends a notice of the new share offer to its existing equity shareholder, Aarav, giving him twenty days to decide. The notice states how many shares he can buy and explains that he can pass this right on to another person if the company's rules allow. Aarav does not want to buy the shares and tells the company early. After the time period ends, the Board of Directors decides to sell the remaining shares in a way that is not harmful to the company or its shareholders, following the rules given in the text.",
+ "terms": [
+  {
+   "term": "subscribed capital",
+   "meaning": "That part of capital which is for the time being subscribed by the members of a company."
+  },
+  {
+   "term": "renounce",
+   "meaning": "To give up or pass on a right in favour of another person."
+  },
+  {
+   "term": "special resolution",
+   "meaning": "A resolution passed by a required higher majority of votes as per company law."
+  },
+  {
+   "term": "debentures",
+   "meaning": "A type of debt instrument issued by a company that acknowledges a loan."
+  }
+ ],
+ "watch": "Make sure to note that government loan conversions can happen even without a prior conversion option, subject to an appeal to the Tribunal.",
+ "h": "b201396a0980",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

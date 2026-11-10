@@ -1,0 +1,34 @@
+{
+ "summary": "This section explains the rules for making an offer to transfer shares between companies. Any circular or document that recommends the offer to members must include specific information and a statement about available cash. The circular must be registered with the Registrar before it can be sent out.",
+ "points": [
+  "Every circular with an offer and director recommendation must include prescribed information.",
+  "The offer must include a statement from the transferee company showing how it will get the necessary cash.",
+  "The circular must be registered with the Registrar before it is issued.",
+  "The Registrar can refuse registration in writing within thirty days if information is missing or misleading.",
+  "An appeal can be made to the Tribunal if the Registrar refuses to register the circular.",
+  "A director who issues an unregistered circular faces a penalty of one lakh rupees."
+ ],
+ "example": "Meera Textiles Private Limited wanted to transfer its shares to Apex Industries Limited under a scheme. Apex Industries prepared a circular containing the share offer and the directors' recommendations for the members of Meera Textiles. The document included a clear statement explaining the steps Apex took to ensure that all necessary cash would be available for the transfer. Before sending this document to any members, Meera Textiles presented the circular to the Registrar for official registration. Once registered, they safely issued the offer to the members without breaking any rules or facing penalties from the authorities.",
+ "terms": [
+  {
+   "term": "transferor company",
+   "meaning": "The company whose shares are being transferred."
+  },
+  {
+   "term": "transferee company",
+   "meaning": "The company receiving the shares."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "The government official who keeps company records and handles registrations."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "The official body that handles company law appeals and disputes."
+  }
+ ],
+ "watch": "Make sure to register the circular with the Registrar before issuing it, or the responsible director will face a penalty.",
+ "h": "4cdc866a0a61",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

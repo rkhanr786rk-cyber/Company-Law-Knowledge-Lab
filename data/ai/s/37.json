@@ -1,0 +1,28 @@
+{
+ "summary": "This section allows people who are harmed by false or missing information in a prospectus to take legal action. Affected individuals, groups, or associations can sue or take other actions under sections 34, 35, or 36. It ensures that those who suffer because of a misleading prospectus have the right to seek a remedy.",
+ "points": [
+  "Allows a suit to be filed by any person, group, or association affected by a prospectus.",
+  "Permits other legal actions besides filing a suit.",
+  "Applies when there is a misleading statement in the prospectus.",
+  "Applies when matter is included or omitted in the prospectus."
+ ],
+ "example": "Meera Textiles Private Limited recently issued a prospectus to the public to raise funds. Rohan and a group of local investors read the document and decided to buy shares. Later, they discovered that the prospectus left out important financial risks and included misleading statements about the company's profits. Because they suffered financial harm and were affected by these omissions and misleading statements, Rohan and his group decided to file a suit under the relevant sections of the law to seek legal remedy.",
+ "terms": [
+  {
+   "term": "Prospectus",
+   "meaning": "An official document issued by a company inviting the public to buy its securities."
+  },
+  {
+   "term": "Suit",
+   "meaning": "A legal case brought to a court for settlement."
+  },
+  {
+   "term": "Omission",
+   "meaning": "Leaving out something that should have been included."
+  }
+ ],
+ "watch": "Note that this section only gives the right to take action and does not set specific deadlines or penalties.",
+ "h": "d628b4201195",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

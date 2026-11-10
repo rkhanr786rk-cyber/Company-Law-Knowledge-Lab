@@ -1,0 +1,23 @@
+{
+ "summary": "This section sets the basic rules for the share capital of a Producer Company. It states that the company can only have one type of share, which is equity. It also recommends that the number of shares a member holds should match how much they use the company's services.",
+ "points": [
+  "The share capital of a Producer Company must consist of equity shares only.",
+  "Shares cannot be of any other type besides equity.",
+  "Members should hold shares in proportion to their patronage of the company."
+ ],
+ "example": "Aarav and Diya are local farmers who join a newly formed business called Greenfield Producer Company Limited. Because the company law requires the share capital to consist of equity shares only, both farmers purchase standard equity shares to join. Later, the board reviews their shareholdings. Since Aarav sells a much larger volume of his crops through the company than Diya, the rules state that his shareholding should reflect that level of business use, known as patronage. Therefore, Aarav holds a larger proportion of shares than Diya to match his higher level of active business involvement with Greenfield Producer Company Limited.",
+ "terms": [
+  {
+   "term": "Equity shares",
+   "meaning": "A type of share that represents ownership in a company."
+  },
+  {
+   "term": "Patronage",
+   "meaning": "The amount of business or use a member gives to the company."
+  }
+ ],
+ "watch": "People often confuse patronage with simply investing money, but here it means how actively you use the company's business services.",
+ "h": "c1651fa3bd9a",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,24 @@
+{
+ "summary": "This section states that the rules from the Information Technology Act, 2000 apply to electronic records and filings under the Companies Act, 2013. It ensures that how electronic records are kept and filed online must follow the IT Act. This applies only as long as those rules do not conflict with the Companies Act.",
+ "points": [
+  "Applies the rules of the Information Technology Act, 2000 to electronic records under the Companies Act.",
+  "Covers the manner and format for filing electronic records.",
+  "Applies specifically to electronic records mentioned in section 398.",
+  "Applies only when the IT Act rules do not conflict with the Companies Act."
+ ],
+ "example": "Meera Textiles Private Limited wants to submit its electronic records and filings as required by section 398 of the Companies Act. The company checks how it must format and file these digital documents. Because of section 402, Meera Textiles Private Limited must follow the rules set out in the Information Technology Act, 2000 for these electronic filings. The managers make sure their digital format follows the IT Act, as these rules do not conflict with any rules written in the Companies Act.",
+ "terms": [
+  {
+   "term": "Electronic records",
+   "meaning": "Information or data stored, created, received, or sent in digital form."
+  },
+  {
+   "term": "Inconsistent",
+   "meaning": "Different or conflicting, so that two things cannot both be true or used at the same time."
+  }
+ ],
+ "watch": "Remember that IT Act rules only apply if they do not clash with the Companies Act rules.",
+ "h": "09263d1276ee",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,33 @@
+{
+ "summary": "This section explains how Indian company laws apply to foreign companies. Certain specific sections automatically apply to all foreign companies. Additionally, if at least half of a foreign company's shares are owned by Indian citizens or Indian companies, it must follow the rules for Indian companies regarding its business in India.",
+ "points": [
+  "Sections 380 to 386, 392, and 393 apply to all foreign companies.",
+  "If fifty percent or more of the paid-up share capital of a foreign company is held by Indian citizens or Indian bodies corporate, specific rules apply.",
+  "Such ownership can be held singly or in the aggregate.",
+  "A foreign company meeting this shareholding condition must comply with this Chapter and prescribed provisions of the Act.",
+  "It must follow these rules as if it were a company actually incorporated in India for its business carried on in India."
+ ],
+ "example": "Global Tech Corp is a company incorporated outside India. Recently, Indian citizens and Mumbai Softwares Private Limited, an Indian body corporate, bought shares together totaling sixty percent of Global Tech Corp's paid-up share capital. Because this ownership crosses the fifty percent threshold, Global Tech Corp must now comply with the provisions of this Chapter and other prescribed provisions of the Act with regard to the business it carries on in India, treating itself as if it were a company incorporated in India.",
+ "terms": [
+  {
+   "term": "foreign company",
+   "meaning": "A company or body corporate incorporated outside India."
+  },
+  {
+   "term": "paid-up share capital",
+   "meaning": "The total amount of money paid by shareholders to a company for its shares."
+  },
+  {
+   "term": "body corporate",
+   "meaning": "A legal entity, such as a company, created under law."
+  },
+  {
+   "term": "aggregate",
+   "meaning": "Total amount formed by combining several separate elements."
+  }
+ ],
+ "watch": "Do not assume that all sections of the Act apply to every foreign company, as only specific sections and certain ownership conditions trigger these rules.",
+ "h": "890f319a0833",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

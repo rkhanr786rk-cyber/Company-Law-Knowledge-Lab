@@ -1,0 +1,30 @@
+{
+ "summary": "An inspector appointed to investigate a company must submit interim reports if told to do so, and a final report when the investigation ends. These reports are given to the Central Government in writing or print. People whose interests are affected can also apply to get a copy of the report.",
+ "points": [
+  "An inspector may submit interim reports and must do so if the Central Government directs.",
+  "A final report must be submitted to the Central Government when the investigation concludes.",
+  "Reports must be written or printed based on the Central Government's directions.",
+  "Members, creditors, and other affected persons can apply to the Central Government to obtain a copy of the report.",
+  "The report must be authenticated by the company's seal or a public officer's certificate.",
+  "Authenticated reports can be used as evidence in legal proceedings."
+ ],
+ "example": "An inspector was appointed by the Central Government to investigate the affairs of Sunshine Retail Private Limited. During the inquiry, the Central Government asked for an interim report, which the inspector promptly submitted in writing. When the investigation finally concluded, the inspector handed over the final report to the Central Government. Meanwhile, Rahul, a creditor of Sunshine Retail Private Limited, felt his financial interests were affected by the company's actions. Rahul made a formal application to the Central Government and successfully obtained a copy of the inspector's report. Later, when a legal dispute arose involving the company, this authenticated report was used as valid evidence in court to support the facts found during the investigation.",
+ "terms": [
+  {
+   "term": "Interim report",
+   "meaning": "A temporary report submitted before the final investigation is completed."
+  },
+  {
+   "term": "Authenticated",
+   "meaning": "Proved to be real and official using a seal or an official certificate."
+  },
+  {
+   "term": "Creditor",
+   "meaning": "A person or company to whom money is owed."
+  }
+ ],
+ "watch": "Note that these rules for inspection reports do not apply to reports referred to in section 212.",
+ "h": "419b3e355d0d",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

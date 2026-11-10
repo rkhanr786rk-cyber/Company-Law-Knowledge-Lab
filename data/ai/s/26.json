@@ -1,0 +1,34 @@
+{
+ "summary": "This section explains what details must be included when a public company issues a prospectus to the public. It states that the document must be dated, signed, and delivered to the Registrar before publication, while also setting rules for expert statements and penalties for breaking these rules. Certain types of share issues to existing members or uniform shares are exempt from these specific requirements.",
+ "points": [
+  "Every prospectus issued by or for a public company must be properly dated and signed.",
+  "The prospectus must include information and financial reports specified by the Securities and Exchange Board or existing regulations.",
+  "A signed copy of the prospectus must be delivered to the Registrar for filing on or before its publication date.",
+  "Any expert making a statement in the prospectus must not be connected to the company's formation or management and must give written consent.",
+  "A prospectus becomes invalid if it is issued more than ninety days after being delivered to the Registrar.",
+  "Issuing a prospectus against these rules results in fines for both the company and responsible individuals."
+ ],
+ "example": "Aarav Textiles Limited wanted to issue shares to the public. Before publishing its prospectus, the company made sure every named director or their authorized attorney signed a copy of the document. They then delivered this signed copy to the Registrar for filing on January 10th. The prospectus clearly stated on its face that the copy had been delivered to the Registrar as required. The company made sure to issue the prospectus well within ninety days of that delivery date, avoiding any invalidity or fines for breaking the rules.",
+ "terms": [
+  {
+   "term": "Prospectus",
+   "meaning": "A formal document issued by a company that invites the public to buy its shares or debentures."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "An official office designated to receive company documents and filings."
+  },
+  {
+   "term": "Expert",
+   "meaning": "A qualified person whose profession gives authority to a statement they make, such as an engineer or accountant."
+  },
+  {
+   "term": "Debenture",
+   "meaning": "A type of debt instrument issued by a company that acknowledges a loan."
+  }
+ ],
+ "watch": "A common confusion is assuming a prospectus remains valid indefinitely after being filed, whereas it becomes invalid if issued more than ninety days after delivery to the Registrar.",
+ "h": "af6b4b45f746",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

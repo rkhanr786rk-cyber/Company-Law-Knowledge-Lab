@@ -1,0 +1,33 @@
+{
+ "summary": "A company can change its rulebook, known as articles, by passing a special resolution, as long as it follows the law and its own memorandum. These changes can even turn a private company into a public one, or the other way around. However, changing a public company into a private company requires approval from the Central Government.",
+ "points": [
+  "A company may alter its articles by a special resolution.",
+  "Changes can convert a private company into a public company, or a public company into a private company.",
+  "If a private company removes its required private restrictions during an alteration, it stops being a private company immediately.",
+  "Converting a public company to a private company needs approval from the Central Government.",
+  "The altered articles and government order must be filed with the Registrar within fifteen days along with a printed copy."
+ ],
+ "example": "Meera Textiles Private Limited wants to change its internal rules so that it can sell shares to the general public. To do this, the company holds a meeting and passes a special resolution to alter its articles and convert into a public company. After passing this resolution, Meera Textiles files a printed copy of the newly altered articles along with the required documents with the Registrar within fifteen days. Once the Registrar registers these documents, the new rules become fully valid just like the original articles of the company.",
+ "terms": [
+  {
+   "term": "articles",
+   "meaning": "The document containing rules and regulations for the internal management of a company."
+  },
+  {
+   "term": "special resolution",
+   "meaning": "A decision made by the company members that requires a specific high majority of votes."
+  },
+  {
+   "term": "memorandum",
+   "meaning": "The fundamental document that sets out the company's constitution and scope of powers."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "An official who maintains the registry of companies under the law."
+  }
+ ],
+ "watch": "Remember that turning a public company into a private company is not valid without an official order of approval from the Central Government.",
+ "h": "771a60412d7a",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

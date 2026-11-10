@@ -1,0 +1,33 @@
+{
+ "summary": "Section 115 of the Companies Act, 2013 explains what happens when a special notice is needed for a company resolution. Members who hold enough voting power or paid-up shares must inform the company of their intention to move the resolution. Afterward, the company must share this notice with all its members.",
+ "points": [
+  "Applies when the Act or the company articles require a special notice for a resolution.",
+  "Members must give notice of their intention to move the resolution to the company.",
+  "The members giving notice must hold at least one percent of the total voting power.",
+  "Alternatively, members can hold shares with a paid-up sum not exceeding five lakh rupees as prescribed.",
+  "The company is required to give notice of the resolution to its members in the prescribed manner."
+ ],
+ "example": "Meera Textiles Private Limited has an upcoming annual general meeting. A group of shareholders holding two percent of the total voting power wants to propose a specific resolution that requires special notice under the company rules. To do this, these shareholders must first give formal notice of their intention to move this resolution to Meera Textiles Private Limited. Once the company receives this proper notice from the qualifying members, Meera Textiles Private Limited is legally required to pass along the notice of the resolution to all of its other members following the prescribed rules.",
+ "terms": [
+  {
+   "term": "resolution",
+   "meaning": "A formal decision or proposal made by members of a company during a meeting."
+  },
+  {
+   "term": "articles",
+   "meaning": "The rulebook of a company that sets out its internal management and operations."
+  },
+  {
+   "term": "voting power",
+   "meaning": "The right of members to vote on company matters based on their shareholding."
+  },
+  {
+   "term": "paid-up",
+   "meaning": "The amount of money shareholders have actually paid to the company for their shares."
+  }
+ ],
+ "watch": "Note that this section only explains who must give the initial notice and how members are informed, not the rules for passing the resolution itself.",
+ "h": "a7ddd580f3ac",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

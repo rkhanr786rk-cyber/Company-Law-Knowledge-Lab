@@ -1,0 +1,26 @@
+{
+ "summary": "This section explains how the Tribunal makes and updates its decisions. It must listen to all sides before deciding and send a copy of the final order to everyone involved. The Tribunal can also fix clear mistakes in its orders within two years, as long as no appeal has been filed.",
+ "points": [
+  "The Tribunal must give a reasonable chance to be heard to all parties before passing an order.",
+  "The Tribunal can pass any order it thinks is right after hearing the parties.",
+  "The Tribunal may fix any obvious mistake in its order within two years from the order date.",
+  "The Tribunal must fix a mistake if the parties bring it to its notice, within the two-year limit.",
+  "No mistake can be fixed if someone has already filed an appeal against that order.",
+  "The Tribunal must send a copy of every order to all parties concerned."
+ ],
+ "example": "Meera Textiles Private Limited was involved in a dispute before the Tribunal. After giving both sides a fair chance to speak, the Tribunal issued its order and sent a copy to Meera Textiles and the other party. A month later, Meera Textiles noticed a clear typing error in the order regarding a name. Because no appeal had been filed yet, Meera Textiles pointed out the mistake to the Tribunal. Within the two-year time limit, the Tribunal corrected the mistake and updated the order to ensure accuracy.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized legal body set up to handle specific types of disputes and cases."
+  },
+  {
+   "term": "Appeal",
+   "meaning": "A formal request to a higher authority to change a lower decision."
+  }
+ ],
+ "watch": "Remember that the Tribunal cannot fix mistakes in an order if an appeal has already been filed against it.",
+ "h": "c9382a5fa060",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

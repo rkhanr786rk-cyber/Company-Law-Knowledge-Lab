@@ -1,0 +1,32 @@
+{
+ "summary": "This section explains what a company must do when it buys back its own shares using free reserves or the securities premium account. It requires the company to move an amount equal to the face value of those shares into a special account. This special account can then be used only to issue fully paid bonus shares to existing members.",
+ "points": [
+  "A company must transfer an amount equal to the nominal value of shares purchased to the capital redemption reserve account.",
+  "This rule applies when shares are bought out of free reserves or securities premium account.",
+  "The details of this transfer must be clearly shown in the company balance sheet.",
+  "The capital redemption reserve account may be used to pay for unissued bonus shares given to members."
+ ],
+ "example": "Meera Textiles Private Limited decided to buy back some of its own shares using its free reserves. Following the law, the finance team calculated the nominal value of the purchased shares. They transferred that exact amount into a special account known as the capital redemption reserve account. They also made sure that the details of this transfer were properly disclosed in the company balance sheet. Later, when the board wanted to reward its members, the company used this capital redemption reserve account to pay for unissued shares that were given to members as fully paid bonus shares.",
+ "terms": [
+  {
+   "term": "Free reserves",
+   "meaning": "Reserves that are available for distribution as dividends."
+  },
+  {
+   "term": "Securities premium account",
+   "meaning": "An account that holds the extra money a company receives when it sells shares above their face value."
+  },
+  {
+   "term": "Nominal value",
+   "meaning": "The face value of a share as stated in the company documents."
+  },
+  {
+   "term": "Bonus shares",
+   "meaning": "Free shares given to existing shareholders in proportion to their current holdings."
+  }
+ ],
+ "watch": "Do not confuse the capital redemption reserve account with regular profits, as it can only be used for issuing bonus shares.",
+ "h": "6c0f6c87e519",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

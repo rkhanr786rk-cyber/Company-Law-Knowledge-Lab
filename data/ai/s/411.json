@@ -1,0 +1,28 @@
+{
+ "summary": "This section explains the rules for who can become the chairperson and members of the Appellate Tribunal. It sets clear backgrounds and experience levels required for each role. Different types of members need different kinds of past work, such as being a judge or having long experience in finance and management.",
+ "points": [
+  "The chairperson must be a current or former Supreme Court Judge or a Chief Justice of a High Court.",
+  "A Judicial Member must be a current or former High Court Judge or have served as a Judicial Member of the Tribunal for five years.",
+  "A technical member must have proven ability, integrity, and standing.",
+  "A technical member must also have at least twenty-five years of special knowledge and professional experience in fields like industrial finance, management, reconstruction, investment, or accountancy."
+ ],
+ "example": "Meera Textiles Private Limited is involved in a major dispute that goes to the Appellate Tribunal. When the company representatives and their lawyers arrive, they look at the qualifications of the panel hearing their case. The chairperson is a retired judge of the Supreme Court, which meets the requirement of sub-section (1). One of the members is a former High Court Judge acting as a Judicial Member, and another member has spent thirty years working successfully in industrial finance and investment, fulfilling the technical member criteria. The company feels confident that the tribunal members are properly qualified according to the law.",
+ "terms": [
+  {
+   "term": "Appellate Tribunal",
+   "meaning": "A higher body that reviews decisions made by a lower tribunal or authority."
+  },
+  {
+   "term": "Judicial Member",
+   "meaning": "A member of a tribunal who has a background as a judge or legal expert."
+  },
+  {
+   "term": "Technical Member",
+   "meaning": "A member who is an expert in a non-legal field like finance, management, or accountancy."
+  }
+ ],
+ "watch": "People often confuse the background requirements of a Judicial Member with those of a Technical Member.",
+ "h": "7d7a3f4a1d63",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

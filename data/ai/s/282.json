@@ -1,0 +1,33 @@
+{
+ "summary": "This section explains the powers of the Tribunal after receiving a report from the Company Liquidator during the winding up of a company. The Tribunal sets a time limit for the proceedings and dissolution, can order the sale of the company or its assets, and can order investigations if fraud is reported. It can also take steps to protect company assets and pass other necessary directions.",
+ "points": [
+  "The Tribunal sets a time limit for completing proceedings and dissolving the company based on the Company Liquidator's report.",
+  "The Tribunal can revise the time limit if continuing the proceedings is not advantageous or economical.",
+  "The Tribunal can order the sale of the company as a going concern or sell its assets, and may appoint a sale committee.",
+  "The Tribunal must order an investigation if a report shows fraud has been committed, and can direct the filing of a criminal complaint.",
+  "The Tribunal can order measures to protect, preserve, or enhance the value of company assets."
+ ],
+ "example": "Ananta Pharma Limited was undergoing winding up by a Company Liquidator. The Tribunal reviewed the Liquidator's report and set a strict time limit for the final dissolution of the company. During the process, the Tribunal received a report indicating potential fraud by certain promoters. Without stopping the winding up, the Tribunal immediately ordered an investigation under section 210. Meanwhile, to ensure the company's factory equipment did not rust or lose value, the Tribunal ordered the Liquidator to take immediate protective measures. Later, the Tribunal decided it would be best to sell the company as a going concern and appointed a small sale committee consisting of selected creditors and company officers to assist the Liquidator with the sale.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "The judicial body responsible for handling company law matters like winding up."
+  },
+  {
+   "term": "Company Liquidator",
+   "meaning": "The official appointed to run the winding up process and wind down a company."
+  },
+  {
+   "term": "Contributories",
+   "meaning": "Persons liable to contribute to the assets of a company in the event of its being wound up."
+  },
+  {
+   "term": "Going concern",
+   "meaning": "A business that is operational and functioning as a viable entity."
+  }
+ ],
+ "watch": "Note that the Tribunal can change the time limit for winding up at any stage if continuing the proceedings is no longer advantageous or economical.",
+ "h": "a6212ec1ed0e",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

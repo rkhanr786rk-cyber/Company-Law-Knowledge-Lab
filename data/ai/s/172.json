@@ -1,0 +1,30 @@
+{
+ "summary": "This section sets the punishment when a company breaks any rule in Chapter XI of the Companies Act and no other specific penalty is mentioned. Both the company and the responsible officer must pay a base fine. If the mistake keeps happening, they must pay an extra daily fine up to a set limit.",
+ "points": [
+  "Applies when a company breaks any rule in Chapter XI of the Act.",
+  "Applies only if the specific rule does not already list its own punishment.",
+  "The company and every responsible officer must pay a penalty of fifty thousand rupees.",
+  "If the failure continues day by day, there is an extra penalty of five hundred rupees for each day.",
+  "The total extra daily penalty is capped at three lakh rupees for the company.",
+  "The total extra daily penalty is capped at one lakh rupees for the responsible officer."
+ ],
+ "example": "Meera Textiles Private Limited failed to follow a rule regarding the appointment of directors found in Chapter XI of the Act, and that specific rule did not list its own punishment. Because of this default, the company and Rohan, the officer responsible for the mistake, both faced legal consequences. Under the law, Meera Textiles Private Limited and Rohan were each liable to pay a penalty of fifty thousand rupees. Since the failure continued for several days after the first notice, they also faced a further penalty of five hundred rupees for each day the failure continued, subject to the maximum limits stated in the law for companies and officers.",
+ "terms": [
+  {
+   "term": "default",
+   "meaning": "breaking a rule or failing to do what the law requires"
+  },
+  {
+   "term": "officer who is in default",
+   "meaning": "a company worker or director who is responsible for the rule being broken"
+  },
+  {
+   "term": "continuing failure",
+   "meaning": "when the mistake or rule violation keeps happening over multiple days"
+  }
+ ],
+ "watch": "Do not assume this penalty applies to all chapters, as it specifically targets rules within Chapter XI.",
+ "h": "1e7b0f10ba62",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

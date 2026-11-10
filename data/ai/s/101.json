@@ -1,0 +1,26 @@
+{
+ "summary": "Section 101 of the Companies Act, 2013 explains how a company must call a general meeting by giving proper notice. It requires at least twenty-one clear days of notice in writing or through electronic mode. However, a meeting can happen with a shorter notice if the required majority of members agree.",
+ "points": [
+  "A general meeting requires at least twenty-one clear days of notice in writing or through electronic mode.",
+  "An annual general meeting can have a shorter notice if ninety-five percent of members entitled to vote agree.",
+  "Other general meetings can have a shorter notice if a majority of members holding ninety-five percent of voting share capital agree.",
+  "Every meeting notice must state the place, date, day, hour, and the business to be done.",
+  "Notices must be sent to all members, legal representatives, auditors, and directors.",
+  "An accidental failure to give notice or failure to receive it will not cancel the meeting proceedings."
+ ],
+ "example": "Nova Enterprises Private Limited wants to hold its annual general meeting. Normally, the company must give a notice of at least twenty-one clear days to everyone. However, the directors realize they need to pass an urgent resolution sooner. They ask the shareholders for consent to hold the meeting on a shorter notice. Since ninety-five percent of the members entitled to vote agree to this in writing, Nova Enterprises Private Limited lawfully proceeds with the meeting without waiting for the full twenty-one days.",
+ "terms": [
+  {
+   "term": "General meeting",
+   "meaning": "A formal gathering of a company's shareholders or members to discuss and decide on company business."
+  },
+  {
+   "term": "Auditor",
+   "meaning": "An official appointed to examine and check the financial records of the company."
+  }
+ ],
+ "watch": "An accidental omission to send notice does not make the meeting illegal.",
+ "h": "293bcf516aa5",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

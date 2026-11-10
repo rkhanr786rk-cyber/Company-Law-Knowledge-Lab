@@ -1,0 +1,33 @@
+{
+ "summary": "This section explains how companies must hold meetings of their Board of Directors. It sets rules for timelines, how directors can attend, and how notice must be given for these meetings. Different rules apply to certain types of companies like small or dormant companies.",
+ "points": [
+  "The first board meeting must be held within thirty days of incorporation.",
+  "A company must hold at least four board meetings every year, with no more than one hundred twenty days between two meetings.",
+  "Directors can attend meetings in person or through video conferencing and other audio-visual means.",
+  "A written notice of at least seven days must be given to every director for a board meeting.",
+  "Officers responsible for giving notice who fail to do so face a penalty of twenty-five thousand rupees."
+ ],
+ "example": "Meera Textiles Private Limited was recently formed and held its very first board meeting twenty days after incorporation, following the rules. A few months later, the company planned its second board meeting. The company secretary sent a written notice by post to all directors exactly eight days before the meeting date, ensuring everyone had enough time to prepare. On the day of the meeting, one director was travelling abroad, so she joined the meeting securely through video conferencing. The directors discussed their upcoming business plans and made important decisions. Because they followed the notice period and meeting timelines correctly, the meeting was completely valid under the law.",
+ "terms": [
+  {
+   "term": "Board of Directors",
+   "meaning": "The group of people chosen to manage the affairs of a company."
+  },
+  {
+   "term": "Incorporation",
+   "meaning": "The legal process used to form a new company."
+  },
+  {
+   "term": "Video conferencing",
+   "meaning": "Using technology to let people see and talk to each other from different locations."
+  },
+  {
+   "term": "Penalty",
+   "meaning": "A punishment or fine for breaking a rule."
+  }
+ ],
+ "watch": "Do not confuse the general rule of four meetings a year with the special rule for small or dormant companies.",
+ "h": "168a10433972",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

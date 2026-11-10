@@ -1,0 +1,33 @@
+{
+ "summary": "An inspector investigating a company under this law can enter a place and seize books and papers if they believe those documents might be destroyed, changed, or hidden. The inspector must let the company copy these documents at the company's cost before taking them. The inspector keeps the documents until the investigation ends and then returns them.",
+ "points": [
+  "The inspector may enter any place where books and papers are kept if there are reasonable grounds to believe the documents might be destroyed, altered, or hidden.",
+  "The inspector can take seizure of the necessary books and papers for the investigation.",
+  "The company must be allowed to make copies or extracts of the books and papers at its own cost before they are seized.",
+  "The inspector must return the seized documents to their rightful custodian no later than the conclusion of the investigation.",
+  "Rules for searches and seizures under the Code of Criminal Procedure, 1973 apply to these actions."
+ ],
+ "example": "During an official investigation into Meera Textiles Private Limited, the appointed inspector received a tip that the managing director was planning to hide important financial records. Believing these papers might be secreted or destroyed, the inspector arrived at the office with necessary assistance to enter the premises. Before taking the documents, the inspector allowed the staff of Meera Textiles Private Limited to make copies of the records at the company's cost. The inspector then seized the necessary books and papers to keep them safely in custody until the investigation concluded, after which they would be returned.",
+ "terms": [
+  {
+   "term": "mutilated",
+   "meaning": "Damaged or torn so that a document is imperfect."
+  },
+  {
+   "term": "falsified",
+   "meaning": "Made false or altered fraudulently to deceive."
+  },
+  {
+   "term": "secreted",
+   "meaning": "Hidden or kept secret."
+  },
+  {
+   "term": "mutatis mutandis",
+   "meaning": "With necessary changes having been made."
+  }
+ ],
+ "watch": "Do not assume the inspector can keep the seized documents forever, as they must be returned once the investigation concludes.",
+ "h": "423cb22eae27",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

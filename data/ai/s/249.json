@@ -1,0 +1,26 @@
+{
+ "summary": "This section sets strict rules on when a company cannot ask to remove its name from the official register. It stops companies from making this request if they recently changed their name, sold property, did other business activities, or are currently facing legal winding up. If a company breaks these rules, it faces a fine and the request will be stopped.",
+ "points": [
+  "A company cannot apply to remove its name if it changed its name or moved its office to another State in the previous three months.",
+  "The application is blocked if the company sold property or rights just before stopping trade, aiming to make a profit.",
+  "A company must not engage in general activities, except those needed to apply, wrap up affairs, or follow the law.",
+  "The company cannot apply if it has a pending application for a compromise or arrangement before the Tribunal.",
+  "Companies currently undergoing winding up or insolvency proceedings are barred from making this application.",
+  "Filing this application in violation of the rules leads to a fine and rejection or withdrawal of the request."
+ ],
+ "example": "Meera Textiles Private Limited decided to close down its operations. Two months ago, the company shifted its registered office from Mumbai to Pune. Without realizing the rules, the directors submitted an application to the Registrar to remove the company name from the register. Because the company moved its office across States within the past three months, this application violates the law. As a result, the Registrar will reject the application once the fact is noticed, and Meera Textiles Private Limited can also face a fine of up to one lakh rupees.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized legal body set up to handle specific legal disputes and matters."
+  },
+  {
+   "term": "Winding up",
+   "meaning": "The formal process of ending a company's existence and settling its affairs."
+  }
+ ],
+ "watch": "People often confuse allowed winding-up preparation with general business activities, but only activities needed to file the application or close affairs are permitted.",
+ "h": "c6f7113f7832",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

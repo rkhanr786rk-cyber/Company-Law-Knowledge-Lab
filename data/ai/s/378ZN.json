@@ -1,0 +1,30 @@
+{
+ "summary": "A Producer Company may pass a general meeting resolution to transfer its assets and liabilities, divide itself, amalgamate, or merge with another Producer Company. Members and creditors must receive written notice and a copy of the proposed resolution. Non-consenting members or creditors have specific options to transfer shares or withdraw deposits within one month.",
+ "points": [
+  "A Producer Company may decide to transfer its assets and liabilities, divide into new companies, amalgamate, or merge by passing a resolution at a general meeting.",
+  "Resolutions require a majority of total members with at least two-thirds of members present and voting.",
+  "Written notice and a copy of the proposed resolution must be given to all members and creditors before passing the resolution.",
+  "Non-consenting members may transfer their shares to an active member with Board approval, and non-consenting creditors may withdraw their deposit, loan, or advance within one month.",
+  "Members or creditors who do not exercise their option within the specified period are deemed to have consented to the resolution.",
+  "Any member, creditor, or employee aggrieved by the transfer, division, amalgamation, or merger may appeal to the Tribunal within thirty days."
+ ],
+ "example": "Meera Textiles Producer Company Limited decided to merge with Kisan Agro Producer Company Limited by passing a resolution at its general meeting. Before the meeting, Meera Textiles gave written notice and a copy of the proposed resolution to all its members and creditors. Rohit, a member who did not consent to the merger, chose to transfer his shares with the Board's approval to an active member within one month. Meanwhile, Anita, a non-consenting creditor, chose to withdraw her deposit within the same one-month period. Since other members and creditors did not exercise their options, they were deemed to have consented, allowing the merger process to move forward under the law.",
+ "terms": [
+  {
+   "term": "Amalgamate",
+   "meaning": "To combine two or more companies to form a new company."
+  },
+  {
+   "term": "Merger",
+   "meaning": "When one company is combined into another existing company."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized legal body set up to deal with specific types of disputes and appeals."
+  }
+ ],
+ "watch": "Non-consenting members and creditors must act within one month, or they will be legally deemed to have agreed to the resolution.",
+ "h": "218340ebea94",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,29 @@
+{
+ "summary": "Section 175 of the Companies Act, 2013 allows a company's board of directors or a committee to pass a resolution by circulation without holding a physical meeting. The draft resolution and necessary papers must be sent to all directors at their registered addresses in India. It requires approval from a majority of the directors who are entitled to vote, and the decision must be noted at a later meeting.",
+ "points": [
+  "The draft resolution and necessary papers must be sent to all directors or committee members at their registered addresses in India.",
+  "Sending can be done by hand delivery, post, courier, or permitted electronic means.",
+  "The resolution is passed if it is approved by a majority of the directors entitled to vote.",
+  "If at least one-third of the total directors demand a meeting, the chairperson must put the resolution to a board meeting.",
+  "The circulated resolution must be noted at a subsequent meeting and included in the minutes."
+ ],
+ "example": "Meera Textiles Private Limited wants to approve a new vendor contract quickly without waiting for the next scheduled board meeting. The company prepares the draft resolution along with the necessary papers and sends them by courier to the registered addresses of all six directors in India. Four directors review the documents and approve the resolution in writing, which is more than the required majority. Since no director demands a physical meeting, the resolution is successfully passed by circulation. Later, the board notes this resolution at their next official meeting and includes it in the official meeting minutes.",
+ "terms": [
+  {
+   "term": "Resolution",
+   "meaning": "A formal decision or proposal agreed upon by the directors."
+  },
+  {
+   "term": "Circulation",
+   "meaning": "Passing a document around to people for review and approval without meeting in person."
+  },
+  {
+   "term": "Minutes",
+   "meaning": "The official written record of what happened during a meeting."
+  }
+ ],
+ "watch": "Make sure to watch out for the rule where one-third of the directors can force a physical meeting instead of a vote by circulation.",
+ "h": "5368f5252667",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

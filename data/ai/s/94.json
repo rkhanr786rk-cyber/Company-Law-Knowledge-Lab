@@ -1,0 +1,34 @@
+{
+ "summary": "This section explains where a company must keep its official registers and annual return copies, and who can inspect or copy them. Normally these documents stay at the company's registered office, but they can move elsewhere in India if members agree through a special resolution and more than one-tenth of the members live there. Members and security holders can inspect and take notes for free during business hours, while others may need to pay a fee.",
+ "points": [
+  "Company registers and annual return copies must be kept at the registered office.",
+  "Documents can be kept at another place in India if more than one-tenth of the members live there and the company passes a special resolution.",
+  "Members, debenture-holders, other security holders, and beneficial owners can inspect documents during business hours for free.",
+  "Members and security holders can take extracts from registers or returns without paying any fee.",
+  "Other people may inspect documents or request copies by paying prescribed fees.",
+  "Refusing an allowed inspection or copy leads to penalties for the company and officers in default."
+ ],
+ "example": "Meera Textiles Private Limited keeps its member registers at its main registered office in Mumbai. Rahul, a shareholder, visits the office during business hours to check the register of members. The company lets Rahul inspect the register and take written extracts without charging him any fee. Later, an outsider named Aman wants to get a full copy of the register. Aman must pay the prescribed fee to receive his copy. Meanwhile, a group of members living in Pune wants the company to shift the registers to Pune. Since more than one-tenth of the total members reside in Pune and the company passes a special resolution approving it, the registers can be moved there.",
+ "terms": [
+  {
+   "term": "registered office",
+   "meaning": "The official main address of a company where important documents must be kept."
+  },
+  {
+   "term": "special resolution",
+   "meaning": "A formal decision passed by a special majority of company members at a general meeting."
+  },
+  {
+   "term": "beneficial owner",
+   "meaning": "A person who holds the economic benefit or rights of shares even if the name is not formally on the register."
+  },
+  {
+   "term": "extracts",
+   "meaning": "Copies of selected parts taken out from a document or register."
+  }
+ ],
+ "watch": "People often confuse free inspection rights for members with paid inspection rights for outsiders who are not members or security holders.",
+ "h": "5aa7e19cb2f0",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

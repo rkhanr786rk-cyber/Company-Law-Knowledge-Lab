@@ -1,0 +1,25 @@
+{
+ "summary": "This section explains who pays for a government investigation into a company. The Central Government pays for it at first, but certain people or companies must pay the money back later. The rules for who pays back depend on the outcome of court cases or government orders.",
+ "points": [
+  "The Central Government initially pays for the investigation expenses.",
+  "People convicted or ordered to pay damages in related proceedings may be ordered by the court to reimburse these expenses.",
+  "Companies or bodies corporate that recover money or property from the proceedings must reimburse the expenses up to that recovered amount.",
+  "If no prosecution is launched, the Central Government can direct companies, managers, or the original applicants to pay the expenses.",
+  "Any amount a company owes from recovered property acts as a first charge on that property."
+ ],
+ "example": "The Central Government appointed an inspector to investigate Meera Textiles Private Limited. The investigation cost money, which the government paid at first. Later, legal proceedings under section 224 resulted in the company recovering property worth a certain amount. According to the law, Meera Textiles Private Limited must reimburse the government's investigation expenses up to the value of the property it recovered. The amount the company owes acts as a first charge on that recovered property, meaning this claim gets priority over other claims on those specific sums or property.",
+ "terms": [
+  {
+   "term": "Prosecution",
+   "meaning": "Legal proceedings in court against someone for a crime."
+  },
+  {
+   "term": "First charge",
+   "meaning": "A primary claim or legal right over a property or asset that must be paid or satisfied before other claims."
+  }
+ ],
+ "watch": "People often confuse who pays the bill initially with who ultimately bears the final cost after the court proceedings and government directions.",
+ "h": "96fccc0caa8e",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

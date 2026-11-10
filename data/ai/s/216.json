@@ -1,0 +1,29 @@
+{
+ "summary": "The Central Government can appoint inspectors to find out who truly owns or controls a company. The government may do this on its own or if the Tribunal orders it during a legal proceeding. The government can also set limits on what the inspector is allowed to look into.",
+ "points": [
+  "The Central Government may appoint inspectors to investigate a company and its membership.",
+  "The goal is to find out who has a financial interest in the company, controls its policy, or holds beneficial interests in its shares.",
+  "The Central Government must appoint inspectors if the Tribunal orders an investigation during a proceeding.",
+  "The government can define the scope of the investigation, including specific matters, time periods, or particular shares and debentures.",
+  "The inspector's powers can cover unwritten arrangements or practical understandings that affect the investigation."
+ ],
+ "example": "The Central Government noticed unusual trading patterns involving shares of Zenith Pharma Private Limited. Believing there was a reason to check who really controlled the firm, the government appointed an inspector named Mr. Sharma. Mr. Sharma was given specific instructions to limit his investigation only to the shares held during the previous financial year. During his work, Mr. Sharma looked into an informal agreement between two shareholders that was not legally binding but was still followed in practice. This allowed the government to find out the true beneficial owners behind Zenith Pharma Private Limited.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized legal body or court that handles specific kinds of disputes and legal proceedings."
+  },
+  {
+   "term": "Debentures",
+   "meaning": "A type of debt instrument issued by a company that acknowledges a loan."
+  },
+  {
+   "term": "Beneficial interest",
+   "meaning": "An interest or right to enjoy the benefits of property or shares, even if someone else holds them in their name."
+  }
+ ],
+ "watch": "People often confuse regular shareholders of record with the true beneficial owners and controllers whose identities this section aims to uncover.",
+ "h": "8f4e5e338d28",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,30 @@
+{
+ "summary": "The Central Government can order certain companies to include cost details in their accounts and get their cost records audited. This cost audit must be done by a cost accountant who is appointed by the Board and is not the company's regular financial auditor. The company must submit the final cost audit report to the government and follow all rules regarding deadlines and information.",
+ "points": [
+  "The Central Government may order certain classes of companies to include material, labour, or other cost details in their books of account.",
+  "If required by the Central Government, companies meeting certain net worth or turnover rules must get their cost records audited.",
+  "The cost auditor must be a cost accountant appointed by the Board, and cannot be the same person appointed as the regular company auditor under section 139.",
+  "The cost auditor must follow cost auditing standards issued by the Institute of Cost Accountants of India with government approval.",
+  "The company must give the cost auditor all necessary assistance and facilities.",
+  "The company must send the cost audit report and explanations to the Central Government within thirty days of receiving it."
+ ],
+ "example": "Meera Textiles Private Limited was directed by the Central Government to maintain cost records and undergo a cost audit because of its large turnover. The Board of Directors wanted to save time, so they proposed appointing Mr. Sharma, who was already auditing the company's financial accounts under section 139, to also do the cost audit. However, the law strictly forbids this and requires a separate cost accountant. The Board then appointed a qualified cost accountant, Ms. Gupta, to conduct the cost audit. Once completed, Ms. Gupta submitted her report to the Board. Within thirty days of receiving it, Meera Textiles forwarded the report and necessary explanations to the Central Government.",
+ "terms": [
+  {
+   "term": "Cost auditor",
+   "meaning": "A cost accountant appointed to examine and audit the cost records of a company."
+  },
+  {
+   "term": "Net worth",
+   "meaning": "The total value of assets minus liabilities as prescribed by rules."
+  },
+  {
+   "term": "Turnover",
+   "meaning": "The total volume of business or sales made by a company."
+  }
+ ],
+ "watch": "The regular financial auditor of the company cannot be appointed to conduct the cost audit.",
+ "h": "e8e6565e5055",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

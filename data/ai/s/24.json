@@ -1,0 +1,29 @@
+{
+ "summary": "This section explains who manages the rules for companies issuing or transferring shares and unpaid dividends. Companies that are listed on a stock exchange or plan to be listed are generally looked after by the Securities and Exchange Board. All other companies are handled by the Central Government. The Central Government, Tribunal, or Registrar still handle other specific matters like prospectuses and returns of allotment.",
+ "points": [
+  "The Securities and Exchange Board administers rules regarding the issue and transfer of securities for listed companies or companies planning to list.",
+  "The Securities and Exchange Board administers rules regarding non-payment of dividends for listed companies or companies planning to list.",
+  "The Central Government administers these rules in all other cases not handled by the Securities and Exchange Board.",
+  "The Central Government, Tribunal, or Registrar exercises powers for all other matters like prospectuses, returns of allotment, and redemption of preference shares.",
+  "The Securities and Exchange Board uses specific powers given to it under the Securities and Exchange Board of India Act, 1992 for these matters."
+ ],
+ "example": "Alpha Motors Private Limited wants its shares to be traded on a recognized stock exchange in India. Because Alpha Motors intends to get its securities listed, the rules about issuing and transferring its shares, as well as handling any unpaid dividends, will be managed and regulated by the Securities and Exchange Board instead of the Central Government. Meanwhile, ordinary unlisted companies that have no plans to list on a stock exchange will continue to have their share issues and dividend payments administered by the Central Government.",
+ "terms": [
+  {
+   "term": "Securities",
+   "meaning": "Financial instruments like shares and bonds issued by a company."
+  },
+  {
+   "term": "Listed companies",
+   "meaning": "Companies whose shares or securities are traded on a recognized stock exchange."
+  },
+  {
+   "term": "Dividend",
+   "meaning": "A portion of a company's profit paid out to its shareholders."
+  }
+ ],
+ "watch": "Do not confuse the powers of the Securities and Exchange Board over listed companies with the separate powers of the Central Government over unlisted companies and other prospectus matters.",
+ "h": "f54a4618e575",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

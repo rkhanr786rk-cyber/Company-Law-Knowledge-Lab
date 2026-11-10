@@ -1,0 +1,23 @@
+{
+ "summary": "This section explains what the Official Liquidator must do with money collected during a company's winding up. They must deposit all received funds into the public account of India kept at the Reserve Bank of India. The exact method and timing for these payments will be decided by rules.",
+ "points": [
+  "The Official Liquidator must pay all money received from a company into the public account of India.",
+  "The payment must be made into the Reserve Bank of India.",
+  "The manner and times for making these payments will be prescribed by rules."
+ ],
+ "example": "Mr. Roy is appointed as the Official Liquidator for Sunshine Papers Private Limited, a company currently going through the winding up process. During the liquidation, Mr. Roy collects various sums of money belonging to Sunshine Papers Private Limited. According to the law, Mr. Roy cannot keep this money in a private bank or his own pocket. Instead, he must take all the money he received as the Official Liquidator and pay it into the public account of India at the Reserve Bank of India, following the prescribed manner and times.",
+ "terms": [
+  {
+   "term": "Official Liquidator",
+   "meaning": "An officer appointed to manage the winding up and assets of a company."
+  },
+  {
+   "term": "Winding up",
+   "meaning": "The process of ending a company's existence and settling its affairs."
+  }
+ ],
+ "watch": "People often think the liquidator can choose any bank, but the law specifically requires the Reserve Bank of India.",
+ "h": "d10478e6ee7a",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,29 @@
+{
+ "summary": "This section explains what happens when a person or group becomes the owner of ninety percent or more of a company's shares. The majority owner must tell the company they want to buy the remaining shares from minority shareholders at a price set by an expert. Minority shareholders can also ask the majority to buy their shares at that same price.",
+ "points": [
+  "A person or group holding ninety percent or more of a company's equity shares must notify the company of their intent to buy the remaining shares.",
+  "The purchase price for minority shares must be determined by a registered valuer based on prescribed rules.",
+  "Minority shareholders also have the right to offer to sell their shares to the majority shareholders at the valuer-determined price.",
+  "The majority shareholders must deposit the total purchase money into a separate bank account operated by the company.",
+  "The company acts as a transfer agent to receive the price, pay the minority shareholders, and handle the delivery of shares."
+ ],
+ "example": "Aarav owns ninety-two percent of the equity shares in Star Logistics Private Limited. Because he holds more than ninety percent, Aarav notifies the company that he intends to buy out the remaining shares. A registered valuer determines the fair price for these shares. Aarav deposits the required total amount into a separate bank account operated by Star Logistics Private Limited. Meera, a minority shareholder holding a small portion of shares, agrees to the sale. The company acts as the transfer agent, pays Meera out of the deposited funds, takes delivery of her shares, and hands them over to Aarav to complete the process.",
+ "terms": [
+  {
+   "term": "Acquirer",
+   "meaning": "A person or group buying shares in a company."
+  },
+  {
+   "term": "Registered valuer",
+   "meaning": "An expert officially registered to calculate the value of shares."
+  },
+  {
+   "term": "Minority shareholders",
+   "meaning": "Shareholders who hold a small percentage of shares in the company."
+  }
+ ],
+ "watch": "People often confuse who sets the share price, but the law states it must be determined by a registered valuer.",
+ "h": "aead658c4e2a",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

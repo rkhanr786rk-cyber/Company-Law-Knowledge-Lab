@@ -1,0 +1,31 @@
+{
+ "summary": "This section protects the work done by the Tribunal or the Appellate Tribunal. It ensures that their actions or cases cannot be challenged just because there is an empty seat or a flaw in how the group was formed. Even if something is missing or vacant, their official decisions remain completely valid.",
+ "points": [
+  "Prevents questioning of any act or proceeding of the Tribunal or Appellate Tribunal.",
+  "States that actions are not invalid solely due to the existence of any vacancy.",
+  "States that actions are not invalid due to a defect in the constitution of the Tribunal or Appellate Tribunal."
+ ],
+ "example": "Aarav Electronics Private Limited was involved in a long dispute before the Tribunal. After the Tribunal issued its final order against them, Aarav Electronics tried to cancel the decision. They argued that the order was completely invalid because one of the member seats on the Tribunal was empty at the time of the hearing due to a resignation. However, under Section 431, the Tribunal's decision remains fully valid. The mere existence of a vacancy does not make their acts or proceedings questionable or invalid.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized official body set up to deal with specific legal disputes."
+  },
+  {
+   "term": "Appellate Tribunal",
+   "meaning": "A higher body that reviews decisions made by the Tribunal."
+  },
+  {
+   "term": "Vacancy",
+   "meaning": "An empty position or seat that has not been filled."
+  },
+  {
+   "term": "Constitution",
+   "meaning": "The way something is set up or formed."
+  }
+ ],
+ "watch": "Do not assume that an empty seat or formation flaw allows people to cancel or ignore every decision made by the Tribunal.",
+ "h": "2e8d4a449ccc",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

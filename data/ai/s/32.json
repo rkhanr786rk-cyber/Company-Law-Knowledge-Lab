@@ -1,0 +1,29 @@
+{
+ "summary": "A company can issue a special type of offer document called a red herring prospectus before releasing a full prospectus. This document does not have the final details about the number or price of the securities. Later, the company must file the final prospectus with all complete details after the offer closes.",
+ "points": [
+  "A company planning to offer securities may issue a red herring prospectus before the regular prospectus.",
+  "The company must file this document with the Registrar at least three days before the subscription list and offer open.",
+  "A red herring prospectus has the exact same duties and rules as a regular prospectus.",
+  "Any differences between the red herring prospectus and the final prospectus must be clearly highlighted in the final prospectus.",
+  "Once the offer closes, the final prospectus must be filed with both the Registrar and the Securities and Exchange Board."
+ ],
+ "example": "Meera Textiles Private Limited planned to offer new shares to the public. Before issuing a final prospectus, the company issued a red herring prospectus that did not state the exact price or total number of shares to be sold. Meera Textiles filed this preliminary document with the Registrar four days before the offer opened, which met the three-day rule. After the share offer successfully closed, the company prepared the final prospectus showing the total capital raised, the closing share price, and any changes, and filed it with both the Registrar and the Securities and Exchange Board.",
+ "terms": [
+  {
+   "term": "Red herring prospectus",
+   "meaning": "An offer document for securities that does not include complete details about the quantity or price."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "An official government authority where company documents must be filed."
+  },
+  {
+   "term": "Securities and Exchange Board",
+   "meaning": "A regulatory body that oversees securities markets."
+  }
+ ],
+ "watch": "Do not forget that any changes between the red herring prospectus and the final prospectus must be clearly highlighted.",
+ "h": "8e73b532375a",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

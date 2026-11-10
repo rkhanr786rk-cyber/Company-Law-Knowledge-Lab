@@ -1,0 +1,33 @@
+{
+ "summary": "This section allows a company, its members, creditors, or a liquidator to propose a compromise or arrangement. The Tribunal can order meetings of creditors or members to discuss and vote on the proposal. If the required majority agrees and the Tribunal approves, the plan becomes binding on all concerned parties.",
+ "points": [
+  "The Tribunal can order meetings of creditors or members upon an application by the company, creditors, members, or a liquidator.",
+  "The applicant must disclose all material facts to the Tribunal by affidavit, including the latest financial position and auditor report.",
+  "Individual notices of the meeting, along with a statement explaining the effect of the arrangement, must be sent to all creditors, members, and debenture-holders.",
+  "Persons receiving the notice can vote in person, through proxies, or by postal ballot.",
+  "A compromise or arrangement agreed to by the majority representing three-fourths in value of the creditors or members and sanctioned by the Tribunal is binding on all parties."
+ ],
+ "example": "Meera Textiles Private Limited faced financial difficulties and proposed an arrangement with its creditors. Rahul, a creditor, received a notice detailing the proposed arrangement and a copy of the valuation report. The company applied to the Tribunal, which ordered a meeting of the creditors. During the meeting, creditors holding the required value voted in favor of the compromise. After the majority agreed, the Tribunal sanctioned the order, making the arrangement binding on the company, all its creditors, and the liquidator.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "The judicial authority appointed under the law to handle company matters."
+  },
+  {
+   "term": "Compromise or arrangement",
+   "meaning": "An agreement between a company and its creditors or members, which can include reorganising share capital."
+  },
+  {
+   "term": "Affidavit",
+   "meaning": "A written statement confirmed by oath or affirmation for use as evidence in court."
+  },
+  {
+   "term": "Liquidator",
+   "meaning": "A person appointed to wind up the affairs of a company."
+  }
+ ],
+ "watch": "Make sure to check if the required majority in value of creditors or members agrees to the proposal before it can be considered binding.",
+ "h": "2d28d67948c3",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

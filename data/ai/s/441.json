@@ -1,0 +1,30 @@
+{
+ "summary": "Section 441 allows companies and their officers to settle certain offences under the Companies Act by paying a specified sum, either before or after court cases begin. Offences that are punishable only with imprisonment, or with both imprisonment and fine, cannot be settled this way. Applications for settlement are sent through the Registrar to the Tribunal, Regional Director, or an authorised officer.",
+ "points": [
+  "Offences can be settled before or after a prosecution starts, provided they are not punishable with imprisonment only or with both imprisonment and fine.",
+  "The Tribunal or the Regional Director can settle the offence upon payment of a specified sum, which cannot exceed the maximum fine for that offence.",
+  "Offences cannot be settled if an investigation against the company has been started or is pending.",
+  "If a similar offence was settled within the past three years, the new offence cannot be settled under this section.",
+  "The company must inform the Registrar in writing within seven days when an offence is settled.",
+  "If an employee fails to follow an order to file missing documents, the maximum fine for the offence becomes twice the original amount."
+ ],
+ "example": "Meera Textiles Private Limited and its officer committed a minor offence under the Companies Act. Since the maximum fine did not exceed twenty-five lakh rupees and no investigation was pending, they applied to settle the matter. They submitted their application to the Registrar, who forwarded it with comments to the Regional Director. The Regional Director specified a sum to be paid to the Central Government. Meera Textiles paid this sum and gave an intimation to the Registrar within seven days. Because the settlement happened before prosecution started, no prosecution could be instituted against them for this offence.",
+ "terms": [
+  {
+   "term": "Compounding",
+   "meaning": "A legal process to settle an offence by paying a specified sum of money instead of facing full prosecution."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized judicial body that handles company law disputes."
+  },
+  {
+   "term": "Prosecution",
+   "meaning": "Legal proceedings in a court against a person or company for an offence."
+  }
+ ],
+ "watch": "An offence cannot be settled if it is punishable with imprisonment only or with both imprisonment and fine.",
+ "h": "d1e9f57c6f55",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

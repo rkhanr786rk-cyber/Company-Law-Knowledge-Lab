@@ -1,0 +1,34 @@
+{
+ "summary": "Every company must keep proper books of account and financial statements at its registered office that show a true and fair view of its business. These records must follow the accrual basis and double entry system of accounting. The company can also choose to keep them at another place in India or in electronic mode, following specific rules.",
+ "points": [
+  "Every company must prepare and keep books of account and financial statements at its registered office for every financial year.",
+  "The accounts must give a true and fair view of the company and explain transactions for both the registered office and any branches.",
+  "Accounts must be kept on an accrual basis and according to the double entry system of accounting.",
+  "The Board of Directors may decide to keep books at another place in India, and the company must notify the Registrar within seven days.",
+  "Directors can inspect the books kept within India during business hours, and employees must help with the inspection.",
+  "Books of account must be kept in good order for not less than eight financial years immediately preceding a financial year."
+ ],
+ "example": "Meera Textiles Private Limited operates a clothing factory and must maintain clear financial records. The directors decide to keep the main books of account at the registered office in Mumbai to show a true and fair view of the business using the double entry system. Later, the Board decides to move some records to a new office space within India. Within seven days of making this choice, the company files a written notice with the Registrar giving the full address of the new location. Meanwhile, a company director visits the office during business hours to inspect the records, and the staff happily provides all expected assistance. The company safely stores these organized books of account and vouchers in good order to cover the required past financial years.",
+ "terms": [
+  {
+   "term": "Accrual basis",
+   "meaning": "An accounting method where revenues and expenses are recorded when they happen, rather than when money changes hands."
+  },
+  {
+   "term": "Double entry system",
+   "meaning": "An accounting system where every transaction is recorded in at least two accounts as a debit and a credit."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "A government official who handles company registrations and filings."
+  },
+  {
+   "term": "Subsidiary",
+   "meaning": "A company that is controlled by another company."
+  }
+ ],
+ "watch": "People often assume accounts can be moved anywhere without notice, but moving them to another place in India requires filing a written notice with the Registrar within seven days.",
+ "h": "acd285cbb687",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

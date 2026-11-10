@@ -1,0 +1,27 @@
+{
+ "summary": "This section ensures that other existing laws dealing with the winding up of partnerships, societies, and companies are not disturbed by this part of the Act. If those older laws refer to the old Companies Act of 1956 or earlier repealed Acts, you must read those references as pointing to the current Act instead. In simple terms, old winding-up rules still apply, but with updated references to the new law.",
+ "points": [
+  "Does not affect any other law that provides for winding up a firm, LLP, society, or company.",
+  "Allows such bodies to still be wound up as companies or unregistered companies under older laws.",
+  "Requires that any mentions of the old Companies Act of 1956 in those other laws are read as references to the current Act."
+ ],
+ "example": "Greenfields Society was registered many years ago under an old cooperative law that included a specific provision stating the society could be wound up by following the rules of the old Companies Act, 1956. Today, members of Greenfields Society want to close it down. Even though the old law is outdated, this section ensures the winding-up process remains valid. However, because the old law mentions the repealed Companies Act of 1956, that specific reference is automatically updated to mean the corresponding provisions of the current Companies Act, 2013, ensuring a smooth legal closure without starting from scratch.",
+ "terms": [
+  {
+   "term": "Winding up",
+   "meaning": "The legal process of closing down a company or organization, paying off its debts, and distributing any remaining assets."
+  },
+  {
+   "term": "Enactment",
+   "meaning": "A law or a specific part of a law that has been officially passed."
+  },
+  {
+   "term": "Repealed",
+   "meaning": "Cancelled or officially ended by a later law."
+  }
+ ],
+ "watch": "Do not confuse this with creating new rules for winding up; it only updates references in older existing laws to match the current Act.",
+ "h": "259421bc7b48",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

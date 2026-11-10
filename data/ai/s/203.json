@@ -1,0 +1,30 @@
+{
+ "summary": "Certain companies must appoint specific full-time leaders like a managing director, company secretary, and chief financial officer. The board of directors must formally approve these appointments, and a person generally cannot hold these key roles in more than one company at once. If an office becomes vacant, the company must fill it within a specific time, and penalties apply for breaking these rules.",
+ "points": [
+  "Certain prescribed companies must have a whole-time managing director, CEO, or manager, a company secretary, and a chief financial officer.",
+  "The same person cannot usually be both the chairperson and the managing director or CEO at the same time, unless the company articles allow it or it does not run multiple businesses.",
+  "Every whole-time key managerial personnel must be appointed by a board resolution that includes their terms, conditions, and pay.",
+  "A whole-time key managerial personnel cannot hold office in more than one company at the same time, except in its subsidiary.",
+  "If a key managerial personnel office becomes vacant, the board must fill the vacancy within six months.",
+  "Companies and responsible officers face monetary penalties for failing to follow these rules."
+ ],
+ "example": "At Meera Textiles Private Limited, the board of directors met to hire a new whole-time company secretary and a chief financial officer. The directors passed a formal board resolution detailing the pay and working conditions for both roles. Meanwhile, Mr. Sharma, who already worked as the managing director for Meera Textiles, was also offered the same role at another unrelated firm. However, the law states that a whole-time key managerial personnel cannot hold office in more than one company at the same time except in a subsidiary. Therefore, Mr. Sharma had to choose only one company to work for to ensure the business stayed fully compliant with the law.",
+ "terms": [
+  {
+   "term": "Key managerial personnel",
+   "meaning": "Top corporate officers of a company, such as the managing director, company secretary, or chief financial officer."
+  },
+  {
+   "term": "Subsidiary company",
+   "meaning": "A company that is controlled by another company."
+  },
+  {
+   "term": "Resolution",
+   "meaning": "A formal decision passed by the board of directors."
+  }
+ ],
+ "watch": "People often confuse whether a key managerial personnel can work for multiple companies, but the law strictly restricts this except for subsidiaries or specific board-approved exceptions.",
+ "h": "b86d34c3446c",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

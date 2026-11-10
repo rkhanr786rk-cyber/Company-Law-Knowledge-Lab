@@ -1,0 +1,33 @@
+{
+ "summary": "This section explains how a company can change its foundational charter, known as the memorandum. A company usually needs a special resolution and specific government approvals to make these changes. Any change becomes effective only after official registration and the issuance of a new certificate.",
+ "points": [
+  "A company can alter its memorandum by passing a special resolution and following the set procedure.",
+  "Changing the company name requires written approval from the Central Government, except when adding or removing the word Private during conversion.",
+  "Moving the registered office from one State to another requires approval from the Central Government.",
+  "Companies that raised unspent public money through a prospectus must publish object change details in newspapers and give dissenting shareholders an exit opportunity.",
+  "No alteration to the memorandum takes effect until it is properly registered."
+ ],
+ "example": "Meera Textiles Private Limited wanted to change its company name and shift its registered office to a new State. First, the members passed a special resolution to approve these changes. Since the plan involved changing the name and moving across State borders, the company applied for written approval from the Central Government. The Central Government checked that debts were protected and granted the approval. Finally, the company filed the required documents and special resolution with the Registrar. Once the Registrar updated the records and issued fresh certificates, the name and office shift changes became fully complete and effective.",
+ "terms": [
+  {
+   "term": "memorandum",
+   "meaning": "The fundamental document that sets out the constitution and objects of a company."
+  },
+  {
+   "term": "special resolution",
+   "meaning": "A decision requiring a higher level of shareholder voting agreement as specified by law."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "The official government authority appointed to handle company registrations."
+  },
+  {
+   "term": "prospectus",
+   "meaning": "An invitation document issued to the public to raise money by buying shares or debentures."
+  }
+ ],
+ "watch": "People often think a name or office change happens immediately upon passing a vote, but the law states it only takes effect after official registration and new certification.",
+ "h": "13472b2b713f",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

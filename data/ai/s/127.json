@@ -1,0 +1,29 @@
+{
+ "summary": "This section sets the punishment when a company fails to pay a declared dividend or send out the dividend payment warrant on time. Directors who knowingly allow this default can face jail and daily fines, while the company must pay interest on the unpaid amount. However, no offence occurs if the delay is caused by law, shareholder directions, disputes, lawful adjustments, or other reasons outside the company's control.",
+ "points": [
+  "Dividends must be paid or warrants posted within thirty days from the date of declaration.",
+  "Directors who knowingly take part in the default face up to two years in prison.",
+  "Defaulting directors face a fine of at least one thousand rupees for every day the default continues.",
+  "The company must pay simple interest at eighteen percent per annum during the default period.",
+  "Delays caused by the law, shareholder instructions, disputes, lawful adjustments, or no company fault are exempt."
+ ],
+ "example": "Meera Textiles Private Limited declared a dividend for its shareholders. Rahul, a shareholder, was entitled to receive his payment within thirty days. However, the company failed to send the dividend warrant within this period. Because the company had no valid excuse like a legal block or a dispute, the company became liable to pay simple interest at eighteen percent per annum for the period of default. Meanwhile, the directors who knowingly allowed this delay faced potential imprisonment of up to two years and a minimum daily fine of one thousand rupees for each day the default kept going on.",
+ "terms": [
+  {
+   "term": "dividend",
+   "meaning": "A portion of company profits paid to its shareholders."
+  },
+  {
+   "term": "warrant",
+   "meaning": "An official order or document, in this case used for making the dividend payment."
+  },
+  {
+   "term": "default",
+   "meaning": "Failure to fulfill a legal obligation or duty."
+  }
+ ],
+ "watch": "A company is not punished if the delay is due to reasons beyond its control, such as a legal restriction or a shareholder dispute.",
+ "h": "ed017e727d73",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

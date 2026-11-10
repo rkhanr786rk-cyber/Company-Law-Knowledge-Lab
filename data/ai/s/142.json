@@ -1,0 +1,28 @@
+{
+ "summary": "This section explains how a company decides the pay for its auditor. Usually, the shareholders decide this at a general meeting, but the board of directors can set the pay for the very first auditor they appoint. The pay includes audit expenses and facilities, but excludes pay for other services.",
+ "points": [
+  "The remuneration of the company auditor is fixed in a general meeting or in a manner determined there.",
+  "The Board of Directors may fix the remuneration of the first auditor appointed by the Board.",
+  "The auditor's remuneration includes the fee payable, expenses incurred in connection with the audit, and any facility extended.",
+  "The remuneration does not include any payment for other services rendered at the request of the company."
+ ],
+ "example": "Meera Textiles Private Limited recently appointed its very first auditor through its Board of Directors. To ensure everything is handled properly, the Board decided to fix the remuneration for this first auditor themselves, as allowed by the rules. Later, when the auditor submitted the bill, it included the standard audit fee along with travel expenses incurred during the audit process. However, the company also asked the same auditor to help set up a separate computer system for a different department. The payment for this computer setup service was kept completely separate and was not counted as part of the official auditor remuneration under this section.",
+ "terms": [
+  {
+   "term": "Remuneration",
+   "meaning": "Money paid for work or a service; salary or pay."
+  },
+  {
+   "term": "General meeting",
+   "meaning": "A meeting of the company shareholders."
+  },
+  {
+   "term": "Board",
+   "meaning": "The board of directors of the company."
+  }
+ ],
+ "watch": "Do not confuse the auditor's official audit pay with payments for other extra services requested by the company, as they are kept separate.",
+ "h": "aeae3482fd2c",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

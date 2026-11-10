@@ -1,0 +1,29 @@
+{
+ "summary": "This section requires listed public companies to prepare a special report after every annual meeting and file it with the Registrar within thirty days. If the company fails to file this report on time, both the company and the responsible officers must pay money penalties. The report must confirm that the meeting followed all the rules of the law.",
+ "points": [
+  "Listed public companies must prepare a report on every annual general meeting.",
+  "The report must confirm that the meeting was called, held, and run according to the Act and rules.",
+  "The company must file a copy of this report with the Registrar within thirty days of the meeting ending.",
+  "Filing must include the required fees or additional fees.",
+  "Failing to file on time results in specific money penalties for the company and officers in default, plus daily fines if the failure continues."
+ ],
+ "example": "Star Retail Limited, a listed public company, successfully held its annual general meeting on August 1st. According to the law, the company must now prepare a report confirming that the meeting was properly conducted and file it with the Registrar along with the required fees within thirty days. Rohan, the company officer in charge, completes the report and submits it to the Registrar on August 20th. Because Rohan filed the report within the thirty-day limit, Star Retail Limited and its officers have complied with the rules and avoided any money penalties.",
+ "terms": [
+  {
+   "term": "listed public company",
+   "meaning": "A company whose shares are traded on a recognized stock exchange and is open to the public."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "The government official appointed to handle company filings and records."
+  },
+  {
+   "term": "officer who is in default",
+   "meaning": "A company officer responsible for the failure to follow the law."
+  }
+ ],
+ "watch": "Make sure to file the report within thirty days to avoid heavy daily penalties for both the company and its officers.",
+ "h": "91f141424531",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

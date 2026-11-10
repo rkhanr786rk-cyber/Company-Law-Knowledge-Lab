@@ -1,0 +1,28 @@
+{
+ "summary": "This section explains when people are legally considered to know about a charge on a company's property. If a company's charge is registered under section 77, anyone who buys or gets an interest in that property is treated as knowing about the charge. This knowledge is counted starting from the exact date the charge is registered.",
+ "points": [
+  "Applies to any charge registered under section 77 on a company's property, assets, or undertakings.",
+  "Affects any person who acquires the property, assets, undertakings, or any part thereof.",
+  "Affects any person who acquires any share or interest in the property, assets, or undertakings.",
+  "Deems such persons to have notice of the charge automatically from the date of registration."
+ ],
+ "example": "Meera Textiles Private Limited registered a charge on its warehouse under section 77 with the Registrar. Later, Rohan bought a portion of that warehouse from the company without checking the public registry. According to this section, Rohan is legally deemed to have notice of the existing charge from the exact date it was registered, even if he did not actually check the records before making his purchase.",
+ "terms": [
+  {
+   "term": "charge",
+   "meaning": "An interest or lien created on property or assets as security for a loan or debt."
+  },
+  {
+   "term": "deemed",
+   "meaning": "Treated by law as being the case, whether or not it is true in reality."
+  },
+  {
+   "term": "notice",
+   "meaning": "Legal knowledge or awareness of a fact."
+  }
+ ],
+ "watch": "People often confuse being deemed to have notice with actually reading the registry, but the law applies this knowledge automatically from the registration date.",
+ "h": "fba81d352ccc",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

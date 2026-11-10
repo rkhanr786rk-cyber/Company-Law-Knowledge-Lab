@@ -1,0 +1,28 @@
+{
+ "summary": "The Registrar can update the official register to show that a company has paid off a debt or released property from a charge, even if the company did not inform them. This can happen if the Registrar receives satisfactory evidence of the payment or release. After making this entry, the Registrar must inform the affected parties within a specific time limit.",
+ "points": [
+  "Allows the Registrar to update records without notice from the company.",
+  "Applies when evidence proves a debt is paid or satisfied in whole or part.",
+  "Applies when evidence proves property or undertaking is released or no longer part of the company.",
+  "Requires the Registrar to inform affected parties within thirty days of making the entry."
+ ],
+ "example": "Meera Textiles Private Limited had a registered charge on its warehouse for a bank loan. The company fully repaid the loan, but due to an administrative delay, it forgot to file the official intimation with the Registrar. However, the bank submitted sufficient proof of the repayment directly to the Registrar. Upon reviewing this evidence, the Registrar used their power to enter a memorandum of satisfaction in the register of charges without waiting for Meera Textiles Private Limited to report it. Within thirty days of making this entry, the Registrar informed all the affected parties about the update.",
+ "terms": [
+  {
+   "term": "Registrar",
+   "meaning": "An official appointed to keep company records and registers."
+  },
+  {
+   "term": "Charge",
+   "meaning": "An interest or lien created on the property or assets of a company as security for a loan."
+  },
+  {
+   "term": "Intimation",
+   "meaning": "An official notice or notification given to someone."
+  }
+ ],
+ "watch": "A common confusion is thinking the company must always notify the Registrar first, whereas this section allows the Registrar to act on outside evidence.",
+ "h": "7ac08cfd9fc9",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

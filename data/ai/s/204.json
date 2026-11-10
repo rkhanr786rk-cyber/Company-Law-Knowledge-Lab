@@ -1,0 +1,29 @@
+{
+ "summary": "Certain companies must attach a secretarial audit report to their annual board report. This report is prepared by a practicing company secretary who checks the company records. The board must explain any remarks made in this report, and penalties apply if rules are broken.",
+ "points": [
+  "Listed companies and other prescribed classes of companies must attach a secretarial audit report to their board report.",
+  "The audit report must be given by a company secretary in practice.",
+  "The company must give full assistance and facilities to the company secretary for the audit.",
+  "The Board of Directors must explain any qualifications, observations, or remarks in the audit report within their board report.",
+  "The company, officers, or company secretary in default face a penalty of two lakh rupees for breaking these rules."
+ ],
+ "example": "Meera Textiles Private Limited is a company belonging to the prescribed class that requires a secretarial audit. The company hires Mr. Sharma, a company secretary in practice, to audit their secretarial and related records. The management ensures that Mr. Sharma receives full assistance and all necessary facilities to complete his work smoothly. After finishing the audit, Mr. Sharma includes a specific observation in his secretarial audit report. When the Board of Directors prepares their annual report, they must explain this observation in full. If the company or its officers fail to follow these requirements, they will be liable to a penalty of two lakh rupees.",
+ "terms": [
+  {
+   "term": "Listed company",
+   "meaning": "A company that has any of its securities listed on any recognised stock exchange."
+  },
+  {
+   "term": "Company secretary in practice",
+   "meaning": "A professional company secretary who is qualified and holds a certificate to practice independently."
+  },
+  {
+   "term": "Qualification",
+   "meaning": "A remark, reservation, or disclaimer added by an auditor to point out a potential issue or disagreement."
+  }
+ ],
+ "watch": "Do not confuse the secretarial audit report with a financial audit report, as this section specifically deals with secretarial and related records.",
+ "h": "bc42e456c93b",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

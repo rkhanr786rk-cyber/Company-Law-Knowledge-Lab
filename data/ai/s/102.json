@@ -1,0 +1,34 @@
+{
+ "summary": "This section requires companies to attach a detailed statement to every meeting notice when special business is discussed. The statement must explain the interest of directors, managers, and key staff in the matter, along with enough facts for members to make a decision. If someone hides information and gains a personal benefit, they must return that benefit to the company.",
+ "points": [
+  "A statement of material facts must be annexed to the notice calling a general meeting for any special business.",
+  "The statement must disclose the financial or other interest of every director, manager, key managerial personnel, and their relatives.",
+  "At an annual general meeting, routine business like financial statements, dividends, retiring directors, and auditor appointments are not considered special business.",
+  "If special business affects another company and certain officials hold two percent or more of that company's paid-up share capital, this shareholding must be stated.",
+  "The statement must specify the time and place where any document referred to in the business can be inspected.",
+  "If a person makes insufficient disclosure and gains a benefit, they must hold that benefit in trust for the company and compensate the company."
+ ],
+ "example": "Meera Textiles Private Limited is holding its annual general meeting. Along with the notice, the company attaches a statement explaining the items to be discussed. One item involves entering into a business contract with Apex Fabrics Private Limited. The statement reveals that Mr. Rahul, a director of Meera Textiles, holds a major shareholding interest in Apex Fabrics. It also explains the scope of the contract so that all members can understand the implications before voting. Additionally, the statement specifies the exact time and place where the contract document can be inspected by any member prior to the meeting.",
+ "terms": [
+  {
+   "term": "General meeting",
+   "meaning": "A formal gathering of a company's members or shareholders to discuss and decide on business matters."
+  },
+  {
+   "term": "Key managerial personnel",
+   "meaning": "Top-ranking officers of the company, such as the chief executive officer, company secretary, or chief financial officer."
+  },
+  {
+   "term": "Paid-up share capital",
+   "meaning": "The total amount of money that shareholders have paid to the company in exchange for shares."
+  },
+  {
+   "term": "Annual general meeting",
+   "meaning": "A yearly gathering where shareholders review the company's financial statements and handle routine business."
+  }
+ ],
+ "watch": "Do not confuse routine annual meeting matters like dividends and auditor appointments with special business, as they do not require the same detailed disclosure statement.",
+ "h": "e23d7321951f",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

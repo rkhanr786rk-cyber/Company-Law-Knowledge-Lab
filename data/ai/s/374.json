@@ -1,0 +1,29 @@
+{
+ "summary": "This section explains the duties a company must fulfill before it registers under this part of the Act. It must get approval from secured lenders, publish notices in newspapers, and submit a sworn statement about dissolving its previous business entity. Once registered, a limited liability partnership is automatically treated as dissolved.",
+ "points": [
+  "Secured creditors must consent or give a no objection to the registration.",
+  "Advertisements must be published in one English and one vernacular newspaper to seek and address objections.",
+  "An affidavit must be filed from all members or partners promising to submit papers to dissolve the old business entity.",
+  "The company must comply with any other prescribed conditions.",
+  "A registered limited liability partnership is deemed dissolved under its previous Act without any extra act."
+ ],
+ "example": "Meera Textiles, currently functioning as a partnership firm, wants to register as a company under this part of the Act. First, Meera Textiles must obtain a no objection letter from its secured creditors. Next, the firm publishes an advertisement in both an English newspaper and a local language newspaper to notify the public about the registration and invite any objections, which they must then address properly. Additionally, all partners must sign a notarized affidavit promising to submit the necessary papers to the original registering authority to dissolve the old partnership firm once the new registration is complete.",
+ "terms": [
+  {
+   "term": "Secured creditors",
+   "meaning": "Lenders who hold a claim on a company's assets as a security for loans."
+  },
+  {
+   "term": "Vernacular language",
+   "meaning": "The local language spoken ordinary people in a particular region."
+  },
+  {
+   "term": "Affidavit",
+   "meaning": "A written statement confirmed by oath or affirmation for use as evidence."
+  }
+ ],
+ "watch": "Do not assume that every business type dissolves automatically, as the automatic dissolution rule explicitly applies to limited liability partnerships.",
+ "h": "e2e42605f2ae",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

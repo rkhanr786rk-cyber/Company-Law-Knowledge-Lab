@@ -1,0 +1,34 @@
+{
+ "summary": "This section gives the Tribunal powers to make orders when a company is managed in a way that harms its members, the public, or the company itself. If shutting down the company would unfairly hurt the members, the Tribunal can instead issue orders to fix the problems. These orders can regulate future affairs, change agreements, remove directors, or order the return of unfair gains.",
+ "points": [
+  "The Tribunal can make any order it thinks fit to stop oppression or mismanagement if shutting down the company is unfair to the members.",
+  "The Tribunal can allow members or the company to buy shares and can restrict share transfers.",
+  "The Tribunal can end, change, or set aside agreements with directors or other people, provided notice and consent are given where required.",
+  "The Tribunal can remove managing directors or managers, recover their undue gains, and decide how those gains are used.",
+  "The company must file a certified copy of the Tribunal order with the Registrar within thirty days.",
+  "If a company disobeys a Tribunal order that alters its founding documents, the company and officers in default face fines."
+ ],
+ "example": "At Meera Textiles Private Limited, a few majority shareholders started running the business in a way that heavily oppressed the minority members. Instead of closing down the company, which would unfairly harm these minority members, they approached the Tribunal for help. After reviewing the case, the Tribunal decided to use its powers under Section 242. It issued an order to regulate the future conduct of the company affairs, ordered the majority members to purchase the shares of the oppressed minority members, and removed one of the directors who had made undue gains. The Tribunal also required Meera Textiles Private Limited to file a certified copy of this order with the Registrar within thirty days.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "The judicial body designated under the law to handle company disputes and cases."
+  },
+  {
+   "term": "Oppressive",
+   "meaning": "Unfair, harsh, and burdensome treatment of members."
+  },
+  {
+   "term": "Winding-up",
+   "meaning": "The process of closing down and dissolving a company."
+  },
+  {
+   "term": "Memorandum",
+   "meaning": "A founding document of a company that sets out its basic constitution and objects."
+  }
+ ],
+ "watch": "Watch out for the requirement that third-party agreements cannot be modified without proper notice and consent.",
+ "h": "d5c788288295",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

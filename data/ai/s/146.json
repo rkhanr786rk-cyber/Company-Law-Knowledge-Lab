@@ -1,0 +1,29 @@
+{
+ "summary": "Section 146 of the Companies Act, 2013 ensures that company auditors stay informed about all general meetings and have the right to attend them. The auditor must attend these meetings either personally or through an eligible representative, unless the company gives an exemption. While attending, the auditor has the right to speak on any business matters that relate to their role.",
+ "points": [
+  "Send all notices and communications about any general meeting to the company auditor.",
+  "The auditor must attend general meetings unless the company exempts them.",
+  "The auditor can attend either in person or through an authorised representative.",
+  "The representative attending on behalf of the auditor must also be qualified to act as an auditor.",
+  "The auditor has the right to be heard at the meeting on any business concerning them."
+ ],
+ "example": "Meera Textiles Private Limited called a general meeting to discuss its annual financial statements. Following the law, the company sent the meeting notice to Mr. Sharma, the company auditor. Mr. Sharma was busy with another audit, so he sent Ms. Roy, who is a qualified auditor, as his authorised representative to attend the meeting on his behalf. During the discussion about the financial accounts, a shareholder asked a question regarding the audit report. Mr. Sharma's representative, Ms. Roy, used her right to speak at the meeting and addressed the shareholder's concerns about the audit properly.",
+ "terms": [
+  {
+   "term": "General meeting",
+   "meaning": "A formal gathering of a company's shareholders or members to discuss and decide on company matters."
+  },
+  {
+   "term": "Authorised representative",
+   "meaning": "A person given official permission to act on behalf of someone else."
+  },
+  {
+   "term": "Exempted",
+   "meaning": "Freed from a requirement or obligation that others must follow."
+  }
+ ],
+ "watch": "Do not assume the auditor must always attend in person, because they can send a qualified representative instead.",
+ "h": "abcce218488d",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

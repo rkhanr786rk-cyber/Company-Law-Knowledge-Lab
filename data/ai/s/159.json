@@ -1,0 +1,27 @@
+{
+ "summary": "This section sets the punishment for individuals or directors who break the rules found in sections 152, 155, and 156. If a rule is broken, the person faces a financial penalty up to a certain amount. If the rule-breaking continues day after day, an extra daily penalty is added for each new day.",
+ "points": [
+  "Applies to any individual or director who breaks rules in sections 152, 155, or 156.",
+  "Makes the defaulter liable to a penalty up to fifty thousand rupees.",
+  "Adds a further penalty up to five hundred rupees for each day the default continues after the first day."
+ ],
+ "example": "Aarav is a director at Surya Solar Private Limited. He fails to comply with the legal requirements outlined in section 152 regarding the appointment of directors. Because of this default, Aarav is liable to a penalty which may extend to fifty thousand rupees. Furthermore, Aarav fails to fix the issue, and the default continues for several days. As a result, he faces an additional penalty which may extend to five hundred rupees for each day after the first day that the default keeps going.",
+ "terms": [
+  {
+   "term": "Default",
+   "meaning": "Failing to do something required by law."
+  },
+  {
+   "term": "Penalty",
+   "meaning": "A punishment in the form of a fine or money payment for breaking a rule."
+  },
+  {
+   "term": "Continuing one",
+   "meaning": "A rule-breaking action that goes on for multiple days without being fixed."
+  }
+ ],
+ "watch": "Note that this penalty applies specifically to individuals and directors who break sections 152, 155, and 156, and includes an extra daily fine if the mistake is not fixed.",
+ "h": "c8eb43d6743b",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

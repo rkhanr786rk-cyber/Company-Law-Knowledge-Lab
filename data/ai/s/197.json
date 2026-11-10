@@ -1,0 +1,33 @@
+{
+ "summary": "This section limits how much money a public company can pay as total managerial remuneration from its net profits. It sets specific percentage caps for different types of directors and provides rules for when a company has no profits or makes inadequate profits. It also requires directors who receive excess payments to refund the money and hold it in trust for the company.",
+ "points": [
+  "Total managerial remuneration by a public company shall not exceed eleven per cent of its net profits.",
+  "Remuneration for a single managing director, whole-time director, or manager cannot exceed five per cent of net profits without a special resolution.",
+  "If a company has no profits or inadequate profits, remuneration must follow Schedule V.",
+  "Any director who receives remuneration in excess of the limits must refund the sum and hold it in trust.",
+  "The company cannot waive the recovery of any refundable sum unless approved by a special resolution within two years."
+ ],
+ "example": "Meera Textiles Private Limited is a public company that earned a net profit during the financial year. The board wants to pay its managing director a remuneration based on the profits. According to the rules, this payment cannot exceed five per cent of the net profits unless the company passes a special resolution in a general meeting to approve a higher amount, while keeping the total remuneration within the overall limits set by the law.",
+ "terms": [
+  {
+   "term": "Managing director",
+   "meaning": "A director who is entrusted with substantial powers of management of the affairs of the company."
+  },
+  {
+   "term": "Net profits",
+   "meaning": "The profits of a company calculated in the manner laid down in section 198."
+  },
+  {
+   "term": "Special resolution",
+   "meaning": "A resolution passed by a required majority of votes in a general meeting where the intention has been duly specified."
+  },
+  {
+   "term": "Indemnifying",
+   "meaning": "Protecting someone against legal responsibility or financial loss."
+  }
+ ],
+ "watch": "Ensure you check whether the company has defaulted on any secured debts, as prior approval from creditors may be needed before the general meeting.",
+ "h": "21120f691b1b",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

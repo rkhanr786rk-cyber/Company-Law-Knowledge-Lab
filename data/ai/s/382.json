@@ -1,0 +1,25 @@
+{
+ "summary": "This section explains how a foreign company must display its name and details in India. It must show its name and home country outside every office in English and local languages. It must also include these details and its liability status on official papers and notices.",
+ "points": [
+  "A foreign company must show its name and home country outside every office or business place in India.",
+  "The outside display must use easy-to-read English letters and local language characters.",
+  "The name and home country must appear on all business letters, billheads, notices, and official publications in English.",
+  "If member liability is limited, that fact must be stated clearly on all prospectuses, letters, notices, and advertisements.",
+  "The limited liability notice must also be displayed outside every office in English and local languages."
+ ],
+ "example": "Global Widgets Inc. is a company incorporated in the United Kingdom that starts carrying on business in Mumbai, India. According to the rules, the company must clearly display its name and the United Kingdom on the outside wall of its Mumbai office. This display must be in easy-to-read English letters and also in Marathi, which is the language in general use in that locality. Furthermore, Global Widgets Inc. must ensure that its name, home country, and the fact that its members' liability is limited are printed in legible English characters on all its business letters, billheads, notices, advertisements, and other official publications used in India.",
+ "terms": [
+  {
+   "term": "foreign company",
+   "meaning": "A company or body corporate incorporated outside India which has a place of business in India."
+  },
+  {
+   "term": "prospectus",
+   "meaning": "Any document described or issued as a prospectus including any notice, circular, advertisement or other document inviting offers from the public."
+  }
+ ],
+ "watch": "Do not forget that both English and local language characters are required for outside office displays.",
+ "h": "4719a20765e7",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,30 @@
+{
+ "summary": "This section of the Companies Act controls how a company can give loans, provide guarantees, or buy securities in other bodies corporate. It sets limits on these amounts, requires special board and shareholder approvals in certain cases, and demands detailed disclosures in financial statements. Companies must also maintain a special register of these transactions at their registered office.",
+ "points": [
+  "A company must make investments through not more than two layers of investment companies.",
+  "A company cannot give loans, guarantees, or acquire securities exceeding certain financial limits without special approval.",
+  "Loans and investments beyond the limit require a special resolution passed by members in a general meeting.",
+  "Board approval must be given with the consent of all directors present at the meeting.",
+  "A company must keep a register of all loans, guarantees, securities, and acquisitions at its registered office for inspection.",
+  "No loan can be given at an interest rate lower than the prevailing yield of certain Government Securities closest to the loan tenor."
+ ],
+ "example": "Meera Textiles Private Limited wanted to give a large loan to another body corporate. The board of directors scheduled a meeting to discuss this plan. Before approving the loan, all directors present at the meeting had to give their consent by voting in favor of the resolution. Because the total amount of the proposed loan, combined with previous loans and guarantees, exceeded the limits set in the law, the company also needed a special resolution passed by its members in a general meeting. Once approved, Meera Textiles recorded full particulars of the loan in a special register kept at its registered office and disclosed the details in its financial statement.",
+ "terms": [
+  {
+   "term": "body corporate",
+   "meaning": "A legal term for a company or corporation, but excluding a co-operative society and any other body specified by the Central Government."
+  },
+  {
+   "term": "special resolution",
+   "meaning": "A resolution passed by a high majority of votes as required by the Act in a general meeting."
+  },
+  {
+   "term": "free reserves",
+   "meaning": "Reserves which are available for distribution as dividends according to the latest audited financial statement."
+  }
+ ],
+ "watch": "People often confuse the general limits on loans and investments with exemptions given to wholly owned subsidiaries or banking companies.",
+ "h": "22684d9075f5",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

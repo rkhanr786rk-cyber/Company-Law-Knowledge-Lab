@@ -1,0 +1,34 @@
+{
+ "summary": "This section explains how a Company Liquidator must keep proper financial records and present them for audit during the winding up of a company. The Liquidator needs to maintain account books for all money received and paid out. These accounts must be presented to the Tribunal twice a year, audited, and shared with the Registrar, creditors, and government authorities if applicable.",
+ "points": [
+  "The Company Liquidator must keep proper books of account for all money received and paid.",
+  "Accounts must be presented to the Tribunal at least twice a year along with a formal declaration.",
+  "The Tribunal will arrange for an audit of these accounts and can inspect the books or ask for vouchers at any time.",
+  "Once audited, one copy goes to the Tribunal and another to the Registrar for public inspection.",
+  "For Government companies, copies of the audited accounts must also be sent to the Central or State Governments that are members.",
+  "A printed copy or summary of the audited accounts must be posted to every creditor and contributory, unless the Tribunal excuses it."
+ ],
+ "example": "Meera Textiles Private Limited is undergoing winding up, and Mr. Sharma is appointed as the Company Liquidator. Mr. Sharma carefully records all money received and paid in proper books of account. During his tenure, he presents these accounts in duplicate to the Tribunal twice a year with a signed declaration. The Tribunal orders an audit, and Mr. Sharma provides all requested vouchers and books. Once the audit is complete, Mr. Sharma files one copy with the Tribunal and delivers the second copy to the Registrar so that any creditor or interested person can inspect it. Finally, he sends a printed copy of the audited accounts by post to every creditor and contributory of Meera Textiles Private Limited.",
+ "terms": [
+  {
+   "term": "Company Liquidator",
+   "meaning": "The person responsible for winding up a company and managing its assets."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "The judicial body that handles company law matters and legal disputes."
+  },
+  {
+   "term": "Contributory",
+   "meaning": "A person liable to contribute to the assets of a company in the event of its winding up."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "The government authority that keeps records of companies."
+  }
+ ],
+ "watch": "People often confuse the Registrar with the Tribunal, but they are separate offices that receive different copies of the audited accounts.",
+ "h": "a76bedf0bcf3",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

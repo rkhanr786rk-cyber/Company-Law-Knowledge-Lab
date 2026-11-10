@@ -1,0 +1,24 @@
+{
+ "summary": "Any person who wants to become a director of a company must apply to the Central Government for a special identification number. The government can also allow another kind of identification number to be used instead. If a person already has that other number, the normal application rules may not apply to them in the usual way.",
+ "points": [
+  "A person who wants to be a company director must apply for a Director Identification Number.",
+  "The application must be sent to the Central Government.",
+  "The application must follow the prescribed form, manner, and fee rules.",
+  "The Central Government may allow another official identification number to count as a Director Identification Number."
+ ],
+ "example": "Aarav wants to join the board of directors at Sharma Builders Private Limited as a director. Before he can take this role, the law requires him to apply for a special number that identifies him as a director. Aarav must submit this application to the Central Government. He has to use the correct form, follow the proper steps, and pay the required fees. Alternatively, if the government allows another specific identification number to serve this purpose, and Aarav already holds it, the government will decide how the normal application rules apply to him.",
+ "terms": [
+  {
+   "term": "Director Identification Number",
+   "meaning": "A special number given to a person who wants to be a director of a company."
+  },
+  {
+   "term": "Central Government",
+   "meaning": "The national government of the country."
+  }
+ ],
+ "watch": "Do not assume any specific application fees, forms, or deadlines, as the text does not mention them.",
+ "h": "5f3372ad78af",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

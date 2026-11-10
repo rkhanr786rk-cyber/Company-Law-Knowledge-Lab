@@ -1,0 +1,30 @@
+{
+ "summary": "This section explains what must be written in the memorandum of a Producer Company. A memorandum is a document that sets up the company and states its basic details. Every such company must include specific information like its name, state, objects, and share capital.",
+ "points": [
+  "The name of the company must end with the words 'Producer Company Limited'.",
+  "The memorandum must state the State where the registered office is located and the main objects based on section 378B.",
+  "It must list the names, addresses, and share details of the subscribers, ensuring no subscriber takes less than one share.",
+  "It must include the names, addresses, and occupations of the subscriber producers who will act as first directors.",
+  "It must state that the liability of its members is limited and the amount of share capital divided into fixed amounts.",
+  "If the objects are not limited to one State, it must list the States where the objects extend."
+ ],
+ "example": "Asha and Ramesh, two local farmers, decided to start a farmer-owned business named Green Valley Agro Producers Limited. When filing their setup papers, their legal advisor explained the rules for their memorandum. They ensured the company name ended with 'Producer Company Limited' and stated that their office would be in Maharashtra. They listed their own names, addresses, and occupations as the first directors and subscribers. They noted that Asha would take five shares and Ramesh would take three shares, with no subscriber taking less than one share. Finally, they declared that their business objects extended to both Maharashtra and Gujarat, and that the liability of all members was limited.",
+ "terms": [
+  {
+   "term": "memorandum",
+   "meaning": "A founding document that sets out the basic rules and details of a company."
+  },
+  {
+   "term": "subscribers",
+   "meaning": "The persons who agree to sign the memorandum and take shares in the company."
+  },
+  {
+   "term": "liability",
+   "meaning": "The legal responsibility of members for the debts of the company."
+  }
+ ],
+ "watch": "Do not forget that every subscriber must take at least one share.",
+ "h": "46fec4d2d130",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

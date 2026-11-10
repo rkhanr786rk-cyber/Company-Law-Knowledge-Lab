@@ -1,0 +1,30 @@
+{
+ "summary": "This section sets rules for new companies with share capital. Before starting any business or borrowing money, the company must file two specific proofs with the Registrar. If these rules are broken, both the company and the responsible officers must pay money penalties.",
+ "points": [
+  "New companies with share capital cannot start business or borrow money immediately after being formed.",
+  "A director must file a declaration within one hundred and eighty days stating that every founding member has paid for their shares.",
+  "The company must file verification of its registered office address with the Registrar.",
+  "Failing to meet these rules leads to a fifty thousand rupee penalty for the company.",
+  "Every officer in default must pay one thousand rupees for each day the default continues, up to one lakh rupees.",
+  "If the declaration is not filed within one hundred and eighty days and the company is not doing business, the Registrar may start removing the company's name."
+ ],
+ "example": "Aarav and Rohan started a new business named Aarav Tech Private Limited. Before they could start borrowing money or doing any business operations, the law required them to finish two important tasks. First, Aarav had to file a declaration within one hundred and eighty days stating that both founders had fully paid for the shares they promised to take. Second, they had to file the official verification of their registered office address with the Registrar. Because they completed these filings on time, they avoided the financial penalties and the risk of having their company name removed from the official register.",
+ "terms": [
+  {
+   "term": "memorandum",
+   "meaning": "The founding document that sets up a company and states its basic details."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "The government official who keeps records of all companies."
+  },
+  {
+   "term": "officer in default",
+   "meaning": "A company officer who is responsible for breaking the law or failing to follow rules."
+  }
+ ],
+ "watch": "Do not assume a new company can start business right away; it must wait until the director files the share payment declaration and office verification.",
+ "h": "5a13ac5b66a0",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

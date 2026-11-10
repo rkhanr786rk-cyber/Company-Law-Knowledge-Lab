@@ -1,0 +1,28 @@
+{
+ "summary": "Section 145 of the Companies Act, 2013, requires the company auditor to sign the audit report and any other official documents properly. Any negative remarks or comments made by the auditor that affect the company must be read out at a general meeting. Furthermore, these comments must be made available for any member of the company to inspect.",
+ "points": [
+  "The appointed auditor must sign the auditor's report.",
+  "The auditor must sign or certify any other company document according to specific legal rules.",
+  "Any qualifications, observations, or comments about adverse financial matters must be read aloud in a general meeting.",
+  "Members of the company have the right to inspect these negative remarks."
+ ],
+ "example": "Meera Textiles Private Limited recently finished its annual financial audit. The independent auditor, Mr. Sharma, discovered some serious issues with certain financial transactions that negatively affected the company's daily functioning. Because of this, Mr. Sharma included adverse observations in his official auditor's report and properly signed the document. During the next general meeting of Meera Textiles Private Limited, the company secretary read these critical observations aloud to all the assembled shareholders. Later that afternoon, a concerned shareholder named Rahul wanted to check the details himself, so he asked to view the inspection documents and the company readily made them available for him to read.",
+ "terms": [
+  {
+   "term": "Auditor",
+   "meaning": "A qualified person appointed to check and verify a company's financial accounts."
+  },
+  {
+   "term": "General meeting",
+   "meaning": "A formal gathering of a company's members or shareholders."
+  },
+  {
+   "term": "Inspection",
+   "meaning": "The act of closely looking at or examining official documents."
+  }
+ ],
+ "watch": "People often think only board members can see the audit report, but any member of the company is allowed to inspect the adverse comments.",
+ "h": "547f90d6eb77",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

@@ -1,0 +1,23 @@
+{
+ "summary": "This section states that the rules in Part I apply when the Tribunal winds up a company. The text is very short and only points to another part of the law for the main rules. It does not give any details on how the process works by itself.",
+ "points": [
+  "Applies the rules of Part I to the winding up of a company.",
+  "Applies when the winding up is done by the Tribunal.",
+  "Relies on other provisions of the Act for complete instructions."
+ ],
+ "example": "Meera Textiles Private Limited faced a severe financial crisis and could not pay its debts. Creditors approached the Tribunal to shut down the company. Because the Tribunal handled the case, the rules written in Part I of the Act applied to the winding up process of Meera Textiles Private Limited. The Tribunal followed these specific provisions to close the company orderly, ensuring that all legal steps mentioned in that part were strictly observed.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A legal body set up to deal with specific disputes and cases, such as company law matters."
+  },
+  {
+   "term": "Winding up",
+   "meaning": "The process of ending a company's existence, paying off its debts, and distributing any remaining assets."
+  }
+ ],
+ "watch": "Do not assume this short section contains all the rules for winding up, as it only points to Part I.",
+ "h": "645f1381eab5",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

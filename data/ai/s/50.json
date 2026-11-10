@@ -1,0 +1,23 @@
+{
+ "summary": "Section 50 of the Companies Act, 2013 allows a company to accept advance money from members for unpaid share amounts, even if no call has been made, as long as the company articles permit it. However, members do not get any extra voting rights for this advance payment until the company actually calls for the money. This helps companies get funds early without changing voting power.",
+ "points": [
+  "A company can accept unpaid share amounts in whole or in part from members before any official call is made.",
+  "The company must be authorised by its articles to accept such advance payments.",
+  "Members paying this advance money do not get voting rights for the paid amount until it is officially called up."
+ ],
+ "example": "Meera Textiles Private Limited has articles that allow it to take advance payments on shares. Rahul, a shareholder holding partly paid shares, decides to pay the remaining balance on his shares early, even though the company has not asked for the money yet. Later, the company holds a meeting to vote on a new board of directors. Rahul claims he should have extra votes because he paid the full amount of his shares in advance. However, the company correctly informs him that according to the law, he does not get any voting rights for the amount he paid early until the company makes a formal call for it.",
+ "terms": [
+  {
+   "term": "articles",
+   "meaning": "The rulebook of a company that sets out how it must be run."
+  },
+  {
+   "term": "called up",
+   "meaning": "A formal request made by the company asking shareholders to pay the money due on their shares."
+  }
+ ],
+ "watch": "A common confusion is thinking that paying money early for shares gives the member immediate extra voting power.",
+ "h": "68ca4c927bbb",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

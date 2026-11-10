@@ -1,0 +1,34 @@
+{
+ "summary": "This section requires companies to submit their financial statements and related documents to the Registrar within specified timelines. If a company fails to hold its annual meeting or adopt the statements, alternative filing rules and provisional records apply. Companies must also include accounts for certain foreign subsidiaries, and penalties apply for failing to file on time.",
+ "points": [
+  "A company must file a copy of its adopted financial statements with the Registrar within thirty days of the annual general meeting.",
+  "If the financial statements are not adopted at the meeting, they must still be filed within thirty days as provisional statements, and later refiled after adoption at an adjourned meeting.",
+  "A One Person Company must file its adopted financial statements within one hundred eighty days from the closure of the financial year.",
+  "Companies must attach the accounts of any foreign subsidiaries that are incorporated outside India and have no place of business in India.",
+  "If an annual general meeting is not held, the financial statements and a statement of reasons must be filed within thirty days of the last date the meeting should have been held.",
+  "Failing to file the statements on time results in penalties for both the company and responsible officers."
+ ],
+ "example": "Meera Textiles Private Limited held its annual general meeting on September tenth to adopt its financial statements. According to the rules, the company must file a copy of these adopted financial statements, along with all required attached documents, with the Registrar within thirty days of that meeting date. If Meera Textiles also has a subsidiary incorporated outside India that has no place of business in India, it must attach that subsidiary's accounts as well. If the company fails to file these documents before the period expires, both Meera Textiles and its responsible directors or officers will face financial penalties as set out in the law.",
+ "terms": [
+  {
+   "term": "Registrar",
+   "meaning": "An official government authority who keeps records of companies."
+  },
+  {
+   "term": "Financial statements",
+   "meaning": "Official reports showing the financial condition and accounts of a company."
+  },
+  {
+   "term": "Subsidiary",
+   "meaning": "A company that is controlled by another company, known as the holding company."
+  },
+  {
+   "term": "Provisional",
+   "meaning": "Temporary records kept until final documents are filed."
+  }
+ ],
+ "watch": "Remember that unadopted financial statements must still be filed within thirty days of the meeting and are kept as provisional until later adopted.",
+ "h": "44b5ee96544d",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

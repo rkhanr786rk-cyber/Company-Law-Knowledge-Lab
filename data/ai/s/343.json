@@ -1,0 +1,29 @@
+{
+ "summary": "This section explains how a Company Liquidator must get permission from the Tribunal to take certain actions during a company winding up. These actions include paying certain creditors completely or making deals with people who claim the company owes them money. However, the Central Government can also make rules allowing the liquidator to do some of these things without Tribunal permission under certain conditions.",
+ "points": [
+  "The Company Liquidator may pay any class of creditors in full with the sanction of the Tribunal.",
+  "The Company Liquidator may make compromises or arrangements with creditors or claimants with the sanction of the Tribunal.",
+  "The Company Liquidator may compromise calls, debts, liabilities, and claims with the sanction of the Tribunal.",
+  "The Central Government may make rules allowing the liquidator to exercise certain powers without Tribunal sanction.",
+  "Creditors or contributories may apply to the Tribunal regarding the liquidator's exercise of these powers."
+ ],
+ "example": "In a winding up of Meera Textiles Private Limited by the Tribunal, the Company Liquidator wants to make a compromise arrangement with a supplier who claims a future contingent debt from the company. To do this legally, the liquidator must first obtain the sanction of the Tribunal. Meanwhile, a contributory of Meera Textiles Private Limited decides to object to this proposed action. The contributory applies to the Tribunal, which must then give both the applicant and the Company Liquidator a reasonable opportunity to be heard before passing any orders it thinks fit.",
+ "terms": [
+  {
+   "term": "Company Liquidator",
+   "meaning": "The person appointed to run the winding up process of a company."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "The official body or court that handles company law matters."
+  },
+  {
+   "term": "Contributory",
+   "meaning": "A person liable to contribute to the assets of the company in the event of its being wound up."
+  }
+ ],
+ "watch": "Do not assume the liquidator always needs permission, as the Central Government can make rules allowing certain actions without Tribunal sanction.",
+ "h": "9101993f2e47",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

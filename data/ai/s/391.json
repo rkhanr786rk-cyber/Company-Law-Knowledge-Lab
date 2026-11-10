@@ -1,0 +1,28 @@
+{
+ "summary": "This section applies certain Indian company laws to foreign companies operating or issuing shares in India. It ensures that rules about false statements in a prospectus and rules for shutting down a business apply to foreign companies just like Indian ones. This helps protect investors who deal with foreign companies.",
+ "points": [
+  "Applies rules from sections 34 to 36 to prospectuses issued by foreign companies under section 389.",
+  "Applies rules from sections 34 to 36 to the issue of Indian Depository Receipts by foreign companies.",
+  "Applies Chapter XX rules for closing a business to foreign companies in India, subject to section 376.",
+  "Applies closure rules only if the foreign company raised money through securities under this chapter that are not yet fully repaid or redeemed."
+ ],
+ "example": "Alpha Global Corp, a company incorporated outside India, issued securities to the public in India and raised money that it has not yet repaid. Later, Alpha Global Corp decided to shut down its place of business in India. Because the company raised money through securities that are still unpaid, the rules found in Chapter XX of the Companies Act, 2013, will apply to the closure of its business in India, just as if it were a company formed and registered inside India.",
+ "terms": [
+  {
+   "term": "Prospectus",
+   "meaning": "A formal legal document that invites the public to buy shares or securities in a company."
+  },
+  {
+   "term": "Mutatis mutandis",
+   "meaning": "A legal phrase meaning that the necessary changes in details are made while keeping the main rule the same."
+  },
+  {
+   "term": "Redeemed",
+   "meaning": "Repaid or settled by the company."
+  }
+ ],
+ "watch": "Do not assume normal business closure rules apply if the foreign company has already fully repaid all the money raised through securities.",
+ "h": "870aa1826f07",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

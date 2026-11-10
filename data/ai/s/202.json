@@ -1,0 +1,29 @@
+{
+ "summary": "This section allows a company to pay compensation for loss of office or retirement to a managing director, whole-time director, or manager. It also lists specific situations where this payment is banned, such as when the director is guilty of fraud or resigns during a company merger and takes a new role. Furthermore, the law sets a strict maximum limit on the payment amount based on the director's past earnings.",
+ "points": [
+  "A company may pay compensation for loss of office or retirement to a managing director, whole-time director, or manager.",
+  "No compensation payment is allowed if the director resigns due to a merger and takes a new role in the new company.",
+  "No compensation is allowed if the director is guilty of fraud, breach of trust, or gross negligence.",
+  "The payment amount cannot exceed what the director would have earned for the rest of their term or three years, whichever is shorter.",
+  "Compensation is forbidden if the company winds up and its assets cannot repay the shareholders' contributed capital and premiums."
+ ],
+ "example": "Aarav served as the managing director of Meera Textiles Private Limited for four years. The company recently decided to merge with another firm. Aarav resigned from his old post due to this amalgamation and was immediately appointed as the managing director of the newly formed corporate body. Because of this smooth transition into the new role, Meera Textiles Private Limited cannot legally pay Aarav any compensation for the loss of his previous office.",
+ "terms": [
+  {
+   "term": "Managing director",
+   "meaning": "A director who is entrusted with substantial powers of management of the affairs of the company."
+  },
+  {
+   "term": "Amalgamation",
+   "meaning": "The combining of two or more companies into a single new entity."
+  },
+  {
+   "term": "Winding up",
+   "meaning": "The process of dissolving and closing down a company."
+  }
+ ],
+ "watch": "Payments for loss of office are strictly banned under several misconduct or merger conditions, and are capped by the director's past average earnings.",
+ "h": "e12fcb31dfe1",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

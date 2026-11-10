@@ -1,0 +1,25 @@
+{
+ "summary": "This section allows the Central Government to appoint company prosecutors to handle court cases related to this Act. These prosecutors can be appointed for general use, specific cases, or certain types of cases in any local area. Once appointed, they have the same powers and privileges as regular Public Prosecutors under the Code of Criminal Procedure.",
+ "points": [
+  "The Central Government has the power to appoint company prosecutors.",
+  "Appointments can be made generally, for any specific case, or for a specified class of cases.",
+  "Appointments can be made for any local area.",
+  "Company prosecutors are responsible for conducting prosecutions arising out of this Act.",
+  "Appointed persons get all powers and privileges of Public Prosecutors under section 24 of the Code of Criminal Procedure."
+ ],
+ "example": "Meera Textiles Private Limited is facing a serious legal dispute under the Companies Act, 2013, regarding its financial filings. To handle the court proceedings, the Central Government decides to use its powers under Section 443. It appoints a qualified lawyer as a company prosecutor specifically for this case in the local area. Because of this official appointment, the lawyer gains all the necessary powers and privileges that a standard Public Prosecutor holds under the Code of Criminal Procedure to conduct the prosecution smoothly against the company.",
+ "terms": [
+  {
+   "term": "Company prosecutors",
+   "meaning": "People appointed by the Central Government to handle court cases related to the Companies Act."
+  },
+  {
+   "term": "Code of Criminal Procedure",
+   "meaning": "The main law that sets out the rules for handling criminal court cases in India."
+  }
+ ],
+ "watch": "Do not confuse company prosecutors with regular police officers or private lawyers hired by companies.",
+ "h": "caab9f273b1a",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

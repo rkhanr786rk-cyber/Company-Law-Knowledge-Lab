@@ -1,0 +1,30 @@
+{
+ "summary": "The Central Government can set up or choose Special Courts to ensure quick trials for crimes under the Companies Act. However, crimes under section 452 are excluded from this rule. The judges for these Special Courts are appointed by the Central Government with the agreement of the High Court's Chief Justice.",
+ "points": [
+  "The Central Government may establish or designate Special Courts for speedy trials.",
+  "Special Courts handle offences under the Act except for section 452.",
+  "Special Courts are created through an official notification.",
+  "A single judge who is a Session Judge or Additional Session Judge handles offences punishable with imprisonment of two years or more.",
+  "A Metropolitan Magistrate or Judicial Magistrate of the First Class handles all other offences.",
+  "Appointments require the concurrence of the Chief Justice of the High Court."
+ ],
+ "example": "The Central Government decided to set up a Special Court to ensure speedy trials for offences under the Companies Act, 2013. For a serious case involving Meera Textiles Private Limited where the punishment could be imprisonment of two years or more, the government appointed an Additional Session Judge. This appointment was made with the agreement of the Chief Justice of the relevant High Court. For a smaller offence involving the same company, the government appointed a Judicial Magistrate of the First Class, also with the High Court Chief Justice's agreement.",
+ "terms": [
+  {
+   "term": "Notification",
+   "meaning": "An official formal public announcement."
+  },
+  {
+   "term": "Concurrence",
+   "meaning": "Agreement or approval from someone in authority."
+  },
+  {
+   "term": "Jurisdiction",
+   "meaning": "The official area or legal authority within which a court can operate."
+  }
+ ],
+ "watch": "Do not confuse the single judge for serious offences with the magistrate needed for other offences.",
+ "h": "86f8811f0e04",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

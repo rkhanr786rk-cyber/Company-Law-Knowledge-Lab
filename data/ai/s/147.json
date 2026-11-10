@@ -1,0 +1,34 @@
+{
+ "summary": "This section sets punishments when companies or their auditors break specific rules about company audits. Companies and officers who break these rules face monetary fines. Auditors can also be fined or jailed if they break the rules knowingly to trick others, and convicted auditors must refund their pay and pay for damages.",
+ "points": [
+  "If a company breaks audit rules, the company faces a fine between twenty-five thousand rupees and five lakh rupees.",
+  "Every officer in default for the company's rule-breaking faces a fine between ten thousand rupees and one lakh rupees.",
+  "If an auditor breaks specific audit rules, the auditor faces a fine between twenty-five thousand rupees and five lakh rupees or four times their pay, whichever is less.",
+  "An auditor who breaks rules knowingly and willfully to deceive faces imprisonment up to one year and a fine between fifty thousand rupees and twenty-five lakh rupees or eight times their pay, whichever is less.",
+  "An auditor convicted for breaking these rules must refund their pay and pay for damages caused by incorrect or misleading statements in their audit report.",
+  "If an audit firm is involved in fraud, the partners involved and the firm itself share liability jointly and severally, though criminal liability besides fines applies only to the partners who acted fraudulently."
+ ],
+ "example": "Meera Textiles Private Limited hired a chartered accountant named Mr. Sharma as their auditor. Mr. Sharma knowingly broke audit rules to hide financial losses from the tax authorities. After an investigation, the court convicted Mr. Sharma for his willful deception. Because of this conviction, Mr. Sharma had to refund all the remuneration he received from Meera Textiles Private Limited. He was also ordered to pay for damages caused by his misleading audit report. Additionally, Mr. Sharma faced imprisonment up to one year and a fine. Meanwhile, the company and its responsible officers also faced separate fines for contravening the audit provisions under the law.",
+ "terms": [
+  {
+   "term": "Contravene",
+   "meaning": "To break a law or rule."
+  },
+  {
+   "term": "Officer who is in default",
+   "meaning": "A company officer responsible for the rule-breaking."
+  },
+  {
+   "term": "Remuneration",
+   "meaning": "Payment or salary received for work done."
+  },
+  {
+   "term": "Jointly and severally",
+   "meaning": "Responsible together as a group and also individually as single persons."
+  }
+ ],
+ "watch": "Watch out for the difference between ordinary rule-breaking by auditors and knowingly acting to deceive, which carries much heavier fines and jail time.",
+ "h": "21a37c45d0d5",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}

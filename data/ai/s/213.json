@@ -1,0 +1,34 @@
+{
+ "summary": "This section allows the Tribunal to order an investigation into a company's affairs based on requests from members or from other sources. It requires proof of good reasons, such as fraud, unlawful purposes, or hidden information. Once ordered, the Central Government will appoint inspectors to look into the matter.",
+ "points": [
+  "The Tribunal can order an investigation if applied for by at least one hundred members or members holding one-tenth of the voting power in companies with share capital.",
+  "The Tribunal can order an investigation if applied for by at least one-fifth of the members in companies without share capital, supported by evidence of good reasons.",
+  "The Tribunal can also order an investigation on application by any other person or otherwise if circumstances suggest fraud, unlawful purposes, oppression, or misconduct.",
+  "The Tribunal may order an investigation if members have not been given expected information, such as details on manager or director commissions.",
+  "The parties concerned must be given a reasonable opportunity of being heard before the Tribunal makes an order.",
+  "If the investigation proves fraud or unlawful business or formation, responsible officers and persons in management are punishable for fraud under section 447."
+ ],
+ "example": "A group of minority shareholders at Meera Textiles Private Limited suspected that the directors were hiding important financial details and withholding information about commission calculations. They filed an application supported by evidence showing they held at least one-tenth of the total voting power. The Tribunal reviewed the application and gave all concerned parties a reasonable opportunity of being heard. Finding sufficient cause, the Tribunal ordered an investigation into the company's affairs. Consequently, the Central Government appointed inspectors to investigate and report back, ensuring the shareholders' concerns were properly addressed according to the law.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized legal body or authority set up to handle specific types of disputes and legal cases."
+  },
+  {
+   "term": "Fraud",
+   "meaning": "Wrongful or criminal deception intended to result in financial or personal gain."
+  },
+  {
+   "term": "Misfeasance",
+   "meaning": "A wrongful act or the improper performance of a lawful act."
+  },
+  {
+   "term": "Oppressive",
+   "meaning": "Unfair, harsh, or burdensome treatment of members by the company."
+  }
+ ],
+ "watch": "Make sure not to confuse the different member requirements needed to apply based on whether the company has a share capital or not.",
+ "h": "9a1122999112",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-10"
+}
