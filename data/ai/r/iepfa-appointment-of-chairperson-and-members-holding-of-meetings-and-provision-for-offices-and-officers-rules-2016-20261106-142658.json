@@ -1,0 +1,54 @@
+{
+ "2": {
+  "summary": "This rule gives the basic definitions for words used in the Investor Education and Protection Fund Authority rules. It explains terms like Act, Authority, Company, and Investor to make the rules clear. Any word used here that is not defined takes its meaning from the main Companies Act, 2013.",
+  "points": [
+   "Act means the Companies Act, 2013.",
+   "Company includes normal registered companies as well as certain corresponding new banks.",
+   "Investor means any person who puts money into a company through shares, debentures, bonds, or deposits.",
+   "Words not defined in these rules have the same meaning as in the Companies Act, 2013."
+  ],
+  "example": "Meera Textiles Private Limited is a registered company under the Companies Act, 2013. Rahul invests his money in bonds issued by Meera Textiles Private Limited. Under these rules, Rahul is considered an investor because he has committed money in bonds under a scheme of a company registered under the Act. Meera Textiles Private Limited falls under the definition of a company.",
+  "terms": [
+   {
+    "term": "Debentures",
+    "meaning": "A type of debt instrument issued by a company that acknowledges a loan."
+   },
+   {
+    "term": "Authority",
+    "meaning": "The Investor Education and Protection Fund Authority set up under the Act."
+   }
+  ],
+  "watch": "Do not confuse the general definition of a company here with regular firms, as it also includes specific new banks mentioned in other Acts.",
+  "h": "ce279125e76d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "14": {
+  "summary": "This rule protects certain government officials and bodies from being sued or prosecuted for actions done in good faith under these rules. It also outlines the different functional divisions of the Authority, such as administration, claims, and legal enforcement. Additionally, it lists the specific post designations and pay scales for the office.",
+  "points": [
+   "No legal proceedings can be brought against the Central Government, the Authority, or their officers and employees for things done in good faith under these rules.",
+   "The Authority is organized into specific functional divisions including administration, investment management, and claims settlement.",
+   "Schedule I specifies the designations and pay scales for posts like General Manager and Accounts Officers.",
+   "The Chairperson has the power to re-allocate functions or merge divisions based on administrative needs."
+  ],
+  "example": "Mr. Sharma, an officer working for the Investor Education and Protection Fund Authority, processed a refund claim for an investor from Meera Textiles Private Limited believing it was correct and done honestly. Later, a disgruntled person tried to file a lawsuit against Mr. Sharma personally for processing this claim. Because Mr. Sharma acted in good faith under the official rules, the law protects him and no legal proceedings can be brought against him for this action.",
+  "terms": [
+   {
+    "term": "Good faith",
+    "meaning": "Acting honestly with a sincere intention, without any unfair or dishonest motives."
+   },
+   {
+    "term": "Suit",
+    "meaning": "A legal action or court case brought against someone."
+   },
+   {
+    "term": "Disgorged amount",
+    "meaning": "Funds that a person or company was ordered to give up because they were improperly obtained."
+   }
+  ],
+  "watch": "People often confuse protection in good faith with immunity for careless or dishonest actions, but protection only applies when things are done honestly.",
+  "h": "fc4c26c87abf",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

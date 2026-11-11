@@ -1,0 +1,33 @@
+{
+ "summary": "This section gives the Central Government the power to make official rules about how companies are wound up or closed down. These rules must match the Code of Civil Procedure, 1908. It also allows older rules made by the Supreme Court to stay in force until the Central Government creates new ones.",
+ "points": [
+  "The Central Government must make rules for winding up companies that match the Code of Civil Procedure, 1908.",
+  "Rules can cover how meetings of creditors and members are held.",
+  "Rules can guide the process of reducing company capital and handling applications to the Tribunal.",
+  "Rules can manage lists of contributories, collecting assets, and handing over property to the liquidator.",
+  "Existing rules made by the Supreme Court continue to work until the Central Government replaces them."
+ ],
+ "example": "Meera Textiles Private Limited decided to close down its business operations through a formal winding up process. As the proceedings began, the managers needed to know the exact steps for holding meetings with creditors and members, and how to hand over company books to the liquidator. Under this section, the Central Government has the power to make official rules that guide every part of this process. Until new rules are officially created by the Central Government, any older rules that were previously put in place by the Supreme Court continue to apply to Meera Textiles Private Limited, ensuring the closure runs smoothly.",
+ "terms": [
+  {
+   "term": "Winding up",
+   "meaning": "The legal process of closing down a company and settling its affairs."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized legal body or court that handles company law disputes and cases."
+  },
+  {
+   "term": "Contributories",
+   "meaning": "Persons liable to contribute to the assets of a company in the event of its being wound up."
+  },
+  {
+   "term": "Liquidator",
+   "meaning": "An official appointed to oversee the closing down and selling off of a company's assets."
+  }
+ ],
+ "watch": "Do not confuse older rules made by the Supreme Court, which continue to apply temporarily, with the new rules that the Central Government has the power to create.",
+ "h": "6b35b64b7f63",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-11"
+}

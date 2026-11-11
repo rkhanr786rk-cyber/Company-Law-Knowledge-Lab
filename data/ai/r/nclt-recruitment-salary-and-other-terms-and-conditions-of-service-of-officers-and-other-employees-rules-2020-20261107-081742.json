@@ -1,0 +1,30 @@
+{
+ "2": {
+  "summary": "This rule gives the basic meanings of words used in the rules for National Company Law Tribunal staff. It explains who the Appointing Authority is, what the Tribunal and President mean, and how other undefined words get their meanings from the Companies Act. These definitions help make the service rules for tribunal employees clear.",
+  "points": [
+   "Act means the Companies Act, 2013.",
+   "Appointing Authority is the Central Government or its delegated authority for hiring staff.",
+   "Tribunal means the National Company Law Tribunal set up under section 408.",
+   "President means the head or President of the Tribunal."
+  ],
+  "example": "Aarav wanted to know who had the power to hire staff for the National Company Law Tribunal at Apex Solutions Private Limited's hearing forum. He looked at the rules and found that the Central Government, or an authority given that power through a notification, is the Appointing Authority. This meant the designated government body was responsible for making appointments of officers and employees in the Tribunal, ensuring everything followed the definitions set out in the legal framework of the Companies Act.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized legal body set up to solve specific disputes, here called the National Company Law Tribunal."
+   },
+   {
+    "term": "Appointing Authority",
+    "meaning": "The person or group given the power to hire officers and employees."
+   },
+   {
+    "term": "Delegated",
+    "meaning": "Passed down to someone else, like giving power to another authority."
+   }
+  ],
+  "watch": "Do not confuse the Tribunal's President with the President of India.",
+  "h": "b85e612799d0",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

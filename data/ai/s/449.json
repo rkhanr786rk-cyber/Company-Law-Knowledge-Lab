@@ -1,0 +1,29 @@
+{
+ "summary": "This section punishes anyone who intentionally lies or gives false evidence under oath, in affidavits, or during company winding up processes under the Act. The law treats this offense seriously because truthfulness is vital for legal proceedings. Violating this rule leads to a prison term and a fine.",
+ "points": [
+  "Applies to any person who intentionally gives false evidence.",
+  "Covers examinations on oath or solemn affirmation authorized under the Act.",
+  "Covers affidavits, depositions, or solemn affirmations during the winding up of a company or other matters arising under the Act.",
+  "Requires a mandatory minimum prison term of three years, which can extend up to seven years.",
+  "Allows a fine of up to ten lakh rupees in addition to the imprisonment."
+ ],
+ "example": "During the winding up of fictional company Meera Textiles Private Limited, an official named Rohan submitted a sworn affidavit to the authorities. Rohan deliberately included false statements in the document regarding the company assets to hide financial fraud. Because he intentionally provided false evidence in a matter arising under the Companies Act, Rohan faced strict legal consequences. Under Section 449, he was subjected to a prison term ranging from three to seven years and a fine of up to ten lakh rupees for lying under oath.",
+ "terms": [
+  {
+   "term": "Affidavit",
+   "meaning": "A written statement confirmed by oath or affirmation for use as evidence in court."
+  },
+  {
+   "term": "Winding up",
+   "meaning": "The process of closing down a company and settling its affairs."
+  },
+  {
+   "term": "Deposition",
+   "meaning": "Out-of-court testimony made under oath that is reduced to writing for later use."
+  }
+ ],
+ "watch": "Note that this punishment applies only when false evidence is given intentionally.",
+ "h": "de280dcd13dc",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-11"
+}

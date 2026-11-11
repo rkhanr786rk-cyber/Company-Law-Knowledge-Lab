@@ -1,0 +1,136 @@
+{
+ "3": {
+  "summary": "The Registrar of Companies can remove a company name from the official register on its own. However, certain companies like listed companies, those with pending court cases, or those holding public deposits cannot be removed. The Registrar must send a written notice to the company directors and give them time to reply.",
+  "points": [
+   "The Registrar of Companies may remove a company name from the register on its own accord.",
+   "Listed companies, vanishing companies, and companies with pending court prosecutions or inspections cannot be removed.",
+   "Companies with outstanding public deposits or pending charges cannot be removed.",
+   "The Registrar must send a written notice to all directors via registered or speed post.",
+   "The company and its directors have thirty days to send representations and documents against the proposed removal."
+  ],
+  "example": "The Registrar of Companies wants to remove Apex Trade Private Limited from the official register. The Registrar sends a written notice in Form STK 1 to all directors of Apex Trade Private Limited by speed post. The notice explains why the Registrar wants to remove the company name. The directors now have thirty days from the date of the notice to send their reply, along with any relevant documents, to oppose this action.",
+  "terms": [
+   {
+    "term": "Registrar of Companies",
+    "meaning": "An official appointed by the government to handle company registrations and records."
+   },
+   {
+    "term": "Listed companies",
+    "meaning": "Companies whose shares are traded on a stock exchange."
+   },
+   {
+    "term": "Compounding",
+    "meaning": "A process of settling an offence by paying a fine or complying with rules to avoid further legal action."
+   }
+  ],
+  "watch": "Even though the Registrar starts the removal, certain protected categories of companies can never be removed under this rule.",
+  "h": "3d0ab8448901",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "4": {
+  "summary": "This rule explains how a company can apply to remove its name from the official register. The company must fill out a specific form, pay a fee, and clear past financial statements and annual returns. Certain types of companies also need special permission or extra documents like bonds and accounts.",
+  "points": [
+   "Applications to remove a company name must be filed in Form No. STK-2 with a fee of ten thousand rupees.",
+   "A company must file all overdue financial statements and annual returns up to the year it stopped doing business before applying.",
+   "Companies dealing with finance, insurance, or other regulated activities must include a no objection certificate from their regulatory authority.",
+   "The application must include an indemnity bond, a recent statement of accounts certified by a Chartered Accountant, an affidavit by every director, and details of any pending court cases."
+  ],
+  "example": "Meera Textiles Private Limited decided to close down its business operations permanently. To do this, the company needed to remove its name from the official register. The directors gathered all the necessary papers, including a statement of accounts certified by a Chartered Accountant showing the company's assets and liabilities. They filled out Form STK-2, attached the required fee of ten thousand rupees, and submitted the complete application to the Registrar for processing.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "The government official who keeps records of companies."
+   },
+   {
+    "term": "Indemnity bond",
+    "meaning": "A legal paper where someone promises to pay for any future losses or claims."
+   },
+   {
+    "term": "Affidavit",
+    "meaning": "A written statement confirmed by oath or affirmation for use as evidence."
+   }
+  ],
+  "watch": "A company cannot file the removal application if the Registrar has already issued a notice for publication to remove the company's name.",
+  "h": "9c213ff6e96a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "7": {
+  "summary": "This rule explains how public notices are published when a company's name is about to be removed from the official register. The notice is shared online, in the Official Gazette, and in two local newspapers. The authorities also inform tax departments so they can raise any objections.",
+  "points": [
+   "Notices are published on the Ministry of Corporate Affairs website, in the Official Gazette, and in English and local language newspapers.",
+   "Companies applying themselves must also keep the application on their own website until it is decided.",
+   "The Registrar informs tax authorities, who have thirty days to send objections or be presumed to have none."
+  ],
+  "example": "Asha Textiles Private Limited applied to remove its name from the official register. Following the rules, the Registrar published a public notice in an English newspaper and a local language newspaper circulating in the State where the company's office is located. Simultaneously, the Registrar sent an intimation letter to the local Income-tax authorities asking for any objections within thirty days. Since the tax authorities did not reply within this thirty-day period, the Registrar presumed they had no objections to the removal of the company's name.",
+  "terms": [
+   {
+    "term": "Official Gazette",
+    "meaning": "An official government publication used to share public legal notices."
+   },
+   {
+    "term": "Vernacular language",
+    "meaning": "The local language spoken by the ordinary people in a particular region or area."
+   },
+   {
+    "term": "Registrar of Companies",
+    "meaning": "The government office that handles company registrations and records."
+   }
+  ],
+  "watch": "People often confuse the thirty-day limit for tax authorities with deadlines for other general public notices.",
+  "h": "ec3265e6db1f",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "9": {
+  "summary": "This rule explains how the government official makes it public when a company's name is removed from the official records. The official publishes a notice in the Official Gazette and on the website of the Ministry of Corporate Affairs. This step shows that the company has been dissolved.",
+  "points": [
+   "The Registrar must publish a notice in the Official Gazette.",
+   "The notice must be in Form STK 7.",
+   "The same notice must be placed on the official website of the Ministry of Corporate Affairs."
+  ],
+  "example": "Meera Textiles Private Limited reached the end of its business journey. The Registrar decided to remove the company's name from the official register. To make this final, the Registrar published a notice in the Official Gazette using Form STK 7. At the same time, the notice was uploaded to the official website of the Ministry of Corporate Affairs so everyone could see that Meera Textiles Private Limited was now dissolved.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "The government official who keeps track of companies."
+   },
+   {
+    "term": "Official Gazette",
+    "meaning": "An official government publication used to share public notices."
+   },
+   {
+    "term": "Dissolution",
+    "meaning": "The official closing or ending of a company."
+   }
+  ],
+  "watch": "People often confuse the removal of the company's name with an ordinary business closure, but this rule specifically deals with the official publication of that removal.",
+  "h": "31c54f6b959c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "10": {
+  "summary": "This rule deals with old applications or pending proceedings for closing down a company that were filed before the current rules started. If these old requests were kept on hold because information or documents were missing, they will be finished using the older rules once the needed details are given. The text mostly focuses on handling these past pending cases based on older laws.",
+  "points": [
+   "Old applications or pending proceedings filed before the new rules will be processed after missing information is submitted.",
+   "The handling of these specific pending cases follows the rules made under the older Companies Act, 1956.",
+   "The process applies only if the authority is satisfied with the submitted information or document."
+  ],
+  "example": "Meera Textiles Private Limited had filed an old application for striking off its name before the current rules began. The Registrar of Companies kept the file pending because a specific document was missing. Once Meera Textiles Private Limited submitted the required document to the satisfaction of the authority, the pending proceeding was handled in accordance with the rules made under the Companies Act, 1956.",
+  "terms": [
+   {
+    "term": "Registrar of Companies",
+    "meaning": "The government authority that keeps records of companies."
+   },
+   {
+    "term": "Striking off",
+    "meaning": "Removing the name of a company from the official register."
+   }
+  ],
+  "watch": "People might confuse these old transition rules with the brand new application process under current forms.",
+  "h": "e8daacb4e5ec",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

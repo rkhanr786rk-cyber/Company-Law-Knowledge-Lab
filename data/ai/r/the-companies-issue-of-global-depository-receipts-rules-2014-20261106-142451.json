@@ -1,0 +1,58 @@
+{
+ "4": {
+  "summary": "This rule explains the main conditions a company must follow when it wants to issue depository receipts. The company needs approval from its directors and shareholders before moving forward. It also requires specific banks, professional oversight, and compliance with Reserve Bank of India rules.",
+  "points": [
+   "The Board of Directors must pass a resolution to authorize the issue.",
+   "The company must get prior approval from shareholders through a special resolution.",
+   "Depository receipts are issued by an overseas bank, and the underlying shares stay with a domestic custodian bank.",
+   "The company must follow all applicable Reserve Bank of India rules and guidelines.",
+   "A professional like a merchant banker or chartered accountant must oversee compliances and give a report to the Board."
+  ],
+  "example": "Meera Textiles Private Limited wanted to issue depository receipts. First, the Board of Directors passed a resolution to authorize the plan. Next, the company called a general meeting where the shareholders passed a special resolution giving their approval. The company appointed an overseas depository bank to issue the receipts and a domestic custodian bank to hold the shares. They also hired a practicing company secretary to oversee all rules and prepare a compliance report. Finally, the company followed all guidelines set by the Reserve Bank of India.",
+  "terms": [
+   {
+    "term": "Depository receipts",
+    "meaning": "Financial instruments issued outside India that represent underlying shares of an Indian company."
+   },
+   {
+    "term": "Special resolution",
+    "meaning": "A decision approved by a high majority of shareholders at a general meeting."
+   },
+   {
+    "term": "Domestic custodian bank",
+    "meaning": "A local bank that safely keeps the physical or electronic shares backing the receipts."
+   }
+  ],
+  "watch": "A special resolution passed under section 62 for shares is automatically considered valid for section 41 purposes as well.",
+  "h": "0efc5646e720",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "9": {
+  "summary": "This rule explains that normal laws for public share issues do not apply when a company issues depository receipts. The document used to offer these receipts is also not treated as a standard prospectus. Until the receipts are redeemed, only the name of the overseas depository bank is listed in the company's member register.",
+  "points": [
+   "Public issue rules of the Act do not apply to depository receipts.",
+   "The offer document for depository receipts is not a prospectus.",
+   "The overseas depository bank's name goes into the Register of Members until the receipts are redeemed."
+  ],
+  "example": "Meera Textiles Private Limited decides to issue depository receipts. The company prepares an offer document for this process. Instead of treating this paper like a standard public prospectus, the regular prospectus rules do not apply to it. Meanwhile, the company updates its Register of Members to show the name of the overseas depository bank, and this name stays there until the depository receipts are fully redeemed.",
+  "terms": [
+   {
+    "term": "Prospectus",
+    "meaning": "An official document inviting the public to buy shares or debentures."
+   },
+   {
+    "term": "Redemption",
+    "meaning": "The act of buying back or clearing out an investment or financial instrument."
+   },
+   {
+    "term": "Register of Members",
+    "meaning": "An official book kept by a company that records the details of its members."
+   }
+  ],
+  "watch": "People often confuse a depository receipts offer document with a regular company prospectus, but this rule clarifies they are not treated the same.",
+  "h": "86a7c68461d7",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

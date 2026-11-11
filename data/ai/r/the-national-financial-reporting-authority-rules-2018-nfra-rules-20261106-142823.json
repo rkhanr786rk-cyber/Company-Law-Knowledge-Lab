@@ -1,0 +1,129 @@
+{
+ "2": {
+  "summary": "This rule explains the meaning of various terms used in the National Financial Reporting Authority Rules, 2018. It tells us what words like auditor, Authority, and chairperson mean based on the Companies Act, 2013. Any word used here that is not specially defined takes its meaning directly from the Act.",
+  "points": [
+   "Accounting standards and auditing standards carry the same meanings as given in section 2 of the Act.",
+   "An auditor can be an individual, a firm, or a limited liability partnership appointed under section 139.",
+   "The Authority is the National Financial Reporting Authority set up under section 132.",
+   "Words not defined in these rules use the definitions found in the Companies Act, 2013."
+  ],
+  "example": "Aarav Auditors, a limited liability partnership, was appointed as the auditor of Meera Textiles Private Limited under section 139 of the Companies Act, 2013. When checking the rules to understand their role, the partners looked at the definition of 'auditor' provided under the National Financial Reporting Authority Rules, 2018. They saw that their partnership qualified as an auditor because the rules include firms incorporated under the Limited Liability Partnership Act, 2008. They also checked undefined terms by referring back to the main definitions in the Act, exactly as the rule permits.",
+  "terms": [
+   {
+    "term": "auditor",
+    "meaning": "An individual, firm, or limited liability partnership appointed to audit a company."
+   },
+   {
+    "term": "Authority",
+    "meaning": "The National Financial Reporting Authority set up under the Act."
+   }
+  ],
+  "watch": "Do not assume these definitions apply everywhere outside these specific rules unless the Act also says so.",
+  "h": "5eab004e6176",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "3": {
+  "summary": "This rule sets the types of companies and bodies corporate whose auditors are monitored and investigated by the National Financial Reporting Authority. It includes listed companies, certain large unlisted public companies, banking and insurance firms, and specific foreign subsidiaries. It also explains how and when these entities must inform the Authority about their auditors.",
+  "points": [
+   "The Authority monitors accounting standards, auditing quality, and investigates auditors for listed companies.",
+   "It covers unlisted public companies that meet high thresholds for paid-up capital, turnover, or borrowings.",
+   "Insurance companies, electricity companies, and banking companies are also included.",
+   "Bodies corporate registered outside India with significant income or net worth tied to an Indian parent company are covered."
+  ],
+  "example": "Meera Textiles Private Limited is an unlisted public company in India with a paid-up capital of six hundred crores on the 31st March of the immediately preceding financial year. Because its capital exceeds the specified limit of rupees five hundred crores, its auditor falls under the oversight and investigation powers of the National Financial Reporting Authority according to this rule.",
+  "terms": [
+   {
+    "term": "paid-up capital",
+    "meaning": "The total amount of money that shareholders have paid to the company in exchange for shares."
+   },
+   {
+    "term": "turnover",
+    "meaning": "The total volume of business or gross revenue of a company during a specific period."
+   },
+   {
+    "term": "body corporate",
+    "meaning": "A legal entity, which can include companies and corporations formed under laws, both in India and abroad."
+   }
+  ],
+  "watch": "Even if a company ceases to meet the financial limits, it continues to be governed by the Authority for three years.",
+  "h": "e9dc13c74ab6",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "10": {
+  "summary": "The National Financial Reporting Authority can start an investigation into professional misconduct through government references, its own compliance checks, or self-started inquiries. When it begins such an investigation, it sends the case to its enforcement division. If the investigation shows possible fraud of one crore rupees or more by a company, the Authority must report this to the Central Government.",
+  "points": [
+   "The Authority investigates misconduct based on government references, compliance checks, or self-started reasons.",
+   "Investigations are forwarded to the enforcement division for action.",
+   "If evidence suggests fraud of one crore rupees or more, findings are reported to the Central Government."
+  ],
+  "example": "Meera Textiles Private Limited faced an inquiry by the National Financial Reporting Authority after the Central Government sent a reference regarding professional misconduct. The Authority recorded its reasons and forwarded the matter to its enforcement division. During the investigation, the Authority found evidence that the company was involved in fraud amounting to rupees one crore or more. Consequently, the Authority reported its findings directly to the Central Government as required by the rules.",
+  "terms": [
+   {
+    "term": "suo motu",
+    "meaning": "An action taken by an authority on its own initiative without a request from someone else."
+   },
+   {
+    "term": "body corporate",
+    "meaning": "A legal term for a company or corporation."
+   }
+  ],
+  "watch": "People often confuse which body handles auditor misconduct depending on the type of company the auditor serves.",
+  "h": "1b96fe902369",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "11": {
+  "summary": "This rule explains how disciplinary proceedings are started against an auditor when there is reason to believe they broke the rules. The Authority sends a written show-cause notice with all details and evidence, which the auditor must answer. Finally, the division passes a reasoned order after giving the auditor a fair chance to be heard.",
+  "points": [
+   "The Authority sends a written show-cause notice to the auditor containing facts, evidence, and proposed actions.",
+   "The notice is served by registered post or electronic means to the auditor's email address.",
+   "If the auditor is a firm, a notice to the firm applies to all its partners and employees, and a specific partner must take responsibility to answer it.",
+   "The Division disposes of the notice by a reasoned order, which may result in no action, a caution, a penalty, or debarring the auditor."
+  ],
+  "example": "Meera Textiles Private Limited faced a review where the National Financial Reporting Authority found reason to take action against their auditor, Mr. Sharma. The Authority issued a formal written show-cause notice to Mr. Sharma by email, attaching copies of all relied-upon documents and investigation reports. The notice detailed the alleged facts, the laws allegedly violated, and the proposed actions. Mr. Sharma was given a specific time limit to respond. After reviewing his submissions and following fair procedures, the division passed an order on the matter.",
+  "terms": [
+   {
+    "term": "show-cause notice",
+    "meaning": "A formal written notice asking a person or entity to explain why legal action should not be taken against them."
+   },
+   {
+    "term": "debarring",
+    "meaning": "Banning or stopping someone from working or engaging in a specific profession."
+   },
+   {
+    "term": "natural justice",
+    "meaning": "Fair legal procedure that includes the right to a fair hearing and a chance to present one's side."
+   }
+  ],
+  "watch": "A notice given to an auditor that is a firm is legally considered a notice given to all partners and employees of that firm.",
+  "h": "beb3ff67e94f",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "19": {
+  "summary": "This rule allows the National Financial Reporting Authority to join global or regional groups of independent audit regulators. It also permits the Authority to give or take help from foreign audit regulators during the investigation of an auditor.",
+  "points": [
+   "The Authority can join regional or international groups of independent audit regulators and standard-setters.",
+   "The terms of joining these international associations are decided by the Authority as it deems fit.",
+   "The Authority may provide help to or receive help from foreign independent audit regulators.",
+   "Any help given or received regarding the investigation of an auditor must follow Indian laws."
+  ],
+  "example": "The National Financial Reporting Authority decides to join an international association of independent audit regulators to share best practices. Later, during an inquiry into an auditor at Meera Textiles Private Limited, the Authority receives investigative assistance from a foreign independent audit regulator, ensuring all actions follow Indian laws.",
+  "terms": [
+   {
+    "term": "Auditor",
+    "meaning": "A person or firm officially appointed to check and verify company accounts."
+   },
+   {
+    "term": "Regulator",
+    "meaning": "An official body that creates and enforces rules to control how an industry operates."
+   }
+  ],
+  "watch": "People often confuse these international associations with commercial trade groups, but they are specifically meant for audit regulators and standard-setters.",
+  "h": "09f889e35123",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

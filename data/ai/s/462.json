@@ -1,0 +1,29 @@
+{
+ "summary": "The Central Government has the power to exempt certain types of companies from some laws in this Act, or apply those laws with changes, if it is good for the public. Before making this official, a draft of the notification must be shown to both Houses of Parliament for a specific period. Parliament can agree to change it, stop it, or let it pass as proposed.",
+ "points": [
+  "The Central Government can decide that certain company laws do not apply to specific groups of companies.",
+  "The government can also apply laws to certain companies with specific changes and exceptions.",
+  "Any such decision must be done in the public interest through a notification.",
+  "A draft of the notification must be placed before each House of Parliament while in session for thirty days.",
+  "Parliamentary breaks of more than four consecutive days are not counted towards the thirty-day period."
+ ],
+ "example": "The Central Government decides it is in the public interest to exempt a specific group of small startup companies from certain strict reporting rules under the Act. To do this legally, the Ministry drafts a notification detailing these exemptions. Following the law, this draft is laid before both Lok Sabha and Rajya Sabha while Parliament is in session. The draft stays before Parliament for a total period of thirty active days, ignoring any long holiday adjournments. Both Houses review the draft. Since neither House disapproves of the plan or asks for changes, the government proceeds to issue the final notification, legally freeing those startup companies from the specified rules.",
+ "terms": [
+  {
+   "term": "Notification",
+   "meaning": "An official public announcement or formal notice."
+  },
+  {
+   "term": "Modification",
+   "meaning": "A change or alteration made to something."
+  },
+  {
+   "term": "Prorogued",
+   "meaning": "Discontinued a session of Parliament without dissolving it."
+  }
+ ],
+ "watch": "Do not confuse the draft notification shown to Parliament before it is issued with the final copy that is laid before Parliament after it is issued.",
+ "h": "02de34c54aab",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-11"
+}

@@ -1,0 +1,85 @@
+{
+ "2": {
+  "summary": "When a company wants to reduce its share capital, it must apply to the Tribunal using a specific form and fee. This application must include a certified list of creditors, auditor certificates about the debts and accounting rules, and a director's declaration about deposits. Anyone can inspect this list of creditors at the company office during business hours by paying a fee.",
+  "points": [
+   "Apply using Form No. RSC-1 with the required fee.",
+   "Include a list of creditors certified by company directors.",
+   "Provide auditor certificates for the creditor list, deposit repayments, and accounting standards.",
+   "Keep copies of the creditor list at the registered office for public inspection during business hours for a fee."
+  ],
+  "example": "Aarav Textiles Private Limited wants to reduce its share capital. It files an application using Form No. RSC-1 to the Tribunal. The company attaches a list of creditors certified by two directors, along with the necessary auditor certificates confirming the list is accurate, that the company has no unpaid deposits, and that the accounting treatment matches the required standards. Anyone who wishes to view this list can visit the company office during business hours and pay fifty rupees to inspect it.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "The judicial body that handles company law cases in India."
+   },
+   {
+    "term": "Creditors",
+    "meaning": "People or businesses to whom the company owes money."
+   },
+   {
+    "term": "Auditor",
+    "meaning": "An official accountant who checks and verifies the company records."
+   }
+  ],
+  "watch": "People often confuse the list of creditors date requirement, which must be made within fifteen days before filing the application.",
+  "h": "b204efd1040d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "4": {
+  "summary": "This rule explains how certain authorities and creditors can share their views when a company wants to reduce its share capital. They must send their comments to the Tribunal within three months of getting the notice. If they do not send anything in that time, the Tribunal will assume they have no objection.",
+  "points": [
+   "Authorities and creditors can send a representation regarding the reduction of share capital.",
+   "The representation must reach the Tribunal within three months from the date of receiving the notice.",
+   "A copy of the representation must be sent to the company at the same time.",
+   "If no representation is received within three months, it is presumed there is no objection."
+  ],
+  "example": "Meera Textiles Private Limited planned to reduce its share capital and sent a notice to its creditors. Creditor Rohan received the notice on January 1st. To raise any concerns, Rohan needed to send his representation to the Tribunal and a copy to Meera Textiles Private Limited within three months. Rohan failed to send any reply by April 1st. Because of this delay, the Tribunal presumed that Rohan had no objection to the reduction of share capital by Meera Textiles Private Limited.",
+  "terms": [
+   {
+    "term": "Representation",
+    "meaning": "A formal statement of views, objections, or comments sent to the Tribunal."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "The official body or court handling company law matters in this context."
+   },
+   {
+    "term": "Presumed",
+    "meaning": "Taken to be true by law unless proven otherwise."
+   }
+  ],
+  "watch": "People often think silence means rejection, but under this rule, no response within three months is treated as having no objection.",
+  "h": "a2ef2afb795a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "6": {
+  "summary": "This rule explains what happens after the Tribunal decides to approve a company's reduction of share capital. The Tribunal will issue an official order and approve a special note called a minute, using a specific official form. Finally, the Registrar will issue a certificate in another specific form to finalize the process.",
+  "points": [
+   "The Tribunal can add special directions or conditions when it approves the reduction.",
+   "The official order and minute approving the reduction must be in Form No. RSC - 6.",
+   "The certificate given by the Registrar under section 66 must be in Form No. RSC - 7."
+  ],
+  "example": "Meera Textiles Private Limited applied to reduce its share capital. The Tribunal reviewed the case and decided to approve the reduction. Following the rules, the Tribunal issued its official order and approved the minute using Form No. RSC - 6, including specific conditions it deemed fit. Once everything was completed, the Registrar issued the final certificate to the company in Form No. RSC - 7.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "The judicial body that handles company law disputes and approvals in India."
+   },
+   {
+    "term": "Minute",
+    "meaning": "A formal written record of the decision regarding the reduction of share capital."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "The government official who maintains records of companies."
+   }
+  ],
+  "watch": "Do not confuse the Tribunal's order form (Form No. RSC - 6) with the Registrar's certificate form (Form No. RSC - 7).",
+  "h": "925d5be75e47",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

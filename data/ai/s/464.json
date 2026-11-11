@@ -1,0 +1,30 @@
+{
+ "summary": "This section stops large groups of people from starting a business to make a profit without registering as a company first. The law sets a maximum limit on how many members can join such an unregistered group. However, family businesses and certain professional partnerships are free from this rule.",
+ "points": [
+  "Unregistered business groups must not exceed the prescribed member limit if their goal is to make a profit.",
+  "Such profit-seeking groups must register as a company under this Act or another law.",
+  "The prescribed member limit cannot be more than one hundred persons.",
+  "A Hindu undivided family carrying on business is exempt from this rule.",
+  "Professionals governed by special acts who form an association or partnership are exempt.",
+  "Every member in a violating business faces a fine up to one lakh rupees and personal liability for debts."
+ ],
+ "example": "A group of one hundred and twenty friends in Mumbai decided to form an unregistered partnership named Apex Traders to buy and sell electronics for a profit. They did not register as a company under the Act or any other law, and they do not belong to a Hindu undivided family or governed professional bodies. Because their group size exceeds the legal limit allowed for unregistered profit-seeking associations, they are operating in violation of the law. Consequently, every member of Apex Traders faces a fine of up to one lakh rupees and becomes personally responsible for all the debts and liabilities the business incurs.",
+ "terms": [
+  {
+   "term": "Association or partnership",
+   "meaning": "A group of people working together for a common purpose."
+  },
+  {
+   "term": "Hindu undivided family",
+   "meaning": "A traditional family structure in India recognized for joint business and property ownership."
+  },
+  {
+   "term": "Contravention",
+   "meaning": "An action that breaks a law or rule."
+  }
+ ],
+ "watch": "Do not confuse this rule with registered companies, as this section only restricts large unregistered profit-seeking groups.",
+ "h": "bcca031a5b55",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-11"
+}

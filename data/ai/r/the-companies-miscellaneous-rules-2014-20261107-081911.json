@@ -1,0 +1,81 @@
+{
+ "3": {
+  "summary": "A company can apply to become a dormant company by filing a specific form and paying a fee to the Registrar. Before applying, the company must pass a special resolution or get agreement from at least three-fourths of its shareholders in value. The company must also meet several clean-record conditions, such as having no pending investigations, unpaid public deposits, or listed shares.",
+  "points": [
+   "File an application in Form MSC-1 with the required fee to the Registrar.",
+   "Pass a special resolution in a general meeting or get consent from at least three-fourths of shareholders in value.",
+   "Ensure there are no ongoing inspections, inquiries, investigations, or pending prosecutions against the company.",
+   "Confirm the company has no outstanding public deposits, unpaid statutory taxes, or listed securities."
+  ],
+  "example": "Meera Textiles Private Limited wants to become a dormant company. The owners hold a meeting and pass a special resolution agreed upon by all shareholders. The company has no pending court cases, no unpaid taxes, and no public deposits or loans. It submits Form MSC-1 along with the required fee to the Registrar to apply for dormant status.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "The government official who handles company registrations."
+   },
+   {
+    "term": "Special resolution",
+    "meaning": "A formal decision made by the shareholders that requires a high voting majority."
+   },
+   {
+    "term": "Dormant company",
+    "meaning": "A company that is inactive and registered as such."
+   }
+  ],
+  "watch": "Make sure the company meets every single eligibility condition listed before applying for dormant status.",
+  "h": "0002d6ce6307",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "8": {
+  "summary": "A dormant company can apply to become an active company again by filing specific forms and fees. If it stays dormant for five consecutive years, the Registrar will start the process to strike off its name. Also, if a dormant company starts functioning or breaks its dormant rules, it must apply to become active.",
+  "points": [
+   "Apply using Form MSC-4 with fees and Form MSC-3 for the current financial year.",
+   "The Registrar issues a certificate in Form MSC-5 once the active status is approved.",
+   "If a dormant company stays inactive for five consecutive years, its name may be struck off.",
+   "The Registrar can inquire and change a dormant company to active if it is found functioning."
+  ],
+  "example": "Asha Dormant Company Limited had not been doing business for a long time. Recently, the directors decided to start business operations again. Because the company started functioning, the directors quickly filed the required application in Form MSC-4 along with Form MSC-3 and the necessary fees within the time frame. After reviewing everything, the Registrar issued a certificate in Form MSC-5, granting Asha Dormant Company Limited the status of an active company.",
+  "terms": [
+   {
+    "term": "Dormant company",
+    "meaning": "A company that is inactive and not carrying out business."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "A government official who keeps records of companies."
+   },
+   {
+    "term": "Strike off",
+    "meaning": "To remove the name of a company from the official register."
+   }
+  ],
+  "watch": "People often confuse how long a company can remain dormant before the Registrar acts to strike it off.",
+  "h": "2aeeccafca61",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "9": {
+  "summary": "This rule sets the fees you must pay when asking the Central Government for approval, consent, or direction under the Companies Act, 2013. Any such application must include the fee specified in the Companies (Registration Offices and Fees) Rules, 2014. It applies to all matters requiring government permission or exemption.",
+  "points": [
+   "Every application made to the Central Government under the Act must include a fee.",
+   "This applies to approvals, sanctions, consents, confirmations, recognitions, directions, and exemptions.",
+   "The exact fee amount is found in the separate Companies (Registration Offices and Fees) Rules, 2014."
+  ],
+  "example": "Meera Textiles Private Limited wants to get a special approval from the Central Government under the Companies Act, 2013. When submitting their formal application papers, the company must pay the required fee as stated in the Companies (Registration Offices and Fees) Rules, 2014, to ensure their request is properly accompanied by the mandated payment.",
+  "terms": [
+   {
+    "term": "Central Government",
+    "meaning": "The national government of the country that handles these official company matters."
+   },
+   {
+    "term": "Sanction",
+    "meaning": "An official approval or permission given by the government."
+   }
+  ],
+  "watch": "Do not confuse this rule with the actual fee amounts, as those are listed in a completely different set of rules.",
+  "h": "9c188e3b8813",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

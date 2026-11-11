@@ -1,0 +1,194 @@
+{
+ "2": {
+  "summary": "This rule explains the meaning of two key terms used in the rules for transferring pending cases under the Companies Act. It states that words not defined here will take their meanings from the main company laws or the bankruptcy code. This helps readers understand the specific terms used in the legal text.",
+  "points": [
+   "Code refers to the Insolvency and Bankruptcy Code, 2016.",
+   "Tribunal refers to the National Company Law Tribunal set up under section 408 of the Companies Act, 2013.",
+   "Any word not defined in these rules gets its meaning from the relevant company laws or the code."
+  ],
+  "example": "When an officer at Meera Textiles Private Limited reads the rules and sees the word Tribunal, they look at Rule 2. They learn that Tribunal means the National Company Law Tribunal. Later, they find another legal term that is not explained in these rules. Following Rule 2, they check the Companies Act, 2013, to find the proper meaning of that term.",
+  "terms": [
+   {
+    "term": "Code",
+    "meaning": "The Insolvency and Bankruptcy Code, 2016."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "The National Company Law Tribunal constituted under section 408 of the Companies Act, 2013."
+   }
+  ],
+  "watch": "Do not assume a word has a normal everyday meaning if it is defined in the listed acts or codes.",
+  "h": "1cc139c242bd",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "5": {
+  "summary": "This rule explains how certain pending cases to close down a company because it cannot pay its debts are moved from a High Court to a special Tribunal. If the opposing party has not been given notice of the case yet, it generally gets transferred. The petitioner must provide extra required details by a specific deadline or the case ends completely.",
+  "points": [
+   "Pending winding up petitions based on inability to pay debts are transferred from the High Court to the Tribunal if not yet served to the respondent.",
+   "Petitioners must submit all necessary information and a proposed insolvency professional by July 15, 2017, or the petition will abate.",
+   "Parties can file fresh applications under specific sections of the Code after July 15, 2017.",
+   "Certain other pending petitions against the same company staying in the High Court will not be transferred to the Tribunal."
+  ],
+  "example": "Meera Textiles Private Limited had a pending case in the High Court to wind up the company because it could not pay its debts. Because the court papers had not yet been served to the company, the case was transferred to the Tribunal. To keep the case alive, Meera Textiles had to submit all required admission details and a proposed insolvency professional to the Tribunal by July 15, 2017. When they missed providing this information by that date, the petition stood abated, though they remained eligible to file a fresh application later.",
+  "terms": [
+   {
+    "term": "Winding up",
+    "meaning": "The legal process of closing down a company and settling its affairs."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "A special official body set up to handle specific legal disputes and cases."
+   },
+   {
+    "term": "Abated",
+    "meaning": "Ended or stopped completely."
+   }
+  ],
+  "watch": "Watch out for the deadline of July 15, 2017, which determines whether these specific pending petitions survive or abate.",
+  "h": "cb386402d7eb",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "8": {
+  "summary": "This rule states that no fee needs to be paid when legal proceedings are moved to the Tribunal under these rules. It applies even if other rules say a fee is required. This makes the transfer free of cost for the parties involved.",
+  "points": [
+   "No fee shall be payable for proceedings transferred to the Tribunal.",
+   "This rule applies despite anything to the contrary in the National Company Law Tribunal Rules, 2016."
+  ],
+  "example": "A legal case involving Alpha Builders Private Limited was pending in court. Due to new rules, this pending case had to be moved to the Tribunal. Because of Rule 8, Alpha Builders Private Limited did not have to pay any fee for this transfer process.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A special official body set up to handle legal cases."
+   },
+   {
+    "term": "Proceedings",
+    "meaning": "Ongoing legal actions or court cases."
+   }
+  ],
+  "watch": "People often confuse this with other filing fees, but it only applies specifically to cases transferred under these rules.",
+  "h": "1d91dacd5bcc",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This rule gives a short name to the rules about moving pending company cases and tells us when they start. Most parts start on December 15, 2016. However, rule 4 starts later on April 1, 2017.",
+  "points": [
+   "The rules are called the Companies (Transfer of Pending Proceedings) Rules, 2016.",
+   "Most rules start on December 15, 2016.",
+   "Rule 4 starts on April 1, 2017."
+  ],
+  "example": "Meera Textiles Private Limited had a pending case before a court. The management wondered when the new rules for moving pending cases would apply to them. They checked the date and found that most rules started on December 15, 2016, but rule 4 would only apply starting from April 1, 2017.",
+  "terms": [
+   {
+    "term": "Commencement",
+    "meaning": "The time when a law or rule starts to apply."
+   },
+   {
+    "term": "Rule",
+    "meaning": "A specific regulation or instruction made under a law."
+   }
+  ],
+  "watch": "People often confuse the start date for all rules, but rule 4 starts on a different date than the rest.",
+  "h": "9b65091923a2",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "3": {
+  "summary": "This rule is about moving certain company court cases to a special tribunal. Most cases that were already running when the rule started are moved to the right local bench. However, cases where the judges have already saved their final decisions are left alone.",
+  "points": [
+   "All ongoing company cases must be moved to the tribunal benches.",
+   "This includes cases about arbitration, compromises, arrangements, and reconstruction.",
+   "Cases that are not about winding up are covered by this rule.",
+   "Cases where the judges have already reserved their orders will not be transferred."
+  ],
+  "example": "Meera Textiles Private Limited had an ongoing case about a business arrangement in a regular court when the new rules started. Because the judges had not yet reserved their final orders, this case was automatically transferred to the local bench of the Tribunal. Meanwhile, another case of theirs where the judge had already reserved the order stayed right where it was.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A special official body set up to handle specific legal cases."
+   },
+   {
+    "term": "Territorial jurisdiction",
+    "meaning": "The specific geographical area where a court or tribunal has the legal power to work."
+   }
+  ],
+  "watch": "Do not confuse cases that are simply ongoing with cases where the judges have already reserved their final orders.",
+  "h": "7053a1a4944e",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "4": {
+  "summary": "This rule explains how certain voluntary winding up cases of companies are handled. It applies when the notice of the resolution was given by advertisement before a specific date, but the company was not yet dissolved. These ongoing proceedings will keep being dealt with according to the older Act.",
+  "points": [
+   "Applies to voluntary winding up proceedings.",
+   "Requires notice of the resolution by advertisement under section 485.",
+   "Applies only if the company was not dissolved before April 1, 2017.",
+   "Such proceedings continue under the provisions of the Act."
+  ],
+  "example": "In 2016, Sunshine Toys Private Limited decided to close down voluntarily. The company gave notice of the resolution by advertisement as required by the law. However, the official dissolution of Sunshine Toys Private Limited was not completed before the 1st day of April, 2017. Because of this rule, their ongoing winding up process will continue to be handled according to the provisions of the Act.",
+  "terms": [
+   {
+    "term": "voluntary winding up",
+    "meaning": "The process where a company decides on its own to close down its business and clear its affairs."
+   },
+   {
+    "term": "dissolved",
+    "meaning": "The official legal end or closure of a company's existence."
+   }
+  ],
+  "watch": "Make sure to check if the company was completely dissolved before the specific date mentioned.",
+  "h": "087f8ea111a1",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "6": {
+  "summary": "This rule explains what happens to certain old company closure cases that are stuck in a High Court. If the case papers have not yet been officially given to the other party, the case must be moved to a special Tribunal instead. Once moved, the case will be handled using newer laws from the Companies Act, 2013.",
+  "points": [
+   "Applies to old petitions filed under specific clauses of the Companies Act, 1956.",
+   "Applies only if the petition has not been served on the respondent under the old rules.",
+   "Cases are transferred from the High Court to the local Bench of the Tribunal.",
+   "Transferred cases will be treated as petitions under the Companies Act, 2013."
+  ],
+  "example": "Meera Textiles Private Limited filed a case in the High Court to wind up its business under an old law. However, the court papers were never officially delivered to the respondent, Mr. Sharma, as required by the old rules. Because of this rule, that pending case must now be moved from the High Court to the local Tribunal. Once it reaches the Tribunal, the case will be treated as if it was filed under the newer Companies Act of 2013.",
+  "terms": [
+   {
+    "term": "Respondent",
+    "meaning": "The person or company defending themselves against a petition in court."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "A special official body set up to handle legal disputes outside of regular courts."
+   }
+  ],
+  "watch": "Make sure to check if the court papers were actually served to the respondent, as that determines whether the case moves or stays.",
+  "h": "a6558fc7fc8b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "7": {
+  "summary": "This rule explains how paperwork and files must be moved when a court case is shifted. The High Court must send all related case records directly to the correct National Company Law Tribunal Bench. This transfer of records must happen right away.",
+  "points": [
+   "Case records must be transferred when a case is moved under these rules.",
+   "The High Court is responsible for sending the records.",
+   "The records go to the National Company Law Tribunal Benches that have jurisdiction.",
+   "The transfer must happen forthwith."
+  ],
+  "example": "Meera Textiles Private Limited had a pending case in the High Court. Because of the new rules, this case was moved to the National Company Law Tribunal. Following Rule 7, the High Court immediately packed up all the case files and records. They sent these records directly to the correct National Company Law Tribunal Bench so the judges there could take over the matter.",
+  "terms": [
+   {
+    "term": "Jurisdiction",
+    "meaning": "The official power and authority of a court or tribunal to handle a case."
+   },
+   {
+    "term": "Forthwith",
+    "meaning": "Immediately and without delay."
+   }
+  ],
+  "watch": "People often get confused thinking the companies themselves have to move their files, but the rule states that the High Courts must transfer the records.",
+  "h": "df10c819ed67",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

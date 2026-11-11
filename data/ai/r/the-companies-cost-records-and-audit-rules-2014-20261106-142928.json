@@ -1,0 +1,76 @@
+{
+ "1": {
+  "summary": "Certain companies involved in specific regulated and non-regulated sectors must include cost records in their books of account. This requirement applies if the company has an overall turnover of rupees thirty-five crore or more during the immediately preceding financial year. The rules provide specific definitions for terms related to cost auditing and records.",
+  "points": [
+   "Applies to certain companies including foreign companies engaged in specified goods or services.",
+   "The company must have an overall turnover of rupees thirty-five crore or more in the immediately preceding financial year.",
+   "Companies meeting the criteria must include cost records in their books of account."
+  ],
+  "example": "Meera Textiles Private Limited is a fictional company that produces goods in a specified sector. In the immediately preceding financial year, Meera Textiles Private Limited had an overall turnover of rupees thirty-five crore from all its products and services. Because it meets the turnover threshold and operates in a covered sector, the company must include cost records in its books of account.",
+  "terms": [
+   {
+    "term": "cost records",
+    "meaning": "Books of account relating to the utilisation of materials, labour, and other items of cost as applicable to the production of goods or provision of services."
+   },
+   {
+    "term": "cost auditor",
+    "meaning": "A Cost Accountant in practice who is appointed by the Board to conduct a cost audit."
+   },
+   {
+    "term": "turnover",
+    "meaning": "The overall revenue from all products and services of a company during a financial year."
+   }
+  ],
+  "watch": "Make sure to check both the specific sector list and the turnover amount of rupees thirty-five crore in the immediately preceding financial year.",
+  "h": "adb49393e449",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "24": {
+  "summary": "This rule explains how companies must keep records of business dealings with related parties. It focuses on finding the normal price for goods and services exchanged between connected entities. Companies need to show how they decided on the rates charged or paid in these deals.",
+  "points": [
+   "A related party has the same meaning as defined in the Companies Act, 2013.",
+   "Normal price is the standard price charged to unrelated buyers in regular trade.",
+   "Companies must keep records of all contracts, agreements, and understandings with related parties.",
+   "Records must show the basis used to decide the rates charged or paid for goods and services."
+  ],
+  "example": "Meera Textiles Private Limited sold finished goods to a related company. To follow the rules, Meera Textiles Private Limited maintained records of the agreement and the specific basis used to arrive at the rates charged. This ensured the transaction price could be checked for reasonableness, matching the price that would be charged to an unrelated buyer in the ordinary course of trade.",
+  "terms": [
+   {
+    "term": "Related party",
+    "meaning": "A person or company that is connected to another company as defined by the Companies Act."
+   },
+   {
+    "term": "Normal price",
+    "meaning": "The standard market price charged to unrelated buyers in regular business."
+   }
+  ],
+  "watch": "Do not assume that normal price is just any price the company chooses; it must reflect what unrelated parties would agree upon.",
+  "h": "d283e04ffdf9",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "31": {
+  "summary": "This rule specifies how companies must measure quantities for their cost records and audit reports. The Unit of Measurement for each heading must match the standard provided in the Customs Tariff Act, 1975. It ensures consistency in reporting product and service metrics.",
+  "points": [
+   "The Unit of Measurement must follow the Customs Tariff Act, 1975.",
+   "Cost auditors verify records based on standards and proper information.",
+   "Cost audit reports include specific opinions and observations regarding cost records."
+  ],
+  "example": "Meera Textiles Private Limited is preparing its cost audit report for the financial year. When listing the Unit of Measurement for its goods, the company uses the exact measurement unit provided in the Customs Tariff Act, 1975 for that specific Customs Tariff Act Heading.",
+  "terms": [
+   {
+    "term": "Unit of Measurement",
+    "meaning": "A standard quantity used to measure goods or services."
+   },
+   {
+    "term": "Cost Auditor",
+    "meaning": "A professional appointed to check and report on a company's cost records."
+   }
+  ],
+  "watch": "Ensure the Unit of Measurement strictly matches the Customs Tariff Act, 1975 without inventing local units.",
+  "h": "354daf333f30",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

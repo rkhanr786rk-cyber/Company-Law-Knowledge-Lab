@@ -1,0 +1,222 @@
+{
+ "3": {
+  "summary": "This rule explains the procedure for holding company board meetings through video conferencing or other audio-visual means. It sets out responsibilities for the chairperson and company secretary to ensure security, clear communication, proper recording, and accurate minutes. Directors must also follow specific steps like giving advance notice of their remote attendance and participating in a roll call.",
+  "points": [
+   "The company must make arrangements to prevent any failure in the video or audio connection.",
+   "The chairperson and company secretary must ensure security, proper equipment, and that only authorized directors attend.",
+   "Directors who want to join remotely must inform the company in advance.",
+   "A roll call must be taken at the start of the meeting where remote directors state their name, location, and receipt of meeting materials.",
+   "Draft minutes of the meeting must be circulated to all directors for their comments and confirmation."
+  ],
+  "example": "At Meera Textiles Private Limited, director Mr. Sharma wants to attend the upcoming board meeting through video conferencing due to travel. He informs the company secretary in advance. On the day of the meeting, the chairperson conducts a roll call. Mr. Sharma states his name and location for the record, confirms he has the meeting agenda, and declares that no one else is in the room with him. The company successfully records the meeting and circulates the draft minutes later for confirmation.",
+  "terms": [
+   {
+    "term": "Quorum",
+    "meaning": "The minimum number of directors required to be present to legally conduct a meeting."
+   },
+   {
+    "term": "Agenda",
+    "meaning": "A list of items to be discussed during the meeting."
+   },
+   {
+    "term": "Statutory registers",
+    "meaning": "Official registers that a company is required by law to maintain and keep."
+   }
+  ],
+  "watch": "People often confuse remote attendance with open access, but the rules strictly limit who is allowed to be present or have access during a remote meeting.",
+  "h": "78ded11cfb87",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "8": {
+  "summary": "Under the Companies Act, 2013, the board of directors must pass resolutions at official board meetings for certain important actions. These include making political contributions, appointing or removing key managerial personnel, and choosing internal and secretarial auditors. This ensures these major decisions are made collectively by the board.",
+  "points": [
+   "Board must pass meeting resolutions to make political contributions.",
+   "Board must pass meeting resolutions to appoint or remove key managerial personnel.",
+   "Board must pass meeting resolutions to appoint internal auditors and secretarial auditors."
+  ],
+  "example": "At Meera Textiles Private Limited, the directors want to hire a new chief financial officer and appoint a secretarial auditor. To do this properly, the directors must hold an official board meeting and pass resolutions for these appointments, as required by the rules under the Companies Act, 2013.",
+  "terms": [
+   {
+    "term": "Board of Directors",
+    "meaning": "The group of people chosen to manage the affairs of a company."
+   },
+   {
+    "term": "Resolution",
+    "meaning": "A formal decision or vote made by the board during a meeting."
+   },
+   {
+    "term": "Key Managerial Personnel",
+    "meaning": "Top-level officers of the company who manage daily operations."
+   }
+  ],
+  "watch": "Remember that these specific powers cannot be exercised without holding an actual meeting of the board to pass a resolution.",
+  "h": "9abebe24ab42",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "11": {
+  "summary": "This rule explains special conditions for certain company loans, guarantees, and securities under the law. It states that normal restrictions do not apply to transactions with wholly owned subsidiaries or joint ventures, as long as details are properly disclosed. It also clarifies what counts as the business of financing for specific registered companies.",
+  "points": [
+   "Normal loan restrictions do not apply when a company gives a loan, guarantee, or security to its wholly owned subsidiary or joint venture company.",
+   "The exemption also applies when a holding company acquires securities of its wholly owned subsidiary.",
+   "Companies must disclose the details of these loans, guarantees, securities, or acquisitions in their financial statements.",
+   "Specific rules define the financing business for certain registered Non-Banking Financial Companies and Finance Companies."
+  ],
+  "example": "Meera Textiles Private Limited gave a large loan to its wholly owned subsidiary, Alpine Garments Private Limited. Because of this rule, Meera Textiles did not have to follow the usual section 186 restrictions for that loan. However, Meera Textiles made sure to fully disclose the details of this loan in its annual financial statements as required.",
+  "terms": [
+   {
+    "term": "Subsidiary company",
+    "meaning": "A company that is controlled and owned by another company."
+   },
+   {
+    "term": "Security",
+    "meaning": "An asset or pledge given to promise the repayment of a loan."
+   }
+  ],
+  "watch": "People often forget that even when standard restrictions are lifted, the company must still disclose the loan or guarantee in its financial statements.",
+  "h": "8a271f6f0dae",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "12": {
+  "summary": "This rule requires companies to keep a special register for any loans, guarantees, securities, or investments they make. The register must be kept up to date, stored safely at the company's office, and made available to members under certain fee rules. It helps keep a clear and permanent record of these financial transactions.",
+  "points": [
+   "Companies must maintain a register in Form MBP 2 from their date of incorporation.",
+   "Entries must be made in order of dates within seven days of the transaction.",
+   "The register must stay at the registered office and be preserved permanently.",
+   "Members can get extracts of the register by paying a fee set in the company articles, up to ten rupees per page."
+  ],
+  "example": "Aarav Builders Private Limited gave a loan to a supplier. Within seven days of making the loan, the company secretary recorded the details chronologically in the register kept at the registered office. Later, a shareholder named Priya asked for a copy of this entry. The company gave her the extract after she paid the fee stated in the company articles, which was five rupees per page, well under the maximum limit.",
+  "terms": [
+   {
+    "term": "Form MBP 2",
+    "meaning": "The specific official form name used for recording loans, guarantees, securities, and acquisitions."
+   },
+   {
+    "term": "Chronologically",
+    "meaning": "Arranged in the order that the events happened in time."
+   },
+   {
+    "term": "Registered office",
+    "meaning": "The official main address of the company."
+   }
+  ],
+  "watch": "Remember that the register must be kept permanently, not just for a few years.",
+  "h": "2c862ace598b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "13": {
+  "summary": "This rule explains how a company must state a money limit when shareholders approve loans, guarantees, investments, or securities. The shareholders pass a special resolution at a meeting to set the maximum total amount the board of directors can handle. The company must also give full details of these transactions in its financial statement.",
+  "points": [
+   "Shareholders must approve loans, guarantees, investments, or securities at a general meeting.",
+   "The resolution must clearly state the total maximum amount allowed for the board.",
+   "The company must fully disclose the particulars in its financial statement."
+  ],
+  "example": "Meera Textiles Private Limited wants to give a large business loan. The owners hold a general meeting and pass a resolution to allow the board of directors to give loans up to a specific total amount. Later, when the company prepares its financial statement, it includes all the full particulars about this loan as required by the law.",
+  "terms": [
+   {
+    "term": "General meeting",
+    "meaning": "A meeting of the company shareholders."
+   },
+   {
+    "term": "Resolution",
+    "meaning": "A formal decision passed by the shareholders."
+   },
+   {
+    "term": "Financial statement",
+    "meaning": "A report showing the financial position and results of the company."
+   }
+  ],
+  "watch": "Make sure not to confuse the board of directors with the general meeting of members.",
+  "h": "c842e0b80163",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "15": {
+  "summary": "This rule explains the conditions a company must follow when entering into contracts or arrangements with a related party. It covers what details must be in the board meeting agenda, the removal of interested directors from discussions, and the types of transactions that need prior company approval based on set limits. It also details the information required in the notice for a general meeting.",
+  "points": [
+   "The board meeting agenda must disclose specific details like the related party's name, relationship, nature of the contract, value, and pricing terms.",
+   "A director who is interested in the related party contract must not stay in the meeting while the matter is discussed.",
+   "Certain large transactions, such as selling goods or leasing property meeting specific percentages or salary limits, require prior approval through a resolution.",
+   "The notice for a general meeting must include an explanatory statement with specific particulars about the related party and the transaction."
+  ],
+  "example": "Meera Textiles Private Limited wants to buy property from a related party. Before the board meeting, the agenda clearly lists the name of the related party, the property value, and the pricing terms. Mr. Roy, a director who is related to that party, leaves the room during the discussion. Because the property value crosses the percentage limit of the company's net worth, the company seeks prior approval by passing a resolution, and includes all required details in the meeting notice.",
+  "terms": [
+   {
+    "term": "Related party",
+    "meaning": "A person or entity connected to the company in a way specified under the law."
+   },
+   {
+    "term": "Agenda",
+    "meaning": "A list of items to be discussed at a meeting."
+   },
+   {
+    "term": "Net worth",
+    "meaning": "The total value of assets minus liabilities as computed from audited financial statements."
+   }
+  ],
+  "watch": "An interested director must leave the room only during the discussion of that specific contract.",
+  "h": "9c793ed35247",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "16": {
+  "summary": "Every company must keep a special register to record details about certain business contracts, arrangements, and the outside interests of its directors. These entries must be made in order of date and kept safely at the company office. Members can ask for copies of this register upon request.",
+  "points": [
+   "Companies must maintain one or more registers in Form MBP 4.",
+   "Details of director interests, specific contracts, and related party transactions must be entered.",
+   "Entries must be made right away in chronological order and signed off by an authorized person.",
+   "The register stays at the registered office forever and must be kept secure.",
+   "Members can get copies of the register within seven days of asking by paying a fee."
+  ],
+  "example": "Meera Textiles Private Limited maintains a register in Form MBP 4 at its main office to record contracts and director interests. One day, a director enters into a business arrangement that falls under section 188. The company secretary immediately records this detail in the register in chronological order and signs to confirm it. Later, a shareholder named Aarav asks for a copy of the register. The company provides the requested extracts within seven days after Aarav pays the small fee mentioned in the company articles.",
+  "terms": [
+   {
+    "term": "Chronological order",
+    "meaning": "Arranged in the order that things happen by date."
+   },
+   {
+    "term": "Registered office",
+    "meaning": "The official main address of the company."
+   },
+   {
+    "term": "Related party",
+    "meaning": "An entity or person connected to the company in a way specified by law."
+   }
+  ],
+  "watch": "A common confusion is thinking you can charge any amount for copies, but the fee cannot exceed ten rupees per page.",
+  "h": "0cfe45b46d85",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "17": {
+  "summary": "This rule explains when a company can pay compensation to a director for losing their office. Specific details must be shared with members, who must then approve it by passing a resolution. Additionally, companies with certain financial defaults cannot make these payments.",
+  "points": [
+   "Particulars like the director name, proposed amount, and reason must be disclosed to members.",
+   "Members must pass a resolution at a general meeting to approve the payment.",
+   "Payments to top leaders like managing directors cannot exceed specific legal limits.",
+   "No compensation can be paid if the company has defaults in public deposits, loans, taxes, or employee dues."
+  ],
+  "example": "Meera Textiles Private Limited planned to give a compensation payment to its managing director, Mr. Sharma, for his retirement. Before making any payment, the company disclosed all required details, such as the exact amount and the reasons, to its members at a general meeting. The members reviewed the details and passed a resolution approving the payment. Because the company had no pending tax, loan, or employee dues defaults, the compensation process followed the rules correctly.",
+  "terms": [
+   {
+    "term": "Compensation",
+    "meaning": "Money given to a person to make up for a loss, such as losing a job or office."
+   },
+   {
+    "term": "Resolution",
+    "meaning": "A formal decision or vote made by the members of a company."
+   },
+   {
+    "term": "Debentures",
+    "meaning": "A type of debt instrument or bond issued by a company that acknowledges a loan."
+   }
+  ],
+  "watch": "Make sure to check if the company has any unpaid statutory dues or loan defaults, as this completely blocks compensation payments.",
+  "h": "028097980fa5",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

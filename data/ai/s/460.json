@@ -1,0 +1,23 @@
+{
+ "summary": "This section allows the Central Government to forgive delays when companies fail to submit certain applications or documents on time. To do this, the Government must write down its reasons for forgiving the delay. This rule applies even if other parts of the law say otherwise.",
+ "points": [
+  "The Central Government can forgive a delay if an application is not made to it within the specified time.",
+  "The Central Government can forgive a delay if a document is not filed with the Registrar within the specified time.",
+  "The Government must record its reasons in writing when it condones a delay."
+ ],
+ "example": "Meera Textiles Private Limited needed to submit an important application to the Central Government under the Companies Act. Unfortunately, the company failed to submit this application within the time specified by the law. Realizing the mistake, Meera Textiles requested the Central Government to excuse the late submission. After reviewing the situation, the Central Government agreed to forgive the delay and wrote down its reasons for doing so. Similarly, when the company missed the deadline to file a required document with the Registrar, the Central Government used this same power to condone the late filing, again recording its reasons in writing.",
+ "terms": [
+  {
+   "term": "condone",
+   "meaning": "to forgive or overlook a mistake or delay"
+  },
+  {
+   "term": "Registrar",
+   "meaning": "an official who keeps company records"
+  }
+ ],
+ "watch": "This section only talks about forgiving delays for applications and documents, and does not set any new deadlines or penalties.",
+ "h": "d6f3202bd44e",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-11"
+}

@@ -1,0 +1,82 @@
+{
+ "2": {
+  "summary": "This rule gives simple meanings to specific words used in the National Company Law Appellate Tribunal Rules, 2016. It explains key terms like advocate, appeal, and party to make the rules easier to understand. Any words not defined here will take their meaning from the Companies Act, 2013 or related tribunal rules.",
+  "points": [
+   "The Act means the Companies Act, 2013.",
+   "An advocate is someone allowed to practice law under the Advocates Act, 1961.",
+   "A party includes the person filing the appeal, the respondent, or anyone interested in the appeal.",
+   "An authorised representative is someone given written permission by a party to present their case."
+  ],
+  "example": "Meera Textiles Private Limited wanted to challenge a tribunal order. They decided to file an appeal. Meera, acting on behalf of the company, hired Mr. Sharma, an advocate entitled to practice law under the Advocates Act, 1961, to present their case. Since Mr. Sharma was legally allowed to practice law, he acted as their advocate. The company also gave written permission to their manager, Mr. Verma, to represent them, making him their authorised representative before the Appellate Tribunal.",
+  "terms": [
+   {
+    "term": "interlocutory application",
+    "meaning": "An application made in an appeal that is already filed, excluding execution proceedings."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "The Registrar of the Appellate Tribunal."
+   }
+  ],
+  "watch": "Do not assume terms not defined here have everyday meanings; check the Act and Tribunal Rules first.",
+  "h": "e23bde65cf44",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "63": {
+  "summary": "This rule explains who can represent a party or government office in cases before the Appellate Tribunal. A party can appear personally or choose professionals like lawyers, chartered accountants, company secretaries, cost accountants, or others. Government authorities can also send authorised officers or advocates to represent them, provided the officer holds a specific minimum rank.",
+  "points": [
+   "A party in a case can appear by themselves or choose an authorised person to present their case.",
+   "Authorised persons include chartered accountants, company secretaries, cost accountants, legal practitioners, or others.",
+   "Government bodies like the Central Government or Registrar of Companies can send an officer or advocate.",
+   "Any officer sent by a government body must be at least of the rank of Junior Time Scale or be a company prosecutor."
+  ],
+  "example": "Meera Textiles Private Limited is involved in a legal dispute before the Appellate Tribunal. Instead of attending all hearings personally, the company decides to authorise a qualified legal practitioner to present its case. Meanwhile, the Registrar of Companies also wants to participate in the same proceedings. To do this, the Registrar officially authorises a company prosecutor to represent its office before the Tribunal, ensuring the person meets the required rank mentioned in the rules.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher body that reviews decisions and hears appeals."
+   },
+   {
+    "term": "Legal practitioner",
+    "meaning": "A person who is qualified and allowed to practice law, such as an advocate."
+   },
+   {
+    "term": "Official Liquidator",
+    "meaning": "An officer appointed to handle the winding up and closing of a company."
+   }
+  ],
+  "watch": "People often confuse government representation rules with private party rules, but government officers must meet a minimum rank requirement.",
+  "h": "c5377afc7e95",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "77": {
+  "summary": "This rule explains how witnesses are called and examined, or how commissions are issued, by the Tribunal. It states that specific sections of the Companies Act, 2013, and the Code of Civil Procedure, 1908, must be followed for these actions. These guidelines help ensure a fair legal process when gathering evidence or testimony.",
+  "points": [
+   "The Tribunal follows section 424 of the Act for procedure.",
+   "Rules from Orders XVI and XXVI of the Code of Civil Procedure, 1908, also apply.",
+   "These rules cover summoning and enforcing attendance of people.",
+   "They also cover examining persons on oath and issuing commissions for witnesses or documents."
+  ],
+  "example": "In a dispute involving Meera Textiles Private Limited, the tribunal needed to examine a key witness who lived in another city. To do this legally, the tribunal applied the procedures outlined in the Code of Civil Procedure, 1908, as required by Rule 77. They issued a commission to examine the witness and request the necessary business documents without violating any statutory mandates.",
+  "terms": [
+   {
+    "term": "Commission",
+    "meaning": "An official instruction or order given to a person to carry out a specific legal task, such as examining a witness."
+   },
+   {
+    "term": "Summoning",
+    "meaning": "Ordering someone officially to appear in a court or tribunal."
+   },
+   {
+    "term": "Oath",
+    "meaning": "A formal, solemn promise to tell the truth."
+   }
+  ],
+  "watch": "Do not assume any specific time limits or penalty amounts since the text does not mention them.",
+  "h": "0d844d904eea",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

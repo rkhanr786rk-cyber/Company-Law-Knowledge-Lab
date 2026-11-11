@@ -1,0 +1,26 @@
+{
+ "2": {
+  "summary": "This rule explains the meaning of basic terms used in the regulations for the National Company Law Appellate Tribunal. It clarifies words like Act, Appointing Authority, Appellate Tribunal, Chairperson, and Schedule. Any other words not defined here will carry the meaning given in the Companies Act, 2013.",
+  "points": [
+   "Act means the Companies Act, 2013.",
+   "Appointing Authority is the Central Government or a notified authority with power to make appointments.",
+   "Appellate Tribunal refers to the National Company Law Appellate Tribunal formed under section 410.",
+   "Chairperson means the head of the Appellate Tribunal."
+  ],
+  "example": "When Star Solutions Private Limited got involved in a corporate dispute, they looked at the rules for the tribunal. They needed to understand who the Appointing Authority was for hiring staff. By reading these definitions, they learned it could be the Central Government or another body given that specific power by an official notification.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A special court that hears appeals against orders made by lower tribunals or authorities."
+   },
+   {
+    "term": "Notification",
+    "meaning": "A formal public announcement or published notice."
+   }
+  ],
+  "watch": "Do not assume terms without a definition here mean nothing; check the Companies Act, 2013 for their meanings.",
+  "h": "8b96412235d7",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "summary": "Section 455 allows certain companies that are inactive or formed for future projects to apply to the Registrar to become a dormant company. The Registrar checks the application, issues a certificate, and keeps a special register of such companies. A dormant company can later apply to become active again by following the required steps.",
+ "points": [
+  "A company formed for a future project or to hold an asset, or an inactive company, can apply to the Registrar to get dormant status.",
+  "An inactive company is one that has not done business, significant accounting transactions, or filed financial statements and annual returns for the last two financial years.",
+  "Certain basic payments like statutory fees, office maintenance, and share allotment are not counted as significant accounting transactions.",
+  "The Registrar reviews the application and gives a certificate if approved, and also maintains a register of dormant companies.",
+  "The Registrar will issue a notice and add a company to the dormant register if it fails to file financial statements or annual returns for two financial years in a row.",
+  "A dormant company can return to being an active company by making an application and fulfilling the required conditions."
+ ],
+ "example": "Aarav and Meera started Meera Textiles Private Limited to hold a piece of land for a future factory, but they have not carried out any business operations or major money transactions since its registration. Because the company has no significant accounting transactions and was set up to hold an asset for a future project, they decide to apply to the Registrar to obtain the status of a dormant company. After reviewing their application, the Registrar accepts it, issues a certificate, and enters the company name into the register of dormant companies. Later, when they are ready to start building the factory, they apply to make Meera Textiles Private Limited an active company again.",
+ "terms": [
+  {
+   "term": "Registrar",
+   "meaning": "The government official who keeps records of companies and handles their registration."
+  },
+  {
+   "term": "Dormant company",
+   "meaning": "A company that is registered but not active, often kept for future projects or holding assets."
+  },
+  {
+   "term": "Financial statements",
+   "meaning": "Official reports that show the financial health and activities of a company."
+  }
+ ],
+ "watch": "Note that paying normal office maintenance or statutory fees does not count as active business, so a company can still be inactive even if it makes these basic payments.",
+ "h": "08817c3fab64",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-11"
+}

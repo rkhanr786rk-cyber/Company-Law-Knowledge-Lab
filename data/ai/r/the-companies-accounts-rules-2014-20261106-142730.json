@@ -1,0 +1,257 @@
+{
+ "2A": {
+  "summary": "This rule explains how a company must inform the government where it keeps its financial records. According to the text, the company must use a specific form called Form AOC-5 for this notice. It connects to the Companies Act rules about maintaining books of account.",
+  "points": [
+   "Companies must give notice of the address where books of account are kept.",
+   "This notice must be filed using Form AOC-5."
+  ],
+  "example": "Meera Textiles Private Limited decides to keep its financial books and records at a new warehouse location outside its main office. To follow the law correctly, the directors fill out Form AOC-5 to formally notify the authorities of this new address where the books of account are to be maintained.",
+  "terms": [
+   {
+    "term": "Books of account",
+    "meaning": "Financial records and documents of a company."
+   },
+   {
+    "term": "Form AOC-5",
+    "meaning": "A specific official form used to give notice of the address for keeping books."
+   }
+  ],
+  "watch": "Do not confuse this notice form with other annual filing forms.",
+  "h": "706939723396",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "5": {
+  "summary": "This rule tells companies how to present the main points of financial statements for their subsidiaries, associates, and joint ventures. Under the Companies Act, 2013, this information must be provided in a specific electronic form. It ensures standard reporting for these related business entities.",
+  "points": [
+   "Applies to subsidiaries, associate companies, and joint ventures.",
+   "Covers the salient features of their financial statements.",
+   "Must be filed using e-Form AOC-1."
+  ],
+  "example": "Meera Textiles Private Limited owns a smaller firm and a joint venture. When preparing its yearly financial reports under the Companies Act, 2013, Meera Textiles needs to share the key financial details of these connected businesses. To follow the rules correctly, the company must put this information into e-Form AOC-1.",
+  "terms": [
+   {
+    "term": "Subsidiary",
+    "meaning": "A company that is controlled by another company."
+   },
+   {
+    "term": "Joint venture",
+    "meaning": "A business arrangement where two or more parties agree to pool their resources for a specific task."
+   },
+   {
+    "term": "Financial statement",
+    "meaning": "A formal record of the financial activities and position of a business."
+   }
+  ],
+  "watch": "Do not confuse the main financial statements of the company with this separate statement for subsidiaries and joint ventures.",
+  "h": "241154f1ac64",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "6": {
+  "summary": "This rule explains how companies must combine their financial accounts together, following specific legal standards. Some companies do not need to combine their accounts if they meet certain conditions, such as being owned by another company that files the combined accounts. There are also specific temporary exceptions for certain financial years.",
+  "points": [
+   "Combined accounts must follow Schedule III of the Act and applicable accounting standards.",
+   "Certain subsidiary companies do not need to present combined financial statements if their members do not object and specific conditions are met.",
+   "Unlisted companies whose parent company files combined accounts with the Registrar are exempt from preparing them.",
+   "Special exceptions apply for the financial year 2014-2015 regarding associates, joint ventures, and foreign subsidiaries."
+  ],
+  "example": "Meera Textiles Private Limited is a wholly-owned subsidiary of Apex Holdings Private Limited. Meera Textiles is unlisted on any stock exchange. Apex Holdings properly informs all members of Meera Textiles in writing about not presenting consolidated financial statements, and keeps proof of delivery, with no members objecting. Furthermore, Apex Holdings files its consolidated financial statements with the Registrar in compliance with applicable Accounting Standards. Therefore, Meera Textiles is not required to prepare consolidated financial statements.",
+  "terms": [
+   {
+    "term": "Consolidated financial statements",
+    "meaning": "Combined financial accounts of a parent company and all its subsidiary companies."
+   },
+   {
+    "term": "Subsidiary",
+    "meaning": "A company that is controlled by another company, known as the holding or parent company."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "An authority appointed under the Act to handle company registration and filings."
+   }
+  ],
+  "watch": "Do not assume a company is completely free from all filing duties just because it is exempt from preparing consolidated statements.",
+  "h": "3adb6022545c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "7": {
+  "summary": "This rule explains which accounting rules apply during the transition period under the Companies Act, 2013. It states that old accounting standards continue to apply until new ones are set. It also explains who recommends and prescribes these standards before a specific authority is formed.",
+  "points": [
+   "Old accounting standards under the 1956 Act remain in use until the Central Government specifies new ones.",
+   "Before the National Financial Reporting Authority is formed, the Central Government can prescribe standards recommended by the Institute of Chartered Accountants of India.",
+   "The Central Government consults and examines recommendations from the older National Advisory Committee on Accounting Standards when setting these standards."
+  ],
+  "example": "At Sunrise Traders Private Limited, the accountants needed to prepare their annual financial reports. Because the Central Government had not yet specified new accounting standards under the current law, the company continued to use the established standards from the older Companies Act, 1956. The team followed these existing rules safely, knowing they remained fully valid as transitional standards until new ones were officially issued.",
+  "terms": [
+   {
+    "term": "Accounting standards",
+    "meaning": "Official rules and guidelines for how companies must report their financial information."
+   },
+   {
+    "term": "Central Government",
+    "meaning": "The main national government authority."
+   }
+  ],
+  "watch": "Do not assume that old rules are invalid; they continue to apply until new standards are officially specified.",
+  "h": "ac6ee19fbcc6",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "8": {
+  "summary": "This rule tells companies what information must be included in their Board's report each year. It covers financial statements, performance of related companies, energy conservation, and many other details. Some types of companies, like One Person Companies, do not have to follow these rules.",
+  "points": [
+   "The report must be based on standalone financial statements and include highlights of subsidiaries and joint ventures.",
+   "Companies must report details about energy conservation, technology absorption, and foreign exchange earnings and outgo.",
+   "Certain companies must include a statement on how the Board evaluated its own performance.",
+   "The report must contain details about deposits, complaints of sexual harassment, and pending insolvency proceedings."
+  ],
+  "example": "Meera Textiles Private Limited prepared its annual Board report based on its standalone financial statements. The directors included information about energy-saving steps taken during the year and details of foreign exchange inflows and outflows. They also added a note confirming that they maintained cost records as required by the Central Government, and reported that no complaints of sexual harassment were received under the applicable workplace safety law.",
+  "terms": [
+   {
+    "term": "Subsidiary",
+    "meaning": "A company that is controlled by another company."
+   },
+   {
+    "term": "Standalone financial statements",
+    "meaning": "Financial statements of a single company by itself, not combined with other companies."
+   }
+  ],
+  "watch": "Keep in mind that One Person Companies and Small Companies are exempt from this rule.",
+  "h": "3d08fdcf59c6",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "8A": {
+  "summary": "This rule explains what needs to be included in the Board's Report for a One Person Company and a Small Company. The report must use an abridged financial statement and cover specific details like board meetings, financial highlights, and auditor remarks. It also requires including details of certain contracts with related parties in a specific form.",
+  "points": [
+   "The report is prepared using the company's stand alone financial statement in an abridged form.",
+   "It must include the web address of the annual return, board meeting count, and the Directors Responsibility Statement.",
+   "It needs to list auditor-reported frauds not sent to the Central Government, and the board's comments on auditor remarks.",
+   "It must cover the company state of affairs, financial highlights, business changes, and director changes.",
+   "It must include significant court or regulator orders and related party contract details in Form AOC-2."
+  ],
+  "example": "Aarav runs a Small Company named Aarav Logistics Private Limited. When preparing his yearly Board Report, he uses the abridged financial statement. He includes the web address for the annual return, the number of board meetings held, and the state of the company affairs. He also notes the resignation of a director and attaches details of a contract with a related party in Form AOC-2 as required by the rules.",
+  "terms": [
+   {
+    "term": "abridged form",
+    "meaning": "A shortened or summarized version of a document."
+   },
+   {
+    "term": "stand alone financial statement",
+    "meaning": "Financial statements for a single company by itself, without combining it with subsidiaries."
+   },
+   {
+    "term": "going concern status",
+    "meaning": "The ability of a company to continue its business operations in the future without shutting down."
+   }
+  ],
+  "watch": "Do not confuse the abridged financial statement used for the report with the full financial statement.",
+  "h": "c80b7562900c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "10": {
+  "summary": "This rule explains which form companies must use when sending a summary of their financial documents to their members. Companies must generally use Form AOC-3. However, companies that follow the Indian Accounting Standards must use Form AOC-3A instead.",
+  "points": [
+   "The summary statement of financial documents must be in Form AOC-3.",
+   "Companies that comply with the Companies (Indian Accounting Standards) Rules, 2015 must use Form AOC-3A."
+  ],
+  "example": "Aarav Steel Private Limited follows the standard company accounting rules and sends its members a summary of its financial documents using Form AOC-3. Meanwhile, its neighbor, Zenith Tech Solutions Private Limited, must follow the Indian Accounting Standards. Because of this special standard, Zenith Tech Solutions Private Limited sends its financial summary to its members using Form AOC-3A instead.",
+  "terms": [
+   {
+    "term": "financial statements",
+    "meaning": "Official reports showing a company's financial health and activities."
+   },
+   {
+    "term": "salient features",
+    "meaning": "The main or most important points of a document."
+   }
+  ],
+  "watch": "Do not confuse Form AOC-3 with Form AOC-3A, as the correct form depends on which accounting standards your company follows.",
+  "h": "a3e6f1704767",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "11": {
+  "summary": "This rule explains how certain companies must send their financial statements to their members. It applies to all listed companies and specific large public companies. Depending on how shares are held and what members prefer, these documents can be sent by email or physical mail.",
+  "points": [
+   "Applies to all listed companies and public companies with a net worth over one crore rupees and turnover over ten crore rupees.",
+   "Can be sent by email to members who hold shares electronically and have registered their email addresses.",
+   "Can be sent by email to members who hold physical shares only if they give written consent.",
+   "Physical copies are sent through recognized delivery modes in all other cases."
+  ],
+  "example": "Alpha Public Limited Company meets the financial size criteria and needs to send its annual financial statements to shareholders. Rohan holds his shares electronically and has his email registered with the Depository, so he receives the documents by email. Priya holds her shares in physical form and has not given written consent to receive emails, so Alpha sends her a physical copy through a recognized delivery mode.",
+  "terms": [
+   {
+    "term": "listed companies",
+    "meaning": "Companies that have their shares traded on a recognized stock exchange."
+   },
+   {
+    "term": "dematerialised format",
+    "meaning": "Holding shares in electronic form instead of paper certificates."
+   },
+   {
+    "term": "turnover",
+    "meaning": "The total sales or revenue of a company during a specific period."
+   }
+  ],
+  "watch": "Do not assume all shareholders can automatically receive documents by email without checking how their shares are held and what consent they have given.",
+  "h": "fa8aea49d6b5",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "12": {
+  "summary": "This rule explains how companies must submit their financial statements and specific reports to the Registrar using designated electronic forms. It also details special requirements for Non-Banking Financial Companies and companies involved in Corporate Social Responsibility. Additionally, certain companies must use a specific electronic format for filing their financial information.",
+  "points": [
+   "Every company must file its financial statements with the Registrar using Form AOC-4.",
+   "Companies that do Corporate Social Responsibility must submit a report in Form CSR-2.",
+   "Certain companies must file their financial statements in Extensible Business Reporting Language format as notified by the Central Government."
+  ],
+  "example": "Meera Textiles Private Limited completed its financial year. The company needs to submit its financial statements and reports to the Registrar. Following the rules, it uses Form AOC-4 for its financial statements. Because it is covered under Corporate Social Responsibility provisions, it also submits Form CSR-2 as an addendum.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "An officer appointed under the Act to keep company records."
+   },
+   {
+    "term": "Extensible Business Reporting Language",
+    "meaning": "A standardised language for electronic communication to report financial information."
+   }
+  ],
+  "watch": "Make sure to file the correct electronic form depending on whether your company is a standard company, an NBFC, or has CSR obligations.",
+  "h": "d9893c3e52e7",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "13": {
+  "summary": "Specific classes of companies must appoint an internal auditor who can be an individual, a partnership firm, or a body corporate. Existing companies that meet the criteria must comply within six months of the commencement of the section. The company's Audit Committee or Board decides how the internal audit is conducted.",
+  "points": [
+   "Every listed company must appoint an internal auditor.",
+   "Unlisted public companies and private companies must appoint an internal auditor if they meet specific financial thresholds regarding share capital, turnover, loans, borrowings, or deposits.",
+   "The internal auditor may be an employee of the company or an outsider, and can be an individual, a partnership firm, or a body corporate.",
+   "Existing companies falling under these criteria must comply within six months.",
+   "The Audit Committee or the Board decides the scope and methodology of the audit in consultation with the internal auditor."
+  ],
+  "example": "Meera Textiles Private Limited is a private company. During the preceding financial year, its turnover reached two hundred crore rupees. Because it met this financial threshold, the company became required to appoint an internal auditor. The Board of Directors consulted with the internal auditor to set the scope, functioning, and methodology for conducting the internal audit.",
+  "terms": [
+   {
+    "term": "listed company",
+    "meaning": "A company that has any of its securities listed on any recognized stock exchange."
+   },
+   {
+    "term": "turnover",
+    "meaning": "The total amount of sales made by a company during a financial year."
+   },
+   {
+    "term": "body corporate",
+    "meaning": "A legal term for a corporation or company, including foreign companies."
+   }
+  ],
+  "watch": "An internal auditor does not strictly need to be an employee of the company.",
+  "h": "e2f100e857f9",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

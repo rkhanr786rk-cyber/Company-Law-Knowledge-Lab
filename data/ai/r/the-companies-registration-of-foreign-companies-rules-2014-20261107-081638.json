@@ -1,0 +1,215 @@
+{
+ "2": {
+  "summary": "This rule explains the meaning of words used in the rules for foreign companies under the Companies Act, 2013. It gives a broad definition of what 'electronic mode' means for doing business digitally in India. It also clarifies that other undefined words have the same meaning as given in the main Act.",
+  "points": [
+   "The Act means the Companies Act, 2013.",
+   "Electronic mode covers many digital business activities whether the main server is in India or not.",
+   "Electronic mode includes online transactions, deposits, financial services, and telemarketing via email, mobile, cloud, or other tech.",
+   "Offering or listing securities in International Financial Services Centres is not counted as electronic mode under this rule."
+  ],
+  "example": "Alpha Global Inc., a company based outside India, uses a cloud-based website to sell digital educational courses and accept payments from customers in India. Because Alpha Global is conducting business over the internet using digital supply and financial settlement services, this activity falls under the definition of 'electronic mode' as outlined in the rules.",
+  "terms": [
+   {
+    "term": "electronic mode",
+    "meaning": "Carrying out business activities and services digitally, whether the main computer server is located in India or abroad."
+   },
+   {
+    "term": "Annexure",
+    "meaning": "An attachment or document enclosed at the end of the rules."
+   }
+  ],
+  "watch": "Do not confuse general online activities with offering securities in International Financial Services Centres, which the rules specifically exclude from electronic mode.",
+  "h": "64587e53a8d1",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "3": {
+  "summary": "This rule explains the details that a foreign company must give to the Registrar when it sets up a place of business in India. It must provide a list of its directors and secretary containing specific personal information. It also sets a thirty day time limit to file Form FC-1 and necessary approvals.",
+  "points": [
+   "A foreign company must deliver a list of its directors and secretary to the Registrar within thirty days of setting up its place of business in India.",
+   "The list must include details such as full name, date of birth, residential address, nationality, passport details, and e-mail ID.",
+   "The company must file Form FC-1 along with the required fee and an attested copy of approval from the Reserve Bank of India or a declaration that no approval is needed.",
+   "If any changes happen to the registered documents, the company must file a return in Form FC-2 within thirty days of the change."
+  ],
+  "example": "Alpha Global Inc., a company based outside India, recently set up its place of business in India. Within thirty days, it prepared a list of its directors and secretary containing all required personal particulars like names, dates of birth, and passport numbers. They filed Form FC-1 with the Registrar, along with the prescribed fee and an approved declaration regarding their business setup. Later, when one of their directors changed their residential address, Alpha Global Inc. filed Form FC-2 within thirty days to report this alteration.",
+  "terms": [
+   {
+    "term": "foreign company",
+    "meaning": "Any company or body corporate incorporated outside India which has a place of business in India."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "An officer appointed under the Act who keeps the registry of companies."
+   },
+   {
+    "term": "DIN",
+    "meaning": "Director Identification Number allotted to a person for being a director."
+   }
+  ],
+  "watch": "Make sure to file the required forms and lists within the strict thirty day deadline from the establishment of the place of business.",
+  "h": "423d7804e756",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "4": {
+  "summary": "Every foreign company doing business in India must prepare financial statements for its Indian operations for each financial year. These statements must follow specific formats and include required documents like parent company financial statements and various detailed statements. All these documents must be delivered to the Registrar within six months of the close of the financial year.",
+  "points": [
+   "A foreign company must prepare financial statements for its Indian business operations for each financial year.",
+   "Non-English documents must include a certified English translation.",
+   "The company must attach statements of related party transactions, profit repatriation, and fund transfers.",
+   "All required documents must be delivered to the Registrar within six months of the close of the financial year."
+  ],
+  "example": "Alpha Global Inc., a foreign company operating in India, needs to file its yearly records. It prepares the financial statements for its Indian business operations following Schedule III. Along with these, Alpha Global Inc. attaches a statement showing related party transactions, a statement of profit repatriation, and a statement of fund transfers. Since some parent company documents are in another language, the company includes a certified English translation. All these completed documents are delivered to the Registrar within six months of the close of the financial year.",
+  "terms": [
+   {
+    "term": "Financial statement",
+    "meaning": "A formal record of the financial activities and position of a business."
+   },
+   {
+    "term": "Repatriation",
+    "meaning": "Sending money or profits back to one's own home country."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "The official government authority designated to receive company filings."
+   }
+  ],
+  "watch": "Make sure to remember that the Registrar can extend the filing period by up to three months only if the foreign company applies in writing with a special reason.",
+  "h": "ad1f6e3ebdf9",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "5": {
+  "summary": "This rule requires every foreign company doing business in India to get its Indian accounts audited. The audit must be done by a practicing Chartered Accountant or a firm in India. General rules about audits also apply to these foreign companies.",
+  "points": [
+   "A foreign company must audit its accounts related to Indian business operations.",
+   "The auditor must be a practicing Chartered Accountant, a firm, or a limited liability partnership of chartered accountants in India.",
+   "General rules for audit and auditors apply to foreign companies as far as possible."
+  ],
+  "example": "Alpha Global Corp, a foreign company, opened a branch office in India to sell software. To comply with the law, Alpha Global Corp hired a practicing Chartered Accountant in India to audit the accounts of its Indian business operations. The local accountant checked the financial records and followed the standard audit rules applicable to foreign companies operating in India.",
+  "terms": [
+   {
+    "term": "Foreign company",
+    "meaning": "A company or body corporate incorporated outside India which has a place of business in India."
+   },
+   {
+    "term": "Chartered Accountant",
+    "meaning": "A professional accountant who is a member of the Institute of Chartered Accountants of India and holds a certificate to practice."
+   },
+   {
+    "term": "Mutatis mutandis",
+    "meaning": "With necessary changes having been made, or meaning that applicable rules are adjusted to fit the new situation."
+   }
+  ],
+  "watch": "Do not assume that foreign rules apply; Indian audit requirements and practicing professionals must be used for the Indian operations.",
+  "h": "9b4ccb85753e",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "9": {
+  "summary": "This rule explains how a foreign company must certify copies of its founding documents, like its memorandum or articles, before submitting them. The required method of certification depends on whether the company is incorporated in a Commonwealth country, outside the Commonwealth, or in a country that is part of the Hague Apostille Convention. Any changes made to these documents must also be certified in the same way.",
+  "points": [
+   "Documents for companies outside the Commonwealth need certification by a government official, a notary, or a company officer, followed by specific diplomatic authentication.",
+   "Documents for companies in the Commonwealth can be certified by a government official, a notary, or a company officer taking an oath.",
+   "Companies from countries that signed the Hague Apostille Convention must have their government-certified documents apostillised.",
+   "Altered documents must also be certified using these same methods."
+  ],
+  "example": "Global Tech Inc., a company based in a country outside the Commonwealth, wants to submit its foundational documents to set up a place of business. It gets a copy of its memorandum certified as a true copy by a notary public of that country. Because it is outside the Commonwealth, the notary public's certificate must then be authenticated by a diplomatic or consular officer empowered for that purpose.",
+  "terms": [
+   {
+    "term": "Foreign company",
+    "meaning": "A company or body corporate incorporated outside India which has a place of business in India."
+   },
+   {
+    "term": "Commonwealth",
+    "meaning": "A political association of member countries, mostly former territories of the British Empire."
+   },
+   {
+    "term": "Apostillised",
+    "meaning": "Certified under the Hague Convention to verify the authenticity of a public document for international use."
+   }
+  ],
+  "watch": "Make sure to check which specific country group the foreign company belongs to, as the certification and authentication steps change completely.",
+  "h": "3d12c44ab311",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "10": {
+  "summary": "This rule explains how foreign companies must submit documents in English to the Registrar. If a document is in another language, an official English translation must be attached and properly certified. The rules for certification depend on whether the translation is done inside or outside India.",
+  "points": [
+   "All documents filed by foreign companies must be in English or have a certified English translation attached.",
+   "Translations made outside India must be signed and sealed by the official holding the original document or a local notary public.",
+   "Translations made inside India must be authenticated by a qualified advocate, attorney, pleader, or through an affidavit by a competent person."
+  ],
+  "example": "Alpha Global Inc., a company based in France, wants to file its documents with the Registrar in India. Some of its official papers are written in French. To comply with the law, Alpha Global gets the documents translated into English. Because the translation is done outside India, it is authenticated by a local Notary Public of the country where the company is incorporated, ensuring the English version is officially certified.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "The government authority that keeps records of companies."
+   },
+   {
+    "term": "Notary (Public)",
+    "meaning": "An official who verifies and certifies documents."
+   },
+   {
+    "term": "Affidavit",
+    "meaning": "A written statement confirmed by oath or affirmation for use as evidence."
+   }
+  ],
+  "watch": "Check carefully whether the translation was done inside or outside India, as the required certifying person is different for each.",
+  "h": "0d6a6200affd",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "12": {
+  "summary": "This rule deals with people who do business using a name or title that makes it look like they are a foreign company registered in India. If they are not actually registered, they can face an official investigation into their business. After this investigation, proper actions will be taken against them.",
+  "points": [
+   "Do not trade or run a business using the name or description of a registered foreign company unless you are actually registered.",
+   "Doing so makes the person or persons involved liable for an official investigation under section 210 of the Companies Act, 2013.",
+   "Further actions will follow based on the results of that investigation."
+  ],
+  "example": "Aarav starts a local retail shop in Mumbai and calls it 'Global Tech Solutions Inc., a registered foreign company', even though he never registered it under the Companies Act, 2013. Because he is trading under a description as a foreign company without proper registration, Aarav is now liable to face an official investigation under section 210 of the Act, and further actions will be taken against him based on that investigation.",
+  "terms": [
+   {
+    "term": "Foreign company",
+    "meaning": "A company or body corporate incorporated outside India which has a place of business in India."
+   },
+   {
+    "term": "Investigation",
+    "meaning": "A formal and official inquiry into the affairs of a company or business."
+   }
+  ],
+  "watch": "Do not confuse simply doing regular local business with falsely pretending to be a registered foreign company.",
+  "h": "e252f3c8e605",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "13": {
+  "summary": "This rule explains the strict requirements and procedures for a company based outside India to issue Indian Depository Receipts. The issuing company must meet specific financial and trading history criteria before applying. It must also follow detailed steps involving approvals from the Securities and Exchange Board of India and filing a prospectus.",
+  "points": [
+   "The issuing company must meet minimum paid-up capital, free reserves, market capitalization, and trading history rules.",
+   "The company must have a track record of profits and follow rules set by the Securities and Exchange Board of India and the Reserve Bank of India.",
+   "The company must apply to the Securities and Exchange Board of India with a draft prospectus at least ninety days before the opening date.",
+   "The company must appoint key entities like an overseas custodian bank, a domestic depository, and a merchant banker."
+  ],
+  "example": "Alpha Global Corporation, a company incorporated in a foreign country, wants to issue Indian Depository Receipts in India. First, Alpha checks that its paid-up capital, free reserves, and average market capitalization meet the required amounts. Next, it applies to the Securities and Exchange Board of India using a draft prospectus through a merchant banker. After getting approval and paying the fee, Alpha files the final prospectus certified by its directors with the Registrar of Companies in New Delhi before launching the issue.",
+  "terms": [
+   {
+    "term": "Indian Depository Receipts",
+    "meaning": "An instrument in the form of a depository receipt created by a Domestic Depository in India and authorized by a company incorporated outside India."
+   },
+   {
+    "term": "Domestic Depository",
+    "meaning": "A custodian of securities registered with the Securities and Exchange Board of India and authorized by the issuing company to issue IDRs."
+   },
+   {
+    "term": "Overseas Custodian Bank",
+    "meaning": "A banking company established outside India that acts as a custodian for the equity shares of the issuing company."
+   }
+  ],
+  "watch": "People often confuse Indian Depository Receipts with ordinary shares, but they are actually specialized instruments issued in India against shares of a foreign company.",
+  "h": "85385d2ac3dd",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

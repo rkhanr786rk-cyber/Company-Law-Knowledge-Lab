@@ -1,0 +1,29 @@
+{
+ "summary": "Section 447 of the Companies Act sets the punishments for anyone found guilty of fraud involving a company. The penalties depend on the amount involved and whether public interest is affected. It also clearly defines what counts as fraud, wrongful gain, and wrongful loss.",
+ "points": [
+  "Fraud includes any act, omission, hiding of facts, or abuse of position meant to deceive or gain an unfair advantage.",
+  "For large frauds involving at least ten lakh rupees or one percent of company turnover, the person faces prison time from six months up to ten years and a fine up to three times the fraud amount.",
+  "If the large fraud involves public interest, the minimum prison time is three years.",
+  "For smaller frauds below that threshold with no public interest, the punishment is prison up to five years, a fine up to fifty lakh rupees, or both.",
+  "This punishment is in addition to any other liability, such as repaying debts."
+ ],
+ "example": "Aarav is a manager at Meera Textiles Private Limited. He intentionally hides financial debts of the company from the shareholders and creditors to gain an unfair advantage for himself. This deception is discovered during an audit. Since Aarav committed an act of concealment with intent to deceive and injure the interests of the shareholders and creditors, he is found guilty of fraud under Section 447. He must repay any debt he is liable for and faces imprisonment and fines according to the rules set in this section.",
+ "terms": [
+  {
+   "term": "fraud",
+   "meaning": "Any act, hiding of facts, or abuse of position done to deceive or gain an unfair advantage."
+  },
+  {
+   "term": "wrongful gain",
+   "meaning": "Getting property by unlawful means that you are not legally entitled to."
+  },
+  {
+   "term": "wrongful loss",
+   "meaning": "Losing property by unlawful means when you are legally entitled to keep it."
+  }
+ ],
+ "watch": "Even if there is no actual wrongful gain or loss, an act meant to deceive can still be legally classified as fraud.",
+ "h": "5fa9dcb2dbed",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-11"
+}

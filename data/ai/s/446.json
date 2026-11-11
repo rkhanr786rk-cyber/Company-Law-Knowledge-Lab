@@ -1,0 +1,27 @@
+{
+ "summary": "This section explains what can be done with the money collected from fines charged under the Companies Act, 2013. The court that gives the fine can order that the money be used to pay for the court costs. It can also order that the money be given as a reward to the person who gave the information that started the case.",
+ "points": [
+  "The court can direct how the fine collected under the Act is used.",
+  "The fine money may be used to pay the costs of the legal proceedings.",
+  "The fine money may be given as a reward to the person who provided the information."
+ ],
+ "example": "Aman noticed that Reliable Electronics Private Limited was breaking rules under the Companies Act, 2013, and he informed the authorities. The authorities started a legal case against the company based on Aman's information. The court found the company guilty and ordered them to pay a fine. Because Aman was the person who gave the tip, the court decided to use part of that fine money to give a reward to Aman. The court also used some of the fine money to pay for the costs of running the court proceedings, following the rules given in the Act.",
+ "terms": [
+  {
+   "term": "Fine",
+   "meaning": "An amount of money that a court orders someone to pay as a punishment for breaking the law."
+  },
+  {
+   "term": "Proceedings",
+   "meaning": "The official steps and actions taken in a court of law during a legal case."
+  },
+  {
+   "term": "Reward",
+   "meaning": "A sum of money given to someone in recognition of their helpful service or information."
+  }
+ ],
+ "watch": "Remember that the court has the choice to use the fine for these purposes, but it is not forced to do so.",
+ "h": "7af29be5dfae",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-11"
+}

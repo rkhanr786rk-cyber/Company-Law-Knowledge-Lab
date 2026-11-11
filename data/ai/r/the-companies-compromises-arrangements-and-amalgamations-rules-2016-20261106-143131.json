@@ -1,0 +1,493 @@
+{
+ "3": {
+  "summary": "This rule explains how to apply to the Tribunal for an order to hold a meeting regarding a company compromise or arrangement. It covers the required forms, fees, joint applications, and special rules for takeover offers by members holding a large share of the company. The text outlines the specific documents and details that must be submitted with the application.",
+  "points": [
+   "An application for a meeting order must be submitted in Form No. NCLT-1 along with specific notices, affidavits, the scheme of compromise or arrangement, and the required fee.",
+   "Companies involved in the same scheme can choose to file a joint application.",
+   "If someone other than the company applies, they must serve a copy of the notice and affidavit to the company or its liquidator at least fourteen days before the hearing.",
+   "A member may apply for a takeover offer if they and other members hold at least three-fourths of the voting shares and want to acquire the remaining shares, backed by a valuer's report and a separate bank account with at least half the total consideration."
+  ],
+  "example": "Meera Textiles Private Limited and Apex Fabrics Private Limited decided to merge through a scheme of arrangement. Together, they submitted a joint application to the Tribunal using Form No. NCLT-1, along with a notice of admission in Form No. NCLT-2, an affidavit in Form No. NCLT-6, a copy of their proposed scheme, and the prescribed fee. To support the application, they clearly explained to the Tribunal how they identified each class of creditors and members for approving the scheme.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "The judicial body that handles company law disputes and approvals in India."
+   },
+   {
+    "term": "Affidavit",
+    "meaning": "A written statement confirmed by oath or affirmation for use as evidence in court."
+   },
+   {
+    "term": "Liquidator",
+    "meaning": "A person appointed to wind up a company and distribute its assets."
+   }
+  ],
+  "watch": "Do not confuse a regular company-led application with a member-led takeover offer application, as the latter requires a registered valuer's report and a separate bank deposit.",
+  "h": "36a8d5420915",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "4": {
+  "summary": "This rule requires certain company restructuring plans to include a special statement from creditors. This statement must follow a specific official form. It applies when a company changes how it pays back its debts to its creditors.",
+  "points": [
+   "A creditor's responsibility statement must be included in the scheme.",
+   "The statement must use the official form named Form No. CAA. 1.",
+   "This rule applies only to corporate debt restructuring schemes."
+  ],
+  "example": "Meera Textiles Private Limited decides to change how it pays back money owed to its bank. Because this plan alters the company's debt obligations towards its creditors, it is a corporate debt restructuring scheme. Therefore, the company must include a creditor's responsibility statement in Form No. CAA. 1 as part of its restructuring plan.",
+  "terms": [
+   {
+    "term": "Corporate debt restructuring",
+    "meaning": "A plan that changes or varies the debt obligations of a company towards its creditors."
+   }
+  ],
+  "watch": "Do not assume this rule applies to every company meeting, as it specifically relates to corporate debt restructuring schemes.",
+  "h": "a437b3ebf4e8",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "5": {
+  "summary": "When a company applies for a compromise or arrangement, the Tribunal reviews the request and decides the next steps. Unless the Tribunal rejects the application, it issues clear directions on how meetings of creditors or members should be organized. These directions cover details like who needs to meet, when and where the meeting happens, and who will manage it.",
+  "points": [
+   "The Tribunal decides which groups of creditors or members must hold meetings, or if meetings can be skipped.",
+   "It sets the time, place, quorum, and voting methods for the meetings.",
+   "It appoints a chairperson and a scrutinizer, and decides their pay and terms.",
+   "It orders how notices and advertisements for the meeting must be given to people and regulators."
+  ],
+  "example": "Meera Textiles Private Limited applied to the Tribunal for a business arrangement with its creditors. The Tribunal reviewed the application and decided not to dismiss it. Instead, it issued directions for the process. The Tribunal appointed Mr. Sharma as the chairperson for the meeting, fixed the exact date and time for the gathering, and ordered the company to send proper notices to all relevant creditors and authorities before the meeting took place.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized official body or court that handles specific legal disputes and matters under company law."
+   },
+   {
+    "term": "Quorum",
+    "meaning": "The minimum number of members or creditors who must be present to make the meeting valid."
+   },
+   {
+    "term": "Proxy",
+    "meaning": "A person authorized to represent and vote on behalf of a member or creditor at a meeting."
+   }
+  ],
+  "watch": "People often confuse these Tribunal directions as the final approval of the arrangement, whereas they are only instructions for holding the preliminary meetings.",
+  "h": "052cf0540904",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "6": {
+  "summary": "This rule explains how notice must be given when a meeting of creditors or members is ordered by the Tribunal for a company compromise or arrangement. The notice must use a specific form and be sent individually to every creditor or member at least one month before the meeting. It must also include a copy of the scheme and detailed disclosures about the company and the proposal.",
+  "points": [
+   "The notice of the meeting must be in Form No. CAA. 2 and sent individually to each creditor or member.",
+   "Notices must be sent at least one month before the meeting date by registered post, speed post, courier, email, hand delivery, or another mode directed by the Tribunal.",
+   "The notice must be sent by the appointed Chairperson, or by the company, its liquidator, or another person directed by the Tribunal.",
+   "The notice must include a copy of the scheme and a detailed statement with company details, valuation reports, and effects on various groups."
+  ],
+  "example": "Aarav Energy Private Limited planned a corporate compromise. The Tribunal ordered a meeting of its members. The Chairperson sent the notice in Form No. CAA. 2 to every member individually by registered post at least one month before the meeting. Along with the notice, each member received a copy of the compromise scheme and a statement containing company details, valuation reports, and the effects of the plan on employees and directors.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "The judicial authority appointed under the law to handle company disputes and approvals."
+   },
+   {
+    "term": "Amalgamation",
+    "meaning": "The combining of one or more companies into a single company."
+   },
+   {
+    "term": "Proxies",
+    "meaning": "Persons authorized to vote on behalf of a member at a meeting."
+   }
+  ],
+  "watch": "People often confuse when postal notices are delivered, but the rule deems delivery to happen forty-eight hours after posting.",
+  "h": "b7eb7659e4f6",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "7": {
+  "summary": "This rule explains how a company must advertise the meeting notice for a compromise or arrangement. The notice must appear in local newspapers and be uploaded to specific websites depending on whether the company is listed. If multiple meetings are needed, the company can publish just one joint advertisement.",
+  "points": [
+   "The meeting notice must be advertised in Form No. CAA. 2.",
+   "It must appear in at least one English newspaper and one local language newspaper where the company office is located, or as the Tribunal directs.",
+   "The notice must be put on the company website at least thirty days before the meeting, if the company has one.",
+   "Listed companies must also put the notice on the SEBI website and the recognized stock exchange website.",
+   "A single joint advertisement can be used if separate meetings for different classes of creditors or members are held."
+  ],
+  "example": "Meera Textiles Private Limited planned a meeting for its members under Section 230. To follow the rules, the company published the meeting notice in Form No. CAA. 2 in one English newspaper and one vernacular newspaper circulated in the State where its registered office is located. Since Meera Textiles is not a listed company, it also uploaded the notice on its own website more than thirty days before the meeting date, ensuring all members were properly informed.",
+  "terms": [
+   {
+    "term": "vernacular newspaper",
+    "meaning": "A local language newspaper that is widely read in the State where the company has its registered office."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "The judicial authority, specifically the National Company Law Tribunal (NCLT), which handles company law matters."
+   }
+  ],
+  "watch": "Do not forget that listed companies have extra website publishing duties that unlisted companies do not have.",
+  "h": "9cc68e11033e",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "8": {
+  "summary": "This rule explains how notices must be sent to government and regulatory authorities when a company plans a compromise or arrangement. It tells the company which form to use, which authorities must receive it, and how they should send it. It also sets a thirty-day time limit for these authorities to send any replies back.",
+  "points": [
+   "The notice must be in Form No. CAA.3 along with a copy of the scheme, explanatory statement, and disclosures.",
+   "It must be sent to the Central Government, Registrar of Companies, and Income-tax authorities in all cases, and to others like RBI or SEBI if applicable.",
+   "Notices must be sent right after sending them to members or creditors, using registered post, speed post, courier, or hand delivery.",
+   "Authorities have thirty days from receiving the notice to send their representations to the Tribunal and the company, or else it is assumed they have nothing to say."
+  ],
+  "example": "Meera Textiles Private Limited planned a corporate arrangement. Right after notifying its creditors, the company sent a notice in Form No. CAA.3 along with the scheme and explanatory statement to the Central Government, the Registrar of Companies, and the Income-tax authorities by speed post. The Income-tax authorities received the notice and checked the plan. Because they wanted to share their views, they sent their official representation to the Tribunal and the company within thirty days. If they had stayed silent for those thirty days, the Tribunal would have assumed they had no comments.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized official body or court that handles company law disputes and cases."
+   },
+   {
+    "term": "Representation",
+    "meaning": "A formal statement, comment, or objection sent by an authority."
+   }
+  ],
+  "watch": "People often confuse the thirty-day deadline for authorities to reply with a time limit for the company to send out the notice.",
+  "h": "0aada64cac83",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "11": {
+  "summary": "This rule gives creditors and members the right to get a copy of a proposed company compromise or arrangement scheme. The company must provide this along with the required statement for free within one day of being asked. It ensures that everyone entitled to attend the meeting has the necessary information.",
+  "points": [
+   "Applies to every creditor or member who can attend the meeting.",
+   "The company must provide the copy free of charge.",
+   "The copy must be given within one day of a request being made.",
+   "Must include both the scheme and the statement required under section 230."
+  ],
+  "example": "Meera Textiles Private Limited planned a compromise scheme with its members. Rahul, a member entitled to attend the upcoming meeting, sent a formal requisition to the company asking for a copy of the scheme and the section 230 statement. Because the rule states the company must furnish these documents free of charge within one day of the request, Meera Textiles Private Limited promptly provided Rahul with both documents the very next day without charging any fee.",
+  "terms": [
+   {
+    "term": "Creditor",
+    "meaning": "A person or entity to whom the company owes money."
+   },
+   {
+    "term": "Requisition",
+    "meaning": "A formal request or demand for something."
+   },
+   {
+    "term": "Scheme",
+    "meaning": "A planned proposal or arrangement."
+   }
+  ],
+  "watch": "People often confuse the one-day timeline with working days, but the rule simply says within one day of the requisition.",
+  "h": "288813cf9d6a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "15": {
+  "summary": "When a company and its members or creditors agree on a plan for a compromise, arrangement, or merger, the company must ask the Tribunal to approve it. This request is made by filing a petition within seven days after the Chairperson files their report. If the company fails to file this petition on time, a member or creditor can ask the Tribunal for permission to file it instead, and the company will have to pay the costs.",
+  "points": [
+   "The company or its liquidator must present a petition to the Tribunal using Form No. CAA. 5 within seven days of the Chairperson filing the report.",
+   "If the plan involves reconstructing or merging companies, the petition must ask for orders and directions under sections 230 and 232 of the Act.",
+   "If the company does not present the petition, any creditor or member may do so with the Tribunal's permission, and the company must pay for those costs."
+  ],
+  "example": "Meera Textiles Private Limited held a meeting where its creditors agreed to a business arrangement. The Chairperson filed the report about this meeting. Within seven days, Meera Textiles was supposed to present a petition to the Tribunal in Form No. CAA. 5 for approval. However, the company delayed and failed to file it. Because of this failure, a creditor named Rahul asked the Tribunal for permission and presented the petition himself. The Tribunal allowed Rahul to do so, and Meera Textiles was held liable to pay the costs for this filing.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "The official authority or court that handles company law disputes and approvals."
+   },
+   {
+    "term": "Liquidator",
+    "meaning": "A person appointed to wind up a company's affairs."
+   },
+   {
+    "term": "Sanction",
+    "meaning": "Official approval or confirmation."
+   }
+  ],
+  "watch": "Do not forget that if the company misses the seven-day deadline, a creditor or member can still file the petition with the Tribunal's permission.",
+  "h": "2d97ab629eb2",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "16": {
+  "summary": "The Tribunal will choose a date to hear the petition. A notice about this hearing must be advertised in a newspaper at least ten days before the hearing takes place. This notice is also sent to objectors, the Central Government, and other authorities who want to be heard.",
+  "points": [
+   "The Tribunal fixes a date for hearing the petition.",
+   "A notice of the hearing must be published in a newspaper at least ten days before the hearing date.",
+   "The notice must be sent to objectors, the Central Government, and other authorities who previously made representations and wish to be heard."
+  ],
+  "example": "Meera Textiles Private Limited reached the stage where the Tribunal needed to hear its petition for an arrangement. The Tribunal fixed a hearing date. A notice of this hearing was published in the same newspaper that had earlier advertised the creditors' meeting, exactly twelve days before the hearing. At the same time, the Tribunal sent copies of the hearing notice to the Central Government and to the objectors who had earlier filed their representations and asked to speak.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "The judicial body responsible for handling company law cases, specifically the National Company Law Tribunal."
+   },
+   {
+    "term": "Petition",
+    "meaning": "A formal written request submitted to a court or tribunal asking for a specific legal action."
+   }
+  ],
+  "watch": "Do not confuse the newspaper advertisement for the meeting with the separate newspaper advertisement required for the hearing date.",
+  "h": "56d3313eb29c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "18": {
+  "summary": "This rule explains how companies must ask the Tribunal for directions when planning a merger or reconstruction. It applies when the regular petition cannot adequately handle all the matters involved. The applicant must file a notice of admission supported by an affidavit.",
+  "points": [
+   "Applies to company reconstructions or amalgamations.",
+   "Used when the main petition cannot fully deal with the matters.",
+   "Requires an application to the Tribunal using a notice of admission.",
+   "The application must be supported by an affidavit.",
+   "Notice must be given to persons and in the manner the Tribunal directs."
+  ],
+  "example": "Alpha Logistics Private Limited and Beta Carriers Private Limited planned an amalgamation. Because their complex arrangement could not be fully dealt with on the main sanction petition, Alpha Logistics filed an application to the Tribunal using a notice of admission supported by an affidavit to get directions on the next steps.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "The judicial body that handles company law matters."
+   },
+   {
+    "term": "Affidavit",
+    "meaning": "A written statement confirmed by oath or affirmation for use as evidence."
+   },
+   {
+    "term": "Notice of admission",
+    "meaning": "A formal document used to apply for directions or orders in ongoing proceedings."
+   }
+  ],
+  "watch": "Do not confuse this preliminary application for directions with the final petition for sanction of the compromise or arrangement.",
+  "h": "f452ed4fd230",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "20": {
+  "summary": "The provided text explains how a specific legal order must be issued under company law. It states that the official document must follow a standard format. This ensures consistency when companies go through major changes.",
+  "points": [
+   "Orders made under section 232 and section 230 must use a specific form.",
+   "The official form is known as Form No. CAA. 7.",
+   "Minor changes can be made to the form based on the situation."
+  ],
+  "example": "Meera Textiles Private Limited applied for a company merger under the Companies Act, 2013. When the official authority approved the plan, they issued their final decision. According to the rules, this official order had to be recorded using Form No. CAA. 7. The administrative office prepared the paperwork using this exact form, making only the necessary adjustments to fit the specific details of Meera Textiles Private Limited.",
+  "terms": [
+   {
+    "term": "Section",
+    "meaning": "A specific numbered part of a law"
+   },
+   {
+    "term": "Form",
+    "meaning": "An official template or document layout"
+   }
+  ],
+  "watch": "Do not assume this rule applies to orders made under other sections of the Act.",
+  "h": "8b8f918d23a8",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "21": {
+  "summary": "When two or more companies undergo a merger or amalgamation approved by a court order, they must follow a specific reporting rule. Every such company must file a compliance statement every year until the merger plan is completely finished. This statement goes to the Registrar of Companies along with the required fee.",
+  "points": [
+   "Applies to companies involved in a court-approved merger or amalgamation.",
+   "Companies must file a statement in Form No. CAA. 8.",
+   "Filings must include the fee specified in the registration and fees rules.",
+   "The statement must be filed within 210 days after the end of every financial year until the scheme is fully implemented."
+  ],
+  "example": "In April, Apex Pharma Private Limited completed a court-approved merger with Zenith Drugs Private Limited. According to the rules, Apex Pharma must now file a compliance statement in Form No. CAA. 8 with the Registrar of Companies. They must submit this form, along with the proper fee, within two hundred and ten days from the end of their financial year. They are required to keep filing this statement every single year until the entire merger scheme is fully carried out and completed.",
+  "terms": [
+   {
+    "term": "Amalgamation",
+    "meaning": "The combining of two or more companies into a single company."
+   },
+   {
+    "term": "Registrar of Companies",
+    "meaning": "An office where official company documents are filed."
+   }
+  ],
+  "watch": "Do not stop filing the statement until the merger scheme is completely finished.",
+  "h": "43ba0ea84eb5",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "25": {
+  "summary": "This rule explains how certain types of companies can merge or combine together under the law. It sets out the rules for sending notices, inviting feedback from authorities, filing documents, and getting approval for the merger.",
+  "points": [
+   "Notices for a proposed merger must be sent in specific forms to invite objections or suggestions.",
+   "Mergers are allowed between specific classes of companies, such as start-ups, small companies, or certain unlisted and subsidiary companies.",
+   "Each company involved must file a declaration of solvency before holding meetings for member and creditor approval.",
+   "After meetings, the company must file the agreed scheme and reports with the Central Government, Registrar of Companies, and Official Liquidator."
+  ],
+  "example": "Meera Textiles Private Limited, a start-up company, wants to merge with another start-up company, Aarav Fashions Private Limited. To do this, they must follow the specific notice procedures, file their declarations of solvency, hold meetings for their members and creditors to approve the plan, and then submit the final agreed scheme and meeting reports to the Central Government, the Registrar of Companies, and the Official Liquidator as required by the rules.",
+  "terms": [
+   {
+    "term": "Amalgamation",
+    "meaning": "The combining of two or more companies into a single company."
+   },
+   {
+    "term": "Holding company",
+    "meaning": "A company that controls another company, known as a subsidiary."
+   },
+   {
+    "term": "Subsidiary company",
+    "meaning": "A company that is controlled by another company, known as a holding company."
+   }
+  ],
+  "watch": "People often confuse which specific classes of companies are allowed to use this simplified merger route.",
+  "h": "45fd48050053",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "25A": {
+  "summary": "This rule explains how an Indian company and a foreign company can merge or join together. Both companies must follow specific legal steps and get permission from the Reserve Bank of India. Special care is needed if the foreign company is from a country that shares a land border with India or is a holding company.",
+  "points": [
+   "A foreign company can merge with an Indian company after getting prior approval from the Reserve Bank of India and following the required sections of the Act.",
+   "An Indian company can merge with a foreign company in permitted jurisdictions if it gets prior approval from the Reserve Bank of India.",
+   "Valuation must be done by recognized professionals using accepted accounting principles when an Indian company merges into a foreign company.",
+   "Companies must apply to the Tribunal or Central Government as required by the law after receiving the necessary approvals."
+  ],
+  "example": "Alpha Textiles Private Limited, an Indian company, wants to merge with a foreign company based outside India. Before taking any further legal steps under the rules, Alpha Textiles must first obtain the prior approval of the Reserve Bank of India. They must also ensure that all relevant sections of the Act and these rules are strictly followed during the merger process.",
+  "terms": [
+   {
+    "term": "foreign company",
+    "meaning": "A company or body corporate incorporated outside India whether having a place of business in India or not."
+   },
+   {
+    "term": "transferee company",
+    "meaning": "The company that receives the merging entity or survives the merger."
+   }
+  ],
+  "watch": "Do not forget that getting approval from the Reserve Bank of India is a necessary step before filing applications with the Tribunal or Central Government.",
+  "h": "11b8a7b82b5b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "26": {
+  "summary": "When a company takes over another company and a majority of shareholders agree, the new company can choose to buy out the shareholders who did not agree. To do this, the new company must send an official notice to every disagreeing shareholder at their last known address. This notice must be sent in a specific format called Form No. CAA. 14.",
+  "points": [
+   "The rule applies when a company wants to buy shares from shareholders who disagree with an approved takeover scheme.",
+   "The acquiring company must send a notice to these disagreeing shareholders.",
+   "The notice must be sent using Form No. CAA. 14.",
+   "The notice is sent to the last intimated address of the shareholder."
+  ],
+  "example": "Meera Textiles Private Limited is taking over Alpha Garments Limited. While most shareholders of Alpha Garments agree to the plan, Rahul disagrees and refuses to sell his shares. Since the majority approved the deal, Meera Textiles decides to acquire Rahul's shares. To start this process, Meera Textiles sends a formal notice in Form No. CAA. 14 to Rahul's last known address.",
+  "terms": [
+   {
+    "term": "transferee company",
+    "meaning": "The company that is taking over or receiving another company."
+   },
+   {
+    "term": "transferor company",
+    "meaning": "The company that is being taken over."
+   },
+   {
+    "term": "dissenting shareholder",
+    "meaning": "A shareholder who does not agree with the approved scheme or contract."
+   }
+  ],
+  "watch": "Do not assume this rule gives any specific deadline or price for buying the shares, as the provided text does not mention them.",
+  "h": "bed2e83a68a2",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "26A": {
+  "summary": "This rule explains how a company buys and transfers shares held in digital form by minority shareholders. The company verifies shareholder details, sends notice of a cut-off date, and publishes it in newspapers and online. Finally, the shares are transferred to the company, payments are made to the shareholders after deducting stamp duty, and the shares are moved to the buyer.",
+  "points": [
+   "The company must verify minority shareholder details within two weeks of receiving the share price amount from the buyer.",
+   "A notice about the cut-off date must be sent to shareholders and published in two newspapers and on the website.",
+   "The depository transfers the shares to the company's designated account on the cut-off date if the shareholders have not transferred them yet.",
+   "The company pays the share price to the minority shareholders immediately after the transfer, after paying the required stamp duty."
+  ],
+  "example": "Acquirer Ltd wants to buy shares from minority shareholders in Meera Textiles Private Limited. After receiving the share money, Meera Textiles verifies the digital share accounts. The company sends a notice about the cut-off date to the minority shareholders and publishes it in local newspapers. On the cut-off date, the depository moves the shares to Meera Textiles' designated account because the shareholders did not transfer them on their own. Meera Textiles then pays the money to the minority shareholders and moves the shares to Acquirer Ltd.",
+  "terms": [
+   {
+    "term": "dematerialised form",
+    "meaning": "Shares held in electronic or digital format rather than physical paper certificates."
+   },
+   {
+    "term": "depository",
+    "meaning": "An organization that holds securities like shares in electronic form."
+   },
+   {
+    "term": "stamp duty",
+    "meaning": "A tax paid on the transfer of property or securities."
+   }
+  ],
+  "watch": "Note that the cut-off date cannot be earlier than one month after the date the notice is sent.",
+  "h": "ac204b0fc58b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "27": {
+  "summary": "This rule explains how a registered valuer decides the offer price to buy out minority shareholders under the Companies Act, 2013. The method depends on whether the company is listed on a stock exchange or is unlisted and private. In all cases, the valuer must give a valuation report with reasons to the board of directors.",
+  "points": [
+   "For a listed company, the price is set as specified by the Securities and Exchange Board of India.",
+   "For unlisted and private companies, the price considers the highest price paid by the buyer in the last twelve months.",
+   "For unlisted and private companies, the fair price is also calculated using standard valuation factors like return on net worth and book value.",
+   "The registered valuer must give a valuation report with justification to the board of directors in every case."
+  ],
+  "example": "Meera Textiles Private Limited wants to buy out its minority shareholders. Since it is an unlisted company, a registered valuer is appointed to determine the offer price. The valuer checks the highest price paid by the buyer over the past twelve months and calculates the fair price using factors like book value and earnings per share. Finally, the valuer gives a valuation report explaining the price to the board of directors of Meera Textiles Private Limited.",
+  "terms": [
+   {
+    "term": "Registered valuer",
+    "meaning": "A qualified professional officially recognized to determine the value of company shares."
+   },
+   {
+    "term": "Acquirer",
+    "meaning": "The person or group buying the shares."
+   },
+   {
+    "term": "Minority shareholders",
+    "meaning": "Shareholders who hold a small portion of the company's shares."
+   }
+  ],
+  "watch": "People often confuse the pricing rules for listed companies with those for unlisted and private companies.",
+  "h": "0ae62b2971fa",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "28": {
+  "summary": "When directors suggest that shareholders accept a share transfer scheme, they must send a specific official form along with the circular. This circular must also be registered with the Registrar. The rule follows the Companies Act, 2013, to make sure proper information goes to company members.",
+  "points": [
+   "A circular offering a share transfer scheme and recommending its acceptance must include information using Form No. CAA. 15.",
+   "The circular must be presented to the Registrar for registration."
+  ],
+  "example": "Meera Textiles Private Limited planned a scheme involving the transfer of shares. The directors sent a circular to the members of the company recommending they accept this offer. To follow the rules, the directors made sure the circular was accompanied by the required details in Form No. CAA. 15. Finally, they presented the circular to the Registrar so it could be officially registered.",
+  "terms": [
+   {
+    "term": "Circular",
+    "meaning": "A printed document sent to members of a company to give them information about an offer."
+   },
+   {
+    "term": "Transferor company",
+    "meaning": "The company whose shares are being transferred under the scheme."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "The government authority responsible for registering company documents."
+   }
+  ],
+  "watch": "Do not confuse the recommendation by directors with final approval from members.",
+  "h": "36f78fdcfe96",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "29": {
+  "summary": "If the Registrar of Companies refuses to register a circular about a share transfer scheme, any unhappy party can file an appeal. This appeal must be filed using specific tribunal forms and supported by a written statement. It is a way to challenge the official refusal through a legal process.",
+  "points": [
+   "You can appeal if the Registrar of Companies refuses to register your circular.",
+   "The appeal must be submitted in Form No. NCLT. 9.",
+   "The appeal must include a supporting statement called an affidavit in Form No. NCLT. 6."
+  ],
+  "example": "Meera Textiles Private Limited planned a share transfer scheme and submitted their circular to the Registrar of Companies for registration. Unfortunately, the Registrar refused to register the circular. Feeling unhappy with this decision, the company decided to challenge it. To do this, Meera Textiles Private Limited filed an appeal using Form No. NCLT. 9, along with a supporting affidavit in Form No. NCLT. 6, as required by the rules.",
+  "terms": [
+   {
+    "term": "Appeal",
+    "meaning": "A formal request to a higher authority to change a decision."
+   },
+   {
+    "term": "Affidavit",
+    "meaning": "A written statement confirmed by oath or affirmation for use as evidence."
+   }
+  ],
+  "watch": "Make sure to use the exact correct forms mentioned in the rules for your appeal and affidavit.",
+  "h": "58558bd01123",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

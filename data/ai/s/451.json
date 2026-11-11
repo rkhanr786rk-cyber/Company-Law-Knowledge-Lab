@@ -1,0 +1,28 @@
+{
+ "summary": "Section 451 of the Companies Act, 2013 deals with repeated offences committed by a company or its officers. If the exact same offence happens again within three years, the punishment becomes heavier. Specifically, the fine is doubled, along with any imprisonment that applies.",
+ "points": [
+  "Applies when a company or its officer commits an offence punishable with fine or imprisonment.",
+  "Applies only if the same offence is repeated within a period of three years.",
+  "Requires the company and every officer in default to pay twice the normal amount of fine.",
+  "Allows the penalty of doubled fine to be given in addition to any imprisonment provided for that offence."
+ ],
+ "example": "Meera Textiles Private Limited was previously found guilty of a corporate offence that carried a fine. Exactly two years later, the same company and its manager committed the identical offence again. Because this repeat violation happened within the three-year window specified by the law, the court did not just apply the standard penalty. Instead, Meera Textiles Private Limited and the responsible manager were ordered to pay twice the amount of the original fine, alongside any other punishments mandated for that specific offence.",
+ "terms": [
+  {
+   "term": "offence",
+   "meaning": "breaking the law or doing something illegal"
+  },
+  {
+   "term": "officer who is in default",
+   "meaning": "a company official who is responsible for the violation of the law"
+  },
+  {
+   "term": "imprisonment",
+   "meaning": "being put in prison as a punishment"
+  }
+ ],
+ "watch": "Remember that the doubled fine only applies if the exact same offence is repeated within three years.",
+ "h": "c58816763d79",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-11"
+}

@@ -1,0 +1,26 @@
+{
+ "3": {
+  "summary": "This rule explains how the Central Government appoints special officers to decide penalties for company law violations. Before any penalty is decided, a written notice must be given so the company or person can reply. The officer then reviews the case, holds hearings if needed, and passes a written order.",
+  "points": [
+   "The Central Government appoints officers not below the rank of Registrar as adjudicating officers.",
+   "A written show-cause notice must be given giving between fifteen and thirty days to reply.",
+   "Replies to the notice must be filed electronically.",
+   "The officer may summon witnesses, demand documents, and pass a penalty order even if the person fails to appear."
+  ],
+  "example": "Meera Textiles Private Limited received a written notice from an adjudicating officer regarding a default under the Act. The notice clearly stated the nature of the non-compliance and the maximum penalty. Meera Textiles filed its electronic reply within the period specified in the notice. The adjudicating officer reviewed the reply and decided that a physical appearance was required, so a notice was issued within ten working days fixing a date of appearance. After the hearing, the officer passed a written order and sent a copy to the company.",
+  "terms": [
+   {
+    "term": "Adjudicating officer",
+    "meaning": "An officer appointed by the Central Government to adjudge penalties under the Act."
+   },
+   {
+    "term": "Officer in default",
+    "meaning": "Any officer of a company who is held responsible for a company's failure or violation."
+   }
+  ],
+  "watch": "Make sure to file replies electronically and within the time period specified in the notice.",
+  "h": "050d4f4fe19b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

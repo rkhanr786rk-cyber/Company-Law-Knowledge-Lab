@@ -1,0 +1,157 @@
+{
+ "2": {
+  "summary": "This rule provides the basic meanings of words used in the Investor Education and Protection Fund Authority Rules, 2016. It explains key terms like the Act, the Authority, and what counts as a Company or Corporate action. If a word is used in these rules but not explained here, its meaning comes from the main Companies Act, 2013.",
+  "points": [
+   "The word Act refers to the Companies Act 2013.",
+   "Company includes normal companies, certain banks, the State Bank of India, and any other entity required to send funds to the Investor Education and Protection Fund.",
+   "Corporate action means actions by a company about transferring shares and benefits like bonus shares, splits, or fractions, but excludes right issues.",
+   "Words not defined in these rules take their meaning from the Companies Act, 2013."
+  ],
+  "example": "Meera Textiles Private Limited decided to issue bonus shares to its shareholders. The company needed to understand how the rules applied to this event. According to the definitions, the bonus shares are considered a corporate action. Since Meera Textiles is a company under the Act, it must follow the proper legal terms and meanings provided in these rules and the Companies Act, 2013, to handle any share transfers and benefits correctly.",
+  "terms": [
+   {
+    "term": "Corporate action",
+    "meaning": "Any action taken by a company relating to the transfer of shares and benefits like bonus shares, splits, or consolidation."
+   },
+   {
+    "term": "Authority",
+    "meaning": "The Investor Education and Protection Fund Authority set up under section 125 of the Act."
+   }
+  ],
+  "watch": "Do not assume that all banking or financial institutions are included unless they specifically match the listed Acts or statutes.",
+  "h": "2cd3fd2b37aa",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "3": {
+  "summary": "This rule explains how a specific Fund is managed and where its money comes from. It lists various sources like unpaid dividends, shares, grants, and other sums collected under the law. It also details the government accounting steps required to deposit and transfer these amounts.",
+  "points": [
+   "The Authority administers the Fund.",
+   "Unpaid or unclaimed interest on term deposits and debentures must be transferred to the Fund along with the matured amount.",
+   "Money accruing under the Act is deposited in the Consolidated Fund of India before being transferred to the IEPF Fund.",
+   "Grants, donations, and investment income are credited to a separate sub-head under other receipts."
+  ],
+  "example": "Asha Textiles Private Limited holds a matured debenture and some due unpaid interest belonging to an investor who cannot be traced. Under the rules, Asha Textiles Private Limited must transfer this matured amount of the debenture along with the due unpaid interest directly to the Fund.",
+  "terms": [
+   {
+    "term": "Debentures",
+    "meaning": "A type of debt instrument issued by a company that acknowledges a loan."
+   },
+   {
+    "term": "Consolidated Fund of India",
+    "meaning": "The main government account where all revenues received by the government are pooled."
+   }
+  ],
+  "watch": "People often confuse the initial deposit heads of accounts with the final IEPF Fund account.",
+  "h": "17d8b8e6b8a5",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "5": {
+  "summary": "Companies must send certain money online to a specific Fund within thirty days of it becoming due, along with a detailed statement. They also need to report unclaimed amounts on websites every year using a specific form. The Authority keeps a register and checks these records with the bank.",
+  "points": [
+   "Send required amounts online to the Fund within thirty days along with Form No. IEPF 1.",
+   "Companies must keep records and supporting documents in the same format for inspection.",
+   "Identify unclaimed amounts and upload details every year using Form No. IEPF-2."
+  ],
+  "example": "Meera Textiles Private Limited has some unclaimed money that needs to go into the Investor Education and Protection Fund. Within thirty days of the amount becoming due, the company remits the money online. Along with the money, Meera Textiles submits a statement in Form No. IEPF 1 containing the details of the transfer to the Authority. Later, after holding its annual general meeting, the company also identifies its unclaimed amounts and uploads the required information on its website using Form No. IEPF-2.",
+  "terms": [
+   {
+    "term": "Fund",
+    "meaning": "The Investor Education and Protection Fund mentioned in the rules."
+   },
+   {
+    "term": "Authority",
+    "meaning": "The official body that receives and manages the statements and records."
+   }
+  ],
+  "watch": "Remember that transferring the money and uploading the annual unclaimed statement are two different requirements with their own forms and timelines.",
+  "h": "76763b94500f",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "6": {
+  "summary": "This rule explains how companies must transfer certain shares to an authority's DEMAT account. Shares are saved from transfer if the owner recently used their dividend, but otherwise, companies must follow specific steps including warning shareholders and notifying depositories. The voting rights on these transferred shares stay frozen until the owner claims them back.",
+  "points": [
+   "Shares must be credited to the authority's DEMAT account within thirty days of becoming due for transfer.",
+   "Companies must warn the shareholder by post and publish a public notice before transferring shares.",
+   "Shares are not transferred if a court or authority has put a specific stop order or if the shares are pledged.",
+   "Voting rights on transferred shares remain frozen until the rightful owner makes a claim."
+  ],
+  "example": "At Meera Textiles Private Limited, Rohan has not encashed his dividends for seven years. The company sends a notice to Rohan's last available address and publishes an announcement in a local newspaper. Since there are no court orders stopping the transfer, Meera Textiles prepares to transfer Rohan's shares to the authority's DEMAT account following the proper corporate procedure.",
+  "terms": [
+   {
+    "term": "DEMAT Account",
+    "meaning": "An account that holds shares and securities in an electronic format instead of physical paper."
+   },
+   {
+    "term": "Beneficial Owner",
+    "meaning": "The actual person who enjoys the rights and benefits of owning the shares."
+   },
+   {
+    "term": "Pledged",
+    "meaning": "Shares that are used as security or collateral for a loan or debt."
+   }
+  ],
+  "watch": "People often confuse the transfer of shares to the fund with a permanent loss, but owners can claim their shares back from the authority.",
+  "h": "c6d93f6cc184",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "6A": {
+  "summary": "This rule explains how certain shares are transferred to a specific Fund under the law. Companies must follow precise steps using digital accounts or new paper certificates. The rule also covers what happens to extra benefits, dividends, and money if the company closes down or is delisted.",
+  "points": [
+   "Shares must be moved to the Fund's digital account within thirty days.",
+   "The board gives permission to sign papers, and voting rights on transferred shares are frozen.",
+   "Bonus shares and dividends received on these shares also go to the Fund.",
+   "Companies must send statements and details to the Authority within thirty days."
+  ],
+  "example": "Aarav Textiles Private Limited needs to transfer certain shares to the Fund. The board authorizes the Company Secretary to sign the necessary papers. The company informs the depository to move the shares into the Authority's digital account. Within thirty days, the company sends a statement in Form No. IEPF-4 to the Authority along with the required declaration and tribunal order copies.",
+  "terms": [
+   {
+    "term": "DEMAT Account",
+    "meaning": "An electronic account used to hold shares and securities digitally."
+   },
+   {
+    "term": "Transmission of shares",
+    "meaning": "The transfer of shares by operation of law, such as due to death, bankruptcy, or statutory rules."
+   },
+   {
+    "term": "Depository",
+    "meaning": "An organization that holds shares and securities in electronic form."
+   }
+  ],
+  "watch": "Make sure to note that while voting rights on these shares are frozen, they are still counted under specific takeover regulations.",
+  "h": "7a3675a7a5ae",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "7": {
+  "summary": "This rule explains how a person can claim shares, money, or deposits that were transferred to a special government fund. The claimant must submit an online application and send physical documents to the company's designated officer. The company then verifies the documents and sends a report to the Authority for final refund or transfer of shares.",
+  "points": [
+   "A claimant applies online using Form IEPF-5 on the official website.",
+   "The claimant sends original certificates and physical documents to the company's Nodal Officer.",
+   "The company verifies the claim and sends an online verification report to the Authority.",
+   "The Authority processes the valid claim and refunds the money or credits the shares to the claimant's demat account."
+  ],
+  "example": "Rohan noticed that his old unclaimed dividends and shares in Meera Textiles Private Limited were transferred to the Fund. He filed an online application using Form IEPF-5. Next, he mailed his original share certificates and signed indemnity bond to the company's registered office. The company's Nodal Officer checked Rohan's documents and submitted a verification report online to the Authority. After checking everything, the Authority transferred the shares back to Rohan's demat account.",
+  "terms": [
+   {
+    "term": "Fund",
+    "meaning": "The Investor Education and Protection Fund where unclaimed shares and amounts are transferred."
+   },
+   {
+    "term": "Nodal Officer",
+    "meaning": "An official appointed by the company to verify claims and coordinate with the Authority."
+   },
+   {
+    "term": "Authority",
+    "meaning": "The Investor Education and Protection Fund Authority."
+   }
+  ],
+  "watch": "Make sure to send both the online form and the physical documents to the company, as an online application alone is not enough.",
+  "h": "4c5652e99d50",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

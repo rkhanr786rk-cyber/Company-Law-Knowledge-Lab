@@ -1,0 +1,49 @@
+{
+ "2": {
+  "summary": "These rules apply specifically to a certain type of business organization known as a Producer Company. The text is very short and only points to the section of the law that defines what this company is. It does not provide any extra details or instructions.",
+  "points": [
+   "These rules apply to a Producer Company.",
+   "The definition of this company comes from clause (l) of section 378A."
+  ],
+  "example": "Meera Textiles Private Limited wants to know if these rules apply to its daily operations. The managers check the legal definition of their company. Since Meera Textiles is recognized as a Producer Company under clause (l) of section 378A of the Companies Act, these specific rules apply to them.",
+  "terms": [
+   {
+    "term": "Producer Company",
+    "meaning": "A specific kind of company formed by people involved in producing goods or activities related to primary produce."
+   }
+  ],
+  "watch": "Do not assume these rules apply to all companies; they only apply to Producer Companies.",
+  "h": "2341b91205f9",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "5": {
+  "summary": "A Producer Company must put its general reserve money into specific approved places. These options include government securities, fixed deposits, bonds, and various types of banks. It can also invest in certain co-operative societies, shares, or public financial institutions.",
+  "points": [
+   "Invest in approved securities, fixed deposits, units, and bonds from governments, co-operative societies, or scheduled banks.",
+   "Invest in co-operative banks, State co-operative banks, co-operative land development banks, or Central co-operative banks.",
+   "Invest with any other scheduled bank.",
+   "Invest in securities listed under section 20 of the Indian Trusts Act, 1882, or shares and securities of co-operative societies.",
+   "Invest in the shares, securities, or assets of public financial institutions specified in the Companies Act."
+  ],
+  "example": "Meera Textiles Private Limited, a Producer Company, has saved money in its general reserves. To follow the rules, the company decides to invest these reserve funds safely. They choose to put the money into fixed deposits and bonds issued by a scheduled bank, and also buy shares in a local co-operative society.",
+  "terms": [
+   {
+    "term": "General reserves",
+    "meaning": "Money kept aside by a company from its profits for future needs."
+   },
+   {
+    "term": "Scheduled bank",
+    "meaning": "A bank that is listed under a specific official schedule of the Reserve Bank of India."
+   },
+   {
+    "term": "Securities",
+    "meaning": "Financial instruments like bonds or shares that hold monetary value and can be traded."
+   }
+  ],
+  "watch": "People often confuse general reserves with daily operational money, but this rule only applies to investments made from general reserves.",
+  "h": "1aa2170b78b6",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

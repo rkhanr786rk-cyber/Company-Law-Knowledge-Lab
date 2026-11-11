@@ -1,0 +1,152 @@
+{
+ "2": {
+  "summary": "This rule explains important words used in the rules made under the Companies Act, 2013, regarding significant beneficial owners. It tells us who counts as a significant beneficial owner based on shares, voting rights, dividends, or influence. It also defines terms like majority stake and reporting company.",
+  "points": [
+   "A reporting company is a company that must follow section 90 of the Act.",
+   "A significant beneficial owner is an individual who holds certain rights or shares either directly or indirectly, or exercises significant influence.",
+   "Majority stake means holding more than half of the equity shares, voting rights, or right to receive dividends.",
+   "Indirect holdings can occur through bodies corporate, Hindu Undivided Families, partnerships, trusts, or pooled investment vehicles."
+  ],
+  "example": "Meera Textiles Private Limited is a reporting company. Rohan holds shares directly in the company in his own name, giving him ten per cent of the voting rights. Because he holds these shares directly and meets the percentage criteria, Rohan is considered a significant beneficial owner under the rules.",
+  "terms": [
+   {
+    "term": "majority stake",
+    "meaning": "Holding more than half of the equity shares, voting rights, or distributable dividends in a body corporate."
+   },
+   {
+    "term": "reporting company",
+    "meaning": "A company that is required to comply with the requirements of section 90 of the Act."
+   },
+   {
+    "term": "significant influence",
+    "meaning": "The power to participate in financial and operating policy decisions without having control or joint control."
+   }
+  ],
+  "watch": "Do not confuse direct holdings, where shares are in your own name, with indirect holdings through other entities like trusts or bodies corporate.",
+  "h": "58957ba10597",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "2A": {
+  "summary": "This rule requires every company to find out if any real person is a significant beneficial owner behind its corporate members. The company must ask these individuals to make a formal declaration using a specific form. Furthermore, if a member that is not a person holds at least ten percent of shares, voting rights, or dividend rights in the company, the company must send them a notice for information.",
+  "points": [
+   "Companies must actively find out if any individual is a significant beneficial owner.",
+   "Identified owners must make a declaration in Form No. BEN-1.",
+   "Companies must send a notice in Form No. BEN-4 to any corporate member holding at least ten percent of shares, voting rights, or dividend rights."
+  ],
+  "example": "Alpha Enterprises Private Limited has a corporate member called Beta Holdings. Beta Holdings holds fifteen percent of the shares and voting rights in Alpha Enterprises Private Limited. To follow the rules under the Companies Act, 2013, Alpha Enterprises Private Limited must send a notice in Form No. BEN-4 to Beta Holdings to seek required information about its owners.",
+  "terms": [
+   {
+    "term": "reporting company",
+    "meaning": "The company that must follow these rules and look for its significant beneficial owners."
+   },
+   {
+    "term": "member",
+    "meaning": "A person or entity that holds shares or ownership interest in the company."
+   }
+  ],
+  "watch": "Do not assume this rule applies only to individuals; it specifically targets corporate members holding ten percent or more to find the real people behind them.",
+  "h": "e0f8aef0d97d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "3": {
+  "summary": "People who hold significant beneficial ownership in a company must file a specific declaration form with that company. The deadline to file depends on when they gained this ownership or when it changed. There are specific rules for ownership that started around the time the amendment rules commenced.",
+  "points": [
+   "Existing significant beneficial owners must file Form No. BEN-1 within ninety days from the commencement of the 2019 amendment rules.",
+   "New significant beneficial owners or those whose ownership changes must file Form No. BEN-1 within thirty days of the event.",
+   "Changes or new ownership happening within the first ninety days of the rules starting are treated as happening on the ninetieth day, and the thirty-day limit starts then."
+  ],
+  "example": "Aarav is a significant beneficial owner in GreenField Logistics Private Limited. The rules commenced on a specific date, and Aarav became an owner within the first ninety days of that commencement. Because of this timeline, the rules treat his ownership as starting on the ninetieth day, and he has thirty days from that date to file Form No. BEN-1 with GreenField Logistics Private Limited.",
+  "terms": [
+   {
+    "term": "Significant beneficial owner",
+    "meaning": "An individual who holds a major stake or exercises control in a company as defined by the law."
+   },
+   {
+    "term": "Reporting company",
+    "meaning": "The company to which the declaration about significant beneficial ownership must be submitted."
+   }
+  ],
+  "watch": "Do not confuse the ninety-day deadline for existing owners with the thirty-day deadline for new owners or changes.",
+  "h": "2da4fd7d1a42",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "6": {
+  "summary": "The provided text is very short and only gives a basic rule name and reference. It simply states that a company must send a notice to ask for information about certain owners. Because the text is incomplete, it does not explain who gets the notice or what details are required.",
+  "points": [
+   "A company must give notice to seek information.",
+   "The notice must follow sub-section (5) of section 90.",
+   "The notice must be in Form No. BEN-4."
+  ],
+  "example": "Meera Textiles Private Limited wants to find out more about its important owners. To do this legally, the company prepares a formal notice asking for the necessary details. Following the official rules, the company fills out Form No. BEN-4 and sends this notice to the relevant person.",
+  "terms": [
+   {
+    "term": "Significant beneficial owners",
+    "meaning": "The real people who ultimately own or control a company."
+   },
+   {
+    "term": "Form No. BEN-4",
+    "meaning": "The specific official document form used by companies to ask for ownership information."
+   }
+  ],
+  "watch": "Do not assume any deadlines or penalties, as the text does not mention them.",
+  "h": "6785270aabfa",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "7": {
+  "summary": "Under the rules, a company must ask the Tribunal to put restrictions on certain shares if a person ignores a notice for information or gives bad information. The Tribunal can then order limits like stopping dividends or voting rights for those shares. This helps the company make sure it knows who really owns it.",
+  "points": [
+   "The company applies to the Tribunal if someone fails to reply to notice Form No. BEN-4 on time.",
+   "The company also applies if the information given by the person is not satisfactory.",
+   "The Tribunal can order restrictions on the shares in question.",
+   "Restrictions can include stopping transfers, dividends, or voting rights."
+  ],
+  "example": "Aarav Auto Private Limited sent a notice in Form No. BEN-4 to investor Rohan asking for details about who ultimately owns his shares. Rohan received the notice but did not reply within the specified time. Because Rohan failed to give the required information, Aarav Auto Private Limited applied to the Tribunal for an order to place restrictions on Rohan's shares, such as suspending his right to receive dividends and stopping his voting rights.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A legal body or official authority set up to deal with specific disputes."
+   },
+   {
+    "term": "Form No. BEN-4",
+    "meaning": "A specific official form used to ask for information about significant beneficial owners."
+   }
+  ],
+  "watch": "People often think the company can freeze shares directly, but the company must actually apply to the Tribunal for an order first.",
+  "h": "0effdf072b7a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "8": {
+  "summary": "These rules do not apply when shares in a reporting company are held by specific government bodies, government-controlled entities, or certain regulated investment funds. They also do not apply to the company's own holding company, provided that holding company is reported in a specific form. This means certain government and regulated entities are excused from the usual reporting requirements.",
+  "points": [
+   "The rules do not apply if shares are held by the authority under section 125 of the Act.",
+   "The rules do not apply to a holding reporting company, but its details must be reported in Form No. BEN-2.",
+   "The rules do not apply to the Central Government, State Governments, or local authorities.",
+   "The rules do not apply to entities or bodies corporate controlled by the government.",
+   "The rules do not apply to investment vehicles and funds regulated by SEBI, RBI, IRDAI, or PFRDA."
+  ],
+  "example": "Aarav Tech Private Limited is a reporting company. Its shares are partly held by a mutual fund registered with the Securities and Exchange Board of India. Because this mutual fund is a regulated investment vehicle listed in the rules, the specific reporting rules for significant beneficial owners do not apply to that shareholding in the same manner.",
+  "terms": [
+   {
+    "term": "reporting company",
+    "meaning": "A company that is required to comply with these specific rules."
+   },
+   {
+    "term": "body corporate",
+    "meaning": "A legal entity, such as a company or corporation, that has a separate legal identity."
+   },
+   {
+    "term": "holding reporting company",
+    "meaning": "A parent reporting company that holds shares in another reporting company."
+   }
+  ],
+  "watch": "Do not assume that all companies are exempt; only specific government-backed, holding, and regulated investment entities are excused.",
+  "h": "25f52f1b3623",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

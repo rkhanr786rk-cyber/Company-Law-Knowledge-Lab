@@ -1,0 +1,211 @@
+{
+ "3": {
+  "summary": "When a company creates or changes a charge, it must file the details and document with the Registrar within thirty days. If it misses this time, it can still file later by paying extra fees. The document copy must be checked and certified properly depending on where the property is located.",
+  "points": [
+   "File charge details and document using Form CHG-1 for other things or Form CHG-9 for debentures.",
+   "Sign the form by both the company and the charge holder and file it within thirty days with the fee.",
+   "If filing is delayed, submit it within the period named in section 77 by paying extra or advalorem fees.",
+   "If the charge holder applies for registration because the company failed, they can get their fee money back from the company.",
+   "Verify the instrument copy with the correct certificate based on whether the property is in India or outside."
+  ],
+  "example": "Meera Textiles Private Limited created a charge on its property to borrow money from a bank. Both the company and the bank signed Form CHG-1. They submitted this form and a copy of the creation document to the Registrar within thirty days along with the required fee. A company director signed the certificate to verify that the copy of the document was correct, since the property was located in India.",
+  "terms": [
+   {
+    "term": "charge",
+    "meaning": "An interest or lien created on the property or assets of a company as security for a loan."
+   },
+   {
+    "term": "debentures",
+    "meaning": "A type of debt instrument issued by a company that is not secured by physical asset or collateral."
+   },
+   {
+    "term": "instrument",
+    "meaning": "A legal document that creates or modifies the charge."
+   }
+  ],
+  "watch": "Do not confuse filing within thirty days with delayed filing, which requires extra fees under section 77.",
+  "h": "2bead24e20f6",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "4": {
+  "summary": "This rule explains how a company can register a charge, such as a loan security, after the usual thirty-day period has passed. The Registrar can allow this late registration if the company had a good reason for the delay. The company must apply using specific forms and include a signed declaration.",
+  "points": [
+   "Companies must normally register a charge within thirty days of its creation or modification.",
+   "If delayed, the Registrar may allow late registration upon payment of required fees if the company had sufficient cause.",
+   "The application must be made using Form No. CHG-1 or Form No. CHG-9.",
+   "A company secretary or director must sign a declaration stating that the late filing does not harm other intervening creditors."
+  ],
+  "example": "Meera Textiles Private Limited took a bank loan and created a charge on its assets. Due to a sudden strike by its administrative staff, the company could not file the charge details within the initial thirty days. The company applied to the Registrar using Form No. CHG-1 to register it late. The director submitted a signed declaration confirming that this delayed filing would not harm the rights of any other intervening creditors. Being satisfied with the valid reason, the Registrar allowed the registration upon payment of the applicable fees.",
+  "terms": [
+   {
+    "term": "Charge",
+    "meaning": "An interest or lien created on the property or assets of a company as security for a loan."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "The government official appointed to handle the registration of companies and related documents."
+   },
+   {
+    "term": "Intervening creditors",
+    "meaning": "Other persons or entities to whom the company owes money during the relevant time period."
+   }
+  ],
+  "watch": "Do not assume specific time periods or fine amounts beyond what is written in the text.",
+  "h": "f6033f9ef8e5",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "5": {
+  "summary": "This rule explains that the same steps used for standard charge registration also apply to other situations. Specifically, it covers registering charges on property that already has a charge when bought, and updating existing charges under Section 79. In simple terms, the main registration rules are reused for these special cases.",
+  "points": [
+   "Rule 4 provisions apply to property acquired while already subject to a charge.",
+   "Rule 4 provisions also apply to the modification of a charge under Section 79.",
+   "The application is made mutatis mutandis, meaning necessary changes in details are allowed while keeping the same process."
+  ],
+  "example": "Meera Textiles Private Limited bought a warehouse that already had a bank loan secured against it as a charge. Because of this rule, the company must follow the same registration process found in rule 4 to register this acquired charge properly.",
+  "terms": [
+   {
+    "term": "mutatis mutandis",
+    "meaning": "changing things that need to be changed while keeping the main rule the same"
+   },
+   {
+    "term": "modification of charge",
+    "meaning": "making changes or updates to an existing charge"
+   }
+  ],
+  "watch": "Do not assume this rule creates a brand new process; it simply borrows the existing steps from rule 4 for different situations.",
+  "h": "7b44ae86a727",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "6": {
+  "summary": "This rule explains that the Registrar must issue official certificates when a company registers a new charge or modifies an existing one. These certificates act as final proof that all legal registration steps have been properly followed. This makes the registration official and legally recognized.",
+  "points": [
+   "The Registrar issues a certificate in Form No. CHG-2 when a charge is registered.",
+   "The Registrar issues a certificate in Form No. CHG-3 when a charge modification is registered.",
+   "The issued certificate serves as conclusive proof that all registration rules have been met."
+  ],
+  "example": "Meera Textiles Private Limited recently created a charge on its factory building to secure a bank loan. After submitting the necessary details, the Registrar approved and registered the charge. The Registrar then issued a certificate of registration in Form No. CHG-2 to the company. Because of this rule, that certificate stands as final proof that the company completed all legal requirements for registering the charge properly.",
+  "terms": [
+   {
+    "term": "Charge",
+    "meaning": "An interest or lien created on the property or assets of a company as security for a loan."
+   },
+   {
+    "term": "Modification",
+    "meaning": "Any change or alteration made to an already registered charge."
+   },
+   {
+    "term": "Conclusive evidence",
+    "meaning": "Definitive proof that cannot be contradicted or disputed in court."
+   }
+  ],
+  "watch": "People often confuse the certificate of registration with the loan agreement itself, but they are separate documents.",
+  "h": "421d2187d3dd",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "7": {
+  "summary": "The official online portal of the Ministry of Corporate Affairs serves as the official register of charges. Anyone can look at this online register as long as they pay a fee. This rule makes it easy for the public to check property claims on companies.",
+  "points": [
+   "Details of charges kept on the Ministry of Corporate Affairs portal count as the official register.",
+   "Any person is allowed to inspect this register.",
+   "A fee must be paid to view the register."
+  ],
+  "example": "Meera Textiles Private Limited has a loan secured by its machinery. A curious person named Rahul wants to check if there are any charges on the company's property. He visits the official Ministry of Corporate Affairs portal. By paying the required fee, Rahul is able to inspect the register of charges and view the details recorded there.",
+  "terms": [
+   {
+    "term": "Charge",
+    "meaning": "An interest or lien created on the property or assets of a company as security for borrowing."
+   },
+   {
+    "term": "Inspect",
+    "meaning": "To officially view or examine records."
+   }
+  ],
+  "watch": "People sometimes think inspecting the register is free, but the rule states that a fee must be paid.",
+  "h": "64712f1dee9a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "8": {
+  "summary": "This rule explains how a company or charge holder must report when a charge is fully paid off. They have three hundred days from the payment date to inform the Registrar using a specific form and fee. Once recorded, the Registrar will issue a certificate of satisfaction.",
+  "points": [
+   "A company or charge holder must report full payment of a charge to the Registrar.",
+   "This intimation must happen within three hundred days from the payment date.",
+   "The report must use Form No. CHG-4 and include the required fee.",
+   "The Registrar will issue a certificate of registration of satisfaction in Form No. CHG-5."
+  ],
+  "example": "Meera Textiles Private Limited fully paid off a loan that was secured by a registered charge on its factory. Within three hundred days of this full payment, the company submitted Form No. CHG-4 along with the proper fee to notify the Registrar. After checking the details, the Registrar entered a memorandum of satisfaction and issued a certificate of registration of satisfaction of charge in Form No. CHG-5.",
+  "terms": [
+   {
+    "term": "Charge",
+    "meaning": "An interest or lien created on the property or assets of a company as security for borrowing."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "The government official appointed to maintain records of companies under the Act."
+   },
+   {
+    "term": "Satisfaction",
+    "meaning": "The full payment or fulfillment of the debt for which the charge was created."
+   }
+  ],
+  "watch": "Remember that this rule applies to full payment or satisfaction, not partial payments.",
+  "h": "dc7eeec157d9",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "12": {
+  "summary": "The Central Government can fix mistakes or missing details in company charge records when an application is filed using Form No. CHG-8 under section 87. It can also give more time to report the satisfaction of a charge if the filing is delayed past three hundred days. This helps companies keep their official loan and property records correct.",
+  "points": [
+   "Applications must be filed in Form No. CHG-8 according to section 87.",
+   "The Central Government can fix omissions or misstatements in previous filings about charges, modifications, or satisfaction entries.",
+   "The Central Government can extend the time to file the satisfaction of a charge if it is not done within three hundred days from the date of payment or satisfaction."
+  ],
+  "example": "Meera Textiles Private Limited paid off a bank loan completely. However, the company forgot to report this payment to the Registrar within the normal three hundred days. To fix this delay, Meera Textiles Private Limited filed an application in Form No. CHG-8 to the Central Government. The Central Government used its power under the rules to direct an extension of time so the company could legally record that the charge has been satisfied.",
+  "terms": [
+   {
+    "term": "Charge",
+    "meaning": "An interest or lien created on the property or assets of a company as security for a loan."
+   },
+   {
+    "term": "Satisfaction of charge",
+    "meaning": "The full payment or fulfillment of the debt for which the charge was created."
+   }
+  ],
+  "watch": "Remember that this rule applies specifically to delays exceeding three hundred days or fixing past mistakes through the Central Government.",
+  "h": "5c8d84808848",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "13": {
+  "summary": "This rule explains who must sign specific charge forms when a company is going through resolution or liquidation. The designated official must sign these forms and file them with the Registrar. This applies to companies currently under resolution or liquidation processes.",
+  "points": [
+   "Form No. CHG-1, CHG-4, CHG-8, and CHG-9 must be used.",
+   "These forms must be signed by the insolvency resolution professional, resolution professional, or liquidator.",
+   "The signing applies to companies under resolution or liquidation.",
+   "The signed forms must be filed with the Registrar."
+  ],
+  "example": "Meera Textiles Private Limited entered into corporate liquidation due to financial distress. Mr. Sharma was appointed as the official liquidator to manage the winding-up process. When official documents regarding company charges required filing, Mr. Sharma signed Form CHG-4 and Form CHG-9 in his official capacity as the liquidator. He then filed these signed forms with the Registrar as required by the rules.",
+  "terms": [
+   {
+    "term": "Liquidator",
+    "meaning": "A person appointed to wind up the affairs of a company and distribute its assets."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "An official who maintains records of companies."
+   },
+   {
+    "term": "Charge",
+    "meaning": "An interest or lien created on the property or assets of a company as security."
+   }
+  ],
+  "watch": "Do not assume any deadlines or fee amounts for filing, as the provided text does not mention them.",
+  "h": "2822686c7c68",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

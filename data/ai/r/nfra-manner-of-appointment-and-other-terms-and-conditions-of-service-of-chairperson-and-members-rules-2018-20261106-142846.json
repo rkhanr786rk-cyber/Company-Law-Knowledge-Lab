@@ -1,0 +1,53 @@
+{
+ "2": {
+  "summary": "This rule gives basic definitions for terms used in the National Financial Reporting Authority rules. It explains that the word Act refers to the Companies Act, 2013, and the Authority refers to the National Financial Reporting Authority. Any other words used here that are not explained will have the same meaning given to them in the Act.",
+  "points": [
+   "The word Act refers specifically to the Companies Act, 2013.",
+   "The word Authority means the National Financial Reporting Authority set up under the Act.",
+   "Words not defined in these rules take their meanings directly from the Act."
+  ],
+  "example": "When reading the rules for Meera Textiles Private Limited, people often wonder what the word Authority stands for. According to this rule, Authority always means the National Financial Reporting Authority created under the Companies Act, 2013.",
+  "terms": [
+   {
+    "term": "Act",
+    "meaning": "The Companies Act, 2013."
+   },
+   {
+    "term": "Authority",
+    "meaning": "The National Financial Reporting Authority."
+   }
+  ],
+  "watch": "Do not assume words have ordinary dictionary meanings if they are already defined in the Companies Act, 2013.",
+  "h": "2313a32e8edc",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "18": {
+  "summary": "This rule explains the service conditions, restrictions on practice, and post-retirement employment rules for the chairperson and full-time members of the National Financial Reporting Authority. It ensures that leaders do not take up arbitration work while in office or join companies involved in past proceedings soon after leaving. Government and public sector jobs are, however, exempted from these post-employment restrictions.",
+  "points": [
+   "Unspecified service conditions follow those of a Central Government officer in a Group 'A' post with the same pay.",
+   "The chairperson or full-time member cannot practice before the Authority after leaving office.",
+   "No arbitration work can be undertaken while functioning in the Authority.",
+   "Employment with a party from a previous proceeding is banned for two years after leaving office, except in government or public sector bodies."
+  ],
+  "example": "Mr. Sharma served as the chairperson of the National Financial Reporting Authority. After leaving his position, a private firm called Meera Textiles Private Limited, which had a case before the Authority during his tenure, offered him a management job. Because only two years had passed, Mr.Sharma could not accept that private job. However, he was legally allowed to take up a new role offered by a Central Government department during that same two-year period.",
+  "terms": [
+   {
+    "term": "Authority",
+    "meaning": "The National Financial Reporting Authority."
+   },
+   {
+    "term": "Arbitration",
+    "meaning": "A way of settling a dispute outside of court."
+   },
+   {
+    "term": "Statutory authority",
+    "meaning": "An body set up by an Act of Parliament or State Legislature."
+   }
+  ],
+  "watch": "People often confuse the ban on private post-retirement employment with a total ban on all jobs, but government and public sector employment are actually allowed.",
+  "h": "2a7b5443f880",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

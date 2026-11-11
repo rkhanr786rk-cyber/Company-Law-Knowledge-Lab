@@ -1,0 +1,339 @@
+{
+ "4": {
+  "summary": "A company limited by shares can issue equity shares with different rights for dividends or voting only if it meets specific legal conditions. The company must have proper rules in its articles of association, shareholder approval, and no recent financial defaults or penalties. Notice of the meeting must give full details about the shares and their impact.",
+  "points": [
+   "The company must have authorization in its articles of association.",
+   "The issue needs approval by an ordinary resolution of shareholders, or by postal ballot if listed.",
+   "Voting power for these shares must not exceed seventy four percent of total voting power.",
+   "The company must have no unpaid deposits, defaulted dividends, or unmade statutory payments.",
+   "Companies cannot convert existing normal shares into differential shares and vice versa."
+  ],
+  "example": "Meera Textiles Private Limited wants to issue equity shares with different voting rights. First, the company checks that its articles of association allow this. Next, the shareholders pass an ordinary resolution at a general meeting to approve the issue. The company ensures it has no unpaid deposits or pending financial statements for the past three years. Before the meeting, the board sends a notice with an explanatory statement detailing the exact number of shares, reasons for the issue, pricing basis, and expected changes in control.",
+  "terms": [
+   {
+    "term": "Articles of association",
+    "meaning": "The rulebook that sets up a company's internal management and operations."
+   },
+   {
+    "term": "Ordinary resolution",
+    "meaning": "A decision approved by a simple majority of more than fifty percent of votes cast by shareholders."
+   },
+   {
+    "term": "Postal ballot",
+    "meaning": "A way for shareholders to vote by mail or electronic means instead of attending a meeting in person."
+   }
+  ],
+  "watch": "People often think normal shares can be easily converted into shares with differential rights, but the rules strictly forbid this conversion.",
+  "h": "5cd15ddecc62",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "5": {
+  "summary": "This rule explains how a company must issue and sign physical share certificates. A share certificate can only be issued after a board decision and when old allotment papers are returned. Every certificate must show specific details and bear proper signatures or digital signs.",
+  "points": [
+   "Share certificates can only be issued following a resolution passed by the Board.",
+   "The person getting the certificate must first return the letter of allotment or fractional coupons, except for bonus shares or certain other cases.",
+   "Every certificate must name the holder, the shares it covers, and the amount paid up on them.",
+   "Certificates must be signed by two directors, or by one director and the company secretary if one is appointed."
+  ],
+  "example": "Aarav wanted a physical share certificate for his shares in Meera Textiles Private Limited. The Board of Directors passed a resolution to issue the certificate. Aarav surrendered his original letter of allotment to the company. Two directors of Meera Textiles Private Limited then signed the share certificate, which clearly stated Aarav's name, the shares he owned, and the amount he had paid for them. Finally, the company entered these details into its Register of Members.",
+  "terms": [
+   {
+    "term": "Board",
+    "meaning": "The group of directors who manage the company."
+   },
+   {
+    "term": "Register of Members",
+    "meaning": "An official record maintained by the company containing details of its members."
+   },
+   {
+    "term": "Facsimile signature",
+    "meaning": "A printed or mechanically reproduced copy of a real signature."
+   }
+  ],
+  "watch": "Do not confuse physical share certificates with shares held in electronic or demat form, as this rule only applies to physical certificates.",
+  "h": "bd34c589c6ba",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "8": {
+  "summary": "Unlisted companies can issue sweat equity shares to directors and employees for know-how or intellectual property at a discount or for non-cash payment only if approved by a special resolution. The rules set specific limits on the percentage of capital that can be issued, require valuation by a registered valuer, and enforce a lock-in period for the shares. The company must also provide detailed particulars in the notice of the general meeting.",
+  "points": [
+   "Unlisted companies need a special resolution to issue sweat equity shares to directors or employees at a discount or for non-cash consideration.",
+   "Sweat equity shares must be valued by a registered valuer at a fair price.",
+   "Issued sweat equity shares are locked in and non-transferable for three years from the date of allotment.",
+   "The notice of the general meeting must include an explanatory statement with specific particulars about the issue."
+  ],
+  "example": "Meera Textiles Private Limited wanted to issue sweat equity shares to its permanent employees for providing technical know-how. The board approved the proposal and called a general meeting. The company sent a notice containing all required particulars, including reasons for the issue and the valuation report. The shareholders passed a special resolution authorizing the issue. A registered valuer determined the fair price of the shares. After allotment, the share certificates were clearly marked with a three-year lock-in period.",
+  "terms": [
+   {
+    "term": "Sweat equity shares",
+    "meaning": "Equity shares issued by a company to its directors or employees at a discount or for consideration other than cash for providing know-how or value additions."
+   },
+   {
+    "term": "Special resolution",
+    "meaning": "A resolution passed by a high majority of votes in a general meeting of the company."
+   },
+   {
+    "term": "Registered valuer",
+    "meaning": "A professional registered to determine the fair value of assets or shares."
+   }
+  ],
+  "watch": "Ensure you check the specific limits for startups versus normal companies when issuing sweat equity shares.",
+  "h": "6b824264f390",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "9": {
+  "summary": "A company with share capital can issue preference shares if its articles allow it and members pass a special resolution. The company must not have any ongoing default in paying dividends or redeeming past preference shares. The resolution and meeting notice must clearly state all details about these shares, and they must be recorded in the register of members.",
+  "points": [
+   "The company's articles must allow the issue of preference shares.",
+   "A special resolution must be passed in a general meeting to authorize the issue.",
+   "The company must not currently owe unpaid dividends or unredeemed preference shares.",
+   "The meeting notice must include complete material facts like size, price, objectives, and terms of redemption.",
+   "The register of members must contain details of preference shareholders."
+  ],
+  "example": "Meera Textiles Private Limited wants to raise funds. Its articles allow preference shares. The company has no pending dividend defaults. It holds a general meeting where shareholders pass a special resolution approving the issue. The notice sent for the meeting details the size, price, and redemption terms. Once issued, the details of these preference shareholders are recorded in the company register of members.",
+  "terms": [
+   {
+    "term": "Articles",
+    "meaning": "The rulebook of a company that sets out its internal management and operations."
+   },
+   {
+    "term": "Special resolution",
+    "meaning": "A decision made by shareholders in a meeting that requires a high majority vote."
+   },
+   {
+    "term": "Redemption",
+    "meaning": "The repayment of the preference share amount by the company to the shareholder."
+   }
+  ],
+  "watch": "Ensure that the company has no past defaults in paying dividends or redeeming preference shares before issuing new ones.",
+  "h": "3b17bc9e8c9c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "12": {
+  "summary": "This rule explains how unlisted companies that are not bound by certain stock market guidelines can offer stock options to their employees. To do this, the company must get approval from its shareholders through a special resolution and meet specific disclosure and management requirements. Promoters and large shareholders are generally excluded from receiving these options unless the company qualifies as a startup.",
+  "points": [
+   "The issuance of the stock option scheme must be approved by shareholders using a special resolution.",
+   "Promoters, promoter group members, and directors holding large stakes are generally not allowed to receive these options.",
+   "The company must provide detailed information in the explanatory statement attached to the notice for the resolution.",
+   "Options granted to employees cannot be transferred, sold, pledged, or mortgaged to any other person.",
+   "There must be at least one year between the grant of options and when they vest."
+  ],
+  "example": "Meera Textiles Private Limited wanted to offer stock options to its permanent workers. The board prepared a notice for a meeting, attaching an explanatory statement that listed the total number of options, the appraisal process, and the exercise price. The shareholders then passed a special resolution to approve the scheme. Rahul, a permanent employee, received his options. Because company rules stated options could not be transferred, Rahul kept them safely. After waiting one full year for the vesting period to pass, Rahul successfully exercised his options and received his shares in Meera Textiles Private Limited.",
+  "terms": [
+   {
+    "term": "Special resolution",
+    "meaning": "A vote by shareholders that requires at least a seventy-five percent majority to pass."
+   },
+   {
+    "term": "Vesting",
+    "meaning": "The process by which an employee earns the right to receive or exercise their stock options over time."
+   },
+   {
+    "term": "Startup company",
+    "meaning": "A company defined by a specific government notification issued by the Department for Promotion of Industry and Internal Trade."
+   }
+  ],
+  "watch": "People often confuse getting a stock option with actually owning shares, but employees do not get shareholder benefits like voting or dividends until they officially exercise their options and get shares.",
+  "h": "444f9619ad38",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "12A": {
+  "summary": "This rule sets a minimum time limit for making a certain share offer under the Companies Act, 2013. When a company makes this offer to its existing people, it must give them at least seven days to accept it. This ensures people have enough basic time to look at the offer before deciding.",
+  "points": [
+   "The rule applies to specific share offers mentioned in section 62.",
+   "The offer must remain open for acceptance for a minimum of seven days.",
+   "The counting of the time starts from the exact date when the offer is made."
+  ],
+  "example": "Meera Textiles Private Limited decided to offer new shares to its current holders. The management sent out the official offer letter on Monday. According to the rule, the company must keep this offer open for acceptance for not less than seven days from that date, giving the holders until at least the following Monday to respond.",
+  "terms": [
+   {
+    "term": "Offer",
+    "meaning": "A formal proposal given to people asking them if they want to buy shares."
+   },
+   {
+    "term": "Acceptance",
+    "meaning": "Saying yes to the offer that was made."
+   }
+  ],
+  "watch": "Do not confuse this minimum seven-day period with the maximum time, as the rule only sets the lower limit.",
+  "h": "f5f9b72a84f2",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "13": {
+  "summary": "A company can issue shares or other securities to a select group of people on a preferential basis if the shareholders pass a special resolution and the company follows certain rules. For unlisted companies, the issue must be allowed by the company's articles of association and must include detailed disclosures in the notice to members. The final allotment of securities must be completed within twelve months of passing that special resolution.",
+  "points": [
+   "A preferential offer means issuing shares or securities to a select person or group of persons.",
+   "The issue must be authorized by a special resolution passed by the members in a general meeting.",
+   "Unlisted companies must follow specific requirements, such as including detailed disclosures in the explanatory statement.",
+   "The allotment of securities must be completed within twelve months from the date of the special resolution."
+  ],
+  "example": "Meera Textiles Private Limited wants to issue new shares to a select group of investors instead of the general public. To do this, the company gets authorization through a special resolution passed by its members in a general meeting. The company includes all required disclosures in the explanatory statement sent with the meeting notice. Finally, Meera Textiles Private Limited completes the allotment of these shares within twelve months from the date the special resolution was passed.",
+  "terms": [
+   {
+    "term": "Preferential Offer",
+    "meaning": "An issue of shares or other securities by a company to any select person or group of persons."
+   },
+   {
+    "term": "Special Resolution",
+    "meaning": "A decision made by shareholders at a general meeting that requires a specific high majority of votes."
+   },
+   {
+    "term": "Registered Valuer",
+    "meaning": "A qualified person who determines the price or value of shares or assets."
+   }
+  ],
+  "watch": "People often confuse a preferential offer with a public issue or rights issue, but a preferential offer is only made to a select group of persons.",
+  "h": "2fea5c3eb7f6",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "15": {
+  "summary": "When a company changes its share capital, gets a Government order to increase its capital, buys back redeemable preference shares, or increases its members if it has no share capital, it must inform the Registrar. The company does this by filing a specific notice in Form No. SH.7 along with the required fee. This rule ensures official records are kept updated whenever a company's structure changes.",
+  "points": [
+   "A company must file a notice with the Registrar when it alters its share capital.",
+   "Notice is also required if the Government orders an increase in the authorized capital.",
+   "Redeeming redeemable preference shares requires filing this notice.",
+   "Companies without share capital must file a notice when they increase their number of members.",
+   "The filing must be done using Form No. SH.7 and include the fee."
+  ],
+  "example": "Meera Textiles Private Limited decided to alter its share capital to grow its business operations. Because the company changed its share capital, the law requires official records to be updated. To follow this rule, the directors filed a notice with the Registrar. They used Form No. SH.7 and paid the required fee to complete the process properly.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "An official government authority who keeps records of companies."
+   },
+   {
+    "term": "Share capital",
+    "meaning": "The money a company raises by issuing shares."
+   },
+   {
+    "term": "Redeemable preference shares",
+    "meaning": "Shares that a company can buy back or repay after a certain time."
+   }
+  ],
+  "watch": "Do not forget that this rule applies not only to share capital changes and preference shares, but also to companies without share capital that increase their members.",
+  "h": "b5dcba652564",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "16": {
+  "summary": "A company can provide money to buy its own shares for employees only if it follows strict rules. The members must approve the plan by a special resolution, and listed shares must be bought through a stock exchange. The total value of shares and money provided cannot exceed five per cent of the company's paid-up capital and free reserves.",
+  "points": [
+   "Members must approve the money scheme by passing a special resolution in a general meeting.",
+   "Listed shares must be purchased through a recognized stock exchange, not through private offers.",
+   "Unlisted shares must be valued by a registered valuer.",
+   "The total share and money value cannot exceed five per cent of paid-up capital and free reserves.",
+   "Promoters, directors, and major shareholders cannot act as trustees for these shares."
+  ],
+  "example": "Meera Textiles Private Limited wants to provide money so that trustees can buy shares for its employees. First, the members must pass a special resolution in a general meeting. The notice for this meeting must include specific details, such as which class of employees will benefit and who the trustees are. Since the company is unlisted, a registered valuer must decide the share price. The total money and share value cannot exceed five per cent of the company's paid-up capital and free reserves. Finally, the chosen trustee cannot be a director or a promoter of the company.",
+  "terms": [
+   {
+    "term": "Special resolution",
+    "meaning": "A formal decision passed by a high majority of company members at a meeting."
+   },
+   {
+    "term": "Registered valuer",
+    "meaning": "A qualified professional officially registered to calculate the monetary value of assets or shares."
+   },
+   {
+    "term": "Paid-up capital",
+    "meaning": "The total amount of money that shareholders have paid to the company in exchange for shares."
+   }
+  ],
+  "watch": "Make sure not to confuse trustees with ordinary employees, as directors and promoters are strictly banned from acting as trustees.",
+  "h": "8d4ca55f2bba",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "17": {
+  "summary": "When private and unlisted public companies want to buy back their own shares or securities, they must follow specific rules. The notice calling for the meeting must include detailed information, like the reasons for the buy-back, pricing, and financial health confirmations. The company must also file proper offers and declarations with the Registrar of Companies before proceeding.",
+  "points": [
+   "The notice for the general meeting must contain an explanatory statement with specific disclosures about the buy-back.",
+   "The company must file a letter of offer and a declaration of solvency with the Registrar of Companies.",
+   "The buy-back offer must remain open for a set number of days after the letter of offer is sent out.",
+   "If shareholders offer more shares than the company wants to buy, the company accepts them on a proportionate basis."
+  ],
+  "example": "Meera Textiles Private Limited decided to buy back some of its shares from its owners. Before holding the meeting, the board prepared a notice with an explanatory statement listing the price, the total amount to be paid, and the reasons for the buy-back. They also checked that all past deposits and loans were fully paid and confirmed the company would not become insolvent. Meera Textiles then filed its letter of offer and declaration of solvency with the Registrar of Companies.",
+  "terms": [
+   {
+    "term": "Buy-back",
+    "meaning": "A company buying back its own shares from its existing shareholders."
+   },
+   {
+    "term": "Promoter",
+    "meaning": "A person or company that helps set up the company or has control over its management."
+   },
+   {
+    "term": "Solvency",
+    "meaning": "Having enough money to pay off all debts and liabilities as they become due."
+   }
+  ],
+  "watch": "Do not confuse the date of the board meeting approval with the date of sending the general meeting notice when compiling disclosures.",
+  "h": "b87272589fee",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "18": {
+  "summary": "When a company issues secured debentures, it must follow specific rules regarding the repayment time limit, securing the amount with property, and appointing a debenture trustee to protect investor interests. Certain infrastructure and government-backed companies have special allowances for longer periods or exemptions from creating a charge. The rules also list who cannot act as a trustee and outline the duties trustees must perform.",
+  "points": [
+   "Secured debentures must generally be redeemed within ten years, though certain infrastructure companies and authorized entities may extend this up to thirty years.",
+   "The issue must be secured by a charge on the properties or assets of the company, its subsidiaries, holding company, or associates, with sufficient value to repay the amount and interest.",
+   "The company must appoint a debenture trustee and execute a trust deed, ensuring the trustee meets strict independence criteria and does not have conflicts of interest.",
+   "Debenture trustees have specific duties, such as protecting investor interests, checking company reports, acting upon payment defaults, and ensuring asset sufficiency."
+  ],
+  "example": "Meera Textiles Private Limited decided to issue secured debentures to raise funds. Before issuing the offer letter, the company appointed an independent debenture trustee who had no shares in the company, was not an employee, and was not related to any directors. They agreed that the debentures would be redeemed within ten years. To secure the investors, Meera Textiles created a charge on its specific movable property in favor of the debenture trustee, ensuring the property value was sufficient to cover the full repayment and interest.",
+  "terms": [
+   {
+    "term": "Debenture",
+    "meaning": "A type of debt instrument or bond issued by a company that acknowledges a loan taken from the public or investors."
+   },
+   {
+    "term": "Debenture Trustee",
+    "meaning": "A person or entity appointed to protect the interests and rights of the debenture holders."
+   },
+   {
+    "term": "Charge",
+    "meaning": "A right created over the property or assets of a company as security for a debt."
+   }
+  ],
+  "watch": "People often confuse debenture trustees with company directors, but trustees must be strictly independent and cannot be employees or share-holders of the company.",
+  "h": "e17d2f33cf6c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "19": {
+  "summary": "This rule allows any holder of company securities to appoint a nominee using a specific form so that the securities pass to that person if the holder dies. If there are multiple joint holders, they must all agree and sign together on the same form. The nominee can later choose to become the registered owner of the securities or transfer them after showing the required proof of death.",
+  "points": [
+   "Security holders can name a person to receive their shares upon death by filing Form No. SH.13.",
+   "If multiple people own securities together, all joint holders must sign the nomination form.",
+   "The company must record the nomination request within two months of receiving the completed form.",
+   "A nominee can choose to register as the new security holder or transfer the securities after the holder passes away.",
+   "The holder can cancel or change the nominee at any time by giving notice to the company."
+  ],
+  "example": "Aarav held shares in Meera Textiles Private Limited. He filled out Form No. SH.13 to name his sister, Priya, as his nominee. After Aarav passed away, Priya provided the death certificate and her election notice to the company so she could register herself as the new holder of the shares.",
+  "terms": [
+   {
+    "term": "Securities",
+    "meaning": "Financial instruments like shares or debentures issued by a company."
+   },
+   {
+    "term": "Nominee",
+    "meaning": "A person chosen by the security holder to receive the securities in the event of the holder's death."
+   },
+   {
+    "term": "Joint holders",
+    "meaning": "More than one person who jointly own the same shares or securities."
+   }
+  ],
+  "watch": "A nominee does not get voting rights in company meetings until they officially become the registered holder of the securities.",
+  "h": "510d7e69743b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

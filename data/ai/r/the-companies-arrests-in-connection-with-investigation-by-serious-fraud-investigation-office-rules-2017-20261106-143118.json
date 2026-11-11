@@ -1,0 +1,30 @@
+{
+ "1": {
+  "summary": "These rules explain how officers of the Serious Fraud Investigation Office can arrest people during an investigation under the Companies Act. They set out who has the power to arrest, how arrests must be recorded, and how long the documents must be kept. The rules apply differently depending on whether the company is a regular company, a Government company, or a foreign company.",
+  "points": [
+   "Certain SFIO officers can arrest a person if they have written reasons to believe the person is guilty of an offence.",
+   "If an Additional Director or Assistant Director makes an arrest, they need prior written approval from the Director of the SFIO.",
+   "Arresting officers must sign the arrest order and personal search memo, give copies to the arrested person, and get a written acknowledgement.",
+   "Arrest documents must be sent to the Director of the SFIO in a sealed envelope within twenty-four hours."
+  ],
+  "example": "Mr. Sharma, an officer at the Serious Fraud Investigation Office, was looking into the affairs of Meera Textiles Private Limited. Based on documents he found, Mr. Sharma had written reasons to believe that Mr. Verma, an employee of the company, had committed an offence. Since Mr. Sharma was an Assistant Director, he first obtained the prior written approval of the Director of the SFIO. He then arrested Mr. Verma, signed the arrest order and personal search memo, and served them on Mr. Verma, obtaining his written acknowledgement.",
+  "terms": [
+   {
+    "term": "Official Gazette",
+    "meaning": "The official government publication used to announce new rules and laws."
+   },
+   {
+    "term": "Impugned",
+    "meaning": "Challenged or questioned in a higher court."
+   },
+   {
+    "term": "Mutatis mutandis",
+    "meaning": "With necessary changes having been made."
+   }
+  ],
+  "watch": "Do not assume that every officer can order an arrest freely, as some officers require prior written approval from the Director of the SFIO or the Central Government.",
+  "h": "2e2ee669e9aa",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

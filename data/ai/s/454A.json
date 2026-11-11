@@ -1,0 +1,28 @@
+{
+ "summary": "This section deals with what happens when someone repeats the same mistake under the Companies Act, 2013. If a company, officer, or person makes the same default again within three years of a past penalty order, the punishment becomes heavier. Specifically, they must pay twice the normal penalty amount for that second or subsequent default.",
+ "points": [
+  "Applies to a company, an officer of a company, or any other person.",
+  "Triggered when the same default is committed again within three years.",
+  "The three-year period starts from the date of the earlier penalty order passed by the adjudicating officer or the Regional Director.",
+  "For the second or subsequent default, the penalty amount is doubled compared to what the law normally provides for that default."
+ ],
+ "example": "Meera Textiles Private Limited previously failed to file a required annual return and was ordered to pay a penalty by the adjudicating officer. Exactly two years later, Meera Textiles Private Limited unfortunately made the exact same mistake of failing to file that annual return again. Because this second default happened well within the three-year window set by the law, the company could not just pay the standard fine. Instead, under Section 454A, Meera Textiles Private Limited was held liable to pay an amount equal to twice the normal penalty provided for that specific default.",
+ "terms": [
+  {
+   "term": "default",
+   "meaning": "breaking a rule or failing to do something required by the law"
+  },
+  {
+   "term": "adjudicating officer",
+   "meaning": "an official appointed to decide cases and impose penalties for breaking the law"
+  },
+  {
+   "term": "Regional Director",
+   "meaning": "an authority appointed by the central government to oversee certain corporate matters"
+  }
+ ],
+ "watch": "Make sure to count the three-year period starting specifically from the date of the previous penalty order, not from the date when the original mistake was made.",
+ "h": "c9da39edaa36",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-11"
+}

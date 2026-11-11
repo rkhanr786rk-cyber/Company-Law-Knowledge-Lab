@@ -1,0 +1,166 @@
+{
+ "2": {
+  "summary": "This rule explains which companies must follow the Nidhi Rules. It covers companies that were previously declared as Nidhis, companies acting like Nidhis while waiting for official recognition, and companies newly formed as Nidhis under the law. In short, it applies to all kinds of Nidhi or Mutual Benefit societies.",
+  "points": [
+   "Applies to companies already declared as a Nidhi or Mutual Benefit Society under the older law.",
+   "Applies to companies working like a Nidhi while waiting for official notification.",
+   "Applies to companies officially set up as a Nidhi under the Companies Act, 2013."
+  ],
+  "example": "Meera Textiles Private Limited functions entirely on the lines of a Nidhi company. It collects savings from its members and lends money only to them. Even though Meera Textiles has applied for official Nidhi status under the old law and is still waiting for its notification to arrive, these Nidhi rules apply to its operations right now.",
+  "terms": [
+   {
+    "term": "Nidhi or Mutual Benefit Society",
+    "meaning": "A type of company whose main goal is to grow savings among its members and lend money only to them."
+   },
+   {
+    "term": "Incorporated",
+    "meaning": "Formed and registered officially as a company under the law."
+   }
+  ],
+  "watch": "People often confuse companies that are waiting for notification with companies that are not regulated at all, but waiting companies still must follow these rules.",
+  "h": "177552c839ce",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "3B": {
+  "summary": "This rule explains how a new public company can apply to become a Nidhi company. It must meet member and funds requirements and ensure its leaders are fit and proper persons. The Central Government will review the application and make a decision within a set time period.",
+  "points": [
+   "The company must apply in Form NDH-4 within one hundred twenty days of its incorporation.",
+   "It must have at least two hundred members and Net Owned Funds of twenty lakh rupees or more.",
+   "All promoters and directors must meet the fit and proper person criteria without any listed disqualifications.",
+   "The Central Government must convey its decision within forty five days, or it is deemed approved."
+  ],
+  "example": "Sunrise Nidhi Limited was recently incorporated as a public company in India. To become a Nidhi, it applied in Form NDH-4 within one hundred twenty days. The company showed it had two hundred members and Net Owned Funds of twenty lakh rupees. All its promoters and directors attached declarations proving they met the fit and proper person criteria. The Central Government reviewed the application and notified its approval in the Official Gazette.",
+  "terms": [
+   {
+    "term": "Net Owned Funds",
+    "meaning": "The aggregate of paid-up equity share capital and free reserves as reduced by accumulated losses and intangible assets."
+   },
+   {
+    "term": "Promoter",
+    "meaning": "A person who has been named as such in a prospectus or is identified by the company in its annual return."
+   },
+   {
+    "term": "Moral Turpitude",
+    "meaning": "An act or behavior that gravely violates community standards or accepted moral values."
+   }
+  ],
+  "watch": "Do not assume these rules apply to public companies incorporated before the Nidhi Amendment Rules, 2022 came into effect.",
+  "h": "338f9efb2c7e",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "4": {
+  "summary": "This rule explains the basic requirements for setting up and naming a Nidhi company. A Nidhi must be a public company with a minimum paid-up equity share capital of ten lakh rupees and cannot issue preference shares. Its only purpose must be to encourage savings and handle deposits and loans solely for its members.",
+  "points": [
+   "A Nidhi must be a public company with a minimum paid-up equity share capital of ten lakh rupees.",
+   "No Nidhi can issue preference shares on or after the commencement of the Act.",
+   "The main object of a Nidhi must be to encourage thrift and savings among its members and to take deposits from and lend to them for mutual benefit.",
+   "Every Nidhi must include the words 'Nidhi Limited' as the last part of its name."
+  ],
+  "example": "Aarav decided to start a financial business with his friends and named it Aarav Nidhi Limited. To follow the law properly, they registered it as a public company and ensured its capital meets the required amount of ten lakh rupees. They clearly stated in their foundational document that the company will only accept deposits from and lend money to its members to help them save and support each other, and they did not issue any preference shares.",
+  "terms": [
+   {
+    "term": "paid up equity share capital",
+    "meaning": "The total amount of money that shareholders have paid to the company in exchange for ordinary shares."
+   },
+   {
+    "term": "preference shares",
+    "meaning": "A special type of share that gives holders a higher claim on dividends and assets than ordinary shareholders."
+   },
+   {
+    "term": "Memorandum of Association",
+    "meaning": "The main legal document that sets out the core objects and powers of a company."
+   }
+  ],
+  "watch": "A common confusion is thinking a company can use 'Nidhi Limited' in its name before it is officially declared as a Nidhi under the law.",
+  "h": "44580a5c2e7d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "5": {
+  "summary": "This rule sets basic requirements for a Nidhi company to follow after it starts. Within one year of being set up, it must reach specific targets for members, funds, and deposits. If it misses some targets, it must ask the Regional Director for more time using a set form.",
+  "points": [
+   "A Nidhi must have at least two hundred members within one year of incorporation.",
+   "It must maintain Net Owned Funds of ten lakh rupees or more.",
+   "It must keep unencumbered term deposits of at least ten per cent of its outstanding deposits.",
+   "The ratio of Net Owned Funds to deposits must not be more than one to twenty.",
+   "It must file a compliance return in Form NDH-1 after the close of its first and second financial years."
+  ],
+  "example": "Aarav Nidhi Limited was recently set up by a group of friends. Within one year of its incorporation, the company checked its records to meet the rules. They confirmed they had two hundred members, ten lakh rupees in Net Owned Funds, and kept the required term deposits. They also maintained the correct ratio between their Net Owned Funds and their deposits. After their first financial year ended, they filed their return of statutory compliances in Form NDH-1 certified by a chartered accountant.",
+  "terms": [
+   {
+    "term": "Net Owned Funds",
+    "meaning": "The aggregate of paid-up equity share capital and free reserves as reduced by accumulated losses and intangible assets."
+   },
+   {
+    "term": "Unencumbered term deposits",
+    "meaning": "Term deposits that are not subject to any mortgage, charge, or lien."
+   },
+   {
+    "term": "Regional Director",
+    "meaning": "The person appointed by the Central Government in the Ministry of Corporate Affairs as a Regional Director."
+   }
+  ],
+  "watch": "Do not forget that these rules do not apply to companies incorporated as a Nidhi on or after the commencement of the Nidhi Amendment Rules, 2022.",
+  "h": "adc835d8d97d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "6": {
+  "summary": "This rule sets strict limits on what a type of financial company called a Nidhi can do. A Nidhi is not allowed to run other risky businesses like chit funds, insurance, or buying company shares, and it can only deal with its own members. It also cannot issue special shares, give out ads for deposits, or pay people to bring in money.",
+  "points": [
+   "A Nidhi cannot run businesses like chit funds, hire purchase, leasing, insurance, or buying corporate securities.",
+   "It cannot issue preference shares, debentures, or debt instruments.",
+   "It cannot open current accounts for its members or deal with non-members.",
+   "It can only do borrowing and lending in its own name, plus rent out lockers under a specific limit."
+  ],
+  "example": "Sunshine Nidhi Limited wants to grow its business. The manager decides to print colorful pamphlets offering cash rewards to members who bring in new deposits. The company also places a large public advertisement in the local newspaper to attract more people. Under the rules, Sunshine Nidhi Limited cannot do either of these things, because Nidhi companies are strictly banned from paying incentives for deposits or advertising to the public.",
+  "terms": [
+   {
+    "term": "Nidhi",
+    "meaning": "A type of company formed to grow the habit of thrift and savings among its members."
+   },
+   {
+    "term": "Debentures",
+    "meaning": "A type of debt instrument used by companies to borrow money from the public."
+   },
+   {
+    "term": "Body corporate",
+    "meaning": "A legal term for a company or corporation."
+   }
+  ],
+  "watch": "People often confuse Nidhi companies with regular banks, but Nidhis are heavily restricted and cannot deal with the general public.",
+  "h": "28ed54a2ccf1",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "17": {
+  "summary": "This rule explains who can be a director of a Nidhi company and how long they can serve. A director must be a member of the Nidhi and can serve for up to ten years in a row. After stepping down, they must wait two years before they can be appointed again.",
+  "points": [
+   "A director must be a member of the Nidhi company.",
+   "A director can hold office for a maximum of ten consecutive years.",
+   "A former director can only be re-appointed after two years have passed since they stopped being a director.",
+   "Directors must meet specific legal requirements and must not be disqualified under the Act."
+  ],
+  "example": "Mr. Sharma is a member of Sharma Nidhi Limited. He is appointed as a director and serves on the board for ten consecutive years. When his term ends, he steps down from his position. Because the rules require a gap before re-appointment, Mr. Sharma waits for two years after ceasing to be a director before he is eligible to be appointed to the board again.",
+  "terms": [
+   {
+    "term": "Nidhi",
+    "meaning": "A type of company formed to borrow and lend money only to its members."
+   },
+   {
+    "term": "Tenure",
+    "meaning": "The time that a person holds a job or office."
+   },
+   {
+    "term": "Disqualified",
+    "meaning": "Official stopping of someone from holding a position because they do not meet the legal rules."
+   }
+  ],
+  "watch": "People often forget that a former director must wait two full years after leaving office before they can become a director again.",
+  "h": "777ce1d04a40",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

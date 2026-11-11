@@ -1,0 +1,25 @@
+{
+ "summary": "This section provides lower penalties for specific types of companies when they fail to follow the rules of the Act. Instead of the full penalty, the fine is reduced to half of what is normally specified. There are also maximum limits set for the reduced penalty amount.",
+ "points": [
+  "Applies to One Person Companies, small companies, start-up companies, Producer Companies, officers in default, and other persons connected to these companies.",
+  "Grants a reduced penalty for non-compliance with the provisions of the Act.",
+  "Limits the reduced penalty to not more than one-half of the normally specified penalty.",
+  "Sets an overall maximum limit of two lakh rupees for the company.",
+  "Sets an overall maximum limit of one lakh rupees for an officer in default or any other person."
+ ],
+ "example": "Aarav runs a small company named Aarav Tech Solutions Private Limited. Due to an administrative oversight, the company failed to file a required compliance report on time under the Act. Normally, this mistake carries a standard penalty. Because Aarav Tech Solutions is recognized as a small company under the law, Section 446B applies to its case. Instead of paying the full standard penalty, the company and its responsible officers are only required to pay a reduced penalty. This reduced amount is capped at half of the standard penalty, and it cannot exceed two lakh rupees for the company or one lakh rupees for the officer in default.",
+ "terms": [
+  {
+   "term": "non-compliance",
+   "meaning": "Failure to follow the rules or requirements of the law."
+  },
+  {
+   "term": "officer in default",
+   "meaning": "An officer of the company who is responsible for a violation or failure to follow the law."
+  }
+ ],
+ "watch": "This section only applies to specific types of companies like One Person Companies, small companies, start-ups, and Producer Companies.",
+ "h": "5e7d6219e31d",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-11"
+}

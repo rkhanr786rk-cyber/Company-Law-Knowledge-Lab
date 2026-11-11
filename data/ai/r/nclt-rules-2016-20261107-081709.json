@@ -1,0 +1,788 @@
+{
+ "2": {
+  "summary": "This rule gives simple meanings to important words used in the National Company Law Tribunal Rules, 2016. It explains terms like applicant, petition, and certified copy so that everyone understands how the rules apply. Words not defined here have the same meaning as they do in the Companies Act, 2013.",
+  "points": [
+   "The 'Act' means the Companies Act, 2013.",
+   "An 'applicant' can be a petitioner, an appellant, or any person making an application, appeal, or interlocutory application.",
+   "A 'Bench' means a Bench of the Tribunal constituted under section 419 of the Act, including Circuit Benches.",
+   "A 'creditor' is simply any person to whom a debt is owed."
+  ],
+  "example": "Meera Textiles Private Limited owes money to a local supplier. Because the supplier is a person to whom a debt is owed, the rules refer to them as a creditor. When the supplier decides to bring a formal matter regarding the unpaid debt before the Tribunal, the supplier acts as the applicant, filing a petition to start the legal proceeding.",
+  "terms": [
+   {
+    "term": "Interlocutory application",
+    "meaning": "An application made in an appeal or original petition that has already been started in the Tribunal."
+   },
+   {
+    "term": "Secured creditor",
+    "meaning": "A creditor in whose favour a security interest, such as a mortgage or charge, is created."
+   }
+  ],
+  "watch": "Remember that words used here have specific meanings defined by the text and the Act.",
+  "h": "d02d5ed67fb0",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "60": {
+  "summary": "This rule explains how final judgments are signed, recorded, and handled when judges disagree or split evenly. Once approved, the judgment must be dated and signed by the responsible officials and judges. If a judge has a different opinion, they can add their own separate note.",
+  "points": [
+   "Final judgments must be signed and dated by the President or the members who decided the case, along with the Registrar.",
+   "Judgments must list the names of the members who took part in the decision.",
+   "A member who disagrees with the grounds or conclusions may attach a separate or dissenting opinion.",
+   "If the members hearing the case are equally divided, the President must form a new bench under section 419 of the Act."
+  ],
+  "example": "Meera Textiles Private Limited faced a legal dispute at the Tribunal. After the hearing, the judges approved the final text of the judgment. The President and the Registrar signed and dated the document, listing all participating members. One judge disagreed with the final conclusion and attached a separate dissenting opinion to the main judgment. Because the remaining members were equally divided on the order, the President formed a new bench to handle the matter.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized official body set up to deal with specific legal disputes."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "An officer responsible for keeping the official records and documents."
+   },
+   {
+    "term": "Dissenting opinion",
+    "meaning": "A separate written view by a judge who disagrees with the majority decision."
+   }
+  ],
+  "watch": "A separate opinion is only added if a member actually differs or disagrees with the main judgment.",
+  "h": "d193f4620d84",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "64": {
+  "summary": "This rule explains what happens to pending company law cases when the old Company Law Board is replaced by the new Tribunal. Cases that were waiting at the old board are automatically moved to the new Tribunal to continue from where they left off. However, if the old board had already finished listening to the case and kept its decision pending, the new Tribunal must rehear the whole matter.",
+  "points": [
+   "Cases pending before the Company Law Board are transferred to the matching Bench of the Tribunal.",
+   "If the old board already reserved its final order, the new Tribunal will reopen and rehear the case.",
+   "The Tribunal can ask parties to provide extra evidence, documents, or information if needed.",
+   "The Tribunal can close a transferred case if law changes make it unnecessary to continue."
+  ],
+  "example": "A dispute involving Meera Textiles Private Limited was pending before the Company Law Board when the new Tribunal took over. Because the old board had not yet reserved its final order, the case was automatically transferred to the Tribunal. The Tribunal treated the case as if it had been filed there from the very beginning and asked both parties to submit further documents.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A special official body set up to deal with legal disputes and cases under the law."
+   },
+   {
+    "term": "Company Law Board",
+    "meaning": "The older official body that handled company law matters before the Tribunal was created."
+   },
+   {
+    "term": "Jurisdiction",
+    "meaning": "The official area or authority within which a court or Tribunal can make decisions."
+   }
+  ],
+  "watch": "People often think transferred cases must start completely from scratch, but they actually continue from their previous point unless the old board had already reserved its final order.",
+  "h": "ae97fe2ffd91",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "66": {
+  "summary": "This rule explains how to apply to the Tribunal when a company is formed using false information or fraud. The application must be filed using a specific form along with required documents and details about the company and the fraud. The Tribunal can then pass appropriate orders based on the law.",
+  "points": [
+   "File the application to the Tribunal using Form NCLT-1.",
+   "Include the documents mentioned in Annexure-B.",
+   "Provide the company details, incorporation date, and names of promoters, subscribers, and first directors.",
+   "Detail the false information, suppressed facts, and fraudulent involvement of the founders."
+  ],
+  "example": "Meera Textiles Private Limited was registered using fake address documents and hidden facts. The promoters knowingly misled the authorities during incorporation. To address this fraud, an application is filed to the Tribunal using Form NCLT-1 along with the documents listed in Annexure-B. The application clearly lists the names of the promoters, the exact false information provided, and their involvement in the wrongdoing, allowing the Tribunal to pass suitable orders.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized legal body that handles specific disputes and cases, in this case under company law."
+   },
+   {
+    "term": "Promoters",
+    "meaning": "The people who plan and take the initial steps to set up and start a new company."
+   }
+  ],
+  "watch": "Make sure to include all required particulars and documents like Annexure-B when filing the application.",
+  "h": "15870996946a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "67": {
+  "summary": "This rule explains how to file a specific petition related to the Companies Act, 2013. You must submit your paperwork to the Tribunal using a specific form. You also need to attach the correct supporting documents.",
+  "points": [
+   "File the petition to the Tribunal.",
+   "Use Form NCLT-1 for the filing.",
+   "Include the documents listed in Annexure-B along with your petition."
+  ],
+  "example": "Meera Textiles Private Limited wants to file a petition under sub-section (41) of section 2. To do this correctly, the company prepares the paperwork using Form NCLT-1. Along with this form, they gather and attach all the necessary documents mentioned in Annexure-B. Finally, they submit the complete package to the Tribunal as required by the rules.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A special official body that handles legal disputes and cases under company law."
+   },
+   {
+    "term": "Petition",
+    "meaning": "A formal written request made to an official body or court."
+   }
+  ],
+  "watch": "Do not forget to attach the documents listed in Annexure-B along with Form NCLT-1.",
+  "h": "918d1d543aa0",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "68": {
+  "summary": "This rule explains how a public company must apply to the Tribunal to convert into a private company under section 14 of the Act. The company must file its petition within a set time and include specific details about meetings, members, and creditors. It must also notify authorities, creditors, and the public before the hearing.",
+  "points": [
+   "A public company wanting to become a private company must file a petition to the Tribunal using Form No. NCLT. 1 within a specific timeframe after passing a special resolution.",
+   "The petition must include details like meeting dates, member votes, reasons for conversion, and company type.",
+   "A list of creditors and debenture holders, verified by an affidavit from directors and the company secretary, must be attached.",
+   "The company must advertise the petition and send notices to creditors, debenture holders, and relevant government authorities before the hearing."
+  ],
+  "example": "Meera Textiles Private Limited, a fictional public company, decided to change its articles to become a private company. After passing a special resolution, the board prepared a petition setting out the meeting dates, member votes, and reasons for the change. They attached a verified list of creditors and debenture holders. Before the Tribunal hearing, Meera Textiles advertised the petition and sent individual notices by registered post to all creditors and to the Registrar of Companies.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "The judicial body designated under the law to handle company disputes and applications."
+   },
+   {
+    "term": "Special resolution",
+    "meaning": "A decision approved by a special majority of company members at a meeting."
+   },
+   {
+    "term": "Debenture holder",
+    "meaning": "A person or entity that holds a certificate of loan issued by the company."
+   }
+  ],
+  "watch": "Make sure to include all required particulars and the verified list of creditors within the stated time limits before the hearing.",
+  "h": "187a8d660c2f",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "68A": {
+  "summary": "This rule explains how certain shareholders can ask the Tribunal to cancel a change made to their share rights. The applicants must file a specific form with details about the company's capital, the change made, and why they oppose it. They also need to attach a signed letter of authority and advertise the application before filing.",
+  "points": [
+   "A signed letter of authority must be attached to the application if filed on behalf of other shareholders.",
+   "The application must include details like capital structure, nature of the variation, and reasons for opposition.",
+   "Applicants must advertise the application at least fourteen days before filing it.",
+   "The Tribunal will either cancel the variation if it causes unfair prejudice or confirm it after a hearing."
+  ],
+  "example": "Meera Textiles Private Limited changed the voting rights of its preferred shareholders. Rahul and Priya, who hold enough shares and did not consent to this change, want to challenge it. They get a signed letter of authority from other dissenting shareholders. They fill out Form No. NCLT. 1, listing their share details, the company's capital structure, and their reasons for opposing the variation. They advertise the application beforehand and submit it to the Tribunal so the judges can decide whether the change is unfairly prejudicial.",
+  "terms": [
+   {
+    "term": "variation",
+    "meaning": "A change made to the rights attached to a specific class of shares."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "The judicial body (National Company Law Tribunal) that handles company law disputes."
+   },
+   {
+    "term": "memorandum or articles",
+    "meaning": "The foundational documents that set out the constitution and rules of a company."
+   }
+  ],
+  "watch": "Ensure the letter of authority is attached and the application is advertised at least fourteen days prior to filing.",
+  "h": "82b61b41fb72",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "69": {
+  "summary": "When a company cannot redeem its preference shares or pay dividends on them, it can file a petition to issue new redeemable preference shares to clear the dues. The petition must be filed in a specific form along with required documents and details about the company and the unredeemed shares. The Tribunal can approve this after hearing interested parties, but it must order the immediate redemption of shares for any holders who did not consent to the new issue.",
+  "points": [
+   "The petition must be in Form No. NCLT. 1 and include documents from Annexure-B.",
+   "It must provide company details, capital structure, and information on unredeemed preference shares and dividends.",
+   "It must state the number and percentage of share holders who consented to the new shares.",
+   "The Tribunal may approve new redeemable preference shares equal to the amount due.",
+   "The Tribunal must order immediate redemption for shareholders who did not consent."
+  ],
+  "example": "Meera Textiles Private Limited had preference shares that it could not redeem or pay dividends on. The company decided to apply to the Tribunal to issue new redeemable preference shares to cover the dues. Meera Textiles filed a petition using Form No. NCLT. 1 with all required documents and details, including the list of consenting shareholders. During the hearing, some shareholders stated they did not consent. The Tribunal approved the new shares for the consenting holders but ordered Meera Textiles to immediately redeem the shares held by the non-consenting holders.",
+  "terms": [
+   {
+    "term": "Petition",
+    "meaning": "A formal written request made to a court or tribunal for an official order."
+   },
+   {
+    "term": "Redemption",
+    "meaning": "The repayment of the value of shares by the company to the shareholders."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "An official body set up to deal with legal disputes and company law cases."
+   }
+  ],
+  "watch": "A common confusion is assuming the company can ignore shareholders who disagree, but the rule requires immediate payment to those who do not consent.",
+  "h": "039b1095a4fa",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "70": {
+  "summary": "This rule explains how to file an appeal with the Tribunal when a company refuses to register a securities transfer, or when you need to fix the register of members. You must file a petition, send a copy to the company and the Registrar, and advertise it before the hearing. The Tribunal has the power to pass various orders, including interim orders, cost orders, and decisions on share ownership.",
+  "points": [
+   "File the appeal as a petition in Form No. NCLT.1 with the required documents.",
+   "Serve a copy of the appeal on the company immediately after filing.",
+   "Advertise the petition at least fourteen days before the hearing.",
+   "Serve any objections received from affected persons to the Registrar on or before the hearing.",
+   "The Tribunal can issue interim orders, cost orders, and decide questions regarding share title."
+  ],
+  "example": "Meera Textiles Private Limited refused to register the transfer of shares to Rahul. Rahul decided to challenge this refusal. He filed a petition in Form No. NCLT.1 with the Tribunal and immediately sent a copy to Meera Textiles Private Limited at its registered office. Fourteen days before the hearing, Rahul advertised the petition as required. During the proceedings, the Tribunal examined the title of the persons involved and decided the matter.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "The judicial body that handles company law disputes."
+   },
+   {
+    "term": "Rectification",
+    "meaning": "The act of correcting or fixing an official record or register."
+   },
+   {
+    "term": "Interim order",
+    "meaning": "A temporary order made by the court while the case is still ongoing."
+   }
+  ],
+  "watch": "A common confusion is assuming that filing the appeal alone is enough, but you must also serve a copy to the company immediately and advertise the petition before the hearing.",
+  "h": "ce1e8aa3b69d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "71": {
+  "summary": "This rule explains how a company must apply to the Tribunal when it wants to combine and divide its share capital into larger shares that change voting percentages. The company needs to use a specific form, provide details like its capital structure, and notify authorities. After hearing all sides, the Tribunal will pass an order.",
+  "points": [
+   "File the application in Form No. NCLT.1 with the required documents.",
+   "Include details such as articles of association, capital structure, and reasons for the change.",
+   "Advertise the petition and serve notices to relevant authorities at least fourteen days before the hearing.",
+   "Share any received objections with the authorities on or before the hearing date."
+  ],
+  "example": "Meera Textiles Private Limited wanted to combine its small shares into larger shares, which would change the shareholders' voting percentages. To do this, the company filed an application in Form No. NCLT.1 with the necessary documents and explained its current and new capital structure. At least fourteen days before the hearing, Meera Textiles advertised the petition and sent notices by registered post to the Registrar of Companies and the Regional Director. When an objection arrived from an affected person, the company made sure to serve a copy to the authorities before the hearing date.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "The official body or court that handles company law disputes and approvals."
+   },
+   {
+    "term": "Consolidation and division",
+    "meaning": "Combining existing shares into shares of a larger amount."
+   },
+   {
+    "term": "Registered post",
+    "meaning": "A secure postal service that provides proof of sending and delivery."
+   }
+  ],
+  "watch": "Make sure to notify the correct regulatory bodies and authorities within the required time before the hearing.",
+  "h": "cad49942282b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "72": {
+  "summary": "The Government can convert public loans or debentures into company shares in the public interest, even if the original loan terms did not allow it. If the company does not like the conversion terms, it has sixty days to appeal to the Tribunal. The Tribunal will then hear both sides and pass an order.",
+  "points": [
+   "The Government may convert loans or debentures into shares in the public interest.",
+   "This can happen even if the original agreement did not include a conversion option.",
+   "If the company dislikes the terms, it can appeal within sixty days.",
+   "The appeal goes to the Tribunal using Form-NCLT-9.",
+   "The Tribunal hears the company and Government before making its final order."
+  ],
+  "example": "The Central Government converted a major public loan given to Zenith Steel Private Limited into shares because it was in the public interest. The original loan agreement did not mention any conversion option. Zenith Steel Private Limited found the conversion terms unacceptable and decided to challenge them. Within sixty days from receiving the Government order, the company filed an appeal using Form-NCLT-9 to the Tribunal. The Tribunal then listened to both Zenith Steel Private Limited and the Government before passing its final order.",
+  "terms": [
+   {
+    "term": "Debentures",
+    "meaning": "A type of debt instrument issued by a company that acknowledges a loan."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "A special legal body set up to handle specific types of disputes, in this case, the National Company Law Tribunal."
+   },
+   {
+    "term": "Appeal",
+    "meaning": "A formal request to a higher authority to change a decision."
+   }
+  ],
+  "watch": "Make sure to file the appeal within the sixty-day limit from when the order is communicated.",
+  "h": "5f1834d709d9",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "73": {
+  "summary": "This rule explains how people can ask a special judicial body for help when a company fails to repay deposits or debentures. The application must be made using specific forms with detailed lists of affected persons and documents. The tribunal will then review the request, hear all sides, and pass an order to protect the interests of the people and the public.",
+  "points": [
+   "Applications must be filed in duplicate using the correct form along with required documents.",
+   "A detailed list of every depositor or debenture holder with personal and financial details must be attached.",
+   "The tribunal gives a fair chance of being heard to the company and interested persons before making an order.",
+   "The tribunal can order the company to repay the money immediately or under set conditions after checking its financial state."
+  ],
+  "example": "Sunrise Retail Private Limited failed to return the money owed to its fixed deposit holders on time. An aggrieved depositor named Rajesh decided to take action. He filed an application to the tribunal in the specified form in duplicate, attaching all required documents and a complete list showing his personal details, deposit number, maturity date, and the exact amount due from the company. The tribunal reviewed the details, gave the company a fair hearing, and considered its financial condition before passing an order.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A special legal body that handles specific kinds of disputes and cases."
+   },
+   {
+    "term": "Debentures",
+    "meaning": "A type of debt instrument used by companies to borrow money from the public."
+   },
+   {
+    "term": "Depositors",
+    "meaning": "People who have placed money with a company as a deposit."
+   }
+  ],
+  "watch": "People often get confused about whether the company or the investors can file the application, but the rules permit both depending on the specific situation.",
+  "h": "880992b5d087",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "74": {
+  "summary": "Rule 74 explains how a member of a company can ask the Tribunal to call an annual general meeting under section 97. The applicant must use a specific form, attach required documents, and share a copy with the Registrar of Companies before the hearing. This ensures the proper authorities are informed about the meeting request.",
+  "points": [
+   "A member of the company must make the application under section 97.",
+   "The application must be filed using Form No. NCLT. 1.",
+   "Required documents from Annexure-B must accompany the application.",
+   "A copy of the application must be given to the Registrar of Companies on or before the hearing date."
+  ],
+  "example": "Meera Textiles Private Limited failed to hold its annual general meeting on time. Rohan, a member of the company, decided to use section 97 to ask the Tribunal for a direction to call the meeting. He filled out Form No. NCLT. 1 and attached the documents specified in Annexure-B. Before the hearing date, Rohan made sure to serve a copy of this application to the Registrar of Companies as required by the rule.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized legal body set up to handle company law disputes and matters."
+   },
+   {
+    "term": "Registrar of Companies",
+    "meaning": "A government office that maintains records of companies."
+   }
+  ],
+  "watch": "Do not forget to serve a copy of the application to the Registrar of Companies on or before the hearing date.",
+  "h": "1714cabde780",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "75": {
+  "summary": "This rule explains how a director or member of a company can ask the Tribunal to order a general meeting, other than an annual general meeting. The person must apply using a specific form with the required documents and give a copy to the Registrar of Companies by the hearing date.",
+  "points": [
+   "Apply using Form No. NCLT. 1.",
+   "Attach the documents listed in Annexure-B.",
+   "Give a copy of the application to the Registrar of Companies on or before the hearing date."
+  ],
+  "example": "Aarav, a member of Zen Infotech Private Limited, wants the Tribunal to order a general meeting that is not an annual general meeting. Aarav files an application using Form No. NCLT. 1 and attaches the necessary documents specified in Annexure-B. Before the hearing date arrives, Aarav makes sure a copy of this application is served on the Registrar of Companies.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "The judicial body that handles company law disputes and requests."
+   },
+   {
+    "term": "Registrar of Companies",
+    "meaning": "The government official who keeps records of companies."
+   }
+  ],
+  "watch": "Remember that this rule only applies to meetings that are not the annual general meeting.",
+  "h": "88f5d1d61fda",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "76A": {
+  "summary": "Certain government bodies, regulators, or interested persons can ask the Tribunal to re-open and rewrite a company's financial records. To do this, the applicant must file a specific form along with the required documents. This rule explains how to start the process under section 130 of the Act.",
+  "points": [
+   "Eligible authorities or persons may file an application for re-opening and re-casting accounts.",
+   "The application must be filed using Form No. NCLT. 9.",
+   "The application needs to include the documents listed in Annexure-B."
+  ],
+  "example": "The Securities and Exchange Board of India believes that Zenith Trading Private Limited has hidden major financial losses in its past reports. To fix this, Zenith's books of accounts and financial statements need to be completely re-opened and re-cast. The regulatory body decides to take action under section 130 of the Act. They fill out Form No. NCLT. 9 and gather all the necessary papers mentioned in Annexure-B to submit their formal application to the Tribunal.",
+  "terms": [
+   {
+    "term": "Re-casting",
+    "meaning": "Rewriting or re-making financial statements to correct errors or misstatements."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized official body set up to handle legal disputes and cases under company law."
+   }
+  ],
+  "watch": "Make sure to use the exact form number and attach all documents listed in Annexure-B when filing.",
+  "h": "66f35b2a3be5",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "77": {
+  "summary": "This rule explains how a company can apply to fix its financial statements or board report if they do not follow certain legal rules. The company must file the application using a specific form within fourteen days of the board deciding to do so. The process also requires advertising the application, hearing from auditors, getting approval from a tribunal, and holding a general meeting.",
+  "points": [
+   "The application must be filed in Form No. NCLT-1 within fourteen days of the board decision.",
+   "If most directors or the auditor changed right before the decision, that fact must be stated.",
+   "The application needs to include particulars like the financial year, contact details of key officers and auditors, a copy of the board resolution, and the reasons for revision.",
+   "The company must advertise the application at least fourteen days before the hearing.",
+   "After getting tribunal approval, the company must call a general meeting to consider the revised statements and then file them with the Registrar of Companies."
+  ],
+  "example": "At Meera Textiles Private Limited, the directors realized their recent financial statement did not comply with section 129. Within fourteen days of their decision, they filed an application in Form No. NCLT-1, providing all required details including their financial year and contact information. They advertised the application at least fourteen days before the hearing. After the Tribunal and a general meeting approved the changes, Meera Textiles filed the revised financial statements with the Registrar of Companies within thirty days.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "The judicial body (National Company Law Tribunal) that handles company law disputes and approvals."
+   },
+   {
+    "term": "Financial statement",
+    "meaning": "The official reports showing the financial health and accounts of a company."
+   },
+   {
+    "term": "Registrar of Companies",
+    "meaning": "The government office where company documents and filings are officially kept."
+   }
+  ],
+  "watch": "Make sure to file the application within fourteen days of the board decision, not within fourteen days of discovering the error.",
+  "h": "3745f42678f5",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "78": {
+  "summary": "This rule explains how the company, an aggrieved auditor, or the Central Government can apply to the Tribunal under Section 140. If the Tribunal finds that an auditor is abusing their rights, their written statement does not need to be shared or read at the meeting. If the Central Government applies and the Tribunal agrees, the Tribunal must order the auditor to stop working within fifteen days so a new one can be appointed.",
+  "points": [
+   "A company director or an aggrieved auditor can apply to the Tribunal using Form NCLT-1 with required documents.",
+   "The Tribunal can stop an auditor's representation from being sent or read if the auditor is abusing their rights under section 140.",
+   "If the Central Government applies for a change, the Tribunal must pass an order within fifteen days stopping the current auditor from functioning.",
+   "The Central Government may appoint a new auditor after the Tribunal makes its order."
+  ],
+  "example": "Meera Textiles Private Limited faced an issue where its auditor started misusing rights given under section 140. The company filed an application in Form NCLT-1 to the Tribunal. The Tribunal checked the case and agreed that the auditor was indeed abusing the rights. Because of this, the Tribunal ordered that the auditor's representation no longer needed to be sent or read out at the company meeting, protecting the company from further disruption.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A special legal body or court that handles company law disputes."
+   },
+   {
+    "term": "Representation",
+    "meaning": "A written statement or document presented by the auditor."
+   },
+   {
+    "term": "Aggrieved",
+    "meaning": "A person or company that has been harmed or wronged by an action."
+   }
+  ],
+  "watch": "Note that only the Central Government application triggers the specific fifteen-day deadline for the Tribunal order.",
+  "h": "b397ccc4e43f",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "79": {
+  "summary": "This rule explains how to approach the Tribunal under section 169 regarding the removal of directors. Either the company or any person who feels wronged can file this application. The request must use a specific form and include the required papers.",
+  "points": [
+   "The applicant can be the company itself or any person who claims to be aggrieved.",
+   "The application must be made to the Tribunal.",
+   "The application must be filed in Form NCLT-1.",
+   "The application must include the documents mentioned in Annexure-B."
+  ],
+  "example": "Meera Textiles Private Limited faced a dispute regarding the removal of a director. An individual who felt wronged by the company's actions decided to challenge it. To do this, the aggrieved person made an application to the Tribunal using Form NCLT-1. They made sure to attach all the necessary papers as listed in Annexure-B along with their application form to complete the filing process correctly.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A special legal body set up to deal with specific kinds of disputes, in this case, related to companies."
+   },
+   {
+    "term": "Aggrieved",
+    "meaning": "Feeling wronged or harmed by an action or decision."
+   }
+  ],
+  "watch": "Do not assume any specific deadlines or fee amounts apply here since the text does not mention them.",
+  "h": "5949deb71638",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "80": {
+  "summary": "This rule explains how to file a specific application to investigate a company under section 213 of the law. You must use a form named Form NCLT-1 and include the required papers listed in Annexure-B. It tells you the exact form and attachments needed for this request.",
+  "points": [
+   "You must make the application using Form NCLT-1.",
+   "You must include the documents mentioned in Annexure-B along with your application."
+  ],
+  "example": "Aahana wants to look into the business affairs of Zenith Enterprises Private Limited using section 213 of the law. To do this properly, she fills out Form NCLT-1. She then gathers all the extra papers listed in Annexure-B and attaches them to her form before submitting it.",
+  "terms": [
+   {
+    "term": "application",
+    "meaning": "a formal written request made to an authority"
+   },
+   {
+    "term": "Annexure-B",
+    "meaning": "a specific list or document attached at the end that shows what papers are needed"
+   }
+  ],
+  "watch": "Do not forget to attach the documents listed in Annexure-B along with Form NCLT-1.",
+  "h": "c8fc706d3b18",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "80A": {
+  "summary": "This rule explains how to apply under sub-section (12) of section 230 of the Companies Act, 2013. The application must be made using a specific form and include the required documents. This helps companies and individuals follow the correct legal steps.",
+  "points": [
+   "The application is made under sub-section (12) of section 230.",
+   "You must use Form NCLT-1 for the application.",
+   "The application needs to include the documents listed in Annexure-B."
+  ],
+  "example": "Meera Textiles Private Limited wants to make an application under sub-section (12) of section 230. To do this properly, the company prepares its paperwork using Form NCLT-1. They also gather all the specific records and files listed in Annexure-B and attach them to the form before submitting it.",
+  "terms": [
+   {
+    "term": "Form NCLT-1",
+    "meaning": "The specific official paper or digital form required to make this legal application."
+   },
+   {
+    "term": "Annexure-B",
+    "meaning": "A list or attached section that tells you what extra documents you need to include."
+   }
+  ],
+  "watch": "Do not forget to include the documents mentioned in Annexure-B along with Form NCLT-1.",
+  "h": "8c40c9d99d24",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "81": {
+  "summary": "This rule explains how to file an application to the Tribunal under section 241 of the Companies Act, 2013, regarding relief for oppression or mismanagement. It requires specific forms, documents, and proof of consent if filed on behalf of other members. A copy of the application must also be served to the company and other concerned parties.",
+  "points": [
+   "Applications must be filed using Form NCLT-1 along with documents listed in Annexure-B.",
+   "If filed by some members on behalf of others, signed letters of consent and a schedule of all members' names and addresses must be attached.",
+   "If the company has a share capital, the application must state whether all calls and sums due on shares have been paid.",
+   "A copy of the application must be served on the company, other respondents, and anyone else directed by the Tribunal."
+  ],
+  "example": "Meera Textiles Private Limited faced issues regarding company management. Three shareholders decided to file an application under section 241 to the Tribunal. They used Form NCLT-1 and attached the required documents from Annexure-B. Since they were acting on behalf of five other eligible members, they attached signed consent letters from those members and included a schedule listing all their names and addresses. Because the company had share capital, they also stated that all calls on their shares were fully paid. Finally, they served a copy of the application to the company and other respondents.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "The judicial body (National Company Law Tribunal) that handles company law disputes."
+   },
+   {
+    "term": "Annexure-B",
+    "meaning": "A specific list of documents required to be attached with the application form."
+   },
+   {
+    "term": "Calls",
+    "meaning": "A demand made by a company on its shareholders to pay the remaining unpaid money on their shares."
+   }
+  ],
+  "watch": "Do not forget to attach the signed consent letters and list the names and addresses of all members on whose behalf the petition is presented.",
+  "h": "7cf6ae8eb3a0",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "82": {
+  "summary": "Under the National Company Law Tribunal Rules, 2016, you cannot simply take back an application made for relief against oppression and mismanagement under section 241 of the Companies Act, 2013. You must get permission from the Tribunal first. To ask for this withdrawal, you need to file a specific form.",
+  "points": [
+   "You cannot withdraw a section 241 application without permission from the Tribunal.",
+   "The request to withdraw must be filed using Form NCLT-9."
+  ],
+  "example": "Aarav filed a case against Sunshine Electronics Private Limited under section 241 for oppression. Later, Aarav and the company reached a settlement outside and Aarav decided to drop the matter. Before stopping the case, Aarav must obtain permission from the Tribunal. To do this officially, Aarav's lawyer prepares and files Form NCLT-9 to request the withdrawal.",
+  "terms": [
+   {
+    "term": "leave of the Tribunal",
+    "meaning": "official permission granted by the National Company Law Tribunal"
+   },
+   {
+    "term": "Form NCLT-9",
+    "meaning": "a specific official document form used to apply for withdrawal"
+   }
+  ],
+  "watch": "People often assume they can drop a legal case at any time without asking the court, but here Tribunal permission is strictly required.",
+  "h": "f5d2c6d2f702",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "83": {
+  "summary": "This rule explains how certain people must apply to the Tribunal for permission to become a director or manager of a company. The applicant must use a specific form, attach required documents, and show that notice was given to the Central Government. Furthermore, the Central Government must receive notice of the hearing at least fifteen days before it takes place.",
+  "points": [
+   "File the application using Form NCLT-1 with the documents mentioned in Annexure-B.",
+   "State in the application whether notice of intention to apply has been given to the Central Government and attach a copy of that notice.",
+   "Serve a copy of the application and the hearing notice on the Central Government at least fifteen days before the hearing date."
+  ],
+  "example": "Aashish wishes to act as a managing director after a company agreement was modified. To do this, Aashish files an application using Form NCLT-1 along with the documents listed in Annexure-B. He includes a copy of the notice he already sent to the Central Government regarding his intention. Finally, Aashish ensures that the Central Government receives the hearing notice and a copy of the application at least fifteen days before the scheduled hearing date.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "The judicial body (National Company Law Tribunal) that handles company law cases."
+   },
+   {
+    "term": "Leave",
+    "meaning": "Official permission to do something."
+   },
+   {
+    "term": "Central Government",
+    "meaning": "The national government of the country."
+   }
+  ],
+  "watch": "Make sure the Central Government receives the application and hearing notice at least fifteen days before the hearing.",
+  "h": "d0613392c168",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "83A": {
+  "summary": "This rule explains how to apply to the Tribunal to skip certain requirements under Section 244 of the Companies Act. You must use a specific form and attach the documents listed in Annexure-B. It is a simple process for asking the Tribunal to excuse you from standard rules.",
+  "points": [
+   "File your application using Form No. NCLT. 9.",
+   "Submit the request before the Tribunal.",
+   "Ask for a waiver of the requirement under clause (a) or (b) of Section 244.",
+   "Attach all the documents required in Annexure-B along with your application."
+  ],
+  "example": "Aashish wants to file a company matter at Meera Textiles Private Limited. Because he does not meet the standard limits in Section 244, he decides to ask the Tribunal to excuse this requirement. He fills out Form No. NCLT. 9 and gathers all the papers listed in Annexure-B. He submits the form and the documents together to the Tribunal to request the waiver.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A special official body that solves company disputes."
+   },
+   {
+    "term": "Waiver",
+    "meaning": "Official permission to be excused from a rule or requirement."
+   },
+   {
+    "term": "Form No. NCLT. 9",
+    "meaning": "The specific paper or digital document required to make this request."
+   }
+  ],
+  "watch": "Do not forget to include the specific documents listed in Annexure-B with your form.",
+  "h": "0f689efeb4f4",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "84": {
+  "summary": "This rule explains how members or depositors can file a class action application against a company using Form NCLT-9. It specifies the exact number or shareholding required for members and depositors to qualify. A copy of the application must also be sent to the company, other respondents, and anyone else the Tribunal directs.",
+  "points": [
+   "Applications must be filed in Form NCLT-9.",
+   "A copy must be served on the company, other respondents, and persons directed by the Tribunal.",
+   "Members of a company with share capital must meet specific member count or shareholding percentages.",
+   "Depositors must meet specific depositor count percentages or hold a certain percentage of total deposits owed."
+  ],
+  "example": "Meera Textiles Private Limited has many members and depositors who want to file a class action. To do this, they must use Form NCLT-9. If they meet the required count, such as at least five percent or one hundred members, they can proceed. Once filed, they must send a copy of the application to the company and other respondents. They must also send a copy to any other person the Tribunal tells them to notify.",
+  "terms": [
+   {
+    "term": "Respondent",
+    "meaning": "A person or entity required to answer an legal application or claim."
+   },
+   {
+    "term": "Depositor",
+    "meaning": "A person who has placed money on deposit with the company."
+   }
+  ],
+  "watch": "Do not confuse the requirements for members of an unlisted company with those of a listed company, as their share capital percentages differ.",
+  "h": "deaec3a256ea",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "85": {
+  "summary": "This rule explains what the Tribunal looks at when deciding whether to allow a class action suit by members or depositors of a company. It checks if there are too many people to join individually, if common questions exist, and if the leaders fairly protect the group. It also looks at whether separate lawsuits could cause conflicting decisions or harm others.",
+  "points": [
+   "The group of members must be too large for individual joining to be practical.",
+   "There must be legal or factual questions that are common to the whole group.",
+   "The representative parties must fairly and adequately protect the group's interests.",
+   "The Tribunal checks if separate lawsuits would cause inconsistent decisions or harm other members."
+  ],
+  "example": "Aashna Textiles Private Limited has ten thousand small shareholders spread across the country who suffered losses due to the same fraud by the management. Instead of filing ten thousand separate lawsuits, a few shareholders apply for a class action suit. The Tribunal checks if filing separate cases would cause conflicting court orders and decides that a class action is proper because the shareholders share common legal questions and the group is too large to join individually.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "The judicial body that handles company law disputes."
+   },
+   {
+    "term": "Class action",
+    "meaning": "A lawsuit where one or more people sue on behalf of a larger group with similar interests."
+   },
+   {
+    "term": "Adjudication",
+    "meaning": "A formal judgment or decision by a court or Tribunal."
+   }
+  ],
+  "watch": "Do not confuse the group leaders with the whole group; the rule requires that the leaders fairly protect everyone else.",
+  "h": "17bf9a5c1eb5",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "86": {
+  "summary": "This rule explains how a member of a group legal action can choose to leave the case. You must get permission from the Tribunal to leave, and anyone who gets a notice is considered part of the group unless they clearly choose to opt out. Leaving the group does not stop you from filing an individual claim under another law if you have a separate remedy.",
+  "points": [
+   "You can leave a class action case after it starts if the Tribunal gives you permission.",
+   "You must use Form No. NCLT-1 when you want to opt out.",
+   "If you receive a notice about the case, you are treated as a member unless you expressly choose to opt out.",
+   "Leaving the group case does not stop you from pursuing your own individual claim under other laws."
+  ],
+  "example": "Meera Textiles Private Limited faced a group legal action by its shareholders. Aarav, one of the shareholders, received an official notice about the case. Because the notice stated he was part of the class, Aarav decided to leave the group proceedings using Form No. NCLT-1 and received permission from the Tribunal. Later, Aarav filed an individual claim against the company under another available law, which the rules allowed him to do subject to any conditions set by the Tribunal.",
+  "terms": [
+   {
+    "term": "Class action",
+    "meaning": "A legal action where a group of people with the same interest sue or are sued as a single group."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized official body that handles legal disputes, in this case, the National Company Law Tribunal."
+   },
+   {
+    "term": "Opt-out",
+    "meaning": "To choose to stay out of or leave a group proceeding."
+   }
+  ],
+  "watch": "Do not assume you can leave the group case without official permission from the Tribunal.",
+  "h": "48a06d1a1a71",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "87": {
+  "summary": "When the Tribunal accepts a class action application, a public notice must be issued to all members of that class. This notice is published in newspapers, placed on the company website if it has one, and also posted on official government and stock exchange websites. The notice informs members about the application details, hearing date, and how they can respond or opt out.",
+  "points": [
+   "The Tribunal issues a public notice using Form No. NCLT-13 within seven days of accepting the application.",
+   "The notice must be published at least once in a local language newspaper and at least once in an English newspaper in the State where the company is registered.",
+   "The company must place the notice on its website, and it must also appear on the websites of the Tribunal, Ministry of Corporate Affairs, Registrar of Companies, and relevant stock exchange if listed.",
+   "The date the newspapers are issued counts as the date the public notice is served to all members.",
+   "The applicant pays the initial publication costs, which may later be paid back by the company or the person responsible for oppressive acts if the applicant wins."
+  ],
+  "example": "A group of shareholders files a class action against Alpha Retail Private Limited. The Tribunal accepts the application and orders a public notice. Alpha Retail must publish this notice in a local language newspaper and an English newspaper within seven days. The company also puts the notice on its website, while the Tribunal and the Ministry of Corporate Affairs post it on their websites. The notice lists the main applicant, the reasons for the case, and the hearing date. The shareholders who filed the case pay for the notice costs upfront.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "The National Company Law Tribunal, a legal body that handles company disputes."
+   },
+   {
+    "term": "Vernacular newspaper",
+    "meaning": "A newspaper printed in the local language of the State where the company is registered."
+   },
+   {
+    "term": "Listed company",
+    "meaning": "A company that has its securities or shares traded on a stock exchange."
+   }
+  ],
+  "watch": "People often think the company always pays for the notice immediately, but the applicant must bear the publication costs first until the Tribunal orders otherwise.",
+  "h": "014a112510e2",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "87A": {
+  "summary": "This rule explains how to file an appeal or application with the Tribunal to restore a company name under section 252. It details the required form, who must receive copies, and what the Tribunal's restoration order must include. It also covers applications made by the Registrar of Companies.",
+  "points": [
+   "Appeals or applications are filed before the Tribunal using Form No. NCLT. 9 with necessary modifications.",
+   "A copy must be given to the Registrar and other directed persons at least fourteen days before the hearing.",
+   "If the Tribunal orders the company name to be restored, specific actions regarding document delivery, official publication, costs, and pending filings must be completed."
+  ],
+  "example": "Meera Textiles Private Limited wanted to restore its name on the register of companies. It filed an appeal using Form No. NCLT. 9. The company served a copy of the appeal to the Registrar and other directed persons fourteen days before the hearing. After the hearing, the Tribunal passed an order to restore the company name. The Tribunal directed Meera Textiles to deliver a certified copy of the order to the Registrar, pay the Registrar's costs, and file its pending financial statements and annual returns.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "The judicial body that hears and decides company law cases under the Act."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "The government authority responsible for maintaining the register of companies."
+   },
+   {
+    "term": "Official Gazette",
+    "meaning": "The official government publication used for public notices."
+   }
+  ],
+  "watch": "Make sure to serve copies of the appeal to the Registrar and other directed persons at least fourteen days before the hearing.",
+  "h": "690a414323d6",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "88": {
+  "summary": "This rule explains how certain official requests, references, or complaints must be brought before the Tribunal. Instead of random paperwork, the sender must use a specific form and attach the correct documents. This applies to various matters involving companies, the Central Government, the Registrar of Companies, and other authorities.",
+  "points": [
+   "Certain references, complaints, or applications to the Tribunal must follow a formal process.",
+   "The sender must use Form No. NCLT-9 found in Annexure-A.",
+   "The submission must include the documents listed in Annexure-B."
+  ],
+  "example": "Suppose the Central Government wants to make a reference to the Tribunal regarding a company named Alpha Textiles Private Limited under a specific section of the Act. To do this legally, Alpha Textiles Private Limited or the government cannot just send a simple letter. Instead, they must fill out Form No. NCLT-9 as stated in Annexure-A and gather every single document mentioned in Annexure-B to submit with their petition.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A special official body that settles company law disputes."
+   },
+   {
+    "term": "Petition",
+    "meaning": "A formal written request made to an official body."
+   }
+  ],
+  "watch": "Do not confuse this rule's specific form requirement with general letters or emails, as Form No. NCLT-9 is strictly required.",
+  "h": "93fbd2a8a404",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

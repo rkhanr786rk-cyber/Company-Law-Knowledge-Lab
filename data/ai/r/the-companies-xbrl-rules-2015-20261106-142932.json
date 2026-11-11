@@ -1,0 +1,54 @@
+{
+ "3": {
+  "summary": "This rule explains which companies must file their financial statements and other documents with the Registrar in a specific electronic format called e-form AOC-4 XBRL. It includes listed companies, large companies based on capital or turnover, and companies using special accounting standards. Banks, insurance companies, housing finance companies, and non-banking financial companies are exempt from this rule.",
+  "points": [
+   "Certain classes of companies, such as listed companies and those with a paid-up capital of five crore rupees or more, must file documents using e-form AOC-4 XBRL.",
+   "Companies with a turnover of one hundred crore rupees or more must also follow this filing method.",
+   "Companies that file using this format once must continue to do so in future years even if they no longer meet the size criteria.",
+   "Banking, insurance, housing finance, and non-banking financial companies do not have to follow these filing rules."
+  ],
+  "example": "Aarav Steel Private Limited has a paid-up capital of six crore rupees. Because its capital is above the five crore rupees limit mentioned in the rule, the company must file its financial statements and other documents with the Registrar using e-form AOC-4 XBRL. Even if its capital drops below five crore rupees in a later year, Aarav Steel Private Limited must still continue filing using this same format.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "A government authority appointed under the Companies Act to keep company records."
+   },
+   {
+    "term": "Paid up capital",
+    "meaning": "The total amount of money that shareholders have paid to the company for its shares."
+   },
+   {
+    "term": "Turnover",
+    "meaning": "The total volume of business or total sales made by a company during a specific period."
+   }
+  ],
+  "watch": "A common confusion is thinking that companies can stop using this format if their size decreases later, but the rule states they must continue filing this way.",
+  "h": "e7cde5785a00",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "4": {
+  "summary": "This rule explains how certain companies must file their cost audit report and related documents with the Central Government. Companies required to submit this report must use a specific digital format known as XBRL. The filing must be done using e-Form CRA-4 for financial years starting on or after April 1, 2014.",
+  "points": [
+   "Applies to companies required to furnish a cost audit report to the Central Government.",
+   "Filings must use the XBRL taxonomy given in Annexure-III.",
+   "Must be submitted using e-Form CRA-4.",
+   "Applies to financial years starting on or after April 1, 2014."
+  ],
+  "example": "Meera Textiles Private Limited is required to submit a cost audit report and other documents to the Central Government. To follow the rules correctly for its financial year, the company prepares its report using the specified XBRL taxonomy. It submits the required information through e-Form CRA-4 as mandated by the law.",
+  "terms": [
+   {
+    "term": "XBRL taxonomy",
+    "meaning": "A specific electronic dictionary and format used for business and financial reporting."
+   },
+   {
+    "term": "e-Form CRA-4",
+    "meaning": "An electronic form designated for filing cost audit reports and related documents."
+   }
+  ],
+  "watch": "Make sure to use the exact electronic form and taxonomy specified in the rules for your cost audit filing.",
+  "h": "248e7f952d69",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

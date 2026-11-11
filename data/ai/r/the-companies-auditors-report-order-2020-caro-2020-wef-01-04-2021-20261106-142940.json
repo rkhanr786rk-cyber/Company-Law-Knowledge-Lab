@@ -1,0 +1,81 @@
+{
+ "1": {
+  "summary": "This rule sets the name of the order and states which companies it applies to. It covers almost all companies, including foreign ones. However, certain special types of companies are completely left out from its rules.",
+  "points": [
+   "It is called the Companies (Auditor's Report) Order, 2020.",
+   "It applies to every company and foreign company.",
+   "Banking companies, insurance companies, section 8 charitable companies, One Person Companies, and small companies are not covered.",
+   "Certain small private companies with low capital, low borrowings, and low revenue are also not covered."
+  ],
+  "example": "Meera Textiles Private Limited is a small private company. It has a paid-up capital and reserves under one crore rupees, total borrowings from a bank under one crore rupees, and total revenue under ten crore rupees. It is not a subsidiary or holding company of a public company. Therefore, this order does not apply to Meera Textiles Private Limited.",
+  "terms": [
+   {
+    "term": "foreign company",
+    "meaning": "A company or body corporate incorporated outside India."
+   },
+   {
+    "term": "subsidiary",
+    "meaning": "A company controlled by another company."
+   },
+   {
+    "term": "holding company",
+    "meaning": "A company that controls another company."
+   }
+  ],
+  "watch": "A common confusion is assuming this order applies to every single company, but banking, insurance, and certain small private companies are excluded.",
+  "h": "ef3201a066a8",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "2": {
+  "summary": "This rule explains what an auditor must include when writing a report on a company's accounts under the Companies Act. Starting from April 1, 2021, the report must include extra details listed in paragraphs 3 and 4 of this Order. However, these extra details do not apply to consolidated financial statements, except for one specific clause.",
+  "points": [
+   "The rule applies to financial years starting on or after April 1, 2021.",
+   "Auditor reports must include the matters specified in paragraphs 3 and 4 where applicable.",
+   "The Order does not apply to auditor reports on consolidated financial statements, with the exception of clause (xxi) of paragraph 3."
+  ],
+  "example": "Meera Textiles Private Limited is preparing its financial report for the year ending March 31, 2022. When the company auditor submits the report under section 143, the auditor must include the additional matters specified in paragraphs 3 and 4 because the financial year starts on or after April 1, 2021. However, if the auditor is reviewing consolidated financial statements for the same company, those extra matters are not required, except for clause (xxi) of paragraph 3.",
+  "terms": [
+   {
+    "term": "Auditor",
+    "meaning": "A qualified person who checks and verifies a company's financial accounts."
+   },
+   {
+    "term": "Consolidated financial statements",
+    "meaning": "Financial statements that combine the accounts of a parent company and its subsidiaries into one single report."
+   }
+  ],
+  "watch": "Do not assume this rule applies to all parts of consolidated financial statements, as only a specific clause is included.",
+  "h": "e84f0240487d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "3": {
+  "summary": "This rule explains what an auditor must check and include in their report on a company's accounts. It covers specific matters like the company's property records, physical checks of goods, loans given, and payment of official dues. The auditor must state if the company has followed proper records and rules for these areas.",
+  "points": [
+   "The auditor must check if the company keeps proper records for its physical property and intangible assets.",
+   "The auditor must report if the company physically checks its goods and property at reasonable intervals.",
+   "The auditor must state whether the company is regular in paying its official government dues like taxes.",
+   "The auditor must check if loans, investments, and guarantees given by the company follow the law and do not harm the company's interests."
+  ],
+  "example": "Meera Textiles Private Limited hired an auditor to review its annual accounts under this rule. The auditor checked whether the company maintained full records of its factory machines and whether the management physically verified the inventory of cloth in the warehouse. The auditor also verified if Meera Textiles regularly deposited its Goods and Services Tax with the appropriate authorities on time.",
+  "terms": [
+   {
+    "term": "Property, Plant and Equipment",
+    "meaning": "Long-term physical items owned by a company, such as buildings, machinery, and vehicles."
+   },
+   {
+    "term": "Inventory",
+    "meaning": "Goods and materials that a business holds for sale or uses in production."
+   },
+   {
+    "term": "Statutory dues",
+    "meaning": "Official payments and taxes required by law to be paid to the government."
+   }
+  ],
+  "watch": "People often confuse this rule with a final penalty order, but it only requires the auditor to report facts about the company's records.",
+  "h": "7a60c0da92b2",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

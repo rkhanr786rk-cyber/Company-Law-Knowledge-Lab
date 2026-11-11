@@ -1,0 +1,30 @@
+{
+ "summary": "This section gives the Central Government the power to make rules to carry out the law. It allows the government to set fines for breaking these rules and requires all rules to be presented to Parliament. Parliament can then choose to change or cancel the rules if it wishes.",
+ "points": [
+  "The Central Government can make rules through an official notification to carry out the Act.",
+  "Rules can be created for any matter that the Act requires or allows to be prescribed.",
+  "Breaking a rule can be punished with a fine of up to five thousand rupees.",
+  "If rule-breaking continues, an extra fine of up to five hundred rupees can be charged for every day after the first.",
+  "Every rule and SEBI regulation must be placed before both Houses of Parliament while in session.",
+  "Parliament may agree to modify or cancel a rule, though past actions done under the rule remain valid."
+ ],
+ "example": "The Central Government decides to create a new rule under the Companies Act for how companies must file certain papers. To ensure people follow this rule, the government sets a fine of up to five thousand rupees for anyone who breaks it. If a company keeps breaking the rule day after day, an extra fine of up to five hundred rupees can be added for each extra day. Once this rule is made, it is sent to both Houses of Parliament to be reviewed while they are in session. If both Houses decide the rule should be changed or cancelled, it will only apply in the new modified way or stop working altogether.",
+ "terms": [
+  {
+   "term": "notification",
+   "meaning": "An official public announcement or formal notice."
+  },
+  {
+   "term": "contravention",
+   "meaning": "An act that breaks a rule or law."
+  },
+  {
+   "term": "laid",
+   "meaning": "Presented or submitted formally before Parliament for review."
+  }
+ ],
+ "watch": "People often confuse the initial fine for rule-breaking with the daily extra fine that applies only when the violation continues.",
+ "h": "c3fece8cd10b",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-11"
+}

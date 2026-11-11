@@ -1,0 +1,82 @@
+{
+ "1": {
+  "summary": "This rule sets out the name and starting date of the Companies (Auditor's Report) Order, 2015. It explains that this order applies to all companies and foreign companies, but gives specific exceptions. For example, banking companies, insurance companies, and certain small or private companies are not covered.",
+  "points": [
+   "The order is called the Companies (Auditor's Report) Order, 2015.",
+   "It applies to every company and foreign company.",
+   "Banking companies and insurance companies are excluded from this order.",
+   "Section 8 companies, One Person Companies, and small companies are excluded.",
+   "Private companies meeting specific low limits for capital, loans, and turnover are also excluded."
+  ],
+  "example": "Meera Textiles Private Limited is a small private company with a very low paid-up capital and reserves, no bank loans, and a small turnover. Because the company meets these financial conditions, the Companies (Auditor's Report) Order, 2015 does not apply to it. Meanwhile, an ordinary manufacturing company that does not meet these specific exceptions must follow the order.",
+  "terms": [
+   {
+    "term": "Foreign company",
+    "meaning": "A company or body corporate incorporated outside India which has a place of business in India."
+   },
+   {
+    "term": "Paid up capital",
+    "meaning": "The amount of money a company has received from shareholders in exchange for shares."
+   },
+   {
+    "term": "Turnover",
+    "meaning": "The total amount of sales made by a business during a specific period."
+   }
+  ],
+  "watch": "People often think this order applies to every single company, but it actually has clear exceptions for banks, insurance firms, and certain small private companies.",
+  "h": "7ca57fca8fb6",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "2": {
+  "summary": "This rule requires company auditors to include specific details in their reports. The details are listed in paragraphs 3 and 4 of this Order. It applies to every company report for financial years starting on or after April 1, 2014.",
+  "points": [
+   "The auditor must add specific details to their report.",
+   "The details come from paragraphs 3 and 4.",
+   "It applies to financial years starting on or after April 1, 2014."
+  ],
+  "example": "Meera Textiles Private Limited hired an auditor to review its accounts for the financial year starting on April 1, 2014. When the auditor finished the review and wrote the report under section 143, the auditor made sure to include all the specific matters listed in paragraphs 3 and 4 of the Order, as required by the rule.",
+  "terms": [
+   {
+    "term": "Auditor",
+    "meaning": "An official person who checks and verifies company accounts."
+   },
+   {
+    "term": "Financial year",
+    "meaning": "The twelve-month period used for calculating yearly financial statements."
+   }
+  ],
+  "watch": "Make sure not to miss including the matters required by paragraphs 3 and 4 in the report.",
+  "h": "99d31f10e56e",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "3": {
+  "summary": "This rule tells the auditor what specific things must be included in their report on a company's accounts. The auditor must check areas like fixed assets, inventory, loans given, internal controls, deposits, and tax payments. They report whether the company is following proper rules and keeping correct records in these matters.",
+  "points": [
+   "The auditor must report if the company keeps proper records and checks its fixed assets and inventory.",
+   "The auditor must state if the company is regular in recovering loans and if it has good internal controls.",
+   "The auditor must check if the company follows rules regarding deposits, cost records, and paying statutory dues like taxes.",
+   "The auditor must report any defaults in bank payments, losses, misuse of term loans, or fraud."
+  ],
+  "example": "Meera Textiles Private Limited hired an auditor to check its accounts for the year. The auditor reviewed the company's fixed asset records, checked if physical verification of inventory was done, and looked at whether statutory dues like income-tax were paid regularly. The auditor also verified if any loans were given to parties listed under section 189 and whether the company had defaulted on any bank repayments. Finally, the auditor prepared a statement including all these required matters for the audit report.",
+  "terms": [
+   {
+    "term": "Fixed assets",
+    "meaning": "Long-term property or equipment owned by a company for its business use."
+   },
+   {
+    "term": "Inventory",
+    "meaning": "Goods and materials that a company holds for sale or production."
+   },
+   {
+    "term": "Statutory dues",
+    "meaning": "Payments required by law to be made to the government or authorities."
+   }
+  ],
+  "watch": "People often confuse this rule as applying to all companies automatically, but it only applies to companies covered by the Order.",
+  "h": "8e812a0233c9",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

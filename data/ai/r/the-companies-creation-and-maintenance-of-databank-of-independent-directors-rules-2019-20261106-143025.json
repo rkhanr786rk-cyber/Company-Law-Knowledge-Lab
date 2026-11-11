@@ -1,0 +1,53 @@
+{
+ "2": {
+  "summary": "This rule gives meanings to specific words used in the regulations for independent directors. It explains that the word Act refers to the Companies Act, 2013. It also clarifies that the institute means the Indian Institute of Corporate Affairs.",
+  "points": [
+   "Act means the Companies Act, 2013.",
+   "Institute means the Indian Institute of Corporate Affairs.",
+   "Words not defined here have the same meaning as given in the Act."
+  ],
+  "example": "At Sunrise Electronics Private Limited, the board wanted to understand the rules for selecting an independent director. The human resources team checked the regulations and noted that the institute responsible for the databank is the Indian Institute of Corporate Affairs. They also referred back to the main law for any undefined words.",
+  "terms": [
+   {
+    "term": "Act",
+    "meaning": "The Companies Act, 2013."
+   },
+   {
+    "term": "Institute",
+    "meaning": "The Indian Institute of Corporate Affairs."
+   }
+  ],
+  "watch": "Do not assume terms have new meanings unless stated otherwise in the main Act.",
+  "h": "d3f42e60970d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "3": {
+  "summary": "An authorized institute must create and maintain an online databank of people who want to be appointed as independent directors. This databank stores personal and professional details of these individuals. Companies that need to appoint an independent director can access this information after paying a fee.",
+  "points": [
+   "The institute hosts an online databank on its website containing details of willing and eligible independent directors.",
+   "Individuals must update their personal information in the databank within thirty days of any change.",
+   "Companies must pay a fee to access the information in the databank.",
+   "A disclaimer must be shown stating that companies must do their own background checks before hiring someone."
+  ],
+  "example": "Aarav wants to work as an independent director and submits his details to the institute to be included in the online databank. Months later, Aarav shifts to a new house and updates his permanent address through the web-based framework within thirty days. Meanwhile, TechCorp Private Limited needs an independent director and pays the required fee to the institute to view the databank. TechCorp performs its own due diligence before selecting Aarav from the list for appointment.",
+  "terms": [
+   {
+    "term": "Independent director",
+    "meaning": "A board director who does not have a material or pecuniary relationship with the company, helping ensure unbiased oversight."
+   },
+   {
+    "term": "DIN",
+    "meaning": "Director Identification Number, a unique identification number allotted to an individual intending to be appointed as a director."
+   },
+   {
+    "term": "Due diligence",
+    "meaning": "Reasonable investigation or care that a company must carry out before appointing a person."
+   }
+  ],
+  "watch": "People often think the institute guarantees the background of listed persons, but the website must show a disclaimer that companies must do their own checks.",
+  "h": "c150db851cba",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

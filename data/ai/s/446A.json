@@ -1,0 +1,29 @@
+{
+ "summary": "This section guides courts and Special Courts on how to decide the level of punishment for offenses under the Companies Act, 2013. When setting a fine or prison term, the court must consider five specific factors related to the company and the wrongdoing. It helps ensure that punishments are fair and fit the actual situation.",
+ "points": [
+  "The court must look at the size of the company.",
+  "The court must consider the nature of the business carried on by the company.",
+  "The court must check if there is any injury to the public interest.",
+  "The court must evaluate the nature of the default.",
+  "The court must examine if the default has been repeated."
+ ],
+ "example": "A court is deciding the penalty for Rohan Pharma Private Limited, a small startup that failed to file a routine document on time. The judge looks at the small size of the company and the harmless nature of the default, which did not hurt the public. Because this is their first mistake, the judge decides on a lower fine compared to what a giant corporation would face for a major fraud. This situation shows how the court uses the five factors listed in the law to decide a fair punishment.",
+ "terms": [
+  {
+   "term": "Special Court",
+   "meaning": "A special court set up by the government to handle specific types of legal cases quickly."
+  },
+  {
+   "term": "Default",
+   "meaning": "A failure to do something required by law."
+  },
+  {
+   "term": "Public interest",
+   "meaning": "The common welfare and general benefit of the public at large."
+  }
+ ],
+ "watch": "Remember that these factors are only used by the court when deciding a punishment, not when deciding if someone is guilty.",
+ "h": "981e4f22786b",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-11"
+}

@@ -1,0 +1,29 @@
+{
+ "summary": "This section cancels older company laws, like the Companies Act of 1956, and replaces them with the new Act. However, it ensures that previous actions, existing company registrations, and ongoing court cases continue smoothly under the new rules. It also allows certain old rules to apply temporarily until specific new transfers or notifications happen.",
+ "points": [
+  "The Companies Act, 1956 and the Registration of Companies (Sikkim) Act, 1961 are repealed.",
+  "Actions, penalties, and orders done under the old laws are treated as if done under the new Act, provided they do not conflict with it.",
+  "Companies already registered under the old acts remain valid and are treated as registered under the new Act.",
+  "Pending court prosecutions and ongoing investigations started under the old act will continue.",
+  "Old offices for company registration and existing registers and funds continue to exist as if set up under the new Act."
+ ],
+ "example": "Meera Textiles Private Limited was registered many years ago under the old Companies Act of 1956. When the new law replaces the old acts, Meera Textiles Private Limited does not lose its legal status. Its original incorporation remains completely valid, and it is treated as if it were registered under the new Companies Act, 2013. Furthermore, any registers or documents previously maintained by the company continue to be legally recognized without needing a fresh setup.",
+ "terms": [
+  {
+   "term": "Repeal",
+   "meaning": "To officially cancel or end a law."
+  },
+  {
+   "term": "Enactments",
+   "meaning": "Laws or legal acts passed by a governing body."
+  },
+  {
+   "term": "Inconsistent",
+   "meaning": "Contradictory or not in agreement with something else."
+  }
+ ],
+ "watch": "Watch out for the assumption that old company registrations become invalid when a new law starts.",
+ "h": "fd02dfe42966",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-11"
+}

@@ -1,0 +1,106 @@
+{
+ "2": {
+  "summary": "This rule gives the exact meanings of different words used in the rules for companies under the Companies Act, 2013. It explains terms like Act, fees, form, Regional Director, and various kinds of groups such as firms, societies, and trusts. Any word used in these rules that is not defined here will have the meaning given to it in the main Act.",
+  "points": [
+   "Act means the Companies Act, 2013.",
+   "Regional Director means the person appointed by the Central Government in the Ministry of Corporate Affairs.",
+   "Firm means a firm defined under the Indian Partnership Act, 1932.",
+   "Society and trust refer to registered societies and irrevocable public charitable or religious trusts."
+  ],
+  "example": "Asha and Ravi wanted to register their partnership under the name Star Enterprises. When reading the official rules to understand how to apply, they checked the definitions section to know what 'firm' and 'fees' mean. The text clarified that 'firm' refers to a partnership defined under the Indian Partnership Act, 1932, and 'fees' refers to the amounts specified in the separate registration offices and fees rules.",
+  "terms": [
+   {
+    "term": "Regional Director",
+    "meaning": "A person appointed by the Central Government in the Ministry of Corporate Affairs."
+   },
+   {
+    "term": "Registrar (LLP)",
+    "meaning": "The Registrar who deals with matters relating to Limited Liability Partnerships."
+   }
+  ],
+  "watch": "Do not assume terms mean their everyday dictionary meanings if a specific legal definition is provided in the text.",
+  "h": "0d1c51b006f7",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "3": {
+  "summary": "This rule sets out the specific documents and information that a Limited Liability Partnership, firm, society, or trust must attach when applying to register as a company using Form No. URC. 1. It details lists of members or partners, details of proposed first directors, partnership or registration deeds, income tax returns, and no objection certificates where applicable. Different entity types and desired company structures have distinct document requirements listed in the text.",
+  "points": [
+   "LLPs and firms applying to become a company limited by shares must provide lists of partners with share details, proposed director particulars, partnership deeds, tax returns, and any required no objection certificates.",
+   "Societies applying to register as a section 8 company limited by guarantee must provide member lists, director particulars, governing body details, registration certificates, and the latest income tax return.",
+   "Trusts applying to register as a section 8 company limited by guarantee must supply trustee lists, director particulars, trust deeds, and object details with a compliance declaration.",
+   "Applicants must give an undertaking to submit papers for dissolution to their previous registering authority, except for LLPs registered under the LLP Act, 2008."
+  ],
+  "example": "Greenwoods LLP wants to register as a company limited by shares using Form No. URC. 1. It prepares a list of all its partners who were partners not more than six clear days before seeking registration, showing their addresses, occupations, and share details. It also attaches the particulars of its proposed first directors with their consent, its partnership deed, a no objection certificate from secured creditors, and its latest income tax return to submit to the Registrar.",
+  "terms": [
+   {
+    "term": "Limited Liability Partnership",
+    "meaning": "A partnership where some or all partners have limited liabilities."
+   },
+   {
+    "term": "No Objection Certificate",
+    "meaning": "A document stating that a creditor has no objection to the proposed registration."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "The government authority responsible for company registrations."
+   }
+  ],
+  "watch": "Make sure to check whether the applicant is an LLP, firm, society, or trust, as the required lists and documents differ for each.",
+  "h": "50d3cd52d25e",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "4": {
+  "summary": "Certain business entities wanting to register as a company under the Companies Act must first publish a public notice. This notice invites objections from the public within twenty-one clear days. The Registrar then reviews any objections and decides whether to grant the registration.",
+  "points": [
+   "The entity must publish an advertisement in Form No. URC. 2 in both English and local language newspapers.",
+   "People have twenty-one clear days from the publication date to send in their objections.",
+   "Copies of the published notice and the notice served to the respective Registrar must be attached to Form No. URC. 1.",
+   "The Registrar decides on the registration after considering objections and ensuring they are addressed."
+  ],
+  "example": "Apex Partnership Firm wanted to register as a company under the Companies Act. They published a public notice in an English newspaper and a local language newspaper using Form No. URC. 2. Local residents were given twenty-one clear days to submit any objections. After the period ended, the Registrar reviewed the application and the objections received, made sure the firm addressed them, and finally issued a certificate of incorporation in Form No. INC.11.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "The government official who handles the registration of companies and other entities."
+   },
+   {
+    "term": "Certificate of incorporation",
+    "meaning": "An official document issued by the Registrar that proves the company is legally registered."
+   }
+  ],
+  "watch": "Make sure not to confuse the twenty-one days given for public objections with the thirty-day period the Registrar has to consider the application.",
+  "h": "8361d92a1f96",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "5": {
+  "summary": "Existing entities like firms or trusts must fulfill specific duties when registering as a company under the Companies Act. These include notifying their original registrar, attaching recent financial statements, and declaring any pending court cases. Certain entities must also wait ten years after registration before changing their company type again.",
+  "points": [
+   "A firm, society, or trust must inform its original registrar within fifteen days of getting a registration certificate and submit dissolution documents.",
+   "An applicant must attach recent accounts certified by an auditor and previous year financial statements to Form No. URC. 1.",
+   "Notice must be given to the original registrar, who has twenty-one days to raise any objections.",
+   "Details of any pending court proceedings or cases involving the entity must be attached to Form No. URC. 1."
+  ],
+  "example": "Greenwoods Trust decided to register as a company under the Companies Act. Before applying, it sent a formal notice to the Registrar of Trusts to invite any objections. It also attached a statement of accounts prepared just ten days prior, certified by an auditor, along with a list of all pending court cases involving the trust.",
+  "terms": [
+   {
+    "term": "Dissolution",
+    "meaning": "The official closing down or ending of a firm, society, or trust."
+   },
+   {
+    "term": "Audited Financial Statements",
+    "meaning": "Official financial reports that have been checked and verified by an independent accountant."
+   },
+   {
+    "term": "Pendency",
+    "meaning": "The state of being waiting or undecided, usually referring to ongoing legal proceedings or court cases."
+   }
+  ],
+  "watch": "Make sure to submit the auditor-certified accounts that are prepared within fifteen days before seeking registration.",
+  "h": "bacec44e2e7a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

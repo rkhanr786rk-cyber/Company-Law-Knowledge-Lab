@@ -1,0 +1,741 @@
+{
+ "3": {
+  "summary": "This rule explains who can set up a One Person Company in India. Only a real human being who is an Indian citizen can start one or act as a nominee. Minors cannot be involved in these companies at all.",
+  "points": [
+   "Only an Indian citizen who is a natural person can set up a One Person Company or be a nominee.",
+   "A person cannot be a member or a nominee in more than one One Person Company at the same time.",
+   "Minors cannot become members, nominees, or hold shares with a beneficial interest.",
+   "A One Person Company cannot be formed or converted for charitable objects under section 8.",
+   "Such a company cannot carry out Non-Banking Financial Investment activities."
+  ],
+  "example": "Aarav, an Indian citizen, wants to start his own business. He decides to set up a One Person Company called Aarav Crafts Private Limited. Since he is a natural person and an Indian citizen, he is eligible to do so. Aarav cannot start or be a nominee in any other One Person Company at the same time, and he must ensure no minor is added as a member or nominee.",
+  "terms": [
+   {
+    "term": "natural person",
+    "meaning": "A real human being, as opposed to a company or legal entity."
+   },
+   {
+    "term": "nominee",
+    "meaning": "A person chosen to take the place of the sole member if needed."
+   },
+   {
+    "term": "minor",
+    "meaning": "A person who has not reached the age of majority."
+   }
+  ],
+  "watch": "People often confuse residency rules, but the text specifically requires staying in India for a set period during the previous financial year.",
+  "h": "3c1fd05b4957",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "4": {
+  "summary": "When setting up a One Person Company, the founder must choose a nominee who will take over if the founder dies or cannot make a contract. This rule explains how that nominee is added during registration, how the nominee can withdraw, and how the founder can change the nominee later. It also tells the company what forms to file with the official registrar.",
+  "points": [
+   "The person starting a One Person Company must name a nominee and get their written consent.",
+   "The name of the nominee and their consent must be included in the company's incorporation forms.",
+   "If the nominee withdraws, the sole member must pick a new nominee within fifteen days.",
+   "The company must inform the Registrar using the specified forms and pay the required fees when a nominee changes or withdraws.",
+   "If the nominee becomes the new member due to the founder's death or incapacity, that new member must also name a new nominee within fifteen days."
+  ],
+  "example": "Aarav decides to start a single-person business called Apex Techno Solutions Private Limited. Before setting it up, he asks his sister Priya to be his nominee in case he passes away or cannot legally make contracts. Priya agrees in writing. Aarav includes Priya's name and her written consent in the company's registration forms filed with the Registrar. Later, if Priya decides to step down as the nominee, she must send a written notice to Aarav and the company.",
+  "terms": [
+   {
+    "term": "One Person Company",
+    "meaning": "A company that has only one person as a member."
+   },
+   {
+    "term": "Incapacity to contract",
+    "meaning": "A legal condition where a person is not able to enter into valid contracts, such as due to loss of mental soundness."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "The official government authority responsible for registering companies."
+   }
+  ],
+  "watch": "Make sure to file the required forms and get written consent from the nominee within the timelines stated in the text.",
+  "h": "e92a26a20601",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "6": {
+  "summary": "A One Person Company can change into a private or public company by updating its core documents and meeting the required number of members and directors. The company must apply using a specific form with the necessary fees and updated documents. Once the Registrar checks everything and is satisfied, they will approve the change and issue a certificate.",
+  "points": [
+   "The company must alter its memorandum and articles by passing a resolution.",
+   "It must increase its members and directors to the required minimum and maintain the correct paid-up capital.",
+   "The company must file an application in e-Form No. INC-6 with the altered documents and fees.",
+   "The Registrar will review the latest audited financial statement and issue a certificate upon approval."
+  ],
+  "example": "Aarav owns Apex One Person Company. He decides to convert it into a private company to bring in a business partner. He increases the number of members and directors to meet the legal requirements, updates his company documents, and submits e-Form INC-6 with the required fees. The Registrar examines the latest audited financial statement, ensures all rules are followed, and issues the certificate for the conversion.",
+  "terms": [
+   {
+    "term": "memorandum and articles",
+    "meaning": "The fundamental documents that set out the constitution and rules of a company."
+   },
+   {
+    "term": "paid-up capital",
+    "meaning": "The total amount of money that shareholders have paid to the company in exchange for shares."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "The government official responsible for registering and overseeing companies."
+   }
+  ],
+  "watch": "A One Person Company cannot be converted into a company registered under section 8 for charitable objects through this process.",
+  "h": "6d1ec7af05da",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "7": {
+  "summary": "A private company, except a charity company, can turn into a One Person Company if all members and creditors agree in writing and the shareholders pass a special resolution. The company must then submit the resolution and an application with the required documents to the Registrar of Companies. Once checked and approved, the Registrar will issue a certificate.",
+  "points": [
+   "Pass a special resolution in a general meeting to start the conversion.",
+   "Get written no-objection letters from all members and creditors before passing the resolution.",
+   "File the special resolution with the Registrar within thirty days.",
+   "Submit an application with updated documents like the memorandum, articles, creditor approvals, and a directors' affidavit."
+  ],
+  "example": "Meera Textiles Private Limited wanted to change its business structure into a One Person Company. First, the owners obtained written no-objection letters from every member and creditor. Next, they held a meeting where the shareholders passed a special resolution approving the change. Within thirty days, they filed this resolution with the Registrar of Companies. Finally, they submitted an application through e-Form INC-6, attaching their updated memorandum, articles, creditor letters, and a directors' affidavit confirming everyone agreed. After reviewing the latest audited financial statement, the Registrar approved the form and issued a new certificate.",
+  "terms": [
+   {
+    "term": "Special resolution",
+    "meaning": "A formal decision made by shareholders that requires a high majority vote."
+   },
+   {
+    "term": "Registrar of Companies",
+    "meaning": "The government official who handles company registrations and records."
+   },
+   {
+    "term": "Affidavit",
+    "meaning": "A written statement confirmed by oath or affirmation for use as evidence."
+   }
+  ],
+  "watch": "Charity companies registered under section 8 are not allowed to use this rule to convert into a One Person Company.",
+  "h": "c0699507c18a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "8A": {
+  "summary": "This rule explains when a company name is considered undesirable and will not be allowed. It lists specific types of names, such as those that are offensive, too similar to existing companies or trademarks, or misleading about the company's business activities. Promoters must avoid these forbidden names when setting up a company.",
+  "points": [
+   "A name cannot include certain protected emblems or registered trademarks unless proper permission or consent is given.",
+   "A name cannot be offensive, misleading about financial activities, or use words like 'British India' or names of foreign embassies.",
+   "A name cannot be identical or too similar to an existing company, limited liability partnership, or reserved name.",
+   "A name cannot consist only of a continent, country, State, city, or commonly used descriptive words for an activity."
+  ],
+  "example": "The promoters of Sunshine Enterprises Private Limited wanted to name their new firm Haryana Limited. Under the rules, this proposed name is not allowed because it contains only the name of a State. To fix this, they decided to change the name to Sunshine Haryana Traders Private Limited, which includes other words and is acceptable under the law.",
+  "terms": [
+   {
+    "term": "Trade mark",
+    "meaning": "A special symbol, word, or phrase legally registered to represent a company's goods or services."
+   },
+   {
+    "term": "Promoters",
+    "meaning": "The people who take the initial steps to plan and set up a new company."
+   },
+   {
+    "term": "Subsidiary",
+    "meaning": "A company that is controlled by another larger company known as the holding company."
+   }
+  ],
+  "watch": "Just because a word is not explicitly banned does not mean any name is allowed if it resembles existing registered names or trademarks.",
+  "h": "cf6d69935c56",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "8B": {
+  "summary": "This rule lists certain special words and expressions that you cannot use in a company name without getting permission first from the Central Government. These restricted words include names of government bodies, leaders, courts, and specific schemes. The rule ensures that a private company name does not sound like an official government body or authority.",
+  "points": [
+   "You cannot use words like Board, Commission, Authority, or Undertaking in a company name without Central Government approval.",
+   "Words related to government and governance, such as National, Union, Central, Federal, Republic, President, and Governor, require prior approval.",
+   "Using names of leaders, ministers, courts, municipal bodies, and specific entities like Khadi and Village Industries Corporation needs prior approval.",
+   "Using the word Scheme with government names, India, Bharat, or any government scheme requires prior approval."
+  ],
+  "example": "A group of friends in Mumbai wanted to start a new business to sell handmade goods. They decided to name their venture 'National Khadi and Village Industries Corporation Private Limited'. Because the text states that words like National and Khadi and Village Industries Corporation cannot be used in a company name without getting previous approval of the Central Government, the friends must obtain this approval before they can officially register their company with that specific name.",
+  "terms": [
+   {
+    "term": "Central Government",
+    "meaning": "The main national government of the country."
+   },
+   {
+    "term": "Expression",
+    "meaning": "A group of words forming a particular phrase."
+   }
+  ],
+  "watch": "A common confusion is thinking that getting approval from a local office is enough, but the text specifically requires the previous approval of the Central Government.",
+  "h": "d3078da4bbca",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "9A": {
+  "summary": "This rule allows you to extend the time period for a reserved company name using a government website. You must pay specific fees within certain time limits before the original reservation expires. The Registrar also keeps the power to cancel the reserved name under the Act.",
+  "points": [
+   "You can extend a reserved company name by paying fees through the official web service.",
+   "Pay one thousand rupees before twenty days expire to extend the name up to forty days.",
+   "Pay two thousand rupees before forty days expire to extend the name up to sixty days.",
+   "Pay three thousand rupees before twenty days expire to also extend the name up to sixty days."
+  ],
+  "example": "Meera Textiles Private Limited successfully reserved its company name through the web service. Before twenty days passed from the approval date, the founders decided they needed more time to complete their paperwork. They paid a fee of one thousand rupees through the website before the twenty-day deadline, successfully extending their name reservation up to forty days from the original approval date.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "A government official who handles company registrations and records."
+   },
+   {
+    "term": "SPICe+",
+    "meaning": "A web service used for incorporating a company electronically."
+   }
+  ],
+  "watch": "People often confuse the different fee amounts and their exact deadlines for extending the reserved name.",
+  "h": "43b3f01d9ef7",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "12": {
+  "summary": "To register a new company, you must file an online application using a specific electronic form along with the required fee to the local Registrar. If your business needs approval from a sector regulator like the Reserve Bank of India, you must get it before doing those activities and declare it when incorporating. If you are starting a Nidhi company, you need a special Central Government declaration before beginning your business.",
+  "points": [
+   "File the incorporation application with the Registrar where your registered office will be located.",
+   "Use the electronic form SPICe+ along with the prescribed fee.",
+   "Obtain and declare any needed approvals from sectoral regulators before pursuing those business objects.",
+   "A Nidhi company must get a Central Government declaration under section 406 before starting business."
+  ],
+  "example": "Aarav wants to start a finance business called Nidhi Wealth Private Limited in Mumbai. Since it is being incorporated as a Nidhi, the company must obtain the required declaration from the Central Government under section 406 of the Act before it starts its business operations. Aarav submits the incorporation application through the electronic form SPICe+ to the local Registrar along with the fee, and includes the necessary declaration stating that they will obtain the required government approval before commencing business.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "The government official appointed to handle company registrations."
+   },
+   {
+    "term": "Sectoral regulators",
+    "meaning": "Government authorities that oversee specific industries, like the Reserve Bank of India."
+   },
+   {
+    "term": "Nidhi",
+    "meaning": "A specific type of company formed to cultivate the habit of thrift and savings among its members."
+   }
+  ],
+  "watch": "Make sure to obtain all required sectoral approvals and declarations before starting your business activities.",
+  "h": "2c56d7e000ed",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "14": {
+  "summary": "When starting a company, certain professionals must give a formal written statement. This rule states that the statement given by an advocate, chartered accountant, cost accountant, or company secretary must be in a specific official form called Form No. INC.8. It also explains the specific laws that define these professions.",
+  "points": [
+   "Professionals like advocates and accountants must use Form No. INC.8 for their declaration.",
+   "This rule applies to the process of starting a company under section 7 of the Act.",
+   "Definitions for the professionals are borrowed from their respective governing acts."
+  ],
+  "example": "A group of entrepreneurs wants to start a new business named Sunrise Ventures Private Limited. They need help with their company incorporation paperwork. They hire an independent Chartered Accountant in practice to provide a formal statement confirming that all legal requirements for forming the company have been met. To follow the law correctly, the Chartered Accountant must submit this required statement using the official Form No. INC.8.",
+  "terms": [
+   {
+    "term": "declaration",
+    "meaning": "A formal written statement made by a professional."
+   },
+   {
+    "term": "incorporation",
+    "meaning": "The legal process of forming a new company."
+   }
+  ],
+  "watch": "Make sure to use Form No. INC.8 specifically, rather than any other general form.",
+  "h": "90afe43e7256",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "15": {
+  "summary": "This rule explains how people starting a new company must officially declare certain things under the Companies Act, 2013. Every person who signs to set up the company and every first director must submit this declaration. The document must be given in a specific official format called Form No. INC-9.",
+  "points": [
+   "Applies to every subscriber to the memorandum.",
+   "Applies to every first director named in the articles.",
+   "Must be submitted in Form No. INC-9."
+  ],
+  "example": "Aarav and Priya decided to start a new business named Sunrise Ventures Private Limited. Aarav signed the main founding document as a subscriber, and Priya was named as a first director in the articles. Because of this rule, both Aarav and Priya must individually submit a declaration using the specific official format known as Form No. INC-9 during the incorporation process.",
+  "terms": [
+   {
+    "term": "subscribers to the memorandum",
+    "meaning": "The people who sign the primary founding document to create the company."
+   },
+   {
+    "term": "first directors",
+    "meaning": "The initial members chosen to manage the company, named in the articles."
+   },
+   {
+    "term": "Form No. INC-9",
+    "meaning": "The specific official form required for the declaration."
+   }
+  ],
+  "watch": "Do not confuse this declaration form with other incorporation documents, as it specifically must be Form No. INC-9.",
+  "h": "9ff9d1adca8a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "16": {
+  "summary": "When starting a company in India, certain details about every person or company signing up as a founder must be given to the Registrar. This rule lists all the specific information and identity proofs needed for both individuals and corporate bodies. It ensures the government has accurate records of everyone involved in setting up the new business.",
+  "points": [
+   "Individual founders must provide personal details like name, parents' names, date of birth, educational qualification, and income-tax PAN.",
+   "Founders must also submit recent photographs, contact details, identity proofs, and residential proofs that are not more than two months old.",
+   "If a founder is a body corporate or another company, it must provide its registration numbers, address, and a copy of the board resolution or partner agreement.",
+   "Founders who already have an updated Director Identification Number do not need to attach proof of identity and residence."
+  ],
+  "example": "Aarav Sharma wants to start a new business named Sharma Technologies Private Limited. As a subscriber to the memorandum, Aarav must submit his personal details, a recent photograph, his educational qualification, his PAN card, and an electricity bill that is less than two months old to the Registrar. If Aarav already holds a valid and updated Director Identification Number, he does not need to attach his identity and residence proofs.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "A government official appointed under the Companies Act who handles company registrations."
+   },
+   {
+    "term": "Subscriber",
+    "meaning": "A person or body corporate that signs the founding document to form a company."
+   },
+   {
+    "term": "Body corporate",
+    "meaning": "A company or legal entity, which can include foreign companies and limited liability partnerships."
+   }
+  ],
+  "watch": "People often confuse the rule by thinking residential bills can be of any age, but utility bills must not be more than two months old.",
+  "h": "111d7b045d64",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "19": {
+  "summary": "This rule explains how a person or group can apply to start a new charitable company under section 8 without using the words Limited or Private Limited in its name. The applicants must submit a specific electronic form along with the required fee, memorandum, and articles of association. They also need to provide professional declarations and an estimate of future income and expenses for the next three years.",
+  "points": [
+   "Apply using the SPICe+ form and pay the required fee to the Registrar.",
+   "Prepare the memorandum of association in Form No. INC.13.",
+   "Attach the memorandum, articles of association, and applicant declarations.",
+   "Include a declaration from a qualified professional confirming compliance with the law.",
+   "Provide a three-year estimate of future income sources and spending objects."
+  ],
+  "example": "Asha and Kabir wanted to start a charitable organization named Help Hands to promote education. Instead of naming it Help Hands Private Limited, they decided to apply for a section 8 license. They filled out the SPICe+ form, prepared their memorandum in Form No. INC.13, and attached an estimate of their income and expenses for the next three years. A practicing Chartered Accountant reviewed their documents and gave a declaration that all legal requirements were met. They submitted everything along with the proper fee to the Registrar.",
+  "terms": [
+   {
+    "term": "Memorandum of association",
+    "meaning": "A foundational document that sets out the constitution of a company and its objects."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "The government authority responsible for registering companies."
+   },
+   {
+    "term": "Articles of association",
+    "meaning": "A document that contains the rules for internal management of a company."
+   }
+  ],
+  "watch": "Do not forget to include the professional declaration confirming that all legal requirements for registration have been met.",
+  "h": "7b8c70440225",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "20": {
+  "summary": "An existing limited company with charitable objects can apply for a special license to drop the words 'Limited' or 'Private Limited' from its name. To do this, the company must submit an application with required documents, pay a fee, publish a public notice, and wait for the Registrar to make a decision. The Registrar checks financial records, considers any objections, and decides whether to grant the license.",
+  "points": [
+   "The company must apply in Form No. INC.12 with the required fee.",
+   "The application needs documents like the e-Memorandum, financial statements, and professional declarations.",
+   "The company must publish a notice in a vernacular newspaper, an English newspaper, and on notified websites.",
+   "The Registrar reviews financial reports, audit reports, and any objections before deciding on the license."
+  ],
+  "example": "Meera Textiles Private Limited is an existing company that wants to work purely for charity. To remove 'Private Limited' from its name, it applies to the Registrar using Form No. INC.12 and pays the fee. It attaches its articles, asset statements, and a professional declaration. The company also publishes a notice in a local vernacular newspaper and an English newspaper. After checking the financial statements and ensuring no objections are raised within the time limit, the Registrar decides whether to give the license.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "An officer appointed under the Act to keep company records and handle registrations."
+   },
+   {
+    "term": "Memorandum of Association",
+    "meaning": "A document that sets out the main objects and constitution of a company."
+   },
+   {
+    "term": "Vernacular newspaper",
+    "meaning": "A newspaper published in the local language of the district."
+   }
+  ],
+  "watch": "Make sure to publish the notice in both a local language newspaper and an English newspaper as required.",
+  "h": "5a34c6810b53",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "21": {
+  "summary": "A company formed for charitable purposes under Section 8 of the Companies Act can change into another type of company by following specific rules. The company must pass a special resolution at a meeting and provide a detailed explanation of the reasons. It also needs to file paperwork and seek approval from the proper authorities.",
+  "points": [
+   "The company must pass a special resolution at a general meeting to approve the conversion.",
+   "The meeting notice must include a detailed statement explaining why the company wants to change, its history, objects, and current benefits.",
+   "The company must file copies of the resolution and notice with the Registrar.",
+   "The company must apply to the Regional Director for approval to convert and send an intimation to the Registrar."
+  ],
+  "example": "Asha Welfare Private Limited, a company originally set up for charity, decided it wanted to change into a regular business company. To do this, the members held a general meeting and passed a special resolution. They prepared a notice with an explanatory statement detailing their incorporation date, main objects, reasons for the change, and any tax exemptions or land they received at concessional rates. They then filed the required forms and documents with the Registrar and the Regional Director to seek official approval for the conversion.",
+  "terms": [
+   {
+    "term": "Special resolution",
+    "meaning": "A formal decision passed by a high majority of company members at a meeting."
+   },
+   {
+    "term": "Memorandum of association",
+    "meaning": "The fundamental document that sets out the company's constitution and main objects."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "The government official responsible for registering and overseeing companies."
+   }
+  ],
+  "watch": "Do not confuse simply holding a meeting with also needing to file the required forms with the Regional Director and Registrar.",
+  "h": "8072282ae3d2",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "22": {
+  "summary": "This rule explains the steps a charitable company must follow when it wants to change into a normal company. It must publish public notices, inform various government authorities, and get approval from the Regional Director. After getting approval, it must update its documents and inform the Registrar to complete the conversion.",
+  "points": [
+   "The company must publish a notice in a local vernacular newspaper, an English newspaper, and on its website.",
+   "It must send copies of the application and notice to specific government authorities like the Income Tax Department and the State Chief Secretary.",
+   "The Board of directors must give a declaration that no company income or property was given away as dividends or bonuses to members.",
+   "The company must clear its dues, and any remaining balance of accumulated profits must be transferred to the Investor Education and Protection Fund.",
+   "After getting approval, the company must hold a general meeting, pass a resolution, and file the required documents with the Registrar to get a fresh certificate."
+  ],
+  "example": "Meera Textiles Private Limited, a charitable company, decided to change into a regular company. It published a notice in two local newspapers and on its website. The directors declared that no company property was ever distributed as dividends to members. They sent copies of the application to the Income Tax Officer and the Chief Secretary. After clearing all debts, they transferred any leftover unutilized income to the Investor Education and Protection Fund. Finally, they received approval from the Regional Director, held a meeting, and filed the amended documents with the Registrar to get a new certificate.",
+  "terms": [
+   {
+    "term": "Vernacular newspaper",
+    "meaning": "A newspaper published in the principal local language of the district where the company's office is located."
+   },
+   {
+    "term": "Regional Director",
+    "meaning": "A government authority appointed to oversee various company law matters under the Act."
+   },
+   {
+    "term": "Memorandum of Association",
+    "meaning": "A legal document that sets out the constitution of a company and its relationship with shareholders."
+   }
+  ],
+  "watch": "Do not confuse the Regional Director who approves the conversion with the Registrar who registers the final documents.",
+  "h": "1019081873cf",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "23A": {
+  "summary": "This rule explains how a company must file a specific declaration to start its business under the law. A director must use a special form and have it checked by a qualified professional. If the company needs special approval from a regulator, that approval must also be attached.",
+  "points": [
+   "A director must file the declaration using Form No.INC-20A.",
+   "The filing follows the rules for registration offices and fees.",
+   "A practicing Company Secretary, Chartered Accountant, or Cost Accountant must verify the form contents.",
+   "If the company needs approval from a sectoral regulator like RBI or SEBI, that approval must be attached."
+  ],
+  "example": "Meera Textiles Private Limited wants to start its business operations. To do this lawfully, a director of the company fills out Form No.INC-20A. Because the company deals in a sector that needs special clearance, the directors also obtain the required registration approval from the Reserve Bank of India. They attach this approval to the form. Finally, a practicing Chartered Accountant verifies the contents of the form before it is officially filed according to the registration and fee rules.",
+  "terms": [
+   {
+    "term": "Director",
+    "meaning": "A person who helps manage and run a company."
+   },
+   {
+    "term": "Sectoral regulators",
+    "meaning": "Official bodies that watch over and control specific industries, like the Reserve Bank of India."
+   }
+  ],
+  "watch": "Do not forget to attach approvals from regulators like RBI or SEBI if your specific business needs them.",
+  "h": "a411cc074246",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "25A": {
+  "summary": "This rule requires certain older companies to submit their details and registered office particulars using a specific electronic form. Companies that have missed filing certain financial statements or annual returns cannot use this form unless there is a management dispute recorded. If a company fails to file this form, it will be marked as non-compliant and blocked from making certain changes.",
+  "points": [
+   "Companies created on or before December 31, 2017, must file e-Form ACTIVE.",
+   "Companies with pending financial statements or annual returns are restricted from filing unless they have a recorded management dispute.",
+   "Struck off, liquidating, amalgamated, or dissolved companies do not need to file.",
+   "Failing to file results in being marked as ACTIVE-non-compliant and blocks specific corporate changes.",
+   "Filing the form late requires a fee of ten thousand rupees to become compliant again."
+  ],
+  "example": "Meera Textiles Private Limited was incorporated in November 2017. Because it missed filing its required annual returns with the Registrar, it was initially restricted from filing e-Form ACTIVE. However, the company had a severe management dispute, which the Registrar duly recorded in the register. With this dispute on record, Meera Textiles Private Limited was allowed to proceed. After paying the required fee of ten thousand rupees, the company successfully submitted its particulars and was marked as ACTIVE Compliant.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "An official appointed under the Act to keep company records."
+   },
+   {
+    "term": "Financial Statement",
+    "meaning": "Official reports showing the financial position and performance of a company."
+   }
+  ],
+  "watch": "Companies often confuse the exemption for struck-off or dissolving companies with active companies that simply forgot to file.",
+  "h": "56e81772d01d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "25B": {
+  "summary": "The Registrar can physically visit a company's registered office to check if it is real and working. During the visit, the Registrar will take photos, check documents with two local witnesses, and prepare a report. If the office cannot receive mail, the Registrar can start steps to remove the company's name.",
+  "points": [
+   "The Registrar visits the company office using info from the MCA 21 portal.",
+   "Two independent local witnesses and sometimes the local police must be present.",
+   "The Registrar takes a photograph of the office and collects documents from the occupant.",
+   "If the office cannot receive communications, a notice is sent to remove the company name."
+  ],
+  "example": "An official visits Sunshine Agro Private Limited based on records found on the MCA 21 portal. The official brings along two local witnesses and takes a photograph of the office building. They check the rent agreement and speak with the person present at the location to ensure the company actually operates from that address and can receive mail.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "An official appointed to maintain the register of companies."
+   },
+   {
+    "term": "MCA 21",
+    "meaning": "The online portal used by the Ministry of Corporate Affairs for company filings."
+   },
+   {
+    "term": "CIN",
+    "meaning": "Corporate Identity Number, a unique number given to a company."
+   }
+  ],
+  "watch": "People often confuse a physical verification visit with a routine tax audit, but this rule is only about checking the official registered office address.",
+  "h": "ef7ea0091269",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "27": {
+  "summary": "This rule explains how a company must inform the authorities if it moves its registered office to a new location. The company needs to fill out a specific form, pay a fee, and attach the same documents and verification methods that were required when the company was first started. It ensures the government has the correct and verified address for official notices.",
+  "points": [
+   "File a notice of change in Form No. INC.22.",
+   "Pay the required fee along with the form.",
+   "Attach the same documents used for address verification during incorporation.",
+   "Follow the same manner of verification specified under section 12(2) of the Act."
+  ],
+  "example": "Meera Textiles Private Limited decided to move its office to a new building across town. To make this legal, the directors filled out Form No. INC.22 and included the required fee. Along with the form, they attached the exact same type of ownership proof and verification documents that they had submitted when the company was first incorporated, as required by the law.",
+  "terms": [
+   {
+    "term": "registered office",
+    "meaning": "The official main address of a company where legal notices and mail are sent."
+   },
+   {
+    "term": "incorporation",
+    "meaning": "The legal process of forming a new company."
+   },
+   {
+    "term": "verification",
+    "meaning": "The process of proving that information or a document is true and correct."
+   }
+  ],
+  "watch": "Do not forget to attach the exact same verification documents used during incorporation.",
+  "h": "a23f651e9457",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "30": {
+  "summary": "When a company wants to move its registered office from one State to another, it must apply to the Central Government using a specific form and include documents like its updated memorandum and minutes. The company also needs to list its creditors, notify them through advertisements and letters, and send a copy of the application to the State's Chief Secretary. The Central Government will then review the request, hold hearings if there are objections, and pass an order either approving or rejecting the move.",
+  "points": [
+   "File the application in Form No. INC.23 with the Central Government along with the required fee, memorandum copy, meeting minutes, and board resolution or power of attorney.",
+   "Provide a list of creditors and debenture holders signed by the company secretary and at least two directors, stating that no employees will be laid off due to the move.",
+   "Advertise the proposed shift in a vernacular and an English newspaper, and send individual notices to each creditor, debenture holder, the Registrar, and regulators.",
+   "The Central Government will issue an order approving or rejecting the shift within fifteen days if there are no objections, or after hearings if objections exist."
+  ],
+  "example": "Meera Textiles Private Limited decided to move its registered office from one State to another. To do this, the directors filed Form No. INC.23 with the Central Government along with their updated memorandum and a list of creditors. They published a notice in both an English and a local language newspaper and sent notices by post to all their creditors. They also served a copy of the application to the Chief Secretary of their current State. Since no one raised any objections, the Central Government reviewed the paperwork and passed an order approving the shift.",
+  "terms": [
+   {
+    "term": "Memorandum of Association",
+    "meaning": "The foundational document that sets out the company's constitution and objectives."
+   },
+   {
+    "term": "Debenture holder",
+    "meaning": "A person or entity that holds a bond or certificate of loan issued by the company."
+   },
+   {
+    "term": "Retrenched",
+    "meaning": "Fired or laid off from employment."
+   }
+  ],
+  "watch": "Shifting is not allowed if any inquiry, inspection, investigation, or prosecution is pending against the company under the Act.",
+  "h": "dcd285b31c95",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "33A": {
+  "summary": "If a company does not change its name within three months of receiving a direction to do so, its name automatically changes to a specific code starting with ORDNC. The Registrar then updates the official register and gives the company a new certificate of incorporation. This rule does not apply if the company's name change application is still pending review, unless that application is later rejected.",
+  "points": [
+   "A company must follow a direction to change its name within three months.",
+   "If it fails, a new default name using ORDNC, the year, a serial number, and its CIN becomes its name automatically.",
+   "The Registrar updates the register and issues a fresh certificate of incorporation.",
+   "The company must update its registered office details and display a specific warning statement under its new name until it changes it properly."
+  ],
+  "example": "Meera Textiles Private Limited received a government direction to change its name. Three months passed, and the company did not change its name, nor did it have any pending name change application. Automatically, its name changed to an ORDNC code with its year and serial number. The Registrar issued a fresh certificate of incorporation. Now, Meera Textiles Private Limited must print the statement about the uncomplied order below its name everywhere it appears, until it properly alters its memorandum.",
+  "terms": [
+   {
+    "term": "Corporate Identity Number",
+    "meaning": "A unique identification number given to a company by the government."
+   },
+   {
+    "term": "Certificate of Incorporation",
+    "meaning": "An official document issued to prove that a company has been officially registered."
+   },
+   {
+    "term": "Memorandum",
+    "meaning": "The fundamental document that sets out a company's basic rules and name."
+   }
+  ],
+  "watch": "People often confuse the automatic name change with a regular voluntary name change, but this happens by law without any action from the company if it misses the three-month deadline.",
+  "h": "8fb21d7a4a5f",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "34": {
+  "summary": "Under Rule 34, a company must give copies of certain important documents to its members when they ask for them and pay a fee. These documents include the memorandum, articles, and specific resolutions or agreements. The company has seven days to send these copies after receiving the request.",
+  "points": [
+   "A member must pay a fee to get the documents.",
+   "The company must send the documents within seven days of the request.",
+   "The documents include the memorandum, the articles, and certain agreements or resolutions."
+  ],
+  "example": "Aarav is a shareholder in ABC Private Limited. He wants to read the company rules and writes a letter to ask for a copy of the articles and the memorandum, along with the required fee. The company receives his letter. Within seven days, ABC Private Limited must mail those copies to Aarav.",
+  "terms": [
+   {
+    "term": "memorandum",
+    "meaning": "The main document that sets up a company and defines its relationship with shareholders."
+   },
+   {
+    "term": "articles",
+    "meaning": "The document that contains the internal rules for running the company's business."
+   },
+   {
+    "term": "member",
+    "meaning": "A person who owns shares in the company and is listed as a member."
+   }
+  ],
+  "watch": "Remember that the seven-day countdown starts only after the member makes the request and pays the fee.",
+  "h": "49590712ca32",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "35": {
+  "summary": "Under this rule, official papers and notices can be sent to a company, its officers, the Registrar, or a member using electronic methods like email or fax. These electronic messages must go to specific addresses provided for this purpose and must create a saved record that can be printed out. The rule also explains how delivery by courier and post works.",
+  "points": [
+   "Documents can be sent to a company or officer using electronic transmission.",
+   "Electronic transmission includes email, fax, or designated message boards with verification systems.",
+   "Documents can also be sent to the Registrar or any member through electronic transmission.",
+   "Delivery by post is considered complete after forty-eight hours for a meeting notice, or at the normal delivery time for other cases."
+  ],
+  "example": "Ahmad wanted to send a meeting notice to Zenith Electronics Private Limited. Instead of using regular mail, Ahmad sent an email to the exact email address that Zenith Electronics had officially provided for receiving messages. Because the email was sent to the right address and created a saved record that could be printed, the service of the document was successfully done through electronic transmission.",
+  "terms": [
+   {
+    "term": "electronic transmission",
+    "meaning": "Sending messages electronically like by email or fax to a provided address, or posting on a designated network."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "An official government authority who handles company registrations and records."
+   },
+   {
+    "term": "tangible form",
+    "meaning": "Something that can be touched and read in physical form, like printed paper."
+   }
+  ],
+  "watch": "Make sure you only use the exact email address or fax number that the company or officer has officially provided.",
+  "h": "f673f6dc821e",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "38": {
+  "summary": "This rule explains how to use an electronic form called SPICe+ to set up a new company. It covers details like how to fill out the main application, how to submit founding documents, and what happens if the Registrar finds mistakes in your paperwork. You can use it to apply for names, director numbers, and your registered office all at once.",
+  "points": [
+   "To start a company, you must file the SPICe+ electronic form along with your electronic Memorandum of Association and Articles of Association.",
+   "The form allows you to apply for up to three Director Identification Numbers and lets you propose only one name for the company.",
+   "If the Registrar finds defects in your application, you will be given time to fix and re-submit the documents.",
+   "The Registrar will issue a Certificate of Incorporation in Form No. INC-11 once the company is successfully registered."
+  ],
+  "example": "Meera Textiles Private Limited wanted to start its business using the online incorporation process. The founders filled out the SPICe+ electronic form along with their e-MoA and e-AoA, proposing a single name for the company. They also applied for three Director Identification Numbers through the same form. When the Registrar checked the application, a small error was found. The Registrar informed the founders, who corrected the mistake and re-submitted the paperwork within the given time limit so the company could receive its certificate.",
+  "terms": [
+   {
+    "term": "SPICe+",
+    "meaning": "Simplified Proforma for Incorporating Company Electronically Plus (Form INC-32), the main online form used to set up a company."
+   },
+   {
+    "term": "Memorandum of Association",
+    "meaning": "A founding document that sets out the constitution of a company and its relationship with shareholders."
+   },
+   {
+    "term": "Director Identification Number",
+    "meaning": "A unique identification number allotted to an individual who intends to be a director of a company."
+   }
+  ],
+  "watch": "Do not assume fees or timelines apply universally without checking the specific text exemptions for certain small capital or member counts.",
+  "h": "7f949ab1ff64",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "39": {
+  "summary": "Certain companies can change their structure to become a company limited by shares. To do this, the members must pass a special resolution and meet the required share capital amount. The company must then submit the correct forms and documents to the Registrar of Companies.",
+  "points": [
+   "Charitable companies under section 8 cannot use this rule to convert.",
+   "The new share capital must be equal to the previous guarantee amount.",
+   "Members must pass a special resolution to change the Memorandum and Articles of Association.",
+   "Two forms, MGT14 and INC27, must be filed with the Registrar of Companies along with fees and a list of members."
+  ],
+  "example": "Meera Guarantee Limited wanted to change its structure into a company limited by shares. The members held a meeting and passed a special resolution to remove the guarantee clause and update their rules. They ensured their new share capital matched their old guarantee amount. Next, they filed Form MGT14 and Form INC27 with the Registrar of Companies, along with their updated Memorandum and Articles and a list of members holding the required shares. After checking the complete application, the Registrar approved it and issued a certificate of incorporation in Form INC11B.",
+  "terms": [
+   {
+    "term": "Special resolution",
+    "meaning": "A decision agreed upon by a high majority of company members at a meeting."
+   },
+   {
+    "term": "Memorandum of Association",
+    "meaning": "The foundational document that governs a company's relationship with the outside world."
+   },
+   {
+    "term": "Registrar of Companies",
+    "meaning": "The government official who handles company registrations and records."
+   }
+  ],
+  "watch": "Note that charitable companies formed under section 8 are not allowed to use this conversion rule.",
+  "h": "98571fe44f2e",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "40": {
+  "summary": "This rule explains how a company applies to change its financial year. It requires filling out a specific electronic form along with reasons, board meeting details, and past application history. The Regional Director reviews the request and may ask for corrections before approving or rejecting it.",
+  "points": [
+   "An application to change the financial year must be filed in e-Form No. RD-1 with the required fee.",
+   "The applicant must provide reasons, board meeting minutes, a Power of Attorney or Memorandum of Appearance, and details of any past applications made within the last five years.",
+   "If the application is defective, the applicant gets fifteen days to fix it and can re-submit up to a maximum of two times.",
+   "The Regional Director will either approve, reject, or issue an order within thirty days, and if no action is taken, it is deemed approved.",
+   "The final approval order must be filed with the Registrar in Form No. INC-28 within thirty days of receiving it."
+  ],
+  "example": "Meera Textiles Private Limited wants to change its financial year. The company fills out e-Form No. RD-1 and attaches its reasons, the board meeting minutes showing the vote count, and details of any applications from the past five years. The Regional Director reviews the form and finds a small error, sending an email intimation to correct it. Meera Textiles fixes the error and re-submits the form within fifteen days. The Regional Director approves the request and sends an order. Finally, Meera Textiles files this order with the Registrar using Form No. INC-28 within thirty days.",
+  "terms": [
+   {
+    "term": "Regional Director",
+    "meaning": "An official of the central government who handles various company law approvals."
+   },
+   {
+    "term": "Power of Attorney",
+    "meaning": "A legal document giving someone the authority to act for another person or company."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "An authority who keeps records of companies registered under the law."
+   }
+  ],
+  "watch": "Do not assume the application is denied if the official misses the thirty-day deadline, because it is automatically deemed approved.",
+  "h": "a170bd3f0da7",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "41": {
+  "summary": "This rule explains the steps a public company must take to convert into a private company. The company must file an application with the Regional Director using a specific e-form along with required documents, lists of creditors, and declarations. It also requires publishing advertisements and sending notices before the application can be reviewed for approval.",
+  "points": [
+   "The application must be filed with the Regional Director within sixty days of passing a special resolution.",
+   "The company must attach copies of its updated articles and memorandum, meeting minutes, and declarations from a key managerial personnel or director.",
+   "A list of creditors and debenture holders must be attached along with a supporting affidavit.",
+   "The company must advertise the proposed conversion in newspapers and send individual notices to creditors, debenture holders, and authorities at least twenty-one days before filing."
+  ],
+  "example": "Meera Textiles Private Limited wants to change from a public company to a private company. First, the shareholders pass a special resolution in a general meeting. Next, the company prepares its updated memorandum, a list of creditors, and required declarations. Before filing the application with the Regional Director, Meera Textiles publishes an advertisement in a local vernacular newspaper and an English newspaper, and sends notices by registered post to all its creditors and debenture holders at least twenty-one days in advance.",
+  "terms": [
+   {
+    "term": "Regional Director",
+    "meaning": "An authority appointed by the Central Government to handle certain company law administration tasks."
+   },
+   {
+    "term": "Special resolution",
+    "meaning": "A decision made by shareholders that requires a higher vote percentage than a normal decision."
+   },
+   {
+    "term": "Key managerial personnel",
+    "meaning": "Top officers of a company such as the chief executive officer, managing director, or company secretary."
+   }
+  ],
+  "watch": "Make sure to publish the newspaper advertisements and send notices at least twenty-one days before filing the application.",
+  "h": "111cff326c38",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

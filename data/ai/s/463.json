@@ -1,0 +1,29 @@
+{
+ "summary": "This section allows a court to excuse a company officer from liability if they face legal trouble for mistakes or duty breaches, provided they acted honestly and reasonably. The officer can also approach the High Court themselves if they fear a legal proceeding might be brought against them. Before granting any relief, the court must give notice to the Registrar and any other necessary person so they can show cause against it.",
+ "points": [
+  "The court may relieve an officer wholly or partly from liability if they acted honestly and reasonably in cases of negligence, default, breach of duty, misfeasance, or breach of trust.",
+  "In a criminal proceeding, the court cannot grant relief from any civil liability attached to the officer.",
+  "An officer who fears a proceeding might be brought against them can apply directly to the High Court for relief.",
+  "The High Court has the same power to grant relief upon an officer's application as a court hearing an active proceeding.",
+  "No court can grant relief unless it serves a notice to the Registrar and other necessary persons to show cause why relief should not be granted."
+ ],
+ "example": "Aarav works as an officer at Meera Textiles Private Limited. He makes a sudden business decision that leads to a breach of duty claim against him in court. During the proceedings, it is shown that Aarav acted completely honestly and reasonably under the circumstances. The court decides that he ought fairly to be excused. Therefore, the court uses its power to relieve Aarav from his liability. Before doing this, the court properly serves a notice to the Registrar to show cause why this relief should not be granted.",
+ "terms": [
+  {
+   "term": "Misfeasance",
+   "meaning": "Doing a lawful act in an illegal or wrongful manner."
+  },
+  {
+   "term": "Registrar",
+   "meaning": "An official responsible for company registration and related matters under the Act."
+  },
+  {
+   "term": "Show cause",
+   "meaning": "An order requiring a person to present reasons why a certain court action should or should not be taken."
+  }
+ ],
+ "watch": "Even if a court grants relief in a criminal proceeding, it cannot free the officer from any civil liability.",
+ "h": "e4b74cb714bc",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-11"
+}

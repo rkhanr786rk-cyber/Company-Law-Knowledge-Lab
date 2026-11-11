@@ -1,0 +1,49 @@
+{
+ "2": {
+  "summary": "This rule gives meanings to specific words used in the regulations for the National Company Law Tribunal. It explains that the term Act refers to the Companies Act, 2013, and President refers to the head of the Tribunal appointed under that law. Any other words not explained here will carry the same meaning given to them directly in the Act.",
+  "points": [
+   "Act means the Companies Act, 2013.",
+   "President means the President of the Tribunal appointed under section 408.",
+   "Undefined words use the meanings found inside the Act."
+  ],
+  "example": "A reader checking the rules for Apex Tribunal Private Limited sees the word President mentioned. To understand who this refers to, they look at Rule 2. It clarifies that the President is the person appointed under section 408 of the Companies Act, 2013. If another word is missing a definition in these rules, the reader simply checks the main Act for its meaning.",
+  "terms": [
+   {
+    "term": "Act",
+    "meaning": "The Companies Act, 2013."
+   },
+   {
+    "term": "President",
+    "meaning": "The President of the Tribunal appointed under section 408."
+   }
+  ],
+  "watch": "Do not assume terms without definitions in these rules have everyday meanings; check the Act first.",
+  "h": "9189cc96e181",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "16": {
+  "summary": "This rule explains how the Chairman and Members of the Company Law Board can become the President and Members of the Tribunal. They must meet the legal qualifications and go through the official selection procedure. The law requires following section 412 of the Act for these appointments.",
+  "points": [
+   "Applies to the Chairman and Members of the Company Law Board.",
+   "They must meet all qualifications and requirements under the Act.",
+   "They are appointed as the President and Members of the Tribunal.",
+   "The appointment follows the selection procedure in section 412 of the Act."
+  ],
+  "example": "Mr. Sharma is the Chairman of the Company Law Board and wants to become a Member of the Tribunal. He already meets all the required qualifications specified under the Act. To get this new role, the authorities must follow the official selection procedure laid down in section 412 of the Act before he can be successfully appointed.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized legal body set up to handle specific types of disputes, in this case, company law cases."
+   },
+   {
+    "term": "Section 412",
+    "meaning": "A specific section of the law that lays down the rules for selecting members."
+   }
+  ],
+  "watch": "Do not assume this rule allows automatic appointment without going through the proper selection procedure.",
+  "h": "de497771dc46",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

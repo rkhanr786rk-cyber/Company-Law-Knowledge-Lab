@@ -1,0 +1,111 @@
+{
+ "8": {
+  "summary": "This rule explains which standard rules for issuing shares also apply when company members sell their existing shares to the public. Most normal prospectus rules must be followed, but a few specific requirements are removed. Additionally, the offer document must name who is paying for the sale and why.",
+  "points": [
+   "Most rules for share prospectuses apply when members offer their shares for sale to the public.",
+   "Rules about minimum subscription and minimum application value do not apply.",
+   "Directors do not need to give a statement on how the money will be used.",
+   "The document must state who is paying for the offer and explain why."
+  ],
+  "example": "Meera Textiles Private Limited had some members who wanted to sell their shares to the public. When preparing their offer document, they checked the rules. Because of this rule, they did not have to include a statement from the Board of directors about how the money would be used. However, they made sure to clearly write down the name of the person paying for the offer and the reasons for it.",
+  "terms": [
+   {
+    "term": "Prospectus",
+    "meaning": "An official document inviting the public to buy shares."
+   },
+   {
+    "term": "Minimum subscription",
+    "meaning": "The lowest amount of money that must be raised through the offer."
+   }
+  ],
+  "watch": "Do not assume that all normal prospectus rules are ignored, as only specific items like minimum subscription and board statements on money utilization are exempted.",
+  "h": "04031c67ed5a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "9": {
+  "summary": "Promoters of public companies making a public offer must hold their convertible securities in electronic form. Public companies that issued old share warrants must inform the Registrar and ask bearers to surrender them for electronic conversion. If a bearer fails to surrender the share warrant, the company must convert it and transfer it to the Investor Education and Protection Fund.",
+  "points": [
+   "Promoters offering convertible securities to the public must hold them in dematerialised form.",
+   "Physical convertible securities held by promoters must be converted before the initial public offer.",
+   "Companies with old share warrants must inform the Registrar using Form PAS-7.",
+   "Companies must publish notices in newspapers and on their website asking bearers to surrender share warrants.",
+   "Unsurrendered share warrants are converted and transferred to the Investor Education and Protection Fund."
+  ],
+  "example": "Sunrise Public Limited planned to make a public offer of convertible securities. Its promoters held some convertible securities in physical form. Before making the offer, the promoters converted all their physical securities into dematerialised form. Separately, the company had issued old share warrants years ago. Sunrise Public Limited published a notice in a local newspaper and on its website asking the bearers to surrender the share warrants so their shares could be dematerialised.",
+  "terms": [
+   {
+    "term": "dematerialised form",
+    "meaning": "Holding securities in electronic format instead of physical paper certificates."
+   },
+   {
+    "term": "promoters",
+    "meaning": "The people who help start and form a company."
+   },
+   {
+    "term": "share warrants",
+    "meaning": "Financial documents that give the bearer the right to receive shares."
+   }
+  ],
+  "watch": "Note that old share warrants not surrendered by bearers are transferred to the Investor Education and Protection Fund.",
+  "h": "e9e2a2206175",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "12": {
+  "summary": "When a company with share capital allots securities, it must file a return of allotment in Form PAS-3 with the Registrar within thirty days. This filing must include details of the allottees, appropriate fees, and required documents like contracts or valuation reports when applicable. It ensures a proper public record of how company securities are distributed.",
+  "points": [
+   "File Form PAS-3 with the Registrar within thirty days of allotting any securities.",
+   "Attach a certified list of all allottees showing their names, addresses, occupations, and securities received.",
+   "Include stamped contracts and a registered valuer's report if securities are issued for non-cash consideration.",
+   "Attach a valuation report when unlisted companies issue shares under section 62."
+  ],
+  "example": "Meera Textiles Private Limited recently issued new shares to raise capital. Within thirty days of allotting these shares, the company prepared Form PAS-3. They attached a certified list containing the names, addresses, occupations, and number of shares given to each allottee. Along with the required fee, they submitted these documents to the Registrar to complete the legal return of allotment process properly.",
+  "terms": [
+   {
+    "term": "Allotment",
+    "meaning": "The process of giving or distributing shares or securities to investors."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "The government authority appointed to maintain company records."
+   },
+   {
+    "term": "Registered valuer",
+    "meaning": "A qualified professional authorized to estimate the value of assets or shares."
+   }
+  ],
+  "watch": "Make sure not to miss the strict thirty-day deadline from the date of allotment to file the form.",
+  "h": "3eeb0745ab8c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "14": {
+  "summary": "This rule sets the requirements for companies issuing securities through a private placement. It covers shareholder approvals, limits on the number of people who can receive an offer, application procedures, and filing returns. It also restricts offers to bodies corporate or nationals from countries sharing a land border with India without prior approval.",
+  "points": [
+   "A company must get prior approval from shareholders by a special resolution before making a private placement offer.",
+   "Offers cannot be made to more than two hundred persons in aggregate in a financial year, calculated individually for each kind of security.",
+   "The application letter must be serially numbered, addressed specifically to the person, and sent within thirty days of recording their name.",
+   "Payment for securities must come from the subscriber's bank account, and the company must keep records of it."
+  ],
+  "example": "Meera Textiles Private Limited wanted to issue shares through a private placement to a select group of investors. The board passed a resolution and the company sought approval from its shareholders by a special resolution. The company prepared serially numbered application forms addressed specifically to each investor. They ensured the total number of persons did not exceed two hundred in the financial year. Each investor paid for their shares directly from their own bank account, and Meera Textiles maintained a complete record of the payments received.",
+  "terms": [
+   {
+    "term": "Private placement",
+    "meaning": "An offer or invitation to subscribe to securities made to a select group of persons by a company."
+   },
+   {
+    "term": "Special resolution",
+    "meaning": "A resolution passed by a required majority of shareholders as specified in the Act."
+   },
+   {
+    "term": "Debenture",
+    "meaning": "A type of debt instrument or security acknowledging a loan to a company."
+   }
+  ],
+  "watch": "Remember that the limit of two hundred persons is counted separately for each kind of security like equity shares, preference shares, or debentures.",
+  "h": "9e5b44ef8d73",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

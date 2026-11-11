@@ -1,0 +1,308 @@
+{
+ "1": {
+  "summary": "These rules set the guidelines for companies taking deposits under the Companies Act, 2013. They apply generally to Indian companies starting from April 1, 2014. However, they do not apply to certain financial institutions like banks.",
+  "points": [
+   "Called the Companies (Acceptance of Deposits) Rules, 2014.",
+   "Started on April 1, 2014.",
+   "Apply to most companies except banks and specific financial companies."
+  ],
+  "example": "Meera Textiles Private Limited wants to understand if deposit rules apply to its business operations. Since Meera Textiles is a normal manufacturing company and not a bank, housing finance company, or non-banking financial company registered with the Reserve Bank of India, these deposit rules apply to it.",
+  "terms": [
+   {
+    "term": "banking company",
+    "meaning": "A business that carries out the trade of banking as its main work."
+   },
+   {
+    "term": "deposit",
+    "meaning": "Money put into a company by people, which the company holds and must return."
+   }
+  ],
+  "watch": "Do not assume these rules apply to regular banks or housing finance companies, as they are excluded.",
+  "h": "b503d9dfe2b7",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "2": {
+  "summary": "This rule defines what counts as a deposit for a company under the law. It lists several types of money received by a company that are not considered deposits, such as government funds, bank loans, and money from other companies. Knowing these exclusions helps a company understand its financial and legal duties.",
+  "points": [
+   "A deposit includes any receipt of money by a company through a deposit, loan, or other form.",
+   "Money received from governments, local authorities, or statutory bodies is not a deposit.",
+   "Loans and financial assistance from banks, public financial institutions, and insurance companies are excluded.",
+   "Money received from a company's own director or a private company director's relative is not a deposit, provided a written declaration is given."
+  ],
+  "example": "Meera Textiles Private Limited received a short-term loan from a scheduled bank for its business operations. Under the rules, this loan amount is not considered a deposit because it falls within the specified exclusions for banking and financial institution loans mentioned in the text.",
+  "terms": [
+   {
+    "term": "Deposit",
+    "meaning": "Any receipt of money by a company by way of deposit or loan or in any other form, with specific exclusions."
+   },
+   {
+    "term": "Statutory authority",
+    "meaning": "An authority created by an Act of Parliament or a State Legislature."
+   },
+   {
+    "term": "Body corporate",
+    "meaning": "A legal entity or corporation, often including companies formed inside or outside the country."
+   }
+  ],
+  "watch": "Do not assume all money received by a company is a deposit, as many loans, government funds, and advances are legally excluded.",
+  "h": "da9e3773921b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "3": {
+  "summary": "This rule explains the terms and conditions for companies when they accept or renew deposits. It covers how long deposits can last, who can make deposits together, and the limits on how much money can be accepted. It also notes that companies must follow specific limits for interest rates and filing details.",
+  "points": [
+   "Deposits generally cannot be repaid in less than six months or more than thirty-six months.",
+   "Deposits can be accepted in joint names not exceeding three people.",
+   "Companies must file the details of accepted monies to the Registrar in Form DPT-3.",
+   "Companies cannot pay interest or brokerage rates higher than the maximum rate set by the Reserve Bank of India for non-banking financial companies."
+  ],
+  "example": "Meera Textiles Private Limited wants to accept deposits from its members. The company decides to accept a deposit that will be repaid in twelve months, which fits the allowed time period between six and thirty-six months. They allow three people to hold this deposit in joint names using the 'Either or Survivor' clause. Finally, the company makes sure the interest rate they offer does not go above the maximum rate prescribed by the Reserve Bank of India.",
+  "terms": [
+   {
+    "term": "Eligible company",
+    "meaning": "A public company that meets certain requirements under the Act and can accept deposits from persons other than its members."
+   },
+   {
+    "term": "Brokerage",
+    "meaning": "A fee paid to a person authorised in writing who actually procures deposits for the company."
+   }
+  ],
+  "watch": "A common confusion is assuming all companies have the exact same deposit limits, whereas different rules apply to private companies, start-ups, and eligible companies.",
+  "h": "2134175e4b2c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "4": {
+  "summary": "This rule explains how companies must invite deposits from their members or the public. They need to use a specific form called Form DPT-1 and follow strict steps like publishing notices in newspapers and getting approval from their board of directors. A copy must also be given to the Registrar before it is issued.",
+  "points": [
+   "Companies inviting deposits from members must send a circular in Form DPT-1 by post or electronic mode, and may also publish it in newspapers.",
+   "Eligible companies must publish their deposit advertisement in English and vernacular newspapers and put it on their website.",
+   "Every circular or advertisement must be issued on the authority and in the name of the Board of Directors.",
+   "A copy signed by a majority of directors must be delivered to the Registrar at least thirty days before it is issued."
+  ],
+  "example": "Meera Textiles Private Limited wants to invite deposits from its members. The company prepares a circular in Form DPT-1. The board of directors approves it, and a majority of the directors sign a copy. Thirty days before issuing it, they deliver this signed copy to the Registrar. They then send the circular to all members by registered post and publish it in local English and vernacular newspapers.",
+  "terms": [
+   {
+    "term": "Circular",
+    "meaning": "A written document sent to people to invite deposits or share information."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "An official government authority who keeps records of companies."
+   },
+   {
+    "term": "Statutory auditor",
+    "meaning": "An official accountant who checks and verifies a company's financial accounts."
+   }
+  ],
+  "watch": "People often confuse inviting deposits from members with inviting deposits from the general public, but the rules for each have different requirements.",
+  "h": "fc60011616f1",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "6": {
+  "summary": "Certain companies that invite secured deposits must provide security by creating a charge on their tangible assets. The total value of this security must cover the full amount of deposits and interest, and it cannot be less than any unsecured portion. This security must be created in favour of a trustee for the depositors.",
+  "points": [
+   "Companies must create a charge on their assets excluding intangible assets to secure deposits and interest.",
+   "The value of the secured deposits and interest must not exceed the market value of the assets assessed by a valuer.",
+   "The security must be created in favour of a trustee for the depositors.",
+   "The security can be on specific movable or immovable property, but not a pledge."
+  ],
+  "example": "Meera Textiles Private Limited decides to invite secured deposits from the public. To follow the rules, the company creates a charge on its specific movable machinery in favour of a trustee for the depositors. The company ensures that the total value of this security covers both the deposits and the interest payable, and that it does not exceed the market value of the machinery.",
+  "terms": [
+   {
+    "term": "Charge",
+    "meaning": "An interest or right created on the property of a company as security."
+   },
+   {
+    "term": "Intangible assets",
+    "meaning": "Assets that lack physical substance, such as goodwill or patents."
+   },
+   {
+    "term": "Trustee for the depositors",
+    "meaning": "A person or entity that holds and manages the security on behalf of the depositors."
+   }
+  ],
+  "watch": "People often confuse intangible assets with physical property, but intangible assets must be excluded when creating security for deposits.",
+  "h": "49f83454543d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "7": {
+  "summary": "Certain companies wanting to invite secured deposits must appoint trustees to protect the depositors. The company must get written consent from the trustee and sign a trust deed before issuing an advertisement. Furthermore, the appointed person must be independent and cannot be removed easily without board approval.",
+  "points": [
+   "Companies must appoint one or more trustees for depositors before issuing any advertisement for secured deposits.",
+   "The company must obtain written consent from the trustee and state this consent clearly in the advertisement.",
+   "A deposit trust deed in Form DPT-2 must be executed at least seven days before issuing the advertisement.",
+   "Certain people, such as employees, debtors, or relatives, are not allowed to become trustees for the depositors.",
+   "A trustee cannot be removed before their term ends unless all directors present at a board meeting agree."
+  ],
+  "example": "Meera Textiles Private Limited wants to invite secured deposits from the public. Before releasing their advertisement, they approach Mr. Sharma to act as a trustee for the depositors. Mr. Sharma gives his written consent. The company then mentions this consent prominently in the advertisement and signs a deposit trust deed in Form DPT-2 eight days prior to the release. Since Mr. Sharma has no business ties or debts with Meera Textiles, his appointment follows all the proper rules.",
+  "terms": [
+   {
+    "term": "Secured deposits",
+    "meaning": "Money taken from the public that is backed by a security or asset to protect the depositors."
+   },
+   {
+    "term": "Trustee for depositors",
+    "meaning": "A person appointed to look after the interests of the people who deposit their money with the company."
+   },
+   {
+    "term": "Pecuniary relationship",
+    "meaning": "A financial relationship or business dealing involving money."
+   }
+  ],
+  "watch": "People often confuse regular company employees or debtors as eligible to be trustees, but the law strictly bans them from holding this role.",
+  "h": "1e529d62eccc",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "11": {
+  "summary": "This rule allows any person who makes a deposit to choose someone to receive their deposit money if they pass away. The rules written in section 72 of the law will apply to this choice as much as possible. It is a simple way to make sure your money goes to the right person.",
+  "points": [
+   "Every depositor can choose a nominee at any time.",
+   "The nominee is the person who will get the deposits if the depositor dies.",
+   "Section 72 of the Companies Act applies to these nominations."
+  ],
+  "example": "Aarav is a customer who puts money into deposits with Apex Infra Private Limited. He decides to fill out a form to name his sister, Priya, as his nominee. According to the rules, if anything happens to Aarav, his deposit money will vest in Priya. This ensures a smooth handover of the funds without unnecessary legal delays, following the exact procedure allowed under the nomination rules.",
+  "terms": [
+   {
+    "term": "Depositor",
+    "meaning": "A person who puts money into a company as a deposit."
+   },
+   {
+    "term": "Nominate",
+    "meaning": "To formally choose someone for a specific role or to receive something."
+   },
+   {
+    "term": "Vest",
+    "meaning": "To give legal ownership or rights of property to someone."
+   }
+  ],
+  "watch": "People often confuse a nominee with a permanent legal heir, but a nominee is simply the person designated to receive the funds first under these rules.",
+  "h": "2b938aee3002",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "13": {
+  "summary": "Certain companies that accept deposits must put aside a specific amount of money in a scheduled bank by April 30 every year. This money can only be used to pay back those deposits. The amount left in this bank account must always stay at least at twenty percent of the deposits that are due to be paid back during that financial year.",
+  "points": [
+   "Companies must deposit the required sum in a scheduled bank on or before April 30 each year.",
+   "The deposited money can only be used for paying back deposits and for no other purpose.",
+   "The remaining balance in the bank account must never drop below twenty percent of the deposits maturing in that financial year."
+  ],
+  "example": "Meera Textiles Private Limited accepts deposits from its members and must follow the deposit rules. By the 30th day of April, the company deposits the required money into a scheduled bank. Throughout the year, the company uses this bank account strictly to repay maturing deposits. Management ensures that the balance in this account never falls below twenty percent of the total deposits maturing during the financial year.",
+  "terms": [
+   {
+    "term": "scheduled bank",
+    "meaning": "A bank that is listed under the second schedule of the Reserve Bank of India Act, 1934."
+   },
+   {
+    "term": "maturing",
+    "meaning": "Reaching the date when the repayment of the deposit becomes due."
+   }
+  ],
+  "watch": "Do not use the deposited money for any purpose other than repaying deposits.",
+  "h": "92ab8fd405bb",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "15": {
+  "summary": "This rule explains what happens to your interest if you take your deposit money back from a company before the fixed time is over. If you ask for your money back after six months but before the full time ends, your interest rate is lowered by one percent. There are special exceptions, such as when a company repays early to follow certain rules or to provide benefits for military families during an emergency.",
+  "points": [
+   "If you withdraw your deposit after six months but before the final date, your interest rate drops by one percent.",
+   "The interest is calculated based on how long the deposit actually stayed with the company.",
+   "Early repayment penalties do not apply if the company repays early to follow rule 3 or to help military families during a declared emergency.",
+   "You can renew your deposit early for a higher interest rate if the new period is longer than the remaining time left."
+  ],
+  "example": "Aarav deposited money with Meera Textiles Private Limited for a period of two years. After eight months, Aarav needed the money back and requested an early repayment from the company. Because the deposit had run for more than six months but less than the full two years, Meera Textiles Private Limited repaid the money early. As the rule states, the company reduced the interest rate payable to Aarav by one percent from the rate that would have applied for the eight months the deposit actually ran.",
+  "terms": [
+   {
+    "term": "depositor",
+    "meaning": "A person who puts money into a company as a deposit."
+   },
+   {
+    "term": "premature repayment",
+    "meaning": "Returning the deposit money before the agreed time is finished."
+   }
+  ],
+  "watch": "A common confusion is assuming the one percent penalty applies to all early repayments, but exceptions exist for rule compliance and military family benefits.",
+  "h": "8745684312b2",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "19": {
+  "summary": "This rule states that the legal requirements for stopping and repaying public deposits apply to certain special companies called eligible companies. If a company took public deposits under an older law, it is considered compliant as long as it keeps repaying them on time under their original terms. Any new deposits taken by these companies must strictly follow the current rules.",
+  "points": [
+   "Sections 73 and 74 apply to eligible companies taking deposits from the public.",
+   "Companies with older deposits from past laws are treated as compliant if they keep repaying them on schedule.",
+   "Any new deposits must follow Chapter V of the Companies Act, 2013 and current rules."
+  ],
+  "example": "Meera Textiles Private Limited had accepted public deposits years ago under the old Companies Act, 1956. Today, it continues to repay those older deposits and their interest on time according to the original agreement. Meanwhile, when the company decides to accept fresh deposits from the public, it carefully follows all the requirements set under the current Companies Act, 2013 and the new rules.",
+  "terms": [
+   {
+    "term": "eligible companies",
+    "meaning": "Certain specific companies that are allowed to take deposits from the public under the law."
+   },
+   {
+    "term": "mutatis mutandis",
+    "meaning": "With necessary changes made while keeping the main meaning the same."
+   }
+  ],
+  "watch": "Do not assume old deposits are cancelled; they can continue if repaid on time.",
+  "h": "2db29090fa63",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "20": {
+  "summary": "The provided text is too short to fully explain the rule by itself. It simply states that a specific statement required under the law must be submitted using a form called Form DPT-4. This rule relates to deposits that existed when the Companies Act started.",
+  "points": [
+   "A formal statement is required under section 74, sub-section (1), clause (a) of the Act.",
+   "This statement must be filed using Form DPT-4."
+  ],
+  "example": "Meera Textiles Private Limited had accepted deposits from the public before the new Companies Act began. To follow the law regarding these existing deposits, the company needs to file the required details. According to the rules, the management prepares this information and submits it using Form DPT-4.",
+  "terms": [
+   {
+    "term": "Deposits",
+    "meaning": "Money taken by a company from people, which the company must pay back later."
+   },
+   {
+    "term": "Form DPT-4",
+    "meaning": "A specific official document or form used to report deposit details."
+   }
+  ],
+  "watch": "Do not confuse this specific form name with other forms used for new deposits.",
+  "h": "5defaaf1ddc4",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "21": {
+  "summary": "This rule sets the punishment for breaking deposit rules when no other specific punishment is mentioned in the Act. Both the company and the responsible officer in default can face fines. If the violation continues, an extra daily fine may also apply.",
+  "points": [
+   "Applies to certain companies and persons who break deposit rules.",
+   "The fine for breaking the rules can go up to five thousand rupees.",
+   "If the violation keeps happening after the first day, an extra fine of up to five hundred rupees per day can be charged."
+  ],
+  "example": "Meera Textiles Private Limited broke a rule about accepting deposits, and no separate punishment was written in the Act for this specific mistake. Because of this, both the company and the officer who was at fault faced a fine of up to five thousand rupees. Since the company kept breaking the rule day after day, they also had to pay an extra fine of up to five hundred rupees for every single day the violation continued.",
+  "terms": [
+   {
+    "term": "contravenes",
+    "meaning": "breaks a law or rule"
+   },
+   {
+    "term": "officer who is in default",
+    "meaning": "an official of the company who is responsible for the mistake or rule-breaking"
+   },
+   {
+    "term": "continuing one",
+    "meaning": "a violation that keeps happening over multiple days without being fixed"
+   }
+  ],
+  "watch": "Make sure to note that the extra daily fine only applies when the violation continues past the first day.",
+  "h": "99218a524052",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

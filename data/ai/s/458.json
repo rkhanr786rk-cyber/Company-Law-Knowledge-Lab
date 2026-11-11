@@ -1,0 +1,29 @@
+{
+ "summary": "This section allows the Central Government to hand over some of its powers and duties under the law to specific officers or authorities through an official notice. However, it cannot delegate the power to make rules. A copy of this notice must also be presented to both Houses of Parliament.",
+ "points": [
+  "The Central Government can delegate its powers and functions under this Act.",
+  "Delegation must be done through an official notification.",
+  "The Government can set conditions, limitations, and restrictions on these delegated powers.",
+  "The power to make rules cannot be delegated.",
+  "A copy of the notification must be laid before each House of Parliament."
+ ],
+ "example": "The Central Government decides that certain routine approvals under the Companies Act should be handled locally to speed up work. It issues an official notification stating that a specific officer can now exercise these functions for companies like Meera Textiles Private Limited, subject to certain clear conditions and restrictions mentioned in the notice. To ensure transparency, the government immediately submits a copy of this notification to both Houses of Parliament for review, as the law requires.",
+ "terms": [
+  {
+   "term": "delegate",
+   "meaning": "to hand over power or duties to someone else"
+  },
+  {
+   "term": "notification",
+   "meaning": "an official public announcement or notice"
+  },
+  {
+   "term": "laid before",
+   "meaning": "presented formally for review"
+  }
+ ],
+ "watch": "People often think the government can delegate all its powers, but it is strictly forbidden from delegating the power to make rules.",
+ "h": "ebf13e21aecc",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-11"
+}

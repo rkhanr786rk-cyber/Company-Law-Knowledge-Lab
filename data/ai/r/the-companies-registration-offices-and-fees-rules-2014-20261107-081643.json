@@ -1,0 +1,164 @@
+{
+ "2": {
+  "summary": "This rule gives the meaning of special words used in the Companies (Registration Offices and Fees) Rules, 2014. It helps readers understand terms like electronic records, digital signatures, and specific offices. If a word is not defined here, its meaning is taken from the main Act or the Information Technology Act.",
+  "points": [
+   "The Act means the Companies Act, 2013.",
+   "Electronic mail refers to messages sent or received in digital form that can be saved and opened later.",
+   "Straight Through Process means a computer system approves an e-form automatically without human help.",
+   "Words not defined in these rules take their meanings from the Companies Act or the Information Technology Act."
+  ],
+  "example": "Aarav wanted to submit a form for his company, Aarav Enterprises Private Limited. He used an electronic mail message to communicate with his team and prepared an electronic record for filing. Because the rules use a Straight Through Process, the computer system approved his e-form automatically without any manual delay. Aarav did not need to worry about extra deadlines or amounts because the rules only define what these electronic tools and processes mean.",
+  "terms": [
+   {
+    "term": "Electronic registry",
+    "meaning": "An electronic storage system of the Central Government used to receive, store, protect, and preserve documents."
+   },
+   {
+    "term": "Straight Through Process",
+    "meaning": "A process where a computer system approves an e-form automatically without manual human interruption."
+   },
+   {
+    "term": "Regional Director",
+    "meaning": "A person appointed by the Central Government in the Ministry of Corporate Affairs."
+   }
+  ],
+  "watch": "Do not assume terms missing from this rule have no meaning; you must look them up in the Companies Act or the Information Technology Act.",
+  "h": "3037cada12e5",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "8": {
+  "summary": "This rule explains how company electronic forms must be signed, authenticated, and filed. It sets the responsibility for correct contents, valid digital signatures, and proper attachments on the signing persons and certifying professionals. It also outlines consequences for filing false or misleading information.",
+  "points": [
+   "Electronic forms must be authenticated by authorised signatories using a digital signature certificate of Class II or Class III specification.",
+   "The authorised signatory and the professional who certify the form are responsible for the correctness of the contents and enclosures.",
+   "Scanned images must be of original signed documents and cannot be left blank without an actual signature.",
+   "If a form contains false or misleading information, the person is liable under sections 448 and 449, and their digital signature certificate may be deactivated.",
+   "Certain specified e-forms must be pre-certified by a Chartered Accountant, Company Secretary, or Cost Accountant in whole-time practice."
+  ],
+  "example": "Meera Textiles Private Limited needed to file an electronic form for appointing a new director. Rahul, an authorised director, used his Class III digital signature to authenticate the form. Priya, a Company Secretary in whole-time practice, certified the form and attached the required documents cleanly. Because both Rahul and Priya checked that all attachments were correct and matched the original signed papers, the filing met the authentication rules under the Act.",
+  "terms": [
+   {
+    "term": "Digital Signature",
+    "meaning": "An electronic method used to sign digital documents securely."
+   },
+   {
+    "term": "Power of Attorney",
+    "meaning": "A written authorisation to represent or act on behalf of another person or company."
+   }
+  ],
+  "watch": "People often confuse who is responsible for the documents, but both the person signing and the professional certifying the form are fully responsible for correctness and attachments.",
+  "h": "3beb6a7c0ee4",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "10": {
+  "summary": "The Registrar must check documents and forms filed by companies and usually make a decision within thirty days. If a document is incomplete, the Registrar will ask the company to fix it within fifteen days. If the company fails to fix it, the Registrar can reject or invalidate the document.",
+  "points": [
+   "The Registrar examines every filed document and form for approval or registration.",
+   "Decisions are generally made within thirty days from the filing date, excluding certain cases.",
+   "If a document is defective, the Registrar gives fifteen days to fix it or supply more information.",
+   "If the issues are not fixed in time, the Registrar treats the document as invalid.",
+   "An invalid document can be fixed later by making a fresh filing and paying the required fees."
+  ],
+  "example": "Meera Textiles Private Limited filed an electronic form with the Registrar. Upon checking, the Registrar found the form incomplete. The Registrar sent an email to Meera Textiles giving fifteen days to fix the defects. Meera Textiles failed to correct the errors within the allowed time. Consequently, the Registrar treated the form as invalid in the electronic record and informed the company by email.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "An official appointed by the government to handle company registrations and records."
+   },
+   {
+    "term": "e-Form",
+    "meaning": "An electronic form filed by a company through the computer system."
+   },
+   {
+    "term": "suo-motu",
+    "meaning": "An official action taken on one's own accord without waiting for a request or complaint."
+   }
+  ],
+  "watch": "Remember that the thirty-day decision time does not apply if other higher authorities need to approve the case.",
+  "h": "acfa51370079",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "10A": {
+  "summary": "This rule sets up a Central Processing Center whose Registrar checks certain company documents and forms for the whole country. The Registrar must decide on these filings within thirty days, except when another authority's approval is needed. It handles specific tasks like name changes, share capital updates, and company conversions.",
+  "points": [
+   "The Central Processing Center Registrar examines specific applications, e-Forms, and documents for all of India.",
+   "A decision on these filings must be made within thirty days from the filing date.",
+   "This thirty-day limit excludes cases that need approval from the Central Government, Regional Director, or other competent authority.",
+   "The rule lists specific forms handled here, including those for name changes, share capital alterations, and company type conversions."
+  ],
+  "example": "Meera Textiles Private Limited decided to change its company name and filed the required e-Form INC-24 through the Central Processing Center. The Registrar examined the application for approval under section 13 of the Act. Since no other higher authority's special approval was needed, the Registrar made a decision on the application within thirty days from the date it was filed.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "An official appointed to keep company records and register companies."
+   },
+   {
+    "term": "Jurisdiction",
+    "meaning": "The official power to make legal decisions and judgments over a certain area."
+   },
+   {
+    "term": "e-Form",
+    "meaning": "An electronic form used to submit documents online."
+   }
+  ],
+  "watch": "Remember that the thirty-day time limit does not apply if the filing requires approval from the Central Government or another competent authority.",
+  "h": "df8c624bde23",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "12": {
+  "summary": "This rule explains how to pay fees when submitting or filing documents under the Companies Act, 2013. If there is no specific e-form for a document, it must be sent using Form No. GNL.1 or GNL.2 with the correct fee. Separate fees must be paid for each purpose if a single form covers more than one purpose.",
+  "points": [
+   "Documents and information under the Act must be submitted with the required fee or additional fee listed in the rules.",
+   "If no specific e-form is prescribed, use Form No. GNL.1 or GNL.2.",
+   "If one form is used for multiple purposes, you must pay the fee for each purpose included in it.",
+   "Information under sub-clause (60) of section 2 must be filed using Form No. GNL.3."
+  ],
+  "example": "Meera Textiles Private Limited needs to file a document under the Companies Act, 2013, but the rules do not provide a specific e-form for it. Following the rule, the company files the document using Form No. GNL.1 along with the applicable fee. Because the form serves two different purposes, Meera Textiles pays the required fee for each of those purposes as stated in the table of fees.",
+  "terms": [
+   {
+    "term": "e-form",
+    "meaning": "An electronic form used for official submissions."
+   },
+   {
+    "term": "sub-clause",
+    "meaning": "A smaller numbered part of a section in a law."
+   }
+  ],
+  "watch": "Do not forget to pay separate fees for every purpose included if you are using a single form for multiple tasks.",
+  "h": "9c3ee96c48af",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "15": {
+  "summary": "Any person is allowed to inspect documents kept by the Registrar or ask for a certified copy, extract, or certificate of incorporation upon paying the required fee. However, certain resolutions cannot be inspected or obtained under section 399. The rules also provide a detailed table of fees for company registration, filing documents, and recording facts.",
+  "points": [
+   "Any person may inspect documents kept or registered by the Registrar upon paying a fee.",
+   "A person may request a certified copy, extract, or certificate of incorporation from the Registrar by paying a fee.",
+   "People are not entitled to inspect or obtain copies of specific resolutions mentioned in the Act.",
+   "The rules include a table of fees for registering companies, filing documents, and recording facts based on share capital or member count."
+  ],
+  "example": "Meera Textiles Private Limited wanted to check certain official documents kept by the Registrar. Rahul, acting for the company, visited the office to inspect these records and requested a certified copy of the certificate of incorporation. Rahul paid the required fee for this service as mandated by the rules. Meanwhile, he understood that certain specific resolutions could not be accessed or copied due to legal restrictions.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "An official appointed under the Act who keeps and maintains company documents and records."
+   },
+   {
+    "term": "Certificate of incorporation",
+    "meaning": "An official document issued as legal proof of the formation and registration of a company."
+   },
+   {
+    "term": "Nominal share capital",
+    "meaning": "The maximum amount of capital that a company is authorized to have by its constitutional documents."
+   }
+  ],
+  "watch": "People often confuse the general right to inspect documents with certain restricted resolutions that are legally barred from inspection.",
+  "h": "3acbcfbe2497",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

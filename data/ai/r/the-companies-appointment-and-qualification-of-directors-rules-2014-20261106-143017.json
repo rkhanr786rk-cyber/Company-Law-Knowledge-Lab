@@ -1,0 +1,226 @@
+{
+ "2": {
+  "summary": "This rule gives clear meanings for words used in the company director rules. It explains terms like Act, digital signature, Director Identification Number, and electronic record. It also clarifies that 'or otherwise' relates to court convictions under specific company laws.",
+  "points": [
+   "Act means the Companies Act, 2013.",
+   "Director Identification Number or DIN is a special number given by the Central Government to identify a company director.",
+   "DIN also includes the Designated Partnership Identification Number issued under the Limited Liability Partnership Act, 2008.",
+   "Or otherwise means any offence for which a court has convicted someone under the Companies Act or the Companies Act, 1956."
+  ],
+  "example": "Rohan wants to join the board of Meera Textiles Private Limited as a director. To do this, Rohan needs a special identification number for identification purposes. He uses the Director Identification Number allotted by the Central Government, which serves as his proper identification under the Companies Act, 2013.",
+  "terms": [
+   {
+    "term": "Director Identification Number",
+    "meaning": "An identification number allotted by the Central Government to any individual intending to be appointed as a director or to any existing director."
+   },
+   {
+    "term": "electronic Registry",
+    "meaning": "An electronic repository or storage system of the Central Government to receive, store, protect, and preserve information or documents."
+   },
+   {
+    "term": "Regional Director",
+    "meaning": "A person appointed by the Central Government in the Ministry of Corporate Affairs as a Regional Director."
+   }
+  ],
+  "watch": "People often confuse a Director Identification Number with general identity proofs, but it is specifically a number given by the Central Government to identify a company director.",
+  "h": "683ead6ac3df",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "3": {
+  "summary": "Certain companies in India must appoint at least one woman on their board of directors. This rule applies to all listed companies and large public companies based on their capital or turnover. If the position becomes empty, the company must fill it within a specific time.",
+  "points": [
+   "Every listed company must appoint at least one woman director.",
+   "Every public company with a paid-up share capital of one hundred crore rupees or more must have one.",
+   "Every public company with a turnover of three hundred crore rupees or more must have one.",
+   "Newly formed companies covered by this rule have six months from their incorporation date to comply.",
+   "Any sudden vacancy of a woman director must be filled by the next board meeting or within three months, whichever is later."
+  ],
+  "example": "Star Public Limited, a fictional company, has a paid-up share capital of one hundred twenty crore rupees. Because its capital exceeds the limit set by the law, Star Public Limited must appoint at least one woman director to its board. A few months later, the woman director resigns. The board must fill this vacancy by their immediate next board meeting or within three months from the date of the vacancy, whichever is later.",
+  "terms": [
+   {
+    "term": "Listed company",
+    "meaning": "A company that has any of its securities listed on any recognized stock exchange."
+   },
+   {
+    "term": "Paid-up share capital",
+    "meaning": "The total amount of money paid by shareholders to the company for their shares."
+   },
+   {
+    "term": "Turnover",
+    "meaning": "The total volume of business done by a company over a period, usually through sales."
+   }
+  ],
+  "watch": "Do not confuse the deadline for new companies, which is six months from incorporation, with the deadline to fill a sudden vacancy.",
+  "h": "5eeb060a6756",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "4": {
+  "summary": "Certain large public companies must have at least two independent directors to help oversee management. This requirement depends on the company having a certain amount of paid-up share capital, turnover, or total debt. However, some types of unlisted public companies like joint ventures and dormant companies are completely excused from this rule.",
+  "points": [
+   "Public companies with a paid-up share capital of ten crore rupees or more need at least two independent directors.",
+   "Public companies with a turnover of one hundred crore rupees or more need at least two independent directors.",
+   "Public companies with total outstanding loans, debentures, and deposits exceeding fifty crore rupees need at least two independent directors.",
+   "If an independent director leaves, the board must fill the vacancy by the next board meeting or within three months, whichever is later."
+  ],
+  "example": "Sunrise Public Limited had a turnover of one hundred twenty crore rupees based on its latest audited financial statements. Because this turnover crosses the limit of one hundred crore rupees set by the rules, Sunrise Public Limited is required to have at least two independent directors on its board.",
+  "terms": [
+   {
+    "term": "Independent director",
+    "meaning": "A board member who helps bring an outside, unbiased view and does not have a close material relationship with the company."
+   },
+   {
+    "term": "Paid up share capital",
+    "meaning": "The total amount of money that shareholders have paid to the company in exchange for shares."
+   },
+   {
+    "term": "Turnover",
+    "meaning": "The total income or revenue a company makes from its business activities during a financial year."
+   }
+  ],
+  "watch": "People often confuse regular directors with independent directors who have specific rules for filling unexpected vacancies.",
+  "h": "07d892b73894",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "5": {
+  "summary": "An independent director must have the right skills and experience in fields like finance, law, or management. Also, their family members must not owe large sums of money or give security for third-party debts to the company, its group companies, or promoters beyond the set rules. This rule ensures the director remains unbiased and truly independent.",
+  "points": [
+   "An independent director needs proper skills, knowledge, and experience in related business fields.",
+   "Fields include finance, law, management, sales, marketing, administration, research, corporate governance, and technical operations.",
+   "Relatives of the director must not be indebted to the company or its group companies above the set limit.",
+   "Relatives must not guarantee or secure third-party debts for the company or its promoters beyond the limit."
+  ],
+  "example": "Meera Textiles Private Limited wants to appoint Mr. Sharma as an independent director. Mr. Sharma has extensive experience in corporate management and marketing, fulfilling the skill requirement. However, the company must check that his relatives do not owe money or provide debt guarantees to Meera Textiles, its parent company, or its promoters beyond the allowed limits during the current and preceding financial years.",
+  "terms": [
+   {
+    "term": "Independent director",
+    "meaning": "A board member who helps bring an objective view and does not have a material relationship with the company."
+   },
+   {
+    "term": "Indebted",
+    "meaning": "Owing money to someone."
+   },
+   {
+    "term": "Subsidiary",
+    "meaning": "A company controlled by another company."
+   }
+  ],
+  "watch": "People often confuse independent directors with regular executive directors who manage daily business operations.",
+  "h": "36c0dd03eb0f",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "6": {
+  "summary": "This rule explains how people who want to be or already are independent directors must apply to be included in a special data bank. They must also follow renewal steps, pass an online test within a set time unless they meet certain exemptions, and submit declarations to the company board. If their name is removed for failing the test, they can pay a fee to restore it under specific conditions.",
+  "points": [
+   "Individuals wanting to be appointed as an independent director must apply online to the institute to include their name in the data bank before appointment.",
+   "People included in the data bank must file a renewal application within thirty days of their period expiring, unless they paid a life-time fee.",
+   "Every independent director must submit a compliance declaration to the board each time they give their standard section 149 declaration.",
+   "Individuals must pass an online proficiency self-assessment test within two years of inclusion in the data bank, unless they qualify for an exemption based on past experience or profession.",
+   "A removed name can be restored by paying one thousand rupees, but the person must pass the test within one year in a separate restored category."
+  ],
+  "example": "Aarav intends to be appointed as an independent director at Meera Textiles Private Limited. Before his appointment, he applies online to the institute to include his name in the data bank for a period of one year. Within two years of this inclusion, Aarav must pass the online proficiency self-assessment test, where a score of fifty percent or more means he has passed. He is allowed unlimited attempts to pass this test. Once included, he also submits a compliance declaration to the board of Meera Textiles Private Limited as required by the rules.",
+  "terms": [
+   {
+    "term": "data bank",
+    "meaning": "A official collection or database containing information about eligible individuals."
+   },
+   {
+    "term": "institute",
+    "meaning": "The Indian Institute of Corporate Affairs at Manesar, which creates and maintains the data bank."
+   },
+   {
+    "term": "key managerial personnel",
+    "meaning": "Top executives in a company such as the chief executive officer or managing director."
+   }
+  ],
+  "watch": "People often forget that even if they are exempt from the online test, they still must apply to be included in the data bank.",
+  "h": "c033da207bdb",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "7": {
+  "summary": "A listed company may have a director chosen by its small shareholders if enough of them ask for it, or the company can decide to have one on its own. This director acts as an independent director and serves a fixed term of up to three consecutive years without being re-appointed. Certain rules on qualifications, disqualifications, and limits on holding this role in other companies also apply.",
+  "points": [
+   "A listed company can have a small shareholders' director based on a notice from enough small shareholders or on its own choice.",
+   "Small shareholders proposing a candidate must give a signed notice to the company with specific details at least fourteen days before the meeting.",
+   "The person proposed must provide a signed statement with their Director Identification Number, consent, and a confirmation that they are not disqualified.",
+   "This director serves for a maximum of three consecutive years and cannot be re-appointed after that tenure.",
+   "A person cannot hold this position in more than two companies at the same time if the second company competes with the first."
+  ],
+  "example": "Meera Textiles Private Limited is a listed company. A group of small shareholders wants to propose Mr. Sharma as their director. They send a signed notice to the company at least fourteen days before the meeting, including his name and address. Mr. Sharma attaches a signed statement giving his consent, his Director Identification Number, and a statement that he is not disqualified. He is successfully appointed, but his tenure is limited to three consecutive years and he cannot be re-appointed after it ends.",
+  "terms": [
+   {
+    "term": "listed company",
+    "meaning": "A company that has any of its securities listed on any recognised stock exchange."
+   },
+   {
+    "term": "Director Identification Number",
+    "meaning": "A unique identification number allotted to any person intending to be a director."
+   },
+   {
+    "term": "folio number",
+    "meaning": "A unique number given to a shareholder's account by the company."
+   }
+  ],
+  "watch": "People often get confused thinking this director can be re-appointed after their term ends, but the rules clearly state they are not eligible for re-appointment.",
+  "h": "86dd0c497d2c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "10": {
+  "summary": "This rule explains how the system processes an application for a Director Identification Number after you submit it online. The Central Government reviews your application and will either approve it, reject it, or ask you to fix any mistakes. Once approved, the number belongs to you for life.",
+  "points": [
+   "An application number is generated automatically upon online submission and fee payment.",
+   "Nationals of countries sharing a land border with India must attach security clearance from the Ministry of Home Affairs to get an application number.",
+   "The Central Government decides on approval or rejection within one month.",
+   "If an application is defective, the applicant gets a chance to fix it within fifteen days.",
+   "Fees paid for rejected or invalid applications are never refunded or adjusted."
+  ],
+  "example": "Aarav wants to become a director and submits his application and fee online for a Director Identification Number through the designated portal. The system automatically generates an application number for him. Within one month, the Central Government reviews his application and approves it, sending him a letter with his newly allotted Director Identification Number. This number will remain valid for the rest of his life and cannot be given to any other person.",
+  "terms": [
+   {
+    "term": "Director Identification Number",
+    "meaning": "A unique identifying number given to a person who wants to be a director of a company."
+   },
+   {
+    "term": "Central Government",
+    "meaning": "The national government authority responsible for processing and approving the application."
+   }
+  ],
+  "watch": "Remember that paying the fee does not mean you will get a refund if your application is rejected or marked invalid.",
+  "h": "fb2ce40c37e5",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "14": {
+  "summary": "This rule explains how directors must report if they are disqualified and how companies must notify the government. A director must give this information before being appointed, and the company must file specific forms when things go wrong. If rules are broken, certain company officers will be held responsible.",
+  "points": [
+   "A director must inform the company of any disqualification using Form DIR-8 before being appointed or re-appointed.",
+   "When a company receives this form, it must file Form DIR-9 with the Registrar within thirty days.",
+   "If a company fails to file financial statements, returns, or pay deposits, dividends, and debentures, it must immediately file Form DIR-9 with directors' names and addresses.",
+   "Applications to remove a director's disqualification must be made in Form DIR-10 and filed before the Regional Director."
+  ],
+  "example": "Aman wants to join Apex Trading Private Limited as a director. Before the appointment, Aman uses Form DIR-8 to inform Apex Trading Private Limited that he has no disqualifications. Later, the company fails to repay a public deposit on time. Apex Trading Private Limited must immediately file Form DIR-9 to the Registrar, giving the names and addresses of all directors from that financial year. If Aman later wants to remove a disqualification, he must submit Form DIR-10 to the Regional Director.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "A government authority appointed to handle company registrations and official documents."
+   },
+   {
+    "term": "Debentures",
+    "meaning": "A type of debt instrument used by companies to borrow money from the public."
+   },
+   {
+    "term": "Regional Director",
+    "meaning": "A government official who oversees company law matters in a specific region."
+   }
+  ],
+  "watch": "People often confuse the form used by directors to self-report (DIR-8) with the form used by companies to report failures or receive director info (DIR-9).",
+  "h": "793d2278cd55",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

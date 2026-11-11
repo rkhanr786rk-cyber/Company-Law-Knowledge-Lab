@@ -1,0 +1,29 @@
+{
+ "summary": "The Central Government can appoint officers to act as adjudicating officers to decide penalties under this Act. These officers can impose penalties, order the fixing of defaults, and hear people before making a decision. Anyone unhappy with the order can appeal to the Regional Director, and failing to obey these orders can lead to extra fines or imprisonment.",
+ "points": [
+  "The Central Government appoints government officers not below the rank of Registrar as adjudicating officers.",
+  "The adjudicating officer can impose penalties and order the correction of defaults.",
+  "The officer must give the concerned person a fair chance to be heard before giving any penalty.",
+  "A person who is unhappy with the order can appeal to the Regional Director within sixty days.",
+  "Failing to follow the order within ninety days can lead to fines or imprisonment for officers and companies."
+ ],
+ "example": "Meera Textiles Private Limited faced an inquiry regarding a default under the Act. The Central Government had appointed an adjudicating officer with the proper jurisdiction for this area. The adjudicating officer gave Meera Textiles a fair chance to speak and be heard. After reviewing the facts, the officer issued an order to impose a penalty and directed the company to fix the default. The company was unhappy with this decision, so it filed an appeal to the Regional Director within sixty days to review the order.",
+ "terms": [
+  {
+   "term": "Adjudicating officer",
+   "meaning": "An official appointed to decide penalties and judge cases under the law."
+  },
+  {
+   "term": "Jurisdiction",
+   "meaning": "The official area or legal power within which an officer can act."
+  },
+  {
+   "term": "Aggrieved person",
+   "meaning": "A person who is harmed or unhappy with an official decision and has the right to appeal."
+  }
+ ],
+ "watch": "Watch out for the rule that rectifying specific defaults before or within thirty days of notice means no penalty is imposed.",
+ "h": "6de90dc90f65",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-11"
+}

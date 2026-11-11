@@ -1,0 +1,267 @@
+{
+ "3": {
+  "summary": "This rule explains how companies choose and appoint an auditor. The Audit Committee or the Board must check the auditor's background, qualifications, and any pending legal or professional cases. Finally, the members appoint the auditor at the annual general meeting to hold office until the sixth meeting.",
+  "points": [
+   "The Audit Committee or Board checks if the auditor's qualifications fit the company size.",
+   "They must look at any pending conduct cases against the auditor before any court or authority.",
+   "The Audit Committee recommends an auditor to the Board, which then recommends them to the members.",
+   "If the Board and Audit Committee disagree, specific steps are followed to send recommendations to the members.",
+   "The appointed auditor stays in office from the end of that meeting until the conclusion of the sixth annual general meeting."
+  ],
+  "example": "Meera Textiles Private Limited needs to appoint an auditor. Since the company has an Audit Committee, the committee checks the qualifications and experience of a proposed auditor named Mr. Sharma. They also check if there are any pending conduct proceedings against him. Finding everything suitable, the committee recommends Mr. Sharma to the Board. The Board agrees and forwards the recommendation to the members at the annual general meeting, where Mr. Sharma is officially appointed as the auditor until the sixth annual general meeting.",
+  "terms": [
+   {
+    "term": "Audit Committee",
+    "meaning": "A committee of board members that helps oversee financial reporting and auditing matters."
+   },
+   {
+    "term": "Annual general meeting",
+    "meaning": "A yearly gathering of a company's members or shareholders."
+   }
+  ],
+  "watch": "People often confuse who makes the final appointment, which is done by the members at the annual general meeting rather than the Board alone.",
+  "h": "58c9b036e656",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "4": {
+  "summary": "This rule explains the certificate an auditor must give before being appointed by a company. The auditor must confirm they are eligible, within their legal term and limits, and list any pending professional conduct cases. The company must also use a specific form to notify the Registrar about the appointment.",
+  "points": [
+   "The auditor must submit a certificate stating they are eligible and not disqualified under the law.",
+   "The certificate must confirm the appointment follows the allowed term and limits.",
+   "The auditor must disclose a true list of any pending proceedings regarding professional conduct.",
+   "The company must notify the Registrar about the appointment using Form ADT-1."
+  ],
+  "example": "Meera Textiles Private Limited decides to appoint an auditor named Mr. Sharma. Before taking up the role, Mr. Sharma must submit a signed certificate. This certificate states that he is legally qualified, his appointment fits the allowed limits and term, and provides a true list of any pending professional conduct cases against him. Once appointed, Meera Textiles Private Limited sends a notice of this appointment to the Registrar using Form ADT-1.",
+  "terms": [
+   {
+    "term": "Auditor",
+    "meaning": "An official who checks and verifies company accounts."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "A government authority that keeps records of companies."
+   },
+   {
+    "term": "Form ADT-1",
+    "meaning": "A specific official document used to notify the Registrar about an auditor's appointment."
+   }
+  ],
+  "watch": "Do not forget that both the eligibility certificate and Form ADT-1 are required steps for the appointment.",
+  "h": "060e940c1a1b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "5": {
+  "summary": "This rule under the Companies Act, 2013 explains which companies must follow specific rules for appointing auditors. It applies to certain unlisted public companies, private limited companies, and companies with large public borrowings or deposits. However, One Person Companies and small companies are completely left out of this rule.",
+  "points": [
+   "Unlisted public companies with a paid up share capital of ten crore rupees or more are included.",
+   "Private limited companies with a paid up share capital of fifty crore rupees or more are included.",
+   "Companies with a lower share capital but having public borrowings or public deposits of fifty crore rupees or more are included.",
+   "One Person Companies and small companies are excluded from these classes of companies."
+  ],
+  "example": "Meera Textiles Private Limited is a private company with a paid up share capital of sixty crore rupees. Because its share capital is fifty crore rupees or more, it falls under this rule for appointing auditors. On the other hand, a small company with a share capital of only two crore rupees is not included, even if it has some loans.",
+  "terms": [
+   {
+    "term": "Paid up share capital",
+    "meaning": "The total amount of money that shareholders have paid to the company in exchange for shares."
+   },
+   {
+    "term": "Public borrowings",
+    "meaning": "Money that the company has borrowed from financial institutions or banks."
+   }
+  ],
+  "watch": "Do not confuse this rule as applying to all companies, because One Person Companies and small companies are excluded.",
+  "h": "127abe59be08",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "6": {
+  "summary": "This rule explains how companies must replace their company auditor when their term ends. It outlines how past years of service count toward rotation limits and sets rules for network connections between incoming and outgoing auditors. It also explains how breaks in service and joint auditors are handled.",
+  "points": [
+   "The Audit Committee recommends a new auditor to the Board, or the Board considers the matter directly if there is no committee.",
+   "Past years an auditor served before the Act started count toward their total consecutive years.",
+   "A new auditor cannot be part of the same network as the old auditor, meaning they do not share the same brand name or control.",
+   "A break of five continuous years fulfills the rotation requirement, but a certifying partner who moves to a new firm makes that new firm ineligible for five years."
+  ],
+  "example": "At Meera Textiles Private Limited, the Audit Committee recommends a new auditor to replace the current one whose term is ending. The Board reviews this recommendation and puts it forward for the members to appoint at the annual general meeting. The new auditor chosen by Meera Textiles Private Limited cannot be connected through the same brand name or common control as the outgoing auditor, ensuring a fresh and independent review of the company's financial records.",
+  "terms": [
+   {
+    "term": "Incumbent",
+    "meaning": "The person or firm currently holding a position or office."
+   },
+   {
+    "term": "Audit Committee",
+    "meaning": "A committee formed by the company board to handle matters related to audits."
+   },
+   {
+    "term": "Annual General Meeting",
+    "meaning": "A yearly meeting of company members to discuss business and make appointments."
+   }
+  ],
+  "watch": "People often confuse the rule about the five-year break with regular yearly gaps, but the break must be continuous for five years to satisfy the rotation requirement.",
+  "h": "29983a582d56",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "8": {
+  "summary": "The provided text is extremely short and only gives a basic rule for company auditors. It states that when an auditor chooses to resign from a company, they must officially file a specific statement. This rule connects to section 140 of the Companies Act, 2013.",
+  "points": [
+   "An auditor must file a statement when they resign from a company.",
+   "The statement must be filed in a form called Form ADT-3.",
+   "This requirement is made for the purposes of sub-section (2) of section 140 of the Act."
+  ],
+  "example": "Mr. Sharma works as an auditor for ABC Enterprises Private Limited. After careful thought, he decides to step down from his role and leave the company. Because the law requires it when an auditor leaves, Mr. Sharma fills out and submits Form ADT-3 to complete his resignation properly.",
+  "terms": [
+   {
+    "term": "Auditor",
+    "meaning": "An official person appointed to check and verify a company's financial accounts."
+   },
+   {
+    "term": "Form ADT-3",
+    "meaning": "A specific official document or form used for filing."
+   }
+  ],
+  "watch": "Do not confuse an auditor's resignation with their removal or retirement mentioned elsewhere in the law.",
+  "h": "9a45d6a56df5",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "10": {
+  "summary": "This rule explains the limits on financial interests, debts, and guarantees that can stop a person from becoming a company auditor. It also defines what counts as a business relationship and requires auditors to report on internal financial controls. Relatives of an auditor may hold certain small securities up to a specific face value.",
+  "points": [
+   "An auditor's relative may hold company securities up to a face value of one lakh rupees.",
+   "If a relative acquires securities above the limit, the auditor must take corrective action within sixty days.",
+   "A person, their relative, or partner is ineligible if indebted to the company or its related companies above five lakh rupees.",
+   "Giving a guarantee for a third person's debt above one lakh rupees also makes a person ineligible for appointment."
+  ],
+  "example": "Aarav is appointed as an auditor for Meera Textiles Private Limited. His sister holds shares in the company with a face value of eighty thousand rupees, which is below the permitted limit. Later, she acquires additional shares that push her total holding above one lakh rupees. To comply with the rules, Aarav ensures that the corrective action to bring the holding back within the allowed limit is completed within sixty days of the acquisition.",
+  "terms": [
+   {
+    "term": "Securities",
+    "meaning": "Financial instruments like shares or bonds issued by a company."
+   },
+   {
+    "term": "Indebted",
+    "meaning": "Oweing money to someone."
+   },
+   {
+    "term": "Holding company",
+    "meaning": "A company that controls other companies by owning their shares."
+   }
+  ],
+  "watch": "Make sure to check both the limits for holding securities and the strict timelines for taking corrective action.",
+  "h": "af4e56bde8b1",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "11": {
+  "summary": "The auditor must include specific views and comments in their report on various financial and legal matters. These include pending court cases, foreseeable losses, fund transfers, management representations on fund flows, dividend compliance, and accounting software audit trails. This rule ensures transparency on how a company handles its money, contracts, and records.",
+  "points": [
+   "The auditor must report if pending litigations and their impact are disclosed in the financial statements.",
+   "The auditor must check if provisions are made for material foreseeable losses on long-term and derivative contracts.",
+   "The auditor must report any delays in transferring required amounts to the Investor Education and Protection Fund.",
+   "The auditor must verify management representations regarding hidden fund pass-throughs and ultimate beneficiaries.",
+   "The auditor must check if the company used accounting software with an active, untampered audit trail feature."
+  ],
+  "example": "Meera Textiles Private Limited appointed an auditor to review its financial records. The auditor checked whether the company disclosed its pending court cases in the financial statements and whether provisions were made for expected losses on long-term contracts. The auditor also verified that the accounting software used by Meera Textiles maintained an untampered audit trail throughout the year and that any dividends paid complied with the law.",
+  "terms": [
+   {
+    "term": "Derivative contracts",
+    "meaning": "Financial agreements whose value depends on underlying assets."
+   },
+   {
+    "term": "Intermediaries",
+    "meaning": "Persons or entities receiving funds to invest or lend to others on behalf of a company."
+   },
+   {
+    "term": "Audit trail",
+    "meaning": "An edit log feature in software that records all transactions and changes made."
+   }
+  ],
+  "watch": "Do not assume specific deadlines or penalty amounts for these rules, as they are not stated in this text.",
+  "h": "19ea783b0c7a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "12": {
+  "summary": "This rule explains the duties and powers of a main company auditor and a branch auditor when checking a company's branch accounts. The branch auditor must give their report directly to the company's main auditor. Also, the rules for reporting fraud apply to the branch auditor just like they do for the main auditor.",
+  "points": [
+   "The main company auditor has the same duties and powers regarding a branch as set out in sections 143(1) to (4) of the Act.",
+   "The branch auditor must submit their audit report to the company's main auditor.",
+   "The branch auditor must follow the rules for reporting fraud in relation to their specific branch."
+  ],
+  "example": "Meera Textiles Private Limited has a branch in another city and appoints a separate branch auditor to check its accounts. After finishing the work, the branch auditor sends the final report directly to Meera Textiles Private Limited's main auditor rather than filing it elsewhere. Later, if the branch auditor finds any fraud at that branch, they must report it following the same legal procedure that applies to the main auditor.",
+  "terms": [
+   {
+    "term": "Branch auditor",
+    "meaning": "An accountant appointed to check the financial records of a specific office or branch of a company."
+   },
+   {
+    "term": "Company's auditor",
+    "meaning": "The main accountant or auditing firm responsible for auditing the entire company."
+   }
+  ],
+  "watch": "Do not assume the branch auditor submits their report directly to the shareholders, as it must go to the company's main auditor.",
+  "h": "781c45d55400",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "13": {
+  "summary": "This rule explains how an auditor must report a fraud discovered during their work. The steps depend on whether the fraud involves a large amount or a smaller amount. The auditor must inform the company management or audit committee, and sometimes the Central Government.",
+  "points": [
+   "For frauds of one crore rupees or above, the auditor must first report to the Board or Audit Committee within two days to get their reply within forty-five days.",
+   "The auditor then forwards their report, the company reply, and their own comments to the Central Government within fifteen days.",
+   "If the company does not reply within forty-five days, the auditor sends the report to the Central Government along with a note about the missing reply.",
+   "For frauds involving less than the specified amount, the auditor reports to the Board or Audit Committee within two days, detailing the nature, amount, and parties involved.",
+   "Details of smaller frauds must be disclosed in the Board's Report if remedial action is not taken, along with any actions taken."
+  ],
+  "example": "Meera Textiles Private Limited hired an auditor named Mr. Sharma to check their accounts. During his work, Mr. Sharma found a fraud committed by an employee involving a large sum of money. Within two days of finding out, Mr. Sharma reported this fraud to the Board of Directors to seek their reply. After waiting for the reply, Mr. Sharma sent his report and the Board's response to the Central Government as required by the rules.",
+  "terms": [
+   {
+    "term": "auditor",
+    "meaning": "An official whose job is to carefully check and verify company accounts and financial records."
+   },
+   {
+    "term": "Audit Committee",
+    "meaning": "A committee formed by a company's board to help oversee financial reporting and audits."
+   },
+   {
+    "term": "Central Government",
+    "meaning": "The national government of the country."
+   }
+  ],
+  "watch": "People often confuse reporting steps for large frauds with those for smaller frauds.",
+  "h": "cad28e59b0ed",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "14": {
+  "summary": "This rule explains how a cost auditor is appointed and how their pay is decided in companies. Companies with an audit committee must appoint a cost auditor based on that committee's recommendation and pay proposal. Companies without an audit committee appoint a cost auditor directly through the Board. In both cases, the shareholders must later ratify the payment.",
+  "points": [
+   "For companies with an audit committee, the Board appoints a cost accountant or firm as cost auditor based on the audit committee's recommendation.",
+   "The audit committee also recommends the auditor's pay, which the Board approves and shareholders later ratify.",
+   "For companies without an audit committee, the Board appoints the cost auditor directly.",
+   "In companies without an audit committee, the shareholders must still subsequently ratify the cost auditor's remuneration."
+  ],
+  "example": "Meera Textiles Private Limited is required to have an audit committee. The audit committee recommends appointing Mr. Sharma, a cost accountant in practice, as the company's cost auditor and also suggests his remuneration. The Board of Directors considers and approves this recommendation. Finally, the shareholders of Meera Textiles Private Limited review and ratify the remuneration of the cost auditor subsequently.",
+  "terms": [
+   {
+    "term": "Audit Committee",
+    "meaning": "A committee formed by the company's Board to oversee financial and auditing matters."
+   },
+   {
+    "term": "Ratified",
+    "meaning": "Approved or confirmed formally after an action has taken place."
+   },
+   {
+    "term": "Cost Auditor",
+    "meaning": "An individual cost accountant or a firm of cost accountants appointed to audit cost records."
+   }
+  ],
+  "watch": "Ensure you distinguish between companies that need an audit committee and those that do not, as the initial appointment route differs.",
+  "h": "041ed7bc50be",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

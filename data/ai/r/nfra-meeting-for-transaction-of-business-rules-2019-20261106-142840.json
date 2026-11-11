@@ -1,0 +1,30 @@
+{
+ "2": {
+  "summary": "This rule explains the meaning of key words used in the National Financial Reporting Authority (Meeting for Transaction of Business) Rules, 2019. It clarifies terms like Act, Authority, chairperson, members, and Secretary based on the Companies Act, 2013. If any word is not defined here, its meaning comes directly from the Act itself.",
+  "points": [
+   "Act refers to the Companies Act, 2013.",
+   "Authority means the National Financial Reporting Authority.",
+   "Members include both full-time and part-time members, as well as the chairperson.",
+   "Secretary means the Secretary of the Authority or an authorised officer."
+  ],
+  "example": "At Star Financial Reporting Private Limited, the team looked at the official rules to understand who is who. They read that the head of the National Financial Reporting Authority is called the chairperson. They also saw that a full-time member includes this chairperson, while a part-time member is someone appointed differently. Finally, they noted that the person handling official records as the Secretary could be the officially appointed Secretary or another officer given that job by the chairperson.",
+  "terms": [
+   {
+    "term": "Authority",
+    "meaning": "The National Financial Reporting Authority set up under the law."
+   },
+   {
+    "term": "Full-time member",
+    "meaning": "A member appointed for regular, full-time work, which also includes the chairperson."
+   },
+   {
+    "term": "Part-time member",
+    "meaning": "A member who is not a full-time member."
+   }
+  ],
+  "watch": "Do not confuse a full-time member with a part-time member, as they have different appointment types under the Act.",
+  "h": "4bf79d83c262",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

@@ -1,0 +1,720 @@
+{
+ "2": {
+  "summary": "This rule provides the meaning of various words and terms used in the rules for registered valuers under the Companies Act, 2013. It helps readers understand specific terms like asset class, authority, and valuer as they appear in the text. If any word is not defined here, its meaning is taken directly from the Act or specified rules.",
+  "points": [
+   "Defines the term Act as the Companies Act, 2013.",
+   "Explains that an asset class is a group of assets with similar traits that need separate valuers.",
+   "Clarifies that a partnership entity includes firms registered under the Indian Partnership Act, 1932 or limited liability partnerships.",
+   "States that words not defined here will carry the same meaning as found in the Act."
+  ],
+  "example": "Meera Textiles Private Limited wanted to value its factory land and machinery. Because land and building and machinery and equipment are distinct groups of assets displaying similar characteristics, the company had to classify them under separate asset classes. They sought help from a registered valuer, who is a person registered with the authority in accordance with these rules, to complete the valuation properly.",
+  "terms": [
+   {
+    "term": "asset class",
+    "meaning": "A distinct group of assets like land and buildings that share similar characteristics and need separate valuers."
+   },
+   {
+    "term": "partnership entity",
+    "meaning": "A partnership firm or limited liability partnership registered under Indian law."
+   },
+   {
+    "term": "valuer",
+    "meaning": "A person registered with the authority in accordance with these rules."
+   }
+  ],
+  "watch": "Do not assume terms outside these rules have different meanings if they are already defined in the Companies Act.",
+  "h": "d3d68f4fda3d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "12": {
+  "summary": "This rule explains what types of groups can be recognized as registered valuers organisations for specific asset classes. It sets out specific setup requirements, such as being registered under certain laws like section 8 or being a professional institute, society, or trust. The organisation must also perform duties like conducting educational courses, giving memberships, enforcing a code of conduct, and handling member grievances.",
+  "points": [
+   "An eligible organisation can be recognized for valuing a specific asset class if it meets certain legal and capital requirements.",
+   "Recognized organisations must conduct valuation educational courses and practical training for members.",
+   "Organisations are responsible for granting memberships, enforcing a code of conduct, and providing continuing education.",
+   "Recognized groups must monitor member quality of service and have a system for handling grievances and disciplinary actions."
+  ],
+  "example": "Aarav Welfare Foundation Private Limited is set up under section 8 of the Companies Act, 2013, with a paid-up share capital of twenty-five lakh rupees. Its sole object is to regulate real estate valuers. It adopts the required bye-laws, plans to conduct educational courses in valuation as determined by the authority, and sets up a mechanism to address member grievances and enforce a code of conduct.",
+  "terms": [
+   {
+    "term": "asset class",
+    "meaning": "A group of items or properties being valued, such as land or machinery."
+   },
+   {
+    "term": "paid-up share capital",
+    "meaning": "The total amount of money a company has received from shareholders in exchange for shares."
+   },
+   {
+    "term": "bye-laws",
+    "meaning": "The internal rules and regulations made by an organisation to govern its operations."
+   }
+  ],
+  "watch": "Do not confuse the general requirements for company-based organisations with the special rules that apply to societies, trusts, or professional institutes.",
+  "h": "1ddffc2d12fc",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "14": {
+  "summary": "This rule sets the conditions that a registered valuers organisation must follow after it gets recognition. It must keep meeting eligibility rules, maintain a public member register, and follow authority directions. It also requires the organisation to report to the authority and tell them about any changes in its governing board.",
+  "points": [
+   "Continue to meet the eligibility requirements at all times.",
+   "Keep a publicly available register of members who are registered valuers.",
+   "Admit only individuals with the required education and experience.",
+   "Send required reports and follow directions given by the authority.",
+   "Intimate the authority about any changes in its governing board after paying the fee."
+  ],
+  "example": "Alpha Valuation Organisation is a recognised body under the Companies Act, 2013. It maintains a public register of its members on its website so anyone can check who is a registered valuer. Recently, Alpha Valuation Organisation changed some members on its governing board. To follow the rules, it paid the required fee and officially intimated the authority about this change in the board's composition.",
+  "terms": [
+   {
+    "term": "Registered valuers organisation",
+    "meaning": "An organisation recognised to set standards and enrol professionals who determine the value of assets."
+   },
+   {
+    "term": "Authority",
+    "meaning": "The official body designated under the rules to oversee registered valuers and organisations."
+   },
+   {
+    "term": "Intimate",
+    "meaning": "To formally notify or inform."
+   }
+  ],
+  "watch": "Make sure not to confuse general organisational rules with specific timelines that apply only to certain older organisations.",
+  "h": "4fe0260fa61b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "20": {
+  "summary": "This rule explains the punishment if someone breaks any part of the valuation rules under the Companies Act. If a person does not follow these rules, they will face penalties as stated in a specific section of the Act. This punishment is in addition to any other legal liabilities they might already have.",
+  "points": [
+   "Breaking any part of these rules leads to punishment.",
+   "The punishment follows sub-section (3) of section 469 of the Companies Act.",
+   "This penalty applies in addition to any other liabilities."
+  ],
+  "example": "Meera Textiles Private Limited hired a registered valuer for company assets. The valuer knowingly broke the rules set under the valuation guidelines. Because the valuer contravened these rules, they became punishable under sub-section (3) of section 469 of the Companies Act, on top of any other liabilities they might face.",
+  "terms": [
+   {
+    "term": "contravenes",
+    "meaning": "breaks or acts against a law or rule"
+   },
+   {
+    "term": "liabilities",
+    "meaning": "legal responsibilities or debts for breaking a rule"
+   }
+  ],
+  "watch": "People often confuse this rule as replacing other punishments, but it applies in addition to any other liabilities.",
+  "h": "e5b497dac044",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "21": {
+  "summary": "This rule states that if any person knowingly makes a false statement or hides a material fact in a required report, certificate, or document, they will be liable under section 448 of the Act. It also provides a model code of conduct that registered valuers must follow regarding integrity, fairness, and independence. The text is clear and sets out basic duties for individuals preparing official documents under the law.",
+  "points": [
+   "Making a false statement knowingly in any required document leads to liability under section 448.",
+   "Omitting a material fact knowingly in any required document also leads to liability.",
+   "Registered valuers must follow high standards of integrity, fairness, and professional competence.",
+   "Valuers must maintain independence, keep client information confidential, and avoid conflicts of interest."
+  ],
+  "example": "Aarav is a registered valuer hired by Meera Textiles Private Limited to value its shares for a corporate restructuring. While preparing the official valuation report, Aarav knowingly writes down a false figure for the company's assets and leaves out an important material fact about its liabilities. Because Aarav intentionally includes false information and hides material facts in a required document, he becomes liable under section 448 of the Act.",
+  "terms": [
+   {
+    "term": "material particulars",
+    "meaning": "Important details that can influence a decision or assessment."
+   },
+   {
+    "term": "omits",
+    "meaning": "Leaves out or fails to include something."
+   },
+   {
+    "term": "valuer",
+    "meaning": "A person registered to estimate the value of assets or companies."
+   }
+  ],
+  "watch": "People often confuse making an innocent mistake with knowingly writing false information or hiding important facts.",
+  "h": "50a3e417ec95",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "25": {
+  "summary": "This text outlines professional conduct rules for registered valuers. A valuer must not offer gifts or advantages to obtain work, must charge transparent and reasonable remuneration, and should not accept extra fees outside a written contract. Valuers must also limit their assignments to ensure adequate time and avoid any business that discredits the profession.",
+  "points": [
+   "A valuer must not offer gifts, hospitality, or advantages to public servants or others to get or keep work.",
+   "Remuneration must be charged transparently, reflect necessary work reasonably, and follow applicable rules.",
+   "No fees or charges can be accepted unless disclosed in a written contract with the client.",
+   "Valuers must not take on too many assignments to ensure they give proper time to each."
+  ],
+  "example": "Mr. Rohan, a registered valuer, was hired by Meera Textiles Private Limited to value some assets. Rohan charged a fee that was clearly written in their signed contract and performed the job carefully. He refused to take on extra clients that week because he knew he would not have enough time to finish their reports properly, and he did not offer any gifts to officials to secure his next job.",
+  "terms": [
+   {
+    "term": "Remuneration",
+    "meaning": "Payment or pay received for services rendered."
+   },
+   {
+    "term": "Public servant",
+    "meaning": "A person employed by or working for the government."
+   }
+  ],
+  "watch": "Make sure to remember that all fees charged by a valuer must be written in the contract and cannot be collected secretly.",
+  "h": "e8461c4e5869",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "These rules are called the Companies (Registered Valuers and Valuation) Rules, 2017 and start on the date they are published in the Official Gazette. They apply to valuations of property, shares, assets, and liabilities required under the Companies Act, 2013 or these rules. However, they do not affect valuations done under other laws.",
+  "points": [
+   "Called the Companies (Registered Valuers and Valuation) Rules, 2017.",
+   "Come into force on the date of publication in the Official Gazette.",
+   "Apply to the valuation of property, stocks, shares, debentures, securities, goodwill, assets, net worth, or liabilities of a company under the Act.",
+   "Do not affect valuations conducted under any other law."
+  ],
+  "example": "Meera Textiles Private Limited needed a valuation of its shares and assets under the Companies Act, 2013. The company applied the Companies (Registered Valuers and Valuation) Rules, 2017 for this purpose. Meanwhile, the same company also conducted a separate valuation required by a different tax law, which remained unaffected by these rules.",
+  "terms": [
+   {
+    "term": "Official Gazette",
+    "meaning": "The official government publication used to announce public notices and rules."
+   },
+   {
+    "term": "Debentures",
+    "meaning": "A type of debt instrument issued by a company that acknowledges a loan."
+   },
+   {
+    "term": "Goodwill",
+    "meaning": "An intangible asset representing the reputation and value of a business beyond its physical assets."
+   }
+  ],
+  "watch": "Do not assume these rules stop you from doing valuations required by laws outside of the Companies Act.",
+  "h": "3bf1e885d5d4",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "3": {
+  "summary": "This rule sets the basic conditions for an individual, partnership, or company to become a registered valuer. It covers requirements like education, passing an examination, personal background, and being a resident in India. Companies and partnerships must also meet specific standards regarding their partners, directors, and business objects.",
+  "points": [
+   "An individual must be a member of a registered valuers organisation, pass a valuation examination, and hold the required qualifications.",
+   "An individual must not be a minor, of unsound mind, an undischarged bankrupt, or a person convicted of certain serious offences.",
+   "A partnership entity or company must have proper objects, not face insolvency, and ensure its partners or directors are eligible and include registered valuers."
+  ],
+  "example": "Aarav wants to register as a valuer for Meera Textiles Private Limited. He is a member of a registered valuers organisation, holds the needed qualifications, and passed the valuation examination within the allowed time. He is a resident of India, is not a minor, and has no criminal record or bankruptcy history. Because he meets all personal and professional conditions, he is eligible to apply for registration under these rules.",
+  "terms": [
+   {
+    "term": "Minor",
+    "meaning": "A person who has not attained the age of majority under the law."
+   },
+   {
+    "term": "Undischarged bankrupt",
+    "meaning": "A person who has been declared legally bankrupt and whose bankruptcy has not yet been resolved or discharged by a court."
+   },
+   {
+    "term": "Moral turpitude",
+    "meaning": "An act or behaviour that gravely violates community standards of justice, honesty, or good morals."
+   }
+  ],
+  "watch": "Make sure to check both the rules for individual applicants and the separate rules that apply to companies or partnerships.",
+  "h": "3a35563f65bc",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "4": {
+  "summary": "This rule explains the qualifications and experience a person needs to register as a valuer under the Companies Act, 2013. A person can qualify with a post-graduate degree and three years of experience, a bachelor's degree and five years of experience, or specific professional membership and three years of experience. All education and experience must match the specific asset class being valued.",
+  "points": [
+   "You can apply with a post-graduate degree or diploma in the specified field plus three years of later experience.",
+   "You can apply with a bachelor's degree or equivalent in the specified field plus five years of later experience.",
+   "You can apply with membership in a professional institute set up by an Act of Parliament plus three years of experience after getting that membership.",
+   "Your education and experience must match the exact asset class you want to value."
+  ],
+  "example": "Aarav wants to register as a valuer for real estate at Sunshine Valuation Private Limited. He holds a bachelor's degree in a relevant field and has worked in that same field for six years since getting his degree. Because he has a bachelor's degree and more than the required five years of experience in the specified discipline, he meets the basic educational and experience requirements for registration under this rule.",
+  "terms": [
+   {
+    "term": "Specified discipline",
+    "meaning": "The specific field of study or work that is relevant to valuing a particular type of asset."
+   },
+   {
+    "term": "Equivalent",
+    "meaning": "Professional and technical qualifications recognized by the Ministry of Human Resources and Development as equal to a degree."
+   }
+  ],
+  "watch": "Make sure your degree and experience match the exact type of asset you plan to value.",
+  "h": "9403374cf1ff",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "5": {
+  "summary": "This rule explains how valuation examinations are conducted for individuals who want to become registered valuers. An authority or designated agency tests their professional knowledge and skills after they meet specific qualification and course requirements. Anyone who passes receives an acknowledgement, and individuals can take the exam as many times as they want.",
+  "points": [
+   "The authority conducts the valuation examination to test knowledge, skills, and ethics.",
+   "Experts recommend the syllabus for different asset classes.",
+   "Exam details like syllabus and passing marks are published online at least three months in advance.",
+   "People who pass receive an acknowledgement.",
+   "Individuals can attempt the examination multiple times."
+  ],
+  "example": "Aarav has completed his required educational course as a member of a registered valuers organisation and holds the necessary qualifications. He wants to become a registered valuer for a specific asset class. Aarav decides to appear for the valuation examination conducted by the authority. After preparing using the published syllabus, he takes the test and successfully passes. He then receives an official acknowledgement of passing the examination, which allows him to move forward in his valuation career.",
+  "terms": [
+   {
+    "term": "asset classes",
+    "meaning": "Categories of property or items being valued, such as land or machinery."
+   },
+   {
+    "term": "registered valuers organisation",
+    "meaning": "An organization recognized under the law whose members take educational courses to become valuers."
+   }
+  ],
+  "watch": "Passing the exam gives you an acknowledgement, but it does not automatically grant final registration without meeting other rules.",
+  "h": "24d18494a4c7",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "6": {
+  "summary": "Eligible individuals, companies, or partnership entities can apply to become registered valuers by submitting specific forms and fees. The authority reviews these applications, checks for any issues, and may ask for more documents, clarifications, or personal appearances. Finally, the authority will either grant the registration certificate or give reasons why it might be rejected.",
+  "points": [
+   "Individuals must apply using Form-A and pay a non-refundable fee of five thousand rupees.",
+   "Partnership entities and companies must apply using Form-B and pay a non-refundable fee of ten thousand rupees.",
+   "The authority can ask applicants to remove deficiencies, submit documents, or appear in person within twenty-one days.",
+   "The authority communicates its final decision or reasons for refusal within the timelines given in the rules."
+  ],
+  "example": "Meera Textiles Private Limited wants to become a registered valuer for a specific asset class. It submits its application using Form-B along with the required non-refundable application fee of ten thousand rupees to the authority. The authority reviews the application and notices some missing details. It gives the company twenty-one days to remove the deficiencies. After the company submits the missing details, the authority checks everything and decides to grant the certificate of registration to Meera Textiles Private Limited.",
+  "terms": [
+   {
+    "term": "Authority",
+    "meaning": "The official body designated under the rules to receive, examine, and process applications for registered valuers."
+   },
+   {
+    "term": "Deficiencies",
+    "meaning": "Errors, omissions, or missing information in the application."
+   },
+   {
+    "term": "Prima facie",
+    "meaning": "Based on the first impression; an initial opinion formed before a final decision is made."
+   }
+  ],
+  "watch": "Make sure not to confuse the different application forms, fees, and time periods required for individuals versus companies and partnerships.",
+  "h": "d406d52529a7",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "7": {
+  "summary": "This rule sets the ongoing conditions that a registered valuer must follow after getting registration. It covers maintaining qualifications, obeying laws and rules, and following specific duties for companies and partnerships. If you are a registered valuer, you must keep records and follow your code of conduct.",
+  "points": [
+   "Must always keep the required qualifications and experience.",
+   "Must not value assets outside your approved class.",
+   "Must keep assignment records for at least three years.",
+   "Companies and partnerships must only let qualified partners or directors sign valuation reports."
+  ],
+  "example": "Aarav Valuers Private Limited is registered to value land and buildings. The company gets a new assignment for Meera Textiles Private Limited. Aarav Valuers ensures that only a director who is specifically registered for land and buildings signs the report. Before signing, the company discloses the director's capital contribution in Aarav Valuers to Meera Textiles. They also keep the assignment records safely to maintain compliance with the rules.",
+  "terms": [
+   {
+    "term": "Valuer",
+    "meaning": "A person or entity registered to assess the value of assets."
+   },
+   {
+    "term": "Authority",
+    "meaning": "The governing body that manages the registration of valuers."
+   },
+   {
+    "term": "Jointly and severally",
+    "meaning": "A legal term meaning both parties share full responsibility together and individually."
+   }
+  ],
+  "watch": "Do not value any asset class that is not specifically mentioned in your registration.",
+  "h": "a7c9148d40a3",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "7A": {
+  "summary": "This rule requires a registered valuer to inform the authority about any changes to their personal details, partners, directors, partnership agreement, or Memorandum of Association. These changes must be reported after paying the required fee if they affect the registration. It ensures the authority always has accurate information.",
+  "points": [
+   "Inform the authority of any change in personal details.",
+   "Report modifications in the composition of partners or directors.",
+   "Notify changes in any clause of the partnership agreement or Memorandum of Association.",
+   "Pay the fee according to Table-I in Annexure V when making the intimation."
+  ],
+  "example": "Aarav is a registered valuer operating through his firm, Apex Valuers Private Limited. Recently, the company updated a clause in its Memorandum of Association and also changed one of its directors. Because these changes might affect his registration, Aarav must inform the authority about these updates. He is required to pay the specified fee as per Table-I in Annexure V while sending this intimation to the authority.",
+  "terms": [
+   {
+    "term": "Registered valuer",
+    "meaning": "A person or entity officially registered to estimate the value of assets."
+   },
+   {
+    "term": "Memorandum of Association",
+    "meaning": "The foundational document that sets up a company and defines its relationship with shareholders."
+   },
+   {
+    "term": "Intimate",
+    "meaning": "To formally notify or inform someone."
+   }
+  ],
+  "watch": "Do not forget to pay the required fee when sending the intimation of changes to the authority.",
+  "h": "95aa559942ad",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "8": {
+  "summary": "This rule explains how a registered valuer must conduct a valuation under the Companies Act, 2013. The valuer must follow specific valuation standards and include detailed information in their final report. The valuer can take help from other experts, but remains fully responsible for the final valuation.",
+  "points": [
+   "The valuer must follow notified valuation standards, or international or organisation standards if government standards are not yet notified.",
+   "The valuer can get inputs or separate valuations from another registered valuer.",
+   "If another valuer helps, their details must be fully disclosed in the report.",
+   "The first valuer takes all liability for the final valuation, no matter what.",
+   "The valuation report must include specific details like background info, purpose, dates, and conclusions."
+  ],
+  "example": "Aarav is a registered valuer hired by Meera Textiles Private Limited to value their machinery. Aarav gets technical inputs for a specific asset class from another registered valuer named Rohan. In his final report, Aarav clearly mentions Rohan's details and the inputs provided. Aarav lists the background information, valuation date, and procedures followed. Even though Rohan helped with the inputs, Aarav takes full responsibility and liability for the final valuation report submitted to the company.",
+  "terms": [
+   {
+    "term": "Registered valuer",
+    "meaning": "A professional officially registered to determine the financial value of assets."
+   },
+   {
+    "term": "Asset class",
+    "meaning": "A grouping of similar types of assets, such as land, machinery, or securities."
+   },
+   {
+    "term": "Liability",
+    "meaning": "Legal responsibility for something."
+   }
+  ],
+  "watch": "People often think that getting help from another valuer divides the responsibility, but the main valuer remains fully liable.",
+  "h": "2469220fe3c3",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "9": {
+  "summary": "A registered valuer can temporarily give up their registration certificate through their organisation's rules, and the organisation must report this or its revival to the authority. The organisation also has to publish this information on its website in a searchable format. This helps keep public records accurate.",
+  "points": [
+   "A valuer may temporarily surrender their registration certificate following their organisation's rules.",
+   "The valuer must inform the authority when they temporarily surrender their certificate.",
+   "The organisation must inform the authority within seven days of approving a temporary surrender or its revival.",
+   "The organisation must publish the names and details of members who have surrendered or revived their memberships on its website in a searchable format."
+  ],
+  "example": "Meera Textiles Private Limited hired Aarav, a registered valuer, to value its assets. Aarav decided to take a break from valuation work and temporarily surrendered his registration certificate through his registered valuers organisation. His organisation updated the authority within seven days and also published Aarav's updated membership status on its website in a searchable format so that the public could easily see he was currently inactive.",
+  "terms": [
+   {
+    "term": "registered valuer",
+    "meaning": "A professional officially recognized to determine the value of things like property or shares."
+   },
+   {
+    "term": "registered valuers organisation",
+    "meaning": "An official body that admits and oversees registered valuers."
+   },
+   {
+    "term": "authority",
+    "meaning": "The official government body or office that keeps records of valuers."
+   }
+  ],
+  "watch": "Remember that the organisation has a strict deadline of seven days to report the surrender or revival to the authority.",
+  "h": "dab17c408a63",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "10": {
+  "summary": "This rule simply states that when a person acts as a valuer under the Companies Act, 2013, they must follow these specific valuation rules. It ensures that all official company valuations are done properly according to the law. The provided text is very brief and does not include any extra details or instructions.",
+  "points": [
+   "A valuer must conduct valuations required under the Act.",
+   "All valuations must follow these specific rules."
+  ],
+  "example": "Meera Textiles Private Limited needed to hire a professional to figure out the value of its assets for a corporate process under the law. The company hired Mr. Roy, who is a registered valuer. Mr. Roy performed the valuation, and he made sure to follow the valuation rules set out under the law while doing his work for Meera Textiles Private Limited.",
+  "terms": [
+   {
+    "term": "Valuer",
+    "meaning": "A qualified person who calculates the financial worth or value of things like company assets."
+   },
+   {
+    "term": "Valuation",
+    "meaning": "The process of finding out how much something is worth."
+   }
+  ],
+  "watch": "People might mistakenly think this rule explains how to calculate value, but it only says that the rules must be followed.",
+  "h": "626db5075623",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "11": {
+  "summary": "This rule allows people who were already doing valuation work when these rules started to keep doing it without a certificate until January 31, 2019. If a company hired a valuer before that date and the work was not finished, the valuer has an extra three months to finish it. This is a temporary setup to help people move to the new system.",
+  "points": [
+   "You can keep doing valuation services without a certificate until 31st January, 2019, if you were already doing them when the rules started.",
+   "If a valuer was hired before 31st January, 2019, but the job is not done, they get three extra months to finish it."
+  ],
+  "example": "Aarav was already providing valuation services for companies when the new rules started. Under this rule, Aarav can continue providing these valuation services without a certificate of registration until 31st January, 2019. Furthermore, if Rohan Private Limited hired Aarav to value some property before 31st January, 2019, and the work was still incomplete by that date, Aarav is allowed three more months to finish that specific valuation job.",
+  "terms": [
+   {
+    "term": "Valuation services",
+    "meaning": "Services that figure out the financial worth or value of things like company assets."
+   },
+   {
+    "term": "Certificate of registration",
+    "meaning": "An official document proving you are legally approved under the new rules."
+   }
+  ],
+  "watch": "People often confuse the January 31, 2019 deadline with a permanent exemption, but it only applies temporarily.",
+  "h": "0cd9f20beae6",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "13": {
+  "summary": "Eligible organisations can apply to become a registered valuers organisation by submitting Form-D and paying a fee of rupees one lakh. The authority will examine the application and may ask for corrections, documents, or clarifications within twenty-one days. After proper checks, the authority will either grant a certificate of recognition or reject the application with reasons.",
+  "points": [
+   "An eligible organisation applies using Form-D and pays a non-refundable fee of rupees one lakh.",
+   "The authority checks the application and gives twenty-one days to fix any problems or provide extra details.",
+   "If satisfied, the authority grants a certificate of recognition in Form-E.",
+   "If the authority thinks recognition should be denied, it communicates reasons within forty-five days, and the applicant gets fifteen days to explain."
+  ],
+  "example": "Alpha Valuation Body meets all conditions to become a recognised organisation. It submits Form-D along with a non-refundable fee of rupees one lakh to the authority. The authority examines the application and finds a missing document, giving Alpha Valuation Body twenty-one days to submit it. After checking the complete application, the authority is fully satisfied and grants Alpha Valuation Body a certificate of recognition as a registered valuers organisation in Form-E.",
+  "terms": [
+   {
+    "term": "Authority",
+    "meaning": "The official body designated under the rules to handle applications and recognition."
+   },
+   {
+    "term": "Form-D",
+    "meaning": "The specific official form used to apply for recognition."
+   },
+   {
+    "term": "Prima facie",
+    "meaning": "Based on the first impression before a thorough final decision."
+   }
+  ],
+  "watch": "Do not confuse the application fee with any regular membership fees or other charges not mentioned in this rule.",
+  "h": "ab5f65c225e3",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "15": {
+  "summary": "The authority has the power to cancel or suspend the registration of a valuer or the recognition of a registered valuers organization. This action can be taken if they break the provisions of the Act, other valuation laws, these rules, or any registration conditions. The process for this cancellation or suspension must follow the manner specified in rule 17.",
+  "points": [
+   "The authority can cancel or suspend a valuer's registration.",
+   "The authority can cancel or suspend a registered valuers organization's recognition.",
+   "This happens if there is a violation of the Act, other valuation laws, these rules, or conditions.",
+   "The process must follow rule 17."
+  ],
+  "example": "Meera Textiles Private Limited hired a certified valuer named Rohan to value its assets. Rohan broke the conditions of his registration and violated the rules while performing his duties. Because of these violations, the authority decided to review Rohan's status. Following the exact process specified in rule 17, the authority chose to suspend Rohan's registration as a valuer.",
+  "terms": [
+   {
+    "term": "Authority",
+    "meaning": "The official governing body responsible for managing and overseeing registered valuers and organizations."
+   },
+   {
+    "term": "Recognition",
+    "meaning": "Official acceptance or approval given to a registered valuers organization."
+   }
+  ],
+  "watch": "People often confuse cancellation with permanent bans, but this text covers both cancellation and suspension.",
+  "h": "bc703ce8ec29",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "16": {
+  "summary": "Anyone can file a formal complaint against a registered valuer or their organization by submitting it in person, by post, or by courier. You must include a fee of one thousand rupees which will not be refunded. The authority will review the complaint and decide what action to take.",
+  "points": [
+   "Complaints can be filed in person, by post, or by courier.",
+   "A non-refundable fee of rupees one thousand must be paid in favour of the authority.",
+   "The authority will examine the complaint and take necessary action.",
+   "Complaints against a valuer who is a partner or director may be sent to their registered valuers organization to handle."
+  ],
+  "example": "Meera Textiles Private Limited wanted to file a complaint against their registered valuer, Mr. Roy, who was a partner in a valuation firm. They submitted their written complaint by post along with a non-refundable fee of rupees one thousand in favour of the authority. Since Mr. Roy was a partner in a partnership entity, the authority decided to refer the complaint to his registered valuers organisation, which then handled the matter according to its own bye laws.",
+  "terms": [
+   {
+    "term": "registered valuer",
+    "meaning": "A professional officially registered to estimate the financial value of assets."
+   },
+   {
+    "term": "registered valuers organisation",
+    "meaning": "An organization recognized to oversee and guide registered valuers."
+   },
+   {
+    "term": "bye laws",
+    "meaning": "The internal rules and regulations of an organization."
+   }
+  ],
+  "watch": "Note that this rule applies specifically to complaints against registered valuers or their organizations, not general company disputes.",
+  "h": "49c5ac51edbe",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "17": {
+  "summary": "This rule explains the procedure for cancelling or suspending the registration of a valuer or a registered valuers organisation. If there is reason to believe that a rule was broken, the authorised officer sends a written show-cause notice explaining the charges. After reviewing the response, the officer passes a final order which can range from no action to suspension or cancellation.",
+  "points": [
+   "An authorised officer can issue a written show-cause notice based on inspections, complaints, or records.",
+   "The notice must list the alleged facts, evidence, violated provisions, and proposed actions.",
+   "The notice is sent via registered post or electronic means to the email address provided.",
+   "The final order can result in warnings, suspension, cancellation, or other specified changes.",
+   "Orders are published online and generally become effective after thirty days."
+  ],
+  "example": "Meera Textiles Private Limited hired a professional valuer named Rohan. Later, an authorised officer found material on record suggesting Rohan violated valuation rules. The officer sent a written show-cause notice to Rohan via email detailing the allegations, the evidence, and the proposed suspension. Rohan was required to respond in the manner stated in the notice. After considering the response using principles of natural justice, the officer passed a reasoned order. The order was issued immediately, published on the website, and made effective after thirty days.",
+  "terms": [
+   {
+    "term": "Prima facie",
+    "meaning": "Based on the first impression; accepted as correct until proved otherwise."
+   },
+   {
+    "term": "Show-cause notice",
+    "meaning": "A formal notice asking a person or organisation to explain why a proposed action should not be taken against them."
+   },
+   {
+    "term": "Natural justice",
+    "meaning": "The legal rule that ensures fair play and the right to a fair hearing."
+   }
+  ],
+  "watch": "A common confusion is assuming the final order takes effect immediately, whereas it normally does not become effective until thirty days have passed from the date of issue.",
+  "h": "a736c905f0c9",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "18": {
+  "summary": "The Central Government has the power to officially announce and update the valuation standards based on advice from a specific committee. These standards guide how valuations must be done. The rules do not mention any extra details or deadlines.",
+  "points": [
+   "The Central Government notifies the valuation standards.",
+   "The government may modify these standards from time to time.",
+   "Changes or notifications happen based on recommendations from the committee set up under rule 19."
+  ],
+  "example": "A special committee suggests a new way to measure the assets of a fictional company named Meera Textiles Private Limited. Based on this advice, the Central Government officially notifies the updated valuation standards for the company to follow when checking its property value.",
+  "terms": [
+   {
+    "term": "Valuation standards",
+    "meaning": "Official rules and guidelines for finding the financial value of things like property or a business."
+   },
+   {
+    "term": "Notify",
+    "meaning": "To officially announce or publish something so everyone knows about it."
+   }
+  ],
+  "watch": "Do not assume any specific timeline for when the government must update these standards.",
+  "h": "2ce9ce6ea4ff",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "19": {
+  "summary": "The Central Government may create an advisory committee to recommend valuation standards and policies for companies and registered valuers. This committee includes a Chairperson, official nominees, representatives from specific organizations, and institute presidents. Members serve a three-year term and can hold office for a maximum of two terms.",
+  "points": [
+   "The Central Government may form a Committee to advise on valuation matters.",
+   "The committee recommends valuation standards and policies.",
+   "Members include a Chairperson, government nominees, and organization representatives.",
+   "The tenure for the Chairperson and members is three years, with a limit of two tenures."
+  ],
+  "example": "The Central Government decided to set up a new advisory group called the Committee to advise on valuation matters for Meera Textiles Private Limited and other firms. They appointed a well-known finance expert as the Chairperson for a three-year term. Alongside the Chairperson, the committee included nominated members from the Ministry of Corporate Affairs and the Insolvency and Bankruptcy Board of India. Together, they began drafting new valuation standards and policies for registered valuers to follow in the future.",
+  "terms": [
+   {
+    "term": "registered valuer",
+    "meaning": "a person officially allowed to determine the financial value of assets or companies"
+   },
+   {
+    "term": "ex-officio",
+    "meaning": "holding a position automatically because of another office or position held"
+   },
+   {
+    "term": "tenure",
+    "meaning": "the period of time a person holds a job or position"
+   }
+  ],
+  "watch": "A common confusion is assuming members can serve for an unlimited number of terms, but the rule strictly limits them to a maximum of two tenures.",
+  "h": "064dba907248",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "22": {
+  "summary": "This rule requires a valuer to cooperate during inspections and investigations. The valuer must appear and be available when called upon by the authority or other authorized bodies. It ensures proper oversight of valuation professionals.",
+  "points": [
+   "A valuer must appear when requested for inspections and investigations.",
+   "A valuer must fully cooperate with the investigators.",
+   "A valuer must remain available for checks by the authority or statutory bodies."
+  ],
+  "example": "Aarthi is a registered valuer at Apex Valuations Private Limited. The relevant authority decides to conduct an inspection regarding some past valuation reports. The authority contacts Aarthi to review certain documents. Following the rule, Aarthi readily appears before the officers, stays available for all required questions, and fully cooperates with the inspection process by providing the necessary explanations and records.",
+  "terms": [
+   {
+    "term": "Valuer",
+    "meaning": "A person or entity registered to assess the value of assets."
+   },
+   {
+    "term": "Authority",
+    "meaning": "The official governing body overseeing the valuers."
+   },
+   {
+    "term": "Statutory regulatory body",
+    "meaning": "An official organization set up by law to regulate a specific sector."
+   }
+  ],
+  "watch": "Do not assume this rule applies only to government authorities, as it also includes registered valuers organizations and other regulatory bodies.",
+  "h": "4b9e1a3f1d78",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "23": {
+  "summary": "This rule requires a valuer to share any information and records that specific official bodies ask for. These bodies include the authority, the Tribunal, the Appellate Tribunal, and the registered valuers organisation. It ensures that valuers cooperate fully when official records or details are requested.",
+  "points": [
+   "A valuer must provide all requested information and records.",
+   "Requests can come from the authority, the Tribunal, or the Appellate Tribunal.",
+   "Requests can also come from the registered valuers organisation or any other statutory regulatory body."
+  ],
+  "example": "Aarav works as a registered valuer for Apex Valuers Private Limited. The statutory regulatory body suddenly asks him to submit certain work records and files related to a recent property assessment. Following the rule, Aarav promptly provides all the requested information and records to the body without any delay.",
+  "terms": [
+   {
+    "term": "Valuer",
+    "meaning": "A person or entity registered to assess the value of assets."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "An official body set up to deal with specific legal disputes."
+   },
+   {
+    "term": "Statutory regulatory body",
+    "meaning": "An official organization created by law to oversee rules and conduct."
+   }
+  ],
+  "watch": "A valuer must share records not just with courts, but also with their registered valuers organisation and other regulatory bodies when asked.",
+  "h": "81272b29fb2c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "24": {
+  "summary": "This rule tells a valuer to keep information secret and save their working papers safely. These papers must be kept for three years, or longer if the contract says so. If there is a pending case, the records must be kept until the case is finished.",
+  "points": [
+   "A valuer must keep client information confidential.",
+   "Working papers must be kept for at least three years.",
+   "Longer storage is required if the contract says so or if there is a pending case."
+  ],
+  "example": "Meera Textiles Private Limited hired Rohan, a registered valuer, to value their factory assets. Rohan finished his work and collected various notes and data. Because his contract did not mention a longer time, Rohan must safely store these working papers for three years. If a regulatory authority asks to see them during those three years, Rohan must be able to show them.",
+  "terms": [
+   {
+    "term": "Working papers",
+    "meaning": "The written notes and documents a professional makes during their work."
+   },
+   {
+    "term": "Regulatory authority",
+    "meaning": "An official government body that checks rules are followed."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "A special court or official body that settles legal disputes."
+   }
+  ],
+  "watch": "Do not confuse the normal three-year rule with cases where a longer contract period or a pending court case applies.",
+  "h": "a1fcc6a58185",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "26": {
+  "summary": "This rule explains how a member can temporarily surrender their membership in the Organisation under certain conditions, such as moving abroad or starting a business. The Organisation will remove the member's name from its registers after thirty days if the application is accepted and there are no pending disciplinary issues or active valuation tasks. Members can also apply to revive their membership once those conditions no longer apply.",
+  "points": [
+   "A member must apply at least thirty days before becoming a non-resident, taking up employment, or starting a business.",
+   "Working as a whole-time director in a company registered as a valuer does not count as taking up employment.",
+   "Surrender requests will be rejected if there are pending disciplinary proceedings without an undertaking to cooperate, or if an active valuation process would be harmed.",
+   "Members can later apply to revive their temporarily surrendered membership when their situation changes."
+  ],
+  "example": "Aarav is a member of a valuer organization and decides to start a new retail business alongside his practice. Since this business is not specifically permitted under the Code of Conduct, he submits an application to temporarily surrender his membership. He makes sure to file this at least thirty days in advance and confirms he has no pending complaints against him or active valuation duties under the Companies Act, 2013. Once accepted and after thirty days pass, his name is temporarily removed from the organization's registers.",
+  "terms": [
+   {
+    "term": "Temporary surrender",
+    "meaning": "A brief pause of membership where the member steps away and their name is temporarily removed from the register."
+   },
+   {
+    "term": "Authority",
+    "meaning": "The governing body that receives formal notice regarding the status of the member."
+   },
+   {
+    "term": "Detrimental",
+    "meaning": "Harmful or damaging to an ongoing process."
+   }
+  ],
+  "watch": "Working as a whole-time director in a registered valuer company is not considered taking up employment for this rule.",
+  "h": "1c6a4bfb097c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

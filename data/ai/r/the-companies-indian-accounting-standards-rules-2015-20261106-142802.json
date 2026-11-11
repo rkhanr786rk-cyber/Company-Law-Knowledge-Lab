@@ -1,0 +1,26 @@
+{
+ "2": {
+  "summary": "These rules explain specific words and terms used when talking about company accounting standards in India. It tells us what words like Act, entity, and financial statements mean based on the Companies Act, 2013. It also lists the types of companies that count as Non-Banking Financial Companies.",
+  "points": [
+   "Accounting Standards means the accounting standards specified in rule 3.",
+   "Act refers to the Companies Act, 2013.",
+   "Entity means a company as defined in the Act.",
+   "Non-Banking Financial Company includes specific types of companies like Housing Finance Companies and Mutual Benefit Companies."
+  ],
+  "example": "Meera Textiles Private Limited is checking its records. The company wants to know how certain terms are defined under the accounting rules. The manager looks up Rule 2 to understand what 'entity' and 'financial statements' mean. They find that 'entity' simply means a company as defined in the Companies Act, 2013, which helps them apply the correct Indian Accounting Standards to their business reports.",
+  "terms": [
+   {
+    "term": "Entity",
+    "meaning": "A company as defined in the Companies Act, 2013."
+   },
+   {
+    "term": "Annexure",
+    "meaning": "An attachment or added section containing the Indian Accounting Standards."
+   }
+  ],
+  "watch": "Do not assume terms not defined here have completely separate meanings; many rely directly on definitions found in the Companies Act, 2013.",
+  "h": "e6c6a1ca68a2",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

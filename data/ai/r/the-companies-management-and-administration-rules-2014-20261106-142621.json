@@ -1,0 +1,439 @@
+{
+ "5": {
+  "summary": "This rule explains how a company must keep its official registers of members and security holders. It sets clear timelines for updating records when shares are transferred, changed, or affected by special events. It also states where these registers must be stored.",
+  "points": [
+   "Entries in the registers must be made within seven days after the Board or its committee approves the allotment or transfer of shares or other securities.",
+   "Registers must be kept at the company's registered office, unless a special vote allows them to be kept elsewhere in the same city or where many members live.",
+   "Changes like share forfeiture, buy-backs, mergers, or new share certificates must be updated in the registers within seven days of board approval.",
+   "Details of any pledge or charge on securities created by promoters of listed companies must be entered within fifteen days of the event."
+  ],
+  "example": "Meera Textiles Private Limited recently approved the transfer of shares to a new member during a board meeting. According to the rules, the company must update its register of members with this new entry within seven days of the board's approval. Later, when the company moved its office papers, it kept the main register at its registered office, as required by law, ensuring all member details remained accurate and properly recorded.",
+  "terms": [
+   {
+    "term": "Registered office",
+    "meaning": "The official main address of a company where important documents and registers are legally required to be kept."
+   },
+   {
+    "term": "Board of Directors",
+    "meaning": "The group of people chosen to manage and direct the business affairs of a company."
+   },
+   {
+    "term": "Promoter",
+    "meaning": "A person or entity that helps start or form a company and holds securities in it."
+   }
+  ],
+  "watch": "People often confuse the seven-day deadline for routine share changes with the fifteen-day deadline for promoter pledges on listed companies.",
+  "h": "88a5a614ad74",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "6": {
+  "summary": "Every company that keeps a main register of its members must also keep an index of names to help find entries easily. However, this index is not needed if the company has fewer than fifty members. Any updates to this index must be made at the exact same time as entries for shares or other securities are added or transferred.",
+  "points": [
+   "An index of names must be included in the company register.",
+   "The index must clearly point to the correct folio to find entries quickly.",
+   "Companies with less than fifty members do not need to maintain this index.",
+   "Index updates must happen simultaneously with security allotments or transfers."
+  ],
+  "example": "Meera Textiles Private Limited has sixty members on its register. To comply with the law, the company maintains an index of names that clearly points to each member's folio for quick searching. When Rohan transfers his shares to Priya, the company updates its main register and makes the corresponding change in the name index at the exact same time.",
+  "terms": [
+   {
+    "term": "Folio",
+    "meaning": "A page or section in a register dedicated to a specific member."
+   },
+   {
+    "term": "Security",
+    "meaning": "Financial instruments like shares issued by a company."
+   }
+  ],
+  "watch": "People often confuse the total company member count threshold of fifty, forgetting that below this number the index is simply optional.",
+  "h": "355089f7f12d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "7": {
+  "summary": "A company can keep a separate register of its members or security holders living outside India in another country, if its articles allow it. This foreign register must be properly connected to the company's main register in India by sharing updates and duplicate records. The company must also inform the Registrar about where this foreign office is located.",
+  "points": [
+   "A company may keep a foreign register outside India if its articles give permission.",
+   "The company must file a notice in Form No. MGT.3 with the Registrar within thirty days of opening, changing, or closing the foreign register.",
+   "Entries in the foreign register must be made at the same time the Board approves the share transfer or allotment.",
+   "A copy of every entry must be sent to the registered office in India within fifteen days."
+  ],
+  "example": "Meera Textiles Private Limited wanted to keep a register for its security holders living in another country. Because their articles allowed it, they opened a foreign register. Within thirty days of opening it, they filed a notice in Form No. MGT.3 with the Registrar. Every time they made an entry abroad, they sent a copy to their registered office in India within fifteen days so that the duplicate register stayed updated.",
+  "terms": [
+   {
+    "term": "Articles",
+    "meaning": "The rulebook of a company that sets out how it must be run."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "The government official who keeps records of companies."
+   },
+   {
+    "term": "Principal register",
+    "meaning": "The main register of members or security holders kept by the company."
+   }
+  ],
+  "watch": "Make sure not to confuse the foreign register with the main register, as shares in a foreign register must be clearly distinguished from others.",
+  "h": "6ed6955f24e2",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "8": {
+  "summary": "This rule explains how official records of company members must be signed and confirmed as correct. A company secretary or a person chosen by the Board of Directors must sign these entries. They must also include the date of the board meeting that gave them permission to do so.",
+  "points": [
+   "Entries in member registers and indexes must be officially signed and confirmed.",
+   "The person signing must be the company secretary or someone authorized by the Board.",
+   "The date of the board resolution giving this permission must be written down.",
+   "Entries in foreign registers must be signed individually by the authorized person."
+  ],
+  "example": "Meera Textiles Private Limited maintains a register of its members. To ensure the register is official, the Board of Directors passes a resolution authorizing Mr. Sharma, the company secretary, to sign the entries. Mr. Sharma signs the register and writes down the exact date when the Board passed the resolution granting him this authority. For their foreign register, he signs each entry individually as required.",
+  "terms": [
+   {
+    "term": "authenticated",
+    "meaning": "proved to be real, genuine, or officially approved by signing"
+   },
+   {
+    "term": "Board",
+    "meaning": "the group of directors who manage the company"
+   },
+   {
+    "term": "foreign register",
+    "meaning": "a register kept by a company in a country outside India"
+   }
+  ],
+  "watch": "Do not forget that foreign register entries require a signature on each individual entry.",
+  "h": "51575efbccdf",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "9": {
+  "summary": "This rule explains how people must report shares they hold in name only versus shares they actually own. Both the person whose name is on the company records and the actual owner must file specific forms with the company when they get shares or when changes happen. The company must also record this and tell the government registrar.",
+  "points": [
+   "A registered share owner who does not hold the beneficial interest must file Form No. MGT.4 within thirty days.",
+   "The actual beneficial owner must file Form No. MGT.5 within thirty days of acquiring the interest.",
+   "Changes in beneficial interest must also be declared within thirty days.",
+   "Every company must designate a responsible person to share this information with officers."
+  ],
+  "example": "Aarav’s name is entered in the register of members of Meera Textiles Private Limited as the holder of shares. However, Rohan holds the actual beneficial interest in those shares. Because of this, Aarav must file a declaration in Form No. MGT.4 with the company within thirty days of his name being entered in the register. Similarly, Rohan must file a declaration in Form No. MGT.5 with the company within thirty days of acquiring this beneficial interest.",
+  "terms": [
+   {
+    "term": "beneficial interest",
+    "meaning": "The real right to enjoy the benefits of ownership, such as profits, even if the shares are in someone else's name."
+   },
+   {
+    "term": "register of members",
+    "meaning": "The official record a company keeps of its shareholders."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "A government authority appointed to oversee companies."
+   }
+  ],
+  "watch": "Make sure not to confuse the person whose name is on the share register with the actual beneficial owner, as both have separate filing duties.",
+  "h": "42b2cd6003fe",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "14": {
+  "summary": "This rule explains who can check and get copies of a company's registers and returns, and when they can do it. Certain people can check them for free, while others may have to pay a small fee. However, specific personal details of members are strictly kept hidden from everyone.",
+  "points": [
+   "Members, debenture holders, security holders, and beneficial owners can inspect records for free during working hours at a time decided by the board, which must be at least two hours every working day.",
+   "Other people can also inspect the records if they pay a fee stated in the company articles, up to a maximum of fifty rupees.",
+   "Anyone can ask for a copy of the records by paying a fee of up to ten rupees per page, and the company must supply it within seven days.",
+   "Member addresses, email IDs, Unique Identification Numbers, and PAN numbers are hidden and cannot be inspected, copied, or extracted."
+  ],
+  "example": "Ahmad is a shareholder in Meera Textiles Private Limited. He visits the company office on a Tuesday afternoon during business hours to inspect the register of members. The company allows him to view the register for free, as the board has set two hours of inspection time every working day. Ahmad also asks for a copy of a page from the return. He pays the required fee of ten rupees, and the company gives him the page within seven days. However, Ahmad cannot view or copy the email IDs or PAN numbers of other members because the law protects those specific details.",
+  "terms": [
+   {
+    "term": "debenture holder",
+    "meaning": "A person who has lent money to a company and holds a certificate acknowledging the debt."
+   },
+   {
+    "term": "beneficial owner",
+    "meaning": "A person who enjoys the benefits of ownership of shares even though the shares are held in another name."
+   },
+   {
+    "term": "articles of association",
+    "meaning": "The rulebook of a company that sets out its internal management and operations."
+   }
+  ],
+  "watch": "Do not assume that all member details are open for inspection, because addresses, emails, Unique Identification Numbers, and PAN numbers are hidden.",
+  "h": "26462b5c0d94",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "15": {
+  "summary": "This rule explains how long a company must keep its member lists, security holder lists, and annual returns. It also states who is responsible for keeping these records safe. Different documents have different time rules for how long they must be saved.",
+  "points": [
+   "The register of members and foreign register of members must be kept permanently.",
+   "The register of debenture or security holders and their foreign registers must be kept for eight years after they are redeemed.",
+   "Copies of annual returns and related papers must be kept for eight years after filing.",
+   "All these records must be kept by the company secretary or a person chosen by the Board."
+  ],
+  "example": "Meera Textiles Private Limited keeps its main member list forever in the care of its company secretary, Mr. Sharma. However, the company issues debentures to investors. Once these debentures are fully redeemed, Mr. Sharma stores the debenture holder list for eight years from that redemption date. The company also saves its annual return copies for eight years from the date they are filed with the Registrar, exactly as the law requires.",
+  "terms": [
+   {
+    "term": "Debenture",
+    "meaning": "A type of debt instrument or certificate issued by a company that acknowledges a loan from an investor."
+   },
+   {
+    "term": "Redemption",
+    "meaning": "The repayment of the principal amount of a security or debenture by the company to the holder."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "An official authority designated under the Act to handle company filings and records."
+   }
+  ],
+  "watch": "Do not confuse the permanent preservation rule for members with the eight-year rule for debenture holders and annual returns.",
+  "h": "92e34518a2f0",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "16": {
+  "summary": "This rule explains how people can get copies of certain company registers and annual returns. The company must provide these copies within seven days after the required fee is paid. The fee amount is decided by the company's articles, but it cannot be more than ten rupees for each page.",
+  "points": [
+   "Applies to company registers, entries in them, and annual returns.",
+   "Can be requested by members, security holders, beneficial owners, or any other person.",
+   "The fee is set by the company's articles but cannot exceed rupees ten per page.",
+   "The company must supply the requested copy within seven days from the date the fee is deposited."
+  ],
+  "example": "Aarav wants to check some details about Sunshine Electronics Private Limited. He asks the company for a copy of its register of members. The company tells him the fee is rupees five for each page, which is below the maximum limit of rupees ten. Aarav deposits the fee on Monday. According to the rule, Sunshine Electronics Private Limited must supply the requested copy to Aarav within seven days from the date he deposited the fee.",
+  "terms": [
+   {
+    "term": "Annual return",
+    "meaning": "A yearly report that a company must file with details about its members and management."
+   },
+   {
+    "term": "Articles of Association",
+    "meaning": "The rulebook that sets out the internal management and rules of a company."
+   },
+   {
+    "term": "Debenture-holder",
+    "meaning": "A person who holds a certificate of loan or debt issued by the company."
+   }
+  ],
+  "watch": "Remember that the company cannot charge more than ten rupees per page, even if its internal rules suggest a higher amount.",
+  "h": "40729c93912e",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "17": {
+  "summary": "This rule explains how members can call an extraordinary general meeting when the company fails to do so. The members must send a written or electronic request to the company at least clear twenty-one days before the proposed date. The notice must include specific meeting details, be signed properly, and go to members listed in the company register.",
+  "points": [
+   "Members must provide a written or electronic request at least clear twenty-one days before the meeting date.",
+   "The meeting must be held at the registered office or in the same city or town on a day that is not a national holiday.",
+   "The notice must be signed by all requisitionists or an authorized person, and no formal explanatory statement is required.",
+   "The notice is sent by speed post, registered post, or electronic mode to members in the register."
+  ],
+  "example": "Meera Textiles Private Limited received a valid meeting request from a group of members. The members planned the meeting to take place in the same town as the registered office, avoiding any national holiday. They sent out the meeting notice by speed post at least clear twenty-one days prior to the date. One member accidentally did not receive the notice due to a postal error, but this did not cancel the valid proceedings of the meeting.",
+  "terms": [
+   {
+    "term": "Requisitionists",
+    "meaning": "Members who formally ask the company to call a meeting."
+   },
+   {
+    "term": "Extraordinary general meeting",
+    "meaning": "A special meeting of company members held outside of the usual annual general meeting."
+   },
+   {
+    "term": "National holiday",
+    "meaning": "A public holiday recognized nationally on which meetings under this rule cannot be held."
+   }
+  ],
+  "watch": "An accidental failure to give notice to any member does not invalidate the meeting proceedings.",
+  "h": "2e3d139dc9b9",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "19": {
+  "summary": "This rule explains who can be appointed as a proxy in a company formed with charitable objects under the Companies Act, 2013. A proxy must be another member of the same company, and there are limits on how many members and shares one proxy can represent. The appointment must be made using a specific official form.",
+  "points": [
+   "A member can only appoint another member of the same company as a proxy.",
+   "A single proxy can represent up to fifty members holding a maximum of ten percent of the total voting share capital.",
+   "A member holding more than ten percent of the voting share capital can appoint one single person as a proxy, and that proxy cannot represent anyone else.",
+   "The appointment of a proxy must use Form No. MGT.11."
+  ],
+  "example": "Hope Welfare Foundation is a company registered under section 8 for charitable objects. Rahul, a member of the foundation, wants to appoint a proxy for an upcoming meeting. Because of the rules, Rahul must choose another member of Hope Welfare Foundation to act as his proxy, rather than an outsider. If Rahul holds more than ten percent of the voting share capital, he can appoint a single person who cannot act as a proxy for any other member. They must fill out Form No. MGT.11 for this appointment.",
+  "terms": [
+   {
+    "term": "Proxy",
+    "meaning": "A person appointed by a member to attend and vote at a meeting on their behalf."
+   },
+   {
+    "term": "Section 8 company",
+    "meaning": "A company registered for charitable objects, promoting commerce, art, science, sports, education, or research."
+   }
+  ],
+  "watch": "People often think a proxy can be any outsider, but in section 8 companies, the proxy must also be a member of the same company.",
+  "h": "eda2fa5ee4cb",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "20": {
+  "summary": "Certain companies must provide their members with the facility to vote electronically on meeting resolutions. These rules explain who must provide this option and set out the process for sending notices and public advertisements. Nidhi companies and certain institutional investors are not required to offer this electronic voting facility.",
+  "points": [
+   "Companies with listed equity shares and companies with one thousand or more members must provide electronic voting.",
+   "Nidhi companies and specific institutional investors are exempt from this electronic voting requirement.",
+   "Meeting notices must be sent to members by post, email, or courier, and placed on websites.",
+   "Companies must publish a public notice about the electronic voting in a vernacular newspaper and an English newspaper."
+  ],
+  "example": "Meera Textiles Private Limited has one thousand five hundred members and needs to hold a general meeting. According to the rules, the company must provide an electronic voting facility to its members. Meera Textiles sends the meeting notice by email and speed post, and publishes a public notice in a local vernacular newspaper and an English newspaper to inform members about the remote e-voting schedule and login details.",
+  "terms": [
+   {
+    "term": "Nidhi",
+    "meaning": "A company incorporated to cultivate thrift and savings among members and to receive deposits from and lend to them for mutual benefit."
+   },
+   {
+    "term": "Remote e-voting",
+    "meaning": "The facility of casting votes by a member using an electronic voting system from a place other than the venue of a general meeting."
+   },
+   {
+    "term": "Cut-off date",
+    "meaning": "A date used for determining the eligibility of members to vote by electronic means or at the general meeting."
+   }
+  ],
+  "watch": "A member who has already cast a vote using remote e-voting may attend the general meeting but cannot vote again.",
+  "h": "80ab7cbc6ceb",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "21": {
+  "summary": "This rule explains how the chairman of a company meeting and the appointed scrutinizers must handle a poll vote. Scrutinizers check records, distribute and collect voting papers, count the votes, and give a signed report to the chairman. The chairman then officially declares the voting results based on this report.",
+  "points": [
+   "The chairman must give the scrutinizers member registers, proxy lists, and relevant legal documents.",
+   "Scrutinizers must hand out polling papers, lock an empty polling box, and later open it in front of two witnesses to count votes.",
+   "If a member votes in person after appointing a proxy, the proxy vote is ignored.",
+   "Scrutinizers must submit a final report to the chairman within seven days from the date of the poll."
+  ],
+  "example": "At a meeting of Meera Textiles Private Limited, a poll was demanded by the members. The chairman made sure the independent scrutinizers received all membership records and proxy documents. The scrutinizers then locked an empty ballot box in front of everyone, distributed the polling papers, and later opened the box with two witnesses. After counting the valid votes, the scrutinizers prepared their report and handed it to the chairman within seven days, allowing the chairman to announce the final result.",
+  "terms": [
+   {
+    "term": "Scrutinizers",
+    "meaning": "Independent persons appointed to check and manage the voting and counting process fairly."
+   },
+   {
+    "term": "Proxy",
+    "meaning": "A person appointed by a member to attend and vote at the meeting on their behalf."
+   },
+   {
+    "term": "Poll",
+    "meaning": "A formal method of voting by casting written papers instead of a show of hands."
+   }
+  ],
+  "watch": "People often confuse proxy votes with personal votes, but a member voting in person always cancels out their appointed proxy vote.",
+  "h": "26e07d80a80e",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "22": {
+  "summary": "When a company conducts business through a postal ballot, it must send a notice and draft resolution to all shareholders allowing them thirty days to send their agreement or disagreement. The company must also publish newspaper advertisements, place the notice on its website, and appoint a neutral person called a scrutinizer to manage the votes fairly. Votes received after the thirty-day limit are treated as not received, and the final results are published on the company website along with the scrutinizer report.",
+  "points": [
+   "Companies must send notice and draft resolution to all shareholders by post, courier, or electronic means with a thirty-day window to vote.",
+   "An advertisement about the dispatched ballots must be published in both a vernacular newspaper and an English newspaper.",
+   "The Board of directors must appoint an independent scrutinizer who is not an employee of the company to oversee the voting process.",
+   "The scrutinizer keeps the ballots safe, maintains a register of votes, and submits a report within seven days after the voting ends.",
+   "Certain major corporate decisions, such as altering objects or buying back shares, must be transacted through postal ballot."
+  ],
+  "example": "Meera Textiles Private Limited decided to change its registered office outside the local town limits and sent a notice of postal ballot to all its shareholders. The company published advertisements in a local vernacular newspaper and an English newspaper detailing the voting period. They appointed Mr. Sharma, an independent person not employed by the company, to act as the scrutinizer. Shareholders sent their written assent or dissent within thirty days. Mr. Sharma safely kept the ballots, recorded them in a register, and submitted his final report so the company could declare the results on its website.",
+  "terms": [
+   {
+    "term": "Postal ballot",
+    "meaning": "Voting by post or through electronic means."
+   },
+   {
+    "term": "Scrutinizer",
+    "meaning": "An independent person appointed by the Board to conduct the voting process in a fair and transparent manner."
+   },
+   {
+    "term": "Assent or dissent",
+    "meaning": "Agreement or disagreement with a resolution."
+   }
+  ],
+  "watch": "A common confusion is assuming votes received after the thirty-day period are valid, but any response after this time is treated as not received.",
+  "h": "44a5e4f264e2",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "24": {
+  "summary": "This rule explains how companies must send certain decisions and agreements to the government office known as the Registrar. The company must include a special explanatory statement with them. Everything must be submitted using a specific form and include the required fee.",
+  "points": [
+   "A copy of every required resolution or agreement must be filed.",
+   "The explanatory statement under section 102 must be included if there is one.",
+   "Documents must be filed with the Registrar.",
+   "Submission requires Form No. MGT.14 and the correct fee."
+  ],
+  "example": "Meera Textiles Private Limited recently passed a special resolution during a meeting. According to the rules, the company needs to send a copy of this resolution to the Registrar. They also must include the explanatory statement that was attached to the meeting notice under section 102. To complete the process, Meera Textiles Private Limited fills out Form No. MGT.14, attaches the necessary fee, and submits everything to the Registrar as required by law.",
+  "terms": [
+   {
+    "term": "Resolution",
+    "meaning": "A formal decision made by a company during a meeting."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "The government official who maintains records of companies."
+   },
+   {
+    "term": "Explanatory statement",
+    "meaning": "An added note that gives more details about the items being decided."
+   }
+  ],
+  "watch": "People often forget to include the explanatory statement along with the resolution or agreement when filing.",
+  "h": "f406fc9b27e1",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "27": {
+  "summary": "Certain large companies must keep their official records in electronic format. These electronic records must follow the same formats required by law and stay safe for future reference. The company board decides how to manage this electronic storage.",
+  "points": [
+   "Listed companies and companies with at least one thousand security holders must keep records electronically.",
+   "Electronic records must be readable, retrievable, and printable.",
+   "Digital signatures must be applied where required, and signed records cannot be edited.",
+   "Records must be updated when needed, with the update date recorded."
+  ],
+  "example": "Meera Textiles Private Limited is a large company with twelve hundred shareholders. To follow the rules, the board decides to move all company registers and minutes into an electronic system. They ensure the software allows files to be printed, read easily, and signed digitally. Once a document is digitally signed, the system locks it so no one can alter the text later.",
+  "terms": [
+   {
+    "term": "debenture holders",
+    "meaning": "People or entities that lend money to a company and hold a certificate of that debt."
+   },
+   {
+    "term": "retrievable",
+    "meaning": "Able to be found and brought back easily when needed."
+   }
+  ],
+  "watch": "People often confuse electronic maintenance with just scanning documents, but the files must also be unalterable after digital signing and able to be updated properly.",
+  "h": "1649003d2bb8",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "31": {
+  "summary": "This rule explains how a company must prepare and file a special report on its annual general meeting. The report includes details like meeting dates, attendee numbers, business transacted, and a fair summary of proceedings. It must be signed properly and filed with the Registrar within thirty days of the meeting.",
+  "points": [
+   "The report is prepared in addition to the standard minutes of the meeting.",
+   "It must be signed and dated by the Chairman or specific directors and the company secretary.",
+   "It must include meeting details, attendance, quorum confirmation, and business results.",
+   "A copy must be filed with the Registrar in Form No. MGT.15 within thirty days along with the required fee."
+  ],
+  "example": "Meera Textiles Private Limited successfully held its annual general meeting. Afterward, the company prepared a special report detailing the date, venue, attendance, and business transacted, ensuring it included a fair summary of the proceedings. The Chairman signed and dated the document. Within thirty days of the meeting concluding, the company filed a copy of this report with the Registrar in Form No. MGT.15 along with the prescribed fee.",
+  "terms": [
+   {
+    "term": "Quorum",
+    "meaning": "The minimum number of members required to be present to legally conduct a meeting."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "An official authority designated under the Act to receive company filings and documents."
+   },
+   {
+    "term": "Minutes",
+    "meaning": "The official written record of the discussions and decisions made during a meeting."
+   }
+  ],
+  "watch": "Make sure to file the report within thirty days of the meeting ending, and remember it is separate from the regular meeting minutes.",
+  "h": "7355538bf845",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

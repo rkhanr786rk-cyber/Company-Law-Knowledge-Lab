@@ -1,0 +1,30 @@
+{
+ "2": {
+  "summary": "This rule gives the basic definitions used in the Companies (Accounting Standards) Rules, 2021. It explains terms like Accounting Standards, the Act, and what makes a business a Small and Medium Sized Company. Any words not defined here will take their meaning directly from the Companies Act, 2013.",
+  "points": [
+   "Accounting Standards mean the standards of accounting specified in rule 3.",
+   "An Enterprise refers to a company as defined under the Companies Act, 2013.",
+   "A Small and Medium Sized Company must meet specific criteria regarding stock listing, business type, turnover, borrowings, and group companies.",
+   "Words not defined in these rules take their meaning from the Act itself."
+  ],
+  "example": "Meera Textiles Private Limited wants to know if it is a Small and Medium Sized Company. Its shares are not listed on any stock exchange, and it is not a bank or insurance company. In the immediately preceding accounting year, its turnover did not exceed two hundred and fifty crore rupees, and its borrowings did not exceed fifty crore rupees at any time. It is also not a holding or subsidiary of a non-SMC company. Therefore, Meera Textiles Private Limited qualifies as a Small and Medium Sized Company.",
+  "terms": [
+   {
+    "term": "Enterprise",
+    "meaning": "A company as defined in the Companies Act, 2013."
+   },
+   {
+    "term": "Annexure",
+    "meaning": "An attachment or added document containing the Accounting Standards."
+   },
+   {
+    "term": "Turnover",
+    "meaning": "The total income or sales of a company during a specific period, excluding other income."
+   }
+  ],
+  "watch": "Do not assume a company is small just by its name; it must strictly meet all financial and structural limits listed in the rule.",
+  "h": "b83d00786d5f",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

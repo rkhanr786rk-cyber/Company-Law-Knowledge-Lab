@@ -1,0 +1,29 @@
+{
+ "summary": "Section 450 of the Companies Act sets a general penalty for breaking company law rules when no specific punishment is mentioned elsewhere. It applies to companies, officers, and other persons who break these rules or ignore official approvals and conditions. The punishment is a base financial penalty plus an extra daily fine if the rule-breaking continues, up to a set maximum limit.",
+ "points": [
+  "Applies when a company, officer, or any person breaks any provision of the Act, rules, or conditions of official approvals.",
+  "Applies only if no other specific penalty or punishment is written elsewhere in the Act.",
+  "Makes the company, officer in default, or other person liable to a penalty of ten thousand rupees.",
+  "Adds a further penalty of one thousand rupees for each day the violation continues.",
+  "Sets a maximum limit of two lakh rupees for a company and fifty thousand rupees for an officer or other person."
+ ],
+ "example": "Aarav Logistics Private Limited failed to follow a specific condition attached to an official approval given under the Companies Act. The Act does not provide any other specific penalty for this exact mistake. Because of this, the company and the responsible officer broke the general rule under Section 450. As a result, the company and the officer are each liable to pay an initial penalty of ten thousand rupees. If they do not fix the mistake and the rule-breaking continues day by day, they will face an additional penalty of one thousand rupees for each day after the first day, stopping only when the total reaches the maximum limit of two lakh rupees for the company and fifty thousand rupees for the officer.",
+ "terms": [
+  {
+   "term": "contravenes",
+   "meaning": "Breaks or acts against a law, rule, or condition."
+  },
+  {
+   "term": "officer who is in default",
+   "meaning": "An officer of the company who is responsible for the rule-breaking or failure."
+  },
+  {
+   "term": "continuing contravention",
+   "meaning": "A rule-breaking action that goes on for more than one day without being fixed."
+  }
+ ],
+ "watch": "This section only applies when the law does not provide any other specific penalty for that particular mistake.",
+ "h": "7e56883929b1",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-11"
+}

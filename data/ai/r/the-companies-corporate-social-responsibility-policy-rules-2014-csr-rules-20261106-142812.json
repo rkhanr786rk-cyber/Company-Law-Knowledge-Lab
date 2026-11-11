@@ -1,0 +1,189 @@
+{
+ "2": {
+  "summary": "This rule gives the definitions of terms used in the Corporate Social Responsibility rules under the Companies Act, 2013. It explains what counts as CSR activities, administrative costs, and net profits, while also listing exclusions like normal business tasks and political donations. Understanding these definitions helps companies know what projects qualify for their social responsibility duties.",
+  "points": [
+   "Administrative overheads are general management expenses but exclude direct project costs.",
+   "CSR does not include normal business activities, tasks outside India, political donations, or employee benefits.",
+   "Net profit calculations exclude profits from overseas branches and certain domestic dividends.",
+   "An ongoing project is a multi-year project lasting up to three years beyond its start year."
+  ],
+  "example": "Meera Textiles Private Limited wanted to spend money on social welfare. They funded a training program for Indian sports personnel representing India at the international level. Later, the board decided to extend this project beyond one year with reasonable justification, making it an ongoing project. They made sure not to count any political party contributions or employee benefits as part of their CSR activities.",
+  "terms": [
+   {
+    "term": "Administrative overheads",
+    "meaning": "Expenses incurred for general management and administration of CSR functions."
+   },
+   {
+    "term": "Ongoing Project",
+    "meaning": "A multi-year project undertaken to fulfill CSR obligations with timelines not exceeding three years excluding the start year."
+   },
+   {
+    "term": "Act",
+    "meaning": "The Companies Act, 2013."
+   }
+  ],
+  "watch": "Remember that normal business activities do not count as CSR, except for specific vaccine or drug research related to COVID-19 under strict conditions.",
+  "h": "4f83b43c5cd7",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "3": {
+  "summary": "This rule explains which companies must follow the corporate social responsibility laws in India. It covers normal companies, their parent or child companies, and foreign companies with offices in India that meet specific legal criteria. It also requires companies with unspent corporate social responsibility funds to form a committee and follow related rules.",
+  "points": [
+   "Holding and subsidiary companies must follow the rules if they meet the criteria.",
+   "Foreign companies with a branch or project office in India must also comply.",
+   "Foreign companies calculate their financial numbers using specific sections of the Act.",
+   "Companies with money in an unspent corporate social responsibility account must form a committee."
+  ],
+  "example": "Meera Textiles Private Limited is a child company that meets the financial criteria under the Act. It has some money left over in its Unspent Corporate Social Responsibility Account. According to the rules, Meera Textiles Private Limited must set up a Corporate Social Responsibility Committee and follow all the instructions listed in sub-sections two through six of section 135.",
+  "terms": [
+   {
+    "term": "holding company",
+    "meaning": "A company that controls another company, known as a subsidiary."
+   },
+   {
+    "term": "subsidiary",
+    "meaning": "A company controlled by another company."
+   },
+   {
+    "term": "net worth",
+    "meaning": "The total value of a company's assets minus its liabilities."
+   }
+  ],
+  "watch": "Do not assume every company must follow these rules; only those meeting the criteria in section 135 or having unspent funds must do so.",
+  "h": "37f73468149f",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "4": {
+  "summary": "This rule explains how companies must carry out their Corporate Social Responsibility (CSR) activities. The board of directors must ensure that CSR work is done either by the company itself or through specific eligible organizations, trusts, or societies. Additionally, these implementing entities must register with the Central Government using a specific electronic form.",
+  "points": [
+   "The board must ensure CSR activities are done by the company or through approved section 8 companies, trusts, societies, or statutory bodies.",
+   "Entities intending to undertake CSR activities must register with the Central Government by filing Form CSR-1 electronically.",
+   "Companies may engage international organizations for designing, monitoring, evaluation, or capacity building.",
+   "The company's chief financial officer or person responsible for finance must certify that funds were used for approved purposes."
+  ],
+  "example": "Meera Textiles Private Limited wants to spend its CSR funds on a community education program. The board decides to partner with a registered public trust to implement the project. Before starting, the trust files Form CSR-1 electronically to get a unique registration number from the government. Meanwhile, Meera Textiles' chief financial officer certifies that the disbursed money is used properly, and the board monitors the ongoing project against approved timelines.",
+  "terms": [
+   {
+    "term": "Board",
+    "meaning": "The board of directors of a company."
+   },
+   {
+    "term": "Entity",
+    "meaning": "A statutory body constituted under an Act of Parliament or State legislature."
+   }
+  ],
+  "watch": "Ensure that the implementing entities register using Form CSR-1 before starting new projects, unless the project was approved prior to April 1, 2021.",
+  "h": "5355607e3bd4",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "5": {
+  "summary": "This rule explains how certain companies must form a Corporate Social Responsibility (CSR) Committee. The committee is responsible for creating and recommending an annual action plan for CSR activities to the company board. The board can later change this plan during the financial year if the committee recommends it with a good reason.",
+  "points": [
+   "Companies that do not need an independent director will have their CSR Committee without one.",
+   "A private company with only two directors will have both of them on its CSR Committee.",
+   "A foreign company's CSR Committee must have at least two persons based on specific legal requirements.",
+   "The CSR Committee must create an annual action plan covering approved projects, fund use, and schedules, and recommend it to the board."
+  ],
+  "example": "Meera Textiles Private Limited is a private company that has only two directors on its board. To follow the rules, the company constitutes its CSR Committee with those exact two directors. This committee then prepares an annual action plan detailing their approved CSR projects, how funds will be used, and the schedules for implementation, and submits this plan to the board for approval.",
+  "terms": [
+   {
+    "term": "CSR Committee",
+    "meaning": "A group of people inside a company who plan and manage social responsibility activities."
+   },
+   {
+    "term": "Independent director",
+    "meaning": "A board member who does not have a material or pecuniary relationship with the company."
+   },
+   {
+    "term": "Action plan",
+    "meaning": "A detailed roadmap showing how projects will be executed, funded, and monitored."
+   }
+  ],
+  "watch": "Do not assume the board cannot change the CSR plan after it is made, as the board is allowed to alter it with proper justification from the committee.",
+  "h": "55ec4174d77a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "7": {
+  "summary": "This rule explains how companies must handle their Corporate Social Responsibility money. It covers limits on running costs, how to use extra money or surplus funds, setting off excess spending against future years, and who can own capital assets created using CSR funds. It is designed to keep CSR spending transparent and properly managed.",
+  "points": [
+   "Administrative overheads cannot be more than five percent of total CSR expenditure for the financial year.",
+   "Surplus money from CSR activities cannot be treated as business profit and must be reused in the same project, transferred to the Unspent CSR Account within six months, or sent to a Schedule VII Fund.",
+   "Excess money spent can be set off against future requirements for up to three succeeding financial years, provided the Board passes a resolution.",
+   "Capital assets created using CSR funds can be held by section 8 companies, registered trusts, societies, beneficiaries, or public authorities."
+  ],
+  "example": "Meera Textiles Private Limited spent money on a CSR project and found it had some surplus funds left over. Following the rules, the company did not add this surplus to its business profits. Instead, the Board decided to transfer the surplus amount into the Unspent CSR Account within six months of the financial year ending. Later, when the company spent more than required on another project, the Board passed a resolution to set off that excess spending against future requirements in the next financial year.",
+  "terms": [
+   {
+    "term": "Administrative overheads",
+    "meaning": "The general costs of running and managing the CSR projects."
+   },
+   {
+    "term": "Surplus",
+    "meaning": "Extra money left over after completing the CSR activities."
+   },
+   {
+    "term": "Capital asset",
+    "meaning": "Long-term property or equipment created or acquired using funds."
+   }
+  ],
+  "watch": "Remember that surplus funds from CSR cannot be counted as regular business profits.",
+  "h": "6d1782884a8d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "8": {
+  "summary": "This rule explains how companies must report on their Corporate Social Responsibility activities in their yearly reports. Companies with large CSR obligations must also hire an independent agency to check the impact of their big projects. They can use a part of their CSR budget to pay for this assessment.",
+  "points": [
+   "The Board Report of a covered company must include an annual CSR report following specific formats.",
+   "For a foreign company, the CSR annual report must be included in the balance sheet it files.",
+   "Companies with an average CSR obligation of ten crore rupees or more over the past three years must do an impact assessment for completed projects costing one crore rupees or more.",
+   "The cost of the impact assessment can be counted as CSR expenditure up to a certain limit."
+  ],
+  "example": "Meera Textiles Private Limited had a high average CSR obligation of twelve crore rupees over the last three years. The company recently completed a large community health project costing one crore rupees, finished more than a year ago. Meera Textiles hired an independent agency to do an impact assessment of this project. The assessment report was placed before the Board and added to the annual CSR report, and the company booked the assessment expense as part of its yearly CSR spending.",
+  "terms": [
+   {
+    "term": "Board's Report",
+    "meaning": "A yearly report prepared by the directors of a company for its shareholders."
+   },
+   {
+    "term": "Foreign company",
+    "meaning": "A company incorporated outside India that has a place of business in India."
+   },
+   {
+    "term": "Impact assessment",
+    "meaning": "A study done by an outside expert to check the results and effects of a completed project."
+   }
+  ],
+  "watch": "People often confuse the total CSR budget of a company with the specific project cost required to trigger an impact assessment.",
+  "h": "4b1e62d3795d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "10": {
+  "summary": "This rule explains how a company must handle any unspent money meant for Corporate Social Responsibility. Until a specific fund is named under the Act, the company must transfer any unspent CSR money into any fund listed in Schedule VII. This ensures the money still goes toward approved social welfare activities.",
+  "points": [
+   "Unspent CSR money must be moved by the company.",
+   "The transfer goes to any fund included in schedule VII of the Act.",
+   "This applies until a specific fund is named under section 135."
+  ],
+  "example": "Meera Textiles Private Limited found itself with some unspent Corporate Social Responsibility money at the end of the year. Because a specific fund was not yet named under the law for this purpose, the company decided to follow the rule. The managers transferred the unspent CSR amount to an approved fund listed in Schedule VII of the Act so the funds could still be used for proper social activities.",
+  "terms": [
+   {
+    "term": "Corporate Social Responsibility",
+    "meaning": "Activities and programs undertaken by companies to help society as specified in Schedule VII of the Act."
+   },
+   {
+    "term": "Schedule VII",
+    "meaning": "A list in the law that sets out the types of activities and funds allowed for social responsibility spending."
+   }
+  ],
+  "watch": "Make sure to transfer the money only to funds included in Schedule VII of the Act.",
+  "h": "1412250e7c90",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

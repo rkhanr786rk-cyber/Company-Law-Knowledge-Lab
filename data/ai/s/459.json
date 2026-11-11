@@ -1,0 +1,28 @@
+{
+ "summary": "This section allows the Central Government or the Tribunal to attach conditions, limitations, or restrictions when they approve, exempt, or direct matters under the Act. If someone breaks these conditions, the approval or exemption can be taken back. Additionally, any application made to them under the Act must include the required fees, which can vary for different matters or types of companies.",
+ "points": [
+  "The Central Government or the Tribunal can add conditions, limitations, or restrictions when giving approvals, sanctions, consents, confirmations, recognitions, directions, or exemptions.",
+  "If anyone breaks these conditions, the Central Government or Tribunal can cancel or withdraw the approval, sanction, consent, confirmation, recognition, direction, or exemption.",
+  "Every application made to the Central Government or the Tribunal under the Act must include the required fees.",
+  "Different fees can be set for different types of matters or different classes of companies."
+ ],
+ "example": "Aarav Textiles Private Limited applied to the Central Government for a specific approval under the Companies Act, 2013, and paid the prescribed fee along with their application. The Central Government granted the approval, but added a specific condition that the company had to follow. A few months later, Aarav Textiles Private Limited broke this condition. Because of this rule violation, the Central Government used its power to withdraw the approval it had previously given to the company.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A specialized official body set up to deal with specific legal disputes and matters under the law."
+  },
+  {
+   "term": "Rescind",
+   "meaning": "To cancel or officially take back a decision or agreement."
+  },
+  {
+   "term": "Prescribed",
+   "meaning": "Set or required by the rules or law."
+  }
+ ],
+ "watch": "Do not assume that fees are the same for all companies, as the law allows different fees for different classes of companies.",
+ "h": "eb1fe10cdf31",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-11"
+}

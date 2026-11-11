@@ -1,0 +1,28 @@
+{
+ "summary": "This section protects the government, its officers, and other persons from legal action for actions done or intended in good faith under the Companies Act, 2013. It also protects them when they publish official reports, papers, or proceedings under government authority. This ensures officials can do their work without fear of being sued personally for honest actions.",
+ "points": [
+  "Protects the Government and its officers from lawsuits and prosecutions.",
+  "Applies to any person acting in good faith under this Act, rules, or orders.",
+  "Covers things that are actually done or even just intended to be done.",
+  "Protects the publication of reports, papers, or proceedings authorized by the Government or its officers."
+ ],
+ "example": "Mr. Sharma, a government officer working under the Companies Act, 2013, reviewed the annual filings of Meera Textiles Private Limited. Believing in good faith that a certain official report needed to be published for public awareness, he published it under the authority of the government. Later, Meera Textiles Private Limited felt the publication caused them business harm and wanted to file a lawsuit against Mr. Sharma. Because Mr. Sharma acted in good faith while following his official duties under the Act, Section 456 protects him from any such legal proceeding or prosecution.",
+ "terms": [
+  {
+   "term": "Suit",
+   "meaning": "A civil court case brought by someone to get a remedy or compensation."
+  },
+  {
+   "term": "Prosecution",
+   "meaning": "The institution and conducting of legal proceedings against someone in a criminal court."
+  },
+  {
+   "term": "Good faith",
+   "meaning": "Acting honestly and with a sincere intention, without any unfair purpose."
+  }
+ ],
+ "watch": "This protection only applies to actions done in good faith, so dishonest or malicious acts are not protected.",
+ "h": "5f9d8ed84840",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-11"
+}

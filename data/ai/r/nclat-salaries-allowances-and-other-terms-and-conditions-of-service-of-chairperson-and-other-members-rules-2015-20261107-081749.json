@@ -1,0 +1,25 @@
+{
+ "2": {
+  "summary": "This rule explains the basic meanings of words used in the 2015 rules for the tribunal. It clarifies that the term Act refers to the Companies Act, 2013. It also states that any word not defined here will take its meaning directly from the Act.",
+  "points": [
+   "The word Act means the Companies Act, 2013.",
+   "The word Chairperson means the leader of the Appellate Tribunal appointed under section 412.",
+   "Any other words used in these rules take their meanings from the main Act."
+  ],
+  "example": "When Aarav reads the official rules for Meera Textiles Private Limited, he is confused by the word Act. He checks this definition rule to understand that it refers specifically to the Companies Act, 2013. Later, when he sees another undefined legal word, he knows to look up its meaning directly inside the main Act as the rules permit.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher official body that reviews decisions."
+   },
+   {
+    "term": "Chairperson",
+    "meaning": "The head person in charge of the tribunal."
+   }
+  ],
+  "watch": "Do not assume words without definitions in these rules mean ordinary dictionary things if they are already defined in the Companies Act.",
+  "h": "fb66523666cd",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

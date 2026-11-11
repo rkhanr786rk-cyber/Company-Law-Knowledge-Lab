@@ -1,0 +1,101 @@
+{
+ "2": {
+  "summary": "This rule gives the basic meanings of words used in the rules for listing shares outside India. It explains terms like Act, Authority, and equity instruments. Any words not explained here will take their meanings from the main Companies Act or other specific rules.",
+  "points": [
+   "The Act means the Companies Act, 2013.",
+   "Equity instruments include equity shares, convertible debentures, and preference shares issued by Indian companies.",
+   "Permissible jurisdictions are listed in the First Schedule of the rules.",
+   "Words not defined here follow the definitions in the Act, related rules, or the official Scheme."
+  ],
+  "example": "Meera Textiles Private Limited wants to understand what counts as an equity instrument before listing its securities abroad. According to the rules, its equity shares, preference shares, and convertible debentures all qualify as equity instruments. When the company directors encounter terms not explicitly clarified in these specific rules, they refer back to the definitions provided in the main Companies Act, 2013, to ensure everything complies properly with the official guidelines.",
+  "terms": [
+   {
+    "term": "equity instruments",
+    "meaning": "Financial items like equity shares, convertible debentures, and preference shares issued by an Indian company."
+   },
+   {
+    "term": "permissible jurisdiction",
+    "meaning": "A country or region specifically named in the First Schedule where listing is allowed."
+   }
+  ],
+  "watch": "Do not assume a word means its everyday English dictionary definition if it is specially defined in the Act or rules.",
+  "h": "8cb8d333ba58",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "4": {
+  "summary": "An unlisted public company that meets certain conditions may issue or offer equity instruments for listing on a stock exchange in a permissible jurisdiction. The company or its existing holders must follow the Scheme and file the prospectus in e-Form LEAP-1 within seven days. After listing, the company must also follow Indian Accounting Standards when preparing its financial statements.",
+  "points": [
+   "Unlisted public companies not covered by rule 5 and with no partly paid-up instruments can issue or offer equity instruments for listing abroad.",
+   "The company or existing holders must comply with the requirements of the Scheme.",
+   "Companies also listing in India must follow conditions set by the Securities and Exchange Board of India.",
+   "The prospectus must be filed in e-Form LEAP-1 with fees within seven days of finalisation and filing abroad.",
+   "The company must comply with Indian Accounting Standards for financial statements after listing."
+  ],
+  "example": "Meera Textiles Private Limited is an unlisted public company with fully paid-up shares and does not fall under rule 5. The company decides to list its equity instruments on a permitted stock exchange in a permissible jurisdiction. Existing holders also offer some of their shares for sale. The company files its prospectus in e-Form LEAP-1 within seven days of filing it with the foreign exchange, and later uses Indian Accounting Standards for its financial statements.",
+  "terms": [
+   {
+    "term": "unlisted public company",
+    "meaning": "A company that is not a private company and whose shares are not traded on a recognised stock exchange."
+   },
+   {
+    "term": "prospectus",
+    "meaning": "A formal document describing securities offered for sale to the public."
+   },
+   {
+    "term": "equity instruments",
+    "meaning": "Financial documents representing ownership shares in a company, such as shares."
+   }
+  ],
+  "watch": "A common confusion is assuming companies can use foreign accounting standards alone without following Indian Accounting Standards.",
+  "h": "4a85238e62ca",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "5": {
+  "summary": "This rule lists the types of companies that cannot list their equity instruments in permissible jurisdictions. It covers companies with specific legal structures, financial issues, past defaults, or pending winding-up proceedings. Certain exceptions apply, such as for companies with negative net worth if they meet specific allotment conditions.",
+  "points": [
+   "Companies registered under section 8, Nidhi companies, or companies limited by guarantee with share capital cannot list.",
+   "Companies with public deposits, negative net worth (unless an exception applies), or unpaid dues to banks and secured creditors are barred.",
+   "Companies with pending winding-up or resolution proceedings, or those that defaulted on filing annual returns and financial statements without fixing it, cannot list."
+  ],
+  "example": "Meera Textiles Private Limited wants to list its equity instruments in a permissible jurisdiction. However, the company currently has outstanding deposits accepted from the public. Because of this active public deposit, Meera Textiles Private Limited is not eligible to list its equity instruments under these rules.",
+  "terms": [
+   {
+    "term": "net worth",
+    "meaning": "The total value of assets minus liabilities as defined under section 2 of the Act."
+   },
+   {
+    "term": "winding-up",
+    "meaning": "The legal process of closing down a company and settling its affairs."
+   }
+  ],
+  "watch": "A company with a negative net worth can still list if it meets the specific qualified institutional buyers allotment rule.",
+  "h": "2257781537f1",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "3": {
+  "summary": "These rules explain which types of public companies can issue their shares to list them on permitted stock exchanges in foreign countries. They apply to normal unlisted public companies, listed public companies following specific market rules, and unlisted public companies in certain special financial centres. They do not apply to normal public companies located within those special financial centres.",
+  "points": [
+   "Applies to unlisted public companies, excluding those in International Financial Services Centres.",
+   "Applies to listed public companies if they follow Securities and Exchange Board or Authority rules.",
+   "Applies to unlisted public companies in International Financial Services Centres if they follow specific financial centre laws."
+  ],
+  "example": "Meera Textiles Private Limited is an unlisted public company in India that wants to issue its shares to list them on a permitted stock exchange in a permissible foreign jurisdiction. Because it is a normal unlisted public company and not located in an International Financial Services Centre, these rules apply to its plans for listing abroad.",
+  "terms": [
+   {
+    "term": "unlisted public company",
+    "meaning": "A type of company whose shares are offered to the public but are not traded on a recognized stock exchange."
+   },
+   {
+    "term": "securities",
+    "meaning": "Financial instruments like shares that a company issues."
+   }
+  ],
+  "watch": "A common confusion is assuming these rules apply to all companies in International Financial Services Centres, but normal public companies there are excluded.",
+  "h": "8104733f6744",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

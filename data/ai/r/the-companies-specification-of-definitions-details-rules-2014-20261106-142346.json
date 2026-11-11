@@ -1,0 +1,99 @@
+{
+ "2": {
+  "summary": "This rule gives clear meanings to common words used in the company rules, such as electronic mail, forms, and digital signatures. It helps people understand what these terms mean under the law. It also sets basic definitions for numbers used to identify directors and offices.",
+  "points": [
+   "Defines common terms like Act, e-form, and electronic mail for company rules.",
+   "Explains that a Director Identification Number is an ID given to people who want to be or already are company directors.",
+   "States that small companies have specific limits for paid-up capital and turnover."
+  ],
+  "example": "Aarav wanted to become a director of Meera Textiles Private Limited. Before he could join the board, the company applied for a special identification number from the Central Government to identify him as a director. This number, known as a Director Identification Number, was successfully issued to Aarav so the company could submit its electronic forms properly.",
+  "terms": [
+   {
+    "term": "Director Identification Number",
+    "meaning": "An identification number given by the Central Government to a person who is or wants to be a director of a company."
+   },
+   {
+    "term": "e-Form",
+    "meaning": "A form in electronic format prescribed under the Act and notified by the Central Government."
+   }
+  ],
+  "watch": "Make sure not to confuse a normal digital signature with the specific legal definition given under the Information Technology Act.",
+  "h": "21ba3a055636",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "2A": {
+  "summary": "This rule explains which companies are not treated as listed companies under the law, even if they have certain securities on a stock exchange. It helps identify companies that do not fall into the listed category based on what types of shares or debt they have issued. The rule covers specific situations involving public and private companies.",
+  "points": [
+   "Public companies without listed equity shares are not listed companies if they only have privately placed non-convertible debt securities or preference shares on a stock exchange.",
+   "Private companies with listed non-convertible debt securities on a stock exchange are not considered listed companies.",
+   "Public companies without listed equity shares on a recognized stock exchange in India are not listed companies if their equity shares are listed in certain foreign jurisdictions specified by the law."
+  ],
+  "example": "Meera Textiles Private Limited is a private company. It has not offered its shares to the general public, but it has listed its non-convertible debt securities on a recognized stock exchange through a private placement. According to the rule, Meera Textiles Private Limited will not be considered a listed company.",
+  "terms": [
+   {
+    "term": "private placement",
+    "meaning": "A way of selling securities to a select group of people rather than the general public."
+   },
+   {
+    "term": "recognized stock exchange",
+    "meaning": "An official market where shares and other securities are bought and sold."
+   }
+  ],
+  "watch": "Do not assume a company is a listed company just because it has some securities traded on a stock exchange.",
+  "h": "ccdab219d66f",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "3": {
+  "summary": "This rule explains who counts as a related party under the law. It states that certain directors and key managers of a holding company, along with their relatives, are connected to the main company. This helps the law keep track of special connections between businesses and the people who run them.",
+  "points": [
+   "Applies to directors, except independent directors.",
+   "Applies to key managerial personnel of the holding company.",
+   "Includes the relatives of those directors and managers."
+  ],
+  "example": "Meera Textiles Private Limited has a parent organization called Apex Holdings. Mr. Roy works as a key manager at Apex Holdings. Under this rule, Mr. Roy and his family members are considered related parties with respect to Meera Textiles Private Limited because of his high-level position in the holding company.",
+  "terms": [
+   {
+    "term": "holding company",
+    "meaning": "A company that owns or controls another company, which is called its subsidiary."
+   },
+   {
+    "term": "key managerial personnel",
+    "meaning": "Top officers of a company who run its daily operations, such as the chief executive or chief financial officer."
+   },
+   {
+    "term": "independent director",
+    "meaning": "A board member who does not have a material or pecuniary relationship with the company, helping ensure unbiased decisions."
+   }
+  ],
+  "watch": "Do not confuse independent directors with other directors, as independent directors are excluded from this specific rule.",
+  "h": "e507525dec6e",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "4": {
+  "summary": "This rule explains who counts as a relative of a person under company law. It lists specific family members and includes step-relatives where stated. This helps companies know who is officially related to someone.",
+  "points": [
+   "A father includes a step-father.",
+   "A mother includes a step-mother.",
+   "A son includes a step-son, and a brother includes a step-brother.",
+   "A sister includes a step-sister."
+  ],
+  "example": "Aarav works with Meera Textiles Private Limited and needs to check his official relatives for company compliance. According to the rules, Aarav includes his step-father as his father, and his step-brother as his brother. This official list ensures that family connections like his sister, daughter, and son's wife are all correctly identified under the law without any confusion.",
+  "terms": [
+   {
+    "term": "Deemed",
+    "meaning": "Treated as being something for the purpose of the law."
+   },
+   {
+    "term": "Relative",
+    "meaning": "A person connected by blood, marriage, or adoption as defined by the rules."
+   }
+  ],
+  "watch": "Remember that step-parents and step-siblings count as relatives, but check the exact list because not every family member is included.",
+  "h": "c7fe9f0d0c47",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

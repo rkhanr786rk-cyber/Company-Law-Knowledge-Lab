@@ -1,0 +1,32 @@
+{
+ "summary": "This section punishes anyone who uses the words \"Limited\" or \"Private Limited\" at the end of their business name without being properly registered as a company with limited liability. The punishment is a daily fine for every single day the improper name is used. It applies to any person or group carrying on business under such a title.",
+ "points": [
+  "Forbids trading or carrying on business using \"Limited\" or \"Private Limited\" as the last words of a name without proper incorporation.",
+  "Applies to any person or group of persons using the unauthorized name or title.",
+  "Requires the business to be duly incorporated with limited liability to legally use these words.",
+  "Punishes offenders with a fine ranging from five hundred rupees up to two thousand rupees for every day the name is used."
+ ],
+ "example": "Rahul and Amit decided to start a small stationery shop together. Without registering their business legally as a company, they printed a big signboard outside their shop that read \"Rahul and Amit Stationery Private Limited\". They wanted customers to trust them more by looking like a big registered company. However, because they did not complete the legal incorporation process to get limited liability, using \"Private Limited\" at the end of their business name is forbidden. As a result, Rahul and each of those persons are punishable with a daily fine for every single day that they used this unauthorized title for their shop.",
+ "terms": [
+  {
+   "term": "Limited",
+   "meaning": "A word used at the end of a company name to show that the owners have limited liability."
+  },
+  {
+   "term": "Private Limited",
+   "meaning": "Words used at the end of a private company name to show limited liability."
+  },
+  {
+   "term": "Incorporated",
+   "meaning": "Legally formed and registered as a company."
+  },
+  {
+   "term": "Fine",
+   "meaning": "A sum of money that must be paid as a punishment for breaking the law."
+  }
+ ],
+ "watch": "People often confuse using these words casually with actually being legally registered as a company.",
+ "h": "c53ba46a46fb",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-11"
+}

@@ -1,0 +1,28 @@
+{
+ "summary": "This section punishes anyone who gives false information or leaves out important facts in official company documents. If a person knows the statement is false or that the omitted fact is important, they will face punishment. This rule applies to all documents required by the Companies Act, unless the law says otherwise.",
+ "points": [
+  "Applies to returns, reports, certificates, financial statements, prospectuses, and other official documents.",
+  "Forbids making any statement that is false in important ways while knowing it is false.",
+  "Forbids leaving out any important fact while knowing that fact is material.",
+  "Makes the person who provides the false or incomplete document liable under section 447."
+ ],
+ "example": "Aarav is the director of Zenith Technologies Private Limited. While preparing the company's annual financial statement required by the Companies Act, Aarav knowingly includes a false figure for the company's cash reserves. He also intentionally leaves out a major financial liability that he knows is important for anyone reading the document. Because Aarav submitted a document containing statements that are false in material particulars and omitted a material fact knowing it was material, he is liable under section 447 of the Act.",
+ "terms": [
+  {
+   "term": "Material particulars",
+   "meaning": "Important details that can affect decisions or understanding of a document."
+  },
+  {
+   "term": "Prospectus",
+   "meaning": "An official document that invites the public to buy shares or debentures of a company."
+  },
+  {
+   "term": "Liable",
+   "meaning": "Legally responsible for something, especially for breaking a law."
+  }
+ ],
+ "watch": "Make sure not to confuse an innocent mistake with this offense, because the law requires knowing the statement is false or the fact is material.",
+ "h": "f7fdb9cae410",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-11"
+}

@@ -1,0 +1,29 @@
+{
+ "summary": "The Central Government has the power to change the Schedules of this Act by issuing an official notice. These changes become law on the date specified in the notice, but they must also be shown to both Houses of Parliament. Parliament can later agree to change or cancel these updates, though past actions remain valid.",
+ "points": [
+  "The Central Government can alter regulations, rules, Tables, forms, and other provisions in the Schedules by notification.",
+  "Changes generally come into force on the date of the notification unless stated otherwise.",
+  "Changes to Table F of Schedule I do not apply to companies registered before the date of that alteration.",
+  "Every alteration must be placed before each House of Parliament while it is in session.",
+  "Parliament may decide to modify or cancel the alteration, but this does not affect anything already done under it."
+ ],
+ "example": "The Central Government decides to update a standard form listed in a Schedule to this Act for companies like Meera Textiles Private Limited. It issues an official notification stating the new form comes into force immediately. A few weeks later, the alteration is presented before both Houses of Parliament while they are in session. Parliament reviews the change and decides to modify it. Because of this parliamentary decision, the form takes the modified form moving forward, but all official documents and filings already submitted by Meera Textiles using the previous altered form remain completely valid and legal.",
+ "terms": [
+  {
+   "term": "Notification",
+   "meaning": "An official public announcement or notice."
+  },
+  {
+   "term": "Schedule",
+   "meaning": "An extra list or table at the end of an Act that gives added details."
+  },
+  {
+   "term": "Annulment",
+   "meaning": "The act of making something legally void or canceled."
+  }
+ ],
+ "watch": "People often confuse the immediate effect of a government notification with permanent law before Parliament has finished reviewing it.",
+ "h": "f29a084c3bca",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-11"
+}

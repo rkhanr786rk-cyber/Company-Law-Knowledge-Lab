@@ -1,0 +1,74 @@
+{
+ "4": {
+  "summary": "This rule explains how the Director, experts, officers, and employees of the Serious Fraud Investigation Office get their jobs and service conditions. Different people are governed by different rules depending on where they come from or how they are hired. The Central Government decides these terms through specific schemes and rules.",
+  "points": [
+   "The Director's appointment follows the Central Government's deputation rules.",
+   "Experts, officers, and employees from government bodies follow notified recruitment rules under the Constitution.",
+   "The Central Government can also hire experts or consultants on a contract basis through an approved scheme."
+  ],
+  "example": "Meera Textiles Private Limited is facing a serious fraud inquiry. The Central Government assigns a Director to the Serious Fraud Investigation Office under the Central Staffing Scheme deputation rules. Meanwhile, they hire an expert from a Public Sector Undertaking following the recruitment rules notified under Article 309 of the Constitution. They also bring in an independent professional firm on a contractual basis using the Central Government's approved engagement scheme.",
+  "terms": [
+   {
+    "term": "Deputation",
+    "meaning": "An arrangement where an official is sent temporarily to work in another department or office."
+   },
+   {
+    "term": "Public Sector Undertaking",
+    "meaning": "A company owned by the government."
+   },
+   {
+    "term": "Contractual basis",
+    "meaning": "Working for a specific job or period based on a written agreement rather than as a permanent regular employee."
+   }
+  ],
+  "watch": "Do not assume that all workers at the Serious Fraud Investigation Office are hired the same way, as the rules differ for the Director, government-linked staff, and contract professionals.",
+  "h": "f4d55a6d781c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "5": {
+  "summary": "The Central Government can ask someone who applies for a company investigation to pay a security deposit before appointing an inspector. The amount depends on the company's turnover from the previous year. If the investigation leads to a prosecution, this security deposit is refunded to the applicant.",
+  "points": [
+   "The government may ask applicants for a security deposit before starting an investigation.",
+   "The security amount is based on the company's turnover and ranges from Rs. 10,000 to Rs. 25,000.",
+   "The deposit is refunded if the investigation results in prosecution."
+  ],
+  "example": "Meera Textiles Private Limited had a turnover of Rs. 40 crore in the previous year balance sheet. When an applicant asked the Central Government to investigate the company under Section 210, the government required the applicant to give a security of Rs. 10,000 for the costs and expenses of the investigation. Later, the investigation resulted in prosecution, so the government refunded the security to the applicant.",
+  "terms": [
+   {
+    "term": "Turnover",
+    "meaning": "The total volume of business made by a company over a period."
+   },
+   {
+    "term": "Prosecution",
+    "meaning": "Legal proceedings against someone in respect of a criminal charge."
+   }
+  ],
+  "watch": "People often confuse this deposit as a permanent fee, but it is actually refunded if the investigation leads to prosecution.",
+  "h": "aa0e3ae59880",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "6": {
+  "summary": "This rule explains how an official document called a letter of request is sent. It states that the sending must happen in the exact way decided by the Ministry of Corporate Affairs. The text provided is very short and does not give details about who receives the letter or why.",
+  "points": [
+   "The letter of request must be transmitted.",
+   "The transmission must follow the manner specified by the Ministry of Corporate Affairs."
+  ],
+  "example": "An inspector appointed under the Companies Act, 2013 needs to send a letter of request related to an ongoing inquiry into Meera Textiles Private Limited. To do this correctly, the inspector checks the official guidelines issued by the Ministry of Corporate Affairs to find out the proper method for sending the document. The inspector then uses that exact specified manner to transmit the letter of request.",
+  "terms": [
+   {
+    "term": "Letter of request",
+    "meaning": "An official written document asking for information or assistance."
+   },
+   {
+    "term": "Transmit",
+    "meaning": "To send or pass something from one place or person to another."
+   }
+  ],
+  "watch": "Do not assume any specific method of sending the letter unless the Ministry officially states it.",
+  "h": "33d63bed748c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

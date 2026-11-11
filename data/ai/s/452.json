@@ -1,0 +1,29 @@
+{
+ "summary": "This section punishes officers or employees who wrongfully take, keep, or misuse company property or cash. If someone does this, the company, its members, creditors, or contributors can file a complaint against them. The court can order them to pay a fine, return the property, or face imprisonment under certain conditions.",
+ "points": [
+  "Forbids officers or employees from wrongfully taking company property or cash.",
+  "Forbids keeping company property or using it for unauthorized purposes.",
+  "Allows the company, members, creditors, or contributors to file a complaint.",
+  "Requires a fine between one lakh and five lakh rupees for the offense.",
+  "Allows the court to order the return of the property or cash within a set time, with possible imprisonment in default."
+ ],
+ "example": "Rahul works as an officer at Meera Textiles Private Limited. He takes some company cash and uses it to buy a personal vehicle, which is not authorized by the company rules. The company files a complaint against him under this section. The court finds Rahul guilty and orders him to pay a fine and refund the cash by a specific deadline. If Rahul fails to return the money or property as ordered, the court may send him to prison for up to two years, unless a special exception regarding unpaid employee welfare funds applies to his housing.",
+ "terms": [
+  {
+   "term": "creditor",
+   "meaning": "A person or company to whom money is owed."
+  },
+  {
+   "term": "contributory",
+   "meaning": "A person liable to contribute to the assets of a company in the event of its winding up."
+  },
+  {
+   "term": "misapplied",
+   "meaning": "Used for the wrong purpose."
+  }
+ ],
+ "watch": "Note that imprisonment is a default penalty if the person fails to return the property or cash ordered by the court.",
+ "h": "e7c84db05211",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-11"
+}

@@ -1,0 +1,25 @@
+{
+ "summary": "This section protects the source of confidential information given to the government. It applies even if other laws say otherwise. Officials cannot be forced to reveal where they got information that started or helped an investigation.",
+ "points": [
+  "Applies regardless of any other existing law.",
+  "Stops the Registrar, government officers, and other persons from being forced to reveal their information source.",
+  "Protects sources that led the Central Government to order an investigation under section 210.",
+  "Protects sources whose information is or has been material or relevant to such an investigation.",
+  "Applies to disclosures demanded by any court, Tribunal, or other authority."
+ ],
+ "example": "An officer at the Ministry of Corporate Affairs receives a secret tip about financial wrongdoing at Meera Textiles Private Limited. This tip leads the Central Government to order a formal investigation under section 210. Later, a court hearing a separate legal dispute demands that the officer reveal the exact name of the person who gave the tip. Based on this section, the officer is not required to disclose that source to the court, keeping the whistleblower's identity fully protected even though another law might normally require sharing evidence.",
+ "terms": [
+  {
+   "term": "Tribunal",
+   "meaning": "A special official body set up to deal with specific types of legal disputes, outside of standard courts."
+  },
+  {
+   "term": "Central Government",
+   "meaning": "The national government of the country."
+  }
+ ],
+ "watch": "People often think courts can demand any document, but this rule specifically blocks courts and tribunals from forcing officials to name their secret informants.",
+ "h": "3cf80226c9ae",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-11"
+}

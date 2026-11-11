@@ -1,0 +1,30 @@
+{
+ "2": {
+  "summary": "This rule limits most companies to having a maximum of two layers of subsidiary companies. Certain special companies, such as banks and insurance firms, are exempt from this restriction. Companies that already had extra layers before the rule must report them and cannot add new ones.",
+  "points": [
+   "Most companies cannot have more than two layers of subsidiaries.",
+   "Wholly owned subsidiaries are not counted when calculating the number of layers.",
+   "Certain companies like banks, insurance companies, and government companies are exempt.",
+   "Companies with excess layers before the rule must file a return in Form CRL-1 within the given period."
+  ],
+  "example": "Meera Textiles Private Limited is a standard manufacturing firm. It owns Sunshine Fabrics Private Limited, which in turn owns Pearl Garments Private Limited. This creates two layers of subsidiaries, which is allowed under the rule. If Meera Textiles wants to buy a foreign company that has its own deeper layers of subsidiaries as permitted by foreign laws, it is allowed to do so under the provided exception.",
+  "terms": [
+   {
+    "term": "Subsidiary",
+    "meaning": "A company that is controlled by another company."
+   },
+   {
+    "term": "Wholly owned subsidiary",
+    "meaning": "A subsidiary whose entire share capital is owned by the parent company."
+   },
+   {
+    "term": "Contravenes",
+    "meaning": "Breaks or acts against a rule or law."
+   }
+  ],
+  "watch": "People often forget that wholly owned subsidiaries are not counted when calculating the total number of layers.",
+  "h": "eaf402c6f111",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}

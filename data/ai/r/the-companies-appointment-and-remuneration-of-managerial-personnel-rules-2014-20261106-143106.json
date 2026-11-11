@@ -1,0 +1,60 @@
+{
+ "9": {
+  "summary": "This rule explains which specific companies must get a secretarial audit report under the Companies Act. It applies to certain public companies and companies with large loans based on their latest audited financial statements. The report itself must be prepared in a specific official format called Form No. MR.3.",
+  "points": [
+   "Public companies with a paid-up share capital of fifty crore rupees or more need this audit.",
+   "Public companies with a turnover of two hundred fifty crore rupees or more need this audit.",
+   "Any company with outstanding bank or public financial institution loans of one hundred crore rupees or more needs this audit.",
+   "The audit report must follow the format given in Form No. MR.3.",
+   "The financial limits are checked using the numbers from the last date of the latest audited financial statement."
+  ],
+  "example": "Sunrise Public Limited has a paid-up share capital of sixty crore rupees, which crosses the fifty crore limit set by the rules. Because of this, the company must obtain a Secretarial Audit Report. Their auditor must prepare this report using the exact layout required by Form No. MR.3, checking the numbers from the company's latest audited financial statement.",
+  "terms": [
+   {
+    "term": "Paid-up share capital",
+    "meaning": "The total amount of money that shareholders have paid to the company in exchange for shares."
+   },
+   {
+    "term": "Turnover",
+    "meaning": "The total volume of business revenue or sales made by a company during a specific period."
+   },
+   {
+    "term": "Secretarial Audit Report",
+    "meaning": "An official report checking if a company is following all the laws and rules that apply to it."
+   }
+  ],
+  "watch": "People often confuse whether to use current estimates or past numbers, but the rule requires looking at the numbers from the last date of the latest audited financial statement.",
+  "h": "eb2b2c8b28eb",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ },
+ "10": {
+  "summary": "This rule outlines the specific duties that a company secretary must perform for a company. These duties include guiding directors, organizing meetings, getting official approvals, and helping the board maintain good corporate governance. The company secretary must also carry out any other duties assigned by the board or the law.",
+  "points": [
+   "Provide guidance to directors on their duties, responsibilities, and powers.",
+   "Organize and attend board, committee, and general meetings while keeping their minutes.",
+   "Obtain required approvals from the board, meetings, the government, and other authorities.",
+   "Represent the company before various regulators and authorities under the Act.",
+   "Assist the board in corporate governance and daily company affairs."
+  ],
+  "example": "At Meera Textiles Private Limited, the directors needed advice on their powers and responsibilities. The company secretary, Mr. Sharma, provided the necessary guidance and helped organize the upcoming board meeting. He also prepared the meeting minutes and ensured that all required approvals from the government were properly obtained.",
+  "terms": [
+   {
+    "term": "Minutes",
+    "meaning": "The written official record of what happened during a meeting."
+   },
+   {
+    "term": "Corporate governance",
+    "meaning": "The system of rules and practices by which a company is directed and controlled."
+   },
+   {
+    "term": "Regulators",
+    "meaning": "Official authorities responsible for supervising and enforcing rules under the law."
+   }
+  ],
+  "watch": "People often confuse the duties of a company secretary with those of the board of directors, but the secretary assists and guides the board rather than making executive decisions.",
+  "h": "6a265068499e",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-11"
+ }
+}
