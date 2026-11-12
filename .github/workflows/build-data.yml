@@ -1,7 +1,7 @@
 name: Build data and website
 on:
   push:
-    paths: ["**.pdf", "**.py", "web/**", ".github/workflows/**"]
+    paths: ["**.pdf", "**.py", "web/**", "drafts/**", ".github/workflows/**"]
   workflow_dispatch:
 permissions:
   contents: write
@@ -30,6 +30,16 @@ jobs:
         run: python "$(find . -name parse_rules.py -not -path './.git/*' | head -n 1)"
       - name: Build the website
         run: python "$(find . -name build_site.py -not -path './.git/*' | head -n 1)"
+      - name: Install LibreOffice (only needed to read old .doc drafts)
+        continue-on-error: true
+        run: |
+          if find drafts -iname '*.doc' 2>/dev/null | grep -q .; then
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq --no-install-recommends libreoffice-writer
+          fi
+      - name: Prepare the drafts for the Drafting section
+        continue-on-error: true
+        run: python "$(find . -name build_drafts.py -not -path './.git/*' | head -n 1)"
       - name: Save reports (even if a step failed)
         if: always()
         uses: actions/upload-artifact@v4
