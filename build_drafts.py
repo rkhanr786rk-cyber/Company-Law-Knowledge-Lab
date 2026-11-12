@@ -239,7 +239,50 @@ FIRM_RE = re.compile(r"\bM/[sS]\.?\s+[A-Z][\w&.\-]*(?:\s+(?:and\s+)?[A-Z&][\w&.\
 COMPANY_RE = re.compile(r"\b[A-Z][A-Z&.\-]*(?:\s+[A-Z&()][A-Z&.()\-]*)*\s+(?:PRIVATE\s+LIMITED|PVT\.?\s+LTD\.?|LIMITED|LTD\.?|LLP)\b")
 PLACE_RE = re.compile(r"\bat\s+([A-Z][a-z]+(?:\s[A-Z][a-z]+)?)(?=,?\s+this\b)")
 NOTE_RE = re.compile(r"\(\s*(city|town|place|name|date|address|amount|month|year|day|designation|state|district|pin ?code)\s*\)", re.I)
-SMALL_BLANK = re.compile(r"(?<!_)_{3,14}(?!_)|(?<!\.)\.{4,14}(?!\.)|\u2026{2,}")
+BL = r"(?:_{2,}|\.{3,}|\u2026+)"
+SMALL_BLANK = re.compile(BL + r"|\[\s*\]")
+_DAY = rf"(?:{BL}|\d{{1,2}})"
+_MON = rf"(?:{BL}|{MONTH})"
+_YR = rf"(?:{BL}|(?:19|20)\d\d|(?:19|20){BL})"
+DATE_BLANK_RE = re.compile(rf"{_DAY}(?:st|nd|rd|th)?\s*day\s+of\s+{_MON}[\s,]*{_YR}", re.I)
+PLACE2_RE = re.compile(r"\b(?:made|executed|entered into|signed|drawn up|held|dated)\s+at\s+([A-Z][A-Za-z]+(?:\s[A-Z][A-Za-z]+){0,2})")
+PARTY_RE = re.compile(r"\b(?:between|and)\s+([A-D])\b(?=\s+(?:son|daughter|wife|s/o|d/o|w/o)\b)", re.I)
+DATE_STYLE = {"k": "t", "order": "dmy", "ord": True, "sufu": False, "pad": False, "sep": " day of ", "n": 9, "case": "t", "msuf": "", "ysep": ", "}
+
+
+def blank_label(text, a, b):
+    """Name a blank from the words around it, for example 'made at ____' is the place."""
+    sub = lambda t: re.sub(r"\s+", " ", re.sub(BL, " \u2026 ", t)).strip()
+    bw, aw = sub(text[:a]).lower(), sub(text[b:]).lower()
+    B = lambda rx: re.search("(?:" + rx + r")[\s:,\-]*$", bw)
+    A = lambda rx: re.match(r"[\s,]*(?:" + rx + ")", aw)
+    if B(r"\b(?:made|executed|entered into|signed|held|drawn up) at|\bplace(?: of [a-z ]+)?"):
+        return "Place"
+    if B(r"\b(?:son|daughter|wife|widow) of|\b[sdw]/o"):
+        return "Father\u2019s or husband\u2019s name"
+    if B(r"\b(?:resident|residing|resides|r/o|situated|located)(?: at| of| in)?|\baddress(?: of [a-z ]+)?(?: is)?"):
+        return "Address"
+    if B(r"\brs\.?|rupees|inr|\u20b9|\b(?:price|sum|amount|consideration|rent|salary|remuneration|fees?|payment|deposit|advance) of"):
+        return "Amount"
+    if B(r"\bday of"):
+        return "Month"
+    if B(r"\b(?:this|the|on)") and A(r"(?:st|nd|rd|th)?\s*day\b"):
+        return "Day"
+    mu = A(r"(days|months|years|weeks)")
+    if B(r"\b(?:within a period of|period of|within|after|for a period of|for)") and mu:
+        return "Number of " + mu.group(1)
+    if B(r"\b(?:within a period of|period of)"):
+        return "Period"
+    if B(r"\b(?:on|dated|date|w\.e\.f\.?|from|till|until|before|by|since)"):
+        return "Date"
+    if B(r"\b(?:no|number|flat|plot|house|door)\.?") :
+        return "House or plot number"
+    if B(r"\b(?:road|street|lane|marg|colony|nagar|sector|area)"):
+        return "Road or locality"
+    if B(r"\b(?:mr|mrs|ms|shri|sh|smt|m/s|messrs)\.?(?: [a-z.]+)?"):
+        return "@skip"
+    return None
+
 SIGN_RE = re.compile(r"SIGNED|presence of|signature|witness", re.I)
 
 
@@ -341,13 +384,20 @@ def spans_auto(text, _p, _runs):
         add(1, m.start(), m.end(), "Company name")
     for m in PLACE_RE.finditer(text):
         add(1, m.start(1), m.end(1), "Place")
+    for m in PLACE2_RE.finditer(text):
+        add(1, m.start(1), m.end(1), "Place")
+    for m in PARTY_RE.finditer(text):
+        add(1, m.start(1), m.end(1), "Name of " + m.group(1).upper())
+    for m in DATE_BLANK_RE.finditer(text):
+        if re.search(BL, m.group(0)):
+            c.append((0, m.start(), m.end(), "@dateblank"))
     for m in NOTE_RE.finditer(text):
         add(1, m.start(), m.end(), m.group(1).strip().capitalize())
     for m in NAME_RE.finditer(text):
         add(2, m.start(), m.end(), "Name")
     if re.fullmatch(r"\s*-{4,}\s*", text):
         add(1, text.index("-"), len(text.rstrip()), "Address line")
-    elif not SIGN_RE.search(text):
+    elif not SIGN_RE.search(text) and re.search(r"[A-Za-z]", text):
         for m in SMALL_BLANK.finditer(text):
             c.append((1, m.start(), m.end(), None))
     c.sort(key=lambda x: (x[0], x[1]))
@@ -358,11 +408,20 @@ def spans_auto(text, _p, _runs):
         taken.append((a, b))
         orig = text[a:b]
         pd = parse_date(orig) if base == "Date" else None
-        if pd:
+        if base == "@dateblank":
+            meta = {"label": "Date", "base": "Date", "default": "", "key": None, "type": "date", "style": DATE_STYLE, "orig": orig}
+            out.append((a, b, meta, False))
+        elif pd:
             meta = {"label": "Date", "base": "Date", "default": pd[0], "key": "date|" + pd[0], "type": "date", "style": pd[1], "orig": orig}
             out.append((a, b, meta, True))
         elif base is None:
-            meta = {"label": context_label(text, a, b), "base": None, "default": "", "key": None}
+            lab = blank_label(text, a, b)
+            if lab == "@skip":
+                continue
+            meta = {"label": lab or context_label(text, a, b), "base": lab, "default": "", "key": None, "orig": orig}
+            if lab == "Date":
+                meta["type"] = "date"
+                meta["style"] = {"k": "t", "order": "dmy", "ord": False, "sufu": False, "pad": False, "sep": " ", "n": 9, "case": "t", "msuf": "", "ysep": " "}
             out.append((a, b, meta, False))
         else:
             meta = {"label": base, "base": base, "default": orig, "key": base + "|" + re.sub(r"\s+", " ", orig.lower())}
@@ -448,6 +507,8 @@ def process(path, orig=None):
                         f["type"] = "long" if f["base"] in ("Address", "Address line") else guess_type(f) if not f["base"] else "text"
                     if shown:
                         f["help"] = "In the original: \u201c" + (shown[:90] + ("\u2026" if len(shown) > 90 else "")) + "\u201d"
+                        if f["base"] and (f["base"].startswith("Name") or f["base"].startswith("Father")):
+                            f["help"] += ". Type another name to change it everywhere it appears."
                     fields.append(f)
                     if key is not None:
                         by_key[key] = f
