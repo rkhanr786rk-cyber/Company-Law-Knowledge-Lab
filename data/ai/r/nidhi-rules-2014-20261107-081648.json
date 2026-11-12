@@ -162,5 +162,546 @@
   "h": "777ce1d04a40",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This rule gives a name to these specific regulations and states when they become active. They are called the Nidhi Rules, 2014. They started applying from April 1, 2014.",
+  "points": [
+   "The official name of these rules is the Nidhi Rules, 2014.",
+   "They became effective starting on April 1, 2014."
+  ],
+  "example": "A group of people managing a financial company called Nidhi Friends Private Limited wanted to know which rules applied to their operations in the spring of 2014. Their legal advisor told them that the new Nidhi Rules, 2014 officially came into force on April 1, 2014. Therefore, their company had to follow these rules from that exact date onward.",
+  "terms": [
+   {
+    "term": "commencement",
+    "meaning": "The time when something starts or begins to apply."
+   }
+  ],
+  "watch": "Do not confuse the name of the rules with the date they started.",
+  "h": "1d8ce2d0969a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "3": {
+  "summary": "This rule gives the meaning of important words used in the Nidhi Rules. It explains terms like Nidhi, branches, and different types of loan assets. These definitions help in understanding how Nidhi companies are regulated.",
+  "points": [
+   "A Branch is any place of business other than the registered office of the Nidhi.",
+   "A Nidhi is a company formed to help members save money and lend to them for mutual benefit.",
+   "A Non-Performing Asset is a loan account where interest or principal is unpaid for twelve months.",
+   "Net Owned Funds are calculated using paid-up equity share capital and free reserves minus losses and intangible assets."
+  ],
+  "example": "Aarav borrowed money from Sunshine Nidhi Limited to buy a car. For twelve months, Aarav did not pay any installments or interest towards the loan. Because of this missed payment period, Sunshine Nidhi Limited classifies Aarav's borrowal account as a Non-Performing Asset under the rules.",
+  "terms": [
+   {
+    "term": "Non-performing asset",
+    "meaning": "A loan account where the borrower has not paid interest or principal for twelve months."
+   },
+   {
+    "term": "Net Owned Funds",
+    "meaning": "The total of paid-up equity share capital and free reserves, reduced by accumulated losses and intangible assets."
+   }
+  ],
+  "watch": "Do not confuse Net Owned Funds with total company assets, as preference share proceeds are excluded from the calculation.",
+  "h": "0728a8b4b060",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "3A": {
+  "summary": "The Central Government can officially declare a public company as a Nidhi after it applies using a specific form and fee, and meets all required rules. If a company fails to follow these rules or gets its application rejected, it cannot raise new deposits or give loans to its members. Any deposits taken wrongly after that point will be treated under different general rules of the Act.",
+  "points": [
+   "A public company must apply in Form NDH-4 with a fee to be declared as a Nidhi.",
+   "The Central Government notifies the approved Nidhi in the Official Gazette.",
+   "Companies failing to comply cannot file certain forms like SH-7 or PAS-3 for share capital changes.",
+   "Non-compliant or rejected companies cannot raise deposits from or give loans to their members."
+  ],
+  "example": "Meera Textiles Private Limited, a public company, wants to be recognized as a Nidhi. It submits Form NDH-4 along with the required fee to the Central Government. If the government is satisfied that the company meets all the rules, it will notify Meera Textiles Private Limited as a Nidhi in the Official Gazette. However, if the application is rejected, the company must immediately stop taking new deposits from its members and cannot provide any new loans.",
+  "terms": [
+   {
+    "term": "Official Gazette",
+    "meaning": "The official government publication used to announce legal notices to the public."
+   },
+   {
+    "term": "Form NDH-4",
+    "meaning": "The specific application form used by a company to ask for Nidhi status."
+   }
+  ],
+  "watch": "People often confuse regular company deposit rules with special Nidhi rules when an application is rejected.",
+  "h": "01d8e6c252e7",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "7": {
+  "summary": "This rule explains the share capital and allotment requirements for a Nidhi company under the Companies Act, 2013. Every Nidhi must issue fully paid-up equity shares of at least ten rupees each without any service charges. They must also allot a specific minimum number of shares to each person who deposits money with them.",
+  "points": [
+   "Every Nidhi must issue fully paid-up equity shares worth at least ten rupees each.",
+   "Companies under sub-rules (a) and (b) of rule 2 do not have to follow the share value requirement.",
+   "Nidhis cannot charge any service fee for issuing shares.",
+   "Every Nidhi must allot at least ten equity shares or shares worth one hundred rupees to each deposit holder.",
+   "Savings and recurring deposit account holders must hold at least one equity share of ten rupees."
+  ],
+  "example": "Aarav opens a savings account at Nidhi Spark Private Limited. As per the rules, the company cannot charge any service fee for issuing shares to him. Because he is a savings account holder, Aarav must hold at least one equity share of rupees ten in the company.",
+  "terms": [
+   {
+    "term": "Equity shares",
+    "meaning": "Shares that give the holder ownership in a company."
+   },
+   {
+    "term": "Nominal value",
+    "meaning": "The face value or original stated value of a share."
+   },
+   {
+    "term": "Deposit holder",
+    "meaning": "A person who keeps money in an account with the company."
+   }
+  ],
+  "watch": "Do not confuse the general requirement of ten shares for deposit holders with the special rule allowing savings and recurring account holders to hold just one share.",
+  "h": "02a1da4bab6b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "8": {
+  "summary": "This rule explains who can join a Nidhi company and who cannot. It sets limits on how many members a Nidhi must keep and restricts minors and companies from becoming members. It also controls how much shares a member can transfer while they have an active loan or deposit.",
+  "points": [
+   "A Nidhi cannot accept a body corporate or trust as a member.",
+   "A Nidhi must keep at least two hundred members at all times.",
+   "A minor cannot be a member, but a member guardian can deposit money in a minor's name.",
+   "A member cannot transfer more than half of their shares while a loan or deposit is ongoing."
+  ],
+  "example": "Rohan is a member of Goodwill Nidhi Limited and has an active deposit there. He holds one hundred shares in the company and wants to sell seventy shares to his friend. According to the rules, Rohan cannot transfer more than fifty percent of his shareholding while his deposit is ongoing. Therefore, Rohan can only transfer up to fifty shares, and he must also keep the minimum number of shares required by the rules at all times.",
+  "terms": [
+   {
+    "term": "Body corporate",
+    "meaning": "A company or legal corporation, rather than an individual human being."
+   },
+   {
+    "term": "Minor",
+    "meaning": "A person who has not reached the age of majority, meaning they are legally a child."
+   }
+  ],
+  "watch": "People often think minors can become members because their deposits are allowed, but minors cannot actually be members.",
+  "h": "3c9581b5289d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "9": {
+  "summary": "Every Nidhi company must keep a specific amount of Net Owned Funds. This amount does not include money raised from preference shares. Existing Nidhis must meet this requirement within a set time period.",
+  "points": [
+   "Every Nidhi must maintain Net Owned Funds of at least twenty lakh rupees.",
+   "The Central Government can specify a higher amount from time to time.",
+   "Money from preference share capital is excluded from this calculation.",
+   "Nidhis existing when the 2022 amendment started must comply within eighteen months."
+  ],
+  "example": "Alpha Nidhi Limited was operating before the 2022 amendment rules came into effect. To follow the law, Alpha Nidhi Limited must ensure it maintains Net Owned Funds of at least twenty lakh rupees, excluding any preference share capital. The company has a period of eighteen months from the start of those rules to fully meet this requirement.",
+  "terms": [
+   {
+    "term": "Net Owned Funds",
+    "meaning": "The total amount of a company's own funds, calculated according to the rules."
+   },
+   {
+    "term": "Preference share capital",
+    "meaning": "A special type of share capital that gets paid dividends before ordinary shares."
+   }
+  ],
+  "watch": "Remember that preference shares are not counted when calculating the Net Owned Funds.",
+  "h": "3efc1197cbd6",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "10": {
+  "summary": "This rule explains how a Nidhi company can open or close its branches. A Nidhi can only open branches inside its home State if it has made continuous net profits and filed its financial papers. Special permission and public notices are needed for opening extra branches or closing any branch.",
+  "points": [
+   "A Nidhi may open up to three branches in its district only after making continuous net profits for the past three financial years.",
+   "Opening more than three branches within the district, or any branch outside the district, requires prior permission from the Regional Director and notice to the Registrar.",
+   "A Nidhi must never open branches outside its home State.",
+   "Closing a branch requires Board approval, Regional Director approval, a newspaper advertisement, a notice on the board, and notice to the Registrar."
+  ],
+  "example": "Aarav Nidhi Limited wants to expand its business. First, it checks that it made steady net profits after tax for the last three financial years and filed its annual returns. It plans to open two new branches in its local district without needing special permission from the Regional Director. Later, when it plans to open a fourth branch in the same district, it applies for prior permission from the Regional Director using Form NDH-2 and informs the Registrar within thirty days of opening.",
+  "terms": [
+   {
+    "term": "Nidhi",
+    "meaning": "A type of company notified under the Companies Act to cultivate the habit of thrift and savings among its members."
+   },
+   {
+    "term": "Regional Director",
+    "meaning": "An authority appointed by the Central Government to oversee certain company law matters."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "An officer appointed by the Central Government to keep company records and registers."
+   }
+  ],
+  "watch": "Do not confuse the rules for opening branches within your home State with the strict ban on opening branches outside your home State.",
+  "h": "255612db34ed",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "11": {
+  "summary": "A Nidhi company cannot take deposits that are more than twenty times its Net Owned Funds based on its last audited financial statements. Older Nidhi companies that already had higher deposit limits by July 26, 2001, must bring their deposit levels down to the twenty times limit by specific future dates depending on their exact ratio. These older companies are also banned from accepting new deposits or renewing old ones if it breaks the required ratio.",
+  "points": [
+   "Deposits cannot exceed twenty times the Net Owned Funds of the Nidhi company.",
+   "Older companies exceeding this limit must fix their ratio by increasing funds or reducing deposits by specific target dates.",
+   "Companies working to fix their ratio are not allowed to accept fresh deposits or renew old ones if it worsens the violation.",
+   "The required ratio also applies to any incremental deposits."
+  ],
+  "example": "Aarav Nidhi Limited had accepted deposits that were thirty times its Net Owned Funds as of March 31, 2013, because it was an older company established before July 2001. Under the rules, Aarav Nidhi Limited must bring its deposits down to the twenty times limit by March 31, 2015. Until it meets this target ratio, the company cannot accept any new deposits or renew any existing ones that would make the ratio worse.",
+  "terms": [
+   {
+    "term": "Nidhi",
+    "meaning": "A type of company formed to cultivate the habit of thrift and savings among its members."
+   },
+   {
+    "term": "Net Owned Funds",
+    "meaning": "The aggregate of paid-up equity share capital and free reserves as reduced by accumulated losses and intangible assets."
+   },
+   {
+    "term": "Incremental deposits",
+    "meaning": "Additional or newly added deposit amounts over time."
+   }
+  ],
+  "watch": "Do not assume that all Nidhi companies have the same deadline to fix high deposit limits, as older companies have specific dates based on their past ratios.",
+  "h": "e9af316b6638",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "12": {
+  "summary": "This rule explains what details and statements must be included in an application form when a person wants to place a deposit with a Nidhi company. It also requires the company to get proper introduction and identity or address proof from new depositors before opening their accounts. The Central Government and Reserve Bank of India do not guarantee or insure these deposits.",
+  "points": [
+   "Application forms must contain details about the Nidhi's background, profits, dividends, and deposit terms.",
+   "The form must state where depositors can go if there is non-payment or deficiency in service.",
+   "The form must include a declaration that the government does not guarantee the deposits and they are not insured.",
+   "New depositors must provide proper proof of identity and address for introduction before depositing money."
+  ],
+  "example": "Rohan wants to put his savings into a deposit account with Zenith Nidhi Limited. Before opening the account, Zenith Nidhi Limited gives him an application form showing its incorporation date, profits, and deposit terms. Rohan reads the form, which also states that the government does not insure the deposit. He provides his PAN card as proof of identity and a recent electricity bill as proof of address. After careful consideration, Rohan signs the verification clause and makes the deposit at his own risk.",
+  "terms": [
+   {
+    "term": "Nidhi",
+    "meaning": "A type of company notified under the Companies Act to cultivate the habit of thrift and savings among its members."
+   },
+   {
+    "term": "DIN",
+    "meaning": "Director Identification Number, a unique identification number given to a director."
+   },
+   {
+    "term": "Maturity period",
+    "meaning": "The time period after which a deposit becomes due for repayment."
+   }
+  ],
+  "watch": "Do not assume that the Central Government or the Reserve Bank of India guarantees or insures deposits made with a Nidhi company.",
+  "h": "b89295045571",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "13": {
+  "summary": "This rule explains the limits on accepting different types of deposits like fixed and recurring deposits by a Nidhi company. It also tells how much interest can be paid on savings and other deposits. Finally, it sets the conditions for closing a deposit account early.",
+  "points": [
+   "Fixed deposits must be kept for six to sixty months.",
+   "Recurring deposits must be kept for twelve to sixty months, unless tied to a mortgage loan.",
+   "Savings accounts earning interest cannot hold more than one lakh rupees at any time.",
+   "Early closing of deposits before three months is not allowed, and early closing after three months reduces or removes interest."
+  ],
+  "example": "Aarav opened a fixed deposit of six months at Sunshine Nidhi Limited. After two months, Aarav urgently needed money and asked to close the deposit early. Sunshine Nidhi Limited refused to repay the deposit because three months had not passed since it was accepted, following the strict rule that no deposit can be repaid within the first three months.",
+  "terms": [
+   {
+    "term": "Nidhi",
+    "meaning": "A type of company formed to make savings and borrowing easier among its members."
+   },
+   {
+    "term": "Foreclosed",
+    "meaning": "Closing a deposit account before its planned completion time."
+   }
+  ],
+  "watch": "People often think they can withdraw their fixed or recurring deposits at any time, but early withdrawal is restricted and penalised.",
+  "h": "112307a93535",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "14": {
+  "summary": "Every Nidhi company must keep at least ten percent of its total outstanding deposits invested in safe bank or post office deposits under its own name. If the company faces an unexpected need to repay depositors, it can temporarily withdraw this money with special permission. To do this, the company must apply to the Regional Director using the correct form and fee.",
+  "points": [
+   "Keep at least ten percent of outstanding deposits invested in term deposits.",
+   "Investments must be in a Scheduled commercial bank or post office in the company's own name.",
+   "Temporary withdrawal is allowed only with prior approval from the Regional Director to repay depositors."
+  ],
+  "example": "Sunshine Nidhi Limited had one lakh rupees in deposits from its members at the end of the second preceding month. To follow the rules, Sunshine Nidhi Limited invested ten thousand rupees in a term deposit with a scheduled commercial bank in its own name. Later, the company faced an unexpected emergency and needed money to repay some depositors. It applied to the Regional Director using Form NDH-2 with the required fee to get approval for a temporary withdrawal.",
+  "terms": [
+   {
+    "term": "Nidhi",
+    "meaning": "A type of company formed to cultivate the habit of thrift and savings among its members."
+   },
+   {
+    "term": "Un-encumbered term deposits",
+    "meaning": "Money kept in fixed bank deposits that are free from any claims, debts, or charges."
+   },
+   {
+    "term": "Regional Director",
+    "meaning": "An official who handles company law administration and approvals."
+   }
+  ],
+  "watch": "Do not confuse regular bank accounts with the required term deposits kept for this specific rule.",
+  "h": "2292a7324e27",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "15": {
+  "summary": "A Nidhi company can only give loans to its own members, and the maximum loan amount depends on the total deposits the Nidhi holds. Loans must be secured by specific items like gold, immovable property, or government securities. Members who have unpaid past loans cannot borrow again.",
+  "points": [
+   "Loans are given only to members, and for joint shares, to the person whose name is first in the register.",
+   "Loan limits range from two lakh rupees to fifteen lakh rupees based on the total deposits of the Nidhi.",
+   "If the Nidhi has not made profits for the past three years in a row, the fresh loan limit is cut in half.",
+   "Loans can only be given against security such as gold, silver, jewellery, immovable property, fixed deposits, or insurance policies."
+  ],
+  "example": "Rahul and Priya jointly hold shares in Apex Nidhi Limited, with Rahul listed first in the register. Apex Nidhi holds five crore rupees in member deposits. Rahul applies for a loan. Since Apex Nidhi's deposits are between two crore and twenty crore rupees, Rahul can get a loan up to seven lakh fifty thousand rupees. He offers his gold jewellery as security, agreeing to repay the loan within one year as required by the rules.",
+  "terms": [
+   {
+    "term": "Nidhi",
+    "meaning": "A type of company formed to cultivate the habit of thrift and savings among its members."
+   },
+   {
+    "term": "Immovable property",
+    "meaning": "Property that cannot be moved easily, such as land or buildings."
+   },
+   {
+    "term": "Fixed deposit receipts",
+    "meaning": "Proof of money deposited in a bank or financial institution for a fixed period."
+   }
+  ],
+  "watch": "A member cannot get a new loan if they have failed to repay any earlier loan.",
+  "h": "d97e53a7bbcd",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "16": {
+  "summary": "This rule sets the highest interest rate a Nidhi company can charge for loans. The rate cannot be more than seven and a half percent higher than the highest interest rate it pays on deposits. The Nidhi must also show all its loan interest rates clearly on a notice board at every office.",
+  "points": [
+   "Loan interest cannot exceed seven and a half percent above the highest deposit rate.",
+   "Interest must be calculated using the reducing balance method.",
+   "Every borrower in the same class of loans must be charged the exact same interest rate.",
+   "All loan interest rates must be prominently displayed on notice boards at the registered office and all branches."
+  ],
+  "example": "Sunrise Nidhi Limited offers deposits at a top rate of five percent. Therefore, it can charge up to twelve and a half percent interest on its loans. If Ramesh and Suresh both take the same class of car loan from Sunrise Nidhi Limited, the company must charge both of them the exact same interest rate. The company also writes this interest rate clearly on the notice board at its main office and its branch office so every visitor can see it.",
+  "terms": [
+   {
+    "term": "Nidhi",
+    "meaning": "A type of company formed to cultivate the habit of thrift and savings among its members."
+   },
+   {
+    "term": "reducing balance method",
+    "meaning": "A way to calculate interest only on the remaining loan amount that has not been paid back yet."
+   }
+  ],
+  "watch": "People often confuse the loan interest rate limit as a fixed number instead of a rate linked to the highest deposit rate.",
+  "h": "2b66f430ad61",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "18": {
+  "summary": "This rule tells Nidhi companies how much dividend they can give to their members. A Nidhi is not allowed to declare a dividend of more than twenty-five percent in a single financial year. It is a simple limit to make sure they do not give away too much money at once.",
+  "points": [
+   "Applies to a Nidhi company.",
+   "The maximum dividend allowed is twenty-five percent.",
+   "The limit is calculated for one financial year."
+  ],
+  "example": "Alpha Nidhi Limited had a profitable year and wanted to reward its members. The board of directors met to decide on the dividend payout. Remembering the rules, they made sure not to declare a dividend exceeding twenty-five percent in that financial year.",
+  "terms": [
+   {
+    "term": "Nidhi",
+    "meaning": "A type of company formed to borrow and lend money only to its members."
+   },
+   {
+    "term": "Dividend",
+    "meaning": "A share of profits given to the members of a company."
+   },
+   {
+    "term": "Financial year",
+    "meaning": "The twelve-month period used for calculating accounts and taxes."
+   }
+  ],
+  "watch": "Do not confuse this twenty-five percent limit with a guaranteed return for members.",
+  "h": "462bd986f9dc",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "19": {
+  "summary": "Under the Nidhi Rules, 2014, there is a limit on how long the same auditor can check a company's accounts. An individual auditor can serve for only one term of five years in a row. An audit firm can serve for up to two terms of five years in a row.",
+  "points": [
+   "An individual auditor cannot serve for more than one term of five consecutive years.",
+   "An audit firm cannot serve for more than two terms of five consecutive years.",
+   "An auditor must wait for two years to pass after their term ends before they can be appointed again.",
+   "Any time already spent as an auditor before these rules started counts towards these limits."
+  ],
+  "example": "Aarav Nidhi Limited wants to hire an auditor to check its financial accounts. They decide to appoint Patel & Associates, an audit firm. Because the rules allow audit firms to serve for up to two terms of five consecutive years, Patel & Associates can complete their two terms. Once those ten years are fully finished, the firm must wait for two years before Aarav Nidhi Limited can ever appoint them again.",
+  "terms": [
+   {
+    "term": "Auditor",
+    "meaning": "An official person or firm chosen to check and verify company accounts."
+   },
+   {
+    "term": "Audit firm",
+    "meaning": "A business partnership of accountants that checks company accounts."
+   },
+   {
+    "term": "Appointment",
+    "meaning": "Choosing someone for a job or role, which includes choosing them again."
+   }
+  ],
+  "watch": "People often forget that past years spent as an auditor before these rules started still count toward the five-year or ten-year limits.",
+  "h": "45902f0a0136",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "20": {
+  "summary": "This rule sets financial safety standards for a type of company called a Nidhi when dealing with mortgage and jewel loans. It explains how these companies must handle unpaid income, set aside safety funds for risky loans, and disclose these amounts in their financial reports. Special timelines are also provided for certain older companies and for recovering jewel loans.",
+  "points": [
+   "Income on non-performing assets is counted only when actually received, and previously recognized unpaid income must be reversed.",
+   "Mortgage loans require safety provisions ranging from zero to one hundred percent depending on how overdue they are.",
+   "Loans against gold, silver, or jewellery must be recovered or renewed within three months, and the loan amount cannot exceed eighty percent of the security value.",
+   "Financial statements must clearly disclose all details regarding provisions for unrealized income and troubled assets."
+  ],
+  "example": "At Aarav Nidhi Limited, a borrower took a mortgage loan but stopped making payments. Because the loan is now a doubtful asset, the company must set aside a safety provision of twenty-five percent of the total outstanding amount. Meanwhile, Aarav Nidhi Limited cannot count the unpaid interest as income until it is actually collected. For another customer who took a gold loan, the company ensures the loan amount is not more than eighty percent of the gold's value and plans to recover or renew it within three months.",
+  "terms": [
+   {
+    "term": "Non-performing asset",
+    "meaning": "A loan or advance where the borrower has stopped making payments or paying interest as required."
+   },
+   {
+    "term": "Collateral security",
+    "meaning": "Property or valuable items given as a guarantee to back up a loan."
+   },
+   {
+    "term": "Loan to value ratio",
+    "meaning": "The proportion between the amount of the loan given and the value of the pledged gold, silver, or jewellery."
+   }
+  ],
+  "watch": "Companies must remember that unpaid income on troubled assets cannot be counted as earned until the money is actually received.",
+  "h": "c1b564a6e69a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "21": {
+  "summary": "Certain companies must file a half-yearly report called Form NDH-3 with the Registrar. This report needs a fee and must be checked and certified by a qualified professional. It has to be submitted within thirty days after each half year ends.",
+  "points": [
+   "Applies to companies covered under rule 2.",
+   "Must be filed as Form NDH-3 with the Registrar.",
+   "Requires a fee as per specific registration and fee rules.",
+   "Must be certified by a practicing company secretary, chartered accountant, or cost accountant.",
+   "Deadline is thirty days from the conclusion of each half year."
+  ],
+  "example": "Apex Nidhi Private Limited finished its half year of business. The company prepared its half yearly return in Form NDH-3 along with the required fee. Before filing, they had a practicing chartered accountant check and certify the document. Finally, Apex Nidhi Private Limited submitted the certified form to the Registrar within thirty days from the end of that half year.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "An official government authority who keeps company records."
+   },
+   {
+    "term": "Certified",
+    "meaning": "Officially verified and signed by a qualified professional."
+   }
+  ],
+  "watch": "Remember that this rule applies only to companies covered under rule 2, not all companies.",
+  "h": "bbb50717787b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "22": {
+  "summary": "The auditor of a company must provide a yearly certificate stating that the company has followed all the rules. This certificate is attached to the main audit report. If the company failed to follow any rule, the auditor must list those specific rules in the certificate.",
+  "points": [
+   "The auditor gives a certificate every year.",
+   "The certificate states whether the company followed all the rules.",
+   "This certificate is attached to the audit report.",
+   "If rules were broken, the auditor must name the unfulfilled rules."
+  ],
+  "example": "Aarav Technologies Private Limited hired an auditor to review its yearly accounts. After checking the records, the auditor prepared the annual audit report. Along with it, the auditor issued a special certificate confirming that the company followed all the required rules. This certificate was then permanently attached to the main audit report for submission.",
+  "terms": [
+   {
+    "term": "Auditor",
+    "meaning": "An official appointed to examine and verify company accounts."
+   },
+   {
+    "term": "Annexed",
+    "meaning": "Attached or added to a document."
+   }
+  ],
+  "watch": "Do not assume this rule specifies any exact dates or deadlines for filing the certificate.",
+  "h": "390922a33bc3",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "23": {
+  "summary": "To make sure a Nidhi company follows the rules, the Registrar can ask for information and hire experts like chartered accountants for help. If the Nidhi breaks the rules or goes against its own governing documents, the Central Government can appoint a Special Officer to run it. However, the government must give the Nidhi a chance to speak before appointing this officer.",
+  "points": [
+   "The Registrar may ask for information or returns from a Nidhi to check compliance.",
+   "The Registrar can hire chartered accountants, company secretaries, or cost accountants to assist.",
+   "The Central Government can appoint a Special Officer to take over management if rules or documents are violated.",
+   "The Nidhi must be given an opportunity of being heard before a Special Officer is appointed."
+  ],
+  "example": "Meera Nidhi Limited frequently ignored its own governing documents and broke several operational rules. Before taking any drastic action, the Central Government sent a notice to give Meera Nidhi Limited an opportunity of being heard. Because the violations continued, the government appointed a Special Officer to take over the management of the company, and this officer followed the guidelines provided by the Central Government.",
+  "terms": [
+   {
+    "term": "Registrar of companies",
+    "meaning": "An official appointed to handle company registrations and ensure they follow the law."
+   },
+   {
+    "term": "Memorandum and Articles of Association",
+    "meaning": "The fundamental documents that set out the rules and objectives of a company."
+   },
+   {
+    "term": "Opportunity of being heard",
+    "meaning": "A chance given to a person or company to present their side of the story before a decision is made against them."
+   }
+  ],
+  "watch": "Do not assume the government can appoint a Special Officer without first letting the Nidhi present its case.",
+  "h": "f89d7b77c318",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "23A": {
+  "summary": "This rule explains how certain Nidhi companies must get themselves declared as such under rule 3A within a specific time. If they fail to follow this, they face restrictions on filing certain forms and cannot accept new deposits or give loans. Any deposits taken after non-compliance are treated as regular deposits under Chapter V of the Act.",
+  "points": [
+   "Certain companies and older Nidhis must get declared under rule 3A within the given time limits.",
+   "Companies that fail to comply cannot file Form No. SH-7 and Form PAS-3.",
+   "Non-compliant companies or those with rejected applications cannot raise deposits or give loans to members.",
+   "Deposits raised after non-compliance are treated as regular deposits under Chapter V of the Act."
+  ],
+  "example": "Meera Textiles Private Limited is an older Nidhi company that failed to get declared under rule 3A within the required time. Because of this non-compliance, Meera Textiles is blocked from filing Form PAS-3 and cannot accept any new deposits from its members or give them loans. When the company mistakenly takes a new deposit from a member despite this rule, that deposit is legally treated as being raised under Chapter V of the Act instead of the Nidhi rules.",
+  "terms": [
+   {
+    "term": "Nidhi",
+    "meaning": "A type of company notified under the Companies Act to cultivate the habit of thrift and savings among its members."
+   },
+   {
+    "term": "Form No. SH-7",
+    "meaning": "A specific form used to notify the Registrar about any alteration of share capital."
+   },
+   {
+    "term": "Form PAS-3",
+    "meaning": "A specific form used as a return of allotment for shares."
+   }
+  ],
+  "watch": "Do not assume any deadlines or time periods other than the ones explicitly written in the text.",
+  "h": "0e7289f49cbb",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "23B": {
+  "summary": "Certain older Nidhi companies must file a specific form to update their status. If they file this form within nine months of a certain date, they do not have to pay a fee. If they fail to follow this rule, they are blocked from filing two other specific forms related to share capital.",
+  "points": [
+   "Certain companies must file Form NDH-4 to update their status.",
+   "No fee is charged if the form is filed within nine months of the start of the 2019 amendment rules.",
+   "Companies that do not comply cannot file Form No. SH-7 or Form PAS-3."
+  ],
+  "example": "Meera Textiles Private Limited is an older Nidhi company that needs to update its status. The managers decide to file Form NDH-4 within the allowed nine-month window, so they do not have to pay any extra fees. Later, because they successfully followed the rule, they are allowed to file Form No. SH-7 and Form PAS-3 when they make changes to their share capital.",
+  "terms": [
+   {
+    "term": "Form NDH-4",
+    "meaning": "A specific official document used by these companies to update their status."
+   },
+   {
+    "term": "Share capital",
+    "meaning": "The money a company raises by issuing shares."
+   }
+  ],
+  "watch": "People often confuse the deadline for fee waiver with the final deadline to file the form itself.",
+  "h": "8dc7d0448284",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
  }
 }

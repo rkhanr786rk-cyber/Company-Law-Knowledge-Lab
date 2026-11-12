@@ -26,5 +26,387 @@
   "h": "b85e612799d0",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This rule gives a short title to the rules about the staff of the National Company Law Tribunal. It also states when these rules start to apply. The text is very short and only covers these naming and starting details.",
+  "points": [
+   "The official name of the rules is given.",
+   "The rules start working on the day they are published in the Official Gazette."
+  ],
+  "example": "The government drafted new rules for the staff of the National Company Law Tribunal. They decided the rules would be called the National Company Law Tribunal (Recruitment, Salary and other Terms and Conditions of Service of Officers and other Employees) Rules, 2020. To make them active, the government published the rules in the Official Gazette on a specific day. From that exact publication date onward, the rules officially came into force.",
+  "terms": [
+   {
+    "term": "Official Gazette",
+    "meaning": "The official government publication used to announce public notices and new laws or rules."
+   },
+   {
+    "term": "Come into force",
+    "meaning": "To become active and start applying legally."
+   }
+  ],
+  "watch": "Do not assume any specific start date, as the rules only start when published in the Official Gazette.",
+  "h": "70677b891b56",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "3": {
+  "summary": "The provided text is extremely short and only states which jobs these rules apply to. It says the rules apply to the posts listed in the first column of Schedule-I. Because no other details are given, that is the entire rule.",
+  "points": [
+   "The rules apply to specific job posts.",
+   "These posts are found in column one of Schedule-I attached to the rules."
+  ],
+  "example": "At Omkara Solutions Private Limited, the human resources team needed to check which staff members fell under the new service rules. They opened the official document and looked at Schedule-I. By checking the job titles listed specifically in the first column, they confirmed exactly which positions were covered by these particular employment regulations.",
+  "terms": [
+   {
+    "term": "Schedule-I",
+    "meaning": "A list or table attached at the end of the rules that gives more details."
+   }
+  ],
+  "watch": "Do not assume these rules apply to all company employees; they only apply to the specific posts listed in Schedule-I.",
+  "h": "71b31462cd16",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "4": {
+  "summary": "This rule protects the job status of existing workers who moved from the old Company Law Board to the new Tribunal. Because they were already working there regularly when the old board dissolved, the rules treat them as officially appointed under this new system. Also, the time they spent working there before counts toward their retirement and service benefits like pension.",
+  "points": [
+   "Employees holding regular posts when the Company Law Board dissolved are deemed appointed under these rules.",
+   "Past service in the previous post is counted for rights and privileges.",
+   "Benefits affected include pension, gratuity, and other similar advantages."
+  ],
+  "example": "Aarav worked regularly as an officer at the Company Law Board until it dissolved. When the new Tribunal was formed, he transitioned to the same role without a break in his career. Under this rule, Aarav is officially considered appointed under the new rules. Furthermore, the years he spent working for the old board will be fully counted when calculating his pension, gratuity, and other service benefits.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A special official body set up to handle specific legal disputes and cases."
+   },
+   {
+    "term": "Gratuity",
+    "meaning": "A sum of money given by an employer to an employee at the end of their service."
+   }
+  ],
+  "watch": "Do not assume this applies to temporary workers, as the rule only applies to those holding posts on a regular basis.",
+  "h": "6131ca016076",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "5": {
+  "summary": "This rule tells us how jobs for officers and employees are set up. It states that the number of jobs, their group, and their salary levels are written in Schedule-I. You must look at that schedule for the exact details.",
+  "points": [
+   "The rule covers officers and employees.",
+   "It decides the number of posts, classification, and pay matrix level.",
+   "All these details are found in columns two to four of Schedule-I."
+  ],
+  "example": "Aahana wanted to know the salary level and job group for a new administrative position at the tribunal. Instead of guessing, she looked directly at the official document. She checked columns two to four of Schedule-I, where the exact number of posts, their classification, and the level in the pay matrix were clearly listed for that role.",
+  "terms": [
+   {
+    "term": "classification",
+    "meaning": "Sorting things into groups or categories."
+   },
+   {
+    "term": "pay matrix",
+    "meaning": "A table or chart showing different salary levels for jobs."
+   },
+   {
+    "term": "Schedule-I",
+    "meaning": "An appendix or attached table at the end of the rules containing specific details."
+   }
+  ],
+  "watch": "Do not guess the salary or number of posts, as they are only found in Schedule-I.",
+  "h": "705aed5c1824",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "6": {
+  "summary": "This rule explains how staff are hired for the National Company Law Tribunal. It states that the hiring method, age limits, and required qualifications are found in a specific schedule. Ordinary readers should look at Schedule-I for these exact details.",
+  "points": [
+   "Recruitment methods are listed in Schedule-I.",
+   "Age limits for hiring are found in Schedule-I.",
+   "Required qualifications are detailed in Schedule-I."
+  ],
+  "example": "Meera Textiles Private Limited is not covered by this rule, but let us imagine a public tribunal office hiring staff. When the tribunal wants to hire a new officer, the human resources team does not guess the rules. Instead, they open Schedule-I of these specific rules. They look at columns five through thirteen to find the exact age limit and required qualifications for the job before they post the job opening.",
+  "terms": [
+   {
+    "term": "Recruitment",
+    "meaning": "The process of finding and hiring new employees."
+   },
+   {
+    "term": "Qualifications",
+    "meaning": "The skills, education, or experience a person needs for a job."
+   }
+  ],
+  "watch": "Do not assume any age limits or qualifications without checking Schedule-I.",
+  "h": "d3f283d03f1a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "7": {
+  "summary": "This rule explains how officers and other employees are appointed to the Tribunal. Ordinary appointments are made by the Appointing Authority. However, appointments to higher posts at Level-11 or above require the approval of the Central Government.",
+  "points": [
+   "Appointments are made by the Appointing Authority.",
+   "Higher posts at Level-11 or above in the Pay Matrix need Central Government approval."
+  ],
+  "example": "Meera Textiles Private Limited is not involved here, as this rule applies to the Tribunal. Suppose the Tribunal wants to hire a new staff member for a junior position. The Appointing Authority can make this appointment directly. Later, when the Tribunal wishes to fill a senior post at Level-11 in the Seventh Central Pay Commission Pay Matrix, it must first obtain the approval of the Central Government before finalizing the appointment.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "The judicial body established under the law to handle company disputes."
+   },
+   {
+    "term": "Appointing Authority",
+    "meaning": "The designated person or office given the power to hire employees."
+   }
+  ],
+  "watch": "Do not confuse regular staff appointments with higher-level posts, which specifically require Central Government approval.",
+  "h": "208aff7d251e",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "8": {
+  "summary": "This rule explains how the Tribunal hires officers and staff through direct recruitment. It requires the Tribunal to advertise job openings across India. The hiring process must be handled by a professional recruitment agency.",
+  "points": [
+   "The Tribunal invites job applications through all-India advertisements.",
+   "Appointments are made by the Appointing Authority.",
+   "A recognized professional agency with Central Government or similar recruitment experience must handle the process."
+  ],
+  "example": "The National Company Law Tribunal needs to hire new administrative officers. Instead of handling the hiring directly, the Tribunal issues an advertisement across India. It then hires a specialized professional agency that has plenty of experience recruiting staff for Public Sector Undertakings and Central Government offices. This agency manages the recruitment steps so the Appointing Authority can make the final selections.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized official body set up to deal with specific legal disputes or matters."
+   },
+   {
+    "term": "Appointing Authority",
+    "meaning": "The official or body legally given the power to make job appointments."
+   }
+  ],
+  "watch": "People often confuse the Tribunal itself with the professional agency that only assists with the recruitment process.",
+  "h": "4ac1deee2861",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "9": {
+  "summary": "The rules explain how the Tribunal appoints people on deputation. It must advertise the jobs widely, including always in the Employment News. A specific Selection Committee must recommend who gets chosen.",
+  "points": [
+   "Jobs are advertised widely.",
+   "Advertisements must appear in Employment News.",
+   "A Selection Committee makes recommendations."
+  ],
+  "example": "Asha Tribunal needed an officer on deputation. Following the rules, they published an advertisement for the post in the Employment News and other wide platforms. Interested candidates applied, and the prescribed Selection Committee reviewed them. Finally, the committee recommended a suitable person for the post based on their evaluation.",
+  "terms": [
+   {
+    "term": "deputation",
+    "meaning": "A temporary transfer of an employee to another organization or post."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "An official body that handles specific legal cases or disputes."
+   }
+  ],
+  "watch": "Do not assume these rules apply to regular permanent hiring unless stated.",
+  "h": "63a31e6820f6",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "10": {
+  "summary": "People working on deputation in the Tribunal can join permanently if they meet the rules and are approved. They must agree to this change, and their original department must also allow it. Once they join permanently, their seniority starts from the date of that absorption.",
+  "points": [
+   "Deputation employees can be absorbed into the Tribunal if they meet qualifications.",
+   "The Departmental Promotion Committee must find them suitable.",
+   "The employee must choose to be absorbed.",
+   "The parent department must not object to the absorption."
+  ],
+  "example": "Rohan was working on deputation at the Tribunal from another government office. He met all the required qualifications and the Departmental Promotion Committee found him suitable for the role. Rohan filled out a form choosing to join the Tribunal permanently. His parent department gave a written no objection certificate. The Tribunal then absorbed Rohan into the grade, and his new seniority was counted from the date of his permanent absorption.",
+  "terms": [
+   {
+    "term": "deputation",
+    "meaning": "Being sent to work temporarily in another office or organization."
+   },
+   {
+    "term": "absorption",
+    "meaning": "Becoming a permanent employee of the new organization."
+   },
+   {
+    "term": "parent department",
+    "meaning": "The original department or office where the person was employed before deputation."
+   }
+  ],
+  "watch": "People might think seniority is counted from the day they first started working there on deputation, but it actually starts from the date of permanent absorption.",
+  "h": "86f844141a7a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "11": {
+  "summary": "This rule explains how the pay, benefits, and working conditions of officers and employees at the Tribunal are decided. Regular staff follow the same rules as Central Government employees with matching pay. Staff who are on loan from another department keep their own retirement and insurance rules.",
+  "points": [
+   "Pay, allowances, and leave of Tribunal staff follow Central Government rules for similar pay scales.",
+   "Staff working on deputation keep their parent organization's rules for provident fund, insurance, pension, and retirement age.",
+   "The Tribunal must collect scheme contributions from staff salaries and send them immediately to the parent organization.",
+   "Tribunal staff can choose medical facilities from either their parent organization or the specific schedule attached to these rules."
+  ],
+  "example": "Anil works as an officer at the National Company Law Tribunal on a deputation basis from a Central Government ministry. Because he is on deputation, his pension and retirement age continue to be governed by the rules of his parent ministry, rather than new Tribunal-specific rules. Every month, the Tribunal deducts his provident fund contribution from his salary and sends it straight back to his parent ministry without any delay.",
+  "terms": [
+   {
+    "term": "deputation",
+    "meaning": "A temporary transfer of an employee to work at a different organization while keeping their connection to their original employer."
+   },
+   {
+    "term": "superannuation",
+    "meaning": "The official age or time at which an employee retires from service."
+   }
+  ],
+  "watch": "People often confuse regular Tribunal staff with staff on deputation, but only deputation staff keep their parent department's retirement and pension rules.",
+  "h": "e4b9aabc77e4",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "12": {
+  "summary": "The rules state that employees of the Tribunal can choose to get House Rent Allowance based on Central Government rates for similar pay scales. However, they cannot receive this allowance if they are eligible for and live in government housing allotted to them. This ensures employees do not receive both housing benefits at the same time.",
+  "points": [
+   "Tribunal employees can choose to claim House Rent Allowance.",
+   "The allowance rate follows the Central Government rules for matching pay scales.",
+   "Employees who get and move into general pool residential accommodation cannot claim this allowance."
+  ],
+  "example": "Rohan works as an officer at the National Company Law Tribunal and earns a specific pay scale. He is offered a government-provided home under the general pool residential accommodation rules and decides to move in. Because Rohan now occupies this official government housing, he loses his eligibility to claim the House Rent Allowance based on Central Government pay scales.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized official body set up to handle specific legal disputes or matters."
+   },
+   {
+    "term": "House Rent Allowance",
+    "meaning": "Money given by an employer to an employee to help pay for rented housing."
+   }
+  ],
+  "watch": "People often confuse being eligible for government housing with actually occupying it, but the rule stops the allowance only when they actually live in it.",
+  "h": "bd3c4dd5887e",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "13": {
+  "summary": "This rule states that the staff and officers of the Tribunal face disciplinary actions based on the same rules that apply to Central Government employees of a similar pay rank. In other words, their workplace conduct and related penalties follow central government service standards. The text does not give further details.",
+  "points": [
+   "Applies to officers and employees of the Tribunal.",
+   "Disciplinary proceedings follow Central Government rules.",
+   "The rules correspond to the same level in the central pay matrix."
+  ],
+  "example": "An employee at Star Tribunal Private Limited faces an inquiry regarding workplace conduct. Because the text requires following Central Government standards for corresponding pay levels, the management refers to the conduct rules used for central government staff of that exact same rank to handle the situation.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized official body set up to handle specific legal disputes."
+   },
+   {
+    "term": "Disciplinary proceedings",
+    "meaning": "Formal actions taken when an employee breaks workplace rules."
+   },
+   {
+    "term": "Pay matrix",
+    "meaning": "A structured table that decides the salary levels for government positions."
+   }
+  ],
+  "watch": "Do not assume these rules are unique to the Tribunal, as they are borrowed directly from Central Government standards.",
+  "h": "91df79c64203",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "14": {
+  "summary": "This rule sets a disqualification for getting a job in the Tribunal based on marriage. A person cannot be appointed if they marry someone who already has a living spouse, or if they themselves have a living spouse while marrying someone. However, the Central Government can allow an exemption under certain personal laws and special reasons.",
+  "points": [
+   "You cannot get a job in the Tribunal if you marry someone who already has a living husband or wife.",
+   "You cannot get a job if you already have a living husband or wife and marry another person.",
+   "The Central Government has the power to excuse someone from this rule under specific conditions."
+  ],
+  "example": "Aarav applies for a job at the Tribunal. He currently has a living wife and marries a second person. Because of this marriage while his first spouse is still living, Aarav is not eligible for appointment to the Tribunal post under this rule, unless the Central Government grants him a special exemption based on his personal law.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized official body set up to handle specific legal disputes and matters."
+   },
+   {
+    "term": "Spouse",
+    "meaning": "A husband or a wife."
+   },
+   {
+    "term": "Exemption",
+    "meaning": "Official permission not to follow a rule that applies to others."
+   }
+  ],
+  "watch": "People often think this rule applies to all government jobs, but it specifically applies only to posts in the Tribunal.",
+  "h": "092f9243fd38",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "15": {
+  "summary": "This rule explains how to handle job conditions for the Tribunal's staff when these rules do not cover them. In such cases, the rules and orders used for Central Government employees of the same pay level at those locations will apply. This ensures staff have clear guidelines even if specific rules are missing.",
+  "points": [
+   "Applies to officers and other employees of the Tribunal.",
+   "Used when current rules have no specific or enough provisions.",
+   "Follows the rules and orders applicable to Central Government employees.",
+   "Applies to employees of the corresponding level in the pay matrix stationed at those places."
+  ],
+  "example": "Suppose Rahul works as an officer at the Tribunal in Delhi, and a question arises about his service conditions that is not mentioned in the Tribunal's own rules. Because there is no specific provision, the administration looks at the rules for Central Government employees in the same pay level stationed in Delhi. Rahul's service condition is then decided according to those Central Government rules.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized legal body set up to handle specific types of disputes or cases."
+   },
+   {
+    "term": "Pay matrix",
+    "meaning": "A system used to determine the salary levels of employees based on their grade and rank."
+   }
+  ],
+  "watch": "Do not assume this rule lets the Tribunal make up its own separate policies without looking at Central Government standards.",
+  "h": "af3540f12cfd",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "16": {
+  "summary": "The Central Government can relax certain rules for specific groups of people if it thinks it is necessary. To do this, the government must first consult the President of the Tribunal. It also needs to record the reasons for this decision in writing.",
+  "points": [
+   "The Central Government has the power to relax the rules for any class or category of persons.",
+   "This can only be done if the government believes it is necessary or expedient.",
+   "The government must consult the President of the Tribunal before making this decision.",
+   "The reasons for relaxing the rules must be written down."
+  ],
+  "example": "The Central Government decided that the standard service rules needed an adjustment for a specific group of newly hired assistant registrars at GreenField Tribunal. Before making any changes, the government consulted the President of the Tribunal. They carefully discussed the situation and ensured that all the reasons for relaxing the rules for this specific category of employees were officially recorded in writing, exactly as the law requires.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized legal body set up to handle specific types of cases and disputes."
+   },
+   {
+    "term": "Expedient",
+    "meaning": "Useful and practical for a particular situation."
+   }
+  ],
+  "watch": "People often think the government can relax rules without a written reason, but written reasons are mandatory.",
+  "h": "2bbeda72315c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "17": {
+  "summary": "These rules do not cancel any special benefits given to certain groups of people. Benefits like job reservations and age relaxations remain fully protected. The Central Government decides these special concessions from time to time.",
+  "points": [
+   "Rules do not affect reservations or age relaxations.",
+   "Applies to Scheduled Castes, Scheduled Tribes, and other Backward Classes.",
+   "Also protects economically weaker sections, ex-servicemen, and special categories.",
+   "Concessions follow Central Government rules and orders."
+  ],
+  "example": "A candidate belonging to the Scheduled Castes applies for a job under the National Company Law Tribunal. During the recruitment process, the candidate receives the age-limit relaxation promised by government orders. Other applicants wonder if the new recruitment rules remove these benefits. The hiring authority clarifies that the saving rule protects all official relaxations and reservations. Therefore, the candidate successfully proceeds with the age concession intact.",
+  "terms": [
+   {
+    "term": "Reservation",
+    "meaning": "Setting aside specific jobs or positions for certain protected groups of people."
+   },
+   {
+    "term": "Ex-servicemen",
+    "meaning": "People who have previously served in the armed forces."
+   }
+  ],
+  "watch": "Do not assume these rules remove existing benefits for special categories.",
+  "h": "2b8da4900c0d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
  }
 }

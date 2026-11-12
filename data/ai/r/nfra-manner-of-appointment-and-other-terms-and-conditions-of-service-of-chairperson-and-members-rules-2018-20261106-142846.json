@@ -49,5 +49,500 @@
   "h": "2a7b5443f880",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This rule gives a short title to a specific set of rules under the Companies Act, 2013, regarding the National Financial Reporting Authority. It states that these rules become active on the exact day they are published in the Official Gazette. The text does not provide any other details or related sections of the Act.",
+  "points": [
+   "The rules are officially named the National Financial Reporting Authority (Manner of Appointment and other Terms and Conditions of Service of Chairperson and Members) Rules, 2018.",
+   "They start working and apply from the date they are published in the Official Gazette."
+  ],
+  "example": "A new set of rules for the National Financial Reporting Authority was finalized by the government. The officials checked when the rules would become active. They learned that the rules would apply starting from the exact day they were published in the Official Gazette, which is the official public journal of the government.",
+  "terms": [
+   {
+    "term": "Official Gazette",
+    "meaning": "The official public newspaper or journal of the government where new laws and rules are officially published."
+   }
+  ],
+  "watch": "Do not assume any specific dates or time periods for these rules other than the day they appear in the Official Gazette.",
+  "h": "c9c530e673ee",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "3": {
+  "summary": "This rule explains who makes up the National Financial Reporting Authority and sets their basic qualifications. The Central Government appoints the chairperson, three full-time members, and nine part-time members. Each role requires specific experience in fields like law or finance, along with a declaration of no conflict of interest.",
+  "points": [
+   "The Authority consists of one chairperson, three full-time members, and nine part-time members appointed by the Central Government.",
+   "The chairperson must have at least twenty-five years of experience in accountancy, auditing, finance, or law.",
+   "Full-time members must have at least twenty years of experience in those same fields.",
+   "Candidates must submit a conflict of interest declaration before appointment, or their appointment will not be considered.",
+   "The chairperson and full-time members cannot work with any audit or related consultancy firm during their service and for two years after."
+  ],
+  "example": "The Central Government is forming the new National Financial Reporting Authority. They select Mr. Sharma, who has thirty years of experience in auditing, to be the chairperson. Before taking the job, Mr. Sharma must submit a signed declaration confirming he has no conflict of interest. He also agrees to cut all ties with his previous audit firm for the duration of his appointment and for two additional years after he leaves office, ensuring complete independence in his new role.",
+  "terms": [
+   {
+    "term": "Chairperson",
+    "meaning": "The head person in charge of leading the Authority."
+   },
+   {
+    "term": "Conflict of interest",
+    "meaning": "A situation where a person has competing personal or professional interests that could make it difficult to be fair."
+   }
+  ],
+  "watch": "Do not confuse the requirement of twenty-five years of experience for the chairperson with the twenty years required for full-time members.",
+  "h": "392510b8d3cf",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "4": {
+  "summary": "This rule explains how the Central Government appoints the chairperson and members of the National Financial Reporting Authority. A special search-cum-selection committee recommends the full-time members and chairperson. Meanwhile, part-time members are chosen based on their specific official roles or expertise.",
+  "points": [
+   "A search-cum-selection committee recommends the chairperson and full-time members.",
+   "The committee includes top officials like the Cabinet Secretary and various experts.",
+   "Part-time members include representatives from ministries, the Reserve Bank, and other specified boards.",
+   "Appointments remain valid even if the committee has a vacancy or someone is absent."
+  ],
+  "example": "The Central Government needs to appoint a new full-time member to the National Financial Reporting Authority. It asks the search-cum-selection committee, led by the Cabinet Secretary and including the Ministry of Corporate Affairs Secretary and finance experts, to find a suitable candidate. The committee reviews potential candidates and sends its recommendation to the Central Government within a reasonable period, ensuring the appointment process moves forward smoothly.",
+  "terms": [
+   {
+    "term": "ex-officio",
+    "meaning": "Holding a position automatically because of another office or job one already holds."
+   },
+   {
+    "term": "convener",
+    "meaning": "The person responsible for calling meetings and managing the administrative work of a committee."
+   }
+  ],
+  "watch": "People often confuse full-time member appointments with part-time member positions, which are filled automatically by high-ranking officials from specific institutions.",
+  "h": "d37676a32ebb",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "5": {
+  "summary": "This rule states that a person cannot be appointed as the chairperson or a full-time member unless they pass a medical fitness test. The authority to declare them medically fit must be specified by the Central Government. Without this fitness clearance, the appointment cannot happen.",
+  "points": [
+   "Applies to the chairperson and full-time members.",
+   "Requires a declaration of medical fitness before appointment.",
+   "The fitness authority is specified by the Central Government."
+  ],
+  "example": "Asha Textiles Private Limited is not involved here, but let us look at the National Financial Reporting Authority. Mr. Sharma is chosen to be a full-time member. Before he can officially take his position, he must visit a specific doctor or hospital designated by the Central Government. Once that specific authority checks him and declares him medically fit, he is allowed to take up his new role.",
+  "terms": [
+   {
+    "term": "chairperson",
+    "meaning": "The head person in charge of an organization or authority."
+   },
+   {
+    "term": "full-time member",
+    "meaning": "A person who works regular, complete hours for an organization."
+   },
+   {
+    "term": "Central Government",
+    "meaning": "The national government of the country."
+   }
+  ],
+  "watch": "People often assume any regular doctor can clear the medical test, but it must be an authority specified by the Central Government.",
+  "h": "fdb215c1f1d8",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "6": {
+  "summary": "The chairperson or a member can resign from their office at any time by writing a letter to the Central Government. However, they usually must keep working for three months, until a new person takes over, or until their term ends, whichever happens first. The Central Government can also give them permission to leave earlier.",
+  "points": [
+   "Resignation is done by writing a letter to the Central Government.",
+   "The person must normally continue working for three months after the government receives the resignation notice.",
+   "They can stop working sooner if the Central Government permits it.",
+   "They must also stay if a successor takes office or their normal term ends first."
+  ],
+  "example": "Mr. Sharma, the chairperson of Apex Audit Private Limited, decided to step down from his post. He wrote a resignation letter and sent it to the Central Government. According to the rules, Mr. Sharma could not just walk away immediately. He had to continue working until three months passed from the day the government received his letter, or until a new person officially took over his office, or until his original term ended, whichever happened first. However, he could leave sooner if the Central Government gave him special permission.",
+  "terms": [
+   {
+    "term": "Relinquish",
+    "meaning": "To give up or let go of an office or position."
+   },
+   {
+    "term": "Successor",
+    "meaning": "A person who takes over a job or office after someone else leaves."
+   }
+  ],
+  "watch": "People often think a resignation is effective immediately, but the rule requires staying until certain conditions are met.",
+  "h": "52835e17bc2b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "7": {
+  "summary": "The Central Government can remove the chairperson or a member of the National Financial Reporting Authority based on a committee's recommendation under specific circumstances. These reasons include bankruptcy, criminal conviction involving moral turpitude, physical or mental incapacity, conflicting financial interests, or abuse of position. Before removal for most of these reasons, the person must be given a fair chance to be heard.",
+  "points": [
+   "The Central Government acts on a committee's recommendation to remove the chairperson or a member.",
+   "Removal reasons include being declared insolvent, being convicted of certain crimes, or becoming incapable.",
+   "Removal can also happen if someone acquires conflicting financial interests or abuses their official position.",
+   "The person facing removal must get a reasonable opportunity to present their side, except in insolvency cases."
+  ],
+  "example": "Mr. Sharma served as a member of the National Financial Reporting Authority. Later, he was convicted of a serious crime involving moral turpitude. Before taking any action, the Central Government gave him a reasonable opportunity of being heard in the matter. Following the procedure and a recommendation from the designated committee, the Central Government removed Mr. Sharma from his office.",
+  "terms": [
+   {
+    "term": "Insolvent",
+    "meaning": "A legal status of a person who cannot repay their debts."
+   },
+   {
+    "term": "Moral turpitude",
+    "meaning": "An act or behavior that gravely violates community standards of honesty and morality."
+   }
+  ],
+  "watch": "Note that a fair hearing is required for most removal grounds, but not specified for someone declared insolvent.",
+  "h": "28c3ab909441",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "8": {
+  "summary": "This rule explains how the government handles a written complaint accusing the chairperson or a full-time member of bad behavior or inability to work. First, the Ministry of Corporate Affairs checks the complaint to see if an inquiry is needed. If so, a special committee investigates the matter and sends a report to the Central Government.",
+  "points": [
+   "The Central Government must receive a written complaint with definite charges.",
+   "The Ministry of Corporate Affairs does a preliminary check of the complaint.",
+   "A committee conducts the inquiry if there are reasonable grounds and finishes within one hundred and twenty days unless extended.",
+   "The committee submits a report with its findings and reasons to the Central Government."
+  ],
+  "example": "A written complaint arrives at the Central Government accusing Mr. Sharma, a full-time member of the National Financial Reporting Authority, of misbehavior. The Ministry of Corporate Affairs reviews the complaint and decides there are reasonable grounds for an inquiry. It sends a reference to the committee to investigate the matter. The committee completes its inquiry, writes down its findings separately for each charge, and submits the final report to the Central Government.",
+  "terms": [
+   {
+    "term": "Misbehavior",
+    "meaning": "Improper or unacceptable conduct in office."
+   },
+   {
+    "term": "Incapacity",
+    "meaning": "The lack of ability to perform the functions of the office."
+   },
+   {
+    "term": "Natural justice",
+    "meaning": "Fair and impartial rules for conducting a legal proceeding."
+   }
+  ],
+  "watch": "People often think the committee must follow strict civil court rules, but it is only guided by principles of natural justice.",
+  "h": "6631e0eae8e4",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "9": {
+  "summary": "This rule explains how long the chairperson and members of the National Financial Reporting Authority can stay in office. Full-time and part-time members have different rules for their terms and limits. Both types of members can be re-appointed under certain conditions.",
+  "points": [
+   "The chairperson and full-time members serve for three years or until they turn sixty-five, whichever comes first.",
+   "Full-time members can be re-appointed for just one more term.",
+   "Part-time members hold office for up to three years as stated in their appointment order, or until their substantive post ends.",
+   "Part-time members are also eligible for re-appointment."
+  ],
+  "example": "Mr. Sharma is appointed as a full-time member of the National Financial Reporting Authority at age sixty-three. According to the rule, his term will last for two years instead of three, because he will reach the age of sixty-five. Once he reaches age sixty-five, his first term ends. After this, he is eligible for one more term of office.",
+  "terms": [
+   {
+    "term": "chairperson",
+    "meaning": "The person in charge of heading the authority."
+   },
+   {
+    "term": "substantive post",
+    "meaning": "The actual, permanent job or position a person holds by default."
+   }
+  ],
+  "watch": "A common confusion is assuming full-time members can serve multiple re-appointments, but the rule strictly allows only one more term.",
+  "h": "423496a749d1",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "10": {
+  "summary": "This rule explains what happens if the head position of the National Financial Reporting Authority becomes empty. The Central Government has the power to choose another full-time member to temporarily take charge as the chairperson. Specifically, the government will try to pick the most senior full-time member for this temporary role.",
+  "points": [
+   "The Central Government can fill a sudden vacancy in the chairperson office.",
+   "The government will appoint the most senior full-time member to act as chairperson.",
+   "If the most senior member is not available, any other full-time member can be chosen for the role."
+  ],
+  "example": "At ABC Financial Reporting Authority, the chairperson suddenly leaves office. The position is now vacant. To keep the office running without delay, the Central Government reviews the current team. It finds that Mr. Sharma is the most senior full-time member. Therefore, the Central Government officially appoints Mr. Sharma to officiate as the chairperson until a permanent replacement is found.",
+  "terms": [
+   {
+    "term": "vacancy",
+    "meaning": "an empty position or job that needs to be filled"
+   },
+   {
+    "term": "officiate",
+    "meaning": "to temporarily take on the duties and role of a leader"
+   }
+  ],
+  "watch": "This rule only explains temporary charge for vacancies and does not mention how a permanent chairperson is chosen.",
+  "h": "8b78c61b5b89",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "11": {
+  "summary": "The rules explain how the Chairperson and full-time members of the National Financial Reporting Authority are paid. They can choose between a fixed monthly salary without a house and car, or regular government pay and allowances. Their salary may be adjusted if they already receive a pension or had a certain previous government pay.",
+  "points": [
+   "The Chairperson can choose a fixed monthly salary of five lakh sixty two thousand five hundred rupees without a house and car, or the pay and allowances of a Secretary to the Government of India.",
+   "A full-time member can choose a fixed monthly salary of five lakh rupees without a house and car, or the pay and allowances of an Additional Secretary to the Government of India.",
+   "If they choose regular government pay and receive a monthly pension, their pay is reduced by the gross amount of that pension.",
+   "Revised consolidated monthly salaries apply from the 1st day of January, 2024."
+  ],
+  "example": "Aman is appointed as a full-time member of the National Financial Reporting Authority. Under the rules, he has the option to choose a fixed monthly salary of five lakh rupees without a house and car. Alternatively, he can choose the pay and allowances admissible to an Additional Secretary to the Government of India. Since he also receives a monthly pension from the Central Government, choosing the government pay option means his pay will be reduced by the gross amount of that pension.",
+  "terms": [
+   {
+    "term": "Consolidated monthly salary",
+    "meaning": "A fixed single sum paid every month that does not include extra benefits like a house or car."
+   },
+   {
+    "term": "Gross amount",
+    "meaning": "The total amount of money before any deductions are made."
+   },
+   {
+    "term": "Superannuation",
+    "meaning": "The act of retiring from a job because of age or reaching the end of a working period."
+   }
+  ],
+  "watch": "A common confusion is assuming that everyone receives a house and car, but the fixed salary options specifically exclude them.",
+  "h": "1c8a65a3a965",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "12": {
+  "summary": "This rule explains the retirement benefits for the chairperson and full-time members of the Authority. They are covered by specific provident fund and pension rules. However, they do not get any extra pension or gratuity for the work they do in this Authority.",
+  "points": [
+   "The chairperson and full-time members are governed by the Contributory Provident Fund (India) Rules, 1962.",
+   "They are also governed by the Contribution Pension System.",
+   "No additional pension is given for service rendered in the Authority.",
+   "No gratuity is allowed for service rendered in the Authority."
+  ],
+  "example": "Mr. Sharma was appointed as a full-time member of the National Financial Reporting Authority, serving for several years alongside Chairperson Ms. Verma at Surya Textiles Private Limited (fictional). Upon completing his tenure, Mr. Sharma applied for his retirement benefits. He received his benefits under the Contributory Provident Fund (India) Rules, 1962 and the Contribution Pension System. However, when he requested an extra pension and gratuity specifically for his years of service in the Authority, his request was denied because the rules do not allow additional pension or gratuity for this service.",
+  "terms": [
+   {
+    "term": "Gratuity",
+    "meaning": "A sum of money paid to an employee at the end of a period of employment."
+   },
+   {
+    "term": "Contributory Provident Fund",
+    "meaning": "A savings scheme where both the employee and employer contribute money for retirement."
+   }
+  ],
+  "watch": "People often assume all government or authority roles come with extra gratuity, but this rule specifically forbids it for this service.",
+  "h": "e3a5c0426927",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "13": {
+  "summary": "This rule explains the leave benefits for the chairperson and full-time members. They receive thirty days of earned leave for every completed calendar year and up to eight days of casual leave each year. They can also encash their earned leave, subject to limits set by government leave rules.",
+  "points": [
+   "Chairperson and full-time members get thirty days of earned leave for each completed calendar year of service.",
+   "They are allowed up to eight days of casual leave in a calendar year.",
+   "Leave salary payments follow the Central Civil Services (Leave) Rules, 1972.",
+   "Earned leave encashment is permitted up to the maximum limit set by the Central Civil Service (Leave) Rules, 1972, including past service amounts."
+  ],
+  "example": "Mr. Sharma works as the chairperson of National Financial Reporting Authority. After completing a full calendar year of service, he receives thirty days of earned leave. He also takes a few days of casual leave during the year, which stays within his limit of eight days. Later, he decides to convert some of his unused earned leave into cash, making sure the total amount does not cross the maximum limit allowed by the applicable government leave rules.",
+  "terms": [
+   {
+    "term": "earned leave",
+    "meaning": "Paid time off that a person builds up based on the time they have worked."
+   },
+   {
+    "term": "casual leave",
+    "meaning": "Short-term paid leave taken for sudden or personal needs."
+   },
+   {
+    "term": "encashment",
+    "meaning": "Getting money in exchange for unused leave days."
+   }
+  ],
+  "watch": "Do not assume any specific money amounts or time limits for leave encashment unless you look at the Central Civil Service Rules mentioned.",
+  "h": "c90a58c88ba7",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "14": {
+  "summary": "This rule explains who has the power to approve leave and foreign travel for the leaders of the National Financial Reporting Authority. The chairperson approves leave for full-time members, while the Central Government approves leave for the chairperson and all foreign travel. If the chairperson is absent, the Central Government will approve the leave for full-time members instead.",
+  "points": [
+   "The chairperson approves leave for full-time members.",
+   "The Central Government approves leave for full-time members if the chairperson is absent.",
+   "The Central Government approves leave for the chairperson.",
+   "The Central Government approves all foreign travel for both the chairperson and full-time members."
+  ],
+  "example": "Aarav is a full-time member of the National Financial Reporting Authority at Apex Solutions Private Limited. When Aarav wants to take a short leave, he asks the chairperson for approval. Later, when Aarav needs to travel abroad for an official conference, he must send his travel request to the Central Government because the Central Government alone has the power to approve foreign travel for all members and the chairperson.",
+  "terms": [
+   {
+    "term": "sanctioning authority",
+    "meaning": "The person or group who has the official power to give approval."
+   },
+   {
+    "term": "Central Government",
+    "meaning": "The national government of the country."
+   }
+  ],
+  "watch": "Remember that the chairperson can only approve leave for full-time members, not foreign travel.",
+  "h": "664688ec8e06",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "15": {
+  "summary": "This rule explains when the head or a full-time member of the National Financial Reporting Authority can receive money to help pay for housing. If they choose standard government pay scales, they get a house rent allowance just like certain central government officers. However, they will not get this allowance if they already live in government-provided housing or if they chose a fixed monthly salary instead.",
+  "points": [
+   "The Chairperson or a full-time member choosing standard pay gets a house rent allowance similar to a Central Government Group A officer.",
+   "No house rent allowance is given if they already live in a General Pool Residential Accommodation provided to them.",
+   "This rule does not apply to those who chose a fixed consolidated salary of four lakh fifty thousand rupees or four lakh rupees per month."
+  ],
+  "example": "Mr. Sharma is the Chairperson of Apex Reporting Authority Private Limited and chooses standard government pay and allowances. Because he does not live in government-provided housing, he receives a house rent allowance at the same rate as a Central Government officer holding a Group A post. Meanwhile, his colleague Ms. Roy chose a fixed monthly salary of four lakh fifty thousand rupees under the rules, so this housing allowance does not apply to her at all.",
+  "terms": [
+   {
+    "term": "House rent allowance",
+    "meaning": "Money given to cover the cost of renting a home."
+   },
+   {
+    "term": "General Pool Residential Accommodation",
+    "meaning": "Housing provided directly by the government."
+   },
+   {
+    "term": "Consolidated salary",
+    "meaning": "A fixed, total monthly pay amount that does not use standard separate allowances."
+   }
+  ],
+  "watch": "Do not assume everyone gets this housing allowance, because those who choose a fixed monthly salary do not receive it.",
+  "h": "83d68846beeb",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "16": {
+  "summary": "This rule explains when the Chairperson or a full-time member can use a staff car for official and private travel. It depends on the specific pay and allowances they have chosen. Those who choose a fixed consolidated salary do not get this car facility.",
+  "points": [
+   "The Chairperson or full-time member may get a staff car if they chose the pay and allowances of a Secretary or Additional Secretary.",
+   "This car can be used for both official and private journeys.",
+   "The car facility follows the rules that apply to a Central Government officer in a Group 'A' post with the same pay.",
+   "Anyone who chose the fixed salary of four lakh fifty thousand rupees or four lakh rupees per month does not get this car facility."
+  ],
+  "example": "Mr. Sharma is a full-time member at the National Financial Reporting Authority. He chose to receive the pay and allowances of a Secretary to the Government of India rather than a fixed monthly salary. Because of this choice, Mr. Sharma is entitled to use a staff car for his office commutes as well as his personal weekend trips, following the standard staff car rules for Central Government officers.",
+  "terms": [
+   {
+    "term": "Chairperson",
+    "meaning": "The head person in charge of the authority."
+   },
+   {
+    "term": "Consolidated salary",
+    "meaning": "A single fixed monthly amount of pay that does not change based on extra allowances."
+   }
+  ],
+  "watch": "Do not assume all members get a staff car, because those who choose a fixed monthly salary are not eligible for it.",
+  "h": "02b5b8331b9b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "17": {
+  "summary": "The rules state that the chairperson or any full-time member of the authority must declare their assets, liabilities, and financial or other interests before they start working. This requirement ensures transparency before they take up their official duties. The text does not mention any other details about how or where this must be done.",
+  "points": [
+   "Applies to the chairperson or a full-time member.",
+   "Must happen before entering upon office.",
+   "Requires declaration of assets, liabilities, and financial or other interests."
+  ],
+  "example": "Mr. Sharma is appointed as a full-time member of the National Financial Reporting Authority. Before he starts going to his office and taking up his official duties, he must formally declare all his properties, debts, and other financial interests. By doing this, he follows the rule strictly before entering upon his office.",
+  "terms": [
+   {
+    "term": "Assets",
+    "meaning": "Things of value that a person owns."
+   },
+   {
+    "term": "Liabilities",
+    "meaning": "Debts or amounts of money that a person owes to others."
+   },
+   {
+    "term": "Entering upon his office",
+    "meaning": "Starting to work in the official position."
+   }
+  ],
+  "watch": "Do not assume any specific forms or deadlines for submitting this declaration, as the text does not mention them.",
+  "h": "2cc978792202",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "19": {
+  "summary": "This rule requires the chairperson and every full time member to take a special oath before they start their job. They must promise to keep secrecy and follow their official duties properly using specific forms. This helps make sure they are ready to handle their responsibilities with honesty.",
+  "points": [
+   "Applies to the chairperson and full time members.",
+   "Must be done before entering upon the office.",
+   "Requires taking an oath of office and secrecy.",
+   "Must use Form II and Form III annexed to the rules."
+  ],
+  "example": "Aarav is appointed as a full time member of the National Financial Reporting Authority at Apex Solutions Private Limited. Before he starts working in his new role, the rules require him to take an official oath of office and secrecy. He carefully signs and makes this oath using the exact forms mentioned in the rules, ensuring he is legally ready to begin his duties.",
+  "terms": [
+   {
+    "term": "Oath",
+    "meaning": "A solemn promise to tell the truth or to perform one's duties faithfully."
+   },
+   {
+    "term": "Secrecy",
+    "meaning": "The practice of keeping information private and not sharing it with others."
+   }
+  ],
+  "watch": "People often confuse taking the oath with signing an employment contract, but this is a formal legal promise required before starting the job.",
+  "h": "dcdc26bcbfc1",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "20": {
+  "summary": "This rule explains how part-time members of the Authority get paid for their work. Members who do not hold their position by virtue of another office receive a sitting fee for each meeting they attend. They also get money for travel and daily expenses when they go on tours for the Authority.",
+  "points": [
+   "Part-time members who are not ex-officio receive a sitting fee of rupees six thousand for each meeting attended.",
+   "Part-time members are entitled to travelling and daily allowances while on tour, including journeys to attend meetings.",
+   "The travel and daily allowances are paid at the same rates as a Group A officer in Senior Administrative Grade in the Central Government."
+  ],
+  "example": "Mr. Sharma is a part-time member of the Authority at Alpha Financial Services Private Limited, and he does not hold his position on an ex-officio basis. He travels to New Delhi to attend an official meeting of the Authority. For attending this meeting, Mr. Sharma is entitled to receive a sitting fee of rupees six thousand. Because he had to travel for this meeting, he also receives travelling allowance and daily allowances at the same rates and scale that apply to a Group A officer in Senior Administrative Grade in the Central Government.",
+  "terms": [
+   {
+    "term": "ex-officio basis",
+    "meaning": "holding a position automatically because of another office or job held"
+   },
+   {
+    "term": "sitting fee",
+    "meaning": "money paid to a member for attending a meeting"
+   },
+   {
+    "term": "travelling and daily allowances",
+    "meaning": "money given to cover travel and daily expenses while on tour"
+   }
+  ],
+  "watch": "A common confusion is whether ex-officio members also get the sitting fee, but the rule states it is only for part-time members other than those on an ex-officio basis.",
+  "h": "6a6fe9be6fb1",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "21": {
+  "summary": "The Central Government has the power to relax the rules for certain groups of people when it thinks it is necessary. To do this, the government must write down its reasons in an official order. This ensures that any changes to how the rules apply are properly documented.",
+  "points": [
+   "The Central Government can relax rule provisions.",
+   "It applies to any class or category of persons.",
+   "The government must record its reasons in writing."
+  ],
+  "example": "Meera Textiles Private Limited falls under a new category of companies facing unique industry challenges. The Central Government reviews their situation and decides it is necessary to help this group. By issuing an official order and writing down its reasons, the government relaxes certain provisions of the rules specifically for this class of companies, exactly as the law permits.",
+  "terms": [
+   {
+    "term": "Central Government",
+    "meaning": "The main national government of the country."
+   },
+   {
+    "term": "Relax",
+    "meaning": "To make a rule less strict or not apply in a certain case."
+   }
+  ],
+  "watch": "People often think the government can relax rules for just one single person, but the text specifically states it applies to a class or category of persons.",
+  "h": "ce15354b8228",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "22": {
+  "summary": "This rule deals with how doubts or questions about the meaning of these rules are handled. It states that the Central Government will make the final decision on any interpretation issues. No other details or conditions are provided in the text.",
+  "points": [
+   "If any question arises on how to understand these rules, the Central Government decides.",
+   "The decision made by the Central Government on the interpretation is final."
+  ],
+  "example": "A dispute arose at Zenith Private Limited regarding how a specific provision in the National Financial Reporting Authority rules should be understood. Since people read the text differently, they referred the matter upward. Ultimately, the Central Government provided the final decision on the interpretation of the rules.",
+  "terms": [
+   {
+    "term": "Interpretation",
+    "meaning": "The act of explaining or figuring out the meaning of something written, such as a rule or law."
+   },
+   {
+    "term": "Central Government",
+    "meaning": "The national government of the country."
+   }
+  ],
+  "watch": "Remember that only the Central Government's decision is final when a question of interpretation comes up.",
+  "h": "c15e4c990015",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
  }
 }

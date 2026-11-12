@@ -2990,5 +2990,2048 @@
   "h": "5680dad8d72f",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "86": {
+  "summary": "This rule explains how extra company money not needed right away during a winding up must be invested. The Company Liquidator must place these funds in Government securities or interest-bearing scheduled bank deposits. When a fixed deposit matures, the Liquidator cannot renew it automatically and must check for better interest rates.",
+  "points": [
+   "Surplus money not needed immediately must be invested in Government securities or scheduled bank interest-bearing deposits.",
+   "Investments must be in the name of the company and monitored regularly by the Company Liquidator.",
+   "Returns and fixed deposit details must be submitted to the Tribunal.",
+   "Matured fixed deposits cannot be automatically renewed; the Liquidator must check for higher interest rates elsewhere and report to the Tribunal."
+  ],
+  "example": "Meera Textiles Private Limited is undergoing winding up. The Company Liquidator finds that Rs 5,00,000 is not needed right away. The Liquidator invests this surplus in an interest-bearing deposit in a scheduled bank under the company's name. After the deposit matures, the Liquidator checks other scheduled banks to see if a higher interest rate is available. Finding a better rate, the Liquidator reports this to the Tribunal and applies for permission to invest the funds in the new bank.",
+  "terms": [
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person appointed to run the winding up process of a company."
+   },
+   {
+    "term": "Scheduled bank",
+    "meaning": "A bank listed in the second schedule of the Reserve Bank of India Act."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "The judicial authority handling company law matters."
+   }
+  ],
+  "watch": "A matured fixed deposit must not be automatically renewed without checking other banks for better interest rates.",
+  "h": "4cabf54304c5",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "87": {
+  "summary": "This rule tells the person winding up a company to check the account money every month. They must figure out if there is spare money to invest. They also need to write down their choice in a record book.",
+  "points": [
+   "Check the liquidation account at the end of every single month.",
+   "Figure out if there is any money available to invest.",
+   "Write an entry in the company record book about checking the account and the decision made.",
+   "Write down the reasons if the choice is made not to invest extra money."
+  ],
+  "example": "At the end of April, Mr. Roy, the Company Liquidator for Alpha Trades Private Limited, looked at the company liquidation account. He saw that there was spare money sitting in the account. He made an entry in the company record book to show he had checked the account and noted down his decision to invest the surplus funds. If he had decided not to invest, he would have written down his reasons in that same book.",
+  "terms": [
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person appointed to wind up and close down a company."
+   },
+   {
+    "term": "Surplus funds",
+    "meaning": "Extra money that is left over and available."
+   }
+  ],
+  "watch": "Do not confuse this with a requirement to invest the money, as the rule only requires checking and recording the decision.",
+  "h": "ed15eaf7245e",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "88": {
+  "summary": "This rule explains how a bank must handle investments for a company that is closing down. The bank can only make or sell these investments when the liquidator asks in writing. All securities are kept in the liquidator's name, and money from sales goes straight to their account.",
+  "points": [
+   "The bank makes investments only on the written request of the Company Liquidator.",
+   "Securities are kept in the bank in the name and on behalf of the Company Liquidator.",
+   "The bank can only sell the securities under the written instructions of the Company Liquidator.",
+   "Money from sold securities must be credited by the bank to the Company Liquidator's account."
+  ],
+  "example": "Meera Textiles Private Limited is winding up its business. The Company Liquidator wants to invest some surplus funds and sends a written request to the bank. The bank buys the securities and keeps them in the liquidator's name. Later, the liquidator gives written instructions to sell these securities. The bank sells them and credits the sale proceeds directly back into the Company Liquidator's account.",
+  "terms": [
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person appointed to run the winding up process and manage the assets of a company."
+   },
+   {
+    "term": "Securities",
+    "meaning": "Financial investments like stocks or bonds."
+   }
+  ],
+  "watch": "People often confuse who holds the securities, but they are kept by the bank while still being in the name of the Company Liquidator.",
+  "h": "eb829f01d097",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "89": {
+  "summary": "This rule explains how money earned from investments and securities during a company winding up must be handled. The bank receives the earnings and deposits them into the Company Liquidator's account. Finally, the Company Liquidator credits this money to the specific company that owns the investment.",
+  "points": [
+   "Banks must receive all dividends and interest from securities or investments.",
+   "The bank puts this money into the account of the Company Liquidator.",
+   "The bank must inform the Company Liquidator about the received money.",
+   "The Company Liquidator then credits this money to the correct company account."
+  ],
+  "example": "Meera Textiles Private Limited is going through a winding up process and holds certain investments. The bank collects the interest generated from these investments and places it into the account of the Company Liquidator, Mr. Sharma. The bank immediately informs Mr. Sharma about this deposit. Following the rule, Mr. Sharma then credits the exact amount of interest into the specific account belonging to Meera Textiles Private Limited so the funds are correctly accounted for during the winding up.",
+  "terms": [
+   {
+    "term": "Dividend",
+    "meaning": "A share of profits paid by a company to its investors."
+   },
+   {
+    "term": "Securities",
+    "meaning": "Financial instruments like stocks or bonds that hold monetary value."
+   },
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person officially appointed to wind up and close down a company."
+   }
+  ],
+  "watch": "People often confuse who deposits the money first, but the bank must receive and credit it to the liquidator before the liquidator credits it to the company.",
+  "h": "60b24c315885",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "90": {
+  "summary": "The provided text is very short and simply states that the person winding up a company must claim any tax refunds that are due. It does not provide any further details, deadlines, or instructions. Therefore, the exact process cannot be fully explained from this text alone.",
+  "points": [
+   "The Company Liquidator is responsible for claiming tax refunds.",
+   "This includes income-tax and any other taxes that are due to the company."
+  ],
+  "example": "A company named Sunshine Paints Private Limited is being closed down. A person called the Company Liquidator is appointed to handle its remaining money and assets. While checking the records, the Liquidator finds that the company paid extra tax to the government in the past. Based on the rule, the Liquidator proceeds to claim this income-tax refund so the money can be recovered for the company.",
+  "terms": [
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person officially appointed to run the winding up process and close down a company."
+   },
+   {
+    "term": "Refunds",
+    "meaning": "Money that is paid back, such as extra tax paid to the government."
+   }
+  ],
+  "watch": "People often confuse tax refunds with tax payments, but refunds are monies owed back to the company.",
+  "h": "d9097c1210bd",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "92": {
+  "summary": "This rule explains how a liquidator must present financial accounts when winding up a company. The account must show money received and paid out using specific official forms. Three copies of this account must be filed along with a sworn statement by the liquidator.",
+  "points": [
+   "The account must be a statement of receipts and payments in Form WIN 39.",
+   "You must follow the instructions inside Form WIN 39 when preparing it.",
+   "Three copies of the account must be filed.",
+   "The Company Liquidator must verify the account using an affidavit in Form WIN 40.",
+   "The final account must be in Form WIN 41."
+  ],
+  "example": "Meera Textiles Private Limited is winding up its business. The Company Liquidator, Mr. Sharma, prepares the financial statement of money received and paid out using Form WIN 39, following all the instructions given in that form. He makes three copies of this account and signs a sworn affidavit in Form WIN 40 to verify it. Finally, he submits the documents, and when the process concludes, he prepares the final account using Form WIN 41.",
+  "terms": [
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person appointed to manage the winding up and closing of a company."
+   },
+   {
+    "term": "Affidavit",
+    "meaning": "A written statement confirmed by oath or affirmation for use as evidence."
+   },
+   {
+    "term": "Receipts and payments",
+    "meaning": "A record of all the money that comes in and goes out."
+   }
+  ],
+  "watch": "Do not forget to file three copies of the account along with the required affidavit.",
+  "h": "3b633067aee4",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "93": {
+  "summary": "This rule explains what a Company Liquidator must do when there are no financial transactions during an accounting period. If the liquidator has not received or paid any money regarding the company's assets, they must submit a specific sworn statement. This statement must be filed on the exact date their regular accounts are due.",
+  "points": [
+   "Applies when the Company Liquidator has received or paid zero money for company assets during the account period.",
+   "The liquidator must file an affidavit stating there are no receipts or payments.",
+   "The filing must happen on the date accounts are due."
+  ],
+  "example": "Aarav is the Company Liquidator for Apex Goods Private Limited. During the latest accounting period, Aarav did not receive any money or pay out any funds related to the company's assets. Because of this rule, Aarav must file an affidavit stating there are no receipts or payments. He submits this affidavit on the exact date he is required to file his regular accounts for the period.",
+  "terms": [
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person appointed to wind up the affairs of a company."
+   },
+   {
+    "term": "Affidavit",
+    "meaning": "A written statement confirmed by oath or affirmation for use as evidence."
+   }
+  ],
+  "watch": "A common confusion is thinking that no financial activity means no paperwork needs to be filed at all.",
+  "h": "8694e860e4bd",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "95": {
+  "summary": "This rule explains how the accounts of a Company Liquidator must be checked. The Tribunal usually picks one or more Chartered Accountants from its own list to do a full check of these accounts. The liquidator must show all books, bills, and give any needed help and answers to the auditor.",
+  "points": [
+   "The auditor is preferably a Chartered Accountant chosen by the Tribunal from an approved panel.",
+   "The audit is a complete check of the Company Liquidator's accounts.",
+   "The liquidator must provide all books and vouchers for the audit.",
+   "The liquidator must give the auditor all required explanations, information, and help."
+  ],
+  "example": "Meera Textiles Private Limited is undergoing winding up, and Mr. Sharma is the Company Liquidator. The Tribunal appoints Ms. Gupta, a Chartered Accountant from the official panel, to check the accounts. Mr. Sharma gives Ms. Gupta all the account books, payment vouchers, and answers every question she asks so she can complete the full audit properly.",
+  "terms": [
+   {
+    "term": "Chartered Accountant",
+    "meaning": "A professional accountant who is officially certified to check financial accounts."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "An official body or court that handles legal matters and disputes."
+   },
+   {
+    "term": "Vouchers",
+    "meaning": "Receipts or papers that show proof of money spent or received."
+   }
+  ],
+  "watch": "People often think the liquidator can choose any auditor, but the Tribunal actually appoints them from its own panel.",
+  "h": "f79c0cb6e308",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "96": {
+  "summary": "When the Company Liquidator has their accounts audited, the auditor must send a certificate of the audit along with any comments to the Registry and the Liquidator. The Liquidator then files a copy of this certificate and the audited accounts with the Registrar of Companies. Finally, the Registry keeps the original audit certificate with the Tribunal records.",
+  "points": [
+   "The auditor audits the Company Liquidator accounts filed in the Tribunal.",
+   "The auditor sends an audit certificate with comments to the Registry and the Company Liquidator.",
+   "The Company Liquidator files a copy of the audit certificate and audited accounts with the Registrar of Companies.",
+   "The Registry keeps the original audit certificate in the Tribunal records."
+  ],
+  "example": "In a winding up proceeding for Meera Textiles Private Limited, an independent auditor reviews the accounts filed by the Company Liquidator. The auditor prepares an audit certificate with some comments and forwards one copy to the Registry and another copy to the Liquidator, named Mr. Sharma. Mr. Sharma then submits a copy of this audit certificate and the audited accounts to the Registrar of Companies. Meanwhile, the Registry safely places the original audit certificate among the official records of the Tribunal.",
+  "terms": [
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person appointed to wind up or close down a company."
+   },
+   {
+    "term": "Registry",
+    "meaning": "The administrative office of the Tribunal."
+   },
+   {
+    "term": "Registrar of Companies",
+    "meaning": "The government office that maintains records of companies."
+   }
+  ],
+  "watch": "Do not confuse the Tribunal's Registry with the Registrar of Companies, as they are two different offices receiving different copies.",
+  "h": "9ea7727eedec",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "97": {
+  "summary": "This rule explains how audit fees are decided during a company winding up process. The Tribunal determines these fees based on how complex or difficult the case is. The fees can also be adjusted over time as needed.",
+  "points": [
+   "The Tribunal decides the audit fees.",
+   "Fees are fixed from time to time.",
+   "Decisions are based on the nature and complexity of the case."
+  ],
+  "example": "In the case of Apex Technologies Private Limited, the winding up process involves sorting through tangled international accounts and numerous hidden assets. Because this situation is very complex and difficult to unravel, the Tribunal reviews the details and fixes the audit fees accordingly, ensuring the auditor is paid fairly for the difficult work involved.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A special official body or court that handles specific legal disputes and cases."
+   },
+   {
+    "term": "Audit fees",
+    "meaning": "The payment given to an auditor for checking and verifying financial records."
+   }
+  ],
+  "watch": "Do not assume that the audit fees will stay the same throughout the entire case, as they can be fixed from time to time.",
+  "h": "06ca6328a190",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "98": {
+  "summary": "This rule allows creditors and contributories to check the accounts and audit certificates during the winding up of a company. To do this, they must go to the office of the Tribunal and pay a specific fee. They can also get a copy of these documents by paying a charge per page.",
+  "points": [
+   "Creditors and contributories have the right to inspect accounts and audit certificates.",
+   "Inspection takes place at the office of the Tribunal.",
+   "A fee of one hundred rupees must be paid for the inspection.",
+   "Copies of the documents can be obtained by paying five rupees per page."
+  ],
+  "example": "Aarav is a creditor of ABC Enterprises Private Limited, which is currently going through a winding up process. Wishing to check the company's financial state, Aarav visits the office of the Tribunal. He pays the required fee of one hundred rupees to inspect the accounts and the auditor's certificate. Later, Aarav decides he needs a physical copy of the records to keep for his personal review, so he pays the additional charges at the rate of five rupees per page to obtain the copies.",
+  "terms": [
+   {
+    "term": "Creditor",
+    "meaning": "A person or company to whom money is owed."
+   },
+   {
+    "term": "Contributory",
+    "meaning": "A person liable to contribute to the assets of a company in the event of its being wound up."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized legal body established to handle specific types of disputes, such as company law matters."
+   }
+  ],
+  "watch": "Do not forget that both inspection and getting copies require separate, specific fee payments mentioned in the rule.",
+  "h": "e40a82fe0bdd",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "99": {
+  "summary": "This rule explains what happens after a company's accounts are audited during a winding up process. The Registry must take the audited statement and the auditor's certificate and show them to the Tribunal. The Tribunal will then consider them and pass necessary orders.",
+  "points": [
+   "The accounts of the company are audited first.",
+   "The Registry places the statement of account before the Tribunal.",
+   "The auditor's certificate is also given to the Tribunal.",
+   "The Tribunal reviews these documents and gives orders."
+  ],
+  "example": "Meera Textiles Private Limited is going through a winding up process. An auditor finishes checking the company's financial accounts and issues a formal certificate. Following the rules, the official Registry takes this statement of account and the auditor's certificate directly to the Tribunal. The Tribunal checks the documents to understand the financial situation and issues the next orders for the case.",
+  "terms": [
+   {
+    "term": "Registry",
+    "meaning": "The administrative office of the court or Tribunal that handles paperwork and filings."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "A special legal body or court set up to handle specific types of cases, such as company disputes and winding up."
+   }
+  ],
+  "watch": "Do not assume this rule applies to summary winding up, as it falls under Part III for winding up by the Tribunal other than summary winding up.",
+  "h": "13d73b62bcd1",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "103": {
+  "summary": "This rule explains what details must be included in a written statement when someone claims that a company owes them money during the winding up process. The person must use a specific form and give details about the debt, any bills or receipts, and whether they have special rights to be paid. This helps make sure all debt claims are clear and properly supported.",
+  "points": [
+   "The claim must be made through a written statement on oath called an affidavit.",
+   "It must include an account statement showing the details of the debt and mention any supporting bills or vouchers.",
+   "It must state if the person is a secured or preferential creditor and give details of their security or claims.",
+   "The affidavit must be written in Form WIN 44."
+  ],
+  "example": "Aarav wants to prove that Alpha Electronics Private Limited owes him money as the company winds up. He fills out Form WIN 44. In his affidavit, he includes an account statement detailing the exact debt and lists the delivery receipts as vouchers to prove it. He also mentions that he holds a special claim over some company equipment as security and explains those particulars clearly.",
+  "terms": [
+   {
+    "term": "Affidavit",
+    "meaning": "A written statement confirmed by oath or affirmation for use as evidence."
+   },
+   {
+    "term": "Secured creditor",
+    "meaning": "A creditor who holds a security interest over the company's assets to protect their debt."
+   },
+   {
+    "term": "Preferential creditor",
+    "meaning": "A creditor who has the right to be paid before other unsecured creditors by law."
+   }
+  ],
+  "watch": "Make sure to use Form WIN 44 and clearly state whether you are a secured or preferential creditor.",
+  "h": "b09a92a6c378",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "104": {
+  "summary": "This rule makes it easier for many workers to claim unpaid wages from a company that is closing down. Instead of every single worker filing a separate claim, one person can file a single form for everyone. This group claim has the exact same legal effect as individual claims.",
+  "points": [
+   "Applies when many workers have claims for unpaid wages or remuneration.",
+   "One person, such as a foreman, can file a single proof on behalf of all workers.",
+   "The claim form must include an attached schedule listing all workers and the amounts due to them.",
+   "This single filing has the same legal validity as separate claims made by each worker."
+  ],
+  "example": "Meera Textiles Private Limited is closing down, and fifty factory workers are owed unpaid wages. Instead of fifty separate workers filling out individual paperwork, their supervisor, Ramesh, files a single Form WIN 45 on behalf of everyone. Ramesh attaches a schedule listing all fifty workers and the exact amounts owed to each person. Under this rule, Ramesh's single filing is treated as validly as if every single worker had submitted their own separate form.",
+  "terms": [
+   {
+    "term": "Workmen",
+    "meaning": "Workers and other people employed by the company."
+   },
+   {
+    "term": "Remuneration",
+    "meaning": "Money paid for work or services, such as wages or salary."
+   },
+   {
+    "term": "Proof",
+    "meaning": "A formal written document showing that a debt is owed."
+   }
+  ],
+  "watch": "Do not assume that individual workers cannot file separately; the rule only says that filing together through one person is also sufficient.",
+  "h": "93ec33cb9775",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "105": {
+  "summary": "This rule explains what a creditor must do when they want to claim money from a company that is closing down. If the company owes money based on a financial paper like a promissory note, the creditor has to show it to the Company Liquidator. The Liquidator must then mark this paper before accepting the claim.",
+  "points": [
+   "A creditor must show the financial paper to prove their claim.",
+   "The rule applies to bills of exchange, promissory notes, and similar negotiable instruments.",
+   "The Company Liquidator must mark the document before the claim is accepted."
+  ],
+  "example": "Meera Textiles Private Limited is winding up its business. Creditor Rohan holds a promissory note signed by the company to prove a debt owed to him. To have his claim officially admitted, Rohan brings this promissory note to the Company Liquidator. The Liquidator inspects the document, marks it appropriately, and then admits Rohan's proof of debt.",
+  "terms": [
+   {
+    "term": "Creditor",
+    "meaning": "A person or company to whom money is owed."
+   },
+   {
+    "term": "Promissory note",
+    "meaning": "A signed document containing a written promise to pay a stated sum to a specified person."
+   },
+   {
+    "term": "Company Liquidator",
+    "meaning": "The official person appointed to wind up or close down the company."
+   }
+  ],
+  "watch": "Do not assume this rule applies without showing the actual physical or electronic document to the Liquidator.",
+  "h": "946f10a30f4d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "106": {
+  "summary": "This rule explains how to decide the value of debts and claims against a company during a winding up. Normally, the value is estimated as of the date the provisional liquidator is appointed or the winding up order is made, whichever comes first. However, if the company passed a resolution to wind up before the winding up petition was presented, that resolution date is used instead.",
+  "points": [
+   "Debts and claims are estimated as of the earlier of the provisional liquidator's appointment or the winding up order.",
+   "If the company passed a winding up resolution before the petition was presented, the resolution date is used for estimation."
+  ],
+  "example": "Meera Textiles Private Limited faced financial trouble. On March 1, the company passed a resolution to wind up voluntarily. Later, a formal winding up petition was presented, and a winding up order was made on June 1. Because the company passed its winding up resolution before the petition was presented, all debts and claims against Meera Textiles Private Limited must be estimated according to their value on March 1, which was the date of the resolution.",
+  "terms": [
+   {
+    "term": "Provisional Liquidator",
+    "meaning": "A temporary person appointed to take charge of a company's property and affairs before a final winding up order is made."
+   },
+   {
+    "term": "Winding up",
+    "meaning": "The legal process of closing down a company, settling its debts, and distributing any remaining assets."
+   }
+  ],
+  "watch": "People often get confused about which date to use when a company passes a resolution before the winding up petition is filed.",
+  "h": "0ca1c43bc06a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "107": {
+  "summary": "This rule tells creditors how to calculate the exact amount of debt they are claiming from a company that is closing down. Creditors must subtract any trade discounts from the total debt amount before they prove it. The text is very short, so it only covers this single instruction.",
+  "points": [
+   "A creditor must prove their debt.",
+   "The creditor is required to deduct all trade discounts from the debt."
+  ],
+  "example": "Meera Textiles Private Limited is winding up its business. A supplier named Rahul claims the company owes him money for goods. When Rahul submits his proof of debt to the company, he checks his invoices. Because the invoices included trade discounts, Rahul properly subtracts those discounts from his total claim before submitting it to the liquidator, following the required rule.",
+  "terms": [
+   {
+    "term": "Creditor",
+    "meaning": "A person or business that is owed money."
+   },
+   {
+    "term": "Trade discount",
+    "meaning": "A reduction in the price of goods given by a seller to a buyer."
+   }
+  ],
+  "watch": "Do not forget to subtract all trade discounts before you submit your debt proof.",
+  "h": "85f796ba5904",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "108": {
+  "summary": "This rule explains how a creditor can claim interest on a debt when a company is winding up. If no interest was previously agreed upon, the creditor can still claim interest up to six percent per year or an amount decided by the Tribunal. The exact starting point for calculating this interest depends on whether the debt had a fixed written due date or required a written demand.",
+  "points": [
+   "Creditors can claim interest on overdue debts even if no interest was originally agreed.",
+   "The maximum interest rate is six percent per year unless the Tribunal decides otherwise.",
+   "For debts with a written due date, interest starts from when the debt was payable.",
+   "For other debts, interest starts from the date of a written demand for interest."
+  ],
+  "example": "Meera Textiles Private Limited went into winding up, leaving an unpaid debt to ABC Supplies. They had a written contract stating the bill was due on a specific date, but the contract did not mention interest. Because the debt was overdue, ABC Supplies decided to claim interest under the rules. They asked for interest at the rate of six percent per year, starting from the original due date stated in their written contract up to the date of the winding up order.",
+  "terms": [
+   {
+    "term": "winding up",
+    "meaning": "The legal process of closing down a company and settling its affairs."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized legal body that handles company law disputes in India."
+   },
+   {
+    "term": "written instrument",
+    "meaning": "A formal written document, such as a contract or agreement."
+   }
+  ],
+  "watch": "Do not assume interest is always six percent, as the Tribunal has the power to decide a different rate.",
+  "h": "3d635bf0534c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "109": {
+  "summary": "This rule is about how regular payments like rent are handled when a company is ordered to shut down, known as winding up. If a payment is due over time, people can claim a fair share of it up to the exact date of the winding up order. However, if the company liquidator keeps using a rented space, the landlord can still claim rent for the time of that occupation.",
+  "points": [
+   "Rent or other payments are calculated proportionally up to the winding up date.",
+   "This applies when the winding up order happens between normal payment due dates.",
+   "The landlord keeps the right to claim rent for the period the liquidator stays in the premises."
+  ],
+  "example": "Meera Textiles Private Limited rented a building from Mr. Sharma. The monthly rent was due on the first of every month. On the tenth of the month, the company received a winding up order. Under this rule, Mr. Sharma is entitled to rent for those ten days. Furthermore, because the Company Liquidator kept using the building after that date, Mr. Sharma can also claim rent for the entire duration of the liquidator's occupation.",
+  "terms": [
+   {
+    "term": "winding up",
+    "meaning": "The process of closing down a company and settling its affairs."
+   },
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person appointed to manage the closing down of the company."
+   },
+   {
+    "term": "demised",
+    "meaning": "Rented or leased out property."
+   }
+  ],
+  "watch": "Do not assume that closing the company stops the obligation to pay rent if the liquidator continues to use the rented space.",
+  "h": "04ead2b9dc8b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "110": {
+  "summary": "This rule allows a creditor to claim a future debt during a company winding up as if it were due right now. The creditor can receive dividends just like other creditors, but a small interest deduction is made for early payment. This ensures fair treatment for debts that were not yet due when the winding up order was made.",
+  "points": [
+   "Creditors can claim future debts as if they are payable right now during winding up.",
+   "They receive dividends equally with other creditors.",
+   "An interest rebate of six percent per year is deducted from the dividend.",
+   "The interest period is calculated from the dividend declaration date to the original payment due date."
+  ],
+  "example": "Alpha Logistics Private Limited is winding up. Supplier Rohan is owed a payment that was only supposed to become due six months later. Under this rule, Rohan can claim the money now and receive dividends alongside other creditors. However, a rebate of interest at six per cent per annum is deducted from the dividend, calculated from the dividend declaration date until the future date when the debt was originally due to be paid.",
+  "terms": [
+   {
+    "term": "winding up",
+    "meaning": "The legal process of closing down a company and settling its affairs."
+   },
+   {
+    "term": "dividends",
+    "meaning": "Payments made to creditors or shareholders from the company's available funds."
+   },
+   {
+    "term": "rebate",
+    "meaning": "A deduction or discount taken from an amount."
+   }
+  ],
+  "watch": "Do not forget that the six percent interest rebate applies only to the time between the dividend declaration and the future due date.",
+  "h": "50d21f811072",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "111": {
+  "summary": "The Company Liquidator must check every debt claim submitted by creditors. This must be done within thirty days or within the time allowed by the Tribunal. The liquidator can ask for more documents or ask the creditor to attend in person.",
+  "points": [
+   "The liquidator must examine every proof of debt and its grounds as soon as possible.",
+   "The process must happen within thirty days or a time allowed by the Tribunal.",
+   "The liquidator can demand documentary proof or further evidence.",
+   "If the liquidator needs more evidence or a personal visit, they must fix a date and time.",
+   "A notice in Form WIN 46 must be sent by registered or speed post at least seven days before the date."
+  ],
+  "example": "Meera Textiles Private Limited is undergoing winding up. Creditor Rohan submits a proof of debt claiming the company owes him money for fabric supply. The Company Liquidator examines the claim and needs more details. The liquidator asks Rohan to provide extra delivery receipts and to attend an investigation in person. The liquidator sends a notice in Form WIN 46 to Rohan by speed post, making sure it reaches Rohan at least seven days before the scheduled date.",
+  "terms": [
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person appointed to handle the winding up and closing of a company."
+   },
+   {
+    "term": "Proof of debt",
+    "meaning": "A formal statement or document showing that a company owes money to someone."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "The judicial authority that handles company law disputes and cases in India."
+   }
+  ],
+  "watch": "Make sure to send the notice so that it actually reaches the creditor at least seven days before the meeting, not just dispatch it seven days prior.",
+  "h": "3db81fad274f",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "112": {
+  "summary": "During a company closure, the person in charge called the Company Liquidator can ask anyone for information about debts and documents. The Liquidator must pay for their travel expenses when making this request. If the person refuses to show up or hides from the notice, the Liquidator can report them to the Tribunal for orders.",
+  "points": [
+   "The Company Liquidator can ask any person for information about debts.",
+   "The Liquidator can also demand documents related to those debts.",
+   "Travel and other expenses must be paid to the person when they are called.",
+   "If someone avoids the notice or fails to attend without a lawful excuse, the Liquidator can report it to the Tribunal."
+  ],
+  "example": "Alpha Logistics Limited is going through liquidation. The Company Liquidator believes that Mr. Sharma holds important documents regarding company debts. The Liquidator sends a call to Mr. Sharma along with money to cover his travel expenses. Mr. Sharma ignores the call and avoids receiving the notice. Because of this, the Liquidator reports Mr. Sharma to the Tribunal to get appropriate orders against him.",
+  "terms": [
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person appointed to manage the closing and winding up of a company."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized legal authority or court that handles company law cases."
+   },
+   {
+    "term": "Liquidation",
+    "meaning": "The process of bringing a company to an end and settling its debts."
+   }
+  ],
+  "watch": "People sometimes think they can ignore the call if they are busy, but failing to attend without a lawful excuse allows the Liquidator to report them to the Tribunal.",
+  "h": "f522c807eb19",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "113": {
+  "summary": "This rule allows the Company Liquidator to take affidavits when checking proof of debts. The Liquidator can choose to skip this requirement if they wish. They also have the power to accept an affidavit or a formal undertaking instead of a formal oath.",
+  "points": [
+   "The Company Liquidator may take affidavits for admitting proof of debts.",
+   "The Liquidator has the discretion to skip taking an affidavit entirely.",
+   "The Liquidator can allow an affidavit or an undertaking instead of an oath."
+  ],
+  "example": "In a winding up proceeding for Meera Textiles Private Limited, a creditor named Mr. Sharma submits a claim for unpaid goods. To verify this debt, the Company Liquidator decides to use his power under the rules. Instead of asking for a traditional oath, the Liquidator allows Mr. Sharma to submit a signed undertaking to confirm that his debt claim is true and correct.",
+  "terms": [
+   {
+    "term": "Affidavit",
+    "meaning": "A written statement confirmed by oath or affirmation for use as evidence."
+   },
+   {
+    "term": "Undertaking",
+    "meaning": "A formal promise or agreement to do something."
+   },
+   {
+    "term": "Proof of debts",
+    "meaning": "The process of showing and proving the money owed by the company."
+   }
+  ],
+  "watch": "Do not assume that affidavits are always mandatory, as the Liquidator has the power to dispense with them.",
+  "h": "632b85f6a71b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "114": {
+  "summary": "This rule explains who pays the expenses for proving that a company owes money. Unless the Tribunal orders otherwise, the person claiming the debt must pay these costs themselves. This ensures creditors handle their own proof expenses during winding up.",
+  "points": [
+   "Creditors must bear the costs of proving their debt.",
+   "The Tribunal has the power to order a different arrangement."
+  ],
+  "example": "Aarav runs a printing press that provided stationery to Alpha Tech Private Limited before it went into liquidation. To claim his unpaid bills, Aarav submits a proof of debt to the Tribunal. According to the rules, Aarav must pay for any expenses he incurs while preparing and submitting this proof, unless the Tribunal specifically orders otherwise.",
+  "terms": [
+   {
+    "term": "Creditor",
+    "meaning": "A person or company to whom money is owed."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "The judicial body handling company law cases and disputes."
+   }
+  ],
+  "watch": "Do not assume the company will automatically reimburse your costs for proving a debt.",
+  "h": "e68b7dde679b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "116": {
+  "summary": "If a creditor is unhappy with a liquidator's decision about their claim, they can appeal to the Tribunal within twenty-one days of receiving notice. The appeal needs a specific form, an affidavit explaining the reasons, and notice given to the liquidator. The Tribunal will then handle the appeal with the powers of an appellate court.",
+  "points": [
+   "A creditor can appeal if they are unhappy with the Company Liquidator's decision on their proof.",
+   "The appeal must be filed within twenty-one days from the date the notice of the decision is served.",
+   "The appeal requires Form WIN 49 and a supporting affidavit that states the grounds for the appeal.",
+   "Notice of the appeal must be given to the Company Liquidator."
+  ],
+  "example": "Meera Textiles Private Limited was undergoing winding up, and a creditor, Ramesh, submitted his proof of debt. The Company Liquidator rejected part of Ramesh's claim. Dissatisfied with this choice, Ramesh decided to challenge it. Within twenty-one days of receiving the liquidator's notice, Ramesh filed an appeal using Form WIN 49. He included a supporting affidavit detailing his reasons and properly notified the Company Liquidator so the Tribunal could review the matter.",
+  "terms": [
+   {
+    "term": "Creditor",
+    "meaning": "A person or company to whom money is owed."
+   },
+   {
+    "term": "Affidavit",
+    "meaning": "A written statement confirmed by oath or affirmation for use as evidence in court."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized official body set up to deal with and decide legal disputes."
+   }
+  ],
+  "watch": "Remember that the twenty-one day deadline starts from the date the notice is served to the creditor, not from any other date.",
+  "h": "24f64a40dbfd",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "117": {
+  "summary": "This rule explains what happens when a creditor appeals a decision to reject their proof of debt. The Company Liquidator must send the proof and rejection reasons to the Registry. Other creditors or contributors can also ask the Tribunal for permission to join the appeal.",
+  "points": [
+   "The Company Liquidator must file the rejected proof and its rejection order with the Registry upon receiving notice of an appeal.",
+   "Creditors and contributories can apply to the Tribunal for permission to intervene in the appeal.",
+   "The Tribunal may grant permission to intervene with specific terms and conditions.",
+   "If permission is granted, notice of the appeal hearing must be given to that creditor or contributory."
+  ],
+  "example": "Meera Textiles Private Limited is undergoing winding up. A creditor, Rohan, appeals because his proof of debt was rejected. Upon receiving the appeal notice, the Company Liquidator files Rohan's proof and the rejection grounds with the Registry. Meanwhile, another creditor, Sunita, applies to the Tribunal for permission to intervene in the appeal. The Tribunal grants her leave to join, and ensures she receives notice of the upcoming hearing.",
+  "terms": [
+   {
+    "term": "Proof",
+    "meaning": "A document showing that a company owes money to a creditor."
+   },
+   {
+    "term": "Contributory",
+    "meaning": "A person who is liable to contribute to the assets of a company in the event of its being wound up."
+   },
+   {
+    "term": "Intervene",
+    "meaning": "To join an ongoing legal proceeding or case."
+   }
+  ],
+  "watch": "Note that this rule only applies after an appeal has been filed against a rejected proof.",
+  "h": "4823fef01d7f",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "118": {
+  "summary": "The rules state that a Company Liquidator does not have to pay the costs out of their own pocket if someone appeals their decision to reject a proof. This protection applies when the liquidator has rejected a proof either completely or partially. It ensures they are not held personally responsible for the expenses of such legal challenges.",
+  "points": [
+   "The Company Liquidator is never personally liable for costs.",
+   "This applies to costs arising from an appeal.",
+   "The appeal must be against the liquidator's decision to reject a proof wholly or in part."
+  ],
+  "example": "Meera Textiles Private Limited is undergoing winding up, and Arun is appointed as the Company Liquidator. A creditor submits a claim proof, which Arun rejects in part. The creditor decides to file an appeal against Arun's decision in court. Because of the rules, Arun does not have to pay any legal costs out of his own pocket for defending this appeal.",
+  "terms": [
+   {
+    "term": "Company Liquidator",
+    "meaning": "A person appointed to wind up the affairs of a company."
+   },
+   {
+    "term": "Proof",
+    "meaning": "A document or evidence showing a claim against the company."
+   }
+  ],
+  "watch": "Do not assume this protects the liquidator from personal liability in all matters outside of appeals concerning rejected proofs.",
+  "h": "842d38f41ef7",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "119": {
+  "summary": "This rule requires the Company Liquidator to file a list of creditors in the Tribunal within thirty days of the date fixed for submitting proofs. The Liquidator must show the claim amounts and clearly state which claims were accepted, partially accepted or rejected. Along with this list, the Liquidator must also file the actual proof documents and a certificate.",
+  "points": [
+   "The Company Liquidator must file a list of creditors in Form WIN 50.",
+   "The filing must happen within thirty days from the date fixed for submitting proofs, unless the Tribunal gives more time.",
+   "The list must show the debt amounts and specify whether each claim was accepted, partly accepted, or rejected.",
+   "The proofs of claims with admission or rejection notes must be filed in the Tribunal along with a certificate."
+  ],
+  "example": "In the winding up of Meera Textiles Private Limited, the Company Liquidator set a deadline for creditors to submit their claims. After receiving the claims, the Liquidator prepared a list in Form WIN 50 showing the debt amounts and which claims were approved or rejected. Within thirty days from the submission date, the Liquidator filed this list, along with the claim proofs and a certificate, in the Tribunal.",
+  "terms": [
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person appointed to handle the closing down and winding up of a company."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "The official legal body or court handling company law matters."
+   },
+   {
+    "term": "Proof",
+    "meaning": "A document showing evidence of a debt owed by the company."
+   }
+  ],
+  "watch": "Do not assume the Tribunal cannot extend the thirty-day deadline, because the rule allows the Tribunal to grant further time.",
+  "h": "52de53f9d21e",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "120": {
+  "summary": "This rule explains that the list of creditors filed in the Tribunal is the official list for the company. This list cannot be changed or added to unless the Tribunal gives a specific order to do so. Once the Tribunal makes such an order, the Company Liquidator must update the list accordingly.",
+  "points": [
+   "The filed list of creditors is the official list of the company.",
+   "No changes or additions can be made without an order from the Tribunal.",
+   "The Company Liquidator must update the list according to the Tribunal's order."
+  ],
+  "example": "Meera Textiles Private Limited is going through a winding up process. A list of its creditors is filed in the Tribunal. Later, the company realizes that an important creditor was accidentally left off this list. The company cannot simply write the new creditor's name onto the list themselves. They must ask the Tribunal for an official order to add the creditor. Once the Tribunal approves and issues an order, the Company Liquidator will update the list to include this creditor.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A legal body appointed to handle company disputes and cases, in this context specifically the National Company Law Tribunal."
+   },
+   {
+    "term": "Creditor",
+    "meaning": "A person or business that the company owes money to."
+   },
+   {
+    "term": "Company Liquidator",
+    "meaning": "The official person responsible for winding up the company and managing its assets."
+   }
+  ],
+  "watch": "A common confusion is thinking the company can update the list of creditors on its own, but it cannot be changed without a Tribunal order.",
+  "h": "989dd26ee9a1",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "121": {
+  "summary": "When the Company Liquidator finishes the list of creditors, the Registry must post a notice about it on the Tribunal's notice board and website. Creditors and contributories can then inspect this list and related proofs. However, they must pay a fee of one thousand rupees to do so.",
+  "points": [
+   "The Company Liquidator files the settled list of creditors.",
+   "The Registry puts a notice of this filing on the Tribunal's notice board and website.",
+   "Creditors and contributories can inspect the list and proofs.",
+   "A fee of one thousand rupees is required for the inspection."
+  ],
+  "example": "Meera Textiles Private Limited is going through a winding up process. The Company Liquidator finally settles the list of creditors. To let everyone know, the Tribunal Registry puts a notice on its official website and notice board. Rahul, who is a contributory of the company, wants to check the list and the proofs. He visits the Tribunal office, pays the required fee of one thousand rupees, and is allowed to inspect the documents.",
+  "terms": [
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person appointed to run the winding up process of a company."
+   },
+   {
+    "term": "Contributory",
+    "meaning": "A person who is liable to contribute to the assets of a company in the event of its being wound up."
+   }
+  ],
+  "watch": "Note that you must pay the fee of one thousand rupees before you are allowed to inspect the list and proofs.",
+  "h": "b748e5a26abd",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "122": {
+  "summary": "This rule allows the Company Liquidator to ask the Tribunal to remove or reduce a creditor's proof if it was accepted by mistake or improperly. If the Liquidator refuses to act, a creditor or contributory can also apply to the Tribunal within ten days. The Tribunal will then decide what is just.",
+  "points": [
+   "The Company Liquidator can apply to the Tribunal to remove or reduce a proof if it was wrongly admitted.",
+   "The Liquidator must give notice to the creditor before making this application.",
+   "Creditors or contributories can apply to the Tribunal within ten days if the Liquidator refuses to act.",
+   "The Tribunal has the power to pass any just order on these applications."
+  ],
+  "example": "Meera Textiles Private Limited is undergoing winding up. The Company Liquidator realizes he mistakenly accepted a high money claim proof from a supplier named Apex Traders. Since the Liquidator refuses to fix this mistake, a worried shareholder named Rahul applies to the Tribunal within the ten-day limit to reduce that claim amount. The Tribunal reviews the case and passes an order to correct the error.",
+  "terms": [
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person appointed to manage the closing down and sale of a company's assets."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "The judicial body that handles company law disputes and cases."
+   },
+   {
+    "term": "Contributory",
+    "meaning": "A person who is liable to contribute to the assets of the company in the event of its being wound up."
+   }
+  ],
+  "watch": "Do not confuse the ten-day time limit for creditors and contributories with the Liquidator, who has no specified deadline in this rule.",
+  "h": "d5ec6deadfce",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "123": {
+  "summary": "Sometimes a creditor misses the deadline to prove a debt owed by a company that is closing. If this happens, the creditor can ask the Tribunal for relief within fifteen days. The Tribunal can then decide on the debt itself or tell the liquidator to do it.",
+  "points": [
+   "A creditor fails to file proof of their debt within the time given in the advertisement.",
+   "The creditor can apply to the Tribunal for relief.",
+   "The application must be made within fifteen days from the time specified in the advertisement.",
+   "The Tribunal may decide upon the debt or direct the liquidator to do so."
+  ],
+  "example": "Meera Textiles Private Limited is winding up, and an advertisement sets a deadline for creditors to prove their debts. Creditor Rohan misses this deadline. Within fifteen days from the time specified in the advertisement, Rohan applies to the Tribunal for relief. The Tribunal reviews the request and directs the company liquidator to adjudicate upon Rohan's debt.",
+  "terms": [
+   {
+    "term": "Creditor",
+    "meaning": "A person or company that is owed money."
+   },
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person appointed to handle the winding up and closing of a company."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "The judicial body that handles company law cases."
+   }
+  ],
+  "watch": "Make sure to file the application to the Tribunal within the exact fifteen-day window mentioned.",
+  "h": "819bbbd97579",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "124": {
+  "summary": "Creditors who have not proven their debt before a dividend is declared can still receive payments. They can be paid from current funds available for dividend distribution before any future dividends are paid. However, they cannot change or disturb any past dividend distributions that happened before they proved their debt.",
+  "points": [
+   "Creditors can claim unpaid dividends if they prove their debt late.",
+   "Payment comes from money currently held by the Company Liquidator for distribution.",
+   "Late creditors cannot disturb past dividend distributions.",
+   "Unpaid dividend claims must be settled before future dividends are paid."
+  ],
+  "example": "Aarav Industries Limited is undergoing winding up. The Company Liquidator declares a dividend for creditors. Creditor Rohan has not yet proved his debt, so he misses this payment. Later, Rohan proves his debt. The Company Liquidator finds available money for distribution. Rohan is entitled to receive his missed dividend from these current funds before any future dividends are paid out. However, Rohan cannot demand money from the dividend distribution that already happened before he proved his debt.",
+  "terms": [
+   {
+    "term": "Creditor",
+    "meaning": "A person or company to whom money is owed."
+   },
+   {
+    "term": "Proved his debt",
+    "meaning": "Officially verified and shown proof that money is owed."
+   },
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person appointed to handle the closing and winding up of a company."
+   }
+  ],
+  "watch": "People often mistakenly think a late creditor can ask for a share of dividends that were already distributed in the past.",
+  "h": "487444d450b3",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "125": {
+  "summary": "This rule explains how creditors get extra money as interest if a company has leftover funds after paying all approved debts. The interest is paid from the date the winding up officially starts or when the resolution happens, up to the final payment date. The rate is up to six percent per year, or whatever rate the Tribunal decides.",
+  "points": [
+   "Applies only when there is a surplus of money left after paying all approved claims.",
+   "Creditors with approved proofs receive interest on their accepted claim amounts.",
+   "Interest is calculated from the date of the winding up order or resolution until the final dividend declaration date.",
+   "The interest rate is up to six percent per year or a rate decided by the Tribunal."
+  ],
+  "example": "Alpha Logistics Private Limited was closing down. After paying all its debts in full, some money was still left over. Beta Suppliers had an approved claim of one lakh rupees against Alpha. Because there was a surplus, Beta became eligible to receive interest on that admitted amount, starting from the date of the winding up order until the final dividend was declared, at a rate of up to six percent per year or as decided by the Tribunal.",
+  "terms": [
+   {
+    "term": "winding up",
+    "meaning": "The legal process of closing down a company and settling its affairs."
+   },
+   {
+    "term": "dividend",
+    "meaning": "A payment made to creditors from the available funds of the company."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "The judicial body that handles company law disputes and matters in India."
+   }
+  ],
+  "watch": "Do not assume interest is paid automatically if there is no surplus money left after settling all initial claims.",
+  "h": "a3c0b6e13c38",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "126": {
+  "summary": "This rule explains when and how contributories and creditors can attend winding up proceedings. They may attend at their own expense and ask to receive notices of specific proceedings. However, the Tribunal can order them to pay extra costs if their attendance causes unnecessary expenses.",
+  "points": [
+   "Contributories and admitted creditors may attend proceedings before the Tribunal or Company Liquidator at their own expense.",
+   "They can receive notices of proceedings they request in writing, provided they pay the related costs.",
+   "The Tribunal can order someone to pay extra costs caused by their attendance and stop them from attending further until paid.",
+   "To attend Tribunal proceedings, the person or their authorized representative must first file an appearance with the Registry."
+  ],
+  "example": "Aarav Textiles Private Limited is undergoing winding up proceedings. Priya, a creditor whose debt has been admitted by the Company Liquidator, wants to stay updated. She sends a written request to the Company Liquidator to receive notices of all proceedings and agrees to pay the costs. To attend the hearings before the Tribunal, Priya ensures that her authorized representative files an appearance with the Registry so it is entered in the Appearance Book, allowing her to legally participate.",
+  "terms": [
+   {
+    "term": "Contributories",
+    "meaning": "Persons liable to contribute to the assets of a company in the event of its being wound up."
+   },
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person appointed to conduct the winding up proceedings of a company."
+   },
+   {
+    "term": "Registry",
+    "meaning": "The administrative office of the Tribunal where official documents and appearances are filed."
+   }
+  ],
+  "watch": "Do not assume you can attend Tribunal hearings without filing an appearance first, even if you are a creditor or contributory.",
+  "h": "60fd60e2b126",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "127": {
+  "summary": "The Tribunal can choose certain creditors or contributories to represent a whole group during winding-up proceedings. These chosen people must share the same legal representative. If they cannot agree on who that should be, the Tribunal will pick one for them.",
+  "points": [
+   "The Tribunal may appoint one or more creditors or contributories to represent a class.",
+   "This representation happens at the expense of the company.",
+   "People appointed to represent the same class must use the same authorised representative.",
+   "The Tribunal will choose the authorised representative if the group cannot agree."
+  ],
+  "example": "Meera Textiles Private Limited is going through a winding-up process. The Tribunal decides to appoint Ravi, a creditor, to represent all the suppliers before the Tribunal at the company's expense. Ravi and another appointed representative must hire the same lawyer. Because they cannot agree on which lawyer to hire, the Tribunal steps in and nominates an authorised representative for them.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "The judicial body handling company law matters in India."
+   },
+   {
+    "term": "Contributories",
+    "meaning": "People who are liable to contribute to the assets of a company in the event of its winding up."
+   },
+   {
+    "term": "Authorised representative",
+    "meaning": "A person legally allowed to act and speak on behalf of others."
+   }
+  ],
+  "watch": "People often think representatives can hire different lawyers, but the rule requires them to share the same one.",
+  "h": "87986c6a2fbb",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "130": {
+  "summary": "When a company is winding up by order of the Tribunal, certain related people must hand over company money, property, books, or papers if the Company Liquidator asks them to. This request is made using a specific notice. If they do not follow the notice, the Liquidator can ask the Tribunal for orders.",
+  "points": [
+   "Applies to contributories, trustees, receivers, bankers, agents, officers, and employees.",
+   "Applies when a company is being wound up under a Tribunal order.",
+   "People must surrender company money, property, or papers upon receiving notice.",
+   "The notice must be in Form WIN 51 and given within a set time.",
+   "Failure to comply allows the Liquidator to apply to the Tribunal for orders."
+  ],
+  "example": "Meera Textiles Private Limited was ordered to wind up by the Tribunal. The Company Liquidator sent a notice in Form WIN 51 to Rohan, a former officer of the company, asking him to surrender the company property and books he held. Rohan ignored the notice and did not hand over the items. Because Rohan failed to comply within the required time, the Company Liquidator applied to the Tribunal for appropriate orders against him.",
+  "terms": [
+   {
+    "term": "Contributory",
+    "meaning": "A person liable to contribute to the assets of a company in the event of its being wound up."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "The judicial authority handling company law matters in India."
+   },
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person appointed to conduct the winding up process of a company."
+   }
+  ],
+  "watch": "Do not assume any specific number of days for the deadline, as the text only says within such time as the Liquidator requires by notice.",
+  "h": "915d02484b11",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "132": {
+  "summary": "This rule gives the Company Liquidator the power to collect any money that shareholders still owe on their shares, even if that money was previously promised as security to someone else. However, the liquidator must keep the collected money safe for the person who held that security. This helps gather funds during the winding up of a company.",
+  "points": [
+   "The Company Liquidator can demand and collect uncalled capital from shareholders.",
+   "The liquidator can also collect past due amounts on calls made before winding up started.",
+   "This power applies even if the uncalled capital is pledged as a charge or encumbrance.",
+   "All money collected from this must be held subject to the rights of the charge holder."
+  ],
+  "example": "Meera Textiles Private Limited is winding up, and Rohit is appointed as the Company Liquidator. Earlier, the company had promised its uncalled capital to a bank as security for a loan. Even with this pledge, Rohit demands the remaining money that shareholders owe on their shares. After collecting these funds, Rohit must keep the money subject to the bank's rights over that security.",
+  "terms": [
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person appointed to wind up the company and handle its assets."
+   },
+   {
+    "term": "uncalled capital",
+    "meaning": "Money that shareholders agreed to pay for their shares but has not been asked for yet."
+   },
+   {
+    "term": "charge or encumbrance",
+    "meaning": "A claim or security held over property or assets by a lender."
+   }
+  ],
+  "watch": "People often confuse collecting this money with keeping it entirely, but the liquidator must respect the rights of the person who holds the security.",
+  "h": "1b9da5268d4f",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "133": {
+  "summary": "Under these rules, the person winding up a company cannot ask people who owe money to the company to pay up without getting permission first. Within seven days of finalizing who those people are, the liquidator can ask the Tribunal for this permission using a specific form and affidavit. This ensures the process is formally approved.",
+  "points": [
+   "The Company Liquidator must get permission from the Tribunal before making any call for money.",
+   "The application for permission must be made within seven days of settling the list of contributories.",
+   "The application must state the proposed amount and use Form WIN 52.",
+   "The application must be supported by an affidavit using Form WIN 53."
+  ],
+  "example": "Meera Textiles Private Limited is closing down, and Aarav is appointed as the Company Liquidator. After Aarav finalizes the list of contributories who need to pay money into the company, he has seven days to act. Aarav fills out Form WIN 52 to state the amount he wants to call for. He also attaches an affidavit in Form WIN 53 to support his request. Finally, Aarav submits this application to the Tribunal to get official permission before asking anyone to pay.",
+  "terms": [
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person appointed to handle the winding up and closing of a company."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "The judicial authority that handles company law cases and disputes."
+   },
+   {
+    "term": "Contributories",
+    "meaning": "Persons who are liable to contribute to the assets of a company when it is being wound up."
+   }
+  ],
+  "watch": "Do not forget that the liquidator must apply within seven days after the list of contributories is settled.",
+  "h": "fe59035fb13b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "134": {
+  "summary": "This rule explains how people must be told about a request to make a call for money during winding up. Notice must be sent by post at least seven days before the hearing, or published in newspapers if the Tribunal directs. Proof that the notice was sent or published must also be filed in the Tribunal three days before the hearing.",
+  "points": [
+   "Notice of the application must be sent to every contributory proposed to be included in the call.",
+   "Notice can be sent by post under certificate of posting at least seven clear days before the hearing.",
+   "The Tribunal may direct notice to be given by newspaper advertisement instead of individual notices.",
+   "An affidavit of service showing the notice was dispatched or advertised must be filed in the Tribunal three days before the hearing."
+  ],
+  "example": "Meera Textiles Private Limited is winding up. The company needs to make a call for unpaid share money and asks the Tribunal for permission. To follow the rules, notices are posted to every contributory exactly ten days before the hearing so they receive it on time. Alternatively, the Tribunal allows a public notice in local newspapers. Finally, the person who sent the letters files an affidavit of service in the Tribunal three days before the hearing takes place.",
+  "terms": [
+   {
+    "term": "contributory",
+    "meaning": "A person who is liable to contribute to the assets of a company in the event of its being wound up."
+   },
+   {
+    "term": "affidavit",
+    "meaning": "A written statement confirmed by oath or affirmation, used as evidence in court."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "The judicial body handling company law matters, in this case, the National Company Law Tribunal."
+   }
+  ],
+  "watch": "Do not confuse the seven-day notice period before the hearing with the three-day deadline for filing the affidavit of service.",
+  "h": "3ee65e4df8a7",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "135": {
+  "summary": "This rule explains the steps to take when money is asked from the people who own parts of a company. First, a formal permission order is given using a specific form. Then, the liquidator must file a document in the tribunal showing the call for money.",
+  "points": [
+   "The order granting permission to make a call must be in Form WIN 55.",
+   "The order must include instructions on the time limit for paying the calls.",
+   "The Company Liquidator must file the document making the call in Form WIN 56 with the Tribunal."
+  ],
+  "example": "In the winding up of Meera Textiles Private Limited, the liquidator needed to collect pending money from shareholders. To do this legally, the liquidator obtained an official order using Form WIN 55, which stated the timeframe for payment. Following this, the liquidator filed the actual call document using Form WIN 56 in the Tribunal so the process could proceed properly.",
+  "terms": [
+   {
+    "term": "Company Liquidator",
+    "meaning": "A person appointed to run the winding up process of a company."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "The judicial body that handles company law cases."
+   }
+  ],
+  "watch": "Do not confuse the permission order form with the actual document used to make the call.",
+  "h": "3871138a9a06",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "136": {
+  "summary": "Under this rule, the Company Liquidator must send a notice to certain people as soon as a document for making a call is filed. This notice tells them how much money they owe. The notice is sent by post, speed post, or electronic means along with a copy of the order.",
+  "points": [
+   "The Company Liquidator must act immediately after filing the call document.",
+   "A copy of the order and a notice in Form WIN 57 must be served to each contributory.",
+   "The notice must state the amount or balance due.",
+   "The order does not need to be advertised unless the Tribunal orders it for a special reason."
+  ],
+  "example": "Meera Textiles Private Limited is undergoing winding up. The Company Liquidator files the document to make a call. Immediately after, the Liquidator sends a notice in Form WIN 57 by speed post to Ravi, a contributory, along with a copy of the order granting leave. The notice specifies the balance due from Ravi. Since the Tribunal gave no special reason, this order is not advertised in newspapers.",
+  "terms": [
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person appointed to run the winding up process of a company."
+   },
+   {
+    "term": "Contributories",
+    "meaning": "Persons liable to contribute to the assets of the company in the event of its winding up."
+   }
+  ],
+  "watch": "People often think the order must always be published in the news, but it is not advertised unless the Tribunal specifically orders it.",
+  "h": "f6bc8c5520c2",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "137": {
+  "summary": "The Company Liquidator can ask the Tribunal to order a person who owes money on company shares to pay what they owe. The liquidator must use specific forms and give proper notice to the person before the hearing. If approved, the Tribunal will issue a payment order.",
+  "points": [
+   "The liquidator applies to the Tribunal using Form WIN 58.",
+   "An affidavit in Form WIN 59 must support the application.",
+   "Notice and a copy of the affidavit must be sent to the contributory at least seven days before the hearing.",
+   "The payment order is issued in Form WIN 60."
+  ],
+  "example": "Meera Textiles Private Limited is closing down. Rahul is a contributory who owes money for unpaid calls on his shares. The Company Liquidator applies to the Tribunal using Form WIN 58 and Form WIN 59 to get an order for Rahul to pay. The liquidator sends a notice of this application along with the affidavit to Rahul by registered post eight days before the hearing. The Tribunal then reviews the request and passes the payment order in Form WIN 60.",
+  "terms": [
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person appointed to wind up or close down a company."
+   },
+   {
+    "term": "Contributory",
+    "meaning": "A person liable to contribute to the assets of a company in the event of its being wound up."
+   },
+   {
+    "term": "Affidavit",
+    "meaning": "A written statement confirmed by oath or affirmation for use as evidence in court."
+   }
+  ],
+  "watch": "Make sure to send the notice at least seven days before the hearing date using registered or speed post.",
+  "h": "7f1dbd7ff774",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "140": {
+  "summary": "When the Tribunal checks an application and agrees there are enough reasons, it can order a summons to be issued. This summons requires a named person to be examined or to produce documents. Unless the Tribunal says otherwise, this examination happens privately in Chambers and uses a specific form.",
+  "points": [
+   "The Tribunal reviews the application to see if there are proper grounds.",
+   "It can order a summons for a person to be examined or to bring documents.",
+   "The examination is usually held privately in Chambers unless ordered otherwise.",
+   "The official order must follow Form WIN 62."
+  ],
+  "example": "Meera Textiles Private Limited filed an application regarding company matters. After hearing the application, the Tribunal found valid grounds and decided to act. It issued an order directing a summons against Mr. Sharma, asking him to appear for an examination and to bring relevant documents. The Tribunal specified that the examination would take place in Chambers using Form WIN 62.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A judicial body set up to handle specific legal cases, such as company matters."
+   },
+   {
+    "term": "Summons",
+    "meaning": "An official order telling someone to appear in a proceeding or bring documents."
+   },
+   {
+    "term": "Chambers",
+    "meaning": "A private room or office where a judge or official holds a hearing away from the public."
+   }
+  ],
+  "watch": "People often confuse a public court hearing with this examination, which is usually held privately in Chambers unless ordered otherwise.",
+  "h": "28e1a992ee4c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "145": {
+  "summary": "This rule explains how the Company Liquidator must give notice before a company examination takes place. The Liquidator must publish an advertisement for creditors and contributories and send a direct notice to the person being examined. If the examination is postponed, new notices or advertisements are generally not required unless the Tribunal orders it.",
+  "points": [
+   "Notice must be given at least seven clear days before the examination date.",
+   "An advertisement in Form WIN 65 must be published in newspapers directed by the Tribunal for creditors and contributories.",
+   "A notice in Form WIN 66 must be served personally, by registered post, or by speed post to the person being examined, along with a copy of the examination order.",
+   "Advertisements and notices are not needed for an adjourned examination unless the Tribunal says so."
+  ],
+  "example": "Meera Textiles Private Limited is undergoing winding up. The Tribunal schedules an examination for a former director. At least seven clear days before this date, the Company Liquidator publishes a notice in Form WIN 65 in approved newspapers for the creditors and contributories. At the same time, the Liquidator sends a notice in Form WIN 66 by registered post to the director, along with a copy of the Tribunal's examination order, stating the exact time, date, and officer in charge.",
+  "terms": [
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person appointed to run the winding up process of a company."
+   },
+   {
+    "term": "Contributories",
+    "meaning": "Persons liable to contribute to the assets of the company in the event of its being wound up."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "The judicial authority handling company law matters in India."
+   }
+  ],
+  "watch": "Remember that adjourned examinations do not automatically require a new notice or advertisement unless the Tribunal specifically orders it.",
+  "h": "52b752136966",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "146": {
+  "summary": "Sometimes, an official appointed by the Tribunal to question someone during a company winding up finds that the questioning is taking too long for no good reason or has another good cause. In this case, that person can pause the questioning and send a report to the Tribunal. The Tribunal can then choose to do the questioning itself or make any other order it thinks is right.",
+  "points": [
+   "An appointed person or authority conducts an examination.",
+   "The person can pause the examination if it drags on too much or for another good cause.",
+   "A report must be submitted to the Tribunal after pausing.",
+   "The Tribunal can conduct the examination itself or pass orders."
+  ],
+  "example": "Aarav is appointed by the Tribunal to question officers during the winding up of Meera Textiles Private Limited. The questioning drags on endlessly because the officers refuse to give direct answers. Aarav feels the process is being unnecessarily delayed. Deciding he has sufficient cause, Aarav pauses the examination. He writes a report explaining the situation and submits it to the Tribunal, leaving the Tribunal to decide whether to take over the questioning itself or pass a new order.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A special official body set up to handle legal disputes and cases under the law."
+   },
+   {
+    "term": "Protracted",
+    "meaning": "Lasting for a long time or made to take longer than necessary."
+   },
+   {
+    "term": "Adjourn",
+    "meaning": "To pause or stop a meeting or examination to continue it later or elsewhere."
+   }
+  ],
+  "watch": "People often confuse the appointed person with the Tribunal itself, but they are separate authorities.",
+  "h": "6681a6a403c5",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "147": {
+  "summary": "This rule explains what happens if someone being questioned during a winding up refuses to give a satisfactory answer. The person conducting the questioning must write a report and tell the person when to appear before the Tribunal. The Tribunal can then decide how to handle the situation.",
+  "points": [
+   "If a person refuses to answer questions properly during an examination, the interviewer must report this to the Tribunal immediately.",
+   "The written report must include the questions asked and any answers given, using Form WIN 67.",
+   "The interviewer must tell the person the date they need to attend before the Tribunal.",
+   "The Tribunal will take action on the report as it sees fit."
+  ],
+  "example": "During the winding up of Alpha Robotics Private Limited, an investigator appointed by the Tribunal asked Mr. Rohan several questions. Mr. Rohan refused to answer them satisfactorily. The investigator immediately prepared a written report using Form WIN 67, detailing the questions and the unsatisfactory responses. The investigator then informed Mr. Rohan of the exact date he must attend before the Tribunal. Upon receiving this report, the Tribunal reviewed the case and decided what action to take against Mr. Rohan.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized legal body set up to handle company disputes and cases."
+   },
+   {
+    "term": "Form WIN 67",
+    "meaning": "A specific official document template used for reporting a refusal to answer questions."
+   }
+  ],
+  "watch": "People often think the investigator can punish the person directly, but only the Tribunal can take action after receiving the report.",
+  "h": "aaf67848adbb",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "152": {
+  "summary": "This rule explains how an arrest warrant for a company member can be carried out if they are outside the area where the Tribunal works. The Tribunal sends the warrant to a local court where the person is staying so that local officers can make the arrest. After the arrest, the person is sent back to the Tribunal unless they provide the required security.",
+  "points": [
+   "The Tribunal can send an arrest warrant to a District Court or specific Small Causes Court if the person is outside its local area.",
+   "A special request form sealed by the Tribunal must be attached to the warrant.",
+   "Local court officers or subordinate courts will carry out the arrest, with help from the police.",
+   "The arrested person is sent safely to the Tribunal unless they give proper security to the local court."
+  ],
+  "example": "Anusha Textiles Private Limited is undergoing winding up. The Tribunal issues an arrest warrant for Rohit, a contributory believed to be living in another city outside the Tribunal's local area. The Tribunal sends this warrant along with a formal request form to the local District Court. The District Court applies its own seal and directs its officers, aided by the local police, to arrest Rohit. Once arrested, Rohit is either sent in proper custody to the Tribunal or released if he provides the required security to the District Court.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "The judicial body handling company matters."
+   },
+   {
+    "term": "contributory",
+    "meaning": "A person liable to contribute to the assets of a company in the event of its winding up."
+   },
+   {
+    "term": "jurisdiction",
+    "meaning": "The official power or legal authority to make legal decisions and judgments over a certain area."
+   }
+  ],
+  "watch": "People often confuse being released on security with being completely cleared of the case, but it only means the person is let go temporarily for appearing before the Tribunal later.",
+  "h": "0c1c8445278d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "154": {
+  "summary": "This rule explains what happens when a summons for winding up first comes before the Tribunal. The Tribunal can give various directions on how the case should proceed, such as how evidence is presented or what reports the liquidator must submit. It also specifies the forms to use for claims.",
+  "points": [
+   "The Tribunal gives directions on the return of the summons.",
+   "It decides if points of claim and defence must be delivered.",
+   "It decides how evidence and cross-examinations will take place.",
+   "It may ask the liquidator to make a report."
+  ],
+  "example": "A company named Meera Textiles Private Limited faced a winding up application. During the first hearing of the summons, the Tribunal reviewed the case. It directed both sides to submit their claims and defences using the proper forms. The Tribunal also ordered the liquidator to submit a special report and decided that witnesses would give their evidence orally during the final hearing.",
+  "terms": [
+   {
+    "term": "summons",
+    "meaning": "An official call to appear before a court or Tribunal."
+   },
+   {
+    "term": "liquidator",
+    "meaning": "A person appointed to wind up the affairs of a company."
+   },
+   {
+    "term": "deponents",
+    "meaning": "People who make a written statement under oath."
+   }
+  ],
+  "watch": "Do not assume fixed deadlines or specific forms for every single document, as the Tribunal decides the procedure on a case-by-case basis.",
+  "h": "faaaa7d7cabb",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "155": {
+  "summary": "This rule allows either party involved in a company winding up case to ask the Tribunal for more directions on intermediate matters. To do this, they must restore the summons before the trial starts and give a written notice to the other side. A copy of this notice must also be filed with the Registry beforehand.",
+  "points": [
+   "Applies when the Tribunal has ordered points of claim and defense to be delivered.",
+   "Either party can ask for further directions on interlocutory matters.",
+   "Must be done by restoring the summons before it is set down for trial.",
+   "Requires giving two clear days' notice in writing to the other party with grounds.",
+   "A copy of the notice must be filed with the Registry two clear days before the hearing."
+  ],
+  "example": "In a winding up case involving Alpha Solutions Private Limited, the Tribunal directed both sides to deliver their points of claim and defense. Beta Enterprises Private Limited wanted a further direction on an intermediate legal issue. Before the trial began, Beta restored the summons, gave two clear days' written notice stating the grounds to Alpha Solutions, and filed a copy of the notice with the Registry two clear days before the hearing.",
+  "terms": [
+   {
+    "term": "Interlocutory matter",
+    "meaning": "An interim or temporary question that comes up during the course of a legal proceeding before the final trial."
+   },
+   {
+    "term": "Summons",
+    "meaning": "An official call or request directing parties to appear before a court or Tribunal."
+   },
+   {
+    "term": "Registry",
+    "meaning": "The administrative office of the Tribunal where legal documents are filed and kept."
+   }
+  ],
+  "watch": "Make sure to give and file the notice two clear days before the hearing, excluding the day of notice and the day of hearing.",
+  "h": "e0eccf3b9a7d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "157": {
+  "summary": "This rule explains what happens at the very first court hearing for a company winding up application. The Tribunal reviews the request in the absence of the other party and decides who needs to be given official notice. It then sets a date for the actual hearing.",
+  "points": [
+   "The application is first presented to the Tribunal without the other party present.",
+   "The Tribunal decides who must receive a notice about the application.",
+   "The Tribunal sets a date for the official hearing of the application."
+  ],
+  "example": "Meera Textiles Private Limited filed an application for winding up. The Tribunal looked at the paperwork in the first instance without the company being present. The judge decided who needed to receive the notice and fixed a date for the formal hearing.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "The judicial body or court handling company law matters."
+   },
+   {
+    "term": "ex-parte",
+    "meaning": "Done with only one party present and without the other side there."
+   },
+   {
+    "term": "notice",
+    "meaning": "An official warning or notification given to a person about a legal proceeding."
+   }
+  ],
+  "watch": "A common confusion is thinking the final decision is made at this first stage, but it is only for giving directions and setting a date.",
+  "h": "45890b78ef4d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "158": {
+  "summary": "This rule is about people who claim to have an interest in a company's property that the Company Liquidator wants to give up. If the liquidator asks, the person must provide a written statement explaining their claim. This helps the liquidator handle the property properly during winding up.",
+  "points": [
+   "Applies to anyone who claims an interest in the company property.",
+   "The Company Liquidator must ask for the statement first.",
+   "The person must furnish a statement of the interest claimed."
+  ],
+  "example": "Meera Textiles Private Limited is going through winding up. The Company Liquidator wants to disclaim a warehouse belonging to the company. Rahul claims he has a legal interest in that warehouse. Because the liquidator requires it, Rahul must now furnish a statement showing the exact interest he claims in the property.",
+  "terms": [
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person appointed to handle the closing down and selling off of a company's assets."
+   },
+   {
+    "term": "Disclaim",
+    "meaning": "To officially give up or refuse to accept responsibility for a property."
+   },
+   {
+    "term": "Furnish",
+    "meaning": "To supply or provide a document or information."
+   }
+  ],
+  "watch": "Do not assume you must submit this statement without being asked by the liquidator first.",
+  "h": "c68a016c816c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "159": {
+  "summary": "This rule explains how people must be notified about a hearing for a company winding up application. The notice must use a specific form and be sent at least seven days before the hearing. It also sets the deadline for filing any opposition documents.",
+  "points": [
+   "Use Form WIN 83 to give notice of the hearing date.",
+   "Serve the notice, application copy, and supporting affidavit at least seven days before the hearing.",
+   "File any opposition affidavit in the Tribunal and give a copy to the Company Liquidator at least two days before the hearing."
+  ],
+  "example": "Meera Textiles Private Limited is going through a winding up process. The Company Liquidator sends out a notice in Form WIN 83 about the upcoming hearing date. This notice is delivered along with the main application and supporting affidavit eight days before the hearing. Rahul, who opposes the winding up, prepares his reply. He ensures that his affidavit-in-opposition is officially filed in the Tribunal and a copy is safely handed over to the Company Liquidator three days before the hearing, which meets the required deadline.",
+  "terms": [
+   {
+    "term": "affidavit",
+    "meaning": "A written statement confirmed by oath or affirmation for use as evidence in court."
+   },
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person appointed to wind up the affairs of a company and distribute its assets."
+   }
+  ],
+  "watch": "Make sure to count the exact number of days required before the hearing for both sending the notice and filing opposition.",
+  "h": "c6da44b42997",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "160": {
+  "summary": "This rule explains how the Tribunal decides on a request to give up certain company property. The Tribunal listens to the Company Liquidator and other interested people before making a decision. If granted, the official paper recording this permission must follow a specific form.",
+  "points": [
+   "The Tribunal holds a hearing on the request.",
+   "The Tribunal hears from the Company Liquidator and other interested persons.",
+   "The Tribunal can set terms and conditions when granting permission.",
+   "The official order must be in Form WIN 84."
+  ],
+  "example": "Meera Textiles Private Limited is going through a winding up process. The Company Liquidator wants to give up a loss-making lease agreement. The Liquidator files an application with the Tribunal. During the hearing, the Tribunal listens to the Liquidator and the landlord who is an interested party. After hearing both sides, the Tribunal decides to grant permission to disclaim the lease with specific conditions. The final decision is officially recorded using Form WIN 84.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A legal body set up to handle specific disputes and cases."
+   },
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person officially appointed to run the winding up process of a company."
+   },
+   {
+    "term": "Disclaim",
+    "meaning": "To officially give up or refuse a right or property."
+   }
+  ],
+  "watch": "Do not confuse the application hearing with the final winding up of the entire company.",
+  "h": "de5f41408c1f",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "161": {
+  "summary": "This rule explains how the Company Liquidator must handle a disclaimer, which is a formal refusal or giving up of property. The liquidator must file it in the Tribunal, give notice to interested persons, and send a copy to the Registrar of Companies. A leasehold interest disclaimer must be filed right away.",
+  "points": [
+   "The Company Liquidator must file every disclaimer in the Tribunal.",
+   "A disclaimer does not work until it is filed in the Tribunal.",
+   "Notice of the filing must be given to people interested in the property.",
+   "The liquidator must file a copy of the disclaimer with the Registrar of Companies."
+  ],
+  "example": "Asha Chemicals Private Limited is going through a winding up. The Company Liquidator decides to give up a piece of property because it has no value for the company. The liquidator writes this disclaimer using Form WIN 85, files it in the Tribunal, and gives a notice in Form WIN 86 to the people who are interested in the property. Finally, the liquidator sends a copy of the disclaimer to the Registrar of Companies so the records are updated.",
+  "terms": [
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person appointed to manage the closing down and selling off of a company's assets."
+   },
+   {
+    "term": "Disclaimer",
+    "meaning": "A formal statement giving up a right, claim, or interest in a property."
+   },
+   {
+    "term": "Leasehold interest",
+    "meaning": "An interest in property held by a person under a lease agreement."
+   }
+  ],
+  "watch": "People often confuse the filing of the disclaimer with its creation, but it only starts working after it is actually filed in the Tribunal.",
+  "h": "a542a7b18f5b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "163": {
+  "summary": "When a company is closing down through the Tribunal, the person winding it up cannot drop or settle any claim the company has against someone else without approval. The Tribunal must first give its permission. The Tribunal will also decide who needs to be notified before this happens.",
+  "points": [
+   "Applies only when the Tribunal is winding up a company.",
+   "The Company Liquidator cannot compromise or abandon any company claim alone.",
+   "Sanction or approval from the Tribunal is strictly required.",
+   "Notice must be given to the concerned person as directed by the Tribunal."
+  ],
+  "example": "Meera Textiles Private Limited is undergoing a winding up by the Tribunal. The Company Liquidator finds that a local supplier owes money to the company. The liquidator wants to accept a lower amount to settle the debt quickly. However, the liquidator cannot simply agree to this or drop the claim. The liquidator must first ask the Tribunal for its approval and follow the Tribunal's directions on notifying the supplier.",
+  "terms": [
+   {
+    "term": "Winding up",
+    "meaning": "The legal process of closing down a company and settling its affairs."
+   },
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person appointed to handle the closing down and asset distribution of a company."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "A judicial body that handles legal matters relating to companies, such as the National Company Law Tribunal."
+   }
+  ],
+  "watch": "People often think the liquidator has full power to settle company debts, but Tribunal approval is always required.",
+  "h": "d1ec001a20a8",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "165": {
+  "summary": "When a company is being shut down by a court called the Tribunal, its property cannot be sold easily. The person in charge of winding up must get permission from the Tribunal before selling anything. Also, every sale must be officially approved or confirmed by the Tribunal.",
+  "points": [
+   "The Company Liquidator must get prior permission from the Tribunal before selling any company property.",
+   "Every sale of company property is subject to confirmation by the Tribunal.",
+   "The Tribunal has the power to change these rules if it makes a different order."
+  ],
+  "example": "Meera Textiles Private Limited is being shut down by the Tribunal. The Company Liquidator wants to sell a factory building belonging to the company. To follow the rules, the liquidator must first ask the Tribunal for permission to hold the sale. Once a buyer is found and the sale takes place, the Tribunal must also officially confirm the sale before it is final.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A special official court that handles company matters."
+   },
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person appointed to manage the closing down of a company and sell its assets."
+   },
+   {
+    "term": "Wound up",
+    "meaning": "The legal process of closing down a company and ending its business."
+   }
+  ],
+  "watch": "People often assume the liquidator has full power to sell company assets, but Tribunal approval is legally required.",
+  "h": "ef8c8e8af9a0",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "166": {
+  "summary": "This rule explains how company property is sold during winding up. Sales are usually handled by the Company Liquidator or an approved agent. The sale must follow specific methods and terms approved by the Tribunal.",
+  "points": [
+   "Sales are conducted by the Company Liquidator.",
+   "The Tribunal can direct an approved agent or auctioneer to hold the sale.",
+   "All sales must follow terms and conditions approved by the Tribunal.",
+   "Methods of sale include public auction, sealed tenders, electronic bidding, or other Tribunal directions."
+  ],
+  "example": "Asha Trading Private Limited is winding up its business. The Company Liquidator wants to sell the company factory. The Liquidator asks the Tribunal for permission. The Tribunal approves the sale to be done through electronic bidding, using an approved auctioneer and specific terms and conditions.",
+  "terms": [
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person appointed to manage the closing and selling off of a company's assets."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "The official legal body handling company law cases and disputes."
+   }
+  ],
+  "watch": "Do not assume that the liquidator can choose the method of sale without Tribunal approval.",
+  "h": "1237db7bbf21",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "167": {
+  "summary": "This rule explains how money from selling a company's property must be handled. When an auctioneer or agent sells company property, they must give the total sales money directly to the Company Liquidator. Afterwards, the auctioneer or agent gets paid their expenses according to the rates fixed by the Tribunal.",
+  "points": [
+   "The auctioneer or agent must hand over the total money from a sale to the Company Liquidator.",
+   "The Tribunal can order a different arrangement if it chooses.",
+   "The auctioneer or agent is paid their expenses later based on rates set by the Tribunal."
+  ],
+  "example": "In the winding up of Acme Gadgets Private Limited, the Company Liquidator hires an agent to auction some old office furniture. The agent successfully sells the furniture and collects the money. According to the rules, the agent must hand over the entire gross proceeds directly to the Company Liquidator rather than keeping any part of it. Later, the agent will receive their approved expenses and charges based strictly on the scales fixed by the Tribunal.",
+  "terms": [
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person appointed to handle the closing down and selling off of a company's assets."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "The legal authority or court handling the company's winding up process."
+   }
+  ],
+  "watch": "People often think the agent can deduct their fees before handing over the money, but the gross proceeds must be given to the liquidator first.",
+  "h": "fb7febf3137c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "168": {
+  "summary": "Rule 168 states that the Company Liquidator cannot declare any dividend for creditors or return any capital to contributories without the permission of the Tribunal. This ensures that the court oversees how money is distributed during the winding up process.",
+  "points": [
+   "The Company Liquidator needs permission to pay dividends to creditors.",
+   "Returning capital to contributories also requires the Tribunal's sanction.",
+   "No such payments can be made independently by the Liquidator."
+  ],
+  "example": "Meera Textiles Private Limited is undergoing winding up. The Company Liquidator has collected enough money to pay the creditors and wants to declare a dividend. Before making any payment, the Liquidator applies to the Tribunal and obtains its official sanction. Only after receiving this approval does the Liquidator proceed to distribute the dividend to the creditors, following the strict requirement of the rule.",
+  "terms": [
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person appointed to manage the closing down and selling off of a company's assets."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "A judicial body or court that handles company law disputes and matters."
+   },
+   {
+    "term": "Contributories",
+    "meaning": "Persons liable to contribute to the assets of a company in the event of its being wound up."
+   }
+  ],
+  "watch": "People often think the Liquidator has the final authority to pay creditors, but Tribunal sanction is strictly required.",
+  "h": "ebfef7d97509",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "169": {
+  "summary": "This rule explains how a Company Liquidator must inform creditors about a dividend payment. The liquidator must give notice at least fifteen days before the payment date. This notice is given through specific newspaper advertisements and by sending individual notices to creditors.",
+  "points": [
+   "The liquidator must give notice at least fifteen days before the payment date.",
+   "Notice must be published in newspapers directed by the Tribunal.",
+   "Individual notices must be sent to every creditor on the list by registered post, speed post, or electronic mode.",
+   "The newspaper advertisement must be in Form WIN 89 and the creditor notice in Form WIN 90."
+  ],
+  "example": "Meera Textiles Private Limited is undergoing winding up. The Company Liquidator decides to pay a dividend to the creditors. The liquidator publishes a notice in the newspapers directed by the Tribunal using Form WIN 89. At the same time, the liquidator sends a notice in Form WIN 90 by registered post to all creditors listed, ensuring it is sent at least fifteen days before the payment date, unless the Tribunal orders otherwise.",
+  "terms": [
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person appointed to run the winding up process of a company."
+   },
+   {
+    "term": "Dividend",
+    "meaning": "A payment made to creditors from the available funds."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "The legal authority handling company law matters."
+   }
+  ],
+  "watch": "Make sure to check if the Tribunal has given any special directions that change the normal way of sending notices.",
+  "h": "241172ac46d6",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "170": {
+  "summary": "This rule explains how someone who is owed a dividend can ask the Company Liquidator to pay it to someone else instead. To do this, they must give the liquidator a written document. This document has to be in a specific format called Form WIN 91.",
+  "points": [
+   "You can ask for your dividend to be paid to another person.",
+   "You must give written authority to the Company Liquidator.",
+   "The written authority must follow Form WIN 91."
+  ],
+  "example": "Asha is owed a dividend from the winding up of Meera Textiles Private Limited. Instead of taking the money herself, she wants her brother Kabir to receive it. To make this happen, Asha fills out and submits a written authority in Form WIN 91 to the Company Liquidator, naming Kabir as the person to be paid.",
+  "terms": [
+   {
+    "term": "dividend",
+    "meaning": "A share of the money or profits paid to a person."
+   },
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person responsible for winding up a company and handling its assets."
+   }
+  ],
+  "watch": "Do not forget that the written authority must specifically be in Form WIN 91.",
+  "h": "4459e113c068",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "171": {
+  "summary": "This rule explains how dividends and returns of capital can be sent to a person. It allows sending payments by money order or directly to a bank account electronically. This can only happen if the person asks for it, and they must pay the cost and take the risk.",
+  "points": [
+   "Payments can be sent by money order.",
+   "Payments can be sent electronically to a bank account.",
+   "The transmission is done at the request, risk, and cost of the person receiving it."
+  ],
+  "example": "Meera Textiles Private Limited is giving a return of capital to shareholder Rohan. Rohan asks the company to send the money directly to his bank account electronically. Because of the rules, Rohan must pay for any costs involved in sending the money, and he takes the risk of the electronic transfer.",
+  "terms": [
+   {
+    "term": "Dividends",
+    "meaning": "A share of profits paid by a company to its shareholders."
+   },
+   {
+    "term": "Returns of capital",
+    "meaning": "A repayment of the money originally invested in the company by a shareholder."
+   },
+   {
+    "term": "Transmitted",
+    "meaning": "Sent or transferred from one place or person to another."
+   }
+  ],
+  "watch": "A common confusion is thinking the company must pay for sending the money, but the rule states it is at the cost and risk of the person receiving it.",
+  "h": "8513fd03bcc8",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "172": {
+  "summary": "When a company is closing down and money is given back to its members, the liquidator must follow a specific process. Unless the Tribunal says otherwise, the liquidator must prepare a list of who gets paid and how much. The liquidator also has to send an official notice to each person receiving money.",
+  "points": [
+   "The liquidator must prepare a schedule or list in a table showing names, addresses, and amounts for each person.",
+   "The list must include any share transfers or changes that happened after the list was settled.",
+   "The list must follow Form WIN 92, and notices must be sent using Form WIN 93.",
+   "Notices of return must be sent by registered post, speed post, and electronic mode if available."
+  ],
+  "example": "Meera Textiles Private Limited was winding up, and surplus money needed to be returned to its members. The liquidator, Mr. Sharma, prepared a schedule in Form WIN 92 listing the full names, addresses, and exact amounts payable to each contributory. Mr. Sharma included details of recent share transfers that had taken place since the original list was settled. Finally, he sent out notices in Form WIN 93 to every contributory via speed post and email, informing them of the return of capital.",
+  "terms": [
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person appointed to manage the closing down and winding up of a company."
+   },
+   {
+    "term": "Contributories",
+    "meaning": "Persons liable to contribute to the assets of a company in the event of its being wound up."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "The judicial authority that handles company law cases in India."
+   }
+  ],
+  "watch": "Do not forget that the Tribunal can give a different direction to bypass the standard schedule requirement.",
+  "h": "af9589ba493e",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "173": {
+  "summary": "When a dead person is owed money or capital by a company that is closing, a small claim of up to one lakh rupees can be handled more simply. The liquidator can ask the Tribunal for permission to pay the rightful claimant without a succession certificate. Instead, the claimant must provide a Family Member Certificate and sign a stamped indemnity and affidavit.",
+  "points": [
+   "Applies only when the claim amount is one lakh rupees or less.",
+   "The Company Liquidator must be sure of the claimant's right to the money.",
+   "A Family Member Certificate is needed instead of a succession certificate.",
+   "The payee must give a personal indemnity and a stamped affidavit."
+  ],
+  "example": "Meera Textiles Private Limited is winding up and owes fifty thousand rupees to a deceased creditor, Mr. Sharma. Mr. Sharma's son, Rahul, claims the money. Since the amount is under one lakh rupees, the Company Liquidator does not demand a succession certificate. Instead, Rahul submits a Family Member Certificate issued by the state government. After the Tribunal approves, Rahul signs a stamped affidavit and a personal indemnity, and the Company Liquidator releases the funds to him safely.",
+  "terms": [
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person appointed to run the winding up process and close down the company."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "The official authority or court that handles company law matters."
+   },
+   {
+    "term": "Indemnity",
+    "meaning": "A formal promise to protect the company from any financial loss if the payment turns out to be wrong."
+   }
+  ],
+  "watch": "Do not confuse this rule with claims above one lakh rupees, which may still require a standard succession certificate.",
+  "h": "22095cb890b5",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "174": {
+  "summary": "This rule explains what the person handling the winding up of a company must do at the very end. Once the company's business is fully closed and the final accounts are checked by an auditor, this person must apply to the Tribunal for orders to officially close the company. This application must happen within ten days and include the final accounts and auditor's certificate.",
+  "points": [
+   "Wait until the affairs of the company are fully wound up.",
+   "Get the final accounts audited and obtain an auditor's certificate.",
+   "Apply to the Tribunal for dissolution within ten days."
+  ],
+  "example": "Meera Textiles Private Limited has finished winding up all its business affairs. The final accounts are ready and have been fully checked and audited by an accountant, who also provided a certificate. Now, the person acting as the Company Liquidator must take these audited accounts and the certificate to the Tribunal. They must submit this application within ten days to ask the Tribunal for an order to officially dissolve the company.",
+  "terms": [
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person appointed to handle the winding up and closing down of a company."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized legal authority or body that handles company law cases."
+   },
+   {
+    "term": "Dissolution",
+    "meaning": "The official legal ending or closing of a company."
+   }
+  ],
+  "watch": "Make sure to file the application within the ten-day limit after the accounts are audited.",
+  "h": "d43e6866dc6d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "175": {
+  "summary": "The Tribunal reviews the audited accounts and listens to the Company Liquidator and other notified persons during a hearing. Based on this, the Tribunal decides whether to dissolve the company. It also decides how to handle any remaining money and where to store the company and liquidator books and papers.",
+  "points": [
+   "The Tribunal holds a hearing involving the Company Liquidator and other notified persons.",
+   "The Tribunal reviews the audited accounts of the company.",
+   "The Tribunal makes orders for dissolving the company.",
+   "The Tribunal decides how to use any remaining money or pay it into a specific account.",
+   "The Tribunal decides how to dispose of the books and papers of the company and the liquidator."
+  ],
+  "example": "Meera Textiles Private Limited reached the final stage of winding up. The Company Liquidator submitted the audited accounts to the Tribunal for a hearing. After reviewing the accounts and hearing from the liquidator and interested parties, the Tribunal ordered the formal dissolution of Meera Textiles Private Limited. The Tribunal also issued instructions on how to handle the remaining funds and directed where to store the company records safely.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A legal body or court authorized to deal with specific legal matters like company winding up."
+   },
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person appointed to wind up the affairs of the company."
+   },
+   {
+    "term": "Dissolution",
+    "meaning": "The official closing or ending of a company's legal existence."
+   }
+  ],
+  "watch": "Do not assume the text sets any specific time limits or money amounts for dissolving the company.",
+  "h": "b3676b5b7d64",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "176": {
+  "summary": "When a company is ordered to dissolve, the person in charge must immediately deposit any unclaimed money or leftover assets into a special official account. They must also send a certified copy of the dissolution order to the Registrar of Companies within seven days. Along with this order, they must file a signed statement confirming that all directions about the final accounts have been followed.",
+  "points": [
+   "The Company Liquidator must immediately pay any unclaimed dividends or refundable assets into the designated account upon dissolution.",
+   "Any other remaining balance must be deposited as directed by the Tribunal.",
+   "A certified copy of the dissolution order must be sent to the Registrar of Companies within seven days of the order.",
+   "A signed statement proving compliance with Tribunal directions on the final account must be filed along with the order."
+  ],
+  "example": "An order for the dissolution of Sunshine Enterprises Private Limited was made by the Tribunal. The Company Liquidator, Mr. Sharma, immediately deposited the remaining unclaimed money into the Company Liquidation Dividend and Undistributed Assets Account. Within seven days, Mr. Sharma forwarded a certified copy of the dissolution order to the Registrar of Companies. He also attached a signed statement confirming that he followed all of the Tribunal's directions regarding the final account.",
+  "terms": [
+   {
+    "term": "Company Liquidator",
+    "meaning": "The person appointed to wind up and close down the affairs of a company."
+   },
+   {
+    "term": "Contributories",
+    "meaning": "Persons liable to contribute to the assets of the company in the event of its being wound up."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "The judicial authority dealing with company law matters in India."
+   }
+  ],
+  "watch": "Make sure to send the certified copy of the dissolution order to the Registrar of Companies within seven days.",
+  "h": "31a05bdb93a4",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "180": {
+  "summary": "This rule explains what a company liquidator must do with extra money from a company's wind-up. If the liquidator has invested or put money into a savings deposit to earn interest, it is treated as regular cash on hand. When this money belongs to unclaimed dividends or undistributed assets, the liquidator must cash out the investment and deposit the final amount into the official account.",
+  "points": [
+   "Money invested or deposited by the liquidator counts as money in their hand.",
+   "This applies when the money is part of unclaimed dividends or undistributed assets.",
+   "The liquidator must cash out the investment or take out the deposit.",
+   "The liquidator must pay the final proceeds into the designated account."
+  ],
+  "example": "Meera Textiles Private Limited is winding up, and liquidator Ramesh is handling the leftover funds. Ramesh previously put some of the company's remaining cash into an interest-bearing bank deposit. Later, it turns out this money is part of the undistributed assets of the company. Following the rule, Ramesh closes the deposit to get the cash back. He then takes those proceeds and pays them into the Company Liquidation Dividend and Undistributed Assets Account.",
+  "terms": [
+   {
+    "term": "liquidator",
+    "meaning": "A person appointed to wind up a company and manage its remaining assets."
+   },
+   {
+    "term": "unclaimed dividends",
+    "meaning": "Profits or payments owed to shareholders that have not been collected by them."
+   }
+  ],
+  "watch": "Do not assume any specific time limit or penalty applies, because the text does not mention any.",
+  "h": "c92b995a8093",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "182": {
+  "summary": "When a company is being wound up by the Tribunal, its remaining money and property must be used to pay specific costs in a strict order. First, the costs of the petition are paid, followed by the costs for the statement of affairs, liquidator disbursements, employed persons' costs, liquidator expenses, and advisory committee expenses. The Tribunal can change this order or make special orders.",
+  "points": [
+   "Remaining assets pay specific costs in a fixed order after basic preservation expenses are cleared.",
+   "First priority goes to the taxed costs of the petition and approved persons appearing on it.",
+   "Subsequent priorities cover the statement of affairs, liquidator disbursements, employed persons, liquidator charges, and advisory committee expenses.",
+   "Lawyers' bills must be checked and allowed by the Tribunal's taxing officer after proper sanction.",
+   "Legal proceeding costs ordered by other courts are not affected by this rule."
+  ],
+  "example": "Meera Textiles Private Limited is undergoing winding up by the Tribunal. After the basic costs of saving the company's property are paid, money remains in the company. The Tribunal must now pay the approved costs of the petition first. Next, the costs for preparing the company's statement of affairs are paid. Following that, the necessary cash outlays of the Company Liquidator and the costs of any properly employed persons are settled according to the fixed order of priority set out in the rules.",
+  "terms": [
+   {
+    "term": "winding up",
+    "meaning": "The legal process of closing down a company and settling its affairs."
+   },
+   {
+    "term": "statement of affairs",
+    "meaning": "A formal document showing a company's assets, debts, and overall financial position."
+   },
+   {
+    "term": "taxed costs",
+    "meaning": "Legal costs that have been officially checked and approved by the court."
+   }
+  ],
+  "watch": "People often confuse the general order of priority with legal proceeding costs ordered by other courts, which are handled separately.",
+  "h": "b5b6e0bb573b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "183": {
+  "summary": "This rule explains how costs are handled during proceedings before the Tribunal. The Tribunal decides who pays the costs in a case. You cannot claim costs from another party unless the Tribunal specifically orders it.",
+  "points": [
+   "The Tribunal has full power to decide about costs.",
+   "No party can automatically claim costs from another party.",
+   "Costs are only allowed if the Tribunal expressly awards them in an order."
+  ],
+  "example": "Meera Textiles Private Limited filed a case at the Tribunal against another company. After the proceedings ended, Meera Textiles wanted the other company to pay for their legal expenses. However, the Tribunal did not mention any costs in its final order. Because the rule states costs are only allowed if expressly awarded, Meera Textiles cannot recover these expenses from the other party.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "An official body that settles legal disputes, similar to a court."
+   },
+   {
+    "term": "Proceeding",
+    "meaning": "A legal action or a court case."
+   }
+  ],
+  "watch": "People often assume the winner of a case automatically gets their expenses paid by the loser, but this rule says that only happens if the Tribunal specifically orders it.",
+  "h": "9a2234255ca2",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "184": {
+  "summary": "When a company is winding up, professionals hired by the Company Liquidator must submit their bills of costs upon request. If they miss the four-week deadline, the Liquidator can distribute dividends without paying them, causing their claim to be lost. However, the Tribunal can sometimes restore the claim before the final dividend if there is a good reason.",
+  "points": [
+   "Hired persons must deliver their bills of costs when asked by the Company Liquidator.",
+   "The request uses Form WIN 95 and is sent personally or by registered/speed post.",
+   "Failing to submit within four weeks means the claim is forfeited and the dividend is distributed without it.",
+   "The Tribunal may restore the claim before the final dividend if good cause is shown."
+  ],
+  "example": "Meera Textiles Private Limited is undergoing winding up. The Company Liquidator hires Rahul, an auctioneer, to sell factory assets. The Liquidator sends Rahul a request in Form WIN 95 by registered post to submit his bill of charges before a dividend is declared. Rahul forgets to submit his bill within four weeks of receiving the request. As a result, the Liquidator distributes the dividend without considering Rahul's claim, and Rahul's claim is forfeited.",
+  "terms": [
+   {
+    "term": "Company Liquidator",
+    "meaning": "An official appointed to run the winding up process of a company."
+   },
+   {
+    "term": "Bill of costs",
+    "meaning": "An itemized list of fees and charges submitted for payment by a professional."
+   },
+   {
+    "term": "Dividend",
+    "meaning": "A payment made to claimants or stakeholders from the available funds during winding up."
+   }
+  ],
+  "watch": "Do not assume the lost claim can never come back, because the Tribunal can restore it before the final dividend if there is good cause.",
+  "h": "82acd4218fdb",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "186": {
+  "summary": "This rule explains how fees are decided for authorized representatives when a winding up proceeding is compromised before it is set down for hearing. The Tribunal decides these fees based on the nature and complexity of the case. It applies to situations under the Companies (Winding Up) Rules, 2020.",
+  "points": [
+   "Applies when a proceeding is compromised before being set down for hearing.",
+   "Fees for authorized representatives are decided by the Tribunal.",
+   "The Tribunal considers the nature and complexity of the case."
+  ],
+  "example": "Meera Textiles Private Limited entered into a winding up proceeding. Before the case was officially set down for a hearing, the parties involved reached a compromise. Because of this early agreement, the lawyers and representatives needed to know their payment. The Tribunal stepped in to decide the fees to be allowed for the authorized representatives, carefully considering how complex and difficult the case was.",
+  "terms": [
+   {
+    "term": "compromised",
+    "meaning": "Settled or agreed upon by the parties involved before a final decision is made."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized legal body or official panel set up to handle specific types of cases."
+   },
+   {
+    "term": "authorised representatives",
+    "meaning": "People legally allowed to act and speak on behalf of the parties in the case."
+   }
+  ],
+  "watch": "People often confuse when this rule applies, but it specifically only applies before the proceeding is set down for a hearing.",
+  "h": "c6bac0c04c07",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "187": {
+  "summary": "This rule tells us how costs and fees are handled when multiple parties share the same interest in a legal proceeding. If different petitions or applications raise the same issue and are heard together, the Tribunal normally grants only one set of costs for all those parties. Similarly, parties with a common interest in the same proceeding receive only one set of fees, even if different representatives act for them.",
+  "points": [
+   "Only one set of costs is allowed for multiple petitions or applications that raise a common issue and are decided together.",
+   "Only one set of fees is allowed for parties in the same proceeding who share a common interest.",
+   "Parties can still use different authorised representatives, but the rule on fees or costs usually remains one set unless the Tribunal decides otherwise."
+  ],
+  "example": "Meera Textiles Private Limited and Apex Industries Limited both file separate applications before the Tribunal against the same company, raising the exact same legal issue. The Tribunal hears their cases together and passes a single judgment on them. Because their interests are common and the cases are joined, the Tribunal allows only one set of costs to both companies together, rather than giving separate costs to each company, unless the Tribunal orders a different arrangement.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "The judicial body that handles company law cases and disputes."
+   },
+   {
+    "term": "Costs",
+    "meaning": "The expenses or money awarded by the Tribunal related to the legal proceedings."
+   }
+  ],
+  "watch": "People often think having separate lawyers means they will each get separate costs or fees, but sharing a common interest usually limits the parties to just one set.",
+  "h": "ada012341c4a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "188": {
+  "summary": "The Tribunal has the power to set a fee for any matter if it feels it is necessary for justice. If a legal contest is not very large or serious, the Tribunal can decide to use a lower, uncontested scale for costs. These rules do not stop the Tribunal from making these decisions.",
+  "points": [
+   "The Tribunal can fix a fee for any matter if needed for justice.",
+   "If a contest is not substantial, costs can be on the uncontested scale.",
+   "These rules do not prevent the Tribunal from exercising this power."
+  ],
+  "example": "Aarav Industries Private Limited was involved in a winding up matter before the Tribunal. The legal argument ended up being very brief and simple, meaning the contest was not of a substantial nature. Because of this, the Tribunal directed that the costs for the proceeding should be calculated based on the uncontested scale, saving both parties time and extra expense.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "The judicial body or authority handling company law matters."
+   },
+   {
+    "term": "Substantial nature",
+    "meaning": "Heavy, significant, or serious legal opposition."
+   },
+   {
+    "term": "Costs",
+    "meaning": "Expenses related to the legal proceedings."
+   }
+  ],
+  "watch": "Do not assume that the Tribunal must always use standard fees, as it can set special fees or lower costs when appropriate.",
+  "h": "369086257830",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "189": {
+  "summary": "This rule explains how witnesses are paid allowances during winding up or liquidation proceedings. The exact scale of these allowances is decided directly by the Tribunal. The text is very short and does not provide specific amounts or details.",
+  "points": [
+   "Witnesses receive allowances for their participation.",
+   "The Tribunal determines the payment scales."
+  ],
+  "example": "Meera Textiles Private Limited was going through summary liquidation. A former manager was called as a witness to testify about the company's financial records. The Tribunal reviewed the case and officially determined the daily allowance to be paid to the witness for attending the hearing.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized legal body appointed to handle company law disputes and cases."
+   },
+   {
+    "term": "Allowances",
+    "meaning": "Money paid to cover expenses, such as travel costs for attending a hearing."
+   }
+  ],
+  "watch": "Do not assume fixed government rates or standard fees apply, as the text states the Tribunal decides the scale.",
+  "h": "ee14e9715959",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "191": {
+  "summary": "This rule allows certain people to look at the official case files when a company is closing down. Government officers and former directors can inspect the files for free. Other people, like people who owe money or people to whom money is owed, must pay a fee to look at the files or get copies.",
+  "points": [
+   "Authorised Central Government officers and former company directors can inspect the liquidation files for free at reasonable times.",
+   "These persons can also get copies or extracts of documents by paying five rupees per page.",
+   "Contributors and creditors with admitted claims must pay one hundred rupees to inspect the files.",
+   "Contributors and creditors can also receive copies of documents by paying five rupees per page."
+  ],
+  "example": "Meera Textiles Private Limited is currently being wound up. Mr. Sharma, who was a director of the company, visits the office to check the file of proceedings. Because he is a former director, he can inspect the file free of charge at a reasonable time. Later, he asks for a copy of a document and pays five rupees per page for it. Meanwhile, Ms. Gupta, a creditor whose claim has been admitted, pays a fee of one hundred rupees to inspect the same file of proceedings.",
+  "terms": [
+   {
+    "term": "Winding up",
+    "meaning": "The legal process of closing down a company and settling its affairs."
+   },
+   {
+    "term": "Contributory",
+    "meaning": "A person liable to contribute to the assets of a company in the event of its being wound up."
+   },
+   {
+    "term": "Creditor",
+    "meaning": "A person or company to whom money is owed by the company."
+   }
+  ],
+  "watch": "Note that former directors get free inspection, but creditors and contributors have to pay a fee to inspect.",
+  "h": "d0326d066248",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
  }
 }

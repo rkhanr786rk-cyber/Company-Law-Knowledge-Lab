@@ -1,0 +1,47 @@
+{
+ "1": {
+  "summary": "This rule tells us the official name and the starting date for appointing part-time members to the National Financial Reporting Authority. It says the rules begin as soon as they are published in the Official Gazette. The text is very short and only gives this basic introductory information.",
+  "points": [
+   "The rules are called the National Financial Reporting Authority appointment of Part-time members, Rules, 2022.",
+   "They start on the date they are published in the Official Gazette."
+  ],
+  "example": "Meera Textiles Private Limited was following updates about the National Financial Reporting Authority. The company wanted to know exactly when the new rules for appointing part-time members would become active. They learned from the official announcement that the rules would take effect immediately on the date they were published in the Official Gazette.",
+  "terms": [
+   {
+    "term": "Official Gazette",
+    "meaning": "The official government publication where new rules and laws are publicly announced."
+   },
+   {
+    "term": "Commencement",
+    "meaning": "The time when something officially begins or starts."
+   }
+  ],
+  "watch": "Do not confuse the name of the rules with the actual date they were published, as the text does not state the exact calendar date.",
+  "h": "b870ae703a80",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "2": {
+  "summary": "This rule lists the specific people who serve as part-time members of the National Financial Reporting Authority. It includes government officials, heads of specific institutes, and other designated professionals. The rule simply names these individuals and their official positions.",
+  "points": [
+   "The National Financial Reporting Authority includes several specific part-time members.",
+   "Members consist of designated government officers, bank and board executives, and institute leaders.",
+   "The list names individuals by their specific official titles and roles."
+  ],
+  "example": "At Star Technologies Private Limited, the management was discussing regulatory bodies and their structures. They looked at the National Financial Reporting Authority to understand who makes up its part-time members. They noted that the members include specific government officials, the President of the Institute of Chartered Accountants of India, and other designated professionals listed in the official rules.",
+  "terms": [
+   {
+    "term": "Part-time member",
+    "meaning": "A member of an organization who does not work there for full-time hours."
+   },
+   {
+    "term": "Comptroller and Auditor General",
+    "meaning": "An official government position responsible for auditing government receipts and expenditures."
+   }
+  ],
+  "watch": "This rule only lists the names and positions of part-time members and does not contain any duties, penalties, or procedures.",
+  "h": "100cd4aaa5fa",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ }
+}

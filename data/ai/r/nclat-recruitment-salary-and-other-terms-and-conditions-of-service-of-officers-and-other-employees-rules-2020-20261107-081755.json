@@ -22,5 +22,397 @@
   "h": "8b96412235d7",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This rule gives a specific name to the rules regarding staff jobs, pay, and service conditions at the National Company Law Appellate Tribunal. It also states that these rules become active on the day they are published in the Official Gazette. The provided text is very short and only covers the title and start date.",
+  "points": [
+   "The official name of the rules is given as the National Company Law Appellate Tribunal Rules, 2020.",
+   "These rules apply to the recruitment, salary, and service conditions of officers and other employees.",
+   "The rules start to apply on the exact date they appear in the Official Gazette."
+  ],
+  "example": "Meera Textiles Private Limited wanted to know when the new service rules for the Tribunal officers officially started. The manager checked the publication date in the Official Gazette. Since the rules state they come into force on that exact publication date, the company and its advisors confirmed that the rules became active immediately on that day.",
+  "terms": [
+   {
+    "term": "Official Gazette",
+    "meaning": "The official public newspaper and government journal of record in India."
+   },
+   {
+    "term": "Commencement",
+    "meaning": "The time when something starts or begins."
+   }
+  ],
+  "watch": "People often confuse the date the rules are written with the date they actually start, but they only start on the date of publication in the Official Gazette.",
+  "h": "9a9e87ae5c3c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "3": {
+  "summary": "The provided text is too short and unclear to fully explain the rules. It only states that these rules apply to specific posts listed in a schedule. Without the schedule, no further details can be given.",
+  "points": [
+   "The rules apply to certain posts.",
+   "These posts are listed in column (1) of Schedule-I."
+  ],
+  "example": "At ABC Technologies Private Limited, the human resources team is reviewing new workplace guidelines. They check Schedule-I, column (1) of the official rules to find out which specific job roles and posts are covered by these particular service regulations.",
+  "terms": [
+   {
+    "term": "Schedule-I",
+    "meaning": "an attached list or document at the end of the rules that gives specific details."
+   }
+  ],
+  "watch": "Do not assume these rules apply to all employees, as they only apply to the specific posts listed in the schedule.",
+  "h": "71b31462cd16",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "4": {
+  "summary": "Existing employees who worked on a regular basis for the Company Law Board or Competition Appellate Tribunal are considered properly appointed to the National Company Law Appellate Tribunal. Their past service time will be counted when calculating benefits like pension and gratuity. This ensures their previous work history is fully recognized in the new tribunal.",
+  "points": [
+   "Applies to regular employees holding posts listed in Schedule-I.",
+   "Covers employees from the dissolved Company Law Board or Competition Appellate Tribunal.",
+   "Past service is counted for pension, gratuity, and other rights."
+  ],
+  "example": "Aarav worked as a regular officer at the Company Law Board before it was dissolved. When the National Company Law Appellate Tribunal took over, his position was moved to the new tribunal under these rules. Because of this rule, all the years Aarav spent working at the old board are officially counted towards his retirement benefits, ensuring he does not lose any of his hard-earned pension or gratuity rights.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A high-level official body that hears appeals against orders or decisions."
+   },
+   {
+    "term": "Dissolution",
+    "meaning": "The official closing down or ending of an organization or board."
+   },
+   {
+    "term": "Gratuity",
+    "meaning": "A sum of money given by an employer to an employee for services rendered."
+   }
+  ],
+  "watch": "Do not assume this rule applies to temporary workers, as it only mentions regular employees.",
+  "h": "eb9c2387156b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "5": {
+  "summary": "This rule simply tells us where to find the details about jobs in the tribunal. It states that the number of jobs, their group, and salary levels for officers and employees are listed in specific columns of Schedule-I.",
+  "points": [
+   "The rule applies to officers and employees.",
+   "It covers the number of posts, classification, and pay matrix level.",
+   "All these details are found in columns (2) to (4) of Schedule-I."
+  ],
+  "example": "Ahmad wanted to know the salary level and group of a newly created job at the National Company Law Appellate Tribunal. Instead of guessing, the human resources department checked Schedule-I, columns (2) to (4), as required by Rule 5. There, they found the exact classification and pay matrix level for the post.",
+  "terms": [
+   {
+    "term": "Classification",
+    "meaning": "Grouping jobs into categories."
+   },
+   {
+    "term": "Pay matrix",
+    "meaning": "A chart showing salary levels."
+   }
+  ],
+  "watch": "Do not look outside of Schedule-I to find these specific job details.",
+  "h": "705aed5c1824",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "6": {
+  "summary": "This rule explains how staff are hired for the National Company Law Appellate Tribunal. It states that the hiring method, age limits, and required qualifications must follow specific columns in Schedule-I. Because the text is very short, it does not provide further details.",
+  "points": [
+   "Hiring methods follow Schedule-I.",
+   "Age limits are set in Schedule-I.",
+   "Required qualifications are listed in Schedule-I."
+  ],
+  "example": "Asha wants to apply for a job at the National Company Law Appellate Tribunal. She checks the official rules to find out if she qualifies. The rules guide her to look at columns 5 to 13 of Schedule-I to see the exact age limit, required qualifications, and how the hiring process works for that specific role.",
+  "terms": [
+   {
+    "term": "Recruitment",
+    "meaning": "The process of finding and hiring new employees."
+   },
+   {
+    "term": "Qualifications",
+    "meaning": "The skills, education, or experience needed for a job."
+   }
+  ],
+  "watch": "Do not assume age limits or qualifications without checking Schedule-I.",
+  "h": "7da5e5c2c681",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "7": {
+  "summary": "This rule explains who has the power to hire officers and other workers for the Appellate Tribunal. The hiring is done by the Appointing Authority. However, if the job is at Level 11 or higher in the Pay Matrix, the Central Government must also approve it.",
+  "points": [
+   "The Appointing Authority hires officers and other employees of the Appellate Tribunal.",
+   "Jobs at Level 11 or higher in the Pay Matrix need approval from the Central Government."
+  ],
+  "example": "Asha Textiles Private Limited is not involved here, as this rule concerns the tribunal. In the National Company Law Appellate Tribunal, the Appointing Authority wants to hire a new officer for a position at Level 12 in the Pay Matrix of the Seventh Central Pay Commission. Because this job is at Level 11 or higher, the Appointing Authority must get approval from the Central Government before making the appointment final.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A specialized court that hears appeals against orders or decisions of a lower authority."
+   },
+   {
+    "term": "Appointing Authority",
+    "meaning": "The official or body legally authorized to make appointments to jobs."
+   },
+   {
+    "term": "Pay Matrix",
+    "meaning": "A system used to determine the salary levels for government posts."
+   }
+  ],
+  "watch": "People often confuse regular staff hiring with higher-level hiring that strictly requires Central Government approval.",
+  "h": "af727847b169",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "8": {
+  "summary": "This rule explains how the Appellate Tribunal hires staff through direct recruitment. It must advertise the jobs across all of India. Then, it uses a recognized professional agency to handle the recruitment process.",
+  "points": [
+   "Jobs are advertised on an all India basis.",
+   "The Appellate Tribunal invites applications for officers and employees.",
+   "A recognized professional agency with Central Government or similar experience processes the appointments."
+  ],
+  "example": "Zenith Appellate Tribunal needed to hire new officers. To find the best candidates, Zenith Textiles Private Limited was not involved, but rather the Tribunal followed the rule by placing a job advertisement across all of India. It decided to hire a recognized professional agency that had good experience in making recruitments for Public Sector Undertakings. This agency processed the applications and helped the Appointing Authority make the direct appointments properly.",
+  "terms": [
+   {
+    "term": "Direct recruitment",
+    "meaning": "Hiring new staff directly for a job rather than promoting someone already working there."
+   },
+   {
+    "term": "Appointing Authority",
+    "meaning": "The official or body legally given the power to give people jobs."
+   }
+  ],
+  "watch": "People often confuse the Tribunal itself with the professional agency that only helps process the applications.",
+  "h": "b1b04b9ca8ce",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "9": {
+  "summary": "This rule explains how staff are chosen for the Appellate Tribunal through deputation. The Tribunal must advertise open jobs widely, including always in the Employment News. A special committee then recommends who should be selected.",
+  "points": [
+   "The Appellate Tribunal asks for job applications through wide advertisements.",
+   "Advertisements must always be published in the Employment News.",
+   "A Selection Committee named in Schedule-I recommends who gets selected."
+  ],
+  "example": "Meera Textiles Private Limited is not involved here. Imagine the Appellate Tribunal needs to fill a new post on deputation. First, the Tribunal places an advertisement for the job in the Employment News and other wide platforms. Many people apply. Next, the specific Selection Committee listed in Schedule-I reviews the applications and makes its official recommendations for the final selection, strictly following the prescribed process.",
+  "terms": [
+   {
+    "term": "deputation",
+    "meaning": "borrowing an employee from another office or organization for a temporary period."
+   },
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "a specialized body that hears appeals against certain orders or decisions."
+   }
+  ],
+  "watch": "Do not assume any specific time periods or qualifications for the applicants, as the text does not mention them.",
+  "h": "1e28fdba4dd4",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "10": {
+  "summary": "Certain employees working on deputation can become permanent employees of the Appellate Tribunal if they meet the required qualifications and pass a screening. They must choose to be absorbed, and their original department must agree to it. Once absorbed, their seniority starts from the date of their permanent absorption.",
+  "points": [
+   "Deputation employees can be absorbed into the respective grade if they meet qualifications and experience rules.",
+   "A Departmental Promotion Committee must consider the person suitable for absorption.",
+   "The employee must actively choose and give an option for absorption.",
+   "The parent department or cadre controlling authority must give a no objection.",
+   "Seniority is fixed based on the date of absorption into the post."
+  ],
+  "example": "Aarav was working on deputation at the Appellate Tribunal from another government department. He had the required qualifications and the Departmental Promotion Committee found him suitable. Aarav wanted to stay permanently and submitted his option for absorption. His parent department gave a no objection certificate to the Tribunal. Since all conditions were met, Aarav was permanently absorbed into the service, and his new seniority in the post was counted starting from the exact date of his absorption.",
+  "terms": [
+   {
+    "term": "deputation",
+    "meaning": "A temporary transfer of an employee to another organization or post."
+   },
+   {
+    "term": "absorption",
+    "meaning": "Becoming a permanent employee of the new organization where one was temporarily working."
+   },
+   {
+    "term": "parent department",
+    "meaning": "The original organization or department where the employee worked before deputation."
+   }
+  ],
+  "watch": "People often confuse deputation with permanent transfer, but absorption only happens when the employee chooses it and the parent department agrees.",
+  "h": "bcefb01859a0",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "11": {
+  "summary": "This rule explains the service conditions for staff and officers working at the Appellate Tribunal. Their pay, leave, and general service rules match those of Central Government employees with similar pay scales. However, staff on deputation follow their original ministry's rules for retirement benefits and insurance schemes.",
+  "points": [
+   "General pay, allowances, and leave of tribunal staff follow Central Government rules for similar pay scales.",
+   "Staff working on deputation follow their parent department's rules for provident fund, insurance, pension, and retirement.",
+   "The tribunal must collect scheme contributions from salaries and send them immediately to the parent department.",
+   "If the tribunal sends the contribution late and interest is lost, the tribunal must pay for that loss.",
+   "Staff can choose medical facilities either from their parent organization or as listed in Schedule-II of these rules."
+  ],
+  "example": "Aarav works on deputation at the Appellate Tribunal from another government ministry. For his pension and provident fund, Aarav continues to follow the rules of his parent ministry, not the tribunal's rules. Every month, the tribunal deducts his contribution from his salary and sends it straight back to his parent ministry. Meanwhile, Aarav's general pay and leave are regulated by the rules that apply to Central Government employees who share his pay scale. He also gets to choose whether to use the medical facilities from his parent organization or the ones in Schedule-II.",
+  "terms": [
+   {
+    "term": "Deputation",
+    "meaning": "A temporary transfer of an employee to another organization or office."
+   },
+   {
+    "term": "Superannuation",
+    "meaning": "The retirement of an employee because of age."
+   },
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A specialized judicial body that hears appeals against orders."
+   }
+  ],
+  "watch": "Do not confuse regular tribunal staff with staff on deputation, as retirement and insurance rules apply differently to them.",
+  "h": "dfd4d49f5d6a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "12": {
+  "summary": "This rule gives staff of the Appellate Tribunal the choice to receive House Rent Allowance. The allowance amount follows the rates set by the Central Government for similar pay scales. However, staff cannot get this allowance if they receive and live in government housing.",
+  "points": [
+   "Appellate Tribunal officers and employees can choose to claim House Rent Allowance.",
+   "The allowance rate is based on Central Government rates for matching pay scales.",
+   "Staff who are eligible for general pool residential accommodation and move into such government housing lose their allowance eligibility."
+  ],
+  "example": "Anshu works as an officer at Apex Tribunal Private Limited's appellate tribunal. Anshu has the option to claim House Rent Allowance based on the Central Government rates for matching pay scales. Later, Anshu is declared eligible for general pool residential accommodation and successfully occupies the allotted government housing. Because of this, Anshu becomes ineligible to receive the House Rent Allowance.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A formal body that reviews decisions."
+   },
+   {
+    "term": "House Rent Allowance",
+    "meaning": "Money given to employees to help pay for housing."
+   },
+   {
+    "term": "General pool residential accommodation",
+    "meaning": "Housing provided by the government for its workers."
+   }
+  ],
+  "watch": "People often think they can keep the rent allowance even after moving into government housing, but the rule stops it.",
+  "h": "a045544fc9b6",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "13": {
+  "summary": "This rule explains how disciplinary actions are handled for the staff of the Appellate Tribunal. They face the same disciplinary rules and regulations as Central Government employees who are in the same pay level. This keeps their service conditions aligned with similar government workers.",
+  "points": [
+   "Appellate Tribunal officers and employees face disciplinary proceedings.",
+   "The rules used are the same ones that apply to Central Government workers.",
+   "The comparison is based on matching levels in the pay matrix."
+  ],
+  "example": "At Zenith Tribunal Private Limited, an officer named Mr. Sharma faces a disciplinary inquiry regarding his workplace conduct. According to the rules, the management cannot make up a brand-new punishment process. Instead, they must follow the exact same disciplinary proceedings and regulations that apply to a Central Government officer who is in the same pay matrix level as Mr. Sharma.",
+  "terms": [
+   {
+    "term": "disciplinary proceedings",
+    "meaning": "Formal steps taken by an organization when an employee breaks a rule or is accused of misconduct."
+   },
+   {
+    "term": "pay matrix",
+    "meaning": "A structured table that decides the salary levels for employees based on their rank."
+   }
+  ],
+  "watch": "Do not assume these rules apply to private companies just because of the name, as this text specifically governs the Appellate Tribunal.",
+  "h": "1479291debce",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "14": {
+  "summary": "These rules set clear marriage-related limits for getting a job in the Appellate Tribunal. If someone already has a living spouse and marries again, they cannot be appointed to any post. However, the Central Government can allow an exception in special cases.",
+  "points": [
+   "You cannot get a job in the Appellate Tribunal if you marry someone who already has a living husband or wife.",
+   "You also cannot get the job if you have a living husband or wife and marry someone else.",
+   "The Central Government has the power to excuse someone from this rule under certain personal laws and special reasons."
+  ],
+  "example": "Aarav wants to apply for a job at the Appellate Tribunal. However, Aarav entered into a marriage while still having a living spouse from a previous marriage. Because of this situation, Aarav is not eligible for appointment to the post. Unless the Central Government grants an exemption based on applicable personal law and other valid grounds, Aarav cannot be hired.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A formal body that hears appeals and reviews decisions."
+   },
+   {
+    "term": "Spouse",
+    "meaning": "A husband or a wife."
+   },
+   {
+    "term": "Exempt",
+    "meaning": "To officially free someone from having to follow a rule."
+   }
+  ],
+  "watch": "People might confuse the strict ban with the special power of the Central Government to allow exceptions.",
+  "h": "9d2119e722fb",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "15": {
+  "summary": "This rule explains what happens when these specific rules do not have enough details about the service conditions for employees of the Appellate Tribunal. In those cases, the employees will follow the rules and orders that apply to Central Government employees of the same pay level stationed in the same place. This ensures that no staff member is left without clear service guidelines.",
+  "points": [
+   "Applies to officers and other employees of the Appellate Tribunal.",
+   "Used when specific rules are missing or not enough.",
+   "Follows the rules and orders for Central Government employees.",
+   "Based on the corresponding level in the pay matrix and the same location."
+  ],
+  "example": "A dispute arose at the National Company Law Appellate Tribunal regarding the transit allowance for an administrative officer named Rajesh, because the tribunal's own rules did not mention it. To resolve this, the office checked the rules for Central Government officers at the same pay level working in the same city. Since Central Government rules allowed a specific transit benefit for that pay matrix level, Rajesh received the same benefit under this rule.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A formal body that hears and decides appeals."
+   },
+   {
+    "term": "Pay matrix",
+    "meaning": "A table that shows different levels of salary for government employees."
+   }
+  ],
+  "watch": "Do not assume these rules apply to all government workers; they only apply to Central Government employees at the corresponding pay level stationed at the same place.",
+  "h": "4db53ced521b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "16": {
+  "summary": "The Central Government can relax the rules for certain groups of people if it thinks it is necessary. To do this, the government must first talk with the Chairperson of the Appellate Tribunal. The reasons for making this relaxation must also be written down.",
+  "points": [
+   "The Central Government has the power to relax these rules.",
+   "This can only be done for a specific class or category of persons.",
+   "The government must consult the Chairperson of the Appellate Tribunal.",
+   "The reasons for the relaxation must be recorded in writing."
+  ],
+  "example": "The Central Government decides that certain recruitment rules are too strict for a specific category of employees joining the National Company Law Appellate Tribunal. Believing it is necessary to ease these rules, the government consults the Chairperson of the Appellate Tribunal. After discussing the matter, the government issues a written order to relax the specific provisions for that group, clearly recording the reasons for doing so.",
+  "terms": [
+   {
+    "term": "Central Government",
+    "meaning": "The main government of the country."
+   },
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A specialized court or forum that hears appeals."
+   }
+  ],
+  "watch": "Do not confuse relaxing rules for a group of people with changing the rules for a single individual.",
+  "h": "b1ad0ef01cd2",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "17": {
+  "summary": "These rules do not cancel special benefits for certain groups. Any existing benefits for Scheduled Castes, Scheduled Tribes, and other special categories remain safe. The Central Government's orders on age relaxation and reservations continue to apply.",
+  "points": [
+   "Rules do not change reservations for special categories.",
+   "Age-limit relaxations remain protected.",
+   "Central Government orders on concessions still apply."
+  ],
+  "example": "When hiring staff for the National Company Law Appellate Tribunal, the management follows the new service rules. A candidate belonging to the Scheduled Castes applies for a position and claims an age-limit relaxation. Because the rules protect these special concessions based on Central Government orders, the tribunal properly grants the age relaxation to the candidate without any conflict.",
+  "terms": [
+   {
+    "term": "Saving",
+    "meaning": "A legal provision that keeps existing rights or rules safe and unchanged."
+   },
+   {
+    "term": "Concession",
+    "meaning": "A special advantage or allowance given to a person or group."
+   }
+  ],
+  "watch": "People often think new service rules cancel older reservation policies, but this rule protects them.",
+  "h": "6bfdf934abc2",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
  }
 }

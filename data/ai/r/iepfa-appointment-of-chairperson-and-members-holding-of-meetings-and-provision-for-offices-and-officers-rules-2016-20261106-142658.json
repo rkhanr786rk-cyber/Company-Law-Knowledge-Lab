@@ -50,5 +50,308 @@
   "h": "fc4c26c87abf",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This rule gives a specific official name to the rules about the Investor Education and Protection Fund Authority. It also states that these rules start to apply on the day they are published in the Official Gazette. The provided text is very short, so it only tells us the title and the starting date.",
+  "points": [
+   "The rules are officially called the Investor Education and Protection Fund Authority Rules, 2016.",
+   "They become active on the exact date they appear in the Official Gazette."
+  ],
+  "example": "The government drafted new rules regarding the Investor Education and Protection Fund Authority. To make them official, the administration published the text in the Official Gazette. Under this rule, the regulations officially came into force on that exact publication date, allowing the authority to rely on them from that day onward.",
+  "terms": [
+   {
+    "term": "Official Gazette",
+    "meaning": "An official public journal or newspaper used by the government to announce legal notices and new rules."
+   },
+   {
+    "term": "Commencement",
+    "meaning": "The time when something starts or officially begins."
+   }
+  ],
+  "watch": "People often get confused by thinking rules apply before they are published, but they only start on the exact date of publication.",
+  "h": "41264f17c2db",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "3": {
+  "summary": "The Central Government will decide the date to officially set up the Authority. Once established, the Authority will act as a separate legal body with its own permanent existence and official seal. It will also have the legal right to own property, make contracts, and take part in lawsuits under its own name.",
+  "points": [
+   "The Central Government decides and notifies the date when the Authority is established.",
+   "The Authority is a body corporate, meaning it is treated as a separate legal entity.",
+   "It has perpetual succession and a common seal.",
+   "It can buy, hold, and sell both movable and immovable property.",
+   "It has the power to sign contracts and can sue or be sued in its own name."
+  ],
+  "example": "The Central Government issues a notification to officially set up the Authority. Later, the Authority decides to buy a new office building for its work. ABC Property Limited sells the building to the Authority, and the contract is signed using the Authority's official seal. Sometime later, a dispute arises over the building repairs, and the Authority files a lawsuit in court under its own name against the builder.",
+  "terms": [
+   {
+    "term": "Body corporate",
+    "meaning": "A legal organization or entity that exists separately from the people who run it."
+   },
+   {
+    "term": "Perpetual succession",
+    "meaning": "An unending existence, meaning the organization continues to live even if its members change."
+   },
+   {
+    "term": "Movable and immovable property",
+    "meaning": "Movable property includes items like furniture or cash, while immovable property includes land and buildings."
+   }
+  ],
+  "watch": "Do not assume any specific date for the establishment of the Authority, as the text only states it will be notified by the Central Government.",
+  "h": "610768f6965a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "4": {
+  "summary": "This rule explains who makes up the Investor Education and Protection Fund Authority. It states that the group includes a Chairperson, six members, and a Chief Executive Officer. The Chief Executive Officer also acts as the person who calls the meetings.",
+  "points": [
+   "The Authority includes a Chairperson.",
+   "The Authority includes six members.",
+   "The Authority includes a Chief Executive Officer.",
+   "The Chief Executive Officer serves as the convenor."
+  ],
+  "example": "Meera Textiles Private Limited was reviewing the setup of the Investor Education and Protection Fund Authority. The team noticed the group must have a Chairperson, six members, and a Chief Executive Officer. They also learned that the Chief Executive Officer acts as the convenor to call the meetings.",
+  "terms": [
+   {
+    "term": "Authority",
+    "meaning": "The specific official group mentioned in the rule."
+   },
+   {
+    "term": "convenor",
+    "meaning": "The person responsible for calling meetings of the group."
+   }
+  ],
+  "watch": "Do not assume any extra members or roles are part of the Authority beyond what is listed.",
+  "h": "57f40d65b2c4",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "5": {
+  "summary": "This rule decides who leads the Investor Education and Protection Fund Authority. It states that the specific government official in charge of the Ministry of Corporate Affairs automatically holds the top position. No other process or election is needed for this role.",
+  "points": [
+   "The official holding the role of Secretary leads the Authority.",
+   "This position comes automatically with that government office."
+  ],
+  "example": "Meera Textiles Private Limited wanted to know who leads the Investor Education and Protection Fund Authority. Their legal advisor checked the rules and told them that the Secretary of the Ministry of Corporate Affairs automatically serves as the Chairperson of the Authority by virtue of holding that office.",
+  "terms": [
+   {
+    "term": "ex-officio",
+    "meaning": "Holding a role automatically because of another office or position you already hold."
+   },
+   {
+    "term": "Chairperson",
+    "meaning": "The head or leader of a board or committee."
+   }
+  ],
+  "watch": "People often confuse an ex-officio role with a position that requires a separate election or appointment process.",
+  "h": "1711b01b2d77",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "6": {
+  "summary": "The text explains the rule for appointing a top officer for a specific government authority under the law. It states that the Central Government will choose this person for the role. The provided text is very short and only gives this single detail without extra instructions.",
+  "points": [
+   "The Central Government appoints the Chief Executive Officer.",
+   "This officer belongs to the Authority.",
+   "The rule does not mention any other details about the process."
+  ],
+  "example": "The Central Government needed a Chief Executive Officer for the Investor Education and Protection Fund Authority. Officials reviewed options to fill the position. They appointed Mr. Sharma to be the Chief Executive Officer of the Authority, following the rule exactly as written.",
+  "terms": [
+   {
+    "term": "Chief Executive Officer",
+    "meaning": "The top person in charge of managing an organization."
+   },
+   {
+    "term": "Central Government",
+    "meaning": "The national government of the country."
+   }
+  ],
+  "watch": "Do not assume any qualifications or time limits for the appointment since the text does not state them.",
+  "h": "01165fc8bfc9",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "7": {
+  "summary": "The Central Government can appoint specific members to the Authority. These include representatives from the Reserve Bank of India and the Securities and Exchange Board of India. Additionally, four experts from different fields must be included.",
+  "points": [
+   "The Central Government appoints members to the Authority.",
+   "One ex-officio member is nominated by the Reserve Bank of India, holding a rank not below Executive Director.",
+   "One ex-officio member is nominated by the Securities and Exchange Board of India, holding a rank not below Executive Director.",
+   "Four persons with at least fifteen years of experience in finance, management, accountancy, or law are appointed, with one person from each discipline."
+  ],
+  "example": "The Central Government decided to form the new Investor Education and Protection Fund Authority. To do this, it requested the Reserve Bank of India and the Securities and Exchange Board of India to each nominate a senior official holding the rank of Executive Director. Furthermore, the government selected four experienced professionals: an accountant with twenty years in accountancy, a legal expert with eighteen years in law, a finance specialist, and a management consultant, ensuring each required discipline was represented.",
+  "terms": [
+   {
+    "term": "ex-officio member",
+    "meaning": "A member who holds a position because of their official office or status."
+   },
+   {
+    "term": "Executive Director",
+    "meaning": "A high-ranking senior officer in an organization."
+   }
+  ],
+  "watch": "A common confusion is assuming these members are elected, but they are appointed or nominated by the government and regulators.",
+  "h": "81cd758ae6ea",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "8": {
+  "summary": "This rule sets the office term for certain members of the Investor Education and Protection Fund Authority at three years, subject to age limits and possible reappointment. It also explains how the Central Government can end a member's service or remove them for specific reasons. Members can also choose to leave their office by giving written notice.",
+  "points": [
+   "Members hold office for three years and can be reappointed up to a maximum of three terms.",
+   "A member must wait through a cooling off period of three years before being eligible for reappointment.",
+   "The term ends after three years or when the member reaches 65 years of age, whichever happens first.",
+   "The Central Government or the member can end the service by giving a written notice of at least three months.",
+   "The Central Government must remove a member for specific reasons like insolvency, unsound mind, conviction for moral turpitude, or abuse of position, after giving them a chance to be heard."
+  ],
+  "example": "Mr. Sharma was appointed as a member of the Authority for a term of three years. After completing his term, he wanted to be reappointed. However, the rules require him to wait through a cooling off period of three years before he can take up the office again. Later, if the Central Government wishes to end his service early, it must give him a written notice of at least three months, and Mr. Sharma also has the right to resign by giving a similar three-month written notice.",
+  "terms": [
+   {
+    "term": "Insolvent",
+    "meaning": "A person who is declared by a court to be unable to pay their debts."
+   },
+   {
+    "term": "Moral turpitude",
+    "meaning": "An act or behavior that severely violates community standards of honesty and good morals."
+   },
+   {
+    "term": "Cooling off period",
+    "meaning": "A required waiting time before a person is allowed to take up the same position again."
+   }
+  ],
+  "watch": "People often confuse the maximum number of terms allowed with the total age limit, but a member must step down immediately upon reaching 65 years of age even if they have terms left.",
+  "h": "0b6cc576bfea",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "9": {
+  "summary": "The Investor Education and Protection Fund Authority is allowed to have a specific number of officers and employees. These staff members help with secretarial work and daily tasks. The exact number of positions is listed in a document called Schedule I.",
+  "points": [
+   "The Authority can have officers and other employees.",
+   "Staff are meant for secretarial assistance and daily tasks.",
+   "The exact number of staff is found in Schedule I of the rules."
+  ],
+  "example": "Aarav Sharma works at the office of Northern Logistics Private Limited and is curious about how government bodies operate. He reads about the Investor Education and Protection Fund Authority and learns that it employs a specific team for daily tasks and secretarial help. Aarav checks Schedule I of the rules to see the approved number of officers and other employees assigned to assist the Authority with its work.",
+  "terms": [
+   {
+    "term": "Authority",
+    "meaning": "The official body formed to handle specific duties under the law."
+   },
+   {
+    "term": "Secretarial assistance",
+    "meaning": "Administrative and office support work."
+   }
+  ],
+  "watch": "Do not assume the Authority can hire any number of staff, as the count is strictly tied to Schedule I.",
+  "h": "35fa3e6cfa19",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "10": {
+  "summary": "This rule explains the main duties and powers of the Authority for the Investor Education and Protection Fund. The Authority must manage this Fund while the Chief Executive Officer handles day-to-day affairs under the Chairperson's direction. It also allows the Authority to form committees, hire experts, and outsource certain tasks.",
+  "points": [
+   "The Authority is responsible for administering the Investor Education and Protection Fund.",
+   "The Chief Executive Officer manages daily affairs and works under the Chairperson.",
+   "The Authority can create permanent committees made up of two members, the CEO, and a functional head.",
+   "The Authority may outsource work related to managing funds and shares."
+  ],
+  "example": "The Investor Education and Protection Fund Authority needs to manage its growing tasks. To do this, the Authority decides to form a permanent committee. This committee includes two members, the Chief Executive Officer, and the relevant functional head acting as secretary. Because the committee needs extra help on a technical matter, they invite an outside expert with special knowledge to assist them on that specific issue.",
+  "terms": [
+   {
+    "term": "Authority",
+    "meaning": "The official body responsible for managing the Investor Education and Protection Fund."
+   },
+   {
+    "term": "Outsource",
+    "meaning": "To hire outside people or companies to do work instead of doing it internally."
+   },
+   {
+    "term": "Ex-officio",
+    "meaning": "Holding a position because of another office or position a person already holds."
+   }
+  ],
+  "watch": "People often confuse the role of the Chairperson, who gives direction, with the Chief Executive Officer, who manages general daily affairs.",
+  "h": "4a710d39511c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "11": {
+  "summary": "This rule explains how the Investor Education and Protection Fund Authority and its committees hold their meetings. They must meet at least once every quarter, with a total of four meetings in a financial year, and follow specific rules for decision-making and attendance. Meetings can take place outside New Delhi only if the Chairperson approves it with reasons.",
+  "points": [
+   "The Authority and its committees decide their own meeting times, places, and procedures.",
+   "Meetings must happen at least once a quarter and at least four times in a financial year, with no more than 120 days between two meetings.",
+   "The Chairperson leads the meetings, or another member chosen by those present if the Chairperson cannot attend.",
+   "Decisions are made by majority vote when opinions differ.",
+   "More than fifty percent of the appointed members form the quorum for the Authority, while two members form the quorum for a committee."
+  ],
+  "example": "Meera Textiles Private Limited is not involved here, as these rules apply directly to the Investor Education and Protection Fund Authority. Suppose the Authority holds a meeting in Mumbai instead of New Delhi. To do this legally, they must first obtain the approval of the Chairperson of the Authority and provide reasons for choosing Mumbai. Furthermore, they must ensure that more than half of the appointed members are present to form the required quorum before they can proceed with any official business of the meeting.",
+  "terms": [
+   {
+    "term": "Quarter",
+    "meaning": "A period of three months in a financial year."
+   },
+   {
+    "term": "Quorum",
+    "meaning": "The minimum number of members who must be present to legally conduct business."
+   },
+   {
+    "term": "Financial Year",
+    "meaning": "The twelve-month period used for calculating annual financial statements and taxes."
+   }
+  ],
+  "watch": "Do not confuse the quorum requirement for the main Authority, which needs more than fifty percent of members, with the committee quorum, which only requires two members.",
+  "h": "d30ef985ed22",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "12": {
+  "summary": "This rule says a member must tell others if they have a money interest in a topic being discussed at a meeting. They must do this as soon as they know about it. Once they share this, they cannot join any talk or choice about that topic.",
+  "points": [
+   "Disclose your money interest in any meeting topic right away.",
+   "Your disclosure must be written down in the meeting records.",
+   "Do not take part in discussions or decisions about that topic."
+  ],
+  "example": "Aarav is a member of the Authority. Meera Textiles Private Limited has a matter coming up for discussion at a meeting. Aarav realizes he has a direct money interest in this company. As soon as he knows this, he tells the meeting about his interest, and it is written in the records. Aarav then sits out and does not take part in any talk or final choice about Meera Textiles Private Limited.",
+  "terms": [
+   {
+    "term": "Pecuniary interest",
+    "meaning": "A financial or money interest in something."
+   },
+   {
+    "term": "Deliberation",
+    "meaning": "Discussion or talk about a matter."
+   }
+  ],
+  "watch": "A common confusion is thinking the member can stay in the room and just not vote, but the rule says they must not take any part in the deliberation either.",
+  "h": "303a35f48652",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "13": {
+  "summary": "This rule protects the official work of the Investor Education and Protection Fund Authority and its committees from being cancelled. Small errors, empty seats, or minor mistakes in how people were chosen will not ruin their decisions. As long as the core case is dealt with properly, the actions remain fully valid.",
+  "points": [
+   "An empty seat or a mistake in setting up the Authority does not cancel its work.",
+   "A mistake in appointing a member does not make their actions invalid.",
+   "Small procedural delays or errors that do not hurt the main merits of the case are ignored."
+  ],
+  "example": "The Investor Education and Protection Fund Authority held a meeting with a vacant member seat and made a decision regarding ABC Limited. Later, a company claimed the decision was invalid because the seat was empty and there was a minor paperwork error in a member's appointment. Based on this rule, the decision remains completely valid because these issues do not affect the actual merits of the case.",
+  "terms": [
+   {
+    "term": "Authority",
+    "meaning": "The official group set up under the law to handle the fund."
+   },
+   {
+    "term": "Vacancy",
+    "meaning": "An empty seat or position that has not been filled yet."
+   },
+   {
+    "term": "Laches",
+    "meaning": "A delay, mistake, or negligence in following official procedures."
+   }
+  ],
+  "watch": "People often think minor mistakes can cancel official decisions, but this rule says they do not unless they hurt the merits of the case.",
+  "h": "5760a9a4d369",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
  }
 }

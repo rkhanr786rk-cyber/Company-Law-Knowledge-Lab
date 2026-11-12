@@ -45,5 +45,438 @@
   "h": "de497771dc46",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This rule gives a short name to these specific regulations about the tribunal and states when they start. They become active on the exact day they are published in the Official Gazette. Because the text is very short, it does not provide any other details.",
+  "points": [
+   "These rules are officially called the National Company Law Tribunal Rules of 2015.",
+   "They cover the salary, allowances, and service conditions of the President and other members.",
+   "They start working as soon as they are published in the Official Gazette."
+  ],
+  "example": "The government drafted new service rules for the tribunal members of Meera Textiles Private Limited's governing body. Everyone wondered when the rules would officially apply. According to the text, the rules started on the exact day they were published in the Official Gazette, rather than waiting for a later date.",
+  "terms": [
+   {
+    "term": "Official Gazette",
+    "meaning": "The official government publication used to announce public notices and new rules."
+   }
+  ],
+  "watch": "Do not assume these rules start on any date other than the day of publication in the Official Gazette.",
+  "h": "4702e3c32d3c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "3": {
+  "summary": "This rule explains the monthly pay and allowances for the President, Judicial Members, and Technical Members of the National Company Law Tribunal. It sets fixed pay amounts and pay scales, while also providing special pay rules for those who held higher positions previously. Additionally, it states that if an appointed person receives a pension, their pay will be reduced by that pension amount.",
+  "points": [
+   "The President gets a fixed monthly pay of Rs. 80,000 plus government servant allowances in the Apex grade.",
+   "Judicial and Technical Members get a pay scale of Rs. 67,000 to Rs. 79,000 with a 3 percent annual increment.",
+   "Persons who previously drew a higher pay in certain past offices may have their pay protected up to specific limits.",
+   "The pay of any appointed person who receives a pension is reduced by the gross amount of that pension."
+  ],
+  "example": "Mr. Sharma retired as a high court judge and was recently appointed as the President of the National Company Law Tribunal for Zenon Industries Private Limited matters. Under the rules, his pay is fixed at the exact level he was drawing when he left his previous office as a judge. Since he also receives a monthly pension from his past government service, his new tribunal pay is reduced by the gross amount of that pension. Meanwhile, Ms. Roy joined as a Technical Member and receives pay in the specified pay scale along with standard government servant allowances.",
+  "terms": [
+   {
+    "term": "Apex grade",
+    "meaning": "A top-level pay category used for government servants."
+   },
+   {
+    "term": "Judicial Member",
+    "meaning": "A member of the tribunal who handles legal matters and brings judicial experience."
+   },
+   {
+    "term": "Technical Member",
+    "meaning": "A member of the tribunal who brings specialized technical or professional expertise."
+   }
+  ],
+  "watch": "People often confuse whether past pensions are kept in full, but the rule clearly states the pay is reduced by the pension amount.",
+  "h": "f0a5fb226f46",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "4": {
+  "summary": "This rule explains how pension, gratuity, and provident fund are handled for leaders and members of the Tribunal. If a person was already a government servant or High Court judge before joining, their time in the Tribunal counts toward their existing pension and provident fund rules. Other members follow a specific set of contributory provident fund rules instead.",
+  "points": [
+   "Serving High Court judges or government servants joining the Tribunal count their Tribunal service toward their pension.",
+   "Such government-linked members are also governed by the General Provident Fund (Central Services) Rules, 1960.",
+   "All other members follow the Contributory Provident Fund (India) Rules, 1962.",
+   "No extra pension or gratuity is allowed for the service given specifically in the Tribunal."
+  ],
+  "example": "Justice Ramesh, a serving High Court judge, was appointed as a Judicial Member of the Tribunal. Under the rules, the time he spends working in the Tribunal will count toward the pension he receives from his prior service. He will also be governed by the General Provident Fund (Central Services) Rules, 1960. However, he will not receive any additional pension or gratuity for his specific work done inside the Tribunal.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized official body set up to resolve specific legal disputes."
+   },
+   {
+    "term": "Provident Fund",
+    "meaning": "A government-managed retirement savings scheme where employees and sometimes employers put in money."
+   },
+   {
+    "term": "Gratuity",
+    "meaning": "A lump sum money payment given by an employer to an employee for services rendered upon retirement or leaving."
+   }
+  ],
+  "watch": "Do not assume that working in the Tribunal grants extra pension or gratuity beyond what the rules explicitly allow.",
+  "h": "a0f8d62984bc",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "5": {
+  "summary": "This rule explains the leave benefits for the President and Members of the National Company Law Tribunal. They receive thirty days of earned leave every year and can also encash their unused leave. The payment for their leave and the total limit for leave encashment are decided by specific government leave rules.",
+  "points": [
+   "The President and every Member get thirty days of earned leave for each year of service.",
+   "Leave salary payments during leave follow rule 40 of the Central Civil Services (Leave) Rules, 1972.",
+   "Unused earned leave can be encashed, subject to limits set by the Central Civil Service (Leave) Rules, 1972."
+  ],
+  "example": "Mr. Sharma serves as a Member of the National Company Law Tribunal for a whole year. Under the rules, he earns thirty days of earned leave for his service. Later, he decides to convert some of his unused earned leave into cash. The amount of money he receives for this leave encashment is calculated based on the Central Civil Services rules, and the total amount he can encash is kept within the maximum limit allowed by those same government rules.",
+  "terms": [
+   {
+    "term": "Earned Leave",
+    "meaning": "Days of paid rest that a worker or official earns by working for a certain period."
+   },
+   {
+    "term": "Leave Encashment",
+    "meaning": "Getting money in exchange for the leave days that you did not use."
+   }
+  ],
+  "watch": "Do not assume the leave encashment limit is unlimited, as it is strictly controlled by other government rules.",
+  "h": "b5b2457a98ac",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "6": {
+  "summary": "This rule explains who has the power to approve leave for the leaders of a specific tribunal under the Companies Act, 2013. For the President of the tribunal, the President of India gives the approval. For other Members, the President of the tribunal is the one who approves the leave.",
+  "points": [
+   "The President of India approves leave for the President of the tribunal.",
+   "The President of the tribunal approves leave for the Members."
+  ],
+  "example": "Mr. Sharma is the President of Apex Tribunal Private Limited, and Ms. Sen is a Member of the same tribunal. When Mr. Sharma wants to take a few days off, he must apply to the President of India to get his leave approved. Meanwhile, when Ms. Sen wants to take time off, she must submit her leave request to Mr. Sharma, who acts as the leave sanctioning authority for all tribunal Members.",
+  "terms": [
+   {
+    "term": "President",
+    "meaning": "The head or leading official of the tribunal."
+   },
+   {
+    "term": "Members",
+    "meaning": "Other official members serving alongside the President in the tribunal."
+   }
+  ],
+  "watch": "Do not confuse the President of the tribunal with the President of India, as they have different roles in approving leave.",
+  "h": "ed8100a6b92b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "7": {
+  "summary": "This rule explains the travel and transfer benefits for the President and Members of the Tribunal. They get allowances for journeys within India, joining the Tribunal, or returning home after their term ends. The rates for these allowances depend on their specific government grade level.",
+  "points": [
+   "The President gets travel and transfer allowances equal to Central Government officers in the Apex Grade.",
+   "Members get travel and transfer allowances equal to Central Government officers in the Higher Administrative Grade.",
+   "These allowances cover tours within India, joining the Tribunal, and moving back home after the tenure ends."
+  ],
+  "example": "Justice Sharma was appointed as a Member of the Tribunal and had to move from his home town to join office. Under the rules, because he is a Member, he is entitled to claim travelling allowance, daily allowance, and the cost of moving his personal belongings at the same rates as a Central Government officer in the Higher Administrative Grade. After his tenure ends, he can claim similar allowances for his journey back home.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized official body set up to handle specific legal disputes or matters."
+   },
+   {
+    "term": "Tenure",
+    "meaning": "The period of time someone holds a particular office or position."
+   },
+   {
+    "term": "Personal effects",
+    "meaning": "Personal belongings and household items owned by an individual."
+   }
+  ],
+  "watch": "Do not assume these travel rules apply to any government officials other than the specific Tribunal President and Members mentioned.",
+  "h": "09bcaf085094",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "8": {
+  "summary": "This rule explains how the President and Members of the National Company Law Tribunal must handle official visits abroad. They need orders from the Central Government to travel. During these trips, they receive specific allowances based on government pay grades.",
+  "points": [
+   "Official visits abroad by the President need orders from the Central Government.",
+   "The President receives allowances for these trips like Central Government officers in the Apex Grade.",
+   "Official visits abroad by a Member need orders from the Central Government.",
+   "Members receive allowances for these trips like Central Government officers in the Higher Administrative Grade."
+  ],
+  "example": "Mr. Sharma, a Member of the National Company Law Tribunal, wants to travel abroad for an official conference. First, he must ensure the Central Government issues an order for this visit. Once the trip is officially approved under these orders, Mr. Sharma is entitled to draw allowances during his travel that match the allowances given to Central Government officers in the Higher Administrative Grade.",
+  "terms": [
+   {
+    "term": "Apex Grade",
+    "meaning": "A specific high-level pay scale for top government officers."
+   },
+   {
+    "term": "Higher Administrative Grade",
+    "meaning": "A specific high-level pay scale for senior government officers."
+   }
+  ],
+  "watch": "Do not assume they can travel abroad on official work without prior orders from the Central Government.",
+  "h": "06b06946031b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "9": {
+  "summary": "This rule explains the travel benefits for the heads of a specific tribunal. The President and the Members get travel concessions based on the rules for certain Central Government officers. It ensures their travel terms match those specific government grades.",
+  "points": [
+   "The President gets Leave Travel Concession like Central Government officers in the Apex Grade.",
+   "The Members get Leave Travel Concession like Central Government officers in the Higher Administrative Grade."
+  ],
+  "example": "Mr. Sharma is the President of a tribunal, and Ms. Rao is a Member. When planning their official travel concessions, Mr. Sharma checks the rules for Central Government officers in the Apex Grade. Meanwhile, Ms. Rao looks at the rules for officers in the Higher Administrative Grade, ranging from Rs. 67000 to 79000. Both use these specific government officer standards to figure out their entitled travel benefits under the law.",
+  "terms": [
+   {
+    "term": "Leave Travel Concession",
+    "meaning": "A benefit or allowance given for traveling during leave."
+   },
+   {
+    "term": "Apex Grade",
+    "meaning": "A specific high-level category of Central Government officers."
+   }
+  ],
+  "watch": "Do not assume these travel rules apply to regular company employees, as they are only for the tribunal President and Members.",
+  "h": "35b4bf99de22",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "10": {
+  "summary": "This rule explains the medical benefits for the President and other Members. They receive medical facilities according to a specific set of government rules. These are the Central Service (Medical Attendance) Rules, 1944.",
+  "points": [
+   "The President is entitled to medical facilities.",
+   "Other Members are also entitled to medical facilities.",
+   "The medical facilities follow the Central Service (Medical Attendance) Rules, 1944."
+  ],
+  "example": "Mr. Sharma serves as a Member of the tribunal at Apex Enterprises Private Limited. He falls ill and needs to see a doctor. Under the rules, Mr. Sharma is entitled to receive medical facilities as provided in the Central Service (Medical Attendance) Rules, 1944, just like the President.",
+  "terms": [
+   {
+    "term": "President",
+    "meaning": "The head officer of the tribunal."
+   },
+   {
+    "term": "Members",
+    "meaning": "Other official officers serving along with the President."
+   }
+  ],
+  "watch": "Do not assume any medical benefits apply other than the ones explicitly named in the 1944 rules.",
+  "h": "94e6a2bdddd8",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "11": {
+  "summary": "The President and Members of the Tribunal can choose to receive a house rent allowance. This allowance is based on the rates set by the Central Government for similar high-ranking officers. However, they cannot claim this allowance if they are given and move into government housing instead.",
+  "points": [
+   "The President and Members have the option to claim a house rent allowance.",
+   "The allowance rate is based on the Central Government rates for Group A officers of equivalent grade.",
+   "House rent allowance is not given if the official gets and uses government accommodation."
+  ],
+  "example": "Mr. Sharma works as a Member at Alpha Tribunal Private Limited. He is given the choice to take a house rent allowance based on Central Government rules for Group A officers. Later, he is declared eligible for General Pool Residential Accommodation and moves into a government-allotted house. Because he now lives in government accommodation, he stops being eligible for the house rent allowance.",
+  "terms": [
+   {
+    "term": "House rent allowance",
+    "meaning": "Money given to pay for housing."
+   },
+   {
+    "term": "General Pool Residential Accommodation",
+    "meaning": "Housing provided by the government."
+   }
+  ],
+  "watch": "People often confuse whether getting government housing is mandatory, but the rule simply means you cannot take the rent money if you actually live in the government home.",
+  "h": "2f4001cfebbe",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "12": {
+  "summary": "This rule explains how the President and Members get official cars. They can use a staff car for both official and private trips. These car facilities match what government servants in similar pay grades receive.",
+  "points": [
+   "The President and Members get a staff car facility.",
+   "Cars can be used for official and private journeys.",
+   "The facilities follow the rules for government servants in the same pay grade."
+  ],
+  "example": "Mr. Sharma is a Member of the Tribunal and belongs to a specific pay grade. He needs to attend a family function on Sunday and also visit the office on Monday. According to the rules, he can use the official staff car for his Sunday family trip as well as his Monday office commute, because the rules permit using the car for both private and official purposes, matching government servant benefits.",
+  "terms": [
+   {
+    "term": "Conveyance",
+    "meaning": "Transport or a vehicle provided for travel."
+   },
+   {
+    "term": "Staff car",
+    "meaning": "An official vehicle provided for work and personal use."
+   }
+  ],
+  "watch": "Do not assume free fuel or unlimited car use is allowed for all personal trips without limits.",
+  "h": "4bec8c99f3ca",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "13": {
+  "summary": "This rule explains that the President and Members of the Tribunal get the same telephone facilities as a specific central government officer. They receive what is allowed for a Group A officer who earns the same amount of pay. This ensures their telephone benefits match those of equivalent high-ranking government officials.",
+  "points": [
+   "The President is eligible for telephone facilities.",
+   "Members are eligible for telephone facilities.",
+   "The benefits must match those given to a Central Government Group 'A' officer with equivalent pay."
+  ],
+  "example": "Aarav is a Member of the National Company Law Tribunal and earns a pay equivalent to a specific Central Government officer. Under Rule 13, Aarav requests telephone facilities for his official duties. The administrative office checks what is admissible to a Group 'A' officer drawing that same level of pay. Because Aarav matches that pay grade, he receives the exact same telephone facility allowance as that Group 'A' officer, following the rule precisely.",
+  "terms": [
+   {
+    "term": "Admissible",
+    "meaning": "Allowed or permitted to be received."
+   },
+   {
+    "term": "Group 'A' officer",
+    "meaning": "A high-ranking category of officers in the Central Government."
+   }
+  ],
+  "watch": "Do not assume this rule gives extra allowances like internet or broadband unless specifically stated as part of the telephone facility for that officer.",
+  "h": "58b6ac86637a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "14": {
+  "summary": "This rule explains the service conditions for a person who is appointed as President and is either a serving or retired judge of a High Court. Their service conditions are generally governed by the High Court Judges Act of 1954 and its rules. These apply unless these specific rules state otherwise.",
+  "points": [
+   "Applies to a President who is a serving or retired High Court judge.",
+   "Their service conditions follow the High Court Judges Act, 1954.",
+   "This applies unless specific provisions are made in these rules."
+  ],
+  "example": "Justice Ramesh, a retired judge of a High Court, was appointed as the President of the National Company Law Tribunal. When determining his service conditions, the tribunal referred to the High Court Judges (Salaries and Conditions of Service) Act, 1954, because these specific rules did not provide a different instruction for his situation.",
+  "terms": [
+   {
+    "term": "President",
+    "meaning": "The head or presiding member of the tribunal."
+   },
+   {
+    "term": "Service conditions",
+    "meaning": "The rules and terms regarding a person's employment, such as salary and benefits."
+   }
+  ],
+  "watch": "People often confuse these general service rules with specific rules made directly under this Act.",
+  "h": "3fafca07faf0",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "15": {
+  "summary": "This rule explains the service conditions for a High Court judge who becomes a Judicial Member, and details how members are posted and transferred. Initial postings are done by the Central Government, while later transfers are handled by the President based on specific guidelines. These guidelines cover factors like efficiency, avoiding places where the member previously practiced, and limits on how long a member can stay at one place.",
+  "points": [
+   "A serving High Court judge who becomes a Judicial Member follows High Court service laws until retirement or lien expiry, after which they follow rules for Government of India employees of similar status.",
+   "The Central Government decides the first posting of a member after consulting the President.",
+   "The President decides later transfers by looking at efficiency and other practical factors.",
+   "Members are generally not posted where they previously practiced or where close family members practice in Company Law matters.",
+   "Transfers usually happen after three years at a station, unless done for administrative reasons or personal requests."
+  ],
+  "example": "Justice Ramesh, a serving High Court judge, is appointed as a Judicial Member at Apex Tribunal. Initially, the Central Government posts him in consultation with the President. After a few years, the President considers transferring him to another bench. Because Justice Ramesh used to practice as an advocate in City A before becoming a judge, the President ensures he is not posted back to City A unless there are very strong reasons, keeping all transfer rules in mind.",
+  "terms": [
+   {
+    "term": "Judicial Member",
+    "meaning": "A member of a tribunal who has a legal background, such as a serving High Court judge."
+   },
+   {
+    "term": "Lien",
+    "meaning": "A legal right to hold a previous position or job while serving elsewhere."
+   },
+   {
+    "term": "Bench",
+    "meaning": "A panel of tribunal members sitting together to hear cases."
+   }
+  ],
+  "watch": "Do not confuse initial postings, which are done by the Central Government, with later transfers, which are handled by the President.",
+  "h": "137fa1149c35",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "17": {
+  "summary": "This rule requires every newly appointed President or Member to take an oath of office and secrecy before they start working. They must do this by following the specific formats given in Form I and Form II of these rules. The text does not mention any other details about these oaths.",
+  "points": [
+   "Applies to every person appointed as President or Member.",
+   "Must be done before entering upon office.",
+   "Requires making and subscribing an oath of office and secrecy."
+  ],
+  "example": "Mr. Sharma has just been appointed as a Member of the Tribunal for Sunshine Enterprises Private Limited matters. Before he takes his seat and starts performing his official duties, the rules state that he must officially make and subscribe to an oath of office and an oath of secrecy. He carefully signs the documents in Form I and Form II as required, ensuring he completes this important step before entering upon his office.",
+  "terms": [
+   {
+    "term": "Oath",
+    "meaning": "A solemn promise to perform duties faithfully and honestly."
+   },
+   {
+    "term": "Subscibe",
+    "meaning": "To sign a document to show agreement or compliance."
+   }
+  ],
+  "watch": "People often confuse taking the oath with applying for the job, but it only happens after appointment and before starting work.",
+  "h": "e2800f9ed1cd",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "18": {
+  "summary": "This rule requires the President or a Member to give a declaration upon their appointment. They must use Form III to satisfy the Central Government that they have no conflicting financial or other interests. This ensures their official functions are not prejudicially affected.",
+  "points": [
+   "Applies to every person appointed as President or Member.",
+   "Requires a declaration to be given to the Central Government.",
+   "The declaration must be made using Form III.",
+   "Must state that the person has no financial or other interest that could prejudicially affect their functions."
+  ],
+  "example": "Mr. Sharma is newly appointed as a Member of the tribunal for Meera Textiles Private Limited matters. Following the rules, he immediately fills out Form III. In this official document, he declares to the Central Government that he holds no outside financial or other interests that might negatively impact his official duties as a Member.",
+  "terms": [
+   {
+    "term": "President or Member",
+    "meaning": "Official leaders or adjudicators serving on the tribunal."
+   },
+   {
+    "term": "Declaration",
+    "meaning": "A formal written statement of facts."
+   },
+   {
+    "term": "Prejudicially",
+    "meaning": "In a way that causes harm or negative effects."
+   }
+  ],
+  "watch": "Do not assume this declaration is only for monetary investments, as other types of interests are also included.",
+  "h": "a895432839a6",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "19": {
+  "summary": "This rule explains what happens when a rule is missing for the President and Members. Their service terms will be the same as Government of India employees of the same rank. This ensures no situation is left without a rule.",
+  "points": [
+   "Applies to the President and Members.",
+   "Used when these rules do not mention a specific service matter.",
+   "Follows the rules given to Indian government employees of matching rank."
+  ],
+  "example": "A question arose about a specific leave rule for the President of the Tribunal that was not written in the main rules. Following the procedure, the authorities checked the rules made for Government of India employees holding a matching status and applied those exact guidelines to resolve the matter for the President.",
+  "terms": [
+   {
+    "term": "Residuary provisions",
+    "meaning": "Extra rules that cover leftover or unmentioned matters."
+   },
+   {
+    "term": "Corresponding status",
+    "meaning": "An equal rank or level."
+   }
+  ],
+  "watch": "Do not assume special rules apply if they are not written; check the matching government employee rules instead.",
+  "h": "2d7540574f63",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "20": {
+  "summary": "This rule gives the Central Government the power to relax any provision of these specific rules for any group or category of persons. It allows for flexibility in applying the rules when needed. No other details or conditions are provided in the text.",
+  "points": [
+   "The Central Government can relax any provision of these rules.",
+   "This relaxation applies to any class or category of persons."
+  ],
+  "example": "Suppose the Central Government issues new rules regarding service conditions for tribunal members. A group of members belonging to a specific category faces a unique situation that makes a particular rule hard to follow. Under this rule, the Central Government decides to relax that specific provision for this entire category of persons to ease their situation.",
+  "terms": [
+   {
+    "term": "Central Government",
+    "meaning": "The national government of the country."
+   },
+   {
+    "term": "Relax",
+    "meaning": "To make a rule less strict or grant an exemption from it."
+   }
+  ],
+  "watch": "Do not assume this rule applies to individuals; it specifically applies to a class or category of persons.",
+  "h": "8cfea06c9430",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
  }
 }

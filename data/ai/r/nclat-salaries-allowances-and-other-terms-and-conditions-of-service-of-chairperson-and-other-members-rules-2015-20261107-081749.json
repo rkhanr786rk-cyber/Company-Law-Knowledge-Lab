@@ -21,5 +21,444 @@
   "h": "fb66523666cd",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This text provides the official name and the starting date for a specific set of rules made in 2015. These rules decide the pay and service conditions for the Chairperson and other Members of the National Company Law Appellate Tribunal. They become active as soon as they are published in the Official Gazette.",
+  "points": [
+   "The rules are named the National Company Law Appellate Tribunal Rules, 2015.",
+   "They apply to the salaries, allowances, and other service terms for the Chairperson and other Members.",
+   "They start operating on the exact date they appear in the Official Gazette."
+  ],
+  "example": "Aarav read the new government notification regarding the pay for tribunal members at Meera Textiles Private Limited. He wanted to know when the rules about the Chairperson and Members would start applying. The document stated that these rules would come into force on the date of their publication in the Official Gazette, so Aarav checked that specific date to confirm when the terms officially began.",
+  "terms": [
+   {
+    "term": "Official Gazette",
+    "meaning": "The official government newspaper or public journal used to announce new laws and rules."
+   },
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A specialized official body that hears appeals against orders or decisions."
+   }
+  ],
+  "watch": "Do not assume a specific calendar date for when the rules start, as the text only points to the date of publication.",
+  "h": "f1097243a19c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "3": {
+  "summary": "This rule explains the fixed monthly pay and allowances for the Chairperson and Members of the National Company Law Appellate Tribunal. The Chairperson receives a higher fixed pay while Judicial and Technical Members share a different fixed pay scale. If someone already receives a pension, that pension amount is deducted from their salary.",
+  "points": [
+   "The Chairperson gets a fixed monthly pay of Rs. 90,000 plus specific allowances.",
+   "Judicial and Technical Members get a fixed monthly pay of Rs. 80,000 plus specific allowances.",
+   "If a Chairperson or Member receives a pension, their salary is reduced by that gross pension amount."
+  ],
+  "example": "Mr. Sharma is appointed as a Technical Member at Apex Textiles Tribunal and is entitled to a fixed monthly pay of Rs. 80,000 along with applicable allowances. However, Mr. Sharma also receives a monthly pension of Rs. 20,000 from his previous government service. Because of this rule, his monthly pay of Rs. 80,000 is reduced by the gross pension amount he draws. Therefore, his pay is adjusted to account for the Rs. 20,000 pension he already receives.",
+  "terms": [
+   {
+    "term": "Chairperson",
+    "meaning": "The head leader or presiding officer of the tribunal."
+   },
+   {
+    "term": "Judicial and Technical Members",
+    "meaning": "Official members of the tribunal with legal or technical expertise."
+   },
+   {
+    "term": "Pension",
+    "meaning": "Regular payment made to a person after retirement from service."
+   }
+  ],
+  "watch": "People often confuse the different pay scales and allowances assigned to the Chairperson compared to the Members.",
+  "h": "59a2d7308fb4",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "4": {
+  "summary": "This rule explains how pension, gratuity, and provident fund are handled for leaders and members of the Appellate Tribunal. The rules depend on whether the person was already a government servant, judge, or tribunal member before taking the post. Extra pension and gratuity are not allowed for the time spent working in the Appellate Tribunal.",
+  "points": [
+   "Serving judges, judicial members, or government servants keep counting their service for pension under their original service rules.",
+   "People appointed from these same groups are also governed by the General Provident Fund (Central Services) Rules, 1960.",
+   "All other members are governed by the Contributory Provident Fund (India) Rules, 1962.",
+   "No extra pension or gratuity is given for the time served in the Appellate Tribunal."
+  ],
+  "example": "Justice Ramesh, a serving judge of a High Court, was appointed as a Judicial Member of the Appellate Tribunal. Because he was already a serving judge, the time he spends working at the Tribunal will count toward his regular judicial pension based on his original service rules. He will also be covered by the General Provident Fund (Central Services) Rules, 1960. However, he will not receive any additional pension or gratuity for his specific service in the Appellate Tribunal.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A specialized official body that hears appeals against orders."
+   },
+   {
+    "term": "Gratuity",
+    "meaning": "A sum of money paid to an employee at the end of their employment."
+   },
+   {
+    "term": "Provident Fund",
+    "meaning": "A government-managed retirement savings scheme where employees and sometimes employers contribute money."
+   }
+  ],
+  "watch": "People often think extra service gives extra pension, but this rule clearly stops extra pension and gratuity for Tribunal work.",
+  "h": "1e725e029068",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "5": {
+  "summary": "This rule explains the leave benefits for the Chairperson and Members of the Tribunal. They get thirty days of earned leave every year and can also encash their unused leave. The rules of the Central Civil Services govern their leave salary and the maximum limit for leave encashment.",
+  "points": [
+   "The Chairperson and members receive thirty days of Earned Leave for every year of service.",
+   "The payment of salary during leave follows rule 40 of the Central Civil Services (Leave) Rules, 1972.",
+   "Leave encashment is allowed for unused Earned Leave up to a limit set by the Central Civil Service (Leave) Rules, 1972."
+  ],
+  "example": "Mr. Sharma works as a Member of the National Company Law Appellate Tribunal. After completing one full year of service, he has earned thirty days of leave. He decides to work instead of taking some time off and applies to encash his unused leave. The payment for his leave salary and the total amount he can encash are both decided by the Central Civil Services (Leave) Rules, 1972.",
+  "terms": [
+   {
+    "term": "Earned Leave",
+    "meaning": "Paid time off that a worker builds up over time based on how long they work."
+   },
+   {
+    "term": "Leave encashment",
+    "meaning": "Getting money in exchange for unused paid leave days."
+   }
+  ],
+  "watch": "Note that leave encashment limits also include any amounts received from previous service retirement.",
+  "h": "fa234aa32300",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "6": {
+  "summary": "These rules explain who has the power to approve leave for the leaders of the National Company Law Appellate Tribunal. The President of India approves leave for the Chairperson. The Chairperson approves leave for the other Members.",
+  "points": [
+   "The President of India is the authority for the Chairperson.",
+   "The Chairperson is the authority for the Members."
+  ],
+  "example": "Asha Textiles Private Limited was involved in a corporate dispute that reached the National Company Law Appellate Tribunal. The Chairperson of the tribunal needed to take time off for personal reasons, so a formal request was sent to the President of India for approval. Meanwhile, a Member of the tribunal also wanted to take a short leave and submitted the request directly to the Chairperson.",
+  "terms": [
+   {
+    "term": "Chairperson",
+    "meaning": "The head leader of the tribunal."
+   },
+   {
+    "term": "Members",
+    "meaning": "The other judges or officers working on the tribunal."
+   }
+  ],
+  "watch": "Remember that the President approves leave only for the Chairperson, not for the other Members.",
+  "h": "a2da8a0bca52",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "7": {
+  "summary": "This rule explains the travel and transfer benefits for the Chairperson and Members of the Appellate Tribunal. They get allowances and help with moving personal items when they travel within India, join the tribunal, or return home after their term ends. Their rates are matched to specific grades of Central Government officers.",
+  "points": [
+   "The Chairperson gets travelling and daily allowances while on tour within India or on transfer at the same rates as a Central Government officer in the grade of Rs. 90,000 fixed.",
+   "The Chairperson can also claim these allowances for journeys to join the tribunal or to return to their home town after finishing their term.",
+   "Members get these same allowances while on tour or transfer at rates matching Central Government officers in the Apex Scale of Rs. 80,000 fixed.",
+   "Members are also covered for joining journeys and return journeys to their home town upon completing their tenure."
+  ],
+  "example": "Justice Sharma is appointed as a Member of the Appellate Tribunal and needs to travel from his home town to join his new office. According to the rules, he is entitled to travelling and daily allowances, as well as help with transporting his personal belongings. These benefits are provided at the exact same rates that apply to a Central Government officer in the Apex Scale of Rs. 80,000 fixed. When his tenure eventually ends, he will receive similar support to travel back to his home town.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A specialized official body that reviews decisions made by lower authorities."
+   },
+   {
+    "term": "Tenure",
+    "meaning": "The period of time that a person holds a job or official position."
+   },
+   {
+    "term": "Apex Scale",
+    "meaning": "A high pay grade used for certain top-level government officers."
+   }
+  ],
+  "watch": "People often confuse the different pay scales mentioned for the Chairperson and the Members.",
+  "h": "fe4c05a468d7",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "8": {
+  "summary": "This rule explains how the Chairperson and Members of the tribunal travel abroad for official work. They must follow orders issued by the Central Government for these trips. They also receive specific allowances depending on their official rank.",
+  "points": [
+   "Official visits abroad by the Chairperson need orders from the Central Government.",
+   "The Chairperson receives allowances like Central Government officers in the equivalent grade of Rs. 90,000 fixed.",
+   "Official visits abroad by a Member need orders from the Central Government.",
+   "A Member receives allowances like Central Government officers in the Apex Scale of Rs. 80,000 fixed."
+  ],
+  "example": "Mr. Sharma, the Chairperson of Apex Tribunal Private Limited, needs to travel to London for an official conference. According to the rules, his trip must follow orders issued by the Central Government. For his expenses during this visit, he will draw allowances that apply to a Central Government officer in the equivalent grade of Rs. 90,000 fixed.",
+  "terms": [
+   {
+    "term": "Chairperson",
+    "meaning": "The head person in charge of the tribunal."
+   },
+   {
+    "term": "Allowances",
+    "meaning": "Money given to cover expenses during official work."
+   }
+  ],
+  "watch": "People often confuse these travel rules with personal holiday trips, but this only applies to official visits abroad.",
+  "h": "cac291615965",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "9": {
+  "summary": "This rule explains the travel benefits for the leaders of the National Company Law Appellate Tribunal. It says the Chairperson and Members get travel concessions based on the rules for specific Central Government officers. These travel benefits match the fixed pay grades mentioned in the text.",
+  "points": [
+   "The Chairperson gets Leave Travel Concession matching Central Government officers in the fixed pay grade of Rs. 90,000.",
+   "Members get Leave Travel Concession matching Central Government officers in the Apex Scale of fixed Rs. 80,000."
+  ],
+  "example": "Mr. Sharma serves as a Member of the National Company Law Appellate Tribunal. When planning his annual holiday travel, he wants to know what travel benefits he can claim. According to the rules, he is entitled to the Leave Travel Concession on the exact same terms that apply to Central Government officers who are in the Apex Scale of fixed Rs. 80,000, ensuring his benefits match that specific government pay grade.",
+  "terms": [
+   {
+    "term": "Chairperson",
+    "meaning": "The head leader or presiding officer of the tribunal."
+   },
+   {
+    "term": "Leave Travel Concession",
+    "meaning": "A financial benefit or allowance given for travel during leave."
+   },
+   {
+    "term": "Apex Scale",
+    "meaning": "A specific high-level pay scale used for government officers."
+   }
+  ],
+  "watch": "Do not assume these travel rules apply to any tribunal staff members other than the Chairperson and Members.",
+  "h": "5c75c62cb027",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "10": {
+  "summary": "This rule explains the medical benefits available to the Chairperson and other Members. They receive the same medical facilities that are set out in a specific set of government rules. These benefits help ensure they have proper healthcare coverage during their service.",
+  "points": [
+   "The Chairperson and other Members are entitled to medical facilities.",
+   "These facilities follow the Central Services (Medical Attendance) Rules, 1944."
+  ],
+  "example": "Mr. Sharma works as a Member at the tribunal. When he falls ill, he needs to visit a doctor and buy medicines. To know what medical expenses the government will cover for his treatment, the administration looks at the Central Services (Medical Attendance) Rules, 1944, because this rule states that Mr. Sharma is entitled to the medical facilities provided under those specific government rules.",
+  "terms": [
+   {
+    "term": "Chairperson",
+    "meaning": "The head person in charge of the tribunal."
+   },
+   {
+    "term": "Entitled",
+    "meaning": "Having the right to receive something."
+   }
+  ],
+  "watch": "Do not assume these members use standard private health insurance instead of the mentioned government rules.",
+  "h": "3cb8ccc7dd0d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "11": {
+  "summary": "This rule gives certain tribunal members the choice to receive a house rent allowance. The amount depends on the rates set by the Central Government for similar officers. However, they cannot get this allowance if they live in government-provided housing.",
+  "points": [
+   "The Chairperson, Judicial Member, or Technical Member can choose to claim a house rent allowance.",
+   "The allowance rate follows the Central Government rates for equivalent Group 'A' officers.",
+   "Members are not eligible for the house rent allowance if they get and live in government accommodation."
+  ],
+  "example": "Mr. Sharma is a Technical Member at Meera Textiles Appellate Tribunal. He has the option to claim a house rent allowance based on the Central Government rates for equivalent Group A officers. Later, he is allotted a government house from the General Pool and moves into it. Because he now occupies this government accommodation, he stops being eligible for the house rent allowance.",
+  "terms": [
+   {
+    "term": "House rent allowance",
+    "meaning": "Money given to pay for housing."
+   },
+   {
+    "term": "General Pool Residential Accommodation",
+    "meaning": "Government housing available for officials."
+   }
+  ],
+  "watch": "Do not assume members can receive both government housing and the rent allowance at the same time.",
+  "h": "470d30551030",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "12": {
+  "summary": "This rule is about the travel perks for top officials at the National Company Law Appellate Tribunal. The Chairperson, Judicial Members, and Technical Members get a staff car for both work and personal use. They receive this benefit based on the rules that apply to government servants in the same pay grade.",
+  "points": [
+   "Applies to the Chairperson, Judicial Members, and Technical Members.",
+   "Covers a staff car for official journeys.",
+   "Covers a staff car for private journeys.",
+   "Matches the facilities given to government servants in the same pay grade."
+  ],
+  "example": "Justice Sharma is a Judicial Member at Meera Textiles Appellate Tribunal, a fictional body modeled after the rules. According to the regulations, he is placed in a specific government pay grade. Because of this position, Justice Sharma is allowed to use a designated staff car to travel to office meetings for official work. He can also use the same staff car for his personal weekend trips, following the exact guidelines that apply to government servants in his exact pay grade.",
+  "terms": [
+   {
+    "term": "Chairperson",
+    "meaning": "The head leader or presiding officer of the tribunal."
+   },
+   {
+    "term": "Judicial Member",
+    "meaning": "An official member of the tribunal who handles legal matters and cases."
+   },
+   {
+    "term": "Technical Member",
+    "meaning": "An official member of the tribunal who brings specialized technical knowledge to cases."
+   }
+  ],
+  "watch": "People often confuse whether the car is only for office work, but the rule clearly allows it for private use too.",
+  "h": "e8497e2a81a0",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "13": {
+  "summary": "The rules state that top tribunal officials get telephone facilities. Specifically, the Chairperson, Judicial Member, and Technical Member are eligible for these services. Their telephone benefits will match what is given to a Central Government Group A officer who earns the same amount of pay.",
+  "points": [
+   "The Chairperson receives telephone facilities.",
+   "Judicial Members and Technical Members also receive telephone facilities.",
+   "The telephone benefits are based on those given to equivalent Central Government Group A officers."
+  ],
+  "example": "At the National Company Law Appellate Tribunal, Mr. Sharma serves as a Technical Member. Because his pay level matches that of a specific Group A officer in the Central Government, the tribunal provides him with the exact same telephone facilities that the government officer receives under the rules.",
+  "terms": [
+   {
+    "term": "Chairperson",
+    "meaning": "The head official in charge of the tribunal."
+   },
+   {
+    "term": "Judicial Member",
+    "meaning": "A member of the tribunal who handles legal matters."
+   },
+   {
+    "term": "Technical Member",
+    "meaning": "A member of the tribunal who brings specialized technical knowledge to cases."
+   }
+  ],
+  "watch": "Do not assume these officials get free personal phones of any type, as the text only grants facilities matching a specific government pay group.",
+  "h": "70bc7efa7e3e",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "14": {
+  "summary": "This rule decides the service conditions for the Chairperson of the National Company Law Appellate Tribunal. If the Chairperson is a current or former Supreme Court judge or a current or former High Court Chief Justice, their service rules come from specific judges' acts. These existing laws and their rules apply unless these specific rules state otherwise.",
+  "points": [
+   "Applies to a Chairperson who is a serving or retired Supreme Court judge.",
+   "Applies to a Chairperson who is a serving or retired Chief Justice of a High Court.",
+   "Their service conditions follow separate judges' acts and rules, unless these rules say differently."
+  ],
+  "example": "Justice Sharma, a retired judge of the Supreme Court, was appointed as the Chairperson of the National Company Law Appellate Tribunal. Because the rule states that serving or retired Supreme Court judges follow the Supreme Court Judges Act for their service conditions, Justice Sharma's official terms of service will be decided by that specific Act and its rules, unless the current rules provide a separate instruction.",
+  "terms": [
+   {
+    "term": "Chairperson",
+    "meaning": "The head or leading official of the tribunal."
+   },
+   {
+    "term": "Service conditions",
+    "meaning": "The official rules regarding salary, allowances, and working terms of a job."
+   }
+  ],
+  "watch": "People often confuse these rules with regular company employee regulations, but they specifically apply only to high-ranking judicial members acting as Chairperson.",
+  "h": "78004483c51a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "15": {
+  "summary": "This rule explains the service conditions for a serving High Court judge who is appointed as a Judicial Member. Generally, their service conditions follow the law made for High Court judges, unless stated otherwise. However, after they retire or their lien period ends, whichever is later, their remaining term follows the rules for equivalent Government of India employees.",
+  "points": [
+   "A serving High Court judge appointed as a Judicial Member follows High Court judge service rules by default.",
+   "Specific rules for the position will override the default High Court judge rules.",
+   "After retirement or the end of the lien period, whichever comes later, the member follows the service conditions of equivalent central government employees for the rest of their term."
+  ],
+  "example": "Justice Ramesh, a serving judge of the High Court, is appointed as a Judicial Member at Meera Textiles Private Limited's appellate tribunal. Until his official retirement date and the expiry of his court lien, his service terms follow the High Court judges law. Once he passes his retirement date and lien period, whichever happens later, his remaining time in office is governed by the same service conditions that apply to other central government employees of a matching status.",
+  "terms": [
+   {
+    "term": "Judicial Member",
+    "meaning": "A member of a tribunal who has a legal or judicial background."
+   },
+   {
+    "term": "lien period",
+    "meaning": "A period during which an employee holds a right to return to their original post."
+   }
+  ],
+  "watch": "People often confuse whether central government rules apply immediately upon appointment, whereas they actually only apply after retirement or the end of the lien period.",
+  "h": "ac8b55a50c9a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "16": {
+  "summary": "This rule requires every Chairperson or Member to take a special oath before they start their job. They must promise both to perform their office duties properly and to keep secrets. The exact promises to make are set out in two forms attached to the rules.",
+  "points": [
+   "Applies to every person appointed as Chairperson or Member.",
+   "The oath must be taken before entering upon the office.",
+   "Involves swearing an oath of office and secrecy.",
+   "Must follow Form-I and Form-II provided in the rules."
+  ],
+  "example": "Aarav is appointed as a Member at National Company Law Appellate Tribunal. Before Aarav can sit in his office and start hearing cases, the rules require him to complete a mandatory step. He must formally make and subscribe to an oath of office and an oath of secrecy. Aarav reads and signs the official Form-I and Form-II annexed to the rules, ensuring he has properly fulfilled this requirement before beginning his official duties.",
+  "terms": [
+   {
+    "term": "Oath",
+    "meaning": "A formal, serious promise made before taking on a job or duty."
+   },
+   {
+    "term": "Annexed",
+    "meaning": "Attached or added at the end as a document."
+   }
+  ],
+  "watch": "People often think taking an oath can happen anytime after starting, but it must be done before entering upon the office.",
+  "h": "f1a6c00f5e49",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "17": {
+  "summary": "This rule requires the head or a member of the Tribunal to make a formal declaration upon taking office. They must satisfy the Central Government that they have no financial or other interests that could unfairly affect their official duties. This ensures fairness and transparency in their work.",
+  "points": [
+   "Applies to every person appointed as Chairperson or Member.",
+   "Must give a declaration using Form-III.",
+   "Must satisfy the Central Government about having no conflicting financial or other interests."
+  ],
+  "example": "Mr. Sharma is recently appointed as a Member of the National Company Law Appellate Tribunal. Before starting his official duties, he must fill out Form-III. In this form, he declares to the Central Government that he does not own any business shares or investments that might negatively influence his decisions or create a conflict of interest in his new role.",
+  "terms": [
+   {
+    "term": "Chairperson",
+    "meaning": "The leading official in charge of the Tribunal."
+   },
+   {
+    "term": "Financial or other interest",
+    "meaning": "Having money, property, or connections in a matter that could affect a person's judgment."
+   }
+  ],
+  "watch": "People often confuse this with a general tax declaration, but it is specifically about conflicts of interest in official duties.",
+  "h": "2735916a9ad8",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "18": {
+  "summary": "This rule covers any job conditions for the President and Members that these rules do not specifically mention. In such cases, their rules will be the same as those for Indian Government employees of a matching rank. It helps fill in any missing details smoothly.",
+  "points": [
+   "Applies when the rules do not mention a specific job condition.",
+   "Affects the President and Members.",
+   "Follows the rules used for Indian Government employees of the same rank."
+  ],
+  "example": "A question arose about the medical leave benefits for Mr. Sharma, a Member, because the specific rulebook did not mention it. To resolve this, the authorities checked the rules that apply to Indian Government employees who hold a matching official status. Mr. Sharma was then granted the same medical leave benefits that those equivalent government employees receive.",
+  "terms": [
+   {
+    "term": "Residuary provisions",
+    "meaning": "Extra rules that cover leftover matters not mentioned elsewhere."
+   },
+   {
+    "term": "Corresponding status",
+    "meaning": "An equivalent rank or level in an organization."
+   }
+  ],
+  "watch": "Do not assume these rules apply to private company staff, as they only relate to specific tribunal members.",
+  "h": "2d7540574f63",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "19": {
+  "summary": "This rule gives the Central Government the power to make exceptions to any part of these specific rules for a whole group or type of people. It allows flexibility in how the rules are applied to certain classes of persons. It does not provide any specific time limits or penalties.",
+  "points": [
+   "The Central Government can relax any provision of these rules.",
+   "This power applies to any class or category of persons."
+  ],
+  "example": "The Central Government decides to apply a specific relaxation regarding service conditions for a particular category of members serving on the tribunal. Because the rules permit the government to relax any provision for a class of persons, this entire group of members receives the adjusted terms without violating the framework.",
+  "terms": [
+   {
+    "term": "Central Government",
+    "meaning": "The national government of the country."
+   },
+   {
+    "term": "Relax",
+    "meaning": "To make a rule less strict or grant an exemption from it."
+   }
+  ],
+  "watch": "People often confuse relaxing a rule for a whole group with changing the law permanently for everyone.",
+  "h": "37a0e01287f0",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
  }
 }

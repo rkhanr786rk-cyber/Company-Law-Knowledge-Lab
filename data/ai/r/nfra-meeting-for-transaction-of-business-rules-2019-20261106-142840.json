@@ -26,5 +26,101 @@
   "h": "4bf79d83c262",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This text simply gives the official name of a specific set of rules made under the law and states when they become active. It explains that these rules start applying on the exact day they are published in the official government publication. No other details or requirements are provided in this short text.",
+  "points": [
+   "The rules are called the National Financial Reporting Authority (Meeting for Transaction of Business) Rules, 2019.",
+   "They become active starting on the day they are published in the Official Gazette."
+  ],
+  "example": "Meera Textiles Private Limited wanted to know when the new National Financial Reporting Authority meeting rules would apply to their upcoming business filings. According to the provisions, the rules automatically came into force on the exact date they were published in the Official Gazette, so the company checked that publication date to be sure.",
+  "terms": [
+   {
+    "term": "Official Gazette",
+    "meaning": "The official government newspaper or publication used to announce new laws and rules to the public."
+   },
+   {
+    "term": "Come into force",
+    "meaning": "To become active and start applying legally."
+   }
+  ],
+  "watch": "Do not assume any specific calendar date for when these rules started, because the text only mentions the date of publication.",
+  "h": "5cd8102633c2",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "3": {
+  "summary": "This rule explains how the National Financial Reporting Authority holds meetings and conducts its business. It covers meeting locations, who leads when the chairperson is absent, and how decisions are made. It also explains rules for joining via video, recording minutes, and handling conflicts of interest.",
+  "points": [
+   "Meetings are normally held in New Delhi, but can be held at other places in India if needed.",
+   "The chairperson decides the date, time, place, and agenda in advance.",
+   "Decisions are made by a majority vote of members present, with a casting vote for the chairperson if votes are equal.",
+   "A meeting requires a quorum of four members, including at least one full-time member.",
+   "Members with any direct or indirect financial interest in a matter must disclose it and not take part in the decision."
+  ],
+  "example": "The National Financial Reporting Authority planned a meeting at its head office in New Delhi. The chairperson fixed the date and agenda in advance. Four members attended in person, while a fifth member joined through video conferencing because they could not travel. During the meeting, a member realized they had a financial interest in a company being discussed. Following the rules, they immediately disclosed this interest and did not participate in the discussion or decision. The remaining members voted, and the decision was finalized.",
+  "terms": [
+   {
+    "term": "Quorum",
+    "meaning": "The minimum number of members required to be present to hold a valid meeting."
+   },
+   {
+    "term": "Pecuniary interest",
+    "meaning": "A financial interest or stake in a matter."
+   },
+   {
+    "term": "Agenda",
+    "meaning": "A list of items to be discussed at a meeting."
+   }
+  ],
+  "watch": "People often confuse quorum requirements with the total number of members required to vote on every single issue.",
+  "h": "51a18c472760",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "4": {
+  "summary": "The provided text explains how decisions are made when a specific situation is not covered by the current rules. In such cases, the chairperson has the power to decide the procedure for that particular case. However, the chairperson must write down the reasons for this decision.",
+  "points": [
+   "The rule applies only to situations not covered by the existing rules.",
+   "The chairperson is responsible for determining the procedure for a specific case.",
+   "The chairperson must record their reasons in writing."
+  ],
+  "example": "Aarav Industries Limited faces an unusual procedural issue during a meeting of the National Financial Reporting Authority, and the current rules do not mention how to handle it. The chairperson decides to follow a specific process to resolve the issue. To ensure everything is done properly, the chairperson writes down the reasons for choosing this particular process before moving forward with the meeting.",
+  "terms": [
+   {
+    "term": "Chairperson",
+    "meaning": "The person in charge of leading the meeting."
+   },
+   {
+    "term": "Procedure",
+    "meaning": "The official way of doing something."
+   }
+  ],
+  "watch": "A common confusion is assuming the chairperson can change any rule, but this power only applies to situations not covered by the rules.",
+  "h": "1fb8ba12da90",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "5": {
+  "summary": "This rule says that small mistakes in how the Authority does its work do not cancel its decisions. As long as the mistake does not change the main outcome of the case, the action remains valid. It protects official work from being ruined by minor procedural errors.",
+  "points": [
+   "Mistakes in Authority procedure do not make actions invalid.",
+   "The rule only applies if the mistake does not affect the merits of the case."
+  ],
+  "example": "The National Financial Reporting Authority held a meeting to review an audit matter for ABC Enterprises Private Limited. During the meeting, a minor clerical step in sending out the notice was delayed by a day. However, the review itself was fair and focused entirely on the correct financial facts. Because this minor timing error did not affect the actual merits of the case, the Authority's final decision remained fully valid and legal.",
+  "terms": [
+   {
+    "term": "Authority",
+    "meaning": "The National Financial Reporting Authority."
+   },
+   {
+    "term": "Merits",
+    "meaning": "The core facts and legal issues of a case, rather than minor technical details."
+   }
+  ],
+  "watch": "People often confuse minor procedural mistakes with major errors that actually change the outcome of a case.",
+  "h": "1cbba1791289",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
  }
 }

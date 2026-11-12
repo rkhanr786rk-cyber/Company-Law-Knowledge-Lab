@@ -81,5 +81,85 @@
   "h": "925d5be75e47",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "These rules set the official name and start date for the laws on reducing a company's share capital. They also explain that any words not specially defined here will have the same meaning given to them in the Companies Act, 2013 or other named rulebooks. The text is very short and only introduces the basic framework.",
+  "points": [
+   "The rules are called the National Company Law Tribunal (Procedure for reduction of share capital of Company) Rules, 2016.",
+   "They start operating on the date they are published in the Official Gazette.",
+   "Words without a special definition here take their meanings from the Companies Act, 2013 or related rulebooks."
+  ],
+  "example": "Meera Textiles Private Limited wants to reduce its share capital. When the directors look at the rulebook for guidance, they see the formal title of the rules. They wonder what certain legal words mean since they are not fully explained in this specific section. The director reads the rule and realizes they must check the definitions given in the Companies Act, 2013.",
+  "terms": [
+   {
+    "term": "Official Gazette",
+    "meaning": "The official public journal or government publication where legal notices and rules are published."
+   },
+   {
+    "term": "Share capital",
+    "meaning": "The money a company raises by issuing shares in exchange for ownership."
+   }
+  ],
+  "watch": "Do not assume terms without a definition here have no meaning; always check the main Companies Act, 2013 for their definitions.",
+  "h": "c8fe503582b6",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "3": {
+  "summary": "This rule explains how the Tribunal sends notices to the government, regulators, and creditors when a company applies to reduce its share capital. It also requires the company to publish the notice in newspapers and on its website to invite objections. Finally, proof of sending these notices must be filed with the Tribunal.",
+  "points": [
+   "The Tribunal gives notice to the Central Government, Registrar of Companies, SEBI for listed companies, and all company creditors.",
+   "Individual notices are sent to creditors listed by the company, showing the details of the proposed reduction and their debt.",
+   "The notice must be published in one English newspaper and one vernacular newspaper, and uploaded on the company website.",
+   "Creditors can file objections within three months from the date the notice is published.",
+   "An affidavit confirming the despatch and publication of notices must be filed within seven days."
+  ],
+  "example": "Meera Textiles Private Limited applied to the Tribunal to reduce its share capital. Within fifteen days, the Tribunal ordered notices to be sent to the Central Government, the Registrar of Companies, and all company creditors using the proper forms. The Tribunal also directed the company to publish the notice in an English newspaper and a local language newspaper within seven days, and to upload it on the company website. Creditors were given time to send their objections. After sending the notices, Meera Textiles filed an affidavit within seven days to confirm that everything was published and sent properly.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "The National Company Law Tribunal, which handles company law matters."
+   },
+   {
+    "term": "Creditor",
+    "meaning": "A person or entity to whom the company owes money."
+   },
+   {
+    "term": "Affidavit",
+    "meaning": "A written statement confirmed by oath or affirmation for use as evidence."
+   }
+  ],
+  "watch": "Make sure not to confuse the different deadlines for sending individual notices, publishing in newspapers, and filing the final affidavit.",
+  "h": "fa8ac3f48c64",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "5": {
+  "summary": "This rule explains what happens after a company asks to reduce its share capital and people send in their views or objections. The company must hand over these objections and its replies to the Tribunal within seven days. The Tribunal then decides how to handle the claims, hold hearings, and secure the rights of creditors who do not agree.",
+  "points": [
+   "The company must submit all received representations, objections, and its replies to the Tribunal.",
+   "This submission must happen within seven days after the period for seeking objections ends.",
+   "The Tribunal can give directions for holding inquiries, adjudicating claims, or hearing objections.",
+   "During the hearing, the Tribunal may give directions to secure the debts of creditors who do not consent."
+  ],
+  "example": "Meera Textiles Private Limited applied to reduce its share capital and invited objections from the public. After the deadline passed, the company collected all responses and its own replies. Within seven days, Meera Textiles submitted these documents to the Tribunal. During the hearing, a creditor named Mr. Sharma stated he did not consent to the reduction because his debt was unpaid. The Tribunal then ordered the company to secure Mr. Sharma's debt before the process could move forward further.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A legal body or official committee appointed to handle specific disputes and cases."
+   },
+   {
+    "term": "Creditor",
+    "meaning": "A person or business to whom the company owes money."
+   },
+   {
+    "term": "Adjudication",
+    "meaning": "A formal judgment or decision on a claim or dispute."
+   }
+  ],
+  "watch": "Do not confuse the seven-day deadline for submitting objections to the Tribunal with any other deadlines in the Act.",
+  "h": "56203dc0fe30",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
  }
 }

@@ -78,5 +78,2555 @@
   "h": "0d844d904eea",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "The provided text is extremely short and only gives the official title and start date for a specific set of rules. It does not contain any other information or instructions. Therefore, it is too brief to explain further.",
+  "points": [
+   "The rules are named the National Company Law Appellate Tribunal Rules, 2016.",
+   "They start operating on the date they are published in the Official Gazette."
+  ],
+  "example": "Meera Textiles Private Limited wanted to know when the new Tribunal rules would start applying to their case. Their manager checked the rules and found that they would come into force on the exact date of their publication in the Official Gazette, just as stated in the text.",
+  "terms": [
+   {
+    "term": "Official Gazette",
+    "meaning": "The official government publication used to announce new laws and rules to the public."
+   },
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher body that reviews decisions made by a lower authority."
+   }
+  ],
+  "watch": "Do not assume any specific calendar date for when these rules started, because the text only mentions the date of publication.",
+  "h": "afffb9205586",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "3": {
+  "summary": "This rule explains how to count time periods for doing tasks under the law or as set by the Appellate Tribunal. When counting days, you skip the starting day. If the final day falls on a day when the Tribunal office is closed, those closed days are also not counted.",
+  "points": [
+   "Skip the starting day when counting a given time period.",
+   "If the last day falls on a holiday or a day when the office is closed, exclude that day.",
+   "Also exclude any following days on which the office continues to remain closed."
+  ],
+  "example": "Anand Textiles Private Limited had to file an appeal before the Appellate Tribunal within a set period. The counting of days started on a Monday, which is excluded from the total count. The final deadline to file the appeal fell on a Sunday, when the office of the Appellate Tribunal was completely closed. Because the office remained closed on Sunday and also on Monday due to a sudden local holiday, both Sunday and Monday were excluded, giving Anand Textiles Private Limited extra time to submit their papers.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher official body that reviews decisions and hears appeals."
+   },
+   {
+    "term": "Reckoned",
+    "meaning": "Calculated or counted."
+   }
+  ],
+  "watch": "Do not forget that both the closing day and any following days while the office stays shut are left out of the count.",
+  "h": "64b7ef3b19df",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "4": {
+  "summary": "This rule explains that the official forms provided in these regulations must be used for their intended purposes. However, you can make changes or adjustments to these forms if the specific situation requires it. It ensures that the paperwork fits the unique needs of each case.",
+  "points": [
+   "Use the forms prescribed by these rules for their intended purposes.",
+   "You are allowed to modify or vary the forms based on the needs of each specific case."
+  ],
+  "example": "Meera Textiles Private Limited needed to file a specific legal form with the National Company Law Appellate Tribunal. The standard form required certain details that did not quite fit their unique business situation. Following the rule, the company made minor modifications to the form to properly reflect their specific circumstances while still using the prescribed format.",
+  "terms": [
+   {
+    "term": "prescribed",
+    "meaning": "laid down or officially required by a rule or law."
+   },
+   {
+    "term": "modifications",
+    "meaning": "changes or adjustments made to something."
+   }
+  ],
+  "watch": "Do not assume you can completely ignore the prescribed forms; you can only modify them to fit your specific circumstances.",
+  "h": "f06dfb878fd7",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "5": {
+  "summary": "This rule explains how official papers from the Appellate Tribunal must be made. Every order, summons, or similar paper must use the Chairperson's name. It also needs the date and the official seal.",
+  "points": [
+   "Must be issued in the name of the Chairperson.",
+   "Must be signed by the Registrar or an officer authorized by the Chairperson.",
+   "Must include the day, month, and year of signing.",
+   "Must be sealed with the official seal of the Appellate Tribunal."
+  ],
+  "example": "Meera Textiles Private Limited received a formal written summons from the Appellate Tribunal. Before the document became valid, it had to display the name of the Chairperson. Additionally, the Registrar had to sign it, clearly write down the exact day, month, and year of the signature, and stamp it with the official seal of the Appellate Tribunal.",
+  "terms": [
+   {
+    "term": "Summons",
+    "meaning": "An official order or call to appear before a court or tribunal."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "An official responsible for keeping records and handling administrative duties in a court or tribunal."
+   }
+  ],
+  "watch": "People often think any officer can sign these papers, but they must be signed by the Registrar or someone specifically authorized by the Chairperson.",
+  "h": "54e1bdcd2103",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "6": {
+  "summary": "This rule explains that the National Company Law Appellate Tribunal will have an official seal and emblem chosen by the Central Government. The Registrar is responsible for keeping this seal safe. No other details are provided in the text.",
+  "points": [
+   "The Central Government decides the official seal and emblem.",
+   "The design of the seal can be changed by the Central Government over time.",
+   "The Registrar must keep the official seal in custody."
+  ],
+  "example": "Asha Pharma Private Limited filed an appeal at the Appellate Tribunal. Before issuing the final certified order to the company, the office verified the document. The Registrar took the official seal and emblem, which was specified by the Central Government, and stamped the official papers to complete the process.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher forum that reviews decisions made by lower authorities."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "An officer responsible for keeping official records and custody of important items."
+   }
+  ],
+  "watch": "Do not assume any specific design, shape, or material for the seal since the text does not mention them.",
+  "h": "1d283cf84166",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "7": {
+  "summary": "This rule explains who looks after the official documents of the Appellate Tribunal. The Registrar is in charge of keeping these records safe. Nobody can take any document away without special permission.",
+  "points": [
+   "The Registrar keeps all the records of the Appellate Tribunal.",
+   "No filed document can be taken away without permission from the Tribunal.",
+   "The Registrar can allow another officer to move official papers for administrative work."
+  ],
+  "example": "Meera Textiles Private Limited is involved in a case at the Appellate Tribunal and wants to borrow its original file to keep in its own office. The company asks to take the document away. According to the rules, this is not allowed without official leave from the Tribunal. However, an officer of the Tribunal may move papers for office work if the Registrar permits it.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "An official in charge of keeping records and managing administrative tasks."
+   },
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A legal body that hears appeals and reviews decisions."
+   },
+   {
+    "term": "Leave",
+    "meaning": "Permission or approval granted to do something."
+   }
+  ],
+  "watch": "People often think any office worker can take files outside, but permission is strictly required unless it is done for official administrative tasks by authorized staff.",
+  "h": "57d15207c662",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "8": {
+  "summary": "The rule states where the Appellate Tribunal must hold its meetings. Specifically, it must sit at its main office, which is located in New Delhi. The provided text is very brief and contains no further details.",
+  "points": [
+   "The Appellate Tribunal must hold its sitting at its headquarters.",
+   "The headquarters are located in New Delhi."
+  ],
+  "example": "A dispute arose involving Alpha Beta Private Limited, and the case was taken to the Appellate Tribunal. The directors of the company wondered where their hearing would take place. Based on the rule, the Tribunal will hold its sitting at its headquarters in New Delhi, so the hearing must be scheduled there.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A legal body that hears appeals against decisions of a lower authority."
+   },
+   {
+    "term": "Headquarters",
+    "meaning": "The main office or central location of an organization."
+   }
+  ],
+  "watch": "Do not assume the Tribunal can hold regular sittings in other cities without a specific rule allowing it.",
+  "h": "501de5e33c5a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "9": {
+  "summary": "This rule sets the normal working hours for the Appellate Tribunal. The daily schedule is split into two parts: morning and afternoon. However, the Chairperson can change these times, or the Tribunal can work longer if needed.",
+  "points": [
+   "Normal morning sitting hours are from 09.30 AM to 01.00 PM.",
+   "Normal afternoon sitting hours are from 2.15 PM to 5.00 PM.",
+   "The Chairperson can make orders to change these standard hours.",
+   "The Tribunal is allowed to extend its working time whenever it sees fit."
+  ],
+  "example": "A legal case involving Meera Textiles Private Limited is being heard by the Appellate Tribunal. By 5.00 PM, the arguments are not yet finished. Because the Tribunal is allowed to extend its sitting as it deems fit, the judges decide to keep working past the usual closing time to finish hearing from Meera Textiles Private Limited.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher official group that reviews decisions made by lower authorities."
+   },
+   {
+    "term": "Chairperson",
+    "meaning": "The person in charge of leading the Tribunal."
+   }
+  ],
+  "watch": "Do not assume the Tribunal must always close at 5.00 PM, because it can legally extend its working hours.",
+  "h": "dde9831664c3",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "10": {
+  "summary": "This rule explains the daily working schedule of the Appellate Tribunal and its filing counter. The main office is open for a longer period during working days compared to the filing counter. Everyone must follow these specific daily timings for office visits and document submissions.",
+  "points": [
+   "The office of the Appellate Tribunal stays open from 09:30 A.M. to 6:00 P.M. on all working days.",
+   "The filing counter of the Registry stays open from 10:30 A.M. to 5:00 P.M. on all working days."
+  ],
+  "example": "Aarav wanted to submit some legal papers for his company, Apex Solutions Private Limited, to the Appellate Tribunal. He arrived at the office at 11:00 A.M. on a regular working day. Since this time falls between 10:30 A.M. and 5:00 P.M., the filing counter of the Registry was open, and he was able to submit his papers successfully.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A formal body that hears and decides appeals against orders or decisions."
+   },
+   {
+    "term": "Registry",
+    "meaning": "The administrative office responsible for keeping records and accepting documents."
+   },
+   {
+    "term": "Filing counter",
+    "meaning": "A specific desk or place where people submit their official documents and papers."
+   }
+  ],
+  "watch": "Do not confuse the longer working hours of the main office with the shorter hours of the filing counter.",
+  "h": "74bc281c9dcb",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "11": {
+  "summary": "The rules do not limit the special powers of the Appellate Tribunal. The Tribunal can make orders or give directions to make sure justice is done. It can also act to stop anyone from misusing its system.",
+  "points": [
+   "Rules do not limit the Appellate Tribunal's inherent powers.",
+   "The Tribunal can make necessary orders or directions.",
+   "These powers ensure the ends of justice are met.",
+   "They also prevent the abuse of the Tribunal process."
+  ],
+  "example": "Meera Textiles Private Limited filed an appeal at the Appellate Tribunal. During the case, the opposing party tried to delay the proceedings repeatedly using fake documents just to harass Meera Textiles. The Appellate Tribunal used its inherent powers to stop this misuse of its process and issued a direct order to keep the case moving fairly so that justice could be served without further unfair delays.",
+  "terms": [
+   {
+    "term": "Inherent powers",
+    "meaning": "Natural authority that a court or tribunal has to do what is right and fair, even if no specific rule mentions it."
+   },
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher body that reviews decisions made by lower authorities."
+   },
+   {
+    "term": "Abuse of the process",
+    "meaning": "Misusing the legal system or court rules in a dishonest or unfair way."
+   }
+  ],
+  "watch": "People often think these inherent powers let the Tribunal create completely new laws, but they only allow orders needed for fairness and stopping misuse.",
+  "h": "98b20745d2ab",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "12": {
+  "summary": "This rule explains how the working days of the Appellate Tribunal are decided. The Chairperson and Members of the Appellate Tribunal will set the calendar of working days for each year. It is a simple rule about planning the tribunal's schedule.",
+  "points": [
+   "The calendar shows the working days of the Appellate Tribunal.",
+   "It covers a period of one year.",
+   "The Chairperson and Members decide the calendar."
+  ],
+  "example": "Meera Textiles Private Limited wants to know when the Appellate Tribunal is open for hearings next year. The company's legal team checks the schedule. They learn that the Chairperson and Members of the Appellate Tribunal have already decided the calendar of working days for the year, so they can plan their appeal dates accordingly.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher body that hears appeals against orders or decisions."
+   },
+   {
+    "term": "Chairperson",
+    "meaning": "The head or leader of the tribunal."
+   }
+  ],
+  "watch": "Do not confuse this with court holidays set by the government, as this specific calendar is decided by the tribunal's own Chairperson and Members.",
+  "h": "3bcf47d45be8",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "13": {
+  "summary": "This rule explains when urgent cases are listed for hearing in the Appellate Tribunal. Urgent matters given in before noon are listed the next working day if they follow all the rules. With special permission, cases can also be taken between noon and three in the afternoon for next-day listing.",
+  "points": [
+   "Urgent matters filed before 12 noon are listed on the next working day.",
+   "The filing must be complete in all respects according to the rules.",
+   "Cases can sometimes be received between 12 noon and 3:00 PM for next-day listing.",
+   "Filing after 12 noon requires the specific permission of the Appellate Tribunal or Chairperson."
+  ],
+  "example": "At 11:00 AM on a Monday, Meera Textiles Private Limited filed an urgent legal matter at the Appellate Tribunal. Their paperwork was completely filled out and followed every instruction. Because they submitted it before 12 noon and everything was in order, the Tribunal scheduled their case to be listed on Tuesday, the following working day.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher official body that hears and decides appeals against orders or decisions."
+   },
+   {
+    "term": "Listed",
+    "meaning": "Placed on the official schedule of cases to be heard."
+   }
+  ],
+  "watch": "Remember that getting your case listed for the next day requires meeting the strict noon deadline and having complete paperwork.",
+  "h": "8f4604e404c7",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "14": {
+  "summary": "The National Company Law Appellate Tribunal can excuse parties from following certain rules if there is a good reason. It can also give directions on practice and procedure to achieve fairness. This happens when someone makes an application asking for it.",
+  "points": [
+   "The Appellate Tribunal can exempt parties from rule requirements.",
+   "The party must show sufficient cause to get this exemption.",
+   "The Tribunal can give directions in matters of practice and procedure.",
+   "Actions are taken upon an application moved by a party."
+  ],
+  "example": "Meera Textiles Private Limited is involved in a case at the National Company Law Appellate Tribunal. Due to an unexpected situation, they cannot follow a specific requirement listed in the rules. They file an application before the Tribunal explaining their situation. Showing sufficient cause, the Tribunal agrees to exempt them from that rule and issues directions on practice and procedure to ensure fairness for everyone involved.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher body that hears appeals against orders."
+   },
+   {
+    "term": "Exempt",
+    "meaning": "To free someone from a requirement or obligation that others must follow."
+   },
+   {
+    "term": "Application",
+    "meaning": "A formal request made to a court or tribunal."
+   }
+  ],
+  "watch": "A party must officially move an application and show sufficient cause before the Tribunal can grant any exemption.",
+  "h": "3d01ca5cfc26",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "15": {
+  "summary": "This rule gives the Appellate Tribunal the power to extend deadlines for doing acts or taking proceedings. It can do this on such terms as fairness requires. The request for more time can even be made after the original deadline has already passed.",
+  "points": [
+   "The Appellate Tribunal can give you more time to do an act or take a proceeding.",
+   "This extra time can be granted even if you ask for it after the original deadline has already passed.",
+   "The Tribunal may set specific conditions or terms when granting this extra time."
+  ],
+  "example": "Meera Textiles Private Limited missed the deadline to file an appeal before the Appellate Tribunal due to unexpected delays. Even though the final date had already passed, Meera Textiles filed an application asking for more time. The Appellate Tribunal reviewed the situation and decided to extend the time, allowing the company to proceed with its case under fair conditions.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher official body that hears appeals against decisions."
+   },
+   {
+    "term": "Enlargement",
+    "meaning": "An extension or making something longer, in this case, extending time."
+   }
+  ],
+  "watch": "A common confusion is assuming you cannot ask for more time after a deadline has already passed, but this rule allows you to ask for an extension even after the time has expired.",
+  "h": "2fac42e8de2f",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "16": {
+  "summary": "This rule sets out the official duties of the Registrar under the National Company Law Appellate Tribunal Rules, 2016. The Registrar is responsible for registering legal documents like appeals and petitions, and handling various requests related to notices and documents. Additionally, the Registrar carries out other related tasks as directed by the Chairperson.",
+  "points": [
+   "Registers appeals, petitions, and applications.",
+   "Receives requests to amend legal papers or issue fresh notices.",
+   "Handles applications for document admission and inspection.",
+   "Follows directions from the Chairperson for any other related matters."
+  ],
+  "example": "Meera Textiles Private Limited wanted to challenge an order and filed an appeal. The company submitted its appeal papers to the Registrar, who registered them according to the rules. Later, Meera Textiles needed to update some details in their petition, so they submitted an amendment application to the Registrar, who received it for processing. The company also requested fresh notices to be served, which the Registrar handled as part of standard administrative functions.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "An official responsible for keeping records and handling administrative tasks for the Tribunal."
+   },
+   {
+    "term": "Summons",
+    "meaning": "An official call or notice to appear or respond in a legal proceeding."
+   },
+   {
+    "term": "Substituted service",
+    "meaning": "An alternative way of delivering legal notices when normal delivery is not possible."
+   }
+  ],
+  "watch": "Do not confuse the duties of the Registrar with the final decision-making power of the Tribunal.",
+  "h": "02b8f20cdeb1",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "17": {
+  "summary": "This rule explains how hearings can be postponed under the National Company Law Appellate Tribunal Rules. Usually, you must ask for a postponement directly in court before the judges. In very unusual situations, an administrative officer called the Registrar can postpone a case if the Tribunal tells them to do so in private.",
+  "points": [
+   "You normally ask for a postponement before the Bench in court.",
+   "In extraordinary circumstances, the Registrar can postpone a matter.",
+   "The Registrar can only do this if directed by the Tribunal in chambers."
+  ],
+  "example": "Meera Textiles Private Limited has an ongoing case at the Tribunal. On the day of the hearing, an unexpected emergency happens, and their advocate cannot reach the courtroom in time. Since it is an extraordinary circumstance, the advocate approaches the Tribunal in chambers. The Tribunal directs the Registrar to postpone the matter and bring it before them in chambers.",
+  "terms": [
+   {
+    "term": "Adjournment",
+    "meaning": "The postponing or rescheduling of a court hearing to a later time."
+   },
+   {
+    "term": "Bench",
+    "meaning": "The judges sitting in court to hear and decide cases."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "An administrative officer of the court who manages cases and records."
+   }
+  ],
+  "watch": "Do not assume you can always ask the Registrar for a postponement; you must normally ask the judges in court.",
+  "h": "83715196ff1d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "18": {
+  "summary": "The provided text explains a specific rule under the National Company Law Appellate Tribunal Rules, 2016. It states that the Chairperson can pass on certain duties to a Deputy Registrar or another suitable officer. This delegation covers functions that the rules normally require the Registrar to handle.",
+  "points": [
+   "The Chairperson holds the power to assign functions.",
+   "Functions can be given to a Deputy Registrar.",
+   "Functions can also be given to any other suitable officer.",
+   "This applies to duties that the rules require the Registrar to do."
+  ],
+  "example": "At the appellate tribunal, the official Registrar is overwhelmed with many new appeal filings submitted by Alpha Logistics Private Limited and Beta Traders Private Limited. To manage the heavy workload, the Chairperson decides to use official powers. The Chairperson formally delegates several routine appeal filing checks to a qualified Deputy Registrar, allowing the office work to continue smoothly without unnecessary delays for the companies.",
+  "terms": [
+   {
+    "term": "Chairperson",
+    "meaning": "The head official in charge of the tribunal."
+   },
+   {
+    "term": "Delegate",
+    "meaning": "To give one's duties or powers to another person to perform."
+   }
+  ],
+  "watch": "Do not assume this rule allows delegation to just anyone, as the text specifies it must be a Deputy Registrar or a suitable officer.",
+  "h": "fcb1d2bb8d6e",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "19": {
+  "summary": "This rule explains how an appeal must be prepared and presented to the Appellate Tribunal. It covers formatting details like language, paper margins, and spacing, as well as how to structure paragraphs and list the parties involved. Every document must follow these layout and numbering rules before it is filed.",
+  "points": [
+   "Appeals must be in English or translated into English, and clearly typewritten or printed on standard paper with specific margins.",
+   "The appeal must be divided into numbered paragraphs, each containing a separate fact or point.",
+   "Full details of all parties must be listed at the beginning, with numbered lines that stay the same throughout the case.",
+   "Every proceeding must state the cause title and the specific provision of law under which it is filed."
+  ],
+  "example": "Aarav wanted to file an appeal for Sunshine Electronics Private Limited at the National Company Law Appellate Tribunal. He made sure the document was typed clearly in English on one side of standard paper with the correct margins, and that all pages were stitched together as a paper book. Aarav divided the appeal into numbered paragraphs and properly listed the names and addresses of all parties at the very beginning on separate numbered lines.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher forum where decisions of lower authorities can be challenged."
+   },
+   {
+    "term": "Cause title",
+    "meaning": "The heading of a legal document that shows the names of the parties and the court or tribunal."
+   },
+   {
+    "term": "Paper book",
+    "meaning": "A bound collection of documents and papers related to a case."
+   }
+  ],
+  "watch": "Make sure to include both the Indian calendar dates and the corresponding Gregorian calendar dates if you use traditional dates.",
+  "h": "16d2c2c09e04",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "20": {
+  "summary": "When filing an appeal under the National Company Law Appellate Tribunal Rules, 2016, a party must provide an address for service of summons. This address should include specific details like street names, postal codes, and contact numbers to help identify the person. The rules ensure that notices and documents reach the correct party easily.",
+  "points": [
+   "Every appeal must include an address for service of summons on behalf of a party.",
+   "The address should include the road, street, lane, ward, and house number as far as possible.",
+   "It must also state the town or village, post office, postal district, and PIN Code.",
+   "Additional details like fax number, mobile number, and e-mail address should be added if available."
+  ],
+  "example": "Meera Textiles Private Limited decided to file an appeal before the tribunal. To follow the rules, their legal representative prepared the paperwork and included an address for service of summons. The document listed their complete street name, municipal door number, village name, and PIN Code. They also added their official mobile number and e-mail address to make sure the tribunal could contact them easily without any delay.",
+  "terms": [
+   {
+    "term": "summons",
+    "meaning": "an official notice or call to appear in a legal proceeding"
+   },
+   {
+    "term": "appeal",
+    "meaning": "a formal request to a higher authority to change a decision"
+   }
+  ],
+  "watch": "People often confuse the address for service with the company's permanent registered office, but it simply means the address where notices should be sent.",
+  "h": "26eddad8322e",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "21": {
+  "summary": "This rule requires any changes made to an appeal document to be marked with initials. Specifically, if someone crosses out text, erases something, makes a correction, or deletes a part, they must put their initials next to it. This applies to the party filing the appeal or their authorized representative.",
+  "points": [
+   "Any interlineation in an appeal must be initialled.",
+   "Erasures, corrections, or deletions must also be initialled.",
+   "The person filing the appeal or their authorized representative must do the initialling."
+  ],
+  "example": "Meera Textiles Private Limited filed an appeal with the tribunal. While reviewing the final papers, the authorized representative noticed a small typo in the company name. The representative neatly crossed out the wrong letter, wrote the correct one above it, and signed their initials right next to the change to show they made it.",
+  "terms": [
+   {
+    "term": "interlineation",
+    "meaning": "writing something between lines of text"
+   },
+   {
+    "term": "authorized representative",
+    "meaning": "a person who has official permission to act on behalf of a party"
+   }
+  ],
+  "watch": "Do not assume that only the main party can initial changes, as an authorized representative can do it too.",
+  "h": "52391d360a35",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "22": {
+  "summary": "This rule explains how to file an appeal or petition at the Appellate Tribunal. You must submit the correct form in triplicate along with the required fee, documents, and an index. If you do not follow these steps, the tribunal may refuse to accept your case.",
+  "points": [
+   "File appeals in Form NCLAT-1 in triplicate with the stipulated fee.",
+   "Include a certified copy of the order you are challenging.",
+   "Provide an index in triplicate for all filed documents showing fee amounts.",
+   "Submit enough copies to serve the opposite party and include processing fees with envelopes."
+  ],
+  "example": "Aarav wanted to file an appeal for his company, Zenith Technologies Private Limited, against an order. He visited the filing counter in person with Form NCLAT-1 prepared in triplicate. Along with the form, he attached a certified copy of the order, an index detailing all documents and fees paid, and the necessary processing fee with envelopes. Because Aarav carefully followed every requirement, the filing counter accepted his appeal for review without any issues.",
+  "terms": [
+   {
+    "term": "Appellant",
+    "meaning": "The person or company who makes an appeal against a legal decision."
+   },
+   {
+    "term": "Impugned order",
+    "meaning": "The specific order or decision that is being challenged in the appeal."
+   },
+   {
+    "term": "In triplicate",
+    "meaning": "Submitted in three identical copies."
+   }
+  ],
+  "watch": "People often forget to attach the certified copy of the order or fail to provide enough copies for the other side.",
+  "h": "30cc8e3ef299",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "23": {
+  "summary": "This rule explains how many copies of legal documents you need to submit when dealing with the Tribunal. You must provide three authenticated copies of your main documents to the court and also give one copy to every opposite party. This ensures that everyone involved has the necessary paperwork.",
+  "points": [
+   "File three authenticated copies of your appeal, counter, or objections.",
+   "Deliver one copy of the document to each opposite party."
+  ],
+  "example": "Aarav filed an appeal representing Sunshine Traders Private Limited before the Tribunal against Blue Sky Enterprises Private Limited. According to the rules, Aarav had to submit three authenticated copies of his appeal to the Tribunal. In addition, he was required to deliver one copy of the appeal directly to Blue Sky Enterprises Private Limited to ensure they received their necessary share of the paperwork.",
+  "terms": [
+   {
+    "term": "authenticated",
+    "meaning": "Proved or verified to be genuine and official."
+   },
+   {
+    "term": "counter",
+    "meaning": "A document filed to reply or respond to an appeal or petition."
+   }
+  ],
+  "watch": "Do not forget to give a copy to every single opposite party if there is more than one.",
+  "h": "a3f06dd6c5c2",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "24": {
+  "summary": "Every appeal or legal document must be signed and verified by the correct party. The name and signature of the authorized representative must also be written at the bottom. This ensures every document is properly approved before submission.",
+  "points": [
+   "Every appeal or pleading must have the name and signature of the authorized representative at the bottom.",
+   "The party concerned must sign and verify the appeal or pleading according to the rules."
+  ],
+  "example": "Meera Textiles Private Limited filed an appeal with the tribunal. At the very bottom of the document, their authorized representative wrote their name and signed it. Furthermore, a representative of Meera Textiles Private Limited also signed and verified the appeal itself as required by the rules.",
+  "terms": [
+   {
+    "term": "pleading",
+    "meaning": "A written legal document filed in a case."
+   },
+   {
+    "term": "authorized representative",
+    "meaning": "A person who has the legal power to act and sign on behalf of a party."
+   },
+   {
+    "term": "verified",
+    "meaning": "Confirmed or sworn to be true."
+   }
+  ],
+  "watch": "Do not forget that both the party and the representative have specific signing duties on the document.",
+  "h": "62e2cf3c4826",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "25": {
+  "summary": "Any document not in English that you want to use in the Appellate Tribunal must be accompanied by an English translation. This translation must be agreed upon by both sides or certified as true by an authorized representative. The Registrar can also order a paid translation if needed, and hearings will not start until all necessary English documents are properly filed.",
+  "points": [
+   "Documents in languages other than English need an English copy for the Appellate Tribunal.",
+   "The English copy must be agreed by both parties or certified by an authorized representative.",
+   "The Registrar can order an approved translation and certification upon payment of a specified fee.",
+   "Hearings will not be scheduled until all relied-upon documents are confirmed to be in English with enough copies filed."
+  ],
+  "example": "Meera Textiles Private Limited filed an appeal at the Appellate Tribunal. They submitted a crucial contract written in a regional language. Because the other party did not agree to the translation, the Registrar ordered an approved person to translate and certify the document for a fee. Once the English copy was ready and all required copies were submitted, the tribunal finally set the appeal down for a hearing.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher forum where decisions can be challenged."
+   },
+   {
+    "term": "Registry",
+    "meaning": "The office responsible for keeping records and receiving documents for the tribunal."
+   },
+   {
+    "term": "Authorised representative",
+    "meaning": "A person legally allowed to act on behalf of the parties in the case."
+   }
+  ],
+  "watch": "Do not assume hearings will be scheduled before all parties confirm that all documents are fully translated into English and filed.",
+  "h": "2e91c9492c47",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "26": {
+  "summary": "This rule explains how the filing counter handles new appeals or documents received by the Appellate Tribunal. The staff must date, stamp, and give a receipt for the papers, and then check them for any mistakes. If mistakes are found, the party is given time to fix them, or the Registrar may refuse to register the document if the party fails to act.",
+  "points": [
+   "The filing counter staff must date, stamp, and give an acknowledgement receipt for any received appeal or document.",
+   "Staff assign a diary number to the document and send it for scrutiny.",
+   "If mistakes are found during scrutiny, the document is returned to the party for compliance within seven days.",
+   "The Registrar can decline to register a document if the party fails to fix the defects in time."
+  ],
+  "example": "Aarav filed an appeal on behalf of Nova Ventures Private Limited at the Appellate Tribunal. The person at the filing-counter immediately stamped the papers, gave Aarav an acknowledgement receipt, and assigned a diary number. During scrutiny, the staff found a defect in the filing and returned it to Aarav with a notice. Aarav failed to fix the defect within the seven days given for compliance. Consequently, the matter went to the Registrar, who recorded reasons in writing and declined to register the appeal.",
+  "terms": [
+   {
+    "term": "scrutiny",
+    "meaning": "a careful and thorough examination of the document to check for correctness"
+   },
+   {
+    "term": "compliance",
+    "meaning": "acting in accordance with rules or fixing stated defects"
+   },
+   {
+    "term": "Registrar",
+    "meaning": "an official of the Tribunal who handles administrative and procedural matters"
+   }
+  ],
+  "watch": "People often confuse the initial seven-day period to fix defects with the additional time the Registrar may grant for rectification.",
+  "h": "dbfe136299eb",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "27": {
+  "summary": "This rule explains what happens when an appeal is accepted by the National Company Law Appellate Tribunal. Once accepted, the appeal gets a specific number and is officially entered into a designated register. This process records the admission of the case for further proceedings.",
+  "points": [
+   "An appeal must be admitted first.",
+   "The admitted appeal is given a number.",
+   "It is registered in the appropriate register maintained for this purpose."
+  ],
+  "example": "Meera Textiles Private Limited filed an appeal before the National Company Law Appellate Tribunal. The Tribunal accepted the case for review. Following the rule, the staff immediately assigned a specific number to the appeal. They then entered this number into the official register maintained for these cases.",
+  "terms": [
+   {
+    "term": "Appeal",
+    "meaning": "A formal request to a higher authority to change a decision made by a lower authority or court."
+   },
+   {
+    "term": "Register",
+    "meaning": "An official book or digital record where cases are listed."
+   }
+  ],
+  "watch": "Do not assume this rule applies before the appeal is officially accepted or admitted.",
+  "h": "082f799a8430",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "28": {
+  "summary": "This rule explains how small mistakes in court papers are fixed. The Registrar can correct simple errors without telling anyone first. This saves time for everyone involved.",
+  "points": [
+   "Applies to every appeal or application.",
+   "Covers arithmetical, grammatical, and clerical errors.",
+   "Corrections are made on the orders of the Registrar.",
+   "No notice is given to the parties involved."
+  ],
+  "example": "Meera Textiles Private Limited filed an appeal at the Tribunal. While checking the documents, the Registrar noticed a small spelling mistake in the company name and a simple math error in the totals. Because these are clerical and arithmetical mistakes, the Registrar corrected them directly on the orders of the office, without sending any notice to Meera Textiles Private Limited or the other party.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "An official who handles administrative work and records for the Tribunal."
+   },
+   {
+    "term": "Ex-parte",
+    "meaning": "Done or speaking for one side only, without telling or waiting for the other side."
+   }
+  ],
+  "watch": "People often think parties must be informed before any change, but here no notice is given.",
+  "h": "e43c0acf9f61",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "29": {
+  "summary": "When an appeal is accepted, the Registrar must ask for the case records if the Appellate Tribunal tells them to do so. These records come from the lower Bench or authority handling the case. Once the proceedings end, or whenever needed, the records must be sent back.",
+  "points": [
+   "The Appellate Tribunal can direct the Registrar to call for case records upon admitting an appeal.",
+   "The records are collected from the respective Bench of the Tribunal or adjudicating authority.",
+   "The Registrar must retransmit the records back at the end of the proceedings or at any time."
+  ],
+  "example": "Meera Textiles Private Limited filed an appeal against an earlier order. Upon admitting this appeal, the Appellate Tribunal directed the Registrar to call for the original case records from the respective Bench of the Tribunal. The Registrar requested and received the files. After the proceedings concluded, the Registrar retransmitted those records back to the original authority exactly as required.",
+  "terms": [
+   {
+    "term": "Admission of appeal",
+    "meaning": "The official acceptance of an appeal by the tribunal to hear the case."
+   },
+   {
+    "term": "Retransmit",
+    "meaning": "To send back something that was received."
+   }
+  ],
+  "watch": "Do not assume that the Registrar always requests records automatically; it only happens if the Appellate Tribunal directs them to do so.",
+  "h": "91b0ce69aaa4",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "30": {
+  "summary": "When an association files an appeal, the person signing it must show proof that the group allowed them to do so. The Registrar can ask for more proof if needed. The appeal must also list the members who will benefit from the case.",
+  "points": [
+   "A true copy of the association's resolution empowering the person must be produced with the appeal.",
+   "The Registry verifies this authorization.",
+   "The Registrar may ask for further materials to be satisfied about due authorization at any time.",
+   "The appeal must set out a list of members for whose benefit the proceedings are instituted."
+  ],
+  "example": "Meera Textiles Private Limited Association decided to file an appeal. Mr. Sharma signed the papers on behalf of the association. Along with the appeal, Mr. Sharma submitted a true copy of the association's resolution empowering him to act. The appeal also included a list of all member businesses who would benefit from the outcome of the case. Later, the Registrar asked for further materials to be completely sure Mr. Sharma was properly authorized.",
+  "terms": [
+   {
+    "term": "Appeal",
+    "meaning": "A formal request to a higher authority to change a decision."
+   },
+   {
+    "term": "Resolution",
+    "meaning": "A formal decision or official choice made by a group of people."
+   },
+   {
+    "term": "Registry",
+    "meaning": "The office where legal documents and records are kept."
+   }
+  ],
+  "watch": "Do not forget to attach the list of members benefiting from the case along with the authorization resolution.",
+  "h": "c3ecb9aa678f",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "31": {
+  "summary": "This rule explains how to file requests like stays, extensions, or exemptions while a case is already pending in the tribunal. You must use a specific form and support it with an affidavit. You also need to follow all the stated requirements for that form.",
+  "points": [
+   "Use Form NCLAT-2 for requests like stay, direction, or time extension in pending cases.",
+   "Fulfill all requirements prescribed for the form.",
+   "File a supporting affidavit along with the application."
+  ],
+  "example": "Aarav Industries Limited has a pending case in the tribunal and needs extra time to submit a document. To ask for this time extension, Aarav Industries Limited must fill out Form NCLAT-2. They must also follow all the rules for that form and attach a supporting affidavit to their application.",
+  "terms": [
+   {
+    "term": "Interlocutory application",
+    "meaning": "A request made to the tribunal while a main case is still pending."
+   },
+   {
+    "term": "Affidavit",
+    "meaning": "A written statement confirmed by oath or affirmation, used as evidence."
+   }
+  ],
+  "watch": "Do not forget to include a supporting affidavit along with Form NCLAT-2.",
+  "h": "42407ca19dd4",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "32": {
+  "summary": "This rule explains what happens when a damaged paper is filed with a court or tribunal. The person filing the paper must note its bad condition in the document list. Then, an official who receives the paper must check it and sign their initials on it.",
+  "points": [
+   "Check if any filed document is defaced, torn, or damaged.",
+   "The person filing the document must write a note about its condition in the Index.",
+   "An authorized officer must verify the document and sign their initials on it."
+  ],
+  "example": "Meera Textiles Private Limited submitted legal papers to the tribunal. One of the attached contracts was slightly torn at the corner. Following the rules, Meera Textiles noted the torn condition in the Index of the pleading. When the authorized officer received the file, they checked the torn contract and placed their initials on it to confirm its state.",
+  "terms": [
+   {
+    "term": "Pleading",
+    "meaning": "A formal written statement filed in a legal case."
+   },
+   {
+    "term": "Index",
+    "meaning": "A list of documents attached to a filing."
+   },
+   {
+    "term": "Initialed",
+    "meaning": "Signed with a person's initials rather than their full signature."
+   }
+  ],
+  "watch": "Make sure to note the damage in the Index yourself rather than waiting for the officer to find it.",
+  "h": "8891fc119fc5",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "33": {
+  "summary": "This rule explains how the court office prepares and publishes the daily list of cases for the next working day. It tells the office the specific order in which different types of cases must be listed. It also details what information, such as names of lawyers and parties, must be shown on this list.",
+  "points": [
+   "The office must prepare and publish the cause list on the notice board before closing time on each working day.",
+   "Cases are listed in a strict priority order, starting with pronouncement of orders and ending with regular numerical order.",
+   "The list must show the appeal number, day, date, time, bench hall number, and names of the members.",
+   "The list must include the names of the lawyers or unrepresented parties, along with any remarks from the office."
+  ],
+  "example": "At the end of the working day, the office of the Tribunal prepares the daily cause list for the next day and pins it on the notice board. Green Pharma Private Limited sees its case listed under the part-heard category because the hearing started previously. The list correctly displays the appeal number, bench hall number, the names of the presiding members, and the advocates representing Green Pharma Private Limited, along with a small remark noting a pending compliance instruction from the office.",
+  "terms": [
+   {
+    "term": "Cause list",
+    "meaning": "An official schedule showing the cases that will be heard by the court on a specific day."
+   },
+   {
+    "term": "Coram",
+    "meaning": "The judicial members sitting together to hear a case."
+   },
+   {
+    "term": "Registry",
+    "meaning": "The administrative office of the court that handles paperwork and scheduling."
+   }
+  ],
+  "watch": "Do not confuse the strict order of priority for listing cases with the final outcome or importance of the case itself.",
+  "h": "17fc047f88b6",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "34": {
+  "summary": "This rule explains what happens when the Appellate Tribunal cannot work on a specific day due to a holiday or unexpected reason. If the whole Tribunal is closed, cases listed for that day automatically move to the next working day. If only a specific Bench cannot sit, the Registrar will move those cases to a new date and post notices on the notice board.",
+  "points": [
+   "If the Tribunal does not function for a day, the daily cause list moves to the next working day along with the cases already scheduled for that day.",
+   "If a specific Bench cannot sit due to a Member's inability, the Registrar adjourns those cases to a convenient date unless directed otherwise.",
+   "All new dates, postings, and directions are displayed on the notice board."
+  ],
+  "example": "At Zenith Infra Private Limited, a company dispute was scheduled for a hearing at the Appellate Tribunal today. Suddenly, the Tribunal could not function because of an unexpected emergency. According to the rules, the case list for today was automatically shifted to the next working day, combining with the cases already planned for that day. Meanwhile, for another separate matter where only one Bench could not sit due to a Member's absence, the Registrar adjourned the hearing to a new convenient date and displayed the notice on the official notice board.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher official body that reviews decisions."
+   },
+   {
+    "term": "Cause list",
+    "meaning": "The official daily schedule of cases to be heard."
+   },
+   {
+    "term": "Bench",
+    "meaning": "A panel of judges or members sitting together to hear cases."
+   }
+  ],
+  "watch": "Do not confuse moving the entire day's list to the next working day with the rescheduling of a single Bench's cases to a convenient date by the Registrar.",
+  "h": "1314c3565909",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "35": {
+  "summary": "This rule explains how official records called diaries must be kept for appeals. A clerk must write these records clearly in a specific form given by the Registrar. A Deputy Registrar must also check the diary for the main file once every two weeks.",
+  "points": [
+   "The clerk-in-charge must keep diaries in a form specified by the Registrar for each appeal.",
+   "Entries in the diaries must be written clearly and legibly.",
+   "The diary in the main file must show the history of the appeal and the substance of the orders passed.",
+   "In execution proceedings, the diary must record all related proceedings completely.",
+   "The Deputy Registrar must check and initial the main file diary once a fortnight."
+  ],
+  "example": "At Apex Appellate Tribunal, a clerk named Rohan handled an appeal for Zeta Logistics Private Limited. Rohan carefully maintained the appeal diary in the exact form required by the Registrar, writing all entries legibly. He noted down the case history and the orders passed by the tribunal. Every two weeks, the Deputy Registrar reviewed Rohan's diary and placed initials on it to confirm it was properly checked.",
+  "terms": [
+   {
+    "term": "Appeal",
+    "meaning": "A request to a higher authority to change a decision made by a lower one."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "An official responsible for keeping official records."
+   },
+   {
+    "term": "Fortnight",
+    "meaning": "A period of two weeks."
+   }
+  ],
+  "watch": "Do not confuse the clerk who writes the diary with the Deputy Registrar who checks and initials it.",
+  "h": "bc434a73ba3f",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "36": {
+  "summary": "This rule explains how an official record of proceedings, called an order sheet, must be kept for every case in the Appellate Tribunal. It states that the record must be written in English, include specific case details, and be signed by either the members of the tribunal or the court master depending on the type of order.",
+  "points": [
+   "A court master must maintain an order sheet for every proceeding to record all orders passed over time.",
+   "All orders must be in English and signed by the tribunal members on the bench.",
+   "Routine orders like adjournments or calling for records can be signed by the court master instead.",
+   "The order sheet must include case reference numbers, dates, and the short title of the case."
+  ],
+  "example": "In an appeal involving Meera Textiles Private Limited, the court master maintained an order sheet to track every step of the case. When the bench decided to postpone a hearing, the routine adjournment order was signed directly by the court master. However, the final decision on the appeal was written in English and signed by all the tribunal members constituting the bench. The order sheet clearly displayed the correct appeal reference number, the date, and the short title of the case.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher body that reviews decisions made by lower authorities."
+   },
+   {
+    "term": "Court Master",
+    "meaning": "An official responsible for managing court records and paperwork."
+   },
+   {
+    "term": "Cause title",
+    "meaning": "The heading of a legal case that shows the names of the parties involved."
+   }
+  ],
+  "watch": "Do not confuse routine orders signed by the court master with final orders which must be signed by the tribunal members.",
+  "h": "49c93dd5ec18",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "37": {
+  "summary": "This rule requires the Court Master of each Bench to keep a clear written Diary of daily cases. The Diary must show what happened during each hearing based on the daily cause list. It helps track the progress of every application, petition, or appeal.",
+  "points": [
+   "The Court Master must maintain a clear Diary for the Bench.",
+   "The Diary records the proceedings for each sitting from the daily cause list.",
+   "It includes case statuses like adjourned, part-heard, disposed of, or orders reserved.",
+   "It lists the date of the next hearing when applicable."
+  ],
+  "example": "At Zenith Infra Private Limited, an appeal was recently listed on the daily cause list of the Tribunal. During the hearing, the Bench listened to the arguments but did not finish the case. The Court Master noted this in the official Diary as part-heard and recorded the date for the next sitting so everyone knows when to return.",
+  "terms": [
+   {
+    "term": "Court Master",
+    "meaning": "An official who helps manage the court room and records its daily work."
+   },
+   {
+    "term": "Cause list",
+    "meaning": "The official daily schedule of cases to be heard by the court."
+   },
+   {
+    "term": "Adjourned",
+    "meaning": "Put off or delayed to a later date."
+   }
+  ],
+  "watch": "Do not confuse the daily cause list with the permanent court records, as the Diary only tracks daily sitting outcomes.",
+  "h": "4741706dc85a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "38": {
+  "summary": "This rule requires parties or their representatives to give a list of necessary law materials to the Court Master before the daily court proceedings begin. You must provide this list or photocopies of the full texts before the court starts its work for the day. It ensures the court has proper references ready for the session.",
+  "points": [
+   "Parties or authorised representatives must provide a list of citations and statutes.",
+   "This list must be given to the Court Master.",
+   "It must be done before the day's proceedings start.",
+   "Photocopies of the full text of these materials may also be furnished."
+  ],
+  "example": "Before the daily court proceedings begin at Apex Logistics Private Limited versus Zenith Trading Private Limited, advocate Rohan hands a list of law reports and statutes to the Court Master. He also provides photocopies of the full text so the court can easily refer to them during the hearing.",
+  "terms": [
+   {
+    "term": "Court Master",
+    "meaning": "An officer who assists the judge and manages administrative tasks inside the court."
+   },
+   {
+    "term": "Citations",
+    "meaning": "References to legal authorities, previous court cases, or law books used to support an argument."
+   }
+  ],
+  "watch": "Do not wait until the hearing has started to hand over your law materials to the court.",
+  "h": "18b6a3221ffc",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "39": {
+  "summary": "This rule explains the order in which court cases are presented. Unless the Bench gives different instructions, the Court Master must call the listed cases one by one in their serial order.",
+  "points": [
+   "Cases are called based on the cause list.",
+   "The Court Master is responsible for calling the cases.",
+   "The calling follows a strict serial order unless the Bench orders otherwise."
+  ],
+  "example": "At Meera Textiles Private Limited, a company dispute is scheduled for a hearing. The daily cause list shows their case listed at serial number four. Following the rule, the Court Master calls the first, second, and third cases before calling Meera Textiles Private Limited, because the Bench has not given any special orders to change this serial order.",
+  "terms": [
+   {
+    "term": "Cause list",
+    "meaning": "An official schedule or list of cases that will be heard by the court on a particular day."
+   },
+   {
+    "term": "Court Master",
+    "meaning": "An official who helps manage the day-to-day work and paperwork inside the court room."
+   }
+  ],
+  "watch": "People often think cases can be called randomly, but they must follow the serial order unless the Bench orders a change.",
+  "h": "0bb2c77e768f",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "40": {
+  "summary": "This rule explains how the staff must manage courtroom work when the Appellate Tribunal is sitting. The Deputy Registrar and Court Master have specific duties to keep things running smoothly, quietly, and respectfully. Finally, staff must quickly send case records and orders to the Registry so everyone can be informed.",
+  "points": [
+   "The Deputy Registrar must provide court staff like the Court Master, stenographer, and peon without wasting time.",
+   "The Court Master must keep the courtroom quiet and maintain the dignity of the Appellate Tribunal.",
+   "The Court Master must send case records and orders immediately to the Registry.",
+   "The Registry must check the records against the cause list and quickly communicate the orders."
+  ],
+  "example": "At Apex Appellate Tribunal Private Limited, a hearing is ongoing. Mr. Roy, the Deputy Registrar, ensures the stenographer is at his desk without delay. Meanwhile, Ms. Sen, the Court Master, strictly keeps the courtroom quiet and maintains proper decorum. Right after the judges pass an order, Ms. Sen immediately sends the case records to the Registry. The Registry staff quickly check the papers against the cause list and send the directions out.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher body that reviews decisions."
+   },
+   {
+    "term": "Registry",
+    "meaning": "The administrative office of the court that handles records."
+   },
+   {
+    "term": "Cause list",
+    "meaning": "An official schedule of cases to be heard."
+   }
+  ],
+  "watch": "Do not confuse the duties of the Deputy Registrar, who provides staff, with the Court Master, who manages courtroom silence and order delivery.",
+  "h": "d335b90e414f",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "41": {
+  "summary": "This rule explains that the office of the Appellate Tribunal must keep three specific registers up to date every single day. The Registrar assigns staff members to handle this task, following any orders from the Chairperson. These records help track appeals and applications properly.",
+  "points": [
+   "The Registry of the Appellate Tribunal must maintain three specific registers.",
+   "Entries in these registers must be updated on a day-to-day basis.",
+   "The Registrar assigns ministerial officers to maintain these registers.",
+   "The Registrar's directions are subject to any orders made by the Chairperson."
+  ],
+  "example": "At the appellate tribunal office, staff member Aarav arrives at work for ABC Private Limited's case. He immediately updates the register of appeals and the register of interlocutory applications on a day-to-day basis, following the direct orders given by the Registrar under the Chairperson's supervision.",
+  "terms": [
+   {
+    "term": "Interlocutory applications",
+    "meaning": "temporary requests or motions made to the tribunal while a main case is still going on"
+   },
+   {
+    "term": "Ministerial officer",
+    "meaning": "an administrative staff member who carries out routine office duties"
+   }
+  ],
+  "watch": "Do not assume that anyone can update these registers; only designated officers directed by the Registrar may do so.",
+  "h": "c08e1b67910d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "42": {
+  "summary": "This rule explains how records for a pending appeal must be organized and kept. The files must be divided into four specific parts. These parts include the main file, miscellaneous application file, process file, and execution file.",
+  "points": [
+   "The record of appeal must be divided into four parts.",
+   "The first part is the main file for the appeal.",
+   "The second part is the miscellaneous application file.",
+   "The third part is the process file and the fourth is the execution file."
+  ],
+  "example": "Meera Textiles Private Limited filed an appeal with the Tribunal. To follow the rules, the staff organized all the paperwork by dividing the records into four separate parts. They placed the appeal in the main file, put the extra applications in the miscellaneous application file, kept the notices in the process file, and stored the enforcement documents in the execution file.",
+  "terms": [
+   {
+    "term": "Appeal",
+    "meaning": "A request to a higher authority to change a decision."
+   },
+   {
+    "term": "Collated",
+    "meaning": "Collected and put together in the correct order."
+   }
+  ],
+  "watch": "Do not mix all the documents together into a single folder.",
+  "h": "6153e04e11d3",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "43": {
+  "summary": "This rule explains how the main file of a case must be arranged and kept safe. It must be kept as a permanent record until there is an order to destroy it. Every document has a specific place in the file, starting with an index.",
+  "points": [
+   "The documents in the main file must be kept in a specific order.",
+   "The file is a permanent record and stays until an order allows its destruction.",
+   "The file includes an index, order sheet, final judgment, and the appeal memo.",
+   "It also contains replies, evidence like oral or documentary proof, and written arguments."
+  ],
+  "example": "At Sunrise Traders Private Limited, the office team is preparing the case papers for the tribunal. They arrange the documents in the exact order required by the rules. First comes the index, followed by the order sheet, the final judgment, and the petition memo with its schedule. Next, they add the reply and all the evidence, including oral proofs, documents, and written arguments. They store this neatly as a permanent record until any future order tells them it can be destroyed.",
+  "terms": [
+   {
+    "term": "permanent record",
+    "meaning": "A record that is kept for a very long time until an official order says it can be destroyed."
+   },
+   {
+    "term": "memo of appeal",
+    "meaning": "A written document stating the details of why someone is appealing a decision."
+   },
+   {
+    "term": "documentary evidence",
+    "meaning": "Proof that is supplied by written documents."
+   }
+  ],
+  "watch": "Do not assume these documents can be thrown away after a few years, because the text states it is a permanent record until ordered destroyed.",
+  "h": "e76d1f6e5c03",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "44": {
+  "summary": "This rule tells us what papers must be kept inside a process file. A process file is a collection of documents used in a legal case. Every such file must contain an index, official forms showing who is representing whom, summons, affidavits, and other related papers.",
+  "points": [
+   "The file must include an index to help find documents.",
+   "It must contain powers of attorney, vakalatnomas, or memos of appearance to show legal representation.",
+   "It must include summons, processes, affidavits, witness-summoning applications, and letters for calling records.",
+   "It must hold miscellaneous papers like postal acknowledgements."
+  ],
+  "example": "Meera Textiles Private Limited is involved in a case at the tribunal. To prepare the official records properly, the company's legal representative gathers all necessary documents into a process file. According to the rules, this file includes an index, the vakalatnama showing who represents the company, the summons and related affidavits, applications to summon a witness, letters calling for records, and the postal acknowledgements received during the proceedings.",
+  "terms": [
+   {
+    "term": "Affidavit",
+    "meaning": "A written statement confirmed by oath or affirmation for use as evidence in court."
+   },
+   {
+    "term": "Vakalatnama",
+    "meaning": "A legal document giving a lawyer the authority to represent a client."
+   },
+   {
+    "term": "Summons",
+    "meaning": "An official order to appear before a tribunal or court."
+   }
+  ],
+  "watch": "Do not forget that postal acknowledgements and miscellaneous papers are also required parts of the file.",
+  "h": "936e7e001847",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "45": {
+  "summary": "This rule explains the required contents of an execution file under the National Company Law Appellate Tribunal Rules, 2016. An execution file is a collection of specific documents and records related to carrying out an order. It must include an index, order sheet, application, connected papers, transmission details, and the final result.",
+  "points": [
+   "Must contain an index.",
+   "Must include the order sheet.",
+   "Must have the execution application and related papers.",
+   "Must show the transmission of the order and the final result."
+  ],
+  "example": "Meera Textiles Private Limited filed a case and reached the execution stage. When preparing the official execution file, the clerk gathered the required items. The file was organized with an index and an order sheet at the beginning. It also included the formal execution application, all connected papers, records of order transmission to the civil court, and the final result of the execution.",
+  "terms": [
+   {
+    "term": "Execution file",
+    "meaning": "A collection of documents used to carry out a legal order."
+   },
+   {
+    "term": "Order sheet",
+    "meaning": "A chronological record of events and orders made during the proceedings."
+   }
+  ],
+  "watch": "Do not assume that all files need a transmission record unless the court specifically orders it.",
+  "h": "e52f21869997",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "46": {
+  "summary": "This rule explains how to organize miscellaneous applications in a case. You must put everything into a single file in a specific order. This keeps the paperwork neat and easy for the court to review.",
+  "points": [
+   "Use only one file for all miscellaneous applications.",
+   "Put a title page at the very front of the file.",
+   "Arrange the diary, applications, affidavit, order sheet, and other documents immediately after the title page."
+  ],
+  "example": "Meera Textiles Private Limited is preparing paperwork for a court case before the tribunal. Their legal team has several miscellaneous applications and supporting papers to submit. Instead of making separate folders, they combine everything into one single file. They place a clear title page at the front. Right behind it, they neatly arrange the diary, the applications, the supporting affidavit, the order sheet, and all the remaining documents in the exact order required by the rule.",
+  "terms": [
+   {
+    "term": "Miscellaneous applications",
+    "meaning": "Various extra requests or motions made to the court during a case."
+   },
+   {
+    "term": "Affidavit",
+    "meaning": "A written statement confirmed by oath or affirmation for use as evidence."
+   },
+   {
+    "term": "Order sheet",
+    "meaning": "A chronological record of the court's orders and proceedings."
+   }
+  ],
+  "watch": "Do not create multiple files for different miscellaneous applications, as the rule requires only one file.",
+  "h": "b8ffad4f7fc7",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "47": {
+  "summary": "This rule explains when certain case files at the Appellate Tribunal can be destroyed. The Registrar or Deputy Registrar must get permission from the Chairperson to destroy records six years after a case finally ends. However, permanent records like orders and specific registers are kept safe.",
+  "points": [
+   "Most case records can be destroyed after six years.",
+   "The six-year period starts after the final end of the proceedings.",
+   "The Registrar or Deputy Registrar must get a prior order from the Chairperson before destroying anything.",
+   "Permanent records such as orders and appeal registers are kept and not destroyed."
+  ],
+  "example": "In 2015, Apex Ventures Private Limited finished a long case at the Appellate Tribunal. Now, the Registrar wants to clear out old filing cabinets. Because six years have passed since the case ended, the Registrar asks the Chairperson for permission to destroy the temporary case files. The Chairperson gives the order, and the old files are safely cleared out while the final orders and registers are kept.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher official body that reviews decisions made by lower authorities."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "An officer responsible for keeping official records and handling administrative duties."
+   }
+  ],
+  "watch": "Do not assume permanent records can ever be destroyed under this rule.",
+  "h": "a4616f7e7c65",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "48": {
+  "summary": "When the Appellate Tribunal issues a notice for an appeal, petition, or application, copies of the filing and supporting papers must be sent to the other side. These copies must include key details like the presentation date and the legal representative's address. The Tribunal can also permit the party to deliver the notice directly by hand.",
+  "points": [
+   "Copies of the appeal, petition, application, affidavit, and other ordered documents must be served with the notice.",
+   "The served copies must show the presentation date, the name and full service address of the authorised representative, and any interim order.",
+   "The Appellate Tribunal decides when to issue a notice in appropriate cases.",
+   "The Tribunal may allow a party to serve the notice by hand delivery, known as Dasti.",
+   "When delivering by hand, the party must file an affidavit of service with proof."
+  ],
+  "example": "Meera Textiles Private Limited filed an appeal at the Appellate Tribunal against an order. The Tribunal issued a notice and ordered Meera Textiles to serve the papers directly to the other side by hand. Meera Textiles delivered the notice along with the required copies, which showed the presentation date and their authorised representative's full address and interim orders. Afterward, Meera Textiles filed an affidavit of service with proof to the Tribunal.",
+  "terms": [
+   {
+    "term": "Interlocutory application",
+    "meaning": "A request made to a court or tribunal while a main case is still ongoing."
+   },
+   {
+    "term": "Affidavit",
+    "meaning": "A written statement confirmed by oath or affirmation for use as evidence."
+   },
+   {
+    "term": "Dasti",
+    "meaning": "Hand delivery of a notice or summons directly by the party involved."
+   }
+  ],
+  "watch": "Hand delivery is only allowed if the Appellate Tribunal specifically permits it.",
+  "h": "3210ed62b12f",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "49": {
+  "summary": "This rule explains what you must do when a court orders you to serve a notice or summons yourself by private service. You need to send a copy of your documents to the other side using registered post or a courier service. Finally, you must prove this by filing an affidavit with proof before the hearing date.",
+  "points": [
+   "Send copies of your appeal, petition, or application by registered post or courier if ordered by private service.",
+   "You do not need to do this if you already served the other side in advance.",
+   "Create and file an affidavit of service along with proof of delivery.",
+   "Complete this filing before the date set for the hearing."
+  ],
+  "example": "Meera Textiles Private Limited filed an appeal at the Tribunal. The Tribunal ordered them to use private service to notify the opposing party. Rahul, the manager, sent the appeal copies via a courier service. Rahul then prepared a written statement called an affidavit to prove the delivery. He made sure to file this affidavit and the courier receipt with the Tribunal before the scheduled hearing date.",
+  "terms": [
+   {
+    "term": "Affidavit",
+    "meaning": "A written statement confirmed by oath or affirmation, used as evidence in court."
+   },
+   {
+    "term": "Private service",
+    "meaning": "When the person who filed the case delivers the notice themselves instead of relying on official court delivery."
+   }
+  ],
+  "watch": "Do not forget to file your proof of delivery before the hearing date.",
+  "h": "fb0bc1be0afb",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "50": {
+  "summary": "This rule explains what happens when a notice cannot be delivered. If the notice comes back undelivered, the Registry must post this information on its notice board. The person who applied or their representative must then try to deliver the notice again within seven days.",
+  "points": [
+   "If a notice is returned unserved, it must be notified on the notice board of the Registry.",
+   "The notification must include the fact that it was returned and the reason why.",
+   "The applicant, petitioner, or their representative must take steps to serve the notice afresh.",
+   "This new attempt must happen within seven days from the date of the notification."
+  ],
+  "example": "Meera Textiles Private Limited filed a case at the tribunal. The tribunal sent a notice to the opposing party, but the post office returned it undelivered because the address was locked. Following the rules, the Registry immediately posted this return and its reason on the notice board. Now, the representative of Meera Textiles Private Limited must take steps to send a fresh notice within seven days of that notification.",
+  "terms": [
+   {
+    "term": "Registry",
+    "meaning": "The office or administrative department of the tribunal that handles official papers and records."
+   },
+   {
+    "term": "Unserved",
+    "meaning": "Not delivered properly to the intended person."
+   },
+   {
+    "term": "Authorised representative",
+    "meaning": "A person who has official permission to act on behalf of the applicant or petitioner."
+   }
+  ],
+  "watch": "Remember that the seven-day period starts from the date of the notification on the notice board, not from the date the notice was first returned.",
+  "h": "a629d2ca406a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "51": {
+  "summary": "This rule explains what happens if a notice sent to the other side cannot be delivered and the person who filed the case does not fix the issue. If they miss the deadline ordered by the tribunal, the case goes back to the tribunal. The tribunal can then either dismiss the case or give further directions.",
+  "points": [
+   "A summon is sent to the other side but comes back unserved.",
+   "The person who filed the case must take steps within the ordered time period.",
+   "If they fail to do so, the Registrar posts the case before the Appellate Tribunal.",
+   "The tribunal may give further directions or dismiss the case for non-prosecution."
+  ],
+  "example": "Meera Textiles Private Limited filed an appeal against another company. The initial notice sent to the respondent returned unserved. The Appellate Tribunal ordered Meera Textiles Private Limited to take necessary steps to issue a fresh notice within a specific period. Meera Textiles Private Limited failed to take those steps by the deadline. Consequently, the Registrar posted the case before the Appellate Tribunal, which will now decide whether to dismiss the case for non-prosecution or provide further directions.",
+  "terms": [
+   {
+    "term": "unserved",
+    "meaning": "Not delivered to the intended person."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "An official of the tribunal who handles administrative and case management duties."
+   },
+   {
+    "term": "non-prosecution",
+    "meaning": "Failure of the person who filed the case to actively pursue it."
+   }
+  ],
+  "watch": "Do not assume any specific number of days for the deadline, as the text only refers to the period ordered by the tribunal.",
+  "h": "f869af3021da",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "52": {
+  "summary": "This rule explains how the tribunal's office must keep a written record about notices sent to respondents. The staff handling these cases must write down important details in the order sheet. This ensures a clear history of whether people involved in a case received their notices.",
+  "points": [
+   "The Judicial Section of the Registry must record details of notice service.",
+   "Entries go into the order sheet under 'Notes of the Registry'.",
+   "Required details include the date the notice was issued, served, or returned unserved, and steps for fresh notices."
+  ],
+  "example": "In a case at the tribunal involving Meera Textiles Private Limited, the company needed to receive a formal notice. The Judicial Section of the Registry checked the delivery status. They then opened the official order sheet and used the 'Notes of the Registry' column to write down the exact date the notice was issued and the date it was successfully served to Meera Textiles Private Limited.",
+  "terms": [
+   {
+    "term": "Registry",
+    "meaning": "The office or administrative staff of the tribunal who handle case paperwork."
+   },
+   {
+    "term": "Order sheet",
+    "meaning": "An official paper or file where the tribunal keeps a chronological record of events and notes for a case."
+   },
+   {
+    "term": "Respondent",
+    "meaning": "The person or company required to answer a legal claim or petition in the case."
+   }
+  ],
+  "watch": "A common confusion is thinking this rule applies to sending the notices, whereas it only applies to recording the details after the fact.",
+  "h": "0b4d991b9945",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "53": {
+  "summary": "This rule explains what happens when a respondent does not show up for a court hearing despite receiving a proper notice. The tribunal can go ahead and hear the appeal without them and pass a final decision based on the merits of the case. It also allows the tribunal to ask for help from an authorised representative if the case involves very difficult and important legal questions.",
+  "points": [
+   "Applies when the respondent does not appear on the hearing date after getting proper notice.",
+   "The Appellate Tribunal can hear the appeal ex-parte, meaning in the absence of the respondent.",
+   "The tribunal may pass a final order based on the merits of the case.",
+   "The tribunal can seek help from an authorised representative for complex legal questions."
+  ],
+  "example": "Meera Textiles Private Limited filed an appeal against Star Enterprises Private Limited at the Appellate Tribunal. Star Enterprises received the official notice properly but chose not to attend the hearing on the scheduled date. Because Star Enterprises failed to appear, the tribunal decided to proceed with the case in their absence. The tribunal heard the arguments presented by Meera Textiles, reviewed the merits of the case, and passed a final order.",
+  "terms": [
+   {
+    "term": "Respondent",
+    "meaning": "The person or company who has to answer the appeal filed against them."
+   },
+   {
+    "term": "Ex-parte",
+    "meaning": "Proceeding with a court case when only one side is present."
+   },
+   {
+    "term": "Merits",
+    "meaning": "The legal strengths and weaknesses of the actual case, rather than technical details."
+   }
+  ],
+  "watch": "Do not assume the case is automatically dismissed if the respondent fails to appear; the tribunal can still make a final decision.",
+  "h": "65783702188a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "54": {
+  "summary": "This rule explains how a respondent must reply when facing an appeal at the Appellate Tribunal. If told to do so, the respondent must file written objections within the allowed time. They must also follow specific steps regarding verification, extra copies, and sharing documents with the other side.",
+  "points": [
+   "File objections or counter-statements within the time given by the Appellate Tribunal if directed.",
+   "Verify the objections just like an appeal, and use a supporting affidavit if adding brand-new facts with permission.",
+   "Submit three copies of the objections after serving copies to the appellant, petitioner, or their representatives first."
+  ],
+  "example": "Meera Textiles Private Limited received an appeal notice from the Appellate Tribunal. The Tribunal directed Meera Textiles to respond. Rahul, the director, prepared the objections and ensured they were verified properly. Since he needed to introduce a new fact with the Tribunal's permission, he attached a supporting affidavit. Finally, Rahul arranged to give copies of the objections to the appellant's representative and submitted three extra copies to the Tribunal as required.",
+  "terms": [
+   {
+    "term": "Respondent",
+    "meaning": "The person or company answering the appeal filed against them."
+   },
+   {
+    "term": "Affidavit",
+    "meaning": "A written statement confirmed by oath or affirmation for use as evidence."
+   }
+  ],
+  "watch": "Do not forget to share copies with the appellant or petitioner before submitting the final copies to the Tribunal.",
+  "h": "b5414ec64f53",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "55": {
+  "summary": "This rule explains the fees required for filing appeals or applications with the Appellate Tribunal. You must pay these fees using separate demand drafts or postal orders in favor of a specific government officer. However, the Tribunal can choose to waive these fees in certain cases based on financial hardship or other good reasons.",
+  "points": [
+   "Filing fees and process fees must follow the official Schedule of fees.",
+   "Fees must be paid using separate demand drafts or Indian Postal Orders.",
+   "Payments must favor the Pay and Accounts Officer, Ministry of Corporate Affairs, and be payable at New Delhi.",
+   "The Appellate Tribunal can waive all or part of the fee for people in poor economic conditions or for other valid reasons."
+  ],
+  "example": "Aarav wanted to file an appeal before the Appellate Tribunal on behalf of his small startup. Because his company was facing severe financial hardship, he requested the Tribunal to excuse him from paying the filing fee. The Tribunal considered his poor economic condition and decided to waive the fee entirely to advance the cause of justice, allowing Aarav to proceed with his case without making the payment.",
+  "terms": [
+   {
+    "term": "interlocutory application",
+    "meaning": "a request made to the court or tribunal for an order during the middle of a legal case"
+   },
+   {
+    "term": "process fee",
+    "meaning": "a fee paid to cover the administrative costs of handling court documents"
+   },
+   {
+    "term": "indigent circumstances",
+    "meaning": "a state of extreme poverty or severe financial need"
+   }
+  ],
+  "watch": "A common confusion is whether you can combine all fees into one payment, but the rules require separate demand drafts or postal orders.",
+  "h": "b731f874b776",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "56": {
+  "summary": "The National Company Law Appellate Tribunal can order parties to pay for the legal expenses of the other side. It may also order exemplary costs if someone abuses the court process. These decisions are made whenever the Tribunal thinks it is fitting.",
+  "points": [
+   "The Appellate Tribunal may award costs to cover the legal expenses of a respondent or defaulting party.",
+   "The Tribunal can direct either the appellant or the respondent to pay the litigation costs of the other side.",
+   "Exemplary costs can be imposed on a defaulting party if there is an abuse of the court process."
+  ],
+  "example": "Aarav filed an appeal at Meera Textiles Private Limited's dispute before the National Company Law Appellate Tribunal. The Tribunal found that Aarav was misusing the court process just to delay things. Therefore, the Tribunal ordered Aarav to pay exemplary costs to Meera Textiles Private Limited for abusing the process of court.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher legal body that reviews decisions."
+   },
+   {
+    "term": "Appellant",
+    "meaning": "The person who makes an appeal."
+   },
+   {
+    "term": "Respondent",
+    "meaning": "The person who answers the appeal."
+   }
+  ],
+  "watch": "Do not assume there is a fixed amount or deadline for these costs since the text does not mention any.",
+  "h": "7fc5b6fb4954",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "57": {
+  "summary": "This rule explains how people can check the case records kept by the tribunal. Parties involved in a case or their authorized helpers can apply in writing and pay a fee to see the records. Other people who are not part of the case must get written permission from the Registrar and follow special conditions set by the Chairperson.",
+  "points": [
+   "Parties or their authorized representatives can inspect case records by writing to the Registrar and paying the fee.",
+   "People who are not part of the case can also inspect proceedings if they get written permission from the Registrar.",
+   "Non-parties must follow any terms and conditions set by the Chairperson."
+  ],
+  "example": "Aarav is involved in a legal dispute at the tribunal involving his company, Apex Supplies Private Limited. He wants to read the case files, so he submits a written application and the required fee to the Registrar. Meanwhile, Priya, an independent researcher who is not part of the case, also wants to read the files. Priya must get written permission from the Registrar and follow any special conditions set by the Chairperson before she is allowed to look at the records.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "An official officer who manages the records and administrative work of the tribunal."
+   },
+   {
+    "term": "Authorised representative",
+    "meaning": "A person chosen and permitted by a party to act on their behalf."
+   }
+  ],
+  "watch": "Do not confuse the rules for people who are parties to the case with those who are outsiders, as outsiders need special permission.",
+  "h": "f8c2f93bf017",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "58": {
+  "summary": "This rule explains how a person can look at the records of a case before the Appellate Tribunal. You can only inspect these records if the Registrar gives a specific order for it. This rule applies to both cases that are currently pending and cases that have already been decided.",
+  "points": [
+   "Inspection is allowed for records of pending or decided cases.",
+   "The case records must be before the Appellate Tribunal.",
+   "You must get an order from the Registrar before you can inspect the records."
+  ],
+  "example": "Asha wants to check the records of a decided case at the National Company Law Appellate Tribunal involving her former employer, Zenith Logistics Private Limited. Before she is allowed to inspect these case files, she must obtain an official order from the Registrar granting her permission to do so.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher official body that hears appeals against orders or decisions."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "An officer responsible for keeping and maintaining official records."
+   }
+  ],
+  "watch": "People often think they can inspect court records freely, but an official order from the Registrar is strictly required.",
+  "h": "29c00e4b7730",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "59": {
+  "summary": "This rule explains how to apply to see official records at the tribunal. You must use a specific form and submit it during working hours at least two days before your desired date. The official in charge will review it and make a decision.",
+  "points": [
+   "Use Form NCLAT-3 to apply for record inspection.",
+   "Submit the application at the Registry filing counter between 10.30 AM and 3.00 PM on a working day.",
+   "File the application at least two days before the date you want to inspect the records.",
+   "Inspection for a pending case is usually not allowed on the hearing day or the day right before it."
+  ],
+  "example": "Meera Textiles Private Limited wants to view files for a pending legal case. Rahul visits the filing counter at 11.00 AM on a Tuesday using Form NCLAT-3, asking to see the records three days later. The Registry checks the form and gives it to the Registrar for an order. Because the requested date is not the hearing day or the day before, Rahul followed the proper timing rules.",
+  "terms": [
+   {
+    "term": "Registry",
+    "meaning": "The office or administrative department of the tribunal where documents are filed."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "The official responsible for reviewing applications and passing orders."
+   }
+  ],
+  "watch": "Do not assume you can inspect records on the exact day of a case hearing or the day before it.",
+  "h": "1590c627807d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "60": {
+  "summary": "This rule explains how to pay the fee when you want to inspect records of a case under the National Company Law Appellate Tribunal Rules, 2016. You must pay the amount listed in the schedule of fees. The payment is made using a Demand Draft or Indian Postal Order.",
+  "points": [
+   "Fee must be paid as per the schedule attached to the rules.",
+   "Payment can be made by Demand Draft or Indian Postal Order.",
+   "The payment must be drawn in favor of the Pay and Accounts Officer, Ministry of Corporate Affairs, New Delhi.",
+   "This applies to any application to inspect records of a pending or decided case."
+  ],
+  "example": "Aarav wants to inspect the records of a decided case involving his former employer, Zenith Enterprises Private Limited, at the tribunal. To do this, he checks the official schedule to find the required fee amount. He then goes to his bank and gets a Demand Draft drawn in favor of the Pay and Accounts Officer, Ministry of Corporate Affairs, New Delhi, which he submits with his inspection application.",
+  "terms": [
+   {
+    "term": "Demand Draft",
+    "meaning": "A prepaid negotiable instrument issued by a bank to guarantee the transfer of funds."
+   },
+   {
+    "term": "Indian Postal Order",
+    "meaning": "A prepaid postal money order used for making payments."
+   }
+  ],
+  "watch": "Do not make the Demand Draft or Postal Order in favor of anyone other than the Pay and Accounts Officer, Ministry of Corporate Affairs, New Delhi.",
+  "h": "8c526c59abcb",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "61": {
+  "summary": "This rule explains how a person can inspect court records after getting permission. The Deputy Registrar will set a specific date and time for the check, which must happen in front of an authorized officer. The person checking must take good care of the papers and cannot damage or mark them.",
+  "points": [
+   "Inspection happens on a fixed date and time between 10.30 AM and 12.30 PM or 2.30 PM and 4.30 PM.",
+   "An authorized officer must be present during the entire inspection.",
+   "You cannot damage, dislocate, or write on the records.",
+   "Any notes must be taken using a pencil only.",
+   "The supervising officer can stop the inspection immediately if rules are broken or records might be damaged."
+  ],
+  "example": "Aarav got permission to check the files of Rohan Enterprises Private Limited at the tribunal. On the permitted day, an authorized officer seated Aarav at a desk between 10.30 AM and 12.30 PM. Aarav wanted to highlight some important sentences, but the officer reminded him that he must use only a pencil for notes. Aarav followed the rule, took his notes carefully without damaging any paper, and completed his check safely.",
+  "terms": [
+   {
+    "term": "Deputy Registrar",
+    "meaning": "An administrative officer who helps manage court records and procedures."
+   },
+   {
+    "term": "Mulation",
+    "meaning": "Tearing, cutting, or damaging a document so that it is ruined."
+   }
+  ],
+  "watch": "Remember that taking notes in pen is strictly not allowed; you must only use a pencil.",
+  "h": "35789a70fcd1",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "62": {
+  "summary": "This rule explains how records and documents are checked at the tribunal. The Deputy Registrar must keep a special register for these inspections. After someone finishes checking the documents, they must sign both this register and their original application.",
+  "points": [
+   "The Deputy Registrar must maintain a register for document inspections.",
+   "People who inspect documents must sign the register when they finish.",
+   "Those same people must also sign their inspection application at the end."
+  ],
+  "example": "Aarav visits the tribunal office to check some company records for a college project about Meera Textiles Private Limited. He fills out an application and looks at the requested documents. Once Aarav finishes checking everything, the Deputy Registrar asks him to sign both the inspection application and the official register to prove he completed the inspection.",
+  "terms": [
+   {
+    "term": "Deputy Registrar",
+    "meaning": "An official officer who helps manage tribunal records and administrative work."
+   },
+   {
+    "term": "Inspection",
+    "meaning": "The act of carefully looking at official documents or records."
+   }
+  ],
+  "watch": "People sometimes confuse the signature required on the register with the initial application fee, but the rule only asks for a signature.",
+  "h": "fe8e2253c5c3",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "64": {
+  "summary": "This rule explains how professionals show they have permission to represent someone in court. An advocate must submit a specific document called a Vakalatnama. Other professionals like accountants or company secretaries must submit a Memorandum of Appearance.",
+  "points": [
+   "Advocates must submit a Vakalatnama when appearing for a party.",
+   "Chartered accountants, company secretaries, and cost accountants must submit a Memorandum of Appearance."
+  ],
+  "example": "Meera Textiles Private Limited hired Advocate Rahul to represent them at the Tribunal. Because Rahul is an advocate, he submitted a Vakalatnama to show his engagement. Later, the company also engaged a chartered accountant, Amit, for financial matters. Amit submitted a Memorandum of Appearance to officially show he was appearing for the company.",
+  "terms": [
+   {
+    "term": "Advocate",
+    "meaning": "A lawyer who is legally qualified to represent clients in court."
+   },
+   {
+    "term": "Vakalatnama",
+    "meaning": "A written document by which a client gives an advocate the authority to represent them."
+   }
+  ],
+  "watch": "Do not confuse the Vakalatnama used by advocates with the Memorandum of Appearance used by other professionals.",
+  "h": "c3787ec26411",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "65": {
+  "summary": "This rule is about who can speak in front of the Appellate Tribunal. If a party hires an authorised representative to appear for them, they cannot speak in person themselves. They can only speak if the Appellate Tribunal gives them special permission.",
+  "points": [
+   "You cannot speak in person if you hired an authorised representative.",
+   "The rule applies to appearances before the Appellate Tribunal.",
+   "You may only speak if the Appellate Tribunal allows it."
+  ],
+  "example": "Aarav runs a business called Aarav Solutions Private Limited and hires a legal representative to appear for him before the Appellate Tribunal. During the hearing, Aarav wants to speak directly to the members of the Tribunal. However, the rule says he is not entitled to be heard in person because he has an authorised representative, unless the Appellate Tribunal gives him permission to do so.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A high-level forum where decisions from a lower authority can be challenged."
+   },
+   {
+    "term": "Authorised representative",
+    "meaning": "A person chosen and permitted to act and speak on behalf of another party."
+   }
+  ],
+  "watch": "People often assume they can speak whenever they want, but hiring a representative takes away the right to speak in person without permission.",
+  "h": "ec743e446206",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "66": {
+  "summary": "This rule explains what clothes an authorised representative must wear when appearing before the Appellate Tribunal. They need to wear the professional dress that is set out in their specific Code of Conduct. The provided text is very brief and does not mention any other details.",
+  "points": [
+   "Applies to an authorised representative appearing before the Appellate Tribunal.",
+   "Must wear the professional dress prescribed in their Code of Conduct."
+  ],
+  "example": "Advocate Rohan represents Alpha Ventures Private Limited before the Appellate Tribunal. Before heading to the hearing, Rohan checks his professional Code of Conduct to ensure he wears the exact professional dress required by his governing body, strictly following the rule.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher body that reviews decisions."
+   },
+   {
+    "term": "Authorised representative",
+    "meaning": "A person allowed to act and speak on behalf of someone else."
+   }
+  ],
+  "watch": "Do not assume this rule prescribes a specific uniform like a black gown unless your own Code of Conduct requires it.",
+  "h": "54d77b1cdeb7",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "67": {
+  "summary": "This rule explains how an affidavit must be named before it is used in a proceeding. Every such document must start with a specific heading. This ensures uniformity in legal paperwork.",
+  "points": [
+   "Every affidavit must start with the title Before the National Company Law Appellate Tribunal.",
+   "The main title must be followed by the cause title of the specific application or proceeding."
+  ],
+  "example": "Meera Textiles Private Limited is filing an application before the National Company Law Appellate Tribunal. When preparing the written statement under oath, the company's legal representative ensures the paper starts with the heading Before the National Company Law Appellate Tribunal, followed by the specific title of their application so the Tribunal can easily identify which case the document belongs to.",
+  "terms": [
+   {
+    "term": "Affidavit",
+    "meaning": "A written statement confirmed by oath or affirmation for use as evidence."
+   },
+   {
+    "term": "Cause title",
+    "meaning": "The heading of a legal document that shows the names of the parties involved in the case."
+   }
+  ],
+  "watch": "Do not forget to include both the mandatory tribunal heading and the specific cause title of your proceeding.",
+  "h": "0318aa831488",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "68": {
+  "summary": "This rule explains how an affidavit must be prepared for the tribunal. It states that the written statement must follow a specific form and meet certain legal standards. No extra details or timelines are provided in the text.",
+  "points": [
+   "The affidavit must follow Form NCLAT-4.",
+   "It must also conform to the requirements of order XIX, rule 3 of the Civil Procedure Code, 1908."
+  ],
+  "example": "Meera Textiles Private Limited is filing a case in the tribunal and needs to submit an affidavit. To do this correctly, the company ensures the document strictly follows Form NCLAT-4. They also make sure the contents meet the standards required by order XIX, rule 3 of the Civil Procedure Code, 1908, as mandated by the rules.",
+  "terms": [
+   {
+    "term": "Affidavit",
+    "meaning": "A written statement confirmed by oath or affirmation for use as evidence."
+   },
+   {
+    "term": "Conform",
+    "meaning": "To comply with rules, standards, or laws."
+   }
+  ],
+  "watch": "Do not confuse this form with other general legal documents not mentioned in the text.",
+  "h": "e2782542577f",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "69": {
+  "summary": "This rule explains who has the power to witness and verify affidavits. An affidavit is a written statement confirmed by oath. Such documents must be sworn or affirmed before an authorised person who will then place their official seal on it.",
+  "points": [
+   "Affidavits need to be sworn or affirmed.",
+   "They must be done before an Advocate or Notary.",
+   "The person witnessing must affix their official seal."
+  ],
+  "example": "Aarav needs to submit an affidavit for a company matter involving his business, Sharma Enterprises Private Limited. He takes the written statement to a registered Notary. The Notary has Aarav swear that the contents are true. After Aarav signs the paper, the Notary affixes his official seal on it to complete the verification process correctly.",
+  "terms": [
+   {
+    "term": "Affidavit",
+    "meaning": "A written statement confirmed by oath or affirmation for use as evidence."
+   },
+   {
+    "term": "Notary",
+    "meaning": "A public officer authorised to attest signatures and administer oaths."
+   }
+  ],
+  "watch": "Do not forget that the person witnessing the affidavit must also add their official seal.",
+  "h": "56641e77bbf5",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "70": {
+  "summary": "This rule explains what must happen when someone who cannot read, cannot see well, or does not know the language signs a legal statement called an affidavit. The person who witnesses the signing must read or translate the statement out loud and confirm that the signer understood it. The signer then makes their mark or signature while the witness is present.",
+  "points": [
+   "Applies to affidavits sworn by illiterate, visually challenged, or language-unacquainted persons.",
+   "The document must be in Form NCLAT-5.",
+   "The witness must certify that the affidavit was read, explained, or translated to the person.",
+   "The person must sign or make a mark in the presence of the witness."
+  ],
+  "example": "Rohan, who is visually challenged, needs to submit an affidavit for his case involving Sunrise Trading Private Limited. Because he cannot read the standard text, the attestor reads the entire affidavit aloud to him in his native language. Rohan listens carefully, understands the contents, and makes his signature on the document in Form NCLAT-5 right in front of the attestor.",
+  "terms": [
+   {
+    "term": "affidavit",
+    "meaning": "A written statement confirmed by oath or affirmation for use as evidence in court."
+   },
+   {
+    "term": "deponent",
+    "meaning": "The person who makes an affidavit."
+   },
+   {
+    "term": "attestor",
+    "meaning": "The person who witnesses the signing of a document."
+   }
+  ],
+  "watch": "Make sure the witness actually reads or translates the document and certifies it, rather than just having the person sign blindly.",
+  "h": "c3beb57f6695",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "71": {
+  "summary": "This rule explains how to confirm the identity of a person making a statement, known as a deponent. If the person taking the statement does not know them, someone else who knows them must confirm their identity. This verifying person must also sign the document.",
+  "points": [
+   "Applies when the deponent is not known to the attestor.",
+   "Identity must be testified by someone who knows the deponent.",
+   "The person who identifies the deponent must sign the document."
+  ],
+  "example": "Meera needs to submit a signed statement for a case involving Meera Textiles Private Limited. The official attesting the document does not know Meera. To solve this, Rohit, who knows Meera well, steps forward to confirm her identity. Rohit proves who she is and signs the document as the person identifying her, successfully completing the requirement under the rule.",
+  "terms": [
+   {
+    "term": "deponent",
+    "meaning": "A person who makes an official statement."
+   },
+   {
+    "term": "attestor",
+    "meaning": "The official who witnesses a signature or statement."
+   }
+  ],
+  "watch": "Do not assume any specific form of ID is required, as the text only mentions testimony by a known person.",
+  "h": "044018c9f6e0",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "72": {
+  "summary": "This rule explains how to attach documents to an affidavit, which is a written statement confirmed by oath. When you mention a document in your affidavit, you must label it with an annexure number. The person who witnesses and verifies the document must also sign it and write their name and title.",
+  "points": [
+   "Documents with an affidavit must be called an Annexure number.",
+   "The attestor must endorse the document with its Annexure number.",
+   "The attestor must sign the document and write their name and designation."
+  ],
+  "example": "Meera Textiles Private Limited submitted an affidavit for a court case. The manager attached a copy of a supply contract to support their claim. Following the rule, they labeled the contract as Annexure 1 inside the text. The attestor then endorsed the paper by writing the matching Annexure number, signing their name, and adding their official designation below the signature.",
+  "terms": [
+   {
+    "term": "Affidavit",
+    "meaning": "A written statement confirmed by oath or affirmation for use as evidence."
+   },
+   {
+    "term": "Annexure",
+    "meaning": "A document attached to a larger report or legal paper for reference."
+   },
+   {
+    "term": "Attestor",
+    "meaning": "The person who witnesses the signing of a document and signs it to confirm."
+   }
+  ],
+  "watch": "Do not forget to write your name and designation along with your signature on the attached document.",
+  "h": "396e337b01c2",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "73": {
+  "summary": "This rule explains how documents are requested and handled during legal proceedings. Usually, the standard rules of civil procedure apply to getting and returning documents. If you need someone to bring documents, you must file a plain paper application explaining why they are needed.",
+  "points": [
+   "Document discovery and production generally follow the Code of Civil Procedure, 1908.",
+   "A request for a document summons must be made on plain paper.",
+   "The request must state which documents are wanted and why they are relevant.",
+   "If public officer documents are needed, the summons goes to the Head of the Department or specified authority."
+  ],
+  "example": "In a dispute involving Apex Trading Private Limited, Rahul wants certain official records to prove his case. He files an application on plain paper to the tribunal. He lists the exact papers he needs and explains why they matter to the case. Since some records are held by a government office, the tribunal addresses the summons to the head of that specific government department as required by the rules.",
+  "terms": [
+   {
+    "term": "discovery",
+    "meaning": "The legal process where parties involved in a case share or reveal relevant documents and information."
+   },
+   {
+    "term": "summons",
+    "meaning": "An official order requiring a person to appear or to bring requested documents to a tribunal or court."
+   },
+   {
+    "term": "relevancy",
+    "meaning": "How closely related and important a piece of evidence is to the matters being decided in the case."
+   }
+  ],
+  "watch": "Do not assume a special official form is required, because the rule specifically allows the application to be written on plain paper.",
+  "h": "56dbf9c2fd84",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "74": {
+  "summary": "The rule allows the Appellate Tribunal to ask for public documents or documents held by public officers on its own. It can do this by using a specific form called Form NCLAT-6. This power applies even if other rules say differently.",
+  "points": [
+   "The Appellate Tribunal can act on its own without waiting for a request.",
+   "It can issue summons for public documents or documents with a public officer.",
+   "The official form to use for this is Form NCLAT-6."
+  ],
+  "example": "In a case at Apex Trading Private Limited before the Appellate Tribunal, the judges needed to check a government clearance paper. Even though neither the company nor the opponent asked for it, the Tribunal decided to act on its own. Using Form NCLAT-6, the Tribunal issued a summons to the local public officer to produce the required document for the court proceedings.",
+  "terms": [
+   {
+    "term": "suo motu",
+    "meaning": "an action taken by a court or tribunal on its own accord without anyone asking"
+   },
+   {
+    "term": "summons",
+    "meaning": "an official order to produce a document or appear somewhere"
+   }
+  ],
+  "watch": "Do not confuse this with a party to a case asking for documents, as this rule allows the Tribunal to act entirely on its own.",
+  "h": "da588b82562c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "75": {
+  "summary": "This rule explains how documents are marked in the Appellate Tribunal. Documents used by the appellant or petitioner are marked as A series, while those used by the respondent are marked as B series. Tribunal exhibits are marked as C series, and the Tribunal may also ask the applicant to pay for sending records.",
+  "points": [
+   "Documents from the appellant or petitioner are numbered as A series.",
+   "Documents from the respondent are marked as B series.",
+   "Tribunal exhibits are marked as C series.",
+   "The applicant may need to pay transmission expenses using a Demand Draft or Indian Postal Officer."
+  ],
+  "example": "Meera Textiles Private Limited filed an appeal at the Appellate Tribunal. During the hearing, Meera Textiles presented several papers to support its case, which the Tribunal marked as A series. The opposing party, Apex Industries Limited, submitted its own records, and these were marked as B series. Meanwhile, the official Tribunal exhibits were marked as C series. To cover the cost of sending the records before the summons was issued, the Tribunal directed Meera Textiles to deposit a sufficient sum using a Demand Draft drawn in favour of the Pay and Accounts Officer.",
+  "terms": [
+   {
+    "term": "Appellant",
+    "meaning": "The person or company who makes an appeal."
+   },
+   {
+    "term": "Respondent",
+    "meaning": "The party who answers the appeal."
+   },
+   {
+    "term": "Exhibit",
+    "meaning": "A document produced as evidence in the Tribunal."
+   }
+  ],
+  "watch": "Make sure not to confuse who submits the documents, as A series belongs to the appellant or petitioner and B series belongs to the respondent.",
+  "h": "9add223cae4a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "76": {
+  "summary": "This rule explains how documents produced in the Appellate Tribunal can be returned. People can ask to get back their documents, but usually only after the records are destroyed. However, the Tribunal can also choose to return documents at any time with certain conditions.",
+  "points": [
+   "You must file a numbered application to get back documents you produced.",
+   "Requests to return documents are generally handled after the records are destroyed.",
+   "The Appellate Tribunal has the power to order the return of documents at any time under its own conditions."
+  ],
+  "example": "Aarav filed a case at the National Company Law Appellate Tribunal through his company, Aarav Steel Private Limited, and submitted original documents. Later, he wanted those papers back. He submitted a numbered application to the Tribunal. Since the Tribunal records were not yet destroyed, Aarav worried he could not get them. However, the Tribunal decided to use its power and directed the return of the documents immediately, subject to specific conditions set by the Tribunal.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher official body that reviews decisions and hears appeals."
+   },
+   {
+    "term": "Application",
+    "meaning": "A formal written request asking for something."
+   }
+  ],
+  "watch": "People often assume documents can be taken back at any time, but normally you must wait until the records are destroyed unless the Tribunal orders otherwise.",
+  "h": "144b2aab2934",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "78": {
+  "summary": "The provided text is extremely short and only gives a basic power to the Appellate Tribunal. It simply states that the Tribunal can choose to examine a witness in camera if it wants to. There are no extra details, rules, or conditions provided in the text.",
+  "points": [
+   "The Appellate Tribunal has the power to examine witnesses.",
+   "This examination can be done in camera.",
+   "Using this power is entirely at the discretion of the Tribunal."
+  ],
+  "example": "During a hearing at the National Company Law Appellate Tribunal involving Meera Textiles Private Limited, a sensitive trade secret is about to be discussed by a witness. The Tribunal uses its power to examine the witness in a private setting rather than an open courtroom to protect confidential business information.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher legal body that hears appeals against orders or decisions."
+   },
+   {
+    "term": "in camera",
+    "meaning": "In private, without the general public or media present."
+   }
+  ],
+  "watch": "Do not assume this rule applies to all witnesses automatically, as it is entirely up to the Tribunal's choice.",
+  "h": "8cb27c2f8aff",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "79": {
+  "summary": "This rule tells us what a witness must say before giving evidence. The witness must promise to tell the whole truth. They can do this by swearing in the name of God or by making a solemn affirmation.",
+  "points": [
+   "An oath or affirmation must be given to every witness.",
+   "The witness must state that they will tell the truth.",
+   "The statement must include the whole truth and nothing but the truth."
+  ],
+  "example": "Aarav is called to give evidence at the National Company Law Appellate Tribunal on behalf of Meera Textiles Private Limited. Before he speaks about the company's case, the Tribunal administers the oath. Aarav solemnly affirms that what he shall state shall be the truth, the whole truth, and nothing but the truth.",
+  "terms": [
+   {
+    "term": "Oath",
+    "meaning": "A solemn promise, often in the name of God, to tell the truth."
+   },
+   {
+    "term": "Affirmation",
+    "meaning": "A formal and serious declaration that tells the truth, used as an alternative to an oath."
+   }
+  ],
+  "watch": "",
+  "h": "8e0d3187b2b5",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "80": {
+  "summary": "This rule explains the exact oath or affirmation that must be given to an interpreter before they help examine a witness. The interpreter must promise to faithfully interpret questions and evidence, and translate documents correctly. It ensures that translation in the tribunal is accurate.",
+  "points": [
+   "An oath or solemn affirmation is given to the interpreter.",
+   "This must happen before the interpreter assists in examining a witness.",
+   "The interpreter must promise to truly interpret and explain questions and evidence.",
+   "The interpreter must also promise to correctly and accurately translate all documents given to them."
+  ],
+  "example": "Before the hearing begins at the National Company Law Appellate Tribunal, Rohan is appointed as an interpreter for a witness at Mehta Enterprises Private Limited. The tribunal officer administers the official oath to Rohan. Rohan swears in the name of God that he will faithfully and truly interpret all questions and evidence, and correctly translate all documents given to him for the case.",
+  "terms": [
+   {
+    "term": "Oath or solemn affirmation",
+    "meaning": "A formal, serious promise made before God or on one's honor to tell the truth and perform a duty faithfully."
+   },
+   {
+    "term": "Interpreter",
+    "meaning": "A person who translates spoken words from one language to another."
+   }
+  ],
+  "watch": "A common confusion is whether the interpreter can choose their own wording, but they must strictly promise to translate correctly and accurately as prescribed.",
+  "h": "ed2bd85318f0",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "81": {
+  "summary": "The text states who is allowed to administer an oath or affirmation. This duty must be performed by the Branch Officer or the Court Master. The text does not provide further details.",
+  "points": [
+   "An oath or affirmation must be administered.",
+   "The Branch Officer is authorized to do this.",
+   "The Court Master is also authorized to do this."
+  ],
+  "example": "During a case at the tribunal involving Beta Solutions Private Limited, a witness needed to take an oath before speaking. The presiding official asked the designated staff member to handle this duty. Accordingly, the Court Master stepped forward and administered the oath to the witness, ensuring the procedure followed the required rules.",
+  "terms": [
+   {
+    "term": "Oath or affirmation",
+    "meaning": "A solemn promise to tell the truth."
+   },
+   {
+    "term": "Branch Officer",
+    "meaning": "An official working at the office or branch."
+   },
+   {
+    "term": "Court Master",
+    "meaning": "An officer who assists with work in the court or tribunal."
+   }
+  ],
+  "watch": "Do not assume other officers can administer the oath since only the Branch Officer or Court Master are named.",
+  "h": "43ceec66064c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "82": {
+  "summary": "This rule explains how a witness's statement is recorded by the National Company Law Appellate Tribunal. The statement is written down in a specific official form and checked page by page by the Members of the Bench. Any changes requested by the witness are either made with approval or noted down if the Bench disagrees.",
+  "points": [
+   "The statement of a witness must be recorded in Form NCLAT-7.",
+   "Every single page of the statement needs to be initialed by the Members of the Bench.",
+   "If the witness wants corrections made, the Bench can make them if satisfied, and initial them.",
+   "If the Bench is not satisfied with the correction request, a note about it is added at the bottom of the statement."
+  ],
+  "example": "During a hearing at the tribunal involving Meera Textiles Private Limited, a witness gives a testimony. The clerk writes down the statement using Form NCLAT-7. After it is finished, the presiding Members initial every page of the document. The witness notices a small error in the spelling of a name and points it out. The Bench agrees and fixes it, adding their initials next to the change. The witness points out another change that the Bench refuses, so the Bench writes a short note about it at the bottom.",
+  "terms": [
+   {
+    "term": "Deposition",
+    "meaning": "A witness's official statement written down for use in a legal proceeding."
+   },
+   {
+    "term": "Initial",
+    "meaning": "To sign a document using only the first letters of one's name."
+   },
+   {
+    "term": "Bench",
+    "meaning": "The judges or members presiding over the tribunal."
+   }
+  ],
+  "watch": "Do not assume the witness can make any change they want without the approval of the Bench.",
+  "h": "c485f8a9892e",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "83": {
+  "summary": "This rule explains how witnesses must be numbered when people present their case in court. Witnesses called by the person filing the case are labeled as PWs. Witnesses called by the other side are labeled as RWs.",
+  "points": [
+   "Witnesses for the applicant or petitioner get numbered consecutively as PWs.",
+   "Witnesses for the respondents get numbered consecutively as RWs."
+  ],
+  "example": "Meera Textiles Private Limited filed a case against Apex Industries Limited. During the hearings, Meera Textiles called two people to speak on its behalf. Following the rules, these two witnesses were numbered consecutively as PW1 and PW2. Apex Industries Limited then called one person to answer the claims, and that person was labeled as RW1. This simple numbering system helped everyone in the tribunal keep track of who each witness was speaking for during the legal proceedings.",
+  "terms": [
+   {
+    "term": "Applicant",
+    "meaning": "The person or company that formally asks the tribunal for something by filing a case."
+   },
+   {
+    "term": "Respondent",
+    "meaning": "The person or company that has to answer the case filed against them."
+   }
+  ],
+  "watch": "Do not confuse which label to use; applicant witnesses are always PWs and respondent witnesses are always RWs.",
+  "h": "9e7526b86d6d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "84": {
+  "summary": "The provided text is extremely short and only explains a basic administrative action. It states that the Registrar can give a specific form to a witness who has been discharged by the Appellate Tribunal. There are no additional details provided in the text.",
+  "points": [
+   "A witness must be discharged by the Appellate Tribunal.",
+   "The Registrar may grant a certificate to this witness.",
+   "The certificate is issued in Form NCLAT-8."
+  ],
+  "example": "Aarav attended a hearing at the National Company Law Appellate Tribunal as a witness for Stellar Foods Private Limited. After he finished answering all the questions, the Appellate Tribunal officially discharged him. Later, the Registrar of the Tribunal provided Aarav with a certificate using Form NCLAT-8 to confirm he has been discharged.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher official body that reviews decisions."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "An official who keeps records and handles administrative tasks."
+   },
+   {
+    "term": "Discharged",
+    "meaning": "Released or excused from further duty or attendance."
+   }
+  ],
+  "watch": "Do not assume this certificate is automatically given without the witness first being discharged by the Appellate Tribunal.",
+  "h": "7b0e1ab5ddf3",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "85": {
+  "summary": "This rule explains how witnesses and interpreters get paid for travel and expenses when called by the National Company Law Appellate Tribunal. Government servants follow their own service rules, while others receive an amount decided by the Registrar. The person asking for the witness must deposit this estimated money in advance.",
+  "points": [
+   "Government servants summoned as witnesses get travelling and daily allowances as per their government rules.",
+   "If the employer does not pay such allowances, the Registrar decides a sufficient amount based on the witness status.",
+   "The party asking for the summons must deposit the estimated allowance amount with the Registrar before issuance.",
+   "If the court summons the witness itself, the Tribunal directs how the estimated amount is paid.",
+   "These exact same payment rules also apply to interpreters."
+  ],
+  "example": "Meera Textiles Private Limited was involved in a case at the Appellate Tribunal and needed an expert witness to produce documents. Since the witness did not get travel pay from an employer, the Registrar calculated a fair amount to cover travel and other expenses. Meera Textiles Private Limited had to deposit this estimated money with the Registrar before the summons could be issued. If the Tribunal had called the witness on its own, the payment would be made according to the Tribunal instructions.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher authority or court that reviews decisions made by lower bodies."
+   },
+   {
+    "term": "Summons",
+    "meaning": "An official order to appear in person or produce documents."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "An official of the Tribunal who handles administrative tasks like managing deposits and estimates."
+   }
+  ],
+  "watch": "People often think the witness is paid directly by the opposing party, but the money must be deposited with the Registrar in advance.",
+  "h": "529fdba28e15",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "86": {
+  "summary": "The rules explain how the Appellate Tribunal shares case records with the Commissioner. The Tribunal only sends what is necessary, and usually uses copies instead of originals. Everything must be delivered and returned safely with proper written proof.",
+  "points": [
+   "The Appellate Tribunal gives the Commissioner the case records needed for the job.",
+   "Original documents are only sent if copies cannot be used or are too expensive and slow to get.",
+   "Records must always be delivered and returned with a proper acknowledgment."
+  ],
+  "example": "Meera Textiles Private Limited is involved in a case at the Appellate Tribunal. The Commissioner needs to review the case details. Instead of taking the delicate original paper files, the Tribunal makes copies and sends them. For one specific verification, an original signed deed is required because a copy will not work. When the Tribunal sends this original document to the Commissioner, and later when the Commissioner sends it back, both handovers are done with a signed written receipt to ensure nothing gets lost.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher official body that reviews decisions and handles legal cases."
+   },
+   {
+    "term": "Commissioner",
+    "meaning": "An official appointed to carry out specific duties under the law."
+   },
+   {
+    "term": "Acknowledgment",
+    "meaning": "A written receipt confirming that something has been safely received."
+   }
+  ],
+  "watch": "Do not assume that original documents are always sent, as copies are preferred unless originals are strictly necessary.",
+  "h": "f546766f8b8d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "87": {
+  "summary": "The text explains a simple rule under the Companies Act for a Commissioner. This official has the power to take a sample of handwriting, a signature, or a fingerprint from any witness who gives evidence before them, if it is necessary. This helps verify the identity or records related to the witness.",
+  "points": [
+   "The Commissioner can take specimen handwriting.",
+   "The Commissioner can take a specimen signature.",
+   "The Commissioner can take a fingerprint.",
+   "This applies to any witness examined before the Commissioner."
+  ],
+  "example": "During a legal inquiry at Meera Textiles Private Limited, a witness named Mr. Sharma gave testimony before the Commissioner. To verify the records correctly, the Commissioner found it necessary to collect samples. Following the rules, the Commissioner successfully took a specimen of Mr. Sharma's signature and fingerprint during the proceedings.",
+  "terms": [
+   {
+    "term": "Commissioner",
+    "meaning": "An official appointed to conduct an inquiry or take evidence."
+   },
+   {
+    "term": "Specimen",
+    "meaning": "A sample used for testing or comparison."
+   }
+  ],
+  "watch": "A common confusion is whether anyone besides the Commissioner can take these samples, but the rule specifically gives this power to the Commissioner.",
+  "h": "49187dff3fd2",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "88": {
+  "summary": "This rule simply states how the Appellate Tribunal must give its final decision on any appeal or case before it. The decision is to be delivered as a Judgment. It applies to the National Company Law Appellate Tribunal Rules, 2016.",
+  "points": [
+   "The Appellate Tribunal makes a final decision on an appeal or proceedings.",
+   "This final decision must be delivered as a Judgment."
+  ],
+  "example": "A company named Meera Textiles Private Limited has a legal case running before the Appellate Tribunal. After reviewing the arguments, the Tribunal is ready to conclude the case. According to the rules, the Tribunal officially delivers its final decision by issuing a Judgment.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher body that reviews decisions made by lower authorities."
+   },
+   {
+    "term": "Judgment",
+    "meaning": "The official final decision given by a court or tribunal."
+   }
+  ],
+  "watch": "Do not confuse this rule with rules about how an appeal is filed, as this only covers how the final decision is delivered.",
+  "h": "ebc7d54cfaa6",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "89": {
+  "summary": "This rule explains how the final decisions of a Tribunal bench must be written down. It ensures that the core ruling is easy to find. Every order or direction must appear clearly in the final paragraph.",
+  "points": [
+   "All decisions must be in clear and precise terms.",
+   "The final paragraph must contain the operative portion.",
+   "This rule applies to orders and directions of the Bench."
+  ],
+  "example": "Meera Textiles Private Limited filed an appeal before the Tribunal bench. After hearing all the arguments, the bench decided the case. To follow the rules, the judges made sure that their final decision and all directions were written down in clear and precise terms in the very last paragraph of the order document.",
+  "terms": [
+   {
+    "term": "Bench",
+    "meaning": "A panel of judges or legal officers hearing a case."
+   },
+   {
+    "term": "Operative portion",
+    "meaning": "The main part of an order that states what must actually be done."
+   }
+  ],
+  "watch": "Do not look for the final decision in the middle of the document, as the rule requires it to be at the very end.",
+  "h": "2cd1bf263419",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "90": {
+  "summary": "This rule explains how corrections are handled in official orders. The specific Member of the Bench who writes the order must sign off on any changes. They do this by putting their initials on the corrections and at the bottom of every page.",
+  "points": [
+   "The order must be prepared by a Member of the Bench.",
+   "That same Member must initial all corrections made in the text.",
+   "The Member must also place their initials at the bottom of each page."
+  ],
+  "example": "Meera Textiles Private Limited is involved in a legal dispute. After the hearing, a Bench Member named Justice Rao prepares the final order. While reviewing the document, Justice Rao notices a small typo in the company name and corrects it. Following the rules, Justice Rao initials right next to the corrected typo and also puts his initials at the bottom of every single page of the order.",
+  "terms": [
+   {
+    "term": "Member of the Bench",
+    "meaning": "An official judge or officer who sits on the tribunal to hear and decide cases."
+   },
+   {
+    "term": "initial",
+    "meaning": "To write the first letters of one's name as a quick signature."
+   }
+  ],
+  "watch": "People often think any office staff can fix mistakes in an order, but only the specific Member who prepared it can make and initial the corrections.",
+  "h": "44f847f97bc3",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "91": {
+  "summary": "This rule explains how the Appellate Tribunal announces its decisions. It says the decision should normally be read right after the hearing ends, or notified in a cause list if it is delayed. Reading just the main working part of the order in an open court is considered the official announcement.",
+  "points": [
+   "The tribunal tries to announce the order immediately after the hearing ends.",
+   "If orders are kept pending for later, the announcement date is put in the cause list.",
+   "The cause list notice serves as a valid intimation of the order being announced.",
+   "Reading only the operative portion in open court counts as the official pronouncement."
+  ],
+  "example": "In a dispute involving Meera Textiles Private Limited, the hearing at the Appellate Tribunal ended today. Instead of announcing the decision immediately, the judges kept the order reserved. A few days later, the date for the announcement was officially published in the cause list. On that scheduled day, the tribunal read out only the operative portion of the order in the open court, which completed the official announcement process as required by the rules.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher forum that reviews decisions."
+   },
+   {
+    "term": "Cause list",
+    "meaning": "An official schedule or list of cases to be heard or announced."
+   },
+   {
+    "term": "Operative portion",
+    "meaning": "The main working part of the decision that states what needs to be done."
+   }
+  ],
+  "watch": "People often think the entire order must be read aloud, but reading just the main working part in open court is enough.",
+  "h": "c800ec120fe3",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "92": {
+  "summary": "This rule allows any single member of the Appellate Tribunal to announce a final decision for the whole Bench. When this happens, a staff member called the Court Master must write a note in the official file. This note states that the decision was read out in open court on behalf of the entire Bench.",
+  "points": [
+   "Any one member can read out the order for the whole Bench.",
+   "The Court Master must record this event in the order sheet.",
+   "The note must confirm that the order was pronounced in open court."
+  ],
+  "example": "Meera Textiles Private Limited had a pending case at the Appellate Tribunal. On the day of the final decision, only one Member of the Bench was present in the courtroom. That single Member read out the order on behalf of the whole Bench. Immediately after, the Court Master wrote a note in the official order sheet confirming that the Bench's order was announced in open court.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher official body that hears appeals against lower decisions."
+   },
+   {
+    "term": "Pronounce",
+    "meaning": "To officially and formally announce a decision out loud."
+   },
+   {
+    "term": "Court Master",
+    "meaning": "An official helper in the court who manages records and notes."
+   }
+  ],
+  "watch": "Do not assume that every member of the Bench needs to be present to read out the final order.",
+  "h": "e8082e86efd6",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "93": {
+  "summary": "This rule explains what happens when the judges who heard a case are gone or unavailable to read out the final decision. The Chairperson can ask another judge to read out the decision if it was already prepared and signed. However, if a judge cannot sign the order because of death, retirement, resignation, or another reason, the case must be heard all over again.",
+  "points": [
+   "The Chairperson can authorize any Member to pronounce an order if the original Bench members are unavailable or left.",
+   "The authorized Member must check that the order was already prepared and signed by the original Bench.",
+   "The authorized Member must sign the order sheet and state that they pronounced the order.",
+   "If an order cannot be signed due to death, retirement, resignation, or any other reason, the case is treated as part-heard and listed for a fresh hearing."
+  ],
+  "example": "At the National Company Law Appellate Tribunal, a bench of two Members heard a dispute involving Meera Textiles Private Limited and finished writing their order. Before they could read it out, both Members retired. The Chairperson checked the ready order, verified their signatures, and authorized another Member, Mr. Sharma, to pronounce it. Mr. Sharma read the order in court and signed the order sheet to record that he did so on behalf of the original Bench.",
+  "terms": [
+   {
+    "term": "Bench",
+    "meaning": "A panel of judges or members hearing a case."
+   },
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher body that hears appeals against lower orders or decisions."
+   },
+   {
+    "term": "Pronounce",
+    "meaning": "To officially announce or read out a decision in public."
+   }
+  ],
+  "watch": "Do not confuse simply reading out a signed order with a fresh hearing, which only happens if the original members could not even sign it.",
+  "h": "cf344ecbcb6a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "94": {
+  "summary": "This rule explains what the Court Master must do right after the Appellate Tribunal announces an order. The Court Master must write important details on the case file and record them in the court diary. These details include the date, how the case was disposed of, and which members made up the Bench.",
+  "points": [
+   "The Court Master must act immediately when an order is pronounced.",
+   "An endorsement must be made on the case file with specific details.",
+   "Entries must be updated in the official court diary."
+  ],
+  "example": "In a dispute involving Alpha Logistics Private Limited and Beta Transports Private Limited, the Appellate Tribunal finally announces its order. Straight away, the Court Master takes the case file and writes down the date of the decision, how the matter was disposed of, and the names of the judges on the Bench. Finally, the Court Master records these exact details in the court diary.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher body that hears appeals against orders."
+   },
+   {
+    "term": "Court Master",
+    "meaning": "An official who manages court records and assists during hearings."
+   },
+   {
+    "term": "Disposal",
+    "meaning": "The final conclusion or settlement of a case."
+   }
+  ],
+  "watch": "Do not confuse this with the judges writing the order, as this rule only applies to the Court Master recording the details after the order is announced.",
+  "h": "f9e5bfa48443",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "95": {
+  "summary": "This rule explains how an official order moves inside the tribunal after it is pronounced. First, the Court Master sends the order and case file to the Deputy Registrar. Next, the Deputy Registrar checks that all rules were followed and signs the file, before sending it to the Registry to make and send copies to the parties.",
+  "points": [
+   "The Court Master sends the order and case file to the Deputy Registrar right after pronouncing the order.",
+   "The Deputy Registrar checks the file to ensure the rules were followed and initials it with the date.",
+   "The Deputy Registrar then sends the case file and order to the Registry for making and sharing copies with the parties."
+  ],
+  "example": "After a hearing involving Alpha Beta Private Limited, the Court Master immediately hands the order and case file to the Deputy Registrar. The Deputy Registrar carefully reviews the file to ensure every rule was followed, then marks their initials and the date on the cover. Finally, the Deputy Registrar sends the file to the Registry so that official copies can be prepared and sent to the parties involved in the case.",
+  "terms": [
+   {
+    "term": "Court Master",
+    "meaning": "An official who assists the judge or tribunal during court proceedings and handles case files."
+   },
+   {
+    "term": "Deputy Registrar",
+    "meaning": "An administrative officer in the tribunal who helps manage case records and checks rules."
+   },
+   {
+    "term": "Registry",
+    "meaning": "The administrative office of the tribunal that handles paperwork, files, and sends copies to parties."
+   }
+  ],
+  "watch": "Remember that this rule only covers the internal movement of files between tribunal staff, not what the parties must do.",
+  "h": "378c3f413f67",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "96": {
+  "summary": "This rule explains the exact formatting requirements for orders made by the Tribunal. Every order must be neatly typed on one side of the paper with specific margins and spacing. Additionally, the Members of the Bench must sign the order in a particular order and direction.",
+  "points": [
+   "Orders must be neatly typewritten in double space.",
+   "Use only one side of durable A-4 size foolscap folio paper.",
+   "Leave a 5 cm margin on the left and a 2.5 cm margin on the right.",
+   "Leave sufficient space at the top and bottom of each page.",
+   "Members of the Bench must sign from right to left based on seniority."
+  ],
+  "example": "Meera Textiles Private Limited recently received an order from the Tribunal. When the company checked the physical document, they noticed it was typewritten in double space on durable A-4 size paper, using only one side. The left margin was 5 cm wide while the right margin was 2.5 cm wide, with neat corrections and enough blank space at the top and bottom of every page. At the end of the document, the Members of the Bench had signed their names starting from the right and moving toward the left according to their seniority.",
+  "terms": [
+   {
+    "term": "Bench",
+    "meaning": "A panel of members or judges sitting together to hear cases and make decisions."
+   },
+   {
+    "term": "Seniority",
+    "meaning": "The order of status or length of service of the members."
+   }
+  ],
+  "watch": "Do not forget that signatures must go from right to left based on seniority, not left to right.",
+  "h": "699083802f43",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "97": {
+  "summary": "This rule explains what happens to a case file after the National Company Law Appellate Tribunal issues its order. The assigned official must organize the papers with page numbers and an index sheet. Finally, the official initials the records and sends them to the records room.",
+  "points": [
+   "Applies after the order is communicated to the parties or their legal representatives.",
+   "The official must arrange the records and add page numbers.",
+   "An Index Sheet in a prescribed form must be prepared.",
+   "The official initials the records and sends them to the records room."
+  ],
+  "example": "After the National Company Law Appellate Tribunal communicated its order in a dispute involving Acme Logistics Private Limited, the assigned official took charge of the paperwork. The official carefully organized all the case documents, added page numbers to every sheet, and filled out the required Index Sheet. After signing with initials to confirm the work was done, the official securely transmitted the complete file to the records room for permanent storage.",
+  "terms": [
+   {
+    "term": "Pagination",
+    "meaning": "The act of adding page numbers to the pages of a document or file."
+   },
+   {
+    "term": "Transmit",
+    "meaning": "To send or pass something from one place to another."
+   }
+  ],
+  "watch": "Do not assume this rule allows parties to view the records room without following separate procedural permissions.",
+  "h": "f8f347a0c41d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "98": {
+  "summary": "This rule explains how files, records, and orders of cases must be moved. Such items can only be sent after someone signs to show they received them. This record of movement is kept in a register as instructed by the Registrar.",
+  "points": [
+   "Files, records, and case orders can be transmitted only after getting an acknowledgement.",
+   "The acknowledgement must be recorded in a movement register.",
+   "Different sections or levels maintain these registers following the Registrar's directions."
+  ],
+  "example": "At Apex Tribunal, Clerk Amit needs to send a stack of case records from the filing section to the judicial section. Before handing over the stack, Amit asks the receiving clerk to sign the movement register to confirm receipt, strictly following the Registrar's directions. Only after obtaining this acknowledgement are the files moved.",
+  "terms": [
+   {
+    "term": "Transmission",
+    "meaning": "The act of sending something from one place or person to another."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "An official responsible for keeping official records and giving directions for office procedures."
+   }
+  ],
+  "watch": "Do not assume you can send files informally without signing the movement register first.",
+  "h": "d3e0b7bc0af5",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "99": {
+  "summary": "This rule explains how final orders must be stored and organized in the library by the Registry. Each month, orders are kept together by date, indexed, and stitched in a folder. At the end of every year, a yearly index is also made and kept in a separate file for lawyers to check.",
+  "points": [
+   "The officer in charge sends copies of every final order to the library.",
+   "Monthly orders are kept in a separate folder, arranged by date, indexed, and stitched.",
+   "A yearly consolidated index is prepared at the end of every year and kept in a separate file.",
+   "Order folders and indices can be used by legal practitioners for reference in the library."
+  ],
+  "example": "At ABC Textiles Private Limited, a final order is issued by the tribunal. The officer in charge of the Registry sends this order to the library. All orders received during the month are placed in a separate folder, arranged by the date they were announced, and neatly indexed and stitched together. When December ends, the staff makes a consolidated yearly index and keeps it in a separate file. Later, when an advocate visits the library, these organized folders and indices are made available for them to view and read as reference.",
+  "terms": [
+   {
+    "term": "Registry",
+    "meaning": "The administrative office of the tribunal."
+   },
+   {
+    "term": "Pronouncement",
+    "meaning": "The formal announcement of an order."
+   },
+   {
+    "term": "Legal practitioners",
+    "meaning": "Lawyers or advocates."
+   }
+  ],
+  "watch": "People often confuse monthly folders with yearly files, but monthly orders are stitched and kept in folders while the yearly index is kept in a separate file.",
+  "h": "16aeeaa26c47",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "100": {
+  "summary": "This rule requires the Judicial Branch to keep a special book called a register for appeals and special leave petitions sent to the Supreme Court. The head of the tribunal, called the Chairperson, must check this register during the first week of every month. This helps keep track of cases moving from the Appellate Tribunal to the highest court.",
+  "points": [
+   "A register in Form NCLAT-9 must be maintained for Special Leave Petitions and Appeals to the Supreme Court.",
+   "The Judicial Branch is responsible for making prompt entries in this register.",
+   "The Chairperson must scrutinize the register in the first week of every month."
+  ],
+  "example": "At Zenith Infra Private Limited, a recent order was challenged by filing an appeal to the Supreme Court against a decision of the Appellate Tribunal. The Judicial Branch immediately recorded this case details in a special book named Form NCLAT-9. In the first week of the next month, the Chairperson reviewed this register to ensure all Supreme Court appeals were properly entered and up to date.",
+  "terms": [
+   {
+    "term": "Special Leave Petition",
+    "meaning": "A request made to the Supreme Court to allow an appeal against an order."
+   },
+   {
+    "term": "Chairperson",
+    "meaning": "The head officer in charge of the tribunal."
+   },
+   {
+    "term": "Judicial Branch",
+    "meaning": "The office department responsible for handling legal records and court cases."
+   }
+  ],
+  "watch": "Do not assume this rule applies to all company cases, as it only covers appeals and petitions going to the Supreme Court.",
+  "h": "203866e7f73a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "101": {
+  "summary": "This rule explains what happens when the Supreme Court of India passes an order regarding a case from the Appellate Tribunal. The order must be shown to the leaders of the Tribunal right away and put in the case file. Also, the Registrar must be told immediately if the Supreme Court gave any directions that need to be followed.",
+  "points": [
+   "Supreme Court orders are placed before the Chairperson or Members for information.",
+   "The order is kept safely in the relevant case file.",
+   "The Registrar's immediate attention is drawn to any directions that require compliance."
+  ],
+  "example": "The Supreme Court of India passed a final order in a legal dispute involving Sunshine Logistics Private Limited and an earlier decision by the Appellate Tribunal. As soon as the official order reached the Tribunal, staff members brought it straight to the Chairperson to read. They placed the paper inside the official case file for Sunshine Logistics Private Limited. Because the Supreme Court gave specific directions in the text that the Tribunal needed to follow, the staff immediately notified the Registrar to take action.",
+  "terms": [
+   {
+    "term": "Interim or final order",
+    "meaning": "A temporary or a final decision made by a court."
+   },
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher body that reviews decisions made by lower authorities."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "An official responsible for keeping records and managing administrative tasks."
+   }
+  ],
+  "watch": "People often confuse this rule as a way to file a new appeal, but it is only about handling orders that have already been passed by the Supreme Court.",
+  "h": "70567dcce756",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "102": {
+  "summary": "The given rule states that the Registrar must quickly follow the orders given by the Supreme Court. It falls under the miscellaneous provisions of the regulations. The text is very brief and does not provide extra details.",
+  "points": [
+   "The Registrar must take quick action.",
+   "The Registrar must follow Supreme Court directions."
+  ],
+  "example": "In a legal dispute involving Apex Builders Private Limited, the Supreme Court issued a specific order regarding company records. Based on the rule, the Registrar must take quick steps to follow these directions without any unnecessary delay.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "An official who handles company records and administration."
+   },
+   {
+    "term": "Expeditious",
+    "meaning": "Done with speed and efficiency."
+   }
+  ],
+  "watch": "Do not assume any specific deadlines or time limits because the text does not mention them.",
+  "h": "f11ca635d125",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "103": {
+  "summary": "The Appellate Tribunal can allow people to file appeals and other proceedings online using electronic media. It can also let people fix errors in their filings using email or the internet. The Central Government may give instructions about this from time to time.",
+  "points": [
+   "The Appellate Tribunal may permit online filing of appeals and proceedings.",
+   "Errors in electronic filings can be fixed through email or the internet.",
+   "The Central Government can issue instructions from time to time regarding these electronic filings."
+  ],
+  "example": "Aarav wanted to submit an appeal for his company, Sharma Enterprises Private Limited, to the Appellate Tribunal. Instead of taking physical papers to the office, the Tribunal allowed him to use the online filing system. Later, Aarav received an email stating there was a mistake in his documents. Following the new electronic rules, he was able to fix the defect quickly through the internet as permitted by the Tribunal.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher official body that reviews decisions made by lower authorities."
+   },
+   {
+    "term": "Rectification",
+    "meaning": "The act of fixing a mistake or defect."
+   }
+  ],
+  "watch": "Do not assume online filing is available immediately, as a specific date must be notified separately.",
+  "h": "6c6fe3599728",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
+ },
+ "104": {
+  "summary": "This rule gives the Chairperson of the Appellate Tribunal the power to handle situations not covered by the existing rules. If the rules are silent or lack a provision, the Chairperson can issue directions, orders, or circulars. This helps solve difficulties that come up during the working of the Tribunal.",
+  "points": [
+   "The Chairperson can act when the rules are silent.",
+   "Appropriate directions may be issued to remove difficulties.",
+   "Orders or circulars can be created to govern new situations."
+  ],
+  "example": "A new procedural issue arises during a case at Meera Textiles Private Limited before the Appellate Tribunal, but the existing rulebook does not explain how to handle it. Because the rules are silent on this specific matter, the Chairperson steps in to issue a special direction. This order governs the unexpected contingency so the Tribunal can continue its work smoothly without getting stuck.",
+  "terms": [
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher body that reviews decisions made by lower authorities."
+   },
+   {
+    "term": "Contingency",
+    "meaning": "An unexpected event or situation that may occur."
+   },
+   {
+    "term": "Notwithstanding",
+    "meaning": "Despite anything else stated."
+   }
+  ],
+  "watch": "People often confuse this power as applying to all laws, but it only applies when the specific rules are silent.",
+  "h": "19533fdca433",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-12"
  }
 }
