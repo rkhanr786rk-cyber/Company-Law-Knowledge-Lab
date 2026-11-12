@@ -6,3 +6,5 @@
 
 | File | Fill-in style used | Fields | Note |
 |---|---|---|---|
+
+There is no drafts folder yet. Create one and upload the Word files there.
