@@ -17,6 +17,11 @@ from pathlib import Path
 
 DATA, OUT, PAGE = Path("data"), Path("site"), Path("web/index.html")
 ACT_NAME = "The Companies Act, 2013"
+FORM_RE = re.compile(r"\b(?:e-?Forms?|Forms?)\s*(?:No\.?|Nos\.?)?\s*([A-Z]{2,6}\s?-\s?\d{1,2}[A-Z]?)\b")
+
+
+def forms_in(text):
+    return {re.sub(r"\s+", "", m.group(1)).upper() for m in FORM_RE.finditer(text or "")}
 
 # ---------- text reflow: PDF text has a line break at every line end; rebuild real paragraphs ----------
 LONE_NUM = re.compile(r"^\s*\d{1,3}\.?\s*$")
@@ -225,7 +230,7 @@ def main():
         path.write_text(json.dumps(obj, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
     # ----- rule sets: one file per set with the reflowed text of every rule -----
-    set_index, set_pos, rule_paras = [], {}, {}
+    set_index, set_pos, rule_paras, rule_forms = [], {}, {}, {}
     by_id = {}
     for r in rules_doc["rules"]:
         by_id[r["id"]] = r
@@ -242,6 +247,10 @@ def main():
             r["title"] = title
             paras, notes = to_paragraphs(text, rule=True) if r["status"] == "in force" else ([], [])
             rule_paras[r["id"]] = paras
+            if r["status"] == "in force":
+                f_ = forms_in(text)
+                if f_:
+                    rule_forms[r["id"]] = f_
             body[r["rule"]] = {"t": title, "st": r["status"], "paras": paras, "notes": notes}
         dump(OUT / "data" / "r" / f"{k}.json", {"name": rs["name"], "rules": body})
         ai_file = DATA / "ai" / "r" / f"{rs['id']}.json"
@@ -317,6 +326,10 @@ def main():
                            "conf": item["confidence"], "m": item["mentions"],
                            "sb": item.get("subs", []), "ps": ps, "w": w})
         direct = sum(1 for x in linked if x["conf"] != "low")
+        sec_forms = set()
+        for item in links.get(n, []):
+            if item["confidence"] != "low":
+                sec_forms |= rule_forms.get(item["rule_id"], set())
         co = {}
         for item in links.get(n, []):
             if item["confidence"] == "low" or item["rule_id"] not in by_id:
@@ -332,7 +345,7 @@ def main():
         next_n = order[i + 1] if i + 1 < len(order) else None
         dump(OUT / "data" / "s" / f"{n}.json", {
             "n": n, "t": s["title"], "c": s["chapter"], "ct": s["chapter_title"], "s": s["status"],
-            "paras": paras, "notes": notes, "rules": linked,
+            "paras": paras, "notes": notes, "rules": linked, "forms": sorted(sec_forms),
             "out": outs[n], "in": sorted(ins.get(n, []), key=sort_key),
             "wo": why_out[n], "wi": {b: why_out[b][n] for b in ins.get(n, [])}, "co": co_list,
             "prev": [prev_n, title_of[prev_n]] if prev_n else None,
@@ -371,6 +384,18 @@ def main():
         "sections": rows, "chapters": chapters, "sets": set_index, "rules": rule_rows, "ai_s": ai_sections,
     })
     dump(OUT / "data" / "fulltext.json", ft)
+    forms = {}
+    for rid, fs in rule_forms.items():
+        r = by_id[rid]
+        sec = best_for_rule.get(rid, (None, None))[0]
+        for f_ in fs:
+            e = forms.setdefault(f_, {"r": [], "s": []})
+            e["r"].append([set_pos[r["rule_set_id"]], r["rule"], r["title"], sec])
+            if sec and sec not in e["s"]:
+                e["s"].append(sec)
+    for e in forms.values():
+        e["s"].sort(key=sort_key)
+    dump(OUT / "data" / "forms.json", dict(sorted(forms.items())))
     dump(OUT / "data" / "defs.json", defs)
 
     size = sum(f.stat().st_size for f in OUT.rglob("*") if f.is_file())
@@ -380,6 +405,7 @@ def main():
         f"- Rule sets written: {len(set_index)}",
         f"- Rules searchable by title: {len(rule_rows)}",
         f"- Defined terms found in section 2: {len(defs)}",
+        f"- Forms found in the Rules: {len(forms)}",
         f"- Search words indexed: {len(ft)}",
         f"- Sections with a plain-language explanation: {len(ai_sections)}",
         f"- Rule sets with plain-language explanations: {sum(1 for x in set_index if x['ai'])}",
