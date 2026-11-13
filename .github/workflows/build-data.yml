@@ -1,7 +1,7 @@
 name: Build data and website
 on:
   push:
-    paths: ["**.pdf", "**.py", "web/**", "drafts/**", ".github/workflows/**"]
+    paths: ["**.pdf", "**.py", "web/**", "drafts/**", "guide/**", ".github/workflows/**"]
   workflow_dispatch:
 permissions:
   contents: write
