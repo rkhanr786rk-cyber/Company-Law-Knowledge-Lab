@@ -1,50 +1,33 @@
-"""Step 6: turn the Word drafts in the drafts/ folder into fill-in forms for the Drafting section.
+"""Step 6: build the Drafts library, a separate page that shows every draft in its original wording.
 
-Reads   drafts/**/*.docx        (folder name = category, file name = title)
-Writes  site/data/drafts/index.json        list of drafts for the Drafting page
-        site/data/drafts/<id>.json         the fields of one draft and the text for the live preview
-        site/drafts/<id>.docx              the draft with every fill-in place replaced by a marker the page can fill
+Reads   drafts/**   (.doc .docx .rtf .odt; folder name = category, file name = title)
+Writes  site/drafts/index.html          the library page (open it at  <site>/drafts/)
+        site/drafts/data/index.json     the list of drafts
+        site/drafts/data/text.json      the words of every draft, for searching inside drafts
+        site/drafts/data/d/<id>.json    one draft: original text, formatted for reading
+        site/drafts/files/<id>.<ext>    a copy of each original file, for download
+        site/drafts/drafts_index.csv    the index for Google Sheets (also saved as data/drafts_index.csv)
         data/drafts_report.md
 Run it after build_site.py (which creates the site/ folder).
 
-How the places to fill are found (the first style that exists in a draft is used for that draft):
-  1. {{Company name}}  {{Date of meeting | date}}  {{Mode | choice: Physical; Video}}  {{Address | long}}  {{Chairman | optional}}
-  2. Word content controls (Developer tab: text, date and drop-down boxes)
-  3. Text with a highlight colour (short pieces up to 120 characters)
-  4. <<Company name>>
-  5. [Company name]  (also [*] and [ ] with the words around them used as the label)
-  6. Nothing marked: the "auto" style finds the parts that normally change (dates, amounts, percentages,
-     names after Sh./Smt./Mr., S/o D/o W/o names, R/o addresses, M/s firms, company names, (city) style
-     notes, short blanks). Each one becomes a field that starts with the original wording, so the person
-     only changes what is different.
-Old .doc files are converted to .docx first (needs LibreOffice; the workflow installs it when .doc files exist).
+Word files are turned into clean HTML with LibreOffice (the workflow installs it). If LibreOffice is not
+available, .docx files are still read directly, with plainer formatting.
 """
+import csv
+import html
 import json
+import os
 import re
 import shutil
 import subprocess
 import sys
 import tempfile
 import zipfile
+from html.parser import HTMLParser
 from pathlib import Path
-from xml.sax.saxutils import escape, unescape
 
 SRC, OUT, DATA = Path("drafts"), Path("site"), Path("data")
-
-P_RE = re.compile(r"<w:p(?:\s[^>]*[^/>])?>.*?</w:p>", re.S)
-R_RE = re.compile(r"<w:r(?:\s[^>]*[^/>])?>.*?</w:r>", re.S)
-T_RE = re.compile(r"<w:t(?:\s[^>]*[^/>])?>(.*?)</w:t>|<w:t\s*/>", re.S)
-SDT_RE = re.compile(r"<w:sdt>.*?</w:sdt>", re.S)
-TBL_RE = re.compile(r"<w:tbl>.*?</w:tbl>", re.S)
-HIGHLIGHT_RE = re.compile(r"<w:highlight\b[^>]*/>")
-PART_RE = re.compile(r"^word/(document|header\d*|footer\d*)\.xml$")
-BLANK_RE = re.compile(r"_{3,}|\.{6,}|…{2,}")
-NOT_FIELD = re.compile(r"^(?:\d+|[ivxlc]+|[IVXLC]+|\*+|\.+|omitted|deleted|sic)$", re.I)
-LEAD_WORDS = re.compile(r"^(?:insert|enter|mention|specify|give|fill in|add|write)\s+(?:the\s+)?", re.I)
-
-DATE_WORDS = re.compile(r"\bdate\b|\bdated\b|date of birth", re.I)
-LONG_WORDS = re.compile(r"address|details|description|purpose|resolution|agenda|business|reason|objects?|terms|matter|particulars|remarks|recital|text of|nature of", re.I)
-NUM_WORDS = re.compile(r"amount|number of|no\. of|percentage|quantity|\bshares?\b|capital|\bvalue\b|price|\brate\b|\bfee\b|salary|remuneration", re.I)
+EXTS = {".doc", ".docx", ".rtf", ".odt"}
 
 
 def slug(s):
@@ -61,570 +44,255 @@ def clean_title(stem):
     return t.title() if t.isupper() and len(t) > 3 else t
 
 
-# ---------- reading a paragraph as runs ----------
-def split_runs(pxml):
-    runs = []
-    pos = 0
-    for m in R_RE.finditer(pxml):
-        text = unescape("".join(g for g in T_RE.findall(m.group(0))))
-        runs.append({"a": m.start(), "b": m.end(), "xml": m.group(0), "text": text, "s": pos, "e": pos + len(text)})
-        pos += len(text)
-    return runs, pos
+# ---------- cleaning the HTML that LibreOffice writes ----------
+BLOCK = {"p", "div", "h1", "h2", "h3", "h4", "h5", "h6", "li", "tr", "blockquote", "table", "ul", "ol"}
+KEEP = {"p", "br", "b", "i", "u", "sub", "sup", "table", "tbody", "thead", "tr", "td", "th", "ul", "ol", "li", "h1", "h2", "h3", "h4", "h5", "h6", "blockquote", "center"}
+RENAME = {"strong": "b", "em": "i", "div": "p"}
+VOID = {"br"}
+UNIT = re.compile(r"^-?\d+(?:\.\d+)?(?:in|cm|mm|pt|px|em)$")
 
 
-def rebuild_run(xml, new_text):
-    """Put new_text in the first w:t of a run and drop the others."""
-    first = [True]
-
-    def sub(m):
-        if first[0]:
-            first[0] = False
-            return f'<w:t xml:space="preserve">{escape(new_text)}</w:t>' if new_text else ""
-        return ""
-    return T_RE.sub(sub, xml)
+def css_len(v):
+    v = v.strip().lower()
+    if not UNIT.match(v):
+        return None
+    n = float(re.match(r"-?\d+(?:\.\d+)?", v).group(0))
+    u = v[len(re.match(r"-?\d+(?:\.\d+)?", v).group(0)):]
+    px = {"in": 96, "cm": 37.8, "mm": 3.78, "pt": 1.333, "px": 1, "em": 16}[u] * n
+    return max(-40, min(400, round(px)))
 
 
-def apply_spans(pxml, runs, spans, drop_highlight=False):
-    """spans: [(a, b, token)] in paragraph text offsets, sorted, not overlapping."""
-    if not spans:
-        return pxml
-    out = pxml
-    for r in reversed(runs):
-        s, e, text = r["s"], r["e"], r["text"]
-        if e == s:
-            continue
-        pieces, cur, touched = [], s, False
-        for a, b, tok in spans:
-            if b <= s or a >= e:
+class Clean(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.out, self.lines, self.cur = [], [], []
+        self.body = False
+        self.skip = 0
+        self.stack = []
+
+    def _flush(self):
+        t = re.sub(r"[ \t]+", " ", "".join(self.cur).replace("\xa0", " ")).strip()
+        self.cur = []
+        if t:
+            self.lines.append(t)
+        elif self.lines and self.lines[-1] != "":
+            self.lines.append("")
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "body":
+            self.body = True
+            return
+        if tag in ("style", "script", "head", "title"):
+            self.skip += 1
+            return
+        if not self.body or self.skip:
+            return
+        tag = RENAME.get(tag, tag)
+        if tag not in KEEP:
+            return
+        a = dict(attrs)
+        extra = ""
+        style = []
+        al = (a.get("align") or "").lower()
+        if al in ("left", "center", "right", "justify") and tag in ("p", "td", "th", "h1", "h2", "h3", "h4", "h5", "h6", "tr", "table"):
+            style.append("text-align:" + al)
+        st = a.get("style") or ""
+        if tag in ("p", "li", "h1", "h2", "h3", "h4", "h5", "h6", "blockquote"):
+            for prop in ("margin-left", "text-indent"):
+                m = re.search(r"(?<![\w-])" + prop + r"\s*:\s*([^;]+)", st)
+                if m:
+                    px = css_len(m.group(1))
+                    if px:
+                        style.append(f"{prop}:{px}px")
+        if tag in ("td", "th"):
+            for k in ("colspan", "rowspan"):
+                if (a.get(k) or "").isdigit():
+                    extra += f' {k}="{int(a[k])}"'
+            m = re.search(r"border(?:-\w+)?\s*:\s*([^;]+)", st)
+            if m and "none" not in m.group(1) and not re.search(r"\b0(?:px|in|pt)?\b", m.group(1).split()[0]):
+                extra += ' class="bd"'
+        if tag == "ol" and (a.get("start") or "").isdigit():
+            extra += f' start="{int(a["start"])}"'
+        if tag in BLOCK:
+            self._flush()
+        if tag == "br":
+            self.out.append("<br>")
+            self._flush()
+            return
+        self.out.append(f"<{tag}{extra}{' style=' + chr(34) + ';'.join(style) + chr(34) if style else ''}>")
+        self.stack.append(tag)
+
+    def handle_endtag(self, tag):
+        if tag in ("style", "script", "head", "title"):
+            self.skip = max(0, self.skip - 1)
+            return
+        if not self.body or self.skip:
+            return
+        tag = RENAME.get(tag, tag)
+        if tag not in KEEP or tag in VOID:
+            return
+        if tag in self.stack:
+            while self.stack:
+                t = self.stack.pop()
+                self.out.append(f"</{t}>")
+                if t in BLOCK:
+                    self._flush()
+                if t == tag:
+                    break
+        if tag in ("td", "th"):
+            self.cur.append(" \t ")
+
+    def handle_data(self, data):
+        if not self.body or self.skip:
+            return
+        d = re.sub(r"[ \t\r\n]+", " ", data)
+        if d == " " and (not self.out or self.out[-1].endswith(">")):
+            if not self.stack:
+                return
+        self.out.append(html.escape(d, quote=False))
+        self.cur.append(d)
+
+    def result(self):
+        while self.stack:
+            self.out.append(f"</{self.stack.pop()}>")
+        self._flush()
+        body = "".join(self.out)
+        body = re.sub(r"(?:<p[^>]*>\s*(?:<br>)?\s*</p>\s*){2,}", "<p><br></p>", body)
+        body = re.sub(r"<(b|i|u)>\s*</\1>", "", body)
+        lines = []
+        for ln in self.lines:
+            if ln == "" and (not lines or lines[-1] == ""):
                 continue
-            touched = True
-            if a > cur:
-                pieces.append(text[cur - s:min(a, e) - s])
-            if a >= s:
-                pieces.append(tok)
-            cur = max(cur, min(b, e))
-        if not touched:
-            continue
-        if cur < e:
-            pieces.append(text[cur - s:])
-        xml = rebuild_run(r["xml"], "".join(pieces))
-        if drop_highlight:
-            xml = HIGHLIGHT_RE.sub("", xml)
-        out = out[:r["a"]] + xml + out[r["b"]:]
-    return out
+            lines.append(ln)
+        while lines and lines[-1] == "":
+            lines.pop()
+        return body.strip(), "\n".join(lines)
 
 
-# ---------- finding the fill-in places ----------
-def context_label(text, a, b):
-    junk = re.compile(r"_{2,}|\.{3,}|\u2026+|\[\s*\]")
-    before = re.findall(r"[^\s]+", junk.sub(" ", text[:a]))[-4:]
-    after = re.findall(r"[^\s]+", junk.sub(" ", text[b:]))[:3]
-    if before:
-        return "After \u201c" + " ".join(before).strip(" ,;:") + "\u201d"
-    if after:
-        return "Before \u201c" + " ".join(after).strip(" ,;:") + "\u201d"
-    return "Details"
+def clean_html(raw):
+    c = Clean()
+    c.feed(raw)
+    c.close()
+    return c.result()
 
 
-def parse_curly(inner):
-    parts = [p.strip() for p in inner.split("|")]
-    f = {"label": parts[0], "type": None, "options": [], "optional": False, "help": ""}
-    for p in parts[1:]:
-        low = p.lower()
-        if low in ("date", "number", "long", "text"):
-            f["type"] = "long" if low == "long" else low
-        elif low == "optional":
-            f["optional"] = True
-        elif low.startswith("choice"):
-            f["type"] = "choice"
-            f["options"] = [o.strip() for o in p.split(":", 1)[1].split(";") if o.strip()] if ":" in p else []
-        elif low.startswith("help"):
-            f["help"] = p.split(":", 1)[1].strip() if ":" in p else ""
-    return f
+# ---------- fallback: read a .docx directly ----------
+def docx_fallback(path):
+    xml = zipfile.ZipFile(path).read("word/document.xml").decode("utf-8")
+    parts, lines = [], []
 
-
-def spans_curly(text, _p, _runs):
-    out = []
-    for m in re.finditer(r"\{\{\s*(.+?)\s*\}\}", text):
-        out.append((m.start(), m.end(), parse_curly(m.group(1)), True))
-    return out
-
-
-def spans_angle(text, _p, _runs):
-    return [(m.start(), m.end(), {"label": m.group(1).strip()}, True) for m in re.finditer(r"<<\s*(.+?)\s*>>", text)]
-
-
-def spans_bracket(text, _p, _runs):
-    out = []
-    for m in re.finditer(r"\[([^\[\]]{0,80})\]", text):
-        inner = m.group(1).strip()
-        if m.start() > 0 and text[m.start() - 1].isdigit():
-            continue
-        if not inner or re.fullmatch(r"[\s●•_*.…-]+", inner):
-            out.append((m.start(), m.end(), {"label": context_label(text, m.start(), m.end())}, False))
-        elif re.search(r"[A-Za-z]", inner) and not NOT_FIELD.match(inner):
-            out.append((m.start(), m.end(), {"label": inner}, True))
-    return out
-
-
-def spans_blank(text, _p, _runs):
-    return [(m.start(), m.end(), {"label": context_label(text, m.start(), m.end())}, False) for m in BLANK_RE.finditer(text)]
-
-
-def spans_highlight(text, _p, runs):
-    out, group = [], []
-
-    def flush():
-        if group:
-            a, b = group[0]["s"], group[-1]["e"]
-            t = text[a:b]
-            if t.strip() and len(t) <= 120:
-                lab = t.strip().strip("[]() ").strip()
-                if not lab or re.fullmatch(r"[\s●•_*.…-]+", lab):
-                    f = {"label": context_label(text, a, b)}
-                    out.append((a, b, f, False))
-                else:
-                    out.append((a, b, {"label": lab}, True))
-            group.clear()
-    for r in runs:
-        hl = re.search(r'<w:highlight\b[^>]*w:val="(?!none)[^"]+"', r["xml"])
-        if r["e"] == r["s"]:
-            continue
-        if hl:
-            group.append(r)
-        else:
-            flush()
-    flush()
-    return out
-
-
-def spans_controls(text, pxml, runs):
-    out = []
-    for sm in SDT_RE.finditer(pxml):
-        sx = sm.group(0)
-        inside = [r for r in runs if sm.start() <= r["a"] and r["b"] <= sm.end() and r["e"] > r["s"]]
-        if not inside:
-            continue
-        alias = re.search(r'<w:alias w:val="([^"]*)"', sx)
-        tag = re.search(r'<w:tag w:val="([^"]*)"', sx)
-        label = unescape((alias or tag).group(1)) if (alias or tag) else ""
-        shown = text[inside[0]["s"]:inside[-1]["e"]]
-        if not label:
-            label = shown if len(shown) < 50 and not re.search(r"click|tap|enter text", shown, re.I) else "Field"
-        f = {"label": label}
-        if "<w:date" in sx:
-            f["type"] = "date"
-        items = re.findall(r'<w:listItem\b[^>]*w:displayText="([^"]*)"', sx)
-        if items:
-            f["type"] = "choice"
-            f["options"] = [unescape(i) for i in items]
-        out.append((inside[0]["s"], inside[-1]["e"], f, True))
-    return out
-
-
-
-MONTH = r"(?:January|February|March|April|May|June|July|August|September|October|November|December|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sept?|Oct|Nov|Dec)"
-DATE_RES = [re.compile(x, re.I) for x in (
-    rf"\b\d{{1,2}}(?:st|nd|rd|th)?\s+(?:day\s+of\s+)?{MONTH}\.?,?\s*\d{{4}}\b",
-    rf"\b{MONTH}\.?\s+\d{{1,2}}(?:st|nd|rd|th)?,?\s*\d{{4}}\b",
-    r"\b\d{1,2}[./-]\d{1,2}[./-](?:\d{4}|\d{2})\b")]
-AMOUNT_RE = re.compile(r"(?:Rs\.?|INR|\u20b9)\s*\d[\d,]*(?:\.\d+)?(?:\s*/-)?(?:\s*(?:Crores?|Crs?\.?|Lacs?|Lakhs?|thousand|million))?(?:\s*\((?:Rupees|Rs\.?)[^)]*\))?", re.I)
-PCT_RE = re.compile(r"\b\d+(?:\.\d+)?\s?%")
-CAP = r"(?![SDWRC]/[oO]\b)[A-Z][A-Za-z.'\-]*"
-HON = r"(?:Late\s+)?(?:Sh|Shri|Smt|Shrimati|Mrs|Mr|Ms|Miss|Dr|Mast)\b\.?"
-NAME_RE = re.compile(rf"\b{HON}\s*{CAP}(?:\s+(?:{CAP}|Alias))*")
-REL_RE = re.compile(rf"\b[SDWC]/[oO]\s+((?:{HON}\s*)?{CAP}(?:\s+{CAP})*)")
-ADDR_RE = re.compile(r"\b[Rr]/[oO]\s+(.+?)(?=\s+(?:\(\d\)|hereinafter|BETWEEN|AND\b)|\s*$)")
-FIRM_RE = re.compile(r"\bM/[sS]\.?\s+[A-Z][\w&.\-]*(?:\s+(?:and\s+)?[A-Z&][\w&.\-]*)*")
-COMPANY_RE = re.compile(r"\b[A-Z][A-Z&.\-]*(?:\s+[A-Z&()][A-Z&.()\-]*)*\s+(?:PRIVATE\s+LIMITED|PVT\.?\s+LTD\.?|LIMITED|LTD\.?|LLP)\b")
-PLACE_RE = re.compile(r"\bat\s+([A-Z][a-z]+(?:\s[A-Z][a-z]+)?)(?=,?\s+this\b)")
-NOTE_RE = re.compile(r"\(\s*(city|town|place|name|date|address|amount|month|year|day|designation|state|district|pin ?code)\s*\)", re.I)
-BL = r"(?:_{2,}|\.{3,}|\u2026+)"
-SMALL_BLANK = re.compile(BL + r"|\[\s*\]")
-_DAY = rf"(?:{BL}|\d{{1,2}})"
-_MON = rf"(?:{BL}|{MONTH})"
-_YR = rf"(?:{BL}|(?:19|20)\d\d|(?:19|20){BL})"
-DATE_BLANK_RE = re.compile(rf"{_DAY}(?:st|nd|rd|th)?\s*day\s+of\s+{_MON}[\s,]*{_YR}", re.I)
-PLACE2_RE = re.compile(r"\b(?:made|executed|entered into|signed|drawn up|held|dated)\s+at\s+([A-Z][A-Za-z]+(?:\s[A-Z][A-Za-z]+){0,2})")
-PARTY_RE = re.compile(r"\b(?:between|and)\s+([A-D])\b(?=\s+(?:son|daughter|wife|s/o|d/o|w/o)\b)", re.I)
-DATE_STYLE = {"k": "t", "order": "dmy", "ord": True, "sufu": False, "pad": False, "sep": " day of ", "n": 9, "case": "t", "msuf": "", "ysep": ", "}
-
-
-def blank_label(text, a, b):
-    """Name a blank from the words around it, for example 'made at ____' is the place."""
-    sub = lambda t: re.sub(r"\s+", " ", re.sub(BL, " \u2026 ", t)).strip()
-    bw, aw = sub(text[:a]).lower(), sub(text[b:]).lower()
-    B = lambda rx: re.search("(?:" + rx + r")[\s:,\-]*$", bw)
-    A = lambda rx: re.match(r"[\s,]*(?:" + rx + ")", aw)
-    if B(r"\b(?:made|executed|entered into|signed|held|drawn up) at|\bplace(?: of [a-z ]+)?"):
-        return "Place"
-    if B(r"\b(?:son|daughter|wife|widow) of|\b[sdw]/o"):
-        return "Father\u2019s or husband\u2019s name"
-    if B(r"\b(?:resident|residing|resides|r/o|situated|located)(?: at| of| in)?|\baddress(?: of [a-z ]+)?(?: is)?"):
-        return "Address"
-    if B(r"\brs\.?|rupees|inr|\u20b9|\b(?:price|sum|amount|consideration|rent|salary|remuneration|fees?|payment|deposit|advance) of"):
-        return "Amount"
-    if B(r"\bday of"):
-        return "Month"
-    if B(r"\b(?:this|the|on)") and A(r"(?:st|nd|rd|th)?\s*day\b"):
-        return "Day"
-    mu = A(r"(days|months|years|weeks)")
-    if B(r"\b(?:within a period of|period of|within|after|for a period of|for)") and mu:
-        return "Number of " + mu.group(1)
-    if B(r"\b(?:within a period of|period of)"):
-        return "Period"
-    if B(r"\b(?:on|dated|date|w\.e\.f\.?|from|till|until|before|by|since)"):
-        return "Date"
-    if B(r"\b(?:no|number|flat|plot|house|door)\.?") :
-        return "House or plot number"
-    if B(r"\b(?:road|street|lane|marg|colony|nagar|sector|area)"):
-        return "Road or locality"
-    if B(r"\b(?:mr|mrs|ms|shri|sh|smt|m/s|messrs)\.?(?: [a-z.]+)?"):
-        return "@skip"
-    return None
-
-SIGN_RE = re.compile(r"SIGNED|presence of|signature|witness", re.I)
-
-
-MONTHS_FULL = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
-_D1 = re.compile(rf"^(\d{{1,2}})(st|nd|rd|th)?(\s+(?:day\s+of\s+)?)({MONTH})(\.?,?\s*)(\d{{4}})$", re.I)
-_D2 = re.compile(rf"^({MONTH})(\.?\s+)(\d{{1,2}})(st|nd|rd|th)?(,?\s*)(\d{{4}})$", re.I)
-_D3 = re.compile(r"^(\d{1,2})([./-])(\d{1,2})\2(\d{4}|\d{2})$")
-
-
-def month_no(word):
-    w = word.lower().rstrip(".")
-    for i, m in enumerate(MONTHS_FULL):
-        if m.lower() == w or (len(w) >= 3 and m.lower().startswith(w)):
-            return i + 1
-    return 0
-
-
-def ordinal(d):
-    return "th" if 10 < d % 100 < 20 else {1: "st", 2: "nd", 3: "rd"}.get(d % 10, "th")
-
-
-def fmt_style(y, m, d, st):
-    if st["k"] == "n":
-        dd, mm = (f"{d:02d}", f"{m:02d}") if st["pad"] else (str(d), str(m))
-        yy = str(y) if st["y4"] else f"{y % 100:02d}"
-        return dd + st["sep"] + mm + st["sep"] + yy
-    mon = MONTHS_FULL[m - 1][:st["n"]]
-    mon = mon.upper() if st["case"] == "u" else mon.lower() if st["case"] == "l" else mon
-    day = (f"{d:02d}" if st["pad"] else str(d))
-    suf = (ordinal(d).upper() if st.get("sufu") else ordinal(d)) if st["ord"] else ""
-    if st["order"] == "dmy":
-        return day + suf + st["sep"] + mon + st["msuf"] + st["ysep"] + str(y)
-    return mon + st["msuf"] + st["sep"] + day + suf + st["ysep"] + str(y)
-
-
-def parse_date(orig):
-    """Returns (iso, style) when the text is a date that can be written back exactly the same way, else None."""
-    o = orig.strip()
-    m = _D1.match(o)
-    if m:
-        d, suf, sep, mon, tail, y = m.groups()
-        mn = month_no(mon)
-        if not mn:
-            return None
-        msuf = "." if tail.startswith(".") else ""
-        st = {"k": "t", "order": "dmy", "ord": bool(suf), "sufu": bool(suf and suf.isupper()), "pad": len(d) == 2 and d.startswith("0"), "sep": sep,
-              "n": len(mon.rstrip(".")), "case": "u" if mon.isupper() and len(mon) > 1 else "l" if mon.islower() else "t", "msuf": msuf, "ysep": tail[len(msuf):]}
-        d_i = int(d)
-    else:
-        m = _D2.match(o)
-        if m:
-            mon, sepx, d, suf, ysep, y = m.groups()
-            mn = month_no(mon)
-            if not mn:
-                return None
-            msuf = "." if sepx.startswith(".") else ""
-            st = {"k": "t", "order": "mdy", "ord": bool(suf), "sufu": bool(suf and suf.isupper()), "pad": len(d) == 2 and d.startswith("0"), "sep": sepx[len(msuf):],
-                  "n": len(mon.rstrip(".")), "case": "u" if mon.isupper() and len(mon) > 1 else "l" if mon.islower() else "t", "msuf": msuf, "ysep": ysep}
-            d_i = int(d)
-        else:
-            m = _D3.match(o)
-            if not m:
-                return None
-            d, sep, mo, y = m.groups()
-            mn, d_i = int(mo), int(d)
-            st = {"k": "n", "sep": sep, "pad": any(len(x) == 2 and x.startswith("0") for x in (d, mo)), "y4": len(y) == 4}
-    y_i = int(y) if len(y) == 4 else 2000 + int(y)
-    if not (1 <= mn <= 12 and 1 <= d_i <= 31):
-        return None
-    if st["k"] == "n" and len(y) == 2:
-        return None
-    if fmt_style(y_i, mn, d_i, st) != o:
-        return None
-    return f"{y_i:04d}-{mn:02d}-{d_i:02d}", st
-
-
-def spans_auto(text, _p, _runs):
-    c = []   # (priority, a, b, base label, mergeable)
-
-    def add(pr, a, b, base):
-        while b > a and text[b - 1] in " .,;:":
-            b -= 1
-        if b > a:
-            c.append((pr, a, b, base))
-    for rx in DATE_RES:
-        for m in rx.finditer(text):
-            add(1, m.start(), m.end(), "Date")
-    for m in AMOUNT_RE.finditer(text):
-        add(1, m.start(), m.end(), "Amount")
-    for m in PCT_RE.finditer(text):
-        add(1, m.start(), m.end(), "Percentage")
-    for m in REL_RE.finditer(text):
-        add(1, m.start(1), m.end(1), "Father\u2019s or husband\u2019s name")
-    for m in ADDR_RE.finditer(text):
-        add(1, m.start(1), m.end(1), "Address")
-    for m in FIRM_RE.finditer(text):
-        add(1, m.start(), m.end(), "Firm name")
-    for m in COMPANY_RE.finditer(text):
-        add(1, m.start(), m.end(), "Company name")
-    for m in PLACE_RE.finditer(text):
-        add(1, m.start(1), m.end(1), "Place")
-    for m in PLACE2_RE.finditer(text):
-        add(1, m.start(1), m.end(1), "Place")
-    for m in PARTY_RE.finditer(text):
-        add(1, m.start(1), m.end(1), "Name of " + m.group(1).upper())
-    for m in DATE_BLANK_RE.finditer(text):
-        if re.search(BL, m.group(0)):
-            c.append((0, m.start(), m.end(), "@dateblank"))
-    for m in NOTE_RE.finditer(text):
-        add(1, m.start(), m.end(), m.group(1).strip().capitalize())
-    for m in NAME_RE.finditer(text):
-        add(2, m.start(), m.end(), "Name")
-    if re.fullmatch(r"\s*-{4,}\s*", text):
-        add(1, text.index("-"), len(text.rstrip()), "Address line")
-    elif not SIGN_RE.search(text) and re.search(r"[A-Za-z]", text):
-        for m in SMALL_BLANK.finditer(text):
-            c.append((1, m.start(), m.end(), None))
-    c.sort(key=lambda x: (x[0], x[1]))
-    taken, out = [], []
-    for pr, a, b, base in c:
-        if any(a < tb and b > ta for ta, tb in taken):
-            continue
-        taken.append((a, b))
-        orig = text[a:b]
-        pd = parse_date(orig) if base == "Date" else None
-        if base == "@dateblank":
-            meta = {"label": "Date", "base": "Date", "default": "", "key": None, "type": "date", "style": DATE_STYLE, "orig": orig}
-            out.append((a, b, meta, False))
-        elif pd:
-            meta = {"label": "Date", "base": "Date", "default": pd[0], "key": "date|" + pd[0], "type": "date", "style": pd[1], "orig": orig}
-            out.append((a, b, meta, True))
-        elif base is None:
-            lab = blank_label(text, a, b)
-            if lab == "@skip":
+    def para(px):
+        runs = []
+        for rm in re.finditer(r"<w:r(?:\s[^>]*[^/>])?>.*?</w:r>", px, re.S):
+            r = rm.group(0)
+            t = ""
+            for tm in re.finditer(r"<w:t(?:\s[^>]*[^/>])?>(.*?)</w:t>|<w:tab\s*/>|<w:br\s*/>", r, re.S):
+                g = tm.group(0)
+                t += "\t" if g.startswith("<w:tab") else ("\n" if g.startswith("<w:br") else html.unescape(tm.group(1) or ""))
+            if not t:
                 continue
-            meta = {"label": lab or context_label(text, a, b), "base": lab, "default": "", "key": None, "orig": orig}
-            if lab == "Date":
-                meta["type"] = "date"
-                meta["style"] = {"k": "t", "order": "dmy", "ord": False, "sufu": False, "pad": False, "sep": " ", "n": 9, "case": "t", "msuf": "", "ysep": " "}
-            out.append((a, b, meta, False))
+            e = html.escape(t, quote=False).replace("\t", "&emsp;").replace("\n", "<br>")
+            if re.search(r"<w:b/>|<w:b w:val=\"(?:1|true)\"", r):
+                e = f"<b>{e}</b>"
+            if re.search(r"<w:i/>", r):
+                e = f"<i>{e}</i>"
+            if re.search(r"<w:u [^>]*w:val=\"(?!none)", r):
+                e = f"<u>{e}</u>"
+            runs.append((t, e))
+        text = "".join(t for t, _ in runs)
+        al = re.search(r'<w:jc w:val="(center|right|both|left|end)"', px)
+        st = {"center": "center", "right": "right", "end": "right", "both": "justify"}.get(al.group(1)) if al else None
+        ind = re.search(r'<w:ind [^>]*w:left="(\d+)"', px)
+        css = ([f"text-align:{st}"] if st else []) + ([f"margin-left:{int(int(ind.group(1)) / 15)}px"] if ind and int(ind.group(1)) else [])
+        return text, f"<p{' style=' + chr(34) + ';'.join(css) + chr(34) if css else ''}>{''.join(e for _, e in runs) or '<br>'}</p>"
+
+    for m in re.finditer(r"<w:tbl>.*?</w:tbl>|<w:p(?:\s[^>]*)?>.*?</w:p>", xml, re.S):
+        blk = m.group(0)
+        if blk.startswith("<w:tbl>"):
+            rows = []
+            for rm in re.finditer(r"<w:tr(?:\s[^>]*)?>.*?</w:tr>", blk, re.S):
+                cells = []
+                for cm in re.finditer(r"<w:tc>.*?</w:tc>", rm.group(0), re.S):
+                    ps = [para(p.group(0)) for p in re.finditer(r"<w:p(?:\s[^>]*)?>.*?</w:p>", cm.group(0), re.S)]
+                    cells.append((" ".join(t for t, _ in ps).strip(), "".join(h for _, h in ps)))
+                rows.append(cells)
+                lines.append("\t".join(t for t, _ in cells))
+            parts.append("<table>" + "".join("<tr>" + "".join(f'<td class="bd">{h}</td>' for _, h in r) + "</tr>" for r in rows) + "</table>")
         else:
-            meta = {"label": base, "base": base, "default": orig, "key": base + "|" + re.sub(r"\s+", " ", orig.lower())}
-            out.append((a, b, meta, True))
-    return out
-
-
-MODES = [("curly", spans_curly, False), ("controls", spans_controls, False), ("highlight", spans_highlight, True),
-         ("angle", spans_angle, False), ("bracket", spans_bracket, False), ("auto", spans_auto, False)]
-
-
-def guess_type(f):
-    if f.get("type"):
-        return f["type"]
-    lab = f["label"]
-    if DATE_WORDS.search(lab):
-        return "date"
-    if LONG_WORDS.search(lab):
-        return "long"
-    if NUM_WORDS.search(lab):
-        return "number"
-    return "text"
-
-
-_SIMPLE_CHILD = re.compile(r"<w:t(?:\s[^>]*)?>.*?</w:t>|<w:t\s*/>|<w:tab\s*/>|<w:br(?:\s[^>]*)?/>", re.S)
-
-
-def split_mixed_runs(xml):
-    """A run that holds text, tabs and line breaks together is split into one run per item, so a tab can never move."""
-    def fix(m):
-        run = m.group(0)
-        head = re.match(r"<w:r(?:\s[^>]*[^/>])?>", run)
-        body = run[head.end():-len("</w:r>")]
-        rpr = re.match(r"\s*<w:rPr>.*?</w:rPr>", body, re.S)
-        rest = body[rpr.end():] if rpr else body
-        items = _SIMPLE_CHILD.findall(rest)
-        if len(items) < 2 or "".join(items) != rest:
-            return run
-        pre = rpr.group(0) if rpr else ""
-        return "".join(head.group(0) + pre + it + "</w:r>" for it in items)
-    return R_RE.sub(fix, xml)
-
-
-# ---------- one draft ----------
-def process(path, orig=None):
-    rel = (orig or path).relative_to(SRC)
-    zin = zipfile.ZipFile(path)
-    parts = {n: split_mixed_runs(zin.read(n).decode("utf-8")) for n in zin.namelist() if PART_RE.match(n)}
-    if "word/document.xml" not in parts:
-        raise ValueError("not a Word .docx file")
-
-    paras = []   # (part, match, pxml, runs, text)
-    for name in sorted(parts, key=lambda n: (n != "word/document.xml", n)):
-        for m in P_RE.finditer(parts[name]):
-            runs, _ = split_runs(m.group(0))
-            paras.append((name, m, m.group(0), runs, "".join(r["text"] for r in runs)))
-
-    mode = None
-    for mname, fn, drop in MODES:
-        if any(fn(t, px, rs) for _, _, px, rs, t in paras):
-            mode, finder, drop_hl = mname, fn, drop
-            break
-
-    fields, by_key, n_blank = [], {}, 0
-    new_parts = {n: [] for n in parts}   # list of (start, end, newxml)
-    if mode:
-        for name, m, px, runs, text in paras:
-            found = sorted(finder(text, px, runs), key=lambda x: x[0])
-            spans, last = [], -1
-            for a, b, meta, mergeable in found:
-                if a < last:
-                    continue
-                last = b
-                label = LEAD_WORDS.sub("", meta["label"]).strip(" .:;,-") or meta["label"]
-                label = label[:1].upper() + label[1:]
-                key = meta.get("key") or (re.sub(r"\s+", " ", label.lower()) if mergeable else None)
-                if key is None or key not in by_key:
-                    f = {"id": f"f{len(fields) + 1}", "label": label, "type": meta.get("type"), "options": meta.get("options", []),
-                         "optional": meta.get("optional", False), "help": meta.get("help", ""), "count": 0,
-                         "default": re.sub(r"\s+", " ", meta.get("default", "")).strip(), "base": meta.get("base")}
-                    shown = meta.get("orig") or f["default"]
-                    if not meta.get("type"):
-                        f["type"] = "long" if f["base"] in ("Address", "Address line") else guess_type(f) if not f["base"] else "text"
-                    if shown:
-                        f["help"] = "In the original: \u201c" + (shown[:90] + ("\u2026" if len(shown) > 90 else "")) + "\u201d"
-                        if f["base"] and (f["base"].startswith("Name") or f["base"].startswith("Father")):
-                            f["help"] += ". Type another name to change it everywhere it appears."
-                    fields.append(f)
-                    if key is not None:
-                        by_key[key] = f
-                else:
-                    f = by_key[key]
-                f["count"] += 1
-                tok = f["id"]
-                if meta.get("style") is not None:
-                    sl = f.setdefault("styles", [])
-                    if meta["style"] not in sl:
-                        sl.append(meta["style"])
-                    tok += "#" + str(sl.index(meta["style"]))
-                spans.append((a, b, "\u27e6" + tok + "\u27e7"))
-            if spans:
-                newp = apply_spans(px, runs, spans, drop_highlight=drop_hl)
-                if mode == "controls":
-                    newp = newp.replace("<w:showingPlcHdr/>", "")
-                new_parts[name].append((m.start(), m.end(), newp))
-    counts = {}
-    for f in fields:
-        if f.get("base"):
-            counts[f["base"]] = counts.get(f["base"], 0) + 1
-    seen = {}
-    for f in fields:
-        b = f.get("base")
-        if b and counts[b] > 1:
-            seen[b] = seen.get(b, 0) + 1
-            f["label"] = f"{f['label']} {seen[b]}"
-    for name, edits in new_parts.items():
-        x = parts[name]
-        for a, b, new in reversed(edits):
-            x = x[:a] + new + x[b:]
-        if mode == "controls":
-            x = x.replace("<w:showingPlcHdr/>", "")
-        parts[name] = x
-
-    # text for the live preview (document body only)
-    doc = parts["word/document.xml"]
-    tables = [(m.start(), m.end()) for m in TBL_RE.finditer(doc)]
-    preview, prev_blank = [], True
-    for m in P_RE.finditer(doc):
-        px = m.group(0)
-        text = ""
-        for tm in re.finditer(r"<w:t(?:\s[^>]*[^/>])?>(.*?)</w:t>|<w:tab\s*/>|<w:br\s*/>", px, re.S):
-            g = tm.group(0)
-            text += "\t" if g.startswith("<w:tab") else ("\n" if g.startswith("<w:br") else unescape(tm.group(1) or ""))
-        if not text.strip():
-            if not prev_blank:
-                preview.append({"t": "", "k": "gap"})
-            prev_blank = True
+            t, h = para(blk)
+            parts.append(h)
+            lines.append(t.strip())
+    out = []
+    for ln in lines:
+        if ln == "" and (not out or out[-1] == ""):
             continue
-        prev_blank = False
-        runs_x = [r for r in R_RE.findall(px) if T_RE.search(r)]
-        bold = bool(runs_x) and all(re.search(r"<w:b/>|<w:b w:val=\"(?:1|true)\"", r) for r in runs_x)
-        kind = []
-        if bold:
-            kind.append("b")
-        if re.search(r'<w:jc w:val="center"', px):
-            kind.append("c")
-        if re.search(r'<w:jc w:val="(?:right|end)"', px):
-            kind.append("r")
-        if re.search(r'<w:pStyle w:val="(?:Heading\d|Title)"', px):
-            kind.append("h")
-        if any(a <= m.start() < b for a, b in tables):
-            kind.append("t")
-        preview.append({"t": text.strip("\n"), "k": " ".join(kind)})
-    while preview and preview[-1]["k"] == "gap":
-        preview.pop()
-
-    return rel, mode, fields, preview, parts, zin
+        out.append(ln)
+    return "".join(parts), "\n".join(out).strip()
 
 
-def convert_docs():
-    """Turn old .doc files into .docx in a temporary folder. Returns {original .doc path: converted .docx path}."""
-    docs = sorted(p for p in SRC.rglob("*") if p.suffix.lower() == ".doc" and not p.name.startswith("~$")) if SRC.exists() else []
-    out = {}
+# ---------- converting with LibreOffice ----------
+def convert_all(files):
+    """Returns {original path: html text} for the files LibreOffice could convert."""
     exe = shutil.which("soffice") or shutil.which("libreoffice")
-    if not docs or not exe:
-        return out, docs, bool(docs and not exe)
+    res = {}
+    if not exe or not files:
+        return res, bool(files and not exe)
     tmp = Path(tempfile.mkdtemp(prefix="drafts_"))
-    by_dir = {}
-    for d in docs:
-        by_dir.setdefault(d.parent, []).append(d)
-    for i, (folder, items) in enumerate(by_dir.items()):
-        sub = tmp / str(i)
-        sub.mkdir()
-        for k in range(0, len(items), 20):
-            chunk = items[k:k + 20]
+    (tmp / "in").mkdir()
+    (tmp / "out").mkdir()
+    names = {}
+    for i, f in enumerate(files):
+        n = f"d{i:05d}{f.suffix.lower()}"
+        shutil.copyfile(f, tmp / "in" / n)
+        names[f] = n
+    items = list(names.values())
+    for k in range(0, len(items), 20):
+        chunk = items[k:k + 20]
+        try:
+            subprocess.run([exe, "--headless", "--convert-to", "html", "--outdir", str(tmp / "out")] + [str(tmp / "in" / x) for x in chunk],
+                           stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=900)
+        except Exception:
+            pass
+    for f, n in names.items():
+        h = tmp / "out" / (Path(n).stem + ".html")
+        if h.exists():
             try:
-                subprocess.run([exe, "--headless", "--convert-to", "docx", "--outdir", str(sub)] + [str(x) for x in chunk],
-                               stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=600)
+                res[f] = h.read_text(encoding="utf-8", errors="replace")
             except Exception:
                 pass
-        for d in items:
-            c = sub / (d.stem + ".docx")
-            if c.exists():
-                out[d] = c
-    return out, docs, False
+    return res, False
 
 
 def main():
-    if not OUT.exists():
-        sys.exit("Run build_site.py first (it creates the site folder).")
-    (OUT / "data" / "drafts").mkdir(parents=True, exist_ok=True)
-    (OUT / "drafts").mkdir(parents=True, exist_ok=True)
+    OUT.mkdir(exist_ok=True)
     DATA.mkdir(exist_ok=True)
+    files = sorted([p for p in SRC.rglob("*") if p.is_file() and p.suffix.lower() in EXTS and not p.name.startswith("~$")], key=lambda p: natural(str(p))) if SRC.exists() else []
+    converted, no_office = convert_all(files)
+    lib = OUT / "drafts"
+    if lib.exists():
+        shutil.rmtree(lib)
+    (lib / "data" / "d").mkdir(parents=True)
+    (lib / "files").mkdir()
 
-    converted, old_docs, no_office = convert_docs()
-    files = sorted([p for p in SRC.rglob("*") if p.suffix.lower() == ".docx" and not p.name.startswith("~$")] + list(converted), key=lambda p: natural(str(p))) if SRC.exists() else []
-    index, report, used = [], ["# Drafting report", ""], set()
-    rows = []
+    repo = os.environ.get("GITHUB_REPOSITORY", "")
+    base = f"https://{repo.split('/')[0]}.github.io/{repo.split('/')[1]}/drafts/" if "/" in repo else ""
+
+    index, texts, rows, report, used = [], {}, [], [], set()
     for p in files:
+        rel = p.relative_to(SRC)
+        how = "LibreOffice"
         try:
-            rel, mode, fields, preview, parts, zin = process(converted.get(p, p), p)
-        except Exception as e:      # a damaged file must not stop the others
-            rows.append(f"| {p.relative_to(SRC)} | not read | 0 | {str(e)[:80]} |")
+            if p in converted:
+                body, text = clean_html(converted[p])
+                if not text.strip():
+                    raise ValueError("empty")
+            elif p.suffix.lower() == ".docx":
+                body, text = docx_fallback(p)
+                how = "direct"
+            else:
+                raise ValueError("needs LibreOffice")
+        except Exception as e:
+            report.append(f"| {rel} | not read | 0 | {str(e)[:60]} |")
             continue
         category = " / ".join(clean_title(x) for x in rel.parent.parts) or "General"
         title = clean_title(rel.stem)
@@ -632,38 +300,291 @@ def main():
         while did in used:
             did += "-2"
         used.add(did)
-        # prepared template
-        with zipfile.ZipFile(OUT / "drafts" / f"{did}.docx", "w") as zout:
-            for info in zin.infolist():
-                data = parts[info.filename].encode("utf-8") if info.filename in parts else zin.read(info.filename)
-                zout.writestr(info, data)
-        desc = next((x["t"] for x in preview if x["t"] and x["t"].strip().lower() != title.lower() and len(x["t"]) > 25), "")
-        desc = re.sub("\u27e6f[\\d#]+\u27e7", "\u2026", desc)
-        fields_out = [{k: v for k, v in f.items() if k not in ("count", "base")} for f in fields]
-        (OUT / "data" / "drafts" / f"{did}.json").write_text(json.dumps({
-            "id": did, "title": title, "category": category, "fields": fields_out, "preview": preview,
-            "auto": mode == "auto", "file": f"drafts/{did}.docx", "parts": sorted(parts), "name": rel.stem}, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-        index.append({"id": did, "title": title, "category": category, "sort": [list(natural(x)) and x for x in rel.parent.parts], "n": len(fields),
-                      "desc": re.sub(r"\s+", " ", desc)[:170], "labels": [f["label"] for f in fields][:40]})
-        note = "" if fields else "no fill-in places found; offered as a plain download"
-        rows.append(f"| {rel} | {mode or '-'} | {len(fields)} | {note} |")
+        fname = f"{did}{p.suffix.lower()}"
+        shutil.copyfile(p, lib / "files" / fname)
+        nwords = len(text.split())
+        desc = next((ln for ln in text.split("\n") if len(ln) >= 30 and ln.strip().lower() != title.lower()), "")
+        desc = re.sub(r"\s+", " ", desc)[:170]
+        (lib / "data" / "d" / f"{did}.json").write_text(json.dumps({"id": did, "title": title, "category": category, "html": body, "text": text,
+            "words": nwords, "file": f"files/{fname}", "name": p.name}, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+        texts[did] = re.sub(r"\s+", " ", text)[:60000]
+        index.append({"id": did, "title": title, "category": category, "desc": desc, "words": nwords})
+        rows.append([category, title, nwords, p.name, (base + "#" + did) if base else f"#{did}", re.sub(r"\s+", " ", text)[:300], text[:45000]])
+        report.append(f"| {rel} | {category} | {nwords} | {how} |")
 
-    index.sort(key=lambda d: (natural("/".join(d["sort"])), natural(d["title"])))
-    for d in index:
-        d.pop("sort")
-    (OUT / "data" / "drafts" / "index.json").write_text(json.dumps({"drafts": index}, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-    report += [f"- Drafts found: {len(files)}", f"- Drafts ready: {len(index)}",
-               f"- Drafts with no fill-in places: {sum(1 for d in index if d['n'] == 0)}", "",
-               "| File | Fill-in style used | Fields | Note |", "|---|---|---|---|"] + rows
-    lost = [d for d in old_docs if d not in converted]
-    if lost:
-        report += ["", f"{len(lost)} old .doc file(s) could not be converted" + (" (LibreOffice is not installed here)." if no_office else "."), ""] + [f"- {d.relative_to(SRC)}" for d in lost]
+    index.sort(key=lambda d: (natural(d["category"]), natural(d["title"])))
+    rows.sort(key=lambda r: (natural(r[0]), natural(r[1])))
+    (lib / "data" / "index.json").write_text(json.dumps({"drafts": index}, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    (lib / "data" / "text.json").write_text(json.dumps(texts, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    (lib / "index.html").write_text(PAGE, encoding="utf-8")
+    for target in (lib / "drafts_index.csv", DATA / "drafts_index.csv"):
+        with open(target, "w", encoding="utf-8-sig", newline="") as fh:
+            w = csv.writer(fh)
+            w.writerow(["Category", "Title", "Words", "Original file", "Open in library", "Preview", "Full text"])
+            w.writerows(rows)
+
+    out = ["# Drafts library report", "", f"- Drafts found: {len(files)}", f"- Drafts published: {len(index)}",
+           f"- Categories: {len({d['category'] for d in index})}", ""]
+    if no_office:
+        out += ["LibreOffice is not installed here, so only .docx files could be read.", ""]
+    out += ["| File | Category | Words | Read with |", "|---|---|---|---|"] + report
     if not SRC.exists():
-        report.append("")
-        report.append("There is no drafts folder yet. Create one and upload the Word files there.")
-    (DATA / "drafts_report.md").write_text("\n".join(report) + "\n", encoding="utf-8")
-    print("\n".join(report[:8]))
+        out += ["", "There is no drafts folder yet. Create one and upload the Word files there."]
+    (DATA / "drafts_report.md").write_text("\n".join(out) + "\n", encoding="utf-8")
+    print("\n".join(out[:6]))
 
+
+PAGE = r'''<!doctype html>
+<html lang="en" data-theme="auto">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Drafts library</title>
+<meta name="description" content="All drafts with their original wording. Search, read, copy or download the original Word file.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Schibsted+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#eceff3;--page:#fafbfc;--ink:#18222f;--muted:#566377;--rule:#d3d9e2;
+  --tape:#a51f1d;--link:#1d4f91;--mark:#fff0b3;--fs:1;
+  --serif:"Newsreader",Georgia,"Times New Roman",serif;
+  --sans:"Schibsted Grotesk",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+:root[data-theme=light]{color-scheme:light}
+:root[data-theme=sepia]{--paper:#e6dcc4;--page:#f4ecd8;--ink:#2d2316;--muted:#675740;--rule:#d2c5a5;--tape:#9b2218;--link:#7a3b10;--mark:#f7dc8a}
+:root[data-theme=dark]{--paper:#0d1218;--page:#131a22;--ink:#e4e9f0;--muted:#93a0b3;--rule:#26313f;--tape:#ee6a60;--link:#8db7ee;--mark:#4a3f12;color-scheme:dark}
+@media (prefers-color-scheme:dark){
+  :root[data-theme=auto]{--paper:#0d1218;--page:#131a22;--ink:#e4e9f0;--muted:#93a0b3;--rule:#26313f;--tape:#ee6a60;--link:#8db7ee;--mark:#4a3f12;color-scheme:dark}
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 1rem/1.5 var(--sans)}
+a{color:var(--link)}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--link);outline-offset:2px}
+[hidden]{display:none!important}
+mark{background:var(--mark);color:inherit;border-radius:2px;padding:0 .08em}
+
+.bar{position:sticky;top:0;z-index:20;background:var(--paper);border-bottom:1px solid var(--rule)}
+.bar-in{max-width:1320px;margin:auto;padding:.65rem 1.5rem;display:flex;align-items:center;gap:1.1rem}
+.brand{font:600 1.2rem/1 var(--serif);color:var(--ink);text-decoration:none;white-space:nowrap;letter-spacing:-.01em}
+.back{font:500 .9rem var(--sans);color:var(--muted);text-decoration:none;white-space:nowrap}
+.back:hover{color:var(--ink)}
+.find{flex:1;max-width:30rem;min-width:0}
+.field{display:flex;align-items:center;background:var(--page);border:1px solid var(--rule);border-radius:3px}
+.field:focus-within{border-color:var(--link);box-shadow:0 0 0 3px color-mix(in srgb,var(--link) 22%,transparent)}
+.field .sym{padding:0 .1rem 0 .85rem;color:var(--tape);font:500 1.1rem/1 var(--serif)}
+.field input{flex:1;min-width:0;border:0;background:transparent;color:inherit;font:inherit;padding:.6rem .8rem;outline:0}
+.field input::placeholder{color:var(--muted)}
+.tools{display:flex;align-items:center;gap:.35rem;margin-left:auto}
+.tools button{background:none;border:1px solid transparent;border-radius:3px;cursor:pointer;min-width:2rem;height:2rem;padding:0 .3rem;font:500 .9rem var(--sans);color:var(--muted)}
+.tools button:hover{border-color:var(--rule);color:var(--ink)}
+.sw{position:relative}
+.sw::after{content:"";position:absolute;inset:6px;border-radius:50%;border:1px solid var(--muted);background:var(--c)}
+.sw[aria-pressed=true]{border-color:var(--ink)!important}
+.sw[data-t=light]{--c:#fafbfc}.sw[data-t=sepia]{--c:#f1e5c8}.sw[data-t=dark]{--c:#131a22}
+
+.wrap{max-width:1320px;margin:0 auto;padding:1.2rem 1.5rem 3rem;display:grid;grid-template-columns:minmax(17rem,24rem) minmax(0,1fr);gap:1.6rem;align-items:start}
+.lp{position:sticky;top:4.3rem;max-height:calc(100vh - 5.2rem);overflow:auto;padding-right:.3rem}
+.chips{display:flex;flex-wrap:wrap;gap:.4rem;margin:0 0 .9rem}
+.chips button{border:1px solid var(--rule);border-radius:99px;background:var(--page);padding:.18rem .7rem;font:500 .84rem var(--sans);cursor:pointer;color:var(--ink)}
+.chips button span{color:var(--muted);margin-left:.3rem;font-weight:400}
+.chips button[aria-pressed=true]{background:var(--ink);color:var(--page);border-color:var(--ink)}
+.chips button[aria-pressed=true] span{color:inherit;opacity:.8}
+.cnt{margin:0 0 .6rem;font:400 .88rem var(--sans);color:var(--muted)}
+.grp{margin:1.1rem 0 .3rem;font:600 1.05rem var(--serif);display:flex;gap:.5rem;align-items:baseline}
+.grp small{font:400 .8rem var(--sans);color:var(--muted)}
+.it{display:block;width:100%;text-align:left;background:none;border:0;border-left:3px solid transparent;padding:.42rem .6rem;cursor:pointer;color:var(--ink);text-decoration:none}
+.it:hover{background:color-mix(in srgb,var(--link) 8%,transparent)}
+.it[aria-current=true]{background:var(--page);border-left-color:var(--tape)}
+.it b{display:block;font:600 .98rem/1.3 var(--serif)}
+.it span{display:block;margin-top:.1rem;font:400 .8rem/1.35 var(--sans);color:var(--muted)}
+.it .sn{margin-top:.2rem;font-size:.82rem}
+.none{padding:1rem 0;color:var(--muted)}
+
+.intro h1{margin:0;font:600 clamp(2.2rem,5vw,3.4rem)/1 var(--serif);letter-spacing:-.025em}
+.intro p{margin:1rem 0 0;max-width:36rem;font:400 1.15rem/1.5 var(--serif);color:var(--muted)}
+.cats{display:grid;grid-template-columns:repeat(auto-fill,minmax(14rem,1fr));gap:.7rem;margin-top:1.6rem}
+.cat{display:block;text-align:left;background:var(--page);border:1px solid var(--rule);border-left:3px solid var(--tape);border-radius:3px;padding:.75rem .9rem;cursor:pointer}
+.cat:hover{border-color:var(--ink);border-left-color:var(--tape)}
+.cat b{display:block;font:600 1.05rem/1.25 var(--serif)}
+.cat span{font:400 .85rem var(--sans);color:var(--muted)}
+.sheet-tools{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;margin:0 0 .9rem}
+.sheet-tools h1{flex:1 1 100%;margin:.2rem 0 0;font:600 clamp(1.5rem,3vw,2.1rem)/1.15 var(--serif);letter-spacing:-.015em}
+.sheet-tools .meta{flex:1 1 100%;margin:0 0 .4rem;color:var(--muted);font:400 .9rem var(--sans)}
+.btn{border:1px solid var(--rule);background:var(--page);border-radius:3px;padding:.45rem .85rem;font:500 .9rem var(--sans);cursor:pointer;color:var(--ink);text-decoration:none;display:inline-block}
+.btn:hover{border-color:var(--ink)}
+.btn.main{background:var(--ink);color:var(--page);border-color:var(--ink)}
+.btn.main:hover{background:var(--tape);border-color:var(--tape)}
+.mback{display:none}
+.sheet{background:var(--page);border:1px solid var(--rule);box-shadow:0 14px 32px -22px rgba(8,16,30,.5);padding:clamp(1.1rem,4vw,2.6rem);font:400 calc(1.05rem*var(--fs))/1.7 var(--serif);overflow-wrap:break-word}
+.sheet p{margin:0 0 .6rem}
+.sheet table{border-collapse:collapse;max-width:100%;margin:.5rem 0}
+.sheet td,.sheet th{padding:.25rem .5rem;vertical-align:top}
+.sheet td.bd,.sheet th.bd{border:1px solid var(--muted)}
+.sheet ul,.sheet ol{margin:.3rem 0 .6rem;padding-left:1.6rem}
+.sheet h1,.sheet h2,.sheet h3,.sheet h4{margin:1rem 0 .5rem;font-family:var(--serif)}
+.toast{position:fixed;left:50%;bottom:1.4rem;transform:translateX(-50%);background:var(--ink);color:var(--page);padding:.5rem .9rem;border-radius:3px;font:500 .9rem var(--sans);z-index:50}
+@media (max-width:860px){
+  .wrap{grid-template-columns:minmax(0,1fr);padding:1rem}
+  .lp{position:static;max-height:none;padding:0}
+  .bar-in{padding:.55rem 1rem;gap:.6rem;flex-wrap:wrap}
+  .find{order:5;flex:1 1 100%;max-width:none}
+  .back{display:none}
+  body.reading .lp{display:none}
+  body:not(.reading) .rp{display:none}
+  .mback{display:inline-block}
+}
+@media print{.bar,.lp,.sheet-tools .btn,.mback,.toast{display:none!important}.wrap{display:block;padding:0}.sheet{border:0;box-shadow:none;padding:0}body{background:#fff}}
+</style>
+</head>
+<body>
+<header class="bar"><div class="bar-in">
+  <a class="brand" href="./">Drafts library</a>
+  <a class="back" href="../">&larr; Companies Act reader</a>
+  <div class="find"><div class="field"><span class="sym" aria-hidden="true">&sect;</span>
+    <input id="q" type="search" placeholder="Search drafts by name or any words inside" autocomplete="off" spellcheck="false" aria-label="Search drafts"></div></div>
+  <div class="tools" role="group" aria-label="Reading settings">
+    <button data-fs="-1" aria-label="Smaller text" title="Smaller text">A&minus;</button>
+    <button data-fs="1" aria-label="Larger text" title="Larger text">A+</button>
+    <button class="sw" data-t="light" aria-label="Light page" title="Light page" aria-pressed="false"></button>
+    <button class="sw" data-t="sepia" aria-label="Sepia page" title="Sepia page" aria-pressed="false"></button>
+    <button class="sw" data-t="dark" aria-label="Dark page" title="Dark page" aria-pressed="false"></button>
+  </div>
+</div></header>
+<main class="wrap">
+  <nav class="lp" aria-label="Drafts"><div class="chips" id="chips"></div><p class="cnt" id="cnt"></p><div id="list"></div></nav>
+  <section class="rp" id="rp"></section>
+</main>
+<script>
+(() => {
+"use strict";
+const $ = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const store = { get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }, set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} } };
+const S = { idx: [], text: null, low: null, cat: "", q: "", cur: null, loading: null };
+
+function applyPrefs() {
+  const t = store.get("theme") || "auto";
+  document.documentElement.dataset.theme = t;
+  $$(".sw").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.t === t)));
+  document.documentElement.style.setProperty("--fs", parseFloat(store.get("fs") || "1"));
+}
+document.addEventListener("click", e => {
+  const sw = e.target.closest(".sw"), fb = e.target.closest("[data-fs]");
+  if (sw) { store.set("theme", sw.dataset.t); applyPrefs(); }
+  if (fb) { const cur = parseFloat(store.get("fs") || "1"); store.set("fs", String(Math.min(1.45, Math.max(.85, +(cur + fb.dataset.fs * .08).toFixed(2))))); applyPrefs(); }
+});
+const toast = m => { const t = document.createElement("div"); t.className = "toast"; t.textContent = m; document.body.appendChild(t); setTimeout(() => t.remove(), 2200); };
+const getJSON = u => fetch(u).then(r => { if (!r.ok) throw new Error(u); return r.json(); });
+const words = q => q.toLowerCase().split(/\s+/).filter(Boolean);
+
+function loadText() {
+  if (S.text) return Promise.resolve();
+  return S.loading || (S.loading = getJSON("data/text.json").then(t => { S.text = t; S.low = {}; Object.keys(t).forEach(k => { S.low[k] = t[k].toLowerCase(); }); }).catch(() => { S.text = {}; S.low = {}; }));
+}
+function cats() { const m = new Map(); S.idx.forEach(d => m.set(d.category, (m.get(d.category) || 0) + 1)); return [...m]; }
+
+function matches() {
+  const w = words(S.q);
+  let list = S.idx.filter(d => !S.cat || d.category === S.cat);
+  if (!w.length) return list.map(d => ({ d }));
+  const out = [];
+  for (const d of list) {
+    const head = (d.title + " " + d.category).toLowerCase(), body = S.low ? (S.low[d.id] || "") : "";
+    if (!w.every(x => head.includes(x) || body.includes(x))) continue;
+    let score = 0; w.forEach(x => { if (d.title.toLowerCase().includes(x)) score += 5; else if (head.includes(x)) score += 3; else score += 1; });
+    let sn = "";
+    const x = w.find(t => !head.includes(t)) || w[0], i = body.indexOf(x);
+    if (i >= 0 && S.text) { const t = S.text[d.id]; sn = (i > 40 ? "…" : "") + t.slice(Math.max(0, i - 40), i + 90).replace(/\s+/g, " ") + "…"; }
+    out.push({ d, score, sn });
+  }
+  return out.sort((a, b) => b.score - a.score || a.d.title.localeCompare(b.d.title));
+}
+function hl(text, w) {
+  if (!w.length) return esc(text);
+  const re = new RegExp("(" + w.map(x => x.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|") + ")", "ig");
+  return esc(text).replace(re, "<mark>$1</mark>");
+}
+function drawChips() {
+  const all = S.idx.length;
+  $("#chips").innerHTML = `<button data-cat="" aria-pressed="${!S.cat}">All<span>${all}</span></button>` + cats().map(([c, n]) => `<button data-cat="${esc(c)}" aria-pressed="${S.cat === c}">${esc(c)}<span>${n}</span></button>`).join("");
+}
+function drawList() {
+  const res = matches(), w = words(S.q);
+  $("#cnt").textContent = S.q ? `${res.length} ${res.length === 1 ? "draft matches" : "drafts match"} “${S.q}”` : `${res.length} ${res.length === 1 ? "draft" : "drafts"}${S.cat ? " in " + S.cat : ""}`;
+  if (!res.length) { $("#list").innerHTML = `<p class="none">Nothing matches. Try fewer or shorter words.</p>`; return; }
+  const item = r => `<a class="it" href="#${esc(r.d.id)}"${S.cur && S.cur.id === r.d.id ? ' aria-current="true"' : ""}><b>${hl(r.d.title, w)}</b><span>${esc(r.d.category)} &middot; ${r.d.words} words</span>${r.sn ? `<span class="sn">${hl(r.sn, w)}</span>` : ""}</a>`;
+  if (S.q) { $("#list").innerHTML = res.map(item).join(""); return; }
+  const g = new Map(); res.forEach(r => { if (!g.has(r.d.category)) g.set(r.d.category, []); g.get(r.d.category).push(r); });
+  $("#list").innerHTML = [...g].map(([c, a]) => `${g.size > 1 ? `<h3 class="grp">${esc(c)}<small>${a.length}</small></h3>` : ""}${a.map(item).join("")}`).join("");
+}
+function intro() {
+  S.cur = null; document.body.classList.remove("reading"); document.title = "Drafts library";
+  const c = cats();
+  $("#rp").innerHTML = `<div class="intro"><h1>Drafts library</h1><p>${S.idx.length} drafts in their original wording. Search by name or by any words inside a draft, open one to read it, then copy the text or download the original Word file.</p>
+    ${c.length > 1 ? `<div class="cats">${c.map(([n, k]) => `<button class="cat" data-cat="${esc(n)}"><b>${esc(n)}</b><span>${k} ${k === 1 ? "draft" : "drafts"}</span></button>`).join("")}</div>` : ""}</div>`;
+}
+async function openDraft(id) {
+  const meta = S.idx.find(d => d.id === id); if (!meta) return intro();
+  S.cur = meta; document.body.classList.add("reading"); document.title = meta.title + " | Drafts library";
+  $("#rp").innerHTML = `<p class="none">Opening…</p>`; drawList();
+  let d; try { d = await getJSON(`data/d/${encodeURIComponent(id)}.json`); } catch (e) { $("#rp").innerHTML = `<p class="none">This draft could not be loaded.</p>`; return; }
+  if (!S.cur || S.cur.id !== id) return;
+  S.doc = d;
+  $("#rp").innerHTML = `<div class="sheet-tools"><button class="btn mback" id="mb">&larr; All drafts</button><h1>${esc(d.title)}</h1><p class="meta">${esc(d.category)} &middot; ${d.words} words &middot; original file: ${esc(d.name)}</p>
+    <button class="btn main" id="cp">Copy text</button><a class="btn" href="${esc(d.file)}" download="${esc(d.name)}">Download original</a><button class="btn" id="pr">Print</button><button class="btn" id="ln">Copy link</button></div>
+    <article class="sheet" id="sheet">${d.html}</article>`;
+  const w = words(S.q); if (w.length) markIn($("#sheet"), w);
+  window.scrollTo(0, 0);
+}
+function markIn(root, w) {
+  const re = new RegExp("(" + w.map(x => x.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|") + ")", "ig");
+  const tw = document.createTreeWalker(root, NodeFilter.SHOW_TEXT), nodes = []; let n;
+  while ((n = tw.nextNode())) if (re.test(n.nodeValue)) nodes.push(n);
+  nodes.slice(0, 400).forEach(t => { const f = document.createDocumentFragment(); t.nodeValue.split(re).forEach((p, i) => { if (i % 2) { const m = document.createElement("mark"); m.textContent = p; f.appendChild(m); } else f.appendChild(document.createTextNode(p)); }); t.parentNode.replaceChild(f, t); });
+  const first = $("#sheet mark"); if (first) first.scrollIntoView({ block: "center" });
+}
+async function copyText(t) {
+  try { await navigator.clipboard.writeText(t); return true; }
+  catch (e) { const a = document.createElement("textarea"); a.value = t; document.body.appendChild(a); a.select(); let ok = false; try { ok = document.execCommand("copy"); } catch (x) {} a.remove(); return ok; }
+}
+document.addEventListener("click", async e => {
+  const c = e.target.closest("[data-cat]");
+  if (c && !c.closest(".sheet")) { S.cat = c.dataset.cat; drawChips(); drawList(); if (location.hash) history.replaceState(null, "", location.pathname); intro(); drawList(); window.scrollTo(0, 0); return; }
+  if (e.target.closest("#mb")) { history.replaceState(null, "", location.pathname + location.search); intro(); drawList(); return; }
+  if (e.target.closest("#cp")) { const t = (S.doc && S.doc.text) || ""; toast(await copyText(t) ? "Text copied" : "Could not copy. Select the text and copy it."); }
+  if (e.target.closest("#pr")) window.print();
+  if (e.target.closest("#ln")) toast(await copyText(location.href) ? "Link copied" : "Could not copy the link");
+});
+let timer;
+$("#q").addEventListener("input", e => {
+  S.q = e.target.value.trim(); loadText().then(() => { if (S.q === e.target.value.trim()) drawList(); });
+  clearTimeout(timer); timer = setTimeout(drawList, 120);
+});
+document.addEventListener("keydown", e => {
+  if (e.metaKey || e.ctrlKey || e.altKey) return;
+  if (e.key === "/" && !/input|textarea/i.test(e.target.tagName)) { e.preventDefault(); $("#q").focus(); }
+  else if (e.key === "Escape" && document.activeElement === $("#q")) { $("#q").value = ""; S.q = ""; drawList(); $("#q").blur(); }
+});
+function route() {
+  const id = decodeURIComponent(location.hash.replace(/^#/, ""));
+  if (id) openDraft(id); else { intro(); drawList(); }
+}
+window.addEventListener("hashchange", route);
+(async function init() {
+  applyPrefs();
+  try { S.idx = (await getJSON("data/index.json")).drafts; }
+  catch (e) { $("#rp").innerHTML = `<div class="intro"><h1>Drafts library</h1><p>No drafts are published yet. Upload Word files to the drafts folder of the repository and the library appears after the next build.</p></div>`; return; }
+  drawChips(); drawList(); route();
+})();
+})();
+</script>
+</body>
+</html>
+'''
 
 if __name__ == "__main__":
     main()
