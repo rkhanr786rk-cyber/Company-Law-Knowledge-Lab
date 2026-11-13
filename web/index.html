@@ -261,6 +261,71 @@ button{font:inherit;color:inherit}
 .aibox summary{cursor:pointer;padding:.5rem 0;font:600 .92rem var(--sans);color:var(--link)}
 .aibox .aisum{font-size:1.05rem}.aibox .aiex{font-size:1rem}.aibox .aipts{font-size:.98rem}
 
+
+/* daily tools */
+.nav{display:flex;gap:1rem;margin-left:auto}
+.nav a{font:500 .9rem var(--sans);color:var(--muted);text-decoration:none;white-space:nowrap;border-bottom:2px solid transparent;padding:.2rem 0}
+.nav a:hover,.nav a[aria-current=page]{color:var(--ink);border-bottom-color:var(--tape)}
+.nav + .tools{margin-left:.8rem}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(13.5rem,1fr));gap:.7rem;margin-top:.3rem}
+.cards a{display:block;padding:.8rem .95rem;background:var(--page);border:1px solid var(--rule);border-left:3px solid var(--tape);border-radius:3px;color:var(--ink);text-decoration:none}
+.cards a:hover{border-color:var(--ink);border-left-color:var(--tape)}
+.cards b{display:block;font:600 1.05rem/1.3 var(--serif)}
+.cards span{display:block;margin-top:.2rem;font:400 .86rem/1.4 var(--sans);color:var(--muted)}
+.pg{max-width:52rem;margin:0 auto;padding:clamp(1.6rem,6vh,3.4rem) 1.5rem 3rem}
+.pg h1{margin:0;font:600 clamp(2rem,5vw,3rem)/1.05 var(--serif);letter-spacing:-.02em}
+.pg .lede{margin:.8rem 0 1.4rem}
+.pg h2{margin:2.4rem 0 .5rem;font:600 1.4rem var(--serif)}
+.pg h3{margin:1.3rem 0 .3rem;font:600 1.05rem var(--serif)}
+.pg p.note{margin:.6rem 0 0;font:400 .88rem/1.5 var(--sans);color:var(--muted)}
+.pg ul.list{list-style:none;margin:0;padding:0}
+.pg ul.list li{border-bottom:1px solid var(--rule)}
+.pg ul.list a{display:flex;gap:.7rem;padding:.5rem 0;color:var(--ink);text-decoration:none;font:400 .98rem/1.35 var(--sans)}
+.pg ul.list a:hover{color:var(--link)}
+.pg ul.list b{flex:0 0 2.6rem;font:600 1rem var(--serif);color:var(--tape)}
+.pg ul.list li{display:flex;align-items:baseline}
+.pg ul.list li a{flex:1}
+.pg ul.list .x{flex:0 0 auto;background:none;border:0;color:var(--muted);cursor:pointer;font:500 .84rem var(--sans);padding:.3rem}
+.pg ul.list .x:hover{color:var(--tape)}
+.pg ul.list small{display:block;color:var(--muted);font-size:.84rem;margin-top:.1rem}
+.box{margin:0 0 1rem;padding:1rem 1.1rem;background:var(--page);border:1px solid var(--rule);border-radius:3px}
+.box h3{margin:0 0 .6rem}
+.row{display:flex;flex-wrap:wrap;gap:.7rem 1rem;align-items:end;margin:0 0 .7rem}
+.row label{display:flex;flex-direction:column;gap:.2rem;font:500 .84rem var(--sans);color:var(--muted)}
+.row input,.row select,.pg textarea{padding:.5rem .6rem;border:1px solid var(--rule);border-radius:3px;background:var(--paper);color:var(--ink);font:400 .98rem var(--sans)}
+.ans{margin:.4rem 0 0;font:400 1.12rem/1.5 var(--serif)}
+.ans b{font-weight:600}
+.ans small{display:block;margin-top:.3rem;font:400 .86rem/1.45 var(--sans);color:var(--muted)}
+.ans a,.cal a{color:var(--link)}
+table.cal{width:100%;border-collapse:collapse;margin-top:.4rem;font:400 .94rem/1.4 var(--sans)}
+.cal th{text-align:left;font-weight:600;padding:.4rem .5rem .4rem 0;border-bottom:2px solid var(--rule)}
+.cal td{padding:.5rem .5rem .5rem 0;border-bottom:1px solid var(--rule);vertical-align:top}
+.cal .due{white-space:nowrap;font-weight:600}
+.chip{display:inline-block;margin-left:.4rem;padding:0 .4rem;border-radius:2px;border:1px solid var(--muted);font:500 .74rem var(--sans);color:var(--muted);white-space:nowrap}
+.chip.late{border-color:var(--tape);color:var(--tape)}.chip.soon{border-color:var(--link);color:var(--link)}
+.btnrow{display:flex;flex-wrap:wrap;gap:.5rem;margin:.8rem 0}
+.btn{border:1px solid var(--rule);background:var(--page);border-radius:3px;padding:.45rem .85rem;font:500 .9rem var(--sans);cursor:pointer;color:var(--ink)}
+.btn:hover{border-color:var(--ink)}
+.stool{display:flex;flex-wrap:wrap;gap:.4rem;margin:-.6rem 0 1.1rem}
+.stool button{border:1px solid var(--rule);background:var(--page);border-radius:99px;padding:.15rem .75rem;font:500 .82rem var(--sans);cursor:pointer;color:var(--ink)}
+.stool button:hover{border-color:var(--muted)}
+.stool button[aria-pressed=true]{border-color:var(--tape);color:var(--tape)}
+.forms{margin:-.5rem 0 1rem;font:400 .88rem var(--sans);color:var(--muted)}
+.forms a{margin-left:.5rem;font-weight:500}
+.pen{margin:0 0 1.2rem;border:1px solid color-mix(in srgb,var(--tape) 45%,var(--rule));border-left-width:3px;border-radius:3px;padding:.1rem .9rem .5rem;background:var(--page)}
+.pen:not([open]){padding-bottom:.1rem}
+.pen summary{cursor:pointer;padding:.45rem 0;font:600 .92rem var(--sans);color:var(--tape)}
+.pen .count{margin-left:.4rem;font-weight:500}
+.pen ul{margin:.2rem 0 0;padding-left:1.1rem;font:400 .98rem/1.55 var(--serif)}
+.pen li{margin:.35rem 0}
+.pen .jump{background:none;border:0;padding:0;cursor:pointer;color:var(--link);font:600 .9rem var(--sans);text-decoration:underline;text-underline-offset:.15em}
+.pen .penote{margin:.6rem 0 0;font:400 .82rem var(--sans);color:var(--muted)}
+.mynotes{margin:1.4rem 0 0}
+.mynotes summary{cursor:pointer;font:600 .92rem var(--sans);color:var(--link)}
+.mynotes textarea{display:block;width:100%;margin-top:.5rem;min-height:6rem;resize:vertical;font:400 1rem/1.5 var(--sans)}
+.toast{position:fixed;left:50%;bottom:1.4rem;transform:translateX(-50%);background:var(--ink);color:var(--page);padding:.5rem .9rem;border-radius:3px;font:500 .9rem var(--sans);z-index:70}
+@media (max-width:820px){.nav{display:none}.cal th:nth-child(3),.cal td:nth-child(3){display:none}}
+@media print{.stool,.mynotes,.nav{display:none!important}}
 @media print{.bar,.side,.mtabs,.tapewrap,.pn,.foot{display:none!important}.reader{display:block}body{background:#fff}}
 </style>
 </head>
@@ -273,6 +338,7 @@ button{font:inherit;color:inherit}
         <input id="q2" type="search" placeholder="Section number or topic" autocomplete="off" spellcheck="false" aria-label="Search the Act" role="combobox" aria-expanded="false" aria-controls="res2"></div>
       <div class="results" id="res2" role="listbox" hidden></div>
     </div>
+    <nav class="nav" aria-label="Daily tools"><a href="#/tools" data-nav="tools">Calculator</a><a href="#/forms" data-nav="forms">Forms</a><a href="#/me" data-nav="me">My workspace</a></nav>
     <div class="tools" role="group" aria-label="Reading settings">
       <button data-fs="-1" aria-label="Smaller text" title="Smaller text">A−</button>
       <button data-fs="1" aria-label="Larger text" title="Larger text">A+</button>
@@ -456,6 +522,10 @@ function renderHome() {
       <input id="q1" type="search" placeholder="164, or disqualification of director" autocomplete="off" spellcheck="false" aria-label="Search the Act" role="combobox" aria-expanded="false" aria-controls="res1"></div>
       <div class="results" id="res1" role="listbox" hidden></div></div>
     <p class="hint">Also works: <b>s.149(1)</b>, <b>section 42</b>, a rule title. Press <kbd>/</kbd> to search from any page.</p>
+    <h2>Daily tools</h2>
+    <div class="cards"><a href="#/tools"><b>Compliance and date calculator</b><span>Notice periods, AGM and ROC due dates, deadlines after an event</span></a>
+      <a href="#/forms"><b>Forms index</b><span>MGT, PAS, SH, DIR and other forms, with the Rules and sections that use them</span></a>
+      <a href="#/me"><b>My workspace</b><span>Saved sections, your private notes and recently read sections</span></a></div>
     <h2>Contents</h2><div class="toc">${toc}</div></section>`;
 }
 function showHome() {
@@ -532,13 +602,19 @@ async function showSection(n, q) {
       ${d.c ? `<div class="chap">Chapter ${esc(d.c)}</div><div class="chapt">${esc(nice(d.ct))}</div>` : ""}</aside>
     <div class="text"><div class="tapewrap" aria-hidden="true"><div class="tape"><i></i><b></b></div></div>
       <h1 tabindex="-1">${esc(d.t)}</h1>${d.s === "omitted" ? `<span class="badge">Omitted</span>` : ""}
-      <div class="body">${body}</div>${notes}${nav}</div>
+      <div class="stool"><button type="button" data-act="save" aria-pressed="${WS.get().saved.includes(n)}">${WS.get().saved.includes(n) ? "★ Saved" : "☆ Save"}</button><button type="button" data-act="cite">Copy citation</button><button type="button" data-act="copytext">Copy text</button><button type="button" data-act="print">Print</button></div>
+      ${d.forms && d.forms.length ? `<p class="forms">Forms in the Rules:${d.forms.map(f => `<a href="#/forms?f=${encodeURIComponent(f)}">${esc(f)}</a>`).join("")}</p>` : ""}
+      ${penaltyHTML(d)}
+      <div class="body">${body}</div>
+      <details class="mynotes"${WS.get().notes[n] ? " open" : ""}><summary>My notes</summary><textarea id="mynote" placeholder="Private notes for this section. They stay in this browser only.">${esc(WS.get().notes[n] || "")}</textarea></details>
+      ${notes}${nav}</div>
     <aside class="side" aria-label="Rules and cases">
       <div class="tabs" role="tablist"><button role="tab" data-tab="rules">Rules<span class="count">${direct}</span></button><button role="tab" data-tab="deep">Deep Dive</button><button class="wide" type="button" aria-pressed="false">Widen</button></div>
       <div class="panel" data-p="rules">${rulesPanel(d, "")}</div>
       <div class="panel" data-p="deep"></div>
     </aside></article>`);
   document.title = `${d.n}. ${d.t} | Companies Act, 2013`;
+  WS.seen(n); navMark("");
   const rd = $(".reader");
   syncWide();
   const tab = q.get("tab") || S.tab; setTab(tab);
@@ -764,6 +840,173 @@ function progress() {
 window.addEventListener("scroll", () => { if (!ticking) { ticking = true; requestAnimationFrame(() => { progress(); ticking = false; }); } }, { passive: true });
 window.addEventListener("resize", progress);
 
+/* ---------- workspace: saved sections, notes, recently read (kept in this browser only) ---------- */
+const WS = {
+  get() { try { const w = JSON.parse(store.get("ws") || "{}"); return { saved: w.saved || [], notes: w.notes || {}, recent: w.recent || [] }; } catch (e) { return { saved: [], notes: {}, recent: [] }; } },
+  put(w) { store.set("ws", JSON.stringify(w)); },
+  toggle(n) { const w = this.get(), i = w.saved.indexOf(n); if (i >= 0) w.saved.splice(i, 1); else w.saved.unshift(n); this.put(w); return i < 0; },
+  note(n, t) { const w = this.get(); if (t.trim()) w.notes[n] = t; else delete w.notes[n]; this.put(w); },
+  seen(n) { const w = this.get(); w.recent = [n, ...w.recent.filter(x => x !== n)].slice(0, 20); this.put(w); }
+};
+const navMark = k => $$(".nav a").forEach(a => { if (a.dataset.nav === k) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
+const toast = m => { const t = document.createElement("div"); t.className = "toast"; t.textContent = m; document.body.appendChild(t); setTimeout(() => t.remove(), 2200); };
+async function copyText(t) {
+  try { await navigator.clipboard.writeText(t); return true; }
+  catch (e) { const a = document.createElement("textarea"); a.value = t; document.body.appendChild(a); a.select(); let ok = false; try { ok = document.execCommand("copy"); } catch (x) {} a.remove(); return ok; }
+}
+
+/* the sentences of a section that speak of a fine, a penalty or imprisonment */
+const PEN = /\b(punishable|imprisonment|penalty|penalties|liable to|shall be liable|fine\b|disgorge)/i;
+function penaltyHTML(d) {
+  if (d.s === "omitted") return "";
+  const items = [];
+  d.paras.forEach((p, i) => {
+    if (!PEN.test(p.x)) return;
+    p.x.split(/;\s+|\.\s+(?=[A-Z(])/).filter(x => PEN.test(x) && x.length > 25).forEach(x => items.push({ i, l: p.l, x: x.length > 280 ? x.slice(0, 277) + "…" : x }));
+  });
+  if (!items.length) return "";
+  const list = items.slice(0, 8);
+  return `<details class="pen"><summary>Penalty and default<span class="count">${items.length}</span></summary><ul>${list.map(x => `<li>${x.l ? `<button class="jump" type="button" data-jump="${x.i}">${esc(x.l)}</button> ` : `<button class="jump" type="button" data-jump="${x.i}">Go to text</button> `}${esc(x.x)}</li>`).join("")}</ul>
+    <p class="penote">${items.length > list.length ? `Showing ${list.length} of ${items.length}. ` : ""}Sentences that mention a fine, penalty or imprisonment, picked by the tool. Read the whole section before you advise.</p></details>`;
+}
+document.addEventListener("click", async e => {
+  const b = e.target.closest(".stool [data-act]"), j = e.target.closest("[data-jump]");
+  if (j) { const el = $$(".body .p")[+j.dataset.jump]; if (el) { setTab("section"); el.scrollIntoView({ block: "center" }); el.classList.add("flash"); setTimeout(() => el.classList.remove("flash"), 2400); } return; }
+  if (!b || !S.d) return;
+  const d = S.d, act = b.dataset.act;
+  if (act === "save") { const on = WS.toggle(d.n); b.setAttribute("aria-pressed", String(on)); b.textContent = on ? "★ Saved" : "☆ Save"; toast(on ? "Saved to My workspace" : "Removed from My workspace"); }
+  else if (act === "cite") toast(await copyText(`Section ${d.n}, Companies Act, 2013 (${d.t})`) ? "Citation copied" : "Could not copy");
+  else if (act === "copytext") toast(await copyText(`Section ${d.n}. ${d.t}\n\n` + d.paras.map(p => (p.l ? p.l + " " : "") + p.x).join("\n")) ? "Section text copied" : "Could not copy");
+  else if (act === "print") window.print();
+});
+let noteTimer;
+document.addEventListener("input", e => { if (e.target.id === "mynote" && S.cur) { const v = e.target.value, n = S.cur; clearTimeout(noteTimer); noteTimer = setTimeout(() => WS.note(n, v), 300); } });
+
+function showWorkspace() {
+  S.cur = null; S.d = null; S.token++; setChrome(false); navMark("me"); document.title = "My workspace | Companies Act, 2013 Reader";
+  const w = WS.get(), li = (n, x, extra = "") => S.map[n] === undefined ? "" : `<li><a href="#/s/${esc(n)}"><b>${esc(n)}</b><span>${esc(ttl(n))}${x ? `<small>${esc(x)}</small>` : ""}</span></a>${extra}</li>`;
+  const notes = Object.keys(w.notes).sort((a, b) => S.map[a] - S.map[b]);
+  show(`<section class="pg"><h1>My workspace</h1><p class="lede">Your saved sections, notes and reading history. Everything here stays in this browser on this device. Nothing is sent anywhere.</p>
+    <h2>Saved sections</h2>${w.saved.length ? `<ul class="list">${w.saved.map(n => li(n, "", `<button class="x" type="button" data-unsave="${esc(n)}">Remove</button>`)).join("")}</ul>` : `<p class="note">Nothing saved yet. Open a section and press Save.</p>`}
+    <h2>My notes</h2>${notes.length ? `<ul class="list">${notes.map(n => li(n, w.notes[n].replace(/\s+/g, " ").slice(0, 160))).join("")}</ul>` : `<p class="note">No notes yet. Every section has a My notes box under its text.</p>`}
+    <h2>Recently read</h2>${w.recent.length ? `<ul class="list">${w.recent.map(n => li(n, "")).join("")}</ul>` : `<p class="note">Sections you open appear here.</p>`}
+    <h2>Backup</h2><p class="note">Because your notes live only in this browser, clearing browser data or changing computer loses them. Download a backup now and then, and restore it anywhere.</p>
+    <div class="btnrow"><button class="btn" type="button" id="wsbak">Download backup</button><label class="btn">Restore backup<input type="file" id="wsres" accept="application/json,.json" hidden></label></div></section>`);
+  window.scrollTo(0, 0);
+}
+document.addEventListener("click", e => {
+  const u = e.target.closest("[data-unsave]"); if (u) { WS.toggle(u.dataset.unsave); showWorkspace(); }
+  if (e.target.closest("#wsbak")) {
+    const blob = new Blob([JSON.stringify(WS.get(), null, 1)], { type: "application/json" }), a = document.createElement("a");
+    a.href = URL.createObjectURL(blob); a.download = "companies-act-workspace-" + new Date().toISOString().slice(0, 10) + ".json"; document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+  }
+});
+document.addEventListener("change", e => {
+  if (e.target.id !== "wsres" || !e.target.files[0]) return;
+  const fr = new FileReader();
+  fr.onload = () => { try { const w = JSON.parse(fr.result); WS.put({ saved: Array.isArray(w.saved) ? w.saved.map(String) : [], notes: w.notes && typeof w.notes === "object" ? w.notes : {}, recent: Array.isArray(w.recent) ? w.recent.map(String) : [] }); toast("Backup restored"); showWorkspace(); } catch (x) { toast("That file is not a workspace backup"); } };
+  fr.readAsText(e.target.files[0]);
+});
+
+/* ---------- forms index ---------- */
+async function showForms(q) {
+  const my = ++S.token; S.cur = null; S.d = null; setChrome(false); navMark("forms"); document.title = "Forms index | Companies Act, 2013 Reader";
+  show(`<section class="pg"><h1>Forms index</h1><p class="lede">Forms named in the Rules, with the Rules that use them and the section they were made under.</p><p class="msg" style="padding:0">Loading…</p></section>`);
+  let F; try { F = await getJSON("data/forms.json"); } catch (e) { F = null; }
+  if (my !== S.token) return;
+  const names = F ? Object.keys(F) : [];
+  if (!names.length) { show(`<section class="pg"><h1>Forms index</h1><p class="note">No forms were found in the Rules yet.</p></section>`); return; }
+  const want = (q.get("f") || "").toUpperCase();
+  const item = f => { const e = F[f], secs = e.s.map(n => `<a href="#/s/${esc(n)}">${esc(n)}</a>`).join(", ");
+    return `<details data-f="${esc(f)}"${want === f ? " open" : ""}><summary><b>${esc(f)}</b> <span class="fn">${e.r.length} ${e.r.length === 1 ? "rule" : "rules"}${e.s.length ? " · section " + e.s.join(", ") : ""}</span></summary>
+      <ul class="fl">${e.r.map(r => `<li>${r[3] ? `<a href="#/s/${esc(r[3])}?rule=${r[0]}:${encodeURIComponent(r[1])}&tab=rules">Rule ${esc(r[1])}</a>` : `Rule ${esc(r[1])}`} ${esc(r[2])} <small>${esc(S.idx.sets[r[0]].name)}</small></li>`).join("")}</ul>${secs ? `<p class="note">Sections: ${secs}</p>` : ""}</details>`; };
+  show(`<section class="pg"><h1>Forms index</h1><p class="lede">Forms named in the Rules, with the Rules that use them and the section they were made under.</p>
+    <div class="find"><div class="field"><span class="sym" aria-hidden="true">§</span><input id="qf" type="search" placeholder="Form number or a word from a rule title, for example MGT or allotment" autocomplete="off" spellcheck="false" aria-label="Find a form"></div></div>
+    <p class="note" id="fcnt">${names.length} forms</p><div id="fl" class="forms-list">${names.map(item).join("")}</div>
+    <p class="note">Forms are found by reading the Rules. A form that only the Act or an MCA notice mentions is not listed.</p></section>`);
+  const inp = $("#qf");
+  inp.addEventListener("input", () => {
+    const t = inp.value.trim().toLowerCase(), ws = t.split(/\s+/).filter(Boolean); let n = 0;
+    $$("#fl details").forEach(d => { const f = d.dataset.f, hay = (f + " " + F[f].r.map(r => r[2]).join(" ")).toLowerCase(); const ok = ws.every(x => hay.includes(x)); d.hidden = !ok; if (ok) n++; });
+    $("#fcnt").textContent = `${n} ${n === 1 ? "form" : "forms"}`;
+  });
+  if (want) { const el = $(`#fl details[data-f="${CSS.escape(want)}"]`); if (el) setTimeout(() => el.scrollIntoView({ block: "center" }), 50); }
+}
+
+/* ---------- compliance and date calculator ---------- */
+const D0 = s => { const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(s || ""); return m ? new Date(Date.UTC(+m[1], +m[2] - 1, +m[3])) : null; };
+const addD = (d, n) => new Date(d.getTime() + n * 864e5);
+const addM = (d, n) => { const x = new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth() + n, 1)), last = new Date(Date.UTC(x.getUTCFullYear(), x.getUTCMonth() + 1, 0)).getUTCDate(); x.setUTCDate(Math.min(d.getUTCDate(), last)); return x; };
+const fdate = d => d.toLocaleDateString("en-IN", { weekday: "short", day: "numeric", month: "short", year: "numeric", timeZone: "UTC" });
+const iso = d => d.toISOString().slice(0, 10);
+const daysTo = d => { const t = new Date(); return Math.round((d.getTime() - Date.UTC(t.getFullYear(), t.getMonth(), t.getDate())) / 864e5); };
+const chip = d => { const n = daysTo(d); return n < 0 ? `<span class="chip late">${-n} ${-n === 1 ? "day" : "days"} ago</span>` : n === 0 ? `<span class="chip soon">today</span>` : `<span class="chip${n <= 14 ? " soon" : ""}">in ${n} ${n === 1 ? "day" : "days"}</span>`; };
+const sl = (n, label) => `<a href="#/s/${esc(n)}">${label || "Section " + esc(n)}</a>`;
+const frm = f => `<a href="#/forms?f=${encodeURIComponent(f)}">${esc(f)}</a>`;
+const EVENTS = [
+  ["A resolution requiring filing is passed (special resolution, or one listed in section 117)", 30, "117", "MGT-14", "Filing with the Registrar"],
+  ["Securities are allotted", 30, "39", "PAS-3", "Return of allotment"],
+  ["A charge is created or modified", 30, "77", "CHG-1", "Can be filed later within 300 days on payment of additional fees"],
+  ["A director or key managerial person is appointed, changes or leaves", 30, "170", "DIR-12", "Return of the change"],
+  ["The registered office is shifted", 30, "12", "INC-22", "Notice of the new address"],
+  ["A declaration of beneficial interest (BEN-1) is received", 30, "90", "BEN-2", "Return to the Registrar"],
+  ["A meeting concludes", 30, "118", "", "Minutes to be entered in the minutes book"],
+  ["The AGM at which an auditor is appointed is held", 15, "139", "ADT-1", "Notice of the auditor’s appointment"],
+  ["The AGM is held (financial statements)", 30, "137", "AOC-4", "Financial statements to the Registrar"],
+  ["The AGM is held (annual return)", 60, "92", "MGT-7", "Annual return to the Registrar"]
+];
+function lastFYE() { const t = new Date(), y = t.getMonth() >= 3 ? t.getFullYear() : t.getFullYear() - 1; return `${y}-03-31`; }
+function showTools() {
+  S.cur = null; S.d = null; S.token++; setChrome(false); navMark("tools"); document.title = "Compliance and date calculator | Companies Act, 2013 Reader";
+  show(`<section class="pg"><h1>Compliance and date calculator</h1><p class="lede">The statutory time limits a Company Secretary counts every week, worked out for you, each with its section.</p>
+    <div class="box" id="c-notice"><h3>Notice of a meeting</h3>
+      <div class="row"><label>Meeting<select id="n-type"><option value="21">General meeting (21 clear days)</option><option value="7">Board meeting (7 days)</option></select></label>
+        <label>I know<select id="n-mode"><option value="m">the meeting date</option><option value="s">the date I send the notice</option></select></label>
+        <label>Date<input type="date" id="n-date"></label>
+        <label>Sent by<select id="n-by"><option value="0">E-mail or hand delivery</option><option value="2">Post (served after 2 days)</option></select></label></div>
+      <p class="ans" id="n-out"></p></div>
+    <div class="box" id="c-gap"><h3>Gap between Board meetings</h3>
+      <div class="row"><label>Date of the last Board meeting<input type="date" id="g-date"></label></div><p class="ans" id="g-out"></p></div>
+    <div class="box" id="c-cal"><h3>Yearly calendar</h3>
+      <div class="row"><label>Financial year ended on<input type="date" id="y-fye" value="${lastFYE()}"></label><label>AGM held or planned on (optional)<input type="date" id="y-agm"></label></div>
+      <div id="y-out"></div></div>
+    <div class="box" id="c-ev"><h3>Deadline after an event</h3>
+      <div class="row"><label>What happened<select id="e-ev">${EVENTS.map((x, i) => `<option value="${i}">${esc(x[0])}</option>`).join("")}</select></label><label>On<input type="date" id="e-date"></label></div>
+      <p class="ans" id="e-out"></p></div>
+    <p class="note">These are the time limits in the Act and the Rules. The Ministry may extend a date by circular, and filing late attracts additional fees under ${sl("403")} and may attract penalty. Confirm on mca.gov.in before you rely on a date. This is not legal advice.</p></section>`);
+  const val = id => $("#" + id).value;
+  const noteCalc = () => {
+    const N = +val("n-type"), by = +val("n-by"), d = D0(val("n-date")), mode = val("n-mode"), out = $("#n-out");
+    const sec = N === 21 ? sl("101", "Section 101(1)") : sl("173", "Section 173(3)");
+    const short = N === 21 ? "Shorter notice needs the consent of members: for an AGM, 95% of the members entitled to vote; for another general meeting, a majority in number holding at least 95% of the voting power." : "A meeting on shorter notice needs at least one independent director present; where there is none, decisions need ratification by at least one independent director.";
+    if (!d) { out.innerHTML = `<small>Pick a date. Clear days leave out the day the notice is served and the day of the meeting. ${esc(short)} (${sec})</small>`; return; }
+    if (mode === "m") { const serve = addD(d, -(N + 1)), send = addD(serve, -by); out.innerHTML = `Send the notice on or before <b>${fdate(send)}</b> ${chip(send)}<small>${by ? "Posted notice counts as served 2 days after posting, so the served date is " + fdate(serve) + ". " : ""}${esc(short)} (${sec})</small>`; }
+    else { const serve = addD(d, by), meet = addD(serve, N + 1); out.innerHTML = `The meeting can be held on or after <b>${fdate(meet)}</b><small>${by ? "Served date after posting: " + fdate(serve) + ". " : ""}${esc(short)} (${sec})</small>`; }
+  };
+  const gapCalc = () => { const d = D0(val("g-date")); $("#g-out").innerHTML = d ? `The next Board meeting must be held on or before <b>${fdate(addD(d, 120))}</b> ${chip(addD(d, 120))}<small>Gap of not more than 120 days and at least 4 meetings a year. ${sl("173", "Section 173(1)")}. One-person, small and dormant companies have a lighter rule.</small>` : `<small>The gap between two Board meetings may not exceed 120 days. ${sl("173", "Section 173(1)")}</small>`; };
+  const yearCalc = () => {
+    const f = D0(val("y-fye")), a = D0(val("y-agm")), out = $("#y-out"); if (!f) { out.innerHTML = ""; return; }
+    const last = addM(f, 6), base = a || last, rows = [];
+    rows.push([addD(a || last, -21), "Send the financial statements and reports to members", sl("136", "Section 136(1)"), "", a ? "" : "if the AGM is held on the last date"]);
+    rows.push([last, "Last date to hold the AGM", sl("96", "Section 96(1)"), "", "The first AGM may be held within 9 months of the first year end, and two AGMs may not be more than 15 months apart"]);
+    rows.push([addD(base, 15), "Appoint or re-appoint the auditor: notice to the Registrar", sl("139", "Section 139(1)"), frm("ADT-1"), a ? "" : "if the AGM is held on the last date"]);
+    rows.push([addD(base, 30), "File the financial statements", sl("137", "Section 137(1)"), frm("AOC-4"), a ? "" : "if the AGM is held on the last date"]);
+    rows.push([addD(base, 60), "File the annual return", sl("92", "Section 92(4)"), frm("MGT-7"), a ? "" : "if the AGM is held on the last date"]);
+    out.innerHTML = `<table class="cal"><thead><tr><th>Due</th><th>What</th><th>Basis</th></tr></thead><tbody>${rows.sort((x, y) => x[0] - y[0]).map(r => `<tr><td class="due">${fdate(r[0])}${chip(r[0])}</td><td>${esc(r[1])}${r[3] ? " · " + r[3] : ""}${r[4] ? `<br><small>${esc(r[4])}</small>` : ""}</td><td>${r[2]}</td></tr>`).join("")}</tbody></table>
+      <p class="note">Every year by 30 June: return of deposits, ${frm("DPT-3")} (${sl("73")}). A meeting’s minutes are entered within 30 days of it (${sl("118")}).</p>`;
+  };
+  const evCalc = () => {
+    const e = EVENTS[+val("e-ev")], d = D0(val("e-date")), out = $("#e-out");
+    if (!d) { out.innerHTML = `<small>${e[1]} days from the event, counted from the day after it. ${sl(e[2])}${e[3] ? " · " + frm(e[3]) : ""}${e[4] ? ". " + esc(e[4]) : ""}</small>`; return; }
+    const due = addD(d, e[1]); out.innerHTML = `Due on or before <b>${fdate(due)}</b> ${chip(due)}<small>${e[1]} days from the event. ${sl(e[2])}${e[3] ? " · " + frm(e[3]) : ""}${e[4] ? ". " + esc(e[4]) : ""}</small>`;
+  };
+  ["n-type", "n-mode", "n-date", "n-by"].forEach(i => $("#" + i).addEventListener("input", noteCalc));
+  $("#g-date").addEventListener("input", gapCalc);
+  ["y-fye", "y-agm"].forEach(i => $("#" + i).addEventListener("input", yearCalc));
+  ["e-ev", "e-date"].forEach(i => $("#" + i).addEventListener("input", evCalc));
+  noteCalc(); gapCalc(); yearCalc(); evCalc(); window.scrollTo(0, 0);
+}
+
 /* ---------- routing and keys ---------- */
 function parseHash() {
   const h = location.hash.replace(/^#/, "") || "/"; const [p, qs] = h.split("?");
@@ -772,6 +1015,11 @@ function parseHash() {
 }
 async function route() {
   if (!S.idx) return;
+  const hh = location.hash.replace(/^#/, ""), hb = hh.split("?")[0];
+  if (hb === "/me") return showWorkspace();
+  if (hb === "/tools") return showTools();
+  if (hb === "/forms") return showForms(new URLSearchParams(hh.split("?")[1] || ""));
+  navMark("");
   const { sec, q } = parseHash();
   if (!sec) return showHome();
   if (S.map[sec] === undefined) return showMessage(`<p>The Act has no section ${esc(sec)}. Sections run from 1 to ${esc(S.order[S.order.length - 1])}.</p><div class="find"><div class="field"><span class="sym" aria-hidden="true">§</span><input id="q3" type="search" placeholder="Try another section number" autocomplete="off" aria-label="Search the Act"></div><div class="results" id="res3" hidden></div></div>`), mountSearch($("#q3"), $("#res3")), $("#q3").focus();
