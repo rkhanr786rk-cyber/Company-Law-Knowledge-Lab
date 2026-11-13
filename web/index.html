@@ -320,6 +320,23 @@ table.cal{width:100%;border-collapse:collapse;margin-top:.4rem;font:400 .94rem/1
 .pen li{margin:.35rem 0}
 .pen .jump{background:none;border:0;padding:0;cursor:pointer;color:var(--link);font:600 .9rem var(--sans);text-decoration:underline;text-underline-offset:.15em}
 .pen .penote{margin:.6rem 0 0;font:400 .82rem var(--sans);color:var(--muted)}
+.gn{margin:1.6rem 0 0;border-top:2px solid var(--rule);padding-top:.4rem}
+.gn>h2{margin:.4rem 0 .2rem;font:700 1.05rem var(--sans)}
+.gn h3{margin:1rem 0 .25rem;font:700 .86rem var(--sans);color:var(--tape)}
+.gn ul{margin:.1rem 0;padding-left:1.15rem;font:400 .98rem/1.55 var(--serif)}
+.gn li{margin:.25rem 0}
+.gn .muted,.gn .gnend{font:400 .84rem/1.5 var(--sans);color:var(--muted)}
+.gn .gnend{margin:1rem 0 0}
+.gn .src{font:400 .8rem var(--sans);color:var(--muted)}
+.ix{columns:2 18rem;column-gap:2rem;font:400 .98rem/1.5 var(--serif)}
+.ix h2{break-after:avoid;margin:1.2rem 0 .3rem;font:700 1.2rem var(--sans);color:var(--tape)}
+.ix div.e{break-inside:avoid;margin:.25rem 0}
+.ix .e b{font-weight:600}
+.ix .e a{margin-left:.35rem;white-space:nowrap}
+.az{display:flex;flex-wrap:wrap;gap:.3rem;margin:.8rem 0}
+.az a{padding:.15rem .5rem;border:1px solid var(--rule);border-radius:3px;font:600 .85rem var(--sans)}
+.case{margin:0 0 1rem}
+.case b{font-weight:600}
 .mynotes{margin:1.4rem 0 0}
 .mynotes summary{cursor:pointer;font:600 .92rem var(--sans);color:var(--link)}
 .mynotes textarea{display:block;width:100%;margin-top:.5rem;min-height:6rem;resize:vertical;font:400 1rem/1.5 var(--sans)}
@@ -360,7 +377,7 @@ table.cal{width:100%;border-collapse:collapse;margin-top:.4rem;font:400 .94rem/1
         <input id="q2" type="search" placeholder="Section number or topic" autocomplete="off" spellcheck="false" aria-label="Search the Act" role="combobox" aria-expanded="false" aria-controls="res2"></div>
       <div class="results" id="res2" role="listbox" hidden></div>
     </div>
-    <nav class="nav" aria-label="Daily tools"><a href="#/tools" data-nav="tools">Calculator</a><a href="#/forms" data-nav="forms">Forms</a><a href="#/me" data-nav="me">My workspace</a></nav>
+    <nav class="nav" aria-label="Daily tools"><a href="#/tools" data-nav="tools">Calculator</a><a href="#/forms" data-nav="forms">Forms</a><a href="#/index" data-nav="index">Index</a><a href="#/cases" data-nav="cases">Cases</a><a href="#/me" data-nav="me">My workspace</a></nav>
     <div class="tools" role="group" aria-label="Reading settings">
       <button data-fs="-1" aria-label="Smaller text" title="Smaller text">A−</button>
       <button data-fs="1" aria-label="Larger text" title="Larger text">A+</button>
@@ -628,6 +645,7 @@ async function showSection(n, q) {
       ${d.forms && d.forms.length ? `<p class="forms">Forms in the Rules:${d.forms.map(f => `<a href="#/forms?f=${encodeURIComponent(f)}">${esc(f)}</a>`).join("")}</p>` : ""}
       ${penaltyHTML(d)}
       <div class="body">${body}</div>
+      ${guideHTML(d)}
       <details class="mynotes"${WS.get().notes[n] ? " open" : ""}><summary>My notes</summary><textarea id="mynote" placeholder="Private notes for this section. They stay in this browser only.">${esc(WS.get().notes[n] || "")}</textarea></details>
       ${notes}${nav}</div>
     <aside class="side" aria-label="Rules and cases">
@@ -636,7 +654,7 @@ async function showSection(n, q) {
       <div class="panel" data-p="deep"></div>
     </aside></article>`);
   document.title = `${d.n}. ${d.t} | Companies Act, 2013`;
-  WS.seen(n); navMark("");
+  WS.seen(n); navMark(""); fillGuide(d);
   const rd = $(".reader");
   syncWide();
   const tab = q.get("tab") || S.tab; setTab(tab);
@@ -1003,6 +1021,69 @@ document.addEventListener("click", e => {
   else if (e.target.closest("#pk-saved")) $("#pk-secs").value = WS.get().saved.join(", ");
 });
 
+/* ---------- guide notes (commentary style, in bullets) ---------- */
+const secLink = (n, t) => `<a href="#/s/${esc(n)}">Section ${esc(n)}</a>${t ? " " + esc(t) : ""}`;
+function srcLink(u, label) { return u && /^https?:\/\//i.test(u) ? ` <a href="${esc(u)}" target="_blank" rel="noopener">${esc(label || "Open")}</a>` : ""; }
+function guideHTML(d) {
+  if (d.s === "omitted") return "";
+  const g = d.gn || {}, direct = d.rules.filter(r => r.conf !== "low");
+  const sec = (h, items, empty) => `<h3>${h}</h3>` + (items.length ? `<ul>${items.join("")}</ul>` : `<p class="muted">${empty}</p>`);
+  const rules = direct.map(r => `<li><a href="#/s/${esc(d.n)}?rule=${r.set}:${encodeURIComponent(r.rule)}&tab=rules">Rule ${esc(r.rule)}</a> of the ${esc(S.idx.sets[r.set].name)}: ${esc(r.t || "No heading")}${r.conf === "medium" ? ` <span class="flag">verify</span>` : ""}</li>`);
+  const forms = (d.forms || []).map(f => `<a href="#/forms?f=${encodeURIComponent(f)}">${esc(f)}</a>`).join(", ");
+  const rel = [d.out && d.out.length ? `<li>Refers to: ${d.out.slice(0, 12).map(x => `<a href="#/s/${esc(x)}">${esc(x)}</a>`).join(", ")}</li>` : "", d["in"] && d["in"].length ? `<li>Referred to by: ${d["in"].slice(0, 12).map(x => `<a href="#/s/${esc(x)}">${esc(x)}</a>`).join(", ")}${d["in"].length > 12 ? " and " + (d["in"].length - 12) + " more" : ""}</li>` : ""].filter(Boolean);
+  const missing = [];
+  const block = (key, h, fmt, none) => { const a = g[key] || []; if (!a.length) { missing.push(none); return ""; } return sec(h, a.map(fmt), ""); };
+  const an = block("an", "Analogous Law (Companies Act, 1956)", x => `<li>${esc(x.old_section)}${x.note ? ": " + esc(x.note) : ""}</li>`, "Analogous Law");
+  const lodr = block("lodr", "SEBI (LODR) Regulations, 2015", x => `<li>${esc(x.regulation)}${x.note ? ": " + esc(x.note) : ""}</li>`, "SEBI (LODR)");
+  const ex = block("ex", "Exemption to certain companies", x => `<li>${x.applies_to ? "<b>" + esc(x.applies_to) + "</b>: " : ""}${esc(x.note)}${x.source ? ` <span class="src">(${esc(x.source)})</span>` : ""}</li>`, "Exemptions");
+  const ci = block("ci", "Circulars and clarifications", x => `<li>${esc(x.title)}${x.date ? ", " + esc(x.date) : ""}${x.reference ? " (" + esc(x.reference) + ")" : ""}${srcLink(x.link)}</li>`, "Circulars");
+  const jp = block("jp", "Judicial pronouncements", x => `<li><i>${esc(x.case)}</i>${x.citation ? ", " + esc(x.citation) : (x.court || x.year) ? ", " + esc([x.court, x.year].filter(Boolean).join(" ")) : ""}${x.held ? ": " + esc(x.held.split("|")[0].trim()) : ""}${srcLink(x.link)}</li>`, "Judicial pronouncements");
+  return `<section class="gn" aria-label="Guide notes"><h2>Guide Notes</h2>
+    ${an}
+    <h3>Overview</h3><div id="gnov"><p class="muted">Loading…</p></div>
+    ${sec("Relevant Rules and forms", rules.concat(forms ? [`<li>Forms: ${forms}</li>`] : []), "No Rule in the loaded sets names this section.")}
+    ${rel.length ? `<h3>Connected sections</h3><ul>${rel.join("")}</ul>` : ""}
+    ${lodr}${ex}${ci}${jp}
+    ${missing.length ? `<p class="gnend">Not added yet: ${missing.join(", ")}. These are filled only from material you add to the <b>guide</b> folder of the repository, so nothing here is guessed.</p>` : ""}</section>`;
+}
+async function fillGuide(d) {
+  const box = $("#gnov"); if (!box) return;
+  if (!(S.idx.ai_s || []).includes(d.n)) { box.innerHTML = `<p class="muted">The plain-language overview is not ready yet. It is written automatically in the background.</p>`; return; }
+  try { const e = await getJSON(`data/ai/s/${d.n}.json`); if (S.cur !== d.n) return;
+    box.innerHTML = `<p>${esc(e.summary)}</p>${e.points && e.points.length ? `<ul>${e.points.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}<p class="muted">Written by an AI from the text of the section. Check the section itself before relying on it.</p>`; }
+  catch (err) { box.innerHTML = ""; }
+}
+
+/* ---------- subject index and table of cases ---------- */
+async function showIndex(q) {
+  const my = ++S.token; S.cur = null; S.d = null; setChrome(false); navMark("index"); document.title = "Subject index | Companies Act, 2013 Reader";
+  show(`<section class="pg"><h1>Subject index</h1><p class="msg" style="padding:0">Loading…</p></section>`);
+  let X; try { X = await getJSON("data/subject.json"); } catch (e) { X = null; }
+  if (my !== S.token) return;
+  if (!X) return show(`<section class="pg"><h1>Subject index</h1><p>The index is not built yet.</p></section>`);
+  const letters = Object.keys(X);
+  show(`<section class="pg"><h1>Subject index</h1><p class="lede">Subjects taken from section headings and the defined terms of section 2, with the sections where each appears.</p>
+    <div class="field" style="max-width:26rem"><span class="sym" aria-hidden="true">§</span><input id="ixq" type="search" placeholder="Filter the index" autocomplete="off" aria-label="Filter the index"></div>
+    <nav class="az" aria-label="Jump to a letter">${letters.map(l => `<a href="#/index?l=${l}" data-l="${l}">${l}</a>`).join("")}</nav>
+    <div class="ix" id="ixl">${letters.map(l => `<h2 id="ix-${l}">${l}</h2>` + X[l].map(e => `<div class="e" data-k="${esc((e.t + " " + e.s.map(x => x[1]).join(" ")).toLowerCase())}"><b>${esc(e.t)}</b>${e.s.map(x => `<a href="#/s/${esc(x[0])}" title="${esc(x[1])}">${esc(x[0])}${x[2] ? esc(x[2]) : ""}</a>`).join("")}</div>`).join("")).join("")}</div></section>`);
+  const inp = $("#ixq");
+  inp.addEventListener("input", () => { const v = inp.value.trim().toLowerCase(); $$("#ixl .e").forEach(el => el.hidden = !!v && !el.dataset.k.includes(v)); $$("#ixl h2").forEach(h => { let n = h.nextElementSibling, any = false; while (n && n.tagName !== "H2") { if (!n.hidden) any = true; n = n.nextElementSibling; } h.hidden = !any; }); });
+  $$(".az a").forEach(a => a.addEventListener("click", ev => { ev.preventDefault(); const h = $("#ix-" + a.dataset.l); if (h) h.scrollIntoView({ block: "start" }); }));
+  window.scrollTo(0, 0);
+}
+async function showCases() {
+  const my = ++S.token; S.cur = null; S.d = null; setChrome(false); navMark("cases"); document.title = "Table of cases | Companies Act, 2013 Reader";
+  show(`<section class="pg"><h1>Table of cases</h1><p class="msg" style="padding:0">Loading…</p></section>`);
+  let C; try { C = await getJSON("data/cases.json"); } catch (e) { C = []; }
+  if (my !== S.token) return;
+  if (!C.length) return show(`<section class="pg"><h1>Table of cases</h1><p class="lede">No cases have been added yet.</p><p>Cases appear here once you add them to <b>guide/cases.csv</b> in the repository. Each row names the section it explains. They are never filled in by the tool itself, because a wrong case citation is worse than none.</p></section>`);
+  show(`<section class="pg"><h1>Table of cases</h1><p class="lede">${C.length} ${C.length === 1 ? "case" : "cases"}, with the sections they are cited under.</p>
+    <div class="field" style="max-width:26rem"><span class="sym" aria-hidden="true">§</span><input id="cq" type="search" placeholder="Filter by case or section" autocomplete="off" aria-label="Filter cases"></div>
+    <div id="cl" style="margin-top:1rem">${C.map(c => `<div class="case" data-k="${esc((c.c + " " + c.cit + " " + c.s.join(" ")).toLowerCase())}"><b><i>${esc(c.c)}</i></b>${c.cit ? ", " + esc(c.cit) : (c.ct || c.y) ? ", " + esc([c.ct, c.y].filter(Boolean).join(" ")) : ""}${srcLink(c.url)}<br>${c.h.length ? `<span>${c.h.map(esc).join("; ")}</span><br>` : ""}<span class="muted small">Sections: ${c.s.map(x => `<a href="#/s/${esc(x)}">${esc(x)}</a>`).join(", ")}</span></div>`).join("")}</div></section>`);
+  const inp = $("#cq"); inp.addEventListener("input", () => { const v = inp.value.trim().toLowerCase(); $$("#cl .case").forEach(el => el.hidden = !!v && !el.dataset.k.includes(v)); });
+  window.scrollTo(0, 0);
+}
+
 /* ---------- forms index ---------- */
 async function showForms(q) {
   const my = ++S.token; S.cur = null; S.d = null; setChrome(false); navMark("forms"); document.title = "Forms index | Companies Act, 2013 Reader";
@@ -1152,6 +1233,8 @@ async function route() {
   const hh = location.hash.replace(/^#/, ""), hb = hh.split("?")[0];
   if (hb === "/me") return showWorkspace();
   if (hb === "/pack") return showPack();
+  if (hb === "/index") return showIndex(new URLSearchParams(hh.split("?")[1] || ""));
+  if (hb === "/cases") return showCases();
   if (hb === "/tools") return showTools();
   if (hb === "/forms") return showForms(new URLSearchParams(hh.split("?")[1] || ""));
   navMark("");
