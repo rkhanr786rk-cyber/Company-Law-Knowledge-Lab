@@ -8,6 +8,7 @@ Writes site/ (index.html + data files the page loads on demand)
   site/data/s/<n>.json      one file per section: reflowed text, notes, linked rules
   site/data/r/<k>.json      one file per rule set: reflowed text of every rule
 """
+import csv
 import datetime
 import json
 import re
@@ -207,6 +208,91 @@ STOP = set("the and for are was were that this with from have has had not but an
            "what other more most some each every either neither within without".split())
 
 
+# ---------- guide notes: rows typed in guide/*.csv by the reader of the tool ----------
+GUIDE_DIR = Path("guide")
+GUIDE_FILES = {
+    "analogous.csv": ("an", ["old_section", "note"]),
+    "lodr.csv": ("lodr", ["regulation", "note"]),
+    "exemptions.csv": ("ex", ["applies_to", "note", "source"]),
+    "circulars.csv": ("ci", ["title", "date", "reference", "link"]),
+    "cases.csv": ("jp", ["case", "court", "year", "citation", "held", "link"]),
+}
+SEC_CELL = re.compile(r"\d{1,3}[A-Z]{0,2}")
+
+
+def read_guide(valid):
+    """Returns ({section: {kind: [rows]}}, report lines, all case rows)."""
+    gn, report, cases = {}, [], []
+    for name, (kind, cols) in GUIDE_FILES.items():
+        f = GUIDE_DIR / name
+        if not f.exists():
+            continue
+        n_rows, bad = 0, []
+        with open(f, encoding="utf-8-sig", newline="") as fh:
+            for row in csv.DictReader(fh):
+                row = {(k or "").strip().lower(): (v or "").strip() for k, v in row.items()}
+                cell = re.sub(r"(?i)\bsections?\b|\bs\.", " ", row.get("section", "")).upper()
+                secs = SEC_CELL.findall(cell)
+                if not secs or not any(row.get(c) for c in cols):
+                    continue
+                item = {c: row.get(c, "") for c in cols}
+                n_rows += 1
+                for sec in dict.fromkeys(secs):
+                    if sec not in valid:
+                        bad.append(sec)
+                        continue
+                    gn.setdefault(sec, {}).setdefault(kind, []).append(item)
+                if kind == "jp":
+                    cases.append((item, [x for x in dict.fromkeys(secs) if x in valid]))
+        report.append(f"- {name}: {n_rows} rows" + (f"; unknown section numbers ignored: {', '.join(sorted(set(bad)))}" if bad else ""))
+    return gn, report, cases
+
+
+# ---------- subject index, made from the section titles and the defined terms ----------
+TITLE_STOP = STOP | set("etc act acts section sections provisions provision certain other others special general new any "
+                         "of in on to by as at or an a is be it if so no up out off per via".split())
+
+
+def stem(w):
+    w = w.lower()
+    if w.endswith("ies") and len(w) > 4:
+        return w[:-3] + "y"
+    if w.endswith("sses"):
+        return w[:-2]
+    if w.endswith("s") and not w.endswith(("ss", "us", "is")) and len(w) > 3:
+        return w[:-1]
+    return w
+
+
+def subject_index(rows, defs, defs_label):
+    ent, forms = {}, {}
+    for n, title, status in rows:
+        if status != "in force":
+            continue
+        for w in set(re.findall(r"[A-Za-z][A-Za-z'\-]{2,}", title)):
+            if w.lower() in TITLE_STOP:
+                continue
+            k = stem(w)
+            forms.setdefault(k, {}).setdefault(w.lower(), 0)
+            forms[k][w.lower()] += 1
+            ent.setdefault(k, {}).setdefault(n, [title, ""])
+    for term, v in defs.items():
+        k = term.lower()
+        ent.setdefault(k, {})["2"] = ["Definitions", defs_label.get(term, "")]
+        forms.setdefault(k, {}).setdefault(k, 1)
+    out = {}
+    for k, secs in ent.items():
+        if len(secs) > 80:
+            continue
+        name = max(forms.get(k, {k: 1}).items(), key=lambda kv: kv[1])[0] if k in forms else k
+        name = name[:1].upper() + name[1:]
+        letter = name[0].upper() if name[0].isalpha() else "#"
+        out.setdefault(letter, []).append({"t": name, "s": [[n, t[0], t[1]] for n, t in sorted(secs.items(), key=lambda kv: sort_key(kv[0]))]})
+    for lst in out.values():
+        lst.sort(key=lambda e: e["t"].lower())
+    return dict(sorted(out.items()))
+
+
 def main():
     for f in ("sections.json", "rules.json", "links.json"):
         if not (DATA / f).exists():
@@ -303,6 +389,7 @@ def main():
             if item["confidence"] != "low":
                 rule_secs.setdefault(item["rule_id"], set()).add(n)
 
+    guide, guide_report, case_rows = read_guide(valid)
     for i, s in enumerate(sections):
         n = s["section"]
         paras, notes = parsed[n]
@@ -345,7 +432,7 @@ def main():
         next_n = order[i + 1] if i + 1 < len(order) else None
         dump(OUT / "data" / "s" / f"{n}.json", {
             "n": n, "t": s["title"], "c": s["chapter"], "ct": s["chapter_title"], "s": s["status"],
-            "paras": paras, "notes": notes, "rules": linked, "forms": sorted(sec_forms),
+            "paras": paras, "notes": notes, "rules": linked, "forms": sorted(sec_forms), "gn": guide.get(n, {}),
             "out": outs[n], "in": sorted(ins.get(n, []), key=sort_key),
             "wo": why_out[n], "wi": {b: why_out[b][n] for b in ins.get(n, [])}, "co": co_list,
             "prev": [prev_n, title_of[prev_n]] if prev_n else None,
@@ -397,6 +484,30 @@ def main():
         e["s"].sort(key=sort_key)
     dump(OUT / "data" / "forms.json", dict(sorted(forms.items())))
     dump(OUT / "data" / "defs.json", defs)
+    defs_label = {}
+    if "2" in parsed:
+        cur = None
+        for p_ in parsed["2"][0]:
+            if p_["k"] == "sub":
+                for t_ in re.findall(r"[“\"]([^”\"]{2,60})[”\"]", p_["x"][:200]):
+                    defs_label[t_.lower()] = p_["l"]
+    subj = subject_index([(r[0], r[1], "in force" if not r[4] else "omitted") for r in rows], defs, defs_label)
+    dump(OUT / "data" / "subject.json", subj)
+    seen_case, cases_out = {}, []
+    for item, secs in case_rows:
+        key = (item["case"].lower(), item["year"])
+        e = seen_case.get(key)
+        if not e:
+            e = {"c": item["case"], "ct": item["court"], "y": item["year"], "cit": item["citation"], "h": [x.strip() for x in re.split(r"\s*\|\s*|\n", item["held"]) if x.strip()], "url": item["link"], "s": []}
+            seen_case[key] = e
+            cases_out.append(e)
+        for x in secs:
+            if x not in e["s"]:
+                e["s"].append(x)
+    for e in cases_out:
+        e["s"].sort(key=sort_key)
+    cases_out.sort(key=lambda e: e["c"].lower())
+    dump(OUT / "data" / "cases.json", cases_out)
 
     size = sum(f.stat().st_size for f in OUT.rglob("*") if f.is_file())
     report = [
@@ -406,11 +517,15 @@ def main():
         f"- Rules searchable by title: {len(rule_rows)}",
         f"- Defined terms found in section 2: {len(defs)}",
         f"- Forms found in the Rules: {len(forms)}",
+        f"- Subject index entries: {sum(len(v) for v in subj.values())}",
+        f"- Cases in the Table of Cases: {len(cases_out)}",
         f"- Search words indexed: {len(ft)}",
         f"- Sections with a plain-language explanation: {len(ai_sections)}",
         f"- Rule sets with plain-language explanations: {sum(1 for x in set_index if x['ai'])}",
         f"- Total site size: {size / 1e6:.1f} MB",
     ]
+    if guide_report:
+        report += ["", "Guide notes read from the guide folder:"] + guide_report
     (DATA / "site_report.md").write_text("\n".join(report) + "\n", encoding="utf-8")
     print("\n".join(report))
 
