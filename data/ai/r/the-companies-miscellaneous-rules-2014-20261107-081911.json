@@ -77,5 +77,190 @@
   "h": "9c188e3b8813",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This rule gives a formal name to a specific set of company regulations. It also states the exact date when these rules officially start applying. No other details or requirements are provided in the text.",
+  "points": [
+   "The rules are called the Companies (Miscellaneous) Rules, 2014.",
+   "They officially start on the 1st day of April, 2014."
+  ],
+  "example": "Meera Textiles Private Limited wanted to know when a specific set of government regulations officially began. The company checked the official rules and found that the Companies (Miscellaneous) Rules, 2014 came into force on the 1st day of April, 2014. This date let the company know exactly when the rules started applying.",
+  "terms": [
+   {
+    "term": "come into force",
+    "meaning": "To officially become active and start applying."
+   }
+  ],
+  "watch": "Do not confuse the title of the rules with the name of the main Act.",
+  "h": "f6507dd1b69d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "2": {
+  "summary": "This rule gives simple meanings for words used in the Companies (Miscellaneous) Rules, 2014. It explains terms like Act, Form, and Fees so that readers understand the paperwork. It also states that any words not explained here will take their meaning from the main Companies Act, 2013 or other specific rules.",
+  "points": [
+   "The word Act refers to the Companies Act, 2013.",
+   "Form or e-Form means the specific document attached in the Annexure to these rules.",
+   "Words not defined here take their meaning from the Act or specified rules."
+  ],
+  "example": "Meera Textiles Private Limited wanted to file a document under the new rules. The manager checked what paper to use and found that Form means the official form attached in the Annexure. Since a specific term in the rule was not explained in the text, the manager looked up its meaning in the main Companies Act, 2013, as permitted by the rules, to ensure the paperwork was done correctly.",
+  "terms": [
+   {
+    "term": "Annexure",
+    "meaning": "An attachment or document enclosed at the end of the rules."
+   },
+   {
+    "term": "e-Form",
+    "meaning": "An electronic form set forth in the Annexure used for official matters."
+   }
+  ],
+  "watch": "Do not assume words not defined in these rules have no meaning; look them up in the main Companies Act or specified rules instead.",
+  "h": "cdd584d3056d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "4": {
+  "summary": "This rule explains how a company gets the official status of being inactive or sleeping. The Registrar checks the application form and then gives a special certificate. This certificate confirms that the company is now a dormant company.",
+  "points": [
+   "An application is filed using Form MSC-1.",
+   "The Registrar considers this application.",
+   "A certificate in Form MSC-2 is issued if approved."
+  ],
+  "example": "Asha Silk Mills Private Limited wants to pause its business activities for a few years without shutting down completely. The company files an application using Form MSC-1 with the Registrar. After checking the application, the Registrar issues a certificate in Form MSC-2, officially allowing Asha Silk Mills Private Limited to have the status of a dormant company.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "The government officer who handles company registrations and records."
+   },
+   {
+    "term": "Dormant Company",
+    "meaning": "An inactive company that is registered but not doing business."
+   }
+  ],
+  "watch": "Do not assume any waiting periods or fees since the text does not mention them.",
+  "h": "9a5a397723f1",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "5": {
+  "summary": "The text explains where the official list of dormant companies is kept. It states that this register is maintained online through a specific web portal. No extra details are provided in the given text.",
+  "points": [
+   "The official register for dormant companies exists online.",
+   "It is kept on the portal maintained by the Ministry of Corporate Affairs.",
+   "The web address for this portal is www.mca.gov.in, or another site notified by the Central Government."
+  ],
+  "example": "Meera Textiles Private Limited applied to become a dormant company because it was not carrying out any business right now. To check if the company's status was officially updated, the directors searched for the company's name on the official portal at www.mca.gov.in, which is the designated place where the register for dormant companies is kept.",
+  "terms": [
+   {
+    "term": "Dormant companies",
+    "meaning": "Companies that are inactive and not carrying out any business."
+   },
+   {
+    "term": "Ministry of Corporate Affairs",
+    "meaning": "A government department in India that handles company-related matters."
+   }
+  ],
+  "watch": "Do not assume that dormant companies can be registered on any website other than the specified official portals.",
+  "h": "66fe55ed18c6",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "6": {
+  "summary": "This rule explains the minimum number of directors required for a dormant company based on its type. A dormant company is a company that is inactive and formed for a future project or holding asset. It also states that rules about changing auditors by rotation do not apply to these companies.",
+  "points": [
+   "A public dormant company must have at least three directors.",
+   "A private dormant company must have at least two directors.",
+   "A One Person Company that is dormant needs only one director.",
+   "Rules regarding the rotation of auditors do not apply to dormant companies."
+  ],
+  "example": "Meera Textiles Private Limited is registered as a dormant company because it is temporarily inactive while waiting for a new project. According to the law, since it is a private company, it must have a minimum of two directors to manage its formal status. Additionally, the rules requiring the regular rotation of auditors will not apply to Meera Textiles Private Limited while it remains dormant.",
+  "terms": [
+   {
+    "term": "Dormant company",
+    "meaning": "An inactive company formed for a future project or to hold an asset or intellectual property."
+   },
+   {
+    "term": "Rotation of auditors",
+    "meaning": "The requirement under the law to change the company's auditor after a certain period."
+   }
+  ],
+  "watch": "People often confuse the regular rules of the Companies Act with dormant company rules, but auditor rotation laws do not apply here.",
+  "h": "c4d1df68b6a3",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "7": {
+  "summary": "An inactive company must file an annual return showing its financial position every year. This return needs an audit by a practicing chartered accountant and must be submitted using a specific form and fee. Also, the company must still report any new share allotments or changes in its directors.",
+  "points": [
+   "A dormant company files a yearly return of dormant company within thirty days from the end of each financial year.",
+   "The return must show the financial position and be audited by a chartered accountant in practice.",
+   "The filing requires Form MSC-3 and an annual fee.",
+   "The company must still file returns for allotment of securities and changes in directors as specified by the Act."
+  ],
+  "example": "Meera Textiles Private Limited is a dormant company. At the end of the financial year, it prepares its financial position. A practicing chartered accountant audits these figures. Within thirty days, the company files Form MSC-3 along with the required fee. Later that year, the company appoints a new director and promptly files the notice of the change in directors as required by the Act.",
+  "terms": [
+   {
+    "term": "dormant company",
+    "meaning": "an inactive company registered under the Companies Act for a future project or holding asset/intellectual property."
+   },
+   {
+    "term": "chartered accountant in practice",
+    "meaning": "a professional accountant who is qualified and holds a certificate to offer accounting and auditing services to the public."
+   },
+   {
+    "term": "allotment",
+    "meaning": "the process of giving or distributing securities like shares to people."
+   }
+  ],
+  "watch": "Do not forget that even though the company is dormant, it must still report any changes in directors or share allotments.",
+  "h": "7dfd356e68c7",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "10": {
+  "summary": "This rule says a group or partnership cannot have more than fifty people if it runs a business to make a profit. To have more than fifty members, the group must be registered as a company under the law. Without this registration, such a large group is not allowed.",
+  "points": [
+   "Groups or partnerships aiming for profit cannot have more than fifty members.",
+   "If a group wants more than fifty members for a business, it must register as a company.",
+   "Alternatively, it can be formed under another law currently in force."
+  ],
+  "example": "Seema and her friends wanted to start a profitable trading business called Sunrise Traders. They planned to bring in sixty members to share the work and the profits. Before starting, Seema learned about the law regarding group sizes. Because their group would have more than fifty people and aim for financial gain, they realized they could not operate as a simple partnership. Instead, they had to register Sunrise Traders as a company under the Companies Act to follow the rules properly.",
+  "terms": [
+   {
+    "term": "Association",
+    "meaning": "A group of people organized for a joint purpose."
+   },
+   {
+    "term": "Acquisition of gain",
+    "meaning": "Making a profit or financial benefit."
+   }
+  ],
+  "watch": "People often confuse this rule by thinking any group can grow large just by calling itself a partnership.",
+  "h": "f12d3faa44a1",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "11": {
+  "summary": "This rule explains what happens to old company applications or forms that were waiting for a decision before these new rules started. If an application was stuck because it needed more information or documents, it will be finished under the older Companies Act of 1956 once you provide what is asked. It applies to requests given to the Central Government, Regional Director, or Registrar.",
+  "points": [
+   "Applies to applications or forms filed before these rules started.",
+   "Applies when the application was not finished because information or documents were missing.",
+   "Once you give the needed information to the authority's satisfaction, the case is decided using the 1956 Act rules."
+  ],
+  "example": "Meera Textiles Private Limited filed a form with the Registrar before the new rules began. The Registrar kept it pending because a document was missing. Under this rule, once Meera Textiles submits the proper document to the Registrar's satisfaction, their pending form will be processed and finished according to the older rules made under the Companies Act, 1956.",
+  "terms": [
+   {
+    "term": "Central Government",
+    "meaning": "The national government of the country."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "An official who handles company records and documents."
+   }
+  ],
+  "watch": "Do not confuse this with current rules, as these pending old cases are finished using the older 1956 Act rules.",
+  "h": "5d1d435c4e0a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
  }
 }

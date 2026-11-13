@@ -211,5 +211,131 @@
   "h": "85385d2ac3dd",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This text provides the official name and the starting date for a specific set of rules under Indian company law. These rules apply to foreign companies operating or registering in India. They officially became active on the first day of April in the year 2014.",
+  "points": [
+   "The official title of the rules is the Companies (Registration of Foreign Companies) Rules, 2014.",
+   "The rules came into force on April 1, 2014."
+  ],
+  "example": "A foreign business named Global Trade Inc. wanted to open an office in India in March 2014, but they had to wait. When April 1, 2014 arrived, the Companies (Registration of Foreign Companies) Rules, 2014 officially came into force, allowing the rules to apply to their registration process from that date forward.",
+  "terms": [
+   {
+    "term": "come into force",
+    "meaning": "To become active and officially take effect."
+   },
+   {
+    "term": "Rules",
+    "meaning": "Detailed regulations created under a law to help carry it out."
+   }
+  ],
+  "watch": "Do not confuse the title of these rules with the actual text of the Companies Act itself.",
+  "h": "8716bc9af3b5",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "6": {
+  "summary": "A foreign company must file a list of all its business locations in India with the Registrar. This filing is done along with its financial statement using Form FC.3 and paying a fee. The list must show the business places existing as on the date of the balance sheet.",
+  "points": [
+   "File a list of all places of business in India.",
+   "Submit the list along with the financial statement.",
+   "Use Form FC.3 and pay the required fee.",
+   "Show the business places as on the date of the balance sheet."
+  ],
+  "example": "Global Tech Corp, a foreign company operating in India, is preparing its annual financial statement. As required by the rules, the company must also fill out Form FC.3. Along with its financial statement, Global Tech Corp files this form and the required fee with the Registrar. The form contains a complete list of all the business places Global Tech Corp has set up in India as on the date of its balance sheet.",
+  "terms": [
+   {
+    "term": "foreign company",
+    "meaning": "A company or body corporate incorporated outside India which has a place of business in India."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "An authority appointed by the government to handle company registrations and filings."
+   }
+  ],
+  "watch": "Do not forget to include all places of business established in India as of the specific balance sheet date.",
+  "h": "f8735f57190f",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "7": {
+  "summary": "Every foreign company must prepare and file an annual return using Form FC.4 within sixty days from the last day of its financial year. This filing goes to the Registrar along with the required fee. The details in the return must show the company's status as it was at the close of that financial year.",
+  "points": [
+   "Prepare and file an annual return in Form FC.4.",
+   "File within sixty days from the last day of the financial year.",
+   "Submit to the Registrar with the required fee.",
+   "Include particulars as they stood at the close of the financial year."
+  ],
+  "example": "Alpha Global Inc., a foreign company, wrapped up its financial year on March 31. To follow the rules under the Companies Act, 2013, the company prepared its annual return in Form FC.4 detailing its particulars as of March 31. Within sixty days from that last day of the financial year, Alpha Global Inc. submitted the Form FC.4 along with the prescribed fee to the Registrar.",
+  "terms": [
+   {
+    "term": "Foreign company",
+    "meaning": "A company or body corporate incorporated outside India which has a place of business in India."
+   },
+   {
+    "term": "Annual return",
+    "meaning": "A yearly report containing specific information about a company's status and details."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "An authority appointed to register companies and keep records under the law."
+   }
+  ],
+  "watch": "Make sure to calculate the sixty-day deadline starting specifically from the last day of the financial year.",
+  "h": "b31315240184",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "8": {
+  "summary": "Foreign companies operating in India must deliver their required documents to the Registrar in New Delhi, unless a specific rule directs them to the Central Registration Centre. They must also pay the registration fees set by the relevant fees rules. If a foreign company stops having a place of business in India and gives notice, it no longer needs to deliver documents.",
+  "points": [
+   "Deliver documents to the Registrar having jurisdiction over New Delhi.",
+   "Pay fees for registering documents as provided in the Companies rules.",
+   "Give notice to the Registrar immediately if the company stops having a place of business in India.",
+   "Obligation to deliver documents stops once notice is given, provided no other place of business remains."
+  ],
+  "example": "Alpha Global Corporation, a foreign company, decided to close its only office in India. To follow the law, Alpha Global Corporation forthwith gave notice of this fact to the Registrar. Because it no longer had any other place of business in India, its obligation to deliver any further documents to the Registrar ceased as from the date on which the notice was given.",
+  "terms": [
+   {
+    "term": "Foreign company",
+    "meaning": "A company or body corporate incorporated outside India which has a place of business in India."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "An authority appointed by the government to handle company registrations and documents."
+   }
+  ],
+  "watch": "Do not forget that stopping business requires a formal notice to the Registrar to end your document delivery duties.",
+  "h": "774adfbb1681",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "11": {
+  "summary": "When a foreign company issues a prospectus, it must attach certain important documents to it. These documents include expert consents, key contracts, and agreements related to underwriting or authorized signing. This rule ensures transparency for people who might invest in the company.",
+  "points": [
+   "Attach any required consent from an expert who helped with the prospectus.",
+   "Include copies of contracts for appointing a managing director or manager, or a written summary if no formal contract exists.",
+   "Include important contracts made outside the ordinary course of business within the last two years.",
+   "Attach copies of any underwriting agreements and powers of attorney used for signing."
+  ],
+  "example": "Global Tech Corp, a foreign company, wanted to offer its shares to the public in India. When preparing its prospectus, Rohan, the company secretary, made sure to attach all required papers. These included the written consent of a financial expert, the contract for their managing director Mr. Smith, a special supply contract signed last year, the underwriting agreement with a bank, and the power of attorney allowing Rohan to sign on behalf of the directors.",
+  "terms": [
+   {
+    "term": "Prospectus",
+    "meaning": "An official document inviting the public to buy shares or securities in a company."
+   },
+   {
+    "term": "Underwriting agreement",
+    "meaning": "A contract where a person or firm agrees to buy any unsold shares of the company."
+   },
+   {
+    "term": "Power of attorney",
+    "meaning": "A legal document giving someone the authority to act on behalf of another person."
+   }
+  ],
+  "watch": "Do not confuse ordinary business contracts with special material contracts, as only non-ordinary contracts from the last two years need to be attached.",
+  "h": "49a3e45af38b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
  }
 }

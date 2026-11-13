@@ -107,5 +107,221 @@
   "h": "9e5b44ef8d73",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This rule gives a short title to the rules about company prospectuses and the allotment of securities. It states that these rules officially started on the 1st day of April, 2014. The text is very short and only covers the name and the start date.",
+  "points": [
+   "The rules are called the Companies (Prospectus and Allotment of Securities) Rules, 2014.",
+   "They came into force on April 1, 2014."
+  ],
+  "example": "In April 2014, Meera Textiles Private Limited wanted to know the exact legal name of the rules governing how it issues shares to the public. The company's legal advisor checked the official book and confirmed that the rules are called the Companies (Prospectus and Allotment of Securities) Rules, 2014, and that they came into force on the 1st day of April, 2014.",
+  "terms": [
+   {
+    "term": "Prospectus",
+    "meaning": "An official document issued by a company that invites the public to buy its shares or securities."
+   },
+   {
+    "term": "Allotment",
+    "meaning": "The process of giving or distributing shares to people who applied for them."
+   },
+   {
+    "term": "Securities",
+    "meaning": "Financial instruments like shares or bonds that a company issues."
+   }
+  ],
+  "watch": "Do not confuse the start date of these rules with the date your specific company was registered.",
+  "h": "3868f0102cd1",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "2": {
+  "summary": "This rule simply explains the meaning of certain words used throughout the Companies (Prospectus and Allotment of Securities) Rules, 2014. It tells us what words like Act, Form, and Regional Director stand for. If a word is used in these rules but not explained here, its meaning comes directly from the Companies Act, 2013 or other specific rules.",
+  "points": [
+   "The word Act refers to the Companies Act, 2013.",
+   "Form or e-Form refers to the official forms attached to these rules.",
+   "A Regional Director is an official appointed by the Central Government in the Ministry of Corporate Affairs.",
+   "Any word not defined in these rules takes its meaning from the main Act or related definition rules."
+  ],
+  "example": "When Star Jewels Private Limited needed to submit a document under the Companies (Prospectus and Allotment of Securities) Rules, 2014, the directors checked the rules to know which paper to use. They learned that the word Form means the official form attached to these rules. To understand other terms not explained in this rule, they looked up the Companies Act, 2013, as the rules direct.",
+  "terms": [
+   {
+    "term": "Annexure",
+    "meaning": "An attachment or added document at the end of the rules."
+   },
+   {
+    "term": "Regional Director",
+    "meaning": "A person appointed by the Central Government in the Ministry of Corporate Affairs."
+   }
+  ],
+  "watch": "Do not assume words not defined here have ordinary dictionary meanings; check the Act or other specified rules first.",
+  "h": "6611ace70424",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "7": {
+  "summary": "When a company raises money from the public using a prospectus and has leftover funds, it cannot change how that money is used without approval. To make any changes, shareholders must pass a special resolution through a postal ballot. The notice for this vote must include detailed information such as the original purpose, unused amounts, and reasons for the change.",
+  "points": [
+   "Companies cannot change the use of unutilized public funds without shareholder approval.",
+   "Approval requires passing a special resolution through a postal ballot.",
+   "The notice sent to shareholders must contain specific details like original objects, reasons, and risks.",
+   "An advertisement in Form PAS-1 must be published at the same time the postal ballot notices are sent.",
+   "The notice must also be uploaded to the company website if it has one."
+  ],
+  "example": "Meera Textiles Private Limited raised money from the public through a prospectus to build a factory in Mumbai. Later, the company wanted to use the unutilized money to buy a warehouse in Delhi instead. To do this, Meera Textiles sent a postal ballot notice to its shareholders containing all required particulars, reasons, and risk factors, and published an advertisement in Form PAS-1 simultaneously.",
+  "terms": [
+   {
+    "term": "Prospectus",
+    "meaning": "An official document inviting the public to buy shares or securities in a company."
+   },
+   {
+    "term": "Special resolution",
+    "meaning": "A formal decision made by shareholders that requires a high majority vote."
+   },
+   {
+    "term": "Postal ballot",
+    "meaning": "A voting method where shareholders cast their votes by post or electronic means instead of attending a meeting in person."
+   }
+  ],
+  "watch": "Do not confuse unutilized funds with money that has already been spent on the original objects of the issue.",
+  "h": "5b965fa8d31f",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "9A": {
+  "summary": "This rule requires certain unlisted public companies to issue and deal with their securities only in digital or dematerialised form. Promoters, directors, and key staff must also have their holdings in digital form before the company makes new offers or buybacks. Companies must apply for an identification number, pay necessary fees, and submit half-yearly compliance reports.",
+  "points": [
+   "Unlisted public companies must issue and facilitate securities only in dematerialised form.",
+   "Promoters, directors, and key managerial personnel must dematerialise their entire holdings before any new share offer, buyback, bonus, or rights issue.",
+   "Investors wanting to transfer or subscribe to securities on or after October 2, 2018, must hold their existing securities in dematerialised form.",
+   "Companies must submit Form PAS-6 within sixty days from the end of each half year certified by a professional.",
+   "Certain companies like Nidhi, Government companies, and wholly owned subsidiaries are exempt from these rules."
+  ],
+  "example": "Aarav Steel Unlisted Public Company Limited planned to issue bonus shares to its members. Before making this offer, the company ensured that the entire shareholding of its directors and promoters was held in dematerialised form. Furthermore, Rohit, an existing shareholder who wanted to subscribe to the bonus shares, converted all his physical share certificates into electronic format before making the subscription. The company also timely applied for its International Security Identification Number and paid all required fees to the depository.",
+  "terms": [
+   {
+    "term": "dematerialised form",
+    "meaning": "Holding securities in electronic format instead of physical paper certificates."
+   },
+   {
+    "term": "promoters",
+    "meaning": "The people who formed the company or are named as promoters in the offer document."
+   },
+   {
+    "term": "unlisted public company",
+    "meaning": "A public company whose shares are not listed on a recognized stock exchange."
+   }
+  ],
+  "watch": "Nidhi companies, Government companies, and wholly owned subsidiaries do not need to follow this dematerialisation rule.",
+  "h": "50ab611858c3",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "9B": {
+  "summary": "This rule requires certain private companies to issue and hold their shares in digital or dematerialised form instead of paper certificates. Companies that are not classified as small companies must shift to this digital format within a specific time period. It also places conditions on promoters, directors, and investors regarding transferring or subscribing to shares.",
+  "points": [
+   "Private companies that are not small companies must issue all securities in dematerialised form.",
+   "Companies must ensure that all holdings of promoters, directors, and key staff are digital before making new share offers or buybacks.",
+   "Shareholders must convert their shares into digital form before transferring them or subscribing to new shares.",
+   "Government companies are completely exempt from these requirements."
+  ],
+  "example": "Aarav Steel Private Limited is not a small company based on its financial statements for the year ending 31st March 2023. Under this rule, the company must ensure all its shares are in digital form within the allowed time limit. When the company's director, Rohan, decides to transfer some of his shares to a new investor, Rohan must first get his shares converted into dematerialised form before the transfer can happen.",
+  "terms": [
+   {
+    "term": "dematerialised form",
+    "meaning": "Holding securities in electronic format in an account with a depository instead of physical paper certificates."
+   },
+   {
+    "term": "small company",
+    "meaning": "A company defined under the law that has lower paid-up capital and turnover limits."
+   },
+   {
+    "term": "promoters",
+    "meaning": "The people who help start or form the company."
+   }
+  ],
+  "watch": "People often confuse small companies with government companies, but only government companies have a total exemption under this specific rule.",
+  "h": "e840165a2a60",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "10": {
+  "summary": "This rule explains how a company must update the public when it wants to sell more shares or bonds under an existing shelf prospectus. The company needs to prepare a specific document called an information memorandum and send it to the Registrar. This must be done at a certain time before the new offer happens, along with the required fee.",
+  "points": [
+   "Prepare the information memorandum using Form PAS-2.",
+   "File the memorandum with the Registrar.",
+   "Include the fee required under the Companies Rules, 2014.",
+   "Complete the filing within one month before launching a second or later offer of securities."
+  ],
+  "example": "Meera Textiles Private Limited previously issued a shelf prospectus to raise funds from the public. Now, the company wants to release a second offer of securities under that same prospectus. Before doing this, Meera Textiles must fill out Form PAS-2 as an information memorandum. They need to submit this form, along with the proper fee, to the Registrar exactly within the one-month period before the new offer goes out.",
+  "terms": [
+   {
+    "term": "Shelf prospectus",
+    "meaning": "An offer document that allows a company to make multiple public offers of securities over a certain period without issuing a new prospectus every time."
+   },
+   {
+    "term": "Information memorandum",
+    "meaning": "A document containing updated material facts and financial information that a company must file before making a subsequent offer under a shelf prospectus."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "A government authority appointed under the law to handle company filings and records."
+   }
+  ],
+  "watch": "Make sure not to confuse the initial shelf prospectus with the information memorandum filed later for subsequent offers.",
+  "h": "83999c1f667b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "11": {
+  "summary": "If a company does not receive enough subscriptions or application money within the set time, it must return the money within fifteen days. If the company fails to do this, its responsible directors must pay it back together with fifteen percent yearly interest. Also, the refunded money can only go back to the exact bank account it came from.",
+  "points": [
+   "Application money must be repaid within fifteen days if minimum subscription or money is not received on time.",
+   "Responsible directors must repay the money with fifteen percent annual interest if they miss the deadline.",
+   "Refunds must be sent directly to the original bank account used for the subscription."
+  ],
+  "example": "Meera Textiles Private Limited issued shares to the public but failed to raise the minimum required amount within the given time. Because of this failure, the company had to return all application money. Rahul had paid for shares using his personal savings account. Following the rules, Meera Textiles credited the full refund directly back to Rahul's original savings account within the fifteen-day period, avoiding any interest penalties for the directors.",
+  "terms": [
+   {
+    "term": "Jointly and severally",
+    "meaning": "A legal phrase meaning all the named persons are responsible together, and each person can also be held entirely responsible on their own."
+   },
+   {
+    "term": "Remitted",
+    "meaning": "Sent or paid from one bank account to another."
+   }
+  ],
+  "watch": "Do not assume refunds can be paid in cash or sent to a different bank account, as the rule strictly requires using the original account.",
+  "h": "3dd0680eae3f",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "13": {
+  "summary": "A company can pay a commission to someone for helping get people to buy its shares or debentures. This payment must follow strict rules, such as being allowed in the company rules, staying under specific rate limits, and being properly disclosed. Additionally, the commission agreement must be shared with the official registrar.",
+  "points": [
+   "The payment must be allowed by the company articles of association.",
+   "Money for the commission can come from the issue proceeds, company profits, or both.",
+   "For shares, the commission cannot be more than five percent of the issue price or the rate in the articles, whichever is less.",
+   "For debentures, the commission cannot be more than two and a half percent of the issue price or the rate in the articles, whichever is less.",
+   "No commission can be paid for securities that are not offered to the public."
+  ],
+  "example": "Meera Textiles Private Limited decided to offer its shares to the public. To help sell these shares, the company hired an agent and agreed to pay a commission. This payment was clearly allowed in the company articles and came directly from the profits of the business. The company made sure the prospectus listed the agent's name, the exact commission rate, and the number of shares being handled. Finally, a copy of the commission contract was delivered to the Registrar along with the prospectus.",
+  "terms": [
+   {
+    "term": "articles of association",
+    "meaning": "The written document that sets out the internal rules and regulations for running a company."
+   },
+   {
+    "term": "debentures",
+    "meaning": "A type of debt instrument issued by a company that acknowledges a loan."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "The official government authority responsible for registering companies and keeping their documents."
+   }
+  ],
+  "watch": "People often confuse the limit for shares with the limit for debentures, but they have different maximum percentages.",
+  "h": "fc88c12fbf0d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
  }
 }

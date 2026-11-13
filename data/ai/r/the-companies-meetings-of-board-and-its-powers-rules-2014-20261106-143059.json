@@ -218,5 +218,212 @@
   "h": "028097980fa5",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This rule gives a short title to a specific set of company regulations and states when they become active. It says the rules are called the Companies (Meetings of Board and its Powers) Rules, 2014. They started applying from the first day of April in the year 2014.",
+  "points": [
+   "The rules are named the Companies (Meetings of Board and its Powers) Rules, 2014.",
+   "They became effective on April 1, 2014."
+  ],
+  "example": "Meera Textiles Private Limited wanted to know when the new rules about board meetings officially started. The manager checked the official document and found that the rules are called the Companies (Meetings of Board and its Powers) Rules, 2014. The manager also saw that they came into force on the 1st day of April, 2014, so the company started following them from that exact date.",
+  "terms": [
+   {
+    "term": "Commencement",
+    "meaning": "The time when something starts or becomes active."
+   },
+   {
+    "term": "Short title",
+    "meaning": "The official short name given to a rule or law for easy reference."
+   }
+  ],
+  "watch": "People often confuse the date the rules were written with the actual date they came into force.",
+  "h": "0b3c554ae750",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "2": {
+  "summary": "This rule gives the basic meanings of words used in the Companies (Meetings of Board and its Powers) Rules, 2014. It explains terms like Act, Form, and Fees so that readers understand the text. Any words not defined here will take their meaning directly from the Companies Act, 2013.",
+  "points": [
+   "The term Act refers to the Companies Act, 2013.",
+   "A Form or e-Form means a document listed in the Annexure of these rules.",
+   "Fees mean the amounts specified in the Companies (Registration Offices and Fees) Rules, 2014.",
+   "Words not defined in these rules get their meanings from the main Act or specific definition rules."
+  ],
+  "example": "Aarav is an officer at Meera Textiles Private Limited and needs to file a document regarding board meetings. He looks at the rules to understand what document to use. He finds that any document referred to as a Form or e-Form means the specific form set forth in the Annexure of these rules. Because the term Act is also defined in these rules, he knows it refers to the Companies Act, 2013.",
+  "terms": [
+   {
+    "term": "Annexure",
+    "meaning": "An attachment or added document appended to the rules."
+   },
+   {
+    "term": "Section",
+    "meaning": "A specific part or numbered division of the Act."
+   }
+  ],
+  "watch": "Do not assume words have ordinary dictionary meanings if they are already defined in the Act or related rules.",
+  "h": "c5c800edbe5a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "5": {
+  "summary": "This rule explains how a company's board can approve a decision without holding a physical meeting. The draft decision and related documents are sent to all directors using electronic methods like email or fax to get their approval.",
+  "points": [
+   "A draft resolution can be sent around to directors for approval.",
+   "Necessary papers must be included with the draft.",
+   "Electronic means such as email or fax may be used."
+  ],
+  "example": "At Sunrise Electronics Private Limited, an urgent decision was needed to buy a new office computer. Instead of calling a formal meeting, the manager emailed the draft resolution and all price quotes to directors Arun and Priya for their approval.",
+  "terms": [
+   {
+    "term": "Resolution",
+    "meaning": "A formal decision or proposal made by the board of directors."
+   },
+   {
+    "term": "Circulated",
+    "meaning": "Passed around or sent to multiple people."
+   }
+  ],
+  "watch": "This rule only explains how the draft is sent and does not mention any time limits for replying.",
+  "h": "c5b64c43dcde",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "6": {
+  "summary": "Certain companies must form two specific committees under their board of directors. These committees are called the Audit Committee and the Nomination and Remuneration Committee. This rule applies to every listed public company and other companies covered under a separate rule.",
+  "points": [
+   "Applies to every listed public company.",
+   "Applies to companies covered under rule 4 of the Companies Rules, 2014.",
+   "Requires the board to create an Audit Committee.",
+   "Requires the board to create a Nomination and Remuneration Committee."
+  ],
+  "example": "Meera Textiles Private Limited is a company that falls under rule 4 of the Companies Rules, 2014. Because of this rule, the board of directors of Meera Textiles Private Limited must set up an Audit Committee. They also need to form a Nomination and Remuneration Committee to meet the legal requirements.",
+  "terms": [
+   {
+    "term": "listed public company",
+    "meaning": "A company whose shares are traded on a recognized stock exchange."
+   },
+   {
+    "term": "constitute",
+    "meaning": "To form or set up officially."
+   }
+  ],
+  "watch": "Do not confuse these specific committees with other general committees a company might create.",
+  "h": "ff3427327549",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "6A": {
+  "summary": "Related party transactions need approval from the Audit Committee, which can also give a blanket or omnibus approval for certain repeating deals on a yearly basis. The committee must set clear rules and limits for these blanket approvals after getting the Board of Directors' go-ahead. Some deals, like selling a company undertaking, cannot get this blanket approval.",
+  "points": [
+   "All related party transactions need Audit Committee approval.",
+   "The Audit Committee can give blanket approval for repetitive transactions for up to one financial year.",
+   "Blanket approvals must include limits like maximum value, party names, and pricing details.",
+   "Selling or disposing of the company undertaking cannot get blanket approval."
+  ],
+  "example": "Meera Textiles Private Limited frequently buys raw materials from a related party. To save time, the company seeks a blanket approval from the Audit Committee for these repeating purchases for the upcoming financial year. The Audit Committee, following the criteria set with the Board of Directors, reviews the expected value, names, and pricing formula, and then grants the blanket approval. This allows Meera Textiles Private Limited to proceed with the repeating transactions smoothly without needing separate approval for every single purchase.",
+  "terms": [
+   {
+    "term": "Related party",
+    "meaning": "A person or another company that has a close connection to the company."
+   },
+   {
+    "term": "Omnibus approval",
+    "meaning": "A blanket or pre-approval given for a series of similar transactions in advance."
+   },
+   {
+    "term": "Audit Committee",
+    "meaning": "A committee of directors that oversees financial reporting and related matters."
+   }
+  ],
+  "watch": "Blanket approval is only valid for up to one financial year and cannot be used to sell the company's undertaking.",
+  "h": "1b00278c2740",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "7": {
+  "summary": "Certain companies must set up a vigil mechanism to let directors and employees report their genuine concerns. This rule explains which companies must do this and how complaints should be handled. It also protects people from being treated unfairly for using the system.",
+  "points": [
+   "Listed companies, companies accepting public deposits, and companies with heavy bank borrowings must establish a vigil mechanism.",
+   "The audit committee oversees this mechanism, and members must step aside if they have a conflict of interest.",
+   "Companies without an audit committee must have their Board of directors nominate a specific director to handle these reports.",
+   "The system must protect reporters from unfair treatment and allow direct access to the committee chairperson in exceptional cases.",
+   "Action, such as a reprimand, can be taken against anyone who files repeated fake complaints."
+  ],
+  "example": "Meera Textiles Private Limited borrowed sixty crore rupees from a public financial institution, crossing the fifty crore limit. Therefore, the company must set up a vigil mechanism for its employees and directors to report genuine concerns. When an employee named Rohan notices a problem and reports it, the company's audit committee oversees the matter. If Rohan faces unfair treatment for speaking up, the system provides safeguards. If Rohan repeatedly files fake complaints, the audit committee can take suitable action against him, including a reprimand.",
+  "terms": [
+   {
+    "term": "Vigil mechanism",
+    "meaning": "A system that lets employees and directors report their genuine concerns or grievances."
+   },
+   {
+    "term": "Audit committee",
+    "meaning": "A group of people within a company that helps oversee financial and related matters."
+   },
+   {
+    "term": "Recuse",
+    "meaning": "To step aside from handling a matter because of a conflict of interest."
+   }
+  ],
+  "watch": "People often confuse regular complaints with repeated fake complaints, which are the only ones subject to action like a reprimand.",
+  "h": "6c079553be92",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "9": {
+  "summary": "Every company director must give a written notice using Form MBP 1 to show any interest they have in other businesses. This notice must then be read out at the very next meeting held after it is given. The company must safely store these notices at its registered office for eight years.",
+  "points": [
+   "Directors must give a written notice in Form MBP 1 about their interests in other companies, firms, or groups.",
+   "The director must make sure this interest is disclosed at the board meeting right after giving the notice.",
+   "The company must keep all these notices at its registered office.",
+   "Notices must be kept for eight years from the end of the financial year they relate to.",
+   "The company secretary or a person chosen by the Board will hold and look after these notices."
+  ],
+  "example": "Aarav is a director at Sunrise Retails Private Limited. He also holds shares in a supplier firm called Horizon Traders. To follow the rules, Aarav gives a written notice in Form MBP 1 to declare his interest in Horizon Traders. At the very next board meeting of Sunrise Retails, Aarav makes sure his interest is disclosed to everyone. The company then stores this notice safely at its registered office, where the company secretary keeps it for the required period of eight years.",
+  "terms": [
+   {
+    "term": "Form MBP 1",
+    "meaning": "A specific written form used by a director to disclose their business interests."
+   },
+   {
+    "term": "Registered office",
+    "meaning": "The official main address of a company where important documents are kept."
+   },
+   {
+    "term": "Financial year",
+    "meaning": "The standard twelve-month period a company uses for counting its money and taxes."
+   }
+  ],
+  "watch": "Remember that the notice must be disclosed at the meeting immediately following the date the notice was given.",
+  "h": "9bb063c80fb7",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "14": {
+  "summary": "Every company must keep a specific register from its registration date to record any investments not held in its own name. The register must include the reasons and relationships for holding investments in someone else's name, and it must be kept permanently at the company's registered office. It must also be looked after by an authorized person and properly authenticated.",
+  "points": [
+   "Maintain a register in Form MBP3 starting from the date of registration.",
+   "Record details, reasons, and contracts for investments not held in the company's own name.",
+   "Keep the register permanently at the registered office of the company.",
+   "Ensure entries are authenticated by the company secretary or an authorized person."
+  ],
+  "example": "Meera Textiles Private Limited made an investment in shares, but these shares are held in the name of a third party for the time being. To follow the rules, the company starts maintaining a register in Form MBP3 from its registration date. The company secretary enters the investment details chronologically, records the reasons why the shares are not in the company's own name, and keeps this register safely at the registered office.",
+  "terms": [
+   {
+    "term": "Chronologically",
+    "meaning": "In the order that things happened, by date."
+   },
+   {
+    "term": "Authenticated",
+    "meaning": "Proved or signed to be true, official, or correct."
+   },
+   {
+    "term": "Beneficially held",
+    "meaning": "Owned for economic benefit, even if registered in another name."
+   }
+  ],
+  "watch": "Do not forget that this register must be preserved permanently at the registered office.",
+  "h": "ecb13c2484ca",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
  }
 }

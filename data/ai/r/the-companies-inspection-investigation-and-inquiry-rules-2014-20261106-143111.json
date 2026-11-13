@@ -70,5 +70,74 @@
   "h": "33d63bed748c",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This rule gives a specific name to a set of regulations made under the Companies Act, 2013. It tells us that these rules start applying from a specific date. Because the text is very short, it does not explain how inspections or investigations are actually carried out.",
+  "points": [
+   "The rules are called the Companies (Inspection, Investigation and Inquiry) Rules, 2014.",
+   "They came into force on the 1st day of April, 2014."
+  ],
+  "example": "Meera Textiles Private Limited wanted to check when the government regulations about company inspections officially started. The company manager looked at the official title and commencement rule. He found that these specific rules have been active since the 1st day of April, 2014, and apply to official procedures under the Companies Act.",
+  "terms": [
+   {
+    "term": "commencement",
+    "meaning": "The time when something starts or begins to apply."
+   },
+   {
+    "term": "short title",
+    "meaning": "The official short name given to a law or set of rules."
+   }
+  ],
+  "watch": "Do not confuse the start date of these rules with the date the Companies Act itself was passed.",
+  "h": "00ef59703295",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "2": {
+  "summary": "This rule gives simple meanings to common words used in the inspection and investigation rules. It helps readers understand terms like the Act, forms, and fees. Any word not explained here takes its meaning from the main law or other specified rules.",
+  "points": [
+   "The word Act refers to the Companies Act, 2013.",
+   "Fees mean the charges specified in the Registration offices and fees rules.",
+   "A Regional Director is a person appointed by the Central Government.",
+   "Undefined words take their meanings from the main law."
+  ],
+  "example": "When Meera Textiles Private Limited wanted to understand what official paperwork was needed, they looked at the definitions in the rules. They saw that Form meant the specific document set out in the Annexure. They also checked the fees specified in the separate registration rules to ensure they followed the correct process for their company filings.",
+  "terms": [
+   {
+    "term": "Regional Director",
+    "meaning": "A person appointed by the Central Government in the Ministry of Corporate Affairs."
+   },
+   {
+    "term": "Annexure",
+    "meaning": "An attachment or document added to the end of the rules."
+   }
+  ],
+  "watch": "Do not assume a word has a special meaning unless it is defined in the rules or the main Act.",
+  "h": "a4f80518bffa",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "3": {
+  "summary": "The Central Government can hire experts to help the Serious Fraud Investigation Office do its work well. These experts can come from fields like investigations, cyber forensics, and various types of accounting. Their job is to make sure the office functions efficiently under the law.",
+  "points": [
+   "The Central Government appoints the experts.",
+   "Experts must have skills in specific fields like cyber forensics or accounting.",
+   "They are appointed to help the Serious Fraud Investigation Office (SFIO) work efficiently."
+  ],
+  "example": "Meera Textiles Private Limited is under investigation by the Serious Fraud Investigation Office. To understand complex digital records, the Central Government appoints an expert in cyber forensics named Mr. Rao. Mr. Rao uses his specialized skills to assist the SFIO in efficiently completing the investigation according to the rules.",
+  "terms": [
+   {
+    "term": "cyber forensics",
+    "meaning": "The science of finding and examining digital evidence from computers and digital devices."
+   },
+   {
+    "term": "Serious Fraud Investigation Office",
+    "meaning": "An agency that investigates serious corporate frauds."
+   }
+  ],
+  "watch": "Do not assume these experts have powers to judge cases, as the text only mentions appointing them for investigations.",
+  "h": "0c41f4bce7f6",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
  }
 }

@@ -72,5 +72,756 @@
   "h": "354daf333f30",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "2": {
+  "summary": "This rule explains how companies must record, calculate, and adjust employee costs for cost accounting purposes. It covers how to assign wages, benefits, bonuses, and special items like idle time or separation costs. It also lists items that must be excluded, such as penalties and abnormal costs.",
+  "points": [
+   "Employee costs must be tracked by department or cost centre, or shared fairly if they cannot be directly traced.",
+   "Employee cost includes gross pay, benefits, statutory and surplus bonuses, and managerial remuneration, but excludes non-executive directors' pay.",
+   "Separation costs are spread out over the period they benefit, while penalties, damages, and imputed costs are kept out of employee costs.",
+   "Subsidies or recoveries from employees for benefits are deducted from the employee cost.",
+   "Recruitment and training costs are treated as overheads, and idle time costs are calculated using idle hours multiplied by the hourly rate."
+  ],
+  "example": "At Meera Textiles Private Limited, workers sew clothes in different departments. The wages for workers who can be directly linked to a specific department are assigned there directly. For workers who move around and cannot be tied to one department, their wages are split across departments using a fair and consistent method. When the company pays a statutory bonus to these workers, that bonus is added to the total employee cost. However, a penalty paid by the company for a late tax filing is kept completely separate and is never counted as part of the employee cost.",
+  "terms": [
+   {
+    "term": "Cost centre",
+    "meaning": "A specific department or section of a company where costs are collected."
+   },
+   {
+    "term": "Amortised",
+    "meaning": "Spread out or divided gradually over a period of time."
+   },
+   {
+    "term": "Imputed costs",
+    "meaning": "Estimated or hypothetical costs that do not involve an actual cash outflow."
+   }
+  ],
+  "watch": "People often confuse managerial remuneration with non-executive directors' pay, but only managerial pay is treated as an employee cost while non-executive pay goes to administrative overheads.",
+  "h": "c8f2a707206c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "3": {
+  "summary": "This rule explains how companies must keep records and calculate costs for major utilities like power, water, and steam. It sets out different cost rules depending on whether the utility is purchased, self-generated, transferred, or sold. It also explains how to handle variances, subsidies, and abnormal costs.",
+  "points": [
+   "Proper records must show the quantity and cost of each major utility produced and consumed.",
+   "Purchased utilities are measured at purchase cost including taxes and duties, minus discounts and refunds.",
+   "Self-generated utilities for own use include direct material, labor, expenses, and factory overheads.",
+   "Finance costs, penalties, and imputed costs must not be included in the cost of utilities.",
+   "Subsidies or grants received must be reduced from the cost in the financial year they are recognized as income."
+  ],
+  "example": "Meera Textiles Private Limited produces its own steam for its manufacturing process. To find the cost of this steam for its own consumption, the company adds up direct material costs, direct employee costs, direct expenses, and factory overheads. Later, when the company receives a government grant related to utility costs, it subtracts that grant amount from the utility cost in the financial year it is recognized as income.",
+  "terms": [
+   {
+    "term": "Cost object",
+    "meaning": "An item or activity for which costs are measured separately, such as each type of utility."
+   },
+   {
+    "term": "Imputed costs",
+    "meaning": "Estimated or hypothetical costs where no actual cash transaction takes place."
+   },
+   {
+    "term": "Normal capacity",
+    "meaning": "The expected volume of production that a company can achieve on average over a period under normal circumstances."
+   }
+  ],
+  "watch": "Do not confuse the normal usage variances that form part of the utility cost with abnormal usage variances that are treated as abnormal costs.",
+  "h": "6de88d3ff423",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "4": {
+  "summary": "This rule explains how companies must keep records of their direct expenses. It tells them how to calculate these costs, what to include or exclude, and how to handle special cases like lump-sum payments or standard costs. The goal is to make sure every direct expense is properly tracked and reported.",
+  "points": [
+   "Companies must maintain records to book direct expenses by cost centre, cost object, or department.",
+   "Bought out resources are calculated using the invoice price plus taxes and duties, minus discounts and refundable taxes.",
+   "Lump-sum or one-time payments are spread out based on estimated output or benefit.",
+   "Finance costs, imputed costs, penalties, and abnormal portions are excluded from direct expenses.",
+   "Subsidies and grants received for direct expenses must be reduced from the cost in the year they are recognized as income."
+  ],
+  "example": "Meera Textiles Private Limited purchased raw materials from an outside supplier. They calculated the cost using the invoice price, added the applicable taxes, and subtracted the trade discounts they received. When they received a government grant related to these expenses, they properly reduced the cost in the financial year the grant was recognized as income. They also made sure not to include any penalties or finance costs in these direct expenses, keeping their records clear and accurate according to the rules.",
+  "terms": [
+   {
+    "term": "Cost object",
+    "meaning": "Anything for which a measurement of cost is required, such as a product or service."
+   },
+   {
+    "term": "Amortised",
+    "meaning": "Spread out over a period of time."
+   },
+   {
+    "term": "Imputed costs",
+    "meaning": "Estimated costs that do not involve an actual cash outflow."
+   }
+  ],
+  "watch": "Do not confuse normal cost variances with abnormal ones, as only normal variances are included in direct expenses.",
+  "h": "e509fd86f41b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "5": {
+  "summary": "This rule explains how companies must keep proper records of spending on workshops, tool rooms, and repairs and maintenance across different departments. It outlines what to include or exclude when calculating these costs, such as direct materials, contractor charges, and specific variances. It also ensures that abnormal costs like fines or major fires are kept out of these calculations.",
+  "points": [
+   "Companies must maintain proper records of all workshop, tool room, and repair expenses under different heads.",
+   "Repairs and maintenance costs include both direct and indirect expenses, such as materials, manpower, and equipment usage.",
+   "Costs arising from abnormal events like fires, floods, fines, and penalties must not be included in repair costs.",
+   "Any subsidies or grants received for repair activities must be reduced from the cost."
+  ],
+  "example": "Meera Textiles Private Limited hired an outside contractor to fix a broken loom inside its factory. The company paid the contractor charges and also provided its own consumable stores and spare parts for the job. Under the rules, Meera Textiles must calculate the total repair cost by adding the contractor's charges to the cost of its own materials, manpower, and utilities used for this specific job, while keeping any unrelated fines or abnormal event expenses out of the final record.",
+  "terms": [
+   {
+    "term": "Amortised",
+    "meaning": "Spread out over a period of time."
+   },
+   {
+    "term": "Imputed costs",
+    "meaning": "Estimated or hypothetical costs that do not involve actual cash outflow."
+   },
+   {
+    "term": "Cost object",
+    "meaning": "Anything for which a measurement of cost is required."
+   }
+  ],
+  "watch": "Do not confuse normal repair and maintenance expenses with costs arising from abnormal events like major fires or floods.",
+  "h": "24acb1139934",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "6": {
+  "summary": "This rule explains how companies must keep records and calculate depreciation for assets used to make goods or services. It states that proper records must show asset details, costs, and depreciation rates. It also guides how to handle asset costs, temporary pauses, and impairment losses.",
+  "points": [
+   "Companies must keep proper records for assets used in production or services.",
+   "Depreciation is measured using Schedule II of the Companies Act and applicable accounting standards.",
+   "Depreciation on assets temporarily taken out of use is treated as an abnormal cost.",
+   "Impairment losses must be excluded from the cost of production or service.",
+   "Spare parts and equipment are treated as property or inventory based on definitions."
+  ],
+  "example": "Meera Textiles Private Limited uses big weaving machines to make cloth. The company keeps proper records showing the purchase cost, installation charges, acquisition date, and depreciation rate for each machine. When one machine is temporarily retired from production because of repairs, the company treats its depreciation as an abnormal cost for that period. Meanwhile, a box of small spare parts is classified as inventory because it does not meet the definition of property, plant, and equipment.",
+  "terms": [
+   {
+    "term": "Depreciation",
+    "meaning": "The reduction in the value of an asset over time."
+   },
+   {
+    "term": "Amortisation",
+    "meaning": "Spread over time, similar to depreciation but often used for intangible assets."
+   },
+   {
+    "term": "Impairment loss",
+    "meaning": "The loss that occurs when the market value of an asset drops below its recorded book value."
+   }
+  ],
+  "watch": "Do not confuse abnormal costs from temporarily stopped assets with normal production expenses.",
+  "h": "e8566f54a10b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "7": {
+  "summary": "This rule explains how companies must handle and calculate indirect expenses known as overheads for goods and services. It covers what should be included, what must be excluded, and how these costs are assigned. Companies must follow these specific guidelines when preparing their cost records.",
+  "points": [
+   "Proper records of indirect expenses must be kept and grouped by functions such as works, administration, and selling.",
+   "Abnormal costs, finance costs, fines, and penalties must not be included in overheads.",
+   "Overheads related to procured resources are based on invoice price minus discounts and refundable taxes.",
+   "Overheads are assigned to cost objects using either cause and effect or benefits received principles."
+  ],
+  "example": "Meera Textiles Private Limited maintains records of its indirect expenses for manufacturing clothes. While calculating its factory overheads, the company includes normal production expenses based on invoice prices after deducting discounts. However, the company leaves out a penalty fee paid to a transport authority and excludes any finance costs, ensuring that abnormal costs do not form part of the final overheads.",
+  "terms": [
+   {
+    "term": "Overheads",
+    "meaning": "Indirect expenses relating to goods or services that cannot be directly tied to a single product easily."
+   },
+   {
+    "term": "Cost object",
+    "meaning": "Anything for which a measurement of cost is required, such as a product or service."
+   },
+   {
+    "term": "Amortized",
+    "meaning": "Spread out over a period of time."
+   }
+  ],
+  "watch": "Do not confuse normal overhead variances, which are included, with abnormal overhead variances, which must be excluded.",
+  "h": "4460d09d23fa",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "9": {
+  "summary": "This rule explains how companies must keep proper records of their transportation costs. It covers costs for using their own vehicles, hiring outside transport, moving goods inward or outward, and sharing common costs. Companies must exclude abnormal costs and keep consistent records for these expenses.",
+  "points": [
+   "Companies must maintain proper records of actual transportation costs, including freight and transit insurance, while keeping abnormal costs separate.",
+   "Special records are needed for companies with their own transport fleet, detailing driver wages, fuel, and repairs.",
+   "When using hired transport, complete details like date, destination, quantity, and amount paid must be recorded.",
+   "Transportation records must be kept separately for inward and outward movement, exports, job-workers, and trading activities.",
+   "Outward transportation costs must be apportioned using specific bases like weight or volume, and distance must be factored in."
+  ],
+  "example": "Meera Textiles Private Limited owns a fleet of delivery trucks to send clothes to various shops. According to the rule, the company must maintain proper records of its vehicle operating costs. This includes keeping details of driver salaries, fuel expenses, and vehicle repairs. When Meera Textiles hires an outside truck for a special delivery, it must record the date, destination, and amount paid. The company also needs to keep separate records for inward material transport and outward product sales, ensuring that any abnormal repair costs are excluded from the average transportation cost calculations.",
+  "terms": [
+   {
+    "term": "Consignee",
+    "meaning": "The person or place to whom goods are shipped or delivered."
+   },
+   {
+    "term": "Apportionment",
+    "meaning": "Dividing and sharing costs among different products or activities on a logical basis."
+   },
+   {
+    "term": "Challan",
+    "meaning": "An official document or form used as a record when goods are sent or delivered."
+   }
+  ],
+  "watch": "Do not include abnormal and non-recurring expenses when calculating the average transportation cost.",
+  "h": "3a81757f4ae0",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "10": {
+  "summary": "This rule explains how companies must keep records and calculate costs for payments made for royalty and technical know-how. It covers how to spread lump-sum payments over time, what costs to exclude, and how to assign these fees to specific products or services. It ensures that companies account for these payments clearly and accurately in their cost statements.",
+  "points": [
+   "Companies must keep proper records of all royalty and technical know-how payments made to collaborators.",
+   "Lump-sum or one-time payments must be spread out over time based on estimated production or benefits.",
+   "Finance costs, penalties, and damages cannot be included as part of these fees.",
+   "Subsidies or grants received must be reduced from the cost, and mining royalties become part of the material cost."
+  ],
+  "example": "Meera Textiles Private Limited made a one-time technical know-how payment to a foreign technology supplier. Under the rules, Meera Textiles must spread this payment over the period the company expects to benefit from it, based on estimated production volumes. When calculating this cost, the company must exclude any finance charges or penalties paid to authorities. Furthermore, if Meera Textiles receives a government subsidy related to this technology fee, that amount must be subtracted from the cost in the year it is recognized as income, ensuring the cost records remain accurate.",
+  "terms": [
+   {
+    "term": "Amortised",
+    "meaning": "Spreading out a lump-sum cost over multiple periods based on estimated benefits."
+   },
+   {
+    "term": "Cost object",
+    "meaning": "Anything for which a measurement of costs is required, such as a product, service, or department."
+   },
+   {
+    "term": "Imputed costs",
+    "meaning": "Estimated costs that do not involve actual cash outflow."
+   }
+  ],
+  "watch": "A common confusion is mixing up regular operating payments with penalties or finance costs, which are strictly not allowed to be part of royalty and technical know-how fees.",
+  "h": "a0aaa48a1c63",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "11": {
+  "summary": "This rule explains what expenses should be included in or excluded from research and development costs for companies. It covers costs like materials, staff salaries, and equipment usage, while removing fines, subsidies, and abnormal expenses. Proper assignment of these costs ensures accurate financial records.",
+  "points": [
+   "Research and development costs include materials, services, staff salaries, depreciation, software development, and specific overheads.",
+   "Subsidies, grants, material credits, and sales recoveries related to research and development must be subtracted from the total cost.",
+   "Fines, penalties, abnormal costs, and imputed costs cannot be part of research and development costs.",
+   "Costs must be assigned directly to specific projects or products whenever possible."
+  ],
+  "example": "Nova Pharma Private Limited spent money on chemicals and hired technicians to develop a new medicine. They also received a government grant for this project. According to the rule, Nova Pharma must include the cost of the chemicals and technicians' salaries in their research and development expenses, while reducing the total by the amount of the government grant they received.",
+  "terms": [
+   {
+    "term": "Amortisation",
+    "meaning": "Spreading the cost of an intangible asset over its useful life."
+   },
+   {
+    "term": "Imputed costs",
+    "meaning": "Estimated or hypothetical costs that do not involve an actual cash outflow."
+   },
+   {
+    "term": "Cost object",
+    "meaning": "Anything for which a measurement of costs is required, such as a product or service."
+   }
+  ],
+  "watch": "Do not confuse general administrative overheads with research and development overheads, as general administrative costs are excluded.",
+  "h": "5cb0c33736ac",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "12": {
+  "summary": "Rule 12 explains how a company must record, calculate, and divide its quality control expenses. It ensures that only proper costs are included while excluding things like finance costs, penalties, and abnormal expenses. Companies must also fairly share these costs if the quality services apply to multiple goods.",
+  "points": [
+   "Maintain adequate records for quality control expenses, and share them fairly if used for multiple goods.",
+   "Include in-house resource costs and outside resource costs minus refundable taxes and discounts.",
+   "Exclude finance costs, imputed costs, abnormal costs, and penalties from quality control costs.",
+   "Reduce costs by any subsidies, grants, or incentives received.",
+   "Assign direct costs using traceability, cause and effect, or benefits received principles."
+  ],
+  "example": "Meera Textiles Private Limited runs an in-house quality control department that checks both cotton shirts and silk scarves. The company records all resources consumed by the department. Because the department serves both products, Meera Textiles splits the quality control expenses between cotton shirts and silk scarves on an equitable and reasonable basis, applying the method consistently. When they received a government grant for quality control, they reduced it from the cost in the financial year it was recognized as income.",
+  "terms": [
+   {
+    "term": "Apportionment",
+    "meaning": "Dividing and sharing costs among different goods or services."
+   },
+   {
+    "term": "Imputed costs",
+    "meaning": "Estimated or hypothetical costs that do not involve an actual cash outflow."
+   },
+   {
+    "term": "Cost object",
+    "meaning": "Anything for which a measurement of cost is desired, such as a product or service."
+   }
+  ],
+  "watch": "Do not include finance costs, penalties, or abnormal expenses when calculating quality control costs.",
+  "h": "dcfdd41091ac",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "13": {
+  "summary": "This rule explains how companies must track and calculate their pollution control expenses. It separates direct costs like materials and manpower from indirect and future costs. It also lists items that should not be included, such as fines, finance costs, and external social costs.",
+  "points": [
+   "Companies must keep proper records of all expenses related to pollution control.",
+   "Pollution control costs include both direct costs like waste processing and indirect common costs.",
+   "Fines, penalties, and finance costs must never be included as pollution control costs.",
+   "Any subsidies received for pollution control should be deducted from the total cost."
+  ],
+  "example": "Meera Textiles Private Limited spends money on treating waste and disposing of materials safely from its factory. The company records these direct material and manpower costs properly. When calculating the total pollution control cost, the manager correctly leaves out the bank loan interest and any government fines paid during the year, following the prescribed rules for tracking pollution expenses.",
+  "terms": [
+   {
+    "term": "Apportionment",
+    "meaning": "Dividing and sharing costs among different goods or services on a fair basis."
+   },
+   {
+    "term": "Onerous contract",
+    "meaning": "A contract in which the unavoidable costs of meeting the obligations exceed the economic benefits expected to be received."
+   },
+   {
+    "term": "Imputed costs",
+    "meaning": "Estimated costs that do not involve actual cash outflow."
+   }
+  ],
+  "watch": "Do not confuse general research and development costs with commercial development costs, as only the latter are included in pollution control costs.",
+  "h": "629f87d90392",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "14": {
+  "summary": "This rule explains how companies must keep proper records and calculate expenses for different support services, like workshops or transport. It covers how to measure internal costs, contractor costs, transfers, and what items should be added or removed from the total service cost. Overall, it ensures service department expenses are tracked clearly and fairly.",
+  "points": [
+   "Companies must keep proper expense records for auxiliary service departments like engineering or transport.",
+   "The total cost of a service includes both direct and indirect costs, materials, manpower, and equipment usage.",
+   "Finance costs, penalties, damages, and abnormal costs are excluded from the service cost.",
+   "Any subsidies or grants received must be reduced from the cost in the financial year they are recognized as income."
+  ],
+  "example": "Meera Textiles Private Limited operates an in-house workshop to repair factory machinery. To find the total cost of this workshop, the company adds up all direct and indirect expenses, including the cost of spare parts, worker wages, and equipment usage. Later, when the workshop receives a government subsidy, Meera Textiles correctly reduces that amount from the total workshop cost for that financial year.",
+  "terms": [
+   {
+    "term": "cost object",
+    "meaning": "Anything for which a measurement of cost is required."
+   },
+   {
+    "term": "overhead",
+    "meaning": "Ongoing business expenses not directly tied to creating a specific product or service."
+   },
+   {
+    "term": "imputed cost",
+    "meaning": "An estimated cost that does not involve an actual cash outflow."
+   }
+  ],
+  "watch": "A common confusion is thinking that finance costs or statutory penalties can be included in service department expenses, when the rule explicitly excludes them.",
+  "h": "a260368a7c9a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "15": {
+  "summary": "This rule explains how companies must keep proper records and calculate costs for packing materials used in domestic and export sales. It covers how to value purchased materials, self-made materials, losses, and how to assign these costs to products. It also clarifies what items, like finance costs and penalties, should not be included in these costs.",
+  "points": [
+   "Companies must keep separate records for domestic and export packing showing quantities and costs.",
+   "Purchased packing materials are valued at purchase price plus direct costs like freight and taxes, minus discounts and refunds.",
+   "Finance costs, demurrage charges, penalties, and imputed costs must not be included in packing material costs.",
+   "Self-manufactured packing materials include direct costs, factory overheads, and shares of administrative and research costs.",
+   "Subsidies or grants received for packing material must be reduced from the cost when recognized as income."
+  ],
+  "example": "Meera Textiles Private Limited purchased boxes for packing its goods. The company calculated the purchase price and added the freight and insurance costs, while subtracting trade discounts. When some boxes were damaged before reaching the factory, the normal loss was absorbed into the cost of the remaining materials after accounting for supplier recoveries. The company recorded these packing expenses separately for its domestic and export sales, ensuring that any penalty charges from the transport agency were kept out of the packing material cost.",
+  "terms": [
+   {
+    "term": "Primary packing",
+    "meaning": "Packing that is essential to hold the product or keep it together."
+   },
+   {
+    "term": "Secondary packing",
+    "meaning": "Additional packing used for protection, transport, or presentation of the product."
+   },
+   {
+    "term": "Demurrage",
+    "meaning": "A charge paid for failing to move goods within a set time."
+   }
+  ],
+  "watch": "A common confusion is including penalties or finance costs in the packing material cost, which the rules strictly prohibit.",
+  "h": "2da0ffc5de3a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "16": {
+  "summary": "This rule explains how companies must handle and classify finance costs like interest. These costs are measured using current accounting standards and are split based on whether they relate to qualifying assets or general operations. It also clarifies that subsidies reduce these costs, while penalties and investment interest are kept separate.",
+  "points": [
+   "Finance costs include interest and financing expenses measured by current accounting standards.",
+   "Costs must be separated between qualifying assets and other operations or services.",
+   "Finance costs directly linked to a qualifying asset are added to that asset's cost.",
+   "Subsidies or grants received for finance costs must be subtracted from the cost object in the year they are recognized.",
+   "Penalties, fines, and investment interest are not part of finance costs."
+  ],
+  "example": "Aarav Steel Private Limited takes a bank loan to build a new factory building, which is a qualifying asset. The interest paid on this loan during the construction phase is added directly to the total cost of the factory building. Later, the company receives a government subsidy related to its financing arrangements. Aarav Steel reduces this subsidy amount from its cost object in the financial year the subsidy is recognized as income. Finally, when the company pays a fine for a minor regulatory violation, that fine is kept completely separate and is never treated as a finance cost.",
+  "terms": [
+   {
+    "term": "Qualifying asset",
+    "meaning": "An asset that takes a substantial period of time to get ready for its intended use or sale."
+   },
+   {
+    "term": "Imputed costs",
+    "meaning": "Estimated or implicit costs that do not involve actual cash outflow."
+   },
+   {
+    "term": "Cost object",
+    "meaning": "Anything for which a measurement of costs is required, such as a product, service, or asset."
+   }
+  ],
+  "watch": "Do not confuse normal interest paid on delayed statutory dues with penal interest, as only the latter is excluded from finance costs.",
+  "h": "5046a572d25a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "17": {
+  "summary": "Companies must keep proper records for any extra cost items that are essential for figuring out their expenses. These items help calculate the cost of making goods, providing services, and overall sales. They also show the profit margins for the business.",
+  "points": [
+   "Keep proper records for any other necessary cost item.",
+   "Use these records to calculate the cost of producing goods or services.",
+   "Use them to find the cost of sales and profit margins in total and per unit."
+  ],
+  "example": "Meera Textiles Private Limited makes cotton shirts. To find the exact cost of making each shirt, the company decides to track a special utility expense that is essential for its factory operations. Following the rules, Meera Textiles properly records this extra cost item. This helps the company accurately calculate its total cost of production, cost of sales, and the profit margin per unit for the shirts it sells.",
+  "terms": [
+   {
+    "term": "Cost records",
+    "meaning": "Books and accounts kept by a company to track its expenses."
+   },
+   {
+    "term": "Margin",
+    "meaning": "The difference between the cost and the selling price, representing profit."
+   },
+   {
+    "term": "Per unit",
+    "meaning": "Calculated for a single item of goods or services."
+   }
+  ],
+  "watch": "Do not forget to include extra cost items if they are truly necessary for calculating accurate production costs.",
+  "h": "32a29e66eea2",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "18": {
+  "summary": "This rule explains how companies must calculate their production capacity, installed capacity, normal capacity, and capacity utilisation. It tells companies what factors to consider, such as machine hours, technical specs, holidays, and actual production. These calculations help measure how much a company is producing compared to what it is able to produce.",
+  "points": [
+   "Capacity is measured in production units, services, machine hours, or man hours.",
+   "Installed capacity is found using maker specifications, shift counts, and machine limits.",
+   "Normal capacity is calculated by adjusting installed capacity for holidays, maintenance, and machine aging.",
+   "Capacity utilisation is actual production shown as a percentage of installed capacity."
+  ],
+  "example": "Meera Textiles Private Limited calculates its capacity using machine hours. The factory looks at the maker specifications of its weaving machines and the number of shifts it runs to find its installed capacity. Later, Meera Textiles adjusts this installed capacity for routine maintenance, normal holidays, and machine aging to find its normal capacity. Finally, the manager measures the actual output of cloth produced during the month and figures out the capacity utilisation as a percentage of the installed capacity.",
+  "terms": [
+   {
+    "term": "Installed capacity",
+    "meaning": "The maximum possible production capacity of a facility based on technical rules and shifts."
+   },
+   {
+    "term": "Normal capacity",
+    "meaning": "The expected production capacity after adjusting installed capacity for regular stoppages like holidays and maintenance."
+   },
+   {
+    "term": "Capacity utilisation",
+    "meaning": "Actual production measured as a percentage of installed capacity."
+   }
+  ],
+  "watch": "Do not confuse installed capacity with normal capacity, as normal capacity includes adjustments for regular stoppages like holidays and maintenance.",
+  "h": "42b31e38d238",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "19": {
+  "summary": "This rule explains how companies must calculate the cost of their incomplete and finished goods and services. The chosen method must be clear, include all conversion costs, and stay the same over time. These details must be properly recorded.",
+  "points": [
+   "Use a proper method to find the cost of work-in-progress and finished goods or services.",
+   "Show the cost elements used in the calculation inside the cost records.",
+   "Include all conversion costs needed to bring inventories to their current place and state.",
+   "Keep using the same cost determination method consistently."
+  ],
+  "example": "Meera Textiles Private Limited makes cotton shirts. When calculating the cost of shirts that are still being sewn, the company must include all conversion costs, like workers' wages and factory expenses, to bring them to their current condition. They need to write down the exact method they used in their cost records and keep using this same method consistently for all future calculations without changing it arbitrarily.",
+  "terms": [
+   {
+    "term": "work-in-progress",
+    "meaning": "Goods or services that are still in the middle of being produced and are not finished yet."
+   },
+   {
+    "term": "conversion costs",
+    "meaning": "Expenses incurred to turn raw materials into finished or incomplete products."
+   },
+   {
+    "term": "consistently",
+    "meaning": "Doing something the same way over time without changing the method randomly."
+   }
+  ],
+  "watch": "Do not forget that the chosen cost method must always remain the same and cannot be changed without reason.",
+  "h": "412e2d34ebcb",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "20": {
+  "summary": "This rule is about tracking goods and services that a company uses for itself. The company must keep clear records of what is used internally and what is sold to outsiders. This helps keep track of the quantity and cost of the items.",
+  "points": [
+   "Keep proper records when goods or services are used for captive consumption.",
+   "Show the quantity and cost of items sent to other departments, cost centres, or units of the company.",
+   "Record sales to outside parties separately from internal use."
+  ],
+  "example": "Meera Textiles Private Limited produces cotton thread. The company sends part of this thread to its own weaving department to make fabric for self-consumption, and sells the remaining thread to outside buyers. According to the rule, Meera Textiles must maintain proper records showing the exact quantity and cost of the thread transferred to its weaving department separately from the thread sold to outside parties.",
+  "terms": [
+   {
+    "term": "captive consumption",
+    "meaning": "Using the goods or services made by your own company for your own internal use instead of selling them."
+   },
+   {
+    "term": "cost centres",
+    "meaning": "A department or part of a company to which costs are charged for accounting purposes."
+   }
+  ],
+  "watch": "Do not confuse internal transfers with sales to outside parties, as both must be recorded separately.",
+  "h": "65be0b1bab05",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "21": {
+  "summary": "Rule 21 explains how companies must keep proper records for by-products and joint products. It requires tracking quantities, values, expenses, and sales realization for by-products. It also requires sharing the joint costs among products using a fair and consistent method.",
+  "points": [
+   "Maintain proper quantity and value records for each by-product.",
+   "Use a fair and consistent method to value by-products and record this basis.",
+   "Keep records of further processing expenses and actual sales for by-products.",
+   "Apportion joint costs up to the point of separation fairly and consistently among joint products."
+  ],
+  "example": "Meera Textiles Private Limited produces main fabrics and also generates a secondary output called a by-product during the manufacturing process. According to the rule, the company must maintain proper records showing receipts, issues, and balances of this by-product in both quantity and value. They also need to record any expenses for further processing and the actual sales realization. When joint products are made, Meera Textiles must divide the joint costs up to the separation point on a reasonable and equitable basis and keep these records clear.",
+  "terms": [
+   {
+    "term": "By-product",
+    "meaning": "A secondary product derived from a manufacturing process or chemical reaction."
+   },
+   {
+    "term": "Apportioned",
+    "meaning": "Divided and shared out among different things according to a plan."
+   },
+   {
+    "term": "Joint products",
+    "meaning": "Two or more products separated from a common manufacturing process."
+   }
+  ],
+  "watch": "Do not forget to write down the specific basis used for valuation and cost sharing in the cost records.",
+  "h": "36195213601a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "22": {
+  "summary": "When a company tracks costs using a system other than actual costs, like standard costing, it must clearly show how it calculates those costs. The company needs to break down and explain all cost differences, called variances, and state how it adjusts them to find the true actual cost. All procedures, reasons, and methods must be properly recorded.",
+  "points": [
+   "State the procedure used to calculate costs if not using actual costs.",
+   "Show cost variances under separate heads for material, labour, and overheads.",
+   "Segregate variances further into quantity, price, and efficiency variances.",
+   "Clearly indicate the method used for adjusting variances to determine actual cost.",
+   "Explain the reasons for the variances in records and statements."
+  ],
+  "example": "Meera Textiles Private Limited uses standard costing instead of actual costs to track its production expenses. In its cost records, the company lists its cost differences under separate heads for material, labour, and overheads. It further breaks these down into quantity, price, and efficiency variances. Meera Textiles clearly notes the method it uses to adjust these variances to figure out the actual cost of the goods. Finally, the company writes down the reasons for these variances in its cost statements.",
+  "terms": [
+   {
+    "term": "Standard costing",
+    "meaning": "A system of tracking costs using expected or estimated costs instead of actual expenses."
+   },
+   {
+    "term": "Cost variances",
+    "meaning": "The differences between expected costs and actual costs."
+   },
+   {
+    "term": "Overheads",
+    "meaning": "Ongoing business expenses not directly tied to creating a specific product or service."
+   }
+  ],
+  "watch": "A common confusion is assuming these rules apply to all companies, when they specifically apply to companies that maintain cost records on a basis other than actual costs.",
+  "h": "45a1f383cbe2",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "23": {
+  "summary": "This rule requires companies to match their cost statements with their financial statements every year. This matching process points out any expenses or incomes that were left out of the cost records. Doing this helps ensure the records are correct and adjusts the profit of specific goods or services to match the company's total profit.",
+  "points": [
+   "Match cost statements with financial statements every financial year.",
+   "Show clearly which expenses or incomes were not included in the cost records.",
+   "Explain any differences or variations clearly.",
+   "Adjust the profit of specific goods or services to match the company's overall profit."
+  ],
+  "example": "At the end of the financial year, Alpha Electronics Private Limited prepares its financial statements and its cost statements for its manufacturing business. The accountant notices that certain overhead expenses recorded in the general financial accounts were not included in the specific cost records for the company's televisions. To follow the rules, the accountant matches the two sets of accounts, clearly indicates and explains this difference, and adjusts the television production profit so it accurately reflects the overall company profit.",
+  "terms": [
+   {
+    "term": "Reconciled",
+    "meaning": "Checked and compared two sets of records to make sure they agree with each other."
+   },
+   {
+    "term": "Financial statements",
+    "meaning": "Official reports showing a company's overall money matters and profits."
+   },
+   {
+    "term": "Variations",
+    "meaning": "Differences found when comparing two sets of records."
+   }
+  ],
+  "watch": "Do not forget to explain any differences found between the cost statements and the financial statements.",
+  "h": "73c20d843804",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "25": {
+  "summary": "This rule requires companies to keep separate records of expenses and incentives for exporting goods or services. They must also track export licenses and whether the company met its export promises. Cost statements must show if the company used duty-free imports and when those imports happened.",
+  "points": [
+   "Keep separate records of expenses and incentives for export sales.",
+   "Prepare separate cost statements for exported goods or services.",
+   "Record details of export commitments and whether they were met.",
+   "Show duty-free imports and their timing in the cost statements."
+  ],
+  "example": "Meera Textiles Private Limited exports cotton shirts to other countries. To follow the rules, the company keeps a separate book for all the money spent on shipping and the rewards received for exporting. They also write down their export targets for each license and note if they met them. When they bring in raw materials without paying taxes, their cost statements clearly show this fact and state whether the tax-free items arrived before or after production.",
+  "terms": [
+   {
+    "term": "Export sales",
+    "meaning": "Selling goods or services to buyers in other countries."
+   },
+   {
+    "term": "Duty free imports",
+    "meaning": "Bringing goods into the country without paying regular taxes or duties."
+   }
+  ],
+  "watch": "Do not confuse regular sales records with export records, as export costs must be kept completely separate.",
+  "h": "79da81bd9e0e",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "26": {
+  "summary": "This rule requires certain companies to keep clear quantity records of all the goods they make and services they provide. These records must show what was produced, what was sent out for sales, and what is left over. Furthermore, companies must separate the production details based on whether the goods were made by themselves, by a third party on job work, or on a loan license basis.",
+  "points": [
+   "Keep quantity records of finished goods and services.",
+   "Track production, sales issues, and remaining balances.",
+   "Separate records for self-produced goods.",
+   "Separate records for third party job work and loan license items."
+  ],
+  "example": "Asha Garments Private Limited makes shirts and must keep detailed quantity records under the law. The company produces some shirts in its own factory, but also sends fabric to an outside tailor for job work. Asha Garments cannot mix these records together. Instead, the company must maintain separate quantitative records showing the production, sales issues, and remaining balances for the shirts made in-house and those made through third-party job work.",
+  "terms": [
+   {
+    "term": "Quantitative records",
+    "meaning": "Written counts or measurements of amounts and quantities, rather than money values."
+   },
+   {
+    "term": "Job work",
+    "meaning": "Work done by a third party on materials supplied by the company."
+   },
+   {
+    "term": "Loan license basis",
+    "meaning": "An arrangement where a license is used to get products manufactured by someone else."
+   }
+  ],
+  "watch": "Do not confuse these quantity records with financial accounts that track money and profits.",
+  "h": "55a2786264c1",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "27": {
+  "summary": "Under the Companies (Cost Records and Audit) Rules, 2014, companies must keep separate sales records for different categories of goods and services. These records must be maintained individually for each plant, unit, or service centre. You must track both total sales and sales realisation for each unit.",
+  "points": [
+   "Maintain separate sales details for domestic and export sales under various categories like control price and market price.",
+   "Keep separate records for sales to related parties or inter-unit transfers.",
+   "Apply the same detailed categories for services, including domestic and export deliveries.",
+   "Record these details separately for every plant, unit, or service centre.",
+   "Track both total sales and sales realisation per unit."
+  ],
+  "example": "Meera Textiles Private Limited operates two separate manufacturing plants and a service centre. According to the rules, the company must maintain distinct sales records for each of these locations. For Plant A, they must separately record domestic sales at market price, export sales under advance license, and transfers to related parties. They must do the same for Plant B and the service centre, tracking both total amounts and sales realisation per unit for every single location.",
+  "terms": [
+   {
+    "term": "Control price",
+    "meaning": "A price fixed or regulated by the government or an authority."
+   },
+   {
+    "term": "Related party",
+    "meaning": "A person or another company that has a close connection or control over the company."
+   },
+   {
+    "term": "Sales realisation",
+    "meaning": "The actual amount of money received or earned from selling a product or service."
+   }
+  ],
+  "watch": "People often confuse keeping combined sales records with maintaining separate records for each plant, unit, or service centre as required by the rules.",
+  "h": "24928f5ea3e7",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "28": {
+  "summary": "Certain companies must prepare detailed monthly, quarterly, and annual cost statements. These statements track quantities, costs, sales, profit margins, and indirect taxes for goods and services. If a company runs multiple plants or factories, separate statements must be made for each one.",
+  "points": [
+   "Prepare regular statements showing quantitative details like capacity, production, and sales.",
+   "Include cost of production, cost of sales, and margins in total and per unit.",
+   "Reconcile indirect taxes, showing clearances, taxable values, duties paid, and credits used.",
+   "Make separate statements for each plant, factory, or service centre if the company operates more than one."
+  ],
+  "example": "Meera Textiles Private Limited operates two separate factories in different cities. According to the rules, the company must prepare separate monthly, quarterly, and annual cost statements for each factory. These statements need to show quantitative information like actual production and sales, details of major costs, profit margins, and reconciliation of indirect taxes separately for each location.",
+  "terms": [
+   {
+    "term": "Quantitative information",
+    "meaning": "Details expressed in numbers, amounts, or quantities."
+   },
+   {
+    "term": "Cost of production",
+    "meaning": "The total money spent to manufacture goods or provide services."
+   },
+   {
+    "term": "Reconciliation",
+    "meaning": "Comparing different sets of records to check that they match."
+   }
+  ],
+  "watch": "Do not forget to prepare separate cost statements for every single plant, factory, or service centre if the company operates more than one.",
+  "h": "c17827eed83a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "29": {
+  "summary": "This rule requires certain companies to keep statistical records about their use of machines, labor hours, and financial investments. Companies must track machine and labor hours, analyze any unused time, and properly separate their financial assets. These records help monitor how resources are used in making goods or providing services.",
+  "points": [
+   "Keep records of available and actually used machine hours and direct labor hours, and analyze shortfalls.",
+   "Maintain records to compute and analyze idle time for both machines and labor.",
+   "Maintain proper records to identify capital employed, net fixed assets, and working capital separately for the specific goods or services.",
+   "Show fresh investments on fixed assets that have not contributed to production during the period, along with assets added as replacements or for capacity increase."
+  ],
+  "example": "Meera Textiles Private Limited makes cotton shirts. Under this rule, the company must record every hour its weaving machines are available and how many hours they are actually running. If machines sit idle, the company needs to analyze why. Furthermore, Meera Textiles must keep separate financial records for its capital, fixed assets, and working capital used specifically for making shirts compared to its other business activities. If the company bought a new dyeing machine this year that was not yet used for production, it must note this in the cost records.",
+  "terms": [
+   {
+    "term": "Idle time",
+    "meaning": "Time when machines or workers are available to work but are not producing anything."
+   },
+   {
+    "term": "Capital employed",
+    "meaning": "The total amount of money a company uses to run its business."
+   }
+  ],
+  "watch": "Do not confuse general financial accounts with these specific cost and statistical records required for machine hours and asset allocation.",
+  "h": "1e71bfd3876a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "30": {
+  "summary": "This rule explains how companies must keep records when they physically check their stock items. These items include raw materials, finished goods, and fixed assets. Any shortages or surpluses found must be recorded along with the reasons and how they are adjusted in the cost.",
+  "points": [
+   "Records can be kept for all stock items like raw materials, packing materials, machinery spares, and finished goods.",
+   "Companies must note down the reasons for any shortages or surpluses found during physical checks.",
+   "The method used to adjust these shortages or surpluses in the cost of goods or services must be stated."
+  ],
+  "example": "Meera Textiles Private Limited conducts a physical check of its warehouse. The staff counts the raw materials and packing materials currently in stock. They discover a shortage in the raw materials and record the reasons for this difference. They also write down the exact method they will use to adjust this shortage in the final cost of their goods.",
+  "terms": [
+   {
+    "term": "Physical verification",
+    "meaning": "The act of physically counting and checking items in stock to see if they match the written records."
+   },
+   {
+    "term": "Surplus",
+    "meaning": "Having more items in stock than what the records show."
+   },
+   {
+    "term": "Consumables",
+    "meaning": "Goods that are used up during the business operations."
+   }
+  ],
+  "watch": "Do not assume that the law specifies a fixed time period or a specific method for conducting the check or making adjustments.",
+  "h": "b380f87d17e3",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
  }
 }

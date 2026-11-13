@@ -77,5 +77,28 @@
   "h": "7a60c0da92b2",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "4": {
+  "summary": "This rule requires an auditor to explain why they gave a negative or cautious answer in their report. If the auditor cannot form any opinion at all on a specific matter, they must state that fact and give the reasons for it. These requirements ensure that readers understand the basis of the auditor's conclusions.",
+  "points": [
+   "If an auditor gives an unfavourable or qualified answer, they must state the basis for it.",
+   "If an auditor cannot express an opinion on a specified matter, they must indicate that fact.",
+   "The auditor must provide reasons why it is not possible to give an opinion."
+  ],
+  "example": "Meera Textiles Private Limited hired an independent auditor to review their financial records for the year. When the auditor prepared the final report, they found certain inventory records missing and could not form an opinion on that specific matter. Following the rules, the auditor clearly stated in the report that they were unable to express an opinion on the inventory, and provided the reasons why giving an opinion was not possible.",
+  "terms": [
+   {
+    "term": "unfavourable or qualified",
+    "meaning": "A negative answer or a cautious answer with certain exceptions or reservations."
+   },
+   {
+    "term": "auditor's report",
+    "meaning": "A formal document written by an independent expert expressing an opinion on a company's financial records."
+   }
+  ],
+  "watch": "A common confusion is assuming this rule specifies a penalty or deadline, but the text mentions none.",
+  "h": "dc8069c451a9",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
  }
 }

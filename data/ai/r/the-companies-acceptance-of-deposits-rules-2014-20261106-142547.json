@@ -304,5 +304,242 @@
   "h": "99218a524052",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "8": {
+  "summary": "This rule sets the duties for a trustee who protects people who deposit money with a company. The trustee must make sure the company has enough assets to repay the deposits with interest. They must also check advertisements, fix rule breaches, and protect the overall interests of the depositors.",
+  "points": [
+   "Ensure company assets and deposit insurance cover the repayment of principal and interest for secured deposits.",
+   "Check that deposit advertisements match the deposit scheme terms and the law.",
+   "Make sure the company follows the trust deed and take steps to fix any breaches.",
+   "Call meetings of depositors when needed and help resolve their grievances."
+  ],
+  "example": "Meera Textiles Private Limited wants to invite deposits from the public. Before the advertisement goes out, the appointed trustee for depositors reviews the text to ensure it matches the deposit scheme and the trust deed. Later, the trustee checks that the company's pledged assets are enough to cover the total deposits and interest. When a depositor has a complaint, the trustee helps resolve the grievance and ensures the security for the deposits is properly managed according to the rules.",
+  "terms": [
+   {
+    "term": "trustee for depositors",
+    "meaning": "A person or company appointed to look after and protect the interests of people who deposit money."
+   },
+   {
+    "term": "secured deposits",
+    "meaning": "Deposits that are backed by company assets as a guarantee for repayment."
+   },
+   {
+    "term": "trust deed",
+    "meaning": "A legal document that sets out the rules and promises between the company and the trustee."
+   }
+  ],
+  "watch": "People often confuse the role of a trustee with that of the company directors, but the trustee's job is specifically to protect the depositors.",
+  "h": "988dcda25036",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "9": {
+  "summary": "This rule explains when a special guardian for people who lend money to a company must call a meeting of those lenders. The guardian must hold a meeting if enough lenders ask in writing or if something happens that harms the lenders' interests. This helps protect the money the lenders gave to the company.",
+  "points": [
+   "The trustee for depositors must call a meeting when at least one-tenth of the depositors in value request it in writing.",
+   "A meeting must also be called if any event happens that causes a default.",
+   "The trustee must call a meeting if an event occurs that, in the trustee's opinion, affects the interest of the depositors."
+  ],
+  "example": "Meera Textiles Private Limited borrowed money from several people through deposits, with a trustee appointed to protect their funds. Recently, the company missed a scheduled interest payment, which counts as a default. Upon noticing this issue and realizing it harms the lenders, the trustee for depositors promptly calls a meeting of all the depositors to discuss the situation and decide on the next steps.",
+  "terms": [
+   {
+    "term": "trustee for depositors",
+    "meaning": "A person or company appointed to look after and protect the interests of the people who have made deposits."
+   },
+   {
+    "term": "requisition",
+    "meaning": "An official written request or demand."
+   },
+   {
+    "term": "default",
+    "meaning": "A failure to fulfill an obligation, such as missing a payment."
+   }
+  ],
+  "watch": "People often think the company itself must call this meeting, but the rule states that the trustee for depositors is responsible for calling it.",
+  "h": "3eba00c85788",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "10": {
+  "summary": "Under these rules, a company cannot accept or renew any deposit without first getting an application form from the person who wants to deposit money. This application must include a specific promise from the depositor. The rule applies to both secured and unsecured deposits.",
+  "points": [
+   "Companies must use an application form for taking or renewing deposits.",
+   "The application can be for either secured or unsecured deposits.",
+   "The depositor must sign a declaration inside the application form."
+  ],
+  "example": "Aarav wants to put his savings as a deposit into Alpha Retail Private Limited. Before the company can accept Aarav's money, Aarav must fill out and submit an application form provided by the company. In this form, Aarav must include a written declaration stating that the money he is depositing does not come from a loan he took from someone else.",
+  "terms": [
+   {
+    "term": "Secured or unsecured",
+    "meaning": "A secured deposit has a backup asset or guarantee, while an unsecured deposit does not."
+   },
+   {
+    "term": "Declaration",
+    "meaning": "A formal, written statement made by a person."
+   }
+  ],
+  "watch": "People often confuse whether this rule applies only to secured deposits, but it applies to both secured and unsecured deposits.",
+  "h": "89457d015704",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "12": {
+  "summary": "When a company accepts or renews a deposit of money, it must give a receipt to the depositor or their agent. This receipt has to be given within twenty-one days. It must also include important details like the amount, interest rate, and repayment date, and be signed by an authorized company officer.",
+  "points": [
+   "A receipt must be given for every accepted or renewed deposit.",
+   "The receipt must be issued within twenty-one days of getting the money, clearing the cheque, or renewing the deposit.",
+   "An officer chosen by the Board must sign the receipt.",
+   "The receipt must show key details like names, dates, amounts, and interest rates."
+  ],
+  "example": "Aarav deposited money with Meera Textiles Private Limited. Within twenty-one days of the company receiving the funds, the company gave Aarav a formal receipt. The paper was signed by an officer authorized by the Board and clearly stated Aarav's name and address, the exact amount deposited, the interest rate, and when the money would be paid back.",
+  "terms": [
+   {
+    "term": "Depositor",
+    "meaning": "A person who puts money into a company."
+   },
+   {
+    "term": "Renewal",
+    "meaning": "Extending the time of an existing deposit."
+   },
+   {
+    "term": "Board",
+    "meaning": "The group of people chosen to manage the company."
+   }
+  ],
+  "watch": "Remember that the twenty-one day time limit starts from the date of receiving the money, realizing the cheque, or the renewal date.",
+  "h": "1de8d0a990bf",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "14": {
+  "summary": "Companies that accept deposits must keep a special register at their main office with details about each depositor and their deposit. These entries must be added within seven days of issuing the receipt and signed by an authorized person. The company must keep this register safe for at least eight years from the financial year of the latest entry.",
+  "points": [
+   "Keep one or more separate deposit registers at the registered office.",
+   "Record details like depositor name, PAN, amount, duration, interest rate, and nominee.",
+   "Make entries within seven days of issuing the receipt, authenticated by an authorized officer.",
+   "Preserve the register for at least eight years from the latest financial year entry."
+  ],
+  "example": "Aarav Sharma deposits money with Sunshine Electronics Private Limited. Within seven days of giving Aarav his deposit receipt, the company records his name, PAN, deposit amount, and interest rate in their deposit register at their registered office. A company director signs the entry. Sunshine Electronics must now store this register securely for at least eight years from the financial year of the latest entry made in it.",
+  "terms": [
+   {
+    "term": "register",
+    "meaning": "an official list or book where records are kept"
+   },
+   {
+    "term": "nominee",
+    "meaning": "a person chosen to receive the deposit if the depositor passes away"
+   },
+   {
+    "term": "authenticated",
+    "meaning": "signed or approved to prove it is genuine"
+   }
+  ],
+  "watch": "Remember that the eight-year storage period starts from the financial year of the latest entry, not from the date the deposit was first made.",
+  "h": "dbd0b4661d8c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "16": {
+  "summary": "Every covered company must file a yearly return of deposits using Form DPT-3 with the Registrar. This return must include audited information as of March 31 and be filed by June 30. Form DPT-3 is also used by non-government companies to report transactions that are not deposits.",
+  "points": [
+   "File Form DPT-3 on or before June 30 every year.",
+   "Include information as of March 31 of that year.",
+   "The company auditor must audit the information and submit a declaration in the form.",
+   "Pay the required fee as provided in the Companies (Registration Offices and Fees) Rules, 2014."
+  ],
+  "example": "Alpha Retail Private Limited is a company covered by the deposit rules. On the 31st day of March, the company prepares its financial details regarding deposits and non-deposit transactions. The company auditor checks and audits this information, and submits a declaration in Form DPT-3. Along with the required fee, Alpha Retail Private Limited files this return with the Registrar on or before the 30th day of June.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "An official appointed under the Act to keep company records."
+   },
+   {
+    "term": "Auditor",
+    "meaning": "An official appointed to check and verify company accounts."
+   },
+   {
+    "term": "Form DPT-3",
+    "meaning": "The specific document used to file details of deposits and transactions."
+   }
+  ],
+  "watch": "Remember that this form is used for both actual deposits and other transactions that are not deposits.",
+  "h": "30795d84533b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "16A": {
+  "summary": "This rule requires companies to mention certain money received from directors or their relatives in the notes to their financial statements. Non-government companies must also file a one-time return for money or loans received between April 1, 2014, and March 31, 2019, that are not deposits. This return must be filed in a specific form within ninety days from March 31, 2019.",
+  "points": [
+   "Public companies must disclose money received from directors in their financial statement notes.",
+   "Private companies must disclose money received from directors or their relatives in their financial statement notes.",
+   "Non-government companies must file a one-time return for non-deposit money or loans received between April 1, 2014, and March 31, 2019.",
+   "The one-time return must be filed using Form DPT-3 within ninety days from March 31, 2019, along with the required fee."
+  ],
+  "example": "Meera Textiles Private Limited received a loan from the relative of a director. To follow the rules, the company must clearly mention this money in the notes section of its financial statement. Furthermore, if the company is not a government company and this loan was received between April 1, 2014, and March 31, 2019 without being a deposit, the company must file a one-time return using Form DPT-3 within ninety days from March 31, 2019, paying the necessary fee.",
+  "terms": [
+   {
+    "term": "Financial statement",
+    "meaning": "A formal record of the financial activities and position of a company."
+   },
+   {
+    "term": "Deposit",
+    "meaning": "Money given to a company that is treated as a deposit under specific legal rules."
+   }
+  ],
+  "watch": "Do not confuse regular deposits with money or loans that are specifically excluded from being treated as deposits.",
+  "h": "3a4b5382cf05",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "17": {
+  "summary": "This rule says companies must pay extra interest if they do not return deposits on time after they mature and are claimed. The extra rate is eighteen per cent per year for the time the payment is late. This applies to both secured and unsecured deposits.",
+  "points": [
+   "Applies to deposits that have matured and been claimed.",
+   "Applies to both secured and unsecured deposits.",
+   "The penal rate of interest is eighteen per cent per annum.",
+   "The extra interest must be paid for the overdue period."
+  ],
+  "example": "Meera Textiles Private Limited accepted a deposit from a customer. The deposit matured, and the customer claimed it, but the company failed to pay it back on time. Because the payment is late, Meera Textiles Private Limited must now pay a penal rate of interest of eighteen per cent per annum for the overdue period, as required by the rule.",
+  "terms": [
+   {
+    "term": "Penal rate of interest",
+    "meaning": "An extra, higher interest charge applied as a penalty when a payment is late."
+   },
+   {
+    "term": "Matured",
+    "meaning": "Reached the end of its agreed time period and is now ready to be paid back."
+   },
+   {
+    "term": "Secured and unsecured",
+    "meaning": "Secured deposits are backed by company assets for safety, while unsecured deposits are not."
+   }
+  ],
+  "watch": "Make sure to remember that this extra interest only applies after a deposit has both matured and been claimed.",
+  "h": "03d31b623925",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "18": {
+  "summary": "This rule explains what happens when a company is unsure if these deposit rules apply to it. The Central Government will decide the answer after talking with the Reserve Bank of India. It is a simple process for resolving doubts about the rules.",
+  "points": [
+   "Doubts may arise about whether the deposit rules apply to a specific company.",
+   "The Central Government has the power to decide these questions.",
+   "The Government must consult the Reserve Bank of India before making a decision."
+  ],
+  "example": "Meera Textiles Private Limited is confused about whether a certain transaction counts as a deposit under the law and if these rules apply to their business. Because they are not sure, the question is referred to the Central Government. The Central Government then talks with the Reserve Bank of India to make the final decision on whether the rules apply to Meera Textiles Private Limited.",
+  "terms": [
+   {
+    "term": "Central Government",
+    "meaning": "The national government of the country."
+   },
+   {
+    "term": "Reserve Bank of India",
+    "meaning": "The main banking and financial authority of the country."
+   }
+  ],
+  "watch": "People often confuse this with a court case, but it is actually decided by the government in talks with the central bank.",
+  "h": "10d17bc47b0e",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
  }
 }

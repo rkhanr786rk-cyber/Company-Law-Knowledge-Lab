@@ -78,5 +78,28 @@
   "h": "8e812a0233c9",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "4": {
+  "summary": "When a company auditor finds a problem or cannot answer a specific question in their report, they must explain why. This rule ensures that shareholders and readers know the reasons behind any negative or missing answers. It applies directly to the auditor's official report.",
+  "points": [
+   "If an auditor gives an unfavourable or qualified answer, they must state the reasons.",
+   "If an auditor cannot express an opinion on a question, they must state that fact and explain why.",
+   "The explanation must be included directly in the auditor's report."
+  ],
+  "example": "Aarav Auditor is reviewing the accounts of Meera Textiles Private Limited. When checking a specific question in the report, Aarav finds a serious issue and gives a qualified answer. According to the rule, Aarav must write down the exact reasons for this qualified answer in the final report. Later, when Aarav cannot figure out an answer to another question, the report must clearly state that no opinion could be given, along with the reasons why.",
+  "terms": [
+   {
+    "term": "unfavourable or qualified answer",
+    "meaning": "An answer in the report that points out a problem, disagreement, or exception found by the auditor."
+   },
+   {
+    "term": "auditor's report",
+    "meaning": "The official written document where the auditor gives their professional opinion on a company's financial records."
+   }
+  ],
+  "watch": "Do not confuse giving reasons for a problem with fixing the problem itself; the rule only requires the auditor to explain the issue, not to correct it.",
+  "h": "ed7861253322",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
  }
 }

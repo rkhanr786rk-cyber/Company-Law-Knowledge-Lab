@@ -49,5 +49,111 @@
   "h": "c150db851cba",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This rule gives the official name to the rules about independent directors' databank. It also states the dates when different parts of these rules start applying. Most rules start on December 1, 2019, while specific rules start immediately when published.",
+  "points": [
+   "The rules are called the Companies (Creation and Maintenance of databank of Independent Directors) Rules, 2019.",
+   "Most rules start working from December 1, 2019.",
+   "Rules 2 and 5 start working on the day they are officially published."
+  ],
+  "example": "A company named Sunshine Agro Private Limited wants to check when the new director rules apply. They see that the databank rules are officially named for the year 2019. The managers notice that rules 2 and 5 started on the exact day the government published the notification in the Official Gazette, while the rest of the rules started later on December 1, 2019.",
+  "terms": [
+   {
+    "term": "Official Gazette",
+    "meaning": "The official government newspaper or publication where new laws and rules are published for the public."
+   },
+   {
+    "term": "Notification",
+    "meaning": "An official formal public announcement about a rule or law."
+   }
+  ],
+  "watch": "Do not assume all parts of the rules start on the exact same day.",
+  "h": "1a2cd790c807",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "4": {
+  "summary": "This rule sets the duties that the institute must perform for the databank of independent directors. It must create study materials, provide an online proficiency self-assessment test, and offer advanced tests without charging extra fees. Additionally, the institute must share daily updates with the Central Government regarding who has been added, rejected, or removed.",
+  "points": [
+   "Conduct an online proficiency self-assessment test on laws and accounting.",
+   "Prepare basic study materials and online lessons, including audio-visuals.",
+   "Provide optional advanced tests and advanced study materials without charging separate fees.",
+   "Share daily lists with the Central Government about individuals added, rejected, or removed."
+  ],
+  "example": "Asha wants to be an independent director for Zenith Global Private Limited. She uses the online lessons and study materials provided by the institute to prepare. She then takes the online proficiency self-assessment test without paying any separate fees. Meanwhile, the institute updates the Central Government daily, sending over Asha's Income Tax PAN and the date her name was included in the databank.",
+  "terms": [
+   {
+    "term": "institute",
+    "meaning": "The body responsible for creating and maintaining the databank of independent directors."
+   },
+   {
+    "term": "independent director",
+    "meaning": "A board director who helps bring an independent viewpoint to a company's management."
+   },
+   {
+    "term": "cumulative list",
+    "meaning": "A growing list that adds new information to the previous totals over time."
+   }
+  ],
+  "watch": "Do not assume that the institute can charge extra money for the tests, study materials, or lessons mentioned.",
+  "h": "4abcd58f75df",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "5": {
+  "summary": "Under these rules, a special group called a panel is set up to approve course outlines and study materials. This panel has no more than ten members chosen by the Central Government and different official departments. It includes representatives from the government, stock exchanges, industry, and schools.",
+  "points": [
+   "A panel of up to ten members is nominated by the Central Government.",
+   "The panel is responsible for approving course outlines and study materials prepared by the institute.",
+   "Members include officials from the Ministry of Corporate Affairs, the institute, and various government departments.",
+   "The panel also includes representatives from the stock exchange, industry, and academia."
+  ],
+  "example": "The institute prepares a new study material for independent directors. Before it can be used, it must be checked and approved by the panel. This panel includes the Secretary of the Ministry of Corporate Affairs, a member from the Department of Economic Affairs, a representative from a stock exchange, and other nominated members who work together to review the course outline.",
+  "terms": [
+   {
+    "term": "panel",
+    "meaning": "A small group of people chosen to do a specific job, like review materials."
+   },
+   {
+    "term": "academia",
+    "meaning": "The community or world of higher education and research."
+   },
+   {
+    "term": "nominee",
+    "meaning": "A person officially chosen or proposed to do a job or act on behalf of someone."
+   }
+  ],
+  "watch": "Do not confuse this panel with the independent directors themselves, as this group's only job is to approve study materials and course outlines.",
+  "h": "9c88f53623b4",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "6": {
+  "summary": "This rule requires the designated institute to send a yearly report about training and capacity building to certain people and companies. The report must be sent within sixty days after every financial year ends. It goes to every person whose name is in the data bank and every company where that person works as an independent director.",
+  "points": [
+   "The institute must send an annual report within sixty days from the end of every financial year.",
+   "The report goes to every individual whose name is included in the data bank.",
+   "The report also goes to every company where that individual is appointed as an independent director."
+  ],
+  "example": "At the end of the financial year, the official institute prepares an annual report detailing training and events. Within sixty days, the institute sends this report to Mr. Sharma, whose name is listed in the independent directors data bank. The institute also sends a copy of this same report to Alpha Tech Private Limited, the company where Mr. Sharma serves as an independent director, using the format given in the rules schedule.",
+  "terms": [
+   {
+    "term": "independent director",
+    "meaning": "A board member who helps a company make good decisions without having a material or pecuniary relationship with it."
+   },
+   {
+    "term": "financial year",
+    "meaning": "The twelve-month period used for calculating yearly financial statements and reports."
+   },
+   {
+    "term": "data bank",
+    "meaning": "An organized collection or database of information kept for reference."
+   }
+  ],
+  "watch": "Make sure to remember that the report must be sent to both the individual in the data bank and the company where they work.",
+  "h": "5161fd970993",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
  }
 }

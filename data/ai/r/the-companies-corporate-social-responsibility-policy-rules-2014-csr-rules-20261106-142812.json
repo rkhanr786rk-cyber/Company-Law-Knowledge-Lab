@@ -185,5 +185,75 @@
   "h": "1412250e7c90",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This rule gives a short name to these company rules and says when they start to apply. It tells us they are called the Companies Corporate Social Responsibility Policy Rules, 2014. They started working on the first day of April in the year 2014.",
+  "points": [
+   "The rules are officially called the Companies Corporate Social Responsibility Policy Rules, 2014.",
+   "They came into force on April 1, 2014."
+  ],
+  "example": "Meera Textiles Private Limited wanted to check when certain official rules about social work began to apply to them. The manager checked the rules and found they are called the Companies Corporate Social Responsibility Policy Rules, 2014. The manager noted that these rules officially started on April 1, 2014, and applied from that date onwards.",
+  "terms": [
+   {
+    "term": "come into force",
+    "meaning": "to officially start to apply or become active"
+   },
+   {
+    "term": "short title",
+    "meaning": "the official short name given to a set of rules or a law"
+   }
+  ],
+  "watch": "Do not assume these rules apply to all companies without checking other provisions of the Act.",
+  "h": "f09249aec871",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "4A": {
+  "summary": "A company can do its Corporate Social Responsibility work by using a special financial instrument. The money spent on this cannot be more than ten percent of the company's total such spending for the year. The company is also freed from doing an impact study for projects funded this way.",
+  "points": [
+   "Spending on the special instrument is capped at ten percent of yearly total spending.",
+   "Companies using this instrument do not need to do an impact assessment.",
+   "The issuer must finish the project within three succeeding financial years.",
+   "Unspent money must be moved to a Schedule VII fund when listing ends."
+  ],
+  "example": "Blue Star Private Limited decides to use part of its yearly funds for social work by buying a zero coupon zero principal instrument issued by a registered non-profit organization. Blue Star spends exactly eight percent of its total yearly social budget on this, which is allowed since it is under the ten percent limit. Because of this choice, Blue Star does not have to conduct an impact assessment for the project. The non-profit promises to finish the work within three years.",
+  "terms": [
+   {
+    "term": "Corporate Social Responsibility",
+    "meaning": "Company spending and activities aimed at social good."
+   },
+   {
+    "term": "impact assessment",
+    "meaning": "A study to check the results or effect of a project."
+   }
+  ],
+  "watch": "Do not assume this special instrument replaces all normal rules, as most other implementation rules still apply.",
+  "h": "d1b6d3d2dc88",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "9": {
+  "summary": "This rule requires certain companies to share their Corporate Social Responsibility details online. The company leaders must publish their CSR committee members, policy, and approved projects on their website if they have one. This information must be easy for the general public to see.",
+  "points": [
+   "The Board of Directors must share CSR details on the company website.",
+   "The details must include who is on the CSR Committee.",
+   "The approved CSR Policy and projects must also be displayed.",
+   "The information must be open for the public to access."
+  ],
+  "example": "Meera Textiles Private Limited has a website for its business. According to the rules, the company leaders must put their CSR committee details, policy, and approved projects on this website so that any member of the public can read them easily.",
+  "terms": [
+   {
+    "term": "Board of Directors",
+    "meaning": "The group of people chosen to run and manage the company."
+   },
+   {
+    "term": "CSR Committee",
+    "meaning": "A specific group within the company that looks after Corporate Social Responsibility work."
+   }
+  ],
+  "watch": "People often think this rule applies to all companies, but it only applies to companies that actually have a website.",
+  "h": "dd7dc5ff506e",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
  }
 }

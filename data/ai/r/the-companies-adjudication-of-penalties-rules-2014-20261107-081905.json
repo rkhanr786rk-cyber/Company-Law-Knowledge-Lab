@@ -22,5 +22,159 @@
   "h": "050d4f4fe19b",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This rule gives a name to the regulation and decides when it starts working. It says the rules are called the Companies (Adjudication of Penalties) Rules, 2014. They started on the 1st day of April, 2014.",
+  "points": [
+   "The official name of the rule is the Companies (Adjudication of Penalties) Rules, 2014.",
+   "The rules came into force on April 1, 2014."
+  ],
+  "example": "Meera Textiles Private Limited was reviewing old company records to ensure proper compliance with Indian corporate laws. The management checked when specific penalty rules officially started applying to companies. They noted that the Companies (Adjudication of Penalties) Rules, 2014 became active on the 1st day of April, 2014, which helped them understand the timeline for their compliance history.",
+  "terms": [
+   {
+    "term": "Adjudication",
+    "meaning": "The legal process of resolving a dispute or deciding a penalty."
+   },
+   {
+    "term": "Come into force",
+    "meaning": "To become active and legally effective."
+   }
+  ],
+  "watch": "",
+  "h": "c1aed64e72df",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "2": {
+  "summary": "This rule gives simple meanings to certain words used in the Companies (Adjudication of Penalties) Rules, 2014. It explains terms like Act, Form, and Regional Director so that people can understand them easily. Any word used in these rules that is not explained here will take its meaning from the main Companies Act, 2013.",
+  "points": [
+   "Act means the Companies Act, 2013.",
+   "Form or e-Form means a form attached to these rules to be used for specific matters.",
+   "Regional Director means a person appointed by the Central Government in the Ministry of Corporate Affairs.",
+   "Words not defined here will follow the meanings given in the main Act or specific rules."
+  ],
+  "example": "Meera Textiles Private Limited wants to submit paperwork under the penalty rules. The company checks what format to use. According to the rules, the company must use the specific e-Form attached to the rules for that matter. If the company needs to understand a word not defined in these rules, it refers back to the main Companies Act, 2013, as permitted by the definitions rule.",
+  "terms": [
+   {
+    "term": "Annexure",
+    "meaning": "An attachment or document enclosed at the end of the rules."
+   },
+   {
+    "term": "Regional Director",
+    "meaning": "An official appointed by the Central Government in the Ministry of Corporate Affairs."
+   }
+  ],
+  "watch": "",
+  "h": "6bffd4d2f9a0",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "3A": {
+  "summary": "Under the Companies (Adjudication of Penalties) Rules, 2014, all official proceedings by authorities happen online through a special computer platform. If an email address is missing, notices are sent by post or placed directly on this platform. Any proceedings that were already pending before this rule started will continue under the older rules.",
+  "points": [
+   "All proceedings by the adjudicating officer and Regional Director must happen in electronic mode through the e-adjudication platform.",
+   "If an email address is not available, notices are sent by post to the last known address.",
+   "If no address is available at all, the notice is placed on the e-adjudication platform.",
+   "Pending proceedings started before this rule continue according to the prior rules."
+  ],
+  "example": "Aarav Logistics Private Limited faced an inquiry. The adjudicating officer used the new e-adjudication platform to issue notices and hold hearings online. For one director whose email was unknown, the officer sent the notice by post to their last available address and saved a digital copy on the platform. Another director had no address on record, so their notice was simply placed directly on the platform.",
+  "terms": [
+   {
+    "term": "Adjudicating officer",
+    "meaning": "An official appointed to decide on penalties under the law."
+   },
+   {
+    "term": "Regional Director",
+    "meaning": "An official who handles certain administrative duties and proceedings under the law."
+   }
+  ],
+  "watch": "Do not assume old cases must switch to the online platform, as pending proceedings continue under the older rules.",
+  "h": "79a9bfd044b5",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "4": {
+  "summary": "If a company or person is unhappy with an order made by an adjudicating officer, they can file an appeal in writing. This appeal goes to the Regional Director within sixty days from receiving the order. The appeal must use a specific form, state the reasons, and include a certified copy of the order.",
+  "points": [
+   "Appeals must be in writing using Form ADJ.",
+   "File the appeal within sixty days from receiving the order.",
+   "Include a certified copy of the order with your appeal.",
+   "Pay the required fee as set by the registration rules."
+  ],
+  "example": "Meera Textiles Private Limited received an order from an adjudicating officer that it disagreed with. To challenge this, the company decided to file an appeal. They prepared their appeal in Form ADJ, clearly explaining the grounds for their challenge, and attached a certified copy of the original order. Since their legal representative was handling the filing, they also attached the proper authorization and written consent. Finally, they paid the necessary fee as required by the registration rules and submitted everything to the Regional Director on time.",
+  "terms": [
+   {
+    "term": "Adjudicating officer",
+    "meaning": "An official who decides on legal matters or penalties under the law."
+   },
+   {
+    "term": "Regional Director",
+    "meaning": "A government authority having jurisdiction over the matter."
+   },
+   {
+    "term": "Certified copy",
+    "meaning": "An official copy of a document that is verified as true and correct."
+   }
+  ],
+  "watch": "Make sure you file the appeal within sixty days and do not combine separate, unrelated orders into a single appeal.",
+  "h": "6e2903731461",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "5": {
+  "summary": "When the office of the Regional Director receives an appeal, it puts a signed date on it and checks it. If the appeal is correct, it gets registered with a serial number. If it has mistakes, the appellant gets a chance to fix them, or the appeal may be refused.",
+  "points": [
+   "The Regional Director records and signs the date when an appeal is received.",
+   "Correct appeals are registered and given a serial number.",
+   "Appellants are given at least fourteen days to fix any defects found in their appeal.",
+   "The Regional Director can refuse to register the appeal in writing if defects are not fixed in time."
+  ],
+  "example": "Meera Textiles Private Limited filed an appeal with the Regional Director. The office received the papers, checked the date, and found some mistakes in the paperwork. The Regional Director sent a notice to Meera Textiles giving them time to fix the errors. Meera Textiles corrected the mistakes within the allowed time. Because of this, the Regional Director registered their appeal and gave it a serial number.",
+  "terms": [
+   {
+    "term": "Appeal",
+    "meaning": "A formal request to a higher authority to change a decision."
+   },
+   {
+    "term": "Scrutiny",
+    "meaning": "A careful and thorough examination of something."
+   },
+   {
+    "term": "Defective",
+    "meaning": "Having flaws or missing necessary information."
+   }
+  ],
+  "watch": "Note that the Regional Director can extend the time to fix defects by another fourteen days if there is a good reason.",
+  "h": "ccc80f9684fb",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "6": {
+  "summary": "This rule explains how the Regional Director handles an appeal against an order made by an adjudicating officer. The Regional Director sends the appeal to the officer for a reply, fixes a hearing date, and eventually passes a signed and dated order. Copies of the final order are shared with all concerned parties and the Central Government.",
+  "points": [
+   "The Regional Director gives the adjudicating officer a notice to file a reply within a set time not exceeding twenty-one days.",
+   "The Regional Director notifies both parties of the hearing date, giving at least thirty days notice.",
+   "If someone fails to appear for the hearing, the Regional Director may decide the appeal in their absence.",
+   "Every final order must be dated, signed, and sent as a certified copy to the appellant, the officer, and the Central Government."
+  ],
+  "example": "Meera Textiles Private Limited filed an appeal against an order passed by an adjudicating officer. The Regional Director accepted the appeal and asked the officer to submit a reply within twenty-one days. Later, the Regional Director sent a notice to Meera Textiles and the officer, scheduling a hearing date that was at least thirty days away. When Meera Textiles missed the hearing due to an emergency, the Regional Director decided the appeal in their absence, but later restored the appeal after Meera Textiles showed a valid reason for missing it.",
+  "terms": [
+   {
+    "term": "Adjudicating officer",
+    "meaning": "An officer appointed to adjudge penalties under the Act."
+   },
+   {
+    "term": "Ex-parte",
+    "meaning": "Done in the absence of one of the parties."
+   },
+   {
+    "term": "Appellant",
+    "meaning": "The person or company who files an appeal against an order."
+   }
+  ],
+  "watch": "People often confuse the initial reply period with the hearing notice period, but they have separate timelines.",
+  "h": "85fa5ef8cd9f",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
  }
 }

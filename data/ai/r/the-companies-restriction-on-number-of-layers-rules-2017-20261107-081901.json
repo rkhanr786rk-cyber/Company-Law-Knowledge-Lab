@@ -26,5 +26,23 @@
   "h": "eaf402c6f111",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "The provided text is very short and only gives the official title and start date for a specific set of company rules. It does not explain what the restriction on layers actually means or how it works. Therefore, it is unclear from this text alone what the rule requires.",
+  "points": [
+   "These rules are called the Companies (Restriction on number of layers) Rules, 2017.",
+   "They start on the date they are published in the Official Gazette."
+  ],
+  "example": "Meera Textiles Private Limited wanted to know when the new government rules about company layers would begin to apply to their business. Their manager checked the official publication and learned that the rules start on the exact date they are published in the Official Gazette.",
+  "terms": [
+   {
+    "term": "Official Gazette",
+    "meaning": "The official government publication where new laws and rules are published for the public."
+   }
+  ],
+  "watch": "Do not confuse the title and start date of the rules with the actual rules about company layers, which are not mentioned in this text.",
+  "h": "89c928063e9d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
  }
 }

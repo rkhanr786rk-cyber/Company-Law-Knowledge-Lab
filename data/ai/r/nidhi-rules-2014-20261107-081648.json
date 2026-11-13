@@ -703,5 +703,32 @@
   "h": "8dc7d0448284",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-12"
+ },
+ "24": {
+  "summary": "This rule explains the penalties when a company breaks any of the provisions under rule 2. Both the company and the responsible officer can face a fine of up to five thousand rupees. If the rule-breaking continues after the first day, an extra fine of up to five hundred rupees can be added for each extra day.",
+  "points": [
+   "Applies to any company falling under rule 2 that breaks the rules.",
+   "The company and every officer in default face a fine up to five thousand rupees.",
+   "If the violation continues, an extra fine of up to five hundred rupees applies for every day after the first day."
+  ],
+  "example": "Meera Textiles Private Limited, a company falling under rule 2, broke one of the prescribed rules. Because of this violation, the company and its responsible manager were ordered to pay a fine of up to five thousand rupees. Since they did not fix the problem immediately and the violation continued for several more days, an additional fine of up to five hundred rupees was charged for every single day that the violation kept going after the first day.",
+  "terms": [
+   {
+    "term": "contravenes",
+    "meaning": "breaks a law or rule"
+   },
+   {
+    "term": "officer who is in default",
+    "meaning": "a company employee or manager who is responsible for the rule being broken"
+   },
+   {
+    "term": "continuing one",
+    "meaning": "a violation that does not stop and keeps happening over multiple days"
+   }
+  ],
+  "watch": "People often confuse the initial fine with the daily fine, but they are separate charges applied for ongoing violations.",
+  "h": "99d11d14fb28",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
  }
 }

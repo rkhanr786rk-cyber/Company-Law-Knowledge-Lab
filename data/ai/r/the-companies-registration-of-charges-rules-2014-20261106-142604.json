@@ -207,5 +207,135 @@
   "h": "2822686c7c68",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This rule gives the official name to a specific set of company regulations under Indian law. It also states the exact date when these rules start applying. The text is very short and only covers the title and start date.",
+  "points": [
+   "The rules are called the Companies (Registration of Charges) Rules, 2014.",
+   "They started applying on April 1, 2014."
+  ],
+  "example": "Meera Textiles Private Limited wanted to know the official title of the rules that govern the registration of charges under company law. The manager checked the opening text and found that these regulations are officially named the Companies (Registration of Charges) Rules, 2014. The manager also noted that these rules officially came into force starting from April 1, 2014, guiding how the company must handle its financial charges from that date onward.",
+  "terms": [
+   {
+    "term": "Rules",
+    "meaning": "Official guidelines or regulations made under a law."
+   },
+   {
+    "term": "Come into force",
+    "meaning": "To start applying officially."
+   }
+  ],
+  "watch": "Do not confuse the start date of these rules with the date a specific company was formed.",
+  "h": "195addf9bda6",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "2": {
+  "summary": "This rule gives the basic meanings of certain words used in the Companies (Registration of Charges) Rules, 2014. It explains terms like Act, Form, and Regional Director so that people understand them correctly. If a word is used in these rules but not explained here, its meaning is taken from the main Companies Act or other specific rules.",
+  "points": [
+   "The word Act refers to the Companies Act, 2013.",
+   "Forms or e-forms must be the ones attached in the Annexure of these rules.",
+   "A Regional Director is a person appointed by the Central Government in the Ministry of Corporate Affairs.",
+   "Words not defined here take their meanings from the main Act or specified rules."
+  ],
+  "example": "Meera Textiles Private Limited wants to submit paperwork regarding a company charge. To do this, the company checks Rule 2 to understand what a 'Form' is. The manager learns that they must use the specific electronic form set forth in the Annexure of these rules. They also check who the 'Regional Director' is, finding that it is the official appointed by the Central Government in the Ministry of Corporate Affairs.",
+  "terms": [
+   {
+    "term": "Annexure",
+    "meaning": "An attachment or document added to the end of these rules."
+   },
+   {
+    "term": "Regional Director",
+    "meaning": "A person appointed by the Central Government in the Ministry of Corporate Affairs."
+   }
+  ],
+  "watch": "Do not assume a word has a special meaning here if it is defined in the main Companies Act instead.",
+  "h": "eb228d09645d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "9": {
+  "summary": "This rule explains how the government must be informed when a person is appointed or stops working to manage a company's property that has a charge on it. The company must file a specific notice using Form No. CHG.6 along with the required fee. This keeps public records up to date about who is managing the company's property.",
+  "points": [
+   "You must file a notice with the Registrar when a receiver or manager is appointed.",
+   "You must also file a notice when that person stops working, known as cessation.",
+   "The notice must apply to a property of the company that is subject to a charge.",
+   "The filing must be done using Form No. CHG.6 and include the required fee."
+  ],
+  "example": "At Sunrise Engineering Private Limited, a bank holds a charge on the factory building as security for a loan. Because the company missed some loan payments, the bank appoints Mr. Sharma as a receiver to manage the factory property. Following the law, Sunrise Engineering Private Limited must now file a notice in Form No. CHG.6 along with the fee to inform the Registrar about this appointment. Later, when Mr. Sharma finishes his work and leaves the role, the company must file another notice to report his cessation.",
+  "terms": [
+   {
+    "term": "Charge",
+    "meaning": "An interest or right created on the property of a company as security for a loan."
+   },
+   {
+    "term": "Receiver or Manager",
+    "meaning": "A person appointed to manage and protect a specific property."
+   },
+   {
+    "term": "Cessation",
+    "meaning": "The ending or stopping of a person's role or job."
+   }
+  ],
+  "watch": "People often confuse this rule with general company management notices, but it only applies specifically to properties that have a charge on them.",
+  "h": "2a7500c5ebcc",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "10": {
+  "summary": "Every company must keep a special book called a register of charges at its main office to record details about its property loans and debts. This record must be updated right away whenever a new loan is taken, changed, or fully paid off. It must also be signed by an authorized person and kept safe forever.",
+  "points": [
+   "Keep a register of charges in Form No. CHG.7 at the company's registered office.",
+   "Record all created, modified, or satisfied charges and property acquired with a charge forthwith.",
+   "Get the entries authenticated by a director, the company secretary, or a person authorized by the Board.",
+   "Preserve the register of charges permanently, and keep instruments creating or modifying a charge for eight years after satisfaction."
+  ],
+  "example": "Sunrise Toys Private Limited took a loan against its warehouse and registered the charge. Rahul, the company secretary, immediately recorded this in Form No. CHG.7 kept at the registered office and signed it to authenticate the entry. Years later, when the loan was fully repaid, Rahul updated the register to show satisfaction. The company safely filed away the original loan agreement to keep it for the required eight years after the repayment, while the register itself was stored permanently.",
+  "terms": [
+   {
+    "term": "charge",
+    "meaning": "An interest or right created on the property or assets of a company as security for a loan."
+   },
+   {
+    "term": "satisfaction of charge",
+    "meaning": "The full payment or clearance of the debt for which the charge was created."
+   },
+   {
+    "term": "authenticated",
+    "meaning": "Approved or signed to confirm that the entries are correct."
+   }
+  ],
+  "watch": "Do not confuse the permanent preservation of the register itself with the eight-year storage rule which only applies to the specific instrument creating or modifying the charge.",
+  "h": "fd6af9e81142",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "11": {
+  "summary": "This rule explains who can look at the company records about loans and property guarantees, and what they have to pay. Members and creditors can check these papers for free. Other people can also check them, but they must pay a fee.",
+  "points": [
+   "The company must keep a register of charges and the instrument of charges.",
+   "Any member of the company can inspect these documents without paying any fees.",
+   "Any creditor of the company can also inspect these documents without paying any fees.",
+   "Any other person can inspect them only by paying a fee."
+  ],
+  "example": "Apex Traders Private Limited has borrowed money and recorded its charges. Rohan, who is a shareholder in Apex, comes to the office and asks to see the register of charges. The company must show it to him without charging any money. Later, Sameer, who has no relation to the company, walks in and asks to see the same register. The company is allowed to make Sameer pay a fee before showing him the papers.",
+  "terms": [
+   {
+    "term": "register of charges",
+    "meaning": "An official book kept by a company listing the loans and property guarantees."
+   },
+   {
+    "term": "instrument of charges",
+    "meaning": "The actual written document that creates the loan or property guarantee."
+   },
+   {
+    "term": "creditor",
+    "meaning": "A person or company to whom money is owed."
+   }
+  ],
+  "watch": "Do not assume that all people can view the documents for free, because only members and creditors get free access.",
+  "h": "b2ff95095fc0",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
  }
 }

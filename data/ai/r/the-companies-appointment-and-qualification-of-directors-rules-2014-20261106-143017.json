@@ -222,5 +222,282 @@
   "h": "793d2278cd55",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This rule gives a short title to the rules about appointing and qualifying directors under the Companies Act. It states that these rules officially begin on the 1st day of April, 2014. They apply to companies as outlined in the law.",
+  "points": [
+   "The rules are officially named the Companies (Appointment and Qualification of Directors) Rules, 2014.",
+   "They came into force starting on April 1, 2014."
+  ],
+  "example": "Aarav wanted to check the exact starting date for the company director rules to help his friend running Meera Textiles Private Limited. He looked up the official text and found that these rules officially came into force on the 1st day of April, 2014.",
+  "terms": [
+   {
+    "term": "come into force",
+    "meaning": "to officially start and become active"
+   }
+  ],
+  "watch": "Do not confuse the name of the rules with the entire Companies Act itself.",
+  "h": "32b7b577db2b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "8": {
+  "summary": "When someone is appointed as a company director, they must give the company a written consent using Form DIR-2 on or before their appointment. The company then has thirty days to file this consent with the Registrar using Form DIR-12, along with the required fee. If the new director is from a country that shares a land border with India, they must also attach security clearance from the Ministry of Home Affairs.",
+  "points": [
+   "The appointed person must provide written consent in Form DIR-2 on or before taking office.",
+   "The company must file this consent with the Registrar in Form DIR-12 within thirty days.",
+   "Filing requires payment of the fee specified in the rules.",
+   "Directors from countries sharing a land border with India need security clearance from the Ministry of Home Affairs attached to their consent."
+  ],
+  "example": "Meera Textiles Private Limited recently appointed Rohan as a new director. Before taking office, Rohan signed and submitted his written consent in Form DIR-2. Because Rohan is a citizen of a neighboring country that shares a land border with India, he also included his security clearance from the Ministry of Home Affairs. Within thirty days of Rohan's appointment, Meera Textiles Private Limited successfully filed Form DIR-12 along with the consent, the security clearance, and the required fee to the Registrar.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "An official who handles company records and registrations for the government."
+   },
+   {
+    "term": "Security clearance",
+    "meaning": "Official approval from the government confirming there are no security risks."
+   }
+  ],
+  "watch": "Remember that the thirty-day deadline applies to the company filing the form, not to the director giving the consent.",
+  "h": "f0df11c3a2e0",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "9": {
+  "summary": "This rule explains how a person who wants to become a director in an existing company must apply for a special identification number called a DIN. The applicant needs to fill out an electronic form, attach required documents like a photograph and proofs, and submit it with the help of company officials. There is also an option for up to three proposed directors to get a DIN through a different incorporation form.",
+  "points": [
+   "An applicant wanting to be a director in an existing company must apply electronically in Form DIR-3 to the Central Government for a Director Identification Number.",
+   "The application requires attached documents including a photograph, proof of identity, proof of residence, a board resolution proposing the appointment, and a verified specimen signature.",
+   "The form must be signed using the applicant's Digital Signature Certificate and digitally verified by a full-time company secretary, managing director, director, CEO, or CFO of the company.",
+   "If an applicant does not have a last name, their father's or grandfather's surname must be used along with a specific declaration form."
+  ],
+  "example": "Aman wants to join the board of directors at Meera Textiles Private Limited, an existing company. Since Aman does not yet have a Director Identification Number, he downloads Form DIR-3 from the official website. He fills in his details, attaches his photograph, identity proof, residence proof, a board resolution from the company proposing his appointment, and his verified specimen signature. Aman signs the form using his Digital Signature Certificate, and a director of Meera Textiles Private Limited also verifies it digitally before sending it to the Central Government.",
+  "terms": [
+   {
+    "term": "Director Identification Number",
+    "meaning": "A unique identification number given by the Central Government to a person who intends to be a director of a company."
+   },
+   {
+    "term": "Digital Signature Certificate",
+    "meaning": "An official digital key used to securely sign electronic documents online."
+   },
+   {
+    "term": "Board Resolution",
+    "meaning": "A formal decision passed by the directors of a company."
+   }
+  ],
+  "watch": "Make sure to attach all required documents and get the form digitally verified by the correct company official.",
+  "h": "b78c53277bb3",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "11": {
+  "summary": "The government or authorized officials can cancel, surrender, or deactivate a person's Director Identification Number (DIN) under specific situations. These situations include duplication, wrongful or fraudulent acquisition, death, unsound mind, insolvency, or a voluntary surrender application. Additionally, a DIN will be deactivated if the holder fails to share their required particulars through the specified web form.",
+  "points": [
+   "A DIN can be cancelled or deactivated if it is a duplicate, obtained wrongfully or fraudulently, or if the holder passes away, becomes of unsound mind, or is declared insolvent.",
+   "The holder must be given a chance to speak before a DIN is cancelled or deactivated due to wrongful or fraudulent means.",
+   "A holder can apply to surrender their DIN if they were never a director and never used the DIN to file documents, subject to record verification.",
+   "Failing to submit required particulars through the designated web form will lead to the deactivation of the DIN, which can only be reactivated after filing the form with the prescribed fee."
+  ],
+  "example": "Aarav wanted to surrender his Director Identification Number issued by the authorities. He submitted an application in Form DIR-5 to the Central Government along with a formal declaration. Aarav stated that he had never been appointed as a director in any company and that the said DIN had never been used for filing any document with any authority. Before deactivating his DIN, the Central Government verified the electronic records to ensure his statement was correct.",
+  "terms": [
+   {
+    "term": "Director Identification Number (DIN)",
+    "meaning": "A unique identification number allotted to an individual for the purpose of being appointed as a director of a company."
+   },
+   {
+    "term": "Insolvent",
+    "meaning": "A legal status of a person who is unable to pay their debts as they come due."
+   },
+   {
+    "term": "Deactivate",
+    "meaning": "To temporarily or permanently stop the functioning or use of an identification number."
+   }
+  ],
+  "watch": "Make sure to note that a DIN obtained wrongfully or fraudulently requires an opportunity of being heard before cancellation.",
+  "h": "7cf7c6f5dd81",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "12": {
+  "summary": "If any details you provided to get your Director Identification Number change, you must tell the Central Government within thirty days. You also need to inform the companies where you are a director within fifteen days of the change. The government will update its records and confirm the changes to you after checking your proofs.",
+  "points": [
+   "Inform the Central Government within thirty days using Form DIR-6 if your details change.",
+   "Get the form digitally signed by a practicing professional like a chartered accountant.",
+   "Tell the company or companies where you are a director within fifteen days of the change."
+  ],
+  "example": "Mr. Rohan is a director at Sunrise Exports Private Limited. He recently moved to a new house, which changed his residential address listed in his DIN application. Within thirty days, Rohan filled out Form DIR-6 online, attached his new address proof, and had a practicing company secretary digitally sign it. He also informed Sunrise Exports Private Limited about his new address within fifteen days.",
+  "terms": [
+   {
+    "term": "Director Identification Number",
+    "meaning": "A unique identification number given to a person who wants to be a director of a company."
+   },
+   {
+    "term": "Form DIR-6",
+    "meaning": "The specific electronic form used to report changes in a director's details."
+   },
+   {
+    "term": "Digitally signed",
+    "meaning": "Signed electronically using a secure digital certificate to verify the identity of the signer."
+   }
+  ],
+  "watch": "Remember that you have to inform both the Central Government and the companies where you are a director, and the deadlines for each are different.",
+  "h": "5c5283ac1d19",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "12A": {
+  "summary": "Every person who has a Director Identification Number on March 31 must update their details with the Central Government using a specific form by June 30 every three years. If any personal contact information or address changes, they must submit the update form within thirty days along with the required fee.",
+  "points": [
+   "File your KYC details every third consecutive financial year by June 30.",
+   "Report changes to your mobile number, email, or address within thirty days of the change.",
+   "Pay the required fee when updating your details due to a change in personal information."
+  ],
+  "example": "Aarav holds a Director Identification Number for his company, Aarav Electronics Private Limited. On March 31, he checks his status and realizes he must file his KYC intimation by June 30 of the third financial year. Later, Aarav moves to a new home and changes his residential address. To follow the rules, he submits Form No. DIR-3 KYC Web within thirty days of this change and pays the fee required by the rules.",
+  "terms": [
+   {
+    "term": "Director Identification Number",
+    "meaning": "A unique identification number given to an individual who wants to be a director of a company."
+   },
+   {
+    "term": "KYC intimation",
+    "meaning": "The process of providing and confirming your current personal details to the government."
+   }
+  ],
+  "watch": "Remember that updating your details after a personal change has a much shorter deadline of thirty days compared to the regular three-year filing cycle.",
+  "h": "f4400d473a6c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "12B": {
+  "summary": "This rule explains what happens to a director's official identification number when their company fails to file a specific electronic form on time. If the company misses this filing, the director's number gets marked as non-compliant. The director must then make sure the company files the form so their status changes back to compliant.",
+  "points": [
+   "If a company does not file e-form ACTIVE on time, its directors' DINs are marked as non-compliant.",
+   "Directors with a non-compliant DIN must take steps to ensure the company files the form.",
+   "Once the company files the form, the director's DIN status changes back to compliant."
+  ],
+  "example": "Aarav is a director at Gamma Solutions Private Limited. The company fails to file e-form ACTIVE within the required period. As a result, the government marks Aarav's Director Identification Number as belonging to a non-compliant company. To fix this, Aarav takes all necessary steps to ensure Gamma Solutions Private Limited finally files the pending e-form ACTIVE. Once the company successfully files the form, Aarav's Director Identification Number is updated and marked as a compliant company director.",
+  "terms": [
+   {
+    "term": "Director Identification Number",
+    "meaning": "A unique number given by the government to a person who is a director of a company."
+   },
+   {
+    "term": "e-form ACTIVE",
+    "meaning": "An electronic form that certain companies are required to file under company rules."
+   },
+   {
+    "term": "compliant",
+    "meaning": "Following the rules and laws set for the company."
+   }
+  ],
+  "watch": "Remember that a director's status only returns to normal after the company actually files the required form.",
+  "h": "82796a593ad6",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "13": {
+  "summary": "Under these rules, a company must inform its members at least seven days before a general meeting if someone is standing for election as a director. The company can do this by sending individual notices and posting on its website. Alternatively, instead of individual notices, the company can publish an advertisement in a vernacular and an English newspaper.",
+  "points": [
+   "Inform members at least seven days before the general meeting about a person's candidature for director.",
+   "Send individual notices via email to members who gave their email, and in writing to other members.",
+   "Place the notice on the company website if the company has one.",
+   "Individual notices are not needed if the company publishes the notice in both a vernacular and an English newspaper at least seven days before the meeting."
+  ],
+  "example": "Meera Textiles Private Limited is holding a general meeting soon. Mr. Sharma wants to be a candidate for the office of a director. At least seven days before the meeting, the company informs all its members about Mr. Sharma's candidature. It sends emails to members who shared their email addresses, sends written notices to the rest, and also uploads the notice on the company website. Alternatively, the company could choose to run an advertisement in a local vernacular newspaper and an English newspaper instead of sending individual notices.",
+  "terms": [
+   {
+    "term": "Candidature",
+    "meaning": "The state of being a candidate for a job or position, such as a director."
+   },
+   {
+    "term": "General meeting",
+    "meaning": "A meeting of the members or shareholders of a company."
+   },
+   {
+    "term": "Vernacular newspaper",
+    "meaning": "A newspaper published in the local language of the region."
+   }
+  ],
+  "watch": "Remember that publishing advertisements in newspapers replaces only the individual notices, not the website requirement.",
+  "h": "e029b98f260d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "15": {
+  "summary": "When a director decides to resign, they send a notice to the company. The company must then tell the Registrar about this resignation within thirty days of getting the notice. The company also has to put this information on its website, if it has one.",
+  "points": [
+   "A director gives a notice of resignation to the company.",
+   "The company must inform the Registrar using Form DIR-12 within thirty days of receiving the notice.",
+   "The company must also post the resignation information on its website, if the company has a website."
+  ],
+  "example": "Meera Textiles Private Limited received a notice of resignation from one of its directors, Mr. Sharma, on Monday. Following the rules, the company is now required to inform the Registrar in Form DIR-12 within thirty days of receiving Mr. Sharma's notice. Additionally, because Meera Textiles Private Limited has an official company website, it must post the information about Mr. Sharma's resignation there as well.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "A government official who keeps records of companies."
+   },
+   {
+    "term": "Form DIR-12",
+    "meaning": "The specific form used to give information to the Registrar."
+   }
+  ],
+  "watch": "People often confuse the date of the resignation letter with the date the company actually received it, but the thirty-day limit starts from the date of receipt.",
+  "h": "742eb6d77d0e",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "16": {
+  "summary": "When a director resigns from a company, they have the option to send a copy of their resignation letter and reasons to the Registrar within thirty days. They must use a specific form called Form DIR-11 and pay the required fee. If the company already filed a certain notice, a foreign director can authorize someone else in India, like a professional accountant or another resident director, to sign and file Form DIR-11 for them.",
+  "points": [
+   "A resigning director may send a copy of their resignation and reasons to the Registrar within thirty days.",
+   "The filing must be done using Form DIR-11 along with the specified fee.",
+   "A foreign director can authorize a qualified professional or a resident director to sign and file Form DIR-11 on their behalf if the company already filed Form DIR-12."
+  ],
+  "example": "John, a foreign director at Alpha Global Private Limited, decided to step down from his position. Since Alpha Global had already filed Form DIR-12 with the Registrar, John did not need to file his paperwork in person. Instead, he gave written authorization to Sarah, a resident director at the company, to sign and submit Form DIR-11 on his behalf, including his reasons for leaving, within the thirty-day limit.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "A government official who keeps records of companies."
+   },
+   {
+    "term": "Form DIR-11",
+    "meaning": "A specific official document used to report a director resignation."
+   }
+  ],
+  "watch": "Remember that filing this resignation copy is an option for the director, but doing so involves a strict thirty-day time limit.",
+  "h": "5796929b9144",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "17": {
+  "summary": "Every company must keep a register at its registered office containing specific personal details and security holdings of its directors and key managerial personnel. The company must also file a return with the Registrar for any appointments or changes regarding these individuals. This rule ensures proper record-keeping of company management and their shares.",
+  "points": [
+   "Companies must keep a register of directors and key managerial personnel at their registered office.",
+   "The register must include personal details like names, addresses, dates of birth, and security holdings.",
+   "Details of securities held in the company, holding companies, subsidiaries, and associates must be recorded.",
+   "A return of particulars for appointments or changes must be filed with the Registrar using Form DIR-12."
+  ],
+  "example": "Meera Textiles Private Limited appointed a new director, Mr. Sharma. The company immediately recorded his full name, residential address, date of birth, and other required personal particulars in their official register kept at the registered office. They also noted the details of the company shares he owns. Within thirty days of his appointment, Meera Textiles filed Form DIR-12 with the Registrar to report this change.",
+  "terms": [
+   {
+    "term": "Key managerial personnel",
+    "meaning": "Top executives of a company such as the chief executive officer, managing director, company secretary, or chief financial officer."
+   },
+   {
+    "term": "Dematerialized form",
+    "meaning": "Holding securities electronically in an account rather than on physical paper certificates."
+   },
+   {
+    "term": "Cessation",
+    "meaning": "The event or date when a person stops holding an office or position."
+   }
+  ],
+  "watch": "People often confuse keeping the internal register at the registered office with filing the official return to the Registrar.",
+  "h": "6a3ad3e2d803",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
  }
 }

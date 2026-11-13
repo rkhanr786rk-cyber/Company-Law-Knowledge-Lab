@@ -153,5 +153,179 @@
   "h": "4c5652e99d50",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This rule gives the official name and starting date for specific laws about a special fund in India. These rules are called the Investor Education and Protection Fund Authority Rules. They started on the 7th of September 2016.",
+  "points": [
+   "The official name of the rules is stated.",
+   "The rules start on September 7, 2016."
+  ],
+  "example": "Meera Textiles Private Limited needed to check the official name of the new fund rules in September 2016. The manager checked the government gazette to confirm the exact title and the date they became active, which was the seventh of September 2016.",
+  "terms": [
+   {
+    "term": "commencement",
+    "meaning": "The time when something starts or begins."
+   }
+  ],
+  "watch": "Do not confuse the starting date of these rules with the date the main Act was passed.",
+  "h": "c650c725fc7f",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "4": {
+  "summary": "This rule explains how the Investor Education and Protection Fund Authority must keep its accounts and have them checked every year. The Central Government decides the form of the accounts, and the Comptroller and Auditor-General of India audits them. Finally, the audited accounts and report are sent to the Central Government to be shown in Parliament.",
+  "points": [
+   "The Authority must maintain proper accounts and records and prepare an annual statement.",
+   "The accounts are audited every year by the Internal Audit Party and the Comptroller and Auditor-General of India.",
+   "The auditors have the right to demand books, vouchers, documents, and inspect offices.",
+   "The certified accounts and audit report are forwarded to the Central Government to be laid before Parliament."
+  ],
+  "example": "The Investor Education and Protection Fund Authority prepares its yearly statement of accounts as required. Soon after, an audit team from the Comptroller and Auditor-General of India arrives to check the records. The auditors ask the Authority to produce all connected vouchers, books, and papers for inspection. Once the accounts are checked and certified along with the audit report, they are handed over to the Central Government so they can be presented before each House of Parliament.",
+  "terms": [
+   {
+    "term": "Comptroller and Auditor-General of India",
+    "meaning": "An official authority that checks government accounts and spending."
+   },
+   {
+    "term": "Audited",
+    "meaning": "Officially examined for accuracy and correctness."
+   }
+  ],
+  "watch": "Note that the text does not mention any specific time periods or penalties for these actions.",
+  "h": "a5e063221b58",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "8": {
+  "summary": "This rule explains the reports the Authority must give to the Central Government. The Authority must report companies that failed to transfer due amounts within sixty days of the financial year end. It must also report companies that failed to file specific information by the end of the next financial year.",
+  "points": [
+   "The Authority must report companies that failed to transfer due amounts to the Fund within sixty days of the financial year end.",
+   "The Authority must report companies that failed to file required information by the end of the next financial year."
+  ],
+  "example": "At the end of the financial year, the Authority checks which companies failed to send their due money to the Fund. Within sixty days, the Authority prepares a report of these companies and submits it to the Central Government. Later, by the end of the next financial year, the Authority submits another report listing companies that failed to file the required information.",
+  "terms": [
+   {
+    "term": "Authority",
+    "meaning": "The official body set up to manage the Investor Education and Protection Fund."
+   },
+   {
+    "term": "Central Government",
+    "meaning": "The national government of the country."
+   },
+   {
+    "term": "Fund",
+    "meaning": "The Investor Education and Protection Fund."
+   }
+  ],
+  "watch": "Note that the two different reports have different deadlines set after the financial year ends.",
+  "h": "d169a794fdac",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "9": {
+  "summary": "This rule explains what happens when the new Authority is established to take over the old Investor Education and Protection Fund (IEPF). All properties, rights, debts, money, and legal cases belonging to the old fund are officially moved to the new Authority. Any old contracts or mentions of the old fund will now point directly to the new Authority.",
+  "points": [
+   "Any old mention of the existing IEPF in laws or contracts now refers to the Authority.",
+   "All movable and immovable properties of the old fund now belong to the Authority.",
+   "All rights, liabilities, debts, and contracts of the old fund are transferred to the Authority.",
+   "All money owed to the old fund is now considered due to the Authority.",
+   "All ongoing or possible legal cases involving the old fund are carried on by or against the Authority."
+  ],
+  "example": "Before the new Authority was set up, Meera Textiles Private Limited signed a contract with the existing IEPF regarding a property lease. Once the Authority was established, that contract and the property itself automatically transferred to the Authority. Later, if a legal dispute arose regarding that lease, the lawsuit would be handled by or against the Authority instead of the old fund.",
+  "terms": [
+   {
+    "term": "Authority",
+    "meaning": "The new governing body taking over the responsibilities of the old fund."
+   },
+   {
+    "term": "Vest",
+    "meaning": "To give legal ownership of property or rights to someone."
+   },
+   {
+    "term": "Liabilities",
+    "meaning": "Legal debts or obligations that a person or organization owes."
+   }
+  ],
+  "watch": "Do not confuse the old IEPF with the new Authority, as all functions and assets of the old fund are now completely transferred to the new Authority.",
+  "h": "01d8970daa8c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "10": {
+  "summary": "This rule explains that the Authority must give the Central Government information about its work. It has to send returns and statements whenever the Central Government asks. It also must send a yearly activity report within a set time after the financial year ends.",
+  "points": [
+   "The Authority must give the Central Government returns, statements, and particulars about its activities.",
+   "These can be asked for at any time, in any form, and in any manner directed by the Central Government.",
+   "The Authority must submit a full report of its activities for the previous financial year within one hundred and eighty days after that financial year ends."
+  ],
+  "example": "At the close of the financial year, the Investor Education and Protection Fund Authority prepares a detailed account of all its activities from the past twelve months. To follow the rules, the Authority submits this complete report to the Central Government within one hundred and eighty days after the financial year ended.",
+  "terms": [
+   {
+    "term": "Authority",
+    "meaning": "The Investor Education and Protection Fund Authority."
+   },
+   {
+    "term": "Financial year",
+    "meaning": "A period of twelve months used for accounting and reporting."
+   }
+  ],
+  "watch": "Do not confuse the regular returns requested at any time with the mandatory yearly activity report due within one hundred and eighty days.",
+  "h": "fb6c39322697",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "11": {
+  "summary": "This rule protects government officials and the Authority from legal trouble for actions they take honestly. If they do something in good faith under these rules, no one can sue or prosecute them. It ensures they can do their jobs without fear of personal legal penalties.",
+  "points": [
+   "Applies to the Central Government, the Authority, and their members, officers, or employees.",
+   "Protects actions done or intended to be done in good faith under these rules.",
+   "Prevents any suit, prosecution, or other legal proceedings against these protected persons."
+  ],
+  "example": "An officer at Apex Authority transfers unclaimed dividends to the Investor Education and Protection Fund following the official rules with honest intentions. Later, a disgruntled shareholder named Rahul threatens to file a lawsuit against the individual officer for this transfer. Because the officer acted in good faith under the rules, this rule protects the officer, and Rahul's legal proceeding against the officer will not stand.",
+  "terms": [
+   {
+    "term": "Good faith",
+    "meaning": "Acting honestly with a pure intention, without any bad purpose or fraud."
+   },
+   {
+    "term": "Suit",
+    "meaning": "A civil legal action started in court by one person or group against another."
+   },
+   {
+    "term": "Prosecution",
+    "meaning": "The act of taking someone to a criminal court to face charges."
+   }
+  ],
+  "watch": "This rule only protects actions done honestly, not careless or dishonest acts.",
+  "h": "23dcf7a695f5",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "12": {
+  "summary": "This rule replaces older rules about the investor fund with a new set of rules. However, any actions already completed under the old rules remain valid as long as they do not conflict with the current rules. It ensures a smooth transition without disrupting past actions.",
+  "points": [
+   "The 2001 and 2012 Investor Education and Protection Fund rules are canceled and replaced.",
+   "Past actions done under the old rules are saved and treated as if done under the new rules.",
+   "This saving applies only if past actions do not conflict with the new rules."
+  ],
+  "example": "Meera Textiles Private Limited had submitted certain unclaimed amount information in 2015 under the old 2012 rules. Even though those old rules are now canceled by Rule 12, that past submission remains valid. Because that old action does not conflict with the new 2016 rules, the company does not need to redo the submission.",
+  "terms": [
+   {
+    "term": "Repealed",
+    "meaning": "Canceled or ended officially."
+   },
+   {
+    "term": "Notwithstanding",
+    "meaning": "Despite."
+   },
+   {
+    "term": "Inconsistent",
+    "meaning": "Not in agreement or conflicting."
+   }
+  ],
+  "watch": "People often think canceling old rules destroys everything done in the past, but savings clauses keep valid past actions alive.",
+  "h": "344776ac6039",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
  }
 }

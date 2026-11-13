@@ -132,5 +132,123 @@
   "h": "e8daacb4e5ec",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This rule gives a short name to the set of rules used for removing company names from the official register. It also tells us when these rules start to apply. Because the text is very short, it only explains the title and the start date of the rules.",
+  "points": [
+   "The rules are called the Companies (Removal of Names of Companies from the Register of Companies) Rules, 2016.",
+   "They start working on the date they are published in the Official Gazette."
+  ],
+  "example": "A group of officers at Acme Logistics Private Limited wants to know when the new rules about removing company names from the official register officially start. They check the government publication date. According to the rule, the rules become active on the exact day they are published in the Official Gazette.",
+  "terms": [
+   {
+    "term": "Official Gazette",
+    "meaning": "The official government newspaper or publication used to announce public notices and laws."
+   },
+   {
+    "term": "Register of Companies",
+    "meaning": "The official list or record where active companies are registered."
+   }
+  ],
+  "watch": "Do not confuse the name of the rules with the date they actually start, which depends on their publication.",
+  "h": "4d1ea52bb5aa",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "2": {
+  "summary": "This rule gives basic meanings for words used in the specific company removal rules. It tells us that the word Act refers to the Companies Act, 2013. It also explains that any words not explained here will take their meaning from the main Act or other specified rules.",
+  "points": [
+   "The term Act means the Companies Act, 2013.",
+   "Form or e-Form means a paper or electronic form attached to these rules.",
+   "Words not defined here take their meanings from the Act or the 2014 definition rules."
+  ],
+  "example": "When Meera Textiles Private Limited wants to remove its name from the official register, it looks at the official rules. The company fills out an e-Form as mentioned in the rules. Since the rules use terms that are not fully explained inside this specific section, the directors check the main Companies Act, 2013, to understand those terms properly, just as this rule allows them to do.",
+  "terms": [
+   {
+    "term": "e-Form",
+    "meaning": "An electronic form connected to the rules."
+   },
+   {
+    "term": "Act",
+    "meaning": "The Companies Act, 2013."
+   }
+  ],
+  "watch": "Do not assume terms unique to these rules have different meanings than they do in the main Act.",
+  "h": "4f4b420b7efe",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "5": {
+  "summary": "This rule explains how to sign the application to remove a company name from the register. An authorized director must sign the form. If that director does not have a digital signature, they must sign a physical copy by hand and attach it to the online submission.",
+  "points": [
+   "The application form must be signed by a director authorized by the Board.",
+   "If the director lacks a digital signature, they must sign a physical copy manually.",
+   "This signed physical copy must be attached when uploading the main form."
+  ],
+  "example": "Meera Textiles Private Limited wants to remove its name from the register of companies. The board of directors authorizes director Ramesh to sign the application form. Since Ramesh does not have a registered digital signature certificate, he fills out a physical copy of the form and signs it by hand. Ramesh then attaches this manually signed physical copy to the main digital form, STK 2, before uploading it.",
+  "terms": [
+   {
+    "term": "Digital signature certificate",
+    "meaning": "An official electronic key used to sign documents securely online."
+   },
+   {
+    "term": "Form STK 2",
+    "meaning": "The specific official form used to apply for removing a company name."
+   }
+  ],
+  "watch": "People often confuse signing digitally with signing by hand, but manual signatures are only allowed for the physical copy attachment when a digital signature is missing.",
+  "h": "45e7747f83d6",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "6": {
+  "summary": "This rule explains that the application form to remove a company name must be certified by a qualified professional. Specifically, it must be signed and verified by a practicing professional like a Chartered Accountant, Company Secretary, or Cost Accountant. This ensures that the document is checked by an expert before submission.",
+  "points": [
+   "Form STK 2 is the official form used for the process.",
+   "The form must be certified by a professional.",
+   "Allowed professionals are a whole time practicing Chartered Accountant, Company Secretary, or Cost Accountant."
+  ],
+  "example": "Meera Textiles Private Limited decided to close its business and applied to remove its name from the official register using Form STK 2. Before submitting the form to the authorities, the directors asked Mr. Sharma, a Chartered Accountant in whole time practice, to review and certify the document. Mr. Sharma checked the details and signed it as required by the rule, ensuring the application met the proper certification standards.",
+  "terms": [
+   {
+    "term": "Certified",
+    "meaning": "Checked, verified, and officially signed by an authorized expert."
+   },
+   {
+    "term": "Whole time practice",
+    "meaning": "Working actively and full-time in a professional practice rather than having another job."
+   }
+  ],
+  "watch": "People often get confused about which professionals are allowed to sign this form.",
+  "h": "0c5df775d41a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "8": {
+  "summary": "This rule explains what foreign nationals and non-resident Indians must do with their indemnity bond and declaration. These documents must be legally verified through notarisation, appostilisation, or consularisation. The text does not mention any related sections of the Companies Act, 2013.",
+  "points": [
+   "Applies to foreign nationals and non-resident Indians.",
+   "Applies to the indemnity bond and declaration.",
+   "The documents must be notarised, appostilised, or consularisation."
+  ],
+  "example": "John, a non-resident Indian living abroad, wants to close his company, Apex Global Private Limited, under the removal of names rules. To do this, he prepares an indemnity bond and a declaration as required by the law. Since he is outside the country, John must ensure that both his indemnity bond and declaration are properly notarised, appostilised, or consularised before submitting them.",
+  "terms": [
+   {
+    "term": "Indemnity bond",
+    "meaning": "A legal written promise to pay for any losses or damages."
+   },
+   {
+    "term": "Declaration",
+    "meaning": "A formal official statement made by a person."
+   },
+   {
+    "term": "Non-resident Indian",
+    "meaning": "An Indian citizen who lives outside of India."
+   }
+  ],
+  "watch": "Do not assume any specific country laws apply beyond the required verification methods mentioned.",
+  "h": "f7094f794477",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
  }
 }

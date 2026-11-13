@@ -1,0 +1,780 @@
+{
+ "1": {
+  "summary": "These rules are officially called the Companies (Mediation and Conciliation) Rules, 2016. They start working and become active on the exact date they are published in the Official Gazette. The provided text is very brief and only gives the title and start date of these rules.",
+  "points": [
+   "The rules are named the Companies (Mediation and Conciliation) Rules, 2016.",
+   "They come into force on the date of publication in the Official Gazette."
+  ],
+  "example": "Meera Textiles Private Limited is waiting for new government rules to apply to their business disputes. The government prints the Companies (Mediation and Conciliation) Rules, 2016 in the Official Gazette today. Because of this publication, the rules come into force immediately on this exact day, and the company can now look at them for guidance.",
+  "terms": [
+   {
+    "term": "Official Gazette",
+    "meaning": "The official government newspaper or public journal where new laws and rules are officially published."
+   },
+   {
+    "term": "Come into force",
+    "meaning": "To officially become active and start applying."
+   }
+  ],
+  "watch": "People often get confused by assuming the rules start on a specific calendar date, but they actually start on the day they are published in the Official Gazette.",
+  "h": "b83011208acb",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "2": {
+  "summary": "This rule gives the meaning of key words used in the mediation and conciliation rules. It explains terms like the Act, Regional Director, and Panel. Any word used in these rules that is not defined here will have the meaning given to it in the Companies Act or other specified rules.",
+  "points": [
+   "Act means the Companies Act, 2013.",
+   "Regional Director is the person appointed by the Central Government in the Ministry of Corporate Affairs.",
+   "Form or e-Form means the forms attached in the annexure of the rules.",
+   "Panel means the Mediation and Conciliation Panel."
+  ],
+  "example": "Meera Textiles Private Limited wanted to understand the official terms used during a dispute resolution process. The manager checked the rules and found that 'Act' refers to the Companies Act, 2013. They also learned that 'Regional Director' is an official appointed by the Central Government in the Ministry of Corporate Affairs, and 'Panel' refers to the Mediation and Conciliation Panel.",
+  "terms": [
+   {
+    "term": "Annexure",
+    "meaning": "An attachment or document added at the end of the rules."
+   },
+   {
+    "term": "Panel",
+    "meaning": "The Mediation and Conciliation Panel."
+   }
+  ],
+  "watch": "Do not assume words have their everyday meanings if they are specifically defined in the Act or rules.",
+  "h": "036ae0ba565b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "3": {
+  "summary": "This rule explains how a list of experts who can act as mediators or conciliators is prepared for different regions. The Regional Director invites applications every year in February, reviews them, and updates the official panel. If an application is rejected, the reasons must be written down.",
+  "points": [
+   "The Regional Director prepares a panel of willing and eligible experts to act as mediators or conciliators.",
+   "The final panel is published on the Ministry of Corporate Affairs website or another notified website.",
+   "Interested persons with the correct qualifications apply using Form MDC-1.",
+   "Applications are invited every year in February, and the updated panel becomes effective on April 1st.",
+   "If the Regional Director rejects an application, the reasons must be recorded in writing."
+  ],
+  "example": "In the month of February, Aarav decided to apply to become a mediator because he possessed the necessary qualifications. He submitted his application in Form MDC-1 to the Regional Director. The Regional Director reviewed his documents and approved his request to be included in the official panel. The updated panel was then published on the website of the Ministry of Corporate Affairs, making Aarav's inclusion effective from the 1st of April.",
+  "terms": [
+   {
+    "term": "Regional Director",
+    "meaning": "An authority appointed by the Central Government to oversee certain administrative functions under the Act."
+   },
+   {
+    "term": "Empanelled",
+    "meaning": "Enrolled or placed on an official list of approved professionals."
+   },
+   {
+    "term": "Mediator or Conciliator",
+    "meaning": "A neutral expert who helps parties settle their disputes peacefully."
+   }
+  ],
+  "watch": "People often confuse the application month of February with the date the panel takes effect, which is April 1st.",
+  "h": "afdea1a3edf3",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "4": {
+  "summary": "This rule sets the background or work experience a person must have to be listed as a mediator or conciliator. A person must fit into one of several specific professional categories, such as being a former judge, an experienced lawyer, or a trained mediation expert. These requirements ensure that only qualified individuals help parties settle disputes.",
+  "points": [
+   "Must have served as a Supreme Court, High Court, or District and Sessions Judge.",
+   "Must have been a Member or Registrar of a National-level Tribunal, or a Member or President of a State Consumer Forum.",
+   "Must have specific years of experience as a government corporate/legal officer, a legal practitioner, or a professional accountant or company secretary.",
+   "Must be a recognized expert who has successfully completed training in mediation or conciliation."
+  ],
+  "example": "Aarav has been a qualified legal practitioner representing clients in courts for the past twelve years. Because this experience is more than the ten years required by the rules, Aarav applies to be listed as a mediator for commercial disputes at Meera Textiles Private Limited. Since Aarav meets the professional qualification category, he is eligible for empanelment under this rule.",
+  "terms": [
+   {
+    "term": "Empanelled",
+    "meaning": "Placed on an official list of approved people."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized official body set up to handle specific types of legal disputes outside traditional courts."
+   },
+   {
+    "term": "Legal practitioner",
+    "meaning": "A person who is qualified and authorized to practice law."
+   }
+  ],
+  "watch": "People often confuse having any general legal degree with being a qualified legal practitioner or professional with the exact years of experience required by this rule.",
+  "h": "6a506c155211",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "5": {
+  "summary": "This rule lists the reasons why a person cannot be added to the panel of mediators or conciliators. A person will be disqualified if they have financial or personal conflicts of interest, serious criminal convictions, or a history of being fired or punished by the government. It ensures that only fair and neutral people can help settle corporate disputes.",
+  "points": [
+   "Cannot be an active insolvent or currently seeking to be declared one.",
+   "Cannot have a conviction for an offence involving moral turpitude as decided by the Central Government.",
+   "Cannot have been removed or dismissed from government service or a government-owned corporation.",
+   "Cannot have a financial interest or relation to the parties that might affect their fairness."
+  ],
+  "example": "Aarav was considered for the panel of mediators at Meera Textiles Private Limited. However, the Central Government found that Aarav had previously been dismissed from his job at a government-owned corporation. Because of this removal from government service, Aarav is disqualified from being empanelled as a mediator or conciliator under the rules.",
+  "terms": [
+   {
+    "term": "empanelled",
+    "meaning": "Placed on an official list of approved people who can be chosen for a task."
+   },
+   {
+    "term": "insolvent",
+    "meaning": "A person who does not have enough money to pay off their debts."
+   },
+   {
+    "term": "moral turpitude",
+    "meaning": "An act or behavior that gravely violates community standards of honesty and justice."
+   }
+  ],
+  "watch": "Remember that a conflict of interest or past punishment is enough to cause disqualification even if no actual harm has occurred yet.",
+  "h": "a86191852739",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "6": {
+  "summary": "This rule explains how a mediator or conciliator is chosen to help resolve a dispute between parties under the Companies Act, 2013. Parties can mutually agree on one person, or the authorities can appoint them if the parties cannot agree. Authorities can also choose to send a pending matter for mediation on their own.",
+  "points": [
+   "Parties can agree on a single mediator or conciliator together.",
+   "If multiple groups of parties cannot agree, the authority can ask them to nominate someone or make the appointment directly.",
+   "An application to refer a pending matter for mediation must be made in Form MDC-2 with a fee of one thousand rupees.",
+   "Authorities can also refer a pending matter to experts from the panel on their own initiative."
+  ],
+  "example": "Meera Textiles Private Limited and another company got into a serious dispute during a legal proceeding. Because there were two sets of parties and they could not agree on a single mediator, they applied to the Tribunal using Form MDC-2 and paid a fee of one thousand rupees. The Tribunal then appointed experts from the Mediation and Conciliation Panel to help the companies resolve their issues.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized official body set up to handle legal disputes."
+   },
+   {
+    "term": "suo motu",
+    "meaning": "Acting on its own accord without anyone asking."
+   }
+  ],
+  "watch": "Do not assume mediation is free, as a specific fee of one thousand rupees applies to the application.",
+  "h": "54a5e61e9f21",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "7": {
+  "summary": "The Regional Director has the power to remove any person from the panel of mediators or conciliators. Before doing this, they must write down the reasons for the removal. The person being removed must also be given a chance to speak and be heard.",
+  "points": [
+   "The Regional Director can remove a person from the panel.",
+   "Reasons for the removal must be recorded in writing.",
+   "The person must get an opportunity of being heard before removal."
+  ],
+  "example": "The Regional Director decided to remove Mr. Sharma from the panel of mediators. Before taking this action, the Regional Director sent him a notice explaining the written reasons for the removal and invited him to present his side of the story. After giving Mr. Sharma this fair chance to be heard, the removal process was completed.",
+  "terms": [
+   {
+    "term": "Regional Director",
+    "meaning": "An official who handles administrative duties under the Companies Act."
+   },
+   {
+    "term": "Panel",
+    "meaning": "An official list of approved people available to act as mediators or conciliators."
+   },
+   {
+    "term": "Opportunity of being heard",
+    "meaning": "A fair chance given to a person to explain their side before a decision is made against them."
+   }
+  ],
+  "watch": "People often think someone can be removed instantly without any explanation, but the rule requires written reasons and a chance to be heard first.",
+  "h": "f52af5414ff9",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "8": {
+  "summary": "Rule 8 of the Companies (Mediation and Conciliation) Rules, 2016 allows any person to withdraw their name from the Mediation and Conciliation Panel. To do this, they must submit an application to the Regional Director with their reasons. The Regional Director then has fifteen days to make a decision and update the panel.",
+  "points": [
+   "You can remove your name from the Mediation and Conciliation Panel by applying to the Regional Director.",
+   "Your application must include the reasons why you want to withdraw.",
+   "The Regional Director must decide on your request within fifteen days of getting it.",
+   "The Regional Director will update the panel after making a decision."
+  ],
+  "example": "Mr. Sharma is a trained professional whose name is on the official Mediation and Conciliation Panel. Due to personal reasons, he decides he no longer wants to be on this list. He writes an application to the Regional Director clearly stating why he wants to withdraw his name. The Regional Director receives his application and has fifteen days to review it, make a decision, and update the panel to remove Mr. Sharma's name.",
+  "terms": [
+   {
+    "term": "Mediation and Conciliation Panel",
+    "meaning": "An official list of people approved to help resolve disputes."
+   },
+   {
+    "term": "Regional Director",
+    "meaning": "An official who handles administrative duties under company law."
+   }
+  ],
+  "watch": "Make sure to remember that the Regional Director has a strict timeline of fifteen days from receiving the application to make a decision and update the panel.",
+  "h": "bf508426cdb9",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "9": {
+  "summary": "This rule requires a mediator or conciliator to reveal any facts that might make people doubt their fairness or neutrality. They must immediately tell the Central Government, Tribunal, Appellate Tribunal, and the involved parties about this. This duty starts when they are appointed and continues all through the process.",
+  "points": [
+   "A mediator or conciliator must disclose anything that raises doubt about their fairness.",
+   "This disclosure must go to the Central Government, Tribunal, or Appellate Tribunal.",
+   "They must also tell the parties involved without any delay.",
+   "This duty applies from the start of their appointment and lasts throughout the whole proceeding."
+  ],
+  "example": "Aarav is chosen as a conciliator for a dispute involving Meera Textiles Private Limited and another firm. Just before the meetings begin, Aarav realizes he holds shares in a company related to one of the parties. Under this rule, Aarav must immediately disclose this circumstance to Meera Textiles Private Limited, the other party, and the concerned Tribunal or Government authority, because it might cause a reasonable doubt about his impartiality.",
+  "terms": [
+   {
+    "term": "mediator or conciliator",
+    "meaning": "A neutral person who helps two sides in a dispute to reach an agreement."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "An official body set up to handle legal cases and disputes."
+   },
+   {
+    "term": "impartiality",
+    "meaning": "The quality of being fair and unbiased, without favoring one side over the other."
+   }
+  ],
+  "watch": "Do not assume that disclosure automatically removes the mediator; it only ensures transparency.",
+  "h": "3649f4895d7c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "10": {
+  "summary": "The Central Government, Tribunal, or Appellate Tribunal can remove a mediator or conciliator if there is a reasonable doubt about their fairness and independence. This decision is based on disclosures made by the mediator or information received from a party. Once removed, a new mediator or conciliator will be appointed to take their place. Alternatively, the mediator or conciliator themselves can also choose to step down and ask for a replacement.",
+  "points": [
+   "The Central Government, Tribunal, or Appellate Tribunal may remove a mediator or conciliator.",
+   "Removal happens if information or disclosures create a reasonable doubt about their fairness or independence.",
+   "A new mediator or conciliator will be appointed in their place.",
+   "The mediator or conciliator can also voluntarily offer to withdraw and request a replacement."
+  ],
+  "example": "Asha and Rohan were involved in a dispute at Apex Enterprises Private Limited. A mediator named Mr. Gupta was appointed to help them. Later, it was discovered that Mr. Gupta had a close personal business relationship with Rohan, which raised doubts about his fairness. Upon learning this, the Tribunal decided to remove Mr. Gupta from the case. The Tribunal then appointed a new mediator in his place so that the mediation could continue fairly.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized official body set up to deal with specific legal disputes."
+   },
+   {
+    "term": "Impartiality",
+    "meaning": "The quality of being fair and unbiased, without favoring one side over the other."
+   },
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher official body that reviews decisions made by a Tribunal."
+   }
+  ],
+  "watch": "Note that the mediator can also choose to step down voluntarily instead of waiting to be removed.",
+  "h": "2403b1a47cf7",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "11": {
+  "summary": "This rule explains the steps a mediator or conciliator must follow to help resolve a dispute. They must schedule sessions with the parties, choose the meeting place, and hold meetings together or separately. Both parties also need to share written notes and information about the issues beforehand.",
+  "points": [
+   "The mediator or conciliator sets the dates and times for sessions after consulting the parties.",
+   "Meetings are held at a place decided by the government authority or agreed upon by everyone involved.",
+   "Parties must submit a brief written memorandum ten days before a session, though this time can be shortened in suitable cases."
+  ],
+  "example": "Meera Textiles Private Limited entered into a business dispute with another company. A neutral person was appointed to help them resolve the matter through conciliation. The conciliator consulted both sides to fix a meeting time and chose a mutually agreed location. Ten days before the first session, Meera Textiles Private Limited and the other company submitted their written memoranda explaining their issues and positions to the conciliator and to each other.",
+  "terms": [
+   {
+    "term": "Mediator or conciliator",
+    "meaning": "A neutral person who helps two disagreeing parties talk and find a solution."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "An official body set up to deal with specific legal disputes."
+   },
+   {
+    "term": "Memorandum",
+    "meaning": "A brief written note setting forth the issues and a party's position."
+   }
+  ],
+  "watch": "Do not assume the ten-day deadline for submitting the memorandum cannot change, as the mediator can reduce it in appropriate cases.",
+  "h": "6351191ab630",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "12": {
+  "summary": "This rule states that a person helping parties settle a dispute does not have to follow strict court rules or evidence laws. Instead, they must focus on fairness and justice while looking at the situation and the rights of everyone involved.",
+  "points": [
+   "Mediators and conciliators are free from the Indian Evidence Act, 1872 and the Code of Civil Procedure, 1908.",
+   "They must be guided by the principles of fairness and natural justice.",
+   "They must consider the rights and obligations of the parties.",
+   "They must look at trade usages and the specific circumstances of the dispute."
+  ],
+  "example": "A dispute arose between Meera Textiles Private Limited and Apex Fabrics Limited regarding a delayed shipment. During their mediation session, the mediator did not follow the strict formal procedures or witness rules found in regular courts. Instead, the mediator focused on fairness, listened to both sides, and considered standard business practices and the specific facts of the delay to help them reach a fair agreement.",
+  "terms": [
+   {
+    "term": "Mediator or Conciliator",
+    "meaning": "A neutral person who helps two sides talk and try to solve their disagreement."
+   },
+   {
+    "term": "Principles of natural justice",
+    "meaning": "Basic rules of fairness that ensure everyone gets a fair and unbiased hearing."
+   }
+  ],
+  "watch": "People often mistakenly think that a mediator must follow the same strict rules as a judge in a courtroom trial.",
+  "h": "979056f210de",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "13": {
+  "summary": "This rule explains how parties must attend mediation and conciliation meetings under the Companies Act. Usually, parties must attend in person or through an authorised attorney. However, special permissions or directions can apply depending on the situation and where the party lives.",
+  "points": [
+   "Parties should normally attend meetings personally or through an authorised attorney.",
+   "A party may use an authorised person or counsel only if the mediator or conciliator allows it.",
+   "Authorities like the Central Government, Tribunal, or the mediator can order any party to appear in person.",
+   "A party living outside India can be represented by an authorised representative with the mediator's permission."
+  ],
+  "example": "Meera Textiles Private Limited is involved in a dispute and receives a notice for a mediation meeting. The director wants to send a legal counsel instead of attending personally. To do this, the company must first get permission from the mediator or conciliator. If the mediator agrees, the counsel can represent the company. However, if the Tribunal or the mediator later orders the director to appear in person, the director must follow that direction.",
+  "terms": [
+   {
+    "term": "mediator or conciliator",
+    "meaning": "a neutral person who helps parties try to reach a settlement."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "a specialized official body that handles legal disputes."
+   }
+  ],
+  "watch": "A common confusion is assuming a lawyer can always attend on your behalf without asking the mediator or conciliator first.",
+  "h": "e962e1e005dc",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "14": {
+  "summary": "Under the Companies (Mediation and Conciliation) Rules, 2016, skipping two scheduled meetings on purpose leads to consequences. The mediation or conciliation process is then considered to have failed. Following this, the mediator or conciliator must report the absence to the Central Government, the Tribunal, or the Appellate Tribunal.",
+  "points": [
+   "A party must attend the sessions or meetings fixed by the mediator or conciliator.",
+   "Failing to attend two times in a row deliberately or wilfully triggers the rule.",
+   "The process is then treated as a failure.",
+   "The mediator or conciliator must report this to the Central Government, the Tribunal, or the Appellate Tribunal."
+  ],
+  "example": "Aarav and Priya were involved in a dispute concerning their company, Apex Ventures Private Limited. The appointed conciliator scheduled a meeting to help them resolve the issue. Priya deliberately chose not to attend this first meeting. When the conciliator fixed a second meeting on a new date, Priya again willfully stayed away and failed to show up. Because Priya missed two consecutive meetings on purpose, the conciliation process was deemed to have failed, and the conciliator reported the matter to the appropriate authority.",
+  "terms": [
+   {
+    "term": "mediator or conciliator",
+    "meaning": "An impartial person who helps parties try to reach an agreement or settle a dispute."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized legal body or official authority set up to handle specific types of cases."
+   },
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher authority that reviews decisions made by a tribunal."
+   }
+  ],
+  "watch": "Make sure to note that missing just one meeting does not trigger this rule; it requires missing two meetings in a row.",
+  "h": "0e09c6f7b0f6",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "15": {
+  "summary": "This rule helps mediators and conciliators run their proceedings smoothly. With the agreement of the people involved, they can arrange for administrative help from a suitable person or institution. It makes it easier to manage the mediation or conciliation process.",
+  "points": [
+   "The goal is to help run mediation or conciliation proceedings.",
+   "The mediator or conciliator can arrange for administrative assistance.",
+   "The people involved must give their consent first.",
+   "The help can come from a suitable institution or person."
+  ],
+  "example": "Meera Textiles Private Limited is involved in a dispute and enters mediation. To help manage the meetings and paperwork, the appointed mediator asks both parties if they agree to use an administrative support agency. Once Meera Textiles Private Limited and the other party give their consent, the mediator arranges for the suitable institution to provide the necessary help for conducting the proceedings.",
+  "terms": [
+   {
+    "term": "administrative assistance",
+    "meaning": "Help with running day-to-day tasks, paperwork, or organizing meetings."
+   },
+   {
+    "term": "consent",
+    "meaning": "Agreement or permission given by the parties involved."
+   }
+  ],
+  "watch": "Do not assume that the administrative help has any power to make decisions in the dispute.",
+  "h": "d10cbaa31fa5",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "16": {
+  "summary": "This rule allows any party in a dispute proceeding to offer a settlement to the other side at any time. The offer can be made either without prejudice or with prejudice, and the mediator or conciliator must be notified.",
+  "points": [
+   "A settlement offer can be made at any stage of the proceedings.",
+   "The offer must include a notice given to the mediator or conciliator.",
+   "The party making the offer can choose to make it without prejudice or with prejudice."
+  ],
+  "example": "During a mediation session at Meera Textiles Private Limited, Rahul decided to resolve an ongoing dispute with his business partner, Priya. At any stage of the proceedings, Rahul sent a settlement offer to Priya. To ensure the mediator was kept informed, Rahul also sent a notice of this offer to the mediator. Rahul chose to make this offer without prejudice.",
+  "terms": [
+   {
+    "term": "without prejudice",
+    "meaning": "A legal term meaning a communication cannot be used as an admission against the person who made it if negotiations fail."
+   },
+   {
+    "term": "conciliator",
+    "meaning": "A neutral person who helps parties in a dispute to reach an agreement."
+   }
+  ],
+  "watch": "Remember that a party can choose between a with prejudice or without prejudice offer.",
+  "h": "1cd8d2791c94",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "17": {
+  "summary": "A mediator or conciliator helps parties resolve their dispute voluntarily by improving communication and exploring compromises. They must not force any settlement terms on the parties, because making decisions is the responsibility of the parties themselves. However, if both parties agree, the mediator or conciliator can impose terms and conditions for an early settlement.",
+  "points": [
+   "The mediator helps parties understand each other and find areas of compromise.",
+   "The mediator cannot force any decision or settlement terms on the parties.",
+   "Both parties must give consent if they want the mediator to impose settlement terms."
+  ],
+  "example": "Meera Textiles Private Limited and Apex Supplies Limited had a business disagreement. They appointed a mediator to help them talk. The mediator helped them clarify priorities and explore compromises, reminding them that they must make their own choices. Later, both companies agreed to let the mediator suggest final settlement terms so they could resolve the dispute quickly.",
+  "terms": [
+   {
+    "term": "Mediator or Conciliator",
+    "meaning": "A neutral person who helps people in a dispute talk to each other and find a solution."
+   },
+   {
+    "term": "Voluntary resolution",
+    "meaning": "An agreement reached freely by the parties themselves without being forced."
+   }
+  ],
+  "watch": "People often think the mediator has the power to force a decision, but they cannot do so unless both parties explicitly give consent.",
+  "h": "f602736de64b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "18": {
+  "summary": "This rule explains that a mediator or conciliator only helps people talk to find a solution. They cannot force a decision, make a settlement happen, or promise that the talks will definitely end in an agreement. The parties involved are entirely responsible for making their own final choice.",
+  "points": [
+   "The mediator or conciliator helps the parties work toward a solution.",
+   "They cannot force any settlement or decision upon the parties.",
+   "They are not allowed to promise that the mediation will result in a settlement."
+  ],
+  "example": "Meera Textiles Private Limited and a supplier had a major dispute. They appointed a conciliator to help them talk through the issue. During the sessions, the conciliator guided their conversation and helped them understand each other's views. However, the conciliator reminded both sides that he could not force a choice on them or guarantee a successful deal. Ultimately, Meera Textiles Private Limited and the supplier had to make their own decision to resolve the matter.",
+  "terms": [
+   {
+    "term": "Mediator or Conciliator",
+    "meaning": "A neutral person who helps people in a dispute talk to each other to find a solution."
+   },
+   {
+    "term": "Settlement",
+    "meaning": "An agreement reached by the parties to resolve their dispute."
+   }
+  ],
+  "watch": "People often think the mediator has the power to decide the outcome, but the final choice is always up to the parties alone.",
+  "h": "8618a4bcb9aa",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "19": {
+  "summary": "This rule sets a time limit of three months for completing a mediation or conciliation process. If the time runs out and no extension is given, the process automatically ends. However, for matters before the Tribunal or Appellate Tribunal, the time can be extended by up to another three months if someone asks.",
+  "points": [
+   "Mediation or conciliation must finish within three months of the expert's appointment.",
+   "The process automatically ends when the three months expire.",
+   "Tribunals can extend the three-month period by up to another three months upon request."
+  ],
+  "example": "Meera Textiles Private Limited is involved in a dispute before the Tribunal. An expert is appointed from the panel to help resolve the issue through conciliation. The process takes longer than expected and cannot be finished within the initial three months. The mediator submits an application to the Tribunal to ask for more time. The Tribunal agrees and extends the period, giving the parties extra time to reach a settlement.",
+  "terms": [
+   {
+    "term": "Panel",
+    "meaning": "An official list of approved experts who can act as mediators or conciliators."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "A special legal body set up to handle company law disputes."
+   },
+   {
+    "term": "Terminated",
+    "meaning": "Ended or stopped completely."
+   }
+  ],
+  "watch": "Do not assume the three-month time limit can be extended for all cases, as extensions are only mentioned for proceedings before a Tribunal or Appellate Tribunal.",
+  "h": "c4ce88115a6f",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "20": {
+  "summary": "This rule says that everyone involved in a legal mediation must act honestly and fairly. They must truly try to solve the disagreement. The text is very short, but it simply means people cannot just pretend to negotiate.",
+  "points": [
+   "All parties must join the proceedings.",
+   "They must act in good faith.",
+   "They need to genuinely want to settle the dispute."
+  ],
+  "example": "Aarav and Priya from Verma Electronics Private Limited attend a mediation to solve a business disagreement with Zenith Traders. According to the rule, Aarav and Priya must participate honestly and truly intend to find a solution, rather than just pretending to negotiate.",
+  "terms": [
+   {
+    "term": "good faith",
+    "meaning": "Acting honestly, fairly, and with a sincere intention."
+   },
+   {
+    "term": "proceedings",
+    "meaning": "The official meetings or steps taken to resolve a dispute."
+   }
+  ],
+  "watch": "People often think mediation forces a settlement, but this rule only requires that you try in good faith, not that you must agree.",
+  "h": "e305b6904797",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "21": {
+  "summary": "This rule sets guidelines for keeping information secret during company mediation and conciliation. A mediator must usually share factual details with both sides, unless a party asks to keep it secret. It also stops people from sharing or recording what happened during the talks in other legal proceedings.",
+  "points": [
+   "Mediators must share facts received from one party with the other side for explanation.",
+   "Parties can ask for specific information to be kept secret from the other side.",
+   "Mediators cannot be forced to share records or what happened during talks with any authority.",
+   "Parties must keep event details secret and cannot use them in other proceedings.",
+   "Audio and video recordings of the proceedings are not allowed."
+  ],
+  "example": "Aarav and Priya are directors at Zenith Retail Private Limited and are resolving a dispute through mediation. Aarav gives some factual information to the mediator. The mediator shares this with Priya so she can explain her side. Later, Priya asks the mediator to keep a specific piece of information confidential, and the mediator agrees not to tell Aarav. Throughout the process, no one makes any audio or video recordings, and the mediator does not record any formal statements.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized legal body set up to handle specific types of disputes."
+   },
+   {
+    "term": "Confidential",
+    "meaning": "Intended to be kept secret."
+   },
+   {
+    "term": "Conciliation",
+    "meaning": "A process where a neutral person helps parties reach an agreement."
+   }
+  ],
+  "watch": "People often confuse keeping all information secret with the rule that normal factual details must be shared with the other party unless marked confidential.",
+  "h": "e88e2a3eefed",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "22": {
+  "summary": "Mediation and conciliation sessions must happen in private. Only specific authorized representatives and permitted individuals may attend these meetings. Everyone else needs special approval to join.",
+  "points": [
+   "Sessions are held in privacy.",
+   "Only authorized persons from rule 13 can represent parties.",
+   "Other people need permission from both the parties and the mediator or conciliator to attend."
+  ],
+  "example": "Meera Textiles Private Limited is involved in a dispute. During their mediation session, the designated company representatives attend as allowed by the rules. An external consultant wishes to join the meeting. The consultant is only allowed to enter because both parties agree and the mediator gives their consent.",
+  "terms": [
+   {
+    "term": "Mediation",
+    "meaning": "A process where a neutral person helps parties try to reach a settlement."
+   },
+   {
+    "term": "Conciliation",
+    "meaning": "A process to help parties resolve their dispute with the help of a conciliator."
+   }
+  ],
+  "watch": "Do not assume anyone can attend just because they are connected to the company.",
+  "h": "9bfc9b2b67fa",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "23": {
+  "summary": "Under these rules, a mediator or conciliator cannot be blamed or sued for their actions or mistakes if they acted honestly during the proceedings. They also cannot be called by any party to testify before the government or tribunals about what happened, what they saw, or the notes they made. This protects them so they can do their job fairly.",
+  "points": [
+   "Mediators and conciliators are protected from civil or criminal action for things done in good faith.",
+   "This protection applies only to actions during mediation or conciliation proceedings.",
+   "No party can summon a mediator or conciliator to testify before the Central Government, Tribunal, or Appellate Tribunal.",
+   "The protection includes testimony about information received, actions taken, or drafts and records prepared or seen."
+  ],
+  "example": "Meera Textiles Private Limited entered into a dispute and appointed Mr. Sharma as a mediator to resolve the issue. During the sessions, Mr. Sharma prepared several draft settlement agreements. Later, the talks failed, and one party tried to summon Mr. Sharma to the Tribunal to testify about the notes and drafts he had seen. Because of this rule, Mr. Sharma cannot be forced to appear or testify before the Tribunal about those events, and he is protected from being sued for his honest work as a mediator.",
+  "terms": [
+   {
+    "term": "Mediator or Conciliator",
+    "meaning": "A neutral person who helps two disagreeing parties try to reach an agreement."
+   },
+   {
+    "term": "Good faith",
+    "meaning": "Acting honestly and with good intentions, without any unfair or hidden motives."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "A special official body set up to handle specific legal disputes and cases."
+   }
+  ],
+  "watch": "People often think mediators can be called as witnesses to help prove their case in court, but this rule strictly stops them from being summoned.",
+  "h": "b79714f48776",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "24": {
+  "summary": "This rule prevents a mediator or conciliator from communicating with authorities like the Central Government or the Tribunal about the case. This is done to keep everyone confident and to keep the mediator neutral. Any necessary communication must be in writing and shared with the parties involved.",
+  "points": [
+   "No communication is allowed between the mediator or conciliator and the Central Government, Tribunal, or Appellate Tribunal regarding the subject matter.",
+   "If any communication is necessary, it must be in writing.",
+   "Copies of any necessary communication must be given to the parties or their authorized representative.",
+   "Communication is strictly limited to reporting party non-attendance, party consent, assessment that the case is unsuited for settlement, or dispute settlement."
+  ],
+  "example": "In a dispute handled by Meera Textiles Private Limited, the mediator realized the case was not suited for settlement. To inform the Tribunal about this, the mediator had to send a written notice. Crucially, copies of this exact written communication were provided to all parties involved so that everyone stayed fully informed and the mediator remained neutral.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized legal body set up to handle specific types of disputes."
+   },
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A higher body that reviews decisions made by a lower authority or tribunal."
+   },
+   {
+    "term": "Mediator or Conciliator",
+    "meaning": "A neutral person who helps opposing parties try to reach a settlement."
+   }
+  ],
+  "watch": "A common confusion is thinking a mediator can report anything to the authorities, but they are strictly limited to only four specific topics.",
+  "h": "a581b7a89fed",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "25": {
+  "summary": "When parties settle their issues through mediation or conciliation under the Companies Act, 2013, they must put the agreement in writing and sign it. The mediator or conciliator then sends this signed agreement with a covering letter to the Central Government, Tribunal, or Appellate Tribunal. If no settlement is reached, the mediator or conciliator must report this in writing.",
+  "points": [
+   "Agreements on all or some issues must be written down and signed by the parties.",
+   "The mediator or conciliator may also get the signature of any counsel who represented the parties.",
+   "The signed agreement goes to the Central Government, Tribunal, or Appellate Tribunal with a covering letter from the mediator or conciliator.",
+   "If no agreement happens or is possible, the mediator or conciliator reports this in writing to the same authority."
+  ],
+  "example": "Meera Textiles Private Limited and a partner had a dispute. During conciliation, they successfully solved some of their issues. They wrote down their agreement and both sides signed the document. Their legal counsel also signed it. The conciliator then added a covering letter and forwarded the signed papers to the Tribunal. In a separate case involving another company, no agreement was reached in time, so the mediator sent a written report to the Central Government stating that no settlement was possible.",
+  "terms": [
+   {
+    "term": "Conciliator or Mediator",
+    "meaning": "A neutral person who helps parties try to reach a peaceful settlement."
+   },
+   {
+    "term": "Counsel",
+    "meaning": "A lawyer representing a party."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "A special legal body set up to handle specific cases."
+   }
+  ],
+  "watch": "People often confuse whether lawyers must sign the agreement, but the rule says the mediator or conciliator only may obtain their signature if counsel represented the parties.",
+  "h": "061bb6b78836",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "26": {
+  "summary": "When the government or tribunal receives a mediator's report showing a settlement, it will normally set a hearing date within fourteen days. If the settlement is satisfactory, an order is passed based on those terms. If the settlement only resolves some issues, the remaining issues will still be decided.",
+  "points": [
+   "A hearing date is normally fixed within fourteen days of receiving the mediator's report.",
+   "An order is passed if the authority is satisfied with the full or partial settlement.",
+   "Remaining issues are continued to be decided if only some matters were settled."
+  ],
+  "example": "Meera Textiles Private Limited and a partner company had a major business dispute and went through mediation. The mediator submitted a report to the Tribunal stating they had reached a settlement on payment terms, but a delivery issue remained open. The Tribunal scheduled a hearing within fourteen days, reviewed the agreement, and passed an order on the payment terms. Since the delivery issue was not settled, the Tribunal continued the proceedings to decide that remaining matter.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A special official body that settles legal disputes outside of regular courts."
+   },
+   {
+    "term": "Mediator",
+    "meaning": "An independent person who helps two sides talk and reach an agreement."
+   }
+  ],
+  "watch": "Do not assume the entire case is closed if the settlement only resolves a few of the issues.",
+  "h": "ea950326859a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "27": {
+  "summary": "This rule explains how the costs and fees for mediation and conciliation are fixed and paid under the Companies Act, 2013. The authority sending the matter usually fixes a single, total fee for the mediator or conciliator. Both sides generally share all expenses equally unless the authority directs otherwise.",
+  "points": [
+   "The Central Government, Tribunal, or Appellate Tribunal can fix the mediator's fee as a single consolidated sum.",
+   "Contesting parties normally share all mediation expenses, including the mediator's fee and administrative costs, in equal shares.",
+   "Each party pays the costs for bringing their own witnesses, experts, or documents.",
+   "The mediator can ask parties to deposit their equal share of probable costs before the process starts, and failure to pay means the mediation terminates."
+  ],
+  "example": "A dispute arose between Alpha Logistics Private Limited and Beta Traders Private Limited, and the Tribunal referred the matter to mediation. The Tribunal fixed a consolidated fee for the mediator. The mediator asked both companies to deposit equal shares of the probable costs before starting. Beta Traders Private Limited failed to deposit their share before the scheduled start. Because the amount was not paid, the mediation was deemed to have terminated as per the rules.",
+  "terms": [
+   {
+    "term": "Consolidated sum",
+    "meaning": "A single total amount fixed for the entire service rather than charging separately for each meeting."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized legal body set up to handle specific types of disputes under the law."
+   },
+   {
+    "term": "Ancillary expenses",
+    "meaning": "Additional or supporting costs related to running the mediation process."
+   }
+  ],
+  "watch": "Mediation will not start until both parties deposit their share of the probable costs in advance.",
+  "h": "3eadcedb64ba",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "28": {
+  "summary": "This rule sets the code of ethics for a mediator or conciliator handling company disputes under the law. They must act with fairness, keep matters confidential, avoid any bias, and make sure parties understand the process. If a mediator breaks these rules, a party can immediately report them to the Regional Director.",
+  "points": [
+   "Follow the rules strictly and be fully qualified for the job.",
+   "Keep all discussions confidential and do not promise any specific results.",
+   "Disclose any personal interest or relationship that could seem like bias.",
+   "Report any unethical conduct by the mediator directly to the Regional Director."
+  ],
+  "example": "A dispute arose at Aarav Tech Private Limited, and Ms. Gupta was appointed as a conciliator. She made sure both parties understood the procedure and kept all talks secret. However, one director found out Ms. Gupta was a close relative of the opposing party and had not disclosed it. Since this looked like bias, the affected party immediately brought the conduct to the notice of the Regional Director as permitted by the rules.",
+  "terms": [
+   {
+    "term": "Mediator or Conciliator",
+    "meaning": "A neutral person who helps two opposing parties try to settle a dispute."
+   },
+   {
+    "term": "Impartiality",
+    "meaning": "Being fair and not favoring one side over the other."
+   },
+   {
+    "term": "Regional Director",
+    "meaning": "An authority appointed under the law to whom complaints about a mediator can be reported."
+   }
+  ],
+  "watch": "Do not assume the rule guarantees a specific time limit to report misconduct other than doing it immediately.",
+  "h": "e6022ac39927",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "29": {
+  "summary": "This rule prevents parties from starting court or arbitration cases about the same matter while mediation or conciliation is happening. However, a party is allowed to start these proceedings if they truly believe it is necessary to protect their rights. This helps keep negotiations focused while still allowing protection against urgent legal harm.",
+  "points": [
+   "Parties cannot start arbitral or judicial proceedings during mediation or conciliation.",
+   "The restriction applies only to the matter that is the subject-matter of the mediation or conciliation.",
+   "An exception allows a party to start proceedings if they believe it is necessary to protect their rights."
+  ],
+  "example": "Meera Textiles Private Limited and Apex Industries Private Limited entered into mediation to resolve a business dispute. While the mediation was ongoing, Apex Industries realized that a critical patent deadline was about to expire, which could permanently destroy its legal rights. Believing that court action was urgently required to protect these rights, Apex Industries filed for an injunction in court. Under this rule, Apex Industries was allowed to initiate this proceeding because it was necessary to protect its rights, despite the ongoing mediation.",
+  "terms": [
+   {
+    "term": "arbitral proceedings",
+    "meaning": "Resolving a dispute outside of court using an independent person called an arbitrator."
+   },
+   {
+    "term": "judicial proceedings",
+    "meaning": "Legal actions or cases handled in a court of law."
+   },
+   {
+    "term": "mediation or conciliation",
+    "meaning": "Processes where a neutral third person helps parties try to reach an agreement to solve their dispute."
+   }
+  ],
+  "watch": "People often think starting any court case is banned, but you can still do so if it is necessary to protect your rights.",
+  "h": "a5374dd041a7",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "30": {
+  "summary": "Certain types of company disputes cannot be sent to mediation or conciliation under these rules. These include serious matters like fraud, criminal offences, and cases affecting the public or people who are not part of the case. It ensures that sensitive or large-scale issues are handled through proper legal channels instead of settlement talks.",
+  "points": [
+   "Matters involving company inspections, investigations, or pending compounding applications cannot be referred.",
+   "Cases with serious allegations like fraud, forgery, or coercion are excluded.",
+   "Cases involving criminal prosecutions and non-compoundable offences are not allowed.",
+   "Cases affecting public interest or numerous non-party individuals cannot be referred."
+  ],
+  "example": "Meera Textiles Private Limited is facing an official investigation under Chapter XIV of the Companies Act, 2013. The management wants to resolve the ongoing disputes quickly through mediation. However, because the matter relates to an active investigation under this specific chapter, the authorities cannot refer the dispute to mediation or conciliation. The case must proceed through the regular legal process instead of a settlement meeting.",
+  "terms": [
+   {
+    "term": "Mediation or conciliation",
+    "meaning": "A process where a neutral person helps parties try to reach a settlement."
+   },
+   {
+    "term": "Compounding",
+    "meaning": "A legal process to settle certain offences by paying a requested amount to avoid prosecution."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized official body set up to handle specific legal disputes."
+   }
+  ],
+  "watch": "Do not assume that all company disputes can be settled out of court through mediation.",
+  "h": "650e312deede",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ }
+}

@@ -95,5 +95,23 @@
   "h": "c7fe9f0d0c47",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This rule gives a short title to the rules and states when they start to apply. It tells us that these rules are called the Companies (Specification of definitions details) Rules, 2014. They became effective starting on the first day of April in the year 2014.",
+  "points": [
+   "The rules are named the Companies (Specification of definitions details) Rules, 2014.",
+   "They came into force on April 1, 2014."
+  ],
+  "example": "Meera Textiles Private Limited wanted to know when the specific rules for company definitions officially started to apply. The company manager checked the official documents. She found that these rules, officially called the Companies (Specification of definitions details) Rules, 2014, started on April 1, 2014.",
+  "terms": [
+   {
+    "term": "Commencement",
+    "meaning": "The time when something starts or begins."
+   }
+  ],
+  "watch": "Do not confuse the title of the rules with the name of the main Act itself.",
+  "h": "7bd6c286bbac",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
  }
 }

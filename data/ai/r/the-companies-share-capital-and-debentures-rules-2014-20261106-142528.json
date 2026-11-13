@@ -335,5 +335,213 @@
   "h": "510d7e69743b",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This rule gives a formal name to the rules regarding company shares and debentures under the law. It also states the exact date when these rules start applying. The text is very brief and only provides this title and start date.",
+  "points": [
+   "The rules are called the Companies (Share Capital and Debentures) Rules, 2014.",
+   "They officially started on the 1st day of April, 2014."
+  ],
+  "example": "Meera Textiles Private Limited wanted to check the official name of the government regulations that apply to its shares and debentures in the year 2014. The directors looked up the rule and found that it is officially called the Companies (Share Capital and Debentures) Rules, 2014, and that it came into force on the 1st day of April, 2014.",
+  "terms": [
+   {
+    "term": "commencement",
+    "meaning": "The time when something starts or officially begins."
+   }
+  ],
+  "watch": "Do not confuse the title of the rules with the sections of the actual Companies Act itself.",
+  "h": "3cbf538a20bb",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "2": {
+  "summary": "This rule gives simple meanings for words used in the specific rules about company shares and debentures. It says that words not explained here will take their meanings from the main Companies Act or other specific rules. These definitions apply unless a different meaning is required by the text.",
+  "points": [
+   "Act means the Companies Act, 2013.",
+   "Form or e-form means a document layout attached to these rules for official use.",
+   "Regional Director is an official appointed by the Central Government.",
+   "Words not defined here take their meanings from the main Act or other listed rules."
+  ],
+  "example": "Meera Textiles Private Limited wants to submit an official document to the government regarding its shares. The company's manager checks the rules to find the correct layout. Because the rules mention that a Form is a document layout set forth in the Annexure, the company uses that specific layout. When the manager sees another legal word not explained in these rules, he looks it up in the Companies Act, 2013, as permitted by this rule.",
+  "terms": [
+   {
+    "term": "Annexure",
+    "meaning": "An attachment or added document at the end of the rules."
+   },
+   {
+    "term": "Regional Director",
+    "meaning": "A person appointed by the Central Government in the Ministry of Corporate Affairs."
+   }
+  ],
+  "watch": "Do not assume every legal word is defined inside these specific rules, as many take their meanings from the main Act.",
+  "h": "690b385302e2",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "3": {
+  "summary": "These rules explain which companies they apply to under the Companies Act. They cover unlisted public companies and private companies. They also cover listed companies as long as they do not conflict with rules made by the Securities and Exchange Board of India.",
+  "points": [
+   "Applies to all unlisted public companies.",
+   "Applies to all private companies.",
+   "Applies to listed companies if there is no conflict with SEBI regulations."
+  ],
+  "example": "Meera Textiles Private Limited is a private company operating in Delhi. According to the rules, these share capital and debentures regulations apply to it. Meanwhile, Apex Steel Limited is a listed company. The same rules apply to Apex Steel Limited as well, provided they do not contradict any regulations made by the Securities and Exchange Board of India.",
+  "terms": [
+   {
+    "term": "unlisted public company",
+    "meaning": "A public company whose shares are not traded on a stock exchange."
+   },
+   {
+    "term": "listed company",
+    "meaning": "A company that has any of its securities listed on any recognised stock exchange."
+   },
+   {
+    "term": "SEBI",
+    "meaning": "The Securities and Exchange Board of India, which is a regulator for the securities market."
+   }
+  ],
+  "watch": "Do not assume listed companies are completely exempt; these rules still apply to them unless they clash with SEBI regulations.",
+  "h": "3d128e566095",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "6": {
+  "summary": "This rule explains how a company can issue new share certificates when old ones are worn out, split, combined, or lost. The company must follow specific steps like taking back the old certificate, updating special registers, and printing clear notes on the new paper. Fees may apply depending on what the Board decides.",
+  "points": [
+   "Old share certificates must be given back to the company before new ones are issued for splits, combinations, or damage.",
+   "The company can charge a fee decided by the Board, up to fifty rupees per certificate.",
+   "New certificates must clearly state on their face why they are being issued in place of the old ones.",
+   "Lost or destroyed certificates need prior Board consent, fees, and proof or indemnity before a duplicate is given."
+  ],
+  "example": "Meera Textiles Private Limited wanted to replace a torn share certificate for shareholder Rahul. Rahul had to hand over the old, torn certificate to the company first. The Board agreed to issue a new one and printed a note on the front stating it was issued in lieu of the old certificate. The company recorded this action in its special register kept at the registered office, and charged a small fee as decided by the Board.",
+  "terms": [
+   {
+    "term": "Indemnity",
+    "meaning": "A legal promise to pay for any loss or damage that may happen."
+   },
+   {
+    "term": "Board",
+    "meaning": "The group of directors who manage the company."
+   },
+   {
+    "term": "Surrendered",
+    "meaning": "Handed back or returned to the company."
+   }
+  ],
+  "watch": "Make sure not to confuse normal replacement of worn-out certificates with lost certificates, as lost ones need prior Board consent and extra proof.",
+  "h": "629375bc3c66",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "7": {
+  "summary": "This rule explains how a company must print, keep, and look after blank share certificate forms and related documents. It says that the Board must pass a resolution before printing forms with machine numbers. It also states who is responsible for keeping these items safe and how long they must be stored.",
+  "points": [
+   "Blank share certificate forms must be printed only after the Board passes a resolution and must have machine numbers.",
+   "The company secretary or a person chosen by the Board must keep the forms safe and account for them.",
+   "Books and documents about share issues must be kept for at least thirty years, or permanently if there is a dispute.",
+   "Surrendered certificates must be marked as cancelled and can be destroyed after three years with Board approval."
+  ],
+  "example": "At Meera Textiles Private Limited, the Board passed a resolution to print new blank share certificate forms with machine numbers. The company secretary took charge of these forms and safely stored all related books. Later, when a shareholder surrendered an old certificate, the company stamped it as cancelled. After three years passed, the Board authorized a special representative to oversee the destruction of this cancelled certificate.",
+  "terms": [
+   {
+    "term": "Board",
+    "meaning": "The group of directors who manage the company."
+   },
+   {
+    "term": "Resolution",
+    "meaning": "A formal decision made by the Board."
+   },
+   {
+    "term": "Facsimiles",
+    "meaning": "Exact copies or reproductions."
+   }
+  ],
+  "watch": "People often confuse how long to keep records, but normal records are kept for thirty years while disputed ones are kept permanently.",
+  "h": "1f92924f3190",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "10": {
+  "summary": "Certain companies working on infrastructure projects can issue preference shares that last longer than twenty years, up to thirty years. Starting from the twenty-first year or earlier, at least ten percent of these shares must be redeemed each year. This redemption happens on a proportionate basis if the preference shareholders choose it.",
+  "points": [
+   "Applies to companies engaged in setting up and dealing with infrastructural projects.",
+   "Preference shares can be issued for a period exceeding twenty years but not exceeding thirty years.",
+   "A minimum of ten percent of such preference shares must be redeemed per year from the twenty-first year onwards or earlier.",
+   "Redemption is done on a proportionate basis at the option of the preference shareholders."
+  ],
+  "example": "InfraBuild Private Limited is a company that builds roads and bridges. To raise funds, the company issues preference shares designed to last for twenty-five years. By the twenty-first year, the preference shareholders decide to exercise their option for redemption. Following the rules, InfraBuild Private Limited starts redeeming at least ten percent of those preference shares every year on a proportionate basis until all of them are fully paid back within the permitted time limit.",
+  "terms": [
+   {
+    "term": "preference shares",
+    "meaning": "Shares in a company that give the owners a higher claim on dividends and assets than ordinary shares."
+   },
+   {
+    "term": "redemption",
+    "meaning": "The act of a company buying back or paying off the shares from the shareholders."
+   },
+   {
+    "term": "proportionate basis",
+    "meaning": "Divided or shared fairly in equal or corresponding amounts relative to each shareholder."
+   }
+  ],
+  "watch": "Make sure not to assume these special long-term rules apply to companies outside of infrastructure projects.",
+  "h": "1fc0295b5075",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "11": {
+  "summary": "This rule explains how to transfer shares or other securities that are held in physical paper form. It sets out the correct form to use, the deadline for submitting it, and special steps for companies without share capital or for shares that are not fully paid. It ensures that the company is properly informed before any transfer goes through.",
+  "points": [
+   "A physical transfer of securities must use Form No. SH.4.",
+   "The transfer paper must show the date it was signed and be given to the company within sixty days of that date.",
+   "For companies without share capital, member interests are treated the same as securities.",
+   "Partly paid shares cannot be transferred until the company sends a notice in Form No. SH.5 and the buyer raises no objection within two weeks."
+  ],
+  "example": "Aarav sells his physical shares in Meera Textiles Private Limited to Priya. They fill out Form No. SH.4 and ensure it is delivered to the company within sixty days of signing. Because the shares are partly paid, Meera Textiles sends a notice in Form No. SH.5 to Priya. Priya gives her no objection within two weeks, and the company proceeds to register the transfer.",
+  "terms": [
+   {
+    "term": "Instrument of transfer",
+    "meaning": "A written legal document used to transfer ownership of shares or securities from one person to another."
+   },
+   {
+    "term": "Transferee",
+    "meaning": "The person who is receiving the shares or securities."
+   },
+   {
+    "term": "Partly paid shares",
+    "meaning": "Shares for which the buyer has not yet paid the full face value to the company."
+   }
+  ],
+  "watch": "Do not confuse the sixty-day delivery deadline for physical transfers with the two-week reply window for partly paid shares.",
+  "h": "01130fd84af4",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "14": {
+  "summary": "Once a company's Board decides to recommend issuing bonus shares and announces it, the company is not allowed to take back that decision later. This rule makes sure that companies keep their word after making such an announcement to the public or shareholders. The text is very short and only covers this single restriction.",
+  "points": [
+   "The Board must first decide to recommend a bonus issue.",
+   "The company must announce this decision.",
+   "Once announced, the decision cannot be withdrawn."
+  ],
+  "example": "Alpha Ventures Private Limited held a meeting where its Board decided to recommend a bonus issue to reward its loyal shareholders. The company officially announced this decision to the public the next day. A week later, market conditions shifted, and management wanted to cancel the plan. However, because the bonus issue was already announced, Alpha Ventures Private Limited is legally required to proceed with it and cannot withdraw the decision.",
+  "terms": [
+   {
+    "term": "Board",
+    "meaning": "The group of people chosen to manage the affairs of a company."
+   },
+   {
+    "term": "Bonus shares",
+    "meaning": "Additional shares given to current shareholders for free based on the shares they already own."
+   },
+   {
+    "term": "Withdraw",
+    "meaning": "To take back or cancel something previously stated or decided."
+   }
+  ],
+  "watch": "People often think a company can change its mind if financial conditions change, but the rule strictly forbids withdrawing the bonus issue once announced.",
+  "h": "0d2bc8d5e120",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
  }
 }

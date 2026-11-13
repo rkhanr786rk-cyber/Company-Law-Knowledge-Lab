@@ -45,5 +45,70 @@
   "h": "1aa2170b78b6",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This rule gives a short title to the rules and states when they become active. It applies to Producer Companies under the Companies Act, 2013. The rules start on the day they are published in the Official Gazette.",
+  "points": [
+   "The rules are called the Producer Companies Rules, 2021.",
+   "They start on the date they are published in the Official Gazette."
+  ],
+  "example": "A group of farmers in Kerala wanted to start a business under the new Producer Companies Rules, 2021. They checked when the rules would become active. They learned that the rules started on the exact day they were published in the Official Gazette.",
+  "terms": [
+   {
+    "term": "Official Gazette",
+    "meaning": "An official government newspaper or publication used to announce new laws and rules to the public."
+   }
+  ],
+  "watch": "",
+  "h": "5d945ae97ebd",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "3": {
+  "summary": "This rule gives the basic meanings of certain words used in the Producer Companies Rules, 2021. It explains what the words Act, section, and co-operative society stand for in these rules. Any other words not explained here will have the meanings given to them in the main Companies Act, 2013.",
+  "points": [
+   "Act means the Companies Act, 2013.",
+   "Section means a section of the Act.",
+   "Co-operative society means a society registered under any law for co-operative societies in a State.",
+   "Words not defined here take their meaning from the Act or specific definition rules."
+  ],
+  "example": "When reading the Producer Companies Rules, 2021, employees at Krishi Producer Company Limited came across the word co-operative society. Because the rules do not provide a separate long meaning, they looked at Rule 3. It clarified that a co-operative society refers to a society registered under the laws relating to co-operative societies in their State, helping them properly understand their company documents without any confusion.",
+  "terms": [
+   {
+    "term": "Co-operative society",
+    "meaning": "A society registered under any law relating to co-operative societies for the time being in force in any State."
+   },
+   {
+    "term": "Act",
+    "meaning": "The Companies Act, 2013."
+   }
+  ],
+  "watch": "Do not assume words have new meanings here if they are already defined in the main Companies Act, 2013.",
+  "h": "7d3067094946",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "4": {
+  "summary": "This rule explains how a Producer Company can move its main office from one State to another. It simply states that you must follow the same process and use the same forms as standard companies use. These instructions are found in specific rules from 2014.",
+  "points": [
+   "Applies existing rules meant for standard companies to Producer Companies.",
+   "Specifically uses rules 27, 30, and 31 of the Companies (Incorporation) Rules, 2014.",
+   "Requires the use of the forms mentioned in those 2014 rules for the move."
+  ],
+  "example": "Anisha Farmers Producer Company Limited wanted to move its main office from Maharashtra to Gujarat. To do this, the directors checked Rule 4. They learned they must use the exact same process and forms that standard companies use, specifically following rules 27, 30, and 31 of the Companies (Incorporation) Rules, 2014, to complete the shift of their registered office to the new State.",
+  "terms": [
+   {
+    "term": "Registered office",
+    "meaning": "The official main address of a company where legal notices and mail are sent."
+   },
+   {
+    "term": "Producer Company",
+    "meaning": "A type of company formed by people engaged in activities related to primary produce or farming."
+   }
+  ],
+  "watch": "Do not assume Producer Companies have a separate unique process for moving states, as they use the same rules as regular companies.",
+  "h": "b2be09469e27",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
  }
 }

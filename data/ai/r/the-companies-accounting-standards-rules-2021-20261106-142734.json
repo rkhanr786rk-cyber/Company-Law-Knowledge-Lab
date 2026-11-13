@@ -26,5 +26,100 @@
   "h": "b83d00786d5f",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This rule gives a short title to the rules as the Companies (Accounting Standards) Rules, 2021. It also states when these rules start to apply. The text does not provide extra details or examples.",
+  "points": [
+   "The official name of the rules is the Companies (Accounting Standards) Rules, 2021.",
+   "The rules start working on the day they are published in the Official Gazette."
+  ],
+  "example": "Meera Textiles Private Limited wants to know when its new accounting duties under the law begin. The directors check the rules to find the start date. They learn that the rules take effect on the exact day they are published in the Official Gazette, which is the official government publication.",
+  "terms": [
+   {
+    "term": "Official Gazette",
+    "meaning": "The official government newspaper or publication used to announce new laws and rules."
+   }
+  ],
+  "watch": "Do not assume a specific date for when the rules start, because the text only says they start on the day of publication.",
+  "h": "32e3abbdcc8d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "3": {
+  "summary": "This rule sets the official accounting rules that companies must follow under the law. The government approved these rules based on advice from an official institute of accountants. They apply to accounting periods starting from a specific date in April 2021.",
+  "points": [
+   "The Central Government specifies Accounting Standards 1 to 5, 7, and 9 to 29.",
+   "These standards are recommended by the Institute of Chartered Accountants of India.",
+   "The rules apply to accounting periods starting on or after April 1, 2021."
+  ],
+  "example": "Meera Textiles Private Limited is preparing its financial statements for the year. Because their accounting period starts after April 1, 2021, they must follow the specific Accounting Standards provided in the Annexure of these rules, as recommended by the Institute of Chartered Accountants of India.",
+  "terms": [
+   {
+    "term": "Accounting Standards",
+    "meaning": "Official rules and guidelines for how companies must report their financial information."
+   },
+   {
+    "term": "Accounting period",
+    "meaning": "The specific time span, usually one year, for which a company makes its financial reports."
+   }
+  ],
+  "watch": "Make sure to check which specific standard numbers are included and excluded in the list.",
+  "h": "c7244e458ec5",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "4": {
+  "summary": "This rule requires certain companies and their auditors to follow specific Accounting Standards when preparing financial statements. It applies to all companies except those that must follow the Indian Accounting Standards of 2015. Everyone involved must follow the exact method given in the rule's annexure.",
+  "points": [
+   "Applies to companies not covered by the 2015 Indian Accounting Standards.",
+   "Companies must use the rules when preparing financial statements.",
+   "Auditors must also follow these standards."
+  ],
+  "example": "Meera Textiles Private Limited is preparing its yearly financial statements. Because the company does not fall under the 2015 Indian Accounting Standards, it must follow the standard accounting rules set out in the annexure. When the company hires an auditor to check these accounts, the auditor must also follow these exact standards.",
+  "terms": [
+   {
+    "term": "Auditor",
+    "meaning": "An official who checks and verifies company accounts."
+   },
+   {
+    "term": "Financial Statements",
+    "meaning": "Written reports showing the financial position and business activities of a company."
+   },
+   {
+    "term": "Annexure",
+    "meaning": "An added document or attachment that gives extra details or instructions."
+   }
+  ],
+  "watch": "Do not assume this rule applies to companies that already follow the 2015 Indian Accounting Standards.",
+  "h": "f812a8c30b12",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "5": {
+  "summary": "This rule explains when a company that was not small can get special relaxations in its accounting rules. If a company becomes a Small and Medium Sized Company, it does not get these benefits right away. It must stay small for two accounting periods in a row before it can use the exemptions.",
+  "points": [
+   "A company that was previously not an SMC can become an SMC later.",
+   "Such a company does not immediately qualify for accounting relaxations.",
+   "The company must remain an SMC for two consecutive accounting periods to get the relaxations."
+  ],
+  "example": "Meera Textiles Private Limited was a large company and did not qualify as a Small and Medium Sized Company. Later, its business scaled down, and it met the criteria to become an SMC for the year 2022. Even though it is now an SMC, it cannot claim the accounting relaxations immediately. It must remain an SMC for both the 2022 and 2023 accounting periods before it becomes qualified to receive those exemptions.",
+  "terms": [
+   {
+    "term": "Small and Medium Sized Company (SMC)",
+    "meaning": "A specific category of company that may get certain exemptions in accounting standards."
+   },
+   {
+    "term": "Accounting period",
+    "meaning": "A specific span of time for which companies make their financial statements."
+   },
+   {
+    "term": "Exemption",
+    "meaning": "Being free from a rule that others have to follow."
+   }
+  ],
+  "watch": "People often think an SMC gets relaxations immediately upon changing its status, but it must wait for two consecutive periods.",
+  "h": "8cacc6858122",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
  }
 }

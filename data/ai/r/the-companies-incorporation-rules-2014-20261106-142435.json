@@ -737,5 +737,498 @@
   "h": "111cff326c38",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This rule gives a short title to a specific set of company regulations in India. It states that these regulations are officially known as the Companies (Incorporation) Rules, 2014. They became active starting from the first day of April, 2014.",
+  "points": [
+   "The rules are called the Companies (Incorporation) Rules, 2014.",
+   "They came into force on April 1, 2014."
+  ],
+  "example": "Meera Textiles Private Limited was setting up its business paperwork in India. The founders wanted to know the official name of the foundational rules they needed to follow for setting up their company. Their legal advisor told them that the regulations are called the Companies (Incorporation) Rules, 2014, and that they came into force on April 1, 2014.",
+  "terms": [
+   {
+    "term": "come into force",
+    "meaning": "to officially become active and start applying"
+   },
+   {
+    "term": "short title",
+    "meaning": "the official short name by which a law or rule is known"
+   }
+  ],
+  "watch": "Do not confuse the title of these rules with the main Companies Act itself.",
+  "h": "e79278a31d0d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "2": {
+  "summary": "This rule gives the basic meanings of certain words and terms used in the incorporation rules of companies. It explains what words like Act, Form, and Regional Director stand for throughout these rules. It also clarifies that any words not specially defined here will take their meaning directly from the main Companies Act.",
+  "points": [
+   "The word Act refers to the Companies Act, 2013.",
+   "Form or e-Form means any official form specified and notified by the Central Government.",
+   "Regional Director is a person appointed by the Central Government in the Ministry of Corporate Affairs.",
+   "Words not defined in these rules take their meaning from the Act or related rules."
+  ],
+  "example": "Aman wants to start a new business called Sunrise Traders Private Limited. When he fills out an official document to register his company, he uses the electronic document specified by the government. Because the rules state that Form means an e-Form notified by the Central Government, Aman knows he is using the correct paperwork required under the law.",
+  "terms": [
+   {
+    "term": "Annexure",
+    "meaning": "An attachment or added document at the end of the rules."
+   },
+   {
+    "term": "Regional Director",
+    "meaning": "A specific person appointed by the Central Government in the Ministry of Corporate Affairs."
+   }
+  ],
+  "watch": "Do not assume terms not defined here have everyday meanings; check the Companies Act first.",
+  "h": "dde288a4dd07",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "7A": {
+  "summary": "This rule sets the penalties if a One Person Company or its officers break any part of these rules. The punishment includes a primary fine and an extra daily fine if the mistake continues. Every officer involved can be held responsible.",
+  "points": [
+   "Applies to a One Person Company or any of its officers.",
+   "Triggered when someone breaks the rules.",
+   "Includes a main fine up to five thousand rupees.",
+   "Includes an extra fine up to five hundred rupees for each day the rule-breaking continues after the first day."
+  ],
+  "example": "Meera Textiles Private Limited is set up as a One Person Company. Its director, Rahul, fails to follow a procedure required under the incorporation rules. Because Rahul broke the rule, the company and Rahul become punishable with a fine of up to five thousand rupees. If Rahul continues to ignore the requirement after the first day, they will also face a further fine of up to five hundred rupees for every extra day the violation goes on.",
+  "terms": [
+   {
+    "term": "Contravenes",
+    "meaning": "Breaks or acts against a rule or law."
+   },
+   {
+    "term": "Officer",
+    "meaning": "A person in a position of authority in the company, such as a director."
+   }
+  ],
+  "watch": "People often think the daily fine stops automatically, but it continues for every single day the violation is not fixed.",
+  "h": "a927473f8da6",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "8": {
+  "summary": "This rule explains when a new company name is considered too similar to an existing company name. When checking for similarity, certain common differences like punctuation, plural forms, and business types are ignored. If the compared names become the same after ignoring these items, the new name is not allowed unless a special permission is given.",
+  "points": [
+   "Words like Private, Limited, and LLP are ignored when comparing company names.",
+   "Differences in plural forms, letter spacing, punctuation, and tenses do not make names different.",
+   "Phonetic spellings, misspellings, domain extensions, and word order are also disregarded.",
+   "An existing company can allow a similar name by passing a Board resolution."
+  ],
+  "example": "Meera Textiles Private Limited applied for a company name. An existing company is named Meera Textiles Limited. Under the rules, words like Private and Limited are ignored during comparison. Because the core names are identical after ignoring those words, the new name is deemed to resemble the existing company too nearly.",
+  "terms": [
+   {
+    "term": "Phonetic spellings",
+    "meaning": "Spellings that sound the same when spoken aloud."
+   },
+   {
+    "term": "Board resolution",
+    "meaning": "A formal decision made by the board of directors of a company."
+   },
+   {
+    "term": "Transliteration",
+    "meaning": "Writing words using the alphabet of another language based on similar sounds."
+   }
+  ],
+  "watch": "People often think changing punctuation or adding 'Pvt. Ltd.' makes a name unique, but the law treats it as the exact same name.",
+  "h": "a46f7fae97f9",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "9": {
+  "summary": "This rule explains how to apply for a company name or a change of company name using specific online government services. You must submit your request through the official website along with the required fee. The Registrar will then review your application and can either approve it or reject it.",
+  "points": [
+   "Apply to reserve a new company name using the online SPICe+ service on the MCA website.",
+   "Apply to change an existing company name using the online RUN service.",
+   "Pay the required fee as stated in the registration and fees rules.",
+   "If there are defects, you get a chance to fix and resubmit the form within fifteen days."
+  ],
+  "example": "Meera Textiles Private Limited wanted to change its company name. The directors used the online RUN web service on the official website to submit their request along with the prescribed fee. After reviewing the application, the Registrar found some minor errors in the paperwork. The Registrar allowed Meera Textiles Private Limited to fix the defects and resubmit the web form within fifteen days, ensuring they had a fair chance to correct their application before a final decision was made.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "The government official who handles company registrations."
+   },
+   {
+    "term": "Rectification",
+    "meaning": "The act of fixing mistakes or defects."
+   }
+  ],
+  "watch": "Do not confuse the SPICe+ service used for new names with the RUN service used only for changing names.",
+  "h": "a8595d2393b5",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "10": {
+  "summary": "If a company's articles contain special restrictions called entrenchment provisions, the company must inform the Registrar about them. New companies do this by submitting specific forms with the required fee when they are being set up. Existing companies must file a specific form within thirty days from the date the entrenchment provisions are added.",
+  "points": [
+   "New companies must give notice of entrenchment provisions in specific forms along with the fee during incorporation.",
+   "Existing companies must file Form No. MGT.14 within thirty days from the date of entrenchment.",
+   "The required fee is provided under the Companies (Registration offices and fees) Rules, 2014."
+  ],
+  "example": "Meera Textiles Private Limited is a newly forming company whose rulebook, known as the articles, includes entrenchment provisions that make certain rules very hard to change. When applying to incorporate the company, the founders must submit Form SPICe+ and pay the prescribed fee to notify the Registrar about these special provisions.",
+  "terms": [
+   {
+    "term": "articles",
+    "meaning": "The rulebook that governs how a company is managed internally."
+   },
+   {
+    "term": "entrenchment",
+    "meaning": "Special provisions that make certain rules in the company's articles much harder to change than usual."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "The government official who keeps records of companies."
+   }
+  ],
+  "watch": "Do not confuse the filing process for a new company at the time of incorporation with that of an existing company changing its rules later.",
+  "h": "ab7fb42f61e1",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "11": {
+  "summary": "This rule allows companies to choose standard sets of internal management rules called model articles. A company can use these rules completely or just in part, depending on what fits its situation. These model tables are found in Schedule I of the law.",
+  "points": [
+   "Companies can adopt model articles from Tables F, G, H, I, and J.",
+   "Adoption can be total or partial depending on the company type."
+  ],
+  "example": "Meera Textiles Private Limited is starting its business and needs to set its internal rules. Instead of writing a completely new document from scratch, the directors decide to use the standard rules provided in Table F of Schedule I. They review the table and adopt most of the provisions as they apply to their company, choosing to use the model articles in totality for their business operations.",
+  "terms": [
+   {
+    "term": "Model articles",
+    "meaning": "Standard sets of rules provided by the law for how a company should be managed."
+   },
+   {
+    "term": "Totality",
+    "meaning": "Using something entirely or completely."
+   }
+  ],
+  "watch": "Do not assume every company must use the exact same table, as different tables apply to different types of companies.",
+  "h": "f5df2c8ac8fe",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "13": {
+  "summary": "This rule explains how the foundational documents of a company must be signed. It covers rules for regular subscribers, illiterate persons, corporate bodies, and foreign nationals. Every signature must follow specific verification and witnessing steps.",
+  "points": [
+   "Each subscriber must sign in the presence of at least one witness who verifies their identity.",
+   "Illiterate subscribers may use a thumb impression, which must be explained and authenticated by another person.",
+   "Bodies corporate and limited liability partnerships must authorize a representative through a resolution to sign.",
+   "Foreign nationals residing outside India must have their signatures and identity proofs notarized and certified according to their country."
+  ],
+  "example": "Aarav is setting up Apex Solutions Private Limited. He signs the memorandum and articles of association in front of a witness named Priya, who verifies his identity details, dates the document, and signs as a witness. Priya also adds her name, address, description, and occupation on the papers as required by the rules.",
+  "terms": [
+   {
+    "term": "Memorandum and Articles of Association",
+    "meaning": "The fundamental documents that set up a company and define its rules and objectives."
+   },
+   {
+    "term": "Subscriber",
+    "meaning": "A person who agrees to take shares and helps form the company."
+   },
+   {
+    "term": "Body corporate",
+    "meaning": "A legal term for a company or corporation."
+   }
+  ],
+  "watch": "Make sure the person signing for a company or limited liability partnership is duly authorized by a resolution.",
+  "h": "db97cd6d8c7c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "17": {
+  "summary": "When starting a company, the people named as the first directors must share their details and their interests in other businesses. They also need to give their agreement to serve as directors. All of this must be submitted using a specific form along with the required fee.",
+  "points": [
+   "List the details of each person named as a first director in the articles.",
+   "Include information about their interests in other firms or bodies corporate.",
+   "Obtain and file their consent to act as a director.",
+   "Submit everything using Form No. DIR.12 with the prescribed fee."
+  ],
+  "example": "Aarav and Vivaan decided to start a new business named Sunrise Ventures Private Limited. Since their names were written in the articles as the first directors, they had to prepare their personal details and note their interests in other companies. They both signed a paper agreeing to take on the role of directors. Finally, they submitted Form No. DIR.12 along with the correct fee to complete the filing process as required.",
+  "terms": [
+   {
+    "term": "articles",
+    "meaning": "The official document that sets out the rules for running the company's internal affairs."
+   },
+   {
+    "term": "bodies corporate",
+    "meaning": "Legal entities or companies formed under law."
+   },
+   {
+    "term": "consent",
+    "meaning": "Official agreement or permission to do something."
+   }
+  ],
+  "watch": "Do not forget to include details about the director's interests in other firms along with their consent.",
+  "h": "bfd74bdc859f",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "18": {
+  "summary": "This rule explains how a company receives its official proof of registration, known as the Certificate of Incorporation. The Registrar must issue this certificate using a specific form. The certificate will also show the company's permanent account number if the Income-tax Department has given one.",
+  "points": [
+   "The Registrar issues the Certificate of Incorporation.",
+   "The certificate uses Form No. INC-11.",
+   "The certificate includes the company's permanent account number if provided by the Income-tax Department."
+  ],
+  "example": "Asha Cosmetics Private Limited completes all its paperwork to register as a new company. The Registrar approves the documents and issues the official Certificate of Incorporation using Form No. INC-11. Because the Income-tax Department already gave the company a permanent account number, that number is printed directly on the certificate.",
+  "terms": [
+   {
+    "term": "Certificate of Incorporation",
+    "meaning": "The official document given by the government that proves a company legally exists."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "The government official responsible for registering companies."
+   },
+   {
+    "term": "permanent account number",
+    "meaning": "A unique identification number given for tax purposes."
+   }
+  ],
+  "watch": "This rule does not state that the Registrar must create the permanent account number, only that it is mentioned if the Income-tax Department already issued it.",
+  "h": "7a641c3e82ba",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "25": {
+  "summary": "When a company needs to verify its official address, it must submit a specific form with a fee. Along with this form, the company must also provide official proof that it is allowed to use the building. This proof can be an ownership document, a rental agreement, an owner's permission letter, or a recent utility bill.",
+  "points": [
+   "File Form No. INC.22 along with the required fee to verify the registered office.",
+   "Attach proof of the premises using one of four accepted document types.",
+   "Accepted proofs include title deeds, a notarized lease agreement with a recent rent receipt, owner authorization, or a recent utility bill."
+  ],
+  "example": "Meera Textiles Private Limited is setting up its official business location. To complete the address verification, the company fills out Form No. INC.22 and pays the required fee. Since the company does not own the building, the directors attach a notarized copy of their lease agreement along with a rent receipt that was paid within the last month. This fulfills the official rule for verifying their registered office address.",
+  "terms": [
+   {
+    "term": "Registered office",
+    "meaning": "The official main address of a company."
+   },
+   {
+    "term": "Notarized copy",
+    "meaning": "A copy of a document verified as authentic by a legal notary public."
+   },
+   {
+    "term": "Utility service",
+    "meaning": "Services like electricity, gas, or telephone supplied to a building."
+   }
+  ],
+  "watch": "Make sure the utility bill or rent receipt is fresh and within the time limits mentioned in the rule.",
+  "h": "955fe6102b0f",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "26": {
+  "summary": "Every company with a website must publish its basic details on the home page. These details include its name, address, Corporate Identity Number, and contact info. The Central Government can also require the company name to be printed on other documents later.",
+  "points": [
+   "Applies to any company that has a website.",
+   "Must show company name, registered office address, and Corporate Identity Number.",
+   "Must display telephone number, fax number if any, email, and a contact person for queries.",
+   "All these details must appear on the landing or home page of the website."
+  ],
+  "example": "Meera Textiles Private Limited runs a website for its business. According to the rules, the company must clearly display its name, registered office address, Corporate Identity Number, telephone number, fax number if applicable, email, and the name of a contact person for queries right on its home page. If visitors land on the main page, they will easily find all this required information.",
+  "terms": [
+   {
+    "term": "Corporate Identity Number",
+    "meaning": "A unique identification number given to a company when it is registered."
+   },
+   {
+    "term": "Landing page",
+    "meaning": "The main home page of a website that visitors see first."
+   }
+  ],
+  "watch": "People often forget to include the contact person's name for queries on the home page.",
+  "h": "a16245436fb0",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "28": {
+  "summary": "This rule explains how a company can move its registered office from the area of one Registrar of Companies to another within the same State. The company must apply to the Regional Director using a specific form with fees, required documents, and declarations. Finally, the approved order must be filed with the State Registrar.",
+  "points": [
+   "File Form INC.23 with the Regional Director along with fees and necessary documents.",
+   "Include a Board resolution, a Special Resolution of members, and required declarations about dues, creditors, pending cases, and employee interests.",
+   "The Regional Director passes an order approving or rejecting the complete application within fifteen days.",
+   "File the certified copy of the approval order in Form INC-28 with the State Registrar within thirty days."
+  ],
+  "example": "Meera Textiles Private Limited wanted to move its main office from Mumbai to Pune, which changed its Registrar of Companies within the same State. The company prepared Form INC.23, attaching a Board resolution and a special resolution passed by its members. The directors signed a declaration stating all worker dues were cleared and creditors agreed. After submitting the papers, the Regional Director reviewed the complete application and approved the move. Within thirty days of getting the certified order, Meera Textiles filed Form INC-28 with the State Registrar.",
+  "terms": [
+   {
+    "term": "Regional Director",
+    "meaning": "An authority appointed by the Central Government to oversee certain company matters."
+   },
+   {
+    "term": "Special Resolution",
+    "meaning": "A decision approved by a high majority of company members."
+   },
+   {
+    "term": "Key Managerial Personnel",
+    "meaning": "Top officers of the company such as the chief executive or chief financial officer."
+   }
+  ],
+  "watch": "Do not confuse moving an office within the same Registrar's jurisdiction with moving it to the jurisdiction of a different Registrar, which requires this specific Regional Director approval.",
+  "h": "9614110347b3",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "29": {
+  "summary": "A company cannot change its name if it has missed filing its annual returns or financial statements, or if it has not paid back matured deposits, debentures, or interest. However, the name change is allowed once the company clears these pending filings or payments. To apply for the change, the company must submit an application with the required fee, and it will receive a new incorporation certificate.",
+  "points": [
+   "A company with pending annual returns or financial statements cannot change its name.",
+   "A company that has failed to repay matured deposits, debentures, or interest cannot change its name.",
+   "The restriction is removed once the necessary documents are filed or payments are made.",
+   "To change the name, file an application in Form No. INC.24 with the fee.",
+   "A new certificate of incorporation in Form No. INC.25 is issued after the name change."
+  ],
+  "example": "Meera Textiles Private Limited wanted to change its name to Meera Garments Private Limited. However, the company had not yet filed its annual financial statements with the Registrar and had unpaid matured deposits. Because of this, the Registrar did not allow the name change. Once Meera Textiles filed all pending financial statements and repaid the matured deposits, it applied using Form No. INC.24 along with the fee. The Registrar then approved the request and issued a new certificate of incorporation in Form No. INC.25.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "The government official who keeps records of companies."
+   },
+   {
+    "term": "Debentures",
+    "meaning": "A type of loan instrument issued by a company."
+   },
+   {
+    "term": "Certificate of Incorporation",
+    "meaning": "An official document proving a company is legally formed."
+   }
+  ],
+  "watch": "People often think a company can change its name while filings or deposit repayments are still pending, but they must be completed first.",
+  "h": "2ccc59b01f66",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "31": {
+  "summary": "When a company changes its registered office from one State to another, the Central Government must approve it. The company must file this approval order with the Registrar of the old State within thirty days. You must also include the required fee.",
+  "points": [
+   "Get a certified copy of the Central Government order approving the office transfer.",
+   "File this order using Form No. INC.28.",
+   "Submit it to the Registrar along with the fee within thirty days of receiving the order."
+  ],
+  "example": "Meera Textiles Private Limited decided to shift its registered office from Maharashtra to Gujarat. After getting the approval, the Central Government sent a certified copy of the order to the company. Following the rules, Meera Textiles quickly filed Form No. INC.28 along with the required fee to the Registrar within the thirty-day limit.",
+  "terms": [
+   {
+    "term": "memorandum",
+    "meaning": "The main document that sets up a company and states its basic details."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "The official government authority that handles company registrations and records in a State."
+   }
+  ],
+  "watch": "Remember that the thirty-day countdown starts from the day you receive the order, not the day it was signed.",
+  "h": "9aead81b1229",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "32": {
+  "summary": "If a company raises money from the public through a prospectus and has unused money left, it cannot change how that money is used without following specific steps. The company must pass a special resolution through a postal ballot. The notice for this change must contain detailed information such as the amount received, the amount used, and the reasons for the change.",
+  "points": [
+   "A company with unutilized public money cannot change its application objects without a special resolution passed by postal ballot.",
+   "The notice of the resolution must include total money received, money utilized, and the unutilized amount.",
+   "The notice must explain the proposed change, its justification, the amount for new objects, and the estimated financial impact.",
+   "Details of the resolution must be published as an advertisement at the same time postal ballot notices are sent, and the notice must be placed on the company's website if it has one."
+  ],
+  "example": "Meera Textiles Private Limited raised money from the public using a prospectus to build a factory, but some money remains unutilized. The company now wants to use this remaining money for a new purpose instead. To do this legally, Meera Textiles must send a postal ballot notice to its shareholders to pass a special resolution. This notice must clearly state how much money was originally received, how much was spent, the reasons for changing the plan, and the expected financial impact on the company's earnings.",
+  "terms": [
+   {
+    "term": "Prospectus",
+    "meaning": "An official document inviting the public to buy shares or debentures."
+   },
+   {
+    "term": "Special resolution",
+    "meaning": "A decision made by shareholders that requires a high voting majority."
+   },
+   {
+    "term": "Postal ballot",
+    "meaning": "A way of voting by post or electronic means rather than at a physical meeting."
+   }
+  ],
+  "watch": "People often confuse changing objects with simply spending the money on the originally stated goals.",
+  "h": "b5661144445b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "33": {
+  "summary": "This rule explains how a company changes its type between private and public. To make any such change, an application must be filed using a specific form with a fee. If a public company becomes a private company, extra steps and documents are needed.",
+  "points": [
+   "To convert a private company to a public company or the other way around, file Form No. INC.27 with a fee.",
+   "When turning a public company into a private company, you must get approval from the Regional Director first.",
+   "For this conversion, you must include the service number of the approval form, the altered memorandum and articles, and a fee.",
+   "You must file these documents within fifteen days of receiving the order from the Regional Director."
+  ],
+  "example": "Alpha Public Limited Company decided to change its structure and become a private company. After receiving the approval order from the Regional Director, Alpha Public Limited Company filed Form No. INC.27 along with the altered e-Memorandum of Association, the e-Article of Association, and the required fee. They submitted all these documents to the Registrar within fifteen days of getting the order.",
+  "terms": [
+   {
+    "term": "private company",
+    "meaning": "A type of company with restricted share transfers and limits on the number of members."
+   },
+   {
+    "term": "public company",
+    "meaning": "A type of company that is not a private company and allows the public to hold its shares."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "An official who keeps records of companies under the law."
+   }
+  ],
+  "watch": "Make sure to file the paperwork within the fifteen-day limit after receiving the approval order.",
+  "h": "9b5a2b123e11",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "37": {
+  "summary": "This rule explains how an unlimited liability company can change into a company with limited liability by shares or guarantee. The company must pass a special resolution, publish notices to invite objections, send notices to creditors, and submit an application with required documents to the Registrar. Certain conditions apply, such as keeping the same company name for one year after conversion.",
+  "points": [
+   "The company must pass a special resolution in a general meeting to start the conversion.",
+   "Within seven days, the company must publish a notice in two newspapers and send a copy to creditors and debenture holders.",
+   "Interested persons and creditors can send objections within twenty-one days of the notice publication.",
+   "The company must file an application with the required documents and declarations within forty-five days of passing the special resolution.",
+   "The company cannot convert if its net-worth is negative, if pending inquiries exist, or if certain other defaults apply."
+  ],
+  "example": "Meera Textiles Private Limited, an unlimited liability company, wants to convert into a company limited by shares. First, the members gather and pass a special resolution. Within seven days, the company publishes a notice in an English newspaper and a local language newspaper, and also sends notices to its creditors by speed post. After collecting all required declarations, a certified list of creditors, and required documents, Meera Textiles files its application with the Registrar within forty-five days to complete the conversion process.",
+  "terms": [
+   {
+    "term": "special resolution",
+    "meaning": "A decision approved by a high majority of company members in a meeting."
+   },
+   {
+    "term": "vernacular language",
+    "meaning": "The local language spoken in the specific district where the company office is located."
+   },
+   {
+    "term": "debenture holder",
+    "meaning": "A person or entity that has lent money to the company and holds a certificate of debt."
+   }
+  ],
+  "watch": "Make sure to note that the company cannot change its name for a full year after the conversion is complete.",
+  "h": "8bed0607bec1",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "38A": {
+  "summary": "When a new company applies for incorporation, it must send an extra form along with its main application. This form, called AGILE-PRO-S (INC-35), is used to ask for important business registrations and services like tax numbers and a bank account. It includes several items that became effective on different dates mentioned in the rules.",
+  "points": [
+   "Companies apply for registration using e-form AGILE-PRO-S (INC-35).",
+   "The form includes applications for GSTIN, EPFO, and ESIC registrations.",
+   "It also covers Profession Tax Registration, opening a bank account, and Shops and Establishment Registration."
+  ],
+  "example": "Meera Textiles Private Limited is newly setting up its business operations. To complete its setup smoothly without filing separate paperwork for everything, the founders submit e-form AGILE-PRO-S (INC-35) along with their main company incorporation application. Through this single form, Meera Textiles Private Limited simultaneously requests its Goods and Service Tax Identification Number, Employees’ Provident Fund Organisation registration, Employees’ State Insurance Corporation registration, Profession Tax Registration, Shops and Establishment Registration, and the opening of a bank account.",
+  "terms": [
+   {
+    "term": "Incorporation",
+    "meaning": "The legal process used to form a new company."
+   },
+   {
+    "term": "e-form",
+    "meaning": "An electronic form used for official submissions."
+   }
+  ],
+  "watch": "Do not assume that this form is optional or that you can use a different form number for these specific registrations.",
+  "h": "5ee96edb8314",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
  }
 }

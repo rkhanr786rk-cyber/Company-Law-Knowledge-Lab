@@ -263,5 +263,78 @@
   "h": "041ed7bc50be",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This rule gives a short title to a specific set of company regulations. It also states the exact date when these regulations become active. For anyone reading the law, this simply tells us what to call the rules and when they started applying.",
+  "points": [
+   "The rules are officially named the Companies (Audit and Auditors) Rules, 2014.",
+   "They became active on the 1st day of April, 2014."
+  ],
+  "example": "Meera Textiles Private Limited is preparing its financial documents in early 2014. The accountants need to know the official name of the specific audit regulations they must follow and the exact date those rules begin to affect company work. They check the title and the commencement date to ensure they are using the correct set of guidelines issued for company audits.",
+  "terms": [
+   {
+    "term": "Commencement",
+    "meaning": "The time when something starts or becomes active."
+   },
+   {
+    "term": "Short title",
+    "meaning": "The official short name given to a law or rule so it is easy to refer to."
+   }
+  ],
+  "watch": "Do not assume these rules apply to times before April 1, 2014, based only on this text.",
+  "h": "6ddb97af63b2",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "2": {
+  "summary": "This rule gives simple meanings to common words used in the audit rules. It explains that words not defined here will take their meanings from the main Companies Act or other specific rules. This helps readers understand official company documents easily.",
+  "points": [
+   "The term Act refers to the Companies Act, 2013.",
+   "Fees means the charges listed in the Companies Registration Offices and Fees Rules, 2014.",
+   "A Form or e-Form is an official document used for specific matters under these rules.",
+   "Words without a definition here use the meanings found in the main Act or related definition rules."
+  ],
+  "example": "When Meera Textiles Private Limited fills out an official document, they need to know what words like Act or Form mean. The directors look at Rule 2 of the Companies (Audit and Auditors) Rules, 2014. They find that Form means the official e-Form required for the matter, and Act means the Companies Act, 2013. For any other words not explained there, they check the main Act.",
+  "terms": [
+   {
+    "term": "Annexure",
+    "meaning": "An attachment or document added at the end of the rules."
+   },
+   {
+    "term": "e-Form",
+    "meaning": "An electronic form used for official company filings."
+   }
+  ],
+  "watch": "Do not assume words have their everyday meanings if they are defined in the Act or related rules.",
+  "h": "59d80e75cf20",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "7": {
+  "summary": "Rule 7 explains the steps a company must follow if it wants to remove an auditor before their term ends. The company must apply to the Central Government using a specific form and fee within thirty days of the Board passing a resolution. After getting government approval, the company has sixty days to hold a general meeting to pass a special resolution.",
+  "points": [
+   "Apply to the Central Government using Form ADT-2 with the required fees.",
+   "Submit this application within thirty days of the Board passing its resolution.",
+   "Hold a general meeting within sixty days of receiving the Central Government approval to pass a special resolution."
+  ],
+  "example": "Meera Textiles Private Limited wants to remove its auditor before their term expires. First, the Board of Directors passes a resolution for this removal. Within thirty days, the company submits Form ADT-2 along with the prescribed fees to the Central Government. Once the Central Government approves the application, Meera Textiles Private Limited has sixty days to call a general meeting. In this meeting, the shareholders pass a special resolution to complete the process.",
+  "terms": [
+   {
+    "term": "Auditor",
+    "meaning": "An official appointed to check and verify a company's financial accounts."
+   },
+   {
+    "term": "Board",
+    "meaning": "The group of directors chosen to manage the company."
+   },
+   {
+    "term": "Special resolution",
+    "meaning": "A formal decision made by shareholders that requires a high majority of votes to pass."
+   }
+  ],
+  "watch": "Do not confuse the thirty-day deadline to apply to the government with the sixty-day deadline to hold the general meeting.",
+  "h": "335b1f1784e8",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
  }
 }

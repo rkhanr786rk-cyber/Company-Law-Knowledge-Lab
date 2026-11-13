@@ -56,5 +56,202 @@
   "h": "6a265068499e",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This rule gives a short title to the rules and states when they start. The provided text is very short and only contains administrative details about the naming and start date. It does not contain any other information or rules.",
+  "points": [
+   "The rules are called the Companies (Appointment and Remuneration of Managerial Personnel) Rules, 2014.",
+   "They started on the 1st day of April, 2014."
+  ],
+  "example": "A manager at Meera Textiles Private Limited wanted to know when the specific managerial personnel rules officially began. After checking the official documents, the manager found that these rules, officially titled the Companies (Appointment and Remuneration of Managerial Personnel) Rules, 2014, came into force on the 1st day of April, 2014.",
+  "terms": [
+   {
+    "term": "Short title",
+    "meaning": "The official name by which a set of rules is known."
+   },
+   {
+    "term": "Come into force",
+    "meaning": "To become active and start applying legally."
+   }
+  ],
+  "watch": "Do not confuse the official name and start date of the rules with the specific requirements they contain.",
+  "h": "40ef47372a76",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "2": {
+  "summary": "This rule gives the basic meanings of words used in a specific set of company law rules. It explains terms like Act, Form, and Regional Director so that readers can understand them. If a word is not defined here, its meaning comes from the main Companies Act or another related set of rules.",
+  "points": [
+   "The word 'Act' means the Companies Act, 2013.",
+   "A 'Form' or 'e-form' is a specific document layout listed in the Annexure that must be used for official matters.",
+   "A 'Regional Director' is an official appointed by the Central Government in the Ministry of Corporate Affairs.",
+   "Any words not explained in these rules use the meanings given in the main Act or specific definition rules."
+  ],
+  "example": "Meera Textiles Private Limited needed to submit an official document to the government. The manager checked the rules to know which document layout to use. She learned that a 'Form' means the specific document set forth in the Annexure. She also saw that words not explained in these rules get their meanings from the main Companies Act, 2013.",
+  "terms": [
+   {
+    "term": "Annexure",
+    "meaning": "An attachment or added document at the end of the rules."
+   },
+   {
+    "term": "Regional Director",
+    "meaning": "An official appointed by the Central Government in the Ministry of Corporate Affairs."
+   }
+  ],
+  "watch": "Do not assume a word has its everyday dictionary meaning if it is defined in the Act or these rules.",
+  "h": "ed8e6f7c495b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "3": {
+  "summary": "When a company appoints a top leader like a Managing Director, Whole Time Director, or Manager, it must inform the government. The company has to submit a specific form with a fee to the official office within sixty days. This rule ensures the appointment is properly registered.",
+  "points": [
+   "Appoint a Managing Director, Whole Time Director, or Manager.",
+   "File a return of the appointment using Form No. MR.1.",
+   "Submit the form along with the required fee within sixty days.",
+   "Send the filing to the Registrar."
+  ],
+  "example": "Meera Textiles Private Limited recently appointed Mr. Sharma as its new Managing Director. To follow the rules, the company must now fill out Form No. MR.1. They need to submit this form, along with the specified fee, to the Registrar. The company must make sure this entire process is completed within sixty days of Mr. Sharma taking his new appointment.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "The official government office where company documents are filed and kept."
+   },
+   {
+    "term": "Form No. MR.1",
+    "meaning": "The specific official paper or digital document used to report managerial appointments."
+   }
+  ],
+  "watch": "Do not forget that the sixty-day countdown starts from the date of the actual appointment, not from any later date.",
+  "h": "41341b78dfe1",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "4": {
+  "summary": "This rule allows companies to pay their directors a sitting fee for attending board or committee meetings. The board of directors decides the amount, but it cannot be more than one lakh rupees per meeting. However, independent and women directors must receive a sitting fee that is at least equal to what other directors get.",
+  "points": [
+   "Directors can be paid a sitting fee for attending board or committee meetings.",
+   "The board of directors decides the amount of the sitting fee.",
+   "The maximum sitting fee allowed is one lakh rupees per meeting.",
+   "Independent directors and women directors must be paid at least as much as other directors."
+  ],
+  "example": "Meera Textiles Private Limited wants to pay its directors for attending a board meeting. The board decides to set the sitting fee at fifty thousand rupees for each director. Since this is below the one lakh rupees limit, it is allowed. The company has an independent director and a woman director on its board. To follow the rules, the company must ensure they receive at least fifty thousand rupees as well, matching the amount paid to the other directors.",
+  "terms": [
+   {
+    "term": "Sitting fee",
+    "meaning": "An amount paid to a director for attending a meeting."
+   },
+   {
+    "term": "Independent Director",
+    "meaning": "A director who does not have a material or pecuniary relationship with the company, helping ensure unbiased decisions."
+   }
+  ],
+  "watch": "People often think all directors must be paid the exact same fee, but the rule only states that independent and women directors must not be paid less than others.",
+  "h": "4b28dc044a6e",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "5": {
+  "summary": "Listed companies must include specific details about employee salaries and top earners in their annual Board report. This rule explains how to calculate middle-range salaries and requires lists of certain high-paid workers. Shareholders can also request more information about employees working outside the country under certain conditions.",
+  "points": [
+   "Listed companies must disclose salary ratios between directors and employees in the Board report.",
+   "Companies must report the percentage increase in pay for top leaders and regular employees.",
+   "The Board report must list the top ten highest-paid employees and specific high-earning workers.",
+   "Detailed particulars of employees working outside India may be filed separately rather than sent to all members."
+  ],
+  "example": "At Sunrise Technologies Private Limited, a listed company, the board was preparing its annual report. They included the ratio of each director's pay to the median employee pay, along with the total number of permanent employees. They also added a statement showing the names of their top ten highest-paid employees and confirmed that all pay followed the company remuneration policy.",
+  "terms": [
+   {
+    "term": "median",
+    "meaning": "The middle value that separates the higher half of a group of numbers from the lower half."
+   },
+   {
+    "term": "remuneration",
+    "meaning": "Money or payment given to someone for work or services."
+   },
+   {
+    "term": "equity shares",
+    "meaning": "Shares that represent ownership in a company."
+   }
+  ],
+  "watch": "Do not confuse the general salary disclosures for all employees with the special listing rules required only for top earners.",
+  "h": "626824ac9f8d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "6": {
+  "summary": "This rule sets the matters that must be looked at when deciding the pay for certain company leaders. It covers past company performance, how pay connects to that performance, and how pay compares within the company. The text does not name who specifically must look at these matters.",
+  "points": [
+   "Look at the financial and operating performance of the company over the past three financial years.",
+   "Compare the remuneration against the performance.",
+   "Check the proportionality of remuneration by comparing directors to other paid directors and employees, ideally using a rating method.",
+   "Explain if the pay policy for directors is different from the policy for other employees.",
+   "Check the securities held by the director, including options and pledged shares at the end of the last financial year."
+  ],
+  "example": "At Sunrise Traders Private Limited, the board needs to decide the pay for Director Rohan. First, they review the company performance over the past three financial years. Next, they check how Rohan's pay matches his work output. They use a rating system to compare his pay with other paid directors and company executives to keep things proportional. They also note that the director pay policy differs from the staff policy and write down an explanation for this. Finally, they list the shares and pledged stock Rohan holds.",
+  "terms": [
+   {
+    "term": "Remuneration",
+    "meaning": "Pay or compensation given for work or services."
+   },
+   {
+    "term": "Proportionality",
+    "meaning": "The principle of having a fair and balanced relationship in size or degree, here referring to how pay compares among people in the company."
+   },
+   {
+    "term": "Securities",
+    "meaning": "Financial instruments like shares or options held in the company."
+   }
+  ],
+  "watch": "Do not assume this text states who must review these pay matters, as the text leaves that part blank.",
+  "h": "c19d11589d7e",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "7": {
+  "summary": "When a company applies for government approval under a specific part of the law, it must use a special form and pay a fee. This application must be sent to the central government within ninety days from the appointment date. It helps the government keep track of company managers properly.",
+  "points": [
+   "Applications must use Form No. MR.2.",
+   "A required fee must be paid with the application.",
+   "The application must be sent within ninety days of the appointment."
+  ],
+  "example": "Meera Textiles Private Limited appointed a new manager. To follow the rules, the company needs to ask the Central Government for approval. They must fill out Form No. MR.2, pay the required fee, and send everything to the government within ninety days from the day the manager was appointed.",
+  "terms": [
+   {
+    "term": "Central Government",
+    "meaning": "The national government of the country."
+   },
+   {
+    "term": "Application",
+    "meaning": "A formal written request made to an authority."
+   }
+  ],
+  "watch": "Remember that the ninety-day period starts from the date of appointment, not from any other date.",
+  "h": "42c7d9a1beb8",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "8": {
+  "summary": "Certain companies in India must employ full-time top corporate officers. The rules apply based on the company type and how much paid-up share capital it holds. Specifically, larger public companies and private companies meeting the capital threshold must follow these staffing requirements.",
+  "points": [
+   "Listed companies with a paid-up share capital of ten crore rupees or more must have whole-time key managerial personnel.",
+   "Other public companies with a paid-up share capital of ten crore rupees or more must have whole-time key managerial personnel.",
+   "Private companies with a paid-up share capital of ten crore rupees or more must have a whole-time company secretary."
+  ],
+  "example": "Meera Textiles Private Limited is a private company with a paid-up share capital of twelve crore rupees. Because its capital is ten crore rupees or more, the company must hire a whole-time company secretary to handle its corporate compliance duties under this rule.",
+  "terms": [
+   {
+    "term": "paid-up share capital",
+    "meaning": "The total amount of money that shareholders have paid to the company in exchange for shares."
+   },
+   {
+    "term": "key managerial personnel",
+    "meaning": "Top executives of a company who run its daily operations and administration."
+   }
+  ],
+  "watch": "Do not confuse the rules for private companies, which specifically require a company secretary, with public companies that need whole-time key managerial personnel generally.",
+  "h": "90e3ef3a92aa",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
  }
 }

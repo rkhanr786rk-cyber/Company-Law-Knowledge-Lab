@@ -125,5 +125,359 @@
   "h": "09f889e35123",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This rule gives a short title to a specific set of government regulations. It also states when these regulations start to apply. Because the text is very short, it does not explain what the regulations actually do.",
+  "points": [
+   "The rules are named the National Financial Reporting Authority Rules, 2018.",
+   "They become active on the exact day they are published in the Official Gazette."
+  ],
+  "example": "The government prepared a new set of rules for Meera Textiles Private Limited and other companies. To make the rules official, the government published them in the Official Gazette on a Tuesday. Under this rule, the regulations became fully active on that exact Tuesday.",
+  "terms": [
+   {
+    "term": "Official Gazette",
+    "meaning": "The official public journal or newspaper of the government where new laws and rules are published."
+   },
+   {
+    "term": "Commencement",
+    "meaning": "The time when something starts or begins."
+   }
+  ],
+  "watch": "Do not assume a specific date for when the rules start, as the text only says they start upon publication.",
+  "h": "4956f21699fc",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "4": {
+  "summary": "This rule explains the main duties of the National Financial Reporting Authority. It protects the public and investors by setting high accounting and auditing standards and checking how companies and auditors follow them. The Central Government may also give some of its powers to the Authority through a notification.",
+  "points": [
+   "Protects the public, investors, and creditors by ensuring good accounting and auditing.",
+   "Keeps records of auditors appointed in certain companies and bodies corporate.",
+   "Recommends accounting and auditing standards for the Central Government to approve.",
+   "Monitors and enforces compliance with these standards and helps improve service quality."
+  ],
+  "example": "Meera Textiles Private Limited appointed an auditor for its business. Under this rule, the National Financial Reporting Authority maintains the details of this appointed auditor. The Authority also checks if Meera Textiles and its auditor properly follow all the required accounting and auditing standards to protect the interests of investors and creditors associated with the company.",
+  "terms": [
+   {
+    "term": "Bodies corporate",
+    "meaning": "Companies and other types of incorporated organizations."
+   },
+   {
+    "term": "Auditing",
+    "meaning": "The official inspection of a company's financial accounts."
+   },
+   {
+    "term": "Delegate",
+    "meaning": "To give powers or duties to another person or body."
+   }
+  ],
+  "watch": "People often confuse the Authority's power to recommend standards with the final power to approve them, which belongs to the Central Government.",
+  "h": "d317302bbaa8",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "5": {
+  "summary": "Every auditor under rule 3 must file an annual return with the Authority. This filing must be done by the 30th of November every year. The return needs to be submitted using Form NFRA-2.",
+  "points": [
+   "Applies to every auditor referred to in rule 3.",
+   "Must file a return with the Authority.",
+   "Deadline is on or before 30th November every year.",
+   "Must use Form NFRA-2."
+  ],
+  "example": "Meera Textiles Private Limited hired Sharma and Associates as their auditor under rule 3. To follow the law properly, Sharma and Associates must submit their annual return to the Authority. They need to use Form NFRA-2 for this filing. The firm must ensure this is completed on or before the 30th of November.",
+  "terms": [
+   {
+    "term": "Authority",
+    "meaning": "The regulatory body designated to receive the filings."
+   },
+   {
+    "term": "Form NFRA-2",
+    "meaning": "The specific official document or form used for filing the return."
+   }
+  ],
+  "watch": "Make sure to file using the correct form, NFRA-2, by the November 30 deadline.",
+  "h": "10d1dbd26ccc",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "6": {
+  "summary": "This rule explains how accounting and auditing standards are recommended to the Central Government. The National Financial Reporting Authority gets proposals or changes from the Institute of Chartered Accountants of India. The Authority can ask for more information and then considers everything before giving its own recommendation to the Central Government.",
+  "points": [
+   "The Authority receives recommendations from the Institute of Chartered Accountants of India for new or changed standards.",
+   "The Authority can ask for more information about these recommendations if needed.",
+   "The Authority reviews the recommendations and any extra information in the way it thinks best before sending its final advice to the Central Government."
+  ],
+  "example": "Meera Textiles Private Limited follows standard accounting practices. Meanwhile, the Institute of Chartered Accountants of India prepares a proposal for a new accounting standard. The Institute sends this proposal to the National Financial Reporting Authority. The Authority needs more details, so it asks the Institute for additional information. After reviewing the proposal and the extra details carefully, the Authority decides how to consider them and finally recommends the standard to the Central Government for approval.",
+  "terms": [
+   {
+    "term": "Accounting standards",
+    "meaning": "Rules and guidelines for how companies must prepare and present their financial statements."
+   },
+   {
+    "term": "Auditing standards",
+    "meaning": "Rules that auditors must follow when checking a company's financial accounts."
+   },
+   {
+    "term": "Central Government",
+    "meaning": "The national government of the country that has the power to give final approval."
+   }
+  ],
+  "watch": "This rule is only about recommending standards, not about making or approving them directly.",
+  "h": "aff07c8635d8",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "7": {
+  "summary": "The National Financial Reporting Authority can review financial statements to check if companies follow accounting standards. It can ask companies or their auditors for more information, documents, or explanations in writing. It may also call company officers and auditors for a personal meeting and will publish its findings online.",
+  "points": [
+   "The Authority may review financial statements to monitor compliance with accounting standards.",
+   "It can send a written notice asking for more information, explanation, or documents within a reasonable time.",
+   "It can require company officers and auditors to appear in person for additional details.",
+   "It publishes its findings on non-compliance on its website unless there is a public interest reason not to do so."
+  ],
+  "example": "Meera Textiles Private Limited received a written notice from the National Financial Reporting Authority. The Authority was reviewing the company's financial statements to check compliance with accounting standards. The notice directed Meera Textiles and its auditor to provide further information and relevant documents within a reasonable time. Additionally, the Authority required the personal presence of the company officers and its auditor to seek explanations. After the review, the Authority found a violation of accounting standards and decided to proceed with further enforcement action.",
+  "terms": [
+   {
+    "term": "accounting standards",
+    "meaning": "Rules and guidelines for how companies must prepare and present their financial statements."
+   },
+   {
+    "term": "financial statements",
+    "meaning": "Reports that show the financial position and performance of a company."
+   },
+   {
+    "term": "auditor",
+    "meaning": "An official person who checks and verifies a company's financial records."
+   }
+  ],
+  "watch": "People often confuse a simple request for information with a final penalty, but this rule is only about reviewing and investigating.",
+  "h": "86130d19a016",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "8": {
+  "summary": "This rule gives a government body called the Authority the power to check how companies and auditors follow auditing standards. It can review audit documents, check the auditor's quality control, and ask for more information or a personal meeting. The Authority also publishes its findings on its website unless there is a public interest reason not to do so.",
+  "points": [
+   "The Authority can review audit working papers, plans, and communications.",
+   "The Authority can evaluate the auditor's quality control system and testing procedures.",
+   "The Authority may ask an auditor to report on governance practices and internal processes.",
+   "The Authority can require the personal presence of the auditor to get explanations.",
+   "The Authority publishes its findings of non-compliance on its website."
+  ],
+  "example": "At Sunrise Pharma Private Limited, the Authority decided to check the audit work done by CA Sharma. The Authority asked CA Sharma to personally appear and provide additional explanations regarding the audit documents and plans. After reviewing the papers and finding some issues, the Authority published its findings on its website, while making sure to protect any confidential business information belonging to the company.",
+  "terms": [
+   {
+    "term": "working papers",
+    "meaning": "Written records and documents prepared by an auditor during the audit process."
+   },
+   {
+    "term": "proprietary information",
+    "meaning": "Private or sensitive business information that belongs to a company and is not meant for the public."
+   }
+  ],
+  "watch": "People often think the Authority cannot look at private business details, but it can share confidential information with the Central Government.",
+  "h": "12d5d4e929e4",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "9": {
+  "summary": "The National Financial Reporting Authority can review an auditor and tell them to improve their audit quality. The auditor must follow these directions, report back, and the Authority will keep track of their progress. The Authority can also take help from experts or refer cases to the Quality Review Board.",
+  "points": [
+   "The Authority may direct an auditor to improve audit quality and give a detailed plan with time limits.",
+   "The auditor must make the improvements and send a compliance report to the Authority.",
+   "The Authority monitors the progress and can take action based on it.",
+   "The Authority may refer cases to the Quality Review Board or seek help from experts."
+  ],
+  "example": "Meera Textiles Private Limited hired an auditor named Sharma to check their accounts. The National Financial Reporting Authority reviewed Sharma's work and asked him to change his audit processes and reports within a specific time limit. Sharma made the required changes and sent a report back to the Authority explaining how he followed the directions. The Authority then monitored his progress and checked how well he had improved his service quality.",
+  "terms": [
+   {
+    "term": "Auditor",
+    "meaning": "An official person or firm appointed to check and verify company accounts."
+   },
+   {
+    "term": "Quality Review Board",
+    "meaning": "A board set up under the Chartered Accountants Act, 1949 to review service quality."
+   },
+   {
+    "term": "Body corporate",
+    "meaning": "A company or legal corporation."
+   }
+  ],
+  "watch": "Note that this rule only allows the Authority to direct improvements and monitor progress, without listing specific monetary fines or penalties in the text.",
+  "h": "ab7a452d7e46",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "12": {
+  "summary": "This rule explains what happens when a financial authority penalizes or bans an auditor. The auditor must pay the fine or appeal within a set time. If they do not, or if they are banned from practice, companies where they work must appoint a new auditor.",
+  "points": [
+   "An auditor must deposit a monetary penalty within thirty days of the order.",
+   "If an auditor appeals, they must deposit ten percent of the penalty with the Appellate Tribunal.",
+   "If an auditor neither pays nor appeals within thirty days, the Authority informs every company where they work.",
+   "If an auditor is debarred from practice or fails to comply, companies must appoint a new auditor."
+  ],
+  "example": "Meera Textiles Private Limited hired Rohit as their auditor. Rohit received an order imposing a monetary penalty. Rohit neither paid the penalty nor filed an appeal within thirty days. Because of this non-compliance, the Authority informed Meera Textiles Private Limited about the order. Following the rule, Meera Textiles Private Limited must now appoint a new auditor in accordance with the provisions of the Act.",
+  "terms": [
+   {
+    "term": "Auditor",
+    "meaning": "An official who inspects and verifies company accounts."
+   },
+   {
+    "term": "Appellate Tribunal",
+    "meaning": "A specialized body that hears appeals against orders."
+   },
+   {
+    "term": "Debars",
+    "meaning": "Officially stops someone from practicing their profession."
+   }
+  ],
+  "watch": "People often confuse paying the full penalty with depositing a smaller amount when filing an appeal.",
+  "h": "77df6667a953",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "13": {
+  "summary": "This rule explains the punishment for breaking any provision of the National Financial Reporting Authority Rules, 2018. If someone breaks a rule, they face a basic fine. If the rule-breaking continues day after day, they must pay an extra daily fine for each extra day.",
+  "points": [
+   "Breaking any rule leads to a fine of up to five thousand rupees.",
+   "If the rule-breaking keeps going after the first day, an extra fine applies.",
+   "The extra fine is up to five hundred rupees for every single day the rule-breaking continues."
+  ],
+  "example": "Asha Pharma Limited failed to follow a specific instruction given under the National Financial Reporting Authority Rules, 2018. Because of this rule-breaking, the company faced a penalty. The court ordered them to pay a fine not exceeding five thousand rupees for the initial violation. Furthermore, because the company did not fix the problem immediately and the contravention continued, they were ordered to pay an additional fine not exceeding five hundred rupees for every day that the violation kept happening after the first day.",
+  "terms": [
+   {
+    "term": "contravenes",
+    "meaning": "breaks or goes against a rule or law"
+   },
+   {
+    "term": "continuing one",
+    "meaning": "a rule-breaking action that does not stop and goes on for multiple days"
+   }
+  ],
+  "watch": "Do not assume there is a prison sentence, as the text only mentions fines.",
+  "h": "a4e0e15a61cd",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "14": {
+  "summary": "This rule explains who has the power to handle certain official matters. Matters like investigations and disciplinary proceedings are looked at and decided by the chairperson or full-time members. They must do this work by acting through a Division.",
+  "points": [
+   "Matters include investigation, monitoring, enforcement, and disciplinary proceedings.",
+   "Decisions are made by the chairperson or one or more full-time members.",
+   "The chairperson or members must act through a Division."
+  ],
+  "example": "Meera Textiles Private Limited was facing an investigation regarding its accounts. According to the rules, this matter had to be examined and decided properly. Instead of an outside group handling it, the chairperson and full-time members took up the case. They acted through a specific Division to make their official decisions on the matter.",
+  "terms": [
+   {
+    "term": "disciplinary proceedings",
+    "meaning": "Official actions taken to investigate and decide on rule-breaking or misconduct."
+   },
+   {
+    "term": "Division",
+    "meaning": "A specific branch or group set up within the organization to carry out work."
+   }
+  ],
+  "watch": "People often confuse who can decide these matters, thinking anyone can do it instead of just the chairperson or full-time members acting through a Division.",
+  "h": "719d3bb180a7",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "15": {
+  "summary": "The National Financial Reporting Authority Rules, 2018 allow the Authority to form special groups to help it do its job well. These groups are called advisory committees, study groups, and task forces. They are created to help the Authority perform its functions effectively under the Act.",
+  "points": [
+   "The Authority can create advisory committees.",
+   "The Authority can create study groups.",
+   "The Authority can create task forces.",
+   "These groups are formed to help the Authority perform its functions effectively."
+  ],
+  "example": "To help understand complex accounting trends better, the National Financial Reporting Authority decides to form a special group of experts. It creates a task force consisting of experienced professionals. This task force works under the rules to help the Authority perform its functions effectively under the Act.",
+  "terms": [
+   {
+    "term": "Authority",
+    "meaning": "The National Financial Reporting Authority established under the law."
+   },
+   {
+    "term": "Functions",
+    "meaning": "The official duties and jobs that the Authority is supposed to carry out."
+   }
+  ],
+  "watch": "Do not assume these advisory groups have the final power to make rules, as they are only formed to help the Authority perform its functions.",
+  "h": "aad6ad71ee12",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "16": {
+  "summary": "The National Financial Reporting Authority must help people understand accounting rules, audit standards, and audit quality. It does this through education, training, events, and publicity. This rule helps spread awareness about proper financial reporting.",
+  "points": [
+   "The Authority promotes awareness of accounting and auditing standards.",
+   "It highlights auditor responsibilities and audit quality.",
+   "Methods include education, training, seminars, workshops, conferences, and publicity."
+  ],
+  "example": "Meera Textiles Private Limited noticed that many local business owners were confused about new auditing standards. To help them, the National Financial Reporting Authority organized a public workshop. During the event, experts used training sessions and educational brochures to explain the importance of audit quality and auditor responsibilities to the company managers and other attendees.",
+  "terms": [
+   {
+    "term": "The Authority",
+    "meaning": "The National Financial Reporting Authority, a regulatory body."
+   },
+   {
+    "term": "Accounting standards",
+    "meaning": "Official rules for how companies must prepare their financial statements."
+   },
+   {
+    "term": "Auditing standards",
+    "meaning": "Official rules that auditors must follow when checking company accounts."
+   }
+  ],
+  "watch": "Do not assume the rule requires companies to attend these events, as it only directs the Authority to take measures.",
+  "h": "c009e7e99c56",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "17": {
+  "summary": "This rule requires the National Financial Reporting Authority and everyone working with it to keep all information strictly secure and secret. They must do this for all information given to them to help with their official work. To make sure this happens, the Authority is allowed to sign special contracts.",
+  "points": [
+   "The Authority must keep all information totally secret and safe.",
+   "This rule applies to all people and groups working with the Authority.",
+   "The Authority can make contracts to help protect this information."
+  ],
+  "example": "Meera Textiles Private Limited shares sensitive financial documents with the National Financial Reporting Authority for an official review. Because of this rule, the Authority and all the people helping with the review must keep those documents completely safe and secret. To ensure this high level of security, the Authority can even sign special contracts with the people handling the papers.",
+  "terms": [
+   {
+    "term": "Confidentiality",
+    "meaning": "Keeping information secret and private."
+   },
+   {
+    "term": "Contractual arrangements",
+    "meaning": "Official written agreements or contracts."
+   }
+  ],
+  "watch": "Do not assume there are specific penalties or time limits for breaking this rule, as the text does not mention any.",
+  "h": "320ab3f8c3e1",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "18": {
+  "summary": "This rule prevents the Authority from entering into contracts or relationships that could interfere with its fair and reasonable work. It also bans the Authority and its people from accepting money, gifts, or favors from anyone other than the Central Government. Furthermore, they cannot take on any financial obligations or commitments unless the Central Government allows it.",
+  "points": [
+   "The Authority must avoid any relationship or event that might interfere with its fair duties.",
+   "The Authority and its associated people cannot receive gifts, funds, or sponsorships from outside sources.",
+   "All funding and assets must come only from the Central Government.",
+   "Liabilities and commitments are forbidden unless permitted by the Central Government."
+  ],
+  "example": "Meera Textiles Private Limited wanted to sponsor a public seminar organized by the National Financial Reporting Authority to build a good reputation. However, the Authority politely refused the offer because the rules state they cannot accept sponsorships, gifts, or funds from any source other than the Central Government, ensuring their duties remain completely fair and unbiased.",
+  "terms": [
+   {
+    "term": "Authority",
+    "meaning": "The official organization created to handle financial reporting matters."
+   },
+   {
+    "term": "Liabilities",
+    "meaning": "Legal debts or financial responsibilities."
+   }
+  ],
+  "watch": "People often assume the Authority can accept outside donations if they are for a good cause, but the rules strictly ban all external funds except from the Central Government.",
+  "h": "76a95b6ed6ba",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
  }
 }

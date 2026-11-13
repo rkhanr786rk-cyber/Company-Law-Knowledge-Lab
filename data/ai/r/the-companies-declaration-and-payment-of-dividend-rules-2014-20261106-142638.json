@@ -1,0 +1,75 @@
+{
+ "1": {
+  "summary": "This rule gives a short title to the rules about declaring and paying dividends under the Companies Act, 2013. It also states the exact date when these rules start applying. The text is very short and only provides the name and start date.",
+  "points": [
+   "The rules are named the Companies (Declaration and Payment of Dividend) Rules, 2014.",
+   "They started applying on April 1, 2014."
+  ],
+  "example": "At Meera Textiles Private Limited, the directors want to know which rules apply when they decide to share profits with their owners. The company secretary checks the official documents and confirms that the Companies (Declaration and Payment of Dividend) Rules, 2014, have been in force since April 1, 2014, and apply to their actions.",
+  "terms": [
+   {
+    "term": "Commencement",
+    "meaning": "The time when a rule or law starts to apply."
+   },
+   {
+    "term": "Short title",
+    "meaning": "The official name given to a law or set of rules for easy reference."
+   }
+  ],
+  "watch": "People sometimes confuse the start date of the rules with the date the entire law was passed.",
+  "h": "5e05ec111d86",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "2": {
+  "summary": "This rule explains the basic terms used in the rules for declaring and paying dividends under company law. It states that words like Act mean the Companies Act, 2013, and sections mean sections of that Act. If any other word is used without a specific definition here, it has the same meaning given to it in the Companies Act or related definition rules.",
+  "points": [
+   "The word Act refers to the Companies Act, 2013.",
+   "The word section means a section of the Companies Act.",
+   "Words not defined in these rules take their meaning from the Act or the Companies Rules, 2014."
+  ],
+  "example": "When reading the rule book for Meera Textiles Private Limited, the directors wondered what the word section meant. Based on the rules, they understood it simply refers to a section of the Companies Act, 2013. When they found another word without a clear meaning in the text, they looked it up in the main Act to find its proper meaning.",
+  "terms": [
+   {
+    "term": "Act",
+    "meaning": "The Companies Act, 2013."
+   },
+   {
+    "term": "Section",
+    "meaning": "A specific part or division of the Act."
+   }
+  ],
+  "watch": "People often confuse words defined in these rules with everyday language, but they must take their legal meanings from the Act.",
+  "h": "bd1af2810ac1",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "3": {
+  "summary": "This rule explains how a company can declare a dividend using its saved-up reserves when it does not make enough profit in a year. The company must follow specific limits on the dividend rate and the amount it withdraws. It must also use the withdrawn money to cover current losses first and keep a minimum amount left in its reserves.",
+  "points": [
+   "The dividend rate cannot be more than the average of the rates declared in the previous three years, unless no dividend was declared in those years.",
+   "The total amount drawn from accumulated profits cannot exceed one-tenth of the company's paid-up share capital and free reserves.",
+   "The drawn amount must first be used to set off losses incurred in the current year before declaring any equity dividend.",
+   "After the withdrawal, the remaining reserves must not fall below fifteen per cent of the paid-up share capital."
+  ],
+  "example": "Meera Textiles Private Limited made little profit this year and wants to declare a dividend from its free reserves. Based on the rules, the company checks its previous three years of dividends to find the average rate. It ensures the total money taken out does not exceed one-tenth of its paid-up share capital and free reserves. Meera Textiles then uses this money to clear any current year losses first. Finally, the company confirms that its remaining reserves stay above fifteen per cent of its paid-up share capital before paying out anything to shareholders.",
+  "terms": [
+   {
+    "term": "free reserves",
+    "meaning": "Saved-up profits of a company that are free to be used for giving out dividends."
+   },
+   {
+    "term": "paid-up share capital",
+    "meaning": "The total amount of money that shareholders have paid to the company in exchange for shares."
+   },
+   {
+    "term": "audited financial statement",
+    "meaning": "Official company money reports that have been checked and verified by an auditor."
+   }
+  ],
+  "watch": "People often confuse free reserves with all company funds, but this rule specifically applies only to saved-up profits that are free to use.",
+  "h": "5c4c28e9cd94",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ }
+}

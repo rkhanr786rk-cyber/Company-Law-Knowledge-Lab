@@ -489,5 +489,325 @@
   "h": "58558bd01123",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This rule gives a formal name to a specific set of company regulations under Indian law. It also states the exact date when these rules become active. Because the text only provides the title and start date, there are no other details to explain.",
+  "points": [
+   "The rules are called the Companies (Compromises, Arrangements and Amalgamations) Rules, 2016.",
+   "They officially started on 15th December, 2016."
+  ],
+  "example": "In December 2016, a manager at Alpha Logistics Private Limited wanted to know the official name of the new rules regarding company mergers. After checking the official government publication, she confirmed that the rules were officially called the Companies (Compromises, Arrangements and Amalgamations) Rules, 2016, and that they had officially come into force on the 15th of that month.",
+  "terms": [
+   {
+    "term": "Commencement",
+    "meaning": "The time when something officially starts or begins."
+   },
+   {
+    "term": "Rules",
+    "meaning": "Official legal directions or guidelines made under a law."
+   }
+  ],
+  "watch": "Do not assume these rules apply to matters outside of compromises, arrangements, and amalgamations just by reading this title.",
+  "h": "33874da45507",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "2": {
+  "summary": "This rule provides the basic definitions used in the specific company rules for compromises, arrangements, and amalgamations. It explains what certain words mean when they appear in these legal instructions. If a word is not defined here, it takes its meaning from the main Companies Act or related rules.",
+  "points": [
+   "The word Act refers to the Companies Act of 2013.",
+   "A Form means the official paper or its digital version set out in the rules.",
+   "Corporate action means company steps regarding share transfers and related benefits like bonus shares."
+  ],
+  "example": "Meera Textiles Private Limited planned a corporate action regarding the transfer of shares to a new buyer. Along with the basic shares, the buyer was also set to receive bonus shares and split shares as part of the arrangement. To record this properly, the company used the correct digital Form as set out in the official rules of the Companies Act.",
+  "terms": [
+   {
+    "term": "Corporate action",
+    "meaning": "Any step taken by a company about transferring shares and related benefits like bonus shares."
+   },
+   {
+    "term": "Liquidator",
+    "meaning": "A person appointed under the Act or the Insolvency and Bankruptcy Code to wind up a company."
+   }
+  ],
+  "watch": "Do not assume words have their everyday meanings if they are specifically defined in the Act or these rules.",
+  "h": "f25dbcfba1de",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "9": {
+  "summary": "This rule explains how people who receive a notice can vote on a company scheme. They have one month from the day they get the notice to cast their vote. Voting can be done in person, by proxy, through a postal ballot, or using electronic methods.",
+  "points": [
+   "You can vote within one month from the date you receive the notice.",
+   "Voting can happen in person, through a proxy, by postal ballot, or via electronic means.",
+   "For shareholders, shareholding means the shares held by members of the voting class.",
+   "For creditors, outstanding debt is the total unpaid debt based on the latest audited or provisional financial statements."
+  ],
+  "example": "Meera Textiles Private Limited sent a notice to its creditors about a proposed compromise scheme. Rahul, a creditor, received the notice on the first of the month. According to the rule, Rahul has exactly one month from that date to cast his vote on the scheme. He can choose to vote in person, through a proxy, via postal ballot, or using electronic means. The value of his vote will be based on the outstanding debt owed to him as shown in the company's financial statements.",
+  "terms": [
+   {
+    "term": "proxy",
+    "meaning": "A person authorized to vote on behalf of someone else."
+   },
+   {
+    "term": "postal ballot",
+    "meaning": "A voting method where a ballot paper is sent and returned by post."
+   },
+   {
+    "term": "creditor",
+    "meaning": "A person or company to whom money is owed."
+   }
+  ],
+  "watch": "Make sure to count the one-month voting window strictly from the date you actually receive the notice.",
+  "h": "0887168811d1",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "10": {
+  "summary": "This rule explains how people and companies can appoint someone else to vote for them at a meeting. A proxy form or a company representative's authority must be given to the company at least 48 hours before the meeting. Minors cannot be proxies, and special rules apply for members who are blind, unable to write, or do not know English.",
+  "points": [
+   "A proxy form must be signed and filed at the company's registered office at least 48 hours before the meeting.",
+   "A body corporate must submit a certified copy of the Board resolution authorizing its representative at least 48 hours before the meeting.",
+   "A minor cannot be appointed as a proxy.",
+   "Special witnessing rules apply if the member is blind, unable to write, or does not know English."
+  ],
+  "example": "Aarav wants to vote at a meeting of Sunrise Industries Private Limited, but he cannot attend. He signs a proxy form and submits it to the company's registered office fifty hours before the meeting, appointing his friend Rohan to vote for him. Since Rohan is an adult and the form is submitted on time, the proxy is valid. If Aarav's friend Rohan were a minor, he could not be appointed as a proxy under these rules.",
+  "terms": [
+   {
+    "term": "Proxy",
+    "meaning": "A person authorized to act and vote on behalf of another person at a meeting."
+   },
+   {
+    "term": "Body corporate",
+    "meaning": "A company or legal entity, not an individual human being."
+   },
+   {
+    "term": "Minor",
+    "meaning": "A person who is under the age of legal majority."
+   }
+  ],
+  "watch": "People often forget that the proxy form must reach the registered office at least 48 hours before the meeting starts.",
+  "h": "0ea068fa7812",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "12": {
+  "summary": "Under this rule, the person in charge of sending notices and advertisements for a company meeting must prove their work. They must file an affidavit, which is a written statement sworn to be true, at least seven days before the meeting. If they fail to do this, the matter goes back to the Tribunal for further orders.",
+  "points": [
+   "The assigned person must file an affidavit before the Tribunal.",
+   "This must happen at least seven days before the meeting date.",
+   "The affidavit confirms that notices and advertisements were properly sent.",
+   "Failing to do this means the case goes before the Tribunal for its decision."
+  ],
+  "example": "Meera Textiles Private Limited planned a company meeting. Rahul was appointed as the Chairperson to send out the notices and advertisements. Rahul had to prove that he followed all the directions properly. To do this, he filed a written statement called an affidavit before the Tribunal at least seven days before the meeting. Because Rahul completed this task on time, the process moved forward smoothly without any issues.",
+  "terms": [
+   {
+    "term": "Affidavit",
+    "meaning": "A written statement confirmed by oath or affirmation, for use as evidence in court."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "An official body or authority set up to deal with and decide specific legal matters."
+   },
+   {
+    "term": "Default",
+    "meaning": "Failure to fulfill a duty or obligation required by the rules."
+   }
+  ],
+  "watch": "Make sure not to confuse the filing deadline, which is at least seven days before the meeting, with the date of the meeting itself.",
+  "h": "b1aafb90e358",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "13": {
+  "summary": "This rule explains how voting happens during company meetings ordered by the Tribunal. All resolutions must be decided either through a poll or by electronic voting. Afterward, a specific official report must be prepared to show who voted and how they voted.",
+  "points": [
+   "Voting on all resolutions must happen by poll or electronic means.",
+   "Meetings are held following the directions of the Tribunal.",
+   "The final result must be reported using Form No. CAA. 4.",
+   "The report must list the exact number of voters, their values, and their choices."
+  ],
+  "example": "Meera Textiles Private Limited held a meeting directed by the Tribunal to vote on a new arrangement. The shareholders and creditors cast their votes through electronic means and by poll. Once the meeting ended, the chairperson prepared the report in Form No. CAA. 4. This document accurately listed every member and creditor who attended in person, by proxy, or online, along with the specific value of their stake and how each person voted on the resolutions.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A legal body or official authority that gives directions and handles company disputes."
+   },
+   {
+    "term": "Proxy",
+    "meaning": "A person who is authorized to vote on behalf of a member or creditor at the meeting."
+   }
+  ],
+  "watch": "Make sure to remember that votes can only be cast by poll or electronic means as directed.",
+  "h": "048901f09dc3",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "14": {
+  "summary": "This rule explains how the person in charge of a company meeting must report the outcome. The Chairperson must submit this report using a specific form called Form No. CAA. 4. They must hand it in within the time ordered by the Tribunal, or within three days if no specific time was set.",
+  "points": [
+   "The Chairperson must write a report about how the meeting went.",
+   "The report goes to the Tribunal.",
+   "It must be done in a specific form known as Form No. CAA. 4.",
+   "It must be submitted within the time fixed by the Tribunal or within three days after the meeting ends."
+  ],
+  "example": "At Zenith Infra Private Limited, Mr. Sharma led the company meeting ordered by the Tribunal. After the meeting ended, Mr. Sharma had to report the results. Since the Tribunal did not give a specific deadline for this report, Mr. Sharma prepared the report in Form No. CAA. 4 and submitted it to the Tribunal within three days after the meeting concluded.",
+  "terms": [
+   {
+    "term": "Chairperson",
+    "meaning": "The person chosen to lead and manage a meeting."
+   },
+   {
+    "term": "Tribunal",
+    "meaning": "A legal authority or official body that handles company disputes and approvals."
+   },
+   {
+    "term": "Form No. CAA. 4",
+    "meaning": "The official paper or document format required to report the meeting results."
+   }
+  ],
+  "watch": "People often confuse the Tribunal's special deadline with the default three-day rule.",
+  "h": "1226edd0ed25",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "17": {
+  "summary": "This rule explains what happens when the Tribunal approves a company compromise or arrangement. The Tribunal gives an order that includes necessary directions and modifications for the plan to work properly. A copy of this order must be filed with the Registrar of Companies.",
+  "points": [
+   "The Tribunal can add directions or modifications when it approves a compromise or arrangement.",
+   "A certified copy of the order must be filed with the Registrar of Companies.",
+   "The filing must happen within thirty days of receiving the order copy, or within the time fixed by the Tribunal.",
+   "The order must follow Form No. CAA. 6 with any necessary changes."
+  ],
+  "example": "Meera Textiles Private Limited went through a court-approved business arrangement. The Tribunal issued an order approving the plan and added specific directions for its smooth operation. Following the rules, ABC Company had to file a certified copy of this official order with the Registrar of Companies within thirty days of receiving it, using the specific Form No. CAA. 6 format.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized official body that handles company law disputes and approvals."
+   },
+   {
+    "term": "Compromise or arrangement",
+    "meaning": "A formal plan or agreement between a company and its creditors or members."
+   },
+   {
+    "term": "Registrar of Companies",
+    "meaning": "The government office where company documents are officially filed and recorded."
+   }
+  ],
+  "watch": "People often forget that the thirty-day deadline starts from the date of receiving the copy of the order, not the date the order was passed.",
+  "h": "e7a5e1cf83ab",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "19": {
+  "summary": "When the Tribunal hears an application regarding company restructuring or merging, it can issue orders or directions for how the process should move forward. This includes checking who the creditors are and securing the debts of any creditors who disagree with the plan, in a way the Tribunal finds just.",
+  "points": [
+   "The Tribunal reviews the notice at the hearing.",
+   "The Tribunal can give orders or directions for reconstruction or amalgamation.",
+   "The Tribunal may inquire about the creditors of the transferor company.",
+   "The Tribunal ensures debts and claims of dissenting creditors are secured."
+  ],
+  "example": "Meera Textiles Private Limited applied to the Tribunal for a company merger. During the hearing, the Tribunal decided to give specific directions on how the merger should proceed. Since some lenders disagreed with the plan, the Tribunal ordered an inquiry into the company's creditors and directed that the claims of these dissenting lenders must be properly secured before the merger moves forward.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A legal body or authority appointed to handle disputes and make official decisions."
+   },
+   {
+    "term": "Amalgamation",
+    "meaning": "The combining of two or more companies into a single company."
+   },
+   {
+    "term": "Creditors",
+    "meaning": "People or businesses to whom the company owes money."
+   }
+  ],
+  "watch": "Do not assume the Tribunal always requires a creditor inquiry for every case, as it only does so where necessary.",
+  "h": "78f1dc9fd64b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "22": {
+  "summary": "After approving a company compromise or arrangement, the Tribunal can order a report on how it is working. This can happen on the Tribunal's own idea or if an interested person asks for it. The company or its liquidator must submit this report within the time the Tribunal sets, and the Tribunal can then give further orders.",
+  "points": [
+   "The Tribunal can order a report after approving a compromise or arrangement.",
+   "The order can happen on the Tribunal's own motion or by request of an interested person.",
+   "The company or its liquidator must submit the report within a fixed time.",
+   "The Tribunal will consider the report and can pass further orders or directions."
+  ],
+  "example": "After the Tribunal approved a business arrangement for Meera Textiles Private Limited, a shareholder had questions about how the plan was going. The shareholder asked the Tribunal to look into the matter. The Tribunal then ordered Meera Textiles Private Limited to submit a report on the working of the arrangement within a set time. After reading the report, the Tribunal gave new directions to the company.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A legal body set up to deal with specific matters under the law."
+   },
+   {
+    "term": "Liquidator",
+    "meaning": "A person appointed to wind up a company and manage its affairs."
+   },
+   {
+    "term": "Compromise or arrangement",
+    "meaning": "A legal plan or agreement between a company and its members or creditors."
+   }
+  ],
+  "watch": "People often confuse an order approving a plan with the final report on its working.",
+  "h": "780803b090bf",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "23": {
+  "summary": "After a court approves a company agreement or compromise, certain people can ask the Tribunal for help with any questions about how it works. The Tribunal will first give directions on sending notices and advertisements. Finally, the Tribunal can pass orders or make changes to help the agreement work properly.",
+  "points": [
+   "The company, creditors, members, or liquidator can apply to the Tribunal at any time after the approval order.",
+   "The application is first shown to the Tribunal to get instructions on giving notices and advertisements.",
+   "The Tribunal can pass orders or change the arrangement to make sure it works properly."
+  ],
+  "example": "Meera Textiles Private Limited recently completed a court-approved arrangement with its creditors. A disagreement arose regarding how a specific part of the arrangement should be carried out. The company decided to apply to the Tribunal for help. The Tribunal first gave instructions on how to advertise and send notices about the request. After reviewing the case, the Tribunal passed a new order modifying the arrangement to ensure it ran smoothly for everyone involved.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized official body or court that handles specific legal disputes and matters."
+   },
+   {
+    "term": "Compromise or arrangement",
+    "meaning": "A formal agreement between a company and its creditors or members."
+   },
+   {
+    "term": "Liquidator",
+    "meaning": "A person appointed to wind up and close down a company."
+   }
+  ],
+  "watch": "Do not assume there is a fixed time limit to apply, because the rule says the application can be made at any time after the order.",
+  "h": "95d34b4cba33",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "24": {
+  "summary": "The Tribunal has the power to order that any document, information, or evidence be provided in the form of an affidavit during proceedings. It can also give directions, pass orders, or skip certain procedures to help implement a scheme of arrangement, compromise, or restructuring. However, the Tribunal cannot skip matters that are specifically written in the Act itself.",
+  "points": [
+   "The Tribunal can ask for petitions, applications, evidence, information, or statements to be filed as affidavits.",
+   "The Tribunal may give orders or directions to carry out schemes like compromises, arrangements, or restructuring.",
+   "The Tribunal can skip certain procedures written in the rules if it helps practical implementation.",
+   "The Tribunal cannot skip or change matters that are specifically required by the Act."
+  ],
+  "example": "Aarav Industries Private Limited filed an application for a company restructuring scheme before the Tribunal. During the hearing, the Tribunal noticed that some important company information was not officially sworn. Using its powers, the Tribunal ordered the company directors to submit that information in the form of an affidavit. Later, to make the process smoother, the Tribunal also skipped a minor procedural step, as long as it did not break any specific rules written directly in the Companies Act.",
+  "terms": [
+   {
+    "term": "Tribunal",
+    "meaning": "A specialized legal body that hears and decides cases related to companies."
+   },
+   {
+    "term": "Affidavit",
+    "meaning": "A written statement confirmed by oath or affirmation for use as evidence."
+   },
+   {
+    "term": "Compromise or arrangement",
+    "meaning": "A formal agreement or restructuring plan between a company and its creditors or members."
+   }
+  ],
+  "watch": "People often confuse the rules with the Act itself, but the Tribunal can only skip procedures in the rules, not the strict requirements written in the Act.",
+  "h": "b87346285c0a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
  }
 }

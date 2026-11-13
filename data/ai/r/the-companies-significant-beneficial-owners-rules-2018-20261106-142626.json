@@ -148,5 +148,79 @@
   "h": "25f52f1b3623",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This rule gives a short name to these company regulations and tells us when they start. The text is very short and only explains the title and the start date, without giving any extra details. Because of this, there are no other rules or steps mentioned here to follow.",
+  "points": [
+   "These rules are named the Companies (Significant Beneficial Owners) Rules, 2018.",
+   "They start on the day they are published in the Official Gazette."
+  ],
+  "example": "A group of people at Meera Textiles Private Limited wanted to know when the new rules about owners would officially begin. They checked the government publication date. They found that the rules started on the exact day they were published in the Official Gazette.",
+  "terms": [
+   {
+    "term": "Official Gazette",
+    "meaning": "The official public newspaper of the government where new laws and rules are published."
+   },
+   {
+    "term": "Commencement",
+    "meaning": "The time when something starts or begins."
+   }
+  ],
+  "watch": "People often confuse the date of making a rule with the date it officially starts in the Gazette.",
+  "h": "bb2ada59142d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "4": {
+  "summary": "When a company gets a declaration from a significant beneficial owner, it must file a return with the Registrar. This filing must be done using Form No. BEN-2. It must be completed within thirty days from receiving the declaration and include the required fees.",
+  "points": [
+   "The reporting company receives a declaration under rule 3.",
+   "The company files a return in Form No. BEN-2 with the Registrar.",
+   "The filing must happen within thirty days from receiving the declaration.",
+   "The filing must include the prescribed fees."
+  ],
+  "example": "Meera Textiles Private Limited received a formal declaration regarding significant beneficial ownership from its investor. Following the rules, the company prepared to inform the authorities. Within thirty days of receiving that declaration, Meera Textiles Private Limited filed Form No. BEN-2 with the Registrar along with the prescribed fees to complete the process properly.",
+  "terms": [
+   {
+    "term": "Reporting company",
+    "meaning": "The company that must file the return based on the declaration it receives."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "An official government authority who keeps company records."
+   }
+  ],
+  "watch": "Remember that the thirty-day time limit starts from the date the company receives the declaration, not from any other date.",
+  "h": "880deca363f2",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "5": {
+  "summary": "This rule requires companies to keep a special register of their significant beneficial owners. Members of the company can inspect this register during normal working hours by paying a small fee. The board of directors decides the exact time for inspection.",
+  "points": [
+   "The company must keep a register of significant beneficial owners using Form No. BEN-3.",
+   "Members of the company are allowed to inspect this register.",
+   "Inspections happen on every working day during business hours for at least two hours.",
+   "The company can charge a fee for inspection, up to a maximum of fifty rupees."
+  ],
+  "example": "Meera Textiles Private Limited maintains its register of significant beneficial owners in Form No. BEN-3. Rajesh, a member of the company, wants to view this register. He visits the company office on a working day during business hours. The board has set a two-hour window for such checks. Rajesh pays the required inspection fee, which does not exceed fifty rupees, and successfully inspects the register.",
+  "terms": [
+   {
+    "term": "significant beneficial owner",
+    "meaning": "A person who ultimately owns or controls a company."
+   },
+   {
+    "term": "inspection",
+    "meaning": "The act of carefully looking at or examining a document."
+   },
+   {
+    "term": "board",
+    "meaning": "The group of directors who manage the company."
+   }
+  ],
+  "watch": "Note that only members of the company have the right to inspect this register, not the general public.",
+  "h": "af6132a1c7ce",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
  }
 }

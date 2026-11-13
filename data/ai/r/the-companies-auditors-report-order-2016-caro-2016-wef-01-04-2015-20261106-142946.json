@@ -74,5 +74,28 @@
   "h": "88eb935d7be8",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "4": {
+  "summary": "This rule requires an auditor to explain the reasons behind any negative or qualified remarks in their report. If the auditor cannot form an opinion on a specific matter, they must clearly state that inability along with the reasons. This ensures transparency in the audit process.",
+  "points": [
+   "If an auditor gives an unfavourable or qualified answer, they must state the basis for it.",
+   "If an auditor cannot express an opinion on a specified matter, they must indicate that fact.",
+   "The auditor must provide reasons why they cannot give an opinion on that matter."
+  ],
+  "example": "Meera Textiles Private Limited hired an independent auditor to review their financial records. During the audit, the auditor found discrepancies in inventory valuation and decided to give a qualified answer on that matter. According to the rules, the auditor clearly stated the basis for this qualified answer in the official report. Additionally, because missing records prevented the auditor from forming any opinion on a separate loan transaction, the report explicitly indicated this inability and explained why giving an opinion was not possible.",
+  "terms": [
+   {
+    "term": "Qualified answer",
+    "meaning": "An auditor's report that includes a reservation or limitation on a specific part of the company's financials."
+   },
+   {
+    "term": "Auditor's report",
+    "meaning": "A formal document written by an independent auditor giving their opinion on a company's financial statements."
+   }
+  ],
+  "watch": "Do not confuse a qualified answer with a complete refusal to audit; it simply means there is a specific exception or reservation noted by the auditor.",
+  "h": "9dcc55e15f6f",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
  }
 }

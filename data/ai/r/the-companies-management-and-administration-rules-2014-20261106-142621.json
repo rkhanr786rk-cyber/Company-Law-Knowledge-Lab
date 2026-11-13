@@ -435,5 +435,352 @@
   "h": "7355538bf845",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This rule gives a short name to a specific set of company regulations and states when they begin. They are called the Companies (Management and Administration) Rules, 2014. They started applying from April 1, 2014.",
+  "points": [
+   "The official short title of these rules is the Companies (Management and Administration) Rules, 2014.",
+   "The rules officially came into force on the 1st day of April 2014."
+  ],
+  "example": "Meera Textiles Private Limited needed to check the official guidelines for managing their company records. Their manager looked up the regulations and confirmed they were officially called the Companies (Management and Administration) Rules, 2014, and that they had been in force since April 1, 2014.",
+  "terms": [
+   {
+    "term": "commencement",
+    "meaning": "the time when something officially begins or starts"
+   }
+  ],
+  "watch": "Do not assume these rules apply to anything other than what is stated for management and administration.",
+  "h": "466ecf11a2a4",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "2": {
+  "summary": "This rule gives the basic meanings of certain words used in the company rules. It tells us what words like Act, Fees, and Form mean. If a word is not explained here, its meaning comes from the main law itself.",
+  "points": [
+   "Act means the Companies Act, 2013.",
+   "Form means the electronic form attached to the rules.",
+   "Regional Director is an official appointed by the Central Government."
+  ],
+  "example": "Meera Textiles Private Limited wants to submit paperwork to the government. The company uses an electronic document called a Form. This specific Form is listed in the Annexure attached to the company rules. To know the correct meaning of words not explained in these rules, the manager checks the main Companies Act, 2013.",
+  "terms": [
+   {
+    "term": "Annexure",
+    "meaning": "An attachment or extra document added at the end of the rules."
+   },
+   {
+    "term": "Regional Director",
+    "meaning": "An official chosen by the government to handle corporate affairs."
+   }
+  ],
+  "watch": "Remember that words not defined in these rules take their meaning from the main Act.",
+  "h": "a596c267c140",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "3": {
+  "summary": "Every company must keep a formal list of its members right from the day it is registered. Companies limited by shares use a specific form called MGT.1 for this list. Companies without share capital must include specific personal details and other particulars for each member in their register.",
+  "points": [
+   "Companies limited by shares must maintain a register of members in Form No. MGT.1 from their registration date.",
+   "Older companies must transfer their existing member details into the new Form No. MGT-1.",
+   "Companies without share capital must collect specific details like name, address, PAN, and date of becoming a member for each person."
+  ],
+  "example": "Meera Textiles Private Limited is newly registered and must maintain a register of its members in Form No. MGT.1 from the exact date of its registration. Meanwhile, an older company, Apex Enterprises Limited, which existed before the new Act started, simply moves its old member records into the new Form No. MGT-1 and adds any extra required details whenever the members provide them.",
+  "terms": [
+   {
+    "term": "Register of members",
+    "meaning": "An official book or record that a company keeps to track the people who own or belong to it."
+   },
+   {
+    "term": "Body corporate",
+    "meaning": "A legal term for a company or corporation rather than an individual human."
+   },
+   {
+    "term": "Cessation",
+    "meaning": "The date when a person stops being a member of the company."
+   }
+  ],
+  "watch": "Do not confuse companies limited by shares with companies not having share capital, as they have different detail requirements for their registers.",
+  "h": "8be34816d171",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "4": {
+  "summary": "Companies that issue certain financial securities must keep a special list of the people who hold them. This list must be kept separate for each different type of security. The rule specifies that Form No. MGT.2 must be used for this purpose.",
+  "points": [
+   "Applies to every company that issues or allots debentures or other securities.",
+   "A separate register must be maintained for each type of debenture or security.",
+   "The register must follow the format known as Form No. MGT.2."
+  ],
+  "example": "Green Energy Solutions Private Limited issues two different types of bonds to investors. To follow the rules, the company creates a separate record book for each bond type using Form No. MGT.2. This ensures the company properly lists every single holder for each specific security it has issued.",
+  "terms": [
+   {
+    "term": "debentures",
+    "meaning": "A type of debt security that a company issues to borrow money from investors."
+   },
+   {
+    "term": "register",
+    "meaning": "An official list or record of names and details."
+   },
+   {
+    "term": "allots",
+    "meaning": "To give or share out shares or securities to people."
+   }
+  ],
+  "watch": "Do not mix different types of securities into the same register, as each type requires its own separate list.",
+  "h": "9e7d7f2d4bf5",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "10": {
+  "summary": "When a company wants to temporarily close its register of members or security holders, it must give advance notice. Listed companies follow rules set by the Securities and Exchange Board of India and publish advertisements in newspapers and websites. Private companies can avoid newspaper advertisements if they give notice directly to all members on time.",
+  "points": [
+   "Companies must give at least seven days notice before closing their registers.",
+   "Listed companies or those wanting to list must advertise in one vernacular newspaper and one English newspaper, and publish on websites.",
+   "Private companies do not need to follow the newspaper advertisement rule if they serve notice to all members at least seven days before closure."
+  ],
+  "example": "Meera Textiles Private Limited wanted to close its register of members. Instead of giving notice through newspapers and websites, the company directly served a written notice to all its members eight days before the planned closure date. Because it is a private company and informed every member within the required time, it followed the proper process.",
+  "terms": [
+   {
+    "term": "register of members",
+    "meaning": "An official list kept by a company showing the names and details of its shareholders."
+   },
+   {
+    "term": "vernacular newspaper",
+    "meaning": "A local newspaper published in the principal language spoken in that district."
+   }
+  ],
+  "watch": "Do not assume private companies are completely exempt from giving notice; they still must notify all members at least seven days in advance.",
+  "h": "ea885ff2c496",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "11": {
+  "summary": "Every company must file its yearly report, known as an annual return, using a specific form. Most companies use Form No. MGT-7, but One Person Companies and Small Companies use Form No. MGT-7A starting from the financial year 2020-2021. Larger or listed companies must also have a certified professional check and sign their report.",
+  "points": [
+   "Most companies file their annual return in Form No. MGT-7.",
+   "One Person Company and Small Company use Form No. MGT-7A from the financial year 2020-2021 onwards.",
+   "Listed companies and companies with high share capital or turnover need a practicing Company Secretary to certify their return in Form No. MGT.8."
+  ],
+  "example": "Meera Textiles Private Limited is a small company operating in Mumbai. For the financial year 2020-2021, the company needs to file its annual return. Following the rules, Meera Textiles Private Limited will submit its yearly report using Form No. MGT-7A, rather than the standard form used by larger companies.",
+  "terms": [
+   {
+    "term": "annual return",
+    "meaning": "A yearly report that a company must file containing details about its business, management, and shareholding."
+   },
+   {
+    "term": "paid-up share capital",
+    "meaning": "The total amount of money that shareholders have paid to the company in exchange for shares."
+   },
+   {
+    "term": "turnover",
+    "meaning": "The total volume of business revenue or sales made by a company during a specific period."
+   }
+  ],
+  "watch": "Do not confuse the annual return with the company's financial statements or profit and loss accounts.",
+  "h": "3b1c52b87d64",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "12": {
+  "summary": "This rule simply states that a company must send a copy of its annual return to the Registrar. It also requires the company to pay a specific fee when doing this. No extra details, deadlines, or penalties are mentioned in the text.",
+  "points": [
+   "A copy of the annual return must be filed with the Registrar.",
+   "A specific fee must be paid along with the filing."
+  ],
+  "example": "Meera Textiles Private Limited is preparing its yearly paperwork. As required by the rule, the company sends a copy of its annual return to the Registrar. Along with this document, the company also pays the required fee specified for this filing process, completing the official requirement without any delay.",
+  "terms": [
+   {
+    "term": "annual return",
+    "meaning": "A yearly report that a company must file."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "An official government authority who keeps records of companies."
+   }
+  ],
+  "watch": "Do not assume any specific deadlines or penalty amounts because the text does not mention them.",
+  "h": "de8ba45d1ca8",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "18": {
+  "summary": "A company can send meeting notices to its members by email or other secure electronic ways. The email must include clear details in the subject line and be sent to the member's last given email address. The company must keep records showing that the email was sent, but it is not at fault if the member failed to give an email address.",
+  "points": [
+   "Notices can be sent electronically using a secure computer program that keeps records.",
+   "Emails can include text, attachments, or a link to download the notice.",
+   "The company must ask members at least once a year to register or update their email addresses.",
+   "The company is not responsible if an email fails to transmit due to reasons beyond its control."
+  ],
+  "example": "Meera Textiles Private Limited wants to hold a meeting and decides to send the notice by email. The company uses its secure computer system to email the notice to all members using their latest saved email addresses. The subject line clearly states the company name, meeting type, place, and date. Because the company kept a record of the sent emails, it has met its legal duty, even if one member forgot to update a new email address and never received it.",
+  "terms": [
+   {
+    "term": "depository",
+    "meaning": "An organization that holds securities in electronic form."
+   },
+   {
+    "term": "Uniform Resource Locator",
+    "meaning": "The web address used to access information online."
+   }
+  ],
+  "watch": "People often think the company is responsible if an email bounces, but the text says the company is not in default if the member failed to provide a valid email address.",
+  "h": "e71a0f6b5acf",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "23": {
+  "summary": "This rule explains how members of a company can give a special notice for a meeting. It covers who can sign the notice, when it must be sent to the company, and how the company must share it with other members. The rules ensure that proper time is given before the meeting takes place.",
+  "points": [
+   "Members must sign the notice holding at least one percent of total voting power or shares with a paid-up sum of not less than five lakh rupees.",
+   "Members must send the notice to the company between three months and at least fourteen days before the meeting.",
+   "The company must inform its members about the resolution at least seven days before the meeting.",
+   "If normal notice is not possible, the company must publish it in English and vernacular newspapers and on its website."
+  ],
+  "example": "Meera Textiles Private Limited wants to hold a general meeting. A group of members holding a total paid-up sum of six lakh rupees decides to give a special notice to the company. They send this notice twenty days before the scheduled meeting date. Upon receiving it, Meera Textiles Private Limited immediately gives notice of the resolution to all its members at least seven days before the meeting, following the proper rules for communication.",
+  "terms": [
+   {
+    "term": "Voting power",
+    "meaning": "The right of members to vote on company matters based on their shareholding."
+   },
+   {
+    "term": "Paid-up",
+    "meaning": "The amount of money that shareholders have actually paid to the company for their shares."
+   },
+   {
+    "term": "Vernacular language",
+    "meaning": "The local language spoken by the people in a particular area or region."
+   }
+  ],
+  "watch": "Do not count the day the notice is given and the day of the meeting when calculating the required days.",
+  "h": "21d2a65f76ba",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "25": {
+  "summary": "Companies must keep separate minute books to record different types of meetings and postal ballots. Every meeting or postal ballot result must be entered into these books with the date of entry within thirty days. These books must be signed, dated, and kept safe at the company's registered office or a place decided by the Board.",
+  "points": [
+   "A distinct minute book must be maintained for each type of meeting, including general meetings, creditor meetings, Board meetings, and committee meetings.",
+   "Minutes and postal ballot reports must be entered into the books with the date of entry within thirty days of the conclusion or passing.",
+   "Pages must be initialed or signed, and the final page must be dated and signed by the appropriate chairman or an authorized director.",
+   "Minute books must be preserved permanently and kept in the custody of the company secretary or a director authorized by the Board."
+  ],
+  "example": "Meera Textiles Private Limited held a general meeting of its members on Monday. Following the rules, the company created a distinct minute book for this meeting. Within thirty days of the meeting ending, the proceedings were entered into the book along with the entry date. The chairman of the meeting signed and dated the final page within the required timeframe. Finally, the company stored this permanent minute book safely at its registered office in the custody of the company secretary.",
+  "terms": [
+   {
+    "term": "postal ballot",
+    "meaning": "A way of voting by post or electronic means instead of attending a meeting in person."
+   },
+   {
+    "term": "scrutinizer",
+    "meaning": "A person appointed to oversee and check the voting process fairly."
+   },
+   {
+    "term": "registered office",
+    "meaning": "The official main address of the company."
+   }
+  ],
+  "watch": "Resolutions passed by postal ballot must be recorded in the general meeting minute book as if they happened at a live meeting.",
+  "h": "a19464eec52c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "26": {
+  "summary": "A company member can ask for a copy of the minutes of any general meeting. The company must give this copy within seven working days after the request. The member may have to pay a fee, but no more than ten rupees for each page.",
+  "points": [
+   "You can ask the company for a copy of any general meeting minutes.",
+   "The company must give you the copy within seven working days of your request.",
+   "For printed copies, the fee cannot be more than ten rupees per page.",
+   "Soft copies of minutes from the past three financial years are free."
+  ],
+  "example": "Rohan is a shareholder in ABC Enterprises Private Limited. He asks the company for a printed copy of the minutes from last year's annual general meeting. ABC Enterprises must provide the copy within seven working days and can charge him up to ten rupees per page. Later, Rohan asks for a soft copy of the minutes for the meetings held over the last three financial years. The company must give him these soft copies completely free of charge, following the rule.",
+  "terms": [
+   {
+    "term": "general meeting",
+    "meaning": "A formal meeting of the company's shareholders."
+   },
+   {
+    "term": "articles of association",
+    "meaning": "The rulebook that sets up how a company is run internally."
+   },
+   {
+    "term": "soft copy",
+    "meaning": "An electronic version of a document, like a PDF file."
+   }
+  ],
+  "watch": "Remember that soft copies for the last three financial years are free, while printed copies may cost up to ten rupees per page.",
+  "h": "0e18cf707fe4",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "28": {
+  "summary": "This rule explains who must keep company computer records safe and what duties they have. A designated company officer is responsible for protecting these digital files from damage, loss, or unauthorized changes. They must also take daily backups and make sure the records can always be opened and read.",
+  "points": [
+   "The Board chooses a person like the Managing Director or Company Secretary to be responsible for electronic records.",
+   "The responsible person must stop unauthorized people from changing or accessing the records.",
+   "Backups of the updated records must be made at least once a day and kept securely.",
+   "All electronic records must be stored in a format that cannot be rewritten or erased, such as a PDF."
+  ],
+  "example": "Meera Textiles Private Limited decides that its Company Secretary, Mr. Sharma, will be responsible for the security of all company digital records. Mr. Sharma ensures that the records are stored in a non-erasable PDF format so nobody can alter them. Every day, he takes a backup of the updated records, authenticates it with a date, and stores it safely at a location approved by the Board. He also limits access to the files so that only authorized staff can view them.",
+  "terms": [
+   {
+    "term": "Repudiate",
+    "meaning": "To deny or refuse to accept that something is genuine."
+   },
+   {
+    "term": "Discern",
+    "meaning": "To be able to recognize or identify something, such as an invalid record."
+   }
+  ],
+  "watch": "A common confusion is assuming anyone in the office can handle digital records, but only specific authorized officers can do so.",
+  "h": "8738cd96d0c5",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "29": {
+  "summary": "This rule explains how a company must share its electronic records when someone asks to see or copy them. The company must show the records in electronic form or give clear printed copies. It can charge up to ten rupees for each page provided.",
+  "points": [
+   "Applies when a company keeps its records in electronic form.",
+   "Requests to inspect records must be met by showing them electronically.",
+   "Requests for copies must be met by providing clear reproductions.",
+   "The company can charge a fee of not more than ten rupees per page for copies."
+  ],
+  "example": "Aarav wanted to check some records of Sharma Enterprises Private Limited that were kept on computers. He asked the company to let him inspect them and also requested some printed copies. The company showed him the files on a computer screen for his inspection. When Aarav asked for paper copies, the company provided clear reproductions and charged him eight rupees per page, which was within the allowed limit.",
+  "terms": [
+   {
+    "term": "inspection",
+    "meaning": "looking at official records to check information"
+   },
+   {
+    "term": "reproduction",
+    "meaning": "a copy of the original document or record"
+   }
+  ],
+  "watch": "Do not assume that electronic copies are always free, as the rule allows a charge of up to ten rupees per page.",
+  "h": "70f039f4447c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "30": {
+  "summary": "This rule explains the penalties for breaking any part of this specific company rule. Both the company and the responsible officers can face fines. The fines can increase for every day the rule is continually broken.",
+  "points": [
+   "Fails to follow any part of this rule.",
+   "The company and responsible officers face a fine.",
+   "Initial fine can go up to five thousand rupees.",
+   "Additional fine of up to five hundred rupees for each day the default continues."
+  ],
+  "example": "At Meera Textiles Private Limited, the manager forgot to follow a specific procedure required by this rule. Because of this mistake, the company and the manager are now facing legal action. A court may order them to pay a fine of up to five thousand rupees. If they still do not fix the mistake, they will have to pay an extra fine of up to five hundred rupees for every single day that the problem continues.",
+  "terms": [
+   {
+    "term": "default",
+    "meaning": "breaking a rule or failing to do what is required by law"
+   },
+   {
+    "term": "contravention",
+    "meaning": "an action that breaks a law or rule"
+   }
+  ],
+  "watch": "Remember that the daily fine only starts adding up after the first day the rule is broken.",
+  "h": "f9f4457c961d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
  }
 }

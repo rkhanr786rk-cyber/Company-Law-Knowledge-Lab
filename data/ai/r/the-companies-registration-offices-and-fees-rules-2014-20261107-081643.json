@@ -160,5 +160,271 @@
   "h": "3acbcfbe2497",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This rule gives a short title to the rules and states when they start. They are called the Companies (Registration Offices and Fees) Rules, 2014. They became active on April 1, 2014.",
+  "points": [
+   "The rules are named the Companies (Registration Offices and Fees) Rules, 2014.",
+   "They started on the 1st day of April, 2014."
+  ],
+  "example": "A company called Meera Textiles Private Limited wanted to know which rules applied to its office registration and fees in the year 2014. The founders checked the rules and found they were officially named the Companies (Registration Offices and Fees) Rules, 2014. They also noted that these rules started applying from April 1, 2014, which helped them understand their compliance timeline for their new business venture.",
+  "terms": [
+   {
+    "term": "Short title",
+    "meaning": "The official name by which a set of rules or laws is known."
+   },
+   {
+    "term": "Come into force",
+    "meaning": "To become active and start applying legally."
+   }
+  ],
+  "watch": "Do not assume these rules apply to dates before April 1, 2014.",
+  "h": "c4087e747058",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "3": {
+  "summary": "This rule explains when a company is officially considered to be carrying out business in India. It applies to regular companies and foreign companies that use electronic methods for their operations. Even if the main computer server is outside India, the company is treated as doing business in India if it performs certain digital activities.",
+  "points": [
+   "Applies to every company, including foreign companies, using electronic modes.",
+   "Applies regardless of whether the main server is inside or outside India.",
+   "Covers activities like online transactions, accepting deposits, and offering digital services."
+  ],
+  "example": "Alpha Global Online Limited is a foreign company with its main computer server located outside India. The company uses a mobile application to offer online education courses and financial advisory services to citizens living in India. Because Alpha Global uses electronic mode to provide these digital services and targets customers in India, it is officially deemed to have carried out business in India under this rule.",
+  "terms": [
+   {
+    "term": "foreign company",
+    "meaning": "a company or body corporate incorporated outside India"
+   },
+   {
+    "term": "deemed",
+    "meaning": "considered to be something for the purpose of the law"
+   }
+  ],
+  "watch": "A common confusion is thinking a company is exempt if its main server is outside India, but the rule states it still counts as doing business in India.",
+  "h": "36bdc7be9458",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "4": {
+  "summary": "The Central Government sets up registration offices across different places and decides their powers and areas of work. The Registrar's office is open for public business during approved working hours from 10:30 a.m. to 3:30 p.m., except on Saturdays, Sundays, and public holidays. Other offices follow the working hours approved by the Central Government.",
+  "points": [
+   "The Central Government creates offices and sets their areas of work.",
+   "The Registrar's office is open on weekdays except public holidays.",
+   "The Registrar's office timings are from 10:30 a.m. to 3:30 p.m.",
+   "Other offices follow working hours approved by the Central Government."
+  ],
+  "example": "Meera Textiles Private Limited wanted to submit documents at the local office of the Registrar. The directors checked the days and timings to make sure the office was open. They found that the Registrar's office is open for public business on weekdays between 10:30 a.m. and 3:30 p.m., excluding public holidays. They planned their visit on a normal working day within these hours to complete their work successfully.",
+  "terms": [
+   {
+    "term": "Jurisdiction",
+    "meaning": "The official area or limit within which an authority has the power to act."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "The official in charge of the office that handles company registrations."
+   }
+  ],
+  "watch": "People often get confused thinking the Registrar's office is open on weekends or outside the specified hours, but it is closed on Saturdays, Sundays, and public holidays.",
+  "h": "8c6a7a37ede9",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "5": {
+  "summary": "This rule explains the powers and duties of Registrars under the Companies Act, 2013. Registrars perform duties given to them by the law, rules, or the Central Government. If a Registrar is absent, another person authorized by the Central Government can do the work.",
+  "points": [
+   "Registrars exercise powers and duties given by the Act, rules, or the Central Government.",
+   "If a Registrar is absent, an authorized person can perform their functions.",
+   "The Central Government can change registry offices and assign officers based on where companies are located."
+  ],
+  "example": "Meera Textiles Private Limited needed to submit a document to the Registrar. However, the Registrar was away on official leave. To ensure the work did not stop, the Central Government authorized another officer to temporarily handle the duties and functions of the Registrar for companies located in that specific area.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "An officer appointed to keep company records and handle company registration matters."
+   },
+   {
+    "term": "Central Government",
+    "meaning": "The national government of the country."
+   }
+  ],
+  "watch": "People often confuse who can take over when a Registrar is absent, but only a person authorized by the Central Government can do so.",
+  "h": "d9c3178e7dee",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "6": {
+  "summary": "The law states that the Registrar must have an official seal. This seal needs to show specific words that include the title and the location. It must always read Registrar of Companies followed by the place and state.",
+  "points": [
+   "The Registrar must possess a seal.",
+   "The seal must display the words Registrar of Companies.",
+   "The seal must include the specific place and state."
+  ],
+  "example": "Ahmad worked at the government office for Meera Textiles Private Limited. He needed to verify an official document issued by the government office. He looked closely at the paper and found the official mark. It showed the words Registrar of Companies along with the name of the city and state. This confirmed the document came from the proper official office.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "An official who handles company records and registrations."
+   },
+   {
+    "term": "Seal",
+    "meaning": "An official stamp or mark used to verify documents."
+   }
+  ],
+  "watch": "People often confuse the company seal with the official seal of the Registrar.",
+  "h": "ee6eb31ead16",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "7": {
+  "summary": "This rule explains how companies must file documents, applications, and notices under the law. Generally, everything must be submitted online in electronic format through the official government website. However, special rules apply when physical stamp paper is used or when a company has pending financial updates.",
+  "points": [
+   "Documents must be filed online in electronic format or portable document format (pdf) through the official portal.",
+   "If stamp duty is paid electronically on the portal, physical copies are not required.",
+   "Companies must keep original stamped documents safely for inspection.",
+   "Defaulting companies must update their financial statements and annual returns before the Registrar accepts event-based changes."
+  ],
+  "example": "Meera Textiles Private Limited wanted to file its annual paperwork with the Registrar. Because the company paid the required stamp duty electronically through the official government portal, it did not need to submit physical copies of the documents. Instead, Meera Textiles successfully uploaded everything online in portable document format. The company also made sure that every document contained the correct name, designation, address, and membership or identification number of the person signing it, rather than just writing authorized signatory.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "The official authority who keeps company records."
+   },
+   {
+    "term": "Stamp Paper",
+    "meaning": "Paper bearing adhesive or impressed revenue stamps used for legal documents."
+   }
+  ],
+  "watch": "A company cannot assume that online filing replaces physical submission in every case involving stamp paper unless the duty was paid electronically through the government portal.",
+  "h": "c31edbeae1b9",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "8A": {
+  "summary": "This rule explains who must sign digital forms for companies that are going through insolvency or liquidation. An Insolvency Resolution Professional, Resolution Professional, or Liquidator must sign these forms. The signed forms are then filed with the Registrar along with the required fee.",
+  "points": [
+   "Digital forms must be signed by the person managing the company's insolvency or liquidation.",
+   "The authorized signers include the Insolvency Resolution Professional, Resolution Professional, or Liquidator.",
+   "The forms must be filed with the Registrar.",
+   "The correct fee, as mentioned in the rules, must be paid when filing."
+  ],
+  "example": "Blue Star Private Limited entered insolvency proceedings. An Insolvency Resolution Professional was appointed to manage the company's affairs. When required to submit an electronic form to the authorities, the Insolvency Resolution Professional signed the document and submitted it to the Registrar along with the specified fee, ensuring the process followed the rules correctly.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "An official who maintains company records and registers."
+   },
+   {
+    "term": "Liquidation",
+    "meaning": "The process of winding up a company's business and closing it down."
+   }
+  ],
+  "watch": "Do not assume that company directors sign these forms once the company is under insolvency or liquidation.",
+  "h": "6226ecbe0fac",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "9": {
+  "summary": "The Central Government must set up a secure electronic registry to store company documents online. Officials and companies must use digital signatures to sign or issue documents digitally. Companies must also maintain a valid email address to receive messages from the Registrar.",
+  "points": [
+   "The Central Government maintains a secure online registry for all company filings and documents.",
+   "Registrars and government officers must use valid or system-generated digital signatures on certificates and notices.",
+   "Registrars normally issue approvals and receipts electronically, but can use physical paper with a manual signature and seal if necessary.",
+   "Companies must keep a valid email address active at all times to receive communications from the Registrar."
+  ],
+  "example": "Aarav Textiles Private Limited submitted its annual return online through the central electronic registry. The Registrar reviewed the filing and issued an official approval receipt using a valid digital signature. Meanwhile, the Registrar also sent a notice to the company's official email address. Because Aarav Textiles maintained a proper electronic address capable of receiving messages, the company's directors successfully accessed and acknowledged the notice without needing to visit a physical government office.",
+  "terms": [
+   {
+    "term": "Digital signature",
+    "meaning": "An electronic way of signing documents securely online, similar to a handwritten signature."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "A government officer who handles the registration and records of companies."
+   },
+   {
+    "term": "Centralised electronic registry",
+    "meaning": "A single, central online database used to store all company documents."
+   }
+  ],
+  "watch": "Do not assume documents can only be physical; the rules state they are handled electronically unless a specific exception applies.",
+  "h": "d1eb47443a0b",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "11": {
+  "summary": "When a director leaves or is removed before Form No DIR-12 is approved or rejected, the Registrar checks the documents and proof. If the company broke any laws or rules, the Registrar sends the matter to the Regional Director to look into it. The Regional Director must hear the affected director and tell the Registrar the final decision within ninety days.",
+  "points": [
+   "The Registrar verifies documents like board resolution copies, meeting notices, or minutes when a director leaves or is removed.",
+   "If the company violated the Act or rules, the Registrar refers the matter to the Regional Director.",
+   "The Regional Director gives the removed director a chance to speak and investigates the issue.",
+   "The Regional Director must convey the decision to the Registrar within ninety days."
+  ],
+  "example": "At Meera Textiles Private Limited, a director was removed from the board before Form No DIR-12 was processed. The Registrar checked the meeting notices and board minutes. Finding that the company had violated a rule, the Registrar referred the case to the Regional Director. The Regional Director gave the removed director an opportunity to be heard and sent the final decision back to the Registrar within ninety days.",
+  "terms": [
+   {
+    "term": "Registrar",
+    "meaning": "An official who handles company records and registrations."
+   },
+   {
+    "term": "Regional Director",
+    "meaning": "An authority who inquires into matters referred by the Registrar."
+   },
+   {
+    "term": "Form No DIR-12",
+    "meaning": "A specific official form used to report changes in company directors."
+   }
+  ],
+  "watch": "People often confuse the role of the Registrar, who only verifies documents and refers violations, with the Regional Director, who actually inquires and decides the matter.",
+  "h": "6addc69ff080",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "13": {
+  "summary": "This rule explains how companies must pay their fees and charges under the Companies Act, 2013. Payments can be made online through credit cards or internet banking, or in person at authorized banks. The Central Government may also approve other payment methods.",
+  "points": [
+   "Fees and charges for filing forms or documents must be paid using approved methods.",
+   "Accepted payment methods include credit cards and internet banking.",
+   "Payments can also be made directly at the counter of authorized banks.",
+   "The Central Government can approve other ways to pay."
+  ],
+  "example": "Meera Textiles Private Limited needs to file a new annual form with the government. To pay the required filing fee, the company decides to use internet banking. Alternatively, their accountant goes to the counter of an authorized bank to make the payment directly.",
+  "terms": [
+   {
+    "term": "remittance",
+    "meaning": "Sending money to a place or a bank as a payment."
+   },
+   {
+    "term": "authorised banks",
+    "meaning": "Banks that have official permission to collect these government payments."
+   }
+  ],
+  "watch": "People often think they can pay using any method they like, but payments are strictly limited to the modes officially listed or approved.",
+  "h": "266024969ea3",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "14": {
+  "summary": "This rule explains how people can look at company documents. Anyone can view these records online through the electronic system. It applies to documents that the law already allows people to check.",
+  "points": [
+   "Documents kept in the electronic registry can be inspected.",
+   "The inspection must be done in electronic form.",
+   "This applies only to documents that are available for inspection under the Act or rules."
+  ],
+  "example": "Aarav wanted to check some official company documents to understand their registered details. He used the online system set up by the office. Since the rules allow the public to view these specific records, Aarav was able to complete his inspection entirely in electronic form without needing paper copies.",
+  "terms": [
+   {
+    "term": "Registry",
+    "meaning": "An official place or system where records and documents are kept."
+   },
+   {
+    "term": "Inspection",
+    "meaning": "The act of carefully looking at or examining something."
+   }
+  ],
+  "watch": "People often think all company files are open to view, but this rule only covers documents that are already allowed to be checked under the law.",
+  "h": "604ec6354eee",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
  }
 }

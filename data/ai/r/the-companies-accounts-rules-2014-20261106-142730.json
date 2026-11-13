@@ -253,5 +253,153 @@
   "h": "e2f100e857f9",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This rule gives a specific name to a set of regulations about company accounts. It also states the exact date when these rules start applying. No other details or requirements are included in this text.",
+  "points": [
+   "The rules are named the Companies (Accounts) Rules, 2014.",
+   "They officially start on the 1st day of April, 2014."
+  ],
+  "example": "Meera Textiles Private Limited wanted to know when the new official accounts regulations would start to apply to their business records. They checked the law and found that the rules, named the Companies (Accounts) Rules, 2014, officially came into force on the 1st day of April, 2014.",
+  "terms": [
+   {
+    "term": "come into force",
+    "meaning": "start to officially apply or become active"
+   },
+   {
+    "term": "short title",
+    "meaning": "the official short name given to a law or rule"
+   }
+  ],
+  "watch": "Do not confuse the name of the rules with the date they officially started.",
+  "h": "3a0f74ba7dc7",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "2": {
+  "summary": "This rule simply explains the meaning of certain words used in the Companies (Accounts) Rules, 2014. It helps readers understand terms like the Act, forms, and fees when they appear in the rules. If a word is not explained here, its meaning comes directly from the main Companies Act or related rules.",
+  "points": [
+   "The term Act refers to the Companies Act, 2013.",
+   "A Form or e-Form means the specific digital paper or document attached to these rules.",
+   "Words not defined in these rules take their meaning from the main Act or other specific rules."
+  ],
+  "example": "Meera Textiles Private Limited needed to submit a document to the government. The accountant checked the rules to know which document to use. Because the rule defines a 'Form' as the specific paper set out in the rules, the company used the exact correct Form to complete their filing without any confusion.",
+  "terms": [
+   {
+    "term": "Act",
+    "meaning": "The main law passed by the government, which is the Companies Act, 2013."
+   },
+   {
+    "term": "Annexure",
+    "meaning": "An attachment or extra document added at the end of the rules."
+   }
+  ],
+  "watch": "Do not assume a word has an everyday meaning if it is specially defined in the main Act.",
+  "h": "f2456f225ce5",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "3": {
+  "summary": "This rule explains how companies must keep their financial books and records when using computers and digital systems. Companies must ensure their electronic records stay accessible in India, remain unchanged, and are backed up on servers located in India every day. They also need to use specific accounting software with an audit trail and report details about their digital service providers to the Registrar each year.",
+  "points": [
+   "Digital books of account must always remain accessible in India for future use.",
+   "Companies must use accounting software that records an unchangeable audit trail and edit log for every transaction starting April 1, 2023.",
+   "Back-ups of all electronic books and papers must be kept on servers physically located in India on a daily basis.",
+   "Companies must inform the Registrar about their service provider details every year when filing financial statements."
+  ],
+  "example": "Meera Textiles Private Limited uses computer software to manage its financial records. Starting April 1, 2023, the company makes sure its software tracks every single change made to the accounts with the exact date, and that this history cannot be turned off. Every day, the company backs up all its digital records onto a server physically located in India. When filing its financial statement for the year, Meera Textiles also submits the name, IP address, and location of its digital service provider to the Registrar.",
+  "terms": [
+   {
+    "term": "Audit trail",
+    "meaning": "A feature in accounting software that records an edit log of every change made in books of account along with the date."
+   },
+   {
+    "term": "Legible form",
+    "meaning": "A format that is clear and easy to read and understand."
+   },
+   {
+    "term": "Registrar",
+    "meaning": "The government authority where companies file their documents and financial statements."
+   }
+  ],
+  "watch": "A common confusion is thinking back-ups can be kept anywhere, but the rule requires daily back-up servers to be physically located in India.",
+  "h": "5e673847ac6c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "4": {
+  "summary": "This rule explains how directors can check financial records and information that a company keeps outside India. Summarised returns of foreign books of account must be sent to the registered office every quarter for directors to inspect. If a director wants other financial information from abroad, they must ask for it in writing themselves.",
+  "points": [
+   "Summarised returns of books kept outside India must be sent to the registered office every quarter.",
+   "These quarterly returns must be kept open for directors to inspect at the registered office.",
+   "A director wanting other foreign financial information must send a written request with full details and the required period.",
+   "The company must provide this information within fifteen days of receiving the written request.",
+   "The director must ask for the information personally and not through an agent, representative, or power of attorney holder."
+  ],
+  "example": "Meera Textiles Private Limited keeps some financial records outside India. Director Rohan wants to see this information. Instead of sending his assistant, Rohan writes a letter to the company giving all details and the specific time period he needs. Meera Textiles receives Rohan's letter and produces the requested financial information to Rohan within fifteen days. Meanwhile, the company also receives summarised returns of its foreign accounts every quarter, and these are kept at the registered office for any director to inspect.",
+  "terms": [
+   {
+    "term": "registered office",
+    "meaning": "The official main address of the company."
+   },
+   {
+    "term": "quarterly intervals",
+    "meaning": "Every three months or four times a year."
+   },
+   {
+    "term": "power of attorney holder",
+    "meaning": "A person legally authorized to act on behalf of someone else."
+   }
+  ],
+  "watch": "A common confusion is thinking a director can send an agent or lawyer to ask for the information, but the law strictly requires the director to ask for it personally.",
+  "h": "891f5c9e2402",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "4A": {
+  "summary": "This rule explains how companies must present their financial statements. They must follow the form given in Schedule III of the Companies Act. They also must follow the relevant Accounting Standards or Indian Accounting Standards.",
+  "points": [
+   "Financial statements must use the form in Schedule III to the Act.",
+   "Companies must comply with applicable Accounting Standards or Indian Accounting Standards.",
+   "Items in the financial statements must follow the definitions and requirements in those standards."
+  ],
+  "example": "Meera Textiles Private Limited is preparing its yearly financial reports. To follow the law, the company uses the specific form found in Schedule III of the Companies Act. The accountants make sure every item in the statements follows the rules and definitions set by the applicable Indian Accounting Standards, ensuring the report is legally correct.",
+  "terms": [
+   {
+    "term": "Financial statements",
+    "meaning": "Official reports showing a company's money matters."
+   },
+   {
+    "term": "Accounting Standards",
+    "meaning": "Rules and guidelines for how to record and report money matters."
+   }
+  ],
+  "watch": "Do not mix up Schedule III forms with the separate rules found in the Accounting Standards.",
+  "h": "03ab9f5be9e7",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "9": {
+  "summary": "This rule explains how a company must share its Corporate Social Responsibility policy. The details must be included in the Board's report and on the company's website, if there is one. The format to use comes from a specific annexure in the rules.",
+  "points": [
+   "Disclose the CSR policy contents in the Board's report.",
+   "Publish the CSR policy on the company's website if the company has a website.",
+   "Follow the format given in the annexure of the Companies rules."
+  ],
+  "example": "Meera Textiles Private Limited wants to share its Corporate Social Responsibility policy with the public. Following the rule, the company includes the full policy details inside its official Board report. Additionally, because the company owns an official website, the managers upload the policy there so that customers and partners can easily read it.",
+  "terms": [
+   {
+    "term": "Board's report",
+    "meaning": "A formal annual report prepared by the directors of a company for its shareholders."
+   },
+   {
+    "term": "Annexure",
+    "meaning": "An added document or attachment that provides extra details or forms at the end of a main set of rules."
+   }
+  ],
+  "watch": "People often think having a website is mandatory, but the text only mentions putting the policy on the website if the company actually has one.",
+  "h": "8e18d31ec759",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
  }
 }

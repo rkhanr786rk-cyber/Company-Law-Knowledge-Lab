@@ -50,5 +50,47 @@
   "h": "248e7f952d69",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This rule gives a short title to the rules about filing company documents in a specific digital language. It states that these rules start working as soon as they are published in the official government publication. No extra details are provided in the text.",
+  "points": [
+   "The rules are called the Companies (Filing of Documents and Forms in Extensible Business Reporting Language) Rules, 2015.",
+   "They become active on the date they are published in the Official Gazette."
+  ],
+  "example": "Meera Textiles Private Limited wants to know when the new digital filing rules apply to them. The directors check the Official Gazette and see that the rules were published on that exact day. Because the rule states they come into force immediately upon publication, the company knows the rules are active right away.",
+  "terms": [
+   {
+    "term": "Official Gazette",
+    "meaning": "The official government newspaper or publication where new laws and rules are announced to the public."
+   }
+  ],
+  "watch": "Do not confuse the name of the rules with the date they start, as the start date depends entirely on when they appear in the Official Gazette.",
+  "h": "7bde534d47eb",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "2": {
+  "summary": "This rule gives the basic definitions used in the rules for filing company documents in an electronic language. It explains terms like the Act, documents, Extensible Business Reporting Language, and Taxonomy. Any words not defined here will take their meanings from the main Companies Act or specific rules.",
+  "points": [
+   "Act means the Companies Act, 2013.",
+   "Documents and forms are those required to be filed with authorities under company law.",
+   "XBRL is a standardised electronic language used by companies to report financial information.",
+   "Taxonomy is an electronic dictionary approved by the Central Government for reporting business data."
+  ],
+  "example": "Meera Textiles Private Limited needs to file its financial information with the authority. Instead of paper, the company uses XBRL, which is a standardised electronic language. To report the business data correctly, the accountant refers to the Taxonomy, which acts as the official electronic dictionary approved by the Central Government for these filings.",
+  "terms": [
+   {
+    "term": "Extensible Business Reporting Language",
+    "meaning": "A standardised electronic language used by companies to report financial information."
+   },
+   {
+    "term": "Taxonomy",
+    "meaning": "An electronic dictionary approved by the government for reporting business data."
+   }
+  ],
+  "watch": "Do not assume terms not defined here have everyday meanings; check the main Companies Act instead.",
+  "h": "a77b700df73c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
  }
 }

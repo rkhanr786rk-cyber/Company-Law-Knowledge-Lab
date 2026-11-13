@@ -54,5 +54,170 @@
   "h": "86a7c68461d7",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This rule gives a short name to these specific regulations and states when they officially start. It tells us that these rules are called the Companies (Issue of Global Depository Receipts) Rules, 2014. They became active on the 1st day of April, 2014.",
+  "points": [
+   "The rules are officially called the Companies (Issue of Global Depository Receipts) Rules, 2014.",
+   "They officially started on April 1, 2014."
+  ],
+  "example": "Meera Textiles Private Limited wanted to check the exact name and start date of the regulations that apply to their upcoming international shares. Their legal advisor confirmed that the rules are called the Companies (Issue of Global Depository Receipts) Rules, 2014, and they officially came into force on the 1st day of April, 2014.",
+  "terms": [
+   {
+    "term": "Short title",
+    "meaning": "The official name by which a set of rules or a law is known."
+   },
+   {
+    "term": "Come into force",
+    "meaning": "The date when a rule or law officially becomes active and starts applying."
+   }
+  ],
+  "watch": "People often confuse the date these rules started with the date a company was actually registered.",
+  "h": "8c66f9ebf1e1",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "2": {
+  "summary": "This rule provides the basic definitions for terms used in the rules regarding Global Depository Receipts under the Companies Act, 2013. It clarifies words like Act, Scheme, and overseas depository bank by pointing to their meanings in other official documents. If a term is not defined here, its meaning is taken directly from the Act or the Depository Receipts Scheme.",
+  "points": [
+   "Act refers to the Companies Act, 2013.",
+   "Overseas depository bank has the same meaning as a foreign depository in the Scheme.",
+   "Words not specifically defined here take their meanings from the Act or the Scheme."
+  ],
+  "example": "Meera Textiles Private Limited wanted to understand what the term overseas depository bank meant while reading the rules. The managers checked Rule 2 and found that it means a foreign depository as defined in the Depository Receipts Scheme, so they referred to that Scheme for clarity.",
+  "terms": [
+   {
+    "term": "Scheme",
+    "meaning": "The Depository Receipts Scheme, 2014, including any changes or new versions of it."
+   },
+   {
+    "term": "Section",
+    "meaning": "A specific section of the Companies Act, 2013."
+   }
+  ],
+  "watch": "Do not assume terms without a definition here have no meaning; always check the Act or the Scheme.",
+  "h": "d3198667c71f",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "3": {
+  "summary": "This rule explains when a company can issue depository receipts. The company must be allowed to do so under a specific Scheme and the rules for foreign exchange. If the text is too short or unclear to explain more, that is all it says.",
+  "points": [
+   "A company is allowed to issue depository receipts.",
+   "The company must be eligible under the Scheme.",
+   "The company must also follow relevant Foreign Exchange Management Rules and Regulations."
+  ],
+  "example": "Asha Pharma Private Limited wants to issue depository receipts to investors in other countries. Before moving forward, the directors check if the company meets all the requirements given in the Scheme. They also verify that their plan follows the Foreign Exchange Management Rules and Regulations. Only after confirming both conditions are met does Asha Pharma Private Limited proceed with issuing the depository receipts.",
+  "terms": [
+   {
+    "term": "depository receipts",
+    "meaning": "A financial certificate that represents shares of a company, traded on international markets."
+   }
+  ],
+  "watch": "Do not assume any specific financial limits or deadlines, because the text does not mention them.",
+  "h": "c7250e365de1",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "5": {
+  "summary": "This rule explains how a company can issue depository receipts. Depository receipts can be offered to the public, through private placement, or in other common ways abroad. They can be created using newly issued shares or existing shares held by current shareholders.",
+  "points": [
+   "Depository receipts can be issued by public offering, private placement, or other ways used in that country.",
+   "They can be listed or traded on platforms in that country.",
+   "They can be issued for new shares or existing shares held by shareholders.",
+   "Underlying shares are allotted to the overseas depository bank, which then issues the depository receipts."
+  ],
+  "example": "Meera Textiles Private Limited decided to raise funds abroad. The company issued new shares. These new shares were allotted directly in the name of an overseas depository bank. Against these shares, the overseas depository bank then issued depository receipts. These receipts could be traded on the trading platform in that foreign jurisdiction according to the rules set by the Central Government or Reserve Bank of India.",
+  "terms": [
+   {
+    "term": "Depository receipts",
+    "meaning": "Financial instruments issued outside India against shares of a company."
+   },
+   {
+    "term": "Private placement",
+    "meaning": "A way of selling shares to a select group of people rather than the general public."
+   },
+   {
+    "term": "Underlying shares",
+    "meaning": "The actual company shares on which the depository receipts are based."
+   }
+  ],
+  "watch": "Make sure to follow any conditions set by the Central Government or Reserve Bank of India when issuing shares.",
+  "h": "ce2d0d315c07",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "6": {
+  "summary": "This rule explains who gets to vote in a company when global depository receipts are used. Regular holders of these receipts cannot vote directly until they convert them into actual shares. Until that conversion happens, the overseas depository votes on their behalf based on a prior agreement.",
+  "points": [
+   "Depository receipt holders become company members only after converting their receipts into shares.",
+   "Conversion must follow the specific Scheme and provisions of the Act.",
+   "Before conversion, the overseas depository votes for the holders according to their agreement."
+  ],
+  "example": "Meera Textiles Private Limited issued global depository receipts to investors overseas. John holds some of these receipts and wants to vote directly at the company meeting. However, John has not yet converted his receipts into actual shares. Therefore, John cannot vote himself. Instead, the overseas depository casts the vote on behalf of John, following the rules written in their special agreement with the company.",
+  "terms": [
+   {
+    "term": "Depository receipts",
+    "meaning": "Financial certificates issued abroad that represent shares in an Indian company."
+   },
+   {
+    "term": "Overseas depository",
+    "meaning": "An institution outside India that holds the actual company shares on behalf of the receipt holders."
+   }
+  ],
+  "watch": "Do not confuse holding depository receipts with actually owning the underlying shares before conversion takes place.",
+  "h": "1e0cd99e5441",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "7": {
+  "summary": "This rule explains where money raised from issuing depository receipts must be kept. The money can be sent to a bank account in India, an Indian bank abroad, or certain foreign banks with Indian operations. For sponsored issues, the sale money goes directly to the bank accounts of the shareholders.",
+  "points": [
+   "Proceeds must be sent to a bank account in India, an Indian bank abroad, or a foreign bank that is a Scheduled Bank under the Reserve Bank of India Act, 1934 and has operations in India.",
+   "A foreign bank holding the proceeds must agree to provide all required information.",
+   "For a sponsored issue, the sale proceeds must be credited to the respective bank accounts of the shareholders.",
+   "Proceeds may also be sent to an International Financial Services Centre Banking Unit and used according to Reserve Bank of India instructions."
+  ],
+  "example": "Meera Textiles Private Limited decided to issue depository receipts. Once the investors paid for the issue, the company needed to handle the collected money properly. Following the rules, the management sent the proceeds to a designated bank account in India. For another part of the issue which was a sponsored issue, the sales proceeds were credited directly to the respective bank accounts of the participating shareholders, ensuring everything matched the legal requirements.",
+  "terms": [
+   {
+    "term": "Depository Receipts",
+    "meaning": "Financial certificates issued by a company to represent its shares, often traded abroad."
+   },
+   {
+    "term": "Scheduled Bank",
+    "meaning": "A bank that is listed in the second schedule of the Reserve Bank of India Act, 1934."
+   },
+   {
+    "term": "Remitted",
+    "meaning": "Sent or transferred to a designated place or person."
+   }
+  ],
+  "watch": "Do not confuse regular bank accounts with the specific types of permitted banks listed in the text.",
+  "h": "890344d67b07",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "8": {
+  "summary": "This rule explains what companies must do if they issued global depository receipts before these rules started. Any such company must follow the new rules within six months. After those six months, any new issue of depository receipts must also follow these rules.",
+  "points": [
+   "Companies that issued depository receipts before the rules started have six months to comply.",
+   "All issues of depository receipts made after the six-month period must strictly follow these rules."
+  ],
+  "example": "Meera Textiles Private Limited issued global depository receipts before these rules came into effect. According to the rule, the company must fully comply with all the requirements of these new rules within six months of their commencement. If Meera Textiles Private Limited wants to issue any more depository receipts after that six-month period, those new issues must also completely follow these rules.",
+  "terms": [
+   {
+    "term": "depository receipts",
+    "meaning": "financial instruments issued by a company that represent its shares."
+   },
+   {
+    "term": "commencement",
+    "meaning": "the start or beginning of the rules."
+   }
+  ],
+  "watch": "Do not confuse the deadline for past issues with the rules for future issues, which apply permanently after six months.",
+  "h": "856d4f7ed55f",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
  }
 }

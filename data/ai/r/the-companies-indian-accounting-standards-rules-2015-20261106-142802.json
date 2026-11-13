@@ -22,5 +22,102 @@
   "h": "e6c6a1ca68a2",
   "m": "gemini-3.5-flash-lite",
   "d": "2026-11-11"
+ },
+ "1": {
+  "summary": "This rule gives a specific name to a set of regulations for companies in India and tells us when they start. These rules are called the Companies (Indian Accounting Standards) Rules, 2015. They officially started on the first day of April in the year 2015.",
+  "points": [
+   "The rules are named the Companies (Indian Accounting Standards) Rules, 2015.",
+   "They came into force on April 1, 2015."
+  ],
+  "example": "Meera Textiles Private Limited was planning its accounts for the upcoming financial year. The manager checked the exact date when the new accounting rules became active to ensure proper compliance. According to the regulations, these rules officially came into force on the 1st day of April, 2015, so the company applied them from that date onward.",
+  "terms": [
+   {
+    "term": "come into force",
+    "meaning": "To become active and start applying legally."
+   }
+  ],
+  "watch": "Do not assume these rules apply to all companies without checking other provisions, as this text only provides the name and start date.",
+  "h": "2b8779f3fbd1",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "3": {
+  "summary": "This rule decides which accounting rules a company must follow. It splits companies into two groups based on another rule. A company must stick to only one set of rules and cannot mix them.",
+  "points": [
+   "Certain companies must follow the Indian Accounting Standards (Ind AS).",
+   "Other companies must follow the standards from the 2006 rules.",
+   "A company using Ind AS must use only those standards.",
+   "A company using the 2006 standards must follow only those standards."
+  ],
+  "example": "Meera Textiles Private Limited falls under the special group of companies mentioned in rule 4. Because of this rule, Meera Textiles must follow the Indian Accounting Standards (Ind AS) for its accounts and cannot use the older 2006 standards. On the other hand, a small local firm that does not fall under rule 4 must follow the standards from the Companies (Accounting Standards) Rules, 2006 only.",
+  "terms": [
+   {
+    "term": "Accounting standards",
+    "meaning": "Official rules for how a company must keep and report its financial accounts."
+   },
+   {
+    "term": "Ind AS",
+    "meaning": "Short for Indian Accounting Standards, which are specific rules set out for certain companies."
+   }
+  ],
+  "watch": "A company cannot mix rules and must follow only the specific set that applies to it.",
+  "h": "f8fdded5d41a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "4": {
+  "summary": "This rule sets the requirements for companies and their auditors to follow specific Indian Accounting Standards when preparing and auditing financial statements. Different types of companies, including non-banking financial companies and banks' related companies, must start following these standards in stages based on dates, listing status, and net worth. Auditors must also comply with these standards during their audits.",
+  "points": [
+   "Companies and their auditors must follow Indian Accounting Standards in specific phases based on company type, net worth, and listing status.",
+   "Special timelines are provided for non-banking financial companies and related entities of scheduled commercial banks.",
+   "Net worth calculations for determining rules follow specific dates like March 31, 2014, or the first audited statements after that date."
+  ],
+  "example": "Meera Textiles Private Limited is an unlisted company with a net worth of rupees three hundred crore. Because it falls within the specified financial threshold and timeline, the company and its auditor must prepare and audit its financial statements by complying with the Indian Accounting Standards starting from the applicable accounting period.",
+  "terms": [
+   {
+    "term": "Net worth",
+    "meaning": "The total value of assets minus liabilities as calculated based on standalone financial statements."
+   },
+   {
+    "term": "Holding, subsidiary, joint venture or associate company",
+    "meaning": "Companies that are connected to each other through ownership or control relationships."
+   },
+   {
+    "term": "Comparatives",
+    "meaning": "Comparative figures for the preceding accounting period."
+   }
+  ],
+  "watch": "Make sure to check the exact net worth and listing status of the company, as different thresholds apply to different categories and timelines.",
+  "h": "3ca087bff23a",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
+ },
+ "5": {
+  "summary": "Banking and insurance companies must apply Indian Accounting Standards notified by their respective regulators like RBI and IRDA. An insurance company must still provide necessary financial statement data to help its parent or investor prepare consolidated financial statements. Insurers may use Ind AS 104 for this purpose until IRDA notifies Ind AS 117.",
+  "points": [
+   "Banking companies apply Ind AS notified by the Reserve Bank of India.",
+   "Insurance companies apply Ind AS notified by the Insurance Regulatory Development Authority.",
+   "Insurers must provide compliant financial data for parent company consolidated statements.",
+   "Insurers may use Ind AS 104 until IRDA notifies Ind AS 117."
+  ],
+  "example": "Meera Textiles Private Limited is the parent company of Sunrise Insurance Company Limited. To prepare its group financial statements, Meera Textiles asks Sunrise Insurance Company Limited to provide financial statement data. Sunrise Insurance Company Limited provides the data using Ind AS 104 as required for the parent company's consolidated financial statements.",
+  "terms": [
+   {
+    "term": "Ind AS",
+    "meaning": "Indian Accounting Standards used for company financial statements."
+   },
+   {
+    "term": "Consolidated financial statements",
+    "meaning": "Combined financial statements of a parent company and all its subsidiaries."
+   },
+   {
+    "term": "Venturer",
+    "meaning": "A party to a joint venture that has joint control over the venture."
+   }
+  ],
+  "watch": "Do not confuse the general accounting standards with the specific rules issued by the RBI and IRDA for banks and insurers.",
+  "h": "71f2f80a88ba",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-13"
  }
 }
