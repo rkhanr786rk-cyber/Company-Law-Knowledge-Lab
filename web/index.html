@@ -326,6 +326,28 @@ table.cal{width:100%;border-collapse:collapse;margin-top:.4rem;font:400 .94rem/1
 .toast{position:fixed;left:50%;bottom:1.4rem;transform:translateX(-50%);background:var(--ink);color:var(--page);padding:.5rem .9rem;border-radius:3px;font:500 .9rem var(--sans);z-index:70}
 @media (max-width:820px){.nav{display:none}.cal th:nth-child(3),.cal td:nth-child(3){display:none}}
 @media print{.stool,.mynotes,.nav{display:none!important}}
+
+/* calendar export and section pack */
+.calrow{display:flex;flex-wrap:wrap;gap:.5rem;margin:.6rem 0 0}
+.calrow .btn{font-size:.84rem;padding:.3rem .7rem;text-decoration:none;display:inline-block}
+.copick{margin:0 0 1.2rem}
+.copick label{display:flex;flex-direction:column;gap:.2rem;font:500 .84rem var(--sans);color:var(--muted);max-width:26rem}
+.copick input{padding:.5rem .6rem;border:1px solid var(--rule);border-radius:3px;background:var(--page);color:var(--ink);font:400 .98rem var(--sans)}
+.packbox .row label{min-width:0}
+.packbox input[type=text]{min-width:min(100%,24rem)}
+.packbox .chk{flex-direction:row;align-items:center;gap:.4rem;color:var(--ink)}
+.packdoc{background:var(--page);border:1px solid var(--rule);padding:clamp(1.2rem,4vw,2.6rem);font:400 calc(1.05rem*var(--fs))/1.65 var(--serif)}
+.packdoc h1{font-size:2rem;margin:0 0 .4rem}
+.packdoc h2{margin:2.4rem 0 .2rem;padding-top:1rem;border-top:2px solid var(--ink);font:600 1.5rem var(--serif)}
+.packdoc h3{margin:1.4rem 0 .3rem;font:600 1.1rem var(--sans)}
+.packdoc h4{margin:1rem 0 .2rem;font:600 1rem var(--serif)}
+.packdoc .sub{margin:.1rem 0 .8rem;color:var(--muted);font:400 .92rem var(--sans)}
+.packdoc p{margin:0 0 .55em}
+.packdoc .pk-sub{padding-left:2.2em;text-indent:-2.2em}.packdoc .pk-clause{margin-left:2.2em}.packdoc .pk-subclause{margin-left:4.4em}
+.packdoc .pk-proviso,.packdoc .pk-expl{margin-left:2.2em;font-size:.95em}
+.packdoc .pk-note{padding:.5rem .8rem;border-left:3px solid var(--link);background:color-mix(in srgb,var(--link) 7%,transparent);font-family:var(--sans);font-size:.92em;white-space:pre-wrap}
+.packdoc ol.toc2{margin:.6rem 0 0;padding-left:1.4rem;font:400 .98rem/1.5 var(--sans)}
+@media print{.noprint{display:none!important}.pg{padding:0;max-width:none}.packdoc{border:0;padding:0;font-size:11.5pt}.packdoc h2{page-break-before:always;border-top:0}.packdoc h2.first{page-break-before:avoid}}
 @media print{.bar,.side,.mtabs,.tapewrap,.pn,.foot{display:none!important}.reader{display:block}body{background:#fff}}
 </style>
 </head>
@@ -849,7 +871,7 @@ const WS = {
   seen(n) { const w = this.get(); w.recent = [n, ...w.recent.filter(x => x !== n)].slice(0, 20); this.put(w); }
 };
 const navMark = k => $$(".nav a").forEach(a => { if (a.dataset.nav === k) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
-const toast = m => { const t = document.createElement("div"); t.className = "toast"; t.textContent = m; document.body.appendChild(t); setTimeout(() => t.remove(), 2200); };
+const toast = m => { $$(".toast").forEach(x => x.remove()); const t = document.createElement("div"); t.className = "toast"; t.textContent = m; document.body.appendChild(t); setTimeout(() => t.remove(), 2200); };
 async function copyText(t) {
   try { await navigator.clipboard.writeText(t); return true; }
   catch (e) { const a = document.createElement("textarea"); a.value = t; document.body.appendChild(a); a.select(); let ok = false; try { ok = document.execCommand("copy"); } catch (x) {} a.remove(); return ok; }
@@ -890,6 +912,12 @@ function showWorkspace() {
     <h2>Saved sections</h2>${w.saved.length ? `<ul class="list">${w.saved.map(n => li(n, "", `<button class="x" type="button" data-unsave="${esc(n)}">Remove</button>`)).join("")}</ul>` : `<p class="note">Nothing saved yet. Open a section and press Save.</p>`}
     <h2>My notes</h2>${notes.length ? `<ul class="list">${notes.map(n => li(n, w.notes[n].replace(/\s+/g, " ").slice(0, 160))).join("")}</ul>` : `<p class="note">No notes yet. Every section has a My notes box under its text.</p>`}
     <h2>Recently read</h2>${w.recent.length ? `<ul class="list">${w.recent.map(n => li(n, "")).join("")}</ul>` : `<p class="note">Sections you open appear here.</p>`}
+    <h2>Section pack</h2><div class="box packbox"><p class="note" style="margin:0 0 .7rem">Put chosen sections, their Rules and your notes into one document to print, save as PDF, or open in Word.</p>
+      <div class="row"><label>Sections (numbers separated by commas)<input type="text" id="pk-secs" value="${esc(w.saved.join(", "))}" placeholder="For example 92, 134, 173" autocomplete="off"></label><button class="btn" type="button" id="pk-saved">Use my saved sections</button></div>
+      <div class="row"><label>Title of the pack<input type="text" id="pk-title" placeholder="Companies Act, 2013: selected sections" autocomplete="off"></label>
+        <label>Rules<select id="pk-rules"><option value="cited">Titles and the cited paragraphs</option><option value="titles">Titles only</option><option value="none">Leave out</option></select></label>
+        <label class="chk"><input type="checkbox" id="pk-notes" checked> Include my notes</label></div>
+      <div class="btnrow"><button class="btn" type="button" id="pk-view">Preview, print or save as PDF</button><button class="btn" type="button" id="pk-word">Download Word file</button></div><p class="note" id="pk-msg" aria-live="polite"></p></div>
     <h2>Backup</h2><p class="note">Because your notes live only in this browser, clearing browser data or changing computer loses them. Download a backup now and then, and restore it anywhere.</p>
     <div class="btnrow"><button class="btn" type="button" id="wsbak">Download backup</button><label class="btn">Restore backup<input type="file" id="wsres" accept="application/json,.json" hidden></label></div></section>`);
   window.scrollTo(0, 0);
@@ -906,6 +934,73 @@ document.addEventListener("change", e => {
   const fr = new FileReader();
   fr.onload = () => { try { const w = JSON.parse(fr.result); WS.put({ saved: Array.isArray(w.saved) ? w.saved.map(String) : [], notes: w.notes && typeof w.notes === "object" ? w.notes : {}, recent: Array.isArray(w.recent) ? w.recent.map(String) : [] }); toast("Backup restored"); showWorkspace(); } catch (x) { toast("That file is not a workspace backup"); } };
   fr.readAsText(e.target.files[0]);
+});
+
+/* ---------- section pack: chosen sections with their Rules and your notes, to print or save as a Word file ---------- */
+const packKey = k => (S.idx.sets[k] ? S.idx.sets[k].name : "Rules");
+async function buildPack(o) {
+  const secs = o.secs, parts = [], toc = [];
+  const data = await Promise.all(secs.map(n => getJSON(`data/s/${n}.json`)));
+  const needSets = new Set(); if (o.rules === "cited") data.forEach(d => d.rules.filter(r => r.conf !== "low").forEach(r => needSets.add(r.set)));
+  const sets = {}; await Promise.all([...needSets].map(async k => { sets[k] = (await getJSON(`data/r/${k}.json`)).rules; }));
+  const para = (p, cls) => `<p class="pk-${p.k}"${cls}>${p.l ? `<span>${esc(p.l)}</span>&nbsp;&nbsp;` : ""}${esc(p.x)}</p>`;
+  data.forEach((d, i) => {
+    toc.push(`<li>Section ${esc(d.n)}. ${esc(d.t)}</li>`);
+    let h = `<h2${i === 0 ? ' class="first"' : ""}>Section ${esc(d.n)}. ${esc(d.t)}</h2><p class="sub">${d.c ? `Chapter ${esc(d.c)}, ${esc(nice(d.ct))}` : ""}</p>`;
+    h += d.s === "omitted" ? `<p><i>${esc(d.paras.map(p => p.x).join(" ") || "This section has been omitted.")}</i></p>` : d.paras.map(p => para(p, "")).join("");
+    const direct = d.rules.filter(r => r.conf !== "low");
+    if (o.rules !== "none" && direct.length) {
+      h += `<h3>Rules made under this section</h3>`;
+      direct.forEach(r => {
+        h += `<h4>Rule ${esc(r.rule)}. ${esc(r.t || "")} <span class="sub">(${esc(packKey(r.set))})</span></h4>`;
+        if (o.rules === "cited") {
+          const rp = sets[r.set] && sets[r.set][r.rule], idx = [...new Set((r.ps || []).map(x => x[0]))].sort((a, b) => a - b);
+          if (rp && idx.length) h += idx.map(k => rp.paras[k]).filter(Boolean).map(p => para(p, "")).join("");
+        }
+      });
+    }
+    if (o.notes && WS.get().notes[d.n]) h += `<h3>My notes</h3><p class="pk-note">${esc(WS.get().notes[d.n])}</p>`;
+    parts.push(h);
+  });
+  const date = new Date().toLocaleDateString("en-IN", { day: "numeric", month: "long", year: "numeric" });
+  const head = `<h1>${esc(o.title)}</h1><p class="sub">Prepared on ${esc(date)} from the Companies Act, 2013 Reader (text built on ${esc(S.idx.built)}). For study only; check the wording against the official gazette or India Code before relying on it.</p>
+    <p><b>Contents</b></p><ol class="toc2">${toc.join("")}</ol>`;
+  return { title: o.title, html: head + parts.join("") };
+}
+function packOptions() {
+  const raw = ($("#pk-secs").value || "").toUpperCase().split(/[\s,;]+/).filter(Boolean), seen = new Set(), bad = [], secs = [];
+  raw.forEach(x => { const n = x.replace(/^S(?:EC(?:TION)?)?\.?/, ""); if (S.map[n] === undefined) bad.push(x); else if (!seen.has(n)) { seen.add(n); secs.push(n); } });
+  return { secs, bad, rules: $("#pk-rules").value, notes: $("#pk-notes").checked, title: $("#pk-title").value.trim() || "Companies Act, 2013: selected sections" };
+}
+async function packRun(kind) {
+  const o = packOptions(), msg = $("#pk-msg");
+  if (o.bad.length) { msg.textContent = `There is no section ${o.bad.join(", ")} in the Act.`; return; }
+  if (!o.secs.length) { msg.textContent = "Add at least one section number."; return; }
+  if (o.secs.length > 60) { msg.textContent = "Please keep a pack to 60 sections or fewer."; return; }
+  msg.textContent = "Preparing the pack\u2026";
+  let pk; try { pk = await buildPack(o); } catch (e) { msg.textContent = "Could not prepare the pack. Check your connection and try again."; return; }
+  msg.textContent = "";
+  if (kind === "word") {
+    const css = `body{font-family:"Times New Roman",serif;font-size:12pt;line-height:1.4}h1{font-size:22pt}h2{font-size:16pt;page-break-before:always;border-top:1.5pt solid #000;padding-top:6pt}h2.first{page-break-before:avoid}h3{font-size:12pt;font-family:Arial,sans-serif}h4{font-size:12pt;margin-bottom:2pt}.sub{color:#555;font-family:Arial,sans-serif;font-size:10pt}p{margin:0 0 6pt}.pk-clause{margin-left:28pt}.pk-subclause{margin-left:56pt}.pk-proviso,.pk-expl{margin-left:28pt;font-size:11pt}.pk-note{border-left:3pt solid #1d4f91;padding-left:8pt;font-family:Arial,sans-serif;font-size:10.5pt}`;
+    const doc = `<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40"><head><meta charset="utf-8"><title>${esc(pk.title)}</title><style>${css}</style></head><body>${pk.html}</body></html>`;
+    const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob(["\ufeff", doc], { type: "application/msword" }));
+    a.download = pk.title.replace(/[\\/:*?"<>|]+/g, " ").trim().slice(0, 80) + ".doc"; document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+    toast("Word file downloaded");
+  } else {
+    S.pack = pk; location.hash = "#/pack";
+  }
+}
+function showPack() {
+  if (!S.pack) { location.hash = "#/me"; return; }
+  S.cur = null; S.d = null; S.token++; setChrome(false); navMark("me"); document.title = S.pack.title + " | Companies Act, 2013 Reader";
+  show(`<section class="pg"><div class="btnrow noprint"><a class="btn" href="#/me">\u2190 Back to My workspace</a><button class="btn" type="button" id="pk-print">Print or save as PDF</button></div><article class="packdoc">${S.pack.html}</article></section>`);
+  window.scrollTo(0, 0);
+}
+document.addEventListener("click", e => {
+  if (e.target.closest("#pk-word")) packRun("word");
+  else if (e.target.closest("#pk-view")) packRun("view");
+  else if (e.target.closest("#pk-print")) window.print();
+  else if (e.target.closest("#pk-saved")) $("#pk-secs").value = WS.get().saved.join(", ");
 });
 
 /* ---------- forms index ---------- */
@@ -955,35 +1050,71 @@ const EVENTS = [
   ["The AGM is held (financial statements)", 30, "137", "AOC-4", "Financial statements to the Registrar"],
   ["The AGM is held (annual return)", 60, "92", "MGT-7", "Annual return to the Registrar"]
 ];
+/* ---------- calendar files: dates from the calculator, ready for Google Calendar, Outlook or a phone ---------- */
+const CAL = {};
+const coName = () => { const i = $("#co-name"); return i ? i.value.trim() : ""; };
+const icsEsc = t => String(t).replace(/\\/g, "\\\\").replace(/;/g, "\;").replace(/,/g, "\\,").replace(/\r?\n/g, "\\n");
+const icsFold = l => { const out = []; let t = l; while (t.length > 73) { out.push(t.slice(0, 73)); t = " " + t.slice(73); } out.push(t); return out.join("\r\n"); };
+const ymd = d => iso(d).replace(/-/g, "");
+function icsText(events) {
+  const stamp = new Date().toISOString().replace(/[-:]/g, "").replace(/\.\d+/, ""), L = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Companies Act Reader//EN", "CALSCALE:GREGORIAN", "METHOD:PUBLISH"];
+  events.forEach((e, i) => {
+    L.push("BEGIN:VEVENT", `UID:${Date.now()}-${i}@companies-act-reader`, `DTSTAMP:${stamp}`, `DTSTART;VALUE=DATE:${ymd(e.date)}`, `DTEND;VALUE=DATE:${ymd(addD(e.date, 1))}`,
+      `SUMMARY:${icsEsc(e.title)}`, `DESCRIPTION:${icsEsc(e.desc || "")}`, "TRANSP:TRANSPARENT");
+    ["-P7D", "-P1D"].forEach(t => L.push("BEGIN:VALARM", "ACTION:DISPLAY", `DESCRIPTION:${icsEsc(e.title)}`, `TRIGGER:${t}`, "END:VALARM"));
+    L.push("END:VEVENT");
+  });
+  L.push("END:VCALENDAR");
+  return L.map(icsFold).join("\r\n") + "\r\n";
+}
+const gcal = e => `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(e.title)}&dates=${ymd(e.date)}/${ymd(addD(e.date, 1))}&details=${encodeURIComponent(e.desc || "")}`;
+function setCal(key, events) {
+  const pre = coName() ? coName() + ": " : "";
+  CAL[key] = events.filter(e => e.date).map(e => ({ ...e, title: pre + e.title }));
+  const box = $("#cal-" + key); if (!box) return;
+  const n = CAL[key].length;
+  box.innerHTML = n ? `<button class="btn" type="button" data-ics="${key}">${n > 1 ? `Add all ${n} dates to calendar (.ics)` : "Add to calendar (.ics)"}</button>${n === 1 ? `<a class="btn" target="_blank" rel="noopener" href="${esc(gcal(CAL[key][0]))}">Google Calendar</a>` : ""}` : "";
+}
+document.addEventListener("click", e => {
+  const b = e.target.closest("[data-ics]"); if (!b || !CAL[b.dataset.ics] || !CAL[b.dataset.ics].length) return;
+  const blob = new Blob([icsText(CAL[b.dataset.ics])], { type: "text/calendar;charset=utf-8" }), a = document.createElement("a");
+  a.href = URL.createObjectURL(blob); a.download = "compliance-dates.ics"; document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+  toast("Calendar file downloaded. Open it to add the dates; each has reminders 7 days and 1 day before.");
+});
+
 function lastFYE() { const t = new Date(), y = t.getMonth() >= 3 ? t.getFullYear() : t.getFullYear() - 1; return `${y}-03-31`; }
 function showTools() {
   S.cur = null; S.d = null; S.token++; setChrome(false); navMark("tools"); document.title = "Compliance and date calculator | Companies Act, 2013 Reader";
   show(`<section class="pg"><h1>Compliance and date calculator</h1><p class="lede">The statutory time limits a Company Secretary counts every week, worked out for you, each with its section.</p>
+    <div class="copick"><label>Company name (optional, shown in your calendar entries)<input type="text" id="co-name" autocomplete="organization" placeholder="For example, ABC Private Limited"></label></div>
     <div class="box" id="c-notice"><h3>Notice of a meeting</h3>
       <div class="row"><label>Meeting<select id="n-type"><option value="21">General meeting (21 clear days)</option><option value="7">Board meeting (7 days)</option></select></label>
         <label>I know<select id="n-mode"><option value="m">the meeting date</option><option value="s">the date I send the notice</option></select></label>
         <label>Date<input type="date" id="n-date"></label>
         <label>Sent by<select id="n-by"><option value="0">E-mail or hand delivery</option><option value="2">Post (served after 2 days)</option></select></label></div>
-      <p class="ans" id="n-out"></p></div>
+      <p class="ans" id="n-out"></p><div class="calrow" id="cal-notice"></div></div>
     <div class="box" id="c-gap"><h3>Gap between Board meetings</h3>
-      <div class="row"><label>Date of the last Board meeting<input type="date" id="g-date"></label></div><p class="ans" id="g-out"></p></div>
+      <div class="row"><label>Date of the last Board meeting<input type="date" id="g-date"></label></div><p class="ans" id="g-out"></p><div class="calrow" id="cal-gap"></div></div>
     <div class="box" id="c-cal"><h3>Yearly calendar</h3>
       <div class="row"><label>Financial year ended on<input type="date" id="y-fye" value="${lastFYE()}"></label><label>AGM held or planned on (optional)<input type="date" id="y-agm"></label></div>
-      <div id="y-out"></div></div>
+      <div id="y-out"></div><div class="calrow" id="cal-year"></div></div>
     <div class="box" id="c-ev"><h3>Deadline after an event</h3>
       <div class="row"><label>What happened<select id="e-ev">${EVENTS.map((x, i) => `<option value="${i}">${esc(x[0])}</option>`).join("")}</select></label><label>On<input type="date" id="e-date"></label></div>
-      <p class="ans" id="e-out"></p></div>
+      <p class="ans" id="e-out"></p><div class="calrow" id="cal-ev"></div></div>
     <p class="note">These are the time limits in the Act and the Rules. The Ministry may extend a date by circular, and filing late attracts additional fees under ${sl("403")} and may attract penalty. Confirm on mca.gov.in before you rely on a date. This is not legal advice.</p></section>`);
   const val = id => $("#" + id).value;
   const noteCalc = () => {
     const N = +val("n-type"), by = +val("n-by"), d = D0(val("n-date")), mode = val("n-mode"), out = $("#n-out");
     const sec = N === 21 ? sl("101", "Section 101(1)") : sl("173", "Section 173(3)");
     const short = N === 21 ? "Shorter notice needs the consent of members: for an AGM, 95% of the members entitled to vote; for another general meeting, a majority in number holding at least 95% of the voting power." : "A meeting on shorter notice needs at least one independent director present; where there is none, decisions need ratification by at least one independent director.";
-    if (!d) { out.innerHTML = `<small>Pick a date. Clear days leave out the day the notice is served and the day of the meeting. ${esc(short)} (${sec})</small>`; return; }
-    if (mode === "m") { const serve = addD(d, -(N + 1)), send = addD(serve, -by); out.innerHTML = `Send the notice on or before <b>${fdate(send)}</b> ${chip(send)}<small>${by ? "Posted notice counts as served 2 days after posting, so the served date is " + fdate(serve) + ". " : ""}${esc(short)} (${sec})</small>`; }
-    else { const serve = addD(d, by), meet = addD(serve, N + 1); out.innerHTML = `The meeting can be held on or after <b>${fdate(meet)}</b><small>${by ? "Served date after posting: " + fdate(serve) + ". " : ""}${esc(short)} (${sec})</small>`; }
+    if (!d) { out.innerHTML = `<small>Pick a date. Clear days leave out the day the notice is served and the day of the meeting. ${esc(short)} (${sec})</small>`; setCal("notice", []); return; }
+    const kind = N === 21 ? "general meeting" : "Board meeting", law = N === 21 ? "Section 101(1)" : "Section 173(3)";
+    if (mode === "m") { const serve = addD(d, -(N + 1)), send = addD(serve, -by); setCal("notice", [{ date: send, title: `Send notice of ${kind}`, desc: `Meeting on ${fdate(d)}. ${law}. Last date to send the notice${by ? " by post" : ""}.` }, { date: d, title: `Hold the ${kind}`, desc: law }]);
+      out.innerHTML = `Send the notice on or before <b>${fdate(send)}</b> ${chip(send)}<small>${by ? "Posted notice counts as served 2 days after posting, so the served date is " + fdate(serve) + ". " : ""}${esc(short)} (${sec})</small>`; }
+    else { const serve = addD(d, by), meet = addD(serve, N + 1); setCal("notice", [{ date: meet, title: `Earliest date for the ${kind}`, desc: `Notice sent ${fdate(d)}. ${law}.` }]);
+      out.innerHTML = `The meeting can be held on or after <b>${fdate(meet)}</b><small>${by ? "Served date after posting: " + fdate(serve) + ". " : ""}${esc(short)} (${sec})</small>`; }
   };
-  const gapCalc = () => { const d = D0(val("g-date")); $("#g-out").innerHTML = d ? `The next Board meeting must be held on or before <b>${fdate(addD(d, 120))}</b> ${chip(addD(d, 120))}<small>Gap of not more than 120 days and at least 4 meetings a year. ${sl("173", "Section 173(1)")}. One-person, small and dormant companies have a lighter rule.</small>` : `<small>The gap between two Board meetings may not exceed 120 days. ${sl("173", "Section 173(1)")}</small>`; };
+  const gapCalc = () => { const d = D0(val("g-date")); setCal("gap", d ? [{ date: addD(d, 120), title: "Next Board meeting due (120-day gap)", desc: `Last Board meeting ${fdate(d)}. Section 173(1).` }] : []); $("#g-out").innerHTML = d ? `The next Board meeting must be held on or before <b>${fdate(addD(d, 120))}</b> ${chip(addD(d, 120))}<small>Gap of not more than 120 days and at least 4 meetings a year. ${sl("173", "Section 173(1)")}. One-person, small and dormant companies have a lighter rule.</small>` : `<small>The gap between two Board meetings may not exceed 120 days. ${sl("173", "Section 173(1)")}</small>`; };
   const yearCalc = () => {
     const f = D0(val("y-fye")), a = D0(val("y-agm")), out = $("#y-out"); if (!f) { out.innerHTML = ""; return; }
     const last = addM(f, 6), base = a || last, rows = [];
@@ -992,17 +1123,20 @@ function showTools() {
     rows.push([addD(base, 15), "Appoint or re-appoint the auditor: notice to the Registrar", sl("139", "Section 139(1)"), frm("ADT-1"), a ? "" : "if the AGM is held on the last date"]);
     rows.push([addD(base, 30), "File the financial statements", sl("137", "Section 137(1)"), frm("AOC-4"), a ? "" : "if the AGM is held on the last date"]);
     rows.push([addD(base, 60), "File the annual return", sl("92", "Section 92(4)"), frm("MGT-7"), a ? "" : "if the AGM is held on the last date"]);
+    setCal("year", rows.map(r => ({ date: r[0], title: r[1].replace(/: notice to the Registrar$/, "") + (r[3] ? ` (${r[3].replace(/<[^>]+>/g, "")})` : ""), desc: r[2].replace(/<[^>]+>/g, "") + ". Statutory due date; the Ministry may extend it by circular." })));
     out.innerHTML = `<table class="cal"><thead><tr><th>Due</th><th>What</th><th>Basis</th></tr></thead><tbody>${rows.sort((x, y) => x[0] - y[0]).map(r => `<tr><td class="due">${fdate(r[0])}${chip(r[0])}</td><td>${esc(r[1])}${r[3] ? " · " + r[3] : ""}${r[4] ? `<br><small>${esc(r[4])}</small>` : ""}</td><td>${r[2]}</td></tr>`).join("")}</tbody></table>
       <p class="note">Every year by 30 June: return of deposits, ${frm("DPT-3")} (${sl("73")}). A meeting’s minutes are entered within 30 days of it (${sl("118")}).</p>`;
   };
   const evCalc = () => {
     const e = EVENTS[+val("e-ev")], d = D0(val("e-date")), out = $("#e-out");
-    if (!d) { out.innerHTML = `<small>${e[1]} days from the event, counted from the day after it. ${sl(e[2])}${e[3] ? " · " + frm(e[3]) : ""}${e[4] ? ". " + esc(e[4]) : ""}</small>`; return; }
-    const due = addD(d, e[1]); out.innerHTML = `Due on or before <b>${fdate(due)}</b> ${chip(due)}<small>${e[1]} days from the event. ${sl(e[2])}${e[3] ? " · " + frm(e[3]) : ""}${e[4] ? ". " + esc(e[4]) : ""}</small>`;
+    if (!d) { setCal("ev", []); out.innerHTML = `<small>${e[1]} days from the event, counted from the day after it. ${sl(e[2])}${e[3] ? " · " + frm(e[3]) : ""}${e[4] ? ". " + esc(e[4]) : ""}</small>`; return; }
+    const due = addD(d, e[1]); setCal("ev", [{ date: due, title: e[3] ? `File ${e[3]}` : e[4], desc: `${e[0]} on ${fdate(d)}. Section ${e[2]}.${e[3] && e[4] ? " " + e[4] + "." : ""}` }]);
+    out.innerHTML = `Due on or before <b>${fdate(due)}</b> ${chip(due)}<small>${e[1]} days from the event. ${sl(e[2])}${e[3] ? " · " + frm(e[3]) : ""}${e[4] ? ". " + esc(e[4]) : ""}</small>`;
   };
   ["n-type", "n-mode", "n-date", "n-by"].forEach(i => $("#" + i).addEventListener("input", noteCalc));
   $("#g-date").addEventListener("input", gapCalc);
   ["y-fye", "y-agm"].forEach(i => $("#" + i).addEventListener("input", yearCalc));
+  $("#co-name").addEventListener("input", () => { noteCalc(); gapCalc(); yearCalc(); evCalc(); });
   ["e-ev", "e-date"].forEach(i => $("#" + i).addEventListener("input", evCalc));
   noteCalc(); gapCalc(); yearCalc(); evCalc(); window.scrollTo(0, 0);
 }
@@ -1017,6 +1151,7 @@ async function route() {
   if (!S.idx) return;
   const hh = location.hash.replace(/^#/, ""), hb = hh.split("?")[0];
   if (hb === "/me") return showWorkspace();
+  if (hb === "/pack") return showPack();
   if (hb === "/tools") return showTools();
   if (hb === "/forms") return showForms(new URLSearchParams(hh.split("?")[1] || ""));
   navMark("");
