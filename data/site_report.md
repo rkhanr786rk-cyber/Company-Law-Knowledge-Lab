@@ -11,6 +11,3 @@
 - Sections with a plain-language explanation: 478
 - Rule sets with plain-language explanations: 54
 - Total site size: 7.0 MB
-
-Guide notes read from the guide folder:
-- lodr.csv: 34 rows
