@@ -1,7 +1,7 @@
 name: Build data and website
 on:
   push:
-    paths: ["**.pdf", "**.py", "web/**", "drafts/**", "guide/**", ".github/workflows/**"]
+    paths: ["**.pdf", "**.py", "web/**", "drafts/**", "guide/**", "lodr/**", ".github/workflows/**"]
   workflow_dispatch:
 permissions:
   contents: write
@@ -37,6 +37,9 @@ jobs:
             sudo apt-get update -qq
             sudo apt-get install -y -qq --no-install-recommends libreoffice-writer
           fi
+      - name: Build the LODR pages
+        continue-on-error: true
+        run: python "$(find . -name build_lodr.py -not -path './.git/*' | head -n 1)"
       - name: Build the Drafts library page
         continue-on-error: true
         run: python "$(find . -name build_drafts.py -not -path './.git/*' | head -n 1)"
