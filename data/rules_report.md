@@ -1,14 +1,15 @@
 # Rules report
 
-- Rules documents read: 57 (duplicates skipped: 3)
-- Individual rules found: 1139 (plus 10 omitted rules recorded)
-- Sections of the Act that have at least one linked rule: 248
-- Rules linked only through their rule set's enabling section (low confidence): 563
+- Rules documents read: 58 (duplicates skipped: 3)
+- Individual rules found: 1160 (plus 12 omitted rules recorded)
+- Sections of the Act that have at least one linked rule: 250
+- Rules linked only through their rule set's enabling section (low confidence): 575
 - Rules with no link at all: 243
 - Skipped duplicates: companies-transfer-of-pending-proceedings-rules-20; nclt-procedure-for-reduction-of-share-capital-of-c; the-companies-restriction-on-number-of-layers-rule
 
 | File | Rule set | Rules | Numbers | Missing numbers | Rules citing a section |
 |---|---|---|---|---|---|
+| 1792664915776 | Securities and Exchange Board of India (Listing Obligations  | 21 (+2 omitted) | 2 to 64H | 48: 1, 3, 10, 12, 13, 14 ... | 9 |
 | companies-listing-of-equity-shares-in-permiss | Companies (Listing of equity instruments in permissible juri | 4 (+0 omitted) | 2 to 5 | 1: 1 | 3 |
 | companies-registered-valuers-and-valuation-ru | Companies (Registered Valuers and Valuation) Rules, 2017 | 27 (+0 omitted) | 1 to 26 | 0:  | 6 |
 | companies-transfer-of-pending-proceedings-rul | Companies (Transfer of Pending Proceedings) Rules, 2016 | 8 (+0 omitted) | 1 to 8 | 0:  | 3 |

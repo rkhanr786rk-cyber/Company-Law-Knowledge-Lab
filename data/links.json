@@ -326,6 +326,48 @@
     "subs": []
    },
    {
+    "rule_id": "1792664915776#2",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "2",
+    "title": "In these regulations, unless the context otherwise requires",
+    "mentions": 10,
+    "confidence": "high",
+    "subs": [
+     "6",
+     "41",
+     "44",
+     "46",
+     "48",
+     "51",
+     "57",
+     "76",
+     "77",
+     "87"
+    ]
+   },
+   {
+    "rule_id": "1792664915776#22",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "22",
+    "title": "",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": [
+     "45"
+    ]
+   },
+   {
+    "rule_id": "1792664915776#62L",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "62L",
+    "title": "At least one independent director, on the board of directors of the HVDLE, shall be a director on the board of directors of an unlisted material subsidiary, whether incorporated in India or not. Explanation",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": [
+     "45"
+    ]
+   },
+   {
     "rule_id": "the-companies-appointment-and-qualification-of-directors-rules-2014-20261106-143017#2",
     "rule_set": "Companies (Appointment and Qualification of Directors) Rules, 2014",
     "rule": "2",
@@ -528,6 +570,15 @@
    }
   ],
   "3": [
+   {
+    "rule_id": "1792664915776#2",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "2",
+    "title": "In these regulations, unless the context otherwise requires",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": []
+   },
    {
     "rule_id": "the-companies-acceptance-of-deposits-rules-2014-20261106-142547#2",
     "rule_set": "Companies (Acceptance of Deposits) Rules, 2014",
@@ -2012,6 +2063,24 @@
     "subs": []
    },
    {
+    "rule_id": "1792664915776#22",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "22",
+    "title": "",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": []
+   },
+   {
+    "rule_id": "1792664915776#62L",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "62L",
+    "title": "At least one independent director, on the board of directors of the HVDLE, shall be a director on the board of directors of an unlisted material subsidiary, whether incorporated in India or not. Explanation",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": []
+   },
+   {
     "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#21",
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "21",
@@ -2281,6 +2350,15 @@
   ],
   "11": [
    {
+    "rule_id": "1792664915776#57",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "57",
+    "title": "",
+    "mentions": 2,
+    "confidence": "high",
+    "subs": []
+   },
+   {
     "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#1",
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "1",
@@ -2447,6 +2525,114 @@
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "38A",
     "title": "Application for registration of the Goods and Service Tax Identification Number (GSTIN), Employees’ State Insurance Corporation (ESIC) registration [114][, Employees’ Provident Fund Organisation (EPFO) Registration and Profession Tax Registration [115][,Opening of Bank Account and Shops and Establishment Registration]]",
+    "mentions": 0,
+    "confidence": "low",
+    "subs": []
+   },
+   {
+    "rule_id": "1792664915776#4",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "4",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low",
+    "subs": []
+   },
+   {
+    "rule_id": "1792664915776#6",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "6",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low",
+    "subs": []
+   },
+   {
+    "rule_id": "1792664915776#7",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "7",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low",
+    "subs": []
+   },
+   {
+    "rule_id": "1792664915776#8",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "8",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low",
+    "subs": []
+   },
+   {
+    "rule_id": "1792664915776#18",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "18",
+    "title": "Every listed entity shall constitute a qualified and independent audit committee in accordance with the terms of reference, subject to the following: (a) The audit committee shall have minimum three directors as members. (b) 176[At least] two-thirds of the members of audit committee shall be independent directors 177[and in case of a listed entity having outstanding SR equity shares, the audit committee shall only comprise of independent directors]. (c) All members of audit committee shall be financially literate and at least one member shall have accounting or related financial management expertise. Explanation (1)",
+    "mentions": 0,
+    "confidence": "low",
+    "subs": []
+   },
+   {
+    "rule_id": "1792664915776#47",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "47",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low",
+    "subs": []
+   },
+   {
+    "rule_id": "1792664915776#56",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "56",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low",
+    "subs": []
+   },
+   {
+    "rule_id": "1792664915776#62E",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "62E",
+    "title": "The directors of HVDLE shall comply with the following conditions with respect to the maximum number of directorships, including any alternate directorships held by them at any point of time - (a) A person may act as a director in not more than seven listed entities: Provided that a person may serve as an independent director in not more than seven listed entities. (b) Notwithstanding the above, any person who is serving as a whole time director/ managing director in any listed entity may serve as an independent director in not more than three listed entities. Explanation (1)",
+    "mentions": 0,
+    "confidence": "low",
+    "subs": []
+   },
+   {
+    "rule_id": "1792664915776#62F",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "62F",
+    "title": "Every HVDLE shall constitute an audit committee subject to the following terms of reference: (a) The audit committee shall have minimum three directors as members. (b) At least two-thirds of the members of audit committee shall be independent directors. (c) All members of audit committee shall be financially literate and at least one member shall have accounting or related financial management expertise. Explanation (1)",
+    "mentions": 0,
+    "confidence": "low",
+    "subs": []
+   },
+   {
+    "rule_id": "1792664915776#64E",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "64E",
+    "title": "Approval from the holders and No-Objection Letter from the Debenture Trustee",
+    "mentions": 0,
+    "confidence": "low",
+    "subs": []
+   },
+   {
+    "rule_id": "1792664915776#64F",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "64F",
+    "title": "Failure of delisting proposal",
+    "mentions": 0,
+    "confidence": "low",
+    "subs": []
+   },
+   {
+    "rule_id": "1792664915776#64H",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "64H",
+    "title": "Delisting from some of the stock exchanges",
     "mentions": 0,
     "confidence": "low",
     "subs": []
@@ -3144,6 +3330,24 @@
   ],
   "17": [
    {
+    "rule_id": "1792664915776#9",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "9",
+    "title": "",
+    "mentions": 1,
+    "confidence": "medium",
+    "subs": []
+   },
+   {
+    "rule_id": "1792664915776#62C",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "62C",
+    "title": "The provisions of this chapter shall apply to a listed entity which only has non-convertible debt securities listed, with an outstanding value of Rupees 571[Five] Thousand Crore and above and does not have any listed specified securities. Explanation (1)",
+    "mentions": 1,
+    "confidence": "medium",
+    "subs": []
+   },
+   {
     "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#1",
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "1",
@@ -3631,6 +3835,24 @@
     ]
    },
    {
+    "rule_id": "1792664915776#9",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "9",
+    "title": "",
+    "mentions": 1,
+    "confidence": "medium",
+    "subs": []
+   },
+   {
+    "rule_id": "1792664915776#62C",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "62C",
+    "title": "The provisions of this chapter shall apply to a listed entity which only has non-convertible debt securities listed, with an outstanding value of Rupees 571[Five] Thousand Crore and above and does not have any listed specified securities. Explanation (1)",
+    "mentions": 1,
+    "confidence": "medium",
+    "subs": []
+   },
+   {
     "rule_id": "companies-listing-of-equity-shares-in-permissible-jurisdictions-rules-2024-20261106-142516#3",
     "rule_set": "Companies (Listing of equity instruments in permissible jurisdictions) Rules, 2024",
     "rule": "3",
@@ -3951,6 +4173,116 @@
     "rule_set": "Companies (Prospectus and Allotment of Securities) Rules, 2014",
     "rule": "13",
     "title": "Payment of commission",
+    "mentions": 0,
+    "confidence": "low",
+    "subs": []
+   }
+  ],
+  "30": [
+   {
+    "rule_id": "1792664915776#4",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "4",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low",
+    "subs": []
+   },
+   {
+    "rule_id": "1792664915776#6",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "6",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low",
+    "subs": []
+   },
+   {
+    "rule_id": "1792664915776#7",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "7",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low",
+    "subs": []
+   },
+   {
+    "rule_id": "1792664915776#8",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "8",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low",
+    "subs": []
+   },
+   {
+    "rule_id": "1792664915776#18",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "18",
+    "title": "Every listed entity shall constitute a qualified and independent audit committee in accordance with the terms of reference, subject to the following: (a) The audit committee shall have minimum three directors as members. (b) 176[At least] two-thirds of the members of audit committee shall be independent directors 177[and in case of a listed entity having outstanding SR equity shares, the audit committee shall only comprise of independent directors]. (c) All members of audit committee shall be financially literate and at least one member shall have accounting or related financial management expertise. Explanation (1)",
+    "mentions": 0,
+    "confidence": "low",
+    "subs": []
+   },
+   {
+    "rule_id": "1792664915776#47",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "47",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low",
+    "subs": []
+   },
+   {
+    "rule_id": "1792664915776#56",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "56",
+    "title": "",
+    "mentions": 0,
+    "confidence": "low",
+    "subs": []
+   },
+   {
+    "rule_id": "1792664915776#62E",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "62E",
+    "title": "The directors of HVDLE shall comply with the following conditions with respect to the maximum number of directorships, including any alternate directorships held by them at any point of time - (a) A person may act as a director in not more than seven listed entities: Provided that a person may serve as an independent director in not more than seven listed entities. (b) Notwithstanding the above, any person who is serving as a whole time director/ managing director in any listed entity may serve as an independent director in not more than three listed entities. Explanation (1)",
+    "mentions": 0,
+    "confidence": "low",
+    "subs": []
+   },
+   {
+    "rule_id": "1792664915776#62F",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "62F",
+    "title": "Every HVDLE shall constitute an audit committee subject to the following terms of reference: (a) The audit committee shall have minimum three directors as members. (b) At least two-thirds of the members of audit committee shall be independent directors. (c) All members of audit committee shall be financially literate and at least one member shall have accounting or related financial management expertise. Explanation (1)",
+    "mentions": 0,
+    "confidence": "low",
+    "subs": []
+   },
+   {
+    "rule_id": "1792664915776#64E",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "64E",
+    "title": "Approval from the holders and No-Objection Letter from the Debenture Trustee",
+    "mentions": 0,
+    "confidence": "low",
+    "subs": []
+   },
+   {
+    "rule_id": "1792664915776#64F",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "64F",
+    "title": "Failure of delisting proposal",
+    "mentions": 0,
+    "confidence": "low",
+    "subs": []
+   },
+   {
+    "rule_id": "1792664915776#64H",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "64H",
+    "title": "Delisting from some of the stock exchanges",
     "mentions": 0,
     "confidence": "low",
     "subs": []
@@ -5153,6 +5485,24 @@
    }
   ],
   "66": [
+   {
+    "rule_id": "1792664915776#29",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "29",
+    "title": "",
+    "mentions": 2,
+    "confidence": "high",
+    "subs": []
+   },
+   {
+    "rule_id": "1792664915776#57",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "57",
+    "title": "",
+    "mentions": 2,
+    "confidence": "high",
+    "subs": []
+   },
    {
     "rule_id": "nclt-procedure-for-reduction-of-share-capital-of-company-rules-2016-20261107-081729#2",
     "rule_set": "National Company Law Tribunal (Procedure for reduction of share capital of Company) Rules, 2016",
@@ -6833,6 +7183,15 @@
   ],
   "89": [
    {
+    "rule_id": "1792664915776#2",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "2",
+    "title": "In these regulations, unless the context otherwise requires",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": []
+   },
+   {
     "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#9",
     "rule_set": "Companies (Management and Administration) Rules, 2014",
     "rule": "9",
@@ -7268,6 +7627,24 @@
     "subs": [
      "4"
     ]
+   },
+   {
+    "rule_id": "1792664915776#29",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "29",
+    "title": "",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": []
+   },
+   {
+    "rule_id": "1792664915776#62",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "62",
+    "title": "The listed entity shall maintain a functional website containing the following information about the listed entity",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": []
    },
    {
     "rule_id": "the-companies-accounts-rules-2014-20261106-142730#8A",
@@ -7768,6 +8145,15 @@
     "mentions": 1,
     "confidence": "high",
     "subs": []
+   },
+   {
+    "rule_id": "1792664915776#22",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "22",
+    "title": "",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": []
    }
   ],
   "97": [
@@ -8079,6 +8465,28 @@
     "subs": []
    },
    {
+    "rule_id": "1792664915776#9",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "9",
+    "title": "",
+    "mentions": 3,
+    "confidence": "high",
+    "subs": [
+     "1"
+    ]
+   },
+   {
+    "rule_id": "1792664915776#62C",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "62C",
+    "title": "The provisions of this chapter shall apply to a listed entity which only has non-convertible debt securities listed, with an outstanding value of Rupees 571[Five] Thousand Crore and above and does not have any listed specified securities. Explanation (1)",
+    "mentions": 2,
+    "confidence": "high",
+    "subs": [
+     "1"
+    ]
+   },
+   {
     "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#17",
     "rule_set": "Companies (Management and Administration) Rules, 2014",
     "rule": "17",
@@ -8269,6 +8677,15 @@
    }
   ],
   "105": [
+   {
+    "rule_id": "1792664915776#57",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "57",
+    "title": "",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": []
+   },
    {
     "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#21",
     "rule_set": "Companies (Management and Administration) Rules, 2014",
@@ -10325,6 +10742,15 @@
     ]
    },
    {
+    "rule_id": "1792664915776#57",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "57",
+    "title": "",
+    "mentions": 3,
+    "confidence": "high",
+    "subs": []
+   },
+   {
     "rule_id": "the-iepf-accounting-audit-transfer-and-refund-rules-2016-20261106-142648#7",
     "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
     "rule": "7",
@@ -10504,6 +10930,17 @@
     "title": "Vacancies, etc., not to invalidate proceedings of Authority",
     "mentions": 0,
     "confidence": "low",
+    "subs": []
+   }
+  ],
+  "126": [
+   {
+    "rule_id": "1792664915776#29",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "29",
+    "title": "",
+    "mentions": 1,
+    "confidence": "high",
     "subs": []
    }
   ],
@@ -11217,6 +11654,24 @@
     "subs": []
    },
    {
+    "rule_id": "1792664915776#29",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "29",
+    "title": "",
+    "mentions": 2,
+    "confidence": "high",
+    "subs": []
+   },
+   {
+    "rule_id": "1792664915776#48",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "48",
+    "title": "",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": []
+   },
+   {
     "rule_id": "the-companies-accounting-standards-rules-2021-20261106-142734#1",
     "rule_set": "Companies (Accounting Standards) Rules, 2021",
     "rule": "1",
@@ -11619,6 +12074,24 @@
    }
   ],
   "136": [
+   {
+    "rule_id": "1792664915776#29",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "29",
+    "title": "",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": []
+   },
+   {
+    "rule_id": "1792664915776#57",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "57",
+    "title": "",
+    "mentions": 2,
+    "confidence": "high",
+    "subs": []
+   },
    {
     "rule_id": "the-companies-accounts-rules-2014-20261106-142730#10",
     "rule_set": "Companies (Accounts) Rules, 2014",
@@ -13222,6 +13695,28 @@
     ]
    },
    {
+    "rule_id": "1792664915776#9",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "9",
+    "title": "",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": [
+     "6"
+    ]
+   },
+   {
+    "rule_id": "1792664915776#62C",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "62C",
+    "title": "The provisions of this chapter shall apply to a listed entity which only has non-convertible debt securities listed, with an outstanding value of Rupees 571[Five] Thousand Crore and above and does not have any listed specified securities. Explanation (1)",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": [
+     "6"
+    ]
+   },
+   {
     "rule_id": "the-companies-appointment-and-qualification-of-directors-rules-2014-20261106-143017#7",
     "rule_set": "Companies (Appointment and Qualification of Directors) Rules, 2014",
     "rule": "7",
@@ -14613,6 +15108,17 @@
   ],
   "180": [
    {
+    "rule_id": "1792664915776#29",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "29",
+    "title": "",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": [
+     "1"
+    ]
+   },
+   {
     "rule_id": "the-companies-acceptance-of-deposits-rules-2014-20261106-142547#2",
     "rule_set": "Companies (Acceptance of Deposits) Rules, 2014",
     "rule": "2",
@@ -15791,6 +16297,24 @@
     "subs": []
    },
    {
+    "rule_id": "1792664915776#9",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "9",
+    "title": "",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": []
+   },
+   {
+    "rule_id": "1792664915776#62C",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "62C",
+    "title": "The provisions of this chapter shall apply to a listed entity which only has non-convertible debt securities listed, with an outstanding value of Rupees 571[Five] Thousand Crore and above and does not have any listed specified securities. Explanation (1)",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": []
+   },
+   {
     "rule_id": "the-companies-appointment-and-remuneration-of-managerial-personnel-rules-2014-20261106-143106#1",
     "rule_set": "Companies (Appointment and Remuneration of Managerial Personnel) Rules, 2014",
     "rule": "1",
@@ -16603,6 +17127,24 @@
     "rule": "25A",
     "title": "Merger or amalgamation of a foreign company with a Company and vice versa",
     "mentions": 4,
+    "confidence": "high",
+    "subs": []
+   },
+   {
+    "rule_id": "1792664915776#29",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "29",
+    "title": "",
+    "mentions": 2,
+    "confidence": "high",
+    "subs": []
+   },
+   {
+    "rule_id": "1792664915776#57",
+    "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "rule": "57",
+    "title": "",
+    "mentions": 2,
     "confidence": "high",
     "subs": []
    },
