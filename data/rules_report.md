@@ -9,7 +9,7 @@
 
 | File | Rule set | Rules | Numbers | Missing numbers | Rules citing a section |
 |---|---|---|---|---|---|
-| 1792664915776 | Securities and Exchange Board of India (Listing Obligations  | 21 (+2 omitted) | 2 to 64H | 48: 1, 3, 10, 12, 13, 14 ... | 9 |
+| LODR, 2015 | Securities and Exchange Board of India (Listing Obligations  | 21 (+2 omitted) | 2 to 64H | 48: 1, 3, 10, 12, 13, 14 ... | 9 |
 | companies-listing-of-equity-shares-in-permiss | Companies (Listing of equity instruments in permissible juri | 4 (+0 omitted) | 2 to 5 | 1: 1 | 3 |
 | companies-registered-valuers-and-valuation-ru | Companies (Registered Valuers and Valuation) Rules, 2017 | 27 (+0 omitted) | 1 to 26 | 0:  | 6 |
 | companies-transfer-of-pending-proceedings-rul | Companies (Transfer of Pending Proceedings) Rules, 2016 | 8 (+0 omitted) | 1 to 8 | 0:  | 3 |
