@@ -337,6 +337,11 @@ table.cal{width:100%;border-collapse:collapse;margin-top:.4rem;font:400 .94rem/1
 .az a{padding:.15rem .5rem;border:1px solid var(--rule);border-radius:3px;font:600 .85rem var(--sans)}
 .case{margin:0 0 1rem}
 .case b{font-weight:600}
+.ll{list-style:none;margin:.2rem 0 1rem;padding:0;font:400 1rem/1.5 var(--serif)}
+.ll li{margin:.3rem 0}
+.lch{margin:1.4rem 0 .3rem;font:700 1.05rem var(--sans);color:var(--tape)}
+.lp{margin:.55rem 0;font:400 1.05rem/1.65 var(--serif)}
+.lp.l1{margin-left:1.4rem}.lp.l2{margin-left:2.8rem}
 .mynotes{margin:1.4rem 0 0}
 .mynotes summary{cursor:pointer;font:600 .92rem var(--sans);color:var(--link)}
 .mynotes textarea{display:block;width:100%;margin-top:.5rem;min-height:6rem;resize:vertical;font:400 1rem/1.5 var(--sans)}
@@ -377,7 +382,7 @@ table.cal{width:100%;border-collapse:collapse;margin-top:.4rem;font:400 .94rem/1
         <input id="q2" type="search" placeholder="Section number or topic" autocomplete="off" spellcheck="false" aria-label="Search the Act" role="combobox" aria-expanded="false" aria-controls="res2"></div>
       <div class="results" id="res2" role="listbox" hidden></div>
     </div>
-    <nav class="nav" aria-label="Daily tools"><a href="#/tools" data-nav="tools">Calculator</a><a href="#/forms" data-nav="forms">Forms</a><a href="#/index" data-nav="index">Index</a><a href="#/cases" data-nav="cases">Cases</a><a href="#/me" data-nav="me">My workspace</a></nav>
+    <nav class="nav" aria-label="Daily tools"><a href="#/tools" data-nav="tools">Calculator</a><a href="#/forms" data-nav="forms">Forms</a><a href="#/lodr" data-nav="lodr" id="nav-lodr" hidden>LODR</a><a href="#/index" data-nav="index">Index</a><a href="#/cases" data-nav="cases">Cases</a><a href="#/me" data-nav="me">My workspace</a></nav>
     <div class="tools" role="group" aria-label="Reading settings">
       <button data-fs="-1" aria-label="Smaller text" title="Smaller text">A−</button>
       <button data-fs="1" aria-label="Larger text" title="Larger text">A+</button>
@@ -1034,7 +1039,7 @@ function guideHTML(d) {
   const missing = [];
   const block = (key, h, fmt, none) => { const a = g[key] || []; if (!a.length) { missing.push(none); return ""; } return sec(h, a.map(fmt), ""); };
   const an = block("an", "Analogous Law (Companies Act, 1956)", x => `<li>${esc(x.old_section)}${x.note ? ": " + esc(x.note) : ""}</li>`, "Analogous Law");
-  const lodr = block("lodr", "SEBI (LODR) Regulations, 2015", x => `<li>${esc(x.regulation)}${x.note ? ": " + esc(x.note) : ""}</li>`, "SEBI (LODR)");
+  const lodr = block("lodr", "SEBI (LODR) Regulations, 2015", x => `<li>${x.id ? `<a href="#/lodr/${encodeURIComponent(x.id)}">${esc(x.regulation)}</a>` : esc(x.regulation)}${x.note ? ": " + esc(x.note.replace(/\s*\(regulation refers to this section\)$/, "")) : ""}</li>`, "SEBI (LODR)");
   const ex = block("ex", "Exemption to certain companies", x => `<li>${x.applies_to ? "<b>" + esc(x.applies_to) + "</b>: " : ""}${esc(x.note)}${x.source ? ` <span class="src">(${esc(x.source)})</span>` : ""}</li>`, "Exemptions");
   const ci = block("ci", "Circulars and clarifications", x => `<li>${esc(x.title)}${x.date ? ", " + esc(x.date) : ""}${x.reference ? " (" + esc(x.reference) + ")" : ""}${srcLink(x.link)}</li>`, "Circulars");
   const jp = block("jp", "Judicial pronouncements", x => `<li><i>${esc(x.case)}</i>${x.citation ? ", " + esc(x.citation) : (x.court || x.year) ? ", " + esc([x.court, x.year].filter(Boolean).join(" ")) : ""}${x.held ? ": " + esc(x.held.split("|")[0].trim()) : ""}${srcLink(x.link)}</li>`, "Judicial pronouncements");
@@ -1054,6 +1059,48 @@ async function fillGuide(d) {
   catch (err) { box.innerHTML = ""; }
 }
 
+/* ---------- SEBI (LODR) Regulations, 2015 ---------- */
+const lodrName = e => e.k === "s" ? `Schedule ${e.id.slice(1)}${e.t && !/^Schedule/i.test(e.t) ? ": " + e.t : ""}` : `Regulation ${e.id}. ${e.t}`;
+async function showLodr(id) {
+  const my = ++S.token; S.cur = null; S.d = null; setChrome(false); navMark("lodr");
+  id = decodeURIComponent(id || "");
+  if (!id) {
+    document.title = "SEBI (LODR) Regulations, 2015 | Companies Act, 2013 Reader";
+    show(`<section class="pg"><h1>SEBI (LODR) Regulations, 2015</h1><p class="msg" style="padding:0">Loading…</p></section>`);
+    let X; try { X = await getJSON("data/lodr/index.json"); } catch (e) { X = null; }
+    if (my !== S.token) return;
+    if (!X) return show(`<section class="pg"><h1>SEBI (LODR) Regulations, 2015</h1><p>The Regulations are not loaded yet.</p></section>`);
+    const groups = []; X.forEach(e => { let g = groups[groups.length - 1]; if (!g || g.n !== e.ch) { g = { n: e.ch, l: [] }; groups.push(g); } g.l.push(e); });
+    show(`<section class="pg"><h1>SEBI (LODR) Regulations, 2015</h1><p class="lede">The full text, as amended, with the sections of the Companies Act, 2013 that each Regulation refers to.</p>
+      <div class="field" style="max-width:30rem"><span class="sym" aria-hidden="true">§</span><input id="lq" type="search" placeholder="Search a regulation number, title or any words" autocomplete="off" aria-label="Search the Regulations"></div>
+      <div id="lhits"></div><div id="ll">${groups.map(g => `<h2 class="lch">${esc(g.n || "Regulations")}</h2><ul class="ll">${g.l.map(e => `<li data-k="${esc((e.id + " " + e.t).toLowerCase())}"><a href="#/lodr/${esc(e.id)}">${esc(lodrName(e))}</a></li>`).join("")}</ul>`).join("")}</div></section>`);
+    const inp = $("#lq"); let T = null;
+    inp.addEventListener("input", async () => {
+      const v = inp.value.trim().toLowerCase(), hits = $("#lhits");
+      $$("#ll li").forEach(li => li.hidden = !!v && !li.dataset.k.includes(v));
+      $$("#ll .lch").forEach(h => { let n = h.nextElementSibling; h.hidden = !!v && ![...n.children].some(li => !li.hidden); });
+      hits.innerHTML = "";
+      if (v.length < 3) return;
+      if (!T) { try { T = await getJSON("data/lodr/text.json"); } catch (e) { T = {}; } }
+      if (inp.value.trim().toLowerCase() !== v) return;
+      const byId = Object.fromEntries(X.map(e => [e.id, e]));
+      const found = Object.entries(T).filter(([k, t]) => t.includes(v)).slice(0, 25);
+      if (found.length) hits.innerHTML = `<p class="small">Also found in the text of:</p><ul class="ll">${found.map(([k, t]) => { const i = t.indexOf(v), sn = t.slice(Math.max(0, i - 60), i + 90); return `<li><a href="#/lodr/${esc(k)}">${esc(lodrName(byId[k]))}</a><br><span class="muted small">…${esc(sn)}…</span></li>`; }).join("")}</ul>`;
+    });
+    window.scrollTo(0, 0); return;
+  }
+  let d; try { d = await getJSON(`data/lodr/r/${encodeURIComponent(id)}.json`); } catch (e) { d = null; }
+  if (my !== S.token) return;
+  if (!d) return showMessage(`<p>There is no Regulation ${esc(id)} in the loaded text. <a href="#/lodr">See all Regulations</a>.</p>`);
+  document.title = `${lodrName(d)} | SEBI (LODR) 2015`;
+  const nav = `<nav class="pn" aria-label="Neighbouring regulations">${d.prev ? `<a href="#/lodr/${esc(d.prev[0])}" rel="prev"><span>Previous</span><b>${esc(d.prev[0].replace(/^S/, "Sch. "))}</b>${esc(d.prev[1])}</a>` : "<span></span>"}${d.next ? `<a class="nx" href="#/lodr/${esc(d.next[0])}" rel="next"><span>Next</span><b>${esc(d.next[0].replace(/^S/, "Sch. "))}</b>${esc(d.next[1])}</a>` : ""}</nav>`;
+  show(`<section class="pg lodr"><p class="small"><a href="#/lodr">SEBI (LODR) Regulations, 2015</a>${d.ch ? " / " + esc(d.ch) : ""}</p>
+    <h1 tabindex="-1">${esc(lodrName(d))}</h1>
+    ${d.cites.length ? `<p class="forms">Companies Act sections cited:${d.cites.map(c => `<a href="#/s/${esc(c)}">${esc(c)}</a>`).join("")}</p>` : ""}
+    <div class="body lbody">${d.paras.map(p => `<p class="lp l${p.l}">${esc(p.x)}</p>`).join("")}</div>${nav}
+    <p class="small muted">Text taken from the amended Regulations. Amendment footnotes are left out. Check the official SEBI copy before relying on it.</p></section>`);
+  window.scrollTo(0, 0); $("h1").focus({ preventScroll: true });
+}
 /* ---------- subject index and table of cases ---------- */
 async function showIndex(q) {
   const my = ++S.token; S.cur = null; S.d = null; setChrome(false); navMark("index"); document.title = "Subject index | Companies Act, 2013 Reader";
@@ -1233,6 +1280,7 @@ async function route() {
   const hh = location.hash.replace(/^#/, ""), hb = hh.split("?")[0];
   if (hb === "/me") return showWorkspace();
   if (hb === "/pack") return showPack();
+  if (hb.startsWith("/lodr")) return showLodr(hb.slice(6));
   if (hb === "/index") return showIndex(new URLSearchParams(hh.split("?")[1] || ""));
   if (hb === "/cases") return showCases();
   if (hb === "/tools") return showTools();
@@ -1259,6 +1307,7 @@ async function init() {
   catch (e) { return showMessage(`<p>Could not load the Act. If you opened this file from your computer, open the website link instead. Otherwise check your connection and reload.</p>`); }
   S.idx.sections.forEach((r, i) => { S.map[r[0]] = i; S.order.push(r[0]); });
   S.rt = {}; S.idx.rules.forEach(r => { S.rt[r[0] + ":" + r[1]] = r[2]; });
+  if (S.idx.lodr) { const nl = $("#nav-lodr"); if (nl) nl.hidden = false; }
   renderHome(); route();
   (window.requestIdleCallback || setTimeout)(() => { getJSON("data/fulltext.json").then(f => { S.ft = f; S.ftKeys = Object.keys(f); }).catch(() => {}); });
 }
