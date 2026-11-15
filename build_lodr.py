@@ -97,7 +97,22 @@ def main():
         print("No LODR file found (put the LODR PDF in a folder named lodr). Skipping.")
         return
     text = read_text(src)
-    lines = strip_footnotes(text.split("\n"))
+    raw_lines = [l.replace("\u00a0", " ").replace("\t", " ") for l in text.split("\n")]
+    # some PDFs print a regulation number alone on its line: join it with the text that follows
+    merged, k = [], 0
+    while k < len(raw_lines):
+        l = raw_lines[k]
+        if re.fullmatch(r"\s*\d{1,3}[A-Z]{0,2}\s?\.\s*", l) and k + 1 < len(raw_lines):
+            nxt = k + 1
+            while nxt < len(raw_lines) and not raw_lines[nxt].strip():
+                nxt += 1
+            if nxt < len(raw_lines):
+                merged.append(l.strip().replace(" ", "") + " " + raw_lines[nxt].strip())
+                k = nxt + 1
+                continue
+        merged.append(re.sub(r"^(\s*\d{1,3}[A-Z]{0,2})\s+\.\s", r"\1. ", l))
+        k += 1
+    lines = strip_footnotes(merged)
     n_sched_start = next((i for i, l in enumerate(lines) if re.match(r"^SCHEDULE\s+I\b", l.strip()) and i > len(lines) * 0.5), len(lines))
 
     marks, chap = [], ""
@@ -146,6 +161,10 @@ def main():
             items.append({"id": "S" + mk[2], "k": "s", "t": mk[3], "ch": "Schedules", "i": mk[0]})
     if len(items) < 20:
         print("LODR file read, but too few regulations found:", len(items))
+        Path("data").mkdir(exist_ok=True)
+        cand = [f"{i}: {l[:110]}" for i, l in enumerate(lines) if re.match(r"^\s*\d{1,3}[A-Z]{0,2}\s?\.", l)][:25]
+        first = [f"{i}: {l[:110]}" for i, l in enumerate(lines[:60])]
+        Path("data/lodr_report.md").write_text("# LODR report (problem)\n\n- File: %s\n- Lines read: %d\n- Regulations found: %d\n\n## First lines\n\n```\n%s\n```\n\n## Lines that look like a regulation start\n\n```\n%s\n```\n" % (src, len(lines), len(items), "\n".join(first), "\n".join(cand)), encoding="utf-8")
         return
     items.sort(key=lambda e: e["i"])
     (SITE / "lodr" / "r").mkdir(parents=True, exist_ok=True)
