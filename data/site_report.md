@@ -9,7 +9,7 @@
 - Cases in the Table of Cases: 0
 - Search words indexed: 3545
 - Sections with a plain-language explanation: 478
-- Rule sets with plain-language explanations: 54
+- Rule sets with plain-language explanations: 55
 - Total site size: 7.6 MB
 
 Guide notes read from the guide folder:
