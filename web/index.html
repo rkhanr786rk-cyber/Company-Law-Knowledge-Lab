@@ -483,18 +483,57 @@ body{font-size:1.04rem}
 @media (max-width:820px){.bar{position:static}.bar-in{flex-wrap:wrap}.bar .find{order:5;flex:1 1 100%;max-width:none}.bar .results{position:absolute;left:0;right:0;top:calc(100% + 5px)}.mtabs{top:0}}
 @media (max-width:820px){.text{padding:1.1rem 1.1rem 1.6rem}.brand{font-size:1.05rem}.home .field input{font-size:1.1rem}}
 @media print{.text,.side{border:0;box-shadow:none;padding:0}.secnum{transform:none;box-shadow:none}}
+
+/* hub, processes, checklists */
+.hubgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:.8rem;margin-top:.5rem}
+.hc{display:flex;flex-direction:column;gap:.3rem;padding:1.05rem 1.15rem 1.1rem;background:var(--page);border:1px solid var(--rule);border-top:4px solid var(--tape);border-radius:3px;color:var(--ink);text-decoration:none;min-height:7.5rem}
+.hc:hover{border-color:var(--ink);border-top-color:var(--tape)}
+.hc.lodr{border-top-color:var(--lodr)}
+.hc b{font:700 1.2rem/1.25 var(--sans);letter-spacing:-.005em}
+.hc span{font:400 .93rem/1.45 var(--serif);color:var(--muted)}
+.hc i{margin-top:auto;padding-top:.4rem;font:500 .8rem var(--sans);font-style:normal;color:var(--tape)}
+.hub h2{margin-top:2.4rem}
+.act>.small:first-child,.lodrhome>.small:first-child{margin:0 0 1rem}
+.lodrhome .toc .ch{background:var(--lodr);color:#fff}
+.lodrhome .toc .secs b{min-width:3.2rem}
+.proc .lede,.proc-pg .lede{max-width:40rem}
+.steps{list-style:none;counter-reset:st;margin:.6rem 0 0;padding:0;max-width:42rem}
+.steps>li{counter-increment:st;position:relative;padding:.1rem 0 1.1rem 3rem;border-left:2px solid var(--rule);margin-left:1rem}
+.steps>li::before{content:counter(st);position:absolute;left:-1rem;top:0;width:2rem;height:2rem;border-radius:50%;background:var(--tape);color:var(--page);display:flex;align-items:center;justify-content:center;font:700 .95rem var(--sans)}
+.steps>li:last-child{border-left-color:transparent}
+.steps b{font:700 1.08rem var(--sans)}
+.steps p{margin:.25rem 0 0;font:400 1.02rem/1.6 var(--serif)}
+.steps .chips{display:flex;flex-wrap:wrap;gap:.35rem;margin-top:.45rem}
+.chip2{font:600 .8rem var(--sans);padding:.1rem .5rem;border:1px solid var(--rule);border-radius:3px;background:var(--page)}
+.chip2.f{background:var(--tape);border-color:var(--tape)}
+.chip2.f,.chip2.f:visited{color:var(--page)}
+.ck{list-style:none;margin:.5rem 0 0;padding:0;max-width:42rem}
+.ck li{margin:0;border-bottom:1px solid var(--rule)}
+.ck label{display:flex;gap:.7rem;align-items:flex-start;padding:.55rem .2rem;cursor:pointer;font:400 1rem/1.45 var(--serif)}
+.ck input{margin-top:.28rem;width:1.1rem;height:1.1rem;accent-color:var(--tape);flex:none}
+.ck input:checked+span{color:var(--muted);text-decoration:line-through}
+.ckbar{display:flex;gap:1rem;align-items:center;flex-wrap:wrap}
+.linkbtn{background:none;border:0;padding:0;font:600 .88rem var(--sans);color:var(--link);text-decoration:underline;cursor:pointer}
+.fbox{margin:.4rem 0 1rem;padding:.2rem 0}
+.fbox h4,.forms-pg details h4{margin:1.1rem 0 .3rem;font:700 .95rem var(--sans);color:var(--tape)}
+.fsteps{margin:.2rem 0 0;padding-left:1.4rem;font:400 1rem/1.55 var(--serif)}
+.fatt{margin:.2rem 0 0;padding-left:1.3rem;font:400 1rem/1.5 var(--serif)}
+.forms-list details{background:var(--page)}
+@media (max-width:820px){.steps>li{padding-left:2.6rem}}
+@media print{.hubgrid{display:block}.ckbar{display:none}}
+
 </style>
 </head>
 <body>
 <header class="bar">
   <div class="bar-in">
-    <a class="brand" href="#/">Companies Act, 2013</a>
+    <a class="brand" href="#/">Company Law Knowledge Lab</a>
     <div class="find" id="barfind" hidden>
       <div class="field"><span class="sym" aria-hidden="true">§</span>
         <input id="q2" type="search" placeholder="Section number or topic" autocomplete="off" spellcheck="false" aria-label="Search the Act" role="combobox" aria-expanded="false" aria-controls="res2"></div>
       <div class="results" id="res2" role="listbox" hidden></div>
     </div>
-    <nav class="nav" aria-label="Daily tools"><a href="#/tools" data-nav="tools">Calculator</a><a href="#/forms" data-nav="forms">Forms</a><a href="#/lodr" data-nav="lodr" id="nav-lodr" hidden>LODR</a><a href="#/index" data-nav="index">Index</a><a href="#/cases" data-nav="cases">Cases</a><a href="#/me" data-nav="me">My workspace</a></nav>
+    <nav class="nav" aria-label="Main sections"><a href="#/act" data-nav="act">Companies Act</a><a href="#/lodr" data-nav="lodr" id="nav-lodr" hidden>LODR</a><a href="#/forms" data-nav="forms">Forms</a><a href="#/processes" data-nav="processes">Processes</a><a href="drafts/" data-nav="drafts">Drafts</a><a href="#/cases" data-nav="cases">Cases</a><a href="#/tools" data-nav="tools">Calculator</a><a href="#/me" data-nav="me">My workspace</a></nav>
     <div class="tools" role="group" aria-label="Reading settings">
       <button data-fs="-1" aria-label="Smaller text" title="Smaller text">A−</button>
       <button data-fs="1" aria-label="Larger text" title="Larger text">A+</button>
@@ -668,25 +707,47 @@ function setChrome(home) {
   $("#built").textContent = S.idx ? `Built on ${S.idx.built}. ${S.idx.sections.length} sections and ${S.idx.sets.reduce((a, s) => a + s.n, 0)} rules in ${S.idx.sets.length} sets of Rules.` : "";
 }
 function renderHome() {
-  const I = S.idx;
+  const I = S.idx, nSec = I.sections.length, nRules = I.sets.reduce((a, x) => a + x.n, 0);
   const toc = I.chapters.map(c => `<details><summary><span class="ch">${esc(c.c)}</span><span class="ct">${esc(nice(c.t))}</span><span class="dots"></span><span class="rng">${esc(c.first)}${c.last !== c.first ? "–" + esc(c.last) : ""}</span></summary>
     <ul class="secs">${I.sections.filter(r => r[2] === c.c).map(r => `<li><a href="#/s/${esc(r[0])}"><b>${esc(r[0])}</b><span>${esc(r[1])}${r[4] ? " (omitted)" : ""}</span></a></li>`).join("")}</ul></details>`).join("");
-  S.homeHTML = `<section class="home">
+  S.actHTML = `<section class="home act">
+    <p class="small"><a href="#/">Home</a></p>
     <h1>Companies Act, 2013</h1>
     <p class="lede">Type a section number or a topic. The Rules made under that section open beside it.</p>
     <div class="find"><div class="field"><span class="sym" aria-hidden="true">§</span>
       <input id="q1" type="search" placeholder="164, or disqualification of director" autocomplete="off" spellcheck="false" aria-label="Search the Act" role="combobox" aria-expanded="false" aria-controls="res1"></div>
       <div class="results" id="res1" role="listbox" hidden></div></div>
     <p class="hint">Also works: <b>s.149(1)</b>, <b>section 42</b>, a rule title. Press <kbd>/</kbd> to search from any page.</p>
-    <h2>Daily tools</h2>
-    <div class="cards"><a href="#/tools"><b>Compliance and date calculator</b><span>Notice periods, AGM and ROC due dates, deadlines after an event</span></a>
-      <a href="#/forms"><b>Forms index</b><span>MGT, PAS, SH, DIR and other forms, with the Rules and sections that use them</span></a>
-      <a href="#/me"><b>My workspace</b><span>Saved sections, your private notes and recently read sections</span></a></div>
     <h2>Contents</h2><div class="toc">${toc}</div></section>`;
+  const card = (h, t, d, c) => `<a href="${h}" class="hc ${c || ""}"><b>${t}</b><span>${d}</span></a>`;
+  S.homeHTML = `<section class="home hub">
+    <h1>Company Law Knowledge Lab</h1>
+    <p class="lede">The statute book for a Company Secretary: the Act, its Rules, the Listing Regulations, forms, processes and drafts, linked to one another.</p>
+    <h2>Law</h2>
+    <div class="hubgrid">
+      ${card("#/act", "Companies Act, 2013", `${nSec} sections with the ${nRules} Rules beside them, deep dive, and explanations in simple words`)}
+      ${I.lodr ? card("#/lodr", "SEBI LODR, 2015", `${I.lodr} regulations and schedules, linked to the Act and back`, "lodr") : ""}
+      ${card("#/cases", "Table of cases", "Judicial pronouncements grouped by section")}
+    </div>
+    <h2>Doing the work</h2>
+    <div class="hubgrid">
+      ${card("#/forms", "Forms and checklists", "Every form in the Rules, with its filing process and checklist")}
+      ${card("#/processes", "Processes", "Incorporation, registered office, AGM, board meeting and more, step by step with forms and drafts")}
+      ${card("drafts/", "Drafts library", "Ready drafts in their original wording")}
+    </div>
+    <h2>Tools</h2>
+    <div class="hubgrid">
+      ${card("#/tools", "Compliance and date calculator", "Notice periods, AGM and ROC due dates, deadlines after an event")}
+      ${card("#/me", "My workspace", "Saved sections, your private notes and recently read sections")}
+    </div></section>`;
 }
 function showHome() {
-  S.cur = null; document.title = "Companies Act, 2013 Reader"; setChrome(true);
-  show(S.homeHTML); mountSearch($("#q1"), $("#res1")); window.scrollTo(0, 0);
+  S.cur = null; document.title = "Company Law Knowledge Lab"; setChrome(true);
+  show(S.homeHTML); window.scrollTo(0, 0);
+}
+function showAct() {
+  S.cur = null; S.d = null; document.title = "Companies Act, 2013 | Company Law Knowledge Lab"; setChrome(true); navMark("act");
+  show(S.actHTML); mountSearch($("#q1"), $("#res1")); window.scrollTo(0, 0);
   if (!matchMedia("(pointer:coarse)").matches) $("#q1").focus();
 }
 function showMessage(html) {
@@ -771,7 +832,7 @@ async function showSection(n, q) {
       <div class="panel" data-p="deep"></div>
     </aside></article>`);
   document.title = `${d.n}. ${d.t} | Companies Act, 2013`;
-  WS.seen(n); navMark(""); fillGuide(d);
+  WS.seen(n); navMark("act"); fillGuide(d);
   const rd = $(".reader");
   syncWide();
   const tab = q.get("tab") || S.tab; setTab(tab);
@@ -787,7 +848,7 @@ function setTab(t) {
   S.tab = t; const rd = $(".reader"); if (!rd) return;
   rd.dataset.tab = t;
   $$("[role=tab]", rd).forEach(b => b.setAttribute("aria-selected", String(b.dataset.tab === t || (t === "section" && b.dataset.tab === "rules" && !!b.closest(".tabs")))));
-  if (t === "deep") buildWeb();
+  if (t === "deep") { if (rd.dataset.k === "lodr") { if (S.lodrBuild) S.lodrBuild(); } else buildWeb(); }
 }
 document.addEventListener("click", e => { const b = e.target.closest("[role=tab][data-tab]"); if (b) { setTab(b.dataset.tab); if (b.closest(".mtabs")) window.scrollTo(0, 0); } });
 /* show only the paragraphs of a rule that refer to this section (and the chosen sub-section) */
@@ -1136,7 +1197,8 @@ async function packRun(kind) {
   msg.textContent = "";
   if (kind === "word") {
     const css = `body{font-family:"Times New Roman",serif;font-size:12pt;line-height:1.4}h1{font-size:22pt}h2{font-size:16pt;page-break-before:always;border-top:1.5pt solid #000;padding-top:6pt}h2.first{page-break-before:avoid}h3{font-size:12pt;font-family:Arial,sans-serif}h4{font-size:12pt;margin-bottom:2pt}.sub{color:#555;font-family:Arial,sans-serif;font-size:10pt}p{margin:0 0 6pt}.pk-clause{margin-left:28pt}.pk-subclause{margin-left:56pt}.pk-proviso,.pk-expl{margin-left:28pt;font-size:11pt}.pk-note{border-left:3pt solid #1d4f91;padding-left:8pt;font-family:Arial,sans-serif;font-size:10.5pt}`;
-    const doc = `<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40"><head><meta charset="utf-8"><title>${esc(pk.title)}</title><style>${css}</style></head><body>${pk.html}</body></html>`;
+    const doc = `<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40"><head><meta charset="utf-8"><title>${esc(pk.title)}</title><style>${css}
+</style></head><body>${pk.html}</body></html>`;
     const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob(["\ufeff", doc], { type: "application/msword" }));
     a.download = pk.title.replace(/[\\/:*?"<>|]+/g, " ").trim().slice(0, 80) + ".doc"; document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 4000);
     toast("Word file downloaded");
@@ -1200,57 +1262,71 @@ function lodrText(p) {
   p.ln.slice().sort((a, b) => a[0] - b[0]).forEach(([s, e, n]) => { if (s < at) return; h += esc(p.x.slice(at, s)) + `<a href="#/s/${esc(n)}">${esc(p.x.slice(s, e))}</a>`; at = e; });
   return h + esc(p.x.slice(at));
 }
-async function showLodr(id) {
-  const my = ++S.token; S.cur = null; S.d = null; setChrome(false); navMark("lodr");
+const lodrCh = ch => { const m = /^\s*chapter\s+([IVXLCDM]+|\d+)\b[\s.:\-–—]*(.*)$/i.exec(ch || ""); return m ? { c: m[1].toUpperCase(), t: m[2] } : { c: "", t: ch || "" }; };
+const lodrId = id => id.replace(/^S/, "Sch. ");
+async function showLodr(id, q) {
+  const my = ++S.token; S.cur = null; S.d = null; S.lodrBuild = null; navMark("lodr");
   id = decodeURIComponent(id || "");
+  if (!S.lodrX) { try { S.lodrX = await getJSON("data/lodr/index.json"); } catch (e) { S.lodrX = null; } }
+  if (my !== S.token) return;
+  const X = S.lodrX; if (X && !S.lodrT) S.lodrT = Object.fromEntries(X.map(e => [e.id, e.t]));
   if (!id) {
-    document.title = "SEBI (LODR) Regulations, 2015 | Companies Act, 2013 Reader";
-    show(`<section class="pg"><h1>SEBI (LODR) Regulations, 2015</h1><p class="msg" style="padding:0">Loading…</p></section>`);
-    let X; try { X = await getJSON("data/lodr/index.json"); } catch (e) { X = null; }
-    if (my !== S.token) return;
-    if (!X) return show(`<section class="pg"><h1>SEBI (LODR) Regulations, 2015</h1><p>The Regulations are not loaded yet.</p></section>`);
+    setChrome(true); document.title = "SEBI (LODR) Regulations, 2015 | Company Law Knowledge Lab";
+    if (!X) return show(`<section class="home"><p class="small"><a href="#/">Home</a></p><h1>SEBI (LODR) Regulations, 2015</h1><p>The Regulations are not loaded yet.</p></section>`);
     const groups = []; X.forEach(e => { let g = groups[groups.length - 1]; if (!g || g.n !== e.ch) { g = { n: e.ch, l: [] }; groups.push(g); } g.l.push(e); });
-    show(`<section class="pg"><h1>SEBI (LODR) Regulations, 2015</h1><p class="lede">The full text, as amended, with the sections of the Companies Act, 2013 that each Regulation refers to.</p>
-      <div class="field" style="max-width:30rem"><span class="sym" aria-hidden="true">§</span><input id="lq" type="search" placeholder="Search a regulation number, title or any words" autocomplete="off" aria-label="Search the Regulations"></div>
-      <div id="lhits"></div><div id="ll">${groups.map(g => `<h2 class="lch">${esc(g.n || "Regulations")}</h2><ul class="ll">${g.l.map(e => `<li data-k="${esc((e.id + " " + e.t).toLowerCase())}"><a href="#/lodr/${esc(e.id)}">${esc(lodrName(e))}</a></li>`).join("")}</ul>`).join("")}</div></section>`);
+    const toc = groups.map(g => { const c = lodrCh(g.n), f = g.l[0], l = g.l[g.l.length - 1];
+      return `<details data-k=""><summary><span class="ch">${esc(c.c || "·")}</span><span class="ct">${esc(nice(c.t) || "Regulations")}</span><span class="dots"></span><span class="rng">${esc(lodrId(f.id))}${l.id !== f.id ? "–" + esc(lodrId(l.id)) : ""}</span></summary>
+      <ul class="secs">${g.l.map(e => `<li data-k="${esc((e.id + " " + e.t).toLowerCase())}"><a href="#/lodr/${esc(e.id)}"><b>${esc(lodrId(e.id))}</b><span>${esc(e.k === "s" ? e.t.replace(/^Schedule\s+\S+\s*[:.\-–]?\s*/i, "") || e.t : e.t)}</span></a></li>`).join("")}</ul></details>`; }).join("");
+    show(`<section class="home lodrhome"><p class="small"><a href="#/">Home</a></p><h1>SEBI (LODR) Regulations, 2015</h1>
+      <p class="lede">The full text, as amended. Each Regulation shows the sections of the Companies Act, 2013 it names, and each section shows the Regulations that touch it.</p>
+      <div class="find"><div class="field"><span class="sym" aria-hidden="true">§</span><input id="lq" type="search" placeholder="Regulation number, title, or any words in the text" autocomplete="off" spellcheck="false" aria-label="Search the Regulations"></div></div>
+      <p class="hint">Also works: <b>17</b>, <b>related party</b>, <b>independent director</b>. Press <kbd>/</kbd> to search from any page.</p>
+      <div id="lhits"></div><h2>Contents</h2><div class="toc" id="ll">${toc}</div></section>`);
     const inp = $("#lq"); let T = null;
     inp.addEventListener("input", async () => {
       const v = inp.value.trim().toLowerCase(), hits = $("#lhits");
       $$("#ll li").forEach(li => li.hidden = !!v && !li.dataset.k.includes(v));
-      $$("#ll .lch").forEach(h => { let n = h.nextElementSibling; h.hidden = !!v && ![...n.children].some(li => !li.hidden); });
+      $$("#ll details").forEach(d => { const any = [...d.querySelectorAll("li")].some(li => !li.hidden); d.hidden = !!v && !any; d.open = !!v && any; });
       hits.innerHTML = "";
       if (v.length < 3) return;
       if (!T) { try { T = await getJSON("data/lodr/text.json"); } catch (e) { T = {}; } }
       if (inp.value.trim().toLowerCase() !== v) return;
       const byId = Object.fromEntries(X.map(e => [e.id, e]));
       const found = Object.entries(T).filter(([k, t]) => t.includes(v)).slice(0, 25);
-      if (found.length) hits.innerHTML = `<p class="small">Also found in the text of:</p><ul class="ll">${found.map(([k, t]) => { const i = t.indexOf(v), sn = t.slice(Math.max(0, i - 60), i + 90); return `<li><a href="#/lodr/${esc(k)}">${esc(lodrName(byId[k]))}</a><br><span class="muted small">…${esc(sn)}…</span></li>`; }).join("")}</ul>`;
+      if (found.length) hits.innerHTML = `<h2>Also found in the text of</h2><ul class="ll">${found.map(([k, t]) => { const i = t.indexOf(v), sn = t.slice(Math.max(0, i - 60), i + 90); return `<li><a href="#/lodr/${esc(k)}">${esc(lodrName(byId[k]))}</a><br><span class="muted small">…${esc(sn)}…</span></li>`; }).join("")}</ul>`;
     });
-    window.scrollTo(0, 0); return;
+    inp.addEventListener("keydown", e => { if (e.key === "Enter") { const t = inp.value.trim(); const hit = X.find(r => r.id.toLowerCase() === t.toLowerCase().replace(/^(?:reg(?:ulation)?\.?\s*)/, "")); if (hit) location.hash = `#/lodr/${hit.id}`; } });
+    window.scrollTo(0, 0); if (!matchMedia("(pointer:coarse)").matches) inp.focus(); return;
   }
   let d; try { d = await getJSON(`data/lodr/r/${encodeURIComponent(id)}.json`); } catch (e) { d = null; }
   if (my !== S.token) return;
+  setChrome(false);
   if (!d) return showMessage(`<p>There is no Regulation ${esc(id)} in the loaded text. <a href="#/lodr">See all Regulations</a>.</p>`);
-  if (!S.lodrT) { try { const X = await getJSON("data/lodr/index.json"); S.lodrT = Object.fromEntries(X.map(e => [e.id, e.t])); } catch (e) { S.lodrT = {}; } }
-  if (my !== S.token) return;
   document.title = `${lodrName(d)} | SEBI (LODR) 2015`;
-  const nav = `<nav class="pn" aria-label="Neighbouring regulations">${d.prev ? `<a href="#/lodr/${esc(d.prev[0])}" rel="prev"><span>Previous</span><b>${esc(d.prev[0].replace(/^S/, "Sch. "))}</b>${esc(d.prev[1])}</a>` : "<span></span>"}${d.next ? `<a class="nx" href="#/lodr/${esc(d.next[0])}" rel="next"><span>Next</span><b>${esc(d.next[0].replace(/^S/, "Sch. "))}</b>${esc(d.next[1])}</a>` : ""}</nav>`;
+  const nav = `<nav class="pn" aria-label="Neighbouring regulations">${d.prev ? `<a href="#/lodr/${esc(d.prev[0])}" rel="prev"><span>Previous</span><b>${esc(lodrId(d.prev[0]))}</b>${esc(d.prev[1])}</a>` : "<span></span>"}${d.next ? `<a class="nx" href="#/lodr/${esc(d.next[0])}" rel="next"><span>Next</span><b>${esc(lodrId(d.next[0]))}</b>${esc(d.next[1])}</a>` : ""}</nav>`;
   const cite = (d.acts || []).filter(a => a.w === "c"), rel = (d.acts || []).filter(a => a.w === "r");
-  const actList = (cite.length || rel.length) ? `<div class="lact"><h3>Companies Act, 2013</h3><ul>${cite.map(a => `<li><a href="#/s/${esc(a.n)}">Section ${esc(a.n)}</a> ${esc(nice(a.t || ""))}<span class="why">Named in this ${d.k === "s" ? "schedule" : "regulation"}.</span></li>`).join("")}${rel.map(a => `<li><a href="#/s/${esc(a.n)}">Section ${esc(a.n)}</a> ${esc(nice(a.t || ""))} <span class="flag" title="Matched on the headings only. Read both to confirm.">verify</span><span class="why">Same subject (“${esc(a.x)}”), matched on the headings.</span></li>`).join("")}</ul></div>` : "";
+  const actList = (cite.length || rel.length) ? `<div class="lact"><h3>Companies Act, 2013</h3><ul>${cite.map(a => `<li><a href="#/s/${esc(a.n)}">Section ${esc(a.n)}</a> ${esc(nice(a.t || ""))}<span class="why">Named in this ${d.k === "s" ? "schedule" : "regulation"}.</span></li>`).join("")}${rel.map(a => `<li><a href="#/s/${esc(a.n)}">Section ${esc(a.n)}</a> ${esc(nice(a.t || ""))} <span class="flag" title="Matched on the headings only. Read both to confirm.">verify</span><span class="why">Same subject (“${esc(a.x)}”), matched on the headings.</span></li>`).join("")}</ul></div>` : `<p class="empty">No section of the Companies Act is linked to this one.</p>`;
   const dl = { lw: true, n: d.id.replace(/^S/, "S-"), sch: d.k === "s", out: d.out, in: d["in"], wo: d.wo, wi: d.wi, acts: d.acts };
-  show(`<section class="pg lodr"><p class="small"><a href="#/lodr">SEBI (LODR) Regulations, 2015</a>${d.ch ? " / " + esc(d.ch) : ""}</p>
-    <h1 tabindex="-1">${esc(lodrName(d))}</h1>
-    <div class="ltabs" role="group" aria-label="Views"><button type="button" data-lt="text" aria-pressed="true">Text</button><button type="button" data-lt="deep" aria-pressed="false">Deep Dive</button></div>
-    <div class="lpane" data-lp="text">
+  const ch = lodrCh(d.ch), nAct = cite.length + rel.length;
+  show(`<article class="reader lodr" data-k="lodr" data-tab="section" data-wide="0">
+    <div class="mtabs" role="tablist"><button role="tab" data-tab="section">Text</button><button role="tab" data-tab="rules">Companies Act<span class="count">${nAct}</span></button><button role="tab" data-tab="deep">Deep Dive</button></div>
+    <aside class="margin"><div class="secnum" aria-label="${esc(lodrName(d))}">${esc(d.k === "s" ? d.id.slice(1) : d.id)}</div>
+      <div class="chap">${d.k === "s" ? "Schedule" : (ch.c ? "Chapter " + esc(ch.c) : "Regulation")}</div>${ch.t ? `<div class="chapt">${esc(nice(ch.t))}</div>` : ""}<p class="small" style="margin-top:1rem"><a href="#/lodr">All Regulations</a></p></aside>
+    <div class="text"><div class="tapewrap" aria-hidden="true"><div class="tape"><i></i><b></b></div></div>
+      <h1 tabindex="-1">${esc(d.t || lodrName(d))}</h1>
       ${d.cites.length ? `<p class="forms">Companies Act sections cited:${d.cites.map(c => `<a href="#/s/${esc(c)}">${esc(c)}</a>`).join("")}</p>` : ""}
-      <div class="body lbody">${d.paras.map(p => `<p class="lp l${p.l}">${esc(p.x)}</p>`).join("")}</div>${actList}${nav}
+      <div class="body lbody">${d.paras.map(p => `<p class="lp l${p.l}">${esc(p.x)}</p>`).join("")}</div>${nav}
       <p class="small muted">Text taken from the amended Regulations. Amendment footnotes are left out. Check the official SEBI copy before relying on it.</p></div>
-    <div class="lpane" data-lp="deep" hidden></div></section>`);
-  const pane = $('[data-lp="deep"]'); let built = false;
-  const build = async () => {
+    <aside class="side" aria-label="Companies Act and deep dive">
+      <div class="tabs" role="tablist"><button role="tab" data-tab="rules">Companies Act<span class="count">${nAct}</span></button><button role="tab" data-tab="deep">Deep Dive</button></div>
+      <div class="panel" data-p="rules">${actList}</div>
+      <div class="panel" data-p="deep"></div>
+    </aside></article>`);
+  const pane = $('.panel[data-p="deep"]'); let built = false;
+  S.lodrBuild = async () => {
     if (built) return; built = true;
     const W = pane.clientWidth || 600, groups = lodrGroups(dl);
-    const lists = groups.map(g => `<h4>${esc(g.label)}</h4><ul>${g.items.map(it => `<li><a href="${it.href}"><b>${esc(it.id.replace(/^S/, "Sch. "))}</b> ${esc(nice((it.tip || "").replace(/^(?:SEBI \(LODR\) )?(?:Regulation|Schedule|Section) \S+\.?\s*/, "")))}</a><span class="why">${esc(it.why)}</span>${it.q ? `<span class="why q">From the text: “${esc(it.q)}”</span>` : ""}</li>`).join("")}</ul>`).join("");
+    const lists = groups.map(g => `<h4>${esc(g.label)}</h4><ul>${g.items.map(it => `<li><a href="${it.href}"><b>${esc(lodrId(it.id))}</b> ${esc(nice((it.tip || "").replace(/^(?:SEBI \(LODR\) )?(?:Regulation|Schedule|Section) \S+\.?\s*/, "")))}</a><span class="why">${esc(it.why)}</span>${it.q ? `<span class="why q">From the text: “${esc(it.q)}”</span>` : ""}</li>`).join("")}</ul>`).join("");
     const nA = cite.length, nR = (d.out || []).length, nI = (d.in || []).length, parts = [];
     if (nR) parts.push(`refers to ${plural(nR, "other provision")} of the LODR`);
     if (nI) parts.push(`is referred to by ${plural(nI, "other provision")}`);
@@ -1265,30 +1341,8 @@ async function showLodr(id) {
     if (!(S.idx.ai_l || []).includes(d.id)) box.innerHTML = `<h3>In simple words</h3><p class="small">An explanation of this regulation in simple words is not ready yet. They are written automatically in the background, so please check back later.</p>`;
     else { try { const e = await getJSON(`data/ai/l/${encodeURIComponent(d.id)}.json`); box.innerHTML = `<h3>In simple words</h3>` + aiHTML(e, d.k === "s" ? "schedule" : "regulation"); } catch (er) { box.innerHTML = ""; } }
   };
-  $$(".ltabs button").forEach(b => b.addEventListener("click", () => {
-    $$(".ltabs button").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
-    $$(".lpane").forEach(p => p.hidden = p.dataset.lp !== b.dataset.lt);
-    if (b.dataset.lt === "deep") build();
-  }));
-  if (location.hash.includes("tab=deep")) $('[data-lt="deep"]').click();
+  setTab(location.hash.includes("tab=deep") ? "deep" : (S.tab === "deep" ? "section" : S.tab));
   window.scrollTo(0, 0); $("h1").focus({ preventScroll: true });
-}
-/* ---------- subject index and table of cases ---------- */
-async function showIndex(q) {
-  const my = ++S.token; S.cur = null; S.d = null; setChrome(false); navMark("index"); document.title = "Subject index | Companies Act, 2013 Reader";
-  show(`<section class="pg"><h1>Subject index</h1><p class="msg" style="padding:0">Loading…</p></section>`);
-  let X; try { X = await getJSON("data/subject.json"); } catch (e) { X = null; }
-  if (my !== S.token) return;
-  if (!X) return show(`<section class="pg"><h1>Subject index</h1><p>The index is not built yet.</p></section>`);
-  const letters = Object.keys(X);
-  show(`<section class="pg"><h1>Subject index</h1><p class="lede">Subjects taken from section headings and the defined terms of section 2, with the sections where each appears.</p>
-    <div class="field" style="max-width:26rem"><span class="sym" aria-hidden="true">§</span><input id="ixq" type="search" placeholder="Filter the index" autocomplete="off" aria-label="Filter the index"></div>
-    <nav class="az" aria-label="Jump to a letter">${letters.map(l => `<a href="#/index?l=${l}" data-l="${l}">${l}</a>`).join("")}</nav>
-    <div class="ix" id="ixl">${letters.map(l => `<h2 id="ix-${l}">${l}</h2>` + X[l].map(e => `<div class="e" data-k="${esc((e.t + " " + e.s.map(x => x[1]).join(" ")).toLowerCase())}"><b>${esc(e.t)}</b>${e.s.map(x => `<a href="#/s/${esc(x[0])}" title="${esc(x[1])}">${esc(x[0])}${x[2] ? esc(x[2]) : ""}</a>`).join("")}</div>`).join("")).join("")}</div></section>`);
-  const inp = $("#ixq");
-  inp.addEventListener("input", () => { const v = inp.value.trim().toLowerCase(); $$("#ixl .e").forEach(el => el.hidden = !!v && !el.dataset.k.includes(v)); $$("#ixl h2").forEach(h => { let n = h.nextElementSibling, any = false; while (n && n.tagName !== "H2") { if (!n.hidden) any = true; n = n.nextElementSibling; } h.hidden = !any; }); });
-  $$(".az a").forEach(a => a.addEventListener("click", ev => { ev.preventDefault(); const h = $("#ix-" + a.dataset.l); if (h) h.scrollIntoView({ block: "start" }); }));
-  window.scrollTo(0, 0);
 }
 async function showCases() {
   const my = ++S.token; S.cur = null; S.d = null; setChrome(false); navMark("cases"); document.title = "Table of cases | Companies Act, 2013 Reader";
@@ -1303,29 +1357,98 @@ async function showCases() {
   window.scrollTo(0, 0);
 }
 
-/* ---------- forms index ---------- */
+
+/* tick-lists whose ticks are kept in this browser */
+function ckHTML(key, items) {
+  let on = []; try { on = JSON.parse(store.get("ck:" + key) || "[]"); } catch (e) {}
+  return `<ul class="ck" data-ck="${esc(key)}">${items.map((x, i) => `<li><label><input type="checkbox" data-i="${i}"${on.includes(i) ? " checked" : ""}> <span>${esc(x)}</span></label></li>`).join("")}</ul>
+    <p class="small ckbar"><span class="ckn"></span> <button type="button" class="linkbtn" data-ckcopy="${esc(key)}">Copy checklist</button> <button type="button" class="linkbtn" data-ckreset="${esc(key)}">Clear ticks</button></p>`;
+}
+function ckCount(ul) { const all = $$("input", ul), n = all.filter(x => x.checked).length, el = ul.nextElementSibling && $(".ckn", ul.nextElementSibling); if (el) el.textContent = `${n} of ${all.length} done.`; }
+document.addEventListener("change", e => {
+  const c = e.target.closest(".ck input"); if (!c) return; const ul = c.closest(".ck");
+  store.set("ck:" + ul.dataset.ck, JSON.stringify($$("input", ul).map((x, i) => x.checked ? i : -1).filter(i => i >= 0))); ckCount(ul);
+});
+document.addEventListener("click", async e => {
+  const cp = e.target.closest("[data-ckcopy]"), rs = e.target.closest("[data-ckreset]");
+  if (cp) { const ul = $(`.ck[data-ck="${CSS.escape(cp.dataset.ckcopy)}"]`); if (ul) { const ok = await copyText($$("li", ul).map(li => (li.querySelector("input").checked ? "[x] " : "[ ] ") + li.textContent.trim()).join("\n")); toast(ok ? "Checklist copied" : "Could not copy"); } }
+  if (rs) { const ul = $(`.ck[data-ck="${CSS.escape(rs.dataset.ckreset)}"]`); if (ul) { $$("input", ul).forEach(x => x.checked = false); store.set("ck:" + rs.dataset.ckreset, "[]"); ckCount(ul); } }
+});
+const NS = /^not stated/i;
+async function getProcs() { if (S.procs === undefined) { try { S.procs = await getJSON("data/processes.json"); } catch (e) { S.procs = null; } } return S.procs; }
+async function fillForm(box, f) {
+  const P = await getProcs(), used = (P || []).filter(p => p.steps.some(st => (st.f || []).includes(f)));
+  let g = null;
+  if ((S.idx.ai_f || []).includes(f)) { try { g = await getJSON(`data/ai/f/${encodeURIComponent(f)}.json`); } catch (e) { g = null; } }
+  const line = (k, v) => v && !NS.test(v) ? `<p><b>${k}.</b> ${esc(v)}</p>` : "";
+  let h = "";
+  if (g) {
+    h += `<div class="fg"><p class="aisum">${esc(g.purpose)}</p>${line("Who files it", g.who)}${line("When", g.when)}
+      ${g.steps.length ? `<h4>Process</h4><ol class="fsteps">${g.steps.map(x => `<li>${esc(x)}</li>`).join("")}</ol>` : ""}
+      ${g.checklist.length ? `<h4>Checklist</h4>${ckHTML("form-" + f, g.checklist)}` : ""}
+      ${g.attachments.length ? `<h4>Attachments</h4><ul class="fatt">${g.attachments.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}
+      ${g.watch ? `<p class="aiwatch"><b>Be careful.</b> ${esc(g.watch)}</p>` : ""}
+      <p class="small ainote">Written by an AI from the Rule text only. It leaves out what the Rules do not say, so fees, exact time limits and attachments that sit in the MCA's form instructions may be missing. Check the Rule and the form before filing.</p></div>`;
+  } else h += `<p class="small">The filing process and checklist for this form are written automatically in the background from the Rule text. They are not ready yet, so please check back later.</p>`;
+  if (used.length) h += `<p class="note">Part of these processes: ${used.map(p => `<a href="#/processes/${esc(p.id)}">${esc(p.title)}</a>`).join("; ")}.</p>`;
+  box.innerHTML = h; $$(".ck", box).forEach(ckCount);
+}
 async function showForms(q) {
-  const my = ++S.token; S.cur = null; S.d = null; setChrome(false); navMark("forms"); document.title = "Forms index | Companies Act, 2013 Reader";
-  show(`<section class="pg"><h1>Forms index</h1><p class="lede">Forms named in the Rules, with the Rules that use them and the section they were made under.</p><p class="msg" style="padding:0">Loading…</p></section>`);
+  const my = ++S.token; S.cur = null; S.d = null; setChrome(false); navMark("forms"); document.title = "Forms and checklists | Company Law Knowledge Lab";
+  show(`<section class="pg"><p class="small"><a href="#/">Home</a></p><h1>Forms and checklists</h1><p class="msg" style="padding:0">Loading…</p></section>`);
   let F; try { F = await getJSON("data/forms.json"); } catch (e) { F = null; }
   if (my !== S.token) return;
   const names = F ? Object.keys(F) : [];
-  if (!names.length) { show(`<section class="pg"><h1>Forms index</h1><p class="note">No forms were found in the Rules yet.</p></section>`); return; }
-  const want = (q.get("f") || "").toUpperCase();
+  if (!names.length) { show(`<section class="pg"><p class="small"><a href="#/">Home</a></p><h1>Forms and checklists</h1><p class="note">No forms were found in the Rules yet.</p></section>`); return; }
+  const want = (q.get("f") || "").toUpperCase(), have = new Set(S.idx.ai_f || []);
   const item = f => { const e = F[f], secs = e.s.map(n => `<a href="#/s/${esc(n)}">${esc(n)}</a>`).join(", ");
-    return `<details data-f="${esc(f)}"${want === f ? " open" : ""}><summary><b>${esc(f)}</b> <span class="fn">${e.r.length} ${e.r.length === 1 ? "rule" : "rules"}${e.s.length ? " · section " + e.s.join(", ") : ""}</span></summary>
+    return `<details data-f="${esc(f)}"${want === f ? " open" : ""}><summary><b>${esc(f)}</b> <span class="fn">${e.r.length} ${e.r.length === 1 ? "rule" : "rules"}${e.s.length ? " · section " + e.s.join(", ") : ""}${have.has(f) ? " · process and checklist" : ""}</span></summary>
+      <div class="fbox" data-g="${esc(f)}"><p class="small">Loading…</p></div>
+      <h4>Rules that name this form</h4>
       <ul class="fl">${e.r.map(r => `<li>${r[3] ? `<a href="#/s/${esc(r[3])}?rule=${r[0]}:${encodeURIComponent(r[1])}&tab=rules">Rule ${esc(r[1])}</a>` : `Rule ${esc(r[1])}`} ${esc(r[2])} <small>${esc(S.idx.sets[r[0]].name)}</small></li>`).join("")}</ul>${secs ? `<p class="note">Sections: ${secs}</p>` : ""}</details>`; };
-  show(`<section class="pg"><h1>Forms index</h1><p class="lede">Forms named in the Rules, with the Rules that use them and the section they were made under.</p>
+  show(`<section class="pg forms-pg"><p class="small"><a href="#/">Home</a></p><h1>Forms and checklists</h1><p class="lede">Every form named in the Rules, with its filing process and checklist, the Rules that use it and the section it was made under.</p>
     <div class="find"><div class="field"><span class="sym" aria-hidden="true">§</span><input id="qf" type="search" placeholder="Form number or a word from a rule title, for example MGT or allotment" autocomplete="off" spellcheck="false" aria-label="Find a form"></div></div>
-    <p class="note" id="fcnt">${names.length} forms</p><div id="fl" class="forms-list">${names.map(item).join("")}</div>
-    <p class="note">Forms are found by reading the Rules. A form that only the Act or an MCA notice mentions is not listed.</p></section>`);
+    <p class="note" id="fcnt">${names.length} forms, ${names.filter(f => have.has(f)).length} with a process and checklist</p><div id="fl" class="forms-list">${names.map(item).join("")}</div>
+    <p class="note">Forms are found by reading the Rules. A form that only the Act or an MCA notice mentions is not listed. For whole jobs such as incorporation or an AGM, see <a href="#/processes">Processes</a>.</p></section>`);
+  const load = d => { const box = $(".fbox", d); if (box && !box.dataset.done) { box.dataset.done = "1"; fillForm(box, d.dataset.f); } };
+  $$("#fl details").forEach(d => d.addEventListener("toggle", () => { if (d.open) load(d); }));
   const inp = $("#qf");
   inp.addEventListener("input", () => {
     const t = inp.value.trim().toLowerCase(), ws = t.split(/\s+/).filter(Boolean); let n = 0;
     $$("#fl details").forEach(d => { const f = d.dataset.f, hay = (f + " " + F[f].r.map(r => r[2]).join(" ")).toLowerCase(); const ok = ws.every(x => hay.includes(x)); d.hidden = !ok; if (ok) n++; });
     $("#fcnt").textContent = `${n} ${n === 1 ? "form" : "forms"}`;
   });
-  if (want) { const el = $(`#fl details[data-f="${CSS.escape(want)}"]`); if (el) setTimeout(() => el.scrollIntoView({ block: "center" }), 50); }
+  if (want) { const el = $(`#fl details[data-f="${CSS.escape(want)}"]`); if (el) { load(el); setTimeout(() => el.scrollIntoView({ block: "center" }), 50); } }
+}
+
+/* ---------- processes ---------- */
+async function showProcesses(id) {
+  const my = ++S.token; S.cur = null; S.d = null; setChrome(false); navMark("processes"); id = decodeURIComponent(id || "");
+  const P = await getProcs(); if (my !== S.token) return;
+  const head = `<p class="small"><a href="#/">Home</a>${id ? ` / <a href="#/processes">Processes</a>` : ""}</p>`;
+  if (!P || !P.length) { document.title = "Processes | Company Law Knowledge Lab"; return show(`<section class="pg">${head}<h1>Processes</h1><p class="note">The processes are not loaded yet.</p></section>`); }
+  const sl = n => S.map[n] !== undefined ? `<a href="#/s/${esc(n)}">s.${esc(n)}</a>` : `<span>s.${esc(n)}</span>`;
+  if (!id) {
+    document.title = "Processes | Company Law Knowledge Lab";
+    show(`<section class="pg proc-pg">${head}<h1>Processes</h1><p class="lede">The common company-secretarial jobs, step by step: what to do, which forms to file, which sections apply, a checklist to tick off, and the ready drafts that go with it.</p>
+      <div class="hubgrid">${P.map(p => `<a href="#/processes/${esc(p.id)}" class="hc"><b>${esc(p.title)}</b><span>${esc(p.summary)}</span><i>${p.steps.length} steps · ${p.check.length} checklist items${p.drafts.length ? " · " + plural(p.drafts.length, "draft") : ""}</i></a>`).join("")}</div>
+      <p class="note">Each process is a working guide written from the Act and the Rules. Time limits, fees and forms change, so confirm them against the current Rules and MCA notifications before you file.</p></section>`);
+    return window.scrollTo(0, 0);
+  }
+  const p = P.find(x => x.id === id);
+  if (!p) return showMessage(`<p>There is no process called ${esc(id)}. <a href="#/processes">See all processes</a>.</p>`);
+  document.title = `${p.title} | Company Law Knowledge Lab`;
+  const lodrLinks = (p.lodr || []).filter(l => S.idx.lodr);
+  show(`<section class="pg proc-pg proc">${head}<h1 tabindex="-1">${esc(p.title)}</h1><p class="lede">${esc(p.summary)}</p>
+    <p class="note"><b>When.</b> ${esc(p.when)}</p>
+    <h2>Steps</h2>
+    <ol class="steps">${p.steps.map(st => `<li><b>${esc(st.t)}</b><p>${esc(st.d)}</p>${(st.f && st.f.length) || (st.s && st.s.length) ? `<p class="chips">${(st.f || []).map(f => `<a class="chip2 f" href="#/forms?f=${encodeURIComponent(f)}">${esc(f)}</a>`).join("")}${(st.s || []).map(n => `<span class="chip2">${sl(n)}</span>`).join("")}</p>` : ""}</li>`).join("")}</ol>
+    <h2>Checklist</h2>${ckHTML("proc-" + p.id, p.check)}
+    ${p.drafts.length ? `<h2>Drafts for this process</h2><ul class="ll">${p.drafts.map(d => `<li><a href="drafts/#${esc(d.id)}">${esc(d.title)}</a> <span class="muted small">${esc(d.category)}</span></li>`).join("")}</ul>` : `<h2>Drafts for this process</h2><p class="small">No draft in the Drafts library matches this process yet. <a href="drafts/">Open the Drafts library</a>, or add a draft whose file name says what it is, for example “${esc(p.title)}”.</p>`}
+    ${lodrLinks.length ? `<h2>If the company is listed</h2><ul class="ll">${lodrLinks.map(l => `<li><a href="#/lodr/${esc(l.id)}">Regulation ${esc(l.id)}</a> ${esc(l.why)}</li>`).join("")}</ul>` : ""}
+    <p class="note">This is a working guide written from the Act and the Rules, not legal advice. Check time limits and fees against the current Rules and MCA notifications before filing.</p>
+    <p class="small"><a href="#/processes">All processes</a></p></section>`);
+  $$(".ck").forEach(ckCount); window.scrollTo(0, 0); $("h1").focus({ preventScroll: true });
 }
 
 /* ---------- compliance and date calculator ---------- */
@@ -1450,10 +1573,11 @@ function parseHash() {
 async function route() {
   if (!S.idx) return;
   const hh = location.hash.replace(/^#/, ""), hb = hh.split("?")[0];
+  if (hb === "/act") return showAct();
   if (hb === "/me") return showWorkspace();
+  if (hb.startsWith("/processes")) return showProcesses(hb.slice(11));
   if (hb === "/pack") return showPack();
-  if (hb.startsWith("/lodr")) return showLodr(hb.slice(6));
-  if (hb === "/index") return showIndex(new URLSearchParams(hh.split("?")[1] || ""));
+  if (hb.startsWith("/lodr")) return showLodr(hb.slice(6), new URLSearchParams(hh.split("?")[1] || ""));
   if (hb === "/cases") return showCases();
   if (hb === "/tools") return showTools();
   if (hb === "/forms") return showForms(new URLSearchParams(hh.split("?")[1] || ""));
@@ -1466,7 +1590,7 @@ async function route() {
 window.addEventListener("hashchange", route);
 document.addEventListener("keydown", e => {
   if (e.metaKey || e.ctrlKey || e.altKey || (e.target.matches && e.target.matches("input,textarea,select"))) return;
-  if (e.key === "/") { e.preventDefault(); const i = $("#q1") || $("#q2") || $("#q3"); if (i) i.focus(); }
+  if (e.key === "/") { e.preventDefault(); const i = $("#q1") || $("#q2") || $("#q3") || $("#lq"); if (i) i.focus(); }
   else if ((e.key === "ArrowLeft" || e.key === "ArrowRight") && S.cur) {
     const i = S.order.indexOf(S.cur) + (e.key === "ArrowRight" ? 1 : -1);
     if (S.order[i]) location.hash = `#/s/${S.order[i]}`;
