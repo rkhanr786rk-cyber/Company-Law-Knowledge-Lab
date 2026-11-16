@@ -1,29 +1,34 @@
 {
- "summary": "This regulation explains how a listed company must share its annual report with shareholders, give details when appointing a director, make searchable disclosures to stock exchanges, and share auditor details before a meeting. It ensures transparency between the company and its investors. The rules cover formats for documents and necessary information for voting.",
+ "summary": "This regulation explains how a listed company must share its annual report, director details, and auditor information with shareholders. It also covers how disclosures must be sent to stock exchanges. The rules help shareholders stay informed about company leadership and money matters.",
  "points": [
   "Send soft copies of the full annual report to shareholders who registered their email addresses.",
   "Send a letter with the web-link for the annual report to shareholders who have not registered their email.",
-  "Send a hard copy of the full annual report to shareholders who specifically request it.",
-  "Provide a brief resume, expertise, and other details when appointing or re-appointing a director.",
-  "Submit disclosures to stock exchanges in the required searchable format and XBRL format."
+  "Send a hard copy of the annual report to any shareholder who asks for it.",
+  "Provide specific background and experience details to shareholders when appointing or re-appointing a director.",
+  "Send disclosures to stock exchanges in XBRL format and ensure they can be easily searched by users.",
+  "Include proposed auditor fees, appointment terms, and recommendation reasons in the meeting notice when appointing an auditor."
  ],
- "example": "At Sunrise Electronics Limited, a company whose shares are traded on the stock exchange, the management is preparing for its annual general meeting. For shareholders who have given their email addresses, Sunrise Electronics Limited sends a soft copy of the full annual report. For shareholders who have not given their email addresses, the company sends a letter providing the exact web-link where the complete annual report is available. Meanwhile, shareholder Mr. Sharma, who prefers physical mail, requests a hard copy, which the company promptly sends to him. When proposing a new director, the company includes a brief resume and details of other directorships in the notice sent to the investors.",
+ "example": "Aarav Steel Limited wanted to hold its annual general meeting and needed to share important updates with its investors. For shareholders like Rohan who registered their email, the company sent a soft copy of the full annual report. For Priya, who had not shared her email, the company mailed a letter with the exact web-link to the report. Meanwhile, investor Kabir asked for a physical copy, so Aarav Steel Limited mailed him a hard copy. When the company proposed a new director, it shared the director's brief resume, skills, and past directorships with all shareholders so they could make an informed choice.",
  "terms": [
   {
-   "term": "Listed entity",
-   "meaning": "A company that has its securities or shares listed on a stock exchange so the public can buy and sell them."
+   "term": "annual report",
+   "meaning": "A yearly document showing a company's financial health and business activities."
   },
   {
-   "term": "Depository",
-   "meaning": "An organization that holds securities in electronic form for investors."
+   "term": "depository",
+   "meaning": "An organization that holds shares and securities safely in electronic form."
   },
   {
    "term": "XBRL format",
-   "meaning": "A computer-readable electronic format used for business and financial data reporting."
+   "meaning": "A computer-readable file format used for business and financial data reporting."
+  },
+  {
+   "term": "statutory auditor",
+   "meaning": "An official independent accountant appointed to check the company financial accounts."
   }
  ],
- "watch": "People often confuse soft copies with web-links, but the rule treats them differently based on whether the shareholder registered an email address.",
- "h": "a1ee26c3195c",
+ "watch": "Do not forget that hard copies of the annual report are only sent if a shareholder specifically requests one.",
+ "h": "a033fc3abeb0",
  "m": "gemini-3.5-flash-lite",
  "d": "2026-11-16"
 }

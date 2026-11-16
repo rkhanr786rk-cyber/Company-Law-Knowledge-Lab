@@ -1,0 +1,19 @@
+{
+ "purpose": "Form RSC-6 is the form used for the order confirming a reduction of share capital and approving the minute, including any directions or terms and conditions deemed fit by the Tribunal.",
+ "who": "Not stated in the Rules text",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Wait for the Tribunal to make an order confirming a reduction.",
+  "Obtain the order confirming the reduction and approving the minute in Form No. RSC-6."
+ ],
+ "checklist": [
+  "Confirm the Tribunal has made an order confirming the reduction.",
+  "Check that the order includes the approved minute.",
+  "Check for any directions or terms and conditions included by the Tribunal."
+ ],
+ "attachments": [],
+ "watch": "Ensure the order confirming the reduction of share capital and approving the minute is in Form No. RSC-6.",
+ "h": "59470e129bfb",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

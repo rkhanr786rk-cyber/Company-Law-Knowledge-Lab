@@ -1,0 +1,19 @@
+{
+ "purpose": "Form CRA-4 is used by a company to furnish the cost audit report and other documents to the Central Government using the XBRL taxonomy.",
+ "who": "A company required to furnish cost audit report and other documents to the Central Government",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Prepare the cost audit report and other required documents.",
+  "Ensure the files use the XBRL taxonomy given in Annexure-III for financial years commencing on or after 1st April, 2014.",
+  "File the report and other documents using e-Form CRA-4."
+ ],
+ "checklist": [
+  "Cost audit report",
+  "Other documents required under sub-section (6) of section 148 of the Act"
+ ],
+ "attachments": [],
+ "watch": "Not stated in the Rules text",
+ "h": "6976b1ff31f4",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

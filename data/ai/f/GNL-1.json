@@ -1,0 +1,27 @@
+{
+ "purpose": "This form is related to the notice of a proposed scheme for the merger or amalgamation of certain companies under section 233 of the Act.",
+ "who": "Not stated in the Rules text",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Prepare the notice of the proposed scheme under clause (a) of sub-section (1) of section 233 in Form No. CAA.9.",
+  "Issue the notice to invite objections or suggestions from the Registrar, official liquidator, or persons affected.",
+  "Issue the notice to the concerned sectoral regulator and respective stock exchanges for regulated or listed companies.",
+  "Obtain a certificate from the auditor of the company that the company meets the required conditions if applicable.",
+  "File the copy of the approved scheme along with the required auditor certificate in Form No. CAA-10A."
+ ],
+ "checklist": [
+  "Verify that the scheme is between eligible classes of companies such as start-up companies, small companies, unlisted companies meeting financial limits, or holding and subsidiary companies.",
+  "Check that outstanding loans, debentures, or deposits do not exceed two hundred crore rupees where applicable.",
+  "Confirm there is no default in repayment of loans, debentures, or deposits.",
+  "Obtain the auditor certificate in Form No. CAA-10A.",
+  "Prepare Form No. CAA.9 for the notice."
+ ],
+ "attachments": [
+  "Copy of the approved scheme",
+  "Certificate from the auditor of the company in Form No. CAA-10A"
+ ],
+ "watch": "Not stated in the Rules text",
+ "h": "550cd20cf3be",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

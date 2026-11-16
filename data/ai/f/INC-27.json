@@ -1,0 +1,31 @@
+{
+ "purpose": "Form INC-27 is used for various company conversions under the Companies Act, 2013, such as converting a public company into a private company, an unlimited liability company into a limited liability company, or a company limited by guarantee into a company limited by shares.",
+ "who": "Not stated in the Rules text",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Pass a special resolution in a general meeting for the proposed company conversion.",
+  "File the required application and documents with the Regional Director or Registrar of Companies as specified in the rules.",
+  "Include required particulars, e-Memorandum of Association, e-Articles of Association, and necessary declarations.",
+  "Pay the required fee as provided in the Companies (Registration Offices and Fees) Rules, 2014."
+ ],
+ "checklist": [
+  "Copy of the special resolution passed in the general meeting",
+  "Altered e-Memorandum of Association and e-Articles of Association",
+  "Minutes of the general meeting with voting details",
+  "Board resolution or Power of Attorney authorizing the filing",
+  "Declarations by key managerial personnel or directors regarding compliance"
+ ],
+ "attachments": [
+  "e-Memorandum of Association and e-Articles of Association with proposed alterations",
+  "Copy of the minutes of the general meeting",
+  "Copy of Board resolution or Power of Attorney",
+  "Declaration by a key managerial personnel or director",
+  "Notice of the general meeting along with explanatory statement",
+  "Copy of the newspaper publication",
+  "List of members"
+ ],
+ "watch": "Ensure filings are made within the specific time limits prescribed for each type of conversion.",
+ "h": "c15e9ce8357a",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

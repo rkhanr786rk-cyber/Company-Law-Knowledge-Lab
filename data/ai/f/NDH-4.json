@@ -1,0 +1,23 @@
+{
+ "purpose": "Form NDH-4 is used by a public company desirous to be declared as a Nidhi, or by certain existing Nidhis and companies under previous company law, to apply for declaration as a Nidhi or update its status.",
+ "who": "Not stated in the Rules text",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Ensure the company fulfils the condition of having not less than two hundred members.",
+  "Ensure the company has Net Owned Funds of twenty lakh rupees or more.",
+  "Prepare the declaration with regard to fulfilment of fit and proper person criteria by all promoters and directors.",
+  "Apply in Form NDH-4 along with the required fee."
+ ],
+ "checklist": [
+  "Not less than two hundred members",
+  "Net Owned Funds of twenty lakh rupees or more",
+  "Declaration of fit and proper person criteria for all promoters and directors"
+ ],
+ "attachments": [
+  "Declaration with regard to fulfilment of fit and proper person criteria by all the promoters and directors of the company"
+ ],
+ "watch": "Non-compliance or rejection of the Form NDH-4 application prevents the company from filing Form No. SH-7 and Form PAS-3, and restricts raising deposits or providing loans.",
+ "h": "8431f7da56a3",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

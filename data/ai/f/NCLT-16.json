@@ -1,0 +1,21 @@
+{
+ "purpose": "Form NCLT-16 is used for recording the deposition of a witness.",
+ "who": "Not stated in the Rules text",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Record the deposition of a witness in Form NCLT-16.",
+  "Have the Members constituting the Bench initial each page of the deposition.",
+  "Carry out and initial any corrections pointed out by the witness if the Bench is satisfied.",
+  "Append a note at the bottom of the deposition if the Bench is not satisfied with corrections."
+ ],
+ "checklist": [
+  "Ensure Form NCLT-16 is used for the witness deposition.",
+  "Ensure each page has space for Members of the Bench to initial.",
+  "Note any corrections requested by the witness for Bench review."
+ ],
+ "attachments": [],
+ "watch": "Make sure the Bench initials every single page of the deposition.",
+ "h": "425266f1a135",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

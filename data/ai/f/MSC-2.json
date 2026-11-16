@@ -1,0 +1,18 @@
+{
+ "purpose": "Form MSC-2 is the certificate issued by the Registrar allowing the status of a Dormant Company to the applicant after considering the application filed in Form MSC-1.",
+ "who": "Not stated in the Rules text",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "File an application in Form MSC-1.",
+  "The Registrar considers the application.",
+  "The Registrar issues a certificate in Form MSC-2."
+ ],
+ "checklist": [
+  "Ensure Form MSC-1 has been filed."
+ ],
+ "attachments": [],
+ "watch": "Not stated in the Rules text",
+ "h": "40e5e8c50c3c",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

@@ -1,0 +1,21 @@
+{
+ "purpose": "Form NDH-1 is used by a Nidhi to file a return of statutory compliances regarding its members, Net Owned Funds, term deposits, and deposit ratio.",
+ "who": "Every Nidhi",
+ "when": "Within ninety days from the close of the first financial year after its incorporation and where applicable, the second financial year",
+ "steps": [
+  "Ensure the Nidhi meets the requirements for minimum members, net owned funds, unencumbered term deposits, and deposit ratio within one year from incorporation.",
+  "Get the return of statutory compliances certified by a company secretary in practice, a chartered accountant in practice, or a cost accountant in practice.",
+  "File Form NDH-1 with the Registrar along with the required fee within ninety days from the close of the first financial year after incorporation and where applicable, the second financial year."
+ ],
+ "checklist": [
+  "Check that the Nidhi has not less than two hundred members.",
+  "Check that Net Owned Funds are ten lakh rupees or more.",
+  "Check that unencumbered term deposits are not less than ten per cent of outstanding deposits.",
+  "Check that the ratio of Net Owned Funds to deposits is not more than 1:20."
+ ],
+ "attachments": [],
+ "watch": "Not stated in the Rules text",
+ "h": "bea3769f1497",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

@@ -1,0 +1,17 @@
+{
+ "purpose": "To file an annual return by every auditor referred to in rule 3 with the Authority.",
+ "who": "Every auditor referred to in rule 3",
+ "when": "On or before 30th November every year",
+ "steps": [
+  "Prepare Form NFRA-2.",
+  "File the return with the Authority."
+ ],
+ "checklist": [
+  "Auditor referred to in rule 3"
+ ],
+ "attachments": [],
+ "watch": "",
+ "h": "8db078b3445e",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

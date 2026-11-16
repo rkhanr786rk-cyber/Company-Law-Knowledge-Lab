@@ -1,0 +1,21 @@
+{
+ "purpose": "Form ADT-1 is used to give notice to the Registrar about the appointment of an auditor.",
+ "who": "Not stated in the Rules text",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Appoint the auditor under rule 3",
+  "Have the appointed auditor submit the required certificate",
+  "File the notice of the auditor appointment to the Registrar in Form ADT-1"
+ ],
+ "checklist": [
+  "Certificate that the individual or firm is eligible and not disqualified for appointment",
+  "Certificate that the proposed appointment is as per the term provided under the Act",
+  "Certificate that the proposed appointment is within the limits laid down by or under the authority of the Act",
+  "True and correct list of proceedings pending against the auditor, audit firm, or any partner regarding professional matters of conduct"
+ ],
+ "attachments": [],
+ "watch": "Not stated in the Rules text",
+ "h": "0ae3691f755d",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

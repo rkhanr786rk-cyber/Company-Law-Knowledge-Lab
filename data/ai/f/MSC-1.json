@@ -1,0 +1,27 @@
+{
+ "purpose": "Form MSC-1 is used to apply to the Registrar to obtain the status of a dormant company under section 455.",
+ "who": "A company",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Check company eligibility under the rules.",
+  "Pass a special resolution in the general meeting or issue a notice to all shareholders and obtain consent of at least 3/4th shareholders in value.",
+  "Prepare Form MSC-1 along with the required fee.",
+  "Submit Form MSC-1 to the Registrar."
+ ],
+ "checklist": [
+  "No inspection, inquiry or investigation has been ordered, taken up or carried out against the company.",
+  "No prosecution has been initiated and pending against the company under any law.",
+  "The company does not have any outstanding public deposits and is not in default in payment thereof or interest thereon.",
+  "The company does not have any outstanding secured loan.",
+  "If there is any outstanding unsecured loan, obtain concurrence of the lender.",
+  "There is no dispute in the management or ownership of the company.",
+  "The company does not have any outstanding statutory taxes, dues, duties etc. payable to the government or local authorities.",
+  "The company has not defaulted in the payment of workmen's dues.",
+  "The securities of the company are not listed on any stock exchange within or outside India."
+ ],
+ "attachments": [],
+ "watch": "Not stated in the Rules text",
+ "h": "2deecf746727",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

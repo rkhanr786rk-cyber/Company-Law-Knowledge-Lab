@@ -1,0 +1,23 @@
+{
+ "purpose": "To apply for the inspection of records under rule 58 using Form NCLAT-3.",
+ "who": "Not stated in the Rules text",
+ "when": "Two days before the date on which inspection is sought, unless otherwise permitted by the Registrar.",
+ "steps": [
+  "Prepare Form NCLAT-3 for the application for grant of inspection.",
+  "Present the form at the filing counter of the Registry between 10.30 AM and 3.00 PM on any working day.",
+  "Submit the application at least two days before the date on which inspection is sought, unless permitted otherwise by the Registrar.",
+  "Wait for the Registry to submit the application with its remarks before the Registrar.",
+  "Obtain appropriate orders passed by the Registrar upon consideration."
+ ],
+ "checklist": [
+  "Ensure Form NCLAT-3 is used for the application.",
+  "Check that the filing is done between 10.30 AM and 3.00 PM on any working day.",
+  "Confirm the application is presented at least two days before the desired inspection date, unless the Registrar permits otherwise.",
+  "Verify that the inspection date is not on the date fixed for hearing or on the preceding day if the case is pending, unless ordinarily permitted."
+ ],
+ "attachments": [],
+ "watch": "Inspection of records of a pending case shall not ordinarily be permitted on the date fixed for hearing or on the preceding day.",
+ "h": "d3982d705dda",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

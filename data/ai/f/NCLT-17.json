@@ -1,0 +1,19 @@
+{
+ "purpose": "Form NCLT-17 is used by the Registrar to grant a discharge certificate to a witness discharged by the Tribunal.",
+ "who": "Not stated in the Rules text",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Attend the Tribunal as a witness.",
+  "Be discharged by the Tribunal.",
+  "Receive the discharge certificate in Form NCLT-17 from the Registrar."
+ ],
+ "checklist": [
+  "Confirm attendance as a witness before the Tribunal.",
+  "Ensure discharge by the Tribunal has taken place."
+ ],
+ "attachments": [],
+ "watch": "Not stated in the Rules text",
+ "h": "8dc5f4084387",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

@@ -1,0 +1,21 @@
+{
+ "purpose": "Form NCLT-14 is used to record the certification by an attester when an affidavit is sworn or affirmed by an illiterate, visually challenged, or language-unacquainted person.",
+ "who": "Not stated in the Rules text",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Ensure the affidavit is read, explained, or translated to the deponent.",
+  "Verify that the deponent seems to understand the affidavit.",
+  "Have the deponent make his signature or mark in the presence of the attester.",
+  "Execute the attester certificate in Form NCLT-14."
+ ],
+ "checklist": [
+  "Affidavit for an illiterate, visually challenged, or language-unacquainted deponent",
+  "Attester ready to certify that the affidavit was read, explained, or translated",
+  "Deponent's signature or mark"
+ ],
+ "attachments": [],
+ "watch": "Make sure the deponent makes his signature or mark in the presence of the attester.",
+ "h": "0246d2c0ee30",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

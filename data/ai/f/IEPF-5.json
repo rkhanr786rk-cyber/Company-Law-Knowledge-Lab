@@ -1,0 +1,25 @@
+{
+ "purpose": "Form IEPF-5 is used by any person to claim shares, unclaimed dividends, matured deposits, matured debentures, application money due for refund, or other specified amounts transferred to the Fund.",
+ "who": "Any person whose shares, unclaimed dividend, matured deposits, matured debentures, application money due for refund, or interest thereon, sale proceeds of fractional shares, redemption proceeds of preference shares etc., has been transferred to the Fund",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Submit an online application in Form IEPF-5 available on the website www.iepf.gov.in along with the specified fee.",
+  "The submitted Form No. IEPF-5 is transmitted online to the Nodal Officer of the company for verification.",
+  "Send the original physical share certificate, original bond, deposit certificate, debenture certificate, and Indemnity Bond along with any other document enumerated in Form IEPF-5, duly signed, to the Nodal Officer of the concerned company at its registered office."
+ ],
+ "checklist": [
+  "Online application in Form IEPF-5",
+  "Original physical share certificate, original bond, deposit certificate, or debenture certificate, as applicable",
+  "Indemnity Bond",
+  "Any other document as enumerated in Form No. IEPF-5"
+ ],
+ "attachments": [
+  "Indemnity Bond",
+  "Original physical share certificate, original bond, deposit certificate, or debenture certificate",
+  "Any other document as enumerated in Form No. IEPF-5"
+ ],
+ "watch": "The claimant must send the original physical documents and indemnity bond duly signed to the Nodal Officer of the concerned company at its registered office for verification.",
+ "h": "4cfb232e1240",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

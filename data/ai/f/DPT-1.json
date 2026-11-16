@@ -1,0 +1,25 @@
+{
+ "purpose": "Form DPT-1 is used by companies intending to invite deposits from members or by eligible companies intending to invite deposits to issue a circular or advertisement.",
+ "who": "Every company referred to in sub-section (2) of section 73 or every eligible company intending to invite deposits",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Obtain statutory auditor certificate regarding deposit repayment defaults.",
+  "Prepare the circular or advertisement in Form DPT-1 on the authority and in the name of the Board of directors.",
+  "Issue the circular to all members by registered post with acknowledgement due, speed post, or electronic mode, if inviting from members.",
+  "Publish the circular or advertisement in an English newspaper and in a vernacular newspaper with wide circulation.",
+  "Place the circular on the website of the company, if any."
+ ],
+ "checklist": [
+  "Statutory auditor certificate regarding repayment of deposits and interest or making good of default",
+  "Approval and authority of the Board of directors",
+  "English and vernacular newspapers for publication",
+  "List of members if issuing circular by post or electronic mode"
+ ],
+ "attachments": [
+  "A certificate of the statutory auditor of the company stating that the company has not committed default in the repayment of deposits or payment of interest, or that the default has been made good and five years have lapsed"
+ ],
+ "watch": "Contravention of the rules may lead to punishment with fines for the company and every officer in default.",
+ "h": "43fd82f3a21b",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

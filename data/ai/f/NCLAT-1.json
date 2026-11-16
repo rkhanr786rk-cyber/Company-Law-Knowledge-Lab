@@ -1,0 +1,30 @@
+{
+ "purpose": "To present an appeal to the National Company Law Appellate Tribunal in Form NCLAT-1.",
+ "who": "The appellant or petitioner or applicant or respondent, as the case may be, in person or by his duly authorised representative",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Prepare the appeal in Form NCLAT-1 in triplicate.",
+  "Attach a certified copy of the impugned order.",
+  "Prepare an index in triplicate containing document details and fee paid.",
+  "Prepare sufficient copies of the appeal for service on the opposite party.",
+  "Include the required processing fee, envelopes, and notice forms.",
+  "Present the appeal at the filing counter in person or by a duly authorised representative."
+ ],
+ "checklist": [
+  "Form NCLAT-1 in triplicate",
+  "Certified copy of the impugned order",
+  "Index in triplicate with document details and fee paid",
+  "Sufficient number of copies of the appeal for service on the opposite party",
+  "Stipulated fee",
+  "Processing fee with required number of envelopes of sufficient size and notice forms"
+ ],
+ "attachments": [
+  "Certified copy of the impugned order",
+  "Index in triplicate",
+  "Processing fee, envelopes, and notice forms"
+ ],
+ "watch": "Non-compliance with presentation rules may constitute a valid ground to refuse to entertain the appeal.",
+ "h": "dd661cd11da9",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

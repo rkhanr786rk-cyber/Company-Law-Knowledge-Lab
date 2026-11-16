@@ -1,0 +1,19 @@
+{
+ "purpose": "Form AOC-1 is used to provide the statement containing the salient feature of the financial statement of a company's subsidiary or subsidiaries, associate company or companies and joint venture or ventures under the first proviso to sub-section (3) of section 129.",
+ "who": "Not stated in the Rules text",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Prepare the statement containing salient features of financial statements of subsidiaries, associate companies, and joint ventures.",
+  "Ensure the statement is in e-Form AOC-1 as required under the first proviso to sub-section (3) of section 129."
+ ],
+ "checklist": [
+  "Salient features of financial statements of subsidiaries",
+  "Salient features of financial statements of associate companies",
+  "Salient features of financial statements of joint ventures"
+ ],
+ "attachments": [],
+ "watch": "Ensure compliance with the first proviso to sub-section (3) of section 129.",
+ "h": "f075e7f9e79f",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

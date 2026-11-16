@@ -1,0 +1,21 @@
+{
+ "purpose": "To surrender a Director Identification Number (DIN) by making an application to the Central Government.",
+ "who": "The DIN holder",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Make an application in Form DIR-5 to surrender the DIN.",
+  "Submit a declaration that you have never been appointed as a director in any company.",
+  "Submit a declaration that the DIN has never been used for filing of any document with any authority.",
+  "The Central Government verifies e-records before deactivating the DIN."
+ ],
+ "checklist": [
+  "Form DIR-5 application",
+  "Declaration that the applicant has never been appointed as a director in any company",
+  "Declaration that the DIN has never been used for filing of any document with any authority"
+ ],
+ "attachments": [],
+ "watch": "Not stated in the Rules text",
+ "h": "fdc0c3fdb275",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

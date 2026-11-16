@@ -1,0 +1,34 @@
+{
+ "purpose": "Form DIR-3A is used for providing a declaration when the applicant's name does not have a last name, so that their father's or grandfather's surname is mentioned in the last name for the DIN application.",
+ "who": "Every applicant who intends to be appointed as director of an existing company",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Download Form DIR-3 from the Ministry of Corporate Affairs portal.",
+  "Fill in the required particulars, verify, and sign the form.",
+  "Attach the required documents including photograph, proof of identity, proof of residence, board resolution, and verified specimen signature.",
+  "Scan and file the entire set of documents electronically.",
+  "Sign and submit Form DIR-3 electronically using the applicant's Digital Signature Certificate.",
+  "Get the form verified digitally by a company secretary in full time employment of the company or by the managing director, director, CEO, or CFO of the company where the applicant is intended to be appointed."
+ ],
+ "checklist": [
+  "Photograph",
+  "Proof of identity",
+  "Proof of residence",
+  "Board resolution proposing appointment as director in an existing company",
+  "Specimen signature duly verified",
+  "Declaration in Form No. DIR-3A if the applicant's name does not have a last name",
+  "Digital Signature Certificate of the applicant",
+  "Digital verification by the company secretary, managing director, director, CEO, or CFO"
+ ],
+ "attachments": [
+  "photograph",
+  "proof of identity",
+  "proof of residence",
+  "board resolution proposing his appointment as director in an existing company",
+  "specimen signature duly verified"
+ ],
+ "watch": "In case the name of a person does not have a last name, his or her father's or grandfather's surname shall be mentioned in the last name along with the declaration in Form No. DIR-3A.",
+ "h": "0b45649ba5ad",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

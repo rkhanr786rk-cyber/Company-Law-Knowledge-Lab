@@ -1,0 +1,21 @@
+{
+ "purpose": "This guide covers the procedure for the Registrar to examine applications, e-forms, or documents filed electronically under the Companies Act, 2013.",
+ "who": "Registrar",
+ "when": "Within thirty days from the date of its filing, except where Central Government, Regional Director, or other competent authority approval is required.",
+ "steps": [
+  "File the application, e-form, or document electronically.",
+  "The Registrar examines the filed document.",
+  "Receive intimation by e-mail or post if further information is needed or if the document is defective.",
+  "Furnish the information, rectify defects, or re-submit the application or e-form."
+ ],
+ "checklist": [
+  "Ensure the application or e-form is filed electronically.",
+  "Provide a valid e-mail address.",
+  "Provide a valid registered office address."
+ ],
+ "attachments": [],
+ "watch": "Registrar may call for further information or find the document defective.",
+ "h": "fba3d0305fc1",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

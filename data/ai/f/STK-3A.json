@@ -1,0 +1,23 @@
+{
+ "purpose": "An application is made to remove the name of a company from the Register of Companies under section 248 of the Companies Act.",
+ "who": "Not stated in the Rules text",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Verify that overdue financial statements and annual returns are filed up to the end of the financial year the company ceased business, or file all pending financial statements and annual returns if action has been initiated.",
+  "Obtain a no objection certificate from the appropriate Regulatory Authority if the company conducts regulated financial, housing finance, insurance, capital market, collective investment, or asset management activities.",
+  "Submit the application to the Registrar, Centre for Processing Accelerated Corporate Exit in Form No. STK-2 along with the required fee."
+ ],
+ "checklist": [
+  "Fee of ten thousand rupees",
+  "Overdue financial statements under section 137 up to the end of the financial year in which the company ceased business or all pending financial statements",
+  "Overdue annual returns under section 92 up to the end of the financial year in which the company ceased business or all pending annual returns",
+  "No objection certificate from appropriate Regulatory Authority for applicable regulated companies"
+ ],
+ "attachments": [
+  "No objection certificate from appropriate Regulatory Authority"
+ ],
+ "watch": "A company shall not be allowed to file the application once notice under sub-section (5) of section 248 has been issued by the Registrar for publication.",
+ "h": "f817d095ca97",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

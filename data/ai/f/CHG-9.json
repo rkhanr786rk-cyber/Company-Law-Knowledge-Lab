@@ -1,0 +1,24 @@
+{
+ "purpose": "Form CHG-9 is used for the registration of creation or modification of a charge relating to debentures.",
+ "who": "The company and the charge holder, or insolvency resolution professional, resolution professional, or liquidator for companies under resolution or liquidation",
+ "when": "Within a period of thirty days of the date of creation or modification of charge",
+ "steps": [
+  "Prepare particulars of the charge and a copy of the instrument creating or modifying the charge.",
+  "Ensure Form CHG-9 is duly signed by the company and the charge holder, or by the insolvency resolution professional, resolution professional, or liquidator for companies under resolution or liquidation.",
+  "File Form CHG-9 with the Registrar along with the fee within thirty days of the date of creation or modification of the charge.",
+  "If not filed within thirty days, file within the period specified in section 77 on payment of additional fee or advalorem fee as prescribed."
+ ],
+ "checklist": [
+  "Particulars of the charge",
+  "Copy of the instrument creating or modifying the charge for debentures",
+  "Signatures of the company and the charge holder, or the insolvency resolution professional, resolution professional, or liquidator where applicable",
+  "Fee, additional fee, or advalorem fee as applicable"
+ ],
+ "attachments": [
+  "Copy of the instrument creating or modifying the charge"
+ ],
+ "watch": "Not stated in the Rules text",
+ "h": "f6b5366b70a0",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

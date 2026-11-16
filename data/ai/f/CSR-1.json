@@ -1,0 +1,23 @@
+{
+ "purpose": "Form CSR-1 is used by entities intending to undertake CSR activities to register themselves with the Central Government electronically.",
+ "who": "Every entity covered under sub-rule (1) who intends to undertake any CSR activity",
+ "when": "With effect from the 01st day of April 2021",
+ "steps": [
+  "Ensure the entity is of a type covered under sub-rule (1) intended for CSR implementation.",
+  "Prepare Form CSR-1 electronically.",
+  "Sign and submit Form CSR-1 electronically.",
+  "Have the form verified digitally by a Chartered Accountant, Company Secretary, or Cost Accountant in practice.",
+  "File the form with the Registrar on the portal."
+ ],
+ "checklist": [
+  "Check that the entity is established under section 8 of the Act, is a registered public trust, registered society, or an entity established under an Act of Parliament or State legislature.",
+  "Verify income tax exemptions or registrations under section 10(23C) or section 12A and 80G of the Income Tax Act, 1961 if applicable.",
+  "Confirm the entity has an established track record of at least three years in undertaking similar activities, if required by sub-rule (1)(d).",
+  "Arrange for digital verification by a practicing Chartered Accountant, Company Secretary, or Cost Accountant."
+ ],
+ "attachments": [],
+ "watch": "Provisions of this sub-rule shall not affect CSR projects or programmes approved prior to the 01st day of April 2021.",
+ "h": "69b6296f0f22",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

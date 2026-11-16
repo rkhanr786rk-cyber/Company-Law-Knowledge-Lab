@@ -1,0 +1,20 @@
+{
+ "purpose": "Form BEN-3 is used by the company to maintain a register of significant beneficial owners.",
+ "who": "Not stated in the Rules text",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Board decides reasonable time for inspection.",
+  "Company maintains the register of significant beneficial owners in Form BEN-3.",
+  "Company allows inspection of the register by any member during business hours."
+ ],
+ "checklist": [
+  "Register maintained in Form BEN-3",
+  "Business hours and reasonable time determined by the board",
+  "Payment of fee specified by the company"
+ ],
+ "attachments": [],
+ "watch": "Inspection time must be not less than two hours on every working day.",
+ "h": "f7c12dd08af5",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

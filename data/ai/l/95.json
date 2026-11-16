@@ -1,28 +1,23 @@
 {
- "summary": "This regulation explains the duties of a recognized stock exchange in India regarding specific company reports. The exchange must review a special statement that shows the impact of audit qualifications, along with the yearly audit report. These documents are submitted by listed companies under other specific regulations.",
+ "summary": "This regulation explains what a recognized stock exchange must do with certain audit reports it receives. Specifically, it requires the stock exchange to review the Statement on Impact of Audit Qualifications and the annual audit report. Because the provided text is very short and lacks details on how or when to do this, it is not possible to fully explain the entire process from this text alone.",
  "points": [
-  "The recognized stock exchange must review the Statement on Impact of Audit Qualifications.",
-  "The recognized stock exchange must review the accompanying annual audit report.",
-  "The stock exchange reviews documents submitted under clause (d) of sub-regulation (3) of regulation 33.",
-  "The stock exchange reviews documents submitted under clause (a) of sub-regulation (3) of regulation 52."
+  "The recognised stock exchange must review the Statement on Impact of Audit Qualifications.",
+  "The recognised stock exchange must review the accompanying annual audit report.",
+  "These documents must be the ones submitted under specific clauses of regulations 33 and 52."
  ],
- "example": "Sunrise Engineering Limited is a company whose shares are traded on the National Stock Exchange. At the end of the financial year, the company submits its annual audit report along with a Statement on Impact of Audit Qualifications to the exchange, as required by specific rules. The National Stock Exchange receives these documents and checks them carefully to perform its review duty under the regulations, ensuring it follows the exact steps given in the law for listed entities and stock exchanges.",
+ "example": "Asha Fashions Limited submitted its annual audit report along with the Statement on Impact of Audit Qualifications to the National Stock Exchange, as required by the listing rules. Upon receiving these documents, the staff at the National Stock Exchange opened the files to begin their review of the submitted Statement on Impact of Audit Qualifications and the accompanying annual audit report. They checked the papers to ensure they matched the specific rules mentioned in regulations 33 and 52, fulfilling their duty under the regulation to review these exact documents.",
  "terms": [
   {
-   "term": "recognized stock exchange",
-   "meaning": "An official marketplace where company shares are bought and sold, approved by the government."
+   "term": "recognised stock exchange",
+   "meaning": "An official market where company shares and other securities are bought and sold, approved by the government."
   },
   {
    "term": "audit qualifications",
-   "meaning": "Reservations or exceptions noted by an auditor in a financial report."
-  },
-  {
-   "term": "annual audit report",
-   "meaning": "A yearly report of a company's finances checked by an independent expert."
+   "meaning": "Notes or concerns raised by an auditor pointing out issues or exceptions in a company's financial accounts."
   }
  ],
- "watch": "Do not confuse this with the rules that tell companies how to prepare their reports, as this regulation only sets the duties of the stock exchange.",
- "h": "44d502b7fcbc",
+ "watch": "People often confuse the duties of the company submitting the report with the duties of the stock exchange reviewing it.",
+ "h": "27c32321776b",
  "m": "gemini-3.5-flash-lite",
  "d": "2026-11-16"
 }

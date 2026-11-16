@@ -1,0 +1,25 @@
+{
+ "purpose": "Form CHG-1 is used for the registration of creation or modification of charges other than debentures, or for belated applications to the Registrar.",
+ "who": "The company and the charge holder, or the charge-holder in case of default, or the insolvency resolution professional, resolution professional, or liquidator for companies under resolution or liquidation.",
+ "when": "Within a period of thirty days of the date of creation or modification of charge, or within the period specified in section 77.",
+ "steps": [
+  "Prepare particulars of the charge in Form No. CHG-1.",
+  "Include a copy of the instrument creating or modifying the charge.",
+  "Ensure the form is duly signed by the company and the charge holder, or by the insolvency resolution professional, resolution professional, or liquidator if under resolution or liquidation.",
+  "File the form with the Registrar along with the required fee."
+ ],
+ "checklist": [
+  "Particulars of the charge",
+  "Copy of the instrument creating or modifying the charge",
+  "Signatures of the company and the charge holder",
+  "Declaration from the company signed by its company secretary or a director for belated filings"
+ ],
+ "attachments": [
+  "A copy of the instrument creating or modifying the charge",
+  "Declaration from the company signed by its company secretary or a director for belated filings"
+ ],
+ "watch": "Belated filing declarations must state that the filing shall not adversely affect the rights of any other intervening creditors.",
+ "h": "edc62f5c7021",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

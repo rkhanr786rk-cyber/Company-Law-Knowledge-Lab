@@ -1,0 +1,27 @@
+{
+ "purpose": "Form NCLT-2 is used as a notice of admission submitted along with an application for an order of a meeting under section 230 of the Act.",
+ "who": "Not stated in the Rules text",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Prepare the application under sub-section (1) of section 230 of the Act.",
+  "Include a notice of admission in Form No. NCLT-2.",
+  "Include an affidavit in Form No. NCLT-6.",
+  "Include a copy of the scheme of compromise or arrangement with required disclosures.",
+  "Submit the application along with the prescribed fee."
+ ],
+ "checklist": [
+  "Notice of admission in Form No. NCLT-2",
+  "Affidavit in Form No. NCLT-6",
+  "Copy of scheme of compromise or arrangement with section 230(2) disclosures",
+  "Prescribed fee as per the Schedule of Fees"
+ ],
+ "attachments": [
+  "Notice of admission in Form No. NCLT-2",
+  "Affidavit in Form No. NCLT-6",
+  "Copy of scheme of compromise or arrangement"
+ ],
+ "watch": "Not stated in the Rules text",
+ "h": "fdf852ca7fe7",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

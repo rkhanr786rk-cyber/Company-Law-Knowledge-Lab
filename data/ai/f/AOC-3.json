@@ -1,0 +1,20 @@
+{
+ "purpose": "To file the statement containing salient features of financial statements referred to in the first proviso to sub-section (1) of section 136.",
+ "who": "Not stated in the Rules text",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Determine if the company is required to comply with Companies (Accounts) Rules, 2014, Rule 10.",
+  "Prepare the statement containing salient features of financial statements.",
+  "Use Form AOC-3 for the statement.",
+  "If the company is required to comply with Companies (Indian Accounting Standards) Rules, 2015, prepare and forward the statement in Form AOC-3A instead."
+ ],
+ "checklist": [
+  "Salient features of financial statements",
+  "Applicability status of Companies (Indian Accounting Standards) Rules, 2015"
+ ],
+ "attachments": [],
+ "watch": "Ensure the correct form is used (Form AOC-3 or Form AOC-3A) based on the company's accounting standards applicability.",
+ "h": "ae4ed2375168",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

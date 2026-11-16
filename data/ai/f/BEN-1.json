@@ -1,0 +1,20 @@
+{
+ "purpose": "Form BEN-1 is used by an individual who is a significant beneficial owner in a reporting company to file a declaration of their significant beneficial ownership or any change therein to the reporting company.",
+ "who": "Every individual who is a significant beneficial owner in a reporting company.",
+ "when": "Within ninety days from the commencement of the Companies (Significant Beneficial Owners) Amendment Rules, 2019, or within thirty days of subsequently acquiring significant beneficial ownership or any change therein.",
+ "steps": [
+  "Identify if there is any individual who is a significant beneficial owner in relation to the reporting company.",
+  "Cause such individual to make a declaration in Form BEN-1.",
+  "File the declaration in Form BEN-1 to the reporting company within the specified time limits."
+ ],
+ "checklist": [
+  "Verify if the individual is a significant beneficial owner in the reporting company.",
+  "Check if the individual holds ultimate beneficial interest of not less than ten per cent.",
+  "Determine the exact date of commencement or the date of subsequently becoming a significant beneficial owner or undergoing a change."
+ ],
+ "attachments": [],
+ "watch": "Not stated in the Rules text",
+ "h": "8a86bcacbb02",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

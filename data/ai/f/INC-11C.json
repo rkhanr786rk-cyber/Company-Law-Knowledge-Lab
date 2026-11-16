@@ -1,0 +1,24 @@
+{
+ "purpose": "Form INC-11C is used by the Registrar to issue a fresh certificate of incorporation when a company fails to change its name within three months of a direction under section 16(1).",
+ "who": "Not stated in the Rules text",
+ "when": "After the expiry of three months from the date of issue of direction by the Regional Director",
+ "steps": [
+  "Wait for the three-month period from the date of the Regional Director's direction to expire without compliance.",
+  "Ensure e-form INC-24 is not pending or subsequently rejected.",
+  "Allow the new name consisting of 'ORDNC', the year of direction, the serial number, and the existing CIN to become the company name.",
+  "Let the Registrar make the entry in the register of companies and issue the fresh certificate of incorporation in Form INC-11C.",
+  "Comply with section 12 of the Act and mention the required statement below the company name."
+ ],
+ "checklist": [
+  "Check if three months have passed since the Regional Director issued the direction.",
+  "Verify that e-form INC-24 is not pending for disposal or rejected.",
+  "Check that the new name is formed using 'ORDNC', the year, the serial number, and the existing CIN.",
+  "Check that compliance with section 12 of the Act is made.",
+  "Ensure the statement about the Order of Regional Director Not Complied is printed below the company name where required."
+ ],
+ "attachments": [],
+ "watch": "Not stated in the Rules text",
+ "h": "075ebc2d6355",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

@@ -1,0 +1,21 @@
+{
+ "purpose": "Form INC-9 is used to submit a declaration from each subscriber to the memorandum and each first director named in the articles, as required for the purposes of clause (c) of sub-section (1) of section 7.",
+ "who": "Each of the subscribers to the memorandum and each of the first directors named in the articles",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Identify each subscriber to the memorandum.",
+  "Identify each first director named in the articles.",
+  "Prepare the declaration in Form No. INC-9.",
+  "Submit the declaration by each subscriber and first director."
+ ],
+ "checklist": [
+  "Verify subscribers to the memorandum",
+  "Verify first directors named in the articles",
+  "Prepare Form No. INC-9"
+ ],
+ "attachments": [],
+ "watch": "Ensure the declaration is submitted by each required subscriber and first director.",
+ "h": "6e89692f50f7",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

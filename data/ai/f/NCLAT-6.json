@@ -1,0 +1,19 @@
+{
+ "purpose": "Form NCLAT-6 is used by the Appellate Tribunal to suo motu issue summons for the production of public documents or other documents in the custody of a public officer.",
+ "who": "Not stated in the Rules text",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "The Appellate Tribunal decides to act suo motu.",
+  "The Appellate Tribunal issues summons for production of documents.",
+  "The summons is issued in Form NCLAT-6."
+ ],
+ "checklist": [
+  "Ensure the document is a public document or in the custody of a public officer.",
+  "Confirm the summons is issued in Form NCLAT-6."
+ ],
+ "attachments": [],
+ "watch": "Not stated in the Rules text",
+ "h": "394618049040",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

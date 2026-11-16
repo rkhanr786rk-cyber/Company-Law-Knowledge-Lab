@@ -1,0 +1,22 @@
+{
+ "purpose": "Form NCLAT-5 is used for affidavits sworn or affirmed by persons who are illiterate, visually challenged, or unacquainted with the language in which the affidavit is written.",
+ "who": "Not stated in the Rules text",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Draft the affidavit in Form NCLAT-5.",
+  "Read, explain, or translate the affidavit to the deponent.",
+  "Ensure the deponent understands the contents.",
+  "Have the deponent make their signature or mark in the presence of the attestor.",
+  "Certify that the affidavit was read, explained, or translated and understood by the deponent."
+ ],
+ "checklist": [
+  "Affidavit drafted in Form NCLAT-5",
+  "Attestor ready to read, explain, or translate the affidavit",
+  "Deponent present for signature or mark"
+ ],
+ "attachments": [],
+ "watch": "Not stated in the Rules text",
+ "h": "1103775348c6",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

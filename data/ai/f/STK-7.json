@@ -1,0 +1,16 @@
+{
+ "purpose": "Form STK-7 is used for the notice issued by the Registrar pursuant to the action initiated under sub-section (1) of section 248.",
+ "who": "Not stated in the Rules text",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Receive notice in Form No. STK-7 issued by the Registrar pursuant to the action initiated under sub-section (1) of section 248."
+ ],
+ "checklist": [
+  "Check if notice in Form No. STK-7 has been issued by the Registrar."
+ ],
+ "attachments": [],
+ "watch": "Once notice in Form No. STK-7 has been issued by the Registrar, a company shall not be allowed to file an application in Form No. STK-2.",
+ "h": "8f7e3ce95ed4",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

@@ -1,0 +1,21 @@
+{
+ "purpose": "Form RSC-5 is used to issue notice and directions by the National Company Law Tribunal regarding the reduction of share capital.",
+ "who": "Not stated in the Rules text",
+ "when": "Within fifteen days of submission of the application under rule 2, the Tribunal shall give notice or direct that notice be given.",
+ "steps": [
+  "The Tribunal gives notice or directs that notice be given to the Central Government, Registrar of Companies, Securities and Exchange Board of India, and creditors.",
+  "Notices are sent to each creditor whose name is entered in the list of creditors.",
+  "Notice is published in an English newspaper, a vernacular language newspaper, and uploaded on the company website.",
+  "Creditors file objections in the Tribunal within three months from the date of publication."
+ ],
+ "checklist": [
+  "List of creditors",
+  "Details of the proposed reduction of share capital",
+  "Details of the debt or contingent debt or claim for each creditor"
+ ],
+ "attachments": [],
+ "watch": "Objections must be filed in the Tribunal within three months from the date of publication of the notice with a copy served on the company.",
+ "h": "388a44169f08",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

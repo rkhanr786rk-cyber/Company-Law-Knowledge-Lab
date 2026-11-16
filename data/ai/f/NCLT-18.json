@@ -1,0 +1,20 @@
+{
+ "purpose": "Form NCLT-18 is used to maintain a register for appeals and petitions against the orders of the Tribunal to the National Company Law Appellate Tribunal.",
+ "who": "Judicial branch",
+ "when": "In the first week of every month for scrutiny",
+ "steps": [
+  "Maintain a register in Form NCLT-18 for appeals and petitions.",
+  "Make necessary entries promptly in the register by the judicial branch.",
+  "Place the register for scrutiny by the President in the first week of every month."
+ ],
+ "checklist": [
+  "Ensure Form NCLT-18 register is maintained for appeals and petitions",
+  "Confirm necessary entries are made promptly by the judicial branch",
+  "Prepare the register for scrutiny in the first week of every month"
+ ],
+ "attachments": [],
+ "watch": "Ensure the register is placed for scrutiny by the President in the first week of every month.",
+ "h": "1ef093af60f7",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

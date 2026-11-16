@@ -1,0 +1,20 @@
+{
+ "purpose": "Form NCLAT-9 is used to maintain a register for Special Leave Petitions or Appeals against the orders of the Appellate Tribunal to the Supreme Court.",
+ "who": "Judicial Branch",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Maintain a register in Form NCLAT-9 for Special Leave Petitions or Appeals against Appellate Tribunal orders to the Supreme Court.",
+  "Make necessary entries in the register promptly by the Judicial Branch.",
+  "Place the register for scrutiny by the Chairperson in the first week of every month."
+ ],
+ "checklist": [
+  "Verify that the register is in Form NCLAT-9 format.",
+  "Check that necessary entries regarding Special Leave Petitions or Appeals to the Supreme Court are up to date.",
+  "Ensure the register is ready for scrutiny by the Chairperson in the first week of every month."
+ ],
+ "attachments": [],
+ "watch": "The register must be placed for scrutiny by the Chairperson in the first week of every month.",
+ "h": "b20a833cf080",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

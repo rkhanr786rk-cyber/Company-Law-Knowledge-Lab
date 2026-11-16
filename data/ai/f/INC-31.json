@@ -1,0 +1,24 @@
+{
+ "purpose": "Form INC-31 is used as Articles of Association for the incorporation of a company falling under section 8 of the Act.",
+ "who": "Not stated in the Rules text",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Prepare SPICe+ for incorporation of a company falling under section 8 of the Act.",
+  "Attach Form No. INC-13 Memorandum of Association.",
+  "Attach Form No. INC-31 Articles of Association.",
+  "File the application with the Registrar within whose jurisdiction the registered office is proposed to be situated."
+ ],
+ "checklist": [
+  "Ensure the company falls under section 8 of the Act.",
+  "Have Form No. INC-13 Memorandum of Association ready.",
+  "Have Form No. INC-31 Articles of Association ready."
+ ],
+ "attachments": [
+  "Form No. INC-13 Memorandum of Association",
+  "Form No. INC-31 Articles of Association"
+ ],
+ "watch": "Not stated in the Rules text",
+ "h": "0fd76434f609",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

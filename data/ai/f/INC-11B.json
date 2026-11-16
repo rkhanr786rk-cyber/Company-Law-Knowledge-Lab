@@ -1,0 +1,27 @@
+{
+ "purpose": "Form INC-11B is the certificate of incorporation issued by the Registrar of Companies upon approval of the conversion of a company limited by guarantee into a company limited by shares.",
+ "who": "Not stated in the Rules text",
+ "when": "Within thirty days from the date of the passing of the special resolution",
+ "steps": [
+  "Ensure the company has a share capital equivalent to the guarantee amount.",
+  "Pass a special resolution by members authorising the conversion, omitting the guarantee clause in the Memorandum, and altering the Articles.",
+  "File a copy of the special resolution in Form No. MGT14 with the Registrar of Companies within thirty days with the prescribed fee.",
+  "File an application in Form No. INC-27 with the Registrar of Companies within thirty days from the date of passing the special resolution."
+ ],
+ "checklist": [
+  "Share capital equivalent to the guarantee amount",
+  "Special resolution passed by members",
+  "Altered Memorandum of Association omitting the guarantee clause",
+  "Altered Articles of Association for a company limited by shares",
+  "List of members with the number of shares held aggregating to the minimum paid up capital equivalent to the guarantee amount"
+ ],
+ "attachments": [
+  "e- Memorandum of Association",
+  "altered e- Articles of Association",
+  "list of members with the number of shares held"
+ ],
+ "watch": "Ensure filings in Form INC-27 and Form MGT14 are made within thirty days from the date of passing the special resolution.",
+ "h": "d7b1528c1afc",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

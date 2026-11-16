@@ -1,0 +1,21 @@
+{
+ "purpose": "This form is used by a resigning director to forward a copy of their resignation along with reasons to the Registrar.",
+ "who": "A director who resigns from his office",
+ "when": "Within a period of thirty days from the date of resignation",
+ "steps": [
+  "Prepare Form DIR-11 with your resignation and reasons.",
+  "Include the required fee as provided in the Companies Rules.",
+  "Forward the form to the Registrar within thirty days from the date of resignation."
+ ],
+ "checklist": [
+  "Copy of resignation",
+  "Reasons for resignation",
+  "Fee as provided in the Companies Rules",
+  "Written authorization if a foreign director is appointing a representative to sign and file"
+ ],
+ "attachments": [],
+ "watch": "Foreign directors may authorize a professional or resident director in writing to file if Form DIR-12 was already filed.",
+ "h": "862d55b1b165",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

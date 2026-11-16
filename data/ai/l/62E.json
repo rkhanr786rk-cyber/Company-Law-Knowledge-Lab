@@ -1,33 +1,28 @@
 {
- "summary": "This regulation sets limits on how many companies a director can serve on at the same time. It includes both regular and independent roles, with specific caps for executive directors. Certain government or public-private roles are not counted towards this limit.",
+ "summary": "This regulation sets limits on how many board positions a director can hold at the same time in certain companies whose securities are traded on a stock exchange. It counts both regular seats and alternate seats. It also gives a specific deadline for directors to meet these limits.",
  "points": [
-  "A person can act as a director in a maximum of seven listed entities.",
-  "A person can serve as an independent director in a maximum of seven listed entities.",
-  "A whole time director or managing director in any listed entity can serve as an independent director in no more than three listed entities.",
-  "The count includes both companies with listed equity shares and high value debt listed entities.",
-  "Directorships held on an ex-officio basis for public sector undertakings or public-private partnerships are excluded from the limit."
+  "A person must not act as a director in more than seven listed entities.",
+  "A person must not serve as an independent director in more than seven listed entities.",
+  "A person serving as a whole time director or managing director in any listed entity must serve as an independent director in not more than three listed entities.",
+  "The entity must comply with these provisions within six months from the date of publication or the date of the Annual General Meeting, whichever is later."
  ],
- "example": "Mr. Sharma serves as the managing director of Stellar Tech Limited, a company with listed equity shares. He wants to help various other businesses and is invited to join multiple boards. Because he already holds a whole time managing director position, the rules state he can only serve as an independent director in a maximum of three other listed entities. Mr. Sharma carefully checks his current board positions to ensure he does not break this rule. He also notes that a special public sector board role he holds due to his official office does not count toward this total.",
+ "example": "Aarav is a business professional based in Mumbai. He currently sits on the board of directors for six regular companies and two high value debt listed entities whose securities are traded on a stock exchange. Because the rule states a person may act as a director in not more than seven listed entities in total, Aarav exceeds the allowed limit. To follow the law correctly, he must resign from at least one of these directorships. Additionally, he must ensure he meets this requirement within the deadline given, which is six months from the date of publication or the date of the Annual General Meeting, whichever is later.",
  "terms": [
   {
    "term": "Listed entities",
-   "meaning": "Companies whose securities are traded on a stock exchange."
+   "meaning": "Companies or organizations whose shares, debt, or other securities are traded on a stock exchange."
   },
   {
    "term": "Independent director",
-   "meaning": "A board member who does not have a material or pecuniary relationship with the company."
+   "meaning": "A board member who does not have a material or pecuniary relationship with the company and helps bring an impartial view."
   },
   {
    "term": "Whole time director",
-   "meaning": "A director who devotes their whole time of working hours to the company."
-  },
-  {
-   "term": "Ex-officio basis",
-   "meaning": "Holding a position automatically because of holding another office or official status."
+   "meaning": "A director who devotes their whole time of working capacity to the company."
   }
  ],
- "watch": "Do not forget that public sector or partnership roles held automatically by law or contract may not count toward your total directorship limit.",
- "h": "9c25dc27b399",
+ "watch": "People often forget that alternate directorships and high value debt listed entities count toward the total limit.",
+ "h": "1fff7317996e",
  "m": "gemini-3.5-flash-lite",
  "d": "2026-11-16"
 }

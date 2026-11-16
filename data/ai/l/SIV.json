@@ -1,34 +1,33 @@
 {
- "summary": "This schedule explains what companies listed on a stock exchange must disclose when preparing and publishing their financial results. It covers rules for accounting policy changes, auditor comments, business name updates, unstarted commercial operations, and special events. These rules help investors understand the true financial health of the company.",
+ "summary": "This schedule explains what a company whose shares are traded on a stock exchange must disclose when preparing and publishing its financial results. It covers rules for accounting policy changes, auditor modifications, new business names, uncommenced operations, exceptional items, and dividends. Companies must follow proper accounting standards and give clear details on any material events.",
  "points": [
-  "The listed entity must disclose any changes in accounting policies according to the correct standards.",
-  "The listed entity must disclose any modified opinions given by the auditor and their cumulative impact on profits, assets, or liabilities.",
-  "The listed entity must disclose separate financial figures for a new line of business if its name suggests one, for three succeeding years.",
-  "The listed entity must disclose details of raised funds and project status instead of regular financial results if it has not yet commenced commercial production.",
-  "The listed entity must disclose details regarding dividends paid or recommended for the year, including amounts per share and classes of shares.",
-  "The listed entity must ensure that segment reporting is done according to the applicable accounting standards."
+  "The listed entity must disclose any changes in accounting policies according to the applicable accounting standards.",
+  "The listed entity must disclose any modified opinions by the auditor and their cumulative impact on financial items.",
+  "The listed entity must disclose separate financial figures for a new line of business if it changes its name to suggest one.",
+  "The listed entity must disclose details of raised funds, project status, and expected commercial production dates if it has not commenced operations yet.",
+  "The listed entity must disclose all items of income and expenditure arising from transactions of an exceptional nature."
  ],
- "example": "Meera Textiles Private Limited recently changed its name to Meera Green Energy Limited to show its shift into a brand new line of business. Because of this name change, the company must now show separate financial figures for this new energy business in its financial results. This includes disclosing net sales, expenditure, and net profit or loss after tax specifically for the new green energy sector. The company is required to continue making these separate disclosures for the next three years. Additionally, the company must correctly allocate its tax expenses between the new energy business and its other business operations based on their respective net profits before tax.",
+ "example": "Meera Textiles Private Limited changed its name to Meera Digital Services Private Limited to suggest a brand-new line of business. Because of this name change, the company must disclose the net sales, expenditure, and net profit or loss after tax figures pertaining specifically to this new digital business separately in its financial results. It must continue making these separate disclosures for the three years succeeding the date of the change in its name. Additionally, the company must correctly allocate its tax expenses between the new digital business and its other business based on the ratio of their respective net profits before tax.",
  "terms": [
   {
    "term": "Modified opinion",
-   "meaning": "An auditor's report that is not completely clean, meaning the auditor found issues, disagreements, or limitations in the company's financial records."
+   "meaning": "An auditor's report that is not entirely clean, showing a qualification, adverse view, or disclaimer regarding the financial statements."
   },
   {
-   "term": "Going concern",
-   "meaning": "A business that is financially stable enough to continue operating without the threat of liquidation or closing down."
-  },
-  {
-   "term": "Sub-judice",
-   "meaning": "A matter that is currently under trial or being considered by a court of law."
+   "term": "Exceptional items",
+   "meaning": "Unusual items of income and expenditure arising out of transactions that need separate disclosure for clarity."
   },
   {
    "term": "Pro-rata",
-   "meaning": "Divided proportionally or distributed in equal shares based on the exact amount or time period."
+   "meaning": "Proportionate division or distribution based on an exact share, amount, or time period."
+  },
+  {
+   "term": "Going concern",
+   "meaning": "A business that is assumed will continue operating into the foreseeable future without closing down."
   }
  ],
- "watch": "Do not assume that changing a company name requires no extra financial disclosures; any name suggesting a new line of business triggers special reporting rules.",
- "h": "1bf1cc1272c7",
+ "watch": "Make sure not to confuse unquantifiable audit impacts where estimates are mandatory with exceptions like going concerns where management may be permitted to omit estimates.",
+ "h": "fab1c3846897",
  "m": "gemini-3.5-flash-lite",
  "d": "2026-11-16"
 }

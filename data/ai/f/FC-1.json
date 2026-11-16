@@ -1,0 +1,34 @@
+{
+ "purpose": "Form FC-1 is used by a foreign company to deliver a list of directors and Secretary, along with required documents and particulars, to the Registrar upon establishing a place of business in India.",
+ "who": "Every foreign company.",
+ "when": "Within thirty days of establishment of its place of business in India.",
+ "steps": [
+  "Establish a place of business in India.",
+  "Prepare Form FC-1 containing the required particulars of directors and Secretary.",
+  "Gather the documents required under section 380(1) and the RBI or other regulator approvals or declaration.",
+  "Deliver Form FC-1 with the required fee to the Registrar, Central Registration Centre.",
+  "Deliver the documents to the Registrar having jurisdiction over New Delhi."
+ ],
+ "checklist": [
+  "Personal name and surname in full for each director and Secretary",
+  "Any former name or names and surname or surnames in full",
+  "Father's name, mother's name, or spouse's name",
+  "Date of birth and residential address",
+  "Nationality and nationality of origin",
+  "Passport details including number, date of issue, and country of issue",
+  "Income-tax permanent account number (PAN), if applicable",
+  "Occupation and e-mail ID",
+  "Directorship details in other Indian companies and other directorships",
+  "Membership Number for the Secretary only"
+ ],
+ "attachments": [
+  "Documents required to be delivered for registration by a foreign company under section 380(1)",
+  "Attested copy of approval from the Reserve Bank of India under Foreign Exchange Management Act or Regulations",
+  "Attested copy of approval from other regulators, if required",
+  "Declaration from the authorised representative that no such approval is required"
+ ],
+ "watch": "Documents for registration must be delivered to the Registrar, Central Registration Centre, and to the Registrar having jurisdiction over New Delhi.",
+ "h": "2995a5617e48",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

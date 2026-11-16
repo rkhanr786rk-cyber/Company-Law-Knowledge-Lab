@@ -1,0 +1,23 @@
+{
+ "purpose": "Form DIR-2 is used by a newly appointed director to give written consent to act as a director of the company.",
+ "who": "Every person appointed to hold the office of a director",
+ "when": "On or before the appointment for DIR-2, and within thirty days of the appointment for filing DIR-12",
+ "steps": [
+  "Furnish consent in writing to the company in Form DIR-2 on or before appointment.",
+  "Obtain security clearance from the Ministry of Home Affairs, Government of India if the person is a national of a country sharing a land border with India.",
+  "File the consent with the Registrar in Form DIR-12 within thirty days of the appointment along with the required fee."
+ ],
+ "checklist": [
+  "Draft the consent in writing using Form DIR-2.",
+  "Obtain security clearance from the Ministry of Home Affairs if the person is a national of a country sharing a land border with India.",
+  "Prepare Form DIR-12 for filing with the Registrar.",
+  "Arrange the fee as provided in the Companies (Registration Offices and Fees) Rules, 2014."
+ ],
+ "attachments": [
+  "Security clearance from the Ministry of Home Affairs, Government of India, in case the person seeking appointment is a national of a country which shares land border with India"
+ ],
+ "watch": "Form DIR-12 must be filed within thirty days of the appointment.",
+ "h": "b55ea022821e",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

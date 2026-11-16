@@ -1,0 +1,19 @@
+{
+ "purpose": "Form NCLT-5 is used for the notice to be issued by the Tribunal to the opposite party.",
+ "who": "Not stated in the Rules text",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Identify that a notice must be issued by the Tribunal to the opposite party.",
+  "Prepare the notice using Form NCLT-5.",
+  "Issue the Form NCLT-5 notice to the opposite party."
+ ],
+ "checklist": [
+  "Verify the requirement to issue a notice to the opposite party.",
+  "Ensure Form NCLT-5 is used for the notice."
+ ],
+ "attachments": [],
+ "watch": "Not stated in the Rules text",
+ "h": "6e96e6ea6f8a",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

@@ -1,0 +1,24 @@
+{
+ "purpose": "Form DIR-3B relates to the allotment of a Director Identification Number (DIN) following the submission of Form DIR-3 on the portal and payment of fees.",
+ "who": "Not stated in the Rules text",
+ "when": "Within a period of one month from the receipt of such application for Central Government communication, and within fifteen days of placing on the website and email for defect rectification.",
+ "steps": [
+  "Submit Form DIR-3 on the portal.",
+  "Pay the requisite amount of fees through online mode.",
+  "The system automatically generates an application number, provided that if the applicant is a national of a country which shares a land border with India, necessary security clearance from the Ministry of Home Affairs must be attached first.",
+  "The Central Government processes the application and decides on approval or rejection.",
+  "If the application is found defective or incomplete, rectify the defects by resubmitting the application within fifteen days of intimation."
+ ],
+ "checklist": [
+  "Verify if Form DIR-3 is ready for submission on the portal.",
+  "Ensure online fee payment method is ready.",
+  "Check if the applicant is a national of a country sharing a land border with India, and if so, ensure security clearance from the Ministry of Home Affairs is attached."
+ ],
+ "attachments": [
+  "Security clearance from the Ministry of Home Affairs, Government of India (mandatory if the applicant is a national of a country which shares land border with India)"
+ ],
+ "watch": "If defects are not removed within the given time, the application will be treated and labeled as invalid, and the fee paid will neither be refunded nor adjusted.",
+ "h": "88576cbb3518",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

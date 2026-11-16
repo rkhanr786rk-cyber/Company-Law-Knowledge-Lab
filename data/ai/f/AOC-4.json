@@ -1,0 +1,23 @@
+{
+ "purpose": "Form AOC-4 is used by companies to file financial statements and other documents with the Registrar.",
+ "who": "Every company",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Prepare the financial statements and other documents.",
+  "File the financial statements with the Registrar together with Form AOC-4 or other applicable forms.",
+  "Attach the respective attachments in portable document format as required."
+ ],
+ "checklist": [
+  "Financial statements",
+  "Consolidated financial statement, if any",
+  "Signed financial statements duly authenticated as specified in section 134 of the Act, including Board report, auditors report and other documents in PDF format"
+ ],
+ "attachments": [
+  "Consolidated financial statement, if any",
+  "Copy of signed financial statements duly authenticated as specified in section 134 of the Act (including Board's report, auditors' report and other documents) in PDF format"
+ ],
+ "watch": "Ensure proper form selection such as AOC-4, AOC-4 CFS, AOC-4 XBRL, AOC-4 NBFC (Ind AS), or AOC-4 CFS NBFC (Ind AS) based on company type.",
+ "h": "f402a081a092",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

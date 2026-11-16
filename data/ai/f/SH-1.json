@@ -1,0 +1,22 @@
+{
+ "purpose": "Form SH-1 is used for recording particulars of every share certificate issued in lieu of an original certificate for the purpose of transfer to the IEPF.",
+ "who": "Company Secretary or person authorised by the Board",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Board authorises the Company Secretary or any other person to sign necessary documents.",
+  "Company Secretary or the authorised person makes an application on behalf of the shareholder to the company for a new share certificate.",
+  "Company issues a new share certificate with the required statement on the face.",
+  "Record the particulars of the share certificate in Form No. SH-1.",
+  "Inform the depository by way of corporate action to convert the shares into DEMAT form and transfer to the Authority."
+ ],
+ "checklist": [
+  "Verify the share certificate particulars to be entered in Form No. SH-1.",
+  "Ensure the new share certificate states it is issued in lieu of the previous certificate for IEPF transfer.",
+  "Record the new certificate in the register maintained for the purpose."
+ ],
+ "attachments": [],
+ "watch": "Not stated in the Rules text",
+ "h": "8facae5b2a21",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

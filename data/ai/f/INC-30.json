@@ -1,0 +1,34 @@
+{
+ "purpose": "Form INC-30 is used to apply to the Regional Director for the conversion of a public company into a private company under section 14.",
+ "who": "Not stated in the Rules text",
+ "when": "Within sixty days from the date of passing of special resolution",
+ "steps": [
+  "Pass a special resolution to authorize the alteration for conversion.",
+  "Prepare e-Form No. RD-1 with the required particulars set out in the rules.",
+  "Attach the required documents including the e-Memorandum, e-Articles, minutes, and declarations.",
+  "File the application with the Regional Director within sixty days of passing the special resolution along with the prescribed fee."
+ ],
+ "checklist": [
+  "e-Memorandum of Association and e-Articles of Association with proposed alterations",
+  "Copy of the minutes of the general meeting with vote details and names of dissenters",
+  "Copy of Board resolution or Power of Attorney dated not earlier than thirty days authorising the filing",
+  "Declaration by a key managerial personnel or director regarding member limit and no deposit violations",
+  "Declaration by a key managerial personnel or director regarding compliance with sections 73 to 76A, 177, 178, 185, 186, and 188",
+  "Declaration by a key managerial personnel or director regarding pending resolutions under section 179(3) and stock exchange delisting compliance",
+  "Particulars of the date of the Board meeting and general meeting",
+  "Particulars of reasons for conversion and effect on stakeholders",
+  "Details of any conversion made within the last five years and outcome along with a copy of the order"
+ ],
+ "attachments": [
+  "e-Memorandum of Association and e-Articles of Association with proposed alterations",
+  "Copy of the minutes of the general meeting at which the special resolution was passed with vote details and dissenters",
+  "Copy of Board resolution or Power of Attorney dated not earlier than thirty days authorising to file application",
+  "Declaration by a key managerial personnel or director regarding member limit and deposits",
+  "Declaration by a key managerial personnel or director regarding non-compliance of specified sections",
+  "Declaration by a key managerial personnel or director regarding pending resolutions and delisting"
+ ],
+ "watch": "The application must be filed within sixty days from the date of passing of the special resolution.",
+ "h": "8a5a72d53c34",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

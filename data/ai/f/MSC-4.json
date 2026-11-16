@@ -1,0 +1,23 @@
+{
+ "purpose": "This form is used by a dormant company to apply for the status of an active company under section 455 of the Companies Act, 2013.",
+ "who": "The company or its directors",
+ "when": "Within seven days from an event where a dormant company does or omits to do any act mentioned in the Grounds of application in Form MSC-1 affecting its status, or as otherwise required.",
+ "steps": [
+  "Prepare Form MSC-4 for seeking the status of an active company.",
+  "Prepare a return in Form MSC-3 in respect of the financial year in which the application is being filed.",
+  "Submit Form MSC-4 along with the required fees and the Form MSC-3 return to the Registrar.",
+  "Wait for the Registrar to consider the application and issue a certificate in Form MSC-5."
+ ],
+ "checklist": [
+  "Form MSC-4 application",
+  "Return in Form MSC-3 for the relevant financial year",
+  "Fees as provided in the Companies (Registration Offices and Fees) Rules, 2014"
+ ],
+ "attachments": [
+  "Form MSC-3"
+ ],
+ "watch": "The Registrar shall initiate the process of striking off the name of the company if the company remains as a dormant company for a period of consecutive five years.",
+ "h": "c00131aaafd4",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

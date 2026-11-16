@@ -1,0 +1,33 @@
+{
+ "purpose": "Form NCLT-1 is used for filing various applications to the Tribunal under the Companies Act, 2013, such as applications under section 131 for revision of financial statements or Board's report, section 241, section 7(7), and certain debenture or deposit related matters.",
+ "who": "Not stated in the Rules text",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Prepare the application in Form NCLT-1 containing the required particulars and details.",
+  "Attach the required documents as mentioned in Annexure-B.",
+  "Annex any specific supporting documents, lists, affidavits, or letters of consent required by the specific section rules.",
+  "Serve a copy of the application on the company, other respondents, and directed persons where applicable.",
+  "File the application with the Tribunal."
+ ],
+ "checklist": [
+  "Documents mentioned in Annexure-B",
+  "List of depositors or debenture holders with full details if applicable",
+  "Affidavit from the company stating the list of depositors or debenture holders is correct if the company is the applicant",
+  "Letter of consent signed by other entitled members where applicable",
+  "Schedule setting out names and addresses of all members on whose behalf the application is presented",
+  "Statement on whether applicants have paid all calls and sums due on shares",
+  "Copy of Board resolution and particulars required for section 131 applications",
+  "Details of incorporation, subscribers, promoters, first directors, and false or suppressed information for section 7(7) applications"
+ ],
+ "attachments": [
+  "Documents mentioned in Annexure-B",
+  "List of depositors or debenture holders",
+  "Affidavit stating the list of depositors or debenture holders is correct",
+  "Letter of consent signed by the rest of the members",
+  "Copy of the Board resolution"
+ ],
+ "watch": "Ensure all specific particulars, lists, and Annexure-B documents required for the particular type of application are properly included.",
+ "h": "a365ccc6c88f",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

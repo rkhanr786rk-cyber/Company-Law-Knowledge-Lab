@@ -1,29 +1,29 @@
 {
- "summary": "This regulation explains what a listed company must do when dealing with securities certificates, allotments, and investor requests. It covers rules for replacing, splitting, or consolidating shares, as well as handling unclaimed shares. Companies must also follow specific electronic holding formats for these actions.",
+ "summary": "This regulation explains the rules a listed company must follow when issuing, changing, or replacing shares and other securities. It covers actions like splitting shares, replacing lost certificates, and handling shares that investors have not claimed. The company must complete certain requests and issue new securities in digital form.",
  "points": [
-  "The listed entity must follow Rule 19(3) of the Securities Contract Rules for letters, allotments, transfers, and duplicates.",
+  "The listed entity must follow Rule 19(3) of the Securities Contract Rules for allotment, transfers, splits, and other actions.",
   "The listed entity must credit securities in dematerialised form within thirty days of receiving a valid request and documents for subdivision, split, consolidation, renewal, exchange, or duplicate issuance.",
-  "The listed entity must issue securities from any Scheme of Arrangement, sub-division, split, or consolidation only in dematerialised form.",
-  "The listed entity must open a separate demat account for investors who do not have a demat account when issuing such securities.",
+  "The listed entity must issue securities from a Scheme of Arrangement, sub-division, split, or consolidation only in dematerialised form.",
+  "The listed entity must open a separate demat account for investors who do not have a demat account when issuing securities under a Scheme of Arrangement or splits.",
   "The listed entity must follow the procedural requirements in Schedule VI when dealing with unclaimed or escrow account securities."
  ],
- "example": "Meera Textiles Private Limited received a request from an investor to split their old, worn-out share certificates into smaller units, along with all the necessary documents. Following the rules, Meera Textiles Private Limited processed the request and credited the new securities into the investor's electronic account within thirty days from the date they received the request. Later, when the company went through a Scheme of Arrangement, it issued new securities strictly in electronic form. For a few investors who did not have an electronic account yet, Meera Textiles Private Limited opened a separate electronic account to hold those specific securities safely until the investors claimed them according to the standard procedures.",
+ "example": "Anisha held physical shares in Alpha Pharma Limited, but her old share certificate became completely worn out and illegible. She sent a request along with all necessary documents to Alpha Pharma Limited asking for a new certificate. According to the rules, Alpha Pharma Limited must credit the replacement securities to Anisha in dematerialised form within a period of thirty days from the date they received her request and documents. Later, when Alpha Pharma Limited announced a split of its securities, it issued the new split securities only in dematerialised form. For any investors who still did not have a demat account, the company opened a separate demat account to hold those specific securities safely.",
  "terms": [
   {
    "term": "dematerialised form",
-   "meaning": "Holding securities in electronic format rather than as physical paper certificates."
+   "meaning": "Holding securities in electronic or digital format rather than as physical paper certificates."
   },
   {
    "term": "escrow account",
-   "meaning": "A temporary holding account where assets are kept safe until certain conditions are met."
+   "meaning": "A temporary account where items or funds are held safely by a third party until certain conditions are met."
   },
   {
-   "term": "Scheme of Arrangement",
-   "meaning": "A court-approved agreement between a company and its creditors or shareholders."
+   "term": "subdivision",
+   "meaning": "Dividing existing securities into smaller parts, creating more units."
   }
  ],
- "watch": "Make sure not to confuse physical certificate issuance with the mandatory electronic dematerialised form required for splits and schemes.",
- "h": "6afe18ac1200",
+ "watch": "People often confuse physical share certificates with digital holdings, but this regulation strictly requires electronic credit for specific requests and events.",
+ "h": "798aef71cd15",
  "m": "gemini-3.5-flash-lite",
  "d": "2026-11-16"
 }

@@ -1,0 +1,22 @@
+{
+ "purpose": "Form INC-34 is used as the e-Articles of Association along with SPICe+ for the incorporation of a company.",
+ "who": "Not stated in the Rules text",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Prepare the application for incorporation using SPICe+.",
+  "Attach e-Articles of Association in Form No. INC-34.",
+  "File the application with the Registrar within whose jurisdiction the registered office is proposed to be situated."
+ ],
+ "checklist": [
+  "Ensure e-Articles of Association in Form No. INC-34 is ready for attachment.",
+  "Check if the company falls under section 8 or has specific subscriber conditions that require different forms instead of INC-34.",
+  "Prepare the fee of rupees five hundred in addition to the registration fee."
+ ],
+ "attachments": [
+  "e-Memorandum of Association (e-MOA) in Form No. INC-33"
+ ],
+ "watch": "Ensure the correct form is used, as certain companies with more than seven subscribers or foreign signatories follow different formats.",
+ "h": "ea39c89bab3f",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

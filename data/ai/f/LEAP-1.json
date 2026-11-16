@@ -1,0 +1,22 @@
+{
+ "purpose": "To file the prospectus for issuing or offering equity instruments for listing on a stock exchange in a permissible jurisdiction.",
+ "who": "An unlisted public company or its existing holders.",
+ "when": "Within a period of seven days after the prospectus has been finalised and filed in the permitted exchange.",
+ "steps": [
+  "Finalise the prospectus for listing on the permitted stock exchange.",
+  "File the finalised prospectus in the permitted exchange.",
+  "File the prospectus in e-Form LEAP-1 along with the fees within the specified time period."
+ ],
+ "checklist": [
+  "Verify the company is an unlisted public company not falling under rule 5.",
+  "Verify the company has no partly paid-up instruments.",
+  "Ensure compliance with the requirements of the Scheme.",
+  "Ensure compliance with conditions specified by the Securities and Exchange Board of India if also listing with a recognised stock exchange in India.",
+  "Prepare the prospectus to be filed."
+ ],
+ "attachments": [],
+ "watch": "The form must be filed within seven days after the prospectus has been finalised and filed in the permitted exchange.",
+ "h": "e7de87cca37d",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

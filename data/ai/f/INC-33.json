@@ -1,0 +1,19 @@
+{
+ "purpose": "Form INC-33 is used as the e-Memorandum of Association (e-MOA) filed along with SPICe+ (INC-32) for the incorporation of a company.",
+ "who": "Not stated in the Rules text",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Prepare the SPICe+ application form INC-32.",
+  "Prepare the e-Memorandum of Association in Form No. INC-33.",
+  "File Form INC-33 along with SPICe+ and Form INC-34 with the Registrar."
+ ],
+ "checklist": [
+  "Ensure the application falls under Rule 38 for company incorporation.",
+  "Check if the company type requires Form INC-33 instead of alternative formats."
+ ],
+ "attachments": [],
+ "watch": "Certain company types or conditions require alternative memorandum forms or formats instead of INC-33.",
+ "h": "4166296c5672",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

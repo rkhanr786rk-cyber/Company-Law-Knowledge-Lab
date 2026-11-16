@@ -1,0 +1,23 @@
+{
+ "purpose": "To facilitate the manner and procedure of transferring shares to the Investor Education and Protection Fund (IEPF) Authority.",
+ "who": "Not stated in the Rules text",
+ "when": "Within a period of thirty days of such shares becoming due to be transferred to the Fund.",
+ "steps": [
+  "Inform the shareholder at their latest available address three months before the due date of transfer.",
+  "Publish a notice in a leading English and regional newspaper with wide circulation.",
+  "Obtain Board authorization for the Company Secretary or another person to sign necessary documents.",
+  "Follow the procedure for transmission of shares when transferring shares to the Fund.",
+  "Credit the shares to the DEMAT Account of the Authority within thirty days of them becoming due for transfer."
+ ],
+ "checklist": [
+  "Check if the beneficial owner has encashed any dividend warrant or had a dividend amount credited to their bank account during the last seven years.",
+  "Verify if there is a specific order of Court or Tribunal.",
+  "Ensure the Board has authorized a person to sign the necessary documents.",
+  "Ensure shareholder information and folio number or DP ID - Client ID are available on the website."
+ ],
+ "attachments": [],
+ "watch": "Shares shall not be transferred if the beneficial owner encashed any dividend warrant or had a dividend amount credited to their bank account during the last seven years.",
+ "h": "4731f6ed8ea2",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

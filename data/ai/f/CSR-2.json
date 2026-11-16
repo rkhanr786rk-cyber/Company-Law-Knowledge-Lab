@@ -1,0 +1,20 @@
+{
+ "purpose": "To furnish a report on Corporate Social Responsibility to the Registrar for the preceding financial year and onwards.",
+ "who": "Every company covered under the provisions of sub-section (1) to section 135",
+ "when": "For 2020-2021 on or before 30th June 2022; for 2021-2022 on or before 31st March 2023; for 2022-2023 on or before 31st March 2024; for 2023-2024 on or before 30th June 2025",
+ "steps": [
+  "Determine if the company is covered under sub-section (1) to section 135",
+  "File Form AOC-4 or AOC-4 XBRL or AOC-4 NBFC (Ind AS)",
+  "File Form CSR-2 as an addendum or separately depending on the financial year"
+ ],
+ "checklist": [
+  "Verify the company is covered under section 135",
+  "Complete the relevant AOC-4 form first",
+  "Check the applicable due date for the specific financial year"
+ ],
+ "attachments": [],
+ "watch": "Form CSR-2 must be filed after filing Form AOC-4, AOC-4 XBRL, or AOC-4 NBFC (Ind AS).",
+ "h": "0662688edf51",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

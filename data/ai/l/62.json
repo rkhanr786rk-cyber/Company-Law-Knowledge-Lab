@@ -1,29 +1,29 @@
 {
- "summary": "This regulation explains what a company with listed non-convertible securities must put on its website. The company must keep all website information correct and up to date at all times. Any change to the website content must be updated within two working days.",
+ "summary": "This regulation requires companies with listed non-convertible securities to maintain a working website with specific information about their business, finances, and contacts. Companies must keep all website content accurate and update any changes within two working days. They are also allowed to issue press releases about these website events.",
  "points": [
-  "The listed entity must maintain a functional website with details about its business, board composition, and financial information.",
-  "The listed entity must display contact details of officials handling investor grievances, along with a grievance email address.",
-  "The listed entity must publish credit ratings, annual returns, and notices regarding non-convertible securities on the website.",
+  "The listed entity must maintain a functional website containing details of its business, board composition, and financial information.",
+  "The listed entity must display contact info for officials handling investor grievances, along with a grievance email address.",
   "The listed entity must ensure that all website contents are correct and updated at any given point of time.",
-  "The listed entity must update any change in website content within two working days from the date of change."
+  "The listed entity must update any change in website content within two working days from the date of the change.",
+  "The listed entity may issue a press release with respect to the specified website events."
  ],
- "example": "Meera Textiles Private Limited has its non-convertible debt securities listed on a stock exchange. To follow the rules, the company launches a functional website. It uploads details of its business, financial results after board meetings, and the contact information of officials responsible for investor grievances. A change happens in the composition of its board of directors on a Tuesday. Meera Textiles Private Limited ensures that this new change is updated on its website within two working days, and checks that all published information remains correct.",
+ "example": "Alpha Steel Private Limited has issued non-convertible debt securities listed on a stock exchange. To comply with the regulations, Alpha Steel Private Limited sets up a working website. On this website, the company publishes details about its business operations, the names of its board members, financial results, and the email address for investor grievances. One month later, a new official is appointed to handle investor complaints. Alpha Steel Private Limited updates its website to show the new contact details within two working days of the change. The company also ensures that all the information on the website remains correct and up to date at all times.",
  "terms": [
   {
    "term": "Listed entity",
    "meaning": "A company whose securities are traded on a stock exchange."
   },
   {
-   "term": "Non-convertible securities",
-   "meaning": "Financial instruments like bonds or preference shares that cannot be converted into equity shares."
+   "term": "Debenture trustees",
+   "meaning": "Persons or entities appointed to protect the interests of holders of debentures or debt securities."
   },
   {
-   "term": "Debenture trustees",
-   "meaning": "Independent persons or entities appointed to protect the interests of investors who hold debt securities."
+   "term": "Redemption",
+   "meaning": "The repayment of a principal amount of a security by the issuer."
   }
  ],
- "watch": "Remember that updating website changes must happen within two working days, not instantly.",
- "h": "d00860745be2",
+ "watch": "A common confusion is assuming that updating the website can wait until the end of the month, but changes must be updated within two working days.",
+ "h": "eb550e4b2c1e",
  "m": "gemini-3.5-flash-lite",
  "d": "2026-11-16"
 }

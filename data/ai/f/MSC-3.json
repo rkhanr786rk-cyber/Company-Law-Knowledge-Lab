@@ -1,0 +1,21 @@
+{
+ "purpose": "Form MSC-3 is an annual return filed by a dormant company to indicate its financial position duly audited by a chartered accountant in practice.",
+ "who": "A dormant company",
+ "when": "Within a period of thirty days from the end of each financial year",
+ "steps": [
+  "Prepare the return in Form MSC-3 indicating the financial position duly audited by a chartered accountant in practice.",
+  "Pay the annual fee as provided in the Companies (Registration Offices and Fees) Rules, 2014.",
+  "File Form MSC-3 within a period of thirty days from the end of each financial year."
+ ],
+ "checklist": [
+  "Ensure the company is registered as a dormant company.",
+  "Prepare the return in Form MSC-3.",
+  "Get the financial position duly audited by a chartered accountant in practice.",
+  "Arrange for the annual fee as provided in the Companies (Registration Offices and Fees) Rules, 2014."
+ ],
+ "attachments": [],
+ "watch": "The Registrar shall initiate the process of striking off the name of the company if the company remains as a dormant company for a period of consecutive five years.",
+ "h": "76bc24369c76",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

@@ -1,0 +1,23 @@
+{
+ "purpose": "Form NCLAT-7 is used for recording the deposition of a witness before the Appellate Tribunal.",
+ "who": "Not stated in the Rules text",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Record the deposition of a witness in Form NCLAT-7.",
+  "Initial each page of the deposition by the Members constituting the Bench.",
+  "Point out corrections, if any, by the witness.",
+  "Carry out and duly initial corrections if the Bench is satisfied.",
+  "Append a note at the bottom of the deposition if the Bench is not satisfied with corrections."
+ ],
+ "checklist": [
+  "Form NCLAT-7 ready for recording witness deposition",
+  "Witness available for deposition and to point out corrections",
+  "Bench members ready to initial each page",
+  "Means to append a note at the bottom if corrections are not satisfied"
+ ],
+ "attachments": [],
+ "watch": "Corrections pointed out by the witness are only carried out if the Bench is satisfied.",
+ "h": "851b6c8f7400",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

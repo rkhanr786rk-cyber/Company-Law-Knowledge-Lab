@@ -1,0 +1,29 @@
+{
+ "purpose": "Form RSC-1 is used to apply to the Tribunal to confirm a reduction of share capital of a company.",
+ "who": "Not stated in the Rules text",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Prepare the application in Form No. RSC-1.",
+  "Pay the prescribed fee as per the Schedule of fee.",
+  "Attach the required certified list of creditors and certificates.",
+  "File the application with the Tribunal.",
+  "Keep copies of the list of creditors at the registered office for inspection."
+ ],
+ "checklist": [
+  "List of creditors certified as true and correct by the Managing Director or two directors.",
+  "List of creditors made as on a date not earlier than fifteen days prior to the date of filing.",
+  "Certificate from the company auditor that the list of creditors is correct.",
+  "Certificate by the auditor and declaration by a director that deposits and interest are not in arrears.",
+  "Certificate by the auditor that the proposed accounting treatment conforms to section 133 or other provisions."
+ ],
+ "attachments": [
+  "List of creditors",
+  "Auditor certificate on the list of creditors",
+  "Auditor certificate and director declaration on deposits",
+  "Auditor certificate on accounting treatment"
+ ],
+ "watch": "Not stated in the Rules text",
+ "h": "af4cc3d6dc53",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

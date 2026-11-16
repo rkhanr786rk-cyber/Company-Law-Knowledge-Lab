@@ -1,0 +1,23 @@
+{
+ "purpose": "Form RSC-4 is used by the Tribunal to give directions for notice publication to seek objections from creditors and intimate about the date of hearing for the reduction of share capital.",
+ "who": "Not stated in the Rules text",
+ "when": "Within seven days from the date on which directions are given by the Tribunal.",
+ "steps": [
+  "Receive directions from the Tribunal for the notice to be published.",
+  "Publish the notice in Form No. RSC-4 within seven days from the date of directions.",
+  "Publish the notice in an English language in a leading English newspaper and in a leading vernacular language newspaper in the State where the registered office is situated.",
+  "Upload the notice on the website of the company if the company has a website.",
+  "Wait for objections to be filed in the Tribunal within three months from the date of publication."
+ ],
+ "checklist": [
+  "Ensure Form No. RSC-4 notice content states the amount of the proposed reduction of share capital.",
+  "Ensure the notice states the places where the list of creditors may be inspected.",
+  "Ensure the notice states the time fixed by the Tribunal within which creditors may send objections.",
+  "Verify newspapers chosen are leading newspapers with wide circulation in the State where the registered office is situated."
+ ],
+ "attachments": [],
+ "watch": "Objections must be filed in the Tribunal within three months from the date of publication of the notice with a copy served on the company.",
+ "h": "af38e368df9a",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

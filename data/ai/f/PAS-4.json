@@ -1,0 +1,23 @@
+{
+ "purpose": "This form is used for making an offer or invitation to subscribe to securities through private placement under section 42 of the Companies Act, 2013.",
+ "who": "A company making an offer or invitation to subscribe to securities through private placement",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Obtain previous approval of shareholders by a special resolution for each offer or invitation.",
+  "Include the required disclosures in the explanatory statement annexed to the notice for shareholders approval.",
+  "Pass a relevant Board resolution where applicable for non-convertible debentures within limits."
+ ],
+ "checklist": [
+  "Particulars of the offer including date of passing of Board resolution",
+  "Kinds of securities offered and the price at which security is being offered",
+  "Basis or justification for the price including premium",
+  "Name and address of valuer who performed valuation",
+  "Amount which the company intends to raise by way of such securities",
+  "Material terms of raising such securities and proposed time schedule"
+ ],
+ "attachments": [],
+ "watch": "Not stated in the Rules text",
+ "h": "cf14f10b3db4",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

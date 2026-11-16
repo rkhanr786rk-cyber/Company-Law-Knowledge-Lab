@@ -1,18 +1,18 @@
 {
- "summary": "Every listed company must set up a special group called an audit committee to oversee financial matters. This committee needs to have at least three directors, and most of them must be independent. They also have rules to follow about who can join, how often they must meet, and who leads them.",
+ "summary": "Every listed company must set up a special committee called an audit committee to check and oversee financial matters. This committee must follow strict rules about who can join, how many members it needs, and how often it must meet. It also has the power to investigate and ask for professional help when needed.",
  "points": [
-  "The listed entity must set up an audit committee with at least three director members.",
-  "At least two-thirds of the committee members must be independent directors, or all of them if the entity has outstanding SR equity shares.",
-  "Every member must be financially literate, and at least one member must have accounting or financial management expertise.",
-  "The chairperson of the committee must be an independent director and must attend the annual general meeting to answer shareholder questions.",
-  "The audit committee must meet at least four times in a financial year, with no more than one hundred and twenty days between two consecutive meetings.",
+  "The listed entity must have an audit committee with at least three directors.",
+  "At least two-thirds of the committee members must be independent directors, and all must be independent if the company has outstanding SR equity shares.",
+  "All members must be able to read and understand basic financial statements, and at least one member must have accounting or financial management expertise.",
+  "The chairperson must be an independent director and must attend the annual general meeting to answer shareholder questions.",
+  "The audit committee must meet at least four times a year, with no more than one hundred and twenty days between meetings.",
   "The audit committee has the power to investigate activities, seek information from employees, and obtain outside professional advice."
  ],
- "example": "Sunrise Retail Limited, a listed company, decides to set up its audit committee. It appoints three directors to the committee, ensuring that two-thirds of them are independent directors who have no business ties to the firm. All three members can read and understand basic financial statements, and one member previously worked as a chief financial officer, bringing financial expertise. They choose an independent director as the chairperson. The company secretary acts as the secretary to the committee. To follow the rules, the committee schedules its meetings so that at least four take place during the financial year, keeping the gap between any two meetings under one hundred and twenty days.",
+ "example": "Zenith Gears Limited, a listed company, decided to set up its audit committee. The committee had three directors as members. Two of them were independent directors, and the chairperson was also an independent director who planned to attend the upcoming annual general meeting to answer shareholder queries. All three members could read balance sheets and profit and loss accounts, and one member had a professional certification in accounting. The Company Secretary acted as the secretary to the committee. They scheduled their meetings so that there would be at least four meetings in the financial year, ensuring not more than one hundred and twenty days passed between two consecutive meetings.",
  "terms": [
   {
    "term": "Independent director",
-   "meaning": "A board member who is independent of company management and has no material or pecuniary relationship with the company."
+   "meaning": "A board member who is independent of company management and has no material relationship with the company."
   },
   {
    "term": "Financially literate",
@@ -20,15 +20,15 @@
   },
   {
    "term": "Quorum",
-   "meaning": "The minimum number of members required to be present to legally conduct a meeting."
+   "meaning": "The minimum number of members required to be present to hold a valid meeting."
   },
   {
-   "term": "SR equity shares",
-   "meaning": "A special class of equity shares carrying superior voting rights compared to ordinary shares."
+   "term": "Statutory auditor",
+   "meaning": "An external professional appointed to audit the company financial records and accounts."
   }
  ],
  "watch": "People often confuse independent directors with regular company directors who are involved in daily management.",
- "h": "2dafc93fbf56",
+ "h": "905df9904672",
  "m": "gemini-3.5-flash-lite",
  "d": "2026-11-16"
 }

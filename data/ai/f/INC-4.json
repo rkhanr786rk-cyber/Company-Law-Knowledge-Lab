@@ -1,0 +1,25 @@
+{
+ "purpose": "Form INC-4 is filed to notify the Registrar of the withdrawal of a nominee's consent and the intimation of a new person nominated by the sole member of a One Person Company.",
+ "who": "The company",
+ "when": "Within thirty days of receipt of the notice of withdrawal of consent",
+ "steps": [
+  "Receive a notice of withdrawal in writing from the nominated person.",
+  "The sole member nominates another person within fifteen days of receiving the withdrawal notice.",
+  "Obtain the written consent and declaration of the new nominee.",
+  "File Form INC-4 with the Registrar within thirty days of receiving the notice of withdrawal."
+ ],
+ "checklist": [
+  "Notice of withdrawal in writing from the previous nominee",
+  "Written consent of the newly nominated person",
+  "Declaration of the newly nominated person in Form INC-4",
+  "Fee as provided in the Companies (Registration offices and fees) Rules, 2014"
+ ],
+ "attachments": [
+  "Written consent of the newly nominated person",
+  "Declaration of the newly nominated person"
+ ],
+ "watch": "Not stated in the Rules text",
+ "h": "d150c2302934",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

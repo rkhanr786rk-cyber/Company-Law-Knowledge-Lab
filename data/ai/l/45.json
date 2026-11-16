@@ -1,29 +1,34 @@
 {
- "summary": "This regulation explains the rules a listed company must follow when it wants to change its name. It sets clear conditions based on time, revenue, or investment before a name change is allowed. Companies must also file for name availability and include a chartered accountant's certificate when asking shareholders for approval.",
+ "summary": "A listed company wants to change its name and must meet specific conditions regarding time, revenue, or investment. It needs to prove these conditions are met through a chartered accountant certificate when asking shareholders for approval. The company must also apply to the Registrar of Companies and follow the Companies Act rules.",
  "points": [
-  "Must wait at least one year from the last name change before changing the name again",
-  "Must ensure at least fifty percent of total revenue in the past year comes from the new activity shown by the new name, or invest at least fifty percent of its assets in the new activity",
-  "Must change its name within six months if it changes its activities but does not reflect them in its name",
-  "Must file an application for name availability with the Registrar of Companies once conditions are met",
-  "Must include a certificate from a practicing chartered accountant in the notice to shareholders seeking approval for the name change"
+  "Must wait at least one year from its last name change before changing its name again",
+  "Must earn at least fifty percent of its total revenue in the past year from the new activity shown by the new name",
+  "Must invest at least fifty percent of its total assets into the new activity or project",
+  "Must change its name within six months if it changes its business activities without updating its name",
+  "Must file an application for name availability with the Registrar of Companies",
+  "Must include a practicing chartered accountant certificate in the notice for shareholders' approval"
  ],
- "example": "Meera Textiles Private Limited wanted to change its name to Meera Tech Solutions Limited after shifting its main business. Before doing this, the company checked that one full year had passed since its previous name change. Furthermore, the company ensured that at least fifty percent of its total revenue in the preceding year came from its new technology activities. Having met these rules, the company applied for name availability with the Registrar of Companies. When asking its shareholders to vote on the new name, Meera Textiles included a special certificate from a practicing chartered accountant confirming that all the required conditions under the regulations had been properly met.",
+ "example": "Sunrise Papers Limited decided to change its primary business to software development and wants a new name to match. The company checked the rules to ensure it qualifies. First, it has been two years since its last name change. Second, the company invested sixty percent of its total assets into the new software project, which satisfies the investment condition. Before asking the shareholders to vote on the new name, Sunrise Papers Limited obtained a certificate from a practicing chartered accountant confirming that the fifty percent asset condition was met. Finally, the company applied to the Registrar of Companies for name availability and prepared the notice for its shareholders with the required certificate attached.",
  "terms": [
   {
    "term": "listed entity",
-   "meaning": "A company whose shares or other securities are traded on a stock exchange."
+   "meaning": "a company whose securities are traded on a stock exchange"
   },
   {
    "term": "assets",
-   "meaning": "The total value of things owned and held by a company, such as property, investments, and cash."
+   "meaning": "the sum of fixed assets, advances, works in progress, inventories, investments, trade receivables, and cash equivalents"
   },
   {
    "term": "Registrar of Companies",
-   "meaning": "An office where companies are officially registered under the law."
+   "meaning": "an office that deals with the administration of companies under the law"
+  },
+  {
+   "term": "chartered accountant",
+   "meaning": "a certified professional accountant who checks and verifies financial records"
   }
  ],
- "watch": "People often confuse the revenue condition with the asset condition, but a company only needs to meet either fifty percent revenue or fifty percent asset investment, not necessarily both.",
- "h": "f5676e31055d",
+ "watch": "A company cannot rely on revenue alone if it has not waited one year, but it can choose to meet either the revenue condition or the asset condition.",
+ "h": "976c8091bc2a",
  "m": "gemini-3.5-flash-lite",
  "d": "2026-11-16"
 }

@@ -1,0 +1,22 @@
+{
+ "purpose": "Every company covered under rule 2 shall file a half yearly return with the Registrar in Form NDH-3.",
+ "who": "Every company covered under rule 2",
+ "when": "Within thirty days from the conclusion of each half year",
+ "steps": [
+  "Prepare the half yearly return in Form NDH-3.",
+  "Get the form duly certified by a company secretary in practice, chartered accountant in practice, or cost accountant in practice.",
+  "Pay the required fee as provided in the Companies (Registration Offices and Fees) Rules, 2014.",
+  "File Form NDH-3 with the Registrar."
+ ],
+ "checklist": [
+  "Verify the company is covered under rule 2.",
+  "Ensure the return is for the correct half year period.",
+  "Obtain certification from a practicing company secretary, chartered accountant, or cost accountant.",
+  "Arrange the fee as provided in the Companies (Registration Offices and Fees) Rules, 2014."
+ ],
+ "attachments": [],
+ "watch": "Ensure the filing is done within thirty days from the conclusion of each half year.",
+ "h": "ebe102d54a9e",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

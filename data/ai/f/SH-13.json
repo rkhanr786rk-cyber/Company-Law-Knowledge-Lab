@@ -1,0 +1,20 @@
+{
+ "purpose": "Form SH-13 is used by a holder of securities of a company to nominate any person as their nominee in whom the securities shall vest in the event of their death.",
+ "who": "Any holder of securities of a company",
+ "when": "At any time",
+ "steps": [
+  "Fill out and sign Form SH-13.",
+  "Submit the nomination form to the company.",
+  "The company records the request for nomination within two months from the date of receipt.",
+  "A corresponding entry is made forthwith in the relevant register of securities holders."
+ ],
+ "checklist": [
+  "Ensure Form SH-13 is duly filled and signed.",
+  "If securities are held jointly by more than one person, ensure all joint holders together sign the nomination form."
+ ],
+ "attachments": [],
+ "watch": "Not stated in the Rules text",
+ "h": "a62e82bafe55",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

@@ -1,0 +1,24 @@
+{
+ "purpose": "Form DIR-3C relates to the allotment of DIN and processing of applications under Rule 10 of the Companies Rules.",
+ "who": "Not stated in the Rules text",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Submit Form DIR-3 on the portal",
+  "Pay the requisite amount of fees through online mode",
+  "Receive the system-generated application number",
+  "Await Central Government processing, approval, or rejection",
+  "Rectify defects or incompleteness by resubmitting within fifteen days if intimated"
+ ],
+ "checklist": [
+  "Ensure Form DIR-3 is ready for portal submission",
+  "Arrange online payment for requisite fees",
+  "Check for security clearance from the Ministry of Home Affairs if the applicant is a national of a country sharing a land border with India"
+ ],
+ "attachments": [
+  "Necessary security clearance from the Ministry of Home Affairs, Government of India (if applying as a national of a country which shares land border with India)"
+ ],
+ "watch": "Fees paid will neither be refunded nor adjusted in case of rejection or invalidation.",
+ "h": "57e890d37297",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

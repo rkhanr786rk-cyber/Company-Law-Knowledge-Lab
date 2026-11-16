@@ -1,0 +1,25 @@
+{
+ "purpose": "The purpose of Form MGT-7 is for every company, except One Person Company and Small Company, to file its annual return. One Person Company and Small Company file in Form No. MGT-7A from the financial year 2020-2021 onwards.",
+ "who": "Every company except One Person Company and Small Company",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Determine if the company is required to file Form MGT-7 instead of Form MGT-7A.",
+  "Prepare the annual return details as required for the company.",
+  "If the company is a listed company or has a paid-up share capital of ten crore rupees or more or turnover of fifty crore rupees or more, have the annual return certified by a Company Secretary in practice using Form No. MGT.8.",
+  "Submit or file the annual return."
+ ],
+ "checklist": [
+  "Check if the company is an OPC or Small Company to decide between Form MGT-7 and Form MGT-7A.",
+  "Check if the company is a listed company.",
+  "Check if the company has a paid-up share capital of ten crore rupees or more.",
+  "Check if the company has a turnover of fifty crore rupees or more.",
+  "Ensure Form MGT.8 certification is obtained if the company meets the listing, capital, or turnover thresholds."
+ ],
+ "attachments": [
+  "Form No. MGT.8 certification certificate"
+ ],
+ "watch": "Form MGT-7 cannot be used by One Person Companies and Small Companies for financial years 2020-2021 onwards, as they must use Form MGT-7A.",
+ "h": "eb64ffec8ad7",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

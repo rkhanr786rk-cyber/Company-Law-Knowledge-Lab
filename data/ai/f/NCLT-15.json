@@ -1,0 +1,21 @@
+{
+ "purpose": "Form NCLT-15 is used as a summons for the production of documents in the custody of a public officer other than a court.",
+ "who": "Not stated in the Rules text",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Determine if the documents needed are in the custody of a public officer other than a court.",
+  "Prepare an application on plain paper as required under Rule 131(2).",
+  "Address the summons in Form NCLT-15 to the concerned Head of the Department or specified authority."
+ ],
+ "checklist": [
+  "Ensure the application sets out the document for which production is sought.",
+  "Include the relevancy of the document in the application.",
+  "State whether an application for a certified copy was made to the proper officer and the result if a certified copy would serve the purpose.",
+  "Address the summons to the concerned Head of the Department or authority specified by the Tribunal."
+ ],
+ "attachments": [],
+ "watch": "Not stated in the Rules text",
+ "h": "fdfaddc0ab21",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

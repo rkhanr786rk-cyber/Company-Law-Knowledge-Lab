@@ -1,0 +1,26 @@
+{
+ "purpose": "Form RD-1 is used for filing an application for approval of the concerned Regional Director under sub-section (41) of section 2 for a change in financial year.",
+ "who": "Not stated in the Rules text",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Prepare the application along with grounds and reasons.",
+  "Attach the required documents including board meeting minutes and Power of Attorney or Memorandum of Appearance.",
+  "File the application in e-Form No. RD-1 along with the prescribed fee."
+ ],
+ "checklist": [
+  "Grounds and reasons for the application",
+  "A copy of the minutes of the board meeting at which the resolution authorising such change was passed, with details of votes cast in favour and against",
+  "Power of Attorney or Memorandum of Appearance",
+  "Details of any previous application made within the last five years for change in financial year and outcome thereof along with copy of order"
+ ],
+ "attachments": [
+  "grounds and reasons for the application",
+  "a copy of the minutes of the board meeting at which the resolution authorising such change was passed, giving details of the number of votes cast in favour and or against the resolution",
+  "Power of Attorney or Memorandum of Appearance, as the case may be",
+  "details of any previous application made within last five years for change in financial year and outcome thereof along with copy of order"
+ ],
+ "watch": "A maximum of two re-submissions are allowed if the Regional Director finds the application defective or incomplete.",
+ "h": "40039eed1919",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

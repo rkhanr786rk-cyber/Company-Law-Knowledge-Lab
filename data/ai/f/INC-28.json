@@ -1,0 +1,19 @@
+{
+ "purpose": "Form INC-28 is used for filing the certified copy of the order of the Regional Director approving the alteration of memorandum for transfer of registered office within the same State from the jurisdiction of one Registrar of Companies to another, or for filing a copy of the order made by the Tribunal by the liquidator.",
+ "who": "Not stated in the Rules text",
+ "when": "Within thirty days from the date of receipt of the certified copy of the order",
+ "steps": [
+  "Receive the certified copy of the order of the Regional Director approving the alteration of memorandum for transfer of registered office within the same State, or receive the order made by the Tribunal.",
+  "Prepare Form INC-28.",
+  "File Form INC-28 with the Registrar of State along with the required fee within the specified time limit."
+ ],
+ "checklist": [
+  "Certified copy of the order of the Regional Director approving the alteration of memorandum for transfer of registered office within the same State, or copy of the order made by the Tribunal",
+  "Prescribed fee for filing Form INC-28"
+ ],
+ "attachments": [],
+ "watch": "Ensure the form is filed within thirty days from the date of receipt of the certified copy of the order.",
+ "h": "c2840c8ca32a",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

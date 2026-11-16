@@ -1,0 +1,20 @@
+{
+ "purpose": "Form PAS-2 is used to file the information memorandum with the Registrar for a second or subsequent offer of securities under a shelf prospectus.",
+ "who": "Not stated in the Rules text",
+ "when": "Within one month prior to the issue of a second or subsequent offer of securities under the shelf prospectus.",
+ "steps": [
+  "Prepare the information memorandum in Form PAS-2.",
+  "Pay the required fee as provided in the Companies (Registration Offices and Fees) Rules, 2014.",
+  "File Form PAS-2 with the Registrar within the specified time."
+ ],
+ "checklist": [
+  "Information memorandum prepared in Form PAS-2",
+  "Fee amount as per the Companies (Registration Offices and Fees) Rules, 2014",
+  "Details of the shelf prospectus and the second or subsequent offer of securities"
+ ],
+ "attachments": [],
+ "watch": "File the form within one month prior to the issue of the second or subsequent offer.",
+ "h": "60ab91971ae2",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

@@ -1,33 +1,33 @@
 {
- "summary": "This regulation explains the rules for related party transactions for certain high-value debt-listed entities. It details when these companies need approval from debenture holders and shareholders, and when exceptions apply. It also covers reporting rules and disclosure requirements for these deals.",
+ "summary": "This regulation explains the rules for related party transactions by certain listed entities with non-convertible securities. It requires these companies to follow general transaction rules, obtain specific approvals, and make disclosures. Certain kinds of transactions and older debt securities have exceptions.",
  "points": [
-  "The entity must follow general rules on related party transactions except for specific sub-regulations.",
-  "The entity must get a prior No-Objection Certificate from the Debenture Trustee for material related party transactions.",
-  "The entity must get approval from debenture holders who are unrelated and hold more than fifty percent of the debentures in value before going to shareholders.",
-  "The entity must not take the matter forward for shareholder consideration if the No-Objection Certificate has been withheld.",
-  "The entity must submit disclosures of related party transactions to the stock exchanges and publish them on its website along with its standalone financial results for the half year."
+  "The listed entity must follow the general related party transaction provisions except for specific sub-regulations.",
+  "The listed entity must get a prior No-Objection Certificate from the Debenture Trustee for material transactions and modifications.",
+  "The Debenture Trustee must obtain approval from unrelated debenture holders holding more than fifty percent in value.",
+  "The listed entity must obtain shareholder approval through a resolution after getting the debenture holder approval.",
+  "The listed entity must submit disclosures of related party transactions to the stock exchanges and publish them on its website."
  ],
- "example": "Sunrise Debt Limited, a company with listed non-convertible securities, wanted to enter into a material related party transaction. Before asking its shareholders, Sunrise Debt Limited had to seek a prior No-Objection Certificate from its Debenture Trustee. The Debenture Trustee then collected a No-Objection from unrelated debenture holders who held more than fifty percent of the debentures in value using voting. Because the No-Objection was successfully granted, the company could take the matter forward for shareholder approval. Finally, Sunrise Debt Limited published these transaction disclosures on its website and submitted them to the stock exchanges along with its standalone financial results for the half year.",
+ "example": "Meera Textiles Private Limited, a heavy value debt listed entity, planned a material transaction with a related party. First, the audit committee defined the material modification. Next, Meera Textiles requested a prior No-Objection Certificate from the Debenture Trustee. The Debenture Trustee then collected votes from unrelated debenture holders holding more than fifty percent in value. Once those debenture holders approved, Meera Textiles sought the approval of the shareholders through a resolution. Finally, Meera Textiles submitted the required disclosures to the stock exchanges and published them on its website along with its standalone financial results for the half year.",
  "terms": [
   {
    "term": "HVDLE",
-   "meaning": "High Value Debt Listed Entity, a company that has listed its non-convertible securities above a certain value."
-  },
-  {
-   "term": "Related party transactions",
-   "meaning": "Business deals or arrangements between a company and its connected persons or affiliates."
+   "meaning": "Heavy Value Debt Listed Entity"
   },
   {
    "term": "Debenture Trustee",
-   "meaning": "A person or entity that protects the interests of people who hold debentures."
+   "meaning": "An entity that protects the interests of debenture holders"
   },
   {
-   "term": "Standalone financial results",
-   "meaning": "Financial statements of a single company without combining the accounts of its subsidiaries."
+   "term": "Related party transactions",
+   "meaning": "Business deals between a company and its connected persons or affiliates"
+  },
+  {
+   "term": "Resolution",
+   "meaning": "A formal decision passed by shareholders or members"
   }
  ],
- "watch": "Do not confuse the requirement of getting a No-Objection Certificate from debenture holders with the final approval from shareholders, as both are distinct steps.",
- "h": "4e9514a74d3e",
+ "watch": "Make sure not to assume penalties or deadlines that are not explicitly stated in the text.",
+ "h": "89c9b016a116",
  "m": "gemini-3.5-flash-lite",
  "d": "2026-11-16"
 }

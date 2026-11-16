@@ -1,0 +1,19 @@
+{
+ "purpose": "Form CRL-1 is filed by existing companies to disclose details of subsidiary layers that exceed the specified limit.",
+ "who": "Every company, other than a company referred to in sub-rule (2), existing on or before the commencement of these rules, which has number of layers of subsidiaries in excess of the layers specified in sub-rule (1)",
+ "when": "Within a period of one hundred and fifty days from the date of publication of these rules in the Official Gazette",
+ "steps": [
+  "Identify if the company is an existing company with subsidiary layers in excess of the specified limit.",
+  "Prepare the return in Form CRL-1 disclosing the required details.",
+  "File the Form CRL-1 return with the Registrar."
+ ],
+ "checklist": [
+  "Details of subsidiary layers exceeding the specified limit",
+  "Information required to be disclosed in Form CRL-1"
+ ],
+ "attachments": [],
+ "watch": "Companies must not have any additional layer of subsidiaries over and above the layers existing on the commencement date of the rules.",
+ "h": "6c0f4ec55782",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

@@ -1,0 +1,27 @@
+{
+ "purpose": "Form NCLT-13 is used by the Tribunal to issue a public notice to all members of a class upon the admission of a class action application under section 245 of the Act.",
+ "who": "Not stated in the Rules text",
+ "when": "Within seven days of admission of the application by the Tribunal",
+ "steps": [
+  "The Tribunal admits the application under section 245.",
+  "The Tribunal issues a public notice as per Form No. NCLT-13.",
+  "Publish the notice within seven days of admission at least once in a vernacular newspaper and at least once in an English newspaper.",
+  "Place the public notice on the website of the company, if any.",
+  "Place the notice on the websites of the Tribunal, Ministry of Corporate Affairs, concerned Registrar of Companies, and the concerned stock exchange for listed companies until the application is disposed of."
+ ],
+ "checklist": [
+  "Verify name of the lead applicant",
+  "Include brief particulars of the grounds of application",
+  "Include relief sought by such application",
+  "Include statement that application has been made by requisite number of members or depositors",
+  "Include statement that application has been admitted by the Tribunal",
+  "Include date and time of the hearing",
+  "Include time within which representations may be filed",
+  "Include details of admission and date for the form of opt out as per Form NCLT-1"
+ ],
+ "attachments": [],
+ "watch": "The notice must remain on the websites of the Tribunal, MCA, ROC, and stock exchange until the application is disposed of.",
+ "h": "72d815fd423b",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

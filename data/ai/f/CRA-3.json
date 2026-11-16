@@ -1,0 +1,29 @@
+{
+ "purpose": "Form CRA-3 is the form of the cost audit report used by a cost auditor to report on the cost records examined and cost statements prepared as per the rules.",
+ "who": "Cost Auditor",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Appoint the cost auditor under sub-section (3) of section 148 of the Act.",
+  "Audit the cost records maintained under section 148 of the Act in compliance with cost auditing standards.",
+  "Examine information, statements, and observations for the cost audit report.",
+  "Prepare the cost audit report as per Form CRA-3 including the annexure, qualifications, or observations.",
+  "Sign the cost auditor's report."
+ ],
+ "checklist": [
+  "Name of the company",
+  "Registered office address of the company",
+  "Name(s) of product(s) or service(s)",
+  "Financial year period",
+  "Information and explanations necessary for the audit",
+  "Cost records maintained as per rule 5",
+  "Returns from branches not visited",
+  "Books and records giving required information",
+  "System of internal audit of cost records",
+  "Unit of Measurement for each Customs Tariff Act Heading"
+ ],
+ "attachments": [],
+ "watch": "Not stated in the Rules text",
+ "h": "c4191e20ede6",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

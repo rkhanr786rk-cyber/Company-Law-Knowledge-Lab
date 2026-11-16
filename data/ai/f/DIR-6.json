@@ -1,0 +1,24 @@
+{
+ "purpose": "Form DIR-6 is used by an individual to intimate any changes in their particulars as stated in Form DIR-3 to the Central Government.",
+ "who": "Every individual who has been allotted a Director Identification Number",
+ "when": "Within a period of thirty days of such change(s)",
+ "steps": [
+  "Download Form DIR-6 from the portal.",
+  "Fill in the relevant changes.",
+  "Verify the form and attach a duly scanned copy of the proof of the changed particulars.",
+  "Submit the form electronically.",
+  "Ensure the form is digitally signed by a chartered accountant in practice, a company secretary in practice, or a cost accountant in practice."
+ ],
+ "checklist": [
+  "Details of the changes in particulars",
+  "Scanned copy of the proof of the changed particulars",
+  "Digital signature of a chartered accountant in practice, company secretary in practice, or cost accountant in practice"
+ ],
+ "attachments": [
+  "Duly scanned copy of the proof of the changed particulars"
+ ],
+ "watch": "The form must be submitted within thirty days of such change.",
+ "h": "809e8db1590b",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

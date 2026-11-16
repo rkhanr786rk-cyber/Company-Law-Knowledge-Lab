@@ -1,0 +1,25 @@
+{
+ "purpose": "Form INC-13 is used as the Memorandum of Association attachment when incorporating a company under section 8 of the Act.",
+ "who": "Not stated in the Rules text",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Prepare the SPICe+ form for incorporation.",
+  "Attach Form No. INC-13 as the Memorandum of Association for a section 8 company.",
+  "Attach Form No. INC-31 as the Articles of Association for a section 8 company.",
+  "File the application with the Registrar within whose jurisdiction the registered office is proposed to be situated."
+ ],
+ "checklist": [
+  "Check if the company falls under section 8 of the Act.",
+  "Ensure Form INC-13 is ready as an attachment.",
+  "Ensure Form INC-31 is ready as an attachment.",
+  "Check the proposed jurisdiction of the registered office."
+ ],
+ "attachments": [
+  "Form No. INC-13",
+  "Form No. INC-31"
+ ],
+ "watch": "Not stated in the Rules text",
+ "h": "5d33aa3f0eb3",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

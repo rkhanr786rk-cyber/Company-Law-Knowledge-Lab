@@ -1,0 +1,19 @@
+{
+ "purpose": "Form BEN-2 is used by a reporting company to file a return with the Registrar regarding the declaration of significant beneficial owners in shares.",
+ "who": "The reporting company",
+ "when": "Within a period of thirty days from the date of receipt of the declaration by the reporting company.",
+ "steps": [
+  "Receive a declaration under rule 3.",
+  "Prepare Form BEN-2.",
+  "File the return with the Registrar along with the prescribed fees."
+ ],
+ "checklist": [
+  "Declaration received under rule 3",
+  "Prescribed fees as per Companies (Registration offices and fees) Rules, 2014"
+ ],
+ "attachments": [],
+ "watch": "The return must be filed within thirty days from the date of receipt of the declaration.",
+ "h": "a24c8bf2be79",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

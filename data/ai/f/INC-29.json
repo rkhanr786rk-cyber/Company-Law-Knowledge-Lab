@@ -1,0 +1,35 @@
+{
+ "purpose": "This form is used to apply for the conversion of a public company into a private company under section 14.",
+ "who": "Not stated in the Rules text",
+ "when": "Within sixty days from the date of passing of special resolution",
+ "steps": [
+  "Pass a special resolution for the conversion at a general meeting.",
+  "Prepare the e-Form No. RD-1 with the required particulars.",
+  "Attach the required documents and declarations.",
+  "Pay the fee as provided in the Companies (Registration Offices and Fees) Rules, 2014.",
+  "File the application with the Regional Director within sixty days from the date of passing the special resolution."
+ ],
+ "checklist": [
+  "e-Memorandum of Association and e-Articles of Association with proposed alterations",
+  "A copy of the minutes of the general meeting with vote details and names of dissenters",
+  "A copy of the Board resolution or Power of Attorney dated not earlier than thirty days authorising the application",
+  "Declaration by a key managerial personnel or director regarding member limit and no deposit violations",
+  "Declaration by a key managerial personnel or director regarding compliance with sections 73 to 76A, 177, 178, 185, 186, and 188",
+  "Declaration by a key managerial personnel or director regarding pending resolutions under section 179(3) and delisting status",
+  "Particulars including dates of the Board and general meetings",
+  "Reasons for conversion and its effect on stakeholders",
+  "Details of any conversion made within the last five years and outcome along with a copy of the order"
+ ],
+ "attachments": [
+  "e-Memorandum of Association and e-Articles of Association with proposed alterations",
+  "Copy of the minutes of the general meeting",
+  "Copy of Board resolution or Power of Attorney",
+  "Declaration by key managerial personnel or director regarding member limit and deposits",
+  "Declaration by key managerial personnel or director regarding non-compliance of specific sections",
+  "Declaration by key managerial personnel or director regarding pending resolutions and delisting"
+ ],
+ "watch": "The application must be filed within sixty days from the date of passing of the special resolution.",
+ "h": "0e93013e58b4",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

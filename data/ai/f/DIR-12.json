@@ -1,0 +1,25 @@
+{
+ "purpose": "Form DIR-12 is used to file a return containing particulars of appointment of directors or key managerial personnel and changes therein with the Registrar.",
+ "who": "The company.",
+ "when": "Within thirty days of appointment or within thirty days of receipt of notice of resignation from a director.",
+ "steps": [
+  "Obtain consent in writing to act as director in Form DIR-2 from the appointed person on or before appointment.",
+  "Prepare the return containing particulars of appointment or changes.",
+  "File Form DIR-12 with the Registrar along with the required fee.",
+  "Post the information on the company's website, if any, within thirty days in case of a director's resignation."
+ ],
+ "checklist": [
+  "Consent in writing to act as director in Form DIR-2",
+  "Particulars of directors and key managerial personnel including DIN, names, date of birth, address, and occupation",
+  "Date of board resolution and date of appointment or reappointment",
+  "Security clearance from the Ministry of Home Affairs, Government of India, if the appointee is a national of a country sharing a land border with India"
+ ],
+ "attachments": [
+  "Consent in writing in Form DIR-2",
+  "Security clearance from the Ministry of Home Affairs, Government of India (if the appointee is a national of a country which shares a land border with India)"
+ ],
+ "watch": "The Registrar may verify documents for correctness and adequate supporting documents in the event of vacation or removal of directors.",
+ "h": "554535a2fee5",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

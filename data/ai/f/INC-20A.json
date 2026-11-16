@@ -1,0 +1,24 @@
+{
+ "purpose": "This form is used by a director to make a declaration at the time of commencement of business under section 10A.",
+ "who": "A director",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Prepare the declaration in Form No.INC-20A.",
+  "Get the contents of the form verified by a Company Secretary, Chartered Accountant, or Cost Accountant in practice.",
+  "Obtain registration or approval from sectoral regulators if the company pursues objects requiring it.",
+  "Attach required registrations or approvals if applicable.",
+  "File the form as provided in the Companies (Registration Offices and Fees) Rules, 2014."
+ ],
+ "checklist": [
+  "Form No.INC-20A prepared by a director",
+  "Verification by a practicing Company Secretary, Chartered Accountant, or Cost Accountant",
+  "Registration or approval from sectoral regulators such as RBI or SEBI if required by company objects"
+ ],
+ "attachments": [
+  "Registration or approval from sectoral regulators such as the Reserve Bank of India, Securities and Exchange Board of India, etc., if the company pursues objects requiring them"
+ ],
+ "watch": "Not stated in the Rules text",
+ "h": "04c7f2965b56",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

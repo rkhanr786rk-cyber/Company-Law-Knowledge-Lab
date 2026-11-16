@@ -1,0 +1,24 @@
+{
+ "purpose": "Form ADT-2 is used to apply to the Central Government for the removal of an auditor before the expiry of their term under Rule 7.",
+ "who": "Not stated in the Rules text",
+ "when": "Within thirty days of the resolution passed by the Board.",
+ "steps": [
+  "Pass a Board resolution for the removal of the auditor.",
+  "File the application in Form ADT-2 with the Central Government within thirty days of the Board resolution.",
+  "Pay the fees provided under the Companies (Registration Offices and Fees) Rules, 2014.",
+  "Receive approval from the Central Government.",
+  "Hold the general meeting within sixty days of receiving the approval to pass the special resolution."
+ ],
+ "checklist": [
+  "Board resolution for auditor removal",
+  "Form ADT-2 application",
+  "Prescribed fees under the Companies (Registration Offices and Fees) Rules, 2014",
+  "Central Government approval",
+  "Notice and arrangements for the general meeting to pass the special resolution"
+ ],
+ "attachments": [],
+ "watch": "Ensure the application is made within thirty days of the Board resolution and the general meeting is held within sixty days of receiving Central Government approval.",
+ "h": "ef2921e52d23",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

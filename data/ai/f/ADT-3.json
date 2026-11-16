@@ -1,0 +1,18 @@
+{
+ "purpose": "Form ADT-3 is used by an auditor who has resigned from a company to file a statement regarding their resignation under sub-section (2) of section 140.",
+ "who": "An auditor who has resigned from the company",
+ "when": "When an auditor has resigned from the company",
+ "steps": [
+  "Prepare the statement regarding the resignation.",
+  "File Form ADT-3 containing the statement."
+ ],
+ "checklist": [
+  "Verify that you are the auditor who has resigned from the company.",
+  "Prepare the statement required under sub-section (2) of section 140."
+ ],
+ "attachments": [],
+ "watch": "Not stated in the Rules text",
+ "h": "3848ce79981c",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

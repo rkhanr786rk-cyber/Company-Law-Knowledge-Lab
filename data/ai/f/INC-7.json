@@ -1,0 +1,31 @@
+{
+ "purpose": "This form is used for making an application under section 14 for the conversion of a public company into a private company.",
+ "who": "Regional Director receives the application filed by the company",
+ "when": "Within sixty days from the date of passing of special resolution",
+ "steps": [
+  "Pass a special resolution for the conversion.",
+  "Prepare the e-Form No. RD-1.",
+  "Attach the required documents and fee.",
+  "File the application with the Regional Director within sixty days from the date of passing the special resolution."
+ ],
+ "checklist": [
+  "e-Memorandum of Association and e-Articles of Association with proposed alterations",
+  "Copy of the minutes of the general meeting with vote details and names of dissenters",
+  "Copy of Board resolution or Power of Attorney authorising the application",
+  "Declaration by a key managerial personnel or director regarding member limit and deposits",
+  "Declaration by a key managerial personnel or director regarding non-compliance of specific sections",
+  "Declaration by a key managerial personnel or director regarding pending resolutions and delisting status"
+ ],
+ "attachments": [
+  "e-Memorandum of Association and e-Articles of Association with proposed alterations",
+  "Copy of the minutes of the general meeting at which the special resolution was passed",
+  "Copy of Board resolution or Power of Attorney",
+  "Declaration by a key managerial personnel or director regarding member limit and deposits",
+  "Declaration by a key managerial personnel or director regarding compliance",
+  "Declaration by a key managerial personnel or director regarding pending resolutions and delisting"
+ ],
+ "watch": "Ensure the application is filed within sixty days from the date of passing the special resolution.",
+ "h": "b4754e882d8d",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

@@ -1,0 +1,33 @@
+{
+ "purpose": "Form DIR-3 is used by an applicant who intends to be appointed as a director of an existing company to make an application electronically to the Central Government for the allotment of a Director Identification Number (DIN).",
+ "who": "Every applicant who intends to be appointed as director of an existing company",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Download Form DIR-3 from the portal and fill in the required particulars.",
+  "Verify and sign the form, and attach copies of the required documents.",
+  "Scan and file the entire set of documents electronically.",
+  "Submit Form DIR-3 electronically on the portal using the applicant's own Digital Signature Certificate.",
+  "Have the form verified digitally by a company secretary in full time employment of the company or by the managing director or director or CEO or CFO of the company in which the applicant is intended to be appointed.",
+  "Make the payment of the requisite amount of fees through online mode on the portal."
+ ],
+ "checklist": [
+  "Photograph",
+  "Proof of identity",
+  "Proof of residence",
+  "Board resolution proposing appointment as director in an existing company",
+  "Specimen signature duly verified",
+  "Security clearance from the Ministry of Home Affairs, Government of India (if the applicant is a national of a country which shares land border with India)",
+  "Declaration in Form No. DIR-3A (if the name of the person does not have a last name)"
+ ],
+ "attachments": [
+  "photograph",
+  "proof of identity",
+  "proof of residence",
+  "board resolution proposing his appointment as director in an existing company",
+  "specimen signature duly verified"
+ ],
+ "watch": "If the applicant is a national of a country which shares land border with India, no application number shall be generated unless necessary security clearance from the Ministry of Home Affairs is attached.",
+ "h": "1699b257e443",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

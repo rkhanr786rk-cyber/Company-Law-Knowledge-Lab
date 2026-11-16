@@ -1,0 +1,22 @@
+{
+ "purpose": "Form NFRA-1 relates to the classes of companies and bodies corporate governed by the National Financial Reporting Authority, whose auditors are subject to monitoring, enforcement, quality oversight, or investigation by the Authority.",
+ "who": "Not stated in the Rules text",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Not stated in the Rules text"
+ ],
+ "checklist": [
+  "Verify if securities are listed on any stock exchange in India or outside India",
+  "Check if unlisted public company has paid-up capital of not less than rupees five hundred crores",
+  "Check if unlisted public company has annual turnover of not less than rupees one thousand crores",
+  "Check if unlisted public company has aggregate outstanding loans, debentures and deposits of not less than rupees five hundred crores as on 31st March of the immediately preceding financial year",
+  "Check if the entity is an insurance company, banking company, company engaged in the generation or supply of electricity, or governed by a special Act",
+  "Check if a reference has been made by the Central Government in public interest",
+  "Check if a body corporate incorporated or registered outside India is a subsidiary or associate company whose income or networth exceeds twenty per cent of the consolidated income or networth"
+ ],
+ "attachments": [],
+ "watch": "Not stated in the Rules text",
+ "h": "e36351c6b0d2",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

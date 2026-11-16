@@ -1,0 +1,28 @@
+{
+ "purpose": "This guide covers the conversion of an unlimited liability company into a limited liability company by shares or guarantee under Rule 37 of the Companies (Incorporation) Rules, 2014.",
+ "who": "Not stated in the Rules text",
+ "when": "Within forty-five days of passing the special resolution for filing the application.",
+ "steps": [
+  "Pass a special resolution in a general meeting for the conversion.",
+  "Publish a notice in Form No. INC-27A in two newspapers and on the company website within seven days of passing the resolution.",
+  "Dispatch a copy of the notice to creditors and debenture holders by registered post, speed post, or courier with proof of dispatch.",
+  "File an application in Form No. INC-27 within forty-five days of passing the special resolution along with the required fees."
+ ],
+ "checklist": [
+  "Notice of the general meeting along with the explanatory statement",
+  "Copy of the resolution passed in the general meeting",
+  "Copy of the newspaper publication of the notice",
+  "Altered e-Memorandum of Association duly certified",
+  "Altered e-Articles of Association duly certified"
+ ],
+ "attachments": [
+  "notice of the general meeting along with explanatory statement",
+  "copy of the resolution passed in the general meeting",
+  "copy of the newspaper publication",
+  "altered e-Memorandum of Association as well as e-Articles of Association"
+ ],
+ "watch": "Objections from interested persons must be intimated to the Registrar and the company within twenty-one days of the publication of the notice.",
+ "h": "fb414875a544",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

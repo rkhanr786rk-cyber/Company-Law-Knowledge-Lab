@@ -1,0 +1,20 @@
+{
+ "purpose": "Form NCLAT-2 is used to file every interlocutory application for stay, direction, condonation of delay, exemption from production of copy of order appealed against, or extension of time prayed for in pending matters.",
+ "who": "applicant",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Prepare the interlocutory application in Form NCLAT-2.",
+  "Comply with the requirements prescribed in that behalf.",
+  "File an affidavit supporting the application."
+ ],
+ "checklist": [
+  "Form NCLAT-2 completed",
+  "Requirements prescribed in that behalf complied with",
+  "Affidavit supporting the application prepared"
+ ],
+ "attachments": [],
+ "watch": "Not stated in the Rules text",
+ "h": "d6a2e2016a21",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

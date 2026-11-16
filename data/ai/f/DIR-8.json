@@ -1,0 +1,20 @@
+{
+ "purpose": "Every director shall inform the company concerned about his disqualification under section 164 in Form DIR-8 before he is appointed or re-appointed.",
+ "who": "Every director",
+ "when": "Before he is appointed or re-appointed.",
+ "steps": [
+  "Check for any disqualification under sub-section (1) or sub-section (2) of section 164.",
+  "Fill out Form DIR-8.",
+  "Inform the company concerned about the disqualification using Form DIR-8 before appointment or re-appointment."
+ ],
+ "checklist": [
+  "Verify if there is any disqualification under sub-section (1) or sub-section (2) of section 164.",
+  "Prepare Form DIR-8 with the necessary disqualification information.",
+  "Ensure Form DIR-8 is ready before appointment or re-appointment."
+ ],
+ "attachments": [],
+ "watch": "Form DIR-8 must be filed before appointment or re-appointment.",
+ "h": "303e8c586298",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

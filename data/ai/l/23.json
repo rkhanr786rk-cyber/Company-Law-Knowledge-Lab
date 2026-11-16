@@ -1,33 +1,33 @@
 {
- "summary": "This regulation explains the rules companies must follow when dealing with related parties. Companies must create a policy on material transactions, get approvals from the audit committee, and sometimes seek shareholder approval. Independent directors play a key role in checking and approving these dealings.",
+ "summary": "This regulation requires listed companies to create and review a policy on dealing with related party transactions. It sets rules for getting approvals from the audit committee and the shareholders before entering into such deals. Certain transactions also have rules for later approval, known as ratification.",
  "points": [
-  "The listed entity must create a policy on materiality of related party transactions with clear threshold limits approved by the board.",
-  "The board of directors must review and update the policy at least once every three years.",
-  "All related party transactions and subsequent material modifications need prior approval from audit committee members who are independent directors.",
-  "Shareholders must give prior approval through a resolution for all material related party transactions, and related parties cannot vote on these.",
-  "The audit committee may grant omnibus approval for repetitive related party transactions subject to specific conditions and a validity of up to one year."
+  "The listed entity must create a policy on material related party transactions approved by its board of directors.",
+  "The board of directors must review the policy at least once every three years.",
+  "All related party transactions and subsequent material modifications need prior approval from independent directors on the audit committee.",
+  "Material related party transactions and material modifications need prior approval from shareholders through a resolution.",
+  "No related party is allowed to vote to approve such shareholder resolutions."
  ],
- "example": "Meera Textiles Private Limited, a listed company, wants to enter into a business transaction with a related party. Before proceeding, the company must ensure its board has approved a clear policy on such dealings. The audit committee, consisting only of independent directors, must give prior approval for the transaction. If the transaction is considered material under the company's rules, the shareholders must also approve it through a resolution, and the related party is not allowed to vote on it.",
+ "example": "Meera Textiles Private Limited is a listed company. It wants to buy raw materials from a company owned by the brother of one of its directors. Because this is a related party, Meera Textiles must follow strict rules. First, the deal requires prior approval from the audit committee, and only the members who are independent directors can approve it. If the deal is considered material under the company policy, the shareholders must also approve it in a meeting. No related party is allowed to vote on this shareholder approval.",
  "terms": [
   {
    "term": "Related party",
-   "meaning": "A person or company that has a close connection or influence over the listed entity."
+   "meaning": "A person or company connected to the listed entity, such as through ownership or family ties."
   },
   {
    "term": "Audit committee",
-   "meaning": "A committee of directors that oversees financial reporting and compliance within a company."
+   "meaning": "A committee of directors that oversees financial reporting and specific company transactions."
   },
   {
    "term": "Independent director",
-   "meaning": "A board member who does not have any material pecuniary relationship or links with the company, promoting unbiased decisions."
+   "meaning": "A board member who does not have any material or pecuniary relationship with the company."
   },
   {
-   "term": "Omnibus approval",
-   "meaning": "A general advance approval given by the audit committee for repetitive transactions."
+   "term": "Ratification",
+   "meaning": "The act of giving formal approval to an action after it has already taken place."
   }
  ],
- "watch": "People often confuse independent director approval with general board approval, but only independent directors on the audit committee can approve these transactions.",
- "h": "f0d11b70f0e2",
+ "watch": "People often confuse prior approval requirements with later ratification, but ratification is only allowed under specific strict conditions.",
+ "h": "a982361478b4",
  "m": "gemini-3.5-flash-lite",
  "d": "2026-11-16"
 }

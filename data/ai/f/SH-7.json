@@ -1,0 +1,20 @@
+{
+ "purpose": "Form SH-7 serves as a notice to the Registrar of any alteration of share capital. However, filing is restricted if a company fails to comply with Nidhi rules.",
+ "who": "Not stated in the Rules text",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Verify compliance with Nidhi rules and rule 3A requirements.",
+  "Ensure the application in Form NDH-4 is approved and not rejected by the Central Government.",
+  "Proceed to file Form SH-7 with the Registrar if all Nidhi compliance requirements are met."
+ ],
+ "checklist": [
+  "Check if the company has complied with the requirements of rule 3A.",
+  "Confirm that the Form NDH-4 application has not been rejected by the Central Government.",
+  "Verify that the company is allowed to file Form No. SH-7."
+ ],
+ "attachments": [],
+ "watch": "A company that has not complied with rule requirements or whose Form NDH-4 has been rejected shall not be allowed to file Form No. SH-7.",
+ "h": "09011da13bd0",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

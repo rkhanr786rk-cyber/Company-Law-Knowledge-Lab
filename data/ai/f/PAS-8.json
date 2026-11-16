@@ -1,0 +1,23 @@
+{
+ "purpose": "Form PAS-8 is used by a public company as a notice for the bearers of share warrants to surrender their warrants and get the shares dematerialised.",
+ "who": "Every public company which issued share warrants prior to commencement of the Companies Act, 2013 and not converted into shares.",
+ "when": "Within a period of six months of the commencement of the Companies (Prospectus and Allotment of Securities) Second Amendment Rules, 2023.",
+ "steps": [
+  "Require the bearers of the share warrants to surrender such warrants to the company.",
+  "Place a notice for the bearers of share warrants in Form PAS-8 on the website of the company, if any.",
+  "Publish the notice in a newspaper in the vernacular language in circulation in the district of the registered office.",
+  "Publish the notice in an English language newspaper widely circulated in the State of the registered office."
+ ],
+ "checklist": [
+  "Check details of share warrants issued prior to the commencement of the Companies Act, 2013.",
+  "Prepare the notice in Form PAS-8.",
+  "Arrange for website publication of the notice.",
+  "Arrange for vernacular newspaper publication.",
+  "Arrange for English newspaper publication."
+ ],
+ "attachments": [],
+ "watch": "Bearers must surrender share warrants within six months of the commencement of the rules, otherwise the company will convert and transfer them to the Investor Education and Protection Fund.",
+ "h": "f3f3607d766a",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

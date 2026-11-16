@@ -1,29 +1,29 @@
 {
- "summary": "This regulation explains who must follow Chapter V of the rules. It applies only to companies that have listed specific non-convertible securities on a recognised stock exchange. It also clarifies how words like interest, dividend, and default are understood in these rules.",
+ "summary": "This rule explains who must follow a specific set of stock market duties. It applies only to companies that have listed certain non-convertible securities. It also clarifies how words like interest and default are understood.",
  "points": [
-  "The entity must have listed its non-convertible securities on a recognised stock exchange.",
-  "The listing must follow the Securities and Exchange Board of India Regulations, 2021.",
-  "The entity must read references to interest as dividend if it lists certain preference shares or similar instruments.",
-  "The entity must treat any non-payment of interest, dividend, or principal on the pre-agreed date as a default.",
-  "The entity must recognise a default at the very first instance of a delay in servicing payments."
+  "Follow this chapter only if your non-convertible securities are listed on a recognized stock exchange.",
+  "List those securities according to the specified 2021 regulations.",
+  "Read the word interest as dividend if you have listed certain preference shares or similar instruments.",
+  "Treat any failure to pay interest, dividend, or principal in full on the pre-agreed date as a default.",
+  "Recognize a default immediately at the very first instance of delay."
  ],
- "example": "Sunrise Steel Limited listed its non-convertible securities on a recognised stock exchange following the official 2021 regulations. Because of this listing, the company falls directly under the rules of Chapter V. Later, Sunrise Steel faced a temporary cash flow crunch and delayed a scheduled interest payment to its investors by just one day past the pre-agreed date. Under these rules, that single day of delay is immediately recognised as a default. If Sunrise Steel had instead listed non-convertible redeemable preference shares, any rule mentioning interest would simply apply to its dividend instead.",
+ "example": "Meera Textiles Private Limited listed its non-convertible redeemable preference shares on a recognized stock exchange following the 2021 regulations. Because of this, the company falls under the rules of this chapter. The company was supposed to pay a dividend to its investors on a pre-agreed date, but the payment was delayed by one day. Under the rules, this first instance of delay immediately counts as a default. Since these are preference shares, the rule treats what would normally be called interest as a dividend for all the requirements in this section of the law.",
  "terms": [
   {
-   "term": "Non-convertible securities",
-   "meaning": "Financial instruments issued by a company that cannot be converted into equity shares."
+   "term": "non-convertible securities",
+   "meaning": "Investments like bonds or preference shares that cannot be changed into equity shares."
   },
   {
-   "term": "Recognised stock exchange",
-   "meaning": "An official marketplace approved by the government or SEBI for buying and selling securities."
+   "term": "default",
+   "meaning": "Failing to pay money owed, such as interest, dividend, or principal, in full on the agreed date."
   },
   {
-   "term": "Default",
-   "meaning": "Failing to pay the full interest, dividend, or principal amount on the pre-agreed date."
+   "term": "recognized stock exchange",
+   "meaning": "An official market approved for trading securities."
   }
  ],
- "watch": "A common confusion is thinking a default only happens after a long grace period, whereas these rules state it is recognised at the very first instance of delay.",
- "h": "0a50d305350d",
+ "watch": "Do not wait for a grace period because a default is recognized at the very first instance of delay.",
+ "h": "4e26ffb34366",
  "m": "gemini-3.5-flash-lite",
  "d": "2026-11-16"
 }

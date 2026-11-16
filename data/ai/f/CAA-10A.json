@@ -1,0 +1,23 @@
+{
+ "purpose": "Form CAA-10A is used to file an auditor certificate confirming that certain unlisted companies meeting loan, debenture, and deposit limits fulfill the required conditions for a merger or amalgamation scheme under section 233 of the Act.",
+ "who": "Not stated in the Rules text",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Verify that the scheme is between eligible classes of companies under Rule 25.",
+  "Ensure the company has an auditor certificate confirming the required conditions are met.",
+  "File the approved scheme of merger or amalgamation under sub-section (2) of section 233.",
+  "File Form No. CAA-10A along with the copy of the approved scheme."
+ ],
+ "checklist": [
+  "Auditor certificate confirming the company meets the conditions for loans, debentures, and deposits.",
+  "Copy of the approved scheme referred to in sub-section (2) of section 233 of the Act."
+ ],
+ "attachments": [
+  "Auditor certificate",
+  "Copy of the approved scheme"
+ ],
+ "watch": "Not stated in the Rules text",
+ "h": "96e4f24b5a00",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

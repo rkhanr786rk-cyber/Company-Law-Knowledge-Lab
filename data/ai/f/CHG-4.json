@@ -1,0 +1,21 @@
+{
+ "purpose": "Form CHG-4 is used to give intimation to the Registrar of the payment or satisfaction in full of any charge registered under Chapter VI.",
+ "who": "A company or charge holder (or for companies under resolution or liquidation, signed by the Insolvency resolution professional, resolution professional, or liquidator).",
+ "when": "Within a period of three hundred days from the date of the payment or satisfaction in full of any charge registered under Chapter VI.",
+ "steps": [
+  "Ensure payment or satisfaction in full of the charge has occurred.",
+  "Prepare Form CHG-4.",
+  "Include the required fee.",
+  "Give intimation of the payment or satisfaction to the Registrar."
+ ],
+ "checklist": [
+  "Form CHG-4",
+  "Details of the payment or satisfaction in full of the charge",
+  "Required fee"
+ ],
+ "attachments": [],
+ "watch": "Intimation must be given within a period of three hundred days from the date of the payment or satisfaction in full.",
+ "h": "4d12dc361f4a",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

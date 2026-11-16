@@ -1,0 +1,29 @@
+{
+ "purpose": "Form PAS-3 is used by a company having a share capital to file a return of allotment whenever it makes any allotment of its securities.",
+ "who": "A company having a share capital",
+ "when": "Within thirty days of making any allotment of its securities",
+ "steps": [
+  "Make an allotment of securities.",
+  "Prepare the return of allotment in Form PAS-3.",
+  "Compile the required list of allottees and other necessary attachments as per the rules.",
+  "File the Form PAS-3 with the Registrar along with the specified fee."
+ ],
+ "checklist": [
+  "Ensure the company has a share capital and has made an allotment of securities.",
+  "Prepare a list of allottees stating their names, address, occupation, and number of securities allotted to each, certified by the signatory of Form PAS-3 as complete and correct.",
+  "If securities are allotted for consideration other than cash (not being bonus shares), prepare a copy of the stamped contract or complete particulars of the contract with required stamp duty.",
+  "Obtain a report of a registered valuer in respect of valuation of the consideration, if applicable.",
+  "Obtain the valuation report of the registered valuer if shares are issued pursuant to section 62(1)(c) by a company other than a listed company."
+ ],
+ "attachments": [
+  "A list of allottees stating names, address, occupation, and number of securities allotted to each, certified by the form signatory",
+  "A copy of the contract, duly stamped, pursuant to which securities have been allotted for consideration other than cash, together with any contract of sale for property/asset or contract for services",
+  "Complete particulars of the contract stamped with stamp duty where the contract is not reduced to writing",
+  "A report of a registered valuer in respect of valuation of consideration, where applicable",
+  "Valuation report of the registered valuer in case shares are issued in pursuance of section 62(1)(c) by a company other than a listed company"
+ ],
+ "watch": "Not stated in the Rules text",
+ "h": "66835c0f3e95",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

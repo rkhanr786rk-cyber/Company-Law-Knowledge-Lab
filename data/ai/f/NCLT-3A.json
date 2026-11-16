@@ -1,0 +1,28 @@
+{
+ "purpose": "To advertise an application, petition or reference in Form NCLT-3A as required under the rules.",
+ "who": "Not stated in the Rules text",
+ "when": "Not less than fourteen days before the date fixed for hearing",
+ "steps": [
+  "Check if the Tribunal or rules require the application, petition or reference to be advertised.",
+  "Publish the advertisement in Form NCLT-3A at least once in a vernacular newspaper and at least once in an English newspaper not less than fourteen days before the hearing.",
+  "Include the required details such as presentation date, names and addresses, nature of the petition, hearing date, and the statement regarding notices of opposition or support.",
+  "Place the advertisement on the company website if the company is giving the advertisement and has a website.",
+  "File an affidavit to the Tribunal not less than three days before the hearing stating that the petition was advertised and notices were served, accompanied by available proof."
+ ],
+ "checklist": [
+  "Verify the date fixed for hearing.",
+  "Draft the advertisement in Form NCLT-3A containing the presentation date, names, addresses, nature of petition, hearing date, and the required statement for affected persons.",
+  "Arrange publication in a vernacular newspaper in the principal language of the company's registered office district.",
+  "Arrange publication in an English newspaper circulating in that district.",
+  "Prepare the affidavit stating that the petition has been advertised and notices duly served.",
+  "Gather proof of advertisement or service to accompany the affidavit."
+ ],
+ "attachments": [
+  "Proof of advertisement",
+  "Proof of service"
+ ],
+ "watch": "Non-compliance with advertisement and service rules may lead the Tribunal to dismiss the petition.",
+ "h": "e62d6a0737e0",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

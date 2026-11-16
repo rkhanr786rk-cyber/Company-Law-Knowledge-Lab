@@ -1,0 +1,19 @@
+{
+ "purpose": "Form RSC-2 is used by the Tribunal to give notice to the Central Government, Registrar of Companies, and the Securities and Exchange Board of India to seek their representations and objections regarding a reduction of share capital.",
+ "who": "The Tribunal",
+ "when": "Within fifteen days of submission of the application under rule 2, the Tribunal shall give notice.",
+ "steps": [
+  "Submit the application under rule 2 to the Tribunal.",
+  "Tribunal issues Form RSC-2 to the Central Government and Registrar of Companies for all cases.",
+  "Tribunal issues Form RSC-2 to the Securities and Exchange Board of India in the case of listed companies."
+ ],
+ "checklist": [
+  "Verify if the company is a listed company to determine if Form RSC-2 goes to the Securities and Exchange Board of India.",
+  "Ensure the application under rule 2 has been submitted to the Tribunal."
+ ],
+ "attachments": [],
+ "watch": "Not stated in the Rules text",
+ "h": "3dd3bcb9a8e8",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

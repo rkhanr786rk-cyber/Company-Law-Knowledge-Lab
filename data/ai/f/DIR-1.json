@@ -1,0 +1,22 @@
+{
+ "purpose": "Form DIR-1 is not explicitly mentioned in the provided Rules text, which instead references Form DIR-12 for filing returns of directors and key managerial personnel. The text provides rules for keeping a register of directors and key managerial personnel.",
+ "who": "Every company",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Not stated in the Rules text"
+ ],
+ "checklist": [
+  "Director Identification Number",
+  "Present name and surname in full",
+  "Date of birth",
+  "Residential address",
+  "Nationality",
+  "Occupation",
+  "Date of appointment"
+ ],
+ "attachments": [],
+ "watch": "Not stated in the Rules text",
+ "h": "840000e6a48a",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

@@ -1,0 +1,22 @@
+{
+ "purpose": "To execute a deposit trust deed for appointing trustees for depositors before issuing a circular or advertisement inviting secured deposits.",
+ "who": "A company referred to in sub-section (2) of section 73 or any eligible company.",
+ "when": "At least seven days before issuing the circular or circular in the form of advertisement.",
+ "steps": [
+  "Obtain written consent from the proposed trustee for depositors before their appointment.",
+  "Include a statement in the circular or advertisement showing that the trustees have given their consent to be appointed.",
+  "Execute the deposit trust deed in Form DPT-2 at least seven days before issuing the circular or advertisement."
+ ],
+ "checklist": [
+  "Check that the proposed trustee is not a director, key managerial personnel, officer, employee, or depositor of the company or its related companies.",
+  "Verify that the proposed trustee is not indebted to the company or its related companies.",
+  "Verify that the proposed trustee does not have a material pecuniary relationship with the company.",
+  "Check that the proposed trustee has not entered into a guarantee arrangement for the deposit debts or interest.",
+  "Ensure the proposed trustee is not related to any directors, key managerial personnel, officers, or employees of the company."
+ ],
+ "attachments": [],
+ "watch": "Do not appoint a person who is disqualified due to being an officer, employee, debtor, or having a pecuniary relationship with the company.",
+ "h": "054f555c9a4c",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

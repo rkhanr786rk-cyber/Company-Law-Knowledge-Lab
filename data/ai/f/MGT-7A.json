@@ -1,0 +1,20 @@
+{
+ "purpose": "Form MGT-7A is the annual return form that One Person Companies and Small Companies must file starting from the financial year 2020-2021 onwards.",
+ "who": "One Person Company and Small Company",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Determine if the company is a One Person Company or a Small Company.",
+  "Prepare the annual return for the applicable financial year starting from 2020-2021 onwards.",
+  "File the annual return in Form No. MGT-7A."
+ ],
+ "checklist": [
+  "Verify that the company is a One Person Company or a Small Company.",
+  "Confirm the financial year is 2020-2021 or later.",
+  "Check if certification in Form No. MGT.8 by a Company Secretary in practice is required based on paid-up share capital, turnover, or listed status."
+ ],
+ "attachments": [],
+ "watch": "Form MGT.8 certification by a Company Secretary in practice is required if the company is a listed company, has a paid-up share capital of ten crore rupees or more, or has a turnover of fifty crore rupees or more.",
+ "h": "36040cf20a63",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

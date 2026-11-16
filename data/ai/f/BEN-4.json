@@ -1,0 +1,19 @@
+{
+ "purpose": "Form BEN-4 is a notice given by a reporting company to members holding not less than ten percent of shares, voting rights, or right to dividends, to seek information about significant beneficial owners.",
+ "who": "Every reporting company",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Take steps to find out if there is any individual who is a significant beneficial owner.",
+  "Identify any member holding not less than ten percent of shares, voting rights, or right to dividends.",
+  "Give notice in Form No. BEN-4 to such member seeking information."
+ ],
+ "checklist": [
+  "Verify that the reporting company has members holding not less than ten percent of shares, voting rights, or right to dividends.",
+  "Ensure Form BEN-4 is prepared as the notice seeking information."
+ ],
+ "attachments": [],
+ "watch": "If a person fails to give the information required by the notice in Form BEN-4 or gives unsatisfactory information, the reporting company shall apply to the Tribunal.",
+ "h": "32be2dd19a7b",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

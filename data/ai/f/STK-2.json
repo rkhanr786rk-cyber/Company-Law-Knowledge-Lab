@@ -1,0 +1,25 @@
+{
+ "purpose": "Form STK-2 is used to apply for the removal of the name of a company from the Register of Companies under section 248 of the Companies Act, 2013.",
+ "who": "The company",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Ensure all overdue financial statements and annual returns are filed up to the end of the financial year in which the company ceased business operations, or all pending financial statements and annual returns if action under section 248 has been initiated.",
+  "Obtain a no objection certificate from the appropriate Regulatory Authority if the company conducts regulated activities such as NBFC, housing finance, insurance, capital market intermediaries, collective investment schemes, or asset management.",
+  "Pay the required fee of ten thousand rupees.",
+  "Submit Form STK-2 to the Registrar, Centre for Processing Accelerated Corporate Exit."
+ ],
+ "checklist": [
+  "Verify that overdue financial statements under section 137 are filed.",
+  "Verify that overdue annual returns under section 92 are filed.",
+  "Check that notice under sub-section (5) of section 248 has not already been issued by the Registrar for publication.",
+  "Secure a no objection certificate from the appropriate Regulatory Authority if the company falls under specified regulated sectors.",
+  "Prepare the fee of ten thousand rupees."
+ ],
+ "attachments": [
+  "No objection certificate from appropriate Regulatory Authority concerned for specific regulated companies"
+ ],
+ "watch": "A company shall not be allowed to file the application once notice under sub-section (5) of section 248 has been issued by the Registrar for publication pursuant to the action initiated under sub-section (1) of section 248.",
+ "h": "46cd8fbd4fdb",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

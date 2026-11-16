@@ -1,0 +1,21 @@
+{
+ "purpose": "This form is used by a company incorporated or to be incorporated outside India to issue Indian Depository Receipts (IDRs).",
+ "who": "A company incorporated or to be incorporated outside India",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Obtain necessary approvals or exemptions from the appropriate authorities in the country of incorporation.",
+  "Obtain prior written approval from the Securities and Exchange Board of India for the issue of IDRs and the issue size."
+ ],
+ "checklist": [
+  "Verify pre-issue paid-up capital and free reserves are at least US$ 50 million.",
+  "Verify minimum average market capitalization of at least US$ 100 million during the last three years.",
+  "Confirm continuous trading on a stock exchange in the parent or home country for at least three immediately preceding years.",
+  "Check for a track record of distributable profits for at least three out of the immediately preceding five years.",
+  "Ensure compliance with SEBI regulations and RBI directions."
+ ],
+ "attachments": [],
+ "watch": "Not stated in the Rules text",
+ "h": "0fbd153626bf",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

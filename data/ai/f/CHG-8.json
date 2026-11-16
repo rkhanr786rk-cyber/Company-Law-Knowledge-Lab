@@ -1,0 +1,20 @@
+{
+ "purpose": "Form CHG-8 is used to apply to the Central Government for rectifying the omission or misstatement of any particulars in any filing previously recorded with the Registrar regarding a charge, modification, memorandum of satisfaction, or other entry, or for extending the time for filing satisfaction of charge.",
+ "who": "Not stated in the Rules text",
+ "when": "For extension of time for satisfaction of charge, if such filing is not made within a period of three hundred days from the date of such payment or satisfaction; otherwise, not stated in the Rules text.",
+ "steps": [
+  "Prepare an application in Form No. CHG-8.",
+  "Ensure the application complies with section 87.",
+  "File the application with the Central Government."
+ ],
+ "checklist": [
+  "Verify the omission or misstatement of particulars in any filing previously recorded with the Registrar.",
+  "Check if the filing relates to a charge, modification, memorandum of satisfaction, or other entry under section 82 or section 83.",
+  "Verify if an extension of time is needed for satisfaction of charge when not made within three hundred days from the date of payment or satisfaction."
+ ],
+ "attachments": [],
+ "watch": "Not stated in the Rules text",
+ "h": "022121e5e267",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

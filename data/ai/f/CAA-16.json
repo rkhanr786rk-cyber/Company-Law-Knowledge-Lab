@@ -1,0 +1,21 @@
+{
+ "purpose": "Form CAA-16 is used for filing a declaration at the stage of submission of an application under section 230 of the Act in case of a compromise, arrangement, merger, or demerger between an Indian company and a company or body corporate incorporated in a country which shares a land border with India.",
+ "who": "Not stated in the Rules text",
+ "when": "At the stage of submission of application under section 230 of the Act.",
+ "steps": [
+  "Comply with sections 230 to 232 of the Act and the rules.",
+  "Obtain prior approval of the Reserve Bank of India if required.",
+  "Prepare the declaration in Form No. CAA-16.",
+  "Submit the application under section 230 of the Act along with the declaration."
+ ],
+ "checklist": [
+  "Check if the company or body corporate is incorporated in a country that shares a land border with India.",
+  "Ensure the application is at the stage of submission under section 230 of the Act.",
+  "Ensure Form No. CAA-16 declaration is completed."
+ ],
+ "attachments": [],
+ "watch": "A declaration in Form No. CAA-16 is required at the stage of submission of application under section 230 of the Act for entities from countries sharing a land border with India.",
+ "h": "42d69a196552",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

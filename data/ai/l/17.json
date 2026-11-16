@@ -1,33 +1,33 @@
 {
- "summary": "This regulation explains the rules for setting up and running the board of directors of a company whose shares are listed on a stock exchange. It covers how many members the board must have, who can be a director, and when shareholder approval is needed. The board must also meet regularly, check legal compliance, and plan for future leaders.",
+ "summary": "This regulation sets the rules for how the board of directors of a listed company must be put together and run. It covers who must be on the board, how often they must meet, and what duties they must handle. It ensures companies have proper balance, diverse members, and regular reviews.",
  "points": [
-  "The listed entity must ensure the board has an optimum mix of executive and non-executive directors, including at least one woman director and at least half non-executive directors.",
-  "The listed entity must not appoint or keep a non-executive director who is seventy-five years old or older unless a special resolution with a justification is passed.",
-  "The listed entity must get shareholder approval for appointing a director or manager at the next general meeting or within three months, whichever is earlier.",
-  "The board of directors must meet at least four times in a financial year, leaving no more than one hundred and twenty days between two consecutive meetings.",
-  "The board of directors must periodically review compliance reports on all applicable laws and verify that orderly succession plans are in place."
+  "The board of directors must have an optimum mix of executive and non-executive directors, including at least one woman director.",
+  "At least half of the board must consist of non-executive directors.",
+  "The board of directors must meet at least four times a financial year, with no more than one hundred and twenty days between meetings.",
+  "The board must periodically review compliance reports for all laws applicable to the listed entity.",
+  "The board must lay down a code of conduct for all its members and senior management."
  ],
- "example": "Meera Textiles Private Limited is a listed company in India. Recently, a seat on its board of directors became vacant. Meera Textiles Private Limited must fill this vacancy at the earliest and no later than three months from the date the vacancy occurred. To ensure proper governance, the board of directors of Meera Textiles Private Limited must continue to meet at least four times a financial year, keeping a maximum gap of one hundred and twenty days between any two meetings. Furthermore, the board must review compliance reports regarding all laws that apply to the company.",
+ "example": "Meera Textiles Private Limited is a listed company preparing for its annual board structuring. The board ensures that at least half of its members are non-executive directors and includes at least one woman director as required. To meet operational rules, the directors schedule their meetings so that there is a maximum time gap of one hundred and twenty days between any two consecutive gatherings. Furthermore, the board lays down a formal code of conduct for all members and senior management, ensuring that everyone follows the correct governance standards.",
  "terms": [
   {
    "term": "Executive director",
-   "meaning": "A member of the board of directors who is also part of the daily management or employment of the company."
+   "meaning": "A member of the board of directors who is also part of the daily management and operations of the company."
   },
   {
    "term": "Non-executive director",
-   "meaning": "A member of the board of directors who is not involved in the day-to-day management of the company."
+   "meaning": "A member of the board of directors who is not involved in the day-to-day running of the company."
   },
   {
    "term": "Independent director",
-   "meaning": "A non-executive director who does not have any material or pecuniary relationship with the company, its promoters, or its management."
+   "meaning": "A non-executive board member who does not have any material or pecuniary relationship with the company, its promoters, or its management."
   },
   {
-   "term": "Special resolution",
-   "meaning": "A formal decision passed by shareholders at a general meeting with a higher majority requirement than a normal resolution."
+   "term": "Quorum",
+   "meaning": "The minimum number of members that must be present at a meeting to make the proceedings valid."
   }
  ],
- "watch": "Do not assume that all companies have the exact same board size rules, because specific requirements depend on whether the entity is among the top listed companies.",
- "h": "7825b522e025",
+ "watch": "People often confuse non-executive directors with independent directors, but all independent directors are non-executive while not all non-executive directors are independent.",
+ "h": "ab5891492b2e",
  "m": "gemini-3.5-flash-lite",
  "d": "2026-11-16"
 }

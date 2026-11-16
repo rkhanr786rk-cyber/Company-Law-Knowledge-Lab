@@ -1,0 +1,20 @@
+{
+ "purpose": "Form DIR-9 is used by a company to inform the Registrar about director disqualifications or company defaults specified under section 164.",
+ "who": "The company",
+ "when": "Within thirty days of receiving Form DIR-8, or immediately upon company failure to file financial statements/annual returns or repay deposits, interest, dividends, or redeem debentures.",
+ "steps": [
+  "Receive Form DIR-8 from the director.",
+  "Prepare Form DIR-9 furnishing the names and addresses of all directors during the relevant financial years.",
+  "File Form DIR-9 with the Registrar within thirty days of receiving Form DIR-8 or immediately upon company default."
+ ],
+ "checklist": [
+  "Information from the director in Form DIR-8",
+  "Names of all directors of the company during the relevant financial years",
+  "Addresses of all directors of the company during the relevant financial years"
+ ],
+ "attachments": [],
+ "watch": "Failure to file Form DIR-9 within thirty days of the failure attracting disqualification makes the specified officers the officers in default.",
+ "h": "66f274239982",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

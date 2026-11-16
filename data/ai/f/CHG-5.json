@@ -1,0 +1,20 @@
+{
+ "purpose": "Form CHG-5 is a certificate of registration of satisfaction of charge issued by the Registrar.",
+ "who": "Registrar",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "The company or charge holder gives intimation of satisfaction in full in Form No. CHG-4.",
+  "The Registrar enters a memorandum of satisfaction of charge in full.",
+  "The Registrar issues Form CHG-5."
+ ],
+ "checklist": [
+  "Payment or satisfaction in full of any charge registered under Chapter VI",
+  "Intimation to the Registrar in Form No. CHG-4",
+  "Payment of the required fee"
+ ],
+ "attachments": [],
+ "watch": "Not stated in the Rules text",
+ "h": "8e3155ba1ec0",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

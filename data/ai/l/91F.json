@@ -1,30 +1,30 @@
 {
- "summary": "This rule applies to listed Not for Profit Organizations that have their mutual fund units listed on a Social Stock Exchange. They must regularly report on how they use the money they raise from the public. They also have to keep any leftover money safely apart from their other funds.",
+ "summary": "This rule requires certain listed non-profit groups to report how they use the money they raise. They must give this update every three months to the Social Stock Exchange. They also need to keep any leftover money safe in a separate bank account.",
  "points": [
-  "Must send a quarterly statement to the Social Stock Exchange about funds raised",
-  "Must include category-wise amounts of monies raised and utilised in the statement",
-  "Must report the balance amount remaining unutilised in the statement",
-  "Must keep any unutilised money in a separate bank account",
-  "Must not mix unutilised money with other funds",
-  "Must continue giving the statement until all funds are fully used or the goal is achieved"
+  "Must submit a quarterly statement on fund utilisation to the Social Stock Exchange",
+  "Must show category-wise amounts of monies raised and monies utilised",
+  "Must show the balance amount remaining unutilised",
+  "Must keep the unutilised amount in a separate bank account",
+  "Must not mix the unutilised money with other funds",
+  "Must continue giving the statement until all proceeds are fully used or the goal is reached"
  ],
- "example": "GreenEarth Foundation, a listed Not for Profit Organization, recently raised money through its listed mutual fund units on the Social Stock Exchange. Every quarter, GreenEarth Foundation must submit a statement to the Social Stock Exchange showing the category-wise amount of monies raised, the category-wise amount utilised, and the balance amount remaining unutilised. The organization placed all the unutilised money into a separate bank account and made sure it was not mixed with its other funds. GreenEarth Foundation will keep submitting this quarterly statement until every single raised rupee is fully utilised or the specific purpose for which the money was raised has been fully achieved.",
+ "example": "GreenEarth Welfare, a listed Not for Profit Organization, raised funds through the Social Stock Exchange for a tree-planting project. Every three months, GreenEarth Welfare must submit a statement to the Social Stock Exchange showing the category-wise amount of monies raised, the category-wise amount of monies utilised, and the balance amount remaining unutilised. The unutilised amount must be kept in a separate bank account and must not be co-mingled with other funds. GreenEarth Welfare must keep submitting this statement until the issue proceeds have been fully utilised or the purpose for which they were raised has been achieved.",
  "terms": [
   {
-   "term": "Not for Profit Organization",
-   "meaning": "An organization that does not operate to make a profit for its owners."
-  },
-  {
-   "term": "Social Stock Exchange",
-   "meaning": "A separate segment of a stock exchange meant for social enterprises and non-profits."
+   "term": "Utilisation",
+   "meaning": "The action of making practical and effective use of something, such as money."
   },
   {
    "term": "Co-mingled",
-   "meaning": "Mixed together with other funds."
+   "meaning": "Mixed together with other funds or accounts."
+  },
+  {
+   "term": "Proceeds",
+   "meaning": "The money obtained from an event or activity, like raising funds."
   }
  ],
- "watch": "People often confuse regular bank accounts with the separate bank account required for unutilised funds.",
- "h": "db7633da4d87",
+ "watch": "People often confuse regular bank accounts with the separate bank account required for holding unutilised funds.",
+ "h": "3bd4a4e3971e",
  "m": "gemini-3.5-flash-lite",
  "d": "2026-11-16"
 }

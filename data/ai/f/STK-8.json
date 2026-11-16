@@ -1,0 +1,24 @@
+{
+ "purpose": "Form STK-8 is used for making an application for the removal of the name of a company under sub-section (2) of section 248 to the Registrar, Centre for Processing Accelerated Corporate Exit.",
+ "who": "Not stated in the Rules text",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Ensure all overdue financial statements and annual returns are filed up to the end of the financial year in which business operations ceased, or all pending ones if action was initiated by the Registrar.",
+  "Verify that no notice under sub-section (5) of section 248 has been issued by the Registrar for publication.",
+  "Obtain a no objection certificate from the appropriate Regulatory Authority concerned if the company belongs to a regulated sector.",
+  "Prepare Form No. STK-2 along with the fee of ten thousand rupees."
+ ],
+ "checklist": [
+  "Overdue financial statements under section 137 filed up to the required period",
+  "Overdue annual returns under section 92 filed up to the required period",
+  "No objection certificate from appropriate Regulatory Authority if the company conducts regulated activities",
+  "Fee of ten thousand rupees"
+ ],
+ "attachments": [
+  "No objection certificate from appropriate Regulatory Authority concerned"
+ ],
+ "watch": "A company shall not be allowed to file the application once notice under sub-section (5) of section 248 has been issued by the Registrar for publication.",
+ "h": "6671c619f4fb",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

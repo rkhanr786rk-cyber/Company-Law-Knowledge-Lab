@@ -1,0 +1,24 @@
+{
+ "purpose": "Form DPT-3 is used by companies to file a return of deposit or particulars of transactions not considered as deposit or both. It is also used to file details of monies accepted from members by a specified IFSC public company or a private company.",
+ "who": "Every company to which these rules apply (other than Government company for certain specific returns).",
+ "when": "On or before the 30th day of June of every year (or within ninety days from 31st March, 2019 for the specific one-time return under Rule 16A(3)).",
+ "steps": [
+  "Gather the required information and particulars as on the 31st day of March of that year.",
+  "Ensure the information is duly audited by the auditor of the company.",
+  "Obtain the declaration from the auditor to be submitted in Form DPT-3.",
+  "File the return in Form DPT-3 with the Registrar along with the required fee."
+ ],
+ "checklist": [
+  "Information contained as on the 31st day of March of that year",
+  "Audit of the information by the auditor of the company",
+  "Declaration by the auditor to be submitted in Form DPT-3",
+  "Fee as provided in the Companies (Registration Offices and Fees) Rules, 2014"
+ ],
+ "attachments": [
+  "Declaration by the auditor"
+ ],
+ "watch": "Every company must file the return on or before the 30th day of June of every year.",
+ "h": "20141d204bc4",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

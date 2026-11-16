@@ -1,0 +1,22 @@
+{
+ "purpose": "Form NCLT-9 is used for applications under section 245, certain references and complaints to the Tribunal, applications for inspection of minute-books of general meetings, and applications for withdrawal under section 241.",
+ "who": "Not stated in the Rules text",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Prepare the application in Form NCLT-9.",
+  "File the application with the Tribunal.",
+  "Serve a copy of the application on the company, other respondents, and persons directed by the Tribunal."
+ ],
+ "checklist": [
+  "Verify requisite number of members or depositors if filing under section 245.",
+  "Attach documents mentioned in Annexure-B if required by the reference type.",
+  "Ensure the application is in Form NCLT-9."
+ ],
+ "attachments": [
+  "Documents mentioned in Annexure-B"
+ ],
+ "watch": "Ensure all required service copies are sent to the company and other respondents as directed.",
+ "h": "6779776a4430",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

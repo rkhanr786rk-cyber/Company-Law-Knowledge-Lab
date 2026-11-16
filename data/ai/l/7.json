@@ -1,34 +1,34 @@
 {
- "summary": "A listed company must manage its share transfer facility either in-house or by hiring an outside expert registered with the Board. If a company manages shares in-house and has more than one lakh security holders, it must register with the Board or appoint a registered agent. Any change or new appointment requires a special agreement and must be reported to the stock exchange within seven days.",
+ "summary": "A listed company must handle its share transfer work either on its own or through an outside expert registered with the Board. If the company handles it alone and the security holders cross one lakh, it must hire a registered expert or register itself. Any change in this expert requires a special three-way agreement and notice to the stock exchange.",
  "points": [
-  "The listed entity must appoint a registrar to an issue and share transfer agent or manage the share transfer facility in-house.",
-  "If in-house security holders exceed one lakh, the listed entity must register with the Board or appoint a registered agent.",
-  "The listed entity must ensure all share transfer facility activities are maintained in-house or by a registered agent.",
-  "The listed entity must enter into a tripartite or bipartite agreement when changing or appointing a new registrar.",
-  "The listed entity must intimate the appointment of a new registrar to the stock exchange within seven days of the agreement.",
-  "The listed entity must place the agreement in the subsequent meeting of the board of directors."
+  "The listed entity must appoint a registrar to an issue and share transfer agent or manage the facility in-house.",
+  "If in-house holders exceed one lakh, the entity must register with the Board or appoint a registered agent.",
+  "The entity must ensure all share transfer activities are maintained in-house or by a registered agent.",
+  "When changing or appointing a new agent, the entity must sign a tripartite agreement or an agreement with the new agent.",
+  "The entity must inform the stock exchange about the appointment within seven days of the agreement.",
+  "The agreement must be placed in the subsequent meeting of the board of directors."
  ],
- "example": "Meera Textiles Private Limited is a listed company that manages its share transfer facility in-house. Over time, the total number of holders of securities of the company grows and exceeds one lakh people. Because of this growth, Meera Textiles Private Limited must now either register with the Board as a registrar or appoint a registered registrar to an issue and share transfer agent. Later, when the company decides to change its agent, it enters into an agreement with the new agent. Meera Textiles Private Limited then informs the stock exchange within seven days of this agreement and shares the document at the next board of directors meeting.",
+ "example": "Meera Textiles Private Limited managed its own share transfers for its investors. Over time, the total number of security holders crossed one lakh. To follow the rules, Meera Textiles decided to appoint an outside expert. It chose Alpha Share Services Private Limited, which was registered with the Board. Meera Textiles signed a proper agreement with Alpha Share Services, informed the stock exchange within seven days, and placed the agreement before its board of directors in their very next meeting.",
  "terms": [
   {
    "term": "Registrar to an issue and share transfer agent",
-   "meaning": "An expert helper or organization that manages the records of shares and investors for a company."
+   "meaning": "An expert helper who manages share records and transfers for a company."
   },
   {
    "term": "In-house",
-   "meaning": "Managed directly by the company itself rather than hiring an outside helper."
-  },
-  {
-   "term": "Board",
-   "meaning": "The market regulator referred to in the regulations."
+   "meaning": "Done by the company itself instead of hiring an outside helper."
   },
   {
    "term": "Tripartite agreement",
-   "meaning": "A formal written contract involving three different parties."
+   "meaning": "A legal contract signed by three different parties."
+  },
+  {
+   "term": "Board",
+   "meaning": "The market regulator supervising securities."
   }
  ],
- "watch": "Mutual fund units listed on a stock exchange do not have to follow these specific requirements.",
- "h": "f87ba35c68bb",
+ "watch": "Mutual funds issuing listed units do not have to follow the requirements of this regulation.",
+ "h": "d65a424ed89e",
  "m": "gemini-3.5-flash-lite",
  "d": "2026-11-16"
 }

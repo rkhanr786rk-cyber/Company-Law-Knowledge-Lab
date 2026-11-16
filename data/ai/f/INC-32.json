@@ -1,0 +1,28 @@
+{
+ "purpose": "Form INC-32 is used at the time of incorporation of a One Person Company to include the name and nomination details of the nominee, along with the nominee's written consent as a declaration, or to mention the particulars of a maximum of three proposed directors for the allotment of a Director Identification Number. The provided text also references Form INC-32 (SPICe+) for One Person Company incorporation and Form INC-32 (SPICe) for director particulars.",
+ "who": "Not stated in the Rules text",
+ "when": "At the time of incorporation of the company",
+ "steps": [
+  "Obtain prior written consent from the person to be nominated as the nominee for the One Person Company.",
+  "Mention the name of the nominated person in the memorandum of the One Person Company.",
+  "Fill in the nomination details along with the consent of the nominee as a declaration in Form INC-32 (SPICe+).",
+  "File the Form with the Registrar at the time of incorporation of the company along with the required fee, e-memorandum, and e-articles.",
+  "Alternatively, mention the particulars of a maximum of three proposed directors not having an approved DIN in Form INC-32 (SPICe) for DIN allotment."
+ ],
+ "checklist": [
+  "Prior written consent of the nominated person for a One Person Company",
+  "Nominee name to be included in the memorandum",
+  "Fee as provided in the Companies (Registration offices and fees) Rules, 2014",
+  "e-memorandum and e-articles of the company",
+  "Particulars of up to three proposed directors if applying for DIN allotment through the form"
+ ],
+ "attachments": [
+  "e-memorandum",
+  "e-articles",
+  "Consent of the nominee"
+ ],
+ "watch": "Ensure the nominee's prior written consent is obtained before filing the form.",
+ "h": "631ef75b3963",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

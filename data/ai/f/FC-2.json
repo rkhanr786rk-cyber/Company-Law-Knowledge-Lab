@@ -1,0 +1,25 @@
+{
+ "purpose": "To deliver to the Registrar a list of directors and Secretary of a foreign company along with their required particulars.",
+ "who": "Every foreign company",
+ "when": "Within thirty days of establishment of its place of business in India",
+ "steps": [
+  "Establish a place of business in India.",
+  "Compile the list of directors and Secretary containing all required particulars.",
+  "Deliver the list of directors and Secretary to the Registrar for registration within thirty days of establishment."
+ ],
+ "checklist": [
+  "Personal name and surname in full",
+  "Any former name or names and surname or surnames in full",
+  "Father's name or mother's name or spouse's name",
+  "Date of birth",
+  "Residential address",
+  "Nationality and nationality of origin",
+  "Passport details and income-tax PAN",
+  "Other directorships and e-mail ID"
+ ],
+ "attachments": [],
+ "watch": "Not stated in the Rules text",
+ "h": "2ba0369eba85",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

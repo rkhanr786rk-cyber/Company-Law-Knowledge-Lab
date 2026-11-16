@@ -1,0 +1,21 @@
+{
+ "purpose": "Form RSC-3 is used by the Tribunal to give notice to the creditors of the company, seeking their representations and objections regarding the reduction of share capital.",
+ "who": "Not stated in the Rules text",
+ "when": "Within seven days of the direction given by the Tribunal or such other period as directed",
+ "steps": [
+  "The Tribunal gives notice to the creditors of the company in Form No. RSC-3.",
+  "The notice is sent to each creditor whose name is entered in the list of creditors submitted by the company.",
+  "The notice informs creditors about the presentation of the application and the list of creditors.",
+  "Creditors may send their representations and objections within the time specified by the Tribunal."
+ ],
+ "checklist": [
+  "List of creditors submitted by the company",
+  "Details of the amount of the proposed reduction of share capital",
+  "Amount or estimated value of the debt, contingent debt, or claim for each creditor"
+ ],
+ "attachments": [],
+ "watch": "Not stated in the Rules text",
+ "h": "84c2613333bf",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

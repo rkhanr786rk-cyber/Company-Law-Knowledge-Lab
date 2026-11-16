@@ -1,33 +1,33 @@
 {
- "summary": "This regulation requires a company whose shares or debt securities are listed on a stock exchange to share its annual report with the stock exchange and publish it on its website. The annual report must include specific documents such as audited financial statements, directors report, and cash flow statements. If the annual report changes after being sent to shareholders, the company must submit the revised copy with an explanation within a set timeframe.",
+ "summary": "This regulation explains what a listed company must put in its annual report and share with the stock exchange and its own website. It covers financial statements, reports from directors and management, and special environmental and social reports for certain big companies. If any changes happen to the report, the company must also send the revised copy with reasons later.",
  "points": [
-  "Must submit a copy of the annual report to the stock exchange and publish it on its website on or before the commencement of dispatch to shareholders.",
-  "Must send any revised copy of the annual report along with details and explanations of changes not later than 48 hours after the annual general meeting, if changes occur.",
-  "Must include audited financial statements, consolidated financial statements, and a cash flow statement in the annual report.",
-  "Must include a directors report and a management discussion and analysis report in the annual report.",
-  "Must include other disclosures specified in the Companies Act, 2013 and Schedule V of the regulations."
+  "The listed entity must send a copy of the annual report to the stock exchange and publish it on its website on or before the time it is sent to shareholders.",
+  "If the annual report changes, the listed entity must send the revised copy along with details and explanations not later than 48 hours after the annual general meeting.",
+  "The annual report must include audited financial statements, consolidated financial statements, and a cash flow statement under the indirect method.",
+  "The annual report must include a directors report and a management discussion and analysis report.",
+  "Top listed entities based on market capitalization must include a Business Responsibility and Sustainability Report."
  ],
- "example": "Meera Textiles Private Limited is a company whose securities are listed on the stock exchange. As required by the rules, the company prepared its annual report containing audited financial statements, a cash flow statement, and the directors report. Meera Textiles submitted a copy of this annual report to the stock exchange and published it on its official website on the exact day it started sending the report to its shareholders along with the notice of the annual general meeting. Later, the company made some changes to the report and successfully sent the revised copy, along with an explanation for the changes, to the stock exchange shortly after the annual general meeting concluded.",
+ "example": "Rohit Fabrics Limited is a company listed on a stock exchange. Before sending its annual report to its shareholders along with the notice of the annual general meeting, Rohit Fabrics Limited must submit a copy of this report to the stock exchange and also publish it on its own website. The report must contain audited financial statements, consolidated financial statements audited by its statutory auditors, a cash flow statement, a directors report, and a management discussion and analysis report. Later, if the company makes any changes to this annual report, it must send the revised copy along with the details and explanations for the changes not later than 48 hours after the annual general meeting takes place.",
  "terms": [
   {
-   "term": "listed entity",
-   "meaning": "A company whose securities are traded on a recognized stock exchange."
+   "term": "Listed entity",
+   "meaning": "A company that has its securities listed on a stock exchange."
   },
   {
-   "term": "audited financial statements",
-   "meaning": "Official financial records of a company that have been checked and verified by an independent accountant."
+   "term": "Annual report",
+   "meaning": "A yearly document containing financial statements and business information sent to shareholders."
   },
   {
-   "term": "annual general meeting",
-   "meaning": "A yearly gathering of a company shareholders to discuss business matters."
+   "term": "Audited financial statements",
+   "meaning": "Financial records that have been officially checked and verified by independent auditors."
   },
   {
-   "term": "statutory auditors",
-   "meaning": "Independent accountants legally appointed to check a company financial records."
+   "term": "Market capitalization",
+   "meaning": "The total dollar market value of a company's outstanding shares of stock."
   }
  ],
- "watch": "People often confuse the initial annual report submission deadline with the deadline for sending revised copies after changes.",
- "h": "22dfd9e6bb05",
+ "watch": "People often confuse when the report must be published on the website, which must happen on or before the commencement of dispatch to shareholders.",
+ "h": "b215f75a453f",
  "m": "gemini-3.5-flash-lite",
  "d": "2026-11-16"
 }

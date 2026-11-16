@@ -1,0 +1,26 @@
+{
+ "purpose": "Form INC-6 is used for filing an application for the conversion of a company, such as converting a One Person Company into a Private or Public Company.",
+ "who": "The company",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Alter the memorandum and articles by passing a resolution.",
+  "Increase the minimum number of members and directors as required.",
+  "Maintain the minimum paid-up capital as per the requirements of the Act.",
+  "Make due compliance of section 18 of the Act for conversion.",
+  "File an application in e-Form No. INC-6 along with fees and altered e-MOA and e-AOA."
+ ],
+ "checklist": [
+  "Altered e-MOA and e-AOA",
+  "Compliance with section 18 of the Act",
+  "Required minimum members and directors",
+  "Required minimum paid-up capital",
+  "Latest audited financial statement"
+ ],
+ "attachments": [
+  "altered e-MOA and e-AOA"
+ ],
+ "watch": "Not stated in the Rules text",
+ "h": "9e60154ec106",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

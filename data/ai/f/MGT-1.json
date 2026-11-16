@@ -1,0 +1,24 @@
+{
+ "purpose": "Form MGT-1 is used by companies limited by shares to maintain a register of their members from the date of registration.",
+ "who": "Every company limited by shares",
+ "when": "From the date of registration of the company",
+ "steps": [
+  "Identify if the company is limited by shares or not having share capital.",
+  "For existing companies, transfer particulars from the old register under the Companies Act, 1956 to the new register in Form MGT-1.",
+  "Add any additional information required by the Act and rules as and when provided by members."
+ ],
+ "checklist": [
+  "Particulars available in the register of members maintained under the Companies Act, 1956",
+  "Additional information provided by members as required by the Act and rules",
+  "Member name, address, e-mail address, Permanent Account Number or CIN, and Unique Identification Number if any",
+  "Father's, Mother's, or Spouse's name, Occupation, Status, and Nationality",
+  "Guardian name and date of birth if the member is a minor",
+  "Name and address of nominee, date of becoming member, date of cessation, amount of guarantee, and other interests",
+  "Instructions given by the member regarding sending of notices"
+ ],
+ "attachments": [],
+ "watch": "Not stated in the Rules text",
+ "h": "70f36f05b068",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}
