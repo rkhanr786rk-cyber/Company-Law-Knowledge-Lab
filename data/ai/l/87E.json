@@ -1,0 +1,28 @@
+{
+ "summary": "This rule tells companies that issue security receipts to pick a record date for making payments or for other reasons required by the stock exchange. The company must also tell the stock exchange ahead of time about this date and its purpose. This helps keep track of who is supposed to get paid.",
+ "points": [
+  "Must fix a record date for payments to holders of security receipts.",
+  "Must fix a record date for other purposes specified by the stock exchange.",
+  "Must give advance notice of at least seven working days to the stock exchange regarding the record date and its purpose.",
+  "May give notice of as many days as the stock exchange may agree to or require."
+ ],
+ "example": "Sunrise Securitisation Limited has issued security receipts to various investors and needs to make a payment to them. To do this properly, the company decides to fix a specific record date as required by the stock exchange. Before setting everything in stone, Sunrise Securitisation Limited sends a formal notice to the stock exchange to inform them of this upcoming record date and to explain its exact purpose. The company makes sure this notice is given at least seven working days in advance, strictly excluding the date of intimation and the record date itself, to meet all the official requirements set out by the rules.",
+ "terms": [
+  {
+   "term": "Record date",
+   "meaning": "A specific date chosen to determine which holders are eligible to receive a payment or benefit."
+  },
+  {
+   "term": "Security receipts",
+   "meaning": "Financial documents that give the holder a right to receive money or benefits from a securitised debt."
+  },
+  {
+   "term": "Working days",
+   "meaning": "Business days where regular work is done, excluding holidays or weekends depending on the context."
+  }
+ ],
+ "watch": "Do not count the date of intimation and the record date when calculating the seven working days notice period.",
+ "h": "817de30d226f",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

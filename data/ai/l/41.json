@@ -1,0 +1,33 @@
+{
+ "summary": "This text explains the rules a listed company must follow regarding its shares, like not holding onto fully paid shares and treating share issues fairly. It sets clear limits on special shares with extra voting rights held by founders. Companies must also offer new shares to existing shareholders first unless a general meeting decides differently.",
+ "points": [
+  "The listed entity must not exercise a lien on fully paid shares.",
+  "The listed entity must offer new shares, securities, and benefits on a pro rata basis to existing equity shareholders first, unless shareholders decide otherwise in a general meeting.",
+  "The listed entity must ensure its share transfer facility produces a certificate from a practicing company secretary within the time frame set by the rules.",
+  "The listed entity must not issue shares that give inferior voting rights compared to already listed equity shares.",
+  "The listed entity must not select listed securities for redemption other than on a pro-rata basis or by lot, unless the terms of issue say otherwise."
+ ],
+ "example": "Meera Textiles Private Limited is a company listed on the stock exchange. When the company decides to issue new shares, it must first offer them to all its existing equity shareholders on a pro rata basis. One of the founders, Rohan, holds special shares with extra voting rights. When the company votes on the appointment of independent directors, Rohan's special shares only get one vote per share, treating them just like ordinary shares. Later, Meera Textiles ensures that its share transfer facility gets a proper certificate from a practicing company secretary within the required time after the financial year ends, confirming that all share transfer certificates were issued correctly.",
+ "terms": [
+  {
+   "term": "lien",
+   "meaning": "A legal right of a company to keep possession of shares until money owed is paid."
+  },
+  {
+   "term": "pro rata",
+   "meaning": "Divided proportionally in equal shares according to what someone already owns."
+  },
+  {
+   "term": "redemption",
+   "meaning": "The act of a company buying back or paying off its securities."
+  },
+  {
+   "term": "SR equity shares",
+   "meaning": "Shares that give founders or promoters superior voting rights."
+  }
+ ],
+ "watch": "People often confuse special voting shares with ordinary shares, but special shares have strict limits on voting rights during important company matters.",
+ "h": "eafcb153dcad",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

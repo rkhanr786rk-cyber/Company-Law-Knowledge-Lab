@@ -1,0 +1,23 @@
+{
+ "summary": "This regulation explains who must follow the special rules found in Chapter IX. These rules apply to certain types of social enterprises and organizations. You must check if your entity fits these specific descriptions to know if the rules apply.",
+ "points": [
+  "The listed entity must follow the provisions of Chapter IX if it is a For Profit Social Enterprise with designated securities listed on the right segment of the Stock Exchange.",
+  "The listed entity must follow the provisions of Chapter IX if it is a Not for Profit Organization registered on the Social Stock Exchange.",
+  "The listed entity must check if its securities or organization type match the categories listed in this regulation."
+ ],
+ "example": "GreenEarth Foundation Private Limited is a Not for Profit Organization. It wants to know if the special rules in Chapter IX of the SEBI regulations apply to its operations. The management checks the rules and finds that because the organization is registered on the Social Stock Exchange, these provisions do apply to them. Meanwhile, Alpha Trading Limited is a regular company that does not deal with social enterprises and is not on the Social Stock Exchange. Therefore, GreenEarth Foundation Private Limited must follow Chapter IX while Alpha Trading Limited does not have to worry about this specific chapter.",
+ "terms": [
+  {
+   "term": "For Profit Social Enterprise",
+   "meaning": "A business that aims to make money while also helping society or the environment."
+  },
+  {
+   "term": "Not for Profit Organization",
+   "meaning": "An organization that does not distribute its surplus as profit to owners, usually working for a social cause."
+  }
+ ],
+ "watch": "Do not assume these rules apply to all companies; they only apply to the specific social enterprises mentioned here.",
+ "h": "a406a695642c",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

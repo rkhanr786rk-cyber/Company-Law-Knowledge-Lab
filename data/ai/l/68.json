@@ -1,0 +1,29 @@
+{
+ "summary": "This regulation requires companies with listed Indian Depository Receipts to quickly share important news with the stock exchange. They must tell the exchange about any event that is material, can change prices, or affects how the company performs. They must also share specific details like holding patterns and shareholding information.",
+ "points": [
+  "Must promptly inform the stock exchange of all material events.",
+  "Must promptly inform the stock exchange of price sensitive information.",
+  "Must promptly inform the stock exchange of information bearing on performance or operation.",
+  "Must make disclosures as specified in Part C of Schedule III.",
+  "Must disclose Indian Depository Receipt holding pattern and shareholding details."
+ ],
+ "example": "At Sunrise IDR Corp Limited, a company with listed Indian Depository Receipts, a major new production contract was signed today. Because this event directly affects the operational performance and is price sensitive, the management team knows they must act quickly. Without waiting, Sunrise IDR Corp Limited informs the stock exchange about this material event. They also prepare their current Indian Depository Receipt holding pattern and shareholding details to share with the exchange, making sure they follow all the required disclosure rules under Part C of Schedule III as stated in the official guidelines.",
+ "terms": [
+  {
+   "term": "Listed entity",
+   "meaning": "A company whose securities are traded on a stock exchange."
+  },
+  {
+   "term": "Material",
+   "meaning": "Important enough to influence a person's decision to buy or sell."
+  },
+  {
+   "term": "Price sensitive",
+   "meaning": "Information that can affect the market price of the securities."
+  }
+ ],
+ "watch": "Do not assume specific deadlines or penalties apply here, as the text does not mention any.",
+ "h": "b42749b2470c",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

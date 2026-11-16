@@ -1,0 +1,29 @@
+{
+ "summary": "This regulation explains what a company with listed securitised debt instruments must tell the stock exchange. It must give advance notice before issuing new instruments or holding board of trustees meetings about certain matters. It must also send regular reports and loan details.",
+ "points": [
+  "The listed entity must tell the stock exchange before issuing new securitised debt instruments through a public issue or private placement.",
+  "The listed entity must tell the stock exchange at least two working days before its board of trustees holds a meeting to recommend or declare an issue, or discuss matters affecting the rights or interests of holders.",
+  "The listed entity must submit monthly statements, reports, or financial information to the stock exchange within seven days from the end of the month or actual payment date.",
+  "If receivables do not happen monthly, the listed entity must report for the relevant periods instead.",
+  "The listed entity must provide loan-level information to the stock exchange without showing the personal details of individual borrowers."
+ ],
+ "example": "Zenith Debt Trust Limited planned to issue new securitised debt instruments through a public issue. Before doing this, Zenith formally intimated the stock exchange of its intention. Later, the board of trustees scheduled a meeting to consider matters affecting the rights of the debt holders. Zenith gave the stock exchange notice of this meeting at least two working days in advance. At the end of the month, Zenith submitted the required financial statements and loan-level information to the stock exchange without revealing any individual borrower details.",
+ "terms": [
+  {
+   "term": "Securitised debt instruments",
+   "meaning": "Financial tools that pool various types of loans or debts into single packages to be sold to investors."
+  },
+  {
+   "term": "Intimate",
+   "meaning": "To formally notify or inform."
+  },
+  {
+   "term": "Servicer",
+   "meaning": "An entity that handles the day-to-day management and collection of loans."
+  }
+ ],
+ "watch": "People often confuse the two-day advance notice for board meetings with the seven-day deadline for monthly report submissions.",
+ "h": "e66159ed2323",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

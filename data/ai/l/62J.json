@@ -1,0 +1,28 @@
+{
+ "summary": "This rule requires certain large debt-listed companies to create a whistle blower policy. This policy helps directors and employees report real concerns safely. It also protects people from being mistreated for speaking up.",
+ "points": [
+  "The company must create a vigil mechanism or whistle blower policy.",
+  "Directors and employees must be able to use this policy to report genuine concerns.",
+  "The policy must protect people from victimization when they use it.",
+  "The policy must give direct access to the chairperson of the audit committee in appropriate or exceptional cases."
+ ],
+ "example": "Aarav works as an accountant at Surya Steel Non-Convertible Securities Limited, a large listed company. One day, Aarav notices that some company funds are being moved in a suspicious way. Because Surya Steel has a vigil mechanism, Aarav decides to report this genuine concern. The company policy protects Aarav from being mistreated or fired for speaking up. Because this is an exceptional case, the policy also allows Aarav to reach out directly to the chairperson of the audit committee to share the details safely.",
+ "terms": [
+  {
+   "term": "Vigil mechanism",
+   "meaning": "A system that allows company workers and leaders to report real problems or wrongdoings."
+  },
+  {
+   "term": "Victimization",
+   "meaning": "Being mistreated, punished, or harmed for doing something lawful, like reporting a problem."
+  },
+  {
+   "term": "Audit committee",
+   "meaning": "A group of people within the company who oversee financial matters and accounts."
+  }
+ ],
+ "watch": "Do not assume this rule applies to every single listed company, as it specifically mentions the HVDLE.",
+ "h": "c199252b506e",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

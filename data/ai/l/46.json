@@ -1,0 +1,29 @@
+{
+ "summary": "This regulation requires a company whose shares are listed on a stock exchange to maintain a working website with basic information about the company. The company must put specific details, policies, financial results, and reports in a separate section on this website. The company must also make sure that all website content is correct and update any changes within two working days.",
+ "points": [
+  "The listed entity must maintain a functional website with basic company information.",
+  "The listed entity must share specific items like its business details, board profiles, and financial reports under a separate section on the website.",
+  "The listed entity must publish schedules for analyst or institutional investor meetings at least two working days in advance.",
+  "The listed entity must ensure that the contents of its website are correct.",
+  "The listed entity must update any changes to website content within two working days."
+ ],
+ "example": "Sunrise Engineering Limited is a company listed on the stock exchange. To follow the rules, the company creates a working website and sets up a separate section for required details. They upload their business information, board profiles, and financial reports. When the board of directors changes the company policy on related party transactions, the team at Sunrise Engineering Limited updates the new policy on the website within two working days to keep everything correct and current.",
+ "terms": [
+  {
+   "term": "Listed entity",
+   "meaning": "A company whose securities are traded on a recognized stock exchange."
+  },
+  {
+   "term": "Disseminate",
+   "meaning": "To spread or publish information so that the public can see it."
+  },
+  {
+   "term": "Subsidiary",
+   "meaning": "A company that is controlled by another company."
+  }
+ ],
+ "watch": "Make sure to update any website content changes within two working days of the change.",
+ "h": "60bcee572384",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

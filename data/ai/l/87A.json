@@ -1,0 +1,27 @@
+{
+ "summary": "This rule explains who must follow a specific set of stock exchange rules regarding security receipts. The company that creates and lists the security receipts, as well as its sponsor, must follow all the rules in this chapter. It also states that certain words used here have the same meaning as defined in separate regulations.",
+ "points": [
+  "The issuer that has listed its security receipts must follow all provisions of this chapter.",
+  "The sponsor of the issuer must ensure compliance with each provision of these regulations.",
+  "The issuer and its sponsor must follow the duties set out in this chapter together."
+ ],
+ "example": "Zenith Asset Recovery Limited issues security receipts that are listed on a recognized stock exchange. According to the regulations, Zenith, as the issuer, must follow every rule outlined in this chapter. Furthermore, Apex Capital Holdings, which acts as the sponsor for Zenith, must also ensure that all these provisions are fully complied with. Both Zenith and Apex need to be careful to understand that these specific obligations apply to their listed security receipts.",
+ "terms": [
+  {
+   "term": "Security receipts",
+   "meaning": "A document issued by an asset reconstruction company to prove a buyer holds a right or interest in financial assets."
+  },
+  {
+   "term": "Sponsor",
+   "meaning": "The person or entity that sets up or promotes the issuing company."
+  },
+  {
+   "term": "Issuer",
+   "meaning": "The company or entity that offers and creates the securities for listing."
+  }
+ ],
+ "watch": "People often confuse the responsibilities of the issuer with those of the sponsor, but both must ensure compliance.",
+ "h": "a8c86eb888a5",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

@@ -1,0 +1,29 @@
+{
+ "summary": "This regulation sets the general rules for companies that have issued Indian Depository Receipts. It explains what language to use, the need to follow home country laws, and how disputes must be handled. It also ensures that Indian authorities have jurisdiction and that information must be shared with stock exchanges.",
+ "points": [
+  "Must write all letters and papers sent to the stock exchange and IDR holders in English.",
+  "Must follow the rules, regulations, and laws of its home country at all times.",
+  "Must agree that Indian courts, tribunals, and regulators have jurisdiction over any disputes concerning the Indian Depository Receipts.",
+  "Must send any information requested by the stock exchange continuously and in the interest of investors.",
+  "Must submit any claims or disputes with investors to a dispute resolution mechanism like mediation, conciliation, or arbitration."
+ ],
+ "example": "Zenith IDR Corp is a foreign company with Indian Depository Receipts listed on an Indian stock exchange. Zenith sent an update letter to its investors and the stock exchange, and it ensured the text was written entirely in English. Later, a disagreement arose between Zenith and an Indian investor regarding market activities. Instead of going straight to a traditional trial, both parties submitted their dispute to a mediation and arbitration process specified by the Board. Throughout this time, Zenith also continued to follow the laws of its home country and quickly provided extra information whenever the stock exchange asked for it in the interest of investors.",
+ "terms": [
+  {
+   "term": "Indian Depository Receipts",
+   "meaning": "A financial instrument that allows foreign companies to raise funds from the Indian securities market."
+  },
+  {
+   "term": "Jurisdiction",
+   "meaning": "The official power of courts and authorities to make legal decisions and handle disputes."
+  },
+  {
+   "term": "Arbitration",
+   "meaning": "A way to resolve disputes outside of court where an independent person makes a binding decision."
+  }
+ ],
+ "watch": "People often confuse Indian jurisdiction rules with foreign laws, but this regulation clearly places disputes under Indian authorities.",
+ "h": "a74ab45dd204",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

@@ -1,0 +1,32 @@
+{
+ "summary": "This rule tells companies that issue Indian Depository Receipts, or IDRs, to share certain documents and information with IDR holders. The company must share these items at the same time and in the same amount as it does for security holders in its home country or other listing places. It covers sending annual reports in soft or hard copies, and sharing details about capital structures during corporate restructuring.",
+ "points": [
+  "The listed entity must send soft copies of the annual report to all IDR holders who have registered their email addresses.",
+  "The listed entity must send a hard copy of the annual report to IDR holders who ask for it through the domestic depository or the Compliance Officer.",
+  "The listed entity must disclose the pre and post arrangement capital structure and shareholding pattern during corporate restructuring like mergers, amalgamations, and other schemes.",
+  "The listed entity must share these documents and information at the same time and to the extent that it discloses them to security holders in its home country or other jurisdictions."
+ ],
+ "example": "Sunrise Retail Limited issued Indian Depository Receipts in India. When the company prepared its annual report, it emailed soft copies to all IDR holders who had registered their email addresses. An IDR holder named Rahul preferred reading paper documents, so he asked the Compliance Officer for a physical copy, which Sunrise Retail Limited then sent to him. Later, the company entered into a merger scheme. At that time, Sunrise Retail Limited publicly disclosed its capital structure and shareholding pattern both before and after the arrangement, matching the disclosures made to security holders in its home country.",
+ "terms": [
+  {
+   "term": "IDR Holders",
+   "meaning": "People or entities who hold Indian Depository Receipts, which are financial instruments representing shares of a foreign company."
+  },
+  {
+   "term": "Domestic Depository",
+   "meaning": "An agent or financial institution in India that manages the depository receipts."
+  },
+  {
+   "term": "Compliance Officer",
+   "meaning": "An officer of the company responsible for ensuring that rules and regulations are followed."
+  },
+  {
+   "term": "Corporate Restructuring",
+   "meaning": "Major changes to a company's structure or ownership, such as mergers or amalgamations."
+  }
+ ],
+ "watch": "A common confusion is whether hard copies of the annual report must be sent automatically to everyone, whereas they are only sent to those who specifically request them.",
+ "h": "afaacc1462b6",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

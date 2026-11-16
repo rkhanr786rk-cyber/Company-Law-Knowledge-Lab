@@ -1,0 +1,33 @@
+{
+ "summary": "This regulation explains the rules for a listed company that wants to do a scheme of arrangement, such as a merger or a plan handled by a court. The company must first file the draft plan with the stock exchange and pay a fee to get a No-objection letter. It cannot file the plan with a court or tribunal until it receives this letter.",
+ "points": [
+  "The listed entity must file the draft scheme of arrangement along with a non-refundable fee with the stock exchange to get a No-objection letter before filing with any Court or Tribunal.",
+  "The listed entity must not file any scheme of arrangement with any Court or Tribunal unless it has obtained the No-objection letter from the stock exchange.",
+  "The listed entity must place the No-objection letter before the Court or Tribunal when seeking approval of the scheme.",
+  "The listed entity must submit prescribed documents to the stock exchange after the Court or Tribunal sanctions the scheme.",
+  "The listed entity must ensure compliance with other requirements prescribed by the Board from time to time."
+ ],
+ "example": "Sunrise Industries Limited, a company whose shares are traded on the stock market, plans to enter into a scheme of arrangement. Before taking this plan to a tribunal, Sunrise Industries Limited must file a draft of the scheme with the stock exchange along with the required fee. The company must wait to get a No-objection letter from the stock exchange. Once the letter is issued, Sunrise Industries Limited can then present both the scheme and the No-objection letter to the tribunal for approval.",
+ "terms": [
+  {
+   "term": "Scheme of arrangement",
+   "meaning": "A court-approved plan between a company and its creditors or shareholders, such as a merger or restructuring."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "An official body or authority appointed to deal with legal cases and disputes."
+  },
+  {
+   "term": "No-objection letter",
+   "meaning": "A formal letter stating that the stock exchange does not oppose the proposed plan."
+  },
+  {
+   "term": "Listed entity",
+   "meaning": "A company that has its securities listed and traded on a recognized stock exchange."
+  }
+ ],
+ "watch": "Make sure to obtain the No-objection letter from the stock exchange before submitting the scheme to any court or tribunal.",
+ "h": "f145b7f0abf9",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

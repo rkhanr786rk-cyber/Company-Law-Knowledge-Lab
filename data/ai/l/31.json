@@ -1,0 +1,29 @@
+{
+ "summary": "This regulation requires a company with listed securities to send statements of its shareholding pattern to the stock exchange. It also sets rules for keeping promoter shares in electronic form and changing a promoter's status to a public shareholder. The text explains timelines for reports and conditions for changing shareholding status.",
+ "points": [
+  "The listed entity must submit a shareholding statement to the stock exchange in the specified format before listing, every quarter, or after major capital changes.",
+  "The listed entity must ensure that one hundred percent of promoter and promoter group shares are held in dematerialized form continuously.",
+  "The listed entity must disclose all promoter and promoter group entities separately on the website of stock exchanges.",
+  "The listed entity must follow specific application steps and timelines when a promoter wants to change their status to public.",
+  "Promoters seeking re-classification must not keep control over the affairs of the entity or hold more than ten percent of total voting rights."
+ ],
+ "example": "Meera Textiles Private Limited is a company whose shares are listed on a stock exchange. The company must send a statement showing its shareholding pattern to the stock exchange within twenty-one days from the end of each quarter. Meera Textiles Private Limited must also make sure that all shares held by its promoters are kept in dematerialized, electronic form at all times. When a promoter of Meera Textiles Private Limited wants to become a public shareholder, the company has to follow a formal process, including submitting an application to the stock exchange, getting board and shareholder approval, and ensuring the promoter gives up control of the company's affairs.",
+ "terms": [
+  {
+   "term": "Dematerialized form",
+   "meaning": "Holding shares in electronic format instead of physical paper certificates."
+  },
+  {
+   "term": "Promoter",
+   "meaning": "A person or group who started the company or has control over its management and affairs."
+  },
+  {
+   "term": "Capital restructuring",
+   "meaning": "A significant change in the company's capital, such as equity or debt structure."
+  }
+ ],
+ "watch": "Keep in mind that rules for SME exchanges and normal exchanges have different submission frequencies for shareholding patterns.",
+ "h": "a0b0ad31e3f7",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

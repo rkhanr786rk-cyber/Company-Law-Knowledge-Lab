@@ -1,0 +1,28 @@
+{
+ "summary": "A company with listed non-convertible securities must give advance notice to the stock exchange before holding board meetings for certain major proposals. It must also inform the exchange when sending out notices for meetings related to those proposals. All disclosures to the stock exchange must be made in a specific electronic format.",
+ "points": [
+  "Must give prior intimation to the stock exchange at least two working days in advance about board meetings considering specific proposals.",
+  "Must exclude the date of the intimation and the date of the board meeting when calculating the two-day advance notice period.",
+  "Must intimate the stock exchange not later than the date of commencement of dispatch of notices for shareholder or security holder meetings.",
+  "Must submit all disclosures to the stock exchanges in XBRL format according to specified guidelines."
+ ],
+ "example": "Alpha Securities Limited plans to hold a board meeting to consider changing the date of an interest payment on its listed non-convertible securities. To follow the rules, Alpha Securities Limited must give prior intimation to the stock exchange at least two working days before the board meeting takes place, leaving out the intimation date and the meeting date from the count. Later, if the company needs to hold a meeting of the security holders regarding matters affecting their rights, it must inform the stock exchange no later than the date it starts sending out the meeting notices. Finally, the company must make these disclosures in the XBRL format as required by the stock exchange guidelines.",
+ "terms": [
+  {
+   "term": "Non-convertible securities",
+   "meaning": "Financial instruments like bonds that cannot be converted into equity shares."
+  },
+  {
+   "term": "Intimation",
+   "meaning": "An official notice or announcement given to someone."
+  },
+  {
+   "term": "XBRL format",
+   "meaning": "A specific electronic language used for business and financial reporting."
+  }
+ ],
+ "watch": "Do not forget that the two working days advance notice excludes both the date you send the intimation and the date of the board meeting itself.",
+ "h": "5266bc0c6a43",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

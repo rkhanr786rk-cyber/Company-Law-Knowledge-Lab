@@ -1,0 +1,34 @@
+{
+ "summary": "This regulation requires certain high value companies to form a special group called an audit committee. The committee checks money matters and holds regular meetings with clear rules on who can join and run them. Every rule must be followed carefully to keep the company's financial checks in order.",
+ "points": [
+  "The audit committee must have at least three directors as members.",
+  "At least two-thirds of the audit committee members must be independent directors.",
+  "All members must be able to read and understand basic financial statements.",
+  "The chairperson must be an independent director and must attend the annual general meeting.",
+  "The audit committee must meet at least four times in a financial year.",
+  "The company secretary must act as the secretary to the audit committee."
+ ],
+ "example": "At Sunrise Infrastructure Private Limited, a high value company, the board creates an audit committee to manage money checks. The committee has three directors, and two of them are independent directors who do not work in the daily business. Every member can read basic balance sheets and profit statements. Mr. Rao, an independent director, is chosen as the chairperson. During the year, the committee holds four meetings with no more than one hundred and twenty days passing between any two meetings. The company secretary takes notes as the secretary of the committee, and Mr. Rao attends the annual general meeting to answer questions from shareholders.",
+ "terms": [
+  {
+   "term": "HVDLE",
+   "meaning": "High Value Debt Listed Entity, a company that has listed its non-convertible securities and has a high value."
+  },
+  {
+   "term": "Independent director",
+   "meaning": "A board member who is free from any business or other relationship that could shake their independent judgment."
+  },
+  {
+   "term": "Quorum",
+   "meaning": "The minimum number of members who must be present to lawfully hold a meeting."
+  },
+  {
+   "term": "Statutory auditor",
+   "meaning": "An official person or firm appointed to check and report on the company accounts."
+  }
+ ],
+ "watch": "People often confuse independent directors with regular company executives who work inside the firm every day.",
+ "h": "be2a95710024",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

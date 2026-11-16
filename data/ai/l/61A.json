@@ -1,0 +1,33 @@
+{
+ "summary": "This rule tells companies what to do with money like interest or dividends that investors have not claimed on time. Companies must never take away or cancel this unclaimed money. Instead, they must move it to a special bank account and later to a government fund if it stays unclaimed for a long time.",
+ "points": [
+  "The listed entity must not forfeit unclaimed interest, dividend, or redemption amounts.",
+  "The listed entity must transfer unclaimed amounts to an escrow account in a scheduled bank if not claimed within thirty days from the due date, doing so within seven days after those thirty days expire.",
+  "Unclaimed and unpaid amounts in the escrow account must eventually be transferred to the Investor Education and Protection Fund or the Investor Protection and Education Fund depending on the entity type.",
+  "The amount transferred to the Investor Protection and Education Fund shall not bear any interest.",
+  "Unclaimed amounts transferred to the Investor Protection and Education Fund may be claimed later in the manner specified by the Board."
+ ],
+ "example": "Sunrise Green Energy Limited issued non-convertible securities to the public. Investor Rohan was supposed to receive his interest payment on time, but due to a change in his bank details, he did not claim it within thirty days from the due date. To follow the rules, Sunrise Green Energy Limited did not cancel the money. Instead, within seven days after the thirty days ended, the company moved Rohan's unclaimed interest money into a special escrow account in a scheduled bank. Later, if the money stays unclaimed for the required period, the company will transfer it to the designated investor fund.",
+ "terms": [
+  {
+   "term": "forfeit",
+   "meaning": "To legally take away or lose the right to something."
+  },
+  {
+   "term": "escrow account",
+   "meaning": "A special bank account where funds are held safely until they are ready to be transferred."
+  },
+  {
+   "term": "redemption amount",
+   "meaning": "The money paid back to an investor when a security matures."
+  },
+  {
+   "term": "scheduled bank",
+   "meaning": "A bank that is listed under the official banking laws of the country."
+  }
+ ],
+ "watch": "People often confuse transferring money to a temporary bank account with permanently losing their right to claim it.",
+ "h": "e09c7fa454d4",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

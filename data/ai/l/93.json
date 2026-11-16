@@ -1,0 +1,29 @@
+{
+ "summary": "This regulation requires recognised stock exchanges to work together with Depositories. Their joint job is to make sure companies follow applicable laws, Board directions, or court orders about freezing, unfreezing, locking in, or releasing lock-ins for securities. These rules apply to securities issued or managed by a listed entity, as well as to Draft Schemes of Arrangement and Schemes of Arrangement for entities with listed specified securities.",
+ "points": [
+  "The recognised stock exchange must coordinate with Depositories.",
+  "They must ensure compliance with applicable laws, Board directions, or competent court orders.",
+  "They must handle freezing and unfreezing of securities issued or managed by the listed entity.",
+  "They must handle lock-in and release of lock-in for these securities.",
+  "These duties apply to Draft Schemes of Arrangement and Schemes of Arrangement for entities with listed specified securities."
+ ],
+ "example": "Zenith Solar Limited had a court order regarding some of its shares. To follow the law properly, the recognised stock exchange had to work together directly with the Depositories. Their goal was to make sure the specific shares were locked in correctly according to the directions given by the competent court. Later, when the legal situation changed, the exchange and the Depositories coordinated again to release the lock-in on those securities for Zenith Solar Limited. This whole process ensured that all applicable laws and court instructions regarding the company's securities were followed carefully by the exchange and the Depositories without missing any required steps.",
+ "terms": [
+  {
+   "term": "Depositories",
+   "meaning": "Organisations that hold securities in electronic form for investors."
+  },
+  {
+   "term": "Lock-in",
+   "meaning": "A rule that prevents the sale or transfer of certain securities for a specific period."
+  },
+  {
+   "term": "Scheme of Arrangement",
+   "meaning": "A court-approved agreement between a company and its shareholders or creditors."
+  }
+ ],
+ "watch": "People often confuse the duties of the stock exchange with the direct duties of the listed company itself under this specific rule.",
+ "h": "b07a9a48b71b",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

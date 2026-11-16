@@ -1,0 +1,29 @@
+{
+ "summary": "This regulation provides the exact definitions of specific terms used in the chapter for listed entities that have non-convertible securities. It explains how terms like control, independent director, public private partnership, and senior management are understood. It also clarifies special rules for bodies corporate and public-private partnership entities.",
+ "points": [
+  "The listed entity must use the meaning of control assigned by the Securities and Exchange Board of India Regulations of 2011.",
+  "The listed entity must use the meaning of independent director given under regulation 16 unless it is a body corporate under a specific law or a public private partnership.",
+  "The listed entity must treat non-executive directors other than nominee directors as independent directors if the entity is mandated by its governing law or set up under a public private partnership model.",
+  "The listed entity must define public private partnership as a partnership between a public concessioning authority and a private special purpose vehicle concessionaire chosen by open competitive bidding or a Memorandum of Understanding.",
+  "The listed entity must use the meaning of senior management assigned under regulation 16."
+ ],
+ "example": "Meera Textiles Private Limited has listed its non-convertible securities and needs to understand how its board members are classified under the rules. The company is set up under a public private partnership model between a public authority and a private concessionaire selected through open competitive bidding. According to the regulation, the non-executive directors of Meera Textiles, excluding any nominee director, shall be treated as independent directors. To determine senior management and control, the company looks to the specific meanings assigned in the other mentioned regulations and SEBI rules without adding any outside assumptions.",
+ "terms": [
+  {
+   "term": "Body corporate",
+   "meaning": "An organization or company that has a legal identity separate from its owners."
+  },
+  {
+   "term": "Nominee director",
+   "meaning": "A director appointed on a board to represent the interests of a specific shareholder or group."
+  },
+  {
+   "term": "Concessionaire",
+   "meaning": "A person or company given the right to run a business or provide a service by the government."
+  }
+ ],
+ "watch": "Do not confuse the special rule for treating non-executive directors as independent directors with companies that do not fall under specific establishment laws or public-private partnership models.",
+ "h": "e85831302c7a",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

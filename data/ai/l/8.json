@@ -1,0 +1,28 @@
+{
+ "summary": "This regulation requires listed companies to work together with registered market intermediaries. They must give them correct and complete information as required by laws and rules. Mutual fund units listed on a stock exchange do not have to follow this rule because they follow different regulations.",
+ "points": [
+  "The listed entity must co-operate with intermediaries registered with the Board.",
+  "The listed entity must submit correct and adequate information to these intermediaries.",
+  "The listed entity must follow the timelines and procedures specified under the Act, regulations, and circulars.",
+  "Mutual funds units listed on a stock exchange are exempt from these specific requirements."
+ ],
+ "example": "Sunrise Retail Limited is a company whose shares are listed on a recognized stock exchange. The company is currently working with a credit rating agency to get its financial health evaluated. According to the rules, Sunrise Retail Limited must fully co-operate with this agency and give them correct and complete information following the proper procedures and timelines. Later, when the company also issues mutual fund units on the stock exchange, those specific mutual fund units will not follow this rule, as they follow a different set of regulations instead.",
+ "terms": [
+  {
+   "term": "Listed entity",
+   "meaning": "A company whose securities are traded on a stock exchange."
+  },
+  {
+   "term": "Intermediaries",
+   "meaning": "Registered professional organizations that help in the financial markets, such as credit rating agencies."
+  },
+  {
+   "term": "The Board",
+   "meaning": "The Securities and Exchange Board of India."
+  }
+ ],
+ "watch": "People often confuse mutual funds with regular companies, but listed mutual fund units follow different regulations.",
+ "h": "a289aa22a4d0",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

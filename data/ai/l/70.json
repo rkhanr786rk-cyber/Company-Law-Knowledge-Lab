@@ -1,0 +1,24 @@
+{
+ "summary": "This regulation explains the rules for filing periodical financial results for companies with Indian Depository Receipts. Such a company must follow the same filing, preparation, and disclosure rules as required by its home country. It also needs to follow specific rules for its Annual Report given in the regulations.",
+ "points": [
+  "Must file periodical financial results with the stock exchange.",
+  "Must follow the manner, time, and extent required by the home country listing requirements.",
+  "Must comply with preparation requirements for financial results specified in Part B of Schedule IV.",
+  "Must comply with disclosure requirements for financial results specified in Part B of Schedule IV."
+ ],
+ "example": "Apex IDR Ltd, a company with Indian Depository Receipts listed in India, prepares its periodical financial results. Instead of following new Indian timelines, it checks the rules of its home country where it is also listed. Apex IDR Ltd files these results with the Indian stock exchange in the exact manner and within the time limit required by its home country. When preparing its Annual Report and financial results, the company carefully follows all the instructions and disclosure standards listed in Part B of Schedule IV to ensure full compliance.",
+ "terms": [
+  {
+   "term": "Indian Depository Receipts",
+   "meaning": "Financial instruments that allow foreign companies to raise funds in Indian stock markets."
+  },
+  {
+   "term": "Home country",
+   "meaning": "The country where the listed entity is originally based or where its primary listing is held."
+  }
+ ],
+ "watch": "Do not assume Indian domestic financial result timelines apply; the home country rules govern the timing and manner of filing.",
+ "h": "c2a3c11325bb",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

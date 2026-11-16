@@ -1,0 +1,33 @@
+{
+ "summary": "This regulation sets corporate governance rules for listed companies regarding their subsidiaries. It covers board representation, financial reviews, transaction disclosures, and rules for selling shares or major assets of a material subsidiary. It also requires secretarial audits and compliance reports by qualified professionals.",
+ "points": [
+  "At least one independent director from the listed entity must join the board of an unlisted material subsidiary.",
+  "The audit committee of the listed entity must review the financial statements and investments of the unlisted subsidiary.",
+  "The listed entity must place the minutes of the unlisted subsidiary board meetings at its own board meetings.",
+  "The listed entity must not reduce its shareholding in a material subsidiary to fifty percent or less, or lose control, without passing a special resolution, unless exceptions like a court-approved scheme apply.",
+  "Selling or leasing more than twenty percent of the assets of a material subsidiary in a year requires a prior special resolution of shareholders, unless specific court or insolvency exemptions apply."
+ ],
+ "example": "Meera Textiles Limited is a listed company with an unlisted material subsidiary called Apex Fabrics Private Limited. To follow the rules, Meera Textiles ensures that one of its independent directors sits on the board of Apex Fabrics. When Apex Fabrics plans to sell a large factory asset, the management of Apex Fabrics reports this significant transaction to the board of Meera Textiles. Furthermore, Meera Textiles places the board meeting minutes of Apex Fabrics directly at its own board meetings for proper oversight.",
+ "terms": [
+  {
+   "term": "Independent director",
+   "meaning": "A member of the board of directors who does not have a material or pecuniary relationship with the company."
+  },
+  {
+   "term": "Material subsidiary",
+   "meaning": "A subsidiary whose turnover or net worth exceeds twenty percent of the consolidated turnover or net worth of the listed entity."
+  },
+  {
+   "term": "Special resolution",
+   "meaning": "A resolution passed by a higher majority of shareholders as required by company law."
+  },
+  {
+   "term": "Secretarial audit",
+   "meaning": "An audit conducted by a qualified company secretary to check compliance with various laws applicable to the company."
+  }
+ ],
+ "watch": "Ensure you distinguish between general subsidiaries and material subsidiaries, as strict asset and share disposal rules only apply to material subsidiaries.",
+ "h": "36d5bfa722eb",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

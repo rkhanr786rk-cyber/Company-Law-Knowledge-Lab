@@ -1,0 +1,33 @@
+{
+ "summary": "This regulation explains the rules for independent directors in certain listed entities called HVDLEs. It covers their appointment, meetings, duties, and responsibilities. It also sets rules for things like insurance and familiarisation programs.",
+ "points": [
+  "No person can be appointed as an alternate director for an independent director.",
+  "Independent directors must hold at least one meeting every financial year without management present.",
+  "Independent directors must submit a declaration that they meet independence criteria at specific times.",
+  "The company must take out Directors and Officers insurance for all independent directors.",
+  "A resigning independent director cannot become an executive or whole-time director for one year."
+ ],
+ "example": "At Zenith Securities Private Limited, a high value debt listed entity, the independent directors plan their annual meeting. They sit alone without any non-independent directors or managers to review the performance of the board chairperson and check how information flows from the management. Meanwhile, the company arranges special familiarisation programs for these directors to help them understand the industry and business model. Zenith also buys a Directors and Officers insurance policy for all its independent directors to cover risks decided by the board.",
+ "terms": [
+  {
+   "term": "Alternate director",
+   "meaning": "A person appointed to act for a director during their absence."
+  },
+  {
+   "term": "Special resolution",
+   "meaning": "A formal decision passed by shareholders with a high required majority of votes."
+  },
+  {
+   "term": "Omission or commission",
+   "meaning": "Things that a person failed to do or things that they actually did."
+  },
+  {
+   "term": "Veracity",
+   "meaning": "Truthfulness, accuracy, or correctness of information."
+  }
+ ],
+ "watch": "People often confuse alternate directors with regular independent directors, but alternate directors are strictly not allowed for independent directors in these companies.",
+ "h": "d1369c876e33",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

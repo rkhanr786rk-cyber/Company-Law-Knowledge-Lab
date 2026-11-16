@@ -1,0 +1,29 @@
+{
+ "summary": "This regulation explains the rules for companies that have listed certain non-convertible securities and want to undergo a scheme of arrangement. Such companies must get a special approval letter from the stock exchange before they go to the tribunal. They must also follow specific filing steps and share documents as required.",
+ "points": [
+  "Must file the draft scheme of arrangement with the stock exchange along with a fee to get a No-objection letter before filing with the tribunal.",
+  "Must not file any scheme of arrangement with the National Company Law Tribunal without first getting a No-objection letter from the stock exchange.",
+  "Must place the No-objection letter before the tribunal when asking for approval of the scheme.",
+  "Must file the draft scheme with the tribunal within six months from the date the stock exchange issues the No-objection letter.",
+  "Must submit specific documents to the stock exchange after the tribunal approves the scheme."
+ ],
+ "example": "Ananta Pharma Private Limited has listed its non-convertible debt securities on the stock exchange and plans to undertake a scheme of arrangement. Before approaching the National Company Law Tribunal, Ananta Pharma files its draft scheme with the stock exchange along with the required fee to obtain a No-objection letter. Once the stock exchange issues this letter, the company makes sure to file the draft scheme with the tribunal within the six-month validity period, while also presenting the No-objection letter to the tribunal as required. After the tribunal approves the scheme, Ananta Pharma submits the necessary documents to the stock exchange.",
+ "terms": [
+  {
+   "term": "Scheme of arrangement",
+   "meaning": "A court-approved plan between a company and its creditors or shareholders, such as a merger or restructuring."
+  },
+  {
+   "term": "National Company Law Tribunal",
+   "meaning": "A quasi-judicial body in India that handles corporate civil disputes and company law matters."
+  },
+  {
+   "term": "Non-convertible securities",
+   "meaning": "Debt or preference shares that cannot be converted into equity shares of the company."
+  }
+ ],
+ "watch": "Remember that getting the No-objection letter from the stock exchange is a strict prerequisite before filing any scheme with the tribunal.",
+ "h": "91cabee7b0da",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

@@ -1,0 +1,28 @@
+{
+ "summary": "This rule says a listed company must make sure any plan to change its structure, like a merger or capital reduction, does not break securities laws or stock exchange rules before taking it to a court or tribunal. However, this rule does not apply to units of mutual funds that are listed on a recognized stock exchange. It is meant to keep all corporate restructuring plans legally compliant and aligned with market rules.",
+ "points": [
+  "The listed entity must ensure any scheme of arrangement, amalgamation, merger, reconstruction, or reduction of capital does not violate securities laws.",
+  "The listed entity must ensure the scheme does not override or limit the requirements of the stock exchange.",
+  "The listed entity must check compliance before presenting the scheme to any Court or Tribunal.",
+  "Mutual funds with listed units are exempt from this specific regulation."
+ ],
+ "example": "Sunrise Motors Limited, a company whose shares are traded on the stock exchange, plans to merge with another firm to grow its business. Before taking this merger plan to the tribunal for approval, the directors of Sunrise Motors Limited must carefully check all securities laws and stock exchange requirements. They need to ensure that the merger plan does not break any market rules or limit what the stock exchange demands. By doing this, the company makes sure its restructuring plan fully respects the legal framework governing listed entities in the financial market.",
+ "terms": [
+  {
+   "term": "Scheme of arrangement",
+   "meaning": "A court-approved plan between a company and its creditors or shareholders to change its structure or finances."
+  },
+  {
+   "term": "Amalgamation",
+   "meaning": "The combining of two or more companies into a single new entity."
+  },
+  {
+   "term": "Tribunal",
+   "meaning": "An official body set up to deal with specific legal disputes and approvals, like company law matters."
+  }
+ ],
+ "watch": "People often confuse this rule as applying to mutual funds, but listed mutual fund units are actually exempt.",
+ "h": "dea3be6544ba",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

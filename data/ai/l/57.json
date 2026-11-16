@@ -1,0 +1,28 @@
+{
+ "summary": "This regulation is about telling the stock exchange when a company pays its investors. The company must send a certificate about interest, dividends, or loan repayments. This must happen within one working day after the payment becomes due.",
+ "points": [
+  "The company must submit a certificate to the stock exchange regarding the status of payments for non-convertible securities.",
+  "The certificate must cover the payment of interest, dividends, or the repayment and redemption of principal.",
+  "The certificate must be submitted within one working day of the payment becoming due.",
+  "The submission must follow the manner and format specified by the Board."
+ ],
+ "example": "Star Appliances Limited has issued non-convertible securities to raise funds from the public. According to their schedule, the interest payment for these securities becomes due on a Tuesday. Following the rules, Star Appliances Limited must submit a certificate to the stock exchange regarding the status of this interest payment. They have to do this within one working day of the payment becoming due, which means they must send the certificate by Wednesday. This certificate helps the stock exchange and the public know whether the company successfully paid its investors on time, using the exact format required by the Board.",
+ "terms": [
+  {
+   "term": "Non-convertible securities",
+   "meaning": "Investments like bonds that cannot be converted into shares of the company."
+  },
+  {
+   "term": "Redemption",
+   "meaning": "The repayment of the main amount borrowed by the company from investors."
+  },
+  {
+   "term": "Stock exchange",
+   "meaning": "An official market where company securities are bought and sold."
+  }
+ ],
+ "watch": "People often confuse the payment date with the deadline, but the one-day clock starts only after the payment becomes due.",
+ "h": "70cc6dfff7bd",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

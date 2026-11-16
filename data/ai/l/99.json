@@ -1,0 +1,28 @@
+{
+ "summary": "This regulation explains what happens if a listed company does not pay a fine given by a stock exchange. After the stock exchange gives a written notice and a set time to pay, it can take action against the company for non-payment. The provided text is very short and does not give more details about specific penalties or steps.",
+ "points": [
+  "The listed entity must pay any fine imposed on it by the recognised stock exchange.",
+  "The listed entity must pay the fine within the period specified by the stock exchange from time to time.",
+  "The listed entity must be served a notice in writing before the stock exchange takes further action.",
+  "The stock exchange may initiate action if the listed entity fails to pay the fine within the specified period."
+ ],
+ "example": "Meera Textiles Private Limited received a fine from the National Stock Exchange for a compliance delay. The stock exchange sent a written notice to Meera Textiles Private Limited giving them a specific period to pay the fine amount. Meera Textiles Private Limited failed to make the payment within the given time. Because of this failure to pay the fine after receiving the written notice, the stock exchange decided to initiate action against Meera Textiles Private Limited as permitted under the regulations.",
+ "terms": [
+  {
+   "term": "listed entity",
+   "meaning": "A company whose shares or other securities are traded on a stock exchange."
+  },
+  {
+   "term": "recognised stock exchange",
+   "meaning": "An official market where company securities are bought and sold, approved by the government."
+  },
+  {
+   "term": "fine",
+   "meaning": "An amount of money ordered to be paid as a punishment for breaking a rule."
+  }
+ ],
+ "watch": "People often confuse the original rule violation with the separate failure to pay the fine mentioned here.",
+ "h": "814dfc17a67c",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

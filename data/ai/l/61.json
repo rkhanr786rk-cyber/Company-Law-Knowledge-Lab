@@ -1,0 +1,32 @@
+{
+ "summary": "This regulation explains the rules companies must follow for paying interest, dividends, and redemption amounts on certain securities. It ensures that companies pay on time and stops them from paying dividends if they have failed to make required payments or secure their debt. It also guides how securities are selected for redemption and how they are transferred.",
+ "points": [
+  "The listed entity must make timely payments for interest, dividends, or redemption of non-convertible debt securities and non-convertible redeemable preference shares.",
+  "The listed entity must not declare or distribute dividends if it has defaulted on interest payments, redemption payments, or creating required security.",
+  "The listed entity must select securities for redemption on a pro rata basis or by lot, unless the terms of the issue state otherwise.",
+  "The listed entity must follow the transfer and transmission requirements specified in regulation 40."
+ ],
+ "example": "Asha Chemicals Limited issued non-convertible debt securities to investors. Due to poor financial management, Asha Chemicals Limited failed to pay the scheduled interest to its investors on time. Later that month, the directors of Asha Chemicals Limited wanted to declare and distribute a dividend to their shareholders. Because the company defaulted on its debt interest payments, the regulation states that Asha Chemicals Limited must not declare or distribute this dividend. Meanwhile, when the time came to redeem some of its listed securities, Asha Chemicals Limited selected them by lot, as the original terms of the issue did not provide another method.",
+ "terms": [
+  {
+   "term": "redemption payment",
+   "meaning": "The repayment of the principal amount borrowed through the securities."
+  },
+  {
+   "term": "defaulted",
+   "meaning": "Failed to fulfill a financial obligation, such as missing a required payment."
+  },
+  {
+   "term": "pro rata basis",
+   "meaning": "Proportional distribution based on the size of each holding."
+  },
+  {
+   "term": "transmission",
+   "meaning": "The transfer of securities by operation of law, such as due to death or bankruptcy."
+  }
+ ],
+ "watch": "Do not confuse missing an interest payment with having permission to declare a dividend.",
+ "h": "a549011ebcc5",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

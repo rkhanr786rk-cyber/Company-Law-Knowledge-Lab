@@ -1,0 +1,28 @@
+{
+ "summary": "This regulation gives the meanings of four special terms used in Chapter VII of the rules for companies that have listed their Indian Depository Receipts. These definitions explain who the holders are, what agreements are involved, and what home country means. It does not list any duties or actions for companies to perform.",
+ "points": [
+  "Read the definitions of IDR Holder, Depository Agreement, Home Country, and Security holder as provided in the chapter.",
+  "Apply these specific definitions when reading and following the rules in Chapter VII.",
+  "Understand that IDR Holder means a holder of Indian Depository Receipts.",
+  "Recognize that Depository Agreement means the agreement between the listed entity and the domestic depository."
+ ],
+ "example": "Sunrise Global Limited, a company incorporated in another country, decided to list its Indian Depository Receipts on a stock exchange in India. To understand the rules in Chapter VII of the SEBI regulations, the management team reviewed Regulation 66 to be sure of the terms used. They noted that an IDR Holder refers to a person holding their Indian Depository Receipts, while a Security holder means a person holding equity shares in their home country. They also checked the Depository Agreement they signed with the domestic depository. This helped them correctly identify who each term applied to before reviewing the rest of the obligations.",
+ "terms": [
+  {
+   "term": "Indian Depository Receipts",
+   "meaning": "Financial instruments that allow foreign companies to raise funds in the Indian market."
+  },
+  {
+   "term": "Domestic Depository",
+   "meaning": "An institution in India that holds the shares and issues the depository receipts."
+  },
+  {
+   "term": "Incorporated",
+   "meaning": "Legally formed as a company."
+  }
+ ],
+ "watch": "Do not treat these definitions as active duties, because this regulation only explains words and does not create tasks.",
+ "h": "eb10f1adca16",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

@@ -1,0 +1,32 @@
+{
+ "summary": "This rule tells companies that issue Indian Depository Receipts to follow the corporate governance rules of their home country and other places where their shares are listed. They must also give the stock exchange a comparison of those rules against the rules that regular listed companies must follow in India. This helps keep track of how the company manages its business across different regions.",
+ "points": [
+  "Must follow the corporate governance rules of its home country.",
+  "Must follow the corporate governance rules of other jurisdictions where its equity shares are listed.",
+  "Must submit a comparative analysis of these corporate governance provisions to the stock exchange.",
+  "Must include in the comparison how its rules align with the requirements under regulation 17 to regulation 27 for other listed entities."
+ ],
+ "example": "Alpha IDR Limited is a company whose Indian Depository Receipts are listed in India, while its equity shares are listed in another country. To follow the rules, Alpha IDR Limited checks the corporate governance laws of its home country and the foreign country where its shares trade. It then prepares a document comparing those foreign rules with the Indian rules found in regulations 17 through 27. Finally, Alpha IDR Limited submits this detailed comparative analysis directly to the stock exchange as required.",
+ "terms": [
+  {
+   "term": "corporate governance",
+   "meaning": "The system of rules and practices by which a company is directed and controlled."
+  },
+  {
+   "term": "home country",
+   "meaning": "The country where the company is originally based or incorporated."
+  },
+  {
+   "term": "jurisdictions",
+   "meaning": "The official geographical areas or countries where specific laws apply."
+  },
+  {
+   "term": "stock exchange",
+   "meaning": "A marketplace where shares and other securities are bought and sold."
+  }
+ ],
+ "watch": "Do not forget that this rule applies specifically to companies with listed Indian Depository Receipts, not to every ordinary company.",
+ "h": "ca8ccb704448",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

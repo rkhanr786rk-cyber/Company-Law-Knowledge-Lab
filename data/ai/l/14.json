@@ -1,0 +1,22 @@
+{
+ "summary": "This regulation requires a listed company to pay all required fees and charges to the stock exchanges where its securities are listed. The payments must be made in the specific way decided by the Board or the stock exchange. It applies to companies that have listed certain types of securities like shares or debt.",
+ "points": [
+  "Must pay all applicable fees and charges to the recognized stock exchange",
+  "Must follow the manner specified by the Board or the stock exchange for paying fees"
+ ],
+ "example": "Zenith Gears Limited is a company whose shares are traded on the National Stock Exchange. According to the rules, Zenith Gears Limited must pay all required fees and charges to the recognized stock exchange. The company has to make sure it pays these amounts in the exact manner that the Board or the recognized stock exchange specifies, without missing any instructions.",
+ "terms": [
+  {
+   "term": "Listed entity",
+   "meaning": "A company that has its shares or other securities traded on a stock exchange."
+  },
+  {
+   "term": "Recognized stock exchange",
+   "meaning": "An official market where securities are bought and sold."
+  }
+ ],
+ "watch": "Do not assume any specific payment deadlines or fee amounts because the text does not mention them.",
+ "h": "a479967d8f78",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

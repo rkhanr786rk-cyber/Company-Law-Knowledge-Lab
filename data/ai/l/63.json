@@ -1,0 +1,30 @@
+{
+ "summary": "This rule tells companies that list both specified securities and non-convertible securities on a stock exchange which extra rules they must follow. They must follow all of Chapter IV and certain specific regulations from Chapter V. Companies do not have to give the stock exchange the exact same information twice if they already shared it under Chapter IV.",
+ "points": [
+  "Must follow the provisions of Chapter IV if the entity has listed its specified securities and non-convertible securities on a recognised stock exchange.",
+  "Must additionally comply with regulation 50 in Chapter V.",
+  "Must additionally comply with regulation 51 in Chapter V.",
+  "Must additionally comply with specific parts of regulation 52 in Chapter V, namely sub-regulations (3), (4), (6) and (7).",
+  "Must additionally comply with regulations 53 to 62 in Chapter V.",
+  "Must not separately satisfy the same conditions under this chapter if they already met those obligations in compliance with other chapters."
+ ],
+ "example": "Rohit Steels Limited has listed both its specified securities and non-convertible securities on a recognised stock exchange. Because of this, Rohit Steels Limited is bound by the rules in Chapter IV. Additionally, the company must follow specific regulations in Chapter V, such as regulations 50, 51, and regulations 53 through 62. Last week, Rohit Steels Limited submitted specific financial information to the stock exchange to meet its Chapter IV duties. Thanks to the rules, the company does not need to submit that exact same information a second time under this chapter. Later, Rohit Steels Limited satisfies an obligation under a different chapter, so it does not have to fulfill that exact same condition again under this chapter.",
+ "terms": [
+  {
+   "term": "specified securities",
+   "meaning": "Types of investments or shares issued by a company as defined in the regulations."
+  },
+  {
+   "term": "non-convertible securities",
+   "meaning": "Financial instruments that cannot be converted into equity shares."
+  },
+  {
+   "term": "recognised stock exchange",
+   "meaning": "An official market where company securities are bought and sold."
+  }
+ ],
+ "watch": "Companies often worry they must submit the exact same information twice, but the rule states you do not need to re-submit information already provided under Chapter IV.",
+ "h": "2399e151c241",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

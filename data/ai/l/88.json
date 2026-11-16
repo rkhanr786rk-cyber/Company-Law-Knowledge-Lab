@@ -1,0 +1,27 @@
+{
+ "summary": "This regulation explains who must follow the special rules for listed mutual funds. The asset management company must follow these rules if the mutual fund units are traded on a stock exchange. Other rules from an older set of regulations also continue to apply.",
+ "points": [
+  "The asset management company must apply the rules of this chapter when it manages a mutual fund scheme with units listed on a recognised stock exchange.",
+  "The listed entity must follow the Securities and Exchange Board of India (Mutual Funds) Regulations, 1996.",
+  "The listed entity must follow all directions issued under the Securities and Exchange Board of India (Mutual Funds) Regulations, 1996."
+ ],
+ "example": "Sunshine Asset Management Company manages the Sunshine Liquid Mutual Fund. The fund decides to offer its units to the public, and these units get listed on a recognised stock exchange. Because Sunshine Asset Management Company is now managing a mutual fund scheme with listed units, it must follow the rules set out in this chapter. At the same time, the company must also keep following the older Securities and Exchange Board of India (Mutual Funds) Regulations, 1996, and any directions issued under them, because these laws continue to apply alongside the new chapter without any contradiction.",
+ "terms": [
+  {
+   "term": "asset management company",
+   "meaning": "a company that runs and manages a mutual fund scheme for investors"
+  },
+  {
+   "term": "recognised stock exchange",
+   "meaning": "an official and approved marketplace where shares or units are bought and sold"
+  },
+  {
+   "term": "listed entity",
+   "meaning": "a company or scheme whose units or shares are traded on a stock exchange"
+  }
+ ],
+ "watch": "People often think that these new rules replace older mutual fund regulations, but both sets of rules apply together.",
+ "h": "96bcbbbffc82",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

@@ -1,0 +1,30 @@
+{
+ "summary": "This regulation explains the rules for sending an annual report to the stock exchange when a company has listed Indian Depository Receipts. The listed company must submit this report at the same time it gives the report to security holders in its home country or other jurisdictions. The report must include specific financial and management documents.",
+ "points": [
+  "Must submit an annual report to the stock exchange at the same time it is disclosed to security holders in its home country or other jurisdictions.",
+  "Must include the report of the board of directors in the annual report.",
+  "Must include the balance sheet and the profit and loss account.",
+  "Must include the auditor's report and any applicable periodical or special reports.",
+  "Must include any other report required to be sent to security holders annually.",
+  "Must follow the requirements for preparing and disclosing financial results specified in Part B of Schedule IV."
+ ],
+ "example": "Sunrise IDR Corporation has issued Indian Depository Receipts that are traded on an Indian stock exchange. According to the rules, the company must prepare its yearly papers. When Sunrise IDR Corporation shares its annual report with the security holders in its home country, it must send that exact same report to the stock exchange at that very same time. This annual report contains the balance sheet, the profit and loss account, the board of directors report, the auditor's report, and any other special reports meant for the security holders every year. The company makes sure all financial results follow the required schedule guidelines.",
+ "terms": [
+  {
+   "term": "Listed entity",
+   "meaning": "A company that has its securities listed on a stock exchange."
+  },
+  {
+   "term": "Annual report",
+   "meaning": "A yearly document containing financial and business information about the company."
+  },
+  {
+   "term": "Balance Sheet",
+   "meaning": "A financial statement showing a company's assets, liabilities, and equity at a specific point in time."
+  }
+ ],
+ "watch": "Do not send the report to the stock exchange at a different time than when it goes to security holders in the home country.",
+ "h": "90e32d51320a",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

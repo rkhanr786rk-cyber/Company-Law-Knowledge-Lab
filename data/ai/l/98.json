@@ -1,0 +1,33 @@
+{
+ "summary": "This regulation explains the actions that stock exchanges can take if a listed company or its people break these rules. These actions happen in addition to other securities law liabilities. The Board issues separate guidelines on how these actions work and how they can be undone.",
+ "points": [
+  "The listed entity or any other person thereof must not contravene any provisions of these regulations.",
+  "The listed entity or its person shall be liable for actions by the respective stock exchange(s) if they break the rules.",
+  "The stock exchange may impose fines for contravention.",
+  "The stock exchange may suspend trading of securities.",
+  "The stock exchange may freeze the promoter or promoter group holding of designated securities in coordination with depositories."
+ ],
+ "example": "Meera Textiles Private Limited is a company whose shares are listed on a stock exchange. Recently, the company broke some of the listing regulations. Because of this rule-breaking, the stock exchange decided to take action as per the guidelines issued by the Board. The stock exchange imposed a fine on Meera Textiles Private Limited and also suspended the trading of its shares. Additionally, the exchange froze the share holdings of the company's promoters in coordination with depositories. Later, when the company wanted to undo these actions, it followed the specific manner of revocation specified in circulars or guidelines issued by the Board.",
+ "terms": [
+  {
+   "term": "listed entity",
+   "meaning": "a company whose securities are traded on a stock exchange."
+  },
+  {
+   "term": "contravenes",
+   "meaning": "breaks a law, rule, or regulation."
+  },
+  {
+   "term": "promoter",
+   "meaning": "a person or group who helps start or run the company and holds large shares."
+  },
+  {
+   "term": "depositories",
+   "meaning": "organizations that hold securities safely in electronic form."
+  }
+ ],
+ "watch": "People often confuse the actions taken by the stock exchange with actions taken directly under general securities laws, but this regulation specifically covers actions by the respective stock exchange.",
+ "h": "e6603c48bffc",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

@@ -1,0 +1,34 @@
+{
+ "summary": "This regulation requires companies with listed non-convertible securities to prepare, submit, and publish their financial results within set deadlines. They must include specific reports, ratios, and statements along with their results. These rules ensure that investors and stock exchanges receive timely and transparent financial information.",
+ "points": [
+  "Must prepare and submit quarterly standalone financial results to the stock exchange within forty-five days from the end of the quarter, except for the last quarter.",
+  "Must submit the last quarter financial results within sixty days from the end of the financial year.",
+  "Must have quarterly un-audited financial results accompanied by a limited review report prepared by statutory auditors.",
+  "Must have the quarterly financial results approved by the board of directors and signed by an authorized person.",
+  "Must submit a statement of assets and liabilities and cash flows at the end of every half year.",
+  "Must publish the financial results in at least one English national daily newspaper within two working days of the board meeting."
+ ],
+ "example": "Meera Textiles Private Limited has listed its non-convertible debt securities on a recognized stock exchange. At the end of the quarter, the company prepares its un-audited standalone financial results. The board of directors reviews and approves these results. The statutory auditors then attach a limited review report. Within forty-five days from the end of the quarter, Meera Textiles submits these financial results to the stock exchange. Additionally, the company provides a copy of the results to the Debenture Trustees on the same day and publishes the financial results in an English national daily newspaper within two working days after its board meeting.",
+ "terms": [
+  {
+   "term": "Standalone financial results",
+   "meaning": "Financial statements showing the performance of a single company by itself, without including its subsidiaries."
+  },
+  {
+   "term": "Statutory auditors",
+   "meaning": "Independent accountants officially appointed to check a company's financial records and accounts."
+  },
+  {
+   "term": "Limited review report",
+   "meaning": "A report issued by an auditor after performing a basic review of a company's interim financial statements."
+  },
+  {
+   "term": "Debenture Trustees",
+   "meaning": "Entities appointed to protect the interests of people who invest in a company's debt securities."
+  }
+ ],
+ "watch": "Make sure not to confuse the shorter submission deadline for regular quarters with the longer sixty-day deadline for the final quarter of the financial year.",
+ "h": "b32546edb864",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

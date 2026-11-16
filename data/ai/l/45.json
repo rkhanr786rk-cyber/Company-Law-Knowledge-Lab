@@ -1,0 +1,29 @@
+{
+ "summary": "This regulation explains the rules a listed company must follow when it wants to change its name. It sets clear conditions based on time, revenue, or investment before a name change is allowed. Companies must also file for name availability and include a chartered accountant's certificate when asking shareholders for approval.",
+ "points": [
+  "Must wait at least one year from the last name change before changing the name again",
+  "Must ensure at least fifty percent of total revenue in the past year comes from the new activity shown by the new name, or invest at least fifty percent of its assets in the new activity",
+  "Must change its name within six months if it changes its activities but does not reflect them in its name",
+  "Must file an application for name availability with the Registrar of Companies once conditions are met",
+  "Must include a certificate from a practicing chartered accountant in the notice to shareholders seeking approval for the name change"
+ ],
+ "example": "Meera Textiles Private Limited wanted to change its name to Meera Tech Solutions Limited after shifting its main business. Before doing this, the company checked that one full year had passed since its previous name change. Furthermore, the company ensured that at least fifty percent of its total revenue in the preceding year came from its new technology activities. Having met these rules, the company applied for name availability with the Registrar of Companies. When asking its shareholders to vote on the new name, Meera Textiles included a special certificate from a practicing chartered accountant confirming that all the required conditions under the regulations had been properly met.",
+ "terms": [
+  {
+   "term": "listed entity",
+   "meaning": "A company whose shares or other securities are traded on a stock exchange."
+  },
+  {
+   "term": "assets",
+   "meaning": "The total value of things owned and held by a company, such as property, investments, and cash."
+  },
+  {
+   "term": "Registrar of Companies",
+   "meaning": "An office where companies are officially registered under the law."
+  }
+ ],
+ "watch": "People often confuse the revenue condition with the asset condition, but a company only needs to meet either fifty percent revenue or fifty percent asset investment, not necessarily both.",
+ "h": "f5676e31055d",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

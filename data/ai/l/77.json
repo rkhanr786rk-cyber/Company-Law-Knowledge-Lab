@@ -1,0 +1,33 @@
+{
+ "summary": "This regulation explains the rules for the structure of Indian Depository Receipts issued by a company. It ensures that the shares backing these receipts are equal to other shares of the same class. It also sets strict rules about when the company can hold onto or block these shares.",
+ "points": [
+  "The listed entity must ensure that the underlying shares of IDRs rank equally with existing shares of the same class.",
+  "The listed entity must disclose in its annual report if there are different classes of shares based on different criteria.",
+  "The listed entity must not exercise a lien on fully paid underlying shares.",
+  "The listed entity must not exercise a lien on partly paid underlying shares except for moneys called or payable at a fixed time.",
+  "The listed entity may stipulate that amounts paid in advance of calls on underlying shares carry interest, subject to home country laws."
+ ],
+ "example": "Sunrise Global Limited issued Indian Depository Receipts to investors in India, backed by its shares. Rahul, an investor holding these IDRs, wondered if his underlying shares were equal to the regular shares held by other owners in the home country. Sunrise Global Limited confirmed in its annual report that all shares of this class rank equally. Later, Sunrise Global Limited tried to place a financial block, known as a lien, on fully paid underlying shares because of a dispute. The rules state this is not allowed for fully paid shares. The company followed the correct path and did not exercise any illegal lien on those fully paid shares, keeping the process fair for Rahul and other IDR holders.",
+ "terms": [
+  {
+   "term": "Indian Depository Receipts (IDRs)",
+   "meaning": "An instrument in the form of a depository receipt created by a foreign company in India."
+  },
+  {
+   "term": "Pari-passu",
+   "meaning": "Ranking equally without any preference or priority."
+  },
+  {
+   "term": "Lien",
+   "meaning": "A right to keep possession of property belonging to another person until a debt is paid."
+  },
+  {
+   "term": "Underlying shares",
+   "meaning": "The actual shares of the company that back the depository receipts."
+  }
+ ],
+ "watch": "Do not confuse fully paid shares with partly paid shares when it comes to the company's right to place a lien on them.",
+ "h": "e1395bad3fac",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

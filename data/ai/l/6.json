@@ -1,0 +1,30 @@
+{
+ "summary": "This regulation explains the rules for appointing a compliance officer in a listed company. The compliance officer must be a qualified company secretary working full-time and reporting closely to the top board. They are responsible for making sure the company follows all rules, files correct reports, and handles investor complaints properly. Mutual funds listed on stock exchanges do not have to follow this specific regulation.",
+ "points": [
+  "Must appoint a qualified company secretary as a full-time compliance officer who is not more than one level below the board of directors.",
+  "Must designate the compliance officer as a Key Managerial Personnel.",
+  "Must fill any vacancy in the compliance officer role at the earliest and within three months.",
+  "Must ensure correct procedures are followed for the correctness and authenticity of information filed.",
+  "Must monitor the designated email address of the grievance redressal division for investor complaints.",
+  "Must not fill a vacancy with an interim person unless appointed under applicable laws for fresh appointments."
+ ],
+ "example": "At Zenith Pharma Limited, a company whose shares are traded on the stock exchange, the board needed to appoint a new compliance officer. They chose Mr. Roy, a qualified company secretary who works full-time for the company and sits just one level below the board of directors. Mr. Roy was officially named a Key Managerial Personnel. His daily duties now include making sure Zenith Pharma follows all legal rules, filing accurate reports with the stock exchange, coordinating with authorities, and checking the designated email inbox where investors send their complaints. Through his work, Zenith Pharma ensures that every statement filed under the regulations is correct and complete in both letter and spirit.",
+ "terms": [
+  {
+   "term": "Listed entity",
+   "meaning": "A company whose securities or shares are listed and traded on a stock exchange."
+  },
+  {
+   "term": "Key Managerial Personnel",
+   "meaning": "A top-level officer designated with key leadership and management responsibilities in the company."
+  },
+  {
+   "term": "Depositories",
+   "meaning": "Organizations that hold securities in electronic form for investors."
+  }
+ ],
+ "watch": "People often confuse mutual funds with regular listed companies, but mutual funds follow a different set of regulations for this role.",
+ "h": "4a1a6d600567",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

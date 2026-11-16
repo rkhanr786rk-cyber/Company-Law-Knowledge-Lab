@@ -1,0 +1,34 @@
+{
+ "summary": "This regulation explains what documents and information a company with listed non-convertible securities must share with its debenture trustee. The company must send these items quickly, usually within twenty-four hours of an event or getting information. It also covers sharing annual reports, notices, ratings, and giving access to account books.",
+ "points": [
+  "Must forward documents and information to the debenture trustee within twenty-four hours of the event or receipt of information unless stated otherwise.",
+  "Must send a copy of the annual report and an auditor's certificate regarding fund utilisation.",
+  "Must share copies of all notices, resolutions, and circulars for new issues or meetings at the same time they go to security holders.",
+  "Must send intimations about rating revisions, payment defaults, failure to create asset charges, and issue covenants.",
+  "Must forward any information sought by the debenture trustee and provide access to relevant books of accounts.",
+  "May send the required information in electronic form or by fax if the debenture trustee agrees."
+ ],
+ "example": "Zenith Steel Private Limited issued non-convertible debt securities to raise funds for a new factory project. Recently, the credit rating agency revised the credit rating of these securities. Within twenty-four hours of receiving this news, Zenith Steel Private Limited forwarded an intimation regarding the rating revision to the debenture trustee. Later, the debenture trustee requested access to the company books of accounts to check project details. Zenith Steel Private Limited promptly provided the required access and shared the information sought as per the rules.",
+ "terms": [
+  {
+   "term": "Debenture Trustee",
+   "meaning": "A person or entity that protects the interests of people who invest in a company's debentures."
+  },
+  {
+   "term": "Non-Convertible Securities",
+   "meaning": "Investments like bonds that cannot be converted into equity shares of the company."
+  },
+  {
+   "term": "Covenants",
+   "meaning": "Promises or agreements written into the debt contract that the company must follow."
+  },
+  {
+   "term": "Charge",
+   "meaning": "A right created over the assets of a company as security for a loan or debt."
+  }
+ ],
+ "watch": "Companies must remember to send documents to the debenture trustee at the same time as other recipients, such as shareholders or stock exchanges, as specified in the rules.",
+ "h": "4e89115c28f5",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

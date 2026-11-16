@@ -1,0 +1,30 @@
+{
+ "summary": "This regulation explains the rules a listed company must follow when it wants to remove certain non-convertible debt securities or preference shares from a stock exchange. The company must apply for approval, share specific details with the public and investors, and collect investor votes. If the required approvals and no-objection letters are received, the company can make a final application to complete the delisting.",
+ "points": [
+  "The listed entity must apply for in-principle approval from the stock exchange within fifteen working days of its board resolution or other regulatory approval.",
+  "The listed entity must start the approval process from security holders within three working days of getting the exchange's in-principle approval.",
+  "The listed entity must publish specific delisting information on its website and to the stock exchanges within two working days of receiving in-principle approval.",
+  "The listed entity must send a delisting notice containing e-voting options to holders within three working days of receiving in-principle approval.",
+  "The listed entity must obtain approval from all security holders and a No-Objection Letter from the debenture trustee.",
+  "The listed entity must submit the final delisting application to the stock exchange within five working days of getting the security holders' approval."
+ ],
+ "example": "Meera Textiles Private Limited decided to remove its non-convertible debt securities from the National Stock Exchange. Within fifteen working days after its board passed a resolution, Meera Textiles submitted an application for in-principle approval to the stock exchange. After receiving the approval, the company published all required details on its website and sent a delisting notice with e-voting options to all security holders within three working days. Meera Textiles successfully gathered approval from all the holders and obtained a No-Objection Letter from the debenture trustee. Finally, within five working days of gaining this holder approval, Meera Textiles submitted its final application to the stock exchange to complete the delisting.",
+ "terms": [
+  {
+   "term": "Delisting",
+   "meaning": "Removing a company's securities from being traded on a stock exchange."
+  },
+  {
+   "term": "In-principle approval",
+   "meaning": "A preliminary agreement or consent given by a stock exchange before the final process is completed."
+  },
+  {
+   "term": "Debenture trustee",
+   "meaning": "A person or entity appointed to protect the interests of holders of non-convertible debt securities."
+  }
+ ],
+ "watch": "Ensure you count working days correctly, as deadlines in the regulations depend strictly on working days rather than calendar days.",
+ "h": "fad1017c949b",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

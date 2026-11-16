@@ -1,0 +1,33 @@
+{
+ "summary": "This schedule explains the corporate governance rules for listed companies, detailing the important information that must be given to the board of directors. It also sets out the rules for compliance certificates signed by top executives and the duties of the audit committee. These rules help make sure company finances and operations are properly checked and shared.",
+ "points": [
+  "The listed entity must place annual operating plans, budgets, and quarterly results before the board of directors.",
+  "The chief executive officer and chief financial officer must sign a compliance certificate reviewing the financial statements.",
+  "The audit committee must review annual and quarterly financial statements before submitting them to the board.",
+  "The audit committee must review and approve related party transactions and look into payment defaults.",
+  "The listed entity must report serious accidents, legal notices, and labor problems to the board."
+ ],
+ "example": "At Meera Textiles Private Limited, a company whose shares are traded on a stock exchange, the board of directors needs to review the quarterly financial results. Before the board meets, the audit committee carefully checks these quarterly statements with the management to ensure they are correct. Meanwhile, the Chief Executive Officer and the Chief Financial Officer sign a special compliance certificate confirming that the financial statements do not contain any untrue statements and that they take responsibility for maintaining proper internal controls. If any serious accidents happen at the factory or if any important legal notices arrive, the company must place those details before the board of directors as well.",
+ "terms": [
+  {
+   "term": "Listed entity",
+   "meaning": "A company whose shares or other securities are traded on a stock exchange."
+  },
+  {
+   "term": "Audit committee",
+   "meaning": "A group of board members that watches over the financial reporting process and checks accounts."
+  },
+  {
+   "term": "Internal controls",
+   "meaning": "Rules and procedures put in place by a company to make sure its financial reporting is honest and accurate."
+  },
+  {
+   "term": "Statutory auditors",
+   "meaning": "Independent accountants hired to check a company's financial books and records."
+  }
+ ],
+ "watch": "People often confuse the role of the board of directors, which receives general business updates, with the audit committee, which specifically checks financial reports and internal controls.",
+ "h": "bd672c3639d8",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

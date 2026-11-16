@@ -1,0 +1,26 @@
+{
+ "summary": "The provided text is extremely short and only states a basic duty. It says that recognized stock exchanges must help solve complaints from people who hold listed securities. No other rules, time limits, or penalties are mentioned in the text.",
+ "points": [
+  "The recognized stock exchange must redress complaints of holders of listed securities.",
+  "The stock exchange must facilitate the redressal of complaints from time to time."
+ ],
+ "example": "Anisha invested her savings in shares of a company listed on the National Stock Exchange. When she did not receive her dividend update, she reached out for help. According to the regulations, the recognized stock exchange must redress or facilitate the redressal of complaints from holders of listed securities like Anisha. The exchange looked into her issue to help solve her problem from time to time, ensuring her grievance as a security holder was properly addressed through their established procedures.",
+ "terms": [
+  {
+   "term": "recognized stock exchange",
+   "meaning": "An official marketplace where shares and securities are bought and sold, approved by the government or regulator."
+  },
+  {
+   "term": "listed securities",
+   "meaning": "Shares or other financial instruments of a company that are officially traded on a stock exchange."
+  },
+  {
+   "term": "redress",
+   "meaning": "To fix a wrong or solve a complaint."
+  }
+ ],
+ "watch": "People often confuse this rule as applying to the listed company itself, but this specific text is about the duties of the stock exchange.",
+ "h": "94dc4e2afc4a",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

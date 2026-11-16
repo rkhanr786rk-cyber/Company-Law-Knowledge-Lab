@@ -1,0 +1,30 @@
+{
+ "summary": "This regulation explains what a company with listed non-convertible securities must include in its annual report. It also states where and when the company must send, give, or publish this annual report and its updates. The rules ensure that investors and authorities get complete financial and general information.",
+ "points": [
+  "The listed entity must include disclosures required by the Companies Act, 2013 or its governing statute in its annual report.",
+  "The annual report must contain audited financial statements, the cash flow statement using only the indirect method, the auditors report, and the directors report.",
+  "The annual report must also include the name and full contact details of the debenture trustees and related party disclosures.",
+  "The listed entity must submit the annual report to the stock exchange and debenture trustee, and publish it on its website.",
+  "The entity must submit and publish the annual report on or before the date it is sent to shareholders or submitted to the government.",
+  "If the annual report changes, the entity must provide the revised copy with explanations within 48 hours after the annual general meeting or before sending it to shareholders or governments."
+ ],
+ "example": "Anisha Steels Limited has issued non-convertible securities to the public. As per the rules, the company prepares its annual report for the year. This report includes audited balance sheets, the directors report, and the cash flow statement prepared using the indirect method. It also lists the name and contact details of the debenture trustees and contains related party disclosures. Anisha Steels Limited then publishes this annual report on its website and sends copies to the stock exchange and the debenture trustee on the exact day it dispatches the report to its shareholders. Later, a small change is made to the report, and the company submits the revised copy with explanations within the required timeframe.",
+ "terms": [
+  {
+   "term": "Audited financial statements",
+   "meaning": "Official financial records like balance sheets and profit and loss accounts that have been checked and verified by an independent accountant."
+  },
+  {
+   "term": "Debenture trustees",
+   "meaning": "People or organizations appointed to protect the interests of investors who hold debentures or non-convertible securities."
+  },
+  {
+   "term": "Related party disclosures",
+   "meaning": "Information about business dealings between the company and people or other companies closely connected to it."
+  }
+ ],
+ "watch": "People often confuse the indirect method of cash flow with the direct method, but only the indirect method is allowed here.",
+ "h": "f59a9e2274cb",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

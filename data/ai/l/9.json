@@ -1,0 +1,29 @@
+{
+ "summary": "Companies whose shares are traded on a stock exchange must create a clear rulebook for keeping their important papers safe. The board of directors, which is the group of top leaders who run the company, must approve this rulebook. The rulebook must split the company papers into at least two groups based on how long they need to be kept.",
+ "points": [
+  "The listed company must have a board-approved policy for keeping documents.",
+  "The company must classify its documents into at least two categories.",
+  "The company must keep certain documents permanently.",
+  "The company must keep other documents for at least eight years after the relevant transactions are finished.",
+  "The company may choose to keep both types of documents in electronic format."
+ ],
+ "example": "Alpha Clothing Limited is a company whose shares are listed on the stock exchange. To follow the rules, the board of directors meets and approves a new policy for keeping documents. According to this policy, some very important company deeds must be kept permanently. Other routine transaction records must be safely stored for not less than eight years after the work is fully completed. To save physical space, the directors decide that all these permanent and eight-year records will be kept safely in electronic mode on secure computers.",
+ "terms": [
+  {
+   "term": "listed entity",
+   "meaning": "a company whose shares or other securities are traded on a stock exchange"
+  },
+  {
+   "term": "board of directors",
+   "meaning": "the group of top leaders elected to run and manage the company"
+  },
+  {
+   "term": "electronic mode",
+   "meaning": "digital format saved on computers or electronic storage instead of paper"
+  }
+ ],
+ "watch": "Do not assume that all documents have the exact same storage period since the rule sets up at least two distinct categories.",
+ "h": "4f78fcfa98ca",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

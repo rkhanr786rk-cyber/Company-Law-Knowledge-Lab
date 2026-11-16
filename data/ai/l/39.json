@@ -1,0 +1,29 @@
+{
+ "summary": "This regulation explains what a listed company must do when dealing with securities certificates, allotments, and investor requests. It covers rules for replacing, splitting, or consolidating shares, as well as handling unclaimed shares. Companies must also follow specific electronic holding formats for these actions.",
+ "points": [
+  "The listed entity must follow Rule 19(3) of the Securities Contract Rules for letters, allotments, transfers, and duplicates.",
+  "The listed entity must credit securities in dematerialised form within thirty days of receiving a valid request and documents for subdivision, split, consolidation, renewal, exchange, or duplicate issuance.",
+  "The listed entity must issue securities from any Scheme of Arrangement, sub-division, split, or consolidation only in dematerialised form.",
+  "The listed entity must open a separate demat account for investors who do not have a demat account when issuing such securities.",
+  "The listed entity must follow the procedural requirements in Schedule VI when dealing with unclaimed or escrow account securities."
+ ],
+ "example": "Meera Textiles Private Limited received a request from an investor to split their old, worn-out share certificates into smaller units, along with all the necessary documents. Following the rules, Meera Textiles Private Limited processed the request and credited the new securities into the investor's electronic account within thirty days from the date they received the request. Later, when the company went through a Scheme of Arrangement, it issued new securities strictly in electronic form. For a few investors who did not have an electronic account yet, Meera Textiles Private Limited opened a separate electronic account to hold those specific securities safely until the investors claimed them according to the standard procedures.",
+ "terms": [
+  {
+   "term": "dematerialised form",
+   "meaning": "Holding securities in electronic format rather than as physical paper certificates."
+  },
+  {
+   "term": "escrow account",
+   "meaning": "A temporary holding account where assets are kept safe until certain conditions are met."
+  },
+  {
+   "term": "Scheme of Arrangement",
+   "meaning": "A court-approved agreement between a company and its creditors or shareholders."
+  }
+ ],
+ "watch": "Make sure not to confuse physical certificate issuance with the mandatory electronic dematerialised form required for splits and schemes.",
+ "h": "6afe18ac1200",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

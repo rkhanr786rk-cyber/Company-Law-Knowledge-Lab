@@ -1,0 +1,32 @@
+{
+ "summary": "This rule tells companies that issue Indian Depository Receipts, which are a type of foreign security, what they must publish in newspapers. They need to share their financial results and notices meant for their investors. This information must appear in both English and Hindi national newspapers in India.",
+ "points": [
+  "Must publish periodical financial results in the newspaper",
+  "Must publish notices given to IDR holders by advertisement in the newspaper",
+  "Must issue this information in at least one English national daily newspaper circulating in the whole or substantially the whole of India",
+  "Must issue this information in at least one Hindi national daily newspaper in India"
+ ],
+ "example": "Alpha Global Corporation has issued Indian Depository Receipts in India. When the company finishes its periodical financial results, it must share them with the public. To follow the rules, Alpha Global Corporation publishes its financial results and a notice for its IDR holders in an English national daily newspaper that circulates across India. It also publishes the exact same information in a Hindi national daily newspaper in India, ensuring that all required newspaper advertising duties are properly met.",
+ "terms": [
+  {
+   "term": "Listed entity",
+   "meaning": "A company whose securities are traded on a stock exchange."
+  },
+  {
+   "term": "Periodical financial results",
+   "meaning": "Regular reports showing how much money the company made or lost over a specific time."
+  },
+  {
+   "term": "IDR Holder",
+   "meaning": "A person who owns Indian Depository Receipts, which are instruments representing shares of a foreign company."
+  },
+  {
+   "term": "National daily newspaper",
+   "meaning": "A newspaper published every day that is available across the country."
+  }
+ ],
+ "watch": "People often confuse local newspapers with national daily newspapers, but this rule specifically requires national newspapers in English and Hindi.",
+ "h": "2dec77183d75",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

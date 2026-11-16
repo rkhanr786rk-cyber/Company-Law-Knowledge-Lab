@@ -1,0 +1,34 @@
+{
+ "summary": "This regulation explains the rules for companies that have listed their securitized debt instruments. It covers approvals needed for changing the debt structure, making timely payments, keeping credit support active, handling unclaimed money, choosing instruments for redemption fairly, and staying listed until maturity.",
+ "points": [
+  "Must not make major changes to the debt structure without approval from trustees and stock exchanges.",
+  "Must pay interest and redemption amounts on time.",
+  "Must keep credit enhancement available at all times if it was provided.",
+  "Must not forfeit unclaimed interest and principal, and must transfer them to a specific fund after seven years.",
+  "Must select instruments for redemption on a pro rata basis or by lot unless terms say otherwise, and promptly submit details to the stock exchange.",
+  "Must remain listed until maturity, redemption, or proper delisting."
+ ],
+ "example": "Asha Securitized Debt Limited issued debt instruments that are listed on a recognized stock exchange. When Asha wanted to change the coupon rate, it first obtained approval from the Trustees before applying to the stock exchange. Meanwhile, Asha ensured that interest payments were made on time and that the promised credit enhancement remained available. Later, some investors did not claim their interest money. Asha kept this unclaimed money safe instead of forfeiting it, knowing it must be transferred to the Investor Protection and Education Fund after seven years. Asha also made sure to remain listed until the instruments reached their final maturity date.",
+ "terms": [
+  {
+   "term": "Securitized debt instruments",
+   "meaning": "Financial instruments representing undivided interest in underlying debt or receivables."
+  },
+  {
+   "term": "Coupon",
+   "meaning": "The interest rate paid on a debt instrument."
+  },
+  {
+   "term": "Redemption",
+   "meaning": "The repayment of the principal amount of a debt instrument."
+  },
+  {
+   "term": "Pro rata",
+   "meaning": "Proportional division based on the share or size of holdings."
+  }
+ ],
+ "watch": "Do not assume unclaimed money can be kept forever, as it must go to the designated fund after seven years.",
+ "h": "5673b4c121b8",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

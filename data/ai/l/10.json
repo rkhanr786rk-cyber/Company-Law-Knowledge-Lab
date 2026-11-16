@@ -1,0 +1,24 @@
+{
+ "summary": "This rule tells companies whose shares are listed on a stock exchange how to send their official reports and documents. Companies must use a special computer platform chosen by the authorities. They also need to set up their own computer systems to make this online filing possible.",
+ "points": [
+  "The listed company must file reports, statements, documents, and other information with the recognized stock exchange.",
+  "The company must use the specific electronic platform specified by the Board or the stock exchange.",
+  "The company must set up the necessary computer and technology infrastructure to comply with the electronic filing rule.",
+  "The Board may enable integrated filing for periodic reports and documents in formats and timelines it specifies."
+ ],
+ "example": "Sunrise Retail Limited has its shares listed on a recognized stock exchange. According to the rules, the company must submit its regular business reports and official documents. Instead of sending paper copies, Sunrise Retail Limited is required to upload everything onto the official electronic platform designated by the authorities. To make this happen, the management team at Sunrise Retail Limited sets up the necessary computers and software infrastructure in their office so they can file their documents properly. Later, when the Board introduces integrated filing for periodic reports, the company follows the specified format.",
+ "terms": [
+  {
+   "term": "Listed entity",
+   "meaning": "A company whose shares or other securities are traded on a stock exchange."
+  },
+  {
+   "term": "Board",
+   "meaning": "The market regulator, which is the Securities and Exchange Board of India."
+  }
+ ],
+ "watch": "People often think they can submit paper reports, but the rule requires using the specified electronic platform.",
+ "h": "0d9f68b0d736",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

@@ -1,0 +1,34 @@
+{
+ "summary": "This regulation explains the rules for the board of directors of certain listed entities called HVDLEs. It covers board composition, age limits for non-executive directors, shareholder approvals, meeting schedules, and quorum requirements. It ensures transparency, proper management structure, and regular compliance reviews.",
+ "points": [
+  "The board must have an optimum mix of executive and non-executive directors, including at least one woman director and at least fifty percent non-executive directors.",
+  "No HVDLE can appoint or keep a non-executive director aged seventy-five or older without passing a special resolution with a written justification.",
+  "The board must meet at least four times in a financial year, with no more than one hundred and twenty days between meetings.",
+  "The quorum for board meetings must be one-third of the total strength or three directors, whichever is higher, including at least one independent director.",
+  "The board must periodically review compliance reports for all laws applicable to the HVDLE and any steps taken to fix non-compliance.",
+  "The board must lay down a code of conduct for all members of the board and senior management that includes the duties of independent directors."
+ ],
+ "example": "Meera Textiles Private Limited, a high-value debt listed entity, wanted to appoint Mr. Sharma, a seventy-six-year-old expert, as a non-executive director. Because he was over seventy-five years old, the company had to pass a special resolution and provide a clear justification in the explanatory statement attached to the meeting notice. Meanwhile, the board of directors held their regular meeting with five members present, which met the quorum rule since it included one independent director. They also reviewed the latest compliance reports to ensure everything was running smoothly under applicable laws.",
+ "terms": [
+  {
+   "term": "HVDLE",
+   "meaning": "High Value Debt Listed Entity"
+  },
+  {
+   "term": "Executive director",
+   "meaning": "A director who is involved in the daily management and operations of the company"
+  },
+  {
+   "term": "Non-executive director",
+   "meaning": "A director who is not involved in the daily executive operations of the company"
+  },
+  {
+   "term": "Quorum",
+   "meaning": "The minimum number of members required to be present to legally conduct a meeting"
+  }
+ ],
+ "watch": "Ensure you distinguish between rules that apply to regular chairpersons and those where the chairperson is a promoter or related to a promoter.",
+ "h": "dd2cf3b083fa",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

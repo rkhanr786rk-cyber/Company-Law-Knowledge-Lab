@@ -1,0 +1,27 @@
+{
+ "summary": "The provided text mentions that specific companies and their subsidiaries must do a secretarial audit according to another regulation. It also lists a heading about obligations for independent directors, but no further details are given. The text is very brief and lacks specific instructions.",
+ "points": [
+  "Every HVDLE must undertake secretarial audit as per regulation 24A.",
+  "Material unlisted subsidiaries of every HVDLE incorporated in India must undertake secretarial audit as per regulation 24A.",
+  "Comply with obligations concerning independent directors as indicated by the regulation heading."
+ ],
+ "example": "At Zenith Infra Non-Convertible Securities Limited, a high value debt listed entity, the management discussed their regulatory duties. According to the rules, Zenith Infra and its material unlisted subsidiary located in India, Apex Components Private Limited, are required to undertake a secretarial audit. They checked regulation 24A to ensure proper compliance with this requirement. The board also reviewed the obligations related to their independent directors as mentioned in the framework, ensuring that all company operations strictly followed the exact wording of the provided rules without assuming any extra deadlines or penalties.",
+ "terms": [
+  {
+   "term": "HVDLE",
+   "meaning": "High Value Debt Listed Entity, a company that has listed certain non-convertible securities of a high value."
+  },
+  {
+   "term": "Secretarial audit",
+   "meaning": "An audit to check whether a company is complying with various laws and regulations."
+  },
+  {
+   "term": "Subsidiary",
+   "meaning": "A company controlled by another company."
+  }
+ ],
+ "watch": "Do not assume any specific penalties or deadlines since none are mentioned in the text.",
+ "h": "8e57aa4d8056",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

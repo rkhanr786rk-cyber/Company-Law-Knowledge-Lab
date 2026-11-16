@@ -1,0 +1,29 @@
+{
+ "summary": "This regulation requires listed companies to pay dividends, interest, and repayment amounts electronically. They must use an electronic payment method approved by the Reserve Bank of India. The payments must follow the specific manner laid out in Schedule I of the rules.",
+ "points": [
+  "Must use an electronic payment facility approved by the Reserve Bank of India",
+  "Must follow the manner specified in Schedule I",
+  "Must apply this method for paying dividends",
+  "Must apply this method for paying interest",
+  "Must apply this method for redemption or repayment amounts"
+ ],
+ "example": "Sunrise Engineering Limited is a company whose shares are listed on a stock exchange. The company has recently declared a dividend for its shareholders and also needs to pay interest on some of its bonds. According to the rules, Sunrise Engineering Limited cannot just send a paper cheque through the mail. Instead, the company must use an electronic payment facility that has been approved by the Reserve Bank of India. Furthermore, when making these electronic transfers for the dividends and interest, the company must carefully follow the specific manner outlined in Schedule I of the regulations.",
+ "terms": [
+  {
+   "term": "Listed entity",
+   "meaning": "A company whose shares or other securities are traded on a stock exchange."
+  },
+  {
+   "term": "Redemption",
+   "meaning": "The repayment of a principal amount of a security, like a bond, by the company."
+  },
+  {
+   "term": "Reserve Bank of India",
+   "meaning": "India's central bank that regulates the country's monetary system and banking."
+  }
+ ],
+ "watch": "People often get confused by thinking any online transfer method is fine, but the rule specifically requires an RBI-approved facility used in the manner specified in Schedule I.",
+ "h": "2d0aa020f96e",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

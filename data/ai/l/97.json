@@ -1,0 +1,24 @@
+{
+ "summary": "This regulation explains the duties of recognized stock exchanges regarding listed companies. Stock exchanges must check if companies follow the rules and if their public disclosures are accurate. They also need to report this to the Board and set up proper infrastructure and staff to do these checks.",
+ "points": [
+  "The stock exchange must check if the listed company follows the regulations.",
+  "The stock exchange must check if the disclosures made by the listed company are adequate and accurate.",
+  "The stock exchange must submit a report about these checks to the Board in the specified manner.",
+  "The stock exchange must build a proper framework, including enough staff and infrastructure, to handle these monitoring duties."
+ ],
+ "example": "Anisha Electronics Limited is a company whose shares are traded on the National Stock Exchange. The National Stock Exchange regularly reviews the public disclosures made by Anisha Electronics Limited to check if they are accurate and complete. After reviewing the information, the exchange prepares a report on the company's compliance and sends it to the Board in the manner the Board has specified. To make sure this monitoring is done properly, the exchange ensures it has enough staff and the right technical systems in place, as required by the regulations.",
+ "terms": [
+  {
+   "term": "listed entity",
+   "meaning": "A company whose securities or shares are traded on a recognized stock exchange."
+  },
+  {
+   "term": "Board",
+   "meaning": "The regulatory authority, which in this context refers to the Securities and Exchange Board of India."
+  }
+ ],
+ "watch": "People often confuse these duties of the stock exchange with the direct duties of the company itself.",
+ "h": "42cb717e6563",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

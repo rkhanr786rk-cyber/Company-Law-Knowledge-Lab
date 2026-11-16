@@ -1,0 +1,23 @@
+{
+ "summary": "This schedule provides a list of old SEBI circulars that are cancelled and no longer active. It tells companies which past rules and guidelines have been officially ended. The text only names the old circulars and does not contain any active rules.",
+ "points": [
+  "The listed entity must take note of the cancelled SEBI circulars listed in the schedule.",
+  "The listed entity is not required to follow the old instructions mentioned in these rescinded circulars.",
+  "The listed entity should look at current rules instead of relying on the circulars listed here."
+ ],
+ "example": "Meera Textiles Private Limited wanted to check old compliance rules from 1992. The company manager reviewed Schedule X to see which old instructions no longer applied. He found that many early SEBI circulars about listing agreements had been cancelled. Because of this schedule, the manager knew he did not need to follow those specific outdated circulars anymore.",
+ "terms": [
+  {
+   "term": "Rescinded",
+   "meaning": "Cancelled or officially ended so that it is no longer valid."
+  },
+  {
+   "term": "Circular",
+   "meaning": "An official instruction or guide issued by the authority."
+  }
+ ],
+ "watch": "People might confuse these cancelled circulars with active rules that companies still need to follow today.",
+ "h": "8fdcb5904c80",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

@@ -1,0 +1,30 @@
+{
+ "summary": "This rule explains how a company with listed securitised debt instruments must share important news and events with stock exchanges. The company needs to share information quickly, reply to questions, update the public until the matter is closed, and host the details on its website. It also gives the company the right to confirm or deny outside reports on its own.",
+ "points": [
+  "Must disclose specified events or information to stock exchanges as soon as reasonably possible and within twenty-four hours of occurrence.",
+  "Must provide an explanation for the delay if the disclosure is made after twenty-four hours.",
+  "Must provide regular updates with relevant explanations until the event is resolved or closed.",
+  "Must provide specific and adequate replies to all queries raised by stock exchanges.",
+  "May, on its own, confirm or deny any reported event or information to stock exchanges.",
+  "Must host the disclosed events or information on its website or the sponsor's website for at least five years and then according to its archival policy."
+ ],
+ "example": "Anjan Securitised Assets Limited experienced a major financial event related to its listed debt instruments. The compliance officer at Anjan Securitised Assets Limited quickly prepared the necessary notice and submitted it to the stock exchange within twenty-four hours. A few days later, the stock exchange asked for more details about the event. The company provided a specific and clear reply to the query. As the situation continued to develop over the next month, Anjan Securitised Assets Limited shared regular updates until the matter was fully closed. Finally, the company uploaded all these disclosures onto its official website so that investors could view them easily for at least five years.",
+ "terms": [
+  {
+   "term": "Securitised debt instruments",
+   "meaning": "Financial tools that pool various types of debt and allow them to be bought and sold."
+  },
+  {
+   "term": "Suo moto",
+   "meaning": "Doing something on one's own accord without being asked by someone else."
+  },
+  {
+   "term": "Archival policy",
+   "meaning": "A company's official set of rules for storing and keeping old records."
+  }
+ ],
+ "watch": "People often confuse regular updates with the initial disclosure, but the rule requires ongoing updates until the event is fully resolved.",
+ "h": "5e6e134bc2df",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

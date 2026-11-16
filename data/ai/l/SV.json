@@ -1,0 +1,33 @@
+{
+ "summary": "This schedule explains the extra details a company must include in its annual report. It covers related party transactions, a management discussion and analysis of business performance, and a corporate governance report. These rules help shareholders understand the company's financial health, management structure, and risks.",
+ "points": [
+  "The listed entity must disclose specific loans, advances, and investments involving its holding company, subsidiaries, and associates.",
+  "The entity must provide a Management Discussion and Analysis section covering industry structure, risks, and financial performance.",
+  "The entity must include a Corporate Governance Report detailing board composition, committee details, and director remuneration.",
+  "The entity must disclose significant changes in key financial ratios and return on net worth compared to the previous year.",
+  "Listed banks are exempt from the related party disclosure requirements mentioned in Part A of the schedule."
+ ],
+ "example": "Meera Textiles Private Limited prepared its annual report for its shareholders. As required, the report included a detailed Management Discussion and Analysis section explaining industry opportunities and threats, segment-wise performance, and risks. It also featured a Corporate Governance Report detailing the board of directors' attendance, committee compositions, and remuneration packages. Furthermore, Meera Textiles disclosed its related party loans and advances by name and amount, ensuring full transparency for investors.",
+ "terms": [
+  {
+   "term": "Holding Company",
+   "meaning": "A company that controls another company, known as its subsidiary."
+  },
+  {
+   "term": "Subsidiary",
+   "meaning": "A company that is controlled by another company, known as its holding company."
+  },
+  {
+   "term": "Associate",
+   "meaning": "A company in which another company has significant influence, but not complete control."
+  },
+  {
+   "term": "Dematerialization",
+   "meaning": "The process of converting physical share certificates into electronic format."
+  }
+ ],
+ "watch": "Make sure not to apply related party disclosure rules to listed banks, as they are specifically exempted.",
+ "h": "8fbca1a3d13f",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

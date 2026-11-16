@@ -1,0 +1,28 @@
+{
+ "summary": "This rule tells stock exchanges what to do when they get official papers and reports from a listed company. The stock exchange must put this information on its website right away. They also have to make sure the website is easy to use and well-organized so people can find things easily.",
+ "points": [
+  "The stock exchange must immediately publish the information received from the listed company.",
+  "The publication must be done on the website of the stock exchange.",
+  "The exchange must arrange the information in an organized and user-friendly way.",
+  "The exchange must use hyperlinks to make the documents easy to access."
+ ],
+ "example": "Meera Textiles Private Limited sends its latest financial report and other important documents to the recognized stock exchange as required by the regulations. As soon as the stock exchange receives these files, it immediately uploads them onto its official website. To make sure everyday investors can find the report without trouble, the exchange puts the file in a neat, organized section and adds a quick hyperlink that leads straight to the document.",
+ "terms": [
+  {
+   "term": "Disseminate",
+   "meaning": "To spread or publish information so that the public can see it."
+  },
+  {
+   "term": "Listed entity",
+   "meaning": "A company whose shares or securities are traded on a stock exchange."
+  },
+  {
+   "term": "Hyperlink",
+   "meaning": "A digital link on a webpage that takes you directly to another page or document when you click it."
+  }
+ ],
+ "watch": "Remember that this rule applies to what the stock exchange must do, not directly to the duties of the listed company itself.",
+ "h": "13d87f452d2f",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

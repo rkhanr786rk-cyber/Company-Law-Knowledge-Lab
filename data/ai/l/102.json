@@ -1,0 +1,26 @@
+{
+ "summary": "This regulation allows the Board to relax strict rules for listed companies in certain situations. It can do this to protect investors or help the securities market grow. A company or the Central Government can ask for this relaxation by following specific steps.",
+ "points": [
+  "The Board may relax strict rules if another governing law takes priority.",
+  "The Board may relax rules if a requirement causes unfair hardship to investors.",
+  "The Board may relax rules if a disclosure is not relevant to a specific industry.",
+  "The Board may relax rules if a requirement is technical or if an uncontrollable event affects a whole class of entities.",
+  "The Central Government may apply for relaxation regarding the strategic sale of its shares in a listed company.",
+  "A company applying for relaxation must submit details, grounds, and a non-refundable fee of one lakh rupees."
+ ],
+ "example": "Meera Textiles Private Limited faced a sudden technical computer failure that affected all textile companies in the region, making it impossible to submit a routine disclosure on time. Because this issue was completely beyond their control and affected an entire class of entities, Meera Textiles decided to apply for a relaxation of the strict enforcement of the rule. They prepared an application detailing the grounds for their request and explaining the situation. Along with their application, they paid the required non-refundable fee of rupees one lakh directly into the bank account through the online payment gateway specified by the Board, hoping the Board would grant relief in the interest of the securities market.",
+ "terms": [
+  {
+   "term": "Strategic disinvestment",
+   "meaning": "The sale of a significant government stake in a company."
+  },
+  {
+   "term": "Listed entity",
+   "meaning": "A company whose shares or securities are traded on a stock exchange."
+  }
+ ],
+ "watch": "Do not assume that the Board will grant a relaxation automatically without a formal application and fee where required.",
+ "h": "3462bec3f3a1",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

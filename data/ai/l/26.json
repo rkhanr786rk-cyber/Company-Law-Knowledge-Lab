@@ -1,0 +1,34 @@
+{
+ "summary": "This regulation sets rules for directors, senior management, and employees of listed companies. It limits the number of committees a director can serve on and requires them to report their positions. It also requires compliance with codes of conduct, disclosure of personal conflicts of interest, and prior approval for any special compensation or profit-sharing agreements.",
+ "points": [
+  "A director must not be a member of more than ten committees or chair more than five committees across all listed entities.",
+  "Every director must inform the listed entity about committee positions held in other listed entities and notify any changes.",
+  "All board members and senior management personnel must affirm compliance with the code of conduct every year.",
+  "Senior management must disclose to the board any material, financial, and commercial transactions where they have a personal interest that could conflict with the company.",
+  "Employees, directors, and promoters must not enter into agreements for compensation or profit-sharing regarding company securities without prior approval from both the board of directors and public shareholders.",
+  "Interested persons involved in compensation or profit-sharing agreements must abstain from voting in the general meeting."
+ ],
+ "example": "Mr. Sharma, a director at Sunrise Textiles Limited, also serves on the boards and committees of several other public limited companies. He must ensure he does not exceed the limit of serving on ten committees or chairing five committees, counting only audit and stakeholders' relationship committees. If he joins a new committee, he must inform Sunrise Textiles immediately. Meanwhile, Ms. Patel, a senior manager, notices a potential conflict of interest involving a commercial deal and must disclose it to the board. Additionally, if any employee wishes to sign a profit-sharing agreement regarding company shares with a third party, they must first get approval from the board of directors and the public shareholders, while keeping interested persons from voting on it.",
+ "terms": [
+  {
+   "term": "audit committee",
+   "meaning": "A committee of board members that oversees financial reporting and audits."
+  },
+  {
+   "term": "Stakeholders' Relationship Committee",
+   "meaning": "A board committee that looks into the redressal of grievances of shareholders and other security holders."
+  },
+  {
+   "term": "senior management",
+   "meaning": "Officers and personnel of the listed entity who are members of its core management team excluding the board of directors."
+  },
+  {
+   "term": "ordinary resolution",
+   "meaning": "A decision passed in a general meeting by a simple majority of votes."
+  }
+ ],
+ "watch": "Committee limits only count the audit committee and the stakeholders' relationship committee across public companies.",
+ "h": "b0d813f63012",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

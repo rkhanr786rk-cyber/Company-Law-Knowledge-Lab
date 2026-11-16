@@ -1,0 +1,33 @@
+{
+ "summary": "This regulation explains the rules companies must follow when sharing company profits, called dividends, with their owners. It says how companies must announce dividends and when they must have a special policy about them. It also protects dividend money that owners have not yet collected.",
+ "points": [
+  "The listed entity must declare and disclose the dividend on a per share basis only.",
+  "The listed entity must intimate the record date to all the stock exchanges where it is listed.",
+  "The listed entity must not forfeit unclaimed dividends before the claim becomes barred by law.",
+  "The top 1000 listed entities based on market capitalization must formulate a dividend distribution policy.",
+  "The top 1000 listed entities must disclose their dividend distribution policy on their website and provide a web-link in their annual reports."
+ ],
+ "example": "Meera Textiles Private Limited is one of the top 1000 listed entities based on market capitalization. Because of this rule, the company must create a written dividend distribution policy. This policy must explain the financial parameters that the company considers before declaring any dividend. The company also needs to publish this policy on its official website. Furthermore, Meera Textiles Private Limited must share a web-link to this policy inside its annual reports so that all shareholders can easily find and read it.",
+ "terms": [
+  {
+   "term": "dividend",
+   "meaning": "A share of profits paid by a company to its shareholders."
+  },
+  {
+   "term": "record date",
+   "meaning": "A date set by a company to determine which shareholders are eligible to receive a dividend."
+  },
+  {
+   "term": "market capitalization",
+   "meaning": "The total dollar market value of a company's outstanding shares of stock."
+  },
+  {
+   "term": "forfeit",
+   "meaning": "To lose or give up the right to something."
+  }
+ ],
+ "watch": "Do not confuse the strict policy rules for the top 1000 companies with other companies, which can choose to do this voluntarily.",
+ "h": "d999582a80d3",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

@@ -1,0 +1,34 @@
+{
+ "summary": "A listed company must give advance notice to the stock exchange before its board of directors holds a meeting to discuss certain important matters. This notice helps the public and the exchange know beforehand about major decisions like financial results, buying back shares, or raising funds. The notice must be given at least two working days before the meeting, not counting the day of the notice and the day of the meeting itself.",
+ "points": [
+  "Must give prior intimation of at least two working days to the stock exchange before a board meeting considers financial results, buybacks, or delisting.",
+  "Must give prior intimation before board meetings considering fund raising or the determination of issue prices.",
+  "Must give intimation if an annual general meeting, extraordinary general meeting, or postal ballot is held to get shareholder approval for raising funds.",
+  "Must give intimation for declaring dividends, issuing bonus securities, or altering the form, nature, or rights of listed securities.",
+  "Must give intimation if there is any change in the payment dates for interest on bonds or redemption amounts of shares and debentures.",
+  "Must mention the exact date of the board meeting in the intimation sent to the stock exchange."
+ ],
+ "example": "At Rohan Engineering Limited, a company whose shares are listed on the stock exchange, the directors planned to hold a board meeting to discuss the quarterly financial results and a proposal for a dividend. Before holding this meeting, the company sent a notice to the stock exchange to inform them about the upcoming discussion. They made sure to send this notice at least two working days in advance, carefully leaving out the day they sent the notice and the day the actual meeting took place. By doing this, Rohan Engineering Limited followed the rule of giving prior intimation to the stock exchange.",
+ "terms": [
+  {
+   "term": "Listed entity",
+   "meaning": "A company whose securities are traded on a stock exchange."
+  },
+  {
+   "term": "Intimation",
+   "meaning": "An official notice or announcement given in advance."
+  },
+  {
+   "term": "Buyback",
+   "meaning": "When a company buys its own shares back from its shareholders."
+  },
+  {
+   "term": "Redemption",
+   "meaning": "The repayment of the principal amount of a bond or share by the company."
+  }
+ ],
+ "watch": "People often get confused by counting the days, but you must exclude both the day you send the notice and the day of the board meeting.",
+ "h": "cb3813edc9b1",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

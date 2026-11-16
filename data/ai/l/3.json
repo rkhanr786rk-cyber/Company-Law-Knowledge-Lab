@@ -1,0 +1,33 @@
+{
+ "summary": "These rules apply to companies and entities that have listed certain securities on a recognized stock exchange. They explain how market size and ranking decide when and how specific compliance rules apply to a listed company. They also state how long rules continue to apply once triggered.",
+ "points": [
+  "The listed entity must comply with these regulations if it has listed designated securities like specified securities, non-convertible securities, or Indian depository receipts on a recognized stock exchange.",
+  "Recognized stock exchanges must prepare a list of entities ranked by average market size from July 1 to December 31 each year.",
+  "The listed entity must continue to follow the rules that applied to it based on the previous year's market size ranking.",
+  "The listed entity must keep following market-size rules unless its ranking stays outside the required threshold for three years in a row.",
+  "The listed entity must set up systems and processes for specific reporting requirements within the timeline given after becoming applicable for the first time."
+ ],
+ "example": "Meera Textiles Private Limited has listed its specified securities on the main board of a recognized stock exchange. At the end of the calendar year on December 31, the stock exchange prepares a ranked list of entities based on their average market capitalization from July 1 to December 31. Because Meera Textiles is on this list, the relevant regulatory provisions apply to it according to the timeline provided in the rules. Meera Textiles must continue to follow these provisions based on its ranking unless its status changes continuously for three years.",
+ "terms": [
+  {
+   "term": "listed entity",
+   "meaning": "A company or body whose securities are traded on a recognized stock exchange."
+  },
+  {
+   "term": "market capitalisation",
+   "meaning": "The total market value of a company's shares."
+  },
+  {
+   "term": "specified securities",
+   "meaning": "Equity shares and convertible securities issued by a company."
+  },
+  {
+   "term": "recognized stock exchange",
+   "meaning": "An official exchange approved to trade securities."
+  }
+ ],
+ "watch": "Rules based on market size do not stop applying immediately after a single year of falling below a threshold, as they require three consecutive years of change.",
+ "h": "63a1cfdf6a87",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

@@ -1,0 +1,30 @@
+{
+ "summary": "This regulation requires certain social enterprises to submit an annual impact report to the stock exchange. The report must be assessed by experts or self-certified depending on whether the projects are listed or not. It must also cover a major part of the previous year's spending.",
+ "points": [
+  "Must submit an annual impact report to the Social Stock Exchange or Stock Exchange.",
+  "Must use the format specified by the Board.",
+  "Must ensure the report for listed projects is assessed by a Social Impact Assessment Organization.",
+  "Must self-certify the report for non-listed projects.",
+  "Must ensure the report covers at least 67 percent of the program expenditure from the previous financial year.",
+  "Must have at least one listed project after two years of registration if it is a Not for Profit Organization."
+ ],
+ "example": "Green Roots Foundation, a Not for Profit Organization, registered on the Social Stock Exchange without raising funds immediately. After registering, Green Roots Foundation started various community projects. To comply with the rules, it must submit an annual impact report every year. Since some of its projects are listed and some are not, Green Roots Foundation must get the report for its listed projects assessed by a Social Impact Assessment Organization, while its non-listed projects can be self-certified. Furthermore, this annual impact report must cover at least sixty-seven percent of the program expenditure made in the previous financial year. If two years pass and they still have no listed projects, they will cease to be registered.",
+ "terms": [
+  {
+   "term": "Social Enterprise",
+   "meaning": "An entity that is either registered with or has raised funds through a Social Stock Exchange or a Stock Exchange."
+  },
+  {
+   "term": "Social Impact Assessment Organization",
+   "meaning": "An organization that employs social impact assessors to evaluate impact reports."
+  },
+  {
+   "term": "Self-certified",
+   "meaning": "Certified by the enterprise itself rather than by an outside assessment organization."
+  }
+ ],
+ "watch": "People often confuse whether every report needs an external expert, but only listed projects need assessment by an outside organization while non-listed projects can be self-certified.",
+ "h": "ef1f336a3497",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

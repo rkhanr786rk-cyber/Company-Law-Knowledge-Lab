@@ -1,0 +1,28 @@
+{
+ "summary": "This regulation explains how a listed company must handle complaints from its investors. The company must solve these complaints quickly and use an online platform called SCORES. It also needs to report its complaint-solving status to the stock exchange and its own directors every quarter.",
+ "points": [
+  "The listed entity must solve investor complaints promptly and within twenty-one calendar days from receiving them.",
+  "The listed entity must register on the SCORES platform or another electronic system required by the Board to handle complaints online.",
+  "The listed entity must send a quarterly statement about investor complaint handling to the recognized stock exchange.",
+  "The listed entity must place the quarterly grievance statement before its board of directors every quarter."
+ ],
+ "example": "At Zenith Pharma Limited, a company whose shares are traded on the stock exchange, a shareholder named Mr. Sharma sends a complaint regarding delayed dividend payments. Zenith Pharma Limited must resolve this grievance promptly and within twenty-one calendar days from the date they receive it. To handle complaints electronically, the company ensures it is properly registered on the SCORES platform as required. Every quarter, Zenith Pharma Limited prepares a statement detailing how it addressed all investor grievances. The company files this statement with the recognized stock exchange and also places it before its board of directors for their review during the quarterly meeting.",
+ "terms": [
+  {
+   "term": "Listed entity",
+   "meaning": "A company whose shares or other securities are traded on a recognized stock exchange."
+  },
+  {
+   "term": "Grievance",
+   "meaning": "A formal complaint raised by an investor."
+  },
+  {
+   "term": "SCORES",
+   "meaning": "An electronic platform used by the Board to handle investor complaints online."
+  }
+ ],
+ "watch": "Make sure not to confuse calendar days with working days when counting the twenty-one day limit for solving complaints.",
+ "h": "30f96155fbd8",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

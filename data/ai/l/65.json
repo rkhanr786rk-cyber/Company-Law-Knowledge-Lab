@@ -1,0 +1,23 @@
+{
+ "summary": "This rule explains who must follow the special chapter on Indian Depository Receipts. It applies to listed companies whose home securities regulators have signed a specific international understanding. These companies must also issue Indian Depository Receipts as defined by foreign company rules.",
+ "points": [
+  "The listed entity must be issuing Indian Depository Receipts.",
+  "The listed entity's securities market regulators must be signatories to the Multilateral Memorandum of Understanding of the International Organization of Securities Commission.",
+  "The listed entity must follow the provisions of this specific chapter."
+ ],
+ "example": "Global Pharma Limited is a foreign company that wants to raise money in India by issuing Indian Depository Receipts. Before they can do this under these rules, two conditions must be met. First, their home country securities regulator must be a signer of the Multilateral Memorandum of Understanding of the International Organization of Securities Commission. Second, their receipts must fit the exact definition given in Rule 13 of the Companies Rules for foreign companies. If both conditions are met, Global Pharma Limited must follow the obligations set out in this chapter of the regulations.",
+ "terms": [
+  {
+   "term": "Indian Depository Receipts",
+   "meaning": "A financial instrument that allows foreign companies to raise funds from the Indian securities market."
+  },
+  {
+   "term": "Signatories",
+   "meaning": "Parties or countries that have officially signed an agreement or memorandum."
+  }
+ ],
+ "watch": "",
+ "h": "90a73fd02c97",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

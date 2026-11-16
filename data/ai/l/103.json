@@ -1,0 +1,28 @@
+{
+ "summary": "This regulation cancels old circulars and listing agreements when new rules start. However, past actions like inquiries or notices are still treated as if they were done under the new rules. It also requires a specific fee for certain applications under the old rules.",
+ "points": [
+  "The listed entity must treat old circulars and listing agreements as cancelled starting from the commencement of these regulations.",
+  "The listed entity must accept that past actions, inquiries, investigations, or notices under old rules are considered valid under the new rules.",
+  "The listed entity must pay a non-refundable fee of rupees one lakh for certain applications.",
+  "The listed entity must pay the fee through direct bank credit using NEFT, RTGS, IMPS, or any other Reserve Bank of India allowed mode, or by demand draft."
+ ],
+ "example": "Meera Textiles Private Limited had an ongoing inquiry initiated against it by the stock exchange under an old listing agreement before the new regulations came into effect. When the new rules started, Meera Textiles Private Limited worried that the ongoing inquiry would simply be dropped or cancelled. However, under the law, that past inquiry was not erased. Instead, it was treated as if it had been started under the new regulations. Later, when the company submitted a related application, it had to include a non-refundable fee of rupees one lakh paid directly into the bank account through NEFT, completing the payment as required by the Board.",
+ "terms": [
+  {
+   "term": "Rescinded",
+   "meaning": "Cancelled or officially ended."
+  },
+  {
+   "term": "Notwithstanding",
+   "meaning": "Despite."
+  },
+  {
+   "term": "Listing agreements",
+   "meaning": "Contracts signed between a company and a stock exchange for trading securities."
+  }
+ ],
+ "watch": "Do not assume that the cancellation of old rules wipes out past inquiries or legal actions that started before the new regulations.",
+ "h": "2fc0379b04a3",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

@@ -1,0 +1,29 @@
+{
+ "summary": "This regulation explains what a stock exchange must do when a listed company proposes a scheme of arrangement. The exchange must forward the draft scheme to the Board and check if it follows securities laws. It must also share its opinion with the Board and the company.",
+ "points": [
+  "The designated stock exchange must forward the draft scheme and documents to the Board.",
+  "The stock exchange must check if the draft scheme complies with securities laws.",
+  "The stock exchange must submit its No-Objection Letter to the Board within the stated timeline.",
+  "The stock exchange must issue a No-Objection Letter to the company after including comments from the Board.",
+  "The stock exchange must bring any objections to the notice of the Court or Tribunal."
+ ],
+ "example": "Sunshine Textiles Limited wanted to merge with another company and submitted its draft scheme of arrangement to the designated stock exchange. The stock exchange received the draft scheme and forwarded it to the Board as required. After checking that the plan complied with securities laws, the exchange prepared its No-Objection Letter. It waited for comments from the Board and then issued the final No-Objection Letter to Sunshine Textiles Limited within the correct timeframe. When the matter went to the Tribunal for final approval, the stock exchange made sure to bring any objections to the notice of the Tribunal.",
+ "terms": [
+  {
+   "term": "Scheme of arrangement",
+   "meaning": "A court-approved plan between a company and its creditors or shareholders, such as a merger or restructuring."
+  },
+  {
+   "term": "No-Objection Letter",
+   "meaning": "A formal letter stating that the authority has no opposition to the proposed plan."
+  },
+  {
+   "term": "Designated stock exchange",
+   "meaning": "The specific stock exchange chosen by a company to handle regulatory filings and compliance."
+  }
+ ],
+ "watch": "People often confuse the stock exchange's No-Objection Letter with the final approval from the Court or Tribunal.",
+ "h": "17b5f8d5e591",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

@@ -1,0 +1,33 @@
+{
+ "summary": "This schedule explains how a listed company must handle shares that remain unclaimed by their owners. It covers sending reminders, moving the shares into a special suspense account, and giving them back if the owner steps forward. It also explains what happens to extra benefits and voting rights on those shares.",
+ "points": [
+  "The listed entity may give procedural tasks to a registrar to an issue and share transfer agent.",
+  "The listed entity must send at least three reminders to the addresses available in records or databases.",
+  "The listed entity must move unclaimed demat shares to a demat suspense account and physical shares to an unclaimed suspense account.",
+  "The listed entity must not transfer the shares in the suspense account except to give them to the rightful owner upon request.",
+  "The listed entity must keep voting rights on these unclaimed shares frozen until the owner claims them."
+ ],
+ "example": "Meera Textiles Private Limited noticed that some shareholders did not claim their shares. To follow the rules, Meera Textiles Private Limited sent three reminders to the addresses listed in their records and the depository database. Since the shareholders still did not respond, Meera Textiles Private Limited moved the unclaimed demat shares into a demat suspense account and the physical shares into a single folio named Unclaimed Suspense Account. Meera Textiles Private Limited kept the voting rights frozen. Later, when a shareholder named Rahul approached the company, Meera Textiles Private Limited verified his identity and credited the shares to his demat account.",
+ "terms": [
+  {
+   "term": "Demat form",
+   "meaning": "Holding shares in an electronic format rather than as paper certificates."
+  },
+  {
+   "term": "Folio",
+   "meaning": "A unique number or record used by a company to keep track of a shareholder's account."
+  },
+  {
+   "term": "Dematerialise",
+   "meaning": "To convert physical paper share certificates into electronic form."
+  },
+  {
+   "term": "Suspense account",
+   "meaning": "A temporary holding account used by the company to store unclaimed shares."
+  }
+ ],
+ "watch": "People often confuse keeping shares in a suspense account with owning them, but the company holds these shares purely on behalf of the rightful owners.",
+ "h": "2d6807e75eb2",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

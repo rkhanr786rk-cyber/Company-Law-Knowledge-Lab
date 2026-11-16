@@ -1,0 +1,29 @@
+{
+ "summary": "This rule explains how companies with listed non-convertible securities must handle risk management. The board of directors must make sure risk management duties are carried out either by an audit committee, the board itself, or a special risk management committee. This committee has specific rules about its members, how often it must meet, and its powers.",
+ "points": [
+  "The board of directors must ensure risk management functions are handled by the audit committee, the board, or a risk management committee.",
+  "The risk management committee must have at least three members, with a majority being board members and at least one being an independent director.",
+  "The chairperson of the risk management committee must be a member of the board of directors.",
+  "The committee must meet at least twice a year, with not more than 210 days between two consecutive meetings.",
+  "The committee has the power to ask any employee for information, get outside professional advice, and bring in outside experts."
+ ],
+ "example": "At Zenith Infra Bonds Limited, a company with listed non-convertible securities, the board of directors decided to form a risk management committee. They appointed three members to the committee, ensuring that a majority were board members and that one of them was an independent director. They also named a board member as the chairperson. Later, the committee needed expert advice on a cybersecurity issue, so they used their official powers to secure outside professional help. The committee scheduled their meetings to ensure they met at least twice in the financial year without exceeding the maximum allowed gap between meetings.",
+ "terms": [
+  {
+   "term": "Independent director",
+   "meaning": "A board member who does not have any material or pecuniary relationship with the company, helping ensure unbiased decisions."
+  },
+  {
+   "term": "Quorum",
+   "meaning": "The minimum number of members who must be present to legally conduct a meeting and make decisions."
+  },
+  {
+   "term": "Audit committee",
+   "meaning": "A committee of board members that oversees the company's financial reporting and audits."
+  }
+ ],
+ "watch": "People often confuse the minimum required members with the quorum needed to hold a valid meeting.",
+ "h": "0384f48fb220",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

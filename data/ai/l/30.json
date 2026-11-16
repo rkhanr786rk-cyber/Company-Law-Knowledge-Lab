@@ -1,0 +1,30 @@
+{
+ "summary": "This regulation requires companies whose shares are traded on a stock exchange to share important news and events with the public. Companies must judge if an event is important using specific rules, such as its impact on money value or market reaction. They must also share this information within strict time limits and publish it on their website.",
+ "points": [
+  "The listed entity must tell the stock exchange about any events or information that the board of directors thinks is important.",
+  "The listed entity must create a policy approved by its board to help decide if an event is important, and put this policy on its website.",
+  "The listed entity must choose specific top managers to decide on important events and share their contact details with the stock exchange and website.",
+  "The listed entity must first share important news with the stock exchange as soon as reasonably possible within set time limits.",
+  "The listed entity must host all disclosures on its website for at least five years.",
+  "The listed entity must give clear and exact answers to any questions asked by the stock exchange about events or information."
+ ],
+ "example": "At Meera Textiles Private Limited, a listed company, a sudden fire damages a major factory. The board of directors decides this event is important because the value exceeds the rules in their materiality policy. Following the regulation, the board authorizes a key manager to report this event. Meera Textiles sends the disclosure to the stock exchange within the required time, updates its website so the information stays visible for at least five years, and also answers all follow-up questions asked by the stock exchange.",
+ "terms": [
+  {
+   "term": "Listed entity",
+   "meaning": "A company whose shares or other securities are traded on a stock exchange."
+  },
+  {
+   "term": "Materiality",
+   "meaning": "The quality of being important enough to influence investors and the public."
+  },
+  {
+   "term": "Stock exchange",
+   "meaning": "An official market where shares and securities are bought and sold."
+  }
+ ],
+ "watch": "People often confuse the different time limits for reporting events, which depend on whether the news comes from inside the company or outside.",
+ "h": "de80aaba06f3",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

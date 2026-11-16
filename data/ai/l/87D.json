@@ -1,0 +1,31 @@
+{
+ "summary": "This rule applies to listed companies that deal in security receipts. It says these receipts can only be transferred to specific buyers called qualified buyers. It also explains how the company must choose security receipts for payments.",
+ "points": [
+  "Must transfer security receipts only in favour of qualified buyers.",
+  "Must not select listed security receipts for payments otherwise than on a pro rata basis or by lot, unless the terms of issue say otherwise.",
+  "Must promptly submit details of payments to the stock exchange."
+ ],
+ "example": "Zenith Securitised Debt Limited had issued several security receipts to investors. When the time came to make payments on these receipts, Zenith wanted to decide how to select which receipts would be paid. According to the rules, unless their original terms of issue stated otherwise, Zenith had to choose the receipts for payment either on a pro rata basis or by lot. Once the selection was made, Zenith was required to promptly submit all the payment details to the stock exchange where its debt instruments were listed. Furthermore, when any investor wanted to transfer their security receipt, Zenith ensured the transfer went only to a qualified buyer.",
+ "terms": [
+  {
+   "term": "Security receipt",
+   "meaning": "A document issued by a reconstruction company to show a buyer's right or undivided interest in financial assets."
+  },
+  {
+   "term": "Qualified buyer",
+   "meaning": "A specific type of buyer recognized under the law to hold certain financial assets."
+  },
+  {
+   "term": "Pro rata",
+   "meaning": "Proportional division based on an exact share or amount."
+  },
+  {
+   "term": "Lot",
+   "meaning": "A selection made by a random draw."
+  }
+ ],
+ "watch": "Remember that payments do not always have to be pro rata or by lot if the original terms of issue say otherwise.",
+ "h": "4c95dc572529",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

@@ -1,0 +1,33 @@
+{
+ "summary": "This rule requires a listed company to inform stock exchanges about important dates called record dates before they happen. Companies must give this notice several working days in advance and keep a gap between different record dates. The rule applies to events like declaring dividends, issuing bonus shares, or handling corporate mergers.",
+ "points": [
+  "The listed entity must intimate the record date to all relevant stock exchanges for events like dividends, right or bonus shares, and share conversions.",
+  "The listed entity must intimate the stock exchanges for corporate actions like mergers, de-mergers, and splits, or other purposes specified by the exchange.",
+  "The listed entity must give notice at least three working days in advance of the record date, excluding the date of intimation and the record date.",
+  "The listed entity must give notice at least seven working days in advance for corporate actions through schemes of arrangement covered under regulation 37.",
+  "The listed entity must ensure a time gap of at least five working days between two record dates."
+ ],
+ "example": "Sunshine Tech Limited is a company listed on the stock exchange. The board of directors decides to declare a dividend for its shareholders and wants to set a record date to check who is eligible. Before doing this, Sunshine Tech Limited must inform the stock exchange about the record date. According to the rules, the company must send this notice to the stock exchange at least three working days before the record date, making sure to leave out the date when they send the notice and the record date itself. If they also plan a stock split later, they must make sure there is a time gap of at least five working days between the first record date and the new record date.",
+ "terms": [
+  {
+   "term": "record date",
+   "meaning": "A specific date fixed by a company to check which shareholders are eligible to receive benefits like dividends or bonus shares."
+  },
+  {
+   "term": "intimate",
+   "meaning": "To officially notify or inform someone, such as a stock exchange."
+  },
+  {
+   "term": "debentures",
+   "meaning": "A type of debt instrument issued by a company that acknowledges a loan and usually pays interest."
+  },
+  {
+   "term": "schemes of arrangement",
+   "meaning": "Formal corporate restructuring plans between a company and its creditors or shareholders, such as mergers."
+  }
+ ],
+ "watch": "Do not count the date of intimation and the record date itself when calculating the mandatory advance notice period.",
+ "h": "b3c2a0033407",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

@@ -1,0 +1,34 @@
+{
+ "summary": "This regulation requires companies whose shares or debts are listed on a stock exchange to publish a newspaper advertisement after their board approves financial results. The ad must include a Quick Response code and a webpage link where investors can view the full financial results and any auditor remarks. Companies can also choose to publish the full financial results directly in the newspaper if they want.",
+ "points": [
+  "The listed entity must publish a newspaper advertisement within forty-eight hours after the board of directors meeting concludes to approve financial results.",
+  "The advertisement must contain a Quick Response code and details of the webpage where the complete financial results and any modified opinions or reservations by the auditor can be accessed.",
+  "The listed entity may choose to publish the financial results along with the auditor opinions directly in the newspaper as per the specified format within the same forty-eight hour period.",
+  "The information must be published in at least one English language national daily newspaper circulating across most or all of India.",
+  "The information must also be published in one daily newspaper in the regional language where the company has its registered office.",
+  "Companies that have listed their specified securities on an SME Exchange do not have to follow the requirements of this regulation."
+ ],
+ "example": "Sunrise Engineering Limited recently held a board meeting where the directors approved the company's financial results. Within forty-eight hours after the meeting ended, Sunrise Engineering Limited published an advertisement in a major English national daily newspaper and a regional language newspaper. The advertisement included a Quick Response code and the webpage address where investors could view the complete financial results along with the auditor's remarks. Because the company is not listed on an SME Exchange, it successfully followed the newspaper advertisement rules.",
+ "terms": [
+  {
+   "term": "listed entity",
+   "meaning": "a company whose securities are listed on a stock exchange."
+  },
+  {
+   "term": "Quick Response code",
+   "meaning": "a type of barcode that can be scanned using a smartphone to quickly open a webpage."
+  },
+  {
+   "term": "modified opinion",
+   "meaning": "a qualified or altered remark expressed by an auditor regarding the financial results."
+  },
+  {
+   "term": "SME Exchange",
+   "meaning": "a specialized trading platform or exchange for small and medium enterprises."
+  }
+ ],
+ "watch": "People often confuse the rule by thinking full financial results must always be printed in the newspaper, whereas the company can choose to provide a Quick Response code and webpage link instead.",
+ "h": "f232bfac6d77",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

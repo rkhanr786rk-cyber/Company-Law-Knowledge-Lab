@@ -1,0 +1,33 @@
+{
+ "summary": "This regulation sets the rules for which companies on the stock exchange must follow corporate governance requirements. It explains how rules apply based on whether a company lists shares or debt securities, with special exemptions for small companies or those undergoing insolvency. Some entities like Infrastructure Investment Trusts follow their own specific rules instead.",
+ "points": [
+  "A listed entity with specified securities on a main board, SME Exchange, or Innovators Growth Platform must follow the chapter rules.",
+  "A high value debt listed entity with debt securities of Rupees Five Thousand Crore and above must ensure compliance within six months if it crosses the threshold.",
+  "Entities with small capital and net worth below the specified limits are exempt from certain corporate governance provisions.",
+  "During an insolvency resolution process, the interim resolution professional or resolution professional fulfills the role of the board and committees.",
+  "Once corporate governance rules apply to an entity, they continue to apply until its values stay below the threshold for three consecutive financial years."
+ ],
+ "example": "Meera Textiles Private Limited has listed its specified securities on the main board of a recognized stock exchange. Because of this listing, the provisions of Chapter IV apply to the company. Meera Textiles must follow the rules for listed entities. However, if its paid up equity share capital and net worth are very low and do not exceed the specified amounts on the last day of the previous financial year, certain corporate governance provisions will not apply to it. If the company later grows beyond those limits, it must ensure compliance within six months from that date.",
+ "terms": [
+  {
+   "term": "Specified securities",
+   "meaning": "Equity shares and other securities as specified by the regulations."
+  },
+  {
+   "term": "Net worth",
+   "meaning": "The total value of assets minus total liabilities."
+  },
+  {
+   "term": "High value debt listed entity",
+   "meaning": "An entity that has listed non-convertible debt securities of Rupees Five Thousand Crore and above."
+  },
+  {
+   "term": "Insolvency resolution process",
+   "meaning": "A legal process when an entity cannot pay its debts and undergoes restructuring."
+  }
+ ],
+ "watch": "Do not assume these rules apply in the same way to real estate investment trusts, which follow their own separate regulations.",
+ "h": "f15f7e9bcb71",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

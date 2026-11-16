@@ -1,0 +1,30 @@
+{
+ "summary": "A company with listed non-convertible securities must quickly tell the stock exchange about important events affecting its business, prices, or payments. It must also share these details on its own website for at least five years. If there is a delay in telling the stock exchange, the company must explain why.",
+ "points": [
+  "Must promptly inform the stock exchange of any information affecting its performance, operations, or prices.",
+  "Must inform the stock exchange of any action affecting the payment of interest, dividends, or security redemption.",
+  "Must make disclosures within twenty-four hours from the event or receipt of information, or explain any delay.",
+  "Must make additional disclosures as specified in Part B of Schedule III.",
+  "Must publish all such disclosed events or information on its own website.",
+  "Must host the disclosures on its website for a minimum period of five years."
+ ],
+ "example": "Rohit Steels Limited has issued non-convertible securities to the public. Recently, a major event occurred that directly affected the payment of interest on these securities. According to the rules, Rohit Steels Limited must inform the stock exchange about this as soon as reasonably possible, and definitely within twenty-four hours of the event. If the company takes longer than twenty-four hours, it must provide a valid explanation for the delay along with the disclosure. Furthermore, Rohit Steels Limited is required to publish this exact information on its official website and keep it hosted there for a minimum period of five years, following its internal archival policy.",
+ "terms": [
+  {
+   "term": "Non-convertible securities",
+   "meaning": "Financial instruments like bonds that cannot be converted into equity shares."
+  },
+  {
+   "term": "Price sensitive information",
+   "meaning": "Any information that can materially affect the price of the securities."
+  },
+  {
+   "term": "Redemption",
+   "meaning": "The repayment of the principal amount of a security by the issuer."
+  }
+ ],
+ "watch": "People often confuse 'promptly' with taking a few days, but the text strictly defines it as as soon as reasonably possible and within twenty-four hours.",
+ "h": "8c8def560efc",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

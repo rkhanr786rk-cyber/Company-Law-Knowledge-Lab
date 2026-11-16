@@ -1,0 +1,29 @@
+{
+ "summary": "This regulation sets limits on the total number of director roles a person can hold in listed companies. It aims to ensure that directors have enough time to focus on their duties. Alternate directorships are also counted towards this limit.",
+ "points": [
+  "A person must not be a director in more than seven listed entities.",
+  "A person must not serve as an independent director in more than seven listed entities.",
+  "A person serving as a whole time director or managing director in any listed entity must not serve as an independent director in more than three listed entities.",
+  "The total count of directorships includes entities with listed equity shares and high value debt listed entities.",
+  "Directorships held on an ex-officio basis due to a law or contract in public sector undertakings or public private partnerships are excluded from the maximum count."
+ ],
+ "example": "Mr. Sharma is a busy corporate professional who holds board positions across various companies in India. Currently, he serves as a director on the boards of six different companies whose equity shares are listed on a stock exchange. Recently, Surya Pharma Limited, another listed entity, invited him to join their board as a new director. Because the regulation states that a person cannot be a director in more than seven listed entities, Mr. Sharma can accept this offer. However, if Surya Pharma was his eighth listed company directorship, he would have reached his statutory limit and could not accept any more regular director roles.",
+ "terms": [
+  {
+   "term": "Independent director",
+   "meaning": "A non-executive board member who helps bring an independent view to the company's decisions without having material pecuniary relationships with it."
+  },
+  {
+   "term": "Whole time director",
+   "meaning": "A director who devotes their whole time of working hours to the company and has a significant executive role."
+  },
+  {
+   "term": "Ex-officio",
+   "meaning": "Holding a position automatically by virtue of holding another office or statutory role."
+  }
+ ],
+ "watch": "Remember that alternate directorships count towards your total maximum allowed directorship limits.",
+ "h": "18fc45564551",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

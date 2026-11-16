@@ -1,0 +1,27 @@
+{
+ "summary": "This regulation requires a company with listed securities to send an Annual Information Memorandum to the stock exchange. The company must follow the specific rules given by the Board for submitting this document. The text is very brief and does not provide extra details.",
+ "points": [
+  "The listed entity must submit an Annual Information Memorandum.",
+  "The submission must go to the stock exchange or stock exchanges.",
+  "The entity must follow the manner specified by the Board."
+ ],
+ "example": "Alpha Motors Limited has its securities listed on the national stock exchange. According to the rules, Alpha Motors Limited must prepare and submit an Annual Information Memorandum to the stock exchange. The company makes sure it follows the exact manner specified by the Board for this document. By doing this, Alpha Motors Limited fulfills its obligation under the listing regulations.",
+ "terms": [
+  {
+   "term": "Listed entity",
+   "meaning": "A company whose securities are traded on a stock exchange."
+  },
+  {
+   "term": "Stock exchange",
+   "meaning": "An official marketplace where shares and other securities are bought and sold."
+  },
+  {
+   "term": "Board",
+   "meaning": "The regulatory authority, which in this context refers to SEBI."
+  }
+ ],
+ "watch": "People often confuse the Annual Information Memorandum with regular financial statements, but this text only talks about the memorandum specified by the Board.",
+ "h": "2d5bb5691357",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

@@ -1,0 +1,28 @@
+{
+ "summary": "This regulation requires listed companies to keep a certain minimum level of shares owned by the public. This rule comes from older rules called the Securities Contracts (Regulation) Rules, 1957, and must be done as instructed by the Board. However, companies listed on the Innovators Growth Platform without making a public issue do not have to follow this.",
+ "points": [
+  "The listed entity must comply with minimum public shareholding requirements.",
+  "The entity must follow Rule 19(2) and Rule 19A of the Securities Contracts (Regulation) Rules, 1957.",
+  "The entity must follow the manner specified by the Board from time to time.",
+  "The entity does not have to apply this regulation if it is listed on the Innovators Growth Platform without making a public issue."
+ ],
+ "example": "Nova Tech Private Limited decided to list its specified securities on the Innovators Growth Platform. The company did not make any public issue of shares when getting listed. Because of this specific method of listing, Nova Tech Private Limited does not have to meet the standard minimum public shareholding requirements mentioned in the rules. Meanwhile, another firm named Meera Textiles Private Limited, which listed through a standard public issue, must strictly follow the public shareholding limits set by the Board and the older 1957 rules.",
+ "terms": [
+  {
+   "term": "Listed entity",
+   "meaning": "A company whose securities or shares are traded on a stock exchange."
+  },
+  {
+   "term": "Public shareholding",
+   "meaning": "Shares of a company that are held by ordinary everyday investors rather than the company owners or promoters."
+  },
+  {
+   "term": "Board",
+   "meaning": "The market regulator, which is the Securities and Exchange Board of India."
+  }
+ ],
+ "watch": "Do not assume that every listed company is exempt from public shareholding rules just because some special platforms are.",
+ "h": "3939a989dfe3",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

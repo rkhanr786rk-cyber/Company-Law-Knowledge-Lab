@@ -1,0 +1,29 @@
+{
+ "summary": "This regulation explains how a listed company must share documents and meeting notices with people who hold its non-convertible securities. It tells the company when to send soft copies, web-links, hard copies, and meeting proxy forms. The rules ensure that security holders get the right information and can participate in meetings.",
+ "points": [
+  "Must send soft copies of full annual reports to holders who registered their email addresses with the company or a depository.",
+  "Must send a letter with a web-link and exact path to the annual report to holders who have not registered their email addresses.",
+  "Must send hard copies of full annual reports to holders who request them.",
+  "Must send meeting notices that state that proxy appointment rules under the Companies Act, 2013 apply.",
+  "Must send proxy forms that let holders vote either for or against each resolution."
+ ],
+ "example": "Aarna Metals Limited has issued non-convertible securities to the public. When the annual report is ready, the company emails soft copies to investors who registered their email addresses. For investors without registered emails, Aarna Metals sends a letter with a web-link to the complete report. Mr. Rao, an investor who prefers paper documents, asks for a physical copy, so the company sends him a hard copy. Later, when calling a meeting of security holders, Aarna Metals sends meeting notices along with proxy forms designed so that holders can easily vote for or against every resolution.",
+ "terms": [
+  {
+   "term": "Non-convertible securities",
+   "meaning": "Financial instruments like bonds or preference shares that cannot be converted into equity shares."
+  },
+  {
+   "term": "Depository",
+   "meaning": "An organization that holds securities in electronic form for investors."
+  },
+  {
+   "term": "Proxy",
+   "meaning": "A person appointed by a security holder to attend and vote at a meeting on their behalf."
+  }
+ ],
+ "watch": "Do not confuse the requirement to email soft copies with the requirement to mail hard copies, as hard copies are only sent upon request.",
+ "h": "e14d374fd71b",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

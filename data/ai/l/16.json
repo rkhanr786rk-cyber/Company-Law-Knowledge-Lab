@@ -1,0 +1,33 @@
+{
+ "summary": "This regulation gives the meaning of important terms used for listed companies. It focuses heavily on who can be called an independent director by setting strict rules about their background, money matters, and connections to the company. It also explains terms like material subsidiary, senior management, and control.",
+ "points": [
+  "The board of directors must consider the independent director to be a person of integrity who has relevant expertise and experience.",
+  "An independent director must not be a promoter or related to the promoters or directors of the company or its related companies.",
+  "An independent director must be at least 21 years of age.",
+  "An independent director must not have had a material pecuniary relationship or certain business ties with the company as specified in the text.",
+  "A listed entity must formulate a policy to determine what counts as a material subsidiary."
+ ],
+ "example": "Aarav Steel Private Limited wanted to appoint a new director, Ms. Sharma, as an independent director on its board. The board checked her background to ensure she was at least 21 years old and a person of integrity with good experience. They confirmed she was never a promoter or an employee of Aarav Steel or its holding company. They also verified that neither she nor her relatives held shares above the allowed limits, owed money to the firm, or worked for its auditing firm. Because she met all these strict conditions in the text, the board decided she qualified to be an independent director.",
+ "terms": [
+  {
+   "term": "independent director",
+   "meaning": "A non-executive board member who has no material, family, or business ties to the company, ensuring unbiased oversight."
+  },
+  {
+   "term": "pecuniary",
+   "meaning": "Relating to money or financial matters."
+  },
+  {
+   "term": "material subsidiary",
+   "meaning": "A subsidiary company whose turnover or net worth exceeds ten percent of the consolidated turnover or net worth of the listed entity."
+  },
+  {
+   "term": "promoter",
+   "meaning": "A person or group that helps start or form the company and is named as such in company documents."
+  }
+ ],
+ "watch": "People often get confused by thinking any director can be independent, but the law sets very strict limits on money ties and family connections.",
+ "h": "dd8e61673a2f",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

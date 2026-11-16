@@ -1,0 +1,29 @@
+{
+ "summary": "This rule tells companies that issue certain securities how to set and announce a record date. A record date is a specific day used to check who is eligible for benefits like interest or payments. The company must inform the stock exchange about this date well in advance.",
+ "points": [
+  "The listed entity must fix a record date following specific external regulations.",
+  "The listed entity must give advance notice of at least three working days to the recognised stock exchange.",
+  "The advance notice must exclude both the date of intimation and the record date.",
+  "The listed entity may instead give notice of as many days as the stock exchange agrees to or requires.",
+  "The listed entity must specify the purpose of the record date in the notice."
+ ],
+ "example": "Sunrise Steel Limited issued non-convertible debt securities to various investors. The company needed to set a record date to determine which investors were eligible to receive their scheduled payments. Before finalizing the date, Sunrise Steel Limited prepared a formal notice for the recognised stock exchange. The company made sure to send this notice in advance, giving at least three working days excluding the date of intimation and the record date. In this notice, Sunrise Steel Limited clearly specified the exact purpose of setting the record date. The stock exchange received the notice on time and acknowledged it, ensuring the process strictly followed the required procedure.",
+ "terms": [
+  {
+   "term": "Record date",
+   "meaning": "A specific date chosen by a company to decide which security holders are eligible to receive payments or benefits."
+  },
+  {
+   "term": "Recognised stock exchange",
+   "meaning": "An official marketplace where company securities are bought and sold, approved by the government."
+  },
+  {
+   "term": "Intimation",
+   "meaning": "An official announcement or formal notification given to someone."
+  }
+ ],
+ "watch": "Do not count the date of intimation and the record date when calculating the mandatory three working days notice.",
+ "h": "cbb7966c3ce5",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

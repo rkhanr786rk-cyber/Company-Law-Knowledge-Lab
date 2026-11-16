@@ -1,0 +1,27 @@
+{
+ "summary": "This rule explains who must follow the special regulations for securitised debt instruments. The Special Purpose Distinct Entity must follow these rules, and its trustees must make sure these rules are fully followed. It also states that specific terms used here have the same meaning as defined in the 2008 SEBI regulations.",
+ "points": [
+  "The listed entity which is a Special Purpose Distinct Entity must follow the provisions of this chapter.",
+  "The trustees of the Special Purpose Distinct Entity must ensure compliance with every provision of these regulations.",
+  "Words and expressions used in this chapter must be understood as defined in the Securities and Exchange Board of India Regulations, 2008."
+ ],
+ "example": "Green Valley Special Purpose Distinct Entity issued securitised debt instruments to the public, backed by a pool of loans. As the entity behind this financial scheme, Green Valley had to follow all the rules laid out in Chapter VIII of the listing obligations. Meanwhile, Apex Trustees Private Limited, who acted as the trustee for Green Valley, checked every step of the process to ensure full compliance with these regulations. Both organizations understood that terms like investor, originator, and asset pool meant the exact same thing here as they did under the 2008 SEBI regulations.",
+ "terms": [
+  {
+   "term": "Securitised debt instruments",
+   "meaning": "Financial certificates or securities backed by a pool of debt or receivables."
+  },
+  {
+   "term": "Trustees",
+   "meaning": "People or entities appointed to hold and manage assets on behalf of investors."
+  },
+  {
+   "term": "Compliance",
+   "meaning": "The act of obeying and following rules, laws, or regulations."
+  }
+ ],
+ "watch": "Do not confuse the duties of the entity itself with the duty of the trustees to ensure that the entity complies with the rules.",
+ "h": "677f31521fdf",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

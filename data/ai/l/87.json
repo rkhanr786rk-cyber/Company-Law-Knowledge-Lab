@@ -1,0 +1,25 @@
+{
+ "summary": "This rule applies to companies that have listed their securitised debt instruments. Such a company must pick a specific date, known as a record date, for making payments like interest or repayment. It must also inform the stock exchange about this date and its purpose well in advance.",
+ "points": [
+  "Must fix a record date for paying interest.",
+  "Must fix a record date for payment of redemption or repayment amounts.",
+  "Must fix a record date for other purposes specified by the recognized stock exchange.",
+  "Must give notice of the record date and its purpose to the recognized stock exchange in advance.",
+  "Must give this notice at least seven working days before, or as many days as the stock exchange agrees to or requires."
+ ],
+ "example": "Zenith Securitised Assets Limited issued debt instruments that are listed on a recognized stock exchange. The company decided to pay interest to the investors who hold these instruments. To do this properly, Zenith Securitised Assets Limited fixed a specific record date for the interest payment. Before reaching that date, the company sent a formal notice to the stock exchange to state the record date and explain its exact purpose. The company made sure to send this notice at least seven working days in advance, strictly excluding the date of intimation and the record date itself, as required by the regulations.",
+ "terms": [
+  {
+   "term": "Record date",
+   "meaning": "A specific date chosen by a company to decide which investors are eligible to receive payments like interest."
+  },
+  {
+   "term": "Redemption",
+   "meaning": "The repayment of the principal amount of a debt instrument to the investor."
+  }
+ ],
+ "watch": "Remember that the advance notice period of seven working days excludes both the date you send the notice and the record date itself.",
+ "h": "5d003d2e9d11",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

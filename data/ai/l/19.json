@@ -1,0 +1,30 @@
+{
+ "summary": "This regulation requires the board of directors to set up a nomination and remuneration committee with a specific group of members. The committee must meet at least once a year and has a designated leader who may attend the annual general meeting to handle shareholder questions. It also sets the minimum number of members needed to hold a valid meeting.",
+ "points": [
+  "The board of directors must form a nomination and remuneration committee with at least three directors.",
+  "All directors on this committee must be non-executive directors.",
+  "At least two-thirds of the directors on the committee must be independent directors.",
+  "The chairperson of the committee must be an independent director.",
+  "The committee must meet at least once in a financial year.",
+  "The quorum for a meeting must be either two members or one-third of the members, whichever is greater, including at least one independent director."
+ ],
+ "example": "At Meera Textiles Private Limited, the board of directors decided to form their nomination and remuneration committee to comply with the rules. They appointed three directors to the committee, and all of them were non-executive directors who did not take part in daily management. Out of these three members, two were independent directors, which met the two-thirds requirement. They chose an independent director to lead the committee as chairperson. To ensure proper attendance, the company made sure every meeting had the required quorum of at least two members present, including at least one independent director.",
+ "terms": [
+  {
+   "term": "Non-executive directors",
+   "meaning": "Board members who are not involved in the day-to-day management of the company."
+  },
+  {
+   "term": "Independent directors",
+   "meaning": "Board members who have no material or pecuniary relationship with the company, ensuring unbiased decisions."
+  },
+  {
+   "term": "Quorum",
+   "meaning": "The minimum number of members required to be present to hold a valid meeting."
+  }
+ ],
+ "watch": "People often confuse independent directors with non-executive directors, but remember that independent directors have stricter rules regarding their independence from the company.",
+ "h": "3eed49682e73",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

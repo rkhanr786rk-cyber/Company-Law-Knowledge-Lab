@@ -1,0 +1,33 @@
+{
+ "summary": "This regulation explains the rules for valuing and rating certain listed investments called security receipts. An issuer must have these assets valued every quarter by an independent expert and calculate their net asset value. The asset reconstruction company must then declare this value within fifteen days, while also following Reserve Bank of India rules for credit ratings.",
+ "points": [
+  "Must value listed security receipts at the end of every quarter on March 31, June 30, September 30, and December 31.",
+  "Must ensure valuation is done by an independent valuer.",
+  "Must calculate the net asset value based on that independent valuation.",
+  "Must declare the net asset value through the asset reconstruction company within fifteen days after the quarter ends.",
+  "Must follow Reserve Bank of India rules for getting credit ratings every half year and declaring the net asset value after that."
+ ],
+ "example": "Zenith Asset Reconstruction Company manages security receipts issued by Sunrise Textiles Limited, which are listed on a stock exchange. As March 31 approaches, Zenith ensures that an independent valuer assesses the value of these security receipts. Using this independent valuation, Zenith calculates the net asset value. Zenith then officially declares this net asset value within fifteen days of the end of the quarter. Additionally, because it is a half yearly interval requiring both external valuation and a credit rating under Reserve Bank of India rules, Zenith checks both calculated values and discloses the lower net asset value as required.",
+ "terms": [
+  {
+   "term": "Security Receipts",
+   "meaning": "A type of financial investment or document issued by an asset reconstruction company that represents undivided interest in financial assets."
+  },
+  {
+   "term": "Independent Valuer",
+   "meaning": "A qualified person who checks the worth of an asset without any bias or connection to the company."
+  },
+  {
+   "term": "Net Asset Value",
+   "meaning": "The value of a fund or asset calculated by taking the total value of assets and subtracting liabilities."
+  },
+  {
+   "term": "Asset Reconstruction Company",
+   "meaning": "A specialized company that buys bad loans and financial assets from banks to help recover the money."
+  }
+ ],
+ "watch": "Remember to disclose the lower net asset value when both external valuation and a credit rating are required in the same half year.",
+ "h": "86c76937003d",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

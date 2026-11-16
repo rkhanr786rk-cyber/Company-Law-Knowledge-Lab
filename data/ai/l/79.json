@@ -1,0 +1,32 @@
+{
+ "summary": "This rule explains how people who hold Indian Depository Receipts can vote on company matters. The company must send out proxy forms so these holders can vote on resolutions. The actual voting rights follow what is written in a special depository agreement.",
+ "points": [
+  "The listed entity must send out proxy forms directly or through an agent.",
+  "The proxy forms must mention that a security holder may vote either for or against each resolution.",
+  "The listed entity may send the proxy forms either directly or through an agent.",
+  "The IDR holders must exercise their voting rights in accordance with the depository agreement."
+ ],
+ "example": "Meera Textiles Private Limited issued Indian Depository Receipts to investors. When the company scheduled a vote on a new business plan, it needed to ensure investors could participate. To follow the rules, Meera Textiles Private Limited sent out proxy forms through its appointed agent to all IDR holders. Each form clearly stated that a security holder had the choice to vote either for or against each resolution. Later, the IDR holders exercised their voting rights strictly in accordance with their depository agreement, ensuring the voting process was handled properly and transparently.",
+ "terms": [
+  {
+   "term": "Proxy form",
+   "meaning": "A paper or document that lets a shareholder authorize someone else to vote for them or record their own vote."
+  },
+  {
+   "term": "Resolution",
+   "meaning": "A formal motion or proposal that is put to a vote before the security holders."
+  },
+  {
+   "term": "Depository agreement",
+   "meaning": "A contract that sets out the terms and rules for managing the depository receipts."
+  },
+  {
+   "term": "IDR Holder",
+   "meaning": "A person or entity that holds Indian Depository Receipts in the company."
+  }
+ ],
+ "watch": "Do not assume IDR holders vote directly like regular shareholders without checking the depository agreement first.",
+ "h": "a0f120e966f3",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

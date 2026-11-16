@@ -1,0 +1,33 @@
+{
+ "summary": "This rule explains how listed companies must handle requests to transfer, transmit, or transpose securities. Generally, shares must be in electronic or dematerialized form to be processed. Companies must also respect legal blocks and objections from transferors.",
+ "points": [
+  "The listed entity must not process transfer requests unless the securities are held in dematerialised form with a depository.",
+  "The listed entity must effect transmission or transposition of securities only in dematerialised form.",
+  "The listed entity must not register a transfer if a statutory prohibition or a prohibitory order from a competent authority restrains it.",
+  "The listed entity must not register a transfer if the transferor objects, provided the transferor serves a court order within sixty working days of raising the objection.",
+  "The listed entity must comply with all procedural requirements specified by the Board from time to time."
+ ],
+ "example": "Aarav owns physical shares in Horizon Pharma Limited, a listed company. He sells these shares to Priya in 2023. When Priya asks Horizon Pharma Limited to transfer the shares into her name, the company refuses because the shares are not in dematerialized form and were executed after April 1, 2019. In a separate case, Rohan wants to transfer his shares, but he immediately objects and gets a court order restraining the transfer, serving it to the company within the allowed time. Horizon Pharma Limited complies and stops the transfer.",
+ "terms": [
+  {
+   "term": "dematerialised form",
+   "meaning": "Holding securities in electronic format in an account with a depository instead of paper certificates."
+  },
+  {
+   "term": "transmission",
+   "meaning": "The passing of title of securities of a deceased holder to their legal heir or nominee."
+  },
+  {
+   "term": "transposition",
+   "meaning": "Changing the order of names in which securities are held jointly by two or more people."
+  },
+  {
+   "term": "transferor",
+   "meaning": "The person who currently owns the securities and is transferring them to someone else."
+  }
+ ],
+ "watch": "People often confuse transfer with transmission, but transfer is a voluntary sale or gift while transmission happens usually due to death.",
+ "h": "2c4fa3795339",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

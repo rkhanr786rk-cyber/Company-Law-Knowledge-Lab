@@ -1,0 +1,34 @@
+{
+ "summary": "This regulation explains how a listed company must prepare, approve, sign, and submit its financial results to the stock exchange. It sets rules for using proper accounting standards, getting audits or limited reviews done by qualified auditors, and meeting specific submission deadlines. It also requires the chief executive officer and chief financial officer to certify that the results are truthful and complete.",
+ "points": [
+  "The listed entity must prepare financial results using the accrual accounting policy and uniform accounting practices.",
+  "The listed entity must ensure that limited review or audit reports are given only by an auditor with a valid peer review certificate.",
+  "The board of directors must approve the quarterly financial results before submission.",
+  "The chief executive officer and chief financial officer must certify that the financial results do not contain false or misleading statements.",
+  "The listed entity must submit quarterly standalone financial results to the stock exchange within forty-five days of the end of each quarter.",
+  "The listed entity must submit annual audited standalone financial results within sixty days from the end of the financial year."
+ ],
+ "example": "Meera Textiles Private Limited is preparing its financial results for the latest quarter. Before submitting them, the chief executive officer and chief financial officer sign a certificate stating the results contain no false or misleading figures. Next, the board of directors reviews and approves the results along with the limited review report provided by their statutory auditor. Once approved, the managing director signs the documents, and the company submits the quarterly standalone financial results to the stock exchange within the required forty-five day time limit.",
+ "terms": [
+  {
+   "term": "Accrual accounting policy",
+   "meaning": "An accounting method where revenues and expenses are recorded when they happen, regardless of when money changes hands."
+  },
+  {
+   "term": "Standalone financial results",
+   "meaning": "Financial results that show the performance of just the parent company alone, without including its subsidiary companies."
+  },
+  {
+   "term": "Consolidated financial results",
+   "meaning": "Financial results that combine the accounts of a parent company and all its subsidiary companies together."
+  },
+  {
+   "term": "Limited review",
+   "meaning": "A procedure where an auditor checks company accounts less thoroughly than a full audit, usually done for quarterly results."
+  }
+ ],
+ "watch": "People often get confused between standalone and consolidated results, but companies with subsidiaries must submit both.",
+ "h": "d321209e940e",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

@@ -1,0 +1,581 @@
+{
+ "2": {
+  "summary": "This rule provides the meaning of various words and terms used in the regulations. It clarifies terms like associate, board, financial year, and holding company by linking them to other laws like the Companies Act, 2013. These definitions help everyone understand exactly what each term means within the rules.",
+  "points": [
+   "The term Act refers to the Securities and Exchange Board of India Act, 1992.",
+   "An associate is defined using the Companies Act, 2013 or applicable accounting standards, except for certain mutual funds.",
+   "Terms like financial year, holding company, and net worth share the meanings given to them under the Companies Act, 2013.",
+   "A listed entity is an entity that has its designated securities listed on a recognized stock exchange."
+  ],
+  "example": "Meera Textiles Private Limited wants to issue and list its securities on a recognized stock exchange. Before doing so, the company checks the regulations to understand key definitions. It looks up the meaning of a holding company and a financial year by referring to the definitions provided under the Companies Act, 2013, as stated in the rules. By understanding these terms, Meera Textiles Private Limited ensures it follows the correct legal definitions for its listing process.",
+  "terms": [
+   {
+    "term": "Associate",
+    "meaning": "An entity connected to another entity under specific legal sections or accounting standards."
+   },
+   {
+    "term": "Listed entity",
+    "meaning": "An entity that has its designated securities listed on a recognized stock exchange."
+   },
+   {
+    "term": "Designated securities",
+    "meaning": "Specific types of securities and financial instruments covered under these regulations."
+   }
+  ],
+  "watch": "Make sure to check the specific Act or accounting standard referenced in each definition rather than guessing the meaning.",
+  "h": "924207d063ba",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-16"
+ },
+ "9": {
+  "summary": "Listed companies must keep a board-approved policy to save documents permanently or for at least eight years after transactions end. They must also file reports electronically, pay dividends using approved electronic modes, and solve investor complaints quickly. The text is clear enough to outline these core duties.",
+  "points": [
+   "Companies must have a board-approved document preservation policy with permanent and eight-year categories.",
+   "Reports and information must be filed electronically with recognized stock exchanges.",
+   "Dividends, interest, and repayments must be paid using electronic payment facilities approved by the Reserve Bank of India.",
+   "Investor grievances must be addressed promptly within twenty-one calendar days."
+  ],
+  "example": "Meera Textiles Private Limited wants to pay dividends to its shareholders. Following the rules, the company uses an electronic mode of payment approved by the Reserve Bank of India. Later, an investor sends a complaint to the company. Meera Textiles Private Limited acts promptly and resolves this investor grievance within twenty-one calendar days from the date of receipt, ensuring full compliance with the given requirements.",
+  "terms": [
+   {
+    "term": "Listed entity",
+    "meaning": "A company that has its securities listed on a recognized stock exchange."
+   },
+   {
+    "term": "Redemption",
+    "meaning": "The repayment of a principal amount by a company to security holders."
+   },
+   {
+    "term": "Electronic mode",
+    "meaning": "Digital or computer-based methods of processing payments or filings."
+   }
+  ],
+  "watch": "Do not assume old rules about physical cheques or speed posts still apply, as recent amendments require electronic payments.",
+  "h": "89d56d970d62",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-16"
+ },
+ "22": {
+  "summary": "Listed companies must create a vigil mechanism or whistle blower policy to let directors and employees report genuine concerns safely. They must also have a clear policy for handling related party transactions, including getting prior approval from the audit committee. Because the provided text cuts off mid-sentence, some details are incomplete.",
+  "points": [
+   "Listed entities must set up a vigil mechanism or whistle blower policy.",
+   "The mechanism must protect reporters from being victimized and allow direct access to the audit committee chairperson.",
+   "Listed entities must create a policy on material related party transactions approved by the board.",
+   "Related party transactions require prior approval from independent directors on the audit committee."
+  ],
+  "example": "At Meera Textiles Private Limited, an employee notices a unusual financial entry involving a related party. Using the company vigil mechanism, the employee reports this genuine concern safely without fear of unfair treatment. Because the company policy requires prior approval for such dealings, the audit committee reviews the transaction details before it proceeds further.",
+  "terms": [
+   {
+    "term": "Vigil mechanism",
+    "meaning": "A system that lets directors and employees report genuine concerns securely."
+   },
+   {
+    "term": "Related party",
+    "meaning": "A person or company connected to the listed entity in a close or business relationship."
+   },
+   {
+    "term": "Audit committee",
+    "meaning": "A committee of directors that oversees financial reporting and related matters."
+   }
+  ],
+  "watch": "Make sure to check whether the committee members approving the transaction are independent directors.",
+  "h": "ab06b3283a67",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-16"
+ },
+ "29": {
+  "summary": "Listed companies must give prior notice to the stock exchange at least two working days before holding a board meeting to discuss important proposals like financial results, fund raising, or dividends. The notice must clearly mention the date of the board meeting. Companies must also share material events and information with the public based on specific tests of importance.",
+  "points": [
+   "A listed entity must inform the stock exchange at least two working days before a board meeting that considers proposals like financial results, buybacks, or delisting.",
+   "Prior intimation is also required for meetings proposing fund raising, dividends, bonus securities, or alterations to listed securities.",
+   "The notice sent to the stock exchange must explicitly mention the date of the board meeting.",
+   "Companies must disclose any events or information that the board of directors considers material according to set rules."
+  ],
+  "example": "Meera Textiles Private Limited is a listed company planning a board meeting to discuss its upcoming quarterly financial results. Before holding this meeting, the company sends an official notice to the stock exchange at least two working days in advance, excluding the date of the notice and the meeting date. This notice properly mentions the exact date on which the board of directors will meet to review the financial results.",
+  "terms": [
+   {
+    "term": "Listed entity",
+    "meaning": "A company whose shares or other securities are traded on a stock exchange."
+   },
+   {
+    "term": "Intimation",
+    "meaning": "An official notice or announcement given to inform someone, such as a stock exchange."
+   },
+   {
+    "term": "Material",
+    "meaning": "Important information that could significantly affect the company or market reactions if left undisclosed."
+   }
+  ],
+  "watch": "Remember that the two working days notice excludes both the date of the intimation and the date of the meeting itself.",
+  "h": "dafc4ab94be4",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-16"
+ },
+ "48": {
+  "summary": "This rule explains that companies with listed non-convertible securities must follow specific accounting standards. It also requires companies to give advance notice to the stock exchange before holding board meetings about certain important proposals like financial results or fund raising. The text further explains how terms like interest apply to preference shares and defines what counts as a default.",
+  "points": [
+   "Listed entities must comply with all applicable and notified Accounting Standards.",
+   "Companies must give prior intimation of at least two working days to the stock exchange before board meetings discussing certain proposals.",
+   "Proposals requiring advance notice include alterations to securities, changes in payment dates, financial results, and fund raising.",
+   "A default means the non-payment of interest, dividend, or principal in full on the pre-agreed date."
+  ],
+  "example": "Meera Textiles Private Limited planned to hold a board meeting to discuss its quarterly financial results. Because its non-convertible securities are listed on a recognized stock exchange, the company had to send an advance intimation to the stock exchange at least two working days before the meeting date, excluding the date of the intimation and the board meeting itself.",
+  "terms": [
+   {
+    "term": "Listed entity",
+    "meaning": "An organization whose securities are traded on a recognized stock exchange."
+   },
+   {
+    "term": "Default",
+    "meaning": "The non-payment of interest, dividend, or principal amount in full on the pre-agreed date."
+   },
+   {
+    "term": "Intimation",
+    "meaning": "A formal notice or official communication given to someone, such as a stock exchange."
+   }
+  ],
+  "watch": "Remember that the two-day notice period excludes both the date of the intimation and the date of the board meeting.",
+  "h": "5386738ce673",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-16"
+ },
+ "57": {
+  "summary": "This regulation requires a listed company to submit a certificate to the stock exchange regarding payments for non-convertible securities within one working day of the due date. It also details the rules for sending annual reports, sending meeting notices with proxy options, and getting prior approval from the stock exchange before making material changes to the structure of these securities.",
+  "points": [
+   "A certificate about interest, dividend, or principal payment status must be sent to the stock exchange within one working day of becoming due.",
+   "Soft copies of full annual reports must be sent to security holders who registered their email addresses.",
+   "Holders who did not register their email get a letter with a web-link and exact path to the annual report.",
+   "Hard copies of the annual report must be sent to those holders who request them."
+  ],
+  "example": "Meera Textiles Private Limited had issued non-convertible securities and a payment of interest became due. Within one working day of that due date, Meera Textiles Private Limited submitted a certificate to the stock exchange regarding the status of the payment.",
+  "terms": [
+   {
+    "term": "Listed entity",
+    "meaning": "An organization whose securities are traded on a stock exchange."
+   },
+   {
+    "term": "Non-convertible securities",
+    "meaning": "Financial instruments that cannot be converted into equity shares of the company."
+   },
+   {
+    "term": "Depository",
+    "meaning": "An organization that holds securities in electronic form on behalf of investors."
+   }
+  ],
+  "watch": "Make sure not to confuse the requirement of sending soft copies to registered emails with sending hard copies only upon specific request.",
+  "h": "b392dc341ab1",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-16"
+ },
+ "62": {
+  "summary": "This rule requires certain companies whose securities are listed on a stock exchange to maintain a working website with specific details. The website must display business information, financial results, contact details for investor help, credit ratings, and annual returns. The company must ensure all website content remains correct, updated, and changed details are updated within two working days.",
+  "points": [
+   "The listed entity must maintain a functional website with business and financial details.",
+   "The website must show contact details for officials handling investor grievances and an email address for redressal.",
+   "The entity must publish credit ratings, annual returns, and information about non-convertible securities.",
+   "All website contents must be correct, updated at all times, and changes must be updated within two working days."
+  ],
+  "example": "Meera Textiles Private Limited has its securities listed on a stock exchange. To follow the rules, Meera Textiles Private Limited launches a functional website. On this website, the company publishes details of its business, financial results, contact information for investor grievances, and its annual return. When a change happens on the website, Meera Textiles Private Limited updates it within two working days.",
+  "terms": [
+   {
+    "term": "listed entity",
+    "meaning": "A company whose securities are traded on a recognized stock exchange."
+   },
+   {
+    "term": "debenture trustee",
+    "meaning": "A person or entity that protects the interests of investors who hold debentures."
+   },
+   {
+    "term": "annual return",
+    "meaning": "A yearly report providing specific information about the company as required by the Companies Act, 2013."
+   }
+  ],
+  "watch": "Ensure that any change to website content is updated within the exact timeframe of two working days.",
+  "h": "75b643e167ab",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-16"
+ },
+ "62C": {
+  "summary": "This rule determines which entities are classified as high value debt listed entities based on the principal outstanding value of their listed debt securities. Once these rules apply to an entity, they continue to apply until the outstanding value reduces and stays below the threshold for a specified consecutive period. It also sets specific governance norms regarding the composition of the board of directors and age limits for non-executive directors.",
+  "points": [
+   "Entities with non-convertible debt securities of a specific high value are referred to as high value debt listed entities.",
+   "If an entity crosses the threshold during the financial year, it must ensure compliance within a set timeframe.",
+   "The rules continue to apply until the outstanding value remains below the threshold for three consecutive financial years.",
+   "The board of directors must include an optimum combination of executive and non-executive directors, with specific requirements for independent directors."
+  ],
+  "example": "Meera Textiles Private Limited has listed non-convertible debt securities. During the financial year, the value of its outstanding listed debt securities reaches the specified threshold amount. Because of this trigger, Meera Textiles Private Limited must ensure compliance with the applicable provisions within six months from the date of the trigger, making the necessary disclosures in the Corporate Governance Compliance Report starting from the third quarter following the date of the trigger.",
+  "terms": [
+   {
+    "term": "Non-convertible debt securities",
+    "meaning": "Borrowed money or bonds issued by a company that cannot be converted into equity shares."
+   },
+   {
+    "term": "Independent directors",
+    "meaning": "Board members who do not have any material or pecuniary relationship with the company, its promoters, or its management."
+   },
+   {
+    "term": "Special resolution",
+    "meaning": "A resolution passed by a higher majority of votes of shareholders as required by company law."
+   }
+  ],
+  "watch": "Check carefully whether your entity meets the exact outstanding value threshold and the duration required for the rules to stop applying.",
+  "h": "8cac5a8bc7ed",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-16"
+ },
+ "62L": {
+  "summary": "This rule outlines the requirements for large listed companies regarding their material subsidiaries and independent directors. It sets rules for oversight, transactions, and the appointment and duties of independent directors. The text helps ensure proper governance and transparency between parent companies and their subsidiaries.",
+  "points": [
+   "At least one independent director from the HVDLE must also sit on the board of an unlisted material subsidiary.",
+   "The audit committee of the HVDLE must review financial statements and investments of the unlisted material subsidiary.",
+   "Independent directors of the HVDLE must hold at least one meeting a year without management or non-independent directors present.",
+   "Special resolutions by shareholders are required for certain share sales, asset leases, or independent director appointments."
+  ],
+  "example": "Meera Textiles Private Limited is an unlisted material subsidiary of Apex HVDLE. Following the regulations, Apex HVDLE ensures that one of its independent directors joins the board of Meera Textiles Private Limited. The audit committee of Apex HVDLE reviews the financial statements and investments made by Meera Textiles Private Limited to maintain proper governance and oversight.",
+  "terms": [
+   {
+    "term": "Subsidiary",
+    "meaning": "A company controlled by another company."
+   },
+   {
+    "term": "Independent director",
+    "meaning": "A board member who does not have a material relationship with the company and helps bring an impartial view."
+   },
+   {
+    "term": "Special resolution",
+    "meaning": "A formal decision passed by shareholders requiring a higher voting threshold than a standard decision."
+   }
+  ],
+  "watch": "Do not confuse an unlisted subsidiary with a listed subsidiary, as different governance layers may apply.",
+  "h": "c1a72db36b5e",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-16"
+ },
+ "4": {
+  "summary": "This rule sets out the core principles that companies with listed securities must follow regarding disclosures, reporting, and corporate governance. It covers the rights of shareholders, timely information sharing, equitable treatment, stakeholder roles, transparency, and board responsibilities. These principles ensure that companies are honest, transparent, and fair to all investors and stakeholders.",
+  "points": [
+   "Companies must share accurate, clear, and timely financial and event-based information with stock exchanges and investors.",
+   "Companies must protect shareholder rights, such as voting, asking questions, and participating in key decisions.",
+   "All shareholders of the same class must be treated equally, including minority and foreign shareholders.",
+   "Companies must respect stakeholder rights and set up a vigil mechanism or whistleblower policy for reporting unethical practices.",
+   "The board of directors must ensure transparent disclosures and take responsibility for managing the company fairly."
+  ],
+  "example": "Aarav Wheels Private Limited is a company with listed securities. When scheduling its general meeting, the company shares the date, location, and agenda with all investors in a timely manner. During the meeting, minority shareholders are given a fair opportunity to ask questions and vote. A foreign shareholder living abroad is easily able to cast their vote without facing complex or expensive procedures. Meanwhile, the board ensures that all financial reports are prepared accurately and made available to everyone on an equal basis.",
+  "terms": [
+   {
+    "term": "Listed entity",
+    "meaning": "A company that has its securities listed on a recognized stock exchange."
+   },
+   {
+    "term": "Stakeholders",
+    "meaning": "People or groups with an interest in the company, such as employees, investors, and partners."
+   },
+   {
+    "term": "Corporate governance",
+    "meaning": "The system of rules, practices, and processes by which a company is directed and controlled."
+   }
+  ],
+  "watch": "Keep in mind that these principles apply broadly to listed entities and require both transparency and fair treatment of all shareholders.",
+  "h": "fdba7b89ba51",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-16"
+ },
+ "6": {
+  "summary": "Every company whose shares are listed on a stock exchange must hire a qualified company secretary to act as its compliance officer. This person must work full time, be a key manager, and sit close to the board of directors. If the position becomes empty, the company must fill it within three months.",
+  "points": [
+   "A listed company must appoint a qualified company secretary as the compliance officer.",
+   "The compliance officer must be a full-time employee, hold a key management role, and be no more than one level below the board of directors.",
+   "Any empty compliance officer position must be filled within three months.",
+   "The compliance officer is responsible for making sure the company follows all rules, reports accurately to authorities, and monitors investor complaints."
+  ],
+  "example": "At Meera Textiles Private Limited, the compliance officer decided to retire. The company needed to replace this person quickly. Within three months, Meera Textiles hired Mr. Sharma, a qualified company secretary, to be their new full-time compliance officer. Mr. Sharma immediately took charge of talking to stock exchanges, checking company reports for accuracy, and reading investor emails sent to the grievance division.",
+  "terms": [
+   {
+    "term": "Listed entity",
+    "meaning": "A company whose shares or securities are traded on a recognized stock exchange."
+   },
+   {
+    "term": "Key Managerial Personnel",
+    "meaning": "Top level officers of a company who run its daily operations and hold significant authority."
+   },
+   {
+    "term": "Compliance officer",
+    "meaning": "An official responsible for ensuring that a company follows all applicable laws and regulations."
+   }
+  ],
+  "watch": "People often think an interim appointment can be made without following standard rules, but temporary appointments must also meet the proper legal requirements.",
+  "h": "e3c2b1c80422",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-16"
+ },
+ "7": {
+  "summary": "A listed company must handle its share transfer work either by itself or through an external agency that is registered with the Board. If the company handles the work itself and the total number of security holders crosses one lakh, it must hire a registered agency or register itself as one. When changing or appointing a new agency, the company must sign a formal agreement and inform the stock exchange within seven days.",
+  "points": [
+   "Companies can manage share transfers internally or use a registered registrar and share transfer agent.",
+   "If internal security holders exceed one lakh, the company must register with the Board or appoint a registered agent.",
+   "A tripartite agreement is required when changing or appointing a new agent, or a bipartite agreement if moving from internal management.",
+   "The stock exchange must be informed within seven days of entering into the agreement.",
+   "Mutual fund units listed on recognized stock exchanges do not need to follow these requirements."
+  ],
+  "example": "Meera Textiles Private Limited is a listed company that manages its share transfers in-house. Over time, the total number of holders of securities in the company exceeds one lakh. To comply with the rules, Meera Textiles decides to appoint Star Share Agency, a registrar registered with the Board. They sign the required agreement and promptly inform the stock exchange about this new appointment within seven days as stated.",
+  "terms": [
+   {
+    "term": "listed entity",
+    "meaning": "A company whose securities are traded on a recognized stock exchange."
+   },
+   {
+    "term": "registrar to an issue and share transfer agent",
+    "meaning": "An entity that maintains records of investors and handles share transfers."
+   },
+   {
+    "term": "in-house",
+    "meaning": "Managed directly by the company itself rather than by an outside agency."
+   }
+  ],
+  "watch": "Make sure not to confuse internal share transfer management with using an external registered agent when the holder count exceeds one lakh.",
+  "h": "db1ce5183f9d",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-16"
+ },
+ "8": {
+  "summary": "This rule requires certain listed companies to fully cooperate and share accurate information with registered market intermediaries like credit rating agencies. They must do this according to the timelines and procedures set by the relevant laws. However, this rule does not apply to units issued by mutual funds listed on a stock exchange.",
+  "points": [
+   "Listed entities must cooperate with registered intermediaries such as credit rating agencies and share transfer agents.",
+   "Correct and adequate information must be submitted within the specified timelines and procedures.",
+   "Mutual funds listed on a recognized stock exchange are exempt from this specific requirement."
+  ],
+  "example": "Alpha Tech Limited is a company whose shares are traded on a stock exchange. A registered credit rating agency asks Alpha Tech Limited for financial documents to review its credit score. Alpha Tech Limited must cooperate and provide the correct information on time. Meanwhile, Beta Mutual Fund, which is also listed on the stock exchange, follows a different set of rules under the Mutual Funds Regulations and does not have to follow this specific process.",
+  "terms": [
+   {
+    "term": "Listed entity",
+    "meaning": "A company that has its shares or securities traded on a recognized stock exchange."
+   },
+   {
+    "term": "Intermediaries",
+    "meaning": "Professional organizations registered with the Board that help run the financial market, such as credit rating agencies."
+   }
+  ],
+  "watch": "Do not assume mutual funds listed on stock exchanges must follow this rule, as they are governed by separate regulations.",
+  "h": "262d799d42da",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-16"
+ },
+ "18": {
+  "summary": "Every listed company must set up an audit committee with at least three directors. Most members must be independent, and all must understand basic financial statements. The committee helps oversee company accounts and must meet regularly.",
+  "points": [
+   "The audit committee must have a minimum of three directors as members.",
+   "At least two-thirds of the committee members must be independent directors.",
+   "All members must be financially literate, with at least one member having accounting or financial management expertise.",
+   "The chairperson of the audit committee must be an independent director and attend the annual general meeting."
+  ],
+  "example": "Meera Textiles Private Limited is preparing its company committees. The board creates an audit committee consisting of three directors. Two of these members are independent directors, satisfying the two-thirds requirement. All three members can read and understand basic financial statements like balance sheets. One member previously worked as a chief financial officer, providing the necessary financial management expertise. The chairperson is chosen from the independent directors to lead the committee.",
+  "terms": [
+   {
+    "term": "independent director",
+    "meaning": "A board member who does not have a material or pecuniary relationship with the company."
+   },
+   {
+    "term": "financially literate",
+    "meaning": "The ability to read and understand basic financial statements like balance sheets and profit and loss accounts."
+   },
+   {
+    "term": "quorum",
+    "meaning": "The minimum number of members required to be present to hold a valid meeting."
+   }
+  ],
+  "watch": "People often confuse independent directors with regular executive directors who work inside the company.",
+  "h": "4be666584546",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-16"
+ },
+ "47": {
+  "summary": "This rule requires certain companies whose shares are traded on a stock exchange to publish a newspaper advertisement after their board of directors approves financial results. The ad must include a Quick Response code and a webpage link where investors can view the full results. The ad must appear in one English national newspaper and one regional language newspaper.",
+  "points": [
+   "Publish a newspaper advertisement within forty-eight hours of the board meeting that approved the financial results.",
+   "Include a Quick Response code and the webpage address where complete financial results and auditor opinions can be accessed.",
+   "Print the advertisement in at least one English national daily newspaper and one regional language daily newspaper.",
+   "Companies with specified securities listed on a Small and Medium Enterprise Exchange do not have to follow these requirements."
+  ],
+  "example": "Meera Textiles Private Limited held a board meeting where the directors approved the company's financial results. Within forty-eight hours, the company published an advertisement in an English national daily newspaper and a regional language newspaper. The advertisement featured a Quick Response code and a webpage link pointing to the full financial results and auditor comments so that investors could easily find them.",
+  "terms": [
+   {
+    "term": "listed entity",
+    "meaning": "A company that has its securities or shares traded on a recognized stock exchange."
+   },
+   {
+    "term": "auditor",
+    "meaning": "An independent professional who checks and examines a company's financial accounts and records."
+   }
+  ],
+  "watch": "Make sure not to confuse this rule with separate rules that might apply to companies listed specifically on a Small and Medium Enterprise Exchange.",
+  "h": "2b3396b9c694",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-16"
+ },
+ "56": {
+  "summary": "This rule requires a listed company to share certain important documents, reports, and notices with its debenture trustee within twenty-four hours from the occurrence of the event or receipt of information. It also ensures that the debenture trustee receives required certificates regarding the use of funds and security cover. Furthermore, the company must provide any information and access to account books requested by the trustee.",
+  "points": [
+   "Send the annual report and auditor fund utilization certificate to the debenture trustee as soon as possible, and at most within twenty-four hours.",
+   "Share all notices, resolutions, and circulars related to new issues or meetings with the debenture trustee.",
+   "Report any credit rating changes, payment defaults, or failures to create asset charges immediately.",
+   "Provide any additional information and access to books of accounts when the debenture trustee asks for them."
+  ],
+  "example": "Aarav Steel Pipes Limited issued bonds to the public and appointed a debenture trustee to protect the bondholders. When Aarav Steel Pipes Limited received notice of a credit rating revision, it immediately sent an intimation to the debenture trustee within twenty-four hours. Later, the debenture trustee requested access to the account books, and the company promptly allowed the trustee to inspect the relevant books of accounts.",
+  "terms": [
+   {
+    "term": "Debenture trustee",
+    "meaning": "A person or entity that protects the interests of people who invest in a company's debentures."
+   },
+   {
+    "term": "Security cover",
+    "meaning": "Assets kept as backing to ensure that the debt can be paid back to the investors."
+   },
+   {
+    "term": "Intimation",
+    "meaning": "An official announcement or notice given to someone."
+   }
+  ],
+  "watch": "Make sure to send the required documents within twenty-four hours of the event or information receipt.",
+  "h": "4e543b42d83e",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-16"
+ },
+ "62E": {
+  "summary": "This rule sets limits on the number of directorships a director can hold in certain companies. It explains how to count companies with equity shares and high value debt, and excludes certain public sector roles. Directors must follow these limits by the specified deadline.",
+  "points": [
+   "A person can act as a director or an independent director in a maximum of seven listed entities.",
+   "A person serving as a whole time or managing director in a listed entity can serve as an independent director in at most three listed entities.",
+   "The count includes entities whose equity shares are listed and high value debt listed entities.",
+   "Directorships held on an ex-officio basis due to statute or contracts in public sector undertakings and public private partnerships are not counted.",
+   "Compliance is required within six months from the 2025 amendment publication date or the date of the Annual General Meeting, whichever is later."
+  ],
+  "example": "Mr. Sharma is a managing director at Rohan Pharma Limited, a listed entity. He wants to join more boards as an independent director. According to the rules, because he is already a managing director, he can serve as an independent director in not more than three listed entities. He must ensure his total positions follow these limits and meet the required compliance deadline.",
+  "terms": [
+   {
+    "term": "Listed entities",
+    "meaning": "Companies whose shares or debt are traded on a stock exchange."
+   },
+   {
+    "term": "Independent director",
+    "meaning": "A board member who helps bring an independent view and does not have a material relationship with the company."
+   },
+   {
+    "term": "Ex-officio",
+    "meaning": "Holding a position automatically by right of holding another office."
+   }
+  ],
+  "watch": "Remember that being a managing director restricts how many independent director roles you can take.",
+  "h": "8984a71c6a13",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-16"
+ },
+ "62F": {
+  "summary": "This rule sets up specific committees for certain entities, such as an audit committee that must have at least three directors and meet four times a year. It outlines member requirements like financial literacy and independent directors. Other committees like the nomination and remuneration committee, stakeholders relationship committee, and risk management committee are also covered.",
+  "points": [
+   "The audit committee must have at least three directors, with two-thirds being independent directors.",
+   "The audit committee must meet at least four times a year.",
+   "The nomination and remuneration committee must have at least three directors who are non-executive directors.",
+   "The risk management committee must meet at least twice a year."
+  ],
+  "example": "At Meera Textiles Private Limited, the board formed an audit committee with three directors. Two of these directors are independent. All members can read basic financial statements, and one member has accounting expertise. The chairperson, who is an independent director, plans to attend the annual general meeting to answer shareholder questions.",
+  "terms": [
+   {
+    "term": "independent director",
+    "meaning": "A director who does not have a material or pecuniary relationship with the company."
+   },
+   {
+    "term": "quorum",
+    "meaning": "The minimum number of members that must be present to hold a valid meeting."
+   },
+   {
+    "term": "non-executive director",
+    "meaning": "A board member who is not involved in the day-to-day management of the company."
+   }
+  ],
+  "watch": "Make sure not to confuse the different meeting frequency rules for each specific committee.",
+  "h": "83b63fc4bebf",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-16"
+ },
+ "64E": {
+  "summary": "A company whose securities are listed on a stock exchange must get approval from every holder of certain debt securities or preference shares. This approval must happen within fifteen working days from when the delisting notice is sent. If the company is delisting non-convertible debt securities, it also needs a special letter of approval from its debenture trustee.",
+  "points": [
+   "The company must get approval from all holders of non-convertible debt securities or non-convertible redeemable preference shares.",
+   "This approval must be gathered within fifteen working days from the date of the delisting notice.",
+   "If delisting non-convertible debt securities, the company must also get a No-Objection Letter from the debenture trustee."
+  ],
+  "example": "Meera Textiles Private Limited wants to delist its non-convertible debt securities. Within fifteen working days from the date of the delisting notice, the company must obtain approval from all the holders of these non-convertible debt securities. In addition, Meera Textiles Private Limited must obtain a No-Objection Letter from the debenture trustee for this delisting process to move forward properly.",
+  "terms": [
+   {
+    "term": "listed entity",
+    "meaning": "A company whose shares or securities are traded on a recognized stock exchange."
+   },
+   {
+    "term": "delisting",
+    "meaning": "The removal of a company's securities from a stock exchange so they can no longer be traded there."
+   },
+   {
+    "term": "debenture trustee",
+    "meaning": "An independent person or organization appointed to protect the interests of people who hold a company's debt securities."
+   }
+  ],
+  "watch": "Remember that you need approval from all holders plus a No-Objection Letter specifically for debt securities, not just one of the two.",
+  "h": "c748022ac1dc",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-16"
+ },
+ "64F": {
+  "summary": "This rule explains when a proposal to remove securities from a stock exchange fails and what the company must do next. It also outlines the timeline for making a final application to the stock exchange for delisting. If any required approval or clearance is missing, the delisting proposal is considered failed.",
+  "points": [
+   "A delisting proposal fails if the company does not get in-principle approval from stock exchanges.",
+   "A failure also happens if required approvals from specific debt or preference security holders are missing.",
+   "Failing to get a No-Objection Letter from the debenture trustee results in a failed delisting proposal.",
+   "The listed entity must inform the stock exchanges within one working day of a failed proposal.",
+   "A final delisting application must be made to the stock exchange within five working days after getting the required security holder approvals."
+  ],
+  "example": "Meera Textiles Private Limited planned to delist its non-convertible debt securities. The company successfully obtained approval from the holders of these securities. Following this, within five working days, Meera Textiles submitted its final application for delisting to the stock exchange using the specified form. The stock exchange then processed and disposed of this complete application within fifteen working days, resulting in the successful delisting of the company's securities from the exchange.",
+  "terms": [
+   {
+    "term": "Delisting",
+    "meaning": "The removal of a company's securities from a stock exchange so they are no longer traded there."
+   },
+   {
+    "term": "Debenture trustee",
+    "meaning": "An independent person or entity appointed to protect the interests of investors who hold debentures."
+   },
+   {
+    "term": "Listed entity",
+    "meaning": "A company whose securities are traded on a stock exchange."
+   }
+  ],
+  "watch": "Do not confuse the one-day deadline to inform the stock exchange about a failed proposal with the five-day deadline to submit a final application for a successful proposal.",
+  "h": "103e3ce58df5",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-16"
+ },
+ "64H": {
+  "summary": "A company with certain securities listed on multiple stock exchanges can choose to remove them from all exchanges except one that has nationwide trading terminals. To do this, the company must get board approval, apply to the stock exchange, post details on its website, and get a No-Objection Letter if required. The stock exchange will then process this complete application within thirty working days.",
+  "points": [
+   "A listed entity may delist its securities or shares from all stock exchanges except one that has nationwide trading terminals.",
+   "The company must obtain prior approval from its board of directors and make a delisting application to the stock exchange.",
+   "The company must disclose the delisting, reasons, and the remaining exchange on its website.",
+   "If delisting non-convertible debt securities, the company must get a No-Objection Letter from the Debenture Trustee.",
+   "The stock exchange must dispose of a complete delisting application within thirty working days."
+  ],
+  "example": "Alpha Debt Securities Private Limited had its non-convertible debt securities listed on three different stock exchanges. The board of directors decided to delist the securities from all exchanges except for Exchange X, which had nationwide trading terminals. Alpha Debt Securities Private Limited obtained prior approval from its board, secured a No-Objection Letter from the Debenture Trustee, applied to the stock exchange, and published the reasons and details of the ongoing listing on Exchange X on its official website.",
+  "terms": [
+   {
+    "term": "Listed entity",
+    "meaning": "A company or body corporate that has its securities listed on a stock exchange."
+   },
+   {
+    "term": "Debenture Trustee",
+    "meaning": "An entity appointed to protect the interests of holders of non-convertible debt securities."
+   }
+  ],
+  "watch": "Make sure to keep at least one stock exchange with nationwide trading terminals when delisting.",
+  "h": "9b3ef01aefc3",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-16"
+ }
+}

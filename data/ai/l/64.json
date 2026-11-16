@@ -1,0 +1,28 @@
+{
+ "summary": "This regulation explains what a company must do when its securities stop being traded on a stock exchange. If specific securities are removed, the company must follow certain other chapters of the rules. It also sets out when rules for voluntary removal of certain debt securities and preference shares apply or do not apply.",
+ "points": [
+  "The listed entity must comply with all provisions in Chapter V if its specified securities are delisted from the stock exchange.",
+  "The listed entity must comply with all provisions in Chapter IV if its non-convertible debt securities and non-convertible redeemable preference shares do not remain listed.",
+  "The company must disclose details of delisting to the stock exchanges within one working day of the approval of the resolution plan under the Insolvency Code.",
+  "The provisions of regulation 59 shall not apply to the voluntary delisting of non-convertible debt securities or non-convertible redeemable preference shares under this Chapter."
+ ],
+ "example": "Asha Chemicals Limited had issued certain non-convertible debt securities that were traded on the stock exchange. Later, these securities were delisted following a resolution plan approved under the Insolvency Code. Because of this delisting rule, Asha Chemicals Limited had to disclose the details of this delisting to the stock exchanges within one working day of the approval of that resolution plan. The company ensured it met this requirement completely as stated in the regulation.",
+ "terms": [
+  {
+   "term": "Delisted",
+   "meaning": "When securities are removed from a stock exchange and are no longer traded there."
+  },
+  {
+   "term": "Listed entity",
+   "meaning": "A company that has its securities listed and traded on a stock exchange."
+  },
+  {
+   "term": "Resolution plan",
+   "meaning": "A plan to resolve financial distress or insolvency under the Insolvency Code."
+  }
+ ],
+ "watch": "Note that voluntary delisting rules do not apply if there are more than two-hundred security holders excluding qualified institutional buyers.",
+ "h": "50bb9d4bf850",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

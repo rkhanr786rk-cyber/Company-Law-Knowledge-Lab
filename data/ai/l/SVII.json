@@ -1,0 +1,33 @@
+{
+ "summary": "This schedule explains the rules companies must follow when people transfer or pass on company shares and securities. It covers what identity proofs are needed, how to handle mismatched names, and the steps to take when signatures do not match. It also outlines the legal documents required to pass securities to legal heirs.",
+ "points": [
+  "The buyer and seller must give a copy of their PAN card to the company to register a share transfer.",
+  "Residents of Sikkim can use an identity proof instead of a PAN card.",
+  "If a transferor has a minor signature difference, the company must send a letter by speed post and wait fifteen days for any objections before transferring the shares.",
+  "For major signature differences, the company must send an objection memo to both the buyer and the seller along with a request for specific documents like an affidavit and a bank-attested cheque.",
+  "For passing securities to legal heirs, the claimant must provide valid legal documents such as a probate of will, succession certificate, or legal heirship certificate along with required bonds."
+ ],
+ "example": "Meera Textiles Private Limited received a request to transfer shares from Mr. Sharma to Ms. Gupta. Both parties submitted copies of their PAN cards as required. However, the company noticed a minor difference in Mr. Sharma's signature on the transfer form compared to company records. To follow the rules, Meera Textiles promptly sent an intimation letter to Mr. Sharma via speed post informing him of the defect. The company stated that if no valid objection with proof was lodged within fifteen days of receiving the letter, the shares would be successfully transferred. Since Mr. Sharma did not object within this time and the company suspected no fraud, Meera Textiles proceeded with the share transfer.",
+ "terms": [
+  {
+   "term": "Transferee",
+   "meaning": "The person who is receiving the securities or shares."
+  },
+  {
+   "term": "Transferor",
+   "meaning": "The person who is giving away or selling the securities or shares."
+  },
+  {
+   "term": "Transmission",
+   "meaning": "The passing of securities to legal heirs due to events like death."
+  },
+  {
+   "term": "Indemnity bond",
+   "meaning": "A legal paper promising to protect a company against future financial loss."
+  }
+ ],
+ "watch": "People often confuse minor signature differences with major signature differences, which require completely different procedures.",
+ "h": "67de9fd07c78",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

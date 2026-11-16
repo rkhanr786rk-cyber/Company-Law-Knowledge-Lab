@@ -1,0 +1,33 @@
+{
+ "summary": "This regulation requires a company with listed Indian Depository Receipts to treat those holders fairly and equally compared to investors in its home country. This fair treatment applies to general rights, corporate actions, and major events like takeovers or buy-backs. The company must also protect their interests and properly handle their complaints.",
+ "points": [
+  "Must treat IDR holders in a manner equitable with security holders in the home country.",
+  "Must ensure equitable treatment for all corporate actions, except those not permitted by Indian laws.",
+  "Must give equitable treatment to IDR holders during a take-over, delisting, or buy-back of equity shares, while following home country laws.",
+  "Must protect the interests of IDR holders regarding corporate benefits permissible under Indian and home country laws.",
+  "Must address all investor grievances adequately."
+ ],
+ "example": "Global Tech Corporation is a company based in a foreign country whose shares and Indian Depository Receipts are listed on a stock exchange. Global Tech announces a buy-back of its equity shares for its home country investors. Because the regulation requires equitable treatment during a buy-back while following home country laws, Global Tech must ensure that the holders of its Indian Depository Receipts receive fair treatment that matches the benefits given to the home country security holders, as long as it is allowed under Indian laws.",
+ "terms": [
+  {
+   "term": "IDR Holder",
+   "meaning": "A person who holds Indian Depository Receipts, which are financial instruments representing shares of a foreign company."
+  },
+  {
+   "term": "Home Country",
+   "meaning": "The country where the listed entity is originally incorporated or has its primary base."
+  },
+  {
+   "term": "Corporate Actions",
+   "meaning": "Events or actions taken by a company that affect its securities and the people who hold them."
+  },
+  {
+   "term": "Buy-back",
+   "meaning": "A process where a company buys back its own shares from its investors."
+  }
+ ],
+ "watch": "Do not assume that home country laws override Indian laws when Indian laws specifically forbid a certain action.",
+ "h": "2efa190e1694",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

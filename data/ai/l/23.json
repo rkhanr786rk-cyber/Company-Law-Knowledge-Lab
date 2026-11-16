@@ -1,0 +1,33 @@
+{
+ "summary": "This regulation explains the rules companies must follow when dealing with related parties. Companies must create a policy on material transactions, get approvals from the audit committee, and sometimes seek shareholder approval. Independent directors play a key role in checking and approving these dealings.",
+ "points": [
+  "The listed entity must create a policy on materiality of related party transactions with clear threshold limits approved by the board.",
+  "The board of directors must review and update the policy at least once every three years.",
+  "All related party transactions and subsequent material modifications need prior approval from audit committee members who are independent directors.",
+  "Shareholders must give prior approval through a resolution for all material related party transactions, and related parties cannot vote on these.",
+  "The audit committee may grant omnibus approval for repetitive related party transactions subject to specific conditions and a validity of up to one year."
+ ],
+ "example": "Meera Textiles Private Limited, a listed company, wants to enter into a business transaction with a related party. Before proceeding, the company must ensure its board has approved a clear policy on such dealings. The audit committee, consisting only of independent directors, must give prior approval for the transaction. If the transaction is considered material under the company's rules, the shareholders must also approve it through a resolution, and the related party is not allowed to vote on it.",
+ "terms": [
+  {
+   "term": "Related party",
+   "meaning": "A person or company that has a close connection or influence over the listed entity."
+  },
+  {
+   "term": "Audit committee",
+   "meaning": "A committee of directors that oversees financial reporting and compliance within a company."
+  },
+  {
+   "term": "Independent director",
+   "meaning": "A board member who does not have any material pecuniary relationship or links with the company, promoting unbiased decisions."
+  },
+  {
+   "term": "Omnibus approval",
+   "meaning": "A general advance approval given by the audit committee for repetitive transactions."
+  }
+ ],
+ "watch": "People often confuse independent director approval with general board approval, but only independent directors on the audit committee can approve these transactions.",
+ "h": "f0d11b70f0e2",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

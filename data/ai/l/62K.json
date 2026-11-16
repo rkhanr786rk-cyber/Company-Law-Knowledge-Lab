@@ -1,0 +1,33 @@
+{
+ "summary": "This regulation explains the rules for related party transactions for certain high-value debt-listed entities. It details when these companies need approval from debenture holders and shareholders, and when exceptions apply. It also covers reporting rules and disclosure requirements for these deals.",
+ "points": [
+  "The entity must follow general rules on related party transactions except for specific sub-regulations.",
+  "The entity must get a prior No-Objection Certificate from the Debenture Trustee for material related party transactions.",
+  "The entity must get approval from debenture holders who are unrelated and hold more than fifty percent of the debentures in value before going to shareholders.",
+  "The entity must not take the matter forward for shareholder consideration if the No-Objection Certificate has been withheld.",
+  "The entity must submit disclosures of related party transactions to the stock exchanges and publish them on its website along with its standalone financial results for the half year."
+ ],
+ "example": "Sunrise Debt Limited, a company with listed non-convertible securities, wanted to enter into a material related party transaction. Before asking its shareholders, Sunrise Debt Limited had to seek a prior No-Objection Certificate from its Debenture Trustee. The Debenture Trustee then collected a No-Objection from unrelated debenture holders who held more than fifty percent of the debentures in value using voting. Because the No-Objection was successfully granted, the company could take the matter forward for shareholder approval. Finally, Sunrise Debt Limited published these transaction disclosures on its website and submitted them to the stock exchanges along with its standalone financial results for the half year.",
+ "terms": [
+  {
+   "term": "HVDLE",
+   "meaning": "High Value Debt Listed Entity, a company that has listed its non-convertible securities above a certain value."
+  },
+  {
+   "term": "Related party transactions",
+   "meaning": "Business deals or arrangements between a company and its connected persons or affiliates."
+  },
+  {
+   "term": "Debenture Trustee",
+   "meaning": "A person or entity that protects the interests of people who hold debentures."
+  },
+  {
+   "term": "Standalone financial results",
+   "meaning": "Financial statements of a single company without combining the accounts of its subsidiaries."
+  }
+ ],
+ "watch": "Do not confuse the requirement of getting a No-Objection Certificate from debenture holders with the final approval from shareholders, as both are distinct steps.",
+ "h": "4e9514a74d3e",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

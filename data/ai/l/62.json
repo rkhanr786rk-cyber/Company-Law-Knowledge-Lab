@@ -1,0 +1,29 @@
+{
+ "summary": "This regulation explains what a company with listed non-convertible securities must put on its website. The company must keep all website information correct and up to date at all times. Any change to the website content must be updated within two working days.",
+ "points": [
+  "The listed entity must maintain a functional website with details about its business, board composition, and financial information.",
+  "The listed entity must display contact details of officials handling investor grievances, along with a grievance email address.",
+  "The listed entity must publish credit ratings, annual returns, and notices regarding non-convertible securities on the website.",
+  "The listed entity must ensure that all website contents are correct and updated at any given point of time.",
+  "The listed entity must update any change in website content within two working days from the date of change."
+ ],
+ "example": "Meera Textiles Private Limited has its non-convertible debt securities listed on a stock exchange. To follow the rules, the company launches a functional website. It uploads details of its business, financial results after board meetings, and the contact information of officials responsible for investor grievances. A change happens in the composition of its board of directors on a Tuesday. Meera Textiles Private Limited ensures that this new change is updated on its website within two working days, and checks that all published information remains correct.",
+ "terms": [
+  {
+   "term": "Listed entity",
+   "meaning": "A company whose securities are traded on a stock exchange."
+  },
+  {
+   "term": "Non-convertible securities",
+   "meaning": "Financial instruments like bonds or preference shares that cannot be converted into equity shares."
+  },
+  {
+   "term": "Debenture trustees",
+   "meaning": "Independent persons or entities appointed to protect the interests of investors who hold debt securities."
+  }
+ ],
+ "watch": "Remember that updating website changes must happen within two working days, not instantly.",
+ "h": "d00860745be2",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

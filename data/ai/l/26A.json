@@ -1,0 +1,29 @@
+{
+ "summary": "This rule explains how a listed company must fill sudden job openings for top leaders like the Chief Executive Officer or Chief Financial Officer. The company must fill these empty positions quickly, usually within three months. Special rules apply if the company needs government approval or if it has an approved resolution plan under the insolvency code.",
+ "points": [
+  "Must fill any vacancy in the office of Chief Executive Officer, Managing Director, Whole Time Director, Manager, or Chief Financial Officer at the earliest and within three months.",
+  "Must fill the vacancy within six months if the company needs approval from regulatory, government, or statutory authorities.",
+  "Must not appoint someone in an interim capacity unless that appointment follows the laws for a fresh appointment and applies the same obligations.",
+  "Must fill the vacancy within three months of the approval of a resolution plan under section 31 of the Insolvency Code.",
+  "Must have at least one full-time key managerial personnel managing day-to-day affairs during the interim period after a resolution plan is approved."
+ ],
+ "example": "At Sunrise Pharma Limited, a company listed on the stock exchange, the Chief Financial Officer suddenly resigned on January first. According to the rules, Sunrise Pharma Limited must fill this vacant office at the earliest and in any case not later than three months from the date of the vacancy. The management cannot simply put someone in an interim role unless they follow the exact laws that apply to a fresh appointment. Later, if the company goes through the Insolvency Code and a resolution plan is approved under section 31, they must fill the vacancy within three months of that approval, while ensuring at least one full-time key managerial person handles day-to-day affairs in the interim.",
+ "terms": [
+  {
+   "term": "Key Managerial Personnel",
+   "meaning": "Top corporate leaders of a company such as the Chief Executive Officer, Managing Director, or Chief Financial Officer."
+  },
+  {
+   "term": "Interim capacity",
+   "meaning": "Holding a job temporarily or for a short period until a permanent person is chosen."
+  },
+  {
+   "term": "Resolution plan",
+   "meaning": "A formal plan approved under the Insolvency Code to revive or manage a financially troubled company."
+  }
+ ],
+ "watch": "People often confuse temporary or interim appointments with permanent ones, but the rule requires interim appointments to follow the exact same laws as fresh appointments.",
+ "h": "9e2fc88cb9b0",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

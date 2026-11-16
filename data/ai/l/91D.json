@@ -1,0 +1,33 @@
+{
+ "summary": "This regulation explains what a Social Enterprise must do when its securities are listed on a stock exchange. It must create a policy to decide what information is important, share it publicly, and report important events quickly. It also needs to reply to stock exchange queries and keep its own website updated.",
+ "points": [
+  "Must frame and approve a policy for deciding what is important, and disclose it on the stock exchange.",
+  "Must authorize specific key managers to decide on important events and make disclosures, and share their contact details.",
+  "Must disclose any event that may have a material impact on planned outputs or outcomes within seven days or as specified.",
+  "Must provide regular updates on important events and reply to all queries raised by the stock exchange.",
+  "May voluntarily confirm or deny any reported event or information to the stock exchange."
+ ],
+ "example": "At Aarambh Welfare Foundation, a social enterprise listed on the social stock exchange, leaders faced a major change when their main community project was delayed. Following the rules, their board had already approved a policy to decide what information is important. They authorized their chief manager to handle disclosures. As soon as the delay happened, the manager informed the stock exchange within the seven-day limit, explaining the potential impact and the steps being taken. The foundation also published this update on its website, provided regular progress reports until the issue was resolved, and promptly answered all questions asked by the stock exchange.",
+ "terms": [
+  {
+   "term": "Social Enterprise",
+   "meaning": "An organization whose designated securities are listed on the social stock exchange."
+  },
+  {
+   "term": "Materiality",
+   "meaning": "The quality of being important enough to impact plans or decisions."
+  },
+  {
+   "term": "Key Managerial Personnel",
+   "meaning": "Authorized officers chosen to determine important events and make disclosures."
+  },
+  {
+   "term": "Suo moto",
+   "meaning": "Acting on one's own accord without being asked."
+  }
+ ],
+ "watch": "Make sure not to confuse voluntary disclosures with mandatory reporting timelines, as strict deadlines apply to required event updates.",
+ "h": "bf41e1c35e8f",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

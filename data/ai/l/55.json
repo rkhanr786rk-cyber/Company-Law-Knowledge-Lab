@@ -1,0 +1,27 @@
+{
+ "summary": "This rule applies to companies that have listed non-convertible securities, which are investments like certain bonds that cannot be changed into shares. Every credit rating the company gets for these securities must be checked at least once a year. This check must be done by a credit rating agency that is registered with the Board.",
+ "points": [
+  "The listed entity must obtain credit ratings for its non-convertible securities.",
+  "The listed entity must ensure that each rating is reviewed at least once a year.",
+  "The review must be conducted by a credit rating agency registered by the Board."
+ ],
+ "example": "Alpha Infra Limited has listed its non-convertible debentures on the stock exchange. To follow the rules, the company previously obtained a credit rating from a rating agency for these securities. As required by law, Alpha Infra Limited now makes sure that this credit rating is reviewed once a year. They hire a credit rating agency that is officially registered with the Board to carry out this annual review, ensuring they meet all the legal obligations without missing any required steps.",
+ "terms": [
+  {
+   "term": "Non-convertible securities",
+   "meaning": "Investments like bonds that cannot be converted into company shares."
+  },
+  {
+   "term": "Credit rating agency",
+   "meaning": "An organization that evaluates the financial strength of a company and its ability to pay back debts."
+  },
+  {
+   "term": "The Board",
+   "meaning": "The regulatory authority, which in this context refers to SEBI."
+  }
+ ],
+ "watch": "People often confuse non-convertible securities with shares, but this rule only applies to debt instruments.",
+ "h": "64642ff74e29",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

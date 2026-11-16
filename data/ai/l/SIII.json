@@ -1,0 +1,33 @@
+{
+ "summary": "This text explains that companies whose shares are listed on a stock exchange must report certain important events to the stock exchange without checking if they are important or large. These events include major business deals, changes in company leadership, new credit ratings, and board meeting decisions. The rules ensure that the public and investors know about key changes in the company right away.",
+ "points": [
+  "The listed entity must tell the stock exchange about business takeovers, mergers, sales of units, or restructuring.",
+  "The listed entity must report issuing new shares, buying back securities, changing share rules, or splitting shares.",
+  "The listed entity must share outcomes of board meetings, such as dividend decisions, fundraising plans, or financial results.",
+  "The listed entity must report special agreements that affect management or control, as well as fraud or debt defaults.",
+  "The listed entity must disclose any changes in directors, key managers, auditors, or compliance officers."
+ ],
+ "example": "Meera Textiles Private Limited is a company whose shares are traded on a stock exchange. One morning, the board of directors holds a meeting and decides to recommend a cash dividend to its shareholders and also approves a plan to raise funds through a new issue of securities. According to the rules, Meera Textiles must disclose the outcome of this board meeting, including the dividend decision and fundraising plans, directly to the stock exchange without needing to apply any separate tests to see if the news is big enough.",
+ "terms": [
+  {
+   "term": "Listed entity",
+   "meaning": "A company whose securities or shares are traded on a recognized stock exchange."
+  },
+  {
+   "term": "Acquisition",
+   "meaning": "Getting control of another company or buying shares and voting rights in it."
+  },
+  {
+   "term": "Subsidiary",
+   "meaning": "A company that is controlled and owned by another company."
+  },
+  {
+   "term": "Default",
+   "meaning": "Failing to pay back borrowed money or interest in full when it becomes due."
+  }
+ ],
+ "watch": "Do not assume every ordinary business agreement needs reporting, as normal course agreements are generally treated differently unless they impact management or control.",
+ "h": "809db0a1480f",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

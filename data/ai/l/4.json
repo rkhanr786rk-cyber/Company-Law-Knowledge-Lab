@@ -1,0 +1,34 @@
+{
+ "summary": "This regulation sets the core principles for companies whose shares are traded on a stock exchange. It requires companies to share clear and honest financial and business information with investors. It also lists rules for fair shareholder rights, equal treatment, stakeholder cooperation, and proper duties for the board of directors.",
+ "points": [
+  "Must prepare and disclose information using proper accounting standards and have an independent auditor check the accounts.",
+  "Must not misrepresent facts and must give adequate, accurate, and timely information to stock exchanges and investors.",
+  "Must protect shareholder rights, such as voting in meetings and addressing grievances.",
+  "Must treat all shareholders equally, including minority and foreign investors, and avoid insider trading.",
+  "Must respect stakeholder rights and set up a whistle blower policy to report illegal or unethical practices.",
+  "Must have the board of directors guide company strategy, manage conflicts of interest, and ensure financial integrity."
+ ],
+ "example": "Meera Textiles Private Limited is a company whose shares are listed on a stock exchange. When preparing its financial reports, Meera Textiles uses proper accounting standards and hires an independent auditor to run the annual audit. During a general meeting, the company ensures that all shareholders, including minority and foreign investors, receive timely notices with clear agendas. Furthermore, Meera Textiles sets up a whistle blower policy so employees can freely report any unethical practices without fear. The board of directors carefully reviews the company strategy, monitors risks, and manages any potential conflicts of interest to protect the long-term interests of all shareholders and stakeholders involved in the business.",
+ "terms": [
+  {
+   "term": "Stakeholders",
+   "meaning": "People or groups who have an interest in a company, such as employees, customers, and investors."
+  },
+  {
+   "term": "Minority shareholders",
+   "meaning": "Investors who own a small percentage of shares and do not have controlling power in the company."
+  },
+  {
+   "term": "Insider trading",
+   "meaning": "Trading company shares using secret, non-public information to gain an unfair advantage."
+  },
+  {
+   "term": "Dissemination",
+   "meaning": "The act of spreading or sharing information widely to the public and investors."
+  }
+ ],
+ "watch": "Make sure not to assume any specific financial penalty amounts or strict deadlines since the text does not mention them.",
+ "h": "60000d75f111",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

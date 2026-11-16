@@ -1,0 +1,34 @@
+{
+ "summary": "A listed company must manage its share transfer facility either in-house or by hiring an outside expert registered with the Board. If a company manages shares in-house and has more than one lakh security holders, it must register with the Board or appoint a registered agent. Any change or new appointment requires a special agreement and must be reported to the stock exchange within seven days.",
+ "points": [
+  "The listed entity must appoint a registrar to an issue and share transfer agent or manage the share transfer facility in-house.",
+  "If in-house security holders exceed one lakh, the listed entity must register with the Board or appoint a registered agent.",
+  "The listed entity must ensure all share transfer facility activities are maintained in-house or by a registered agent.",
+  "The listed entity must enter into a tripartite or bipartite agreement when changing or appointing a new registrar.",
+  "The listed entity must intimate the appointment of a new registrar to the stock exchange within seven days of the agreement.",
+  "The listed entity must place the agreement in the subsequent meeting of the board of directors."
+ ],
+ "example": "Meera Textiles Private Limited is a listed company that manages its share transfer facility in-house. Over time, the total number of holders of securities of the company grows and exceeds one lakh people. Because of this growth, Meera Textiles Private Limited must now either register with the Board as a registrar or appoint a registered registrar to an issue and share transfer agent. Later, when the company decides to change its agent, it enters into an agreement with the new agent. Meera Textiles Private Limited then informs the stock exchange within seven days of this agreement and shares the document at the next board of directors meeting.",
+ "terms": [
+  {
+   "term": "Registrar to an issue and share transfer agent",
+   "meaning": "An expert helper or organization that manages the records of shares and investors for a company."
+  },
+  {
+   "term": "In-house",
+   "meaning": "Managed directly by the company itself rather than hiring an outside helper."
+  },
+  {
+   "term": "Board",
+   "meaning": "The market regulator referred to in the regulations."
+  },
+  {
+   "term": "Tripartite agreement",
+   "meaning": "A formal written contract involving three different parties."
+  }
+ ],
+ "watch": "Mutual fund units listed on a stock exchange do not have to follow these specific requirements.",
+ "h": "f87ba35c68bb",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

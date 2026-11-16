@@ -1,0 +1,29 @@
+{
+ "summary": "This regulation explains what a recognized stock exchange must do when a listed company proposes a scheme of arrangement for its non-convertible debt securities or redeemable preference shares. The stock exchange must send documents to the Board, check for compliance with securities laws, and share its views with the National Company Law Tribunal. It also sets a clear validity period for the stock exchange's no-objection letter.",
+ "points": [
+  "The designated stock exchange must forward the received draft scheme and documents to the Board.",
+  "The stock exchange must submit its No-Objection Letter to the Board after checking if the draft complies with securities laws.",
+  "The stock exchange must issue a No-Objection letter to the listed entity.",
+  "The stock exchange must inform the National Company Law Tribunal about any objections during the scheme approval process.",
+  "The stock exchange must forward its recommendations to the Board after the National Company Law Tribunal sanctions the scheme."
+ ],
+ "example": "Sunrise Debt Securities Limited prepared a draft scheme of arrangement for its listed non-convertible debt securities and submitted it to the designated stock exchange. The stock exchange checked the draft for compliance with securities laws and sent the documents to the Board, along with its No-Objection Letter. The stock exchange ensured the No-Objection letter was used within its six-month validity period. When the National Company Law Tribunal reviewed the scheme for approval, the stock exchange brought its objections to the notice of the Tribunal. Finally, after the Tribunal sanctioned the scheme, the stock exchange forwarded its recommendations to the Board.",
+ "terms": [
+  {
+   "term": "Scheme of Arrangement",
+   "meaning": "A formal plan or agreement between a company and its creditors or shareholders."
+  },
+  {
+   "term": "National Company Law Tribunal",
+   "meaning": "A quasi-judicial body in India that handles corporate disputes and approvals."
+  },
+  {
+   "term": "Board",
+   "meaning": "The regulatory authority, which refers to the Securities and Exchange Board of India."
+  }
+ ],
+ "watch": "People often confuse the stock exchange's role in checking laws with the final approval power of the Tribunal.",
+ "h": "679e2aa0b016",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

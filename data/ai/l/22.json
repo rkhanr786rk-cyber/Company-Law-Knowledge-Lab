@@ -1,0 +1,28 @@
+{
+ "summary": "This rule requires a listed company to create a whistleblower policy. This policy lets directors and employees report real concerns safely. It also protects people who use it from being mistreated.",
+ "points": [
+  "The company must create a vigil mechanism or whistle blower policy.",
+  "Directors and employees can use this policy to report genuine concerns.",
+  "The policy must provide safeguards against the victimization of anyone who uses it.",
+  "The policy must provide direct access to the chairperson of the audit committee in appropriate or exceptional cases."
+ ],
+ "example": "At Sunrise Engineering Limited, an employee named Rohan notices a serious issue regarding company safety rules. Because Sunrise Engineering Limited has a vigil mechanism in place, Rohan decides to report this genuine concern without fearing any bad treatment. The policy ensures that Rohan has adequate safeguards against victimization. In this exceptional case, Rohan is also given direct access to the chairperson of the audit committee to share the details properly. This setup allows the company to handle internal problems safely and fairly, following all the requirements set out in the regulations for listed entities.",
+ "terms": [
+  {
+   "term": "Vigil mechanism",
+   "meaning": "A system that lets employees and directors report wrongdoing or concerns within a company."
+  },
+  {
+   "term": "Victimization",
+   "meaning": "Being mistreated or punished for doing something lawful, like reporting a problem."
+  },
+  {
+   "term": "Audit committee",
+   "meaning": "A group of people within a company who oversee financial reporting and related matters."
+  }
+ ],
+ "watch": "People often confuse regular complaints with genuine concerns meant for this specific safety policy.",
+ "h": "f8fe78b0d2e8",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

@@ -1,0 +1,27 @@
+{
+ "summary": "This rule applies to companies that have issued Indian Depository Receipts and must follow rules from their home country. Such a company must set a record date to give out dividends or benefits to IDR holders. It must also tell the stock exchange ahead of time about this date and its purpose.",
+ "points": [
+  "Must fix the record date for paying dividends or giving corporate benefits to IDR holders if required by its home country or other jurisdictions.",
+  "Must give advance notice of at least four working days to the recognised stock exchange.",
+  "Must specify the purpose of the record date in the notice given to the stock exchange."
+ ],
+ "example": "Zenith Corp Limited is a company with Indian Depository Receipts listed on a stock exchange. The laws in its home country require it to set a date to check who gets the yearly dividend. Zenith Corp Limited decides to set this date. Before doing so, the company sends a notice to the recognised stock exchange at least four working days in advance. This notice clearly tells the stock exchange the date chosen and states that the purpose is for paying dividends to the IDR holders. Everything is done properly according to the rule.",
+ "terms": [
+  {
+   "term": "Record date",
+   "meaning": "A specific date chosen to decide which security holders are eligible to receive dividends or other benefits."
+  },
+  {
+   "term": "IDR Holder",
+   "meaning": "A person or entity that holds Indian Depository Receipts."
+  },
+  {
+   "term": "Corporate benefits",
+   "meaning": "Perks or distributions given by a company to its security holders, such as dividends."
+  }
+ ],
+ "watch": "Remember that the four-day notice period is measured in working days, not calendar days.",
+ "h": "7a6641707ff2",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

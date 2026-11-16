@@ -1,0 +1,34 @@
+{
+ "summary": "This regulation requires companies with listed mutual fund units to share important updates with stock exchanges. They must report financial values, portfolio details, and changes in unit capital. They also need to report ratings, legal troubles, and any orders stopping unit transfers.",
+ "points": [
+  "Must tell the stock exchange the daily Net Asset Value in the format specified by the 1996 Mutual Funds Regulations.",
+  "Must share monthly and half-yearly portfolios of listed schemes with the stock exchange.",
+  "Must report the movement in unit capital of the listed schemes to the stock exchange.",
+  "Must inform the stock exchange about the credit rating of the scheme and any changes to it.",
+  "Must report any penalties imposed and material litigations against the entity and the mutual fund.",
+  "Must notify the stock exchange of any prohibitory orders that stop the transfer of units."
+ ],
+ "example": "Sunrise Mutual Fund Limited has units listed on the National Stock Exchange. Every day, Sunrise sends its daily Net Asset Value to the stock exchange as required by the regulations. Last month, a court issued a prohibitory order stopping Sunrise from transferring certain units registered in the names of unit holders. Following the rules, Sunrise immediately intimated this prohibitory order to the recognised stock exchange. Additionally, when the credit rating of one of its listed schemes changed, Sunrise promptly informed the stock exchange in the specified manner, ensuring all required details about its unit capital, monthly portfolio, and ongoing litigations were duly shared without missing any steps.",
+ "terms": [
+  {
+   "term": "Net Asset Value",
+   "meaning": "The value of a mutual fund scheme's assets minus its liabilities, calculated per unit."
+  },
+  {
+   "term": "Unit Capital",
+   "meaning": "The total amount of capital raised by a mutual fund through the issuance of units to investors."
+  },
+  {
+   "term": "Material Litigations",
+   "meaning": "Important or significant legal disputes and court cases involving the company."
+  },
+  {
+   "term": "Prohibitory Orders",
+   "meaning": "Official legal orders that forbid or restrain someone from doing a specific action, like transferring units."
+  }
+ ],
+ "watch": "Make sure to send the information in the exact format and manner specified by the stock exchange and the 1996 Mutual Funds Regulations.",
+ "h": "4dbcc186adb2",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

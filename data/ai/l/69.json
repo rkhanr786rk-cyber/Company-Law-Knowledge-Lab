@@ -1,0 +1,30 @@
+{
+ "summary": "This regulation requires companies with listed Indian Depository Receipts to send specific ownership details to the stock exchange. They must share their holding pattern every quarter and also submit various documents that they already provide in their home country. This includes details on shareholding, corporate restructuring, and financial results.",
+ "points": [
+  "Must file the Indian Depository Receipt holding pattern with the stock exchange every quarter.",
+  "Must file the holding pattern within fifteen days after the end of each quarter.",
+  "Must follow the specific format given by the Board for the holding pattern.",
+  "Must file shareholding pattern details required by its home country or other listing jurisdictions with the stock exchange.",
+  "Must file pre and post arrangement shareholding patterns and capital structure for corporate restructuring like mergers and amalgamations.",
+  "Must file periodical financial results required by its home country or other listing jurisdictions."
+ ],
+ "example": "Aarna IDR Corp is a company whose Indian Depository Receipts are listed on an Indian stock exchange. Following the end of the recent financial quarter, Aarna IDR Corp prepared its Indian Depository Receipt holding pattern using the exact format specified by the Board. Within fifteen days of the quarter ending, the company successfully filed this holding pattern with the stock exchange. Later in the year, the company also went through a merger. To comply with the regulations, Aarna IDR Corp submitted its pre and post arrangement shareholding patterns and capital structure to the stock exchange, matching the details it was already required to file in its home country.",
+ "terms": [
+  {
+   "term": "Indian Depository Receipt",
+   "meaning": "An instrument in the form of a depository receipt created by a domestic depository in India against the underlying equity shares of the issuing company."
+  },
+  {
+   "term": "Quarterly basis",
+   "meaning": "Happening every three months, dividing the year into four parts."
+  },
+  {
+   "term": "Corporate restructuring",
+   "meaning": "Major changes to a company's business structure or ownership, such as mergers or amalgamations."
+  }
+ ],
+ "watch": "",
+ "h": "744cc18e1612",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

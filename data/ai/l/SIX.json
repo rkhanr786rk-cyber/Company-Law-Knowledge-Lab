@@ -1,0 +1,33 @@
+{
+ "summary": "This schedule outlines various rules for companies issuing securities and Indian Depository Receipts, including requirements for security deposits, merchant bankers, and listing applications. It details how companies must handle deposits, appoint intermediaries, and obtain approvals from stock exchanges before listing. The text is part of amendments to other regulations tied to the Listing Obligations and Disclosure Requirements.",
+ "points": [
+  "The issuer must deposit and keep deposited with the stock exchange an amount equal to one per cent of the securities offered to the public before opening the subscription list.",
+  "The issuing company must appoint at least one lead merchant banker and other necessary intermediaries.",
+  "The issuing company must appoint a registrar and transfer agent connected with all depositories.",
+  "The issuer must obtain in-principle approval from the recognized stock exchanges before issuing or listing securities.",
+  "The issuer must make an application for listing within twenty days from the date of allotment to recognized stock exchanges."
+ ],
+ "example": "Meera Textiles Private Limited planned to offer securities to the public. Before opening its subscription list, Meera Textiles deposited one per cent of the offered amount with the stock exchange. The company appointed a lead merchant banker and a registrar and transfer agent that connected with all depositories. After allotting the securities, Meera Textiles made an application for listing to the recognized stock exchange within twenty days and executed a listing agreement with the exchange as required by the regulations.",
+ "terms": [
+  {
+   "term": "merchant banker",
+   "meaning": "A financial company that helps with the issue and management of securities."
+  },
+  {
+   "term": "intermediaries",
+   "meaning": "Professional agents or third parties who help facilitate financial transactions and processes."
+  },
+  {
+   "term": "depositories",
+   "meaning": "Organizations that hold securities in electronic form for investors."
+  },
+  {
+   "term": "in-principle approval",
+   "meaning": "A preliminary agreement or permission given by a stock exchange before final listing."
+  }
+ ],
+ "watch": "Ensure you distinguish between the rules for general issuers and those specific to companies issuing Indian Depository Receipts.",
+ "h": "b7e6a2a9fd07",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

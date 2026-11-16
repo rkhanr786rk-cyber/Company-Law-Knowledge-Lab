@@ -1,0 +1,26 @@
+{
+ "summary": "This text simply tells us that five specific terms used in this chapter have the exact same meanings given in another set of rules called the Securities and Exchange Board of India (Mutual Funds) Regulations, 1996. It does not give any extra rules, duties, or timelines by itself. It acts as a bridge to help understand words used in the regulations for listed mutual fund units.",
+ "points": [
+  "Use the definitions from the Securities and Exchange Board of India (Mutual Funds) Regulations, 1996 for terms like Asset Management Company, Net Asset Value, Scheme, Unit, and Unit Holder.",
+  "Do not invent new meanings for these five specific expressions when applying this chapter of the rules."
+ ],
+ "example": "At Sunrise Mutual Fund Limited, a company whose units are listed on the stock exchange, the compliance officer is preparing documents for submission. While reading the rulebook, the officer comes across the term Net Asset Value. Instead of guessing its meaning, the officer refers to the Securities and Exchange Board of India (Mutual Funds) Regulations, 1996, as required by Regulation 89. By using the definition from that specific 1996 regulation, the officer correctly understands the term without adding any outside rules or timelines.",
+ "terms": [
+  {
+   "term": "Asset Management Company",
+   "meaning": "The company that manages the mutual fund investments and schemes."
+  },
+  {
+   "term": "Net Asset Value",
+   "meaning": "The value of a mutual fund scheme's assets minus its liabilities."
+  },
+  {
+   "term": "Unit Holder",
+   "meaning": "A person who owns units of a mutual fund scheme."
+  }
+ ],
+ "watch": "Do not look for new or separate definitions for these specific terms within this regulation.",
+ "h": "360106254aaf",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

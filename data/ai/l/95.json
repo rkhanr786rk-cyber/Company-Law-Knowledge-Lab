@@ -1,0 +1,28 @@
+{
+ "summary": "This regulation explains the duties of a recognized stock exchange in India regarding specific company reports. The exchange must review a special statement that shows the impact of audit qualifications, along with the yearly audit report. These documents are submitted by listed companies under other specific regulations.",
+ "points": [
+  "The recognized stock exchange must review the Statement on Impact of Audit Qualifications.",
+  "The recognized stock exchange must review the accompanying annual audit report.",
+  "The stock exchange reviews documents submitted under clause (d) of sub-regulation (3) of regulation 33.",
+  "The stock exchange reviews documents submitted under clause (a) of sub-regulation (3) of regulation 52."
+ ],
+ "example": "Sunrise Engineering Limited is a company whose shares are traded on the National Stock Exchange. At the end of the financial year, the company submits its annual audit report along with a Statement on Impact of Audit Qualifications to the exchange, as required by specific rules. The National Stock Exchange receives these documents and checks them carefully to perform its review duty under the regulations, ensuring it follows the exact steps given in the law for listed entities and stock exchanges.",
+ "terms": [
+  {
+   "term": "recognized stock exchange",
+   "meaning": "An official marketplace where company shares are bought and sold, approved by the government."
+  },
+  {
+   "term": "audit qualifications",
+   "meaning": "Reservations or exceptions noted by an auditor in a financial report."
+  },
+  {
+   "term": "annual audit report",
+   "meaning": "A yearly report of a company's finances checked by an independent expert."
+  }
+ ],
+ "watch": "Do not confuse this with the rules that tell companies how to prepare their reports, as this regulation only sets the duties of the stock exchange.",
+ "h": "44d502b7fcbc",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

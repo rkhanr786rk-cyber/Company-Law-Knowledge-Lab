@@ -1,0 +1,29 @@
+{
+ "summary": "This regulation is about the Stakeholders Relationship Committee for companies that have listed their non-convertible securities. It explains who must be on this committee, how often it should meet, and who must lead it. Companies can either let their main board of directors handle these duties or form a specific committee for this purpose.",
+ "points": [
+  "The board of directors must ensure that committee functions are handled either by the board itself or by a newly formed Stakeholders Relationship Committee.",
+  "The head, or chairperson, of this committee must be a non-executive director.",
+  "The committee must include at least three directors, and at least one of them must be an independent director.",
+  "The committee chairperson must attend the annual general meetings to answer questions from debenture holders.",
+  "The committee must meet at least once every financial year."
+ ],
+ "example": "Nova Infra Limited has issued non-convertible securities to the public. To follow the rules, the board of directors decides to set up a Stakeholders Relationship Committee. They choose three directors to join this committee, and one of them is an independent director who does not work in the daily management of the company. They appoint a non-executive director to serve as the chairperson of this committee. The committee plans to hold a meeting at least once in the financial year. Later, when the annual general meeting takes place, the chairperson attends the meeting in person so that they are ready to answer any questions raised by the debenture holders.",
+ "terms": [
+  {
+   "term": "Non-executive director",
+   "meaning": "A member of the company's board of directors who is not involved in the daily management of the company."
+  },
+  {
+   "term": "Independent director",
+   "meaning": "A board member who does not have any material or pecuniary relationship with the company, ensuring unbiased decisions."
+  },
+  {
+   "term": "Debenture holders",
+   "meaning": "People or entities that hold a type of debt security issued by the company."
+  }
+ ],
+ "watch": "People often confuse whether a separate committee is strictly mandatory, but the rule allows the main board of directors to discharge these functions directly if a committee is not formed.",
+ "h": "63109c1cf244",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

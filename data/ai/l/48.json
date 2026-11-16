@@ -1,0 +1,22 @@
+{
+ "summary": "This regulation requires a company with listed securities to follow all official accounting standards. Accounting standards are the standard rules for how a company must record and report its money. The text is very short and only states this general rule.",
+ "points": [
+  "Must comply with all applicable accounting standards.",
+  "Must comply with accounting standards that are notified from time to time."
+ ],
+ "example": "Star Retail Limited is a company whose shares are traded on the stock exchange. According to the rules, Star Retail Limited must follow all the official accounting standards whenever it prepares its financial reports. If a new accounting standard is notified by the authorities, the company must follow it as well. The management of Star Retail Limited ensures that their accountants apply these exact rules so that the financial statements remain accurate and compliant with the regulation.",
+ "terms": [
+  {
+   "term": "Accounting Standards",
+   "meaning": "Official rules and guidelines for how companies must record and report their financial money matters."
+  },
+  {
+   "term": "Listed Entity",
+   "meaning": "A company whose shares or other securities are traded on a stock exchange."
+  }
+ ],
+ "watch": "Do not assume any specific deadlines or penalties, as the text does not mention them.",
+ "h": "bec4ec19a59e",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

@@ -1,0 +1,28 @@
+{
+ "summary": "This regulation is about credit ratings for securitised debt instruments issued by a listed company. It states that these ratings must be reviewed regularly by an approved credit rating agency. Any changes to these ratings must also be shared with the public through the stock exchange.",
+ "points": [
+  "The listed entity must get its ratings for securitised debt instruments reviewed periodically.",
+  "The periodic review of the rating should preferably happen once a year.",
+  "The review must be done by a credit rating agency that is registered by the Board.",
+  "The stock exchange must share any changes or revisions made to the ratings."
+ ],
+ "example": "Sunrise Capital Limited issued securitised debt instruments and obtained a credit rating from a registered agency. After some time, the agency decided to review the rating as part of their periodic checks. During this review, the agency revised the rating to a new level. Following the rules, this revision was quickly sent out to the stock exchange so that investors could see the updated information. Sunrise Capital Limited ensured all steps were followed without missing any required actions.",
+ "terms": [
+  {
+   "term": "Securitised debt instruments",
+   "meaning": "Financial tools that bundle together various debts or loans to be sold to investors."
+  },
+  {
+   "term": "Credit rating agency",
+   "meaning": "An organization that checks the financial strength and ability to pay debts of a company."
+  },
+  {
+   "term": "Disseminated",
+   "meaning": "Spread or shared widely so that the public and investors can know about it."
+  }
+ ],
+ "watch": "People often confuse a one-year review period as a strict hard deadline, but the rule says it is preferred rather than strictly fixed.",
+ "h": "1c7f58ca906b",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

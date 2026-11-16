@@ -1,0 +1,34 @@
+{
+ "summary": "This regulation explains the rules for directors, senior management, and employees of certain listed entities regarding committee limits, codes of conduct, personal transaction disclosures, and profit-sharing agreements. It sets clear boundaries on how many committees a director can join and requires approvals and transparency for special agreements and potential conflicts of interest. These rules help keep corporate governance fair and open for everyone involved.",
+ "points": [
+  "A director must not be a member of more than ten committees or chairperson of more than five committees across all listed entities, counting only audit and stakeholders' relationship committees.",
+  "Every director must inform the HVDLE about committee positions in other listed entities and notify any changes as they happen.",
+  "All board members and senior management personnel must affirm compliance with the code of conduct every year.",
+  "Senior management must disclose to the board any material, financial, and commercial transactions where they have a personal interest that could conflict with the HVDLE's interests.",
+  "No employee, key managerial personnel, director, or promoter may enter into compensation or profit-sharing agreements regarding securities without prior approval from both the board of directors and public shareholders.",
+  "Interested persons involved in a profit-sharing or compensation agreement must abstain from voting in the general meeting."
+ ],
+ "example": "At Zenith HVDLE Limited, director Mr. Rao serves on multiple company boards and must carefully track his committee memberships to ensure he does not exceed the limit of ten total memberships or five chairpersonships in audit and stakeholders' relationship committees. Meanwhile, Ms. Gupta from senior management discovers she has a potential commercial transaction conflict and promptly discloses her personal interest to the board of directors. Later, when an employee wishes to enter into a profit-sharing agreement connected to company securities, the company submits the agreement to the board of directors and public shareholders for approval through an ordinary resolution, ensuring all interested persons step aside and abstain from voting during the general meeting.",
+ "terms": [
+  {
+   "term": "HVDLE",
+   "meaning": "High Value Debt Listed Entity, a company that has listed its non-convertible debt securities above a certain high value."
+  },
+  {
+   "term": "Key Managerial Personnel",
+   "meaning": "Top high-level officers of a company who run its day-to-day operations and decision-making."
+  },
+  {
+   "term": "Ordinary Resolution",
+   "meaning": "A decision approved by more than half of the votes cast by shareholders in a meeting."
+  },
+  {
+   "term": "Conflict of Interest",
+   "meaning": "A situation where a person has a personal or private interest that could improperly influence their professional duties and company decisions."
+  }
+ ],
+ "watch": "Note that committee limits only count audit and stakeholders' relationship committees across public limited companies and HVDLEs, excluding private companies.",
+ "h": "1794b3f2efe2",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

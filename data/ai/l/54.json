@@ -1,0 +1,30 @@
+{
+ "summary": "This regulation requires companies that have listed secured non-convertible debt securities to always keep enough security cover to pay back the principal and interest. The company must also share details about this security cover and its financial reports with the stock exchange and the debenture trustee, and publish certain documents on its website.",
+ "points": [
+  "Must maintain at least one hundred percent security cover, or a higher amount if stated in the offer documents or trust deed, for secured listed non-convertible debt securities at all times.",
+  "Must have enough security cover to pay both the principal amount and the interest.",
+  "Must disclose the extent and nature of the created and maintained security to the stock exchange in its financial statements.",
+  "Must disclose the available security cover alongside its financial results in the format specified by the Board.",
+  "Must submit a copy of the annual report and notice of the annual general meeting to the stock exchange, the debenture trustee, and publish it on its website.",
+  "Must submit any revised annual report with details and explanations to the stock exchange, debenture trustee, and website within forty-eight hours after the annual general meeting if any changes occur."
+ ],
+ "example": "Rohit Steel Industries Limited issued secured listed non-convertible debt securities to investors. To follow the rules, Rohit Steel Industries Limited made sure to maintain the required security cover at all times to cover the principal and interest. During the financial reporting period, the company disclosed the extent and nature of this security to the stock exchange in its financial statements. Additionally, the company submitted its annual report and notice of the annual general meeting to the stock exchange and the debenture trustee, and also published these documents on its official website for everyone to see.",
+ "terms": [
+  {
+   "term": "security cover",
+   "meaning": "Assets kept as a backup to ensure investors will be paid back."
+  },
+  {
+   "term": "non-convertible debt securities",
+   "meaning": "Borrowed money that cannot be changed into shares of the company."
+  },
+  {
+   "term": "debenture trustee",
+   "meaning": "A person or entity that protects the interests of the investors who bought the debt securities."
+  }
+ ],
+ "watch": "Do not confuse the requirement to maintain security cover with the separate rules for submitting annual reports to the stock exchange, debenture trustee, and website.",
+ "h": "9605a5d86fa2",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

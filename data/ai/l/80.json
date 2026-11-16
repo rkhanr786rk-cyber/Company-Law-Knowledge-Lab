@@ -1,0 +1,27 @@
+{
+ "summary": "This regulation explains what a company must do if it wants to stop trading its Indian Depository Receipts on a stock exchange. The company must treat the holders of these receipts fairly and follow official rules for stopping the trade. If the main shares backing these receipts are stopped from trading, the company must also stop trading and cancel the receipts.",
+ "points": [
+  "Must give fair and reasonable treatment to Indian Depository Receipt holders if it decides to delist them.",
+  "Must comply with norms and conditions for delisting specified by the Board or stock exchange.",
+  "Must delist and cancel the Indian Depository Receipts if the underlying equity shares are delisted."
+ ],
+ "example": "Sunrise Global Limited issued Indian Depository Receipts to investors in India, which were successfully listed on the stock exchange. Later, Sunrise Global Limited decided to cancel and remove these Indian Depository Receipts from the exchange. To follow the law, the company made sure to treat all Indian Depository Receipt holders fairly and followed every rule set by the Board for this process. Furthermore, because the main equity shares of the company in its home country were also removed from trading, Sunrise Global Limited officially delisted and cancelled all its Indian Depository Receipts just as the regulation required.",
+ "terms": [
+  {
+   "term": "Delist",
+   "meaning": "To remove shares or receipts from a stock exchange so they are no longer traded there."
+  },
+  {
+   "term": "Indian Depository Receipts",
+   "meaning": "Financial instruments issued in India that represent shares of a foreign company."
+  },
+  {
+   "term": "Underlying equity shares",
+   "meaning": "The actual company shares that are represented by the depository receipts."
+  }
+ ],
+ "watch": "Do not assume any specific deadlines or financial penalties apply here, as the text does not mention them.",
+ "h": "ee31aa01b355",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

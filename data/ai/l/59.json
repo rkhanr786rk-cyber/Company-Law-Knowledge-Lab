@@ -1,0 +1,32 @@
+{
+ "summary": "This regulation explains the rules a company must follow if it wants to make big changes to certain listed securities like non-convertible debt securities or preference shares. The company cannot make these changes without getting approval from the stock exchange first. To get this approval, the company must also get consent from its board, trustees, and a large majority of security holders.",
+ "points": [
+  "The listed entity must not make material modifications to the structure of non-convertible debt securities or non-convertible redeemable preference shares without prior approval of the stock exchange.",
+  "The listed entity must get approval from its board of directors and the debenture trustee before seeking stock exchange approval.",
+  "The listed entity must obtain written consent from the holders of not less than three-fourths by value of that class of securities.",
+  "The listed entity must provide the facility of remote e-voting to help security holders give their consent."
+ ],
+ "example": "Sunrise Steel Limited had issued listed non-convertible debt securities to raise funds. Later, the management wanted to make a major change to the coupon structure of these securities. Before doing this, Sunrise Steel Limited first secured the approval of its board of directors and the debenture trustee. Next, the company provided remote e-voting to its investors and successfully obtained written consent from holders representing three-fourths of the total value of those securities. Finally, with all these approvals in place, Sunrise Steel Limited applied for and received the required prior approval from the stock exchange before making the modification.",
+ "terms": [
+  {
+   "term": "coupon",
+   "meaning": "The interest rate paid to the holders of debt securities."
+  },
+  {
+   "term": "redemption",
+   "meaning": "The repayment of the principal amount of a security by the company."
+  },
+  {
+   "term": "debenture trustee",
+   "meaning": "An independent person or entity appointed to protect the interests of security holders."
+  },
+  {
+   "term": "material modification",
+   "meaning": "A major or significant change to the terms of the securities."
+  }
+ ],
+ "watch": "Make sure not to confuse general company decisions with changes to the specific structure items listed in this regulation, which strictly require prior stock exchange approval.",
+ "h": "10852ccc8e8b",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

@@ -1,0 +1,23 @@
+{
+ "summary": "This rule is about special businesses called For Profit Social Enterprises that list their designated securities on a stock exchange. These enterprises must follow the same disclosure rules as normal companies listed on the main board, SME exchange, or innovators growth platform. Disclosures simply mean the official sharing of important company information with the public and the stock exchange.",
+ "points": [
+  "Must follow disclosure requirements of issuers whose specified securities are listed on the Main Board",
+  "Must follow disclosure requirements of issuers whose specified securities are listed on the SME Exchange",
+  "Must follow disclosure requirements of issuers whose specified securities are listed on the Innovators Growth Platform"
+ ],
+ "example": "Alpha Social Enterprise Private Limited is a company whose designated securities are listed on the stock exchange as a For Profit Social Enterprise. Because of this regulation, Alpha Social Enterprise Private Limited must carefully follow all the disclosure requirements that apply to issuers whose specified securities are listed on the Main Board, the SME Exchange, or the Innovators Growth Platform. By sharing its required information properly, the company makes sure it obeys the rules set for listed businesses.",
+ "terms": [
+  {
+   "term": "Disclosures",
+   "meaning": "The act of making important company information known or public."
+  },
+  {
+   "term": "Designated securities",
+   "meaning": "Specific financial instruments issued by the enterprise that are listed on a stock exchange."
+  }
+ ],
+ "watch": "Do not confuse this rule with the separate requirements that apply to a Not for Profit Organization.",
+ "h": "a6ff3be1222a",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

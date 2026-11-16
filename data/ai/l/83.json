@@ -1,0 +1,24 @@
+{
+ "summary": "This rule requires a listed company to quickly share important news about its business performance or stock prices with the stock exchange. The company must tell the stock exchange before it tells anyone else. It must also share specific disclosures listed in the official schedule.",
+ "points": [
+  "The listed entity must promptly inform the stock exchange of all information affecting its performance, operations, or price.",
+  "The listed entity must make the disclosures specified in Part D of Schedule III.",
+  "The listed entity must inform the stock exchange as soon as practically possible and without any delay.",
+  "The listed entity must give the information first to the stock exchange before providing it to any third party."
+ ],
+ "example": "At Rohan Debt Instruments Limited, the management finalized a major operational update that would likely affect the price of their listed securitised debt instruments. Before telling any news reporters, industry partners, or other third parties, the compliance officer sent the news directly to the stock exchange without any delay. Rohan Debt Instruments Limited also prepared the specific disclosures required under Part D of Schedule III and submitted them. By giving the information to the stock exchange first and as soon as practically possible, the company followed the proper disclosure rules for listed entities under Chapter VIII.",
+ "terms": [
+  {
+   "term": "Price sensitive information",
+   "meaning": "Information that can materially affect the price of the securities of the company."
+  },
+  {
+   "term": "Listed entity",
+   "meaning": "A company or entity that has its securities listed on a stock exchange."
+  }
+ ],
+ "watch": "A common confusion is thinking you can share the news with the media or public at the same time as the stock exchange, but the rule requires giving it to the stock exchange first.",
+ "h": "0985796876cb",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

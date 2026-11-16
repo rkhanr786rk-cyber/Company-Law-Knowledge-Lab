@@ -1,0 +1,29 @@
+{
+ "summary": "This rule applies to certain large companies that have listed their non-convertible securities. It explains their duties regarding reports on corporate governance and cyber security. It also mentions extra reports they may choose to share.",
+ "points": [
+  "The company may choose to follow extra corporate governance requirements if they apply.",
+  "The company must send a periodic compliance report on corporate governance to the recognized stock exchange.",
+  "The company must disclose details of cyber security incidents, data breaches, or lost documents along with that compliance report.",
+  "The compliance report must be signed by either the compliance officer or the chief executive officer.",
+  "The company may include a Business Responsibility and Sustainability Report in its annual report."
+ ],
+ "example": "Solaris Energy Limited is a large company with listed non-convertible securities. At the end of the period, the company needs to send a compliance report on corporate governance to the stock exchange. Along with this report, Solaris Energy Limited must also include details of any cyber security incidents or data breaches that happened. To make sure the document is valid, either the chief executive officer or the compliance officer signs it. Additionally, the company decides to include a Business Responsibility and Sustainability Report in its annual report, covering environmental and social topics as specified by the Board.",
+ "terms": [
+  {
+   "term": "compliance report",
+   "meaning": "A document showing that a company is following all the required rules and laws."
+  },
+  {
+   "term": "compliance officer",
+   "meaning": "An employee whose job is to make sure the company follows all applicable laws and regulations."
+  },
+  {
+   "term": "stock exchange",
+   "meaning": "A marketplace where company securities are bought and sold."
+  }
+ ],
+ "watch": "People often confuse optional reports with mandatory reports, but some disclosures like the corporate governance report are required while others like sustainability reports are voluntary.",
+ "h": "0e164d897bac",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

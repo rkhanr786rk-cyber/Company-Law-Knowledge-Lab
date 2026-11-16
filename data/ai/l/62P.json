@@ -1,0 +1,33 @@
+{
+ "summary": "This regulation sets rules for filling sudden job openings for top leaders in certain companies called HVDLEs. These companies must find permanent replacements within specific time limits. They must also follow strict rules if they want to place someone in the job temporarily.",
+ "points": [
+  "The HVDLE must fill a vacancy for a top leader like the CEO, Managing Director, Whole Time Director, Manager, or Chief Financial Officer at the earliest and within three months.",
+  "If the company needs approval from a government, regulatory, or statutory authority to fill the vacancy, the time limit is extended to within six months.",
+  "The company must not appoint a temporary person to fill these vacancies unless the appointment follows the exact laws used for a fresh or new appointment.",
+  "If an insolvency resolution plan is approved for the company, any vacancy for these top leaders must be filled within three months of that approval.",
+  "When a company is under an approved insolvency resolution plan, it must keep at least one full-time key leader managing daily affairs during the interim period."
+ ],
+ "example": "At Zenith Infra Non-Convertible Securities Private Limited, a company classified as an HVDLE, the Chief Financial Officer suddenly resigns. Zenith Infra must fill this vacancy at the earliest and no later than three months from the date of the vacancy. Because Zenith Infra needs no outside government approvals for this role, the three-month deadline applies. If Zenith Infra decides to hire someone temporarily before finding a permanent person, that temporary appointment must strictly follow the same laws as a brand new appointment, holding that person to the exact same duties and obligations.",
+ "terms": [
+  {
+   "term": "HVDLE",
+   "meaning": "A specific type of listed entity that has issued non-convertible securities, subject to these rules."
+  },
+  {
+   "term": "Key Managerial Personnel",
+   "meaning": "Top leaders of a company, such as the CEO, Managing Director, Whole Time Director, Manager, or Chief Financial Officer."
+  },
+  {
+   "term": "Interim capacity",
+   "meaning": "A temporary or placeholder position held while looking for a permanent replacement."
+  },
+  {
+   "term": "Insolvency Code",
+   "meaning": "A legal framework dealing with companies facing severe financial distress and debt restructuring."
+  }
+ ],
+ "watch": "Do not assume temporary appointments are exempt from standard legal obligations and proper appointment laws.",
+ "h": "b1c22203abc7",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

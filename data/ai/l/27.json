@@ -1,0 +1,28 @@
+{
+ "summary": "This regulation deals with corporate governance rules for companies whose securities are listed on a stock exchange. It gives companies the choice to follow extra guidelines if they want to. However, it requires them to submit a signed quarterly report on corporate governance, along with details of any cyber security issues, to the stock exchange.",
+ "points": [
+  "The listed entity may choose to follow the extra corporate governance requirements specified in Part E of Schedule II.",
+  "The listed entity must submit a quarterly compliance report on corporate governance to the recognized stock exchange.",
+  "The listed entity must include details of any cyber security incidents, data breaches, or loss of documents along with the quarterly report.",
+  "The quarterly report must be signed by either the compliance officer or the chief executive officer of the listed entity."
+ ],
+ "example": "Sunrise Retail Limited is a company whose shares are listed on a stock exchange. Every quarter, the company prepares a compliance report on corporate governance as required by the Board. The chief executive officer of Sunrise Retail Limited signs this report before it is submitted. Because the company experienced a minor computer data breach during that quarter, the details of this cyber security incident are attached and disclosed along with the signed compliance report. The company also chooses to adopt a few discretionary guidelines from Schedule II to improve its internal management.",
+ "terms": [
+  {
+   "term": "Listed entity",
+   "meaning": "A company whose securities or shares are traded on a stock exchange."
+  },
+  {
+   "term": "Compliance officer",
+   "meaning": "An officer responsible for ensuring that the company follows all rules and regulations."
+  },
+  {
+   "term": "Quarterly",
+   "meaning": "Happening once every three months."
+  }
+ ],
+ "watch": "People often confuse optional extra guidelines with mandatory rules, but following Part E of Schedule II is completely at the discretion of the company.",
+ "h": "1ccc3e40bc64",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

@@ -1,0 +1,33 @@
+{
+ "summary": "This regulation requires listed companies to report how they use the money they raise from the public or other issues. They must share quarterly updates on any changes in spending compared to their original plans. These reports must be reviewed by an audit committee and sent to the stock exchange until all the money is fully spent.",
+ "points": [
+  "Must submit a quarterly statement to the stock exchange showing any deviations in the use of issue proceeds.",
+  "Must indicate category-wise variations between projected and actual fund utilisation.",
+  "Must continue submitting the statements until the issue proceeds are fully utilised or the purpose is achieved.",
+  "Must place the statements before the audit committee for review before submitting them to the stock exchange.",
+  "Must give an explanation for any variation in the directors report within the annual report."
+ ],
+ "example": "Meera Textiles Private Limited raised money through a public issue to buy new machinery for a factory. Later, the company decided to use some of those funds for sales and marketing instead. Because this is a change from the objects stated in the original offer document, Meera Textiles must submit a quarterly statement to the stock exchange showing this deviation. This statement needs to show the category-wise variation between projected and actual fund use. Before sending it to the stock exchange, the company must place this statement before its audit committee for review. Meera Textiles must keep submitting these quarterly updates until all the raised money is fully used up for its stated purposes.",
+ "terms": [
+  {
+   "term": "Deviation",
+   "meaning": "A departure from the original plan or object stated for using funds."
+  },
+  {
+   "term": "Proceeds",
+   "meaning": "The money raised by the company from an issue of securities."
+  },
+  {
+   "term": "Audit committee",
+   "meaning": "A committee of the board of directors that reviews financial and reporting matters."
+  },
+  {
+   "term": "Stock exchange",
+   "meaning": "An organized marketplace where shares and other securities are bought and sold."
+  }
+ ],
+ "watch": "Companies must keep submitting these statements every quarter until every last rupee of the raised money is fully spent.",
+ "h": "e7bda2452752",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

@@ -1,0 +1,34 @@
+{
+ "summary": "This regulation explains the rules for shareholder meetings and voting in companies whose securities are listed on a stock exchange. It covers online voting, sending proxy forms, and special rules for the biggest companies. The goal is to make sure shareholders can vote easily and get meeting results quickly.",
+ "points": [
+  "The listed entity must provide a remote e-voting facility to shareholders for all resolutions.",
+  "The e-voting facility must follow the conditions in the Companies (Management and Administration) Rules, 2014.",
+  "The listed entity must submit voting results to the stock exchange within two working days after the General Meeting ends.",
+  "The listed entity must send proxy forms to security holders in all cases, stating they can vote for or against each resolution, unless the meeting is held only through electronic mode.",
+  "The top 100 listed entities by market capitalization must hold their annual general meetings within five months after the financial year ends.",
+  "The top 100 listed entities must provide a one-way live webcast of their annual general meeting proceedings."
+ ],
+ "example": "Star Pharma Limited is among the top 100 listed entities by market capitalization. After its financial year closes, Star Pharma Limited holds its annual general meeting within five months and provides a one-way live webcast of the proceedings for its investors. For all shareholder resolutions, Star Pharma Limited offers a remote e-voting facility that complies with the Companies (Management and Administration) Rules, 2014. It also sends proxy forms to holders of securities, noting that a holder may vote either for or against each resolution. Within two working days of the general meeting ending, Star Pharma Limited submits the voting results details to the stock exchange in the specified format.",
+ "terms": [
+  {
+   "term": "Remote e-voting",
+   "meaning": "A system that lets shareholders vote on company matters online from a remote location."
+  },
+  {
+   "term": "Proxy form",
+   "meaning": "A written document that lets a security holder appoint someone else to vote on their behalf at a meeting."
+  },
+  {
+   "term": "Market capitalization",
+   "meaning": "The total dollar value of a company's shares of stock."
+  },
+  {
+   "term": "General Meeting",
+   "meaning": "A formal gathering of a company's shareholders to discuss and vote on business matters."
+  }
+ ],
+ "watch": "People often confuse regular meetings with meetings held only through electronic mode, which do not require sending proxy forms.",
+ "h": "60a82dba61c3",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

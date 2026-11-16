@@ -1,0 +1,33 @@
+{
+ "summary": "This text explains the rules for handling modified opinions in a company's audit reports under SEBI regulations. It outlines how committees review these reports and how companies must submit revised financial results if directed. The process involves specific timelines for stock exchanges, regulatory boards, and the listed company.",
+ "points": [
+  "The listed entity must submit revised pro-forma financial results incorporating the effect of the modified opinion to the stock exchange when directed.",
+  "The company must carry out the accounting impact of the modified opinion as a prior period item in the financial statements of the subsequent financial year.",
+  "The stock exchange must do a preliminary scrutiny of reports and refer cases to the Board within one month from the end of the half year ending on June and December.",
+  "The Board may direct the listed entity to rectify its modified opinion and/or submit revised pro-forma financial results based on committee recommendations.",
+  "The Board may take any other necessary action at any stage in the interest of investors as it deems fit."
+ ],
+ "example": "Meera Textiles Private Limited received a direction from the Board to rectify a modified opinion found in its annual audit report. Following the rules in Schedule VIII, Meera Textiles must now submit revised pro-forma financial results that include the effect of this modified opinion to the stock exchange. The company has two months from the date of receiving the direction letter to complete this submission. Furthermore, Meera Textiles must treat the accounting impact of this modified opinion as a prior period item in the financial statements of the following financial year, ensuring proper financial tracking and transparency for all investors.",
+ "terms": [
+  {
+   "term": "Modified opinion",
+   "meaning": "A qualified, adverse, or disclaimer opinion given by an auditor on a company's financial statements."
+  },
+  {
+   "term": "Pro-forma financial results",
+   "meaning": "Financial statements prepared using certain assumptions or projections to show the impact of specific adjustments."
+  },
+  {
+   "term": "Prior period item",
+   "meaning": "Income or expenses that arise in the current period as a result of errors or omissions in one or more prior periods."
+  },
+  {
+   "term": "Statutory auditor",
+   "meaning": "An independent accountant legally appointed to audit a company's financial records and accounts."
+  }
+ ],
+ "watch": "Keep track of the exact deadlines mentioned in the text, as different stages have specific time limits ranging from fifteen days to two months.",
+ "h": "fe85e0175a93",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

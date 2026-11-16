@@ -1,0 +1,32 @@
+{
+ "summary": "This regulation explains the rules for companies that have issued Indian Depository Receipts in India. It tells them how to pay dividends and handle unclaimed money. It also mentions that these receipts can be converted back and forth in a specific way.",
+ "points": [
+  "Must pay the dividend as per the timeframe in its home country or other listed jurisdictions, whichever is earlier.",
+  "Must ensure the dividend reaches Indian Depository Receipt holders on or before the payment date for equity shares or other securities.",
+  "Must not forfeit unclaimed dividends before the claim is barred by law in its home country.",
+  "Must annul the forfeiture of unclaimed dividends in appropriate cases."
+ ],
+ "example": "Alpha Global Corporation is a foreign company with its securities listed in India through Indian Depository Receipts. When Alpha Global decides to pay a dividend to its investors, it must follow the earliest applicable timeframe from its home country or other jurisdictions. The company needs to make sure the dividend reaches the Indian Depository Receipt holders on or before the date it pays dividends to its regular equity shareholders. Later, if some dividends remain unclaimed, Alpha Global must wait until the claim becomes barred by law in its home country before forfeiting them. If an appropriate case arises later, the company must also annul that forfeiture as required by the regulations.",
+ "terms": [
+  {
+   "term": "Indian Depository Receipts",
+   "meaning": "A financial instrument that allows foreign companies to raise funds from the Indian securities market."
+  },
+  {
+   "term": "Forfeit",
+   "meaning": "To lose the right to something, such as unclaimed money, because of a rule or the passage of time."
+  },
+  {
+   "term": "Annulled",
+   "meaning": "Cancelled or made legally void."
+  },
+  {
+   "term": "Fungibility",
+   "meaning": "The ability of a good or asset to be easily interchanged with other individual goods or assets of the same type."
+  }
+ ],
+ "watch": "People often confuse when unclaimed dividends can be forfeited, but the rule states it depends entirely on when the claim is barred by law in the company's home country.",
+ "h": "349621af9c4f",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

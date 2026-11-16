@@ -1,0 +1,29 @@
+{
+ "summary": "Certain large or debt-heavy listed companies must set up a Risk Management Committee to handle company risks. This committee needs a specific number of directors and must meet regularly. The company board decides the exact duties of the committee, which must include cyber security.",
+ "points": [
+  "The board of directors must form a Risk Management Committee.",
+  "The committee must have at least three members, with a majority being board directors and including at least one independent director.",
+  "The committee must meet at least twice in a financial year, with no more than two hundred and ten days between meetings.",
+  "The committee has the power to ask any employee for information and get outside professional advice.",
+  "The board must define the role of the committee, which must specifically cover cyber security."
+ ],
+ "example": "Aarav Steel Limited is among the top 1000 listed entities in India. To follow the rules, its board of directors creates a Risk Management Committee. The committee has three members, including one independent director who does not work for the company. The board appoints a senior executive and ensures the committee includes cyber security in its work. The committee holds its first meeting and later schedules its second meeting to make sure no more than two hundred and ten days pass between the two gatherings. During a review, the committee asks an employee for internal reports and seeks outside legal advice to understand a new industry risk.",
+ "terms": [
+  {
+   "term": "Independent director",
+   "meaning": "A board member who does not have any material or pecuniary relationship with the company, ensuring unbiased oversight."
+  },
+  {
+   "term": "Quorum",
+   "meaning": "The minimum number of members who must be present at a meeting for business to be validly conducted."
+  },
+  {
+   "term": "SR equity shares",
+   "meaning": "Shares that carry superior voting rights compared to ordinary shares."
+  }
+ ],
+ "watch": "People often confuse regular directors with independent directors who have fewer ties to the company.",
+ "h": "818665434046",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

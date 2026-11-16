@@ -1,0 +1,33 @@
+{
+ "summary": "This regulation explains the rules for independent directors on the board of a listed company. It covers how they are appointed, their meetings, their responsibilities, and how they must give a yearly declaration of independence. Companies must also help them learn about the business and sometimes buy insurance for them.",
+ "points": [
+  "The listed entity must not appoint or keep an alternate director for an independent director.",
+  "The listed entity must get shareholder approval by a special resolution to appoint, re-appoint, or remove an independent director.",
+  "Independent directors must hold at least one yearly meeting without non-independent directors and management present.",
+  "The listed entity must run familiarisation programmes to teach independent directors about the industry, business model, and their roles.",
+  "The board of directors must take on record the independence declaration submitted by each independent director after checking it."
+ ],
+ "example": "Green Energy Limited, a listed company, wanted to appoint Mr. Roy as an independent director. They put the proposal to a vote, and it was approved by shareholders through a special resolution. To help Mr. Roy understand his new role, Green Energy Limited conducted a familiarisation programme explaining their business model and industry. Later, the independent directors held a yearly meeting without any management members present to review the performance of the board. Mr. Roy also submitted a formal declaration at the first board meeting of the financial year stating that he meets all the criteria to act as an independent director.",
+ "terms": [
+  {
+   "term": "Independent director",
+   "meaning": "A board member who is independent of company management and does not have a material or pecuniary relationship with the company."
+  },
+  {
+   "term": "Special resolution",
+   "meaning": "A formal decision passed by shareholders with a high majority of votes."
+  },
+  {
+   "term": "Alternate director",
+   "meaning": "A person appointed to act for a director during their absence."
+  },
+  {
+   "term": "Market capitalization",
+   "meaning": "The total market value of a company's issued shares."
+  }
+ ],
+ "watch": "An independent director can still be appointed even if a special resolution fails, as long as specific voting conditions involving public shareholders are met.",
+ "h": "5659ac757c50",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

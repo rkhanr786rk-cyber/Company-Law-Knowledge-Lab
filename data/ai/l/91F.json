@@ -1,0 +1,30 @@
+{
+ "summary": "This rule applies to listed Not for Profit Organizations that have their mutual fund units listed on a Social Stock Exchange. They must regularly report on how they use the money they raise from the public. They also have to keep any leftover money safely apart from their other funds.",
+ "points": [
+  "Must send a quarterly statement to the Social Stock Exchange about funds raised",
+  "Must include category-wise amounts of monies raised and utilised in the statement",
+  "Must report the balance amount remaining unutilised in the statement",
+  "Must keep any unutilised money in a separate bank account",
+  "Must not mix unutilised money with other funds",
+  "Must continue giving the statement until all funds are fully used or the goal is achieved"
+ ],
+ "example": "GreenEarth Foundation, a listed Not for Profit Organization, recently raised money through its listed mutual fund units on the Social Stock Exchange. Every quarter, GreenEarth Foundation must submit a statement to the Social Stock Exchange showing the category-wise amount of monies raised, the category-wise amount utilised, and the balance amount remaining unutilised. The organization placed all the unutilised money into a separate bank account and made sure it was not mixed with its other funds. GreenEarth Foundation will keep submitting this quarterly statement until every single raised rupee is fully utilised or the specific purpose for which the money was raised has been fully achieved.",
+ "terms": [
+  {
+   "term": "Not for Profit Organization",
+   "meaning": "An organization that does not operate to make a profit for its owners."
+  },
+  {
+   "term": "Social Stock Exchange",
+   "meaning": "A separate segment of a stock exchange meant for social enterprises and non-profits."
+  },
+  {
+   "term": "Co-mingled",
+   "meaning": "Mixed together with other funds."
+  }
+ ],
+ "watch": "People often confuse regular bank accounts with the separate bank account required for unutilised funds.",
+ "h": "db7633da4d87",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

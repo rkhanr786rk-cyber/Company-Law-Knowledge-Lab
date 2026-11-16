@@ -1,0 +1,28 @@
+{
+ "summary": "This rule applies to listed entities that have mutual fund units. They must give certain information and documents to the stock exchange. This is information that also needs to go on the company website under specific mutual fund rules.",
+ "points": [
+  "The listed entity must submit required information and documents to the recognised stock exchange.",
+  "This applies to documents that must be shown on the listed entity's website under SEBI Mutual Funds Regulations, 1996.",
+  "This also applies to information required by directions issued under those mutual fund regulations.",
+  "The stock exchange will then display or share this information."
+ ],
+ "example": "Sunshine Mutual Fund Limited is a company with units listed on the National Stock Exchange. Under the Securities and Exchange Board of India Mutual Funds Regulations, 1996, the company is required to put certain documents on its own website. To follow Regulation 91, Sunshine Mutual Fund Limited must also submit these exact documents and information to the recognised stock exchange. The stock exchange then takes this material and shares it with the public on its own platform, ensuring that investors have proper access to all required mutual fund details.",
+ "terms": [
+  {
+   "term": "Listed entity",
+   "meaning": "A company or body whose securities or units are traded on a stock exchange."
+  },
+  {
+   "term": "Dissemination",
+   "meaning": "Spreading or sharing information widely so people can see it."
+  },
+  {
+   "term": "Stock exchange",
+   "meaning": "An organized marketplace where shares and units are bought and sold."
+  }
+ ],
+ "watch": "Do not assume this rule applies to all listed companies, as it specifically targets those with listed mutual fund units.",
+ "h": "54a0f64b6fae",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

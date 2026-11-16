@@ -1,0 +1,29 @@
+{
+ "summary": "This schedule explains how listed companies must pay dividends, interest, and repayment amounts to their investors. Companies must use digital banking methods like electronic funds transfer or real-time gross settlement for these payments. They also need to keep proper bank details of all their investors, whether the securities are held digitally or physically.",
+ "points": [
+  "The listed entity must use electronic clearing services, direct credit, real time gross settlement, or national electronic funds transfer for payments.",
+  "Payments include dividends, interest on securities, and redemption or repayment amounts.",
+  "The listed entity must act directly, through depositories, or through a Registrar to an Issue and Share Transfer Agent to make payments.",
+  "The listed entity or Registrar must get bank details for investors holding securities in dematerialized mode from the depositories.",
+  "The listed entity or Registrar must update bank details at their own end for investors holding securities in physical mode."
+ ],
+ "example": "Meera Textiles Private Limited is a company whose shares are listed on a stock exchange. When the company decides to pay a dividend to its shareholders, it cannot use paper cheques. Instead, Meera Textiles Private Limited must use electronic payment methods like national electronic funds transfer or real time gross settlement. To make sure the money reaches the right people, the company gets the bank details of investors who hold shares digitally from the depositories. For investors who still hold shares in physical paper form, Meera Textiles Private Limited updates their bank details directly at its own end before sending the money.",
+ "terms": [
+  {
+   "term": "dematerialized mode",
+   "meaning": "Holding securities in electronic form rather than on paper."
+  },
+  {
+   "term": "Registrar to an Issue and Share Transfer Agent",
+   "meaning": "An agency that helps manage investor records and share transfers for a company."
+  },
+  {
+   "term": "redemption",
+   "meaning": "The repayment of a security's value by the company to the investor."
+  }
+ ],
+ "watch": "People often confuse physical mode shares with dematerialized shares, but companies must collect bank details for them in completely different ways.",
+ "h": "337af37cbc0e",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

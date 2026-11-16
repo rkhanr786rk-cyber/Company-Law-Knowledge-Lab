@@ -1,0 +1,30 @@
+{
+ "summary": "This regulation explains which companies with listed non-convertible debt securities must follow special governance rules. These companies are called high value debt listed entities based on the size of their outstanding debt. The rules also explain how long these requirements continue and how they apply during insolvency.",
+ "points": [
+  "The rules apply to a listed entity that only has non-convertible debt securities listed with an outstanding value of Rupees Five Thousand Crore and above and no listed specified securities.",
+  "If the outstanding value reaches or exceeds Rupees Five Thousand Crore during a financial year, the entity must ensure compliance within six months from the trigger date.",
+  "Once the rules apply, they continue to apply until the outstanding debt value as on March 31 stays below the threshold for three consecutive financial years.",
+  "For Infrastructure Investment Trusts and Real Estate Investment Trusts, their specific governance norms apply instead.",
+  "During insolvency resolution, certain regulations do not apply, and an interim resolution professional or resolution professional takes over board or committee roles.",
+  "The provisions of the Companies Act, 2013 continue to apply wherever applicable."
+ ],
+ "example": "Alpha Debt Company Limited has only non-convertible debt securities listed on the stock exchange. During the financial year, the principal amount of its outstanding listed debt securities crosses Rupees Five Thousand Crore. Because of this trigger, Alpha Debt Company Limited must ensure compliance with the chapter's provisions within six months from the date of the trigger. It must make disclosures of such compliance in the Corporate Governance Compliance Report on and from the third quarter following the date of the trigger. If its debt later reduces and stays below the threshold for three consecutive financial years, these rules will stop applying.",
+ "terms": [
+  {
+   "term": "non-convertible debt securities",
+   "meaning": "Borrowed money in the form of securities that cannot be converted into equity shares."
+  },
+  {
+   "term": "high value debt listed entity",
+   "meaning": "An entity referred to by the acronym HVDLE that meets the specified high debt threshold."
+  },
+  {
+   "term": "corporate insolvency resolution process",
+   "meaning": "A legal process for resolving insolvency under the Insolvency Code."
+  }
+ ],
+ "watch": "Watch out for assuming these rules apply to companies that also have listed specified securities.",
+ "h": "ec47d6e21263",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

@@ -1,0 +1,34 @@
+{
+ "summary": "This regulation sets rules for big debt-listed companies regarding their unlisted major subsidiary companies. It ensures the main company keeps a close eye on the subsidiary's money, board meetings, big deals, and asset sales. It also stops the main company from losing control of the subsidiary without shareholder approval, unless a court or insolvency plan says otherwise.",
+ "points": [
+  "At least one independent director from the main company must sit on the board of the unlisted material subsidiary.",
+  "The audit committee of the main company must review the financial statements and investments of the unlisted material subsidiary.",
+  "The board meeting minutes of the unlisted material subsidiary must be presented at the board meetings of the main company.",
+  "The management of the unlisted material subsidiary must periodically report all significant transactions and arrangements to the main company board.",
+  "The main company must not reduce its shareholding to fifty percent or less, or give up control, without a special resolution, except in approved court schemes or insolvency resolution plans.",
+  "Selling, disposing, or leasing assets of more than twenty percent of the subsidiary's assets in a year needs prior shareholder approval by special resolution, with exceptions for court schemes, insolvency plans, or deals between wholly-owned subsidiaries."
+ ],
+ "example": "Star Debt Limited is a large listed entity in India. It has an unlisted subsidiary called Luna Components Private Limited. Because Luna makes up more than twenty percent of Star Debt Limited's net worth, it is a material subsidiary. To follow the rules, Star Debt Limited places one of its independent directors on Luna's board. The audit committee of Star Debt Limited reviews Luna's investments. Also, Luna's board meeting minutes are shared with Star Debt Limited's board. When Luna plans a large transaction exceeding ten percent of its total revenues, its management informs Star Debt Limited. If Star Debt Limited later wants to sell shares and reduce its holding to fifty percent, it must pass a special resolution in its General Meeting.",
+ "terms": [
+  {
+   "term": "HVDLE",
+   "meaning": "High Value Debt Listed Entity, a company that has listed its non-convertible securities."
+  },
+  {
+   "term": "Material subsidiary",
+   "meaning": "A subsidiary company whose turnover or net worth exceeds twenty per cent of the main company and its subsidiaries."
+  },
+  {
+   "term": "Audit committee",
+   "meaning": "A committee of board members that oversees financial reporting and audits."
+  },
+  {
+   "term": "Special resolution",
+   "meaning": "A resolution passed by a high majority of shareholders in a general meeting."
+  }
+ ],
+ "watch": "People often confuse regular subsidiaries with material subsidiaries, but this regulation only applies when the subsidiary crosses the twenty percent turnover or net worth threshold.",
+ "h": "c2171da3dda8",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

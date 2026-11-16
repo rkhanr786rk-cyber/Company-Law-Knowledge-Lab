@@ -1,0 +1,28 @@
+{
+ "summary": "The Board can give special permission to free certain people or groups from following some or all of these rules for up to one year. This happens when they want to test new ideas, products, or business methods in a safe live testing space. The people who get this freedom must follow all the conditions set by the Board.",
+ "points": [
+  "The Board may exempt any person or class of persons from all or some of these regulations for up to twelve months.",
+  "The exemption must be for the purpose of furthering innovation relating to testing new products, processes, services, or business models in a regulatory sandbox.",
+  "The applicant must satisfy all conditions specified by the Board to receive the exemption.",
+  "The applicant must continue to comply with the continuous conditions set by the Board during the exemption period."
+ ],
+ "example": "Innovative Fintech Limited wants to test a brand new digital investment service for the securities market using a safe, live environment. They apply to the Board for special permission to be excused from certain standard regulations while they test this new service with a small group of customers. The Board reviews their application and decides to grant the exemption for a period of six months, provided that Innovative Fintech Limited strictly follows all the ongoing rules and conditions set by the Board throughout the entire testing period.",
+ "terms": [
+  {
+   "term": "Regulatory sandbox",
+   "meaning": "A live testing environment where new products, services, or business models may be deployed on a limited set of customers for a specified time."
+  },
+  {
+   "term": "Exemption",
+   "meaning": "Permission not to follow certain rules or regulations."
+  },
+  {
+   "term": "The Board",
+   "meaning": "The regulatory authority, which in this context is SEBI."
+  }
+ ],
+ "watch": "People often think an exemption means permanent freedom from all rules, but it only lasts for a specified period not exceeding twelve months and requires strict compliance with continuous conditions.",
+ "h": "50437011ad6f",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

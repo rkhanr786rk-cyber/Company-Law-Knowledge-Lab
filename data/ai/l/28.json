@@ -1,0 +1,29 @@
+{
+ "summary": "A listed company must get a special approval called an in-principle approval from stock exchanges before it issues new securities. Where this approval must come from depends on where the company's securities are already listed or where they are proposed to be listed. However, this approval is not needed if the securities are issued under a specific scheme of arrangement that already has a No-Objection Letter.",
+ "points": [
+  "Must obtain an in-principle approval from recognized stock exchanges before issuing securities",
+  "Must get approval from all stock exchanges with nationwide trading terminals if securities are listed only on such exchanges",
+  "Must get approval from all stock exchanges where securities are proposed to be listed if not currently listed on nationwide terminals",
+  "Must get approval from all nationwide terminals if listed on both nationwide and non-nationwide exchanges",
+  "May skip obtaining this in-principle approval for securities issued under a scheme of arrangement that has a No-Objection Letter"
+ ],
+ "example": "Meera Textiles Private Limited planned to issue new shares to raise funds for its expanding business operations. Before moving forward with the issuance, the company needed to check where its securities were listed to know which stock exchanges to approach. Since its securities were listed only on recognized stock exchanges that had nationwide trading terminals, Meera Textiles Private Limited had to obtain an in-principle approval from all of those specific stock exchanges before actually issuing the new securities.",
+ "terms": [
+  {
+   "term": "Securities",
+   "meaning": "Financial instruments like shares or bonds issued by a company."
+  },
+  {
+   "term": "In-principle approval",
+   "meaning": "A preliminary agreement or permission given by a stock exchange before something is finalized."
+  },
+  {
+   "term": "Scheme of arrangement",
+   "meaning": "A court-approved plan or agreement between a company and its creditors or shareholders."
+  }
+ ],
+ "watch": "Do not confuse the need for an in-principle approval with securities issued under a scheme of arrangement that already has a No-Objection Letter.",
+ "h": "35c1f3e48257",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

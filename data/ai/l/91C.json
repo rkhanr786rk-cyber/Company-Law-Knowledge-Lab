@@ -1,0 +1,28 @@
+{
+ "summary": "This regulation explains the annual reporting duties for a Not for Profit Organization that is registered or has its designated securities listed on a Social Stock Exchange. Such an organization must share both financial and non-financial details with the stock exchange every year. These yearly updates must follow specific timelines or any other time limits set by the Board.",
+ "points": [
+  "Must share yearly financial details with the Social Stock Exchange by October 31st, before the income tax return due date, or within the period specified by the Board.",
+  "Must share yearly non-financial details within 60 days from the end of the financial year or within the period specified by the Board.",
+  "Must disclose any extra matters each year if the Social Stock Exchange requires it.",
+  "Must give intimations and disclosures about events or information to the Social Stock Exchange or Stock Exchange if required."
+ ],
+ "example": "Aarambh Welfare Trust is a Not for Profit Organization whose designated securities are listed on the Social Stock Exchange. To follow the rules, Aarambh must report its financial aspects to the Social Stock Exchange by October 31st or before filing its income tax return, whichever happens later. For its non-financial aspects, the trust needs to submit the required details within sixty days from the end of the financial year. Additionally, because the Social Stock Exchange may ask for more information, Aarambh must also share any other matters that the exchange specifies on an annual basis.",
+ "terms": [
+  {
+   "term": "Not for Profit Organization",
+   "meaning": "An organization that uses its income to achieve its objectives rather than distributing profit to its members."
+  },
+  {
+   "term": "Social Stock Exchange",
+   "meaning": "A separate segment of a stock exchange that helps social enterprises raise funds."
+  },
+  {
+   "term": "Designated securities",
+   "meaning": "Specific types of securities or financial instruments issued by the organization."
+  }
+ ],
+ "watch": "Do not confuse the separate deadlines for financial aspects and non-financial aspects when submitting your annual disclosures.",
+ "h": "186d4f94dc43",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

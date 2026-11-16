@@ -1,0 +1,30 @@
+{
+ "summary": "Listed companies must create a Stakeholders Relationship Committee to look after the interests of shareholders and other security holders. This committee needs specific directors, must meet at least once a year, and its chairperson must attend annual general meetings. The rules also ensure independent oversight, especially for companies with special rights equity shares.",
+ "points": [
+  "The listed entity must set up a Stakeholders Relationship Committee to look into the interests of security holders.",
+  "The chairperson of this committee must be a non-executive director.",
+  "The committee must have at least three directors as members, including at least one independent director.",
+  "If the entity has outstanding SR equity shares, at least two-thirds of the committee must be independent directors.",
+  "The chairperson of the committee must be present at the annual general meetings to answer queries.",
+  "The committee must meet at least once in a financial year."
+ ],
+ "example": "Meera Textiles Private Limited is a listed company that recently formed its Stakeholders Relationship Committee to look into the concerns of its shareholders and debenture holders. Mr. Sharma, a non-executive director, was appointed as the chairperson of this committee. The committee consists of three directors, including one independent director to meet the legal requirements. During the year, the committee successfully held its required meeting. Later, when Meera Textiles held its annual general meeting, Mr. Sharma was present in person to answer the various queries raised by the security holders regarding their investments.",
+ "terms": [
+  {
+   "term": "Non-executive director",
+   "meaning": "A board member who is not involved in the day-to-day management of the company."
+  },
+  {
+   "term": "Independent director",
+   "meaning": "A board member who does not have any material or pecuniary relationship with the company, ensuring unbiased oversight."
+  },
+  {
+   "term": "SR equity shares",
+   "meaning": "Equity shares that carry superior voting rights compared to ordinary shares."
+  }
+ ],
+ "watch": "People often confuse regular board meetings with committee meetings, but this committee has its own specific rule to meet at least once a financial year.",
+ "h": "50428261e109",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}

@@ -1,0 +1,29 @@
+{
+ "summary": "This regulation tells companies that issue securitised debt instruments what information they must share with their investors. They need to share loan details without naming individual borrowers, and they must share credit rating updates. They also need to make their investor grievance contact details easy to find on their website and in promotional materials.",
+ "points": [
+  "Must provide loan level information to investors without showing individual borrower details.",
+  "Must provide information about any rating revisions resulting from periodic credit ratings.",
+  "May send loan and rating information by electronic form or fax if the investors agree.",
+  "Must display the grievance redressal division email address prominently on its website.",
+  "Must display other relevant details prominently on its website and in awareness materials, pamphlets, and advertisement campaigns."
+ ],
+ "example": "Apex Securitisation Limited issued debt instruments to the public. To keep investors informed, Apex decided to share general loan details without revealing the personal names of the borrowers. When an agency updated their credit rating, Apex quickly shared this revision with the investors too. Because the investors agreed in advance to receive updates digitally, Apex sent these reports through electronic mail. To ensure investors always knew where to turn for help, Apex prominently displayed the email address of its grievance redressal division on its main website and included these contact details in all its new promotional pamphlets and advertisement campaigns designed for investor awareness.",
+ "terms": [
+  {
+   "term": "Securitised Debt Instruments",
+   "meaning": "Financial tools created by pooling various loans or debts, which are then sold to investors."
+  },
+  {
+   "term": "Servicer",
+   "meaning": "A person or company that manages the collection of loans and handles administrative duties for the listed entity."
+  },
+  {
+   "term": "Grievance Redressal Division",
+   "meaning": "A department in a company that handles complaints and problems raised by investors."
+  }
+ ],
+ "watch": "Do not assume that individual borrower names can be shared, as the rule strictly forbids disclosing their particulars.",
+ "h": "11fd860a464e",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-16"
+}
