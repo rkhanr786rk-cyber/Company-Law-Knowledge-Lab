@@ -43,6 +43,9 @@ jobs:
       - name: Build the Drafts library page
         continue-on-error: true
         run: python "$(find . -name build_drafts.py -not -path './.git/*' | head -n 1)"
+      - name: Build the Processes pages
+        continue-on-error: true
+        run: python "$(find . -name build_processes.py -not -path './.git/*' | head -n 1)"
       - name: Save reports (even if a step failed)
         if: always()
         uses: actions/upload-artifact@v4
