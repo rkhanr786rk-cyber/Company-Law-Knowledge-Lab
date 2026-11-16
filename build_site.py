@@ -466,9 +466,15 @@ def main():
             dump(OUT / "data" / "ai" / "s" / f.name, keep_ai(json.loads(f.read_text(encoding="utf-8"))))
             ai_sections.append(f.stem)
 
+    ai_forms = []
+    for f in sorted((DATA / "ai" / "f").glob("*.json")) if (DATA / "ai" / "f").exists() else []:
+        (OUT / "data" / "ai" / "f").mkdir(parents=True, exist_ok=True)
+        dump(OUT / "data" / "ai" / "f" / f.name, json.loads(f.read_text(encoding="utf-8")))
+        ai_forms.append(f.stem)
+
     dump(OUT / "data" / "index.json", {
         "act": ACT_NAME, "built": datetime.date.today().isoformat(),
-        "sections": rows, "chapters": chapters, "sets": set_index, "rules": rule_rows, "ai_s": ai_sections,
+        "sections": rows, "chapters": chapters, "sets": set_index, "rules": rule_rows, "ai_s": ai_sections, "ai_f": ai_forms,
     })
     dump(OUT / "data" / "fulltext.json", ft)
     forms = {}
