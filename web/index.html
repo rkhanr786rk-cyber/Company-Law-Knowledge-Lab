@@ -342,6 +342,15 @@ table.cal{width:100%;border-collapse:collapse;margin-top:.4rem;font:400 .94rem/1
 .lch{margin:1.4rem 0 .3rem;font:700 1.05rem var(--sans);color:var(--tape)}
 .lp{margin:.55rem 0;font:400 1.05rem/1.65 var(--serif)}
 .lp.l1{margin-left:1.4rem}.lp.l2{margin-left:2.8rem}
+.web .th.lodr{stroke:#2e7d5b}.web .hub.lodr{stroke:#2e7d5b}.web .sec.reg circle{stroke:#2e7d5b}.web .sec.reg .lt{fill:#2e7d5b}
+.legend .k.g{border-radius:50%;border-color:#2e7d5b}
+.ltabs{display:flex;gap:.4rem;margin:.6rem 0 1.2rem}
+.ltabs button{padding:.4rem .9rem;border:1px solid var(--rule);border-radius:3px;background:var(--page);color:var(--ink);font:600 .9rem var(--sans);cursor:pointer}
+.ltabs button[aria-pressed=true]{background:var(--tape);border-color:var(--tape);color:var(--page)}
+.lpane[hidden]{display:none}
+.lact{margin:1.4rem 0 0}.lact h3{margin:0 0 .3rem;font:700 1rem var(--sans)}
+.lact ul{margin:0;padding-left:1.1rem;font:400 .98rem/1.5 var(--serif)}
+.lact .why{display:block;color:var(--muted);font:400 .84rem/1.4 var(--sans)}
 .mynotes{margin:1.4rem 0 0}
 .mynotes summary{cursor:pointer;font:600 .92rem var(--sans);color:var(--link)}
 .mynotes textarea{display:block;width:100%;margin-top:.5rem;min-height:6rem;resize:vertical;font:400 1rem/1.5 var(--sans)}
@@ -724,7 +733,21 @@ const IN_SAY = { def: m => `Section ${m}, “${ttl(m)}”, uses a term that this
   sub: m => `Section ${m}, “${ttl(m)}”, is made subject to this section.`, cmp: m => `Section ${m}, “${ttl(m)}”, requires compliance with this section.`,
   pen: m => `Section ${m}, “${ttl(m)}”, ties into the offence, penalty or liability dealt with here.`, pro: m => `Section ${m}, “${ttl(m)}”, draws on the power or procedure in this section.`,
   ref: m => `Section ${m}, “${ttl(m)}”, refers to this section for a related matter.` };
+function lodrLabel(id) { return /^S/.test(id) ? id : "R" + id; }
+function lodrTip(id, t) { return /^S/.test(id) ? `SEBI (LODR) Schedule ${id.slice(1)}${t ? ". " + t : ""}` : `SEBI (LODR) Regulation ${id}${t ? ". " + t : ""}`; }
+function lodrGroups(d) {
+  const L = S.lodrT || {}, g = [];
+  const reg = (id, why, q, extra) => ({ k: "s", reg: true, id, label: lodrLabel(id), why, q: q || "", tip: lodrTip(id, L[id]), href: `#/lodr/${encodeURIComponent(id)}`, ...extra });
+  const act = (a, why, extra) => ({ k: "s", id: a.n, label: a.n, why, q: a.w === "c" ? a.x : "", tip: `Section ${a.n}${a.t ? ". " + a.t : ""}`, href: `#/s/${a.n}`, ...extra });
+  if (d.out && d.out.length) g.push({ kind: "out", label: `Refers to ${plural(d.out.length, "provision")}`, items: d.out.map(id => reg(id, `This ${d.sch ? "schedule" : "regulation"} refers to ${/^S/.test(id) ? "Schedule " + id.slice(1) : "regulation " + id}.`, (d.wo || {})[id])) });
+  if (d.in && d.in.length) g.push({ kind: "in", label: `Referred to by ${plural(d.in.length, "provision")}`, items: d.in.map(id => reg(id, `${/^S/.test(id) ? "Schedule " + id.slice(1) : "Regulation " + id} refers to this ${d.sch ? "schedule" : "regulation"}.`, (d.wi || {})[id])) });
+  const cite = (d.acts || []).filter(a => a.w === "c"), rel = (d.acts || []).filter(a => a.w === "r");
+  if (cite.length) g.push({ kind: "rule", label: `Companies Act, named (${cite.length})`, items: cite.map(a => act(a, `This ${d.sch ? "schedule" : "regulation"} names section ${a.n} of the Companies Act, 2013.`)) });
+  if (rel.length) g.push({ kind: "co", label: `Companies Act, same subject (${rel.length})`, items: rel.map(a => act(a, `The headings share the words “${a.x}”. Matched by the tool on the headings only. Read both before relying on it.`, { co: true })) });
+  return g;
+}
 function webGroups(d) {
+  if (d.lw) return lodrGroups(d);
   const sub = l => l ? ` in sub-section (${l})` : "";
   const sec = (n, why, q, extra) => ({ k: "s", id: n, label: n, why, q: q || "", tip: `Section ${n}. ${S.idx.sections[S.map[n]][1]}`, href: `#/s/${n}`, ...extra });
   const g = [];
@@ -742,6 +765,9 @@ function webGroups(d) {
     const form = /\bForm\b|e-?form|\bfil(?:e|ed|ing)\b/i.test(r.w || "") ? ", including what to file and in which form" : rel === "pen" ? ", including the consequences of default" : "";
     return base + form + ".";
   };
+  const gl = (d.gn && d.gn.lodr || []).filter(x => x.id);
+  if (gl.length) g.push({ kind: "lodr", label: `SEBI (LODR) (${gl.length})`, items: gl.map(x => ({ k: "s", reg: true, co: !!x.rel, id: x.id, label: lodrLabel(x.id), tip: lodrTip(x.id, x.note && x.note.replace(/\s*\(regulation refers to this section\)$/, "")), href: `#/lodr/${encodeURIComponent(x.id)}`,
+    why: x.rel ? `The headings of this section and of ${x.regulation} share subject words. Matched by the tool on the headings only: read both to confirm.` : `${x.regulation} of the SEBI (LODR) Regulations, 2015 names this section.`, q: x.rel ? "" : (x.x || "") })) });
   [...by].forEach(([k, arr]) => g.push({ kind: "rule", label: `${shortSet(S.idx.sets[k].name)} (${arr.length})`, items: arr.map(r => ({ k: "r", id: r.rule, label: "R" + r.rule, set: k, low: r.conf === "low", t: r.t,
     tip: `Rule ${r.rule} of ${S.idx.sets[k].name}${r.t ? ". " + r.t : ""}`,
     q: r.conf === "low" ? "" : (r.w || ""),
@@ -757,6 +783,8 @@ function webSummary(d) {
   if (direct.length) parts.push(`is put into practice by ${plural(direct.length, "rule")} in ${plural(sets.size, "set")} of Rules`);
   let t = parts.length ? `Section ${d.n}, “${nice(d.t)}”, ${parts.join(", ").replace(/, ([^,]*)$/, parts.length > 1 ? ", and $1" : ", $1")}.` : "";
   if (!parts.length && low) t = `No rule or section names section ${d.n}, but ${plural(low, "rule")} are made under it.`;
+  const nl = (d.gn && d.gn.lodr || []).filter(x => !x.rel).length;
+  if (nl) t += ` It is named by ${plural(nl, "SEBI (LODR) regulation")}.`;
   if (parts.length && d.co && d.co.length) t += ` ${plural(d.co.length, "further section")} share rules with it.`;
   return t;
 }
@@ -786,11 +814,11 @@ function webSVG(d, W) {
       const x = rr * Math.cos(ang), y = rr * Math.sin(ang), it = shown[i];
       threads += thread(hx, hy, x, y, `sub ${g.kind}${it && it.low ? " low" : ""}`);
       if (!it) leaves += `<g class="mr"><title>${more} more, listed below the web</title><circle cx="${f(x)}" cy="${f(y)}" r="${P.leaf}"/><text class="lt" x="${f(x)}" y="${f(y)}" font-size="${P.fz - 1}">+${more}</text></g>`;
-      else if (it.k === "s") leaves += `<a class="nd sec${it.co ? " co" : ""}" href="${it.href}" aria-label="${esc(it.tip)}" data-tip="${esc(it.tip)}" data-why="${esc(it.why || "")}" data-q="${esc(it.q || "")}"><circle cx="${f(x)}" cy="${f(y)}" r="${P.leaf}"/><text class="lt" x="${f(x)}" y="${f(y)}" font-size="${P.fz - (it.label.length > 3 ? 1.5 : 0)}">${esc(it.label)}</text></a>`;
+      else if (it.k === "s") leaves += `<a class="nd sec${it.co ? " co" : ""}${it.reg ? " reg" : ""}" href="${it.href}" aria-label="${esc(it.tip)}" data-tip="${esc(it.tip)}" data-why="${esc(it.why || "")}" data-q="${esc(it.q || "")}"><circle cx="${f(x)}" cy="${f(y)}" r="${P.leaf}"/><text class="lt" x="${f(x)}" y="${f(y)}" font-size="${P.fz - (it.label.length > 3 ? 1.5 : 0)}">${esc(it.label)}</text></a>`;
       else leaves += `<g class="nd ru${it.low ? " low" : ""}" role="button" tabindex="0" aria-label="${esc(it.tip)}" data-tip="${esc(it.tip)}" data-why="${esc(it.why || "")}" data-q="${esc(it.q || "")}" data-set="${it.set}" data-rule="${esc(it.id)}"><rect x="${f(x - P.rw / 2)}" y="${f(y - P.rh / 2)}" width="${P.rw}" height="${P.rh}" rx="4"/><text class="lt" x="${f(x)}" y="${f(y)}" font-size="${P.fz - 1.5}">${esc(it.label)}</text></g>`;
     }
   });
-  return `<svg class="web" viewBox="${-half} ${-half} ${2 * half} ${2 * half}" role="group" aria-label="Connections of section ${esc(d.n)}">${net}${threads}${hubs}${leaves}
+  return `<svg class="web" viewBox="${-half} ${-half} ${2 * half} ${2 * half}" role="group" aria-label="Connections of ${d.lw ? "regulation" : "section"} ${esc(d.n)}">${net}${threads}${hubs}${leaves}
     <circle class="ctr" r="${P.r0}"/><text class="ct" font-size="${narrow ? 19 : 23}">${esc(d.n)}</text></svg>`;
 }
 function openRule(k, r) {
@@ -839,7 +867,7 @@ function buildWeb(force) {
     ${sum ? `<p class="sum">${esc(sum)}</p><p class="small">The explanations are written automatically from the wording of the provisions. The quoted text under each one is the evidence.</p>` : ""}
     ${groups.length ? `<p class="small">Click a circle to read that section. Click a square to read that rule.</p>
     <div class="webbox">${webSVG(d, W)}</div><p class="webcap" id="webcap" aria-live="polite">Hover or focus a circle or square to see what it is and why it is linked.</p>
-    <p class="legend"><span class="k s"></span>Section <span class="k r"></span>Rule. Blue threads go to sections this one cites, grey to sections that cite it, red to rules, dotted to sections that share a rule with this one.</p>`
+    <p class="legend"><span class="k s"></span>Section <span class="k r"></span>Rule <span class="k g"></span>SEBI (LODR) regulation. Green threads go to LODR regulations that name this section or share its subject. Blue threads go to sections this one cites, grey to sections that cite it, red to rules, dotted to sections that share a rule with this one.</p>`
       : `<p class="empty">No other section or rule refers to section ${esc(d.n)}, and it refers to none.</p>`}
     ${low ? `<label class="lowtoggle"><input type="checkbox" id="weblow"${S.webLow ? " checked" : ""}> Also show the ${plural(low, "rule")} made under this section without naming it</label>` : ""}
     ${groups.length ? `<details class="wlist"><summary>All connections as a list</summary>${lists}</details>` : ""}
@@ -1031,7 +1059,7 @@ const secLink = (n, t) => `<a href="#/s/${esc(n)}">Section ${esc(n)}</a>${t ? " 
 function srcLink(u, label) { return u && /^https?:\/\//i.test(u) ? ` <a href="${esc(u)}" target="_blank" rel="noopener">${esc(label || "Open")}</a>` : ""; }
 function guideHTML(d) {
   if (d.s === "omitted") return "";
-  const g = d.gn || {}, direct = d.rules.filter(r => r.conf !== "low");
+  let g = d.gn || {}; const direct = d.rules.filter(r => r.conf !== "low");
   const sec = (h, items, empty) => `<h3>${h}</h3>` + (items.length ? `<ul>${items.join("")}</ul>` : `<p class="muted">${empty}</p>`);
   const rules = direct.map(r => `<li><a href="#/s/${esc(d.n)}?rule=${r.set}:${encodeURIComponent(r.rule)}&tab=rules">Rule ${esc(r.rule)}</a> of the ${esc(S.idx.sets[r.set].name)}: ${esc(r.t || "No heading")}${r.conf === "medium" ? ` <span class="flag">verify</span>` : ""}</li>`);
   const forms = (d.forms || []).map(f => `<a href="#/forms?f=${encodeURIComponent(f)}">${esc(f)}</a>`).join(", ");
@@ -1039,7 +1067,9 @@ function guideHTML(d) {
   const missing = [];
   const block = (key, h, fmt, none) => { const a = g[key] || []; if (!a.length) { missing.push(none); return ""; } return sec(h, a.map(fmt), ""); };
   const an = block("an", "Analogous Law (Companies Act, 1956)", x => `<li>${esc(x.old_section)}${x.note ? ": " + esc(x.note) : ""}</li>`, "Analogous Law");
-  const lodr = block("lodr", "SEBI (LODR) Regulations, 2015", x => `<li>${x.id ? `<a href="#/lodr/${encodeURIComponent(x.id)}">${esc(x.regulation)}</a>` : esc(x.regulation)}${x.note ? ": " + esc(x.note.replace(/\s*\(regulation refers to this section\)$/, "")) : ""}</li>`, "SEBI (LODR)");
+  const lodrAll = g.lodr || [], lodrSug = lodrAll.filter(x => x.sug);
+  g = Object.assign({}, g, { lodr: lodrAll.filter(x => !x.sug) });
+  const lodr = block("lodr", "SEBI (LODR) Regulations, 2015", x => `<li>${x.id ? `<a href="#/lodr/${encodeURIComponent(x.id)}">${esc(x.regulation)}</a>` : esc(x.regulation)}${x.note ? ": " + esc(x.note.replace(/\s*\(regulation refers to this section\)$/, "")) : ""}${x.rel ? ` <span class="flag" title="Matched on the headings only: the Regulation does not name this section. Read both to confirm.">verify</span>` : ""}</li>`, "SEBI (LODR)") + (lodrSug.length ? `<h3>Related LODR Regulations (same subject)</h3><ul>${lodrSug.map(x => `<li><a href="#/lodr/${encodeURIComponent(x.id)}">${esc(x.regulation)}</a>: ${esc(x.note)} <span class="flag">verify</span></li>`).join("")}</ul>` : "");
   const ex = block("ex", "Exemption to certain companies", x => `<li>${x.applies_to ? "<b>" + esc(x.applies_to) + "</b>: " : ""}${esc(x.note)}${x.source ? ` <span class="src">(${esc(x.source)})</span>` : ""}</li>`, "Exemptions");
   const ci = block("ci", "Circulars and clarifications", x => `<li>${esc(x.title)}${x.date ? ", " + esc(x.date) : ""}${x.reference ? " (" + esc(x.reference) + ")" : ""}${srcLink(x.link)}</li>`, "Circulars");
   const jp = block("jp", "Judicial pronouncements", x => `<li><i>${esc(x.case)}</i>${x.citation ? ", " + esc(x.citation) : (x.court || x.year) ? ", " + esc([x.court, x.year].filter(Boolean).join(" ")) : ""}${x.held ? ": " + esc(x.held.split("|")[0].trim()) : ""}${srcLink(x.link)}</li>`, "Judicial pronouncements");
@@ -1061,6 +1091,12 @@ async function fillGuide(d) {
 
 /* ---------- SEBI (LODR) Regulations, 2015 ---------- */
 const lodrName = e => e.k === "s" ? `Schedule ${e.id.slice(1)}${e.t && !/^Schedule/i.test(e.t) ? ": " + e.t : ""}` : `Regulation ${e.id}. ${e.t}`;
+function lodrText(p) {
+  if (!p.ln || !p.ln.length) return esc(p.x);
+  let h = "", at = 0;
+  p.ln.slice().sort((a, b) => a[0] - b[0]).forEach(([s, e, n]) => { if (s < at) return; h += esc(p.x.slice(at, s)) + `<a href="#/s/${esc(n)}">${esc(p.x.slice(s, e))}</a>`; at = e; });
+  return h + esc(p.x.slice(at));
+}
 async function showLodr(id) {
   const my = ++S.token; S.cur = null; S.d = null; setChrome(false); navMark("lodr");
   id = decodeURIComponent(id || "");
@@ -1092,13 +1128,46 @@ async function showLodr(id) {
   let d; try { d = await getJSON(`data/lodr/r/${encodeURIComponent(id)}.json`); } catch (e) { d = null; }
   if (my !== S.token) return;
   if (!d) return showMessage(`<p>There is no Regulation ${esc(id)} in the loaded text. <a href="#/lodr">See all Regulations</a>.</p>`);
+  if (!S.lodrT) { try { const X = await getJSON("data/lodr/index.json"); S.lodrT = Object.fromEntries(X.map(e => [e.id, e.t])); } catch (e) { S.lodrT = {}; } }
+  if (my !== S.token) return;
   document.title = `${lodrName(d)} | SEBI (LODR) 2015`;
   const nav = `<nav class="pn" aria-label="Neighbouring regulations">${d.prev ? `<a href="#/lodr/${esc(d.prev[0])}" rel="prev"><span>Previous</span><b>${esc(d.prev[0].replace(/^S/, "Sch. "))}</b>${esc(d.prev[1])}</a>` : "<span></span>"}${d.next ? `<a class="nx" href="#/lodr/${esc(d.next[0])}" rel="next"><span>Next</span><b>${esc(d.next[0].replace(/^S/, "Sch. "))}</b>${esc(d.next[1])}</a>` : ""}</nav>`;
+  const cite = (d.acts || []).filter(a => a.w === "c"), rel = (d.acts || []).filter(a => a.w === "r");
+  const actList = (cite.length || rel.length) ? `<div class="lact"><h3>Companies Act, 2013</h3><ul>${cite.map(a => `<li><a href="#/s/${esc(a.n)}">Section ${esc(a.n)}</a> ${esc(nice(a.t || ""))}<span class="why">Named in this ${d.k === "s" ? "schedule" : "regulation"}.</span></li>`).join("")}${rel.map(a => `<li><a href="#/s/${esc(a.n)}">Section ${esc(a.n)}</a> ${esc(nice(a.t || ""))} <span class="flag" title="Matched on the headings only. Read both to confirm.">verify</span><span class="why">Same subject (“${esc(a.x)}”), matched on the headings.</span></li>`).join("")}</ul></div>` : "";
+  const dl = { lw: true, n: d.id.replace(/^S/, "S-"), sch: d.k === "s", out: d.out, in: d["in"], wo: d.wo, wi: d.wi, acts: d.acts };
   show(`<section class="pg lodr"><p class="small"><a href="#/lodr">SEBI (LODR) Regulations, 2015</a>${d.ch ? " / " + esc(d.ch) : ""}</p>
     <h1 tabindex="-1">${esc(lodrName(d))}</h1>
-    ${d.cites.length ? `<p class="forms">Companies Act sections cited:${d.cites.map(c => `<a href="#/s/${esc(c)}">${esc(c)}</a>`).join("")}</p>` : ""}
-    <div class="body lbody">${d.paras.map(p => `<p class="lp l${p.l}">${esc(p.x)}</p>`).join("")}</div>${nav}
-    <p class="small muted">Text taken from the amended Regulations. Amendment footnotes are left out. Check the official SEBI copy before relying on it.</p></section>`);
+    <div class="ltabs" role="group" aria-label="Views"><button type="button" data-lt="text" aria-pressed="true">Text</button><button type="button" data-lt="deep" aria-pressed="false">Deep Dive</button></div>
+    <div class="lpane" data-lp="text">
+      ${d.cites.length ? `<p class="forms">Companies Act sections cited:${d.cites.map(c => `<a href="#/s/${esc(c)}">${esc(c)}</a>`).join("")}</p>` : ""}
+      <div class="body lbody">${d.paras.map(p => `<p class="lp l${p.l}">${esc(p.x)}</p>`).join("")}</div>${actList}${nav}
+      <p class="small muted">Text taken from the amended Regulations. Amendment footnotes are left out. Check the official SEBI copy before relying on it.</p></div>
+    <div class="lpane" data-lp="deep" hidden></div></section>`);
+  const pane = $('[data-lp="deep"]'); let built = false;
+  const build = async () => {
+    if (built) return; built = true;
+    const W = pane.clientWidth || 600, groups = lodrGroups(dl);
+    const lists = groups.map(g => `<h4>${esc(g.label)}</h4><ul>${g.items.map(it => `<li><a href="${it.href}"><b>${esc(it.id.replace(/^S/, "Sch. "))}</b> ${esc(nice((it.tip || "").replace(/^(?:SEBI \(LODR\) )?(?:Regulation|Schedule|Section) \S+\.?\s*/, "")))}</a><span class="why">${esc(it.why)}</span>${it.q ? `<span class="why q">From the text: “${esc(it.q)}”</span>` : ""}</li>`).join("")}</ul>`).join("");
+    const nA = cite.length, nR = (d.out || []).length, nI = (d.in || []).length, parts = [];
+    if (nR) parts.push(`refers to ${plural(nR, "other provision")} of the LODR`);
+    if (nI) parts.push(`is referred to by ${plural(nI, "other provision")}`);
+    if (nA) parts.push(`names ${plural(nA, "section")} of the Companies Act, 2013`);
+    const sum = parts.length ? `${d.k === "s" ? "Schedule " + d.id.slice(1) : "Regulation " + d.id}, “${nice(d.t)}”, ${parts.length > 1 ? parts.slice(0, -1).join("; ") + "; and " + parts[parts.length - 1] : parts[0]}.` : "";
+    pane.innerHTML = `<div class="ai" id="aibox"><h3>In simple words</h3><p class="small">Loading…</p></div><h3>How ${d.k === "s" ? "this schedule" : "regulation " + esc(d.id)} connects</h3>
+      ${sum ? `<p class="sum">${esc(sum)}</p>` : ""}
+      ${groups.length ? `<p class="small">Click a circle to open that provision or section.</p><div class="webbox">${webSVG(dl, W)}</div><p class="webcap" id="webcap" aria-live="polite">Hover or focus a circle to see what it is and why it is linked.</p>
+      <p class="legend"><span class="k g"></span>LODR regulation or schedule <span class="k s"></span>Companies Act section. Blue threads go to provisions this one refers to, grey to those that refer to it, red to Companies Act sections it names, dotted to sections with a similar heading.</p>
+      <details class="wlist"><summary>All connections as a list</summary>${lists}</details>` : `<p class="empty">No other regulation, schedule or Companies Act section is connected to this one.</p>`}`;
+    const box = $("#aibox", pane);
+    if (!(S.idx.ai_l || []).includes(d.id)) box.innerHTML = `<h3>In simple words</h3><p class="small">An explanation of this regulation in simple words is not ready yet. They are written automatically in the background, so please check back later.</p>`;
+    else { try { const e = await getJSON(`data/ai/l/${encodeURIComponent(d.id)}.json`); box.innerHTML = `<h3>In simple words</h3>` + aiHTML(e, d.k === "s" ? "schedule" : "regulation"); } catch (er) { box.innerHTML = ""; } }
+  };
+  $$(".ltabs button").forEach(b => b.addEventListener("click", () => {
+    $$(".ltabs button").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
+    $$(".lpane").forEach(p => p.hidden = p.dataset.lp !== b.dataset.lt);
+    if (b.dataset.lt === "deep") build();
+  }));
+  if (location.hash.includes("tab=deep")) $('[data-lt="deep"]').click();
   window.scrollTo(0, 0); $("h1").focus({ preventScroll: true });
 }
 /* ---------- subject index and table of cases ---------- */
