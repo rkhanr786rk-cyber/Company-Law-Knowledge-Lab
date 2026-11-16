@@ -343,19 +343,19 @@ PAGE = r'''<!doctype html>
 <meta name="description" content="All drafts with their original wording. Search, read, copy or download the original Word file.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Schibsted+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Zilla+Slab:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root{
-  --paper:#eceff3;--page:#fafbfc;--ink:#18222f;--muted:#566377;--rule:#d3d9e2;
-  --tape:#a51f1d;--link:#1d4f91;--mark:#fff0b3;--fs:1;
-  --serif:"Newsreader",Georgia,"Times New Roman",serif;
-  --sans:"Schibsted Grotesk",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --paper:#e6ede8;--page:#fdfefd;--ink:#0f1f19;--muted:#506259;--rule:#c2d1c8;
+  --tape:#17614c;--link:#3a3aa6;--mark:#ffe59a;--bar:#0e3a2e;--barink:#e8f2ec;--fs:1;
+  --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --sans:"Zilla Slab",Rockwell,"Roboto Slab",Georgia,serif;
 }
 :root[data-theme=light]{color-scheme:light}
-:root[data-theme=sepia]{--paper:#e6dcc4;--page:#f4ecd8;--ink:#2d2316;--muted:#675740;--rule:#d2c5a5;--tape:#9b2218;--link:#7a3b10;--mark:#f7dc8a}
-:root[data-theme=dark]{--paper:#0d1218;--page:#131a22;--ink:#e4e9f0;--muted:#93a0b3;--rule:#26313f;--tape:#ee6a60;--link:#8db7ee;--mark:#4a3f12;color-scheme:dark}
+:root[data-theme=sepia]{--paper:#e2d8bf;--page:#f3ecd7;--ink:#2a2418;--muted:#655a42;--rule:#cfc3a2;--tape:#2f5d3a;--link:#3b3797;--mark:#f5d87a;--bar:#2d3b2a;--barink:#f1ecd9}
+:root[data-theme=dark]{--paper:#0a1411;--page:#101d18;--ink:#e1ede6;--muted:#8da89b;--rule:#223a31;--tape:#5fcba6;--link:#a9a6ff;--mark:#4d4310;--bar:#06100d;--barink:#e1ede6;color-scheme:dark}
 @media (prefers-color-scheme:dark){
-  :root[data-theme=auto]{--paper:#0d1218;--page:#131a22;--ink:#e4e9f0;--muted:#93a0b3;--rule:#26313f;--tape:#ee6a60;--link:#8db7ee;--mark:#4a3f12;color-scheme:dark}
+  :root[data-theme=auto]{--paper:#0a1411;--page:#101d18;--ink:#e1ede6;--muted:#8da89b;--rule:#223a31;--tape:#5fcba6;--link:#a9a6ff;--mark:#4d4310;--bar:#06100d;--barink:#e1ede6;color-scheme:dark}
 }
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
@@ -383,7 +383,7 @@ mark{background:var(--mark);color:inherit;border-radius:2px;padding:0 .08em}
 .sw{position:relative}
 .sw::after{content:"";position:absolute;inset:6px;border-radius:50%;border:1px solid var(--muted);background:var(--c)}
 .sw[aria-pressed=true]{border-color:var(--ink)!important}
-.sw[data-t=light]{--c:#fafbfc}.sw[data-t=sepia]{--c:#f1e5c8}.sw[data-t=dark]{--c:#131a22}
+.sw[data-t=light]{--c:#fdfefd}.sw[data-t=sepia]{--c:#f3ecd7}.sw[data-t=dark]{--c:#101d18}
 
 .wrap{max-width:1320px;margin:0 auto;padding:1.2rem 1.5rem 3rem;display:grid;grid-template-columns:minmax(17rem,24rem) minmax(0,1fr);gap:1.6rem;align-items:start}
 .lp{position:sticky;top:4.3rem;max-height:calc(100vh - 5.2rem);overflow:auto;padding-right:.3rem}
@@ -437,6 +437,32 @@ mark{background:var(--mark);color:inherit;border-radius:2px;padding:0 .08em}
   .mback{display:inline-block}
 }
 @media print{.bar,.lp,.sheet-tools .btn,.mback,.toast{display:none!important}.wrap{display:block;padding:0}.sheet{border:0;box-shadow:none;padding:0}body{background:#fff}}
+
+/* ===== redesign: the statutory register (same look as the Act reader) ===== */
+.bar{background:var(--bar);border-bottom:3px double color-mix(in srgb,var(--barink) 40%,transparent)}
+.brand{font:700 1.2rem/1 var(--sans);color:var(--barink);letter-spacing:.005em}
+.back{color:color-mix(in srgb,var(--barink) 78%,transparent)}
+.back:hover{color:var(--barink)}
+.tools button{color:color-mix(in srgb,var(--barink) 82%,transparent)}
+.tools button:hover{border-color:color-mix(in srgb,var(--barink) 40%,transparent);color:var(--barink)}
+.sw::after{border-color:color-mix(in srgb,var(--barink) 70%,transparent)}
+.sw[aria-pressed=true]{border-color:var(--barink)!important}
+.bar .field{border-color:transparent;border-radius:2px}
+.bar .field:focus-within{border-color:var(--mark);box-shadow:0 0 0 3px color-mix(in srgb,var(--mark) 55%,transparent)}
+.field .sym{font:700 1.15rem/1 var(--sans);color:var(--tape)}
+.grp{font:700 1.05rem var(--sans);color:var(--tape)}
+.it b{font:700 1rem/1.3 var(--sans)}
+.it[aria-current=true]{border-left-width:4px}
+.chips button,.btn{border-radius:2px}
+.chips button[aria-pressed=true]{background:var(--tape);border-color:var(--tape);color:var(--page)}
+.btn.main{background:var(--tape);border-color:var(--tape);color:var(--page)}
+.btn.main:hover{background:var(--ink);border-color:var(--ink)}
+.intro h1{font:700 clamp(2.2rem,5vw,3.3rem)/1 var(--sans);letter-spacing:-.02em;color:var(--tape)}
+.cat{border-left-width:4px;border-radius:2px}
+.cat b{font:700 1.08rem/1.25 var(--sans)}
+.sheet-tools h1{font:700 clamp(1.5rem,3vw,2.1rem)/1.15 var(--sans);letter-spacing:-.01em}
+.sheet{border-radius:3px;box-shadow:0 14px 26px -22px rgba(5,25,18,.5)}
+.sheet h1,.sheet h2,.sheet h3,.sheet h4{font-family:var(--sans)}
 </style>
 </head>
 <body>
