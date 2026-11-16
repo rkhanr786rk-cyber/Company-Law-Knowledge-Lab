@@ -82,6 +82,15 @@ def rule_prompt(r, section_titles):
             f"Rules: {r['rule_set']}\nRule {r['rule']}. {r['title']}\nRelated sections of the Act: {rel}\n\nTEXT:\n{clean(r['text'], 7000)}")
 
 
+def lodr_prompt(r):
+    kind = "Schedule" if r["k"] == "s" else "Regulation"
+    return (f"You are explaining one {kind.lower()} of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 (India), "
+            f"which apply to companies whose securities are listed on a stock exchange.\n{RULES_OF_THE_ROAD}\n"
+            'For "points" give 3 to 6 bullets on what the listed entity must do, may do or must not do. For "example" write 70 to 130 words. '
+            'Give up to 4 "terms".\n\n'
+            f"{kind} {r['id'].lstrip('S') if r['k'] == 's' else r['id']}. {r['t']}\n{r['ch']}\n\nTEXT:\n{clean(r['text'], 9000)}")
+
+
 class Stop(Exception):
     pass
 
@@ -191,6 +200,8 @@ def main():
         rule_done = sum(len(load(p)) for p in (AI / "r").glob("*.json")) if (AI / "r").exists() else 0
         report.append(f"- Sections explained so far: {sec_done}")
         report.append(f"- Rules explained so far: {rule_done}")
+        lodr_done = len(list((AI / "l").glob("*.json"))) if (AI / "l").exists() else 0
+        report.append(f"- LODR regulations explained so far: {lodr_done}")
         DATA.mkdir(exist_ok=True)
         (DATA / "ai_report.md").write_text("\n".join(report) + "\n", encoding="utf-8")
         print("\n".join(report))
@@ -230,6 +241,14 @@ def main():
             titles = [f"section {n} ({sec_title.get(n, '')})" for n in cites[r["id"]]]
             work.append(("r", (stem, r["rule"]), rule_prompt(r, titles), h, r))
 
+    lodr = load(DATA / "lodr.json") if (DATA / "lodr.json").exists() else []
+    for r in (lodr if isinstance(lodr, list) else []):
+        if len(r.get("text", "").strip()) < 120:
+            continue
+        h = digest(r["t"], clean(r["text"], 9000))
+        if load(AI / "l" / f"{r['id']}.json").get("h") != h:
+            work.append(("l", r["id"], lodr_prompt(r), h, r))
+
     report.append(f"- Waiting to be explained at the start of this run: {len(work)}")
     report.append(f"- Models in order: {', '.join(MODELS)}")
     print(f"{len(work)} items to explain; at most {MAX_PER_RUN} in this run")
@@ -251,6 +270,8 @@ def main():
             entry.update({"h": h, "m": model, "d": datetime.date.today().isoformat()})
             if kind == "s":
                 save(AI / "s" / f"{key}.json", entry)
+            elif kind == "l":
+                save(AI / "l" / f"{key}.json", entry)
             else:
                 stem, rule = key
                 cache[stem][rule] = entry
