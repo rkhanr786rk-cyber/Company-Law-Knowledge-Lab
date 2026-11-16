@@ -33,14 +33,18 @@ def read_text(f):
 def strip_footnotes(lines):
     """Drops the amendment footnotes printed at the foot of each page."""
     out, skip = [], False
-    start = re.compile(r"^\d{1,3}\s+(?:Inserted|Substituted|Omitted|Deleted|The words?|Words?|Added|Re-?numbered|Renumbered|Sub-?regulation|Clause|Proviso|Explanation|Figure|Number|Heading|For the|Brought|Amended|Ins\b|Subs\b|Corrected|Rectified|Existing|The (?:figure|expression|word)|Regulation|Schedule|Para|Paragraph|Item|Table|Footnote|Earlier)")
+    strong = re.compile(r"^\d{1,3}\s+(?:Inserted|Substituted|Omitted|Deleted|Added|Re-?numbered|Renumbered|Subs\b|Ins\b|Corrected|Rectified|Brought|Amended|Heading|For the words?|The words?|Words?|The figure|The expression|The word)\b")
+    weak = re.compile(r"^\d{1,3}\s+(?:Sub-?regulation|Clause|Proviso|Explanation|Figure|Number|Regulation|Schedule|Para|Paragraph|Item|Table|Footnote|Earlier|Existing)")
+    keys = re.compile(r"(?:w\.e\.f|Regulations?,?\s+20\d\d|Amendment|Gazette|ibid|notification|Circular)", re.I)
     for l in lines:
         s = l.strip()
         if skip:
             if re.fullmatch(r"\d{1,3}", s):
                 skip = False
             continue
-        if start.match(s) and re.search(r"(?:w\.e\.f|Regulations?,?\s+20\d\d|Amendment|Gazette|ibid|notification|Circular|Board)", s, re.I):
+        if re.search(r"(?:Amendment\)?\s*Regulations,?\s*(?:19|20)\d\d,?\s*w\.e\.f)|^Obligations and Disclosure Requirements\)", s):
+            continue
+        if strong.match(s) or (weak.match(s) and keys.search(s)):
             skip = True
             continue
         if re.fullmatch(r"\d{1,3}", s):
@@ -126,7 +130,7 @@ def main():
         print("No LODR file found (put the LODR PDF in a folder named lodr). Skipping.")
         return
     text = read_text(src)
-    raw_lines = [l.replace("\u00a0", " ").replace("\t", " ") for l in text.split("\n")]
+    raw_lines = [re.sub(r"[\x00-\x08\x0b-\x1f\x7f\u00ad]", "", l.replace("\u00a0", " ").replace("\t", " ")) for l in text.split("\n")]
     # some PDFs print a regulation number alone on its line: join it with the text that follows
     merged, k = [], 0
     while k < len(raw_lines):
