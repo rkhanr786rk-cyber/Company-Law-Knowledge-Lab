@@ -51,6 +51,18 @@ SCHEMA = {
     "required": ["summary", "points", "example"],
 }
 
+FORM_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "purpose": {"type": "string"}, "who": {"type": "string"}, "when": {"type": "string"},
+        "steps": {"type": "array", "items": {"type": "string"}},
+        "checklist": {"type": "array", "items": {"type": "string"}},
+        "attachments": {"type": "array", "items": {"type": "string"}},
+        "watch": {"type": "string"},
+    },
+    "required": ["purpose", "steps", "checklist"],
+}
+
 RULES_OF_THE_ROAD = (
     "Use only the text given below. Do not add requirements, limits, time periods, amounts or penalties that are not in it. "
     "If the text is too short or unclear to explain, say that plainly in the summary. "
@@ -91,6 +103,36 @@ def lodr_prompt(r):
             f"{kind} {r['id'].lstrip('S') if r['k'] == 's' else r['id']}. {r['t']}\n{r['ch']}\n\nTEXT:\n{clean(r['text'], 9000)}")
 
 
+FORM_RE = re.compile(r"\b(?:e-?Forms?|Forms?)\s*(?:No\.?|Nos\.?)?\s*([A-Z]{2,6}\s?-\s?\d{1,2}[A-Z]?)\b")
+
+
+def form_prompt(form, rules):
+    blocks = []
+    for r in rules[:5]:
+        blocks.append(f"[{r['rule_set']}, Rule {r['rule']}. {r['title']}]\n{clean(r['text'], 2200)}")
+    return (f"You are preparing a filing guide for Form {form} under the Companies Act, 2013 (India), for a Company Secretary or student.\n"
+            "Use ONLY the Rule text below. Do not add requirements, fees, time limits, attachments or steps that the text does not state. "
+            "If the text does not say something, write exactly 'Not stated in the Rules text' for that field, or leave the list empty. "
+            "Short sentences, everyday words. Do not give legal advice.\n"
+            'Return JSON with: "purpose" (1 to 2 sentences: what the form is for), "who" (who files it, or "Not stated in the Rules text"), '
+            '"when" (the time limit or trigger, or "Not stated in the Rules text"), "steps" (3 to 7 short steps of the filing process that the text supports, in order), '
+            '"checklist" (3 to 10 short items to have ready or check before filing, each supported by the text), '
+            '"attachments" (documents the text says must be attached or filed with it; may be empty), "watch" (one short caution, or an empty string).\n\n'
+            f"FORM {form}\n\n" + "\n\n".join(blocks))
+
+
+def tidy_form(obj):
+    if not isinstance(obj, dict):
+        return None
+    purpose = str(obj.get("purpose") or "").strip()
+    lst = lambda k, n: [str(x).strip()[:300] for x in (obj.get(k) or []) if str(x).strip()][:n]
+    steps, check = lst("steps", 8), lst("checklist", 12)
+    if len(purpose) < 15 or not (steps or check):
+        return None
+    return {"purpose": purpose[:500], "who": str(obj.get("who") or "").strip()[:300], "when": str(obj.get("when") or "").strip()[:300],
+            "steps": steps, "checklist": check, "attachments": lst("attachments", 10), "watch": str(obj.get("watch") or "").strip()[:300]}
+
+
 class Stop(Exception):
     pass
 
@@ -105,7 +147,7 @@ def pace():
     state["last_call"] = time.time()
 
 
-def call(prompt):
+def call(prompt, schema=None):
     """One request. Returns the parsed JSON object, or None if this item failed. Raises Stop when the run must end."""
     for attempt in range(4):
         if state["model_i"] >= len(MODELS):
@@ -114,7 +156,7 @@ def call(prompt):
         body = json.dumps({
             "contents": [{"parts": [{"text": prompt}]}],
             "generationConfig": {"temperature": 0.3, "maxOutputTokens": 4096,
-                                 "responseMimeType": "application/json", "responseSchema": SCHEMA},
+                                 "responseMimeType": "application/json", "responseSchema": schema or SCHEMA},
         }).encode("utf-8")
         req = urllib.request.Request(f"{ENDPOINT}/models/{model}:generateContent", data=body, method="POST",
                                      headers={"Content-Type": "application/json", "x-goog-api-key": KEY})
@@ -202,6 +244,8 @@ def main():
         report.append(f"- Rules explained so far: {rule_done}")
         lodr_done = len(list((AI / "l").glob("*.json"))) if (AI / "l").exists() else 0
         report.append(f"- LODR regulations explained so far: {lodr_done}")
+        form_done = len(list((AI / "f").glob("*.json"))) if (AI / "f").exists() else 0
+        report.append(f"- Form guides written so far: {form_done}")
         DATA.mkdir(exist_ok=True)
         (DATA / "ai_report.md").write_text("\n".join(report) + "\n", encoding="utf-8")
         print("\n".join(report))
@@ -249,6 +293,19 @@ def main():
         if load(AI / "l" / f"{r['id']}.json").get("h") != h:
             work.append(("l", r["id"], lodr_prompt(r), h, r))
 
+    by_form = {}
+    for r in rules_doc["rules"]:
+        if r["status"] != "in force":
+            continue
+        for f in {re.sub(r"\s+", "", m.group(1)).upper() for m in FORM_RE.finditer(r["text"] or "")}:
+            by_form.setdefault(f, []).append(r)
+    for f, rs in sorted(by_form.items()):
+        rs.sort(key=lambda r: -len(r["text"] or ""))
+        rs = rs[:5]
+        h = digest(f, "".join(clean(r["text"], 2200) for r in rs))
+        if load(AI / "f" / f"{f}.json").get("h") != h:
+            work.append(("f", f, form_prompt(f, rs), h, rs))
+
     report.append(f"- Waiting to be explained at the start of this run: {len(work)}")
     report.append(f"- Models in order: {', '.join(MODELS)}")
     print(f"{len(work)} items to explain; at most {MAX_PER_RUN} in this run")
@@ -261,9 +318,9 @@ def main():
             if (time.time() - started) / 60 > MAX_MINUTES:
                 stopped = "stopped at the time limit; the next run continues"
                 break
-            result = call(prompt)
+            result = call(prompt, FORM_SCHEMA if kind == "f" else None)
             obj, model = result if isinstance(result, tuple) else (None, "")
-            entry = tidy(obj)
+            entry = tidy_form(obj) if kind == "f" else tidy(obj)
             if not entry:
                 print(f"  skipped {kind} {key}: no usable answer")
                 continue
@@ -272,6 +329,8 @@ def main():
                 save(AI / "s" / f"{key}.json", entry)
             elif kind == "l":
                 save(AI / "l" / f"{key}.json", entry)
+            elif kind == "f":
+                save(AI / "f" / f"{key}.json", entry)
             else:
                 stem, rule = key
                 cache[stem][rule] = entry
