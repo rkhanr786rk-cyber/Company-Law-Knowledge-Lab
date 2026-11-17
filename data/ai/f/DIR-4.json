@@ -1,0 +1,25 @@
+{
+ "purpose": "This form guide relates to Form DIR-4 and the rules for maintaining a register of directors and key managerial personnel under the Companies (Appointment and Qualification of Directors) Rules, 2014.",
+ "who": "Every company",
+ "when": "Not stated in the Rules text",
+ "steps": [
+  "Keep a register of directors and key managerial personnel at the registered office.",
+  "Include particulars such as Director Identification Number, names, parents and spouse names, date of birth, and residential address.",
+  "Include details of securities held by them in the company and related companies."
+ ],
+ "checklist": [
+  "Director Identification Number",
+  "Present and former names and surnames",
+  "Father, mother, and spouse names",
+  "Date of birth",
+  "Residential address",
+  "Nationality and occupation",
+  "Date of board resolution and appointment",
+  "Details of securities held"
+ ],
+ "attachments": [],
+ "watch": "Not stated in the Rules text",
+ "h": "d0d3038b9292",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-17"
+}
