@@ -522,6 +522,20 @@ body{font-size:1.04rem}
 @media (max-width:820px){.steps>li{padding-left:2.6rem}}
 @media print{.hubgrid{display:block}.ckbar{display:none}}
 
+
+.bl{display:inline-block;min-width:4.5rem;border-bottom:2px solid var(--stamp);color:transparent;line-height:1;vertical-align:baseline;user-select:none}
+.resol{margin:.4rem 0 0;padding:1.1rem 1.3rem;background:var(--page);border:1px solid var(--rule);border-left:5px solid var(--tape);border-radius:3px;max-width:44rem;font:400 1.04rem/1.7 var(--serif)}
+.prop,.mins{max-width:44rem;font:400 1.02rem/1.65 var(--serif)}
+.resol p,.prop p,.mins p{margin:.6rem 0}
+.res-pg h2{display:flex;align-items:baseline;gap:.8rem}
+.mh{margin:1.4rem 0 .2rem;font:700 1.05rem var(--sans);color:var(--tape)}
+.gh{margin:.9rem 0 .1rem;font:600 .95rem var(--sans);color:var(--muted)}
+.rl{margin:.4rem 0 0}
+.rl summary{font:600 .86rem var(--sans);color:var(--link);cursor:pointer}
+.rl ul{margin:.3rem 0 0;padding-left:1.1rem;font:400 .95rem/1.5 var(--serif)}
+.ref{margin:.2rem 0 .6rem;padding-left:1.2rem;font:400 .95rem/1.5 var(--serif)}
+.cases-home .toc details ul.secs b{min-width:2.2rem}
+.part>summary .ch{background:var(--ink);color:var(--page)}
 </style>
 </head>
 <body>
@@ -533,7 +547,7 @@ body{font-size:1.04rem}
         <input id="q2" type="search" placeholder="Section number or topic" autocomplete="off" spellcheck="false" aria-label="Search the Act" role="combobox" aria-expanded="false" aria-controls="res2"></div>
       <div class="results" id="res2" role="listbox" hidden></div>
     </div>
-    <nav class="nav" aria-label="Main sections"><a href="#/act" data-nav="act">Companies Act</a><a href="#/lodr" data-nav="lodr" id="nav-lodr" hidden>LODR</a><a href="#/forms" data-nav="forms">Forms</a><a href="#/processes" data-nav="processes">Processes</a><a href="drafts/" data-nav="drafts">Drafts</a><a href="#/cases" data-nav="cases">Cases</a><a href="#/tools" data-nav="tools">Calculator</a><a href="#/me" data-nav="me">My workspace</a></nav>
+    <nav class="nav" aria-label="Main sections"><a href="#/act" data-nav="act">Companies Act</a><a href="#/lodr" data-nav="lodr" id="nav-lodr" hidden>LODR</a><a href="#/forms" data-nav="forms">Forms</a><a href="#/processes" data-nav="processes">Processes</a><a href="#/resolutions" data-nav="res" id="nav-res" hidden>Resolutions</a><a href="drafts/" data-nav="drafts">Drafts</a><a href="#/cases" data-nav="cases">Case laws</a><a href="#/tools" data-nav="tools">Calculator</a><a href="#/me" data-nav="me">My workspace</a></nav>
     <div class="tools" role="group" aria-label="Reading settings">
       <button data-fs="-1" aria-label="Smaller text" title="Smaller text">A−</button>
       <button data-fs="1" aria-label="Larger text" title="Larger text">A+</button>
@@ -727,12 +741,13 @@ function renderHome() {
     <div class="hubgrid">
       ${card("#/act", "Companies Act, 2013", `${nSec} sections with the ${nRules} Rules beside them, deep dive, and explanations in simple words`)}
       ${I.lodr ? card("#/lodr", "SEBI LODR, 2015", `${I.lodr} regulations and schedules, linked to the Act and back`, "lodr") : ""}
-      ${card("#/cases", "Table of cases", "Judicial pronouncements grouped by section")}
+      ${card("#/cases", "Case laws", I.cl ? `${I.cl} judgments in full, by syllabus topic, linked to the sections they relate to` : "Judicial pronouncements grouped by section")}
     </div>
     <h2>Doing the work</h2>
     <div class="hubgrid">
       ${card("#/forms", "Forms and checklists", "Every form in the Rules, with its filing process and checklist")}
       ${card("#/processes", "Processes", "Incorporation, registered office, AGM, board meeting and more, step by step with forms and drafts")}
+      ${I.res ? card("#/resolutions", "Model resolutions", `${I.res} model Board, committee and general meeting resolutions with minutes, linked to sections`) : ""}
       ${card("drafts/", "Drafts library", "Ready drafts in their original wording")}
     </div>
     <h2>Tools</h2>
@@ -848,7 +863,7 @@ function setTab(t) {
   S.tab = t; const rd = $(".reader"); if (!rd) return;
   rd.dataset.tab = t;
   $$("[role=tab]", rd).forEach(b => b.setAttribute("aria-selected", String(b.dataset.tab === t || (t === "section" && b.dataset.tab === "rules" && !!b.closest(".tabs")))));
-  if (t === "deep") { if (rd.dataset.k === "lodr") { if (S.lodrBuild) S.lodrBuild(); } else buildWeb(); }
+  if (t === "deep") { if (rd.dataset.k === "lodr" || rd.dataset.k === "case") { if (S.lodrBuild) S.lodrBuild(); } else buildWeb(); }
 }
 document.addEventListener("click", e => { const b = e.target.closest("[role=tab][data-tab]"); if (b) { setTab(b.dataset.tab); if (b.closest(".mtabs")) window.scrollTo(0, 0); } });
 /* show only the paragraphs of a rule that refer to this section (and the chosen sub-section) */
@@ -1222,6 +1237,14 @@ document.addEventListener("click", e => {
 /* ---------- guide notes (commentary style, in bullets) ---------- */
 const secLink = (n, t) => `<a href="#/s/${esc(n)}">Section ${esc(n)}</a>${t ? " " + esc(t) : ""}`;
 function srcLink(u, label) { return u && /^https?:\/\//i.test(u) ? ` <a href="${esc(u)}" target="_blank" rel="noopener">${esc(label || "Open")}</a>` : ""; }
+function caseBlock(d) {
+  if (!d.cl || !d.cl.length) return "";
+  return `<h3>Case laws in the course book</h3><ul>${d.cl.map(c => `<li><a href="#/cases/${esc(c[0])}"><i>${esc(c[1])}</i></a>${c[2] ? ", " + esc(c[2]) : ""}</li>`).join("")}</ul><p class="small muted">The sections were matched from the course syllabus. Read the case to confirm the link.</p>`;
+}
+function resBlock(d) {
+  if (!d.mr || !d.mr.length) return "";
+  return `<h3>Model resolutions</h3><ul>${d.mr.map(c => `<li><a href="#/resolutions/${esc(c[0])}">${esc(c[1])}</a></li>`).join("")}</ul>`;
+}
 function guideHTML(d) {
   if (d.s === "omitted") return "";
   let g = d.gn || {}; const direct = d.rules.filter(r => r.conf !== "low");
@@ -1243,7 +1266,7 @@ function guideHTML(d) {
     <h3>Overview</h3><div id="gnov"><p class="muted">Loading…</p></div>
     ${sec("Relevant Rules and forms", rules.concat(forms ? [`<li>Forms: ${forms}</li>`] : []), "No Rule in the loaded sets names this section.")}
     ${rel.length ? `<h3>Connected sections</h3><ul>${rel.join("")}</ul>` : ""}
-    ${lodr}${ex}${ci}${jp}
+    ${lodr}${ex}${ci}${jp}${caseBlock(d)}${resBlock(d)}
     ${missing.length ? `<p class="gnend">Not added yet: ${missing.join(", ")}. These are filled only from material you add to the <b>guide</b> folder of the repository, so nothing here is guessed.</p>` : ""}</section>`;
 }
 async function fillGuide(d) {
@@ -1344,20 +1367,6 @@ async function showLodr(id, q) {
   setTab(location.hash.includes("tab=deep") ? "deep" : (S.tab === "deep" ? "section" : S.tab));
   window.scrollTo(0, 0); $("h1").focus({ preventScroll: true });
 }
-async function showCases() {
-  const my = ++S.token; S.cur = null; S.d = null; setChrome(false); navMark("cases"); document.title = "Table of cases | Companies Act, 2013 Reader";
-  show(`<section class="pg"><h1>Table of cases</h1><p class="msg" style="padding:0">Loading…</p></section>`);
-  let C; try { C = await getJSON("data/cases.json"); } catch (e) { C = []; }
-  if (my !== S.token) return;
-  if (!C.length) return show(`<section class="pg"><h1>Table of cases</h1><p class="lede">No cases have been added yet.</p><p>Cases appear here once you add them to <b>guide/cases.csv</b> in the repository. Each row names the section it explains. They are never filled in by the tool itself, because a wrong case citation is worse than none.</p></section>`);
-  show(`<section class="pg"><h1>Table of cases</h1><p class="lede">${C.length} ${C.length === 1 ? "case" : "cases"}, with the sections they are cited under.</p>
-    <div class="field" style="max-width:26rem"><span class="sym" aria-hidden="true">§</span><input id="cq" type="search" placeholder="Filter by case or section" autocomplete="off" aria-label="Filter cases"></div>
-    <div id="cl" style="margin-top:1rem">${C.map(c => `<div class="case" data-k="${esc((c.c + " " + c.cit + " " + c.s.join(" ")).toLowerCase())}"><b><i>${esc(c.c)}</i></b>${c.cit ? ", " + esc(c.cit) : (c.ct || c.y) ? ", " + esc([c.ct, c.y].filter(Boolean).join(" ")) : ""}${srcLink(c.url)}<br>${c.h.length ? `<span>${c.h.map(esc).join("; ")}</span><br>` : ""}<span class="muted small">Sections: ${c.s.map(x => `<a href="#/s/${esc(x)}">${esc(x)}</a>`).join(", ")}</span></div>`).join("")}</div></section>`);
-  const inp = $("#cq"); inp.addEventListener("input", () => { const v = inp.value.trim().toLowerCase(); $$("#cl .case").forEach(el => el.hidden = !!v && !el.dataset.k.includes(v)); });
-  window.scrollTo(0, 0);
-}
-
-
 /* tick-lists whose ticks are kept in this browser */
 function ckHTML(key, items) {
   let on = []; try { on = JSON.parse(store.get("ck:" + key) || "[]"); } catch (e) {}
@@ -1421,6 +1430,152 @@ async function showForms(q) {
   if (want) { const el = $(`#fl details[data-f="${CSS.escape(want)}"]`); if (el) { load(el); setTimeout(() => el.scrollIntoView({ block: "center" }), 50); } }
 }
 
+/* ---------- model resolutions ---------- */
+const blanks = t => esc(t).replace(/_{3,}/g, m => `<span class="bl">${"_".repeat(Math.min(m.length, 14))}</span>`);
+function resList(r, label) {
+  return `<details class="rl"><summary>${esc(label)} (${r.length})</summary><ul>${r.map(x => `<li><a href="#/resolutions/${esc(x[0])}">${esc(x[1])}</a></li>`).join("")}</ul></details>`;
+}
+async function showRes(id, q) {
+  const my = ++S.token; S.cur = null; S.d = null; navMark("res"); id = decodeURIComponent(id || "");
+  if (!S.resX) { try { S.resX = await getJSON("data/res/index.json"); } catch (e) { S.resX = null; } }
+  if (my !== S.token) return;
+  const X = S.resX; setChrome(false);
+  const head = `<p class="small"><a href="#/">Home</a>${id ? ` / <a href="#/resolutions">Model resolutions</a>` : ""}</p>`;
+  if (!X) { document.title = "Model resolutions | Company Law Knowledge Lab"; return show(`<section class="pg">${head}<h1>Model resolutions</h1><p class="note">The model resolutions are not loaded yet.</p></section>`); }
+  if (!id) {
+    document.title = "Model resolutions | Company Law Knowledge Lab";
+    const want = (q.get("p") || "").toUpperCase(), parts = X.parts;
+    const byPart = {}; X.items.forEach(it => { ((byPart[it.p] = byPart[it.p] || {})[it.m] = byPart[it.p][it.m] || {})[it.g] = (byPart[it.p][it.m][it.g] || []).concat(it); });
+    const body = Object.keys(parts).filter(k => byPart[k]).map(k => {
+      const meets = byPart[k];
+      return `<details class="part" data-part="${k}"${want === k ? " open" : ""}><summary><span class="ch">${k}</span><span class="ct">${esc(parts[k])} resolutions</span><span class="dots"></span><span class="rng">${X.items.filter(i => i.p === k).length}</span></summary>
+        ${Object.keys(meets).map(m => `<h3 class="mh">${esc(m)}</h3>${Object.keys(meets[m]).map(g => `${g ? `<h4 class="gh">${esc(g.replace(/^\d+\.\d+\s+/, ""))}</h4>` : ""}<ul class="secs">${meets[m][g].map(it => `<li data-k="${esc((it.id + " " + it.t).toLowerCase())}"><a href="#/resolutions/${esc(it.id)}"><b>${esc(it.id.replace(/^[ABC]-/, ""))}</b><span>${esc(it.t)}</span></a></li>`).join("")}</ul>`).join("")}`).join("")}</details>`;
+    }).join("");
+    show(`<section class="home res-home">${head}<h1>Model resolutions</h1>
+      <p class="lede">${X.items.length} model resolutions for Board, committee and general meetings. Each has the proposal, the resolution to pass, and the minutes, with the sections and forms it uses.</p>
+      <div class="find"><div class="field"><span class="sym" aria-hidden="true">§</span><input id="rq" type="search" placeholder="A topic, a section number, or a word from the resolution" autocomplete="off" spellcheck="false" aria-label="Search model resolutions"></div></div>
+      <p class="hint">Also works: <b>buy-back</b>, <b>164</b>, <b>MGT-14</b>, <b>private placement</b>.</p>
+      <div id="rhits"></div><div class="toc" id="rl">${body}</div></section>`);
+    const inp = $("#rq"); let T = null;
+    inp.addEventListener("input", async () => {
+      const v = inp.value.trim().toLowerCase();
+      $$("#rl li").forEach(li => li.hidden = !!v && !li.dataset.k.includes(v));
+      $$("#rl details").forEach(d => { const any = [...d.querySelectorAll("li")].some(li => !li.hidden); d.hidden = !!v && !any; if (v) d.open = any; });
+      const hits = $("#rhits"); hits.innerHTML = ""; if (v.length < 3) return;
+      if (!T) { try { T = await getJSON("data/res/text.json"); } catch (e) { T = {}; } }
+      if (inp.value.trim().toLowerCase() !== v) return;
+      const byId = Object.fromEntries(X.items.map(i => [i.id, i]));
+      const found = Object.entries(T).filter(([k, t]) => t.includes(v) && !byId[k].t.toLowerCase().includes(v)).slice(0, 25);
+      const secHit = X.items.filter(i => i.s.includes(v.replace(/^s(?:ec(?:tion)?)?\.?\s*/, "")) || i.f.some(f => f.toLowerCase() === v)).slice(0, 25);
+      const all = secHit.concat(found.map(([k]) => byId[k])).filter((x, i, a) => a.findIndex(y => y.id === x.id) === i);
+      if (all.length) hits.innerHTML = `<h2>Also found in the text of</h2><ul class="ll">${all.map(i => `<li><a href="#/resolutions/${esc(i.id)}">${esc(i.t)}</a> <span class="muted small">${esc(i.id)}</span></li>`).join("")}</ul>`;
+    });
+    window.scrollTo(0, 0); if (!matchMedia("(pointer:coarse)").matches) inp.focus(); return;
+  }
+  let d; try { d = await getJSON(`data/res/${encodeURIComponent(id)}.json`); } catch (e) { d = null; }
+  if (my !== S.token) return;
+  if (!d) return showMessage(`<p>There is no model resolution ${esc(id)}. <a href="#/resolutions">See all model resolutions</a>.</p>`);
+  document.title = `${d.t} | Model resolutions`;
+  const P = await getProcs(); if (my !== S.token) return;
+  const used = (P || []).filter(p => p.steps.some(st => st.r.some(r => r[0] === d.id)) || (p.rs || []).some(g => g.r.some(r => r[0] === d.id)));
+  const secs = d.s.map(n => S.map[n] !== undefined ? `<a href="#/s/${esc(n)}">Section ${esc(n)}</a>` : `<span>Section ${esc(n)}</span>`).join(", ");
+  const forms = d.f.map(f => `<a href="#/forms?f=${encodeURIComponent(f)}">${esc(f)}</a>`).join(", ");
+  const blk = (h, ps, cls, cp) => ps.length ? `<h2>${h}${cp ? ` <button type="button" class="linkbtn cpy" data-cp="${cp}">Copy</button>` : ""}</h2><div class="${cls}" data-b="${cp || ""}">${ps.map(p => `<p>${blanks(p)}</p>`).join("")}</div>` : "";
+  const nav = `<nav class="pn" aria-label="Neighbouring resolutions">${d.prev ? `<a href="#/resolutions/${esc(d.prev[0])}" rel="prev"><span>Previous</span>${esc(d.prev[1])}</a>` : "<span></span>"}${d.next ? `<a class="nx" href="#/resolutions/${esc(d.next[0])}" rel="next"><span>Next</span>${esc(d.next[1])}</a>` : ""}</nav>`;
+  show(`<section class="pg res-pg">${head}
+    <p class="small muted">${esc(X.parts[d.p])}: ${esc(d.m)}${d.g ? " / " + esc(d.g.replace(/^\d+\.\d+\s+/, "")) : ""}</p>
+    <h1 tabindex="-1">${esc(d.t)}</h1>
+    ${secs || forms ? `<p class="note">${secs ? "Sections: " + secs + "." : ""} ${forms ? "Forms: " + forms + "." : ""}</p>` : ""}
+    ${blk(d.p === "C" ? "Explanatory statement" : "Proposal", d.proposal, "prop", "")}
+    ${blk("Resolution to be passed", d.resolution, "resol", "resolution")}
+    ${blk("Minutes: gist of discussion", d.minutes, "mins", "minutes")}
+    ${used.length ? `<h2>Used in these processes</h2><ul class="ll">${used.map(p => `<li><a href="#/processes/${esc(p.id)}">${esc(p.title)}</a></li>`).join("")}</ul>` : ""}
+    ${nav}
+    <p class="small muted">Model text from CimplyFive's Text of Model Resolutions (2016 edition), kept in its original wording. Fill the blanks, and check the section, the Rules and your Articles before you use it. Sections quoted from the old Act are left out of the links.</p></section>`);
+  $$(".cpy").forEach(b => b.addEventListener("click", async () => {
+    const el = $(`[data-b="${b.dataset.cp}"]`); const ok = await copyText($$("p", el).map(x => x.textContent).join("\n\n")); toast(ok ? "Copied" : "Could not copy");
+  }));
+  window.scrollTo(0, 0); $("h1").focus({ preventScroll: true });
+}
+
+/* ---------- case laws ---------- */
+async function showCases(q) {
+  const my = ++S.token; S.cur = null; S.d = null; S.lodrBuild = null; setChrome(false); navMark("cases");
+  document.title = "Case laws | Company Law Knowledge Lab";
+  let X = null, C = [];
+  try { X = await getJSON("data/cl/index.json"); } catch (e) { X = null; }
+  try { C = await getJSON("data/cases.json"); } catch (e) { C = []; }
+  if (my !== S.token) return;
+  const head = `<p class="small"><a href="#/">Home</a></p>`;
+  const table = C.length ? `<h2>Table of cases from your Guide Notes</h2><p class="small muted">${C.length} ${C.length === 1 ? "case" : "cases"} added in guide/cases.csv, with the sections they are cited under.</p><div id="cl">${C.map(c => `<div class="case" data-k="${esc((c.c + " " + c.cit + " " + c.s.join(" ")).toLowerCase())}"><b><i>${esc(c.c)}</i></b>${c.cit ? ", " + esc(c.cit) : (c.ct || c.y) ? ", " + esc([c.ct, c.y].filter(Boolean).join(" ")) : ""}${c.h ? `<br><span class="small">${esc(c.h)}</span>` : ""}<br><span class="small">Sections: ${c.s.map(n => `<a href="#/s/${esc(n)}">${esc(n)}</a>`).join(", ")}</span></div>`).join("")}</div>` : "";
+  if (!X) {
+    return show(`<section class="pg">${head}<h1>Case laws</h1>${C.length ? "" : `<p class="lede">No cases have been added yet.</p><p>Add the case book (a PDF with <b>Company Law</b> in its name) to the repository, or list cases in <b>guide/cases.csv</b>.</p>`}${table}</section>`);
+  }
+  const total = X.topics.reduce((a, t) => a + t.cases.length, 0);
+  const toc = X.topics.filter(t => t.cases.length || t.ref.length || t.study.length).map(t => `<details data-t="${t.n}"><summary><span class="ch">${t.n}</span><span class="ct">${esc(t.t)}</span><span class="dots"></span><span class="rng">${t.cases.length ? plural(t.cases.length, "case") : "reading"}</span></summary>
+    <p class="small muted" style="margin:.2rem 0 .5rem">${esc(t.syl)}${t.s.length ? " Key sections: " + t.s.map(n => S.map[n] !== undefined ? `<a href="#/s/${esc(n)}">${esc(n)}</a>` : esc(n)).join(", ") + "." : ""}</p>
+    ${t.cases.length ? `<ul class="secs">${t.cases.map(c => `<li data-k="${esc((c.t + " " + c.cit + " " + c.court).toLowerCase())}"><a href="#/cases/${esc(c.id)}"><b>${esc(c.id.slice(1))}</b><span>${esc(c.t)} <small class="muted">${esc(c.cit)}</small></span></a></li>`).join("")}</ul>` : ""}
+    ${t.study.map(x => `<p class="note"><b>Case study: ${esc(x.t)}.</b> ${esc(x.note)}</p>`).join("")}
+    ${t.ref.length ? `<p class="small" style="margin:.8rem 0 .2rem"><b>Suggested reading.</b> Named in the syllabus. The book does not carry their text.</p><ul class="ref">${t.ref.map(r => `<li data-k="${esc((r.t + " " + r.cit).toLowerCase())}">${esc(r.t)}, <span class="muted">${esc(r.cit)}</span></li>`).join("")}</ul>` : ""}</details>`).join("");
+  show(`<section class="home cases-home">${head}<h1>Case laws</h1>
+    <p class="lede">${total} judgments in full, grouped by the syllabus topic. Each opens as a reader, with a case note in simple words and the sections of the Companies Act, 2013 it relates to.</p>
+    <div class="find"><div class="field"><span class="sym" aria-hidden="true">§</span><input id="cq" type="search" placeholder="Case name, citation, court or words from the judgment" autocomplete="off" spellcheck="false" aria-label="Search case laws"></div></div>
+    <p class="hint">Also works: <b>Salomon</b>, <b>AIR 1965</b>, <b>oppression</b>, <b>ultra vires</b>.</p>
+    <div id="chits"></div><h2>By topic</h2><div class="toc" id="ct">${toc}</div>${table}</section>`);
+  const inp = $("#cq"); let T = null;
+  inp.addEventListener("input", async () => {
+    const v = inp.value.trim().toLowerCase();
+    $$("#ct li").forEach(li => li.hidden = !!v && !li.dataset.k.includes(v));
+    $$("#ct details").forEach(d => { const any = [...d.querySelectorAll("li")].some(li => !li.hidden); d.hidden = !!v && !any; if (v) d.open = any; });
+    $$("#cl .case").forEach(el => el.hidden = !!v && !el.dataset.k.includes(v));
+    const hits = $("#chits"); hits.innerHTML = ""; if (v.length < 3) return;
+    if (!T) { try { T = await getJSON("data/cl/text.json"); } catch (e) { T = {}; } }
+    if (inp.value.trim().toLowerCase() !== v) return;
+    const nm = Object.fromEntries(X.topics.flatMap(t => t.cases).map(c => [c.id, c.t]));
+    const found = Object.entries(T).filter(([k, t]) => t.includes(v)).slice(0, 25);
+    if (found.length) hits.innerHTML = `<h2>Found in the judgment of</h2><ul class="ll">${found.map(([k, t]) => { const i = t.indexOf(v), sn = t.slice(Math.max(0, i - 60), i + 100); return `<li><a href="#/cases/${esc(k)}">${esc(nm[k] || k)}</a><br><span class="muted small">…${esc(sn)}…</span></li>`; }).join("")}</ul>`;
+  });
+  window.scrollTo(0, 0); if (!matchMedia("(pointer:coarse)").matches) inp.focus();
+}
+async function showCase(id) {
+  const my = ++S.token; S.cur = null; S.d = null; S.lodrBuild = null; navMark("cases"); id = decodeURIComponent(id || "");
+  let d; try { d = await getJSON(`data/cl/${encodeURIComponent(id)}.json`); } catch (e) { d = null; }
+  if (my !== S.token) return; setChrome(false);
+  if (!d) return showMessage(`<p>There is no case ${esc(id)}. <a href="#/cases">See all case laws</a>.</p>`);
+  let X = null; try { X = await getJSON("data/cl/index.json"); } catch (e) {}
+  const topic = X && X.topics.find(t => t.n === d.topic);
+  document.title = `${d.t} | Case laws`;
+  const nav = `<nav class="pn" aria-label="Neighbouring cases">${d.prev ? `<a href="#/cases/${esc(d.prev[0])}" rel="prev"><span>Previous</span>${esc(d.prev[1])}</a>` : "<span></span>"}${d.next ? `<a class="nx" href="#/cases/${esc(d.next[0])}" rel="next"><span>Next</span>${esc(d.next[1])}</a>` : ""}</nav>`;
+  const secList = d.s.map(n => S.map[n] !== undefined ? `<li><a href="#/s/${esc(n)}">Section ${esc(n)}</a> ${esc(nice(S.idx.sections[S.map[n]][1] || ""))}</li>` : `<li>Section ${esc(n)}</li>`).join("");
+  const actPane = `<div class="lact"><h3>Companies Act, 2013</h3><ul>${secList}</ul><p class="small muted">Chosen from the course syllabus for this topic. Judgments often discuss the older Act, so read the section and the case together.</p></div>`;
+  show(`<article class="reader lodr" data-k="case" data-tab="section" data-wide="0">
+    <div class="mtabs" role="tablist"><button role="tab" data-tab="section">Judgment</button><button role="tab" data-tab="rules">Companies Act<span class="count">${d.s.length}</span></button><button role="tab" data-tab="deep">Case note</button></div>
+    <aside class="margin"><div class="secnum" aria-label="Case ${d.n}">${d.n}</div>
+      <div class="chap">${topic ? "Topic " + topic.n : "Case"}</div>${topic ? `<div class="chapt">${esc(topic.t)}</div>` : ""}<p class="small" style="margin-top:1rem"><a href="#/cases">All case laws</a></p></aside>
+    <div class="text"><div class="tapewrap" aria-hidden="true"><div class="tape"><i></i><b></b></div></div>
+      <h1 tabindex="-1">${esc(d.t)}</h1>
+      <p class="forms">${esc(d.cit)}. ${esc(d.court)}.</p>
+      <div class="body lbody">${d.paras.map(p => `<p class="lp">${esc(p)}</p>`).join("")}</div>${nav}
+      <p class="small muted">Text from the Faculty of Law, University of Delhi course book (LB-303, Company Law, August 2025), marked for private use in instruction. Cross-check the official report before you cite it.</p></div>
+    <aside class="side" aria-label="Companies Act and case note">
+      <div class="tabs" role="tablist"><button role="tab" data-tab="rules">Companies Act<span class="count">${d.s.length}</span></button><button role="tab" data-tab="deep">Case note</button></div>
+      <div class="panel" data-p="rules">${actPane}</div>
+      <div class="panel" data-p="deep"><div class="ai" id="aibox"><h3>Case note</h3><p class="small">Loading…</p></div></div>
+    </aside></article>`);
+  let built = false;
+  S.lodrBuild = async () => {
+    if (built) return; built = true; const box = $("#aibox");
+    if (!(S.idx.ai_c || []).includes(d.id)) { box.innerHTML = `<h3>Case note</h3><p class="small">A case note in simple words is not ready yet. Case notes are written automatically in the background, so please check back later.</p>`; return; }
+    try {
+      const e = await getJSON(`data/ai/c/${encodeURIComponent(d.id)}.json`);
+      const row = (k, v) => v ? `<h4>${k}</h4><p>${esc(v)}</p>` : "";
+      box.innerHTML = `<h3>Case note</h3>${row("Facts", e.facts)}${row("Issue", e.issue)}${row("Held", e.held)}${row("Principle", e.principle)}${e.points && e.points.length ? `<h4>Points to remember</h4><ul>${e.points.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}<p class="small muted">Written by an AI from the text of the judgment. Read the judgment before relying on it.</p>`;
+    } catch (er) { box.innerHTML = ""; }
+  };
+  setTab(location.hash.includes("tab=deep") ? "deep" : (S.tab === "deep" ? "section" : S.tab));
+  window.scrollTo(0, 0); $("h1").focus({ preventScroll: true });
+}
+
 /* ---------- processes ---------- */
 async function showProcesses(id) {
   const my = ++S.token; S.cur = null; S.d = null; setChrome(false); navMark("processes"); id = decodeURIComponent(id || "");
@@ -1442,8 +1597,9 @@ async function showProcesses(id) {
   show(`<section class="pg proc-pg proc">${head}<h1 tabindex="-1">${esc(p.title)}</h1><p class="lede">${esc(p.summary)}</p>
     <p class="note"><b>When.</b> ${esc(p.when)}</p>
     <h2>Steps</h2>
-    <ol class="steps">${p.steps.map(st => `<li><b>${esc(st.t)}</b><p>${esc(st.d)}</p>${(st.f && st.f.length) || (st.s && st.s.length) ? `<p class="chips">${(st.f || []).map(f => `<a class="chip2 f" href="#/forms?f=${encodeURIComponent(f)}">${esc(f)}</a>`).join("")}${(st.s || []).map(n => `<span class="chip2">${sl(n)}</span>`).join("")}</p>` : ""}</li>`).join("")}</ol>
+    <ol class="steps">${p.steps.map(st => `<li><b>${esc(st.t)}</b><p>${esc(st.d)}</p>${st.r && st.r.length && S.idx.res ? resList(st.r, "Model resolutions for this step") : ""}${(st.f && st.f.length) || (st.s && st.s.length) ? `<p class="chips">${(st.f || []).map(f => `<a class="chip2 f" href="#/forms?f=${encodeURIComponent(f)}">${esc(f)}</a>`).join("")}${(st.s || []).map(n => `<span class="chip2">${sl(n)}</span>`).join("")}</p>` : ""}</li>`).join("")}</ol>
     <h2>Checklist</h2>${ckHTML("proc-" + p.id, p.check)}
+    ${(p.rs || []).length && S.idx.res ? `<h2>Model resolutions</h2>${p.rs.map(g => `<h3>${esc(g.t)}</h3><ul class="ll">${g.r.map(r => `<li><a href="#/resolutions/${esc(r[0])}">${esc(r[1])}</a></li>`).join("")}</ul>`).join("")}${(p.more || []).map(m => `<p class="small"><a href="#/resolutions?p=${esc(m[1])}">${esc(m[0])}</a></p>`).join("")}<p class="small muted">Model text from CimplyFive's Text of Model Resolutions (2016 edition). Fill the blanks and check the current Rules before use.</p>` : ""}
     ${p.drafts.length ? `<h2>Drafts for this process</h2><ul class="ll">${p.drafts.map(d => `<li><a href="drafts/#${esc(d.id)}">${esc(d.title)}</a> <span class="muted small">${esc(d.category)}</span></li>`).join("")}</ul>` : `<h2>Drafts for this process</h2><p class="small">No draft in the Drafts library matches this process yet. <a href="drafts/">Open the Drafts library</a>, or add a draft whose file name says what it is, for example “${esc(p.title)}”.</p>`}
     ${lodrLinks.length ? `<h2>If the company is listed</h2><ul class="ll">${lodrLinks.map(l => `<li><a href="#/lodr/${esc(l.id)}">Regulation ${esc(l.id)}</a> ${esc(l.why)}</li>`).join("")}</ul>` : ""}
     <p class="note">This is a working guide written from the Act and the Rules, not legal advice. Check time limits and fees against the current Rules and MCA notifications before filing.</p>
@@ -1575,10 +1731,12 @@ async function route() {
   const hh = location.hash.replace(/^#/, ""), hb = hh.split("?")[0];
   if (hb === "/act") return showAct();
   if (hb === "/me") return showWorkspace();
+  if (hb.startsWith("/resolutions")) return showRes(hb.slice(13), new URLSearchParams(hh.split("?")[1] || ""));
+  if (hb.startsWith("/cases/")) return showCase(hb.slice(7));
   if (hb.startsWith("/processes")) return showProcesses(hb.slice(11));
   if (hb === "/pack") return showPack();
   if (hb.startsWith("/lodr")) return showLodr(hb.slice(6), new URLSearchParams(hh.split("?")[1] || ""));
-  if (hb === "/cases") return showCases();
+  if (hb === "/cases") return showCases(new URLSearchParams(hh.split("?")[1] || ""));
   if (hb === "/tools") return showTools();
   if (hb === "/forms") return showForms(new URLSearchParams(hh.split("?")[1] || ""));
   navMark("");
