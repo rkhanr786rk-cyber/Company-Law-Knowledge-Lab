@@ -1,9 +1,9 @@
 # PDF extraction report
 
-- [rules] Cimplyfives-Text-of-resolution.pdf: 223 pages, 456906 characters. OK
 - [act] Companies Act 2013 as amended upto 01.04.2021_.pdf: 351 pages, 1215590 characters. OK
-- [rules] LB-303-Company Law _2025 Final_.pdf: 327 pages, 1066451 characters. OK
+- [rules] Company Law.pdf: 327 pages, 1066451 characters. OK
 - [rules] LODR, 2015.pdf: 230 pages, 675051 characters. OK
+- [rules] Resolution.pdf: 223 pages, 456906 characters. OK
 - [rules] companies-listing-of-equity-shares-in-permissible-jurisdictions-rules-2024-20261106-142516.pdf: 6 pages, 8301 characters. OK
 - [rules] companies-registered-valuers-and-valuation-rules-2017-companies-act-2013-20261107-081544.pdf: 62 pages, 92997 characters. OK
 - [rules] companies-transfer-of-pending-proceedings-rules-2016-20261107-081601.pdf: 5 pages, 8361 characters. OK
