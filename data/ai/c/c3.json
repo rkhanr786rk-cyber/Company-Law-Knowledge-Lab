@@ -1,0 +1,16 @@
+{
+ "facts": "A company was incorporated in England to sell motor car tyres. Nearly all of its shares were held by Germans and its directors were German subjects resident in Hanover. After war broke out between Great Britain and Germany, the company brought an action to recover a debt from the appellant company. The appellant company argued that paying the debt or allowing the action would amount to unlawful trading with the enemy and that the secretary had no authority to start the legal proceedings.",
+ "issue": "Whether an English-incorporated company whose shares and directors are enemy aliens can maintain an action to recover a debt during wartime, and whether the secretary had proper authority to institute the proceedings.",
+ "held": "The court held that the appeal should be allowed and the suit dismissed because there was no proof that the secretary had proper authority to bring the action on behalf of the company after the outbreak of war. Enemy directors and shareholders could not manage company affairs or delegate authority during wartime.",
+ "principle": "A corporation is a distinct legal entity separate from its shareholders and directors, but enemy directors and shareholders cannot exercise control or agency on behalf of the company during a war.",
+ "points": [
+  "A company is a distinct legal entity incorporated under English law, separate from its shareholders and directors.",
+  "War breaks the lawful relationship between a company and its shareholders or directors who become alien enemies.",
+  "Enemy directors and shareholders cannot exercise management powers or delegate authority during wartime.",
+  "The burden of proving that a secretary or agent has proper authority to institute legal proceedings rests on the company.",
+  "Trading with an enemy or enabling money to reach the King's enemies through corporate machinery is unlawful."
+ ],
+ "h": "693474b173ea",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-18"
+}

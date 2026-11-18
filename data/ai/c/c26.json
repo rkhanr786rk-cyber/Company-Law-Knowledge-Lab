@@ -1,0 +1,16 @@
+{
+ "facts": "An application was filed under Section 162 of the Companies Act to wind up the Rajahmundry Electric Supply Corporation Ltd. due to alleged gross mismanagement, misappropriation of funds by directors, and large unpaid electricity charges owed to the Government. The applicant also alternatively sought relief under Section 153-C. The appellant argued that the Section 153-C application was not maintainable because some consenting shareholders had subsequently withdrawn their consent.",
+ "issue": "Whether the application under Section 153-C was maintainable after some members withdrew their consent, and whether the established facts justified a winding up order under Section 162(vi) so that action could be taken under Section 153-C.",
+ "held": "The Supreme Court held that the validity of a petition must be judged on the facts at the time of its presentation, and subsequent withdrawal of consent by members does not affect its maintainability. The Court also held that the words 'just and equitable' in Section 162(vi) are not ejusdem generis with preceding clauses, and since the company suffered from severe mismanagement, a local junta ruling, and financial embarrassment, a winding up order and subsequent management under Section 153-C were fully justified.",
+ "principle": "The validity of a winding up petition is determined by the facts existing at the time of its presentation and cannot be defeated by the subsequent withdrawal of consent by members. Furthermore, the 'just和 equitable' ground for winding up is not restricted by the ejusdem generis rule and allows the court to intervene in cases of severe director misconduct and mismanagement.",
+ "points": [
+  "The validity of a petition must be judged on facts as they were at the time of its presentation.",
+  "Subsequent withdrawal of consent by members does not affect the right to proceed or the jurisdiction of the court.",
+  "Before taking action under Section 153-C, the court must be satisfied that circumstances exist to order a winding up under Section 162.",
+  "The words 'just and equitable' in Section 162(vi) are not to be read ejusdem generis with the preceding clauses.",
+  "Courts will not interfere in internal management for a running concern, but this rule does not apply when an application to wind up the company has been made."
+ ],
+ "h": "457c29e1c47e",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-18"
+}

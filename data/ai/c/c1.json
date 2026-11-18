@@ -1,0 +1,16 @@
+{
+ "facts": "Aron Salomon carried on a leather and boot business for many years as a sole trader. He formed a limited company with his wife, daughter, and four sons, who together held all the shares, and sold his solvent business to the company. The company issued shares and debentures to Salomon as part payment, and Salomon later used some debentures to secure a loan from Edmund Broderip. The company later went into liquidation, and the lower courts held that Salomon must indemnify the company against its unsecured debts.",
+ "issue": "Whether a legally incorporated company was validly constituted and existed as an independent legal entity separate from its members, and whether its creator was liable to indemnify its debts.",
+ "held": "The House of Lords held that the company was duly formed and constituted in accordance with the statute and was a separate legal person with its own rights and liabilities. The motives of those who formed the company are irrelevant, and Salomon was not acting as an agent for the company nor was he liable to indemnify its unsecured creditors.",
+ "principle": "Once a company is legally incorporated, it must be treated like any other independent person with distinct rights and liabilities, and the motives of its promoters are irrelevant.",
+ "points": [
+  "A company is an artificial creation of the legislature and its validity depends solely on the statute.",
+  "One share is enough to constitute a shareholder, and the statute does not require the seven members to be independent of each other.",
+  "The motives of those who form a company do not affect its legal existence.",
+  "Once legally incorporated, a company has its own legal identity separate from its members.",
+  "A company cannot be both a separate legal entity and a mere agent or alias for its creator at the same time."
+ ],
+ "h": "ead6744cbf09",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-18"
+}

@@ -1,0 +1,16 @@
+{
+ "facts": "The defendant Neville Cooley was the managing director of the plaintiff company, Industrial Development Consultants Ltd. While still acting as managing director, he was approached by a representative of the Eastern Gas Board regarding a valuable construction project that the plaintiff company had previously tried to secure. The defendant obtained a release from his position by falsely and dishonestly pretending to Mr. Hicks that he was in poor health, and he subsequently secured the lucrative gas board contract for himself.",
+ "issue": "Whether a managing director, who acquires business information and a contract opportunity while acting for his company, is accountable to the company for the profits made even if the company could not have obtained the contract itself.",
+ "held": "The court decided that the defendant must account to the plaintiff company for all profits and remuneration received from the contracts. The court held that the defendant breached his fiduciary duty by placing himself in a position where his personal interest and his duty to his employer conflicted, and by misusing information obtained while acting as managing director.",
+ "principle": "A person in a fiduciary position, such as a company director, is subject to an inflexible rule of equity not to make a profit from their trust and must not place themselves in a position where their duty and personal interest conflict.",
+ "points": [
+  "A managing director stands in a fiduciary relationship towards the company.",
+  "Directors must disregard their own private interests whenever they conflict with the proper discharge of their duties to the company.",
+  "A director who acquires confidential information while acting for the company must pass it to the company and not use it for personal profit.",
+  "It makes no difference that the profit is one which the company itself could not have obtained.",
+  "Obtaining a release from employment through dishonest misrepresentation to secure a business opportunity constitutes a breach of fiduciary duty."
+ ],
+ "h": "4a4ba4a6d038",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-18"
+}

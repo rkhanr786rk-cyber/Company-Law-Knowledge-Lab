@@ -1,0 +1,16 @@
+{
+ "facts": "The Associated Rubber Industry Ltd. transferred shares of INARCO Ltd. to its wholly owned subsidiary, Aril Holdings Ltd. Aril Holdings Ltd. had no other business or income except receiving dividends from these shares, and the dividends were not shown in the parent company's profit and loss account. This reduction in the parent company's profits resulted in the workmen receiving a bonus of only 4% instead of 16%. Aril Holdings Ltd. was later wound up in 1971 and amalgamated with the parent company.",
+ "issue": "Whether the court can look behind the separate legal existence of a subsidiary company to treat its dividend income as part of the parent company's profits for calculating workmen's bonus.",
+ "held": "The Supreme Court allowed the appeal and held that the dividend income received by the subsidiary company must be taken into account in assessing the gross profit of the parent company. The court decided this because the subsidiary company was created as a device to reduce the gross profits of the parent company and avoid paying a higher bonus to the workmen.",
+ "principle": "Courts are entitled to lift the corporate veil to look behind the smoke-screen and discover the true state of affairs when a corporate entity is used as a device to avoid welfare and other legislation.",
+ "points": [
+  "A company is generally a distinct legal personality separate from its members.",
+  "Courts have the power to lift the corporate veil in exceptional cases, such as when a corporate entity is used to evade obligations or avoid welfare legislation.",
+  "The court must look at the substance of a transaction rather than just its legal form.",
+  "Direct evidence of a device is not needed when the facts of the creation and purpose of a subsidiary company speak for themselves.",
+  "The dividend income of a wholly owned subsidiary created to reduce gross profits of the parent company must be included in the parent company's profits for calculating bonus."
+ ],
+ "h": "1b0c27481d3a",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-18"
+}

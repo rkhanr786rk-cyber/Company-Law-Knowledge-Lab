@@ -1,0 +1,16 @@
+{
+ "facts": "The Essequibo company was incorporated with a memorandum containing thirty sub-clauses for its objects, along with a concluding clause stating that no sub-clause should be limited by any other and that all powers were independent. The company underwrote and took up shares in another company whose business was completely unrelated to the Essequibo company. Upon the liquidation of that other company, the Essequibo company was placed on the list of contributories and challenged the transaction as ultra vires.",
+ "issue": "Whether the underwriting transaction was ultra vires the Essequibo company upon the true construction of its memorandum of association.",
+ "held": "The House of Lords held that the transaction was intra vires and dismissed the appeal. Once the registrar has granted a certificate of incorporation, it is conclusive evidence that the requirements of the Act have been complied with, meaning the validity of the memorandum cannot be challenged and must be construed as it stands. Under the wide powers and objects expressed in clauses 3(8), 3(12), and 3(30), the underwriting transaction fell clearly within the company's authorized powers.",
+ "principle": "A certificate of incorporation given by the registrar is conclusive evidence that all registration requirements have been complied with, and a transaction challenged as ultra vires must be judged based on the plain construction of the company's memorandum as it stands.",
+ "points": [
+  "The memorandum of association must delimit and identify the field of industry within which corporate activities are to be confined.",
+  "A certificate of incorporation is conclusive evidence that all requirements of the Act in respect of registration have been complied with.",
+  "The question of whether a transaction is ultra vires is a matter of law between the company and a third party, separate from any equity between the company and its shareholders regarding the failure of substratum.",
+  "Where the operative part of the memorandum is clear and unambiguous, its meaning cannot be cut down by reference to the name of the company.",
+  "Persons who deal with a company are entitled to assume that the company can do everything expressly authorized by its memorandum."
+ ],
+ "h": "ea15a29ff7cb",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-18"
+}

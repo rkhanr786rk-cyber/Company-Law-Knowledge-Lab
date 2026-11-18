@@ -1,0 +1,16 @@
+{
+ "facts": "The plaintiff company, Bell Houses, Ltd., was a private company whose principal business was the development of housing estates. During negotiations, the chairman of the plaintiff company, Mr. Bell, agreed to help the defendant company, City Wall Properties, Ltd., secure a financial loan of £1 million in exchange for a commission of £20,000. When the introduction was effected, the defendants refused to pay the commission and argued that the agreement was void as ultra vires because it was not authorised by the objects clause in the plaintiff company's memorandum of association.",
+ "issue": "Was the agreement to introduce a financier for a commission ultra vires the plaintiff company under its memorandum of association?",
+ "held": "The court decided that the transaction was within the powers of the company and not ultra vires, and therefore allowed the appeal. The court held that the transaction fell within the scope of clause 3(c) of the memorandum because, in the opinion of the directors (exercised here by Mr. Bell), the business could be advantageously carried on in connection with or as ancillary to the general business of the company.",
+ "principle": "An act is not ultra vires if it is reasonably incidental or ancillary to the company's objects, particularly where the memorandum empowers the board of directors to decide whether a trade or business can be advantageously carried on in connection with the company's general business.",
+ "points": [
+  "A company's powers are established by the objects stated in its memorandum of association.",
+  "Clause 3(c) permitted the company to carry on any trade or business that, in the opinion of the board of directors, could be advantageously carried on in connection with or as ancillary to the general business.",
+  "Words in an objects clause making an activity dependent on the opinion of the directors are given legal effect if the opinion is held bona fide.",
+  "Mr. Bell had the official authority to manage the administration and exercise the functions of the board of directors by delegation.",
+  "An isolated business transaction intended to gain goodwill and sources of finance for a housing development business is not a deliberate embarking on a new class of business."
+ ],
+ "h": "43854f3d5982",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-18"
+}

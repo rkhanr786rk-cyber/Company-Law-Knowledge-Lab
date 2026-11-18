@@ -1,0 +1,16 @@
+{
+ "facts": "A financial creditor initiated the corporate insolvency resolution process against the corporate debtor before the NCLT. The corporate debtor held a mining lease granted by the Government of Karnataka, which the State government later refused to extend due to rule violations. The NCLT allowed an application by the resolution professional and set aside the State's rejection order, directing execution of supplemental lease deeds. The Government of Karnataka challenged this before the High Court via a writ petition, which granted an interim stay.",
+ "issue": "Whether the NCLT has the jurisdiction to review administrative decisions made under public law enactments like the MMDR Act, 1957, and whether the High Court was justified in entertaining a writ petition against the NCLT's order.",
+ "held": "The Supreme Court held that the NCLT is a creature of a special statute and cannot be elevated to the status of a superior court with the power of judicial review over administrative actions in the realm of public law. Decisions by statutory authorities under the MMDR Act, 1957, fall outside the NCLT's jurisdiction, and the resolution professional cannot use the NCLT as a bypass to enforce rights outside the IBC. Therefore, the NCLT lacked jurisdiction, and the High Court was fully justified in entertaining the writ petition.",
+ "principle": "The NCLT does not possess the power of judicial review over administrative actions and public law disputes, such as those arising under the MMDR Act, 1957, as it is not a superior court.",
+ "points": [
+  "The NCLT is a creature of a special statute and does not possess the power of judicial review over administrative actions.",
+  "Matters falling in the realm of public law, such as mining leases governed by the MMDR Act, 1957, cannot be brought within the fold of the IBC through Section 60(5)(c).",
+  "The NCLT and NCLAT have jurisdiction to inquire into allegations of fraudulent or malicious initiation of proceedings under Section 65 and fraudulent transactions under Section 66.",
+  "The resolution professional cannot bypass regular judicial remedies to enforce rights that fall outside the purview of the IBC.",
+  "The High Court is justified in entertaining a writ petition when an inferior tribunal acts without jurisdiction."
+ ],
+ "h": "6ef834cb3e30",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-18"
+}

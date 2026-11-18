@@ -1,0 +1,16 @@
+{
+ "facts": "The plaintiff sued to enforce a mortgage bond executed on behalf of a company by its Working Director and Secretary. The company went into voluntary liquidation and the mortgaged property was purchased by defendant 4. Article 15 of the company required all instruments to be signed by the Managing Director, the Secretary, and the Working Director, but the bond was signed only by the Secretary and the Working Director.",
+ "issue": "Whether the mortgage bond was validly executed so as to bind the company when it was signed by only two of the three officers required by the Articles of Association.",
+ "held": "The court decided that the mortgage bond was invalid because it lacked the required signature of the Managing Director as mandated by Article 15. The court held that persons dealing with a company have constructive notice of its public documents and articles, so the mortgagee should have known the bond was not properly executed. Since the bond was defective on its face and the required signatures were missing, the plaintiff could not enforce it, and the second appeal was dismissed.",
+ "principle": "A person dealing with a company is deemed to have constructive notice of its Companies Act and Articles of Association, and cannot claim protection under the indoor management rule if the defect or illegality is apparent from the documents.",
+ "points": [
+  "Article 15 required instruments to be signed by three specific officers: the Managing Director, the Secretary, and the Working Director.",
+  "The suit mortgage bond was signed by only the Secretary and the Working Director.",
+  "Persons dealing with a company have constructive notice of its Articles of Association.",
+  "The rule in Royal British Bank v. Turquand does not protect a party if an illegality or lack of proper execution appears on the face of the document.",
+  "The absence of the required signatures rendered the mortgage bond invalid and unenforceable against the company."
+ ],
+ "h": "14f28173883f",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-18"
+}

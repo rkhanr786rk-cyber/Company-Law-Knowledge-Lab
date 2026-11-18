@@ -1,0 +1,15 @@
+{
+ "facts": "A company was formed to work a German patent for manufacturing coffee from dates, with a memorandum of association containing general clauses for acquiring other patents and carrying on related businesses. The intended German patent was never granted, although the company purchased a Swedish patent and began making and selling date coffee in Hamburg without a patent. Two shareholders petitioned to wind up the company on the ground that its objects had entirely failed.",
+ "issue": "Whether it is just and equitable to wind up a company under the Companies Act when the main patent and primary object for which it was formed have failed.",
+ "held": "The court held that the substratum of the company had failed and it was impossible to carry out the objects for which it was formed, making it just and equitable to wind up the company. The court reasoned that the true object of the company was to work a specific German patent, not to carry on a general business without a patent.",
+ "principle": "If the whole substratum of a company—the specific business and main purpose for which it was incorporated—has become impossible to achieve, the court may order the company to be wound up under the just and equitable clause.",
+ "points": [
+  "General words in a memorandum of association must be construed as ancillary to the main and dominant object of the company.",
+  "A company formed to work a specific patent cannot force dissenting shareholders to accept a general business without that patent.",
+  "If the main purpose of the company is abortive and impossible to attain, the court does not have to wait a full year from incorporation to order a winding up.",
+  "The wishes of a majority of shareholders cannot override the fundamental failure of the company's substratum if the minority objects."
+ ],
+ "h": "badc750f8361",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-18"
+}

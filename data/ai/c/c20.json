@@ -1,0 +1,16 @@
+{
+ "facts": "The British American Bank Note Company was a highly successful joint stock company incorporated in Canada. Over many years, the company accumulated a large amount of undivided profits on its profit and loss account instead of distributing them all as dividends. Minority shareholders brought an action against the company, the president George B. Burland, and other directors, challenging the retention of reserve funds, certain investments, the resale of property to the company at a profit, and specific salary payments.",
+ "issue": "Whether the court can interfere with the internal management of a company regarding the retention and investment of undivided profits, and whether a director must account for profits made on property previously purchased privately and resold to the company.",
+ "held": "The court decided that the accumulation and investment of undivided profits are matters of internal management for the shareholders to decide, and the court has no jurisdiction to interfere. Furthermore, a director who purchases property independently and later resells it to the company cannot be forced in a minority shareholder action to account merely for the profit on resale without setting aside the contract. However, the court held that the president must repay certain salary amounts improperly drawn under an ambiguous resolution that did not apply to him.",
+ "principle": "Courts will not interfere with the internal management of companies acting within their powers, and shareholders must decide whether profits should be divided or retained as a reserve fund.",
+ "points": [
+  "A company is not compelled to divide the whole of its profits among its shareholders while it is a going concern.",
+  "The retention and investment of undivided profits or reserve funds are questions of internal management decided by the shareholders.",
+  "A shareholder is not barred from voting on a resolution simply because they have a personal interest in the subject matter.",
+  "An action to redress a wrong done to a company must generally be brought by the company itself, with narrow exceptions for fraud or ultra vires acts.",
+  "A director who buys property independently and resells it to the company cannot be compelled to account for resale profits without rescinding the contract."
+ ],
+ "h": "00913fb0fea4",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-18"
+}

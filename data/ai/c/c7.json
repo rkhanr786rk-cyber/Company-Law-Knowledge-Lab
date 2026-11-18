@@ -1,0 +1,16 @@
+{
+ "facts": "The defendant was appointed managing director of the plaintiff company under an agreement containing a restrictive covenant that he would not solicit customers of the company during or after his employment. His employment was determined by a later agreement, and he subsequently established a business supplying spare parts for the company's vehicles. He then incorporated a private company using his wife's initials, and both he and the company solicited the plaintiff company's customers.",
+ "issue": "Whether the restrictive covenant in clause 9 was unenforceable as being too wide, and whether the subsequently incorporated company was a mere cloak or sham to enable breaches of the covenant.",
+ "held": "The Court of Appeal held that the restrictive covenant was reasonably necessary for the protection of the plaintiff company's trade and was enforceable by injunction. The court also held that the defendant's company was a mere cloak, sham, or device formed to enable him to continue to commit breaches of the covenant, and therefore the injunction was granted against both defendants.",
+ "principle": "A restrictive covenant in restraint of trade is valid and enforceable if it is reasonably necessary for the protection of the employer's business. Furthermore, a company formed as a mere cloak or sham to evade legal obligations or covenants will be treated as the channel of the individual behind it.",
+ "points": [
+  "A restrictive covenant is valid if it is reasonably necessary for the protection of the plaintiff's business.",
+  "A customer is a person who frequents a place of business for purchases, and such persons may be recorded in company books.",
+  "An agreement to shorten the term of employment and pay compensation does not automatically release an employee from a restrictive covenant unless specified.",
+  "A separate corporate entity can be treated as a mere cloak or sham if it is merely a device or channel to mask the business of an individual.",
+  "An injunction may be granted against both the individual and the sham company to prevent breaches of a covenant."
+ ],
+ "h": "3b2e5569fe54",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-18"
+}

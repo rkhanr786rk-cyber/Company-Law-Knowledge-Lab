@@ -1,0 +1,16 @@
+{
+ "facts": "The plaintiffs, who are architects and surveyors, were instructed by the second defendant, Mr. Kapoor, to do work relating to an estate owned by the defendant company. The company was formed to purchase and resell this estate, but Mr. Kapoor was never formally appointed as managing director. The board of directors permitted Mr. Kapoor to act in the management of the company and take steps to find a purchaser without challenge. The plaintiffs completed the work and sued the company for their unpaid fees.",
+ "issue": "Whether the defendant company was liable for the fees under a contract made by a director who lacked actual authority, on the basis that he had ostensible or apparent authority to act for the company.",
+ "held": "The court held that the defendant company was liable because the second defendant had ostensible authority to employ the plaintiffs. The board of directors, who had actual authority to manage the company, permitted Mr. Kapoor to act as a managing director and conduct the company's business. This conduct represented to the plaintiffs that he had authority to enter into such contracts on behalf of the company, and the company was therefore estopped from denying responsibility.",
+ "principle": "A company is bound by a contract entered into by its agent who lacks actual authority if the agent was held out by the board of directors as having ostensible authority to manage that part of the company's business.",
+ "points": [
+  "A corporation can only make representations through its agents.",
+  "Ostensible or apparent authority requires a representation made by a person with actual authority, such as the board of directors.",
+  "Permitting an agent to act in the management of a company's business constitutes a representation that the agent has authority to enter into ordinary contracts.",
+  "A contractor dealing with a company is affected by any constitutional limitations on the company's capacity or delegation of powers under its articles of association.",
+  "The board of directors had actual authority under the articles to manage the company and to delegate powers to a director."
+ ],
+ "h": "ead3f9159a09",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-18"
+}

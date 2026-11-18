@@ -1,0 +1,16 @@
+{
+ "facts": "The company was floated as a private limited company in 1950, with shares held equally by two groups. In 1954, the appellant agreed to provide finance, loans, and administrative guidance, leading to an agreement where the company would have three groups of shareholders holding equal shares. Later, the company was converted into a public company, and differences arose regarding the issue of new shares, resulting in a breach between the groups and subsequent allotment of new shares to exclude the appellant's group.",
+ "issue": "Whether the affairs of the company were being conducted in a manner oppressive to the appellant and his group, or prejudicial to the interests of the company, and whether there was mismanagement justifying court intervention.",
+ "held": "The court held that the company was not a party to the 1954 agreement and was not bound by it, so failure to carry out the agreement did not constitute oppression. Furthermore, the delay in receiving full share money, the withdrawal of a sum owed to the former managing agent, and the loss of the appellant's support did not amount to prejudicial conduct or mismanagement of the company. Therefore, the appeals were dismissed.",
+ "principle": "A private agreement between certain shareholders to which the company is not a party cannot bind the company, and mere exclusion from control or a breakdown of trust does not amount to oppression or mismanagement under the Act unless specific statutory grounds are proven.",
+ "points": [
+  "A company is not bound by an agreement to which it is not a party.",
+  "Section 397 deals with oppression to minority shareholders.",
+  "Section 398 deals with actual or apprehended mismanagement and prejudicial conduct towards the company.",
+  "Minor differences or the loss of a member's support do not establish company mismanagement.",
+  "Applications must be decided on the basis of facts as they were when the application was made."
+ ],
+ "h": "ff4346dbac30",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-18"
+}

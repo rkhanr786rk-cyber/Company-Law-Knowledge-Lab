@@ -1,0 +1,15 @@
+{
+ "facts": "In 1954, L formed a company for aerial top-dressing and held almost all of its shares. He was appointed governing director and employed as the chief pilot under an article of association. In March 1956, L was killed in a flying accident while piloting the company's aircraft. His widow claimed compensation under the Workers' Compensation Act, 1922, as a dependant of a worker.",
+ "issue": "Whether L could be a 'worker' working under a contract of service with the company, given that he was also the sole governing director and controlling shareholder.",
+ "held": "The court decided that L was a worker entitled to compensation because the company was a distinct legal entity. His special position as governing director did not prevent him from making a valid contract of employment with the company.",
+ "principle": "A company is a separate legal entity distinct from its shareholders and directors, which allows a controlling shareholder and director to also enter into a valid contract of service with the company.",
+ "points": [
+  "A company is a distinct legal person separate from its members.",
+  "A controlling shareholder and director can also be an employee of the company.",
+  "Dual roles, such as being both a governing director and a servant, are legally possible.",
+  "The right of control can exist even if the same individual exercises management and gives orders on behalf of the company."
+ ],
+ "h": "10fd851bc18e",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-18"
+}

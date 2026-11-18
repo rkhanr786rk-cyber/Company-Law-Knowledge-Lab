@@ -1,0 +1,16 @@
+{
+ "facts": "The company was incorporated under the Companies Act 1862. Its memorandum of association listed objects including railway carriages and waggons, general contractors, mines, minerals, land, and timber. The directors entered into a contract to take over a concession to make a railway from Antwerp to Tournay and to furnish funds for the project. Shareholders later appointed a committee that reported the contract was ultra vires.",
+ "issue": "Whether a contract made by a company incorporated under the Companies Act 1862, which is beyond the objects stated in its memorandum of association, can be ratified by the shareholders.",
+ "held": "The House of Lords held that the contract was ultra vires and void. The court decided that a statutory corporation created under the Act is limited in all its powers by the purposes defined in its memorandum, and the shareholders cannot ratify a contract that is beyond those objects.",
+ "principle": "A company incorporated under statute has power only to do those things that are authorized by its memorandum of association, and an ultra vires contract cannot be ratified even by the unanimous consent of all shareholders.",
+ "points": [
+  "The memorandum of association acts as the charter and the limitation of powers for a company.",
+  "Articles of association play a subsidiary part to define internal management and duties.",
+  "A contract that goes beyond the objects in the memorandum is ultra vires and void.",
+  "Shareholders cannot ratify or validate a contract that is completely outside the memorandum of association.",
+  "Statutory corporations have no inherent common law rights beyond their incorporating purpose."
+ ],
+ "h": "bbcff00e0ffa",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-18"
+}

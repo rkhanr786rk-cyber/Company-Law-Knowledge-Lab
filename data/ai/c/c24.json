@@ -1,0 +1,15 @@
+{
+ "facts": "Two shareholders of the Victoria Park Company filed a bill on behalf of themselves and other shareholders against the directors, solicitor, architect, and others, charging them with fraudulent and illegal transactions that misapplied and wasted company property. The bill alleged that the company had no clerk or office, that there was an insufficient number of qualified directors, and that the proprietors had no power to take the property out of the hands of the defendants or wind up the affairs. The defendants demurred to the bill.",
+ "issue": "Whether individual shareholders can sue in their own names to redress wrongs done to the company when the company itself has the power to obtain redress through a general meeting.",
+ "held": "The court held that the demurrers must be allowed because the allegations in the bill did not exclude the possibility of convening a general meeting of proprietors capable of controlling the existing board. Since the company could obtain redress in its corporate character, individual plaintiffs could not sue in a form that assumed the practical dissolution of the corporation.",
+ "principle": "A court will not interfere with the internal management of a company at the suit of a minority of shareholders if the majority can ratify the act or if the company itself can seek redress.",
+ "points": [
+  "The proper plaintiff in an action for a wrong done to a company is the company itself.",
+  "Individual shareholders cannot sue on behalf of themselves and others for corporate wrongs if the company can obtain redress through its internal governance.",
+  "A general meeting of shareholders has the power to control or confirm acts of the directors if those acts are capable of confirmation.",
+  "The court will apply strict rules of pleading against the plaintiff if the bill does not clearly exclude the existence of a governing board and the power to hold general meetings."
+ ],
+ "h": "4a5e1ffdc41a",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-18"
+}

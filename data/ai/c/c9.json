@@ -1,0 +1,16 @@
+{
+ "facts": "A syndicate purchased the lease of the island of Sombrero for £55,000. The syndicate then formed a new company and agreed to sell the island to the company for £110,000. The promoters appointed a board of directors that lacked independence, and the directors ratified the purchase without making independent inquiries.",
+ "issue": "Whether the company was entitled to have the contract for the purchase of the island rescinded because the promoters failed to disclose material facts and failed to provide an independent board of directors.",
+ "held": "The court decided that the contract should be rescinded and the purchase price returned. The promoters were in a fiduciary position and had a duty to provide the company with an independent board of directors capable of exercising an impartial judgment, which they failed to do. Furthermore, the company brought the action within a reasonable time and was not barred by laches or acquiescence.",
+ "principle": "Promoters are in a fiduciary position towards the company they promote and must provide an independent board of directors and fully disclose material facts when selling property to the company.",
+ "points": [
+  "Promoters are not trustees for the company, but they stand in a fiduciary position towards it.",
+  "Promoters have a duty to nominate independent directors who are capable of acting impartially in the company's interests.",
+  "Promoters must disclose all material facts relating to the transaction.",
+  "Failure to provide an independent executive allows the court to order the contract to be rescinded.",
+  "The right to rescind is lost only if the company delays unreasonably or acquiesces with full knowledge of the facts."
+ ],
+ "h": "6f60f7652d0c",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-18"
+}

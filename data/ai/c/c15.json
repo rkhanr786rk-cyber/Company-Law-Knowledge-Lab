@@ -1,0 +1,16 @@
+{
+ "facts": "The plaintiff sued the defendant joint stock company on a bond for £2,000 signed by two directors under the company seal. The registered deed of settlement stated that directors could borrow on bond such sums as a general resolution of the company authorized. The plea stated there was no such resolution authorizing the bond.",
+ "issue": "Whether persons dealing with a company are bound to inquire if internal procedural requirements, such as a general resolution to borrow, have been fulfilled.",
+ "held": "The Court of Exchequer Chamber held that the plaintiff was entitled to judgment. Parties dealing with joint stock companies are bound to read the statute and the deed of settlement, but they have a right to infer that internal procedural acts like a necessary resolution have been duly carried out.",
+ "principle": "Persons dealing with a company are entitled to assume that internal management and procedural requirements of the company have been properly complied with.",
+ "points": [
+  "The plaintiff sued on a bond sealed by two directors for £2,000.",
+  "The company deed permitted directors to borrow on bond if authorized by a general resolution.",
+  "The defense claimed no such general resolution was ever passed.",
+  "Outsiders dealing with a company must read the public statute and the registered deed of settlement.",
+  "Outsiders are not bound to inquire into the internal management and may presume regularities have been met."
+ ],
+ "h": "8695bba54636",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-18"
+}

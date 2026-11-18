@@ -1,0 +1,292 @@
+{
+ "10": {
+  "summary": "This rule explains that a company mortgage deed does not strictly need a common seal to be valid. Under the Companies Act, an authorized person can properly execute the mortgage without using a seal. If a seal is not actually required by law, any minor mistake in how the seal was attached will not make the document invalid.",
+  "points": [
+   "A mortgage deed can be validly executed by any person acting with the company's authority.",
+   "Company law does not generally require a mortgage deed to have a common seal attached.",
+   "A small mistake or defect in putting a seal on a document does not make that document bad or invalid."
+  ],
+  "example": "Meera Textiles Private Limited needed to sign a mortgage deed for a loan. Instead of using a company seal, an officer who was properly authorized by the company signed the deed on its behalf. Later, someone claimed the document was flawed because the seal was not stamped correctly. According to the rule, the mortgage is still valid because the law did not require a seal in the first place, and any minor defect regarding the seal does not ruin the document.",
+  "terms": [
+   {
+    "term": "mortgage deed",
+    "meaning": "A legal written agreement that uses property as security for a loan."
+   },
+   {
+    "term": "common seal",
+    "meaning": "The official stamp or signature of a company used on important legal papers."
+   },
+   {
+    "term": "execute",
+    "meaning": "To sign and make a legal document official and binding."
+   }
+  ],
+  "watch": "People often think that every company document needs an official seal to be valid, but this is not always true.",
+  "h": "13c2bd41b271",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-18"
+ },
+ "13": {
+  "summary": "This text discusses whether a company directors' meeting was properly called and if a resolution passed at such a meeting is legally binding. It explains that a meeting requires proper notice to all directors to be valid. The text also examines whether an outside party knew that the meeting and its resolution were not properly handled.",
+  "points": [
+   "A meeting of directors must be properly convened by giving due notice to all directors.",
+   "If a meeting is not properly convened, any resolution passed by it does not legally bind the company.",
+   "Courts examine whether outside parties dealing with the company knew that the meeting procedure was flawed or if they were genuinely misled."
+  ],
+  "example": "Meera Textiles Private Limited needed a loan from a local lender. The company manager showed the lender a resolution in the minute book signed by the directors. However, no proper meeting had actually taken place and due notice was never sent to all directors. The lender trusted the manager and believed the resolution was valid, later arguing they were deceived by the manager's actions.",
+  "terms": [
+   {
+    "term": "Articles of Association",
+    "meaning": "The rulebook of a company that sets out how it must be run internally."
+   },
+   {
+    "term": "Ratification",
+    "meaning": "Giving official approval to an action after it has been done."
+   },
+   {
+    "term": "Overdraft",
+    "meaning": "A facility allowing a bank account holder to withdraw more money than they have deposited."
+   }
+  ],
+  "watch": "Do not confuse whether a meeting actually happened with whether the meeting was properly called with due notice.",
+  "h": "eeaf8fc1f8ad",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-18"
+ },
+ "3": {
+  "summary": "This text discusses cases where suppliers tried to claim money from a company in liquidation for deals that were outside the company's legal powers. The court held that judgments based on such invalid contracts cannot be sustained unless there was a court decision or compromise directly addressing that issue. However, suppliers may still have rights to trace their property or share in surplus assets after other valid claims are paid.",
+  "points": [
+   "A judgment founded on an invalid contract cannot be sustained unless it involves a court decision or compromise on that specific issue.",
+   "Suppliers who had clear notice of the factory's purposes cannot claim payment as standard creditors if the underlying business was outside the company's powers.",
+   "Rejection of a supplier's claim does not stop them from trying to trace their money or property.",
+   "Suppliers may still participate in the distribution of surplus assets after proving creditors, costs, and expenses are paid."
+  ],
+  "example": "Meera Textiles Private Limited entered into an agreement outside its official company objects to buy building materials from a supplier. When the company went into liquidation, the liquidator rejected the supplier's claim for the unpaid money because the transaction was invalid. The court upheld the rejection since the supplier had notice of what the company was doing. However, this rejection left open the supplier's right to trace any remaining property or share in surplus assets after all valid debts and expenses were fully paid.",
+  "terms": [
+   {
+    "term": "ultra vires",
+    "meaning": "Beyond the legal power or authority of a company."
+   },
+   {
+    "term": "liquidator",
+    "meaning": "A person appointed to wind up a company's affairs and distribute its assets."
+   },
+   {
+    "term": "proof",
+    "meaning": "A formal written statement claiming a debt owed by a company in liquidation."
+   }
+  ],
+  "watch": "People often confuse a regular court judgment with one that actually decides the issue of whether a contract is legally allowed.",
+  "h": "4b3ee8eb8384",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-18"
+ },
+ "4": {
+  "summary": "This rule explains that the Board of a company cannot give its power to borrow money to anyone else. Even when a managing agent has very broad powers to run the company and sign contracts, this borrowing power remains strictly with the Board. Ordinary readers should note that certain core duties cannot be passed down.",
+  "points": [
+   "The Board is strictly prohibited from delegating the power to borrow money.",
+   "A managing agent has wide powers to conduct the business and affairs of the company.",
+   "The agent can enter into contracts and do things usual, necessary, or desirable for management."
+  ],
+  "example": "At ABC Private Limited, the Board considered handing over the power to borrow money to their managing agent, Mr. Roy. Mr. Roy already held vast powers to enter into contracts and manage daily company affairs under article 120. However, because the rules expressly forbid the Board from delegating the power to borrow money, the Board had to keep this responsibility for themselves and could not pass it to Mr. Roy.",
+  "terms": [
+   {
+    "term": "delegating",
+    "meaning": "passing a power or duty to someone else"
+   },
+   {
+    "term": "managing agent",
+    "meaning": "a person or entity given powers to run the business and affairs of the company"
+   }
+  ],
+  "watch": "People often confuse general management powers with the specific power to borrow money, but borrowing cannot be handed over.",
+  "h": "a5cd8a7df3da",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-18"
+ },
+ "5": {
+  "summary": "This text discusses whether a managing agent of a company can borrow money during an emergency. It concludes that while there is no general power to borrow, an emergency loan can be taken to protect the company from loss. Ordinary rules of agency allow this when funds are urgently needed.",
+  "points": [
+   "The board's power to borrow cannot be delegated generally.",
+   "Managing agents generally do not have unrestricted borrowing powers.",
+   "In an emergency, an agent can take temporary loans to protect the principal.",
+   "The loan must be necessary and used immediately for company purposes."
+  ],
+  "example": "Meera Textiles Private Limited desperately needed money to pay for machinery that had just arrived from England and had to be cleared without delay. The managing agent took a temporary bank overdraft to pay for the machines and save the company from loss. Even though the agent had no general borrowing power, this emergency loan was allowed because it protected the company's interests.",
+  "terms": [
+   {
+    "term": "Managing agent",
+    "meaning": "A person or company authorized to manage the whole or substantially the whole of the affairs of a company."
+   },
+   {
+    "term": "Overdraft",
+    "meaning": "A temporary loan or extension of credit from a bank."
+   },
+   {
+    "term": "Principal",
+    "meaning": "The person or company on whose behalf an agent acts."
+   }
+  ],
+  "watch": "Do not confuse a general, ongoing power to borrow with a special, temporary power to take a loan during an emergency.",
+  "h": "f6a42b4029ba",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-18"
+ },
+ "6": {
+  "summary": "This rule discusses whether a company's loan obtained by an official named Mr. Beltie Shah was properly approved. It decides that a specific meeting was invalid, but a later directors' report successfully approved the loan. Therefore, the Board of Directors clearly accepted the loan in that report.",
+  "points": [
+   "Mr. Beltie Shah originally acted beyond his powers to get the loan.",
+   "A board meeting held on June 2, 1923, was not properly called and its resolution is not valid.",
+   "A directors' report dated September 17, 1923, correctly showed the loan as due to Bhagwan Das and Company.",
+   "The Board of Directors clearly approved the loan through this September report."
+  ],
+  "example": "At Sunrise Traders Private Limited, an official named Mr. Roy took a loan without proper initial authority. A meeting held soon after to approve it was found to be invalid. However, in their official report to shareholders on September 17, the directors listed the unpaid loan from Bhagwan Das and Company. Because the directors signed this proper report, the company's board legally approved the loan after the fact.",
+  "terms": [
+   {
+    "term": "ultra vires",
+    "meaning": "Acting beyond one's legal power or authority."
+   },
+   {
+    "term": "ratified",
+    "meaning": "Approved or confirmed an action after it happened."
+   },
+   {
+    "term": "convened",
+    "meaning": "Called together for a meeting."
+   }
+  ],
+  "watch": "Do not confuse an invalidly called board meeting with a validly signed directors' report that successfully approves an action.",
+  "h": "e234eb2a94cc",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-18"
+ },
+ "7": {
+  "summary": "The provided text is too short and historical to fully explain a modern rule under the Companies Act, 2013. It simply discusses a past case where a company's board approved a loan obtained by an agent. Because the board accepted the action, the company had to pay the money owed.",
+  "points": [
+   "A directors' report submitted audited accounts showing a specific sum due to Bhagwan Das and Company.",
+   "The loan was secured by a charge over the company lands.",
+   "The board of directors clearly ratified the action instead of rejecting it.",
+   "The company could not escape liability by claiming the agent lacked authority."
+  ],
+  "example": "Meera Textiles Private Limited faced an emergency and took a loan through an agent named Rohan. Rohan may have gone beyond his usual powers to get this emergency money. However, the Board of Directors of Meera Textiles clearly accepted and approved Rohan's action later instead of rejecting it. Because the board approved what he did, the company had to take responsibility and could not refuse to pay the money back by saying Rohan had no authority.",
+  "terms": [
+   {
+    "term": "Ratified",
+    "meaning": "Approved or confirmed something that was done."
+   },
+   {
+    "term": "Liability",
+    "meaning": "Legal responsibility for a debt or obligation."
+   }
+  ],
+  "watch": "Do not assume this historical text reflects current rules under the modern Companies Act, 2013.",
+  "h": "28bc1e4ece4f",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-18"
+ },
+ "8": {
+  "summary": "The provided text is too short and unclear to explain a complete rule under the Companies Act, 2013. It only raises a question about whether a mortgage deed was properly executed to bind a company under company law. Without further details or sections from the Act, no specific legal procedure can be outlined.",
+  "points": [
+   "The text questions if a mortgage deed binds a company.",
+   "This must follow the provisions of company law.",
+   "No further rules or details are provided in the text."
+  ],
+  "example": "A question arose at Meera Textiles Private Limited regarding a financial agreement. The directors wondered if the mortgage deed was executed in such a manner as to legally bind the company under the provisions of company law.",
+  "terms": [
+   {
+    "term": "mortgage deed",
+    "meaning": "a legal document that creates a claim on a property as security for a loan"
+   },
+   {
+    "term": "execute",
+    "meaning": "to sign and make a legal document valid"
+   },
+   {
+    "term": "bind",
+    "meaning": "to make someone or a company legally responsible to fulfill an obligation"
+   }
+  ],
+  "watch": "Do not assume any specific rules about how to sign documents since the text does not state them.",
+  "h": "928762513020",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-18"
+ },
+ "9": {
+  "summary": "This rule discusses whether a mortgage deed is valid when signed by a company representative. The challengers argue the deed is invalid because it lacks the required countersignature under the company rules. The text explains that even though the signer held multiple roles, the specific signing rules were not fully met.",
+  "points": [
+   "A mortgage deed was signed by Mr. Beltie Shah as the managing agent.",
+   "The deed bears the common seal of the company.",
+   "Article 98(t) requires a document with the seal to be signed by a director and countersigned by an appointed agent or officer.",
+   "The document lacks the necessary countersignature, raising questions about its validity."
+  ],
+  "example": "Meera Textiles Private Limited needed to execute a mortgage deed. Mr. Roy signed the document as the managing agent and applied the common seal of the company. However, the company rules state that any sealed document must also be countersigned by an additional appointed officer. Because the document bore no such countersignature, a dispute arose over whether the mortgage execution was valid under the company regulations.",
+  "terms": [
+   {
+    "term": "mortgage deed",
+    "meaning": "A legal document that uses property as security for a loan."
+   },
+   {
+    "term": "common seal",
+    "meaning": "The official official stamp or signature of a company."
+   },
+   {
+    "term": "Articles of Association",
+    "meaning": "The rulebook that governs how a company is run."
+   }
+  ],
+  "watch": "Do not assume a document is valid just because it has a company seal and one signature if the rules require extra countersignatures.",
+  "h": "576a289102bd",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-18"
+ },
+ "11": {
+  "summary": "The provided text is too short and unclear to explain a complete rule. It simply asks whether a specific person had the legal power to sign a mortgage for a company. Because there are no details, time limits, or instructions given, it is not possible to explain a full legal rule.",
+  "points": [
+   "The text questions the authority of Mr. Beltie Shah.",
+   "The action in question is executing a mortgage.",
+   "The mortgage is on behalf of the company."
+  ],
+  "example": "Meera Textiles Private Limited wanted to take a bank loan using its property as security. Mr. Beltie Shah signed the mortgage documents with the bank. Later, the board of directors raised a question about whether Mr. Beltie Shah had the proper permission from the company to sign those papers, which matches the exact situation described in the text.",
+  "terms": [
+   {
+    "term": "Mortgage",
+    "meaning": "Giving a property to a lender as a security for a loan."
+   },
+   {
+    "term": "Execute",
+    "meaning": "To sign and complete a legal document."
+   }
+  ],
+  "watch": "Do not assume any specific rule about mortgages applies here, as the text only asks a single question without providing answers or guidelines.",
+  "h": "de386f385722",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-18"
+ },
+ "12": {
+  "summary": "This rule records a board resolution from a 1923 meeting of a tramway company. The directors agreed to give the company's land as security for a bank overdraft. They also authorized a specific person to sign and deliver the agreement.",
+  "points": [
+   "The board approved a proposal from the managing agents regarding an overdraft of Rs. 25,000 from Messrs Bhagwan Das and Company.",
+   "The company agreed to legally assign its land named Khazanchi Bagh to the bankers as security.",
+   "Mr. Beltie Shah was authorized by the board to sign, seal, and deliver the deed on behalf of the company."
+  ],
+  "example": "At a meeting of Meera Textiles Private Limited, the directors approved a proposal to secure a bank overdraft of Rs. 25,000 from local bankers by assigning the company's land known as Green Park to the bank. The board authorized Mr. Sharma to sign, seal, and deliver the deed on behalf of the board.",
+  "terms": [
+   {
+    "term": "Overdraft",
+    "meaning": "A financial arrangement where a bank allows a company to withdraw more money than it has in its account."
+   },
+   {
+    "term": "Assign",
+    "meaning": "To legally transfer rights or property to someone else."
+   },
+   {
+    "term": "Deed",
+    "meaning": "A formal legal document that is signed and delivered."
+   }
+  ],
+  "watch": "Make sure not to assume any details or rules not explicitly written in the provided text.",
+  "h": "557e29ce587c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-18"
+ }
+}

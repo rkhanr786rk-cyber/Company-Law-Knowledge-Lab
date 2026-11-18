@@ -1,0 +1,16 @@
+{
+ "facts": "Introductions Ltd. started a pig-breeding venture, which was outside the powers stated in its memorandum. The company opened an account with the National Provincial Bank that became heavily overdrawn. To secure the overdraft, the bank was given two debentures over the company's assets. The bank knew that the company's sole business was pig-breeding when it took the security.",
+ "issue": "Whether the debentures held by the bank were valid or void as ultra vires when the bank knew the borrowed money was for an ultra vires purpose.",
+ "held": "The court held that the debentures were void and dismissed the appeal. A power to borrow cannot exist in a vacuum and must be for the purposes of the company, meaning borrowing for an ultra vires purpose is invalid. Furthermore, because the bank had actual knowledge that the money was for an ultra vires purpose, it could not rely on the security.",
+ "principle": "A borrowing power in a company memorandum must be for the purposes of the company, and a lender with knowledge that the borrowed money is for an ultra vires purpose cannot enforce security taken for that loan.",
+ "points": [
+  "A company cannot have an object to do every mortal thing, as that means having no object at all.",
+  "Powers to borrow money cannot be converted into independent objects merely by adding a declaration to that effect in the memorandum.",
+  "A borrowing power is implicitly understood to mean for the purposes of the company.",
+  "A lender is not bound to enquire into the purpose of a loan if it has no knowledge of any intended misapplication.",
+  "If a lender has actual knowledge that a loan is for an ultra vires purpose, the lender cannot rely on debentures given as security."
+ ],
+ "h": "09d6114ede51",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-18"
+}

@@ -1,0 +1,99 @@
+{
+ "10": {
+  "summary": "This text outlines the responsibilities of different roles in a company board, such as the Chairperson and the Managing Director. It explains what duties they must perform, including running meetings, managing business strategies, and following legal duties. The text also covers basic steps for a first board meeting like granting leave and confirming a quorum.",
+  "points": [
+   "The Chairperson must ensure board members get needed information, schedule enough time for decisions, and have their performance evaluated annually.",
+   "The Managing Director or Executive Director must propose business strategies, oversee human resources, and ensure financial controls are in place.",
+   "Directors must attend meetings, vote using independent judgment, keep board information secret, and act in the best interests of the company.",
+   "A first board meeting includes administrative tasks like granting a leave of absence to absent directors and confirming the presence of a quorum."
+  ],
+  "example": "At Meera Textiles Private Limited, the directors gathered for their first board meeting. First, the chairman informed the board about a request for a leave of absence from one director and granted it. Next, the chairman confirmed that the required quorum of members was present and officially called the meeting to order. Finally, the directors discussed and unanimously elected Mr. Sharma as the chairperson to preside over this meeting and all future board meetings until decided otherwise.",
+  "terms": [
+   {
+    "term": "Quorum",
+    "meaning": "The minimum number of members required to be present to legally conduct a meeting."
+   },
+   {
+    "term": "Fiduciary duties",
+    "meaning": "Legal obligations to act honestly and in the best interests of another party."
+   },
+   {
+    "term": "Leave of absence",
+    "meaning": "Formal permission given to a member to be absent from a meeting."
+   }
+  ],
+  "watch": "Do not assume that all roles have the exact same duties, as the text sets specific and distinct tasks for the Chairperson, Managing Director, and other members.",
+  "h": "66af7830c43c",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-18"
+ },
+ "2": {
+  "summary": "This rule outlines the duties regarding a company's leadership and structure. It requires the review, evaluation, and approval of the corporate organizational structure and senior management responsibilities. It also covers plans for developing senior management and succession.",
+  "points": [
+   "Review and approve the overall corporate organizational structure.",
+   "Evaluate and assign responsibilities to senior management.",
+   "Approve plans for senior management development and succession."
+  ],
+  "example": "At Zenith Exports Private Limited, the board sat down to review the company tree to see how departments were arranged. They evaluated the current roles assigned to their top directors and approved a new plan to train upcoming leaders so they would be ready if a senior manager stepped down.",
+  "terms": [
+   {
+    "term": "Succession",
+    "meaning": "The plan for who will take over a job when the current person leaves."
+   },
+   {
+    "term": "Corporate organizational structure",
+    "meaning": "The way a company is arranged in terms of its management and departments."
+   }
+  ],
+  "watch": "Do not assume this rule sets specific deadlines or timelines for when succession plans must be completed.",
+  "h": "2457494d836f",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-18"
+ },
+ "3": {
+  "summary": "This rule sets out specific duties for a company regarding its corporate governance practices. The company must create, check, and carry out policies on how board members are chosen, how information is shared, and how dealings with related parties are handled. It helps ensure the company is run fairly and transparently.",
+  "points": [
+   "Formulate corporate governance practices and policies",
+   "Review the established practices and policies regularly",
+   "Implement policies covering board appointments, information disclosures, and related party transactions"
+  ],
+  "example": "Meera Textiles Private Limited decides to set up new rules for how it runs its business. The directors sit down to write official policies on choosing new board members, sharing company information with the public, and managing business deals with close friends and family members of the owners. Once these policies are ready, the company puts them into daily practice.",
+  "terms": [
+   {
+    "term": "Corporate Governance",
+    "meaning": "The system of rules and practices by which a company is directed and controlled."
+   },
+   {
+    "term": "Related Party Transactions",
+    "meaning": "Business deals or arrangements between a company and a person or entity that is closely connected to it."
+   }
+  ],
+  "watch": "Do not confuse simply writing policies with actually putting them into daily practice in the company.",
+  "h": "3a7503b176da",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-18"
+ },
+ "7": {
+  "summary": "The provided text is too short and unclear to explain any rule. It only shows a document title and page number from a publication by CimplyFive. Because there are no details about risk assessment or resolution rules in the text, no further explanation can be given.",
+  "points": [
+   "The text mentions a rule about reviewing risk assessment and risk management policies.",
+   "No specific details, steps, or requirements are provided in the text.",
+   "The text is just a reference from a model resolutions document."
+  ],
+  "example": "Aarav Textiles Private Limited wants to review its risk management practices as mentioned in a model resolutions book. However, the available page only lists a heading without any instructions or details. The company must look elsewhere for the actual rules because the provided text contains no guidance.",
+  "terms": [
+   {
+    "term": "Resolution",
+    "meaning": "A formal decision made by a company's members or directors."
+   },
+   {
+    "term": "Risk management",
+    "meaning": "The process of identifying and controlling threats to an organization."
+   }
+  ],
+  "watch": "Do not assume any legal requirements from this text, as it only contains a heading and no actual rules.",
+  "h": "5b879044ccdb",
+  "m": "gemini-3.5-flash-lite",
+  "d": "2026-11-18"
+ }
+}

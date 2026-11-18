@@ -1,0 +1,17 @@
+{
+ "facts": "The plaintiffs gave an overdraft of Rs. 25,000 to the Dehradun Mussoorie Electric Tramway Company through its managing agent, Mr. Beltie Shah Gilani, which was used for necessary company purposes. A mortgage over company land was later executed by the managing agent to secure this overdraft. The company subsequently went into liquidation, and the defendants disputed the validity of the mortgage while admitting the debt.",
+ "issue": "Whether the mortgage deed executed by the managing agent to secure the company's overdraft is valid and binding upon the company.",
+ "held": "The court held that the mortgage was void because it transferred part of the company's undertaking without the previous assent of the Government, as required by the Tramway Order. However, because the loan was genuine and used for company purposes, the court granted the plaintiffs a simple money decree to rank as unsecured creditors.",
+ "principle": "A mortgage of a tramway undertaking made in contravention of statutory provisions requiring previous government sanction is absolutely void and cannot be ratified.",
+ "points": [
+  "A managing agent does not have an inherent general power to borrow money if the articles of association restrict the board from delegating borrowing powers.",
+  "In an absolute emergency, an agent may incur a temporary loan to protect the principal's interests.",
+  "A mere defect in affixing a company's common seal does not invalidate a document if company law does not require a seal for that transaction.",
+  "Transfer of a tramway undertaking without prior government consent where required by law is absolutely void.",
+  "A void mortgage cannot be validated through ratification or estoppel.",
+  "Even if a mortgage is void, a creditor may still recover the loan amount as an unsecured creditor through a simple money decree."
+ ],
+ "h": "b5f4365bde6a",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-18"
+}

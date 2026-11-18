@@ -1,0 +1,16 @@
+{
+ "facts": "Regal formed a subsidiary company called Amalgamated to acquire leases for two cinemas. When the owners demanded a rent guarantee, the directors decided Regal could only invest £2,000 and that the remaining shares should be taken up by the directors and the solicitor. These shares were later sold at a substantial profit, and Regal sued to recover those profits.",
+ "issue": "Are directors and a solicitor accountable to their company for profits made on the acquisition and sale of shares in a subsidiary company, when they used their positions to acquire the shares and acted in good faith without fraud?",
+ "held": "The directors, other than Gulliver, are liable to account for the profits because they used their fiduciary position and exclusive knowledge as directors to acquire the shares. The absence of fraud or bad faith does not excuse them from liability. The claims against Gulliver and Garton failed because Gulliver made no profit and Garton took his shares with the full knowledge and consent of Regal.",
+ "principle": "A person in a fiduciary position, such as a director, must not make a profit by using their fiduciary position or knowledge acquired in it, and if they do, they must account for that profit even if the company could not have acquired the property itself and the directors acted in good faith.",
+ "points": [
+  "Directors stand in a fiduciary position towards their company.",
+  "Liability to account for profits does not depend upon proof of fraud, bad faith, or lack of honesty.",
+  "A director cannot retain a personal profit made by using their office and exclusive knowledge as a director.",
+  "It is immaterial that the company could not afford to buy the shares itself or that the directors acted to benefit the business.",
+  "Consent or knowledge of the company can protect a fiduciary, as seen in the case of the solicitor Garton."
+ ],
+ "h": "ddc963ffc675",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-18"
+}

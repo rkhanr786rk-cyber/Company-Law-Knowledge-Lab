@@ -1,0 +1,15 @@
+{
+ "facts": "A company whose memorandum authorized the business of costumiers and gown makers decided to make veneered panels, which was ultra vires. The company erected a factory and incurred debts with builders, veneer suppliers, and coke suppliers. The company went into compulsory liquidation, and the liquidator rejected the creditors' proofs of debt.",
+ "issue": "Whether proofs of debt based on ultra vires contracts, or on judgments obtained upon them without litigating or compromising the issue of ultra vires, can be sustained against the company.",
+ "held": "The court held that the liquidator rightly rejected the proofs of debt because the underlying contracts were ultra vires and any judgments founded on them were invalid unless they embodied a decision or compromise on the issue of ultra vires. A company cannot make an ultra vires act valid by consenting to a judgment or failing to raise the defense of ultra vires. However, the rejection was made without prejudice to the creditors' rights to trace their money or property or to participate in the distribution of surplus assets.",
+ "principle": "No judgment founded on an ultra vires contract can be sustained unless it embodies a decision of the court on the issue of ultra vires, or a compromise of that issue.",
+ "points": [
+  "An ultra vires contract cannot be made valid by estoppel, ratification, acquiescence, lapse of time, delay, or consent judgments.",
+  "Judgments obtained on ultra vires contracts are invalid unless the issue of ultra vires was specifically in dispute and compromised or decided by the court.",
+  "Parties dealing with a company are fixed with constructive notice of its memorandum of association.",
+  "Creditors whose proofs are rejected for ultra vires may still retain rights to trace their money or property or share in surplus assets after valid debts and costs are paid."
+ ],
+ "h": "44f5da9c65db",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-18"
+}

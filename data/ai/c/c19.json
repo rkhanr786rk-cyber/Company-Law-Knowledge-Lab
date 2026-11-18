@@ -1,0 +1,16 @@
+{
+ "facts": "The plaintiffs were joint registered owners of shares in a colliery company. The plaintiffs initiated the sale of their shares to the chairman and other directors after naming their desired price. During the negotiations, the directors were also being approached by a third party with a view to purchasing the entire undertaking of the company, but the directors did not disclose these negotiations to the plaintiffs.",
+ "issue": "Whether the directors of a company were under a fiduciary duty to disclose pending negotiations for the sale of the company's undertaking when purchasing shares from an individual shareholder.",
+ "held": "The court decided that the sale of shares was valid and dismissed the action. The court held that directors are not trustees for individual shareholders and are under no obligation to disclose to a vendor shareholder ongoing negotiations for the sale of the company's undertaking.",
+ "principle": "Directors of a company are not trustees for individual shareholders and may purchase their shares without disclosing pending negotiations for the sale of the company's undertaking.",
+ "points": [
+  "Directors are trustees or agents of the company, not of the individual shareholders.",
+  "Shareholders are fixed with knowledge of all the directors' powers.",
+  "Incorporation creates a distinct legal entity and affects the relations of shareholders.",
+  "Directors do not breach their duties by purchasing shares from shareholders without disclosing internal business negotiations.",
+  "A premature disclosure of negotiations for the sale of an undertaking might harm the best interests of the company."
+ ],
+ "h": "f38093bac089",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-18"
+}

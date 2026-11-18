@@ -1,0 +1,16 @@
+{
+ "facts": "The Grain Chamber Ltd. was formed to carry on business in various commodities, principally trading in futures in gur in 1949 and 1950. After government orders banned future contracts in gur in February 1950, the company passed resolutions to settle outstanding contracts at the closing market rate of February 14, 1950. The appellants filed a winding-up petition, claiming the company was unable to pay debts, that directors committed fraud, and that the substratum of the company was destroyed.",
+ "issue": "Whether the company should be wound up on the grounds that it is unable to pay its debts, that directors committed fraudulent acts, or that its substratum has disappeared making it just and equitable to wind it up.",
+ "held": "The Supreme Court held that the company was not unable to pay its debts, the directors acted prudently without fraud, and the substratum of the company had not disappeared because it was formed to trade in multiple commodities, not gur alone. The court ruled that the company possessed sufficient assets to restart business and that no case was made out to order a winding up.",
+ "principle": "A company will not be ordered to be wound up on just and equitable grounds unless its main object has substantially failed, it cannot carry on business except at a loss, or its assets are insufficient to meet its liabilities.",
+ "points": [
+  "Winding up may be ordered if the court thinks it just and equitable, considering both shareholders and creditors.",
+  "The substratum of a company disappears when its main incorporating object substantially fails or it can only operate at a loss.",
+  "Circumstances existing at the date of the winding-up petition must primarily be considered.",
+  "A company whose business object includes multiple commodities is not destroyed when trading in only one commodity is banned by law.",
+  "The court will not order winding up merely because long litigation has brought business to a temporary standstill."
+ ],
+ "h": "20c0bf191ec8",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-18"
+}

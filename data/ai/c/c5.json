@@ -1,0 +1,16 @@
+{
+ "facts": "Sir Dinshaw Petit formed four private companies and transferred blocks of investments to them. He held all the ordinary shares while his subordinates held three preference shares. The dividends and interest were received directly by the assessee or his nominees, credited to the company books, and immediately debited back to the assessee as alleged loans.",
+ "issue": "Whether the interest and dividend sums received by the assessee represent his taxable income or the income of the family companies he formed.",
+ "held": "The court held that the alleged loans were not genuine loans but merely withdrawals of the assessee's own income disguised as loans. The evidence established that the company did no real business and the assessee retained complete control and full benefit of the dividends and interest as his own property.",
+ "principle": "While a duly incorporated company is a separate legal entity under the statute, courts may look behind paper transactions to determine if the company's alleged business and loans are shams and if the income genuinely belongs to the individual.",
+ "points": [
+  "A company properly formed under the Indian Companies Act is a separate legal entity from its shareholders.",
+  "The Crown is not barred from investigating true facts and is not bound by Section 92 of the Indian Evidence Act when checking if transactions are shams.",
+  "Transactions like paper loans and book entries without genuine commercial substance can be treated as withdrawals of personal income.",
+  "The burden is on the assessee to prove that he genuinely holds shares as a trustee for the company.",
+  "One-man companies must carry on a real business of their own rather than merely serve as a conduit for the individual's income."
+ ],
+ "h": "3dfa40ae9659",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-18"
+}

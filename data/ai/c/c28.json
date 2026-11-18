@@ -1,0 +1,17 @@
+{
+ "facts": "M/s Shree Bhaarathi Cotton Mills Private Limited is a company where nearly all equity shares are held by the first respondent and his son, the appellant. The first respondent serves as the Managing Director and the appellant as a Director, but the parties are not on good terms and bitterness has crept into their personal relationship. The first respondent filed an application under Sections 397 and 398 of the Companies Act, 1956 before the Company Law Board alleging oppression, and the Company Law Board found no mala fide or oppression but concluded there was a deadlock and ordered the appellant to buy the first respondent's shares. On appeal, the High Court dismissed the appeal and upheld the direction with modifications regarding the valuation and purchase mechanism.",
+ "issue": "Whether the Company Law Board and the High Court were justified in exercising their jurisdiction under Section 402 of the Companies Act to order the purchase of shares upon finding a management deadlock, despite concluding that no actual act of oppression had been committed by the appellant.",
+ "held": "The Supreme Court held that the Company Law Board and the High Court rightly exercised their jurisdiction to direct the purchase of shares. The Court reasoned that where a company is in the nature of a quasi-partnership with only two directors whose non-cooperation and acrimony result in a stalemate and mismanagement, the Company Law Board is not powerless and can grant appropriate reliefs under Section 402 to safeguard the company's interest and ensure its smooth functioning, even if strict oppression is not proved. Consequently, the appeal was dismissed.",
+ "principle": "The Company Law Board has wide discretionary powers under Section 402 read with Sections 397 and 398 of the Companies Act to pass beneficial orders—such as directing the purchase of shares—to resolve management deadlocks and protect the interests of the company, even if a strict case of oppression is not established.",
+ "points": [
+  "Nearly all shares of the company were held between the father and son who were the only two directors.",
+  "The Company Law Board found no actual oppression, but identified a management deadlock due to personal acrimony.",
+  "A private company of this nature operates essentially as a quasi-partnership.",
+  "The Company Law Board and High Court possess wide powers under Section 402 to issue directions for the smooth running of the company.",
+  "The Supreme Court affirmed that the court or board is not powerless to do substantial justice and protect company interests in a deadlock situation.",
+  "The appeal by the appellant was dismissed with costs."
+ ],
+ "h": "d968033e9023",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-18"
+}

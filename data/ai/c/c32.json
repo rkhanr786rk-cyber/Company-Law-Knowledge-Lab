@@ -1,0 +1,16 @@
+{
+ "facts": "The Madras Bar Association filed a writ petition challenging the constitutional validity of several provisions of Chapter XXVII of the Companies Act, 2013 regarding the National Company Law Tribunal and the National Company Law Appellate Tribunal. The petitioner argued that despite earlier directions given by the Supreme Court in the 2010 Madras Bar Association judgment, the new statutory provisions in the 2013 Act remained almost identical and suffered from unconstitutionality. The court examined the challenges regarding the composition of the Selection Committee, qualifications, and other incidental powers of the tribunals.",
+ "issue": "Whether the provisions of Chapter XXVII of the Companies Act, 2013 relating to the constitution, qualifications, selection committee structure, and terms of the National Company Law Tribunal and National Company Law Appellate Tribunal violate Article 14 of the Constitution in light of the binding 2010 judgment.",
+ "held": "The Supreme Court partly allowed the writ petition. It held that the composition of the Selection Committee under Section 412(2) of the Companies Act, 2013 is invalid and not in accord with the 2010 Constitution Bench judgment because it gives a predominant say to administrative bureaucrats over judicial members and lacks a casting vote for the Chairperson. The court directed that the defect in the Selection Committee composition be removed by bringing it in line with the earlier binding precedent.",
+ "principle": "Statutory provisions governing the structure, qualifications, and selection committees of specialized tribunals must strictly conform to previously laid down constitutional benchmarks and binding judicial precedents to ensure judicial independence.",
+ "points": [
+  "The creation and constitutional validity of the NCLT and NCLAT stand upheld based on previous rulings.",
+  "The Selection Committee for Tribunal members must be structured as prescribed in the 2010 judgment, ensuring judicial predominance.",
+  "The Chairperson of the Selection Committee (the Chief Justice of India or his nominee) must have a casting vote.",
+  "Provisions that violate mandatory dicta from earlier binding precedents regarding tribunal independence are invalid.",
+  "Challenges against the power to punish for contempt and the power of the government to constitute benches without showing constitutional violations lack legal strength."
+ ],
+ "h": "6e2367b16e8b",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-18"
+}

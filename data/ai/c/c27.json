@@ -1,0 +1,17 @@
+{
+ "facts": "The plaintiff, a shareholder and director of the Bharat Insurance Company, filed a suit alleging that the company's directors were investing life insurance funds in business undertakings controlled by the Chairman without adequate security. The plaintiff sought a declaration regarding the true construction of Clause 3(d) of the Memorandum of Association and a perpetual injunction restraining the company and directors from granting loans or making investments without proper security and quorum. The lower court granted the declaration and a perpetual injunction against the directors, leading to the company's appeal.",
+ "issue": "Whether a single member of a company can maintain a suit for a declaration regarding the interpretation of the Memorandum of Association, and how Clause 3(d) regarding advancing money and investing money should be correctly interpreted.",
+ "held": "The court held that a single member can maintain an action to prevent ultra vires acts and obtain a declaration on the true construction of the Memorandum of Association when directors misinterpret company powers. The court set aside the perpetual injunction because the directors were not personally impleaded and there was no reason to assume future regular conduct would be breached. The court modified the declaration to distinguish between advancing money as loans—which requires property security in India—and investing money not immediately required, where directors have discretion over securities.",
+ "principle": "A single member of a company can maintain a suit against the company for a declaration concerning the true construction of the Memorandum of Association to prevent ultra vires acts, as this is not a matter of mere internal management.",
+ "points": [
+  "A single member can sue the company for a declaration on the true construction of the Memorandum of Association regarding ultra vires acts.",
+  "Matters involving the interpretation of the Memorandum of Association and application of company assets are not mere internal management issues where courts refuse to interfere.",
+  "The corporation itself must be a party to an action seeking relief against ultra vires proceedings.",
+  "A court will not grant an injunction against directors personally if they have not been impleaded as parties to the suit.",
+  "Advancing money at interest (loans) under the first part of Clause 3(d) requires the security of land, houses, machinery or other property in India.",
+  "Investing money not immediately required under the second part of Clause 3(d) leaves the directors with complete discretion in approving the kind of security offered."
+ ],
+ "h": "ed601ed95569",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-18"
+}

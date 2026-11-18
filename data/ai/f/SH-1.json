@@ -1,22 +1,20 @@
 {
- "purpose": "Form SH-1 is used for recording particulars of every share certificate issued in lieu of an original certificate for the purpose of transfer to the IEPF.",
- "who": "Company Secretary or person authorised by the Board",
+ "purpose": "Form SH-1 is used for particulars of every share certificate as specified in the Companies (Share Capital and Debentures) Rules, 2014.",
+ "who": "Not stated in the Rules text",
  "when": "Not stated in the Rules text",
  "steps": [
-  "Board authorises the Company Secretary or any other person to sign necessary documents.",
-  "Company Secretary or the authorised person makes an application on behalf of the shareholder to the company for a new share certificate.",
-  "Company issues a new share certificate with the required statement on the face.",
-  "Record the particulars of the share certificate in Form No. SH-1.",
-  "Inform the depository by way of corporate action to convert the shares into DEMAT form and transfer to the Authority."
+  "Receive an application for the issue of a new share certificate from the Company Secretary or the person authorised by the Board on behalf of the concerned shareholder.",
+  "Issue a new share certificate for each such shareholder.",
+  "Record the particulars of every share certificate in Form No. SH-1."
  ],
  "checklist": [
-  "Verify the share certificate particulars to be entered in Form No. SH-1.",
-  "Ensure the new share certificate states it is issued in lieu of the previous certificate for IEPF transfer.",
-  "Record the new certificate in the register maintained for the purpose."
+  "Verify that the new share certificate states on the face that it was issued in lieu of the previous share certificate for the purpose of transfer to IEPF.",
+  "Ensure particulars of the share certificate are recorded in the register maintained for the purpose.",
+  "Verify that Form SH-1 is used as specified in the Companies (Share Capital and Debentures) Rules, 2014."
  ],
  "attachments": [],
- "watch": "Not stated in the Rules text",
- "h": "8facae5b2a21",
+ "watch": "Ensure particulars of every share certificate match Form No. SH-1.",
+ "h": "c5d467a382ad",
  "m": "gemini-3.5-flash-lite",
- "d": "2026-11-16"
+ "d": "2026-11-18"
 }

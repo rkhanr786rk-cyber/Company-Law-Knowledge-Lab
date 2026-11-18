@@ -1,0 +1,16 @@
+{
+ "facts": "A private company resolved to sell a suit property to the appellants, who are the wives of the company's directors, and later executed a sale deed. Subsequently, the Coal Mines (Nationalisation) Act, 1973 came into force, vesting coal mine properties in the Central Government, which transferred them to Bharat Coking Coal Ltd. (BCCL). BCCL initiated eviction proceedings against the appellants, leading the appellants to file a suit for a declaration of their title over the property.",
+ "issue": "Whether the sale transaction of the company's property in favour of the directors' wives was a bona fide and genuine transaction or a sham and fictitious one to avoid the vesting of the property under the Coal Mines (Nationalisation) Act, 1973.",
+ "held": "The Supreme Court held that the sale transaction was not bona fide or genuine, but was a sham and bogus arrangement created to avoid the property vesting in the Central Government. The Court pierced the corporate veil to look behind the façade of the company's separate legal entity and examine the real parties involved, noting suspicious circumstances such as ante-dated resolutions, lack of independent income by the purchasers, and absence of actual exercise of ownership until litigation. Consequently, the appeal was dismissed, and the property remained vested in the Central Government.",
+ "principle": "While a company is a separate legal entity distinct from its shareholders and directors, courts are justified in piercing the corporate veil to look at the realities of a situation and determine the true, bona fide nature of a transaction.",
+ "points": [
+  "A company is at law a different person altogether from its subscribers and directors.",
+  "Courts can pierce the corporate veil of incorporation to look at the realities behind the façade of corporate personality.",
+  "Piercing the veil is justified when a transaction involving a company and its directors' relatives is alleged to be sham and collusive.",
+  "The party claiming the transaction is genuine must prove it is bona fide.",
+  "Circumstances like ante-dated documents and lack of independent income can prove a transaction is bogus."
+ ],
+ "h": "056188e80c04",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-18"
+}

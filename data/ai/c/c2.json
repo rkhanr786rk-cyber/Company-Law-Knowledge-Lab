@@ -1,0 +1,16 @@
+{
+ "facts": "The petitioners challenged the Import Policy for Newsprint for 1972-1973 and certain provisions of the Newsprint Control Order 1962. The policy placed limits on page numbers, restricted common ownership units from starting new papers or editions, and prohibited the inter-changeability of newsprint quotas between pages and circulation. The government argued these measures were for the equitable distribution of scarce newsprint, while also raising pleas that companies could not invoke fundamental rights.",
+ "issue": "Whether the Newsprint Policy for 1972-1973 and the Newsprint Control Order 1962 infringed the fundamental rights to freedom of speech and expression under Article 19(1)(a) and the right to equality under Article 14 of the Constitution.",
+ "held": "The court held that the 1972-1973 Newsprint Policy violated Articles 19(1)(a) and 14 of the Constitution and struck down its restrictive provisions regarding page limits, basic entitlements, and the ban on common ownership units starting new papers. The court reasoned that the policy amounted to newspaper control rather than mere newsprint control, unlawfully restricting the freedom of the press in both circulation and content under the guise of equitable distribution.",
+ "principle": "Freedom of the press is an essential part of the freedom of speech and expression under Article 19(1)(a), encompassing both the qualitative and quantitative aspects of circulation and content, and cannot be abridged under the guise of regulating essential commodities or distributing newsprint.",
+ "points": [
+  "Freedom of speech and expression under Article 19(1)(a) includes the freedom of the press, which covers both volume of circulation and volume of news and views.",
+  "Once a newsprint quota is fixed fairly, newspapers must be left free to adjust their page numbers, circulation, and new editions as they wish.",
+  "The government cannot use the distribution of newsprint as a means to control the growth, circulation, or page levels of newspapers.",
+  "Treating unequal newspapers equally under the newsprint policy violates the right to equality guaranteed under Article 14.",
+  "Prohibiting common ownership units from starting a new newspaper, periodical, or new edition is unconstitutional and violates Article 19(1)(a)."
+ ],
+ "h": "d797ba9dce57",
+ "m": "gemini-3.5-flash-lite",
+ "d": "2026-11-18"
+}
