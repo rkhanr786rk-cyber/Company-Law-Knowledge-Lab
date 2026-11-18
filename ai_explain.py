@@ -63,6 +63,15 @@ FORM_SCHEMA = {
     "required": ["purpose", "steps", "checklist"],
 }
 
+CASE_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "facts": {"type": "string"}, "issue": {"type": "string"}, "held": {"type": "string"}, "principle": {"type": "string"},
+        "points": {"type": "array", "items": {"type": "string"}},
+    },
+    "required": ["facts", "issue", "held", "principle"],
+}
+
 RULES_OF_THE_ROAD = (
     "Use only the text given below. Do not add requirements, limits, time periods, amounts or penalties that are not in it. "
     "If the text is too short or unclear to explain, say that plainly in the summary. "
@@ -119,6 +128,29 @@ def form_prompt(form, rules):
             '"checklist" (3 to 10 short items to have ready or check before filing, each supported by the text), '
             '"attachments" (documents the text says must be attached or filed with it; may be empty), "watch" (one short caution, or an empty string).\n\n'
             f"FORM {form}\n\n" + "\n\n".join(blocks))
+
+
+def case_prompt(r):
+    text = r["text"]
+    if len(text) > 26000:
+        text = text[:18000] + "\n[... middle of the judgment left out ...]\n" + text[-8000:]
+    return (f"You are preparing a short case note for a law student or Company Secretary on this case: {r['t']} ({r['cit']}, {r['court']}). Topic: {r['topic']}.\n"
+            "Use ONLY the judgment text below. Do not add facts, holdings or citations that the text does not contain. Do not say how the case applies under the Companies Act, 2013 unless the text says so. "
+            "Short sentences, everyday words.\n"
+            'Return JSON with: "facts" (2 to 4 sentences), "issue" (the question the court had to decide, 1 to 2 sentences), '
+            '"held" (what the court decided and why, 2 to 4 sentences), "principle" (the rule of law the case stands for, 1 to 2 sentences), '
+            '"points" (3 to 6 short bullet points a student should remember).\n\n' + text)
+
+
+def tidy_case(obj):
+    if not isinstance(obj, dict):
+        return None
+    g = lambda k, n: str(obj.get(k) or "").strip()[:n]
+    facts, issue, held, principle = g("facts", 900), g("issue", 500), g("held", 1000), g("principle", 500)
+    if len(facts) < 30 or len(held) < 30:
+        return None
+    pts = [str(x).strip()[:300] for x in (obj.get("points") or []) if str(x).strip()][:6]
+    return {"facts": facts, "issue": issue, "held": held, "principle": principle, "points": pts}
 
 
 def tidy_form(obj):
@@ -246,6 +278,8 @@ def main():
         report.append(f"- LODR regulations explained so far: {lodr_done}")
         form_done = len(list((AI / "f").glob("*.json"))) if (AI / "f").exists() else 0
         report.append(f"- Form guides written so far: {form_done}")
+        case_done = len(list((AI / "c").glob("*.json"))) if (AI / "c").exists() else 0
+        report.append(f"- Case notes written so far: {case_done}")
         DATA.mkdir(exist_ok=True)
         (DATA / "ai_report.md").write_text("\n".join(report) + "\n", encoding="utf-8")
         print("\n".join(report))
@@ -293,6 +327,14 @@ def main():
         if load(AI / "l" / f"{r['id']}.json").get("h") != h:
             work.append(("l", r["id"], lodr_prompt(r), h, r))
 
+    cases = load(DATA / "caselaw.json") if (DATA / "caselaw.json").exists() else []
+    for r in (cases if isinstance(cases, list) else []):
+        if len(r.get("text", "").strip()) < 500:
+            continue
+        h = digest(r["t"], clean(r["text"], 30000))
+        if load(AI / "c" / f"{r['id']}.json").get("h") != h:
+            work.append(("c", r["id"], case_prompt(r), h, r))
+
     by_form = {}
     for r in rules_doc["rules"]:
         if r["status"] != "in force":
@@ -318,9 +360,9 @@ def main():
             if (time.time() - started) / 60 > MAX_MINUTES:
                 stopped = "stopped at the time limit; the next run continues"
                 break
-            result = call(prompt, FORM_SCHEMA if kind == "f" else None)
+            result = call(prompt, FORM_SCHEMA if kind == "f" else CASE_SCHEMA if kind == "c" else None)
             obj, model = result if isinstance(result, tuple) else (None, "")
-            entry = tidy_form(obj) if kind == "f" else tidy(obj)
+            entry = tidy_form(obj) if kind == "f" else tidy_case(obj) if kind == "c" else tidy(obj)
             if not entry:
                 print(f"  skipped {kind} {key}: no usable answer")
                 continue
@@ -331,6 +373,8 @@ def main():
                 save(AI / "l" / f"{key}.json", entry)
             elif kind == "f":
                 save(AI / "f" / f"{key}.json", entry)
+            elif kind == "c":
+                save(AI / "c" / f"{key}.json", entry)
             else:
                 stem, rule = key
                 cache[stem][rule] = entry
