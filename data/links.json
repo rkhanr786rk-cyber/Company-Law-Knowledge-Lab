@@ -24,6 +24,17 @@
   ],
   "2": [
    {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": [
+     "68"
+    ]
+   },
+   {
     "rule_id": "the-companies-accounting-standards-rules-2021-20261106-142734#2",
     "rule_set": "Companies (Accounting Standards) Rules, 2021",
     "rule": "2",
@@ -450,6 +461,19 @@
     ]
    },
    {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 6,
+    "confidence": "medium",
+    "subs": [
+     "68",
+     "4",
+     "90"
+    ]
+   },
+   {
     "rule_id": "nclt-rules-2016-20261107-081709#67",
     "rule_set": "National Company Law Tribunal Rules, 2016",
     "rule": "67",
@@ -632,6 +656,15 @@
     "rule": "10",
     "title": "Authentication of translated documents",
     "mentions": 1,
+    "confidence": "medium",
+    "subs": []
+   },
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 2,
     "confidence": "medium",
     "subs": []
    },
@@ -944,6 +977,15 @@
   ],
   "4": [
    {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": []
+   },
+   {
     "rule_id": "the-companies-authorised-to-register-rules-2014-20261107-081607#5",
     "rule_set": "Companies (Authorised to Registered) Rules, 2014",
     "rule": "5",
@@ -1208,6 +1250,18 @@
     "subs": []
    },
    {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 2,
+    "confidence": "medium",
+    "subs": [
+     "21",
+     "20"
+    ]
+   },
+   {
     "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#1",
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "1",
@@ -1389,6 +1443,17 @@
     "confidence": "medium",
     "subs": [
      "1"
+    ]
+   },
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 2,
+    "confidence": "medium",
+    "subs": [
+     "3"
     ]
    },
    {
@@ -1647,6 +1712,15 @@
     "subs": []
    },
    {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 1,
+    "confidence": "medium",
+    "subs": []
+   },
+   {
     "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#1",
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "1",
@@ -1819,6 +1893,15 @@
    }
   ],
   "8": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 9,
+    "confidence": "high",
+    "subs": []
+   },
    {
     "rule_id": "the-companies-auditors-report-order-2015-caro-2015-wef-01-04-2014-20261106-142952#1",
     "rule_set": "Companies (Auditor's Report) Order, 2015",
@@ -2315,6 +2398,15 @@
     "mentions": 2,
     "confidence": "medium",
     "subs": []
+   },
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 1,
+    "confidence": "medium",
+    "subs": []
    }
   ],
   "10": [
@@ -2326,6 +2418,18 @@
     "mentions": 1,
     "confidence": "high",
     "subs": []
+   },
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 3,
+    "confidence": "high",
+    "subs": [
+     "1",
+     "3"
+    ]
    }
   ],
   "10A": [
@@ -2640,6 +2744,19 @@
   ],
   "12": [
    {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 10,
+    "confidence": "high",
+    "subs": [
+     "1",
+     "3",
+     "5"
+    ]
+   },
+   {
     "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#25A",
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "25A",
@@ -2888,6 +3005,18 @@
   ],
   "13": [
    {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 11,
+    "confidence": "high",
+    "subs": [
+     "4",
+     "2"
+    ]
+   },
+   {
     "rule_id": "the-companies-incorporation-rules-2014-20261106-142435#33A",
     "rule_set": "Companies (Incorporation) Rules, 2014",
     "rule": "33A",
@@ -3112,10 +3241,28 @@
   ],
   "14": [
    {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 7,
+    "confidence": "high",
+    "subs": []
+   },
+   {
     "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#10A",
     "rule_set": "Companies (Registration Offices and Fees) Rules, 2014",
     "rule": "10A",
     "title": "Central Processing Center",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": []
+   },
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
     "mentions": 1,
     "confidence": "high",
     "subs": []
@@ -3546,6 +3693,15 @@
     "mentions": 2,
     "confidence": "high",
     "subs": []
+   },
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 5,
+    "confidence": "medium",
+    "subs": []
    }
   ],
   "20": [
@@ -3640,6 +3796,17 @@
     "mentions": 1,
     "confidence": "medium",
     "subs": []
+   },
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 2,
+    "confidence": "medium",
+    "subs": [
+     "1"
+    ]
    },
    {
     "rule_id": "the-producer-companies-rules-2021-20261107-081633#5",
@@ -3824,6 +3991,17 @@
   ],
   "23": [
    {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": [
+     "1"
+    ]
+   },
+   {
     "rule_id": "the-companies-specification-of-definitions-details-rules-2014-20261106-142346#2A",
     "rule_set": "Companies (Specification of definitions details) Rules, 2014",
     "rule": "2A",
@@ -3871,6 +4049,20 @@
     "mentions": 1,
     "confidence": "medium",
     "subs": []
+   }
+  ],
+  "25": [
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 6,
+    "confidence": "medium",
+    "subs": [
+     "2",
+     "1"
+    ]
    }
   ],
   "26": [
@@ -4597,6 +4789,15 @@
   ],
   "42": [
    {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 12,
+    "confidence": "high",
+    "subs": []
+   },
+   {
     "rule_id": "the-companies-auditors-report-order-2016-caro-2016-wef-01-04-2015-20261106-142946#3",
     "rule_set": "Companies (Auditor's Report) Order, 2016",
     "rule": "3",
@@ -4784,6 +4985,15 @@
   ],
   "43": [
    {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 3,
+    "confidence": "high",
+    "subs": []
+   },
+   {
     "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#22",
     "rule_set": "Companies (Management and Administration) Rules, 2014",
     "rule": "22",
@@ -4876,7 +5086,44 @@
     "subs": []
    }
   ],
+  "46": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": [
+     "2"
+    ]
+   }
+  ],
+  "47": [
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 2,
+    "confidence": "medium",
+    "subs": [
+     "1"
+    ]
+   }
+  ],
   "48": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": [
+     "1"
+    ]
+   },
    {
     "rule_id": "the-companies-share-capital-and-debentures-rules-2014-20261106-142528#9",
     "rule_set": "Companies (Share Capital and Debentures) Rules, 2014",
@@ -4908,6 +5155,19 @@
     ]
    }
   ],
+  "50": [
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 3,
+    "confidence": "medium",
+    "subs": [
+     "2"
+    ]
+   }
+  ],
   "51": [
    {
     "rule_id": "the-companies-acceptance-of-deposits-rules-2014-20261106-142547#2",
@@ -4920,6 +5180,15 @@
    }
   ],
   "54": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 4,
+    "confidence": "high",
+    "subs": []
+   },
    {
     "rule_id": "the-companies-share-capital-and-debentures-rules-2014-20261106-142528#8",
     "rule_set": "Companies (Share Capital and Debentures) Rules, 2014",
@@ -5004,6 +5273,15 @@
   ],
   "55": [
    {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 5,
+    "confidence": "high",
+    "subs": []
+   },
+   {
     "rule_id": "nclt-rules-2016-20261107-081709#69",
     "rule_set": "National Company Law Tribunal Rules, 2016",
     "rule": "69",
@@ -5017,6 +5295,15 @@
    }
   ],
   "56": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": []
+   },
    {
     "rule_id": "the-companies-share-capital-and-debentures-rules-2014-20261106-142528#1",
     "rule_set": "Companies (Share Capital and Debentures) Rules, 2014",
@@ -5125,7 +5412,33 @@
     ]
    }
   ],
+  "60": [
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 8,
+    "confidence": "medium",
+    "subs": [
+     "5",
+     "4",
+     "2"
+    ]
+   }
+  ],
   "61": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 9,
+    "confidence": "high",
+    "subs": [
+     "1"
+    ]
+   },
    {
     "rule_id": "the-companies-share-capital-and-debentures-rules-2014-20261106-142528#15",
     "rule_set": "Companies (Share Capital and Debentures) Rules, 2014",
@@ -5136,6 +5449,15 @@
     "subs": [
      "1"
     ]
+   },
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 1,
+    "confidence": "medium",
+    "subs": []
    },
    {
     "rule_id": "nclt-rules-2016-20261107-081709#71",
@@ -5150,6 +5472,17 @@
    }
   ],
   "62": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 10,
+    "confidence": "high",
+    "subs": [
+     "1"
+    ]
+   },
    {
     "rule_id": "the-companies-auditors-report-order-2020-caro-2020-wef-01-04-2021-20261106-142940#3",
     "rule_set": "Companies (Auditor's Report) Order, 2020",
@@ -5329,6 +5662,17 @@
   ],
   "63": [
    {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 4,
+    "confidence": "high",
+    "subs": [
+     "2"
+    ]
+   },
+   {
     "rule_id": "the-companies-share-capital-and-debentures-rules-2014-20261106-142528#1",
     "rule_set": "Companies (Share Capital and Debentures) Rules, 2014",
     "rule": "1",
@@ -5402,6 +5746,15 @@
    }
   ],
   "64": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": []
+   },
    {
     "rule_id": "the-companies-registration-offices-and-fees-rules-2014-20261107-081643#10A",
     "rule_set": "Companies (Registration Offices and Fees) Rules, 2014",
@@ -5484,7 +5837,29 @@
     "subs": []
    }
   ],
+  "65": [
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 3,
+    "confidence": "medium",
+    "subs": [
+     "1"
+    ]
+   }
+  ],
   "66": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 2,
+    "confidence": "high",
+    "subs": []
+   },
    {
     "rule_id": "LODR, 2015#29",
     "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
@@ -5501,6 +5876,15 @@
     "title": "",
     "mentions": 2,
     "confidence": "high",
+    "subs": []
+   },
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 1,
+    "confidence": "medium",
     "subs": []
    },
    {
@@ -5640,6 +6024,15 @@
   ],
   "68": [
    {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 3,
+    "confidence": "high",
+    "subs": []
+   },
+   {
     "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#22",
     "rule_set": "Companies (Management and Administration) Rules, 2014",
     "rule": "22",
@@ -5734,7 +6127,38 @@
     "subs": []
    }
   ],
+  "69": [
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 1,
+    "confidence": "medium",
+    "subs": []
+   }
+  ],
+  "70": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": []
+   }
+  ],
   "71": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 3,
+    "confidence": "high",
+    "subs": []
+   },
    {
     "rule_id": "nclt-rules-2016-20261107-081709#73",
     "rule_set": "National Company Law Tribunal Rules, 2016",
@@ -5916,6 +6340,18 @@
    }
   ],
   "73": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 5,
+    "confidence": "high",
+    "subs": [
+     "2",
+     "1"
+    ]
+   },
    {
     "rule_id": "the-companies-acceptance-of-deposits-rules-2014-20261106-142547#1",
     "rule_set": "Companies (Acceptance of Deposits) Rules, 2014",
@@ -6211,6 +6647,17 @@
    }
   ],
   "76": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 3,
+    "confidence": "high",
+    "subs": [
+     "1"
+    ]
+   },
    {
     "rule_id": "the-companies-acceptance-of-deposits-rules-2014-20261106-142547#2",
     "rule_set": "Companies (Acceptance of Deposits) Rules, 2014",
@@ -6556,6 +7003,15 @@
     "subs": []
    },
    {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 1,
+    "confidence": "medium",
+    "subs": []
+   },
+   {
     "rule_id": "the-companies-registration-of-charges-rules-2014-20261106-142604#1",
     "rule_set": "Companies (Registration of Charges) Rules, 2014",
     "rule": "1",
@@ -6609,6 +7065,15 @@
     "title": "Register of charges to be kept by the Registrar",
     "mentions": 1,
     "confidence": "high",
+    "subs": []
+   },
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 1,
+    "confidence": "medium",
     "subs": []
    },
    {
@@ -6881,6 +7346,17 @@
     "subs": []
    }
   ],
+  "86": [
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 1,
+    "confidence": "medium",
+    "subs": []
+   }
+  ],
   "87": [
    {
     "rule_id": "the-companies-registration-of-charges-rules-2014-20261106-142604#13",
@@ -6901,6 +7377,17 @@
     "mentions": 1,
     "confidence": "medium",
     "subs": []
+   },
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 1,
+    "confidence": "medium",
+    "subs": [
+     "1"
+    ]
    },
    {
     "rule_id": "the-companies-registration-of-charges-rules-2014-20261106-142604#1",
@@ -6954,6 +7441,15 @@
     "rule_set": "Companies (Issue of Global Depository Receipts) Rules, 2014",
     "rule": "9",
     "title": "Non applicability of certain provisions of the Act",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": []
+   },
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#10",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "10",
+    "title": "",
     "mentions": 1,
     "confidence": "high",
     "subs": []
@@ -7470,6 +7966,15 @@
   ],
   "91": [
    {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": []
+   },
+   {
     "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#1",
     "rule_set": "Companies (Management and Administration) Rules, 2014",
     "rule": "1",
@@ -7977,6 +8482,15 @@
   ],
   "94": [
    {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": []
+   },
+   {
     "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#14",
     "rule_set": "Companies (Management and Administration) Rules, 2014",
     "rule": "14",
@@ -8126,6 +8640,15 @@
    }
   ],
   "96": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 2,
+    "confidence": "high",
+    "subs": []
+   },
    {
     "rule_id": "the-companies-cost-records-and-audit-rules-2014-20261106-142928#1",
     "rule_set": "Companies (Cost Records and Audit) Rules, 2014",
@@ -8319,6 +8842,15 @@
   ],
   "101": [
    {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": []
+   },
+   {
     "rule_id": "the-companies-meetings-of-board-and-its-powers-rules-2014-20261106-143059#15",
     "rule_set": "Companies (Meetings of Board and its Powers) Rules, 2014",
     "rule": "15",
@@ -8455,6 +8987,15 @@
    }
   ],
   "102": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": []
+   },
    {
     "rule_id": "the-companies-share-capital-and-debentures-rules-2014-20261106-142528#13",
     "rule_set": "Companies (Share Capital and Debentures) Rules, 2014",
@@ -9677,6 +10218,15 @@
   ],
   "115": [
    {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": []
+   },
+   {
     "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#1",
     "rule_set": "Companies (Management and Administration) Rules, 2014",
     "rule": "1",
@@ -9962,6 +10512,17 @@
     "subs": []
    },
    {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 1,
+    "confidence": "medium",
+    "subs": [
+     "10"
+    ]
+   },
+   {
     "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#1",
     "rule_set": "Companies (Management and Administration) Rules, 2014",
     "rule": "1",
@@ -10217,6 +10778,15 @@
    }
   ],
   "120": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": []
+   },
    {
     "rule_id": "the-companies-management-and-administration-rules-2014-20261106-142621#27",
     "rule_set": "Companies (Management and Administration) Rules, 2014",
@@ -10518,6 +11088,15 @@
   ],
   "123": [
    {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 2,
+    "confidence": "high",
+    "subs": []
+   },
+   {
     "rule_id": "the-companies-audit-and-auditors-rules-2014-20261106-142921#11",
     "rule_set": "Companies (Audit and Auditors) Rules, 2014",
     "rule": "11",
@@ -10564,6 +11143,15 @@
    }
   ],
   "124": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 3,
+    "confidence": "high",
+    "subs": []
+   },
    {
     "rule_id": "the-iepf-accounting-audit-transfer-and-refund-rules-2016-20261106-142648#3",
     "rule_set": "Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
@@ -10663,6 +11251,15 @@
    }
   ],
   "125": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 3,
+    "confidence": "high",
+    "subs": []
+   },
    {
     "rule_id": "the-companies-prospectus-and-allotment-of-securities-rules-2014-20261106-142445#9",
     "rule_set": "Companies (Prospectus and Allotment of Securities) Rules, 2014",
@@ -11672,6 +12269,17 @@
     "subs": []
    },
    {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 1,
+    "confidence": "medium",
+    "subs": [
+     "6"
+    ]
+   },
+   {
     "rule_id": "the-companies-accounting-standards-rules-2021-20261106-142734#1",
     "rule_set": "Companies (Accounting Standards) Rules, 2021",
     "rule": "1",
@@ -11905,6 +12513,15 @@
   ],
   "135": [
    {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 2,
+    "confidence": "high",
+    "subs": []
+   },
+   {
     "rule_id": "the-companies-auditors-report-order-2020-caro-2020-wef-01-04-2021-20261106-142940#3",
     "rule_set": "Companies (Auditor's Report) Order, 2020",
     "rule": "3",
@@ -11959,6 +12576,15 @@
      "5",
      "1"
     ]
+   },
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 3,
+    "confidence": "high",
+    "subs": []
    },
    {
     "rule_id": "the-companies-accounts-rules-2014-20261106-142730#12",
@@ -12368,6 +12994,17 @@
   ],
   "139": [
    {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 10,
+    "confidence": "high",
+    "subs": [
+     "6"
+    ]
+   },
+   {
     "rule_id": "the-national-financial-reporting-authority-rules-2018-nfra-rules-20261106-142823#2",
     "rule_set": "National Financial Reporting Authority Rules, 2018",
     "rule": "2",
@@ -12656,6 +13293,15 @@
   ],
   "141": [
    {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 6,
+    "confidence": "high",
+    "subs": []
+   },
+   {
     "rule_id": "the-companies-cost-records-and-audit-rules-2014-20261106-142928#1",
     "rule_set": "Companies (Cost Records and Audit) Rules, 2014",
     "rule": "1",
@@ -12853,7 +13499,29 @@
     "subs": []
    }
   ],
+  "144": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": []
+   }
+  ],
   "148": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 3,
+    "confidence": "high",
+    "subs": [
+     "3"
+    ]
+   },
    {
     "rule_id": "the-companies-accounts-rules-2014-20261106-142730#8",
     "rule_set": "Companies (Accounts) Rules, 2014",
@@ -13225,6 +13893,15 @@
   ],
   "149": [
    {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 3,
+    "confidence": "high",
+    "subs": []
+   },
+   {
     "rule_id": "the-companies-appointment-and-qualification-of-directors-rules-2014-20261106-143017#6",
     "rule_set": "Companies (Appointment and Qualification of Directors) Rules, 2014",
     "rule": "6",
@@ -13267,6 +13944,18 @@
     "confidence": "high",
     "subs": [
      "6"
+    ]
+   },
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 9,
+    "confidence": "high",
+    "subs": [
+     "6",
+     "4"
     ]
    },
    {
@@ -13403,6 +14092,15 @@
    }
   ],
   "150": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": []
+   },
    {
     "rule_id": "the-companies-appointment-and-qualification-of-directors-rules-2014-20261106-143017#6",
     "rule_set": "Companies (Appointment and Qualification of Directors) Rules, 2014",
@@ -13583,6 +14281,15 @@
     "subs": []
    },
    {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 6,
+    "confidence": "high",
+    "subs": []
+   },
+   {
     "rule_id": "the-companies-appointment-and-qualification-of-directors-rules-2014-20261106-143017#1",
     "rule_set": "Companies (Appointment and Qualification of Directors) Rules, 2014",
     "rule": "1",
@@ -13683,6 +14390,28 @@
    }
   ],
   "152": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 5,
+    "confidence": "high",
+    "subs": [
+     "6"
+    ]
+   },
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 3,
+    "confidence": "high",
+    "subs": [
+     "2"
+    ]
+   },
    {
     "rule_id": "nidhi-rules-2014-20261107-081648#17",
     "rule_set": "Nidhi Rules, 2014",
@@ -14188,6 +14917,15 @@
   ],
   "160": [
    {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 5,
+    "confidence": "high",
+    "subs": []
+   },
+   {
     "rule_id": "the-companies-appointment-and-qualification-of-directors-rules-2014-20261106-143017#1",
     "rule_set": "Companies (Appointment and Qualification of Directors) Rules, 2014",
     "rule": "1",
@@ -14287,7 +15025,39 @@
     "subs": []
    }
   ],
+  "161": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 8,
+    "confidence": "high",
+    "subs": [
+     "1",
+     "3"
+    ]
+   },
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": []
+   }
+  ],
   "164": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": []
+   },
    {
     "rule_id": "the-companies-appointment-and-qualification-of-directors-rules-2014-20261106-143017#2",
     "rule_set": "Companies (Appointment and Qualification of Directors) Rules, 2014",
@@ -14379,6 +15149,20 @@
     "mentions": 0,
     "confidence": "low",
     "subs": []
+   }
+  ],
+  "166": [
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 8,
+    "confidence": "medium",
+    "subs": [
+     "2",
+     "3"
+    ]
    }
   ],
   "167": [
@@ -14517,6 +15301,15 @@
   ],
   "169": [
    {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 4,
+    "confidence": "high",
+    "subs": []
+   },
+   {
     "rule_id": "nclt-rules-2016-20261107-081709#79",
     "rule_set": "National Company Law Tribunal Rules, 2016",
     "rule": "79",
@@ -14628,6 +15421,15 @@
    }
   ],
   "173": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": []
+   },
    {
     "rule_id": "the-companies-meetings-of-board-and-its-powers-rules-2014-20261106-143059#3",
     "rule_set": "Companies (Meetings of Board and its Powers) Rules, 2014",
@@ -14833,6 +15635,17 @@
     "subs": []
    },
    {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 5,
+    "confidence": "medium",
+    "subs": [
+     "1"
+    ]
+   },
+   {
     "rule_id": "the-companies-meetings-of-board-and-its-powers-rules-2014-20261106-143059#1",
     "rule_set": "Companies (Meetings of Board and its Powers) Rules, 2014",
     "rule": "1",
@@ -14927,6 +15740,17 @@
     ]
    },
    {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 4,
+    "confidence": "medium",
+    "subs": [
+     "1"
+    ]
+   },
+   {
     "rule_id": "the-companies-meetings-of-board-and-its-powers-rules-2014-20261106-143059#1",
     "rule_set": "Companies (Meetings of Board and its Powers) Rules, 2014",
     "rule": "1",
@@ -15001,6 +15825,17 @@
   ],
   "179": [
    {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 6,
+    "confidence": "high",
+    "subs": [
+     "3"
+    ]
+   },
+   {
     "rule_id": "the-companies-meetings-of-board-and-its-powers-rules-2014-20261106-143059#8",
     "rule_set": "Companies (Meetings of Board and its Powers) Rules, 2014",
     "rule": "8",
@@ -15031,6 +15866,17 @@
     "confidence": "medium",
     "subs": [
      "3"
+    ]
+   },
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 2,
+    "confidence": "medium",
+    "subs": [
+     "1"
     ]
    },
    {
@@ -15108,6 +15954,18 @@
   ],
   "180": [
    {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 19,
+    "confidence": "high",
+    "subs": [
+     "1",
+     "4"
+    ]
+   },
+   {
     "rule_id": "LODR, 2015#29",
     "rule_set": "Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
     "rule": "29",
@@ -15152,7 +16010,27 @@
     ]
    }
   ],
+  "181": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 3,
+    "confidence": "high",
+    "subs": []
+   }
+  ],
   "182": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": []
+   },
    {
     "rule_id": "the-companies-corporate-social-responsibility-policy-rules-2014-csr-rules-20261106-142812#2",
     "rule_set": "Companies (Corporate Social Responsibility Policy) Rules, 2014",
@@ -15173,6 +16051,17 @@
    }
   ],
   "184": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 3,
+    "confidence": "high",
+    "subs": [
+     "1"
+    ]
+   },
    {
     "rule_id": "the-companies-meetings-of-board-and-its-powers-rules-2014-20261106-143059#16",
     "rule_set": "Companies (Meetings of Board and its Powers) Rules, 2014",
@@ -15259,6 +16148,17 @@
    }
   ],
   "185": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": [
+     "1"
+    ]
+   },
    {
     "rule_id": "the-companies-auditors-report-order-2016-caro-2016-wef-01-04-2015-20261106-142946#3",
     "rule_set": "Companies (Auditor's Report) Order, 2016",
@@ -15369,6 +16269,17 @@
    }
   ],
   "186": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 11,
+    "confidence": "high",
+    "subs": [
+     "2"
+    ]
+   },
    {
     "rule_id": "the-companies-auditors-report-order-2016-caro-2016-wef-01-04-2015-20261106-142946#3",
     "rule_set": "Companies (Auditor's Report) Order, 2016",
@@ -15670,6 +16581,15 @@
   ],
   "187": [
    {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": []
+   },
+   {
     "rule_id": "the-companies-meetings-of-board-and-its-powers-rules-2014-20261106-143059#1",
     "rule_set": "Companies (Meetings of Board and its Powers) Rules, 2014",
     "rule": "1",
@@ -15743,6 +16663,17 @@
    }
   ],
   "188": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 9,
+    "confidence": "high",
+    "subs": [
+     "1"
+    ]
+   },
    {
     "rule_id": "the-companies-auditors-report-order-2016-caro-2016-wef-01-04-2015-20261106-142946#3",
     "rule_set": "Companies (Auditor's Report) Order, 2016",
@@ -15818,6 +16749,17 @@
     "rule": "17",
     "title": "Payment to director for loss of office, etc. in connection with transfer of undertaking, property or shares",
     "mentions": 8,
+    "confidence": "medium",
+    "subs": [
+     "1"
+    ]
+   },
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 2,
     "confidence": "medium",
     "subs": [
      "1"
@@ -16095,6 +17037,15 @@
   ],
   "196": [
    {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 4,
+    "confidence": "high",
+    "subs": []
+   },
+   {
     "rule_id": "the-companies-appointment-and-remuneration-of-managerial-personnel-rules-2014-20261106-143106#1",
     "rule_set": "Companies (Appointment and Remuneration of Managerial Personnel) Rules, 2014",
     "rule": "1",
@@ -16168,6 +17119,15 @@
    }
   ],
   "197": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 11,
+    "confidence": "high",
+    "subs": []
+   },
    {
     "rule_id": "the-companies-share-capital-and-debentures-rules-2014-20261106-142528#8",
     "rule_set": "Companies (Share Capital and Debentures) Rules, 2014",
@@ -16260,6 +17220,15 @@
    }
   ],
   "198": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 5,
+    "confidence": "high",
+    "subs": []
+   },
    {
     "rule_id": "the-companies-corporate-social-responsibility-policy-rules-2014-csr-rules-20261106-142812#2",
     "rule_set": "Companies (Corporate Social Responsibility Policy) Rules, 2014",
@@ -16473,6 +17442,15 @@
    }
   ],
   "203": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 6,
+    "confidence": "high",
+    "subs": []
+   },
    {
     "rule_id": "the-companies-appointment-and-remuneration-of-managerial-personnel-rules-2014-20261106-143106#1",
     "rule_set": "Companies (Appointment and Remuneration of Managerial Personnel) Rules, 2014",
@@ -16805,6 +17783,15 @@
     ]
    },
    {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 9,
+    "confidence": "medium",
+    "subs": []
+   },
+   {
     "rule_id": "the-companies-inspection-investigation-and-inquiry-rules-2014-20261106-143111#1",
     "rule_set": "Companies (Inspection, Investigation and Inquiry) Rules, 2014",
     "rule": "1",
@@ -17002,6 +17989,15 @@
    }
   ],
   "230": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 2,
+    "confidence": "high",
+    "subs": []
+   },
    {
     "rule_id": "the-companies-compromises-arrangements-and-amalgamations-rules-2016-20261106-143131#3",
     "rule_set": "Companies (Compromises, Arrangements and Amalgamations) Rules, 2016",
@@ -17764,6 +18760,17 @@
   ],
   "241": [
    {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 18,
+    "confidence": "high",
+    "subs": [
+     "1"
+    ]
+   },
+   {
     "rule_id": "nclt-rules-2016-20261107-081709#81",
     "rule_set": "National Company Law Tribunal Rules, 2016",
     "rule": "81",
@@ -17797,6 +18804,20 @@
     ]
    }
   ],
+  "242": [
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 24,
+    "confidence": "high",
+    "subs": [
+     "1",
+     "2"
+    ]
+   }
+  ],
   "243": [
    {
     "rule_id": "nclt-rules-2016-20261107-081709#83",
@@ -17811,6 +18832,17 @@
    }
   ],
   "244": [
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 7,
+    "confidence": "high",
+    "subs": [
+     "1"
+    ]
+   },
    {
     "rule_id": "nclt-rules-2016-20261107-081709#83A",
     "rule_set": "National Company Law Tribunal Rules, 2016",
@@ -17879,6 +18911,17 @@
      "1",
      "4"
     ]
+   }
+  ],
+  "246": [
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 1,
+    "confidence": "medium",
+    "subs": []
    }
   ],
   "247": [
@@ -18734,6 +19777,28 @@
     "subs": []
    }
   ],
+  "304": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": []
+   }
+  ],
+  "305": [
+   {
+    "rule_id": "Cimplyfives-Text-of-resolution#10",
+    "rule_set": "Cimplyfives Text Of Resolution",
+    "rule": "10",
+    "title": "Review periodically the Company’s corporate objectives and policies relating to corporate social responsibility",
+    "mentions": 1,
+    "confidence": "high",
+    "subs": []
+   }
+  ],
   "326": [
    {
     "rule_id": "companies-winding-up-rules-2020-20261107-081555#100",
@@ -19580,7 +20645,29 @@
     "subs": []
    }
   ],
+  "397": [
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 23,
+    "confidence": "high",
+    "subs": [
+     "2"
+    ]
+   }
+  ],
   "398": [
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 13,
+    "confidence": "high",
+    "subs": []
+   },
    {
     "rule_id": "nclt-rules-2016-20261107-081709#2",
     "rule_set": "National Company Law Tribunal Rules, 2016",
@@ -19826,6 +20913,17 @@
     "title": "Inspection, production and evidence of documents kept by Registrar",
     "mentions": 0,
     "confidence": "low",
+    "subs": []
+   }
+  ],
+  "402": [
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 9,
+    "confidence": "high",
     "subs": []
    }
   ],
@@ -20302,6 +21400,17 @@
     "subs": []
    }
   ],
+  "407": [
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 1,
+    "confidence": "medium",
+    "subs": []
+   }
+  ],
   "408": [
    {
     "rule_id": "companies-transfer-of-pending-proceedings-rules-2016-20261107-081722#2",
@@ -20309,6 +21418,15 @@
     "rule": "2",
     "title": "Definitions",
     "mentions": 1,
+    "confidence": "high",
+    "subs": []
+   },
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 7,
     "confidence": "high",
     "subs": []
    },
@@ -20331,7 +21449,29 @@
     "subs": []
    }
   ],
+  "409": [
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 6,
+    "confidence": "high",
+    "subs": [
+     "3"
+    ]
+   }
+  ],
   "410": [
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 7,
+    "confidence": "high",
+    "subs": []
+   },
    {
     "rule_id": "nclat-recruitment-salary-and-other-terms-and-conditions-of-service-of-officers-and-other-employees-rules-2020-20261107-081755#2",
     "rule_set": "National Company Law Appellate Tribunal (Recruitment, Salary and other Terms and Conditions of Service of Officers and other Employees) Rules, 2020",
@@ -20342,7 +21482,31 @@
     "subs": []
    }
   ],
+  "411": [
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 4,
+    "confidence": "high",
+    "subs": [
+     "3"
+    ]
+   }
+  ],
   "412": [
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 6,
+    "confidence": "high",
+    "subs": [
+     "2"
+    ]
+   },
    {
     "rule_id": "nclat-salaries-allowances-and-other-terms-and-conditions-of-service-of-chairperson-and-other-members-rules-2015-20261107-081749#2",
     "rule_set": "National Company Law Appellate Tribunal (Salaries, Allowances and other Terms and Conditions of Service of Chairperson and other Members) Rules, 2015",
@@ -20360,6 +21524,17 @@
     "rule": "16",
     "title": "Applicability of rules",
     "mentions": 1,
+    "confidence": "high",
+    "subs": []
+   }
+  ],
+  "413": [
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 2,
     "confidence": "high",
     "subs": []
    }
@@ -20690,7 +21865,27 @@
     "subs": []
    }
   ],
+  "415": [
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 1,
+    "confidence": "medium",
+    "subs": []
+   }
+  ],
   "418": [
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 1,
+    "confidence": "medium",
+    "subs": []
+   },
    {
     "rule_id": "nclat-recruitment-salary-and-other-terms-and-conditions-of-service-of-officers-and-other-employees-rules-2020-20261107-081755#1",
     "rule_set": "National Company Law Appellate Tribunal (Recruitment, Salary and other Terms and Conditions of Service of Officers and other Employees) Rules, 2020",
@@ -21024,6 +22219,17 @@
     ]
    }
   ],
+  "420": [
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 2,
+    "confidence": "high",
+    "subs": []
+   }
+  ],
   "421": [
    {
     "rule_id": "nclat-rules-2016-20261107-081714#2",
@@ -21035,15 +22241,79 @@
     "subs": [
      "1"
     ]
+   },
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 2,
+    "confidence": "medium",
+    "subs": [
+     "4"
+    ]
+   }
+  ],
+  "423": [
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 5,
+    "confidence": "high",
+    "subs": []
    }
   ],
   "424": [
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 2,
+    "confidence": "high",
+    "subs": []
+   },
    {
     "rule_id": "nclat-rules-2016-20261107-081714#77",
     "rule_set": "National Company Law Appellate Tribunal Rules, 2016",
     "rule": "77",
     "title": "Procedure for examination of witnesses, issue of Commissions",
     "mentions": 1,
+    "confidence": "high",
+    "subs": []
+   }
+  ],
+  "425": [
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 4,
+    "confidence": "high",
+    "subs": []
+   }
+  ],
+  "426": [
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 1,
+    "confidence": "medium",
+    "subs": []
+   }
+  ],
+  "431": [
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 3,
     "confidence": "high",
     "subs": []
    }
@@ -21095,9 +22365,27 @@
     "mentions": 1,
     "confidence": "high",
     "subs": []
+   },
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 4,
+    "confidence": "high",
+    "subs": []
    }
   ],
   "434": [
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 3,
+    "confidence": "high",
+    "subs": []
+   },
    {
     "rule_id": "nclt-rules-2016-20261107-081709#2",
     "rule_set": "National Company Law Tribunal Rules, 2016",
@@ -21445,6 +22733,19 @@
     "mentions": 0,
     "confidence": "low",
     "subs": []
+   }
+  ],
+  "443": [
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 2,
+    "confidence": "high",
+    "subs": [
+     "2"
+    ]
    }
   ],
   "447": [
@@ -21926,6 +23227,15 @@
     ]
    },
    {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 2,
+    "confidence": "medium",
+    "subs": []
+   },
+   {
     "rule_id": "the-companies-miscellaneous-rules-2014-20261107-081911#1",
     "rule_set": "Companies (Miscellaneous) Rules, 2014",
     "rule": "1",
@@ -22184,6 +23494,28 @@
     "title": "A member shall make an application for temporary surrender of his membership of the Organisation at least thirty days before he- (a) becomes a person not resident in India; (b) takes up employment; or [24][Explanation",
     "mentions": 0,
     "confidence": "low",
+    "subs": []
+   }
+  ],
+  "460": [
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 1,
+    "confidence": "medium",
+    "subs": []
+   }
+  ],
+  "461": [
+   {
+    "rule_id": "LB-303-Company Law _2025 Final_#13",
+    "rule_set": "Lb 303 Company Law _2025 Final_",
+    "rule": "13",
+    "title": "This resolution purports to be signed by three directors, namely Bakhshish Singh, B.N",
+    "mentions": 2,
+    "confidence": "medium",
     "subs": []
    }
   ],
