@@ -71,6 +71,10 @@ footer{max-width:76rem;margin:0 auto;padding:1rem 1.5rem 3rem;color:var(--muted)
 .rlist{display:grid;gap:.5rem}
 .rrow{display:flex;flex-direction:column;background:var(--page);border:1px solid var(--rule);border-left:4px solid var(--gold);border-radius:3px;padding:.6rem .9rem;text-decoration:none;color:var(--ink)}
 .rrow:hover{border-color:var(--tape)}.rrow b{font:700 1rem var(--sans)}.rrow span{color:var(--muted);font-size:.9rem}
+
+.tbl{border-collapse:collapse;width:100%;background:var(--page);font-size:.95rem}
+.tbl th,.tbl td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
+.tbl th{background:var(--bar);color:var(--barink);font:600 .9rem var(--sans)}
 """
 GEN_JS = r""""use strict";
 /* ---------- small helpers ---------- */
@@ -1220,10 +1224,16 @@ def build_excel():
 
     GRP[0] = "Statutory registers"
     # generic register helper ------------------------------------------------------------
-    def register(fn, name, blurb, basis, cols, readme_lines, rows=300, validations=(), extra_top=None):
-        wb = Workbook()
-        ws = wb.active
-        ws.title = "Register"
+    SHORT = {"register-of-directors-and-kmp.xlsx": "Directors and KMP", "register-of-members.xlsx": "Members", "register-of-charges.xlsx": "Charges", "register-of-loans-guarantees-investments.xlsx": "Loans and investments",
+             "register-of-related-party-contracts.xlsx": "Related party contracts", "register-of-allotments.xlsx": "Allotments", "share-transfer-register.xlsx": "Share transfers", "register-of-debenture-holders.xlsx": "Debenture holders",
+             "register-of-renewed-duplicate-certificates.xlsx": "SH-2 certificates", "register-of-dividends.xlsx": "Dividends", "register-of-deposits.xlsx": "Deposits", "register-of-significant-beneficial-owners.xlsx": "Beneficial owners BEN-3",
+             "register-of-sweat-equity-shares.xlsx": "Sweat equity SH-3", "register-of-employee-stock-options.xlsx": "ESOP SH-6", "register-of-buy-back.xlsx": "Buy-back SH-10", "register-of-investments-not-in-company-name.xlsx": "Investments MBP-3",
+             "register-of-director-disclosures.xlsx": "Director interests MBP-1"}
+    COMBO = Workbook()
+    COMBO.remove(COMBO.active)
+    COMBO_ITEMS = []
+
+    def draw_register(ws, name, basis, cols, rows, validations, extra_top):
         title(ws, name, basis)
         ws["A3"], ws["C3"] = "Company name", None
         ws["A3"].font = Font(bold=True)
@@ -1259,7 +1269,7 @@ def build_excel():
         for j in range(2, len(cols) + 2):
             if cols[j - 2][2] == "f":
                 h = cols[j - 2][0]
-                fmt = DATEF if h.startswith(("Last date", "Certificate due", "Transfer to", "Expected date")) else "0.00%" if h.startswith("%") else "#,##0.00" if "(Rs.)" in h else None
+                fmt = DATEF if h.startswith(("Last date", "Certificate due", "Transfer to", "Expected date", "Date of repayment due", "Lock-in ends", "Earliest vesting")) else "0.00%" if h.startswith("%") else "#,##0.00" if "(Rs.)" in h else None
                 if fmt:
                     for r in range(first, last + 1):
                         ws.cell(row=r, column=j).number_format = fmt
@@ -1274,8 +1284,18 @@ def build_excel():
             dv.add(f"{L}{first}:{L}{last}")
         ws.freeze_panes = ws.cell(row=first, column=3)
         ws.auto_filter.ref = f"A{top}:{get_column_letter(len(cols) + 1)}{last}"
+
+    def register(fn, name, blurb, basis, cols, readme_lines, rows=300, validations=(), extra_top=None, combo=True):
+        wb = Workbook()
+        ws = wb.active
+        ws.title = "Register"
+        draw_register(ws, name, basis, cols, rows, validations, extra_top)
         readme(wb, name, basis, readme_lines)
         save(wb, fn, name, blurb, basis, ["Register"])
+        if combo:
+            sn = SHORT.get(fn, name[:28])
+            draw_register(COMBO.create_sheet(sn), name, basis, cols, rows, validations, extra_top)
+            COMBO_ITEMS.append((name, basis, sn))
         return ws
 
     register("register-of-directors-and-kmp.xlsx", "Register of directors and key managerial personnel", "The particulars the Act requires for each director and each key managerial person, with a column that shows who is in office now.",
@@ -1385,11 +1405,71 @@ def build_excel():
              ["1. Add a row for each dividend. Pick Interim or Final.", "2. An interim dividend must be moved to a separate bank account within five days of declaration (Section 123(4)). Final dividend and interim dividend must be paid within thirty days.",
               "3. Any dividend left unpaid after thirty days goes to the Unpaid Dividend Account within seven days (Section 124). Amounts unclaimed for seven years go to the Investor Education and Protection Fund (Section 125)."],
              validations=[(3, ["Interim", "Final", "Special"])])
+    register("register-of-deposits.xlsx", "Register of deposits", "Deposits accepted by the company, with the interest and the dates of repayment.", "Sections 73 to 76; Rule 14, Companies (Acceptance of Deposits) Rules, 2014",
+             [("Name of depositor", 28, "text"), ("Address", 32, "wrap"), ("Date of receipt", 14, "date"), ("Amount (Rs.)", 16, "num"), ("Tenure in months", 11, "num"), ("Rate of interest (% a year)", 12, "num"), ("Date of repayment due", 15, "f", '=IF(OR(D{r}="",F{r}=""),"",EDATE(D{r},F{r}))'),
+              ("Amount repaid (Rs.)", 16, "num"), ("Date of repayment", 14, "date"), ("Interest paid (Rs.)", 16, "num"), ("Date of renewal", 14, "date"), ("Remarks", 24, "wrap")],
+             ["1. Add a row for each deposit. A private company may take deposits from its members only, within the limits and conditions of the Rules.", "2. The repayment date is the date of receipt plus the tenure. Type the actual date of repayment when it is paid.",
+              "3. File the return of deposits in Form DPT-3 by 30 June each year, and keep the register at the registered office."],
+             extra_top=[("Total received (Rs.)", '=SUM(E6:E305)')])
+    register("register-of-significant-beneficial-owners.xlsx", "Register of significant beneficial owners", "Persons who hold or control a significant stake, with the date by which the company must file Form BEN-2.", "Section 90; Companies (Significant Beneficial Owners) Rules, 2018 (Form BEN-3)",
+             [("Name of the beneficial owner", 28, "text"), ("Date of birth", 13, "date"), ("Nationality", 13, "text"), ("Address", 32, "wrap"), ("PAN or other ID", 16, "text"), ("Date the declaration (BEN-1) was received", 16, "date"),
+              ("Last date to file BEN-2 (30 days)", 15, "f", '=IF(G{r}="","",G{r}+30)'), ("BEN-2 filed on", 14, "date"), ("Name of the registered owner or the company through which held", 32, "wrap"), ("Nature of the interest", 24, "text"),
+              ("Percentage of shares", 11, "num"), ("Percentage of voting rights", 11, "num"), ("Date of acquiring the interest", 14, "date"), ("Date of any change", 14, "date"), ("Date of ceasing", 14, "date"), ("Remarks", 24, "wrap")],
+             ["1. Add a row for each significant beneficial owner. A person is significant if he or she holds, directly or indirectly, at least 10% of the shares or voting rights, or has the right to exercise significant influence or control.",
+              "2. The company must file Form BEN-2 within 30 days of receiving the declaration. The date is worked out for you.", "3. Check the current Rules for the definitions and the thresholds."],
+             validations=[(11, ["Shares", "Voting rights", "Dividend rights", "Significant influence or control", "Other"])])
+    register("register-of-sweat-equity-shares.xlsx", "Register of sweat equity shares", "Shares issued for know-how or value additions, with the lock-in end date.", "Section 54; Rule 8, Companies (Share Capital and Debentures) Rules, 2014 (Form SH-3)",
+             [("Name of the allottee", 28, "text"), ("Address", 32, "wrap"), ("Date of allotment", 14, "date"), ("Number of shares", 12, "num"), ("Face value (Rs.)", 12, "num"), ("Issue price (Rs.)", 12, "num"), ("Consideration (know-how, intellectual property or value additions)", 30, "wrap"),
+              ("Value of the consideration (Rs.)", 16, "num"), ("Date of special resolution", 14, "date"), ("Date of the valuation report", 14, "date"), ("Lock-in ends (3 years from allotment)", 15, "f", '=IF(D{r}="","",EDATE(D{r},36))'), ("Certificate no.", 12, "text"), ("Remarks", 24, "wrap")],
+             ["1. Add a row for each allotment of sweat equity shares.", "2. These shares are locked in for three years from the date of allotment. The end date is worked out for you.", "3. A special resolution and a valuation by a registered valuer are needed. Check the current Rule for the other conditions."])
+    register("register-of-employee-stock-options.xlsx", "Register of employee stock options", "Options granted, vested and exercised, with the earliest vesting date.", "Section 62(1)(b); Rule 12, Companies (Share Capital and Debentures) Rules, 2014 (Form SH-6)",
+             [("Name of the employee or director", 28, "text"), ("Designation", 20, "text"), ("Date of grant", 14, "date"), ("Number of options granted", 12, "num"), ("Exercise price per share (Rs.)", 14, "num"), ("Earliest vesting date (1 year from grant)", 16, "f", '=IF(D{r}="","",EDATE(D{r},12))'),
+              ("Actual vesting date", 14, "date"), ("Number vested", 12, "num"), ("Date of exercise", 14, "date"), ("Number exercised", 12, "num"), ("Shares allotted", 12, "num"), ("Options lapsed or cancelled", 12, "num"), ("Options outstanding", 12, "f", '=IF(E{r}="","",E{r}-N(K{r})-N(M{r}))'),
+              ("Date of special resolution", 14, "date"), ("Remarks", 24, "wrap")],
+             ["1. Add a row for each grant. The scheme needs a special resolution of the members.", "2. There must be a gap of at least one year between the grant and the vesting of an option. The earliest date is worked out for you.", "3. 'Options outstanding' is the number granted, less the number exercised and the number lapsed."])
+    register("register-of-buy-back.xlsx", "Register of securities bought back", "Each buy-back, with the dates for extinguishing the shares and for filing the return.", "Section 68; Rule 17, Companies (Share Capital and Debentures) Rules, 2014 (Form SH-10)",
+             [("Date of Board or special resolution", 15, "date"), ("Class of securities", 16, "text"), ("Number bought back", 12, "num"), ("Price per security (Rs.)", 13, "num"), ("Total amount (Rs.)", 16, "f", '=IF(OR(D{r}="",E{r}=""),"",D{r}*E{r})'),
+              ("Source of funds", 22, "text"), ("Date of declaration of solvency (SH-9)", 15, "date"), ("Date the buy-back was completed", 15, "date"), ("Last date to extinguish the securities (7 days)", 16, "f", '=IF(I{r}="","",I{r}+7)'),
+              ("Date they were extinguished", 14, "date"), ("Last date to file the return (SH-11, 30 days)", 16, "f", '=IF(I{r}="","",I{r}+30)'), ("Return filed on", 14, "date"), ("Remarks", 24, "wrap")],
+             ["1. Add a row for each buy-back.", "2. The securities bought back must be extinguished and destroyed within seven days of the last date of completion, and a return in Form SH-11 filed within thirty days (Section 68).",
+              "3. The company cannot issue the same kind of securities for six months after a buy-back, except in the cases the Act allows."])
+    register("register-of-investments-not-in-company-name.xlsx", "Register of investments not held in the company's name", "Investments that are held by someone else for the company, with the reason.", "Section 187(4); Rule 14, Companies (Meetings of Board and its Powers) Rules, 2014 (Form MBP-3)",
+             [("Date of the investment", 14, "date"), ("Name of the body corporate invested in", 30, "text"), ("Description of the investment", 28, "wrap"), ("Number of shares or amount (Rs.)", 16, "num"), ("Name in which it is held", 26, "text"), ("Reason", 28, "wrap"),
+              ("Date of Board resolution", 14, "date"), ("Date it was transferred to the company's name", 16, "date"), ("Remarks", 24, "wrap")],
+             ["1. List every investment of the company that is held in the name of another person or body.", "2. Section 187 requires the investment to be held in the company's own name, with the exceptions the section gives. Record the reason and the Board approval."])
+    register("register-of-director-disclosures.xlsx", "Register of director disclosures", "The notices of interest, declarations and consents received from each director, with the dates.", "Sections 184, 164 and 152; Forms MBP-1, DIR-8 and DIR-2",
+             [("Name of the director", 28, "text"), ("DIN", 12, "text"), ("Financial year", 12, "text"), ("Date MBP-1 was received", 14, "date"), ("Entities in which the director is interested", 36, "wrap"), ("Date of the last change", 14, "date"), ("Date tabled at the Board meeting", 15, "date"),
+              ("Date DIR-8 was received (each year)", 15, "date"), ("Date of consent to act (DIR-2)", 15, "date"), ("Remarks", 24, "wrap")],
+             ["1. Add a row for each director in each financial year. Record the date each document was received.", "2. Every director gives MBP-1 at the first Board meeting of each financial year, and again when the interest changes (Section 184).",
+              "3. DIR-8 is given by each director every year, and DIR-2 at the time of the appointment."])
+
+    # all-in-one workbook
+    idx = COMBO.create_sheet("Index", 0)
+    title(idx, "Company secretarial registers: all in one file", "One sheet for each register. Fill in the company details at the top of each sheet.")
+    head(idx, 4, ["Sr", "Register", "Provision and form", "Sheet"], [5, 54, 80, 28])
+    for i, (nm, bs, sn) in enumerate(COMBO_ITEMS):
+        r = 5 + i
+        idx.cell(row=r, column=1, value=i + 1)
+        idx.cell(row=r, column=2, value=nm)
+        idx.cell(row=r, column=3, value=bs)
+        c = idx.cell(row=r, column=4, value=sn)
+        c.hyperlink = f"#'{sn}'!A1"
+        c.font = Font(color="1F4FB5", underline="single")
+    style_rows(idx, 5, 4 + len(COMBO_ITEMS), 4, formula_cols=())
+    for r in range(5, 5 + len(COMBO_ITEMS)):
+        for c in (1, 2, 3, 4):
+            idx.cell(row=r, column=c).fill = PatternFill("solid", fgColor="FFFFFF")
+        idx.cell(row=r, column=4).font = Font(color="1F4FB5", underline="single")
+    idx.cell(row=6 + len(COMBO_ITEMS), column=2, value="Check each register against the current Act, Rules and forms before relying on it. Free starting file from the Company Law Knowledge Lab. For study only; not legal advice.").font = Font(italic=True, color="4B5A70")
+    COMBO.save(out / "company-secretarial-registers-all-in-one.xlsx")
+    made.append({"file": "company-secretarial-registers-all-in-one.xlsx", "name": "All statutory registers in one file", "blurb": f"{len(COMBO_ITEMS)} registers in one workbook, with an index that links to each sheet.", "basis": "Companies Act, 2013 and the Rules",
+                 "sheets": [x[2] for x in COMBO_ITEMS], "group": "Statutory registers"})
+
     GRP[0] = "Practice"
     register("register-of-articled-assistants.xlsx", "Register of articled assistants", "Articleship records, with the ICAI forms and the dates they fall due.", "Chartered Accountants Regulations, 1988 (ICAI Forms 102, 103, 108 and 109)",
              [("Name of the articled assistant", 28, "text"), ("Registration no.", 15, "text"), ("Date of registration", 14, "date"), ("Date of commencement", 14, "date"), ("Period in months", 10, "num"), ("Expected date of completion", 15, "f", '=IF(E{r}="","",EDATE(E{r},F{r}))'),
               ("Stipend per month (Rs.)", 14, "num"), ("Form 102 filed on", 14, "date"), ("Form 103 filed on", 14, "date"), ("Form 108 filed on", 14, "date"), ("Form 109 filed on", 14, "date"), ("Leave taken (days)", 11, "num"), ("Remarks", 24, "wrap")],
-             ["1. Add a row for each articled assistant. Enter the period of articleship in months.", "2. The expected date of completion is the commencement date plus the period. Add the leave beyond the allowed days yourself.", "3. Check the current ICAI regulations for the forms and the time limits."])
+             ["1. Add a row for each articled assistant. Enter the period of articleship in months.", "2. The expected date of completion is the commencement date plus the period. Add the leave beyond the allowed days yourself.", "3. Check the current ICAI regulations for the forms and the time limits."], combo=False)
 
     # ---- attendance registers -----------------------------------------------------------
     GRP[0] = "Filings, meetings and planners"
@@ -1503,15 +1583,42 @@ def build_excel():
                ("If the investor is outside India, file the foreign investment return (FC-GPR)", "FEMA rules", "Within 30 days of the allotment", '=IF($B$7="","",$B$7+30)', "Company Secretary")],
               ["1. Fill in the four dates at the top as the round goes on.", "2. Each step shows its due date. Pick Yes when it is done and type the date.", "3. The valuation, the offer and the deadlines depend on the type of company and the kind of investor. Check each rule before you rely on it."])
 
+    REG_ROWS = [
+        ("Register of members", "Section 88(1)(a); Rule 3", "Form MGT-1", "register-of-members.xlsx"),
+        ("Index of members", "Section 88(3)", "No form", "Sort the Register of members by name, and keep it as the index"),
+        ("Register of debenture holders and other security holders", "Section 88(1)(b) and (c)", "Form MGT-2", "register-of-debenture-holders.xlsx"),
+        ("Register of renewed and duplicate share certificates", "Section 46; Rule 6", "Form SH-2", "register-of-renewed-duplicate-certificates.xlsx"),
+        ("Register of sweat equity shares", "Section 54; Rule 8", "Form SH-3", "register-of-sweat-equity-shares.xlsx"),
+        ("Register of employee stock options", "Section 62(1)(b); Rule 12", "Form SH-6", "register-of-employee-stock-options.xlsx"),
+        ("Register of securities bought back", "Section 68; Rule 17", "Form SH-10", "register-of-buy-back.xlsx"),
+        ("Register of deposits", "Sections 73 to 76; Rule 14", "No form", "register-of-deposits.xlsx"),
+        ("Register of charges", "Section 85; Rule 10", "Form CHG-7", "register-of-charges.xlsx"),
+        ("Register of significant beneficial owners", "Section 90; SBO Rules, 2018", "Form BEN-3", "register-of-significant-beneficial-owners.xlsx"),
+        ("Register of directors and key managerial personnel, with their shareholding", "Section 170; Rule 17", "No form", "register-of-directors-and-kmp.xlsx"),
+        ("Record of directors' disclosures of interest", "Section 184", "Forms MBP-1, DIR-8, DIR-2", "register-of-director-disclosures.xlsx"),
+        ("Register of investments not held in the company's name", "Section 187(4); Rule 14", "Form MBP-3", "register-of-investments-not-in-company-name.xlsx"),
+        ("Register of loans, guarantees, security and investments", "Section 186(9); Rule 12", "Form MBP-2", "register-of-loans-guarantees-investments.xlsx"),
+        ("Register of contracts in which directors are interested", "Section 189; Rule 16", "Form MBP-4", "register-of-related-party-contracts.xlsx"),
+        ("Register of allotments and of share transfers", "Sections 39, 42 and 56", "Records, no form", "register-of-allotments.xlsx"),
+        ("Register of dividends", "Sections 123 to 125", "Record, no form", "register-of-dividends.xlsx"),
+        ("Foreign register of members or debenture holders", "Section 88(4)", "Rule 4", "Not included: needed only if the company keeps a register outside India"),
+        ("Minute books of Board, committee and general meetings", "Section 118; Secretarial Standards 1 and 2", "No form", "Not included: use the Minutes generator and keep the signed pages in a bound book"),
+    ]
+    reg_table = "<h2>Registers the Companies Act, 2013 requires</h2><p class=\"small\">Each register, the provision it comes from, its form, and the file in this library that covers it.</p><div style=\"overflow-x:auto\"><table class=\"tbl\"><thead><tr><th>Register</th><th>Provision</th><th>Form</th><th>File</th></tr></thead><tbody>"
+    for nm, prov, frm, f in REG_ROWS:
+        cell = f'<a href="{f}" download>Download</a>' if f.endswith(".xlsx") else f
+        reg_table += f"<tr><td>{nm}</td><td>{prov}</td><td>{frm}</td><td>{cell}</td></tr>"
+    reg_table += "</tbody></table></div>"
     order = ["Statutory registers", "Filings, meetings and planners", "Checklists", "Practice"]
     sections = ""
     for gname in order:
-        items = [m for m in made if m["group"] == gname]
+        items = sorted([m for m in made if m["group"] == gname], key=lambda m: 0 if "all-in-one" in m["file"] else 1)
         if items:
             sections += f"<h2>{gname}</h2><div class=\"xl\">" + "".join(
                 f'<div class="card"><b>{m["name"]}</b><span>{m["blurb"]}</span><i>Based on: {m["basis"]}</i><a class="btn" href="{m["file"]}" download>Download .xlsx</a></div>' for m in items) + "</div>"
     body = f"""<h1>Excel utilities</h1><p class="lede">Free working files for the Company Secretary's desk: statutory registers, trackers, planners and checklists. Each file opens in Excel, LibreOffice and Google Sheets. Cells you fill in are yellow; cells that work themselves out are grey-blue.</p>
 {sections}
+{reg_table}
 <h2>How to use them</h2><ul><li>Download a file and save it with your company's name.</li><li>Fill in the yellow cells. The dates, totals and checks update on their own.</li><li>Check each rule and date against the current law. These files do not include extensions or exemptions announced by the Ministry.</li></ul>"""
     (out / "index.html").write_text(shell("Excel utilities | Company Law Knowledge Lab", "Statutory registers, compliance trackers and planners as free Excel files.", "xl", body), encoding="utf-8")
     print(f"{len(made)} Excel files written")
