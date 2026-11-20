@@ -1446,8 +1446,9 @@ FONTS = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="p
 
 
 def shell(title, desc, active, body, script=""):
-    nav = [("../", "Home", ""), ("../#/act", "Companies Act", ""), ("../#/forms", "Forms", ""), ("../#/processes", "Processes", ""),
-           ("../generators/", "Document generators", "gen"), ("../excel/", "Excel utilities", "xl"), ("../calendar/", "Compliance calendar", "cal"), ("../stamp/", "Stamp duty", "stamp"), ("../drafts/", "Drafts", "")]
+    nav = [("../", "Home", ""), ("../#/act", "Companies Act", ""), ("../#/lodr", "SEBI LODR", ""), ("../#/cases", "Case laws", ""), ("../#/forms", "Forms", ""), ("../#/processes", "Processes", ""),
+           ("../#/resolutions", "Model resolutions", ""), ("../drafts/", "Drafts", ""), ("../generators/", "Document generators", "gen"), ("../excel/", "Excel utilities", "xl"),
+           ("../calendar/", "Compliance calendar", "cal"), ("../stamp/", "Stamp duty", "stamp"), ("../#/tools", "Calculator", ""), ("../#/me", "My workspace", "")]
     cur = ' aria-current="page"'
     links = "".join('<a href="%s"%s>%s</a>' % (h, cur if (k and k == active) else "", t) for h, t, k in nav)
     return f"""<!doctype html>
