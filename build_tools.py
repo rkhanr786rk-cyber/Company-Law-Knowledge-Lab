@@ -75,6 +75,7 @@ footer{max-width:76rem;margin:0 auto;padding:1rem 1.5rem 3rem;color:var(--muted)
 .tbl{border-collapse:collapse;width:100%;background:var(--page);font-size:.95rem}
 .tbl th,.tbl td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
 .tbl th{background:var(--bar);color:var(--barink);font:600 .9rem var(--sans)}
+.dt{border-collapse:collapse;width:100%;margin:.4rem 0 .9rem;font-size:.92rem}.dt th,.dt td{border:1px solid #444;padding:.3rem .5rem;text-align:left;vertical-align:top}.dt th{font-weight:700}
 """
 GEN_JS = r""""use strict";
 /* ---------- small helpers ---------- */
@@ -104,6 +105,7 @@ const COMMON = [
 ];
 
 /* ---------- document blocks: T title, H heading, P justified, L left, C centred, R right, I indented, S space, PB page break ---------- */
+const TB = (rows, w) => ({ k: "TB", rows, w }); /* table: rows of cells; first row is the header */
 const T = t => ({ k: "T", t }), H = t => ({ k: "H", t }), P = t => ({ k: "P", t }), L = t => ({ k: "L", t }), C = t => ({ k: "C", t }), R = t => ({ k: "R", t }), I = (t, n) => ({ k: "I", t, n: n || 1 }), S = () => ({ k: "S" }), PB = () => ({ k: "PB" });
 const RES = t => P("**RESOLVED THAT** " + t);
 const RESF = t => P("**RESOLVED FURTHER THAT** " + t);
@@ -811,6 +813,484 @@ GENS.push(
     },
   },
 );
+/* ---------- batch 3: committees, EGM minutes, agenda, postal ballot, prescribed formats, policies ---------- */
+const SG = [{ id: "sname", label: "Name of the signing director or officer" }, { id: "sdes", label: "Designation" }];
+const SGN = v => signoff(v, va(v, "sname", "name"), va(v, "sdes", "designation"));
+const CMS = {
+  audit: { n: "Audit Committee", b: "Section 177, Companies Act, 2013; Rule 6, Companies (Meetings of Board and its Powers) Rules, 2014; Regulation 18, SEBI (LODR) Regulations, 2015 (listed companies)",
+    q: "The quorum was present: two members or one-third of the members of the Committee, whichever is greater, including at least two independent directors (Regulation 18(2)(b) for a listed company).",
+    items: ["Confirmation of the minutes of the last meeting", "Review of the financial statements and the auditor's report", "Review of related party transactions and the grant of omnibus approval", "Review of internal financial controls and the internal audit report", "Review of the independence, performance and remuneration of the auditors", "Any other business with the permission of the Chair"] },
+  nrc: { n: "Nomination and Remuneration Committee", b: "Section 178, Companies Act, 2013; Rule 6, Companies (Meetings of Board and its Powers) Rules, 2014; Regulation 19, SEBI (LODR) Regulations, 2015 (listed companies)",
+    q: "The quorum was present: two members or one-third of the members, whichever is greater, including at least one independent director (Regulation 19(2A) for a listed company).",
+    items: ["Confirmation of the minutes of the last meeting", "Review of the composition of the Board and the need for new appointments", "Recommendation on the appointment, reappointment or remuneration of directors and senior management", "Evaluation of the Board, its committees and the individual directors", "Review of the nomination and remuneration policy", "Any other business with the permission of the Chair"] },
+  src: { n: "Stakeholders Relationship Committee", b: "Section 178(5), Companies Act, 2013; Regulation 20, SEBI (LODR) Regulations, 2015 (listed companies)",
+    q: "The quorum required for the meeting was present.",
+    items: ["Confirmation of the minutes of the last meeting", "Review of the investor complaints received and resolved", "Review of share transfers, transmissions, dematerialisation and duplicate certificates", "Review of unclaimed dividends and shares due for transfer to the Investor Education and Protection Fund", "Any other business with the permission of the Chair"] },
+  csr: { n: "Corporate Social Responsibility Committee", b: "Section 135, Companies Act, 2013; Companies (Corporate Social Responsibility Policy) Rules, 2014",
+    q: "The quorum required for the meeting was present.",
+    items: ["Confirmation of the minutes of the last meeting", "Review of the CSR policy and the annual action plan", "Review of the CSR projects, the amount spent and any unspent amount", "Recommendation of the CSR expenditure to the Board", "Any other business with the permission of the Chair"] },
+  risk: { n: "Risk Management Committee", b: "Regulation 21, SEBI (LODR) Regulations, 2015 (top 1,000 listed companies by market capitalisation); Section 134(3)(n), Companies Act, 2013",
+    q: "The quorum required for the meeting was present: two members or one-third of the members, whichever is higher, including at least one member of the Board (Regulation 21(3A)).",
+    items: ["Confirmation of the minutes of the last meeting", "Review of the risk register and the risk management framework", "Review of cyber security and business continuity risks", "Any other business with the permission of the Chair"] },
+};
+const CMOPTS = Object.keys(CMS).map(k => [k, CMS[k].n]);
+const cmName = v => (CMS[v.cmtype] || CMS.audit).n;
+
+GENS.push(
+  {
+    id: "cmnotice", group: "Committees", title: "Notice of committee meeting", short: "Notice and agenda for an Audit, Nomination and Remuneration, Stakeholders, CSR or Risk Committee meeting.",
+    basis: "Secretarial Standard 1 (applies to committee meetings); the section for each committee",
+    fields: [{ id: "cmtype", label: "Committee", type: "select", opts: CMOPTS }, { id: "ndate", label: "Date of notice", type: "date" }, { id: "mdate", label: "Date of meeting", type: "date" }, { id: "mtime", label: "Time", ph: "11:00 a.m." }, { id: "place", label: "Place", ph: "Registered office" },
+      { id: "agenda", label: "Agenda (one item per line; leave blank for the usual items)", type: "textarea" }].concat(SG),
+    notes: ["Send the notice and the agenda with notes at least seven days before the meeting, unless the committee agrees to shorter notice as Secretarial Standard 1 allows.", "Each committee has its own rules on members and quorum. Check them for your company."],
+    build(v) {
+      const c = CMS[v.cmtype] || CMS.audit, ag = LN("agenda")(v), out = header(v);
+      out.push(T(`NOTICE OF A MEETING OF THE ${c.n.toUpperCase()}`), R("Date: " + vd(v, "ndate", "date of notice")), L(`To all the members of the ${c.n}`), S());
+      out.push(P(`**NOTICE** is hereby given that a meeting of the **${c.n}** of the Board of Directors of **${CO(v)}** will be held on **${vd(v, "mdate", "date")}** at **${va(v, "mtime", "time")}** at ${PLACE(v)}, to transact the following business:`));
+      out.push(P("**AGENDA**")); NUMLIST(out, ag.length ? ag : c.items, "[item]");
+      out.push(S(), P("The agenda, with notes on each item, is attached. You are requested to attend. If you cannot attend, please inform the Company Secretary in advance."), ...SGN(v));
+      return out;
+    },
+  },
+  {
+    id: "cmminutes", group: "Committees", title: "Minutes of committee meeting", short: "Minutes with attendance, quorum, items and decisions, for any of five committees.",
+    basis: "Secretarial Standard 1; the section for each committee",
+    fields: [{ id: "cmtype", label: "Committee", type: "select", opts: CMOPTS }, { id: "mdate", label: "Date of meeting", type: "date" }, { id: "mtime", label: "Time", ph: "11:00 a.m." }, { id: "place", label: "Place", ph: "Registered office" },
+      { id: "chair", label: "Chairperson of the meeting" }, { id: "present", label: "Members present (one per line)", type: "textarea" }, { id: "invitees", label: "Invitees present (one per line, optional)", type: "textarea" },
+      { id: "items", label: "Items and decisions (one per line: item | decision). Blank gives the usual items.", type: "textarea", ph: "Review of related party transactions | The Committee approved the transactions placed before it" }, { id: "cend", label: "Time the meeting ended", ph: "12:30 p.m." }, { id: "sdate", label: "Date of signing the minutes", type: "date" }],
+    notes: ["Minutes are signed by the Chairperson of the same meeting or the next one, within thirty days (Secretarial Standard 1).", "Replace each [decision] with what was actually decided."],
+    build(v) {
+      const c = CMS[v.cmtype] || CMS.audit, out = header(v);
+      out.push(T(`MINUTES OF THE MEETING OF THE ${c.n.toUpperCase()} HELD ON ${vd(v, "mdate", "date").toUpperCase()}${v.mtime ? " AT " + v.mtime.toUpperCase() : ""} AT ${PLACE(v).toUpperCase()}`));
+      out.push(P("**Members present**")); NUMLIST(out, LN("present")(v), "[names of members]");
+      if (LN("invitees")(v).length) { out.push(P("**Invitees present**")); NUMLIST(out, LN("invitees")(v), ""); }
+      out.push(S(), P(`${va(v, "chair", "name")} took the chair. The Chairperson noted that the required notice and agenda had been sent to all the members. ${c.q} The Chairperson called the meeting to order.`));
+      const rows = LN("items")(v).map(x => x.split("|").map(y => y.trim())); const list = rows.length ? rows : c.items.map(x => [x, "[decision]"]);
+      list.forEach((r, i) => { out.push(P(`**${i + 1}. ${r[0]}**`)); out.push(P(r[1] || "[decision]")); });
+      out.push(P(`There being no other business, the meeting ended${v.cend ? " at " + v.cend : ""} with a vote of thanks to the Chair.`), S(), L("Date: " + vd(v, "sdate", "date")), L("Place: " + PLACE(v)), R("**" + va(v, "chair", "Chairperson") + "**"), R("Chairperson"));
+      return out;
+    },
+  },
+  {
+    id: "agenda", group: "Meetings", title: "Agenda for a Board meeting", short: "A numbered agenda with the usual standing items and your own items.",
+    basis: "Section 173; Secretarial Standard 1 (agenda and notes on agenda)",
+    fields: [{ id: "bmno", label: "Meeting number or serial", ph: "1/2026-27" }, { id: "mdate", label: "Date of meeting", type: "date" }, { id: "mtime", label: "Time", ph: "11:00 a.m." }, { id: "place", label: "Place", ph: "Registered office" },
+      { id: "items", label: "Your agenda items (one per line)", type: "textarea" }].concat(SG),
+    notes: ["Send the agenda, with notes on each item, at least seven days before the meeting. Items of unpublished price sensitive information may be taken with shorter notice if an independent director attends (Secretarial Standard 1).", "Items that Section 179(3) says only the Board can decide must be taken at a Board meeting, not by circulation."],
+    build(v) {
+      const out = header(v), own = LN("items")(v);
+      out.push(T(`AGENDA FOR THE MEETING OF THE BOARD OF DIRECTORS NO. ${va(v, "bmno", "number")}`), C(`To be held on ${vd(v, "mdate", "date")} at ${va(v, "mtime", "time")} at ${PLACE(v)}`), S());
+      const std = ["Leave of absence, if any", "Confirmation of the minutes of the previous Board meeting", "Review of the action taken on the previous decisions", "Review of the financial results and the working of the Company", "Disclosures of interest by directors (Section 184)", "Related party transactions, if any"];
+      NUMLIST(out, std.concat(own, ["Any other business with the permission of the Chairman"]), "");
+      out.push(S(), ...SGN(v));
+      return out;
+    },
+  },
+  {
+    id: "egmmin", group: "Meetings", title: "Minutes of Extraordinary General Meeting", short: "Minutes with attendance, quorum and each resolution as put to the members.",
+    basis: "Section 118; Secretarial Standard 2 (general meetings)",
+    fields: [{ id: "egmdate", label: "Date of meeting", type: "date" }, { id: "mtime", label: "Time", ph: "11:00 a.m." }, { id: "place", label: "Place", ph: "Registered office" }, { id: "ndate", label: "Date of the notice", type: "date" }, { id: "chair", label: "Chairman of the meeting" },
+      { id: "nmem", label: "Members present in person", type: "number" }, { id: "nprox", label: "Members present by proxy or representative", type: "number" },
+      { id: "res", label: "Resolutions (one per line: text | Ordinary or Special)", type: "textarea" }, { id: "mode", label: "How the vote was taken", type: "select", opts: [["a show of hands", "Show of hands"], ["a poll", "Poll"], ["remote e-voting and a poll", "E-voting and poll"]] }, { id: "mend", label: "Time the meeting ended", ph: "12:00 noon" }, { id: "sdate", label: "Date of signing", type: "date" }],
+    notes: ["Minutes are signed by the Chairman within thirty days of the meeting (Secretarial Standard 2).", "File Form MGT-14 within thirty days for each special resolution."],
+    build(v) {
+      const out = header(v);
+      out.push(T(`MINUTES OF THE EXTRAORDINARY GENERAL MEETING HELD ON ${vd(v, "egmdate", "date").toUpperCase()}${v.mtime ? " AT " + v.mtime.toUpperCase() : ""} AT ${PLACE(v).toUpperCase()}`));
+      out.push(P(`**Present:** ${v.nmem ? inrFmt(v.nmem) : "[number]"} members in person and ${v.nprox ? inrFmt(v.nprox) : "[number]"} by proxy or representative, as per the attendance register, and the directors and officers named in it.`));
+      out.push(P(`${va(v, "chair", "name")} took the chair. The Chairman noted that the requisite quorum was present, called the meeting to order, and, with the consent of the members, took the notice dated ${vd(v, "ndate", "date")} convening the meeting as read.`));
+      LN("res")(v).forEach((x, i) => { const a = x.split("|"), k = /special/i.test(a[1] || "") ? "Special" : "Ordinary"; out.push(P(`**${i + 1}.** The Chairman placed the following resolution before the members as ${k === "Special" ? "a Special" : "an Ordinary"} Resolution:`), P(a[0].trim().replace(/^RESOLVED THAT/i, "**RESOLVED THAT**")), P(`The resolution was put to vote by ${va(v, "mode", "mode")} and, the requisite majority having voted in favour, the Chairman declared it **carried** as ${k === "Special" ? "a Special" : "an Ordinary"} Resolution.`)); });
+      out.push(P(`There being no other business, the meeting ended${v.mend ? " at " + v.mend : ""} with a vote of thanks to the Chair.`), S(), L("Date: " + vd(v, "sdate", "date")), L("Place: " + PLACE(v)), R("**" + va(v, "chair", "Chairman") + "**"), R("Chairman"));
+      return out;
+    },
+  },
+  {
+    id: "pbnotice", group: "Postal ballot", title: "Postal ballot notice and ballot form", short: "Notice, explanatory statement and the postal ballot form, with voting instructions.",
+    basis: "Section 110; Rules 20 and 22, Companies (Management and Administration) Rules, 2014; Secretarial Standard 2; Regulation 44 (listed companies)",
+    fields: [{ id: "ndate", label: "Date of notice", type: "date" }, { id: "cutoff", label: "Cut-off date for members entitled to vote", type: "date" }, { id: "vstart", label: "Voting starts on", type: "date" }, { id: "vend", label: "Voting ends on", type: "date" },
+      { id: "res", label: "Resolutions (one per line: text | Ordinary or Special)", type: "textarea" }, { id: "expl", label: "Explanatory statement (one paragraph per line)", type: "textarea" }, { id: "scr", label: "Scrutinizer's name" }, { id: "scrno", label: "Scrutinizer's membership or CP number" },
+      { id: "agency", label: "E-voting agency or platform", ph: "Name of the agency" }, { id: "email", label: "E-mail for the return of ballot forms and queries" }].concat(SG),
+    notes: ["Send the notice to every member as on the cut-off date, by e-mail where the company has the address, and give at least thirty days to vote (Secretarial Standard 2).", "Publish an advertisement about the postal ballot in a newspaper in English and in the local language (Rule 22(18)).", "The results go to the stock exchanges and on the website within two working days of the end of voting for a listed company. Use the MGT-13 scrutinizer's report generator."],
+    build(v) {
+      const out = header(v), res = LN("res")(v).map(x => x.split("|").map(y => y.trim()));
+      out.push(T("POSTAL BALLOT NOTICE"), C("[Pursuant to section 110 of the Companies Act, 2013 read with rule 22 of the Companies (Management and Administration) Rules, 2014]"), R("Date: " + vd(v, "ndate", "date")));
+      out.push(P(`**NOTICE** is hereby given to the members of **${CO(v)}** that the resolutions set out below are proposed to be passed by postal ballot, including voting by electronic means, under Section 110 and other applicable provisions of the Companies Act, 2013 and the Rules made under it. The explanatory statement under Section 102 is annexed.`));
+      (res.length ? res : [["[resolution text]", "Ordinary"]]).forEach((r, i) => { const k = /special/i.test(r[1] || "") ? "Special" : "Ordinary"; out.push(P(`**Item ${i + 1}: ${k} Resolution**`), P(r[0].replace(/^RESOLVED THAT/i, "**RESOLVED THAT**"))); });
+      out.push(P("**EXPLANATORY STATEMENT UNDER SECTION 102**")); const ex = LN("expl")(v); (ex.length ? ex : [GAP]).forEach(x => out.push(P(x)));
+      out.push(P("**Notes**"));
+      ["The notice is sent to the members whose names are on the register of members, or the list of beneficial owners, as on " + vd(v, "cutoff", "cut-off date") + ". A person who is not a member on that date should treat this notice as for information only.", `Voting rights are in proportion to the paid-up equity share capital held on the cut-off date.`, `Voting opens on ${vd(v, "vstart", "start date")} and closes on ${vd(v, "vend", "end date")} (5.00 p.m.). Remote e-voting through ${va(v, "agency", "agency")} is available for that period and is not allowed afterwards.`, `A member may instead complete the attached postal ballot form and send it in the enclosed envelope, or by e-mail to ${va(v, "email", "e-mail")}, so that it reaches the scrutinizer by the close of voting.`, `The Board has appointed ${va(v, "scr", "name")} (${va(v, "scrno", "membership or CP number")}) as the scrutinizer for a fair and transparent process.`, "The results will be announced within the time the law allows and posted on the website of the Company and the agency, and, for a listed company, sent to the stock exchanges."].forEach((x, i) => out.push(I(`${i + 1}. ${x}`)));
+      out.push(S(), L("By order of the Board"), ...SGN(v).slice(1));
+      out.push(PB(), C("**POSTAL BALLOT FORM**"), ...header(v));
+      out.push(TB([["Particulars", "Details"], ["1. Name and registered address of the sole or first-named member", ""], ["2. Name(s) of the joint holder(s), if any", ""], ["3. Registered folio number or DP ID and Client ID", ""], ["4. Number of shares held", ""]], [4500, 4500]));
+      out.push(P(`I/We hereby exercise my/our vote in respect of the resolutions set out in the notice dated ${vd(v, "ndate", "date")}, by recording my/our assent or dissent in the following manner:`));
+      out.push(TB([["Item no.", "Brief description of the resolution", "No. of shares", "I/We assent (For)", "I/We dissent (Against)"]].concat((res.length ? res : [["[resolution]", "Ordinary"]]).map((r, i) => [String(i + 1), r[0].replace(/^RESOLVED THAT\s*/i, "").slice(0, 110) + (r[0].length > 120 ? "..." : ""), "", "", ""])), [800, 4000, 1300, 1450, 1450]));
+      out.push(L("Place: ____________"), L("Date: ____________"), R("Signature of the member: ____________________"), S(), P("**Instructions:** Tick (✓) in the For or Against column against each item. A form that is incomplete, unsigned, defaced, or that marks both columns for an item is invalid for that item. Signatures must match the specimen on record. The form must reach the scrutinizer by the close of voting."));
+      return out;
+    },
+  },
+  {
+    id: "mgt12", group: "Prescribed formats", title: "Form MGT-12: Polling paper", short: "The polling paper in the layout of Form MGT-12.",
+    basis: "Section 109; Rule 21, Companies (Management and Administration) Rules, 2014",
+    fields: [{ id: "res", label: "Resolutions put to the poll (one per line)", type: "textarea" }],
+    notes: ["This follows the layout of Form MGT-12 as set out in the Rules. Compare it with the current form on the MCA website before use.", "One polling paper goes to each member who votes on the poll."],
+    build(v) {
+      const out = [C("**Form No. MGT-12**"), C("**POLLING PAPER**"), C("[Pursuant to section 109 of the Companies Act, 2013 and rule 21 of the Companies (Management and Administration) Rules, 2014]"), S(), ...header(v)];
+      out.push(C("**BALLOT PAPER**"));
+      out.push(TB([["S. No.", "Particulars", "Details"], ["1.", "Name of the first named shareholder (in block letters)", ""], ["2.", "Postal address", ""], ["3.", "Registered folio number / *Client ID number (*applicable to investors holding shares in dematerialised form)", ""], ["4.", "Class of share", ""]], [800, 5200, 3000]));
+      out.push(P("I hereby exercise my vote in respect of the Ordinary / Special resolution enumerated below by recording my assent or dissent to the said resolution in the following manner:"));
+      const r = LN("res")(v);
+      out.push(TB([["No.", "Item no.", "No. of shares held by me", "I assent to the resolution", "I dissent from the resolution"]].concat((r.length ? r : ["[item]"]).map((x, i) => [String(i + 1), x.slice(0, 90), "", "", ""])), [700, 3900, 1500, 1450, 1450]));
+      out.push(L("Place: ____________"), L("Date: ____________"), R("Signature of the shareholder: ____________________"));
+      return out;
+    },
+  },
+  {
+    id: "mgt13", group: "Prescribed formats", title: "Form MGT-13: Report of scrutinizer", short: "The scrutinizer's report on a poll or e-voting, in the layout of Form MGT-13.",
+    basis: "Sections 108 and 109; Rules 20 and 21, Companies (Management and Administration) Rules, 2014",
+    fields: [{ id: "kind", label: "Meeting", type: "select", opts: [["Annual General Meeting", "Annual General Meeting"], ["Extraordinary General Meeting", "Extraordinary General Meeting"], ["postal ballot", "Postal ballot"]] }, { id: "mdate", label: "Date of meeting or end of voting", type: "date" }, { id: "res", label: "Resolutions (one per line: text | Ordinary or Special)", type: "textarea" },
+      { id: "scr", label: "Scrutinizer's name" }, { id: "scraddr", label: "Scrutinizer's address", type: "textarea" }, { id: "scrno", label: "Membership or CP number" }, { id: "chair", label: "Chairman of the meeting" }],
+    notes: ["This follows the layout of Form MGT-13 as set out in the Rules: the same headings, the same order of paragraphs and the same result tables. Compare it with the current form on the MCA website before use.", "The report goes to the Chairman within the time the Rules allow after the voting ends (three working days for remote e-voting).", "The scrutinizer writes in the numbers. Nothing here is pre-filled."],
+    build(v) {
+      const out = [C("**Form No. MGT-13**"), C("**REPORT OF SCRUTINIZER(S)**"), C("[Pursuant to section 109 of the Companies Act, 2013 and rule 21 of the Companies (Management and Administration) Rules, 2014]"), S()];
+      out.push(L("To,"), L("The Chairman of the meeting,"), L(`${CO(v)}`), S());
+      out.push(P(`Sub.: Report on the voting by ${/postal/i.test(v.kind || "") ? "postal ballot and remote e-voting" : "poll and remote e-voting"} at the ${va(v, "kind", "meeting")} of **${CO(v)}** held on ${vd(v, "mdate", "date")}.`));
+      out.push(P(`I/We, ${va(v, "scr", "name")}, appointed as scrutinizer by the Chairman for the purpose of scrutinising the voting process at the above meeting, report as follows:`));
+      ["The ballot boxes, in which the poll papers were kept, were opened in my/our presence, found to be empty, and locked and sealed before the poll started. They were again locked and sealed in my/our presence after the poll closed.", "The poll papers received from the members, and the votes cast by remote e-voting, were reconciled with the register of members and the records of the Company and of the Registrar and Share Transfer Agent, and with the authorisations and proxies lodged with the Company.", "The poll papers that were incomplete, defective, unsigned or otherwise invalid are separately listed and were not counted. The number of such papers is: ____________.", "The result of the voting on each resolution is given below."].forEach((x, i) => out.push(I(`${i + 1}. ${x}`)));
+      const r = LN("res")(v).map(x => x.split("|").map(y => y.trim()));
+      (r.length ? r : [["[resolution]", "Ordinary"]]).forEach((x, i) => {
+        out.push(L(`**Resolution no. ${i + 1}: ${/special/i.test(x[1] || "") ? "Special" : "Ordinary"} Resolution** ${x[0].slice(0, 120)}`));
+        out.push(TB([["Particulars", "Total number of members / votes", "Votes in favour", "Votes against", "Invalid votes"], ["Number of members who voted", "", "", "", ""], ["Number of valid votes (shares)", "", "", "", ""], ["Percentage of the total valid votes", "100%", "", "", ""]], [3000, 1800, 1400, 1400, 1400]));
+      });
+      ["A compact disc (or a soft copy) listing the shareholders who voted For, who voted Against, and whose votes were invalid, for each resolution, is enclosed.", "The poll papers, the other relevant records and the e-voting data were sealed and handed over to the Company Secretary, or to the director authorised by the Board, for safe custody."].forEach((x, i) => out.push(I(`${i + 5}. ${x}`)));
+      out.push(S(), L("Place: ____________"), L("Date: ____________"), R("Signature of the Scrutinizer: ____________________"), R(`**${va(v, "scr", "Name")}**`), R(va(v, "scrno", "Membership or CP number")), R((v.scraddr || "").replace(/\n+/g, ", ") || "[address]"), S(), L("Received and countersigned by the Chairman:"), R(`**${va(v, "chair", "Chairman")}**`));
+      return out;
+    },
+  },
+  {
+    id: "mr3", group: "Prescribed formats", title: "Form MR-3: Secretarial audit report", short: "The secretarial audit report in the layout of Form MR-3, with Annexure A.",
+    basis: "Section 204(1), Companies Act, 2013; Rule 9, Companies (Appointment and Remuneration of Managerial Personnel) Rules, 2014",
+    fields: [{ id: "fyend", label: "Financial year ended on", type: "date" }, { id: "listed", label: "Is the company listed?", type: "select", opts: [["yes", "Yes, listed"], ["no", "No, unlisted"]] }, { id: "other", label: "Other laws specifically applicable to the company (one per line)", type: "textarea" },
+      { id: "obs", label: "Observations on the compliances above (one per line, or leave blank for none)", type: "textarea" }, { id: "events", label: "Specific events during the period (one per line: public or preferential issue, buy-back, section 180 decisions, merger, foreign collaboration)", type: "textarea" },
+      { id: "place", label: "Place" }, { id: "date", label: "Date of report", type: "date" }, { id: "csname", label: "Name of the Company Secretary in practice or firm" }, { id: "memno", label: "ACS/FCS number" }, { id: "cpno", label: "CP number" }, { id: "udin", label: "UDIN" }],
+    notes: ["This follows the layout of Form MR-3 as set out in the Rules: the same opening, the same list of laws, the same 'I further report' paragraphs and the same Annexure A. Compare it with the current form on the MCA website.", "Listed companies must also follow the SEBI requirements for the secretarial audit report, and for the annual secretarial compliance report under Regulation 24A.", "Remove from the list any law that does not apply to the company."],
+    build(v) {
+      const co = CO(v), fy = vd(v, "fyend", "date"), listed = v.listed !== "no";
+      const out = [C("**Form No. MR-3**"), C("**SECRETARIAL AUDIT REPORT**"), C(`FOR THE FINANCIAL YEAR ENDED ${fy.toUpperCase()}`), C("[Pursuant to section 204(1) of the Companies Act, 2013 and rule No. 9 of the Companies (Appointment and Remuneration Personnel) Rules, 2014]"), S(), L("To,"), L("The Members,"), L("**" + co + "**"), ...(v.ro ? [L(v.ro.replace(/\n+/g, ", "))] : []), S()];
+      out.push(P(`I have conducted the secretarial audit of the compliance of applicable statutory provisions and the adherence to good corporate practices by **${co}** (hereinafter called the Company). Secretarial Audit was conducted in a manner that provided me a reasonable basis for evaluating the corporate conducts/statutory compliances and expressing my opinion thereon.`));
+      out.push(P(`Based on my verification of the Company's books, papers, minute books, forms and returns filed and other records maintained by the Company and also the information provided by the Company, its officers, agents and authorised representatives during the conduct of secretarial audit, I hereby report that in my opinion, the Company has, during the audit period covering the financial year ended on ${fy} complied with the statutory provisions listed hereunder and also that the Company has proper Board-processes and compliance-mechanism in place to the extent, in the manner and subject to the reporting made hereinafter:`));
+      out.push(P(`I have examined the books, papers, minute books, forms and returns filed and other records maintained by ${co} for the financial year ended on ${fy} according to the provisions of:`));
+      const laws = ["The Companies Act, 2013 (the Act) and the rules made thereunder;", "The Securities Contracts (Regulation) Act, 1956 ('SCRA') and the rules made thereunder;", "The Depositories Act, 1996 and the Regulations and Bye-laws framed thereunder;", "Foreign Exchange Management Act, 1999 and the rules and regulations made thereunder to the extent of Foreign Direct Investment, Overseas Direct Investment and External Commercial Borrowings;"];
+      if (listed) laws.push("The following Regulations and Guidelines prescribed under the Securities and Exchange Board of India Act, 1992 ('SEBI Act'):", "(a) The Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 2011;", "(b) The Securities and Exchange Board of India (Prohibition of Insider Trading) Regulations, 2015;", "(c) The Securities and Exchange Board of India (Issue of Capital and Disclosure Requirements) Regulations, 2018;", "(d) The Securities and Exchange Board of India (Share Based Employee Benefits and Sweat Equity) Regulations, 2021;", "(e) The Securities and Exchange Board of India (Issue and Listing of Non-Convertible Securities) Regulations, 2021;", "(f) The Securities and Exchange Board of India (Registrars to an Issue and Share Transfer Agents) Regulations, 1993;", "(g) The Securities and Exchange Board of India (Delisting of Equity Shares) Regulations, 2021;", "(h) The Securities and Exchange Board of India (Buyback of Securities) Regulations, 2018;");
+      const RM = ["i", "ii", "iii", "iv", "v", "vi", "vii"]; let ln = 0;
+      laws.forEach(x => { if (/^\(/.test(x)) out.push(I(x, 2)); else out.push(I(`(${RM[ln++]}) ${x}`)); });
+      const oth = LN("other")(v); out.push(I(`(${RM[ln++]}) The other laws specifically applicable to the Company: ${oth.length ? "" : "[list]"}`)); oth.forEach(x => out.push(I("- " + x, 2)));
+      out.push(P("I have also examined compliance with the applicable clauses of the following:"), I("(i) Secretarial Standards issued by The Institute of Company Secretaries of India."), I("(ii) " + (listed ? "The Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 and the Listing Agreements entered into by the Company with the Stock Exchanges." : "The Listing Agreements, if any (not applicable to an unlisted company).")));
+      const ob = LN("obs")(v);
+      out.push(P("During the period under review the Company has complied with the provisions of the Act, Rules, Regulations, Guidelines, Standards, etc. mentioned above" + (ob.length ? " subject to the following observations:" : ".")));
+      ob.forEach((x, i) => out.push(I(`${i + 1}. ${x}`)));
+      out.push(P("I further report that:"));
+      out.push(P("The Board of Directors of the Company is duly constituted with proper balance of Executive Directors, Non-Executive Directors and Independent Directors. The changes in the composition of the Board of Directors that took place during the period under review were carried out in compliance with the provisions of the Act."));
+      out.push(P("Adequate notice is given to all directors to schedule the Board Meetings, agenda and detailed notes on agenda were sent at least seven days in advance, and a system exists for seeking and obtaining further information and clarifications on the agenda items before the meeting and for meaningful participation at the meeting."));
+      out.push(P("Majority decision is carried through while the dissenting members' views are captured and recorded as part of the minutes."));
+      out.push(P("I further report that there are adequate systems and processes in the Company commensurate with the size and operations of the Company to monitor and ensure compliance with applicable laws, rules, regulations and guidelines."));
+      const ev = LN("events")(v);
+      out.push(P("I further report that during the audit period the Company has had the following specific events/actions having a major bearing on the Company's affairs in pursuance of the above referred laws, rules, regulations, guidelines, standards, etc.:"));
+      (ev.length ? ev : ["Public/Rights/preferential issue of shares/debentures/sweat equity, etc.: [details or nil]", "Redemption/buy-back of securities: [details or nil]", "Major decisions taken by the members in pursuance to Section 180 of the Companies Act, 2013: [details or nil]", "Merger/amalgamation/reconstruction, etc.: [details or nil]", "Foreign technical collaborations: [details or nil]"]).forEach((x, i) => out.push(I(`(${["i", "ii", "iii", "iv", "v", "vi", "vii", "viii"][i] || i + 1}) ${x}`)));
+      out.push(S(), L("Place: " + va(v, "place", "place")), L("Date: " + vd(v, "date", "date")), R("**" + va(v, "csname", "Name of the Company Secretary in practice") + "**"), R("ACS/FCS No.: " + va(v, "memno", "number")), R("C.P. No.: " + va(v, "cpno", "number")), R("UDIN: " + va(v, "udin", "UDIN")));
+      out.push(P("**Note:** This report is to be read with my letter of even date which is annexed as Annexure A and forms an integral part of this report."));
+      out.push(PB(), C("**Annexure A**"), L("To,"), L("The Members,"), L("**" + co + "**"), S(), P("My report of even date is to be read along with this letter."));
+      ["Maintenance of secretarial record is the responsibility of the management of the Company. My responsibility is to express an opinion on these secretarial records based on my audit.", "I have followed the audit practices and processes as were appropriate to obtain reasonable assurance about the correctness of the contents of the secretarial records. The verification was done on test basis to ensure that correct facts are reflected in secretarial records. I believe that the processes and practices, I followed provide a reasonable basis for my opinion.", "I have not verified the correctness and appropriateness of financial records and books of accounts of the Company.", "Wherever required, I have obtained the management representation about the compliance of laws, rules and regulations and happening of events, etc.", "The compliance of the provisions of corporate and other applicable laws, rules, regulations, standards is the responsibility of management. My examination was limited to the verification of procedure on test basis.", "The Secretarial Audit report is neither an assurance as to the future viability of the Company nor of the efficacy or effectiveness with which the management has conducted the affairs of the Company."].forEach((x, i) => out.push(P(`${i + 1}. ${x}`)));
+      out.push(S(), L("Place: " + va(v, "place", "place")), L("Date: " + vd(v, "date", "date")), R("**" + va(v, "csname", "Name") + "**"), R("ACS/FCS No.: " + va(v, "memno", "number")), R("C.P. No.: " + va(v, "cpno", "number")));
+      return out;
+    },
+  },
+  {
+    id: "rptpol", group: "Policies", title: "Related party transactions policy", short: "Policy on identifying, approving and reporting related party transactions.",
+    basis: "Section 188, Companies Act, 2013; Rule 15; Regulation 23, SEBI (LODR) Regulations, 2015",
+    fields: POL_FIELDS.slice(0, 2).concat([{ id: "limit", label: "Value above which the Board's approval is always needed (Rs.)", type: "number" }, { id: "omni", label: "Period for which the Audit Committee's omnibus approval is valid", ph: "one year" }, { id: "contact", label: "Name of the contact person", ph: "Company Secretary" }]),
+    notes: ["Listed companies must have this policy and put it on the website (Regulation 23). Others use it as good practice.", "Check the current thresholds in Rule 15 and in Regulation 23 before you fix the limits."],
+    build(v) {
+      const o = polHead(v, "POLICY ON RELATED PARTY TRANSACTIONS", "Under Section 188 of the Companies Act, 2013 and Regulation 23 of the SEBI (LODR) Regulations, 2015"); let n = 1;
+      clause(o, n++, "Purpose", `${CO(v)} wants every transaction with a related party to be fair, transparent and in the interest of the Company and its members. This policy sets out how such transactions are identified, approved and disclosed.`);
+      clause(o, n++, "Definitions", "'Related party' and 'related party transaction' have the meanings in Section 2(76) of the Companies Act, 2013 and, for a listed company, in Regulation 2(1)(zb) and (zc) of the SEBI (LODR) Regulations, 2015. 'Arm's length' means a transaction between two unrelated parties that is carried out in their own interests.");
+      clause(o, n++, "Identification", "Every director and key managerial personnel gives the Company Secretary a list of the persons and entities in which they or their relatives are interested, at the first Board meeting of each year and when anything changes. The Company keeps a list of related parties and updates it.");
+      clause(o, n++, "Approval of the Audit Committee", `Every related party transaction needs the prior approval of the Audit Committee. The Committee may give an omnibus approval for transactions that are repetitive in nature and in the ordinary course of business, valid for ${va(v, "omni", "period")}, as the law allows. Only independent directors on the Committee approve the transactions.`);
+      clause(o, n++, "Approval of the Board and the members", `A transaction that is not in the ordinary course of business or not at arm's length, or that is above ${v.limit ? "Rs. " + inrFmt(v.limit) : "[limit]"} or the thresholds in the law, goes to the Board. A transaction above the thresholds in Rule 15, or the material limit in Regulation 23, also needs the approval of the members by a resolution on which related parties do not vote.`);
+      clause(o, n++, "Transactions not approved in advance", "The Audit Committee may ratify a transaction that was entered into without prior approval only in the cases and within the time the law allows. The Company records the reasons.");
+      clause(o, n++, "Disclosure", "The Company discloses related party transactions in Form AOC-2 attached to the Board's report, in the financial statements as required by the accounting standards, and, for a listed company, to the stock exchanges every half year and on its website.");
+      clause(o, n++, "Review", `The Audit Committee reviews this policy at least once in three years. The contact person is ${va(v, "contact", "name")}.`);
+      return o;
+    },
+  },
+  {
+    id: "conduct", group: "Policies", title: "Code of conduct for directors and senior management", short: "A code with the duties of directors under Section 166 and the code for independent directors.",
+    basis: "Section 166 and Schedule IV, Companies Act, 2013; Regulation 17(5), SEBI (LODR) Regulations, 2015",
+    fields: POL_FIELDS,
+    notes: ["Listed companies must have a code of conduct for the Board and senior management, put it on the website, and take an annual affirmation of compliance (Regulation 26(3)).", "Independent directors must follow the code in Schedule IV."],
+    build(v) {
+      const o = polHead(v, "CODE OF CONDUCT FOR DIRECTORS AND SENIOR MANAGEMENT", "Under Section 166 and Schedule IV of the Companies Act, 2013 and Regulation 17(5) of the SEBI (LODR) Regulations, 2015"); let n = 1;
+      clause(o, n++, "Who it applies to", `All the directors and the senior management of ${CO(v)}. Independent directors also follow the Code for Independent Directors in Schedule IV.`);
+      clause(o, n++, "Act in good faith", "A director acts in accordance with the articles of the Company, in good faith, to promote the objects of the Company for the benefit of its members as a whole, and in the best interests of the Company, its employees, the members, the community and the protection of the environment (Section 166(2)).");
+      clause(o, n++, "Care and independent judgement", "A director exercises duties with due and reasonable care, skill and diligence and exercises independent judgement (Section 166(3)).");
+      clause(o, n++, "Conflicts of interest", "A director must not be in a situation in which he or she has, or can have, a direct or indirect interest that conflicts, or may conflict, with the interest of the Company, and must disclose any interest under Section 184 (Section 166(4)).");
+      clause(o, n++, "No undue gain", "A director must not achieve or attempt to achieve any undue gain or advantage, either to himself or herself or to relatives, partners or associates, and must pay back any such gain to the Company if it is made (Section 166(5)).");
+      clause(o, n++, "No assignment of office", "A director must not assign his or her office, and any assignment is void (Section 166(6)).");
+      clause(o, n++, "Confidentiality and insider information", "Directors and senior management keep the Company's confidential information safe, do not use it for personal gain, and follow the Company's code to regulate and monitor trading in its securities.");
+      clause(o, n++, "Compliance with laws", "Directors and senior management follow the laws that apply to the Company, and report any breach that they become aware of.");
+      clause(o, n++, "Additional duties of independent directors", "In addition, an independent director follows Schedule IV: he or she helps bring an independent judgement to Board deliberations, safeguards the interests of all the stakeholders, particularly the minority shareholders, attends the meetings, and does not seek to benefit from the Company other than as the law allows.");
+      clause(o, n++, "Annual affirmation", `Every director and every member of the senior management confirms in writing each year that he or she has complied with this Code. The confirmations go to ${va(v, "contact", "the Company Secretary")} at ${va(v, "email", "e-mail")}.`);
+      return o;
+    },
+  },
+  {
+    id: "matpol", group: "Policies", title: "Policy for determining materiality of events", short: "Policy for deciding which events and information the company must disclose to the exchanges.",
+    basis: "Regulation 30, SEBI (LODR) Regulations, 2015",
+    fields: POL_FIELDS.slice(0, 2).concat([{ id: "kmp", label: "Key managerial personnel authorised to decide on disclosure (one per line)", type: "textarea" }, { id: "contact", label: "Name of the contact person", ph: "Company Secretary" }, { id: "email", label: "E-mail of the contact person" }]),
+    notes: ["Only listed companies need this policy (Regulation 30(4)(ii)). Put it on the website.", "Check the current tests of materiality in Regulation 30(4)(i), and the list of events in Part A of Schedule III, before you adopt this."],
+    build(v) {
+      const o = polHead(v, "POLICY FOR DETERMINATION OF MATERIALITY OF EVENTS OR INFORMATION", "Under Regulation 30 of the SEBI (LODR) Regulations, 2015"); let n = 1;
+      clause(o, n++, "Purpose", `${CO(v)} wants to give the stock exchanges and the market timely and accurate information about events that matter. This policy sets the criteria for deciding when an event or information is material.`);
+      clause(o, n++, "Events that are always disclosed", "The events in Para A of Part A of Schedule III to the Regulations, such as an acquisition, a change in the capital, a scheme of arrangement, a change in the directors or key managerial personnel, a fraud or default, and the outcome of the Board meeting, are disclosed without a test of materiality, within the time the Regulations give.");
+      clause(o, n++, "Events disclosed if material", "The events in Para B of Part A of Schedule III are disclosed when they are material under the tests in Regulation 30(4)(i): the omission of the event is likely to result in a discontinuity or alteration of an event already in the public domain, or in the opinion of the Board the event is likely to affect the market, or the value of the event or information crosses the lower of two per cent of turnover, two per cent of net worth, or five per cent of the average of the absolute value of profit or loss after tax of the last three financial years, as stated in the Regulations.");
+      clause(o, n++, "Other events", "Any other information that is price sensitive, or that the Board thinks it would be fair to share, is also disclosed.");
+      clause(o, n++, "Who decides", "The following officers decide whether an event is material and make the disclosure, and their contact details are on the website:"); NUMLIST(o, LN("kmp")(v), "[officer]");
+      clause(o, n++, "Time of disclosure", "The Company discloses as soon as it can, and in any case within thirty minutes of the close of the Board meeting for its outcome, within twelve hours for events that happen outside the Company, and within twenty-four hours for the others, as Regulation 30(6) says.");
+      clause(o, n++, "Website and records", `The Company keeps the disclosures on its website for at least five years and then as its archival policy says. The contact person is ${va(v, "contact", "name")} (${va(v, "email", "e-mail")}).`);
+      clause(o, n++, "Review", "The Board reviews this policy at least once a year and when the Regulations change.");
+      return o;
+    },
+  },
+);
+/* ---------- batch 4: secretarial letters (own wording) ---------- */
+const LF = [{ id: "ldate", label: "Date of letter", type: "date" }, { id: "ref", label: "Reference number (optional)" }];
+const LSG = [{ id: "sname", label: "Name of the signatory" }, { id: "sdes", label: "Designation", ph: "Company Secretary" }];
+function letter(v, to, subject, paras, closing) {
+  const o = header(v);
+  o.push(L("Ref: " + ((v.ref || "").trim() || "[number]")), R("Date: " + vd(v, "ldate", "date")), S(), L("To,"));
+  to.forEach(x => o.push(L(x))); o.push(S(), P("**Subject: " + subject + "**"), S(), L("Dear Sir / Madam,"), S());
+  paras.forEach(x => o.push(P(x))); o.push(S(), L(closing || "Yours faithfully,"), R("For **" + CO(v) + "**"), S(), S(), R("**" + va(v, "sname", "name") + "**"), R(va(v, "sdes", "designation")));
+  return o;
+}
+const ROC = v => ["The Registrar of Companies,", va(v, "roc", "ROC office, city"), ...(v.rocaddr ? [v.rocaddr.replace(/\n+/g, ", ")] : [])];
+const ROCF = [{ id: "roc", label: "Registrar of Companies office", ph: "RoC Mumbai" }];
+const dirName = v => va(v, "dname", "name of director");
+
+GENS.push(
+  {
+    id: "l-rocreply", group: "Letters to the Registrar and exchanges", title: "Reply to a notice from the Registrar", short: "A reply to a notice or query from the ROC, point by point.",
+    basis: "Sections 206, 207 and 454, Companies Act, 2013 (as the notice states)",
+    fields: ROCF.concat([{ id: "nno", label: "Notice number" }, { id: "ndate", label: "Date of notice", type: "date" }, { id: "nsec", label: "Section the notice is issued under" }, { id: "points", label: "Your reply to each point in the notice (one per line)", type: "textarea" }, { id: "encl", label: "Documents enclosed (one per line)", type: "textarea" }], LF, LSG),
+    notes: ["Reply within the time the notice gives. If you need more time, write for an extension before the date.", "Send the reply through the MCA portal if the notice asks for it."],
+    build(v) {
+      const pts = LN("points")(v), en = LN("encl")(v);
+      const o = letter(v, ROC(v), `Reply to notice no. ${va(v, "nno", "number")} dated ${vd(v, "ndate", "date")} issued under Section ${va(v, "nsec", "section")} of the Companies Act, 2013 to ${CO(v)}${v.cin ? " (CIN: " + v.cin + ")" : ""}`,
+        [`We refer to your notice mentioned above. We thank you for giving us the opportunity to explain, and we submit our reply to each point in it.`]);
+      const i = o.findIndex(b => b.k === "L" && b.t === "Yours faithfully,");
+      const add = []; (pts.length ? pts : ["[reply to the point]"]).forEach((x, k) => add.push(I(`${k + 1}. ${x}`)));
+      add.push(P("We request you to take our reply on record and to close the matter. We are ready to give any further information or documents that you may need."));
+      if (en.length) { add.push(P("**Enclosures**")); en.forEach((x, k) => add.push(I(`${k + 1}. ${x}`))); }
+      o.splice(i - 1, 0, ...add); return o;
+    },
+  },
+  {
+    id: "l-rocrect", group: "Letters to the Registrar and exchanges", title: "Request to the Registrar to correct a record", short: "A request to correct an error in the company's record, or in a filed form.",
+    basis: "Section 403 and Section 7(5)/(6) as applicable; the MCA's procedure for rectification",
+    fields: ROCF.concat([{ id: "what", label: "What is wrong (form, SRN and the error)", type: "textarea" }, { id: "right", label: "What it should say", type: "textarea" }, { id: "why", label: "How the error happened", type: "textarea" }, { id: "encl", label: "Documents enclosed (one per line)", type: "textarea" }], LF, LSG),
+    notes: ["Many corrections are made by filing the form again or a specific rectification form on the MCA portal. Use this letter with that filing or where the portal needs a written request."],
+    build(v) {
+      const en = LN("encl")(v);
+      const o = letter(v, ROC(v), `Request to correct the record of ${CO(v)}${v.cin ? " (CIN: " + v.cin + ")" : ""}`, [`We write to bring to your notice an error in the record of the Company. ${va(v, "what", "describe the error")}`, `The correct position is: ${va(v, "right", "correct details")}`, `The error happened because ${va(v, "why", "explain how it happened")}. It was not intended to mislead anyone.`, "We request you to correct the record. We attach the documents that support the correction." + (en.length ? " The documents are: " + en.join("; ") + "." : "")]);
+      return o;
+    },
+  },
+  {
+    id: "l-bm29", group: "Letters to the Registrar and exchanges", title: "Intimation to the stock exchange of a Board meeting", short: "Prior intimation of a Board meeting and its purpose under Regulation 29.",
+    basis: "Regulation 29, SEBI (LODR) Regulations, 2015",
+    fields: [{ id: "exch", label: "Stock exchange(s)", ph: "BSE Limited / National Stock Exchange of India Limited" }, { id: "scrip", label: "Scrip code and symbol" }, { id: "mdate", label: "Date of Board meeting", type: "date" }, { id: "purpose", label: "Purpose (one per line)", type: "textarea", ph: "To consider and approve the financial results for the quarter ended 30 September" }, { id: "window", label: "Trading window closed from", type: "date" }].concat(LF, LSG),
+    notes: ["Give at least two clear working days' notice, excluding the date of the intimation and of the meeting, for the items in Regulation 29(1) (check the current rule).", "For a meeting on financial results, also check the notice period for the trading window under the insider trading regulations."],
+    build(v) {
+      return letter(v, ["The Listing Department,", va(v, "exch", "stock exchange"), ""], `Intimation of a Board meeting under Regulation 29 of the SEBI (LODR) Regulations, 2015 (Scrip code: ${va(v, "scrip", "code and symbol")})`, [`Pursuant to Regulation 29 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, we inform you that a meeting of the Board of Directors of the Company will be held on **${vd(v, "mdate", "date")}**, to consider the following:`].concat(LN("purpose")(v).map((x, i) => `${i + 1}. ${x}`)).concat(v.window ? [`The trading window for dealing in the securities of the Company has been closed from ${vd(v, "window", "date")} for the designated persons, as the insider trading code requires, and will open 48 hours after the results are made public.`] : []).concat(["Kindly take this on record."]));
+    },
+  },
+  {
+    id: "l-outcome", group: "Letters to the Registrar and exchanges", title: "Outcome of Board meeting to the stock exchange", short: "Intimation of the decisions of a Board meeting under Regulation 30.",
+    basis: "Regulation 30 and Part A of Schedule III, SEBI (LODR) Regulations, 2015",
+    fields: [{ id: "exch", label: "Stock exchange(s)" }, { id: "scrip", label: "Scrip code and symbol" }, { id: "mdate", label: "Date of Board meeting", type: "date" }, { id: "start", label: "Meeting commenced at", ph: "11:00 a.m." }, { id: "end", label: "Meeting concluded at", ph: "1:30 p.m." }, { id: "dec", label: "Decisions (one per line)", type: "textarea" }].concat(LF, LSG),
+    notes: ["File the outcome within thirty minutes of the close of the meeting (Regulation 30(6)). Attach the financial results and the auditor's limited review report if the meeting approved them."],
+    build(v) {
+      return letter(v, ["The Listing Department,", va(v, "exch", "stock exchange"), ""], `Outcome of the Board meeting held on ${vd(v, "mdate", "date")} (Scrip code: ${va(v, "scrip", "code and symbol")})`, [`Pursuant to Regulations 30 and 33 and other applicable provisions of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, we inform you that the Board of Directors, at its meeting held today, ${vd(v, "mdate", "date")}, which commenced at ${va(v, "start", "time")} and concluded at ${va(v, "end", "time")}, has considered and approved the following:`].concat(LN("dec")(v).map((x, i) => `${i + 1}. ${x}`)).concat(["Kindly take this on record."]));
+    },
+  },
+  {
+    id: "l-auditorint", group: "Letters to directors, auditors and members", title: "Intimation of appointment to the auditor", short: "The letter that tells the auditor of the appointment, under Section 139(1).",
+    basis: "Section 139(1) and (2); Rule 4, Companies (Audit and Auditors) Rules, 2014",
+    fields: [{ id: "firm", label: "Name of the auditor or firm" }, { id: "faddr", label: "Address of the auditor", type: "textarea" }, { id: "agmno", label: "Which AGM appointed them", ph: "fifth" }, { id: "agmdate", label: "Date of that AGM", type: "date" }, { id: "from", label: "Financial year they start with", ph: "2026-27" }, { id: "to", label: "Appointed until the AGM for the year", ph: "2030-31" }].concat(LF, LSG),
+    notes: ["The company must inform the auditor of the appointment, and the auditor must file Form ADT-1 within fifteen days of the meeting. If your auditor is reappointed, say so in place of 'appointed'."],
+    build(v) {
+      return letter(v, [va(v, "firm", "auditor"), (v.faddr || "[address]").replace(/\n+/g, ", ")], `Intimation of your appointment as statutory auditor of ${CO(v)}`, [`We are pleased to inform you that the members of the Company, at the ${va(v, "agmno", "number")} Annual General Meeting held on ${vd(v, "agmdate", "date")}, have appointed you as the statutory auditor of the Company under Section 139(1) of the Companies Act, 2013, from the financial year ${va(v, "from", "year")}, to hold office until the conclusion of the Annual General Meeting for the financial year ${va(v, "to", "year")}.`, "As Rule 4 requires, we ask you to file Form ADT-1 with the Registrar of Companies within fifteen days of the meeting. Please send us a copy of the filing. We also ask you to confirm that your appointment is in line with Section 141 of the Act.", "We look forward to your work with us."]);
+    },
+  },
+  {
+    id: "l-indapp", group: "Letters to directors, auditors and members", title: "Letter of appointment of an independent director", short: "A letter of appointment with the terms Schedule IV requires.",
+    basis: "Section 149(4), (6) and (7); Schedule IV (Part VI), Companies Act, 2013; Regulation 17(1A) and 25 (listed companies)",
+    fields: [{ id: "dname", label: "Name of the director" }, { id: "daddr", label: "Address", type: "textarea" }, { id: "adate", label: "Date of appointment", type: "date" }, { id: "tenure", label: "Term", ph: "five consecutive years" }, { id: "fee", label: "Sitting fee per meeting (Rs.)", type: "number" }, { id: "commits", label: "Committees (one per line)", type: "textarea" }, { id: "mdate", label: "Date of the Board resolution", type: "date" }].concat(LF, LSG),
+    notes: ["Schedule IV requires a formal letter of appointment with these terms, and the company must put the terms on its website. Independent directors are not eligible for stock options and cannot take a commission linked to profits in some cases. Check the current rules."],
+    build(v) {
+      const c = LN("commits")(v), o = letter(v, [dirName(v), (v.daddr || "[address]").replace(/\n+/g, ", ")], `Appointment as an Independent Director of ${CO(v)}`, [`We are glad to inform you that the Board of Directors, at its meeting held on ${vd(v, "mdate", "date")}, appointed you as a Non-Executive Independent Director of the Company with effect from ${vd(v, "adate", "date")}, for a term of ${va(v, "tenure", "term")}, subject to the approval of the members. This letter sets out the terms of the appointment, as Schedule IV to the Companies Act, 2013 requires.`]);
+      const i = o.findIndex(b => b.k === "L" && b.t === "Yours faithfully,"), a = [];
+      [["Term", "Your term is as stated above. You are not liable to retire by rotation. A second term needs a special resolution of the members, after the Board has found that you still meet the criteria."], ["Expected role", "You will bring independent judgement to the Board's deliberations on strategy, performance, risk management, resources, key appointments and standards of conduct. You will help the Board protect the interests of all the stakeholders, especially the minority shareholders."], ["Committees", c.length ? "You are a member of the following committees: " + c.join("; ") + "." : "The Board may ask you to serve on its committees."], ["Code of conduct", "You will follow the Code for Independent Directors in Schedule IV, the Company's code of conduct, and the duties of directors in Section 166."], ["Time", "You are expected to attend all the Board and committee meetings and the general meetings, and to give the time the role needs."], ["Fees", `You will get a sitting fee of ${v.fee ? "Rs. " + inrFmt(v.fee) : "[amount]"} for each Board and committee meeting you attend, and reimbursement of your reasonable expenses. You will not get stock options.`], ["Disclosures", "You will give the Company a declaration of independence at the first meeting of each financial year and when anything changes, and a notice of disclosure of interest under Section 184. You will inform the Company at once if you cease to meet the criteria of independence."], ["Insurance and indemnity", "The Company will include you in its directors' and officers' liability insurance, if it has one, as the law allows."], ["Confidentiality and insider information", "You will keep the Company's information confidential and follow its code to regulate and monitor trading in its securities."], ["Termination", "Your office ends if you resign, are removed as the Act allows, or become disqualified. The Company will put the terms of this appointment on its website."]].forEach((x, k) => a.push(P(`**${k + 1}. ${x[0]}.** ${x[1]}`)));
+      a.push(P("Please sign and return a copy of this letter to show your acceptance of the terms.")); o.splice(i - 1, 0, ...a);
+      o.push(S(), L("I accept the terms of this appointment."), L("Signature: ____________________"), L("Name: " + dirName(v)), L("Date: ____________")); return o;
+    },
+  },
+  {
+    id: "l-kmp", group: "Letters to directors, auditors and members", title: "Appointment letter for Company Secretary or CFO", short: "An appointment letter for a key managerial person, with the main terms.",
+    basis: "Sections 203 and 2(51), Companies Act, 2013; Rule 8 and 8A, Companies (Appointment and Remuneration of Managerial Personnel) Rules, 2014",
+    fields: [{ id: "dname", label: "Name of the appointee" }, { id: "daddr", label: "Address", type: "textarea" }, { id: "post", label: "Post", type: "select", opts: [["Company Secretary", "Company Secretary"], ["Chief Financial Officer", "Chief Financial Officer"], ["Chief Executive Officer", "Chief Executive Officer"], ["Manager", "Manager"]] }, { id: "adate", label: "Date of joining", type: "date" }, { id: "mdate", label: "Date of Board resolution", type: "date" }, { id: "pay", label: "Annual cost to company (Rs.)", type: "number" }, { id: "notice", label: "Notice period", ph: "three months" }, { id: "probation", label: "Probation", ph: "six months" }].concat(LF, LSG),
+    notes: ["Key managerial personnel must be appointed by a Board resolution that sets the terms. File Form DIR-12 within thirty days of the appointment.", "A Company Secretary must be a member of the ICSI. Add your standard HR terms to this letter."],
+    build(v) {
+      const o = letter(v, [dirName(v), (v.daddr || "[address]").replace(/\n+/g, ", ")], `Appointment as ${va(v, "post", "post")}`, [`We are pleased to inform you that the Board of Directors of the Company, at its meeting held on ${vd(v, "mdate", "date")}, has appointed you as the **${va(v, "post", "post")}** of the Company, a key managerial personnel under Section 203 of the Companies Act, 2013, with effect from ${vd(v, "adate", "date")}, on the terms below.`]);
+      const i = o.findIndex(b => b.k === "L" && b.t === "Yours faithfully,"), a = [];
+      [["Duties", "You will perform the duties that the Companies Act, 2013 and the other laws give to your office, the duties the Board gives you, and the duties in the Company's policies. You will report to the Board."], ["Remuneration", `Your annual cost to company is ${v.pay ? vmoney(v, "pay") : "[amount]"}, with the breakup in the annexure. Deductions are made as the law requires.`], ["Probation", `You are on probation for ${va(v, "probation", "period")}. The Company will confirm you in writing.`], ["Working hours and place", "Your place of work is the registered office of the Company or such other place as the Company may decide. You will give the time that the role needs."], ["Confidentiality and conflicts", "You will keep the Company's information confidential, will not work for another employer without our written consent, and will disclose any interest that conflicts with the Company's."], ["Notice period", `Either side may end the appointment by giving ${va(v, "notice", "notice")} of notice, or pay in lieu of notice. The Company may end the appointment at once for misconduct.`], ["Filing", "The Company will file Form DIR-12 with the Registrar of Companies within thirty days of your appointment."]].forEach((x, k) => a.push(P(`**${k + 1}. ${x[0]}.** ${x[1]}`)));
+      a.push(P("Please sign and return a copy of this letter to show your acceptance.")); o.splice(i - 1, 0, ...a);
+      o.push(S(), L("I accept the appointment on these terms."), L("Signature: ____________________"), L("Name: " + dirName(v)), L("Date: ____________")); return o;
+    },
+  },
+  {
+    id: "l-dresign", group: "Letters to directors, auditors and members", title: "Resignation letter of a director", short: "A director's resignation letter with the DIR-11 reminder, and a reply acknowledging it.",
+    basis: "Section 168, Companies Act, 2013; Rule 16, Companies (Appointment and Qualification of Directors) Rules, 2014",
+    fields: [{ id: "dname", label: "Name of the director" }, { id: "din", label: "DIN" }, { id: "rdate", label: "Date the resignation takes effect", type: "date" }, { id: "reason", label: "Reason (optional)", ph: "Personal reasons / other commitments" }, { id: "chair", label: "Chairman or person the letter is addressed to", ph: "The Chairman" }].concat(LF),
+    notes: ["The resignation takes effect from the date the Company receives the notice, or the date in the notice if it is later. The director may also file Form DIR-11, and the Company must file Form DIR-12 within thirty days.", "A director who resigns may put the reasons in DIR-11. The Company must also state the reasons in the Board's report."],
+    build(v) {
+      const o = header(v);
+      o.push(R("Date: " + vd(v, "ldate", "date")), S(), L("To,"), L(va(v, "chair", "The Chairman")), L("The Board of Directors,"), L(CO(v)), S(), P(`**Subject: Resignation from the office of Director**`), S(), L("Dear Sir,"), S());
+      o.push(P(`I, ${dirName(v)} (DIN: ${va(v, "din", "DIN")}), give notice under Section 168 of the Companies Act, 2013 of my resignation from the office of Director of ${CO(v)}, with effect from ${vd(v, "rdate", "date")}${v.reason ? ", for the following reason: " + v.reason : ""}.`), P("I request you to accept my resignation, to record it in the minutes of the next Board meeting, and to file the necessary form with the Registrar of Companies. I will also file Form DIR-11 myself. I thank the Board and the Company for the opportunity to serve."), S(), L("Yours faithfully,"), S(), S(), L("____________________"), L("**" + dirName(v) + "**"), L("DIN: " + va(v, "din", "DIN")));
+      o.push(PB(), ...header(v), R("Date: ____________"), S(), L("To,"), L(dirName(v)), S(), P("**Subject: Acknowledgement of your resignation**"), S(), L("Dear Sir,"), S(), P(`We acknowledge your letter of resignation from the office of Director of ${CO(v)}, received on ____________, with effect from ${vd(v, "rdate", "date")}. The Board will take it on record at its next meeting, and the Company will file Form DIR-12 within thirty days. We thank you for your contribution.`), S(), L("Yours faithfully,"), R("For **" + CO(v) + "**"), S(), S(), R("Director / Company Secretary"));
+      return o;
+    },
+  },
+  {
+    id: "l-bank", group: "Other letters", title: "Letter to the bank for opening an account", short: "A request to open a current account, with the authorised signatories and documents listed.",
+    basis: "Board resolution (Section 179(3) and Companies (Meetings of Board and its Powers) Rules, 2014) and the bank's own requirements",
+    fields: [{ id: "bank", label: "Name of the bank" }, { id: "branch", label: "Branch and address", type: "textarea" }, { id: "acct", label: "Type of account", ph: "Current account" }, { id: "mode", label: "Mode of operation", ph: "Jointly by any two of the authorised signatories" }, { id: "signs", label: "Authorised signatories (one per line)", type: "textarea" }, { id: "rdate", label: "Date of Board resolution", type: "date" }].concat(LF, LSG),
+    notes: ["Every bank has its own account-opening form and know-your-customer papers. This letter goes with them."],
+    build(v) {
+      return letter(v, ["The Branch Manager,", va(v, "bank", "bank"), (v.branch || "[branch address]").replace(/\n+/g, ", ")], `Request to open a ${va(v, "acct", "current account")} in the name of ${CO(v)}`, [`The Board of Directors of the Company, at its meeting held on ${vd(v, "rdate", "date")}, resolved to open a ${va(v, "acct", "current account")} with your branch. We request you to open the account. A certified copy of the resolution is enclosed.`, "The following persons are authorised to operate the account, and their specimen signatures are on the form attached:"].concat(LN("signs")(v).map((x, i) => `${i + 1}. ${x}`)).concat([`The account will be operated: ${va(v, "mode", "mode of operation")}.`, "We enclose the following documents: certificate of incorporation; memorandum and articles of association; PAN of the Company; the Board resolution; the KYC documents and photographs of the authorised signatories; proof of the address of the registered office; and the specimen signature card."]));
+    },
+  },
+  {
+    id: "l-noc", group: "Other letters", title: "No-objection letter from the owner of the registered office", short: "The owner's consent to use the premises as the registered office (attaches to INC-22).",
+    basis: "Section 12(1) and (2); Rule 25, Companies (Incorporation) Rules, 2014 (Form INC-22)",
+    fields: [{ id: "owner", label: "Name of the owner of the premises" }, { id: "oaddr", label: "Address of the owner", type: "textarea" }, { id: "prem", label: "Address of the premises", type: "textarea" }, { id: "tenure", label: "Term of use", ph: "from 1 April 2026 for 11 months" }, { id: "basis", label: "Basis of use", type: "select", opts: [["on rent", "On rent"], ["free of charge", "Free of charge"], ["under a lease", "Under a lease"]] }].concat(LF),
+    notes: ["File this with Form INC-22 along with a recent utility bill (not more than two months old) for the premises and the rent or lease agreement if there is one. The owner signs on their own letterhead."],
+    build(v) {
+      const o = header({ company: "", cin: "", ro: "" }).slice(0, 0);
+      o.push(R("Date: " + vd(v, "ldate", "date")), S(), L("To,"), L("The Registrar of Companies"), S(), P("**Subject: No-objection certificate for the use of premises as the registered office of " + CO(v) + "**"), S(), L("Dear Sir,"), S());
+      o.push(P(`I, ${va(v, "owner", "name")}, of ${(v.oaddr || "[address]").replace(/\n+/g, ", ")}, am the owner of the premises at ${(v.prem || "[address of premises]").replace(/\n+/g, ", ")}. I state that I have no objection to ${CO(v)} using these premises as its registered office ${va(v, "basis", "basis")}, for the term ${va(v, "tenure", "term")}.`), P("I confirm that I have given this consent of my own free will, and that the premises are in my lawful possession and can be used for this purpose."), S(), L("Yours faithfully,"), S(), S(), L("____________________"), L("**" + va(v, "owner", "Owner") + "**"), L("PAN: ____________"), L("Address: " + (v.oaddr || "[address]").replace(/\n+/g, ", ")), L("Date: ____________"));
+      return o;
+    },
+  },
+  {
+    id: "l-dirdisc", group: "Letters to directors, auditors and members", title: "Request to directors for annual disclosures", short: "A letter asking each director for MBP-1 and DIR-8, with the dates.",
+    basis: "Sections 184(1) and 164(2); Rule 9, Companies (Meetings of Board and its Powers) Rules, 2014; Rule 14, Companies (Appointment and Qualification of Directors) Rules, 2014",
+    fields: [{ id: "fy", label: "Financial year", ph: "2026-27" }, { id: "due", label: "Please send by", type: "date" }, { id: "bmdate", label: "First Board meeting of the year", type: "date" }].concat(LF, LSG),
+    notes: ["The notice in Form MBP-1 is given at the first Board meeting of every financial year and whenever it changes. Form DIR-8 is given at the first Board meeting after the appointment, and then each year."],
+    build(v) {
+      const o = header(v); o.push(L("Ref: " + ((v.ref || "").trim() || "[number]")), R("Date: " + vd(v, "ldate", "date")), S(), L("To,"), L("All the Directors,"), L(CO(v)), S(), P(`**Subject: Annual disclosures for the financial year ${va(v, "fy", "year")}**`), S(), L("Dear Sir / Madam,"), S());
+      o.push(P(`The law needs each director to give the Company certain notices and declarations at the first Board meeting of every financial year, which will be held on ${vd(v, "bmdate", "date")}. Please send them to us by **${vd(v, "due", "date")}**:`));
+      ["**Form MBP-1:** notice of disclosure of interest under Section 184(1), listing the companies, bodies corporate, firms and other associations in which you are interested, and any change since the last notice.", "**Form DIR-8:** your declaration that you are not disqualified from being a director under Section 164(2).", "**Declaration of independence** (independent directors only) under Section 149(7), with the details in Schedule IV.", "A list of the directorships and committee memberships you hold, for the Board's report and the corporate governance report (listed companies)."].forEach((x, i) => o.push(I(`${i + 1}. ${x}`)));
+      o.push(P("The Company will keep the forms in the register of directors' interests and place them before the Board. Please tell us at once if anything changes during the year."), S(), L("Yours faithfully,"), R("For **" + CO(v) + "**"), S(), S(), R("**" + va(v, "sname", "name") + "**"), R(va(v, "sdes", "designation")));
+      return o;
+    },
+  },
+  {
+    id: "l-kyc", group: "Letters to directors, auditors and members", title: "Letter to members to update their details", short: "A request to update PAN, e-mail, bank details and nomination, and to dematerialise.",
+    basis: "Section 88; Section 72 (nomination); Rules 9 and 10 of the Companies (Prospectus and Allotment of Securities) Rules, 2014; SEBI circulars for listed companies",
+    fields: [{ id: "due", label: "Please reply by", type: "date" }, { id: "contact", label: "Whom to contact" }, { id: "email", label: "E-mail for replies" }, { id: "listed", label: "Company type", type: "select", opts: [["unlisted", "Unlisted"], ["listed", "Listed"]] }].concat(LF, LSG),
+    notes: ["For an unlisted company, the Rules require every holder of securities to dematerialise before they transfer or are offered securities (check Rule 9B). For a listed company, follow the SEBI circular on KYC for physical holders."],
+    build(v) {
+      const o = header(v); o.push(L("Ref: " + ((v.ref || "").trim() || "[number]")), R("Date: " + vd(v, "ldate", "date")), S(), L("To,"), L("The Member"), L("[Name and address of the member]"), L("Folio no.: ____________"), S(), P("**Subject: Please update your details with the Company**"), S(), L("Dear Member,"), S());
+      o.push(P(`We keep the register of members under Section 88 of the Companies Act, 2013 and need correct details for every member, so that notices, dividends and other benefits reach you. Please send us the following by **${vd(v, "due", "date")}** to ${va(v, "contact", "contact")} at ${va(v, "email", "e-mail")}:`));
+      ["PAN, with a self-attested copy of the PAN card.", "E-mail address and mobile number, for sending notices and annual reports electronically.", "Bank account details (account number, name of the bank and branch, and IFSC), with a cancelled cheque, for paying dividends directly into your account.", "Nomination under Section 72 of the Act, if you have not nominated, or any change in your nomination.", "Specimen signature, if it has changed.", v.listed === "listed" ? "If you hold shares in physical form, please follow the KYC steps that SEBI requires. We encourage you to hold your shares in dematerialised form." : "If you hold shares in physical form, we encourage you to dematerialise them, which makes transfers and holding easier."].forEach((x, i) => o.push(I(`${i + 1}. ${x}`)));
+      o.push(P("If your address has changed, or if you have moved your shares to someone else, please tell us."), S(), L("Yours faithfully,"), R("For **" + CO(v) + "**"), S(), S(), R("**" + va(v, "sname", "name") + "**"), R(va(v, "sdes", "designation")));
+      return o;
+    },
+  },
+  {
+    id: "l-allotadv", group: "Letters to directors, auditors and members", title: "Allotment advice to the allottee", short: "A letter telling an applicant that shares were allotted, with the details.",
+    basis: "Section 39 (public issue) and Section 42 and Rule 14 (private placement); Section 56",
+    fields: [{ id: "allottee", label: "Name of the allottee" }, { id: "aaddr", label: "Address", type: "textarea" }, { id: "adate", label: "Date of allotment", type: "date" }, { id: "shares", label: "Number of shares allotted", type: "number" }, { id: "class", label: "Class of shares", def: "equity shares" }, { id: "fv", label: "Face value (Rs.)", type: "number" }, { id: "price", label: "Issue price (Rs.)", type: "number" }, { id: "recd", label: "Amount received (Rs.)", type: "number" }, { id: "folio", label: "Folio number" }, { id: "dp", label: "Credit to demat account (DP ID and Client ID), if any" }].concat(LF, LSG),
+    notes: ["Share certificates are due within two months of allotment (Section 56(4)) and the return of allotment in Form PAS-3 within the time the Rules allow (15 days for a private placement). Check the current rules for dematerialisation."],
+    build(v) {
+      return letter(v, [va(v, "allottee", "allottee"), (v.aaddr || "[address]").replace(/\n+/g, ", ")], `Allotment of ${va(v, "class", "shares")} of ${CO(v)}`, [`We are happy to inform you that the Board of Directors of the Company, at its meeting held on ${vd(v, "adate", "date")}, allotted to you **${vnum(v, "shares", "number")} ${va(v, "class", "class")}** of face value Rs. ${v.fv ? inrFmt(v.fv) : "[value]"} each, at an issue price of Rs. ${v.price ? inrFmt(v.price) : "[price]"} per share, against your application and the amount of ${v.recd ? vmoney(v, "recd") : "[amount]"} received.`, `Your folio number is ${va(v, "folio", "folio")}.${v.dp ? " The shares are being credited to your demat account " + v.dp + "." : " The share certificate will be sent to you within two months of the allotment."}`, "Please keep this letter for your records."]);
+    },
+  },
+  {
+    id: "l-unclaimed", group: "Letters to directors, auditors and members", title: "Reminder to members about unclaimed dividend", short: "A reminder before unclaimed dividend and shares go to the IEPF.",
+    basis: "Sections 124 and 125, Companies Act, 2013; Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016",
+    fields: [{ id: "fy", label: "Financial year of the dividend", ph: "2019-20" }, { id: "due", label: "Claim before", type: "date" }, { id: "iepf", label: "Date on which the amount and the shares will be transferred", type: "date" }, { id: "contact", label: "Whom to contact" }, { id: "email", label: "E-mail for claims" }].concat(LF, LSG),
+    notes: ["Dividend that stays unpaid or unclaimed for seven years goes to the IEPF, and so do the shares on which dividend has not been claimed for seven consecutive years. Send individual notices to the members concerned and publish a newspaper notice, as the Rules require."],
+    build(v) {
+      const o = header(v); o.push(L("Ref: " + ((v.ref || "").trim() || "[number]")), R("Date: " + vd(v, "ldate", "date")), S(), L("To,"), L("The Member"), L("[Name and address]"), L("Folio no.: ____________"), S(), P("**Subject: Unclaimed dividend for the financial year " + va(v, "fy", "year") + "**"), S(), L("Dear Member,"), S());
+      o.push(P(`Our records show that you have not claimed the dividend for the financial year ${va(v, "fy", "year")}. Under Section 124 of the Companies Act, 2013, dividend that remains unclaimed for seven years must be transferred to the Investor Education and Protection Fund (IEPF), and under Section 124(6) the shares on which dividend has not been paid or claimed for seven consecutive years must also be transferred to the IEPF.`), P(`Please claim your dividend before **${vd(v, "due", "date")}** by writing to ${va(v, "contact", "contact")} at ${va(v, "email", "e-mail")}, with your folio number, a copy of your PAN, a cancelled cheque and a self-attested identity proof. If we do not hear from you, we will transfer the amount and the shares to the IEPF on or after ${vd(v, "iepf", "date")}. You may still claim them from the IEPF Authority afterwards by filing Form IEPF-5.`), S(), L("Yours faithfully,"), R("For **" + CO(v) + "**"), S(), S(), R("**" + va(v, "sname", "name") + "**"), R(va(v, "sdes", "designation")));
+      return o;
+    },
+  },
+  {
+    id: "l-transferdef", group: "Letters to directors, auditors and members", title: "Deficiency memo on a share transfer", short: "A letter returning transfer papers with the defects listed.",
+    basis: "Section 56, Companies Act, 2013; Rule 7, Companies (Share Capital and Debentures) Rules, 2014; Form SH-4",
+    fields: [{ id: "to", label: "Name of the person who lodged the transfer" }, { id: "taddr", label: "Address", type: "textarea" }, { id: "ldt", label: "Date the transfer was lodged", type: "date" }, { id: "from", label: "Transferor" }, { id: "tt", label: "Transferee" }, { id: "shares", label: "Number of shares", type: "number" }, { id: "defects", label: "Defects (one per line)", type: "textarea", def: "Signature of the transferor does not match the specimen\nStamp duty is not paid in full" }].concat(LF, LSG),
+    notes: ["The Company must send the notice of refusal or return within thirty days of receiving the instrument of transfer (Section 56(4)). The Board may refuse a transfer only for the reasons in the articles and the law."],
+    build(v) {
+      return letter(v, [va(v, "to", "name"), (v.taddr || "[address]").replace(/\n+/g, ", ")], `Share transfer papers returned: ${vnum(v, "shares", "number")} shares from ${va(v, "from", "transferor")} to ${va(v, "tt", "transferee")}`, [`We received the transfer deed (Form SH-4) on ${vd(v, "ldt", "date")} and the share certificate(s). We cannot register the transfer now because of the following defects:`].concat(LN("defects")(v).map((x, i) => `${i + 1}. ${x}`)).concat(["We return the papers with this letter. Please correct the defects and send the papers again. The Company will register the transfer once it has the complete papers, as the law and the articles of the Company allow."]));
+    },
+  },
+  {
+    id: "l-shortnotice", group: "Letters to directors, auditors and members", title: "Member's consent to shorter notice of a general meeting", short: "A consent from the member, with the 95% test, for a meeting on shorter notice.",
+    basis: "Section 101(1) proviso, Companies Act, 2013; Secretarial Standard 2",
+    fields: [{ id: "kind", label: "Meeting", type: "select", opts: [["Annual General Meeting", "Annual General Meeting"], ["Extraordinary General Meeting", "Extraordinary General Meeting"]] }, { id: "mdate", label: "Date of meeting", type: "date" }, { id: "mtime", label: "Time", ph: "11:00 a.m." }, { id: "venue", label: "Venue", type: "textarea" }, { id: "ndate", label: "Date of notice", type: "date" }, { id: "days", label: "Clear days of notice given", type: "number" }],
+    notes: ["A general meeting may be called on shorter notice if members holding at least ninety-five per cent of the paid-up share capital with voting rights (or, for a company without share capital, ninety-five per cent of the total voting power) consent in writing or electronically. For an AGM, ninety-five per cent of the members entitled to vote must consent. Keep every consent with the notice, and mention the consent in the minutes."],
+    build(v) {
+      const o = header(v); o.push(T("CONSENT TO SHORTER NOTICE OF A GENERAL MEETING"), R("Date: ____________"), S());
+      o.push(P(`I/We, the undersigned member(s) of **${CO(v)}**, entitled to vote at the ${va(v, "kind", "meeting")}, have seen the notice dated ${vd(v, "ndate", "date")}, which was given to me/us ${v.days ? inrFmt(v.days) : "[number]"} clear days before the meeting to be held on ${vd(v, "mdate", "date")} at ${va(v, "mtime", "time")} at ${va(v, "venue", "venue")}.`), P("Under the proviso to Section 101(1) of the Companies Act, 2013, I/we give my/our consent to the meeting being held on shorter notice than that which the Act requires, and I/we waive any objection to the shorter notice."));
+      o.push(TB([["Name of the member", "Folio no. / DP ID and Client ID", "Number of shares held", "Signature"], ["", "", "", ""], ["", "", "", ""], ["", "", "", ""], ["", "", "", ""]], [2800, 2600, 1800, 1800]));
+      return o;
+    },
+  },
+  {
+    id: "l-circular", group: "Meetings", title: "Resolution by circulation to the directors", short: "A draft resolution sent to the directors for approval, with a reply slip.",
+    basis: "Section 175, Companies Act, 2013; Secretarial Standard 1 (resolutions by circulation)",
+    fields: [{ id: "cdate", label: "Date of circulation", type: "date" }, { id: "last", label: "Reply by", type: "date" }, { id: "subject", label: "Subject of the resolution" }, { id: "text", label: "Text of the resolution", type: "textarea", ph: "RESOLVED THAT ..." }, { id: "why", label: "Why it cannot wait for a meeting", type: "textarea" }].concat(SG),
+    notes: ["Section 175 lets the Board pass a resolution by circulation if it has gone to all the directors, and a majority of the directors entitled to vote approve it. If one third or more of the directors ask for a meeting, the matter goes to a meeting. The resolution is noted at the next Board meeting.", "The matters in Section 179(3) and Rule 8 (such as issuing securities, borrowing and approving the financial statements) cannot be passed by circulation."],
+    build(v) {
+      const o = header(v);
+      o.push(T("RESOLUTION BY CIRCULATION"), C("[Section 175 of the Companies Act, 2013]"), R("Date: " + vd(v, "cdate", "date")), L("To all the directors"), S(), P(`**Subject: ${va(v, "subject", "subject")}**`));
+      o.push(P(`The Board is asked to approve the following resolution by circulation. ${va(v, "why", "[Why it cannot wait for the next meeting]")}`), P((v.text || "**RESOLVED THAT** [text]").replace(/^RESOLVED THAT/i, "**RESOLVED THAT**")));
+      o.push(P(`Please record your assent or dissent on the reply slip below and return it to the Company Secretary by **${vd(v, "last", "date")}**. If a director who is entitled to vote does not reply by then, the Company will take it that the director has not approved. If one third or more of the directors ask that the matter be decided at a meeting, it will be.`), ...SGN(v).slice(0, 4));
+      o.push(S(), C("**REPLY SLIP**"), L("To: The Company Secretary, " + CO(v)), L("I have read the resolution on: " + va(v, "subject", "subject")), L("I  assent / dissent from  the resolution (strike out one)."), S(), L("Name of the director: ____________________"), L("DIN: ____________"), L("Signature: ____________________"), L("Date: ____________"));
+      return o;
+    },
+  },
+  {
+    id: "l-greenmail", group: "Letters to directors, auditors and members", title: "Request for e-mail address for electronic notices", short: "A request to members to register an e-mail address, for sending notices and the annual report.",
+    basis: "Section 20; Rule 35, Companies (Incorporation) Rules, 2014; Rule 18, Companies (Management and Administration) Rules, 2014",
+    fields: [{ id: "email", label: "E-mail for replies" }, { id: "due", label: "Please reply by", type: "date" }].concat(LF, LSG),
+    notes: ["A member may ask for a document in a particular mode, and the Company must send it in that mode if the member pays the fee set in the articles. Keep every reply."],
+    build(v) {
+      const o = header(v); o.push(L("Ref: " + ((v.ref || "").trim() || "[number]")), R("Date: " + vd(v, "ldate", "date")), S(), L("To,"), L("The Member"), L("[Name and address]"), S(), P("**Subject: Receive notices and the annual report by e-mail**"), S(), L("Dear Member,"), S());
+      o.push(P(`The law allows us to send notices of general meetings, annual reports and other documents to you by e-mail. It saves paper and reaches you sooner. If you wish to get them this way, please send your e-mail address to ${va(v, "email", "e-mail")} by **${vd(v, "due", "date")}**, quoting your folio number or DP ID and Client ID. You may change your mind at any time by writing to us, and you may ask for a paper copy of any document free of charge.`), S(), L("Yours faithfully,"), R("For **" + CO(v) + "**"), S(), S(), R("**" + va(v, "sname", "name") + "**"), R(va(v, "sdes", "designation")));
+      return o;
+    },
+  },
+  {
+    id: "l-complaint", group: "Letters to directors, auditors and members", title: "Acknowledgement of an investor complaint", short: "A reply that acknowledges an investor complaint and says how and when it will be resolved.",
+    basis: "Regulation 13 and Regulation 20, SEBI (LODR) Regulations, 2015; SEBI circulars on investor grievances (SCORES)",
+    fields: [{ id: "to", label: "Name of the complainant" }, { id: "taddr", label: "Address", type: "textarea" }, { id: "cno", label: "Complaint number" }, { id: "cdt", label: "Date received", type: "date" }, { id: "about", label: "What the complaint is about", type: "textarea" }, { id: "days", label: "Days within which you will resolve it", type: "number", def: "21" }, { id: "contact", label: "Contact person" }].concat(LF, LSG),
+    notes: ["A listed company reports the complaints received and resolved every quarter. SEBI sets time limits for resolution, so check the current circular for your type of complaint."],
+    build(v) {
+      return letter(v, [va(v, "to", "name"), (v.taddr || "[address]").replace(/\n+/g, ", ")], `Your complaint no. ${va(v, "cno", "number")} dated ${vd(v, "cdt", "date")}`, [`We thank you for writing to us. We acknowledge your complaint received on ${vd(v, "cdt", "date")}, about the following: ${va(v, "about", "subject of the complaint")}`, `We have referred your complaint to the officer concerned and will send you our reply within ${v.days ? inrFmt(v.days) : "[number]"} days of receiving it. If you need to talk to us, please contact ${va(v, "contact", "contact person")} and quote the complaint number above.`, "If you are not satisfied with our reply, you may take up the matter on the SCORES portal of SEBI, or approach the appropriate forum."]);
+    },
+  },
+);
 
 
 /* ---------- blocks -> html (preview) and docx ---------- */
@@ -818,10 +1298,11 @@ function inlineHtml(t) { return esc(t).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>").re
 function blocksHtml(bs) {
   return bs.map(b => {
     if (b.k === "S") return '<p class="sp"></p>'; if (b.k === "PB") return '<hr class="pb">';
+    if (b.k === "TB") return '<table class="dt">' + b.rows.map((r, i) => '<tr>' + r.map(c => (i ? '<td>' : '<th>') + inlineHtml(c) + (i ? '</td>' : '</th>')).join('') + '</tr>').join('') + '</table>';
     const c = { T: "t", H: "h", P: "p", L: "l", C: "c", R: "r", I: "i" }[b.k]; return `<p class="${c}"${b.k === "I" ? ` style="margin-left:${2 * (b.n || 1)}rem"` : ""}>${inlineHtml(b.t)}</p>`;
   }).join("");
 }
-function blocksText(bs) { return bs.map(b => b.k === "S" || b.k === "PB" ? "" : String(b.t).replace(/\*\*/g, "")).join("\n").replace(/\n{3,}/g, "\n\n"); }
+function blocksText(bs) { return bs.map(b => b.k === "S" || b.k === "PB" ? "" : b.k === "TB" ? b.rows.map(r => r.join(" | ")).join("\n") : String(b.t).replace(/\*\*/g, "")).join("\n").replace(/\n{3,}/g, "\n\n"); }
 
 const X = s => String(s).replace(/[&<>]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c]));
 function runs(t, base) {
@@ -833,6 +1314,9 @@ function docxBody(bs) {
   return bs.map(b => {
     if (b.k === "PB") return '<w:p><w:r><w:br w:type="page"/></w:r></w:p>';
     if (b.k === "S") return '<w:p><w:pPr><w:spacing w:after="0"/></w:pPr></w:p>';
+    if (b.k === "TB") { const n = b.rows[0].length, tw = 9000, ws = b.w || b.rows[0].map(() => Math.floor(tw / n)); const bd = ["top", "left", "bottom", "right", "insideH", "insideV"].map(x => `<w:${x} w:val="single" w:sz="4" w:space="0" w:color="444444"/>`).join("");
+      return `<w:tbl><w:tblPr><w:tblW w:w="${ws.reduce((a, c) => a + c, 0)}" w:type="dxa"/><w:tblBorders>${bd}</w:tblBorders><w:tblLayout w:type="fixed"/><w:tblCellMar><w:left w:w="80" w:type="dxa"/><w:right w:w="80" w:type="dxa"/></w:tblCellMar></w:tblPr><w:tblGrid>${ws.map(w => `<w:gridCol w:w="${w}"/>`).join("")}</w:tblGrid>` +
+        b.rows.map((r, i) => `<w:tr>${r.map((c, j) => `<w:tc><w:tcPr><w:tcW w:w="${ws[j]}" w:type="dxa"/></w:tcPr><w:p><w:pPr><w:spacing w:after="40"/><w:jc w:val="left"/></w:pPr>${runs(c, i ? { sz: 20 } : { b: 1, sz: 20 })}</w:p></w:tc>`).join("")}</w:tr>`).join("") + `</w:tbl><w:p><w:pPr><w:spacing w:after="0"/></w:pPr></w:p>`; }
     const jc = { T: "center", H: "center", C: "center", P: "both", L: "left", R: "right", I: "both" }[b.k];
     const base = b.k === "T" ? { b: 1, u: 0, sz: 26 } : b.k === "H" ? { b: 1, sz: 26 } : {};
     const ind = b.k === "I" ? `<w:ind w:left="${720 * (b.n || 1)}"/>` : "";
@@ -963,7 +1447,7 @@ FONTS = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="p
 
 def shell(title, desc, active, body, script=""):
     nav = [("../", "Home", ""), ("../#/act", "Companies Act", ""), ("../#/forms", "Forms", ""), ("../#/processes", "Processes", ""),
-           ("../generators/", "Document generators", "gen"), ("../excel/", "Excel utilities", "xl"), ("../drafts/", "Drafts", "")]
+           ("../generators/", "Document generators", "gen"), ("../excel/", "Excel utilities", "xl"), ("../calendar/", "Compliance calendar", "cal"), ("../drafts/", "Drafts", "")]
     cur = ' aria-current="page"'
     links = "".join('<a href="%s"%s>%s</a>' % (h, cur if (k and k == active) else "", t) for h, t, k in nav)
     return f"""<!doctype html>
@@ -982,6 +1466,149 @@ def build_generators():
     body = '<div id="list"></div><div id="work" hidden></div>'
     (out / "index.html").write_text(shell("Document generators | Company Law Knowledge Lab", "Fill in a form and download an editable Word file: Board resolutions, notices, minutes, letter of authority and share certificate.", "gen", body, GEN_JS), encoding="utf-8")
     print("Document generators page written")
+
+
+CAL_JS = r"""
+"use strict";
+const $ = (s, r) => (r || document).querySelector(s);
+const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const store = { get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }, set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} } };
+const MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+const D = (y, m, d) => new Date(Date.UTC(y, m, d));
+const parse = s => { const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(s || ""); return m ? D(+m[1], +m[2] - 1, +m[3]) : null; };
+const addD = (d, n) => new Date(d.getTime() + n * 864e5);
+const addM = (d, n) => { const y = d.getUTCFullYear(), m = d.getUTCMonth() + n, day = d.getUTCDate(); const t = D(y, m, 1); const last = D(t.getUTCFullYear(), t.getUTCMonth() + 1, 0).getUTCDate(); return D(t.getUTCFullYear(), t.getUTCMonth(), Math.min(day, last)); };
+const addWD = (d, n) => { let x = d; while (n > 0) { x = addD(x, 1); const w = x.getUTCDay(); if (w !== 0 && w !== 6) n--; } return x; };
+const fmt = d => `${d.getUTCDate()} ${MON[d.getUTCMonth()]} ${d.getUTCFullYear()}`;
+const iso = d => d.toISOString().slice(0, 10);
+const ymd = d => iso(d).replace(/-/g, "");
+const today = (() => { const n = new Date(); return D(n.getFullYear(), n.getMonth(), n.getDate()); })();
+
+/* Each rule: who it applies to, the due date, and where it comes from. cat: Annual, Quarterly, Half-yearly, Event. */
+function annual(fyEnd, agm, c) {
+  const fyStart = addD(addM(fyEnd, -12), 1), L = c.listed, out = [];
+  const add = (cat, what, form, date, basis, note) => out.push({ cat, what, form, date, basis, note: note || "" });
+  const mar31 = (() => { let y = fyStart.getUTCFullYear(); let d = D(y, 2, 31); if (d < fyStart) d = D(y + 1, 2, 31); return d; })();
+  add("Annual", "Hold the Board meeting to approve the financial statements and the Board's report", "Board meeting", addD(agm, -22), "Sections 134 and 173", "Before the AGM notice goes out");
+  add("Annual", "Send the notice of the AGM to the members", "Notice", addD(agm, -22), "Section 101", "At least 21 clear days before the meeting");
+  add("Annual", "Hold the Annual General Meeting", "AGM", agm, "Section 96", "Within six months of the year end, and not more than 15 months after the last AGM");
+  add("Annual", "File the financial statements", "AOC-4", addD(agm, 30), "Section 137", "Within 30 days of the AGM");
+  add("Annual", "File the annual return", c.small ? "MGT-7A" : "MGT-7", addD(agm, 60), "Section 92", "Within 60 days of the AGM");
+  add("Annual", "File the notice of the auditor's appointment", "ADT-1", addD(agm, 15), "Section 139; Rule 4", "Within 15 days of the AGM, if the auditor was appointed or reappointed");
+  add("Annual", "File special resolutions passed at the AGM", "MGT-14", addD(agm, 30), "Section 117", "Within 30 days of the resolution");
+  add("Annual", "File the return of deposits and of money not treated as deposits", "DPT-3", D(mar31.getUTCFullYear(), 5, 30), "Rule 16 and 16A", "On or before 30 June, with data as on 31 March");
+  if (c.mr3) add("Annual", "Obtain the secretarial audit report", "MR-3", addD(agm, -22), "Section 204", "To go with the Board's report");
+  add("Half-yearly", "Return of payments to micro and small enterprises outstanding over 45 days: April to September", "MSME-1", D(mar31.getUTCFullYear() - 1, 9, 31), "Section 405", "By 31 October");
+  add("Half-yearly", "Return of payments to micro and small enterprises outstanding over 45 days: October to March", "MSME-1", D(mar31.getUTCFullYear(), 3, 30), "Section 405", "By 30 April");
+  if (L) {
+    for (let q = 1; q <= 4; q++) {
+      const qe = addM(fyEnd, -12 + 3 * q), qn = "Q" + q, yearEnd = q === 4;
+      add("Quarterly", `${qn}: financial results (quarter ended ${fmt(qe)})`, "Regulation 33", addD(qe, yearEnd ? 60 : 45), "Regulation 33, LODR", yearEnd ? "Within 60 days of the year end for the annual results" : "Within 45 days of the quarter end");
+      add("Quarterly", `${qn}: shareholding pattern`, "Regulation 31", addD(qe, 21), "Regulation 31, LODR", "Within 21 days of the quarter end");
+      add("Quarterly", `${qn}: corporate governance report`, "Regulation 27(2)", addD(qe, 21), "Regulation 27, LODR", "Within 21 days of the quarter end");
+      add("Quarterly", `${qn}: statement of investor complaints`, "Regulation 13(3)", addD(qe, 21), "Regulation 13, LODR", "Within 21 days of the quarter end");
+    }
+    add("Annual", "Annual secretarial compliance report to the exchanges", "Regulation 24A", addD(fyEnd, 60), "Regulation 24A, LODR", "Within 60 days of the year end");
+    add("Annual", "Send the annual report to the exchanges and the members", "Regulation 34", addD(agm, -22), "Regulation 34, LODR", "Not later than the day dispatch starts, and with the AGM notice");
+    add("Annual", "Report the voting results of the AGM to the exchanges", "Regulation 44(3)", addWD(agm, 2), "Regulation 44, LODR", "Within 2 working days of the meeting. Holidays are not counted here");
+  }
+  return out;
+}
+const EVENTS = [
+  ["Appointment of a director or key managerial personnel", "DIR-12", 30, "Section 170(2)", "Within 30 days"],
+  ["Resignation of a director (the company's filing)", "DIR-12", 30, "Section 168", "Within 30 days of receiving the notice"],
+  ["Passing of a special resolution", "MGT-14", 30, "Section 117", "Within 30 days"],
+  ["Allotment of shares by private placement", "PAS-3", 15, "Rule 14, Prospectus and Allotment Rules", "Within 15 days"],
+  ["Allotment of shares (other than private placement)", "PAS-3", 30, "Section 39(4)", "Within 30 days"],
+  ["Issue of share certificates after an allotment", "SH-1", "M2", "Section 56(4)", "Within 2 months of the allotment"],
+  ["Creation of a charge", "CHG-1", 30, "Section 77", "Within 30 days. A further 60 days with additional fee"],
+  ["Satisfaction of a charge", "CHG-4", 30, "Section 82", "Within 30 days"],
+  ["Change of the registered office within the same city", "INC-22", 30, "Section 12", "Within 30 days"],
+  ["Incorporation: first Board meeting", "Board meeting", 30, "Section 173(2)", "Within 30 days of incorporation"],
+  ["Incorporation: first auditor by the Board", "ADT-1", 30, "Section 139(6)", "Within 30 days of incorporation (members have 90 days if the Board does not)"],
+  ["Incorporation: declaration of commencement of business", "INC-20A", 180, "Section 10A", "Within 180 days of incorporation"],
+  ["Incorporation: issue of share certificates to the subscribers", "SH-1", "M2", "Section 56(4)", "Within 2 months of incorporation"],
+  ["Auditor's resignation (the auditor's filing)", "ADT-3", 30, "Section 140(2)", "Within 30 days of the resignation"],
+  ["Receipt of a declaration of significant beneficial ownership", "BEN-2", 30, "Section 90; SBO Rules", "Within 30 days of receiving BEN-1"],
+  ["Board meeting held (send the draft minutes)", "Draft minutes", 15, "Secretarial Standard 1", "Within 15 days of the meeting"],
+  ["Board meeting held (the chairman signs the minutes)", "Signed minutes", 30, "Secretarial Standard 1", "Within 30 days of the meeting"],
+  ["Share transfer instrument lodged", "Registration or refusal", 30, "Section 56(4)(c)", "Within 30 days. Send the notice of refusal in that time"],
+];
+let ROWS = [], PICK = {};
+function build() {
+  const fyEnd = parse($("#fy").value), agm = parse($("#agm").value);
+  if (!fyEnd || !agm) { $("#out").innerHTML = '<p class="small">Enter the year end and the AGM date.</p>'; return; }
+  const c = { listed: $("#kind").value === "listed", small: $("#kind").value === "small", mr3: $("#mr3").checked };
+  ROWS = annual(fyEnd, agm, c).sort((a, b) => a.date - b.date);
+  const ev = parse($("#evd").value), ei = +$("#evk").value;
+  if (ev && EVENTS[ei]) { const e = EVENTS[ei]; ROWS.push({ cat: "Event", what: e[0], form: e[1], date: e[2] === "M2" ? addM(ev, 2) : addD(ev, e[2]), basis: e[3], note: e[4] }); ROWS.sort((a, b) => a.date - b.date); }
+  ROWS.forEach((r, i) => { r.id = i; if (!(i in PICK)) PICK[i] = true; });
+  const cats = ["Annual", "Half-yearly", "Quarterly", "Event"];
+  $("#out").innerHTML = `<p class="small">${ROWS.length} dates. Tick the ones to put in your calendar file.</p><div class="tw"><table class="tbl"><thead><tr><th></th><th>Due date</th><th>What</th><th>Form or rule</th><th>Time left</th><th>Basis and note</th></tr></thead><tbody>` +
+    ROWS.map(r => { const n = Math.round((r.date - today) / 864e5); const t = n < 0 ? `<span class="over">${-n} days ago</span>` : n === 0 ? "Today" : n <= 15 ? `<span class="soon">${n} days</span>` : `${n} days`;
+      return `<tr><td><input type="checkbox" data-i="${r.id}" ${PICK[r.id] ? "checked" : ""} aria-label="Include"></td><td>${fmt(r.date)}</td><td>${esc(r.what)}</td><td>${esc(r.form)}</td><td>${t}</td><td>${esc(r.basis)}${r.note ? ". " + esc(r.note) : ""}</td></tr>`; }).join("") + "</tbody></table></div>";
+  store.set("cal_company", $("#co").value);
+}
+function ics() {
+  const co = ($("#co").value || "Company").replace(/[,;\\]/g, " ");
+  const L = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Company Law Knowledge Lab//Compliance calendar//EN", "CALSCALE:GREGORIAN"];
+  ROWS.filter(r => PICK[r.id]).forEach((r, i) => {
+    const t = s => String(s).replace(/\\/g, "\\\\").replace(/;/g, "\\;").replace(/,/g, "\\,").replace(/\n/g, "\\n");
+    L.push("BEGIN:VEVENT", `UID:${ymd(r.date)}-${i}-${r.id}@companylawlab`, `DTSTAMP:${ymd(today)}T000000Z`, `DTSTART;VALUE=DATE:${ymd(r.date)}`, `DTEND;VALUE=DATE:${ymd(addD(r.date, 1))}`,
+      `SUMMARY:${t(co + ": " + r.form + " due: " + r.what)}`, `DESCRIPTION:${t(r.basis + ". " + r.note + ". Check the current law before you rely on this date.")}`,
+      "BEGIN:VALARM", "ACTION:DISPLAY", `DESCRIPTION:${t(r.form + " is due in 7 days")}`, "TRIGGER:-P7D", "END:VALARM", "END:VEVENT");
+  });
+  L.push("END:VCALENDAR");
+  const blob = new Blob([L.join("\r\n")], { type: "text/calendar" }); const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = "compliance-calendar.ics"; document.body.appendChild(a); a.click(); a.remove();
+}
+function csv() {
+  const q = s => '"' + String(s).replace(/"/g, '""') + '"';
+  const lines = [["Due date", "What", "Form or rule", "Basis", "Note"].map(q).join(",")].concat(ROWS.filter(r => PICK[r.id]).map(r => [iso(r.date), r.what, r.form, r.basis, r.note].map(q).join(",")));
+  const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob(["\ufeff" + lines.join("\r\n")], { type: "text/csv" })); a.download = "compliance-calendar.csv"; document.body.appendChild(a); a.click(); a.remove();
+}
+function init() {
+  const sv = store.get("theme") || "auto"; document.documentElement.dataset.theme = sv;
+  document.querySelectorAll(".sw").forEach(b => { b.setAttribute("aria-pressed", String(b.dataset.t === sv)); b.onclick = () => { document.documentElement.dataset.theme = b.dataset.t; store.set("theme", b.dataset.t); document.querySelectorAll(".sw").forEach(x => x.setAttribute("aria-pressed", String(x === b))); }; });
+  const y = today.getUTCMonth() >= 3 ? today.getUTCFullYear() + 1 : today.getUTCFullYear();
+  $("#fy").value = `${y}-03-31`; $("#agm").value = `${y}-09-30`; $("#co").value = store.get("cal_company") || "";
+  $("#evk").innerHTML = EVENTS.map((e, i) => `<option value="${i}">${esc(e[0])}</option>`).join("");
+  $("#fy").onchange = () => { const f = parse($("#fy").value); if (f) $("#agm").value = iso(addM(f, 6)); build(); };
+  ["agm", "kind", "mr3", "evd", "evk", "co"].forEach(i => { $("#" + i).oninput = build; $("#" + i).onchange = build; });
+  $("#out").addEventListener("change", e => { const i = e.target.dataset && e.target.dataset.i; if (i != null) PICK[i] = e.target.checked; });
+  $("#dl").onclick = ics; $("#dc").onclick = csv; $("#pr").onclick = () => window.print();
+  build();
+}
+init();
+"""
+CAL_CSS = r"""
+.cols{grid-template-columns:minmax(17rem,22rem) minmax(0,1fr)}
+.tw{overflow-x:auto}
+.over{color:#a32514;font-weight:600}.soon{color:#8a5a00;font-weight:600}
+:root[data-theme=dark] .over{color:#ff9a8a}:root[data-theme=dark] .soon{color:#f0c060}
+.tbl td:first-child,.tbl th:first-child{width:2rem;text-align:center}
+@media print{.form,.actions{display:none!important}}
+"""
+
+
+def build_calendar():
+    out = SITE / "calendar"
+    out.mkdir(parents=True, exist_ok=True)
+    body = """<h1>Compliance calendar</h1>
+<p class="lede">Enter your year end and AGM date. The page lists the company-law filings and meetings with their due dates, and gives you a file for Google Calendar, Outlook or your phone, with a reminder seven days before each date.</p>
+<div class="cols"><form class="form" onsubmit="return false" autocomplete="off"><h2>Your company</h2>
+<div class="fld"><label for="co">Company name (for the calendar file)</label><input id="co" type="text" placeholder="ABC Private Limited"></div>
+<div class="fld"><label for="kind">Type of company</label><select id="kind"><option value="private">Private or unlisted public company</option><option value="small">Small company or One Person Company</option><option value="listed">Listed company</option></select></div>
+<div class="fld"><label><input id="mr3" type="checkbox" style="width:auto"> A secretarial audit applies (Section 204)</label></div>
+<div class="fld"><label for="fy">Financial year ends on</label><input id="fy" type="date"></div>
+<div class="fld"><label for="agm">AGM date (planned or held)</label><input id="agm" type="date"></div>
+<h2>One event</h2><p class="small">Add the deadline that follows from one event, such as an allotment or an appointment.</p>
+<div class="fld"><label for="evk">Event</label><select id="evk"></select></div>
+<div class="fld"><label for="evd">Date of the event</label><input id="evd" type="date"></div></form>
+<div><div class="actions"><button class="btn pri" id="dl" type="button">Download calendar file (.ics)</button><button class="btn" id="dc" type="button">Download as spreadsheet (.csv)</button><button class="btn" id="pr" type="button">Print</button></div>
+<div id="out"></div>
+<div class="check"><h2>Please note</h2><p class="small">The dates are the dates the Act, the Rules and the SEBI Regulations give, counted in calendar days from the event, and they assume a financial year ending on 31 March for the MSME-1 and DPT-3 dates. MCA and SEBI often extend dates or change them by circular. Public holidays are not counted. Check every date against the current law before you rely on it. The page does not store what you enter, except the company name in your browser. It is not legal advice.</p></div></div></div>"""
+    (out / "index.html").write_text(shell("Compliance calendar | Company Law Knowledge Lab", "Company-law due dates for your year end and AGM date, with a calendar file you can download.", "cal", body, CAL_JS).replace("</style>", CAL_CSS + "</style>", 1), encoding="utf-8")
+    print("Compliance calendar page written")
 
 
 # ---------------------------------------------------------------- Excel
@@ -1583,6 +2210,556 @@ def build_excel():
                ("If the investor is outside India, file the foreign investment return (FC-GPR)", "FEMA rules", "Within 30 days of the allotment", '=IF($B$7="","",$B$7+30)', "Company Secretary")],
               ["1. Fill in the four dates at the top as the round goes on.", "2. Each step shows its due date. Pick Yes when it is done and type the date.", "3. The valuation, the offer and the deadlines depend on the type of company and the kind of investor. Check each rule before you rely on it."])
 
+    # ======================================================================================
+    # Batch 2: filing attachment checklists, due diligence, MR-3 checklist, accounts workbooks
+    # ======================================================================================
+    from openpyxl.worksheet.datavalidation import DataValidation as _DV  # noqa: F401
+
+    def red_amber_green(ws, rng, first_cell, red=("Gap found",), amber=("Not provided",), green=("Verified", "Yes")):
+        for words, bg, fg in ((red, "F4B6AD", "8A1C0E"), (amber, "FFE08A", "5A4300"), (green, "B7E1C4", "134D2B")):
+            for w in words:
+                ws.conditional_formatting.add(rng, FormulaRule(formula=[f'{first_cell}="{w}"'], fill=PatternFill("solid", bgColor=bg, fgColor=bg), font=Font(color=fg, bold=(bg == "F4B6AD"))))
+
+    def status_workbook(fn, name, blurb, basis, areas, lines, group="Checklists"):
+        GRP[0] = group
+        wb = Workbook()
+        sm = wb.active
+        sm.title = "Summary"
+        title(sm, name, "Work through each sheet. This page counts the results for you.")
+        sm["A3"] = "Company name"
+        sm["A3"].font = Font(bold=True)
+        sm["B3"].fill = PatternFill("solid", fgColor=INPUT)
+        sm["B3"].border = BOX
+        sm["A4"] = "Date of the review"
+        sm["A4"].font = Font(bold=True)
+        sm["B4"].fill = PatternFill("solid", fgColor=INPUT)
+        sm["B4"].border = BOX
+        sm["B4"].number_format = DATEF
+        head(sm, 6, ["Area", "Items", "Verified", "Gap found", "Not provided", "Not applicable", "Still to check"], [46, 10, 12, 12, 14, 16, 16])
+        names = []
+        for k, (sname, rows) in enumerate(areas):
+            ws = wb.create_sheet(sname)
+            names.append((sname, len(rows)))
+            title(ws, f"{name}: {sname}", "Pick a status for each item. Record what you found in the last column.")
+            head(ws, 4, ["Sr", "What to check", "Law or provision", "Documents to ask for", "Status", "Finding or remarks"], [5, 62, 30, 44, 16, 44])
+            for i, (item, law, docs) in enumerate(rows):
+                r = 5 + i
+                ws.cell(row=r, column=1, value=i + 1)
+                ws.cell(row=r, column=2, value=item)
+                ws.cell(row=r, column=3, value=law)
+                ws.cell(row=r, column=4, value=docs)
+            last = 4 + len(rows) + 5
+            style_rows(ws, 5, last, 6, formula_cols=(1,), wrap_cols=(2, 3, 4, 6))
+            for r in range(5, 5 + len(rows)):
+                for c in (2, 3, 4):
+                    ws.cell(row=r, column=c).fill = PatternFill("solid", fgColor="FFFFFF")
+            dv = DataValidation(type="list", formula1='"Verified,Gap found,Not provided,Not applicable"', allow_blank=True)
+            ws.add_data_validation(dv)
+            dv.add(f"E5:E{last}")
+            red_amber_green(ws, f"E5:E{last}", "E5")
+            ws.freeze_panes = "C5"
+            q = "'" + sname + "'!"
+            r = 7 + k
+            sm.cell(row=r, column=1, value=sname)
+            sm.cell(row=r, column=2, value=f"=COUNTA({q}B5:B{4 + len(rows)})")
+            for j, w in enumerate(("Verified", "Gap found", "Not provided", "Not applicable")):
+                sm.cell(row=r, column=3 + j, value=f'=COUNTIF({q}E5:E{last},"{w}")')
+            sm.cell(row=r, column=7, value=f"=B{r}-SUM(C{r}:F{r})")
+        tr = 7 + len(areas)
+        sm.cell(row=tr, column=1, value="Total").font = Font(bold=True)
+        for c in range(2, 8):
+            L_ = get_column_letter(c)
+            sm.cell(row=tr, column=c, value=f"=SUM({L_}7:{L_}{tr - 1})").font = Font(bold=True)
+        style_rows(sm, 7, tr, 7, formula_cols=tuple(range(1, 8)))
+        red_amber_green(sm, f"D7:D{tr}", "D7", red=(), amber=(), green=())
+        sm.conditional_formatting.add(f"D7:D{tr}", FormulaRule(formula=["D7>0"], fill=PatternFill("solid", bgColor="F4B6AD", fgColor="F4B6AD"), font=Font(bold=True, color="8A1C0E")))
+        readme(wb, name, basis, lines)
+        save(wb, fn, name, blurb, basis, ["Summary"] + [n for n, _ in names])
+        return wb
+
+    def attach_workbook(fn, name, blurb, basis, forms, lines):
+        GRP[0] = "Checklists"
+        wb = Workbook()
+        ws = wb.active
+        ws.title = "Inputs"
+        title(ws, name, "Fill in the dates you know. Each form's sheet then shows its due date.")
+        labels = [("Company name", None), ("Financial year ends on", DATEF), ("AGM date (planned or held)", DATEF), ("Date of the resolution or Board meeting", DATEF),
+                  ("Date of appointment of a director, KMP or auditor", DATEF), ("Date of allotment of shares", DATEF), ("Date of incorporation", DATEF)]
+        inputs(ws, labels, 1, 2, 3)
+        ws.column_dimensions["A"].width = 50
+        ws.column_dimensions["B"].width = 24
+        ws["A11"] = "How it works"
+        ws["A11"].font = Font(bold=True)
+        ws["A12"] = "Each form has its own sheet. Pick Yes when the document is ready. The sheet counts what is still pending."
+        for sname, due_formula, due_text, form_basis, rows in forms:
+            s = wb.create_sheet(sname)
+            title(s, f"{sname}: documents to attach and keep", form_basis)
+            s["A3"] = "Due date"
+            s["A3"].font = Font(bold=True)
+            s["B3"] = due_formula if due_formula else "See the rule"
+            s["B3"].number_format = DATEF
+            s["B3"].fill = PatternFill("solid", fgColor=LIGHT)
+            s["B3"].border = BOX
+            s["C3"] = due_text
+            s["C3"].font = Font(italic=True, color="4B5A70")
+            s["A4"] = "Items still pending"
+            s["A4"].font = Font(bold=True)
+            n = len(rows)
+            s["B4"] = f'=COUNTA(B7:B{6 + n})-COUNTIF(E7:E{6 + n + 5},"Yes")-COUNTIF(E7:E{6 + n + 5},"Not applicable")'
+            s["B4"].fill = PatternFill("solid", fgColor=LIGHT)
+            s["B4"].border = BOX
+            head(s, 6, ["Sr", "Document or attachment", "When it is needed", "Prepared by or taken from", "Done?", "Remarks"], [5, 60, 36, 32, 14, 32])
+            for i, (doc, when, who) in enumerate(rows):
+                r = 7 + i
+                s.cell(row=r, column=1, value=i + 1)
+                s.cell(row=r, column=2, value=doc)
+                s.cell(row=r, column=3, value=when)
+                s.cell(row=r, column=4, value=who)
+            last = 6 + n + 5
+            style_rows(s, 7, last, 6, formula_cols=(1,), wrap_cols=(2, 3, 4, 6))
+            for r in range(7, 7 + n):
+                for c in (2, 3, 4):
+                    s.cell(row=r, column=c).fill = PatternFill("solid", fgColor="FFFFFF")
+            dv = DataValidation(type="list", formula1='"Yes,No,Not applicable"', allow_blank=True)
+            s.add_data_validation(dv)
+            dv.add(f"E7:E{last}")
+            red_amber_green(s, f"E7:E{last}", "E7", red=("No",), amber=(), green=("Yes",))
+            s.freeze_panes = "C7"
+        readme(wb, name, basis, lines)
+        save(wb, fn, name, blurb, basis, ["Inputs"] + [f[0] for f in forms])
+
+    IN = "Inputs!"
+    attach_workbook(
+        "roc-filing-attachments-checklist.xlsx", "ROC filings: documents to attach", "For each annual and event-based ROC form: the documents to prepare, the due date, and a count of what is still pending.",
+        "Companies Act, 2013 (sections 92, 117, 137, 139, 42, 12, 10A and others) and the Rules for each form",
+        [
+            ("AOC-4", f'=IF({IN}B5="","",{IN}B5+30)', "Within 30 days of the AGM (Section 137)", "Section 137; Rule 12, Companies (Accounts) Rules, 2014", [
+                ("Financial statements: balance sheet, statement of profit and loss, cash flow statement (if required), statement of changes in equity and notes, signed", "Always", "Finance team; signed by directors and CFO/CS"),
+                ("Auditor's report on the financial statements, with Annexures (CARO if it applies)", "Always", "Statutory auditor"),
+                ("Board's report with its annexures (including the AOC-2, CSR report and the MGT-9 extract if the company has no website)", "Always", "Company Secretary; Board"),
+                ("Consolidated financial statements and the auditor's report on them", "If the company has subsidiaries, associates or joint ventures (Section 129(3))", "Finance team; auditor"),
+                ("Statement of subsidiaries, associates and joint ventures in Form AOC-1", "If it has them", "Finance team"),
+                ("Secretarial audit report in Form MR-3", "Listed companies and the other classes in Rule 9", "Company Secretary in practice"),
+                ("Comments of the Comptroller and Auditor-General", "Government companies", "CAG"),
+                ("Financial statements in XBRL format", "Companies in the classes in Rule 3 of the XBRL Rules, 2015", "Finance team or consultant"),
+                ("Digital signatures and certification by a professional in practice, as the e-form requires", "As the current e-form says", "Directors; practising professional"),
+                ("Proof of fees and additional fees, if filed late", "If late", "Company Secretary"),
+            ]),
+            ("MGT-7 and MGT-7A", f'=IF({IN}B5="","",{IN}B5+60)', "Within 60 days of the AGM (Section 92)", "Section 92; Rule 11, Companies (Management and Administration) Rules, 2014", [
+                ("List of members and debenture holders as on the date of the AGM or the last date", "As the form requires", "Company Secretary"),
+                ("Details of the shares and debentures transferred since the last return", "Always", "Register of transfers"),
+                ("Details of the directors and key managerial personnel, and the changes in them in the year", "Always", "Register of directors"),
+                ("Remuneration of directors and key managerial personnel", "Always", "Finance team"),
+                ("Penalties or punishment imposed on the company, its directors or officers, and the compounding", "If any", "Company Secretary"),
+                ("Certificate of a Company Secretary in practice in Form MGT-8", "Listed companies and companies with paid-up capital of Rs. 10 crore or more or turnover of Rs. 50 crore or more (Section 92(2) and Rule 11)", "Company Secretary in practice"),
+                ("Approval for the extension of the AGM, if given", "If the AGM was held late with the Registrar's extension", "Registrar's order"),
+                ("Use Form MGT-7A, with no MGT-8, for One Person Companies and small companies", "If the company is one", "Company Secretary"),
+            ]),
+            ("ADT-1", f'=IF({IN}B7="","",{IN}B7+15)', "Within 15 days of the appointment (Section 139; Rule 4)", "Section 139; Rule 4, Companies (Audit and Auditors) Rules, 2014", [
+                ("Certified copy of the Board or members' resolution appointing the auditor", "Always", "Company Secretary"),
+                ("Written consent of the auditor", "Always", "Auditor"),
+                ("Certificate from the auditor that the appointment satisfies Section 141", "Always", "Auditor"),
+                ("Copy of the intimation sent by the company to the auditor", "Always", "Company Secretary"),
+                ("Peer review certificate", "Auditors of listed companies, as SEBI requires", "Auditor"),
+                ("Notice of the AGM and the explanatory statement", "If the appointment was made at the AGM", "Company Secretary"),
+            ]),
+            ("DPT-3", f'=IF({IN}B4="","",DATE(YEAR({IN}B4),6,30))', "On or before 30 June each year, with data as on 31 March (Rule 16 and 16A)", "Sections 73 to 76 and 179; Rule 16 and 16A, Companies (Acceptance of Deposits) Rules, 2014", [
+                ("Details of deposits outstanding on 31 March", "If the company has any", "Finance team"),
+                ("Details of money received that is not a deposit (Rule 2(1)(c)), such as loans from directors with the declaration of the source of funds", "Always", "Finance team"),
+                ("Audited balance sheet for the year", "Always", "Finance team"),
+                ("Auditor's certificate or report on the particulars", "As the form requires", "Statutory auditor"),
+                ("Declaration of the director from whom money is taken, that it is not out of borrowed funds", "If money was received from directors", "Directors"),
+            ]),
+            ("MGT-14", f'=IF({IN}B6="","",{IN}B6+30)', "Within 30 days of passing the resolution (Section 117)", "Section 117; Rule 24, Companies (Management and Administration) Rules, 2014", [
+                ("Certified true copy of the resolution", "Always", "Company Secretary"),
+                ("Notice of the meeting with the explanatory statement", "If passed at a meeting", "Company Secretary"),
+                ("Altered memorandum or articles of association", "If the resolution alters them", "Company Secretary"),
+                ("Copy of the Board resolution that approved the proposal", "Where the Act needs the Board's approval first", "Company Secretary"),
+                ("Draft agreement or papers the resolution approves", "If any", "Company"),
+                ("Valuation report", "Where the Act needs it, such as a preferential allotment", "Registered valuer"),
+            ]),
+            ("DIR-12", f'=IF({IN}B7="","",{IN}B7+30)', "Within 30 days of the appointment, change or cessation (Section 170(2))", "Section 170(2); Rule 18, Companies (Appointment and Qualification of Directors) Rules, 2014", [
+                ("Letter of appointment, and proof of the Board or members' resolution", "For an appointment", "Company Secretary"),
+                ("Consent of the director in Form DIR-2", "For a director's appointment", "Director"),
+                ("Notice of interest in Form MBP-1", "For a director's appointment", "Director"),
+                ("Declaration in Form DIR-8 that the director is not disqualified", "For a director's appointment", "Director"),
+                ("Declaration of independence under Section 149(7)", "For an independent director", "Director"),
+                ("Resignation letter, with proof that it was received", "For a resignation", "Director"),
+                ("Form DIR-11 filed by the director, if the director has filed it", "For a resignation", "Director"),
+                ("Letter of appointment or resignation of a key managerial personnel, with the Board resolution", "For key managerial personnel", "Company Secretary"),
+            ]),
+            ("PAS-3", f'=IF({IN}B8="","",{IN}B8+15)', "Within 15 days of a private placement or preferential allotment. For other allotments, within 30 days (Section 39(4))", "Sections 39 and 42; Rule 12 and 14, Companies (Prospectus and Allotment of Securities) Rules, 2014", [
+                ("List of allottees with name, address, number of shares, amount and the date of allotment", "Always", "Company Secretary"),
+                ("Board resolution allotting the shares", "Always", "Company Secretary"),
+                ("Special resolution approving the offer, and the MGT-14 receipt", "For a private placement or preferential allotment", "Company Secretary"),
+                ("Valuation report of a registered valuer", "For a preferential allotment, and a private placement where the Rules need it", "Registered valuer"),
+                ("Copies of the offer letters in Form PAS-4 and the record in Form PAS-5", "For a private placement", "Company Secretary"),
+                ("Copy of the contract and valuation, where shares are issued for consideration other than cash", "If any", "Company"),
+                ("Proof of receipt of the money from the investor's own bank account", "Keep with the file", "Bank statement"),
+            ]),
+            ("INC-20A", f'=IF({IN}B9="","",{IN}B9+180)', "Within 180 days of incorporation (Section 10A)", "Section 10A, Companies Act, 2013; Rule 23A, Companies (Incorporation) Rules, 2014", [
+                ("Declaration by a director that every subscriber has paid the value of the shares agreed to be taken by him", "Always", "Director"),
+                ("Bank statement or bank certificate showing the receipt of the subscription money from every subscriber", "Always", "Bank"),
+                ("Proof that the registered office is verified, with the INC-22 receipt", "Always", "Company Secretary"),
+                ("Certificate of a practising professional, if the e-form needs it", "As the current e-form says", "Practising professional"),
+            ]),
+        ],
+        ["1. Fill in the dates on the Inputs sheet that apply to the filing you are working on.", "2. Open the sheet for the form. The due date is shown at the top. Pick Yes against each document when it is ready.", "3. The lists come from the form and the Rules. MCA changes its e-forms often, so check the attachment tab of the current e-form before you file.", "4. The due dates are the dates the Act gives. Check whether any extension or exemption applies."])
+
+    DD = [
+        ("Incorporation and constitution", [
+            ("Certificate of incorporation, and any fresh certificates after a change of name or conversion", "Sections 7 and 13", "Certificates, MCA master data"),
+            ("Memorandum and articles of association, with every alteration, and the filing of each alteration", "Sections 4, 5, 13, 14", "MOA and AOA, MGT-14 receipts, INC-24 where the name changed"),
+            ("Objects clause covers the business actually carried on", "Section 4(1)(c)", "MOA, business description"),
+            ("Registered office, its proof, and the notice of any change (INC-22)", "Section 12", "INC-22, utility bill, lease deed"),
+            ("Commencement of business declaration (INC-20A) for a company incorporated after 2019", "Section 10A", "INC-20A receipt"),
+            ("Company's name, display of name and registered office on the premises and on its documents", "Section 12(3)", "Letterheads, board outside the office"),
+            ("Status as a private, public or small company, and the conditions for that status", "Sections 2(68), 2(71), 2(85)", "Articles; financial statements"),
+        ]),
+        ("Share capital and members", [
+            ("Authorised, issued, subscribed and paid-up capital agree to the register of members and to the financial statements", "Sections 2(8), 61", "Register of members, balance sheet"),
+            ("Each allotment: Board resolution, special resolution if needed, PAS-3, valuation, and money received through a bank", "Sections 39, 42, 62", "Allotment papers"),
+            ("Share certificates issued within two months, and the register of renewed and duplicate certificates", "Sections 46, 56", "Certificates, Form SH-2 register"),
+            ("Each transfer and transmission: signed instrument SH-4, stamp duty, Board approval, and entry in the register", "Section 56", "SH-4, Board minutes"),
+            ("Register of members and index of members, with the entries up to date", "Section 88", "Register in Form MGT-1"),
+            ("Pledges, lien, or encumbrances on shares, and their records", "Section 124 and the articles", "Pledge deeds, depository records"),
+            ("Dematerialisation of securities (unlisted public companies, and where the Rules require)", "Sections 29, 2(68); Rule 9B", "Depository statement"),
+            ("Significant beneficial owners: declarations and the register", "Section 90", "BEN-1, BEN-2, BEN-3 register"),
+            ("Shareholders' agreement and its consistency with the articles", "Section 5", "SHA, articles"),
+            ("Sweat equity, ESOPs and buy-back: approvals, registers and filings", "Sections 54, 62(1)(b), 68", "SH-3, SH-6, SH-10 registers"),
+        ]),
+        ("Directors and KMP", [
+            ("Each director's DIN, KYC, consent in DIR-2 and declaration in DIR-8", "Sections 152, 164; Rules 12 and 14", "DIN allotment, DIR-2, DIR-8"),
+            ("Number of directors, resident director, woman director and independent directors, where required", "Sections 149, 3(1), 152", "Board list, articles"),
+            ("Appointment and reappointment of each director, and their approvals; retirement by rotation", "Sections 152, 161, 196", "Board and members' resolutions"),
+            ("Disqualifications and the checks made on the DIN holders", "Section 164", "DIR-8, MCA data"),
+            ("Disclosures of interest in MBP-1, and the register", "Section 184", "MBP-1, register"),
+            ("Key managerial personnel appointed as required, and DIR-12 filed", "Section 203", "Appointment letters, DIR-12"),
+            ("Remuneration paid to directors and KMP within the limits, with the approvals", "Sections 196, 197, Schedule V", "Resolutions, payroll"),
+            ("Directors' and officers' insurance, and loans to directors", "Sections 185 and 197(13)", "Policies, ledgers"),
+            ("Number of directorships held by each director", "Section 165", "Director list"),
+        ]),
+        ("Meetings and minutes", [
+            ("At least four Board meetings a year, with not more than 120 days between two meetings", "Section 173", "Notices, minutes"),
+            ("Notice, agenda and notes sent to all directors on time, and quorum present", "Sections 173, 174; SS-1", "Notices, attendance"),
+            ("Minutes signed by the chairman within thirty days, and pages numbered and kept in the minute book", "Section 118; SS-1", "Minute books"),
+            ("AGM held within six months of the year end, with not more than fifteen months between two AGMs", "Section 96", "AGM notices, minutes"),
+            ("Notice of general meetings, with the explanatory statements and proxies", "Sections 101, 102, 105", "Notices, proxies, dispatch proofs"),
+            ("Resolutions that need a special resolution were passed as such, and MGT-14 filed", "Sections 114, 117", "Minutes, MGT-14"),
+            ("Committees constituted as the Act requires, and their meetings", "Sections 177, 178, 135", "Committee minutes"),
+            ("Resolutions by circulation and the matters that may not be passed that way", "Section 175; Rule 8", "Circular resolutions"),
+            ("Postal ballot and e-voting, where required", "Sections 108, 110", "Scrutinizer's reports"),
+        ]),
+        ("Filings with the ROC", [
+            ("Annual financial statements: AOC-4 filed on time", "Section 137", "AOC-4 receipt"),
+            ("Annual return: MGT-7 or MGT-7A filed on time", "Section 92", "MGT-7 receipt"),
+            ("Auditor's appointment: ADT-1", "Section 139", "ADT-1 receipt"),
+            ("Return of deposits, DPT-3", "Rule 16 and 16A", "DPT-3 receipts"),
+            ("MSME-1 returns for payments to micro and small enterprises delayed over 45 days", "Section 405", "MSME-1 receipts"),
+            ("Return of allotment PAS-3, and other event forms (MGT-14, DIR-12, INC-22, CHG-1)", "Various", "SRNs and receipts"),
+            ("Additional fees paid for any late filing, and notices received from the Registrar", "Section 403", "Challans, notices"),
+            ("Status of the company on the MCA portal (active compliant), and any defaults or strike-off risk", "Section 248", "MCA master data"),
+        ]),
+        ("Charges and borrowings", [
+            ("Each charge is registered with the ROC (CHG-1) within the time allowed, and satisfaction filed (CHG-4)", "Sections 77 to 87", "CHG-1, CHG-4"),
+            ("Register of charges matches the charges on the MCA records and the lenders' records", "Section 85", "Register of charges"),
+            ("Borrowing within the limit approved by the members", "Section 180(1)(c)", "Special resolution, financials"),
+            ("Mortgage or sale of undertaking approved by special resolution where it applies", "Section 180(1)(a)", "Resolution"),
+            ("Loans, guarantees and investments within the limits of Section 186, and the register", "Sections 185 and 186", "Resolutions, MBP-2 register"),
+            ("Loan agreements and the compliance with their covenants", "Contract", "Loan documents"),
+        ]),
+        ("Related parties and others", [
+            ("Related party transactions: Board approval, members' approval, AOC-2, and arm's length proof", "Section 188", "RPT policy, resolutions, AOC-2"),
+            ("Register of contracts with related parties", "Section 189", "Register in MBP-4"),
+            ("CSR: committee, policy, spend and the report", "Section 135", "CSR policy, reports"),
+            ("Whistle-blower policy and the audit committee, where required", "Section 177", "Policy, minutes"),
+            ("Pending litigation, notices from regulators, and their disclosure", "Various", "Legal register"),
+            ("Insurance, licences, registrations under other laws and their renewals", "Various", "Licences, certificates"),
+            ("Statutory registers kept at the registered office and open for inspection", "Section 94", "Registers"),
+        ]),
+        ("Listed company items", [
+            ("Shareholding pattern, corporate governance report and investor complaints filed each quarter", "Regulations 31, 27, 13", "Exchange filings"),
+            ("Financial results filed within 45 days of each quarter and 60 days of the year end", "Regulation 33", "Exchange filings"),
+            ("Disclosure of events under Regulation 30 within the time allowed", "Regulation 30", "Exchange filings, policy"),
+            ("Board and committee composition: independent directors, woman director, chairman", "Regulations 17, 18, 19, 20", "Board list"),
+            ("Annual secretarial compliance report and secretarial audit report", "Regulation 24A", "Reports"),
+            ("Insider trading code, structured digital database and trading window", "PIT Regulations, 2015", "Code, SDD"),
+            ("Promoter and public shareholding, and promoters' pledges", "SAST and LODR", "Disclosures"),
+            ("Website disclosures required by Regulation 46", "Regulation 46", "Website"),
+        ]),
+    ]
+    status_workbook("secretarial-due-diligence-checklist.xlsx", "Secretarial due diligence checklist", "A checklist for reviewing a company's secretarial position before an investment, a deal or a lender's review.",
+                    "Companies Act, 2013 and the Rules; SEBI (LODR) Regulations, 2015 for listed companies",
+                    DD, ["1. Fill in the company name and the date on the Summary sheet.", "2. Open each area's sheet. Pick Verified, Gap found, Not provided or Not applicable against each item, and write what you found.", "3. The Summary sheet counts the results and shows the gaps in red.", "4. This is a working list, not a complete one. Add the items that your deal or your client needs."])
+
+    MR = [
+        ("Companies Act, 2013", [
+            ("Constitution of the Board, including the independent directors, woman director and resident director", "Sections 149, 152; Rule 3 and 4", "Board list, DIN, declarations"),
+            ("Appointment, reappointment and cessation of directors, and key managerial personnel, with DIR-12", "Sections 152, 161, 170, 203", "Resolutions, DIR-12"),
+            ("Board and committee meetings: notice, agenda, quorum, gap between meetings and minutes", "Sections 173 to 175, 118", "Minutes, notices, attendance"),
+            ("General meetings, e-voting and postal ballot, and filing of the resolutions", "Sections 96, 101, 108, 110, 117", "Notices, minutes, scrutinizer's reports"),
+            ("Statutory registers kept and updated", "Sections 85, 88, 170, 186, 187, 189", "Registers"),
+            ("Disclosures of interest and declarations by directors", "Sections 164, 184", "MBP-1, DIR-8"),
+            ("Related party transactions, loans, guarantees and investments", "Sections 185, 186, 188", "Resolutions, AOC-2"),
+            ("Share capital: allotments, transfers, certificates, buy-back, sweat equity and ESOPs", "Sections 39, 42, 46, 54, 56, 62, 68", "PAS-3, SH forms"),
+            ("Annual filings: AOC-4, MGT-7, ADT-1, DPT-3, MSME-1 and their timeliness", "Sections 92, 137, 139; Rule 16", "Receipts"),
+            ("Dividend, unclaimed dividend, and transfers to the IEPF", "Sections 123 to 125", "Dividend records, IEPF-1"),
+            ("Board's report content and its disclosures", "Section 134", "Board's report"),
+            ("CSR, nomination and remuneration policy, vigil mechanism and audit committee, where they apply", "Sections 135, 177, 178", "Policies, minutes"),
+            ("Charges registered and satisfied", "Sections 77 to 87", "CHG forms"),
+            ("Deposits and money received that are not deposits", "Sections 73 to 76", "DPT-3, ledgers"),
+        ]),
+        ("SCRA and Depositories", [
+            ("Compliance with the Securities Contracts (Regulation) Act, 1956 and the Rules", "SCRA, 1956", "Listing records"),
+            ("Dematerialisation, and compliance with the Depositories Act and the bye-laws", "Depositories Act, 1996", "Depository statements"),
+            ("Reconciliation of share capital audit report, where it applies", "SEBI regulations", "Reports"),
+        ]),
+        ("FEMA", [
+            ("Foreign direct investment: reporting of inflows (FC-GPR and FC-TRS) and the pricing", "FEMA, 1999; NDI Rules, 2019", "FC-GPR, FC-TRS"),
+            ("Overseas direct investment and the reporting", "FEMA; ODI rules", "Forms"),
+            ("External commercial borrowings and their reporting", "FEMA; ECB framework", "Forms"),
+            ("Annual return on foreign liabilities and assets (FLA)", "RBI", "FLA return"),
+        ]),
+        ("SEBI laws (listed company)", [
+            ("SAST: disclosures by acquirers and promoters", "Regulations 29 to 31", "Disclosures"),
+            ("Insider trading: code, SDD and trading window closure", "PIT Regulations, 2015", "Code, SDD"),
+            ("ICDR: issue of capital, if any, and the disclosures", "ICDR Regulations, 2018", "Offer documents"),
+            ("Share-based employee benefits and sweat equity", "SBEB and SE Regulations, 2021", "Resolutions, registers"),
+            ("Issue and listing of non-convertible securities", "NCS Regulations, 2021", "Records"),
+            ("Registrar to an issue and share transfer agent", "RTA Regulations, 1993", "RTA agreement"),
+            ("Delisting and buy-back, if any", "Delisting Regulations, 2021; Buy-back Regulations, 2018", "Records"),
+            ("LODR: Board composition, committees, quarterly filings, disclosures and website", "LODR Regulations, 2015", "Filings"),
+        ]),
+        ("Secretarial Standards", [
+            ("SS-1: Board and committee meetings, notices, minutes and records", "Secretarial Standard 1", "Minute books"),
+            ("SS-2: General meetings, notices, voting, minutes and records", "Secretarial Standard 2", "Minute books"),
+            ("Dividend (SS-3) and Board's report (SS-4), where they apply", "Secretarial Standards 3 and 4", "Records"),
+        ]),
+        ("Other applicable laws", [
+            ("Laws specifically applicable to the business: list them with the management", "Industry laws", "Management representation"),
+            ("Labour laws: registrations, returns and payments (provident fund, ESI, minimum wages, bonus, gratuity)", "Labour laws", "Challans, returns"),
+            ("Environment and pollution control, and factory laws, if they apply", "Environment laws", "Licences, consents"),
+            ("Tax filings status (income tax, GST, TDS), as the management reports it", "Tax laws", "Management report"),
+            ("Other sector rules (for example RBI, IRDAI, TRAI, FSSAI)", "Sector laws", "Licences"),
+        ]),
+    ]
+    status_workbook("secretarial-audit-checklist-mr3.xlsx", "Secretarial audit checklist (Form MR-3)", "A working checklist for a secretarial audit, arranged in the order of the laws that Form MR-3 lists.",
+                    "Section 204, Companies Act, 2013; Form MR-3",
+                    MR, ["1. Fill in the company and the audit date on the Summary sheet.", "2. Work through each law's sheet. Record each item as Verified, Gap found, Not provided or Not applicable.", "3. Each Gap found goes into the observations paragraph of the MR-3 report. The Summary sheet counts them.", "4. Remove the laws that do not apply to the company, and add the ones that do."])
+
+    # ---- accounts and finance ---------------------------------------------------------
+    GRP[0] = "Accounts and finance"
+    LIVES = [
+        ("Buildings (other than factory buildings): RCC frame structure", 60, "Schedule II, Part C"),
+        ("Buildings (other than factory buildings): other than RCC frame structure", 30, "Schedule II, Part C"),
+        ("Factory buildings", 30, "Schedule II, Part C"),
+        ("Fences, wells and tube wells", 5, "Schedule II, Part C"),
+        ("Other buildings, including temporary structures", 3, "Schedule II, Part C"),
+        ("Roads: carpet roads (RCC)", 10, "Schedule II, Part C"),
+        ("Roads: carpet roads (other than RCC)", 5, "Schedule II, Part C"),
+        ("Roads: non-carpet roads", 3, "Schedule II, Part C"),
+        ("Bridges, culverts and bunders", 30, "Schedule II, Part C"),
+        ("Plant and machinery: general (single shift)", 15, "Schedule II, Part C"),
+        ("Furniture and fittings: general", 10, "Schedule II, Part C"),
+        ("Furniture and fittings: hotels, restaurants, boarding houses, schools, hospitals, hostels", 8, "Schedule II, Part C"),
+        ("Motor cycles, scooters and other mopeds", 10, "Schedule II, Part C"),
+        ("Motor buses, lorries, cars and taxis used in the business of running them on hire", 6, "Schedule II, Part C"),
+        ("Motor buses, lorries and cars other than those used on hire", 8, "Schedule II, Part C"),
+        ("Electrical installations and equipment", 10, "Schedule II, Part C"),
+        ("Office equipment: general", 5, "Schedule II, Part C"),
+        ("Computers: servers and networks", 6, "Schedule II, Part C"),
+        ("Computers: end-user devices such as desktops and laptops", 3, "Schedule II, Part C"),
+        ("Aircraft: aeroplanes and helicopters", 20, "Schedule II, Part C"),
+    ]
+
+    def lives_sheet(wb):
+        ws = wb.create_sheet("Useful lives")
+        title(ws, "Useful lives under Schedule II", "Add or change a row if your class is not here. The calculator picks the life from this list.")
+        head(ws, 4, ["Asset class", "Useful life (years)", "Reference"], [78, 20, 28])
+        for i, (c, y, ref) in enumerate(LIVES):
+            ws.cell(row=5 + i, column=1, value=c)
+            ws.cell(row=5 + i, column=2, value=y)
+            ws.cell(row=5 + i, column=3, value=ref)
+        style_rows(ws, 5, 40, 3)
+        ws.cell(row=42, column=1, value="Schedule II also gives lives for ships, plant and machinery in special industries (such as telecom, power, sugar), medical equipment and others. Add them here. Check every figure against the current Schedule II. A company may use a different life if it gives reasons.").alignment = Alignment(wrap_text=True)
+        ws.row_dimensions[42].height = 48
+        return ws
+
+    # depreciation calculator
+    wb = Workbook()
+    ws = wb.active
+    ws.title = "Calculator"
+    title(ws, "Depreciation calculator (Schedule II, Companies Act, 2013)", "One asset, one year. Pick the class, fill the yellow cells, and read the depreciation for the year.")
+    ws.column_dimensions["A"].width = 56
+    ws.column_dimensions["B"].width = 26
+    ws.column_dimensions["C"].width = 60
+    inputs(ws, [("Company name", None), ("Financial year starts on", DATEF)], 1, 2, 3)
+    ws["A5"] = "Financial year ends on"
+    ws["B5"] = '=IF(B4="","",EDATE(B4,12)-1)'
+    ws["A6"] = "Days in the year"
+    ws["B6"] = '=IF(B4="","",B5-B4+1)'
+    for r in (5, 6):
+        ws.cell(row=r, column=1).font = Font(bold=True)
+        ws.cell(row=r, column=2).fill = PatternFill("solid", fgColor=LIGHT)
+        ws.cell(row=r, column=2).border = BOX
+    ws["B5"].number_format = DATEF
+    inputs(ws, [("Asset description", None), ("Asset class (pick from the list)", None), ("Date put to use", DATEF), ("Cost (Rs.)", "#,##0.00"), ("Residual value as a share of cost", "0.00%"),
+                ("Useful life in years (leave blank to use the list)", "0"), ("Method", None), ("Depreciation already charged before this year (Rs.)", "#,##0.00")], 1, 2, 8)
+    ws["B12"] = 0.05
+    ws["B14"] = "SLM"
+    dv1 = DataValidation(type="list", formula1="='Useful lives'!$A$5:$A$40", allow_blank=True)
+    dv2 = DataValidation(type="list", formula1='"SLM,WDV"', allow_blank=False)
+    ws.add_data_validation(dv1)
+    ws.add_data_validation(dv2)
+    dv1.add("B9")
+    dv2.add("B14")
+    calc = [("Useful life used (years)", '=IF(B13<>"",B13,IFERROR(VLOOKUP(B9,\'Useful lives\'!$A$5:$B$40,2,FALSE),""))', "0.0"),
+            ("Residual value (Rs.)", '=IF(B11="","",B11*B12)', "#,##0.00"),
+            ("Depreciable amount (Rs.)", '=IF(B11="","",B11-B18)', "#,##0.00"),
+            ("Days the asset was in use this year", '=IF(OR(B4="",B10=""),"",MAX(0,B5-MAX(B4,B10)+1))', "0"),
+            ("Written-down value at the start of the year (Rs.)", '=IF(B11="","",B11-N(B15))', "#,##0.00"),
+            ("Depreciation for the year (Rs.)", '=IF(OR(B11="",B17="",B20="",B6=""),"",IF(B14="WDV",MAX(0,MIN(B21-B18,B21*(1-(B18/B11)^(1/B17))*B20/B6)),MAX(0,MIN(B19-N(B15),B19/B17*B20/B6))))', "#,##0.00"),
+            ("Written-down value at the end of the year (Rs.)", '=IF(B22="","",B21-B22)', "#,##0.00"),
+            ("Total depreciation charged to date (Rs.)", '=IF(B22="","",N(B15)+B22)', "#,##0.00")]
+    ws["A16"] = "Worked out for you"
+    ws["A16"].font = Font(bold=True, color=NAVY, size=12)
+    for i, (lab, f, fmt) in enumerate(calc):
+        r = 17 + i
+        ws.cell(row=r, column=1, value=lab).font = Font(bold=True)
+        c = ws.cell(row=r, column=2, value=f)
+        c.number_format = fmt
+        c.fill = PatternFill("solid", fgColor=LIGHT)
+        c.border = BOX
+    ws["C22"] = "Straight line: (cost less residual value) / life, in proportion to the days used. Written-down value: the opening value times a rate of 1 less (residual / cost) to the power of 1 / life; this needs a residual value above zero."
+    ws["C22"].alignment = Alignment(wrap_text=True, vertical="top")
+    ws.row_dimensions[22].height = 62
+    lives_sheet(wb)
+    readme(wb, "Depreciation calculator (Schedule II)", "Schedule II, Companies Act, 2013 (useful lives and residual value of up to five per cent of the cost)",
+           ["1. Type the start of the financial year (for example 01-Apr-2026). The end of the year is worked out.", "2. Pick the asset class, type the date it was put to use and the cost. Leave the residual value at 5% unless the company has a reason to change it.", "3. Read the depreciation for the year and the closing value. For an asset bought during the year, the depreciation is in proportion to the days.", "4. A company may use a different life or method if it can justify it and discloses it. Overwrite the life in the cell if you do."])
+    save(wb, "depreciation-calculator-schedule-ii.xlsx", "Depreciation calculator (Schedule II)", "Depreciation of one asset for a year, using the useful lives in Schedule II, by the straight-line or the written-down-value method.", "Schedule II, Companies Act, 2013", ["Calculator", "Useful lives"])
+
+    # fixed asset register
+    wb = Workbook()
+    ws = wb.active
+    ws.title = "Register"
+    title(ws, "Fixed asset register with Schedule II depreciation", "Enter each asset once. The depreciation for the year is worked out from the lives on the 'Useful lives' sheet.")
+    ws["A3"] = "Financial year starts on"
+    ws["A3"].font = Font(bold=True)
+    ws["B3"].fill = PatternFill("solid", fgColor=INPUT)
+    ws["B3"].border = BOX
+    ws["B3"].number_format = DATEF
+    ws["A4"] = "Financial year ends on"
+    ws["A4"].font = Font(bold=True)
+    ws["B4"] = '=IF(B3="","",EDATE(B3,12)-1)'
+    ws["A5"] = "Days in the year"
+    ws["A5"].font = Font(bold=True)
+    ws["B5"] = '=IF(B3="","",B4-B3+1)'
+    for r in (4, 5):
+        ws.cell(row=r, column=2).fill = PatternFill("solid", fgColor=LIGHT)
+        ws.cell(row=r, column=2).border = BOX
+    ws["B4"].number_format = DATEF
+    FR_H = ["Asset ID", "Description", "Asset class", "Date put to use", "Cost (Rs.)", "Residual value (share of cost)", "Life override (years)", "Life used (years)", "Residual value (Rs.)",
+            "Depreciation charged before this year (Rs.)", "Date of disposal", "Days used this year", "Depreciation for the year (Rs.)", "Total depreciation to date (Rs.)", "Written-down value (Rs.)", "Remarks"]
+    head(ws, 8, FR_H, [11, 34, 40, 14, 16, 14, 12, 11, 16, 20, 14, 11, 18, 18, 18, 28])
+    first, lastr = 9, 308
+    for r in range(first, lastr + 1):
+        ws.cell(row=r, column=6, value=0.05)
+        ws.cell(row=r, column=8, value=f'=IF(C{r}="","",IF(G{r}<>"",G{r},IFERROR(VLOOKUP(C{r},\'Useful lives\'!$A$5:$B$40,2,FALSE),"")))')
+        ws.cell(row=r, column=9, value=f'=IF(E{r}="","",E{r}*IF(F{r}="",0.05,F{r}))')
+        ws.cell(row=r, column=12, value=f'=IF(OR(D{r}="",E{r}="",$B$3=""),"",MAX(0,MIN($B$4,IF(K{r}="",$B$4,K{r}))-MAX($B$3,D{r})+1))')
+        ws.cell(row=r, column=13, value=f'=IF(OR(L{r}="",H{r}="",H{r}=0),"",MAX(0,MIN(E{r}-I{r}-N(J{r}),(E{r}-I{r})/H{r}*L{r}/$B$5)))')
+        ws.cell(row=r, column=14, value=f'=IF(M{r}="","",N(J{r})+M{r})')
+        ws.cell(row=r, column=15, value=f'=IF(N{r}="","",E{r}-N{r})')
+    style_rows(ws, first, lastr, 16, formula_cols=(8, 9, 12, 13, 14, 15), date_cols=(4, 11), num_cols=(5, 9, 10, 13, 14, 15), wrap_cols=(2, 16))
+    for r in range(first, lastr + 1):
+        ws.cell(row=r, column=6).number_format = "0.00%"
+    ws["A6"] = "Totals"
+    ws["A6"].font = Font(bold=True)
+    for col in ("E", "I", "J", "M", "N", "O"):
+        c = ws[f"{col}6"]
+        c.value = f"=SUM({col}{first}:{col}{lastr})"
+        c.number_format = "#,##0.00"
+        c.font = Font(bold=True)
+        c.fill = PatternFill("solid", fgColor=LIGHT)
+        c.border = BOX
+    dvc = DataValidation(type="list", formula1="='Useful lives'!$A$5:$A$40", allow_blank=True)
+    ws.add_data_validation(dvc)
+    dvc.add(f"C{first}:C{lastr}")
+    ws.freeze_panes = "C9"
+    lives_sheet(wb)
+    readme(wb, "Fixed asset register (Schedule II)", "Schedule II, Companies Act, 2013; Section 123(2)",
+           ["1. Type the start of the financial year in cell B3.", "2. List each asset: its ID, class, date put to use and cost. For assets bought in earlier years, type the depreciation charged before this year.", "3. The depreciation for the year, the total to date and the written-down value come out. Assets bought during the year get depreciation in proportion to the days.", "4. If you dispose of an asset, type the date. Depreciation stops on that date. Show the sale and the profit or loss in your accounts separately: this file does not."])
+    save(wb, "fixed-asset-register-schedule-ii.xlsx", "Fixed asset register (Schedule II)", "A register of up to 300 assets with the depreciation worked out under Schedule II, and the written-down value.", "Schedule II, Companies Act, 2013", ["Register", "Useful lives"])
+
+    # Schedule III ratios
+    wb = Workbook()
+    wi = wb.active
+    wi.title = "Inputs"
+    title(wi, "Schedule III ratios: your figures", "Type the amounts from the financial statements, in the same unit, for the current year (CY) and the previous year (PY).")
+    wi.column_dimensions["A"].width = 66
+    for c in "BCD":
+        wi.column_dimensions[c].width = 22
+    wi["A3"] = "Company name"
+    wi["A3"].font = Font(bold=True)
+    wi["B3"].fill = PatternFill("solid", fgColor=INPUT)
+    wi["B3"].border = BOX
+    head(wi, 4, ["Balance sheet items (closing)", "As at the end of CY", "As at the end of PY", "As at the end of the year before PY"], [66, 22, 22, 22])
+    BS = ["Current assets", "Current liabilities", "Total debt (borrowings and lease liabilities)", "Shareholders' equity", "Inventories", "Trade receivables", "Trade payables",
+          "Tangible net worth", "Deferred tax liability", "Investments (funds in treasury investments)"]
+    for i, lab in enumerate(BS):
+        wi.cell(row=5 + i, column=1, value=lab).font = Font(bold=True)
+    style_rows(wi, 5, 14, 4, num_cols=(2, 3, 4))
+    for r in range(5, 15):
+        wi.cell(row=r, column=1).fill = PatternFill("solid", fgColor="FFFFFF")
+    head(wi, 16, ["Profit and loss items (for the year)", "CY", "PY", ""], [66, 22, 22, 22])
+    PL = ["Revenue from operations (net sales)", "Net credit sales", "Cost of goods sold", "Net credit purchases", "Net profit after tax", "Depreciation and other amortisation", "Finance cost (interest)",
+          "Other non-cash adjustments", "Principal repayments of borrowings in the year", "Lease payments in the year", "Profit before tax", "Income from invested funds (treasury)"]
+    for i, lab in enumerate(PL):
+        wi.cell(row=17 + i, column=1, value=lab).font = Font(bold=True)
+    style_rows(wi, 17, 28, 3, num_cols=(2, 3))
+    for r in range(17, 29):
+        wi.cell(row=r, column=1).fill = PatternFill("solid", fgColor="FFFFFF")
+    wr = wb.create_sheet("Ratios")
+    title(wr, "Schedule III ratios", "Worked out from the Inputs sheet. Schedule III needs a reason where a ratio changes by more than 25% from the previous year.")
+    head(wr, 4, ["Ratio", "Numerator", "Denominator", "CY", "PY", "Change from PY", "Reason, if the change is more than 25%"], [34, 44, 44, 14, 14, 16, 60])
+    I_ = "Inputs!"
+
+    def sf(num, den):
+        return f'=IFERROR(({num})/({den}),"")'
+    ratios = [
+        ("Current ratio", "Current assets", "Current liabilities", sf(f"{I_}B5", f"{I_}B6"), sf(f"{I_}C5", f"{I_}C6"), "0.00"),
+        ("Debt-equity ratio", "Total debt", "Shareholders' equity", sf(f"{I_}B7", f"{I_}B8"), sf(f"{I_}C7", f"{I_}C8"), "0.00"),
+        ("Debt service coverage ratio", "Net profit after tax + depreciation + finance cost + other non-cash adjustments", "Finance cost + lease payments + principal repayments",
+         sf(f"{I_}B21+{I_}B22+{I_}B23+{I_}B24", f"{I_}B23+{I_}B26+{I_}B25"), sf(f"{I_}C21+{I_}C22+{I_}C23+{I_}C24", f"{I_}C23+{I_}C26+{I_}C25"), "0.00"),
+        ("Return on equity ratio", "Net profit after tax", "Average shareholders' equity", sf(f"{I_}B21", f"({I_}B8+{I_}C8)/2"), sf(f"{I_}C21", f"({I_}C8+{I_}D8)/2"), "0.00%"),
+        ("Inventory turnover ratio", "Cost of goods sold", "Average inventories", sf(f"{I_}B19", f"({I_}B9+{I_}C9)/2"), sf(f"{I_}C19", f"({I_}C9+{I_}D9)/2"), "0.00"),
+        ("Trade receivables turnover ratio", "Net credit sales", "Average trade receivables", sf(f"{I_}B18", f"({I_}B10+{I_}C10)/2"), sf(f"{I_}C18", f"({I_}C10+{I_}D10)/2"), "0.00"),
+        ("Trade payables turnover ratio", "Net credit purchases", "Average trade payables", sf(f"{I_}B20", f"({I_}B11+{I_}C11)/2"), sf(f"{I_}C20", f"({I_}C11+{I_}D11)/2"), "0.00"),
+        ("Net capital turnover ratio", "Revenue from operations", "Working capital (current assets less current liabilities)", sf(f"{I_}B17", f"{I_}B5-{I_}B6"), sf(f"{I_}C17", f"{I_}C5-{I_}C6"), "0.00"),
+        ("Net profit ratio", "Net profit after tax", "Revenue from operations", sf(f"{I_}B21", f"{I_}B17"), sf(f"{I_}C21", f"{I_}C17"), "0.00%"),
+        ("Return on capital employed", "Profit before tax + finance cost", "Tangible net worth + total debt + deferred tax liability", sf(f"{I_}B27+{I_}B23", f"{I_}B12+{I_}B7+{I_}B13"), sf(f"{I_}C27+{I_}C23", f"{I_}C12+{I_}C7+{I_}C13"), "0.00%"),
+        ("Return on investment", "Income from invested funds", "Average invested funds", sf(f"{I_}B28", f"({I_}B14+{I_}C14)/2"), sf(f"{I_}C28", f"({I_}C14+{I_}D14)/2"), "0.00%"),
+    ]
+    for i, (nm, nu, de, fcy, fpy, fmt) in enumerate(ratios):
+        r = 5 + i
+        wr.cell(row=r, column=1, value=nm)
+        wr.cell(row=r, column=2, value=nu)
+        wr.cell(row=r, column=3, value=de)
+        wr.cell(row=r, column=4, value=fcy).number_format = fmt
+        wr.cell(row=r, column=5, value=fpy).number_format = fmt
+        wr.cell(row=r, column=6, value=f'=IF(OR(D{r}="",E{r}="",E{r}=0),"",(D{r}-E{r})/ABS(E{r}))').number_format = "0.0%"
+    style_rows(wr, 5, 15, 7, formula_cols=(1, 2, 3, 4, 5, 6), wrap_cols=(2, 3, 7))
+    for r in range(5, 16):
+        wr.cell(row=r, column=7).fill = PatternFill("solid", fgColor=INPUT)
+        wr.cell(row=r, column=4).number_format = ratios[r - 5][5]
+        wr.cell(row=r, column=5).number_format = ratios[r - 5][5]
+        wr.cell(row=r, column=6).number_format = "0.0%"
+    wr.conditional_formatting.add("F5:F15", FormulaRule(formula=['AND(ISNUMBER(F5),ABS(F5)>0.25)'], fill=PatternFill("solid", bgColor="FFE08A", fgColor="FFE08A"), font=Font(bold=True, color="5A4300")))
+    wr.freeze_panes = "B5"
+    readme(wb, "Schedule III ratios", "Division II of Schedule III, Companies Act, 2013 (the ratios to be disclosed in the notes to the balance sheet)",
+           ["1. Fill in the Inputs sheet from the financial statements. Use the same unit (for example Rs. lakh) in every cell.", "2. The Ratios sheet gives the eleven ratios for the current and the previous year, and the change.", "3. A change of more than 25% turns yellow. Schedule III needs the company to explain it in the notes. Type the reason in the last column.", "4. The formulas follow the numerators and denominators that Schedule III gives. Read the notes to Schedule III for the exact definitions of each item before you rely on the result."])
+    save(wb, "schedule-iii-ratios.xlsx", "Schedule III ratios", "The eleven ratios a company must disclose, for two years, with the change and a place to give the reason.", "Division II, Schedule III, Companies Act, 2013", ["Inputs", "Ratios"])
+
     REG_ROWS = [
         ("Register of members", "Section 88(1)(a); Rule 3", "Form MGT-1", "register-of-members.xlsx"),
         ("Index of members", "Section 88(3)", "No form", "Sort the Register of members by name, and keep it as the index"),
@@ -1609,7 +2786,7 @@ def build_excel():
         cell = f'<a href="{f}" download>Download</a>' if f.endswith(".xlsx") else f
         reg_table += f"<tr><td>{nm}</td><td>{prov}</td><td>{frm}</td><td>{cell}</td></tr>"
     reg_table += "</tbody></table></div>"
-    order = ["Statutory registers", "Filings, meetings and planners", "Checklists", "Practice"]
+    order = ["Statutory registers", "Filings, meetings and planners", "Checklists", "Accounts and finance", "Practice"]
     sections = ""
     for gname in order:
         items = sorted([m for m in made if m["group"] == gname], key=lambda m: 0 if "all-in-one" in m["file"] else 1)
@@ -1625,7 +2802,7 @@ def build_excel():
 
 
 if __name__ == "__main__":
-    for step in (build_generators, build_excel):
+    for step in (build_generators, build_calendar, build_excel):
         try:
             step()
         except Exception as e:
