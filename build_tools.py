@@ -1447,7 +1447,7 @@ FONTS = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="p
 
 def shell(title, desc, active, body, script=""):
     nav = [("../", "Home", ""), ("../#/act", "Companies Act", ""), ("../#/forms", "Forms", ""), ("../#/processes", "Processes", ""),
-           ("../generators/", "Document generators", "gen"), ("../excel/", "Excel utilities", "xl"), ("../calendar/", "Compliance calendar", "cal"), ("../drafts/", "Drafts", "")]
+           ("../generators/", "Document generators", "gen"), ("../excel/", "Excel utilities", "xl"), ("../calendar/", "Compliance calendar", "cal"), ("../stamp/", "Stamp duty", "stamp"), ("../drafts/", "Drafts", "")]
     cur = ' aria-current="page"'
     links = "".join('<a href="%s"%s>%s</a>' % (h, cur if (k and k == active) else "", t) for h, t, k in nav)
     return f"""<!doctype html>
@@ -1609,6 +1609,131 @@ def build_calendar():
 <div class="check"><h2>Please note</h2><p class="small">The dates are the dates the Act, the Rules and the SEBI Regulations give, counted in calendar days from the event, and they assume a financial year ending on 31 March for the MSME-1 and DPT-3 dates. MCA and SEBI often extend dates or change them by circular. Public holidays are not counted. Check every date against the current law before you rely on it. The page does not store what you enter, except the company name in your browser. It is not legal advice.</p></div></div></div>"""
     (out / "index.html").write_text(shell("Compliance calendar | Company Law Knowledge Lab", "Company-law due dates for your year end and AGM date, with a calendar file you can download.", "cal", body, CAL_JS).replace("</style>", CAL_CSS + "</style>", 1), encoding="utf-8")
     print("Compliance calendar page written")
+
+
+STAMP_JS = r"""
+"use strict";
+const $ = (s, r) => (r || document).querySelector(s);
+const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const store = { get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }, set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} } };
+const LK = 100000, CR = 10000000;
+const inr = n => { n = String(Math.round(n)); if (n.length <= 3) return n; let r = n.slice(0, -3).replace(/\B(?=(\d{2})+(?!\d))/g, ","); return r + "," + n.slice(-3); };
+/* Rule types. fix: a fixed amount. thr: lo up to a limit, hi above it. pct: rate of capital, with a minimum and a maximum.
+   blk: an amount for each block of capital or part of a block, with an optional maximum. ker: Kerala's own scale. chk: not worked out here. */
+const fix = v => ({ t: "fix", v }), thr = (l, lo, hi) => ({ t: "thr", l, lo, hi }), pct = (r, min, max) => ({ t: "pct", r, min: min || 0, max: max || 0 }), blk = (a, s, max, min) => ({ t: "blk", a, s, max: max || 0, min: min || 0 });
+const NIL = { t: "nil" }, KER = { t: "ker" }, chk = x => ({ t: "chk", x });
+const S = [
+  // name, form fee (INC-2, INC-7, INC-29), MoA, AoA on authorised capital, SH-7 on the increase, text of the AoA rule, text of the SH-7 rule
+  ["Andaman and Nicobar", 20, 200, fix(300), NIL, "Rs. 300", "Nil"],
+  ["Andhra Pradesh", 20, 500, pct(.0015, 1000, 5 * LK), pct(.0015, 1000, 5 * LK), "0.15% of authorised capital, minimum Rs. 1,000, maximum Rs. 5 lakh", "0.15% of the increase, minimum Rs. 1,000, maximum Rs. 5 lakh"],
+  ["Arunachal Pradesh", 10, 200, fix(500), NIL, "Rs. 500", "Nil"],
+  ["Assam", 15, 200, fix(310), NIL, "Rs. 310", "Nil"],
+  ["Bihar", 20, 500, pct(.0015, 1000, 5 * LK), pct(.0015, 1000, 5 * LK), "0.15% of authorised capital or Rs. 1,000, whichever is more, maximum Rs. 5 lakh", "The higher of Rs. 1,000 and the same rate on the increase, maximum Rs. 5 lakh"],
+  ["Chandigarh", 3, 500, fix(1000), NIL, "Rs. 1,000", "Nil"],
+  ["Chhattisgarh", 10, 500, pct(.0015, 1000, 5 * LK), pct(.0015, 1000, 5 * LK), "0.15% of authorised capital or Rs. 1,000, whichever is more, maximum Rs. 5 lakh", "The higher of Rs. 1,000 and the same rate on the increase"],
+  ["Dadra and Nagar Haveli", 1, 15, fix(25), NIL, "Rs. 25", "Nil"],
+  ["Daman and Diu", 20, 150, blk(1000, 5 * LK), blk(1000, 5 * LK), "Rs. 1,000 for each Rs. 5 lakh of capital or part of it", "Rs. 1,000 for each Rs. 5 lakh of the increase or part of it"],
+  ["Delhi", 10, 200, pct(.0015, 0, 25 * LK), pct(.0015, 0, 25 * LK), "0.15% of authorised capital, maximum Rs. 25 lakh", "0.15% of the increase, maximum Rs. 25 lakh"],
+  ["Goa", 50, 150, blk(1000, 5 * LK), blk(1000, 5 * LK), "Rs. 1,000 for each Rs. 5 lakh of capital or part of it", "Rs. 1,000 for each Rs. 5 lakh of the increase or part of it"],
+  ["Gujarat", 20, 100, pct(.005, 0, 5 * LK), chk("The MCA table gives a formula based on the increase, with a maximum of Rs. 5 lakh. Read the Gujarat rule."), "0.5% of authorised capital, maximum Rs. 5 lakh", "A formula based on the increase, maximum Rs. 5 lakh"],
+  ["Haryana", 15, 60, thr(LK, 60, 120), NIL, "Rs. 60 if capital is up to Rs. 1 lakh; Rs. 120 above that", "Nil"],
+  ["Himachal Pradesh", 3, 60, thr(LK, 60, 120), NIL, "Rs. 60 if capital is up to Rs. 1 lakh; Rs. 120 above that", "Nil"],
+  ["Jammu and Kashmir", 10, 150, thr(LK, 150, 300), NIL, "Rs. 150 if capital is up to Rs. 1 lakh; Rs. 300 above that", "Nil"],
+  ["Jharkhand", 5, 63, fix(105), NIL, "Rs. 105", "Nil"],
+  ["Karnataka", 20, 1000, blk(500, 10 * LK), blk(500, 10 * LK, 0, 500), "Rs. 500 for each Rs. 10 lakh of capital or part of it", "Rs. 500 for each Rs. 10 lakh of the increase or part of it, minimum Rs. 500"],
+  ["Kerala", 25, 1000, KER, NIL, "Rs. 2,000 up to Rs. 10 lakh; Rs. 5,000 from Rs. 10 lakh to Rs. 25 lakh; 0.5% above Rs. 25 lakh", "Nil"],
+  ["Lakshadweep", 25, 500, fix(1000), NIL, "Rs. 1,000", "Nil"],
+  ["Madhya Pradesh", 50, 2500, pct(.0015, 5000, 25 * LK), chk("The MCA table gives a formula on the increase (minimum Rs. 5,000, maximum Rs. 25 lakh) that depends on whether the last increase was before or after 16 September 2014. Read the Madhya Pradesh rule."), "0.15% of authorised capital, minimum Rs. 5,000, maximum Rs. 25 lakh", "A formula on the increase, depending on the date of the last increase"],
+  ["Maharashtra", 100, 200, blk(1000, 5 * LK, 50 * LK), { t: "mh" }, "Rs. 1,000 for each Rs. 5 lakh of capital or part of it, maximum Rs. 50 lakh", "Rs. 1,000 for each Rs. 5 lakh of the increase or part of it, maximum Rs. 50 lakh. No SH-7 duty once authorised capital exceeds Rs. 250 crore"],
+  ["Manipur", 10, 100, fix(150), NIL, "Rs. 150", "Nil"],
+  ["Meghalaya", 10, 100, fix(300), NIL, "Rs. 300", "Nil"],
+  ["Mizoram", 10, 100, fix(150), NIL, "Rs. 150", "Nil"],
+  ["Nagaland", 10, 100, fix(150), NIL, "Rs. 150", "Nil"],
+  ["Odisha", 10, 300, fix(300), NIL, "Rs. 300", "Nil"],
+  ["Puducherry", 10, 200, fix(300), NIL, "Rs. 300", "Nil"],
+  ["Punjab", 25, 5000, thr(LK, 5000, 10000), NIL, "Rs. 5,000 if capital is up to Rs. 1 lakh; Rs. 10,000 above that", "Nil"],
+  ["Rajasthan", 10, 500, pct(.005, 0, 0), pct(.002, 0, 25 * LK), "0.5% of authorised capital", "0.2% of the increase, maximum Rs. 25 lakh"],
+  ["Tamil Nadu", 20, 200, fix(300), NIL, "Rs. 300", "Nil"],
+  ["Telangana", 20, 500, pct(.0015, 1000, 5 * LK), pct(.0015, 1000, 5 * LK), "0.15% of authorised capital, minimum Rs. 1,000, maximum Rs. 5 lakh", "0.15% of the increase, minimum Rs. 1,000, maximum Rs. 5 lakh"],
+  ["Tripura", 10, 100, fix(150), NIL, "Rs. 150", "Nil"],
+  ["Uttar Pradesh", 10, 500, fix(500), NIL, "Rs. 500", "Nil"],
+  ["Uttarakhand", 10, 500, fix(500), NIL, "Rs. 500", "Nil"],
+  ["West Bengal", 10, 60, fix(300), NIL, "Rs. 300", "Nil"],
+];
+function calc(rule, cap) {
+  if (cap <= 0) return 0;
+  switch (rule.t) {
+    case "fix": return rule.v;
+    case "nil": return 0;
+    case "thr": return cap <= rule.l ? rule.lo : rule.hi;
+    case "pct": { let v = cap * rule.r; if (rule.min) v = Math.max(v, rule.min); if (rule.max) v = Math.min(v, rule.max); return v; }
+    case "blk": { let v = rule.a * Math.ceil(cap / rule.s); if (rule.min) v = Math.max(v, rule.min); if (rule.max) v = Math.min(v, rule.max); return v; }
+    case "ker": return cap <= 10 * LK ? 2000 : cap <= 25 * LK ? 5000 : cap * 0.005;
+    default: return null;
+  }
+}
+function sh7(s, oldCap, newCap) {
+  const rule = s[4], inc = newCap - oldCap; if (inc <= 0) return 0;
+  if (rule.t === "chk") return null;
+  if (rule.t === "mh") { const paid = calc(s[3], oldCap), cap = 50 * LK; return Math.max(0, Math.min(calc(s[3], inc), cap - paid)); }
+  return calc(rule, inc);
+}
+function parseAmt(id, unit) { const v = parseFloat(String($(id).value).replace(/,/g, "")); return isNaN(v) ? 0 : v * (+$(unit).value); }
+function run() {
+  const mode = $("#mode").value; $("#oldrow").hidden = mode !== "inc";
+  const st = S[+$("#st").value]; const cap = parseAmt("#cap", "#cu"), old = parseAmt("#old", "#ou");
+  store.set("stamp_state", $("#st").value);
+  let h = `<h2>${esc(st[0])}</h2>`;
+  if (mode === "inc") {
+    const d = sh7(st, old, cap);
+    h += d === null ? `<p class="warn">${esc(st[4].x)}</p>` : `<table class="tbl"><tbody><tr><th>Authorised capital before</th><td>Rs. ${inr(old)}</td></tr><tr><th>Authorised capital after</th><td>Rs. ${inr(cap)}</td></tr><tr><th>Increase</th><td>Rs. ${inr(Math.max(0, cap - old))}</td></tr><tr><th>Stamp duty on the increase (Form SH-7)</th><td><b>Rs. ${inr(d)}</b></td></tr></tbody></table><p class="small">Rule used: ${esc(st[6])}.</p>`;
+  } else {
+    const m = st[2], a = calc(st[3], cap), f = st[1], tot = m + a + f;
+    h += `<table class="tbl"><tbody><tr><th>Authorised capital</th><td>Rs. ${inr(cap)}</td></tr><tr><th>Stamp duty on the form (INC-2, INC-7 or INC-29)</th><td>Rs. ${inr(f)}</td></tr><tr><th>Stamp duty on the Memorandum of Association</th><td>Rs. ${inr(m)}</td></tr><tr><th>Stamp duty on the Articles of Association</th><td>Rs. ${inr(a)}</td></tr><tr><th>Total</th><td><b>Rs. ${inr(tot)}</b></td></tr></tbody></table><p class="small">Rule for the Articles: ${esc(st[5])}.</p>`;
+  }
+  $("#res").innerHTML = h;
+  const rows = S.map(s => mode === "inc" ? [s[0], sh7(s, old, cap)] : [s[0], s[1] + s[2] + calc(s[3], cap)]).sort((a, b) => (a[1] === null) - (b[1] === null) || a[1] - b[1]);
+  $("#cmp").innerHTML = `<h2>All states for this amount</h2><div class="tw"><table class="tbl"><thead><tr><th>State or Union Territory</th><th>${mode === "inc" ? "Duty on the increase" : "Total duty"}</th></tr></thead><tbody>` + rows.map(r => `<tr><td>${esc(r[0])}</td><td>${r[1] === null ? "Read the state rule" : "Rs. " + inr(r[1])}</td></tr>`).join("") + "</tbody></table></div>";
+}
+function init() {
+  const sv = store.get("theme") || "auto"; document.documentElement.dataset.theme = sv;
+  document.querySelectorAll(".sw").forEach(b => { b.setAttribute("aria-pressed", String(b.dataset.t === sv)); b.onclick = () => { document.documentElement.dataset.theme = b.dataset.t; store.set("theme", b.dataset.t); document.querySelectorAll(".sw").forEach(x => x.setAttribute("aria-pressed", String(x === b))); }; });
+  $("#st").innerHTML = S.map((s, i) => `<option value="${i}">${esc(s[0])}</option>`).join("");
+  const keep = store.get("stamp_state"); if (keep && S[+keep]) $("#st").value = keep;
+  $("#rates").innerHTML = S.map(s => `<tr><td>${esc(s[0])}</td><td>Rs. ${inr(s[1])}</td><td>Rs. ${inr(s[2])}</td><td>${esc(s[5])}</td><td>${esc(s[6])}</td></tr>`).join("");
+  document.querySelectorAll("#f input,#f select").forEach(e => { e.oninput = run; e.onchange = run; });
+  run();
+}
+init();
+"""
+STAMP_CSS = r"""
+.cols{grid-template-columns:minmax(17rem,22rem) minmax(0,1fr)}
+.tw{overflow-x:auto}.warn{background:var(--page);border:1px solid var(--rule);border-left:4px solid var(--gold);padding:.7rem 1rem}
+.fld .row{display:flex;gap:.5rem}.fld .row input{flex:1}.fld .row select{width:7.5rem}
+.tbl th[scope],.tbl tbody th{width:55%;background:var(--page);color:var(--ink);font-weight:600}
+"""
+
+
+def build_stamp():
+    out = SITE / "stamp"
+    out.mkdir(parents=True, exist_ok=True)
+    units = '<option value="1">Rs.</option><option value="100000" selected>Lakh</option><option value="10000000">Crore</option>'
+    body = f"""<h1>Stamp duty on company incorporation and capital increase</h1>
+<p class="lede">Pick the state, say whether you are incorporating a company or increasing its authorised capital, and enter the amount. The page works out the stamp duty on the form, the Memorandum and the Articles, or on Form SH-7.</p>
+<div class="cols"><form class="form" id="f" onsubmit="return false" autocomplete="off"><h2>What you need</h2>
+<div class="fld"><label for="st">State or Union Territory (of the registered office)</label><select id="st"></select></div>
+<div class="fld"><label for="mode">What for</label><select id="mode"><option value="inc0">Incorporation: MoA and AoA</option><option value="inc">Increase in authorised capital: Form SH-7</option></select></div>
+<div class="fld"><label for="cap">Authorised capital (after the increase, for SH-7)</label><div class="row"><input id="cap" type="text" inputmode="decimal" value="10"><select id="cu" aria-label="Unit">{units}</select></div></div>
+<div class="fld" id="oldrow" hidden><label for="old">Authorised capital before the increase</label><div class="row"><input id="old" type="text" inputmode="decimal" value="1"><select id="ou" aria-label="Unit">{units}</select></div></div></form>
+<div><div id="res"></div>
+<div class="check"><h2>Where the rates come from</h2><p class="small">The rates are from the e-stamp rate table of the Ministry of Corporate Affairs (<a href="https://www.mca.gov.in/mca/documents/eStamp_rate.pdf">mca.gov.in, eStamp rate</a>), for companies with share capital other than Section 8 companies, which I read on 20 November 2026. The table has no date and the MCA itself asks users to verify against the state's Stamp Act, and some states have amended their Acts since (Maharashtra, for one, has amended its Act in 2024 and has a 2026 Bill). Check the current rate with the state stamp office before you pay. Duty on a company is paid on the MCA portal along with the incorporation form.</p></div>
+<div class="check"><h2>LLP agreements are not included</h2><p class="small">The MCA table covers companies only. The duty on an LLP agreement is set by each state, and the private websites I compared disagree with the MCA table on several states for companies (for example Uttar Pradesh, Punjab, Kerala and Madhya Pradesh), so I have not copied their LLP tables. Give me an official state notification for the states you need and I will add them.</p></div>
+<div id="cmp"></div>
+<h2>The rate table</h2><div class="tw"><table class="tbl"><thead><tr><th>State or Union Territory</th><th>Form (INC-2, 7, 29)</th><th>MoA</th><th>AoA, on authorised capital</th><th>SH-7, on the increase</th></tr></thead><tbody id="rates"></tbody></table></div></div></div>"""
+    html = shell("Stamp duty on companies | Company Law Knowledge Lab", "Stamp duty on the MoA, AoA and capital increase of a company, by state, from the MCA's rate table.", "stamp", body, STAMP_JS).replace("</style>", STAMP_CSS + "</style>", 1)
+    html = html.replace('<option value="inc0">', '<option value="inc0">')
+    (out / "index.html").write_text(html, encoding="utf-8")
+    print("Stamp duty page written")
 
 
 # ---------------------------------------------------------------- Excel
@@ -2802,7 +2927,7 @@ def build_excel():
 
 
 if __name__ == "__main__":
-    for step in (build_generators, build_calendar, build_excel):
+    for step in (build_generators, build_calendar, build_stamp, build_excel):
         try:
             step()
         except Exception as e:
