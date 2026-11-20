@@ -658,6 +658,7 @@ body{background:var(--paper)}
       <div class="grp"><button type="button" class="gb" aria-expanded="false" aria-haspopup="true">Tools</button><div class="menu">
         <a href="generators/" data-nav="gen"><b>Document generators</b><span>Fill a form, download a Word file</span></a>
         <a href="excel/" data-nav="xl"><b>Excel utilities</b><span>Registers, trackers and planners</span></a>
+        <a href="calendar/" data-nav="cal"><b>Compliance calendar</b><span>Due dates and a calendar file</span></a>
         <a href="#/tools" data-nav="tools"><b>Calculator</b><span>Notice periods and due dates</span></a>
         <a href="#/me" data-nav="me"><b>My workspace</b><span>Saved sections and notes</span></a></div></div>
     </nav>
@@ -879,6 +880,7 @@ function renderHome() {
     calc: '<rect x="5" y="3" width="14" height="18" rx="1.5"/><path d="M8 7h8M8 12h2M12 12h2M8 16h2M12 16h2M16 12v4"/>',
     me: '<path d="M6 3h12v18l-6-4-6 4z"/>',
     gen: '<path d="M6 3h9l4 4v14H6z"/><path d="M14 3v5h5M9 12h7M9 16h4"/><path d="M17 15l3 3-3 3" />',
+    cal: '<rect x="3" y="5" width="18" height="16" rx="1.5"/><path d="M3 10h18M8 3v4M16 3v4M8 14h2M12 14h2M16 14h2M8 17h2M12 17h2"/>',
     xls: '<rect x="3" y="4" width="18" height="16" rx="1.5"/><path d="M3 10h18M3 15h18M9 4v16M15 4v16"/>',
   };
   const card = (h, ic, t, d, n, c) => `<a href="${h}" class="hc ${c || ""}"><svg viewBox="0 0 24 24" aria-hidden="true">${IC[ic]}</svg><b>${t}</b><span>${d}</span>${n ? `<i>${n}</i>` : ""}</a>`;
@@ -908,9 +910,10 @@ function renderHome() {
       ${card("drafts/", "draft", "Drafts library", "Ready drafts in their original wording.", "")}
     </div>
     <h2>Tools</h2>
-    <div class="hubgrid four">
-      ${card("generators/", "gen", "Document generators", "Resolutions, notices, minutes, declarations, policies and filing packs, plus all the model resolutions. Fill in a form and download a Word file.", "26 documents and 190 model resolutions")}
-      ${card("excel/", "xls", "Excel utilities", "Statutory registers, compliance trackers, planners and checklists as free Excel files.", "18 workbooks")}
+    <div class="hubgrid">
+      ${card("generators/", "gen", "Document generators", "Resolutions, notices, minutes, declarations, policies and filing packs, plus all the model resolutions. Fill in a form and download a Word file.", "56 documents and 190 model resolutions")}
+      ${card("excel/", "xls", "Excel utilities", "Statutory registers, trackers, planners, filing and audit checklists, depreciation and ratio workbooks as free Excel files.", "32 workbooks")}
+      ${card("calendar/", "cal", "Compliance calendar", "Company-law due dates for your year end and AGM date, with a calendar file to download.", "")}}
       ${card("#/tools", "calc", "Compliance and date calculator", "Notice periods, AGM and ROC due dates, deadlines after an event.", "")}
       ${card("#/me", "me", "My workspace", "Saved sections, your private notes and recently read pages.", "")}
     </div></section>`;
