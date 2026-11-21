@@ -3,6 +3,7 @@
   site/generators/index.html : document generators (fill in a form, download an editable Word file; all in the browser)
   site/excel/                : Excel utilities (registers, trackers and planners as .xlsx files) and their listing page
 Needs the openpyxl library (installed by the workflow). Nothing here reads the Act; it only writes tools."""
+import re
 import sys
 from datetime import date
 from pathlib import Path
@@ -76,6 +77,18 @@ footer{max-width:76rem;margin:0 auto;padding:1rem 1.5rem 3rem;color:var(--muted)
 .tbl th,.tbl td{border:1px solid var(--rule);padding:.5rem .7rem;text-align:left;vertical-align:top}
 .tbl th{background:var(--bar);color:var(--barink);font:600 .9rem var(--sans)}
 .dt{border-collapse:collapse;width:100%;margin:.4rem 0 .9rem;font-size:.92rem}.dt th,.dt td{border:1px solid #444;padding:.3rem .5rem;text-align:left;vertical-align:top}.dt th{font-weight:700}
+
+.bar nav{align-items:center;gap:1.1rem}
+.dd{position:relative}
+.dd summary{list-style:none;cursor:pointer;color:var(--barink);font:600 .95rem var(--sans);opacity:.85;padding:.2rem 0;border-bottom:2px solid transparent}
+.dd summary::-webkit-details-marker{display:none}
+.dd summary::after{content:"";display:inline-block;width:.4em;height:.4em;margin-left:.45em;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:translateY(-.2em) rotate(45deg)}
+.dd summary:hover,.dd[open] summary,.dd.on summary{opacity:1}.dd.on summary{border-bottom-color:var(--gold)}
+.ddm{position:absolute;z-index:20;top:100%;left:-.6rem;margin-top:.5rem;min-width:15rem;background:var(--bar);border:1px solid var(--gold);border-radius:3px;padding:.4rem;box-shadow:0 14px 30px -12px rgba(0,0,0,.6);display:flex;flex-direction:column}
+.ddm a{padding:.45rem .7rem;border-bottom:0!important;white-space:nowrap;opacity:1}
+.ddm a:hover,.ddm a[aria-current=page]{background:rgba(255,255,255,.1)}
+@media (max-width:700px){.ddm{position:static;margin:.3rem 0 .2rem;min-width:0}.bar nav{gap:.8rem}.dd{width:100%}}
+.pick{max-width:30rem;margin:1rem 0 1.4rem}.pick select{font-size:1.05rem;padding:.6rem .7rem}
 """
 GEN_JS = r""""use strict";
 /* ---------- small helpers ---------- */
@@ -1391,10 +1404,20 @@ function openGenObj(g) {
 function listGens() {
   S_.cur = null; document.title = "Document generators | Company Law Knowledge Lab"; $("#work").hidden = true; $("#list").hidden = false;
   const groups = []; GENS.forEach(g => { if (groups.indexOf(g.group) < 0) groups.push(g.group); });
+  const MRG = "Model resolutions from the book", ALL = "__all";
+  const cnt = gr => GENS.filter(g => g.group === gr).length;
+  let sel = store.get("gen_grp") || ""; if (sel !== ALL && sel !== MRG && groups.indexOf(sel) < 0) sel = "";
   $("#list").innerHTML = `<h1>Document generators</h1><p class="lede">Fill in the details once and download an editable Word file. Everything runs in your browser: nothing you type is sent anywhere. Your company details are remembered on this device only.</p>
-  ${groups.map(gr => `<h2>${esc(gr)}</h2><div class="cards">${GENS.filter(g => g.group === gr).map(g => `<a class="card" href="#${g.id}"><b>${esc(g.title)}</b><span>${esc(g.short)}</span><i>${esc(g.basis)}</i></a>`).join("")}</div>`).join("")}
-  <h2>Model resolutions from the book</h2><div id="mres"><p class="small">Loading…</p></div>`;
-  mresInit();
+  <div class="fld pick"><label for="gsel">Choose a heading</label><select id="gsel"><option value="">Select a heading to see its documents</option>${groups.map(gr => `<option value="${esc(gr)}"${sel === gr ? " selected" : ""}>${esc(gr)} (${cnt(gr)})</option>`).join("")}<option value="${MRG}"${sel === MRG ? " selected" : ""}>${MRG} (190)</option><option value="${ALL}"${sel === ALL ? " selected" : ""}>Show all headings</option></select></div><div id="gshow"></div>`;
+  const show = () => {
+    const v = $("#gsel").value; store.set("gen_grp", v); const box = $("#gshow");
+    if (!v) { box.innerHTML = '<p class="small">Pick a heading above. The documents under it will appear here.</p>'; return; }
+    const cards = gr => `<h2>${esc(gr)}</h2><div class="cards">${GENS.filter(g => g.group === gr).map(g => `<a class="card" href="#${g.id}"><b>${esc(g.title)}</b><span>${esc(g.short)}</span><i>${esc(g.basis)}</i></a>`).join("")}</div>`;
+    const mres = `<h2>${MRG}</h2><div id="mres"><p class="small">Loading…</p></div>`;
+    box.innerHTML = v === ALL ? groups.map(cards).join("") + mres : v === MRG ? mres : cards(v);
+    if (v === ALL || v === MRG) mresInit();
+  };
+  $("#gsel").onchange = show; show();
 }
 /* ---------- model resolutions (from the library's data) ---------- */
 const MR = { idx: null, part: "A", q: "", lim: 40 };
@@ -1446,11 +1469,14 @@ FONTS = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="p
 
 
 def shell(title, desc, active, body, script=""):
-    nav = [("../", "Home", ""), ("../#/act", "Companies Act", ""), ("../#/lodr", "SEBI LODR", ""), ("../#/cases", "Case laws", ""), ("../#/forms", "Forms", ""), ("../#/processes", "Processes", ""),
-           ("../#/resolutions", "Model resolutions", ""), ("../drafts/", "Drafts", ""), ("../generators/", "Document generators", "gen"), ("../excel/", "Excel utilities", "xl"),
-           ("../calendar/", "Compliance calendar", "cal"), ("../stamp/", "Stamp duty", "stamp"), ("../#/tools", "Calculator", ""), ("../#/me", "My workspace", "")]
+    groups = [("Law", [("../#/act", "Companies Act, 2013", ""), ("../#/lodr", "SEBI LODR, 2015", ""), ("../#/cases", "Case laws", "")]),
+              ("Practice", [("../#/forms", "Forms and checklists", ""), ("../#/processes", "Processes", ""), ("../#/resolutions", "Model resolutions", ""), ("../drafts/", "Drafts library", "")]),
+              ("Tools", [("../generators/", "Document generators", "gen"), ("../excel/", "Excel utilities", "xl"), ("../calendar/", "Compliance calendar", "cal"), ("../stamp/", "Stamp duty", "stamp"), ("../#/tools", "Calculator", ""), ("../#/me", "My workspace", "")])]
     cur = ' aria-current="page"'
-    links = "".join('<a href="%s"%s>%s</a>' % (h, cur if (k and k == active) else "", t) for h, t, k in nav)
+    links = '<a href="../">Home</a>'
+    for gn, items in groups:
+        on = any(k and k == active for _, _, k in items)
+        links += '<details class="dd%s"><summary>%s</summary><div class="ddm">%s</div></details>' % (" on" if on else "", gn, "".join('<a href="%s"%s>%s</a>' % (h, cur if (k and k == active) else "", t) for h, t, k in items))
     return f"""<!doctype html>
 <html lang="en" data-theme="auto"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{title}</title><meta name="description" content="{desc}">{FONTS}<style>{CSS}</style></head>
@@ -1458,6 +1484,7 @@ def shell(title, desc, active, body, script=""):
 <div class="themes" role="group" aria-label="Colour theme"><button class="sw" data-t="light" aria-label="Light" aria-pressed="false"></button><button class="sw" data-t="sepia" aria-label="Cream" aria-pressed="false"></button><button class="sw" data-t="dark" aria-label="Dark" aria-pressed="false"></button></div></div></header>
 <main>{body}</main>
 <footer>For study only. These tools make starting drafts and working files from the Act and the Rules. They are not legal advice: check every output against the current law before you rely on it.</footer>
+<script>document.addEventListener("click",function(e){{document.querySelectorAll(".dd[open]").forEach(function(d){{if(!d.contains(e.target))d.removeAttribute("open")}})}});document.addEventListener("keydown",function(e){{if(e.key==="Escape")document.querySelectorAll(".dd[open]").forEach(function(d){{d.removeAttribute("open")}})}});</script>
 <script>{script}</script></body></html>"""
 
 
@@ -1986,6 +2013,12 @@ def build_excel():
     COMBO.remove(COMBO.active)
     COMBO_ITEMS = []
 
+    def _letters_idx(cols, name):
+        for k, c in enumerate(cols):
+            if c[0] == name:
+                return k + 2
+        raise KeyError(name)
+
     def draw_register(ws, name, basis, cols, rows, validations, extra_top):
         title(ws, name, basis)
         ws["A3"], ws["C3"] = "Company name", None
@@ -1997,9 +2030,30 @@ def build_excel():
         if extra_top:
             for k, (lab, f) in enumerate(extra_top):
                 ws.cell(row=3 + k, column=6, value=lab).font = Font(bold=True)
-                ws.cell(row=3 + k, column=8, value=f)
+        cols = list(cols)
+        hstart = None
+        for k, c in enumerate(cols):
+            if len(c) == 1:
+                hstart = k
+                cols.pop(k)
+                break
+        _letters = {c[0]: get_column_letter(k + 2) for k, c in enumerate(cols)}
+        def _tok(f):
+            return re.sub(r"\{@([^}]+)\}", lambda m: _letters[m.group(1)], f)
+        if extra_top:
+            for k, (lab, f) in enumerate(extra_top):
+                ws.cell(row=3 + k, column=8, value=_tok(f))
+        validations = [((_letters_idx(cols, v[0]) if isinstance(v[0], str) else v[0]), v[1]) for v in validations]
         hdr = ["Sr"] + [c[0] for c in cols]
         head(ws, top, hdr, [5] + [c[1] for c in cols])
+        ws.row_dimensions[top].height = 96
+        if hstart is not None:
+            ws.cell(row=top - 1, column=2, value="Columns as prescribed in the form, in the order of the form").font = Font(bold=True, color=NAVY)
+            ws.cell(row=top - 1, column=hstart + 2, value="Not part of the prescribed form: added to help you").font = Font(bold=True, italic=True, color="7F6000")
+            for j in range(hstart + 2, len(cols) + 2):
+                hc = ws.cell(row=top, column=j)
+                hc.fill = PatternFill("solid", fgColor="E7E6E6")
+                hc.font = Font(bold=True, color="404040", name="Calibri", size=11)
         first, last = top + 1, top + rows
         formula_cols, date_cols, num_cols, wrap_cols = [1], [], [], []
         for j, c in enumerate(cols, 2):
@@ -2017,7 +2071,7 @@ def build_excel():
             ws.cell(row=r, column=1, value=i + 1)
             for j, c in enumerate(cols, 2):
                 if c[2] == "f":
-                    ws.cell(row=r, column=j, value=c[3].replace("{r}", str(r)).replace("{first}", str(first)).replace("{last}", str(last)))
+                    ws.cell(row=r, column=j, value=_tok(c[3]).replace("{r}", str(r)).replace("{first}", str(first)).replace("{last}", str(last)))
         style_rows(ws, first, last, len(cols) + 1, formula_cols=tuple(formula_cols), date_cols=tuple(date_cols), num_cols=tuple(num_cols), wrap_cols=tuple(wrap_cols))
         for j in range(2, len(cols) + 2):
             if cols[j - 2][2] == "f":
@@ -2060,33 +2114,58 @@ def build_excel():
               "3. Keep the register at the registered office. File Form DIR-12 within 30 days of an appointment or a change."],
              validations=[(9, ["Managing Director", "Whole-time Director", "Director", "Independent Director", "Nominee Director", "Additional Director", "Alternate Director", "Chief Executive Officer", "Chief Financial Officer", "Company Secretary"])])
 
-    register("register-of-members.xlsx", "Register of members", "The members, their shares and their certificates, with the percentage each member holds.", "Section 88; Rule 3, Companies (Management and Administration) Rules, 2014 (Form MGT-1)",
-             [("Folio no.", 11, "text"), ("Name of member", 28, "text"), ("Address", 36, "wrap"), ("Email", 24, "text"), ("PAN", 13, "text"), ("Status", 18, "text"), ("Nationality", 13, "text"), ("Date of becoming a member", 14, "date"),
-              ("Date of ceasing to be a member", 14, "date"), ("Class of shares", 14, "text"), ("Number of shares held", 13, "num"), ("Distinctive numbers from", 14, "text"), ("Distinctive numbers to", 14, "text"),
-              ("Certificate no.", 12, "text"), ("Amount paid up per share", 14, "num"), ("Nominee", 22, "text"), ("% of total shares", 11, "f", '=IF(OR(L{r}="",$H$3=0),"",L{r}/$H$3)'), ("Remarks", 24, "wrap")],
-             ["1. Add one row for each holding of each member. Fill in the date of ceasing when shares are transferred away or the member leaves.", "2. The total on the top right adds up the 'Number of shares held' column. Rows with a date of ceasing are still counted, so clear them or move them to a sheet of past members.",
-              "3. Keep the register at the registered office, or at another place in the same city if the members have agreed to it by special resolution."],
-             extra_top=[("Total shares in register", '=SUM(L6:L305)')])
+    register("register-of-members.xlsx", "Register of members", "The register as Form MGT-1 prescribes it, with the percentage each member holds added at the end.", "Section 88; Rule 3, Companies (Management and Administration) Rules, 2014 (Form MGT-1)",
+             [("Folio no.", 11, "text"), ("Class of shares", 14, "text"), ("Nominal value per share (in Rs.)", 14, "num"), ("Total shares held", 12, "num"), ("Name of the member", 28, "text"), ("Name of joint holders, if any", 24, "text"),
+              ("Address / Registered address (in case of body corporate)", 36, "wrap"), ("E-mail Id", 24, "text"), ("CIN / Registration No.", 18, "text"), ("Unique Identification No", 16, "text"), ("Father's / Mother's / Spouse's name", 24, "text"),
+              ("Status", 16, "text"), ("Occupation", 16, "text"), ("PAN No.", 13, "text"), ("Nationality", 13, "text"), ("In case member is a minor, Name of Guardian", 24, "text"), ("Date of birth of minor", 13, "date"),
+              ("Date of becoming member", 14, "date"), ("Date of declaration under section 89, if applicable", 16, "date"), ("Name and address of beneficial owner", 30, "wrap"), ("Date of receipt of nomination, if applicable", 15, "date"),
+              ("Name and address of nominee", 30, "wrap"), ("No. of shares kept in abeyance, if applicable", 14, "num"), ("Record of lien on shares, if applicable", 22, "text"), ("Date of cessation of membership", 14, "date"),
+              ("Particulars of dividend mandates, power of attorney and other instructions, if any", 34, "wrap"), ("Instruction for sending notices etc., if any", 28, "wrap"),
+              ("Allotment No. / Transfer No.", 13, "text"), ("Date of allotment / transfer", 14, "date"), ("No. of shares allotted / transferred", 14, "num"), ("Distinctive numbers (both inclusive) - From", 14, "text"), ("Distinctive numbers (both inclusive) - To", 14, "text"),
+              ("Folio of transferor, if applicable", 12, "text"), ("Name of the transferor, if applicable", 26, "text"), ("Date of issue or endorsement of share certificate", 15, "date"), ("Certificate No.", 12, "text"), ("Lock in period, if any", 14, "text"),
+              ("Amount (Rs) - Payable", 14, "num"), ("Amount (Rs) - Paid / Deemed to be paid", 16, "num"), ("Amount (Rs) - Due", 14, "num"), ("If shares are issued for consideration other than cash, brief particulars thereof", 34, "wrap"),
+              ("Date of transfer / transmission / forfeiture / redemption etc", 16, "date"), ("No. of shares transferred / transmitted / forfeited / redeemed etc", 16, "num"), ("Distinctive numbers on transfer etc (both inclusive) - From", 14, "text"), ("Distinctive numbers on transfer etc (both inclusive) - To", 14, "text"),
+              ("Folio of transferee", 12, "text"), ("Name of transferee", 26, "text"), ("Balance shares (after transfer / transmission / forfeiture / redemption etc)", 18, "num"), ("Remarks", 24, "wrap"), ("Authentication / signature", 20, "text"),
+              ("--",), ("% of total shares", 11, "f", '=IF(OR({@Total shares held}{r}="",$H$3=0),"",{@Total shares held}{r}/$H$3)')],
+             ["1. The columns are those of Form MGT-1, in the order of the form. The form is kept for each class of shares and each folio. Add one row for each entry (allotment, transfer and so on) and repeat the folio details on each row.", "2. The grey column at the end is not part of the prescribed form. The total on the top right adds up the 'Total shares held' column, so enter it on one row only for each folio.",
+              "3. Rule 6 requires an index of the members' names, unless the company has fewer than fifty members. Use the filter on the 'Name of the member' column as an index, or keep a separate index.", "4. Keep the register at the registered office, or at another place in the same city if the members have agreed to it by special resolution. Compare the headings with the current Form MGT-1 before relying on them."],
+             extra_top=[("Total shares in register", '=SUM({@Total shares held}6:{@Total shares held}305)')])
 
-    register("register-of-charges.xlsx", "Register of charges", "Every charge on the company's property, with the due date for filing it and the status of satisfaction.", "Section 85; Rule 10, Companies (Registration of Charges) Rules, 2014 (Form CHG-7)",
-             [("Charge ID (from CHG-1)", 16, "text"), ("Date of creation", 14, "date"), ("Date of change", 14, "date"), ("Amount secured (Rs.)", 16, "num"), ("Short description of the property charged", 38, "wrap"), ("Terms of repayment", 28, "wrap"),
-              ("Name and address of the charge holder", 34, "wrap"), ("Last date to file CHG-1", 14, "f", '=IF(C{r}="","",C{r}+30)'), ("CHG-1 filed on", 14, "date"), ("Date of satisfaction", 14, "date"), ("CHG-4 filed on", 14, "date"),
-              ("Status", 18, "f", '=IF(C{r}="","",IF(L{r}<>"","Satisfied",IF(K{r}<>"","CHG-4 pending",IF(AND(J{r}="",TODAY()>I{r}),"CHG-1 overdue","Subsisting"))))'), ("Remarks", 24, "wrap")],
-             ["1. Add a row when a charge is created or changed. The last date to file Form CHG-1 is 30 days from the date of creation.", "2. When the debt is paid, type the date of satisfaction and the date you filed Form CHG-4. The status changes to Satisfied.",
-              "3. The register must be kept at the registered office and be open to inspection."],
+    register("register-of-charges.xlsx", "Register of charges", "The register as Form CHG-7 prescribes it, with the due date for filing and the status added at the end.", "Section 85; Rule 10, Companies (Registration of Charges) Rules, 2014 (Form CHG-7)",
+             [("Charge ID", 16, "text"), ("Date of creation of charge or date of acquisition of property subject to charge", 18, "date"), ("Date of registration of creation of charge", 16, "date"), ("Short description of the property charged", 38, "wrap"),
+              ("Period and amount secured by the charge", 26, "wrap"), ("Names and addresses of the charge holder", 34, "wrap"), ("Particulars of the terms and conditions of the charge", 30, "wrap"), ("Description of the instrument creating the charge", 28, "wrap"),
+              ("Date of modification of charge", 14, "date"), ("Date of registration of modification of charge", 16, "date"), ("Description of the instrument modifying the charge", 28, "wrap"), ("Particulars of modification", 28, "wrap"),
+              ("Date of satisfaction", 14, "date"), ("Date of registration of satisfaction", 16, "date"), ("Facts and date of condonation of delay, if any", 28, "wrap"), ("Reasons for delay in filing for registration of creation, modification or satisfaction of the charge, if any", 34, "wrap"),
+              ("--",), ("Last date to file CHG-1 (30 days from creation)", 16, "f", '=IF({@Date of creation of charge or date of acquisition of property subject to charge}{r}="","",{@Date of creation of charge or date of acquisition of property subject to charge}{r}+30)'), ("CHG-1 filed on", 14, "date"), ("CHG-4 filed on", 14, "date"),
+              ("Status", 18, "f", '=IF({@Date of creation of charge or date of acquisition of property subject to charge}{r}="","",IF({@CHG-4 filed on}{r}<>"","Satisfied",IF({@Date of satisfaction}{r}<>"","CHG-4 pending",IF(AND({@CHG-1 filed on}{r}="",TODAY()>{@Last date to file CHG-1 (30 days from creation)}{r}),"CHG-1 overdue","Subsisting"))))')],
+             ["1. The columns are those of Form CHG-7, in the order of the form. Add a row when a charge is created, and fill in the modification and satisfaction columns on the same row later.", "2. The grey columns are not part of the prescribed form. The last date to file Form CHG-1 is 30 days from the date of creation.",
+              "3. When the debt is paid, type the date of satisfaction and the date you filed Form CHG-4. The status changes to Satisfied.", "4. The register must be kept at the registered office and be open to inspection. Compare the headings with the current Form CHG-7 before relying on them."],
              rows=200)
 
-    register("register-of-loans-guarantees-investments.xlsx", "Register of loans, guarantee, security and acquisition made by the company", "Every loan, guarantee, security and investment the company makes, with the approvals and a running total.", "Section 186(9); Rule 12, Companies (Meetings of Board and its Powers) Rules, 2014 (Form MBP-2)",
-             [("Date of making", 14, "date"), ("Type", 18, "text"), ("Name of the body corporate or person", 30, "text"), ("Amount (Rs.)", 16, "num"), ("Purpose", 28, "wrap"), ("Date of Board resolution", 14, "date"),
-              ("Date of special resolution (if needed)", 16, "date"), ("Rate of interest (% a year)", 12, "num"), ("Date of repayment or release", 14, "date"), ("Total so far (Rs.)", 16, "f", '=IF(E{r}="","",SUM($E${first}:E{r}))'), ("Remarks", 26, "wrap")],
-             ["1. Add a row for each transaction in the order it was made. Pick the type from the list.", "2. Type the dates of the Board resolution and, where needed, the special resolution of the members.", "3. The 'Total so far' column helps you test the limits in Section 186(2). Compare it with 60% of the paid-up capital, free reserves and securities premium, or 100% of free reserves and securities premium, whichever is higher."],
-             validations=[(3, ["Loan", "Guarantee", "Security", "Investment"])])
+    register("register-of-loans-guarantees-investments.xlsx", "Register of loans, guarantee, security and acquisition made by the company", "The register as Form MBP-2 prescribes it, with a running total added at the end.", "Section 186(9); Rule 12, Companies (Meetings of Board and its Powers) Rules, 2014 (Form MBP-2)",
+             [("Nature of transaction (whether loan / guarantee / security / acquisition)", 22, "text"), ("Date of making loan / acquisition / giving guarantee / providing security", 16, "date"),
+              ("Name and address of the person or body corporate to whom it is made or given or whose securities have been acquired (Listed / Unlisted entities)", 36, "wrap"), ("Amount of loan / security / acquisition / guarantee (Rs.)", 18, "num"),
+              ("Time period for which it is made / given", 16, "text"), ("Purpose of loan / acquisition / guarantee / security", 28, "wrap"),
+              ("% of loan / acquisition / exposure on guarantee / security provided to the paid up capital, free reserves and securities premium account and % of free reserves and securities premium", 30, "wrap"),
+              ("Date of passing Board resolution", 14, "date"), ("Date of passing special resolution, if required", 16, "date"),
+              ("For loans - Rate of interest", 12, "num"), ("For loans - Date of maturity", 14, "date"),
+              ("For acquisitions - Number and kind of securities", 20, "text"), ("For acquisitions - Nominal value and paid up value", 20, "text"), ("For acquisitions - Cost of acquisition (in case of securities how the purchased price was arrived at)", 28, "wrap"),
+              ("For acquisitions - Date of selling of investment", 14, "date"), ("For acquisitions - Selling price (how the price was arrived at)", 24, "wrap"), ("Signatures and Remarks", 26, "wrap"),
+              ("--",), ("Total so far (Rs.)", 16, "f", '=IF({@Amount of loan / security / acquisition / guarantee (Rs.)}{r}="","",SUM({@Amount of loan / security / acquisition / guarantee (Rs.)}${first}:{@Amount of loan / security / acquisition / guarantee (Rs.)}{r}))')],
+             ["1. The columns are those of Form MBP-2, in the order of the form. Add a row for each transaction in the order it was made. Pick the nature of the transaction from the list.", "2. Fill in the loan columns for a loan and the acquisition columns for an acquisition. Leave the others empty.",
+              "3. The grey column is not part of the prescribed form. It helps you test the limits in Section 186(2): compare it with 60% of the paid-up capital, free reserves and securities premium, or 100% of free reserves and securities premium, whichever is higher.", "4. Compare the headings with the current Form MBP-2 before relying on them."],
+             validations=[("Nature of transaction (whether loan / guarantee / security / acquisition)", ["Loan", "Guarantee", "Security", "Acquisition"])])
 
-    register("register-of-related-party-contracts.xlsx", "Register of contracts or arrangements in which directors are interested", "Contracts and arrangements in which a director is interested, with the approval dates.", "Section 189; Rule 16, Companies (Meetings of Board and its Powers) Rules, 2014 (Form MBP-4)",
-             [("Date of entry", 13, "date"), ("Name of the related party", 28, "text"), ("Relationship", 22, "text"), ("Nature of the contract or arrangement", 32, "wrap"), ("Date of the contract", 13, "date"), ("Period", 14, "text"),
-              ("Main terms", 32, "wrap"), ("Value (Rs.)", 16, "num"), ("Name of the interested director or key managerial person", 28, "text"), ("Date of Board approval", 14, "date"), ("Date of the members' resolution (if needed)", 16, "date"),
-              ("Date the director disclosed his interest (MBP-1)", 16, "date"), ("Remarks", 24, "wrap")],
-             ["1. Enter each contract or arrangement under Section 188 or in which a director is interested.", "2. Record the date of the Board approval and, where the limits in Rule 15 are crossed, the members' resolution.", "3. A related party who votes cannot be counted for that resolution."])
+    register("register-of-related-party-contracts.xlsx", "Register of contracts or arrangements in which directors are interested", "The register as Form MBP-4 (Part A) prescribes it.", "Section 189; Rule 16, Companies (Meetings of Board and its Powers) Rules, 2014 (Form MBP-4)",
+             [("Date of contract / arrangement", 14, "date"), ("Name of the party with which contract is entered into", 28, "text"), ("Name of the interested director", 26, "text"), ("Relation with director / company", 22, "text"),
+              ("Nature of concern or interest", 28, "wrap"), ("Principal terms and conditions", 32, "wrap"), ("Whether the transaction is at arm's length basis", 14, "text"), ("Date of approval at the meeting of the Board", 15, "date"),
+              ("Details of voting on such resolution - No. of Directors present in the meeting", 16, "num"), ("Details of voting on such resolution - Directors voting in favour", 14, "num"), ("Details of voting on such resolution - Directors voting against", 14, "num"), ("Details of voting on such resolution - Directors remaining neutral", 14, "num"),
+              ("Date of the next meeting at which register was placed for signature", 18, "date"), ("Reference of specific items - (a) to (g) under sub-section (1) of section 188", 18, "text"), ("Amount of contract or arrangement (Rs.)", 16, "num"),
+              ("Date of share holders approval if any", 15, "date"), ("Signature", 16, "text"), ("Remarks, if any", 24, "wrap"),
+              ("--",), ("Date the director disclosed his interest (MBP-1)", 16, "date")],
+             ["1. The columns are those of Part A of Form MBP-4, in the order of the form. Enter each contract or arrangement under Section 188, and each contract in which a director is interested under Section 184.", "2. Record the date of the Board approval and, where the limits in Rule 15 are crossed, the date of the members' approval. An interested director cannot vote on the resolution.",
+              "3. Part B of Form MBP-4 (the companies, bodies corporate and firms in which each director is interested) has the same columns as Form MBP-1. Use the Register of directors' disclosures of interest for it.", "4. The grey column is not part of the prescribed form. Compare the headings with the current Form MBP-4 before relying on them."],
+             validations=[("Whether the transaction is at arm's length basis", ["Yes", "No"])])
 
     GRP[0] = "Filings, meetings and planners"
     # 9. AGM planner ---------------------------------------------------------------------
@@ -2140,17 +2219,31 @@ def build_excel():
               ("New certificate issued on", 14, "date"), ("Status", 16, "f", '=IF(C{r}="","",IF(S{r}<>"","Issued",IF(TODAY()>R{r},"Certificate overdue","Pending")))'), ("Remarks", 24, "wrap")],
              ["1. Add a row for each transfer, and for each transmission (mention it in the remarks).", "2. The company must deliver the new certificate within one month of receiving the instrument of transfer (Section 56(4)(c)). The due date is worked out for you.",
               "3. Check that the SH-4 is properly stamped. Stamp duty on transfers differs by State and by the type of company."])
-    register("register-of-debenture-holders.xlsx", "Register of debenture holders and other security holders", "Holders of debentures and other securities, with the amount and the date of redemption.", "Section 88(1)(b) and (c); Rule 3 (Form MGT-2)",
-             [("Folio no.", 11, "text"), ("Name of holder", 28, "text"), ("Address", 32, "wrap"), ("Email", 24, "text"), ("PAN", 13, "text"), ("Date of becoming a holder", 14, "date"), ("Series or class", 16, "text"), ("Number of debentures", 12, "num"),
-              ("Face value each (Rs.)", 13, "num"), ("Amount (Rs.)", 15, "f", '=IF(OR(I{r}="",J{r}=""),"",I{r}*J{r})'), ("Distinctive numbers", 18, "text"), ("Certificate no.", 12, "text"), ("Rate of interest (%)", 11, "num"),
-              ("Date of redemption", 14, "date"), ("Date of ceasing to be a holder", 14, "date"), ("Remarks", 24, "wrap")],
-             ["1. Add a row for each holding of each debenture holder.", "2. The amount is worked out from the number and the face value.", "3. The register is kept at the registered office and open to inspection."],
-             extra_top=[("Total amount of debentures (Rs.)", '=SUM(K6:K305)')])
-    register("register-of-renewed-duplicate-certificates.xlsx", "Register of renewed and duplicate share certificates", "Duplicate and renewed share certificates, with the reason and the Board approval.", "Section 46; Rule 6 (Form SH-2)",
-             [("Date of issue", 13, "date"), ("New certificate no.", 13, "text"), ("Name of holder", 28, "text"), ("Folio no.", 11, "text"), ("Number of shares", 12, "num"), ("Distinctive numbers", 18, "text"), ("Original certificate no.", 13, "text"),
-              ("Reason", 22, "text"), ("Date of Board approval", 14, "date"), ("Documents received (FIR, affidavit, indemnity)", 28, "wrap"), ("Original cancelled?", 12, "text"), ("Date entered in the Register of Members", 16, "date"), ("Signed by (director or secretary)", 22, "text"), ("Remarks", 24, "wrap")],
-             ["1. Add a row each time a duplicate or renewed certificate is issued.", "2. Mark the new certificate 'Duplicate' and record the Board resolution that approved it.", "3. Keep the register at the registered office."],
-             validations=[(9, ["Lost", "Destroyed", "Torn or defaced", "Pages for transfer used up"]), (12, ["Yes", "No", "Not available"])])
+    register("register-of-debenture-holders.xlsx", "Register of debenture holders and other security holders", "The register as Form MGT-2 prescribes it, with the total amount added at the end.", "Section 88(1)(b) and (c); Rule 3 (Form MGT-2)",
+             [("Folio no.", 11, "text"), ("Class of debentures / other securities", 18, "text"), ("Nominal value per unit (in Rs.)", 14, "num"), ("Total no. of debentures / other securities held", 14, "num"), ("Name of the debenture holder / other security holder", 28, "text"), ("Name of joint holders, if any", 24, "text"),
+              ("Address / Registered address (in case of body corporate)", 34, "wrap"), ("E-mail Id", 24, "text"), ("PAN / CIN / Registration No.", 18, "text"), ("Unique Identification No", 16, "text"), ("Father's / Mother's / Spouse's name", 24, "text"), ("Occupation, if any", 16, "text"), ("Nationality", 13, "text"),
+              ("In case debenture holder / other security holder is a minor: Name of Guardian", 24, "text"), ("Date of birth of minor", 13, "date"), ("Date of becoming debenture holder / other security holder", 16, "date"), ("Date of receipt of nomination", 15, "date"), ("Name and address of nominee", 30, "wrap"),
+              ("No. of debentures / securities kept in abeyance, if any", 14, "num"), ("Record of lien on debentures / securities, if any", 22, "text"), ("Date of cessation as debenture holder / other security holder", 16, "date"),
+              ("Whether repayment of the debentures / other securities is secured: Yes / No", 16, "text"), ("If secured, date of registration of charge with the ROC", 16, "date"), ("Charge Identification Number allotted for the charge", 18, "text"), ("Brief particulars of the assets to secure such debentures / other securities", 30, "wrap"),
+              ("Particulars of interest mandates, power of attorney and other instructions, if any", 32, "wrap"), ("Instruction for sending notices of class meetings, etc., if any", 28, "wrap"),
+              ("Allotment No. / Transfer No.", 13, "text"), ("Date of allotment / transfer", 14, "date"), ("No. of debentures / other securities allotted / transferred", 15, "num"), ("Distinctive numbers (both inclusive) - From", 14, "text"), ("Distinctive numbers (both inclusive) - To", 14, "text"),
+              ("Folio of transferor, if applicable", 12, "text"), ("Name of the transferor, if applicable", 26, "text"), ("Date of issue / endorsement of certificate", 15, "date"), ("Certificate No.", 12, "text"), ("Amount (Rs.) - Payable", 14, "num"), ("Amount (Rs.) - Paid / deemed to be paid", 16, "num"), ("Amount (Rs.) - Due", 14, "num"),
+              ("If debentures / other securities issued for consideration other than cash, brief particulars thereof", 32, "wrap"), ("Date of transfer / transmission / redemption forfeiture of securities", 16, "date"), ("No. of units transferred / transmitted / forfeited / redeemed", 16, "num"),
+              ("Distinctive numbers on transfer etc (both inclusive) - From", 14, "text"), ("Distinctive numbers on transfer etc (both inclusive) - To", 14, "text"), ("Folio of transferee", 12, "text"), ("Name of the transferee", 26, "text"), ("Balance units left (after transfer, transmission, redemption etc)", 18, "num"), ("Other remarks", 24, "wrap"), ("Authentication", 18, "text"),
+              ("--",), ("Total nominal amount (Rs.)", 16, "f", '=IF(OR({@Total no. of debentures / other securities held}{r}="",{@Nominal value per unit (in Rs.)}{r}=""),"",{@Total no. of debentures / other securities held}{r}*{@Nominal value per unit (in Rs.)}{r})'), ("Rate of interest (%)", 11, "num"), ("Date of redemption", 14, "date")],
+             ["1. The columns are those of Form MGT-2, in the order of the form. It is kept for each class of debentures or other securities. Add one row for each entry and repeat the folio details on each row.", "2. The grey columns at the end are not part of the prescribed form. The total nominal amount is worked out from the number and the nominal value; enter the total held on one row only for each folio.",
+              "3. Rule 6 requires an index of names unless the holders are fewer than fifty. The register is kept at the registered office and is open to inspection. Compare the headings with the current Form MGT-2 before relying on them."],
+             validations=[("Whether repayment of the debentures / other securities is secured: Yes / No", ["Yes", "No"])],
+             extra_top=[("Total nominal amount (Rs.)", '=SUM({@Total nominal amount (Rs.)}6:{@Total nominal amount (Rs.)}305)')])
+    register("register-of-renewed-duplicate-certificates.xlsx", "Register of renewed and duplicate share certificates", "The register as Form SH-2 prescribes it, with a few helpful columns added at the end.", "Section 46; Rule 6 (Form SH-2)",
+             [("Folio No.", 11, "text"), ("Name of the person(s) to whom Renewed / Duplicate share certificate is issued", 30, "text"), ("Date of approval of issue of Renewed / Duplicate share certificate", 16, "date"), ("Class of shares", 14, "text"),
+              ("Date of issue of original share certificate", 15, "date"), ("Original share certificate number", 14, "text"), ("Total number of shares in the Original Share Certificate", 15, "num"), ("Distinctive No. of shares - From", 13, "text"), ("Distinctive No. of shares - To", 13, "text"),
+              ("Date of issue of Renewed / Duplicate Share Certificate", 15, "date"), ("Reasons for issue of Renewed / Duplicate Share Certificate", 24, "text"), ("Number of the Renewed share certificate, if applicable", 15, "text"),
+              ("Total Number of Shares in the Renewed / Duplicate Share Certificate", 16, "num"), ("Reference to entry in Register of Members", 18, "text"), ("Remarks", 24, "wrap"),
+              ("--",), ("Documents received (FIR, affidavit, indemnity)", 28, "wrap"), ("Original cancelled?", 12, "text"), ("Signed by (director or secretary)", 22, "text")],
+             ["1. The columns are those of Form SH-2, in the order of the form. Add a row each time a duplicate or renewed certificate is issued.", "2. Mark the new certificate 'Duplicate' and keep the Board resolution that approved it.",
+              "3. The grey columns are not part of the prescribed form. Keep the register at the registered office. Compare the headings with the current Form SH-2 before relying on them."],
+             validations=[("Reasons for issue of Renewed / Duplicate Share Certificate", ["Lost", "Destroyed", "Torn or defaced", "Pages for transfer used up"]), ("Original cancelled?", ["Yes", "No", "Not available"])])
     register("register-of-dividends.xlsx", "Register of dividends", "Dividends declared and paid, with the dates for the unpaid dividend account and for transfer to the IEPF.", "Sections 123, 124 and 125, Companies Act, 2013; Investor Education and Protection Fund Rules",
              [("Financial year", 12, "text"), ("Type", 12, "text"), ("Date of declaration", 14, "date"), ("Rate per share (Rs.)", 12, "num"), ("Total declared (Rs.)", 16, "num"), ("Last date to pay (30 days)", 14, "f", '=IF(D{r}="","",D{r}+30)'),
               ("Amount paid to members (Rs.)", 16, "num"), ("Tax deducted and deposited (Rs.)", 16, "num"), ("Unpaid amount (Rs.)", 16, "f", '=IF(F{r}="","",F{r}-H{r}-I{r})'), ("Transfer to Unpaid Dividend Account due by (37 days)", 18, "f", '=IF(D{r}="","",D{r}+37)'),
@@ -2164,32 +2257,47 @@ def build_excel():
              ["1. Add a row for each deposit. A private company may take deposits from its members only, within the limits and conditions of the Rules.", "2. The repayment date is the date of receipt plus the tenure. Type the actual date of repayment when it is paid.",
               "3. File the return of deposits in Form DPT-3 by 30 June each year, and keep the register at the registered office."],
              extra_top=[("Total received (Rs.)", '=SUM(E6:E305)')])
-    register("register-of-significant-beneficial-owners.xlsx", "Register of significant beneficial owners in the company", "Persons who hold or control a significant stake, with the date by which the company must file Form BEN-2.", "Section 90; Companies (Significant Beneficial Owners) Rules, 2018 (Form BEN-3)",
-             [("Name of the beneficial owner", 28, "text"), ("Date of birth", 13, "date"), ("Nationality", 13, "text"), ("Address", 32, "wrap"), ("PAN or other ID", 16, "text"), ("Date the declaration (BEN-1) was received", 16, "date"),
-              ("Last date to file BEN-2 (30 days)", 15, "f", '=IF(G{r}="","",G{r}+30)'), ("BEN-2 filed on", 14, "date"), ("Name of the registered owner or the company through which held", 32, "wrap"), ("Nature of the interest", 24, "text"),
-              ("Percentage of shares", 11, "num"), ("Percentage of voting rights", 11, "num"), ("Date of acquiring the interest", 14, "date"), ("Date of any change", 14, "date"), ("Date of ceasing", 14, "date"), ("Remarks", 24, "wrap")],
-             ["1. Add a row for each significant beneficial owner. A person is significant if he or she holds, directly or indirectly, at least 10% of the shares or voting rights, or has the right to exercise significant influence or control.",
-              "2. The company must file Form BEN-2 within 30 days of receiving the declaration. The date is worked out for you.", "3. Check the current Rules for the definitions and the thresholds."],
-             validations=[(11, ["Shares", "Voting rights", "Dividend rights", "Significant influence or control", "Other"])])
-    register("register-of-sweat-equity-shares.xlsx", "Register of sweat equity shares", "Shares issued for know-how or value additions, with the lock-in end date.", "Section 54; Rule 8, Companies (Share Capital and Debentures) Rules, 2014 (Form SH-3)",
-             [("Name of the allottee", 28, "text"), ("Address", 32, "wrap"), ("Date of allotment", 14, "date"), ("Number of shares", 12, "num"), ("Face value (Rs.)", 12, "num"), ("Issue price (Rs.)", 12, "num"), ("Consideration (know-how, intellectual property or value additions)", 30, "wrap"),
-              ("Value of the consideration (Rs.)", 16, "num"), ("Date of special resolution", 14, "date"), ("Date of the valuation report", 14, "date"), ("Lock-in ends (3 years from allotment)", 15, "f", '=IF(D{r}="","",EDATE(D{r},36))'), ("Certificate no.", 12, "text"), ("Remarks", 24, "wrap")],
-             ["1. Add a row for each allotment of sweat equity shares.", "2. These shares are locked in for three years from the date of allotment. The end date is worked out for you.", "3. A special resolution and a valuation by a registered valuer are needed. Check the current Rule for the other conditions."])
-    register("register-of-employee-stock-options.xlsx", "Register of employee stock options", "Options granted, vested and exercised, with the earliest vesting date.", "Section 62(1)(b); Rule 12, Companies (Share Capital and Debentures) Rules, 2014 (Form SH-6)",
-             [("Name of the employee or director", 28, "text"), ("Designation", 20, "text"), ("Date of grant", 14, "date"), ("Number of options granted", 12, "num"), ("Exercise price per share (Rs.)", 14, "num"), ("Earliest vesting date (1 year from grant)", 16, "f", '=IF(D{r}="","",EDATE(D{r},12))'),
-              ("Actual vesting date", 14, "date"), ("Number vested", 12, "num"), ("Date of exercise", 14, "date"), ("Number exercised", 12, "num"), ("Shares allotted", 12, "num"), ("Options lapsed or cancelled", 12, "num"), ("Options outstanding", 12, "f", '=IF(E{r}="","",E{r}-N(K{r})-N(M{r}))'),
-              ("Date of special resolution", 14, "date"), ("Remarks", 24, "wrap")],
-             ["1. Add a row for each grant. The scheme needs a special resolution of the members.", "2. There must be a gap of at least one year between the grant and the vesting of an option. The earliest date is worked out for you.", "3. 'Options outstanding' is the number granted, less the number exercised and the number lapsed."])
-    register("register-of-buy-back.xlsx", "Register of shares or other securities bought back", "Each buy-back, with the dates for extinguishing the shares and for filing the return.", "Section 68; Rule 17, Companies (Share Capital and Debentures) Rules, 2014 (Form SH-10)",
-             [("Date of Board or special resolution", 15, "date"), ("Class of securities", 16, "text"), ("Number bought back", 12, "num"), ("Price per security (Rs.)", 13, "num"), ("Total amount (Rs.)", 16, "f", '=IF(OR(D{r}="",E{r}=""),"",D{r}*E{r})'),
-              ("Source of funds", 22, "text"), ("Date of declaration of solvency (SH-9)", 15, "date"), ("Date the buy-back was completed", 15, "date"), ("Last date to extinguish the securities (7 days)", 16, "f", '=IF(I{r}="","",I{r}+7)'),
-              ("Date they were extinguished", 14, "date"), ("Last date to file the return (SH-11, 30 days)", 16, "f", '=IF(I{r}="","",I{r}+30)'), ("Return filed on", 14, "date"), ("Remarks", 24, "wrap")],
-             ["1. Add a row for each buy-back.", "2. The securities bought back must be extinguished and destroyed within seven days of the last date of completion, and a return in Form SH-11 filed within thirty days (Section 68).",
-              "3. The company cannot issue the same kind of securities for six months after a buy-back, except in the cases the Act allows."])
-    register("register-of-investments-not-in-company-name.xlsx", "Register of investments not held in the company's name", "Investments that are held by someone else for the company, with the reason.", "Section 187(4); Rule 14, Companies (Meetings of Board and its Powers) Rules, 2014 (Form MBP-3)",
-             [("Date of the investment", 14, "date"), ("Name of the body corporate invested in", 30, "text"), ("Description of the investment", 28, "wrap"), ("Number of shares or amount (Rs.)", 16, "num"), ("Name in which it is held", 26, "text"), ("Reason", 28, "wrap"),
-              ("Date of Board resolution", 14, "date"), ("Date it was transferred to the company's name", 16, "date"), ("Remarks", 24, "wrap")],
-             ["1. List every investment of the company that is held in the name of another person or body.", "2. Section 187 requires the investment to be held in the company's own name, with the exceptions the section gives. Record the reason and the Board approval."])
+    register("register-of-significant-beneficial-owners.xlsx", "Register of significant beneficial owners in the company", "The register as Form BEN-3 prescribes it, with the date for filing Form BEN-2 and the holding details added at the end.", "Section 90; Companies (Significant Beneficial Owners) Rules, 2018 (Form BEN-3)",
+             [("Name of the Beneficial Owner", 28, "text"), ("Address and Email id", 34, "wrap"), ("Date of Birth / Age", 14, "text"), ("Father's / Mother's / Spouse's name", 24, "text"), ("Occupation", 16, "text"), ("Nationality", 13, "text"), ("PAN / UIN", 14, "text"),
+              ("Passport No. (in case of foreign national)", 16, "text"), ("Status - Date of declaration under section 90", 16, "date"), ("Status - Date of cessation", 14, "date"), ("Status - Date of entry in Register", 14, "date"), ("Status - Date of filing of BEN-2 (SRN wise)", 18, "text"),
+              ("Status - Any other interest, if any", 24, "wrap"), ("Instructions, if any, given by the member", 28, "wrap"),
+              ("--",), ("Last date to file BEN-2 (30 days from the declaration)", 16, "f", '=IF({@Status - Date of declaration under section 90}{r}="","",{@Status - Date of declaration under section 90}{r}+30)'),
+              ("Name of the registered owner or the company through which held", 32, "wrap"), ("Nature of the interest", 24, "text"), ("Percentage of shares", 11, "num"), ("Percentage of voting rights", 11, "num"), ("Date of acquiring the interest", 14, "date"), ("Date of any change", 14, "date"), ("Remarks", 24, "wrap")],
+             ["1. The columns are those of Form BEN-3, in the order of the form. Add a row for each significant beneficial owner. A person is significant if he or she holds, directly or indirectly, at least 10% of the shares or voting rights, or has the right to exercise significant influence or control.",
+              "2. The grey columns are not part of the prescribed form. The company must file Form BEN-2 within 30 days of receiving the declaration; the date is worked out for you.", "3. The headings come from a published copy of the form. Check the current Rules and the form for amendments."],
+             validations=[("Nature of the interest", ["Shares", "Voting rights", "Dividend rights", "Significant influence or control", "Other"])])
+    register("register-of-sweat-equity-shares.xlsx", "Register of sweat equity shares", "The register as Form SH-3 prescribes it, with the lock-in end date added at the end.", "Section 54; Rule 8, Companies (Share Capital and Debentures) Rules, 2014 (Form SH-3)",
+             [("Reference to entry in register of members", 18, "text"), ("Name of the allottee", 28, "text"), ("Status of the allottee - whether director or employee", 18, "text"), ("Date of passing of Board resolution", 15, "date"),
+              ("Date of the special resolution authorizing the issue of sweat equity shares", 18, "date"), ("Date of issue of sweat equity shares", 14, "date"), ("Number of sweat equity shares issued", 13, "num"), ("Certificate No. / Folio No.", 14, "text"),
+              ("Face value of the share (Rs.)", 12, "num"), ("Price at which the shares are issued (Rs.)", 14, "num"), ("Amount to be treated as paid up (Rs.)", 14, "num"), ("Total consideration paid, if any, by the employee / director (Rs.)", 16, "num"),
+              ("Consideration received in cash (Rs.)", 14, "num"), ("Particulars of consideration other than cash", 28, "wrap"), ("Lock in period", 12, "text"), ("The date of expiry of lock-in period", 14, "date"), ("Remarks, if any", 24, "wrap"),
+              ("Date of Joining", 14, "date"), ("Fair value obtained by Valuer (Rs.)", 16, "num"), ("Basis of Valuation", 26, "wrap"), ("Name of Valuer", 24, "text"),
+              ("--",), ("Lock-in ends (3 years from the date of issue)", 15, "f", '=IF({@Date of issue of sweat equity shares}{r}="","",EDATE({@Date of issue of sweat equity shares}{r},36))'), ("Address of the allottee", 32, "wrap")],
+             ["1. The columns are those of Form SH-3, in the order of the form. Add a row for each allotment of sweat equity shares.", "2. The grey columns are not part of the prescribed form. These shares are locked in for three years from the date of allotment, and the end date is worked out for you. Enter the date of expiry in the prescribed column.",
+              "3. A special resolution and a valuation by a registered valuer are needed. The headings come from a published copy of the form; compare them with the official form before relying on them."])
+    register("register-of-employee-stock-options.xlsx", "Register of employee stock options", "The register as Form SH-6 prescribes it, with the grant date and the options outstanding added at the end.", "Section 62(1)(b); Rule 12, Companies (Share Capital and Debentures) Rules, 2014 (Form SH-6)",
+             [("Name of the grantee", 28, "text"), ("Number of options granted", 12, "num"), ("Date on which options vested", 14, "date"), ("Exercised period", 16, "text"), ("Date on which options exercised", 14, "date"), ("Options exercised", 12, "num"),
+              ("Exercise price (Rs.)", 14, "num"), ("Number of shares arising as result of exercise of option", 15, "num"), ("Folio No. of Register of members having respective entry", 16, "text"), ("Lock in period, if any", 14, "text"), ("Option lapsed, if any", 12, "num"),
+              ("Total number of options in force", 14, "num"), ("Amount forfeited / refunded if option is not exercised (Rs.)", 18, "num"), ("Any variation of terms of the scheme and its effects", 28, "wrap"), ("Signature", 16, "text"), ("Remarks", 24, "wrap"),
+              ("--",), ("Designation", 20, "text"), ("Date of grant", 14, "date"), ("Earliest vesting date (1 year from grant)", 16, "f", '=IF({@Date of grant}{r}="","",EDATE({@Date of grant}{r},12))'),
+              ("Options outstanding (granted less exercised and lapsed)", 16, "f", '=IF({@Number of options granted}{r}="","",{@Number of options granted}{r}-N({@Options exercised}{r})-N({@Option lapsed, if any}{r}))'), ("Date of special resolution", 14, "date")],
+             ["1. The columns are those of Form SH-6, in the order of the form. Add a row for each grant. The scheme needs a special resolution of the members.", "2. The grey columns are not part of the prescribed form. There must be a gap of at least one year between the grant and the vesting of an option. The earliest date is worked out for you.",
+              "3. 'Options outstanding' is the number granted, less the number exercised and the number lapsed. The headings come from a published copy of the form; compare them with the official form before relying on them."])
+    register("register-of-buy-back.xlsx", "Register of shares or other securities bought back", "The register as Form SH-10 prescribes it, with the dates for extinguishing the shares and for filing the return added at the end.", "Section 68; Rule 17, Companies (Share Capital and Debentures) Rules, 2014 (Form SH-10)",
+             [("Folio number / DP Id / client ID number or certificate number of securities bought-back", 26, "text"), ("Name of last holder of securities", 28, "text"), ("Category to which they belong", 16, "text"), ("Date of buyback", 14, "date"), ("Number of securities bought-back", 13, "num"),
+              ("Mode of buy-back", 18, "text"), ("Nominal value of securities (Rs.)", 14, "num"), ("Price at which securities are bought back (Rs.)", 15, "num"), ("Date of payment", 14, "date"), ("Amount paid for bought back securities (Rs.)", 16, "num"),
+              ("Cumulative total of securities bought-back", 15, "num"), ("Date of cancellation / extinguishment and physical destruction of securities bought-back", 18, "date"), ("Reference to entry in Register of members", 18, "text"), ("Remarks", 24, "wrap"),
+              ("--",), ("Date of Board or special resolution", 15, "date"), ("Source of funds", 22, "text"), ("Date of declaration of solvency (SH-9)", 15, "date"), ("Last date to extinguish the securities (7 days from the buy-back)", 16, "f", '=IF({@Date of buyback}{r}="","",{@Date of buyback}{r}+7)'),
+              ("Last date to file the return (SH-11, 30 days from the buy-back)", 16, "f", '=IF({@Date of buyback}{r}="","",{@Date of buyback}{r}+30)'), ("Return filed on", 14, "date")],
+             ["1. The columns are those of Form SH-10, in the order of the form. Add a row for each buy-back from each holder.", "2. The grey columns are not part of the prescribed form. The securities must be extinguished and destroyed within seven days of the last date of completion of the buy-back, and a return in Form SH-11 filed within thirty days (Section 68). The dates here count from the date of buy-back that you enter.",
+              "3. The company cannot issue the same kind of securities for six months after a buy-back, except in the cases the Act allows. The headings come from a published copy of the form; compare them with the official form before relying on them."])
+    register("register-of-investments-not-in-company-name.xlsx", "Register of investments not held in the company's name", "The register as Form MBP-3 prescribes it.", "Section 187(4); Rule 14, Companies (Meetings of Board and its Powers) Rules, 2014 (Form MBP-3)",
+             [("Date of the board resolution authorising such investment", 16, "date"), ("Date of investment", 14, "date"), ("Name of the person / depository in whose name investment is held", 28, "text"), ("Address and E-mail id of person / depository in whose name investment is held", 32, "wrap"),
+              ("Purpose of investment", 26, "wrap"), ("Name of the company or body corporate in which investment is made", 30, "text"), ("Class of securities", 14, "text"), ("Number of securities", 12, "num"), ("Client ID / DP No.", 16, "text"),
+              ("Face value of securities (Rs.)", 14, "num"), ("Paid up value of securities (Rs.)", 14, "num"), ("Cost of acquisition (Rs.)", 14, "num"), ("Date of disposal", 14, "date"), ("Number of securities disposed off", 13, "num"), ("Sale consideration (Rs.)", 14, "num"),
+              ("Balance securities left, if any", 13, "num"), ("Remarks, if any", 24, "wrap")],
+             ["1. The columns are those of Form MBP-3, in the order of the form. List every investment of the company that is held in the name of another person or body.", "2. Section 187 requires the investment to be held in the company's own name, with the exceptions the section gives. Record the Board approval and the purpose.",
+              "3. Compare the headings with the current Form MBP-3 before relying on them."])
     register("register-of-director-disclosures.xlsx", "Register of directors' disclosures of interest", "The notices of interest, declarations and consents received from each director, with the dates.", "Sections 184, 164 and 152; Forms MBP-1, DIR-8 and DIR-2",
              [("Name of the director", 28, "text"), ("DIN", 12, "text"), ("Financial year", 12, "text"), ("Date MBP-1 was received", 14, "date"), ("Entities in which the director is interested", 36, "wrap"), ("Date of the last change", 14, "date"), ("Date tabled at the Board meeting", 15, "date"),
               ("Date DIR-8 was received (each year)", 15, "date"), ("Date of consent to act (DIR-2)", 15, "date"), ("Remarks", 24, "wrap")],
@@ -2916,15 +3024,25 @@ def build_excel():
     BASIS = {f: prov + "; " + (frm if frm.startswith("Form") else "no prescribed form") for nm, prov, frm, f in REG_ROWS if f.endswith(".xlsx")}
     order = ["Statutory registers", "Filings, meetings and planners", "Checklists", "Accounts and finance", "Practice"]
     sections = ""
+    opts = ""
     for gname in order:
         items = sorted([m for m in made if m["group"] == gname], key=lambda m: 0 if "all-in-one" in m["file"] else 1)
         if items:
-            sections += f"<h2>{gname}</h2><div class=\"xl\">" + "".join(
-                f'<div class="card"><b>{m["name"]}</b><span>{m["blurb"]}</span><i>Based on: {BASIS.get(m["file"], m["basis"])}</i><a class="btn" href="{m["file"]}" download>Download .xlsx</a></div>' for m in items) + "</div>"
+            slug = gname.lower().replace(",", "").replace(" ", "-")
+            opts += f'<option value="{slug}">{gname} ({len(items)})</option>'
+            sections += f"<section class=\"xg\" data-g=\"{slug}\" hidden><h2>{gname}</h2><div class=\"xl\">" + "".join(
+                f'<div class="card"><b>{m["name"]}</b><span>{m["blurb"]}</span><i>Based on: {BASIS.get(m["file"], m["basis"])}</i><a class="btn" href="{m["file"]}" download>Download .xlsx</a></div>' for m in items) + "</div></section>"
+    picker = f'<div class="fld pick"><label for="xsel">Choose a heading</label><select id="xsel"><option value="">Select a heading to see its files</option>{opts}<option value="all">Show all headings</option></select></div><p class="small" id="xhint">Pick a heading above. The files under it will appear here.</p>'
+    xjs = """(function(){var sel=document.getElementById("xsel"),hint=document.getElementById("xhint");function st(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v)}catch(e){return null}}
+function show(v){document.querySelectorAll(".xg").forEach(function(s){s.hidden=!(v==="all"||s.dataset.g===v)});hint.hidden=!!v;st("xl_grp",v)}
+var th=st("theme")||"auto";document.documentElement.dataset.theme=th;document.querySelectorAll(".sw").forEach(function(b){b.setAttribute("aria-pressed",String(b.dataset.t===th));b.onclick=function(){st("theme",b.dataset.t);document.documentElement.dataset.theme=b.dataset.t;document.querySelectorAll(".sw").forEach(function(x){x.setAttribute("aria-pressed",String(x===b))})}});
+var h=decodeURIComponent(location.hash.slice(1)),v=h||st("xl_grp")||"";if(![].some.call(sel.options,function(o){return o.value===v}))v="";sel.value=v;show(v);
+sel.onchange=function(){show(sel.value);history.replaceState(null,"",sel.value?"#"+sel.value:location.pathname)}})();"""
     body = f"""<h1>Excel utilities</h1><p class="lede">Free working files for the Company Secretary's desk: statutory registers, trackers, planners and checklists. Each file opens in Excel, LibreOffice and Google Sheets. Cells you fill in are yellow; cells that work themselves out are grey-blue.</p>
+{picker}
 {sections}
 <h2>How to use them</h2><ul><li>Download a file and save it with your company's name.</li><li>Fill in the yellow cells. The dates, totals and checks update on their own.</li><li>Check each rule and date against the current law. These files do not include extensions or exemptions announced by the Ministry.</li></ul>"""
-    (out / "index.html").write_text(shell("Excel utilities | Company Law Knowledge Lab", "Statutory registers, compliance trackers and planners as free Excel files.", "xl", body), encoding="utf-8")
+    (out / "index.html").write_text(shell("Excel utilities | Company Law Knowledge Lab", "Statutory registers, compliance trackers and planners as free Excel files.", "xl", body, xjs), encoding="utf-8")
     print(f"{len(made)} Excel files written")
 
 
