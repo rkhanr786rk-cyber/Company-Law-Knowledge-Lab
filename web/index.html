@@ -638,7 +638,7 @@ body{background:var(--paper)}
 <body>
 <header class="bar">
   <div class="bar-in">
-    <a class="brand" href="#/">Company Law Knowledge Lab</a>
+    <a class="brand" href="#/">Compliance Lab</a>
     <div class="find" id="barfind" hidden>
       <div class="field"><span class="sym" aria-hidden="true">§</span>
         <input id="q2" type="search" placeholder="Search the Act, LODR, cases, forms…" autocomplete="off" spellcheck="false" aria-label="Search everything" role="combobox" aria-expanded="false" aria-controls="res2"></div>
@@ -659,6 +659,7 @@ body{background:var(--paper)}
         <a href="generators/" data-nav="gen"><b>Document generators</b><span>Fill a form, download a Word file</span></a>
         <a href="excel/" data-nav="xl"><b>Excel utilities</b><span>Registers, trackers and planners</span></a>
         <a href="calendar/" data-nav="cal"><b>Compliance calendar</b><span>Due dates and a calendar file</span></a>
+        <a href="stamp/" data-nav="stamp"><b>Stamp duty</b><span>MoA, AoA and capital increase</span></a>
         <a href="#/tools" data-nav="tools"><b>Calculator</b><span>Notice periods and due dates</span></a>
         <a href="#/me" data-nav="me"><b>My workspace</b><span>Saved sections and notes</span></a></div></div>
     </nav>
@@ -887,8 +888,7 @@ function renderHome() {
   const stats = [[nSec, "sections"], [nRules, "rules"], [I.lodr, "LODR regulations"], [I.cl, "case laws"], [I.res, "model resolutions"], [I.proc, "processes"]].filter(x => x[0]);
   const chips = ["Section 164", "Related party transactions", "Shifting of registered office", "Buy-back", "AGM notice"];
   S.homeHTML = `<section class="hero"><div class="hero-in">
-      <h1>Company Law Knowledge Lab</h1>
-      <p class="lede">The statute book for a Company Secretary: the Act, its Rules, the Listing Regulations, case laws, forms, processes, model resolutions and drafts, all linked to one another.</p>
+      <h1>Compliance Lab</h1>
       <div class="find"><div class="field"><span class="sym" aria-hidden="true">§</span>
         <input id="qh" type="search" placeholder="Search the Act, LODR, cases, forms, processes and resolutions" autocomplete="off" spellcheck="false" aria-label="Search everything" role="combobox" aria-expanded="false" aria-controls="resh"></div>
         <div class="results" id="resh" role="listbox" hidden></div></div>
@@ -913,20 +913,21 @@ function renderHome() {
     <div class="hubgrid">
       ${card("generators/", "gen", "Document generators", "Resolutions, notices, minutes, declarations, policies and filing packs, plus all the model resolutions. Fill in a form and download a Word file.", "56 documents and 190 model resolutions")}
       ${card("excel/", "xls", "Excel utilities", "Statutory registers, trackers, planners, filing and audit checklists, depreciation and ratio workbooks as free Excel files.", "32 workbooks")}
-      ${card("calendar/", "cal", "Compliance calendar", "Company-law due dates for your year end and AGM date, with a calendar file to download.", "")}}
+      ${card("calendar/", "cal", "Compliance calendar", "Company-law due dates for your year end and AGM date, with a calendar file to download.", "")}
+      ${card("stamp/", "calc", "Stamp duty on companies", "Stamp duty on the MoA, AoA and capital increase, state by state, from the MCA rate table.", "")}}
       ${card("#/tools", "calc", "Compliance and date calculator", "Notice periods, AGM and ROC due dates, deadlines after an event.", "")}
       ${card("#/me", "me", "My workspace", "Saved sections, your private notes and recently read pages.", "")}
     </div></section>`;
 }
 function showHome() {
-  S.cur = null; document.title = "Company Law Knowledge Lab"; setChrome(true);
+  S.cur = null; document.title = "Compliance Lab"; setChrome(true);
   show(S.homeHTML); window.scrollTo(0, 0); navMark("");
   mountSearch($("#qh"), $("#resh"));
   $$(".qchip").forEach(b => b.addEventListener("click", () => { const i = $("#qh"); i.value = b.dataset.q; i.focus(); i.dispatchEvent(new Event("input")); }));
   const rc = recentList(); if (rc.length) $("#cont").innerHTML = `<h2>Continue where you left off</h2><div class="hubgrid four recent">${rc.slice(0, 4).map(r => `<a href="${esc(r.h)}" class="hc rc"><b>${esc(r.t)}</b><span>${esc(r.k)}</span></a>`).join("")}</div>`;
 }
 function showAct() {
-  S.cur = null; S.d = null; document.title = "Companies Act, 2013 | Company Law Knowledge Lab"; setChrome(true); navMark("act");
+  S.cur = null; S.d = null; document.title = "Companies Act, 2013 | Compliance Lab"; setChrome(true); navMark("act");
   show(S.actHTML); mountSearch($("#q1"), $("#res1")); window.scrollTo(0, 0);
   if (!matchMedia("(pointer:coarse)").matches) $("#q1").focus();
 }
@@ -1468,7 +1469,7 @@ async function showLodr(id, q) {
   if (my !== S.token) return;
   const X = S.lodrX; if (X && !S.lodrT) S.lodrT = Object.fromEntries(X.map(e => [e.id, e.t]));
   if (!id) {
-    setChrome(true); document.title = "SEBI (LODR) Regulations, 2015 | Company Law Knowledge Lab";
+    setChrome(true); document.title = "SEBI (LODR) Regulations, 2015 | Compliance Lab";
     if (!X) return show(`<section class="home"><p class="small"><a href="#/">Home</a></p><h1>SEBI (LODR) Regulations, 2015</h1><p>The Regulations are not loaded yet.</p></section>`);
     const groups = []; X.forEach(e => { let g = groups[groups.length - 1]; if (!g || g.n !== e.ch) { g = { n: e.ch, l: [] }; groups.push(g); } g.l.push(e); });
     const toc = groups.map(g => { const c = lodrCh(g.n), f = g.l[0], l = g.l[g.l.length - 1];
@@ -1577,7 +1578,7 @@ async function fillForm(box, f) {
   box.innerHTML = h; $$(".ck", box).forEach(ckCount);
 }
 async function showForms(q) {
-  const my = ++S.token; S.cur = null; S.d = null; setChrome(false); navMark("forms"); document.title = "Forms and checklists | Company Law Knowledge Lab";
+  const my = ++S.token; S.cur = null; S.d = null; setChrome(false); navMark("forms"); document.title = "Forms and checklists | Compliance Lab";
   show(`<section class="pg"><p class="small"><a href="#/">Home</a></p><h1>Forms and checklists</h1><p class="msg" style="padding:0">Loading…</p></section>`);
   let F; try { F = await getJSON("data/forms.json"); } catch (e) { F = null; }
   if (my !== S.token) return;
@@ -1615,9 +1616,9 @@ async function showRes(id, q) {
   if (my !== S.token) return;
   const X = S.resX; setChrome(false);
   const head = `<p class="small"><a href="#/">Home</a>${id ? ` / <a href="#/resolutions">Model resolutions</a>` : ""}</p>`;
-  if (!X) { document.title = "Model resolutions | Company Law Knowledge Lab"; return show(`<section class="pg">${head}<h1>Model resolutions</h1><p class="note">The model resolutions are not loaded yet.</p></section>`); }
+  if (!X) { document.title = "Model resolutions | Compliance Lab"; return show(`<section class="pg">${head}<h1>Model resolutions</h1><p class="note">The model resolutions are not loaded yet.</p></section>`); }
   if (!id) {
-    document.title = "Model resolutions | Company Law Knowledge Lab";
+    document.title = "Model resolutions | Compliance Lab";
     const want = (q.get("p") || "").toUpperCase(), parts = X.parts;
     const byPart = {}; X.items.forEach(it => { ((byPart[it.p] = byPart[it.p] || {})[it.m] = byPart[it.p][it.m] || {})[it.g] = (byPart[it.p][it.m][it.g] || []).concat(it); });
     const body = Object.keys(parts).filter(k => byPart[k]).map(k => {
@@ -1675,7 +1676,7 @@ async function showRes(id, q) {
 /* ---------- case laws ---------- */
 async function showCases(q) {
   const my = ++S.token; S.cur = null; S.d = null; S.lodrBuild = null; setChrome(false); navMark("cases");
-  document.title = "Case laws | Company Law Knowledge Lab";
+  document.title = "Case laws | Compliance Lab";
   let X = null, C = [];
   try { X = await getJSON("data/cl/index.json"); } catch (e) { X = null; }
   try { C = await getJSON("data/cases.json"); } catch (e) { C = []; }
@@ -1755,10 +1756,10 @@ async function showProcesses(id) {
   const my = ++S.token; S.cur = null; S.d = null; setChrome(false); navMark("processes"); id = decodeURIComponent(id || "");
   const P = await getProcs(); if (my !== S.token) return;
   const head = `<p class="small"><a href="#/">Home</a>${id ? ` / <a href="#/processes">Processes</a>` : ""}</p>`;
-  if (!P || !P.length) { document.title = "Processes | Company Law Knowledge Lab"; return show(`<section class="pg">${head}<h1>Processes</h1><p class="note">The processes are not loaded yet.</p></section>`); }
+  if (!P || !P.length) { document.title = "Processes | Compliance Lab"; return show(`<section class="pg">${head}<h1>Processes</h1><p class="note">The processes are not loaded yet.</p></section>`); }
   const sl = n => S.map[n] !== undefined ? `<a href="#/s/${esc(n)}">s.${esc(n)}</a>` : `<span>s.${esc(n)}</span>`;
   if (!id) {
-    document.title = "Processes | Company Law Knowledge Lab";
+    document.title = "Processes | Compliance Lab";
     show(`<section class="pg proc-pg">${head}<h1>Processes</h1><p class="lede">The common company-secretarial jobs, step by step: what to do, which forms to file, which sections apply, a checklist to tick off, and the ready drafts that go with it.</p>
       <div class="hubgrid">${P.map(p => `<a href="#/processes/${esc(p.id)}" class="hc"><b>${esc(p.title)}</b><span>${esc(p.summary)}</span><i>${p.steps.length} steps · ${p.check.length} checklist items${p.drafts.length ? " · " + plural(p.drafts.length, "draft") : ""}</i></a>`).join("")}</div>
       <p class="note">Each process is a working guide written from the Act and the Rules. Time limits, fees and forms change, so confirm them against the current Rules and MCA notifications before you file.</p></section>`);
@@ -1766,7 +1767,7 @@ async function showProcesses(id) {
   }
   const p = P.find(x => x.id === id);
   if (!p) return showMessage(`<p>There is no process called ${esc(id)}. <a href="#/processes">See all processes</a>.</p>`);
-  document.title = `${p.title} | Company Law Knowledge Lab`;
+  document.title = `${p.title} | Compliance Lab`;
   const lodrLinks = (p.lodr || []).filter(l => S.idx.lodr);
   show(`<section class="pg proc-pg proc">${head}<h1 tabindex="-1">${esc(p.title)}</h1><p class="lede">${esc(p.summary)}</p>
     <p class="note"><b>When.</b> ${esc(p.when)}</p>
