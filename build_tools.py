@@ -1402,7 +1402,7 @@ function openGenObj(g) {
   refresh(); window.scrollTo(0, 0);
 }
 function listGens() {
-  S_.cur = null; document.title = "Document generators | Company Law Knowledge Lab"; $("#work").hidden = true; $("#list").hidden = false;
+  S_.cur = null; document.title = "Document generators | Compliance Lab"; $("#work").hidden = true; $("#list").hidden = false;
   const groups = []; GENS.forEach(g => { if (groups.indexOf(g.group) < 0) groups.push(g.group); });
   const MRG = "Model resolutions from the book", ALL = "__all";
   const cnt = gr => GENS.filter(g => g.group === gr).length;
@@ -1480,7 +1480,7 @@ def shell(title, desc, active, body, script=""):
     return f"""<!doctype html>
 <html lang="en" data-theme="auto"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{title}</title><meta name="description" content="{desc}">{FONTS}<style>{CSS}</style></head>
-<body><header class="bar"><div class="bar-in"><a class="brand" href="../">Company Law Knowledge Lab</a><nav aria-label="Sections">{links}</nav>
+<body><header class="bar"><div class="bar-in"><a class="brand" href="../">Compliance Lab</a><nav aria-label="Sections">{links}</nav>
 <div class="themes" role="group" aria-label="Colour theme"><button class="sw" data-t="light" aria-label="Light" aria-pressed="false"></button><button class="sw" data-t="sepia" aria-label="Cream" aria-pressed="false"></button><button class="sw" data-t="dark" aria-label="Dark" aria-pressed="false"></button></div></div></header>
 <main>{body}</main>
 <footer>For study only. These tools make starting drafts and working files from the Act and the Rules. They are not legal advice: check every output against the current law before you rely on it.</footer>
@@ -1492,7 +1492,7 @@ def build_generators():
     out = SITE / "generators"
     out.mkdir(parents=True, exist_ok=True)
     body = '<div id="list"></div><div id="work" hidden></div>'
-    (out / "index.html").write_text(shell("Document generators | Company Law Knowledge Lab", "Fill in a form and download an editable Word file: Board resolutions, notices, minutes, letter of authority and share certificate.", "gen", body, GEN_JS), encoding="utf-8")
+    (out / "index.html").write_text(shell("Document generators | Compliance Lab", "Fill in a form and download an editable Word file: Board resolutions, notices, minutes, letter of authority and share certificate.", "gen", body, GEN_JS), encoding="utf-8")
     print("Document generators page written")
 
 
@@ -1579,7 +1579,7 @@ function build() {
 }
 function ics() {
   const co = ($("#co").value || "Company").replace(/[,;\\]/g, " ");
-  const L = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Company Law Knowledge Lab//Compliance calendar//EN", "CALSCALE:GREGORIAN"];
+  const L = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Compliance Lab//Compliance calendar//EN", "CALSCALE:GREGORIAN"];
   ROWS.filter(r => PICK[r.id]).forEach((r, i) => {
     const t = s => String(s).replace(/\\/g, "\\\\").replace(/;/g, "\\;").replace(/,/g, "\\,").replace(/\n/g, "\\n");
     L.push("BEGIN:VEVENT", `UID:${ymd(r.date)}-${i}-${r.id}@companylawlab`, `DTSTAMP:${ymd(today)}T000000Z`, `DTSTART;VALUE=DATE:${ymd(r.date)}`, `DTEND;VALUE=DATE:${ymd(addD(r.date, 1))}`,
@@ -1635,7 +1635,7 @@ def build_calendar():
 <div><div class="actions"><button class="btn pri" id="dl" type="button">Download calendar file (.ics)</button><button class="btn" id="dc" type="button">Download as spreadsheet (.csv)</button><button class="btn" id="pr" type="button">Print</button></div>
 <div id="out"></div>
 <div class="check"><h2>Please note</h2><p class="small">The dates are the dates the Act, the Rules and the SEBI Regulations give, counted in calendar days from the event, and they assume a financial year ending on 31 March for the MSME-1 and DPT-3 dates. MCA and SEBI often extend dates or change them by circular. Public holidays are not counted. Check every date against the current law before you rely on it. The page does not store what you enter, except the company name in your browser. It is not legal advice.</p></div></div></div>"""
-    (out / "index.html").write_text(shell("Compliance calendar | Company Law Knowledge Lab", "Company-law due dates for your year end and AGM date, with a calendar file you can download.", "cal", body, CAL_JS).replace("</style>", CAL_CSS + "</style>", 1), encoding="utf-8")
+    (out / "index.html").write_text(shell("Compliance calendar | Compliance Lab", "Company-law due dates for your year end and AGM date, with a calendar file you can download.", "cal", body, CAL_JS).replace("</style>", CAL_CSS + "</style>", 1), encoding="utf-8")
     print("Compliance calendar page written")
 
 
@@ -1758,7 +1758,7 @@ def build_stamp():
 <div class="check"><h2>LLP agreements are not included</h2><p class="small">The MCA table covers companies only. The duty on an LLP agreement is set by each state, and the private websites I compared disagree with the MCA table on several states for companies (for example Uttar Pradesh, Punjab, Kerala and Madhya Pradesh), so I have not copied their LLP tables. Give me an official state notification for the states you need and I will add them.</p></div>
 <div id="cmp"></div>
 <h2>The rate table</h2><div class="tw"><table class="tbl"><thead><tr><th>State or Union Territory</th><th>Form (INC-2, 7, 29)</th><th>MoA</th><th>AoA, on authorised capital</th><th>SH-7, on the increase</th></tr></thead><tbody id="rates"></tbody></table></div></div></div>"""
-    html = shell("Stamp duty on companies | Company Law Knowledge Lab", "Stamp duty on the MoA, AoA and capital increase of a company, by state, from the MCA's rate table.", "stamp", body, STAMP_JS).replace("</style>", STAMP_CSS + "</style>", 1)
+    html = shell("Stamp duty on companies | Compliance Lab", "Stamp duty on the MoA, AoA and capital increase of a company, by state, from the MCA's rate table.", "stamp", body, STAMP_JS).replace("</style>", STAMP_CSS + "</style>", 1)
     html = html.replace('<option value="inc0">', '<option value="inc0">')
     (out / "index.html").write_text(html, encoding="utf-8")
     print("Stamp duty page written")
@@ -1807,7 +1807,7 @@ def build_excel():
         r = 4
         for ln in lines + ["", "Cells with a light yellow fill are for you to fill in. Cells with a grey-blue fill are worked out by formulas: please don't type over them.",
                            "Check every date and rule against the current Act, Rules and circulars. Extensions and exemptions are not built into these files.",
-                           "Free starting file from the Company Law Knowledge Lab. For study only; not legal advice."]:
+                           "Free starting file from the Compliance Lab. For study only; not legal advice."]:
             ws.cell(row=r, column=1, value=ln).alignment = Alignment(wrap_text=True, vertical="top")
             r += 1
 
@@ -2321,7 +2321,7 @@ def build_excel():
         for c in (1, 2, 3, 4):
             idx.cell(row=r, column=c).fill = PatternFill("solid", fgColor="FFFFFF")
         idx.cell(row=r, column=4).font = Font(color="1F4FB5", underline="single")
-    idx.cell(row=6 + len(COMBO_ITEMS), column=2, value="Check each register against the current Act, Rules and forms before relying on it. Free starting file from the Company Law Knowledge Lab. For study only; not legal advice.").font = Font(italic=True, color="4B5A70")
+    idx.cell(row=6 + len(COMBO_ITEMS), column=2, value="Check each register against the current Act, Rules and forms before relying on it. Free starting file from the Compliance Lab. For study only; not legal advice.").font = Font(italic=True, color="4B5A70")
     COMBO.save(out / "company-secretarial-registers-all-in-one.xlsx")
     made.append({"file": "company-secretarial-registers-all-in-one.xlsx", "name": "All statutory registers in one file", "blurb": f"{len(COMBO_ITEMS)} registers in one workbook, with an index that links to each sheet.", "basis": "Companies Act, 2013 and the Rules",
                  "sheets": [x[2] for x in COMBO_ITEMS], "group": "Statutory registers"})
@@ -3042,7 +3042,7 @@ sel.onchange=function(){show(sel.value);history.replaceState(null,"",sel.value?"
 {picker}
 {sections}
 <h2>How to use them</h2><ul><li>Download a file and save it with your company's name.</li><li>Fill in the yellow cells. The dates, totals and checks update on their own.</li><li>Check each rule and date against the current law. These files do not include extensions or exemptions announced by the Ministry.</li></ul>"""
-    (out / "index.html").write_text(shell("Excel utilities | Company Law Knowledge Lab", "Statutory registers, compliance trackers and planners as free Excel files.", "xl", body, xjs), encoding="utf-8")
+    (out / "index.html").write_text(shell("Excel utilities | Compliance Lab", "Statutory registers, compliance trackers and planners as free Excel files.", "xl", body, xjs), encoding="utf-8")
     print(f"{len(made)} Excel files written")
 
 
